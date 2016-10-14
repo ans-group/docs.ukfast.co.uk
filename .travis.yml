@@ -1,0 +1,23 @@
+language: python
+python:
+  - '2.7'
+addons:
+  ssh_known_hosts:
+    - 46.37.163.252
+before_install:
+  - openssl aes-256-cbc -K $encrypted_b5179de5a979_key -iv $encrypted_b5179de5a979_iv -in deploy_key.enc -out deploy_key -d
+install:
+  - pip install Sphinx
+  - pip install recommonmark
+script:
+  - sphinx-build -nW -b html -d build/doctrees source/ build/html
+  - make build/html/_static/css/app.css
+  - make build/html/_static/app.js
+after_success:
+    - chmod 600 deploy_key
+    - mv deploy_key ~/.ssh/id_rsa
+    - ssh root@46.37.163.252 rm -rf /var/www/vhosts/docs.ukfast.co.uk/htdocs/*
+    - scp -r -p build/html/* root@46.37.163.252:/var/www/vhosts/docs.ukfast.co.uk/htdocs
+    - ssh root@46.37.163.252 chown -R nginx.nginx /var/www/vhosts/docs.ukfast.co.uk/htdocs
+    - ssh root@46.37.163.252 "cd /opt/docs.ukfast.co.uk/ && git pull"
+    - ssh root@46.37.163.252 bash /opt/docs.ukfast.co.uk/deploy_docs.sh
