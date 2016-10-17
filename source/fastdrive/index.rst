@@ -14,7 +14,10 @@ FASTdrive
    browsingandmanagingemployees
    creatingfolderswithinFASTdrive
    distributiongroups
+   deletingfilesandfolders
    drivemapper
+   downloadingfiles
+   uploadingfiles
    folderpermissionsforusers
    loggingin
    managingusers

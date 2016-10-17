@@ -1,4 +1,4 @@
-#Uploading Files
+# Uploading Files
 
 You will be presented with “My Files & Folders”. From here you can drag and drop the file you would like to upload, or alternatively click the Upload files button which allows you to browse to files you want to upload.
 

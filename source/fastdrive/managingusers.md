@@ -1,4 +1,4 @@
-#Managing Users
+# Managing Users
 
 As an administrator, you have the permissions and access to manage users related to the FASTDrive account. This can be done by navigating to the ‘Manage Users’ tab at the top of the FASTdrive page.
 

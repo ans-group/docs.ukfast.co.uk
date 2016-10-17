@@ -1,4 +1,4 @@
-#Deleting Files and Folders
+# Deleting Files and Folders
 
 So you now know how to upload files and create new folders, but what if you want to delete these items.
 

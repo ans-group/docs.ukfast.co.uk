@@ -1,4 +1,4 @@
-#Creating Folders within FASTdrive
+# Creating Folders within FASTdrive
 
 You can create folders in two different ways, the first is to create the folder from the FASTdrive web application as shown in the image below.
 
