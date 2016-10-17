@@ -14,6 +14,7 @@ Contents:
    linux/index
    backups/index
    myukfast/index
+   fastdrive/index
    sharedexchange/index
    fastdesk/index
 
