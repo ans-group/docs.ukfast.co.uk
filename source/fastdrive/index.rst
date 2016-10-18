@@ -7,19 +7,27 @@ FASTdrive
 .. toctree::
    :maxdepth: 1
    
-   addinganemployeefromexcel
-   addinganemployeemanually
-   addingclients
-   adminoverview
-   browsingandmanagingemployees
+   loggingin
+   uploadingfiles
+   downloadingfiles
    creatingfolderswithinFASTdrive
-   distributiongroups
    deletingfilesandfolders
    drivemapper
-   downloadingfiles
-   uploadingfiles
-   folderpermissionsforusers
-   loggingin
    managingusers
-   notificationhistory
+   addinganemployeemanually
+   addinganemployeefromexcel
+   addingclients
+   browsingandmanagingemployees
    resettingpasswords
+   folderpermissionsforusers
+   distributiongroups
+   adminoverview
+   notificationhistory   
+   
+   
+   
+   
+   
+   
+   
+   
