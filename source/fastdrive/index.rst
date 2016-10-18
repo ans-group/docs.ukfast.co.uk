@@ -2,7 +2,7 @@
 FASTdrive
 =========
 
-
+Enterprise-class file storage and sharing, based on eCloud Vault and Citrix ShareFile.
 
 .. toctree::
    :maxdepth: 1
