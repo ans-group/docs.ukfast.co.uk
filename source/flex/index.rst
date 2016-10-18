@@ -2,7 +2,7 @@
 eCloud Flex
 ===========
 
-UKFast's flexible openstack based cloud offering
+UKFast's flexible OpenStack-based cloud platform
 
 .. toctree::
    :maxdepth: 1
