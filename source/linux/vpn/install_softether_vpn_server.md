@@ -1,33 +1,33 @@
-#How to set up a Multi-Protocol VPN Server using SoftEther
-##Set up the VPN server
-###Introduction
+# How to set up a Multi-Protocol VPN Server using SoftEther
+## Set up the VPN server
+### Introduction
 This article explains how to install and configure a multi-protocol VPN server using the SoftEther package. We enable and configure OpenVPN, L2TP over IPSec and SSTP VPN Servers on Linux.
 
-###What is SoftEther
+### What is SoftEther
 SoftEther VPN is one of the world's most powerful and easy-to-use multi-protocol VPN software, made by the good folks at the University of Tsukuba, Japan. It runs on Windows, Linux, Mac, FreeBSD and Solaris and is freeware and open-source. You can use SoftEther for any personal or commercial use free of charge.
 
-###Step 1: Create a Virtual Server
+### Step 1: Create a Virtual Server
 First, you need to create a CentOS 7 server. As mentioned in SoftEther's website, SoftEther will work on almost every Linux distro with kernel v2.4 or above; however, it's recommended to choose one of these distributions: CentOS, Fedora, or Red Hat Enterprise Linux.
 
 Personally I have only tried it on CentOS 7 64-bit edition, but it has worked perfectly.
 
-###Step 2: Update your Server Software
+### Step 2: Update your Server Software
 Using the command below, update and upgrade your server software packages to the latest version:
 
-####Debian / Ubuntu:
+#### Debian / Ubuntu:
 ```bash
 apt-get update && apt-get upgrade
 ```
 
-####CentOS / Fedora:
+#### CentOS / Fedora:
 ```bash
 yum upgrade
 ```
 
-###Step 3: Download SoftEther
+### Step 3: Download SoftEther
 You can download the latest SoftEther server package for Linux from their website:
 
-http://www.softether-download.com/en.aspx
+<http://www.softether-download.com/en.aspx>
 
 Unfortunately, there is no repository in place for getting the latest version of SoftEther, and so we’ll need to download the latest version to use from their site. Therefore, you have to browse their website using a desktop browser to download the package.
 
@@ -37,7 +37,7 @@ First, browse their website on your own computer and choose the appropriate Comp
 wget http://www.softether-download.com/files/softether/v4.20-9608-rtm-2016.04.17-tree/Linux/SoftEther_VPN_Server/64bit_-_Intel_x64_or_AMD64/softether-vpnserver-v4.20-9608-rtm-2016.04.17-linux-x64-64bit.tar.gz
 ```
 
-###Step 4: Install and Configure SoftEther
+### Step 4: Install and Configure SoftEther
 Now we have to extract the package we received from the SoftEther download page and compile it. The package used in this tutorial is named **softether-vpnserver-v4.20-9608-rtm-2016.04.17-linux-x64-64bit.tar.gz** so we will extract it using the command below:
 
 ```bash
@@ -50,12 +50,12 @@ After extracting it, a directory named **vpnserver** will be created in the work
 
 Make sure these are installed. You can install all the packages necessary to build SoftEther using the command below:
 
-####Debian / Ubuntu:
+#### Debian / Ubuntu:
 ```bash
 apt-get install build-essential -y
 ```
 
-####CentOS / Fedora:
+#### CentOS / Fedora:
 ```bash
 yum groupinstall "Development Tools"
 ```
@@ -152,12 +152,12 @@ chmod 755 /etc/init.d/vpnserver && /etc/init.d/vpnserver start
 
 Use the command below make it to run at startup:
 
-####Debian / Ubuntu:
+#### Debian / Ubuntu:
 ```bash
 update-rc.d vpnserver defaults
 ```
 
-####CentOS / Fedora:
+#### CentOS / Fedora:
 ```bash
 chkconfig --add vpnserver 
 ```
@@ -233,7 +233,7 @@ We can now add the automatic renewal command into **cron** so that the certifica
 certbot renew --quiet
 ```
 
-###Step 6: Change Admin Password
+### Step 6: Change Admin Password
 
 Now that you have SoftEther VPN server installed, you have to assign an administrator password in order to use with SoftEther. You can do this using **vpncmd** which is SoftEther's command line based administration tool:
 
@@ -267,7 +267,7 @@ Now select the Virtual Hub you created using this command:
 Hub VPN
 ```
 
-###Step 8: Enable SecureNAT
+### Step 8: Enable SecureNAT
 
 There are two ways of connecting your hubs to the server network:
 *using a **Local Bridge** connection
@@ -291,7 +291,7 @@ If you require **split routing**, whereby all VPN client traffic will not be for
 DhcpSet /START:192.168.30.10 /END:192.168.30.10 /MASK:192.168.30.10 /EXPIRE:7200 /GW:none /DNS:192.168.30.1 /DNS2:8.8.8.8 /DOMAIN:none /LOG:yes /PUSHROUTE:none
 ```
 
-###Step 9: Create and Manage Users
+### Step 9: Create and Manage Users
 
 Now we have to create users for our **Virtual Hub** to use the VPN. We can create users for our Virtual Hub using the command **UserCreate** and view the list of current users by using **UserList**. Users can be added to groups and can even have different types of authentication modes (including: Password, Certificate, RADIUS, NTLM, etc.).
 
@@ -318,7 +318,7 @@ In this tutorial we use Password as the user authentication mode for our **test*
 UserPasswordSet test
 ```
 
-###Step 10: Setup L2TP/IPSec
+### Step 10: Setup L2TP/IPSec
 
 To enable L2TP/IPsec VPN server you can use the command below:
 ```
@@ -392,8 +392,8 @@ Apply the configuration with the following command
 sysctl -p
 ```
  
-##Set up the VPN connection in Windows 7
-###Step 1: Open Network and Sharing Center
+## Set up the VPN connection in Windows 7
+### Step 1: Open Network and Sharing Center
 Start by finding the network connections icon in the bottom right corner of the screen (near the clock). The icon can be in the shape of computer display or wireless signal meter. Right click on that icon.
 
 ![pic2]
@@ -402,69 +402,69 @@ Select **Open Network and Sharing Center**. You can also get there by going thro
 
 ![pic3]
 
-###Step 2: Set up a new connection or network
+### Step 2: Set up a new connection or network
 Click **Set up a new connection or network**.
 
 ![pic4]
 
-###Step 3: Connect to a workplace
+### Step 3: Connect to a workplace
 In the appeared window select **Connect to a workplace**, click **Next**.
 
 ![pic5]
 
-###Step 4: Set as VPN
+### Step 4: Set as VPN
 Click **Use my Internet connection (VPN)**.
 
 ![pic6]
 
-###Step 5: Specify the VPN Server
+### Step 5: Specify the VPN Server
 **Internet address** is your server’s FQDN which was used in _Step 5 of "Set up the VPN server"_. It is not ```openstackvpn.calv.tk```, that is just an example. **Destination name** can be anything you like, for example OpenStack VPN.
 
 Check **Don't connect now; just set it up so I can connect later** and click **Next**.
 
 ![pic7]
 
-###Step 6: Enter login credentials
+### Step 6: Enter login credentials
 Fill the **User name** and **Password** fields. In the _Step 9 of "Set up the VPN server"_ we created the user **test**, so enter those details (or the ones you used instead). Check **Remember this password** and click **Create**.
 
 ![pic8]
 
-###Step 7: Create the connection
+### Step 7: Create the connection
 Click **Close**.
 
 ![pic9]
 
-###Step 8: Find the new connection
+### Step 8: Find the new connection
 Click **Change adapter settings**.
 
 ![pic10]
 
-###Step 9: Enter connection properties
+### Step 9: Enter connection properties
 In the connections list find the **OpenStack VPN** connection, the description should be **WAN Miniport (IKEv2)**. Right click on it and select **Properties**.
 
 ![pic11]
 
-###Step 10: Set advanced options
+### Step 10: Set advanced options
 Click **Security** tab, for **Type of VPN** select **Secure Socket Tunneling Protocol (SSTP)**. For **Data encryption** select **Require encryption (disconnect if server declines)**. Click **Advanced settings**. For **Authentication** select **Unencrypted password (PAP)** and **Microsoft CHAP Version 2 (MS-CHAP v2)**. Then click **OK**
 
 ![pic12]
 
-###Step 11: Start the VPN connection
+### Step 11: Start the VPN connection
 Double click on the **OpenStack VPN** connection icon, or whatever you called yours.
 
 ![pic13]
 
-###Step 12: Verify / enter login details
+### Step 12: Verify / enter login details
 It will show the connection window. Check **Save this user name and password for the following users** and leave **Me only** selected. Click **Connect** button.
 
 ![pic14]
 
-###Step 13: Check you’re connected
+### Step 13: Check you’re connected
 After a few seconds it will connect and show you **Connected** status. You can also check the VPN status in the Network applet (the icon in your system tray at the bottom right). Click on that icon and you will see the connection list and their statuses.
 
 ![pic15]
 
-##Further Reading
+## Further Reading
 * <https://www.digitalocean.com/community/tutorials/how-to-setup-a-multi-protocol-vpn-server-using-softether>
 * <http://www.softether.org/4-docs/1-manual/3._SoftEther_VPN_Server_Manual>
 * <http://www.softether.org/4-docs/1-manual/7._Installing_SoftEther_VPN_Server>
