@@ -76,6 +76,8 @@ And now run **make** to compile SoftEther into an executable file:
 make
 ```
 
+![pic1]
+
 SoftEther will ask you to read and agree with its License Agreement. Select **1** to read the agreement, again to confirm read, and finally to agree to the License Agreement.
 
 SoftEther is now compiled and made into executable files (vpnserver and vpncmd). If the process fails, check if you have all of the requirement packages installed.
@@ -394,45 +396,73 @@ sysctl -p
 ###Step 1: Open Network and Sharing Center
 Start by finding the network connections icon in the bottom right corner of the screen (near the clock). The icon can be in the shape of computer display or wireless signal meter. Right click on that icon.
 
+![pic2]
+
 Select **Open Network and Sharing Center**. You can also get there by going through ```Start button``` > ```Control Panel``` > ```View network status and tasks```.
+
+![pic3]
 
 ###Step 2: Set up a new connection or network
 Click **Set up a new connection or network**.
 
+![pic4]
+
 ###Step 3: Connect to a workplace
 In the appeared window select **Connect to a workplace**, click **Next**.
 
+![pic5]
+
 ###Step 4: Set as VPN
 Click **Use my Internet connection (VPN)**.
+
+![pic6]
 
 ###Step 5: Specify the VPN Server
 **Internet address** is your server’s FQDN which was used in _Step 5 of "Set up the VPN server"_. It is not ```openstackvpn.calv.tk```, that is just an example. **Destination name** can be anything you like, for example OpenStack VPN.
 
 Check **Don't connect now; just set it up so I can connect later** and click **Next**.
 
+![pic7]
+
 ###Step 6: Enter login credentials
 Fill the **User name** and **Password** fields. In the _Step 9 of "Set up the VPN server"_ we created the user **test**, so enter those details (or the ones you used instead). Check **Remember this password** and click **Create**.
+
+![pic8]
 
 ###Step 7: Create the connection
 Click **Close**.
 
+![pic9]
+
 ###Step 8: Find the new connection
 Click **Change adapter settings**.
+
+![pic10]
 
 ###Step 9: Enter connection properties
 In the connections list find the **OpenStack VPN** connection, the description should be **WAN Miniport (IKEv2)**. Right click on it and select **Properties**.
 
+![pic11]
+
 ###Step 10: Set advanced options
 Click **Security** tab, for **Type of VPN** select **Secure Socket Tunneling Protocol (SSTP)**. For **Data encryption** select **Require encryption (disconnect if server declines)**. Click **Advanced settings**. For **Authentication** select **Unencrypted password (PAP)** and **Microsoft CHAP Version 2 (MS-CHAP v2)**. Then click **OK**
+
+![pic12]
 
 ###Step 11: Start the VPN connection
 Double click on the **OpenStack VPN** connection icon, or whatever you called yours.
 
+![pic13]
+
 ###Step 12: Verify / enter login details
 It will show the connection window. Check **Save this user name and password for the following users** and leave **Me only** selected. Click **Connect** button.
 
+![pic14]
+
 ###Step 13: Check you’re connected
 After a few seconds it will connect and show you **Connected** status. You can also check the VPN status in the Network applet (the icon in your system tray at the bottom right). Click on that icon and you will see the connection list and their statuses.
+
+![pic15]
 
 ##Further Reading
 * <https://www.digitalocean.com/community/tutorials/how-to-setup-a-multi-protocol-vpn-server-using-softether>
@@ -442,5 +472,19 @@ After a few seconds it will connect and show you **Connected** status. You can a
 * <https://letsencrypt.org/getting-started/>
 * <http://www.ducea.com/2006/08/01/how-to-enable-ip-forwarding-in-linux/>
 
-
+[pic1]: files/install_softether_vpn_server-1.png
+[pic2]: files/install_softether_vpn_server-2.png
+[pic3]: files/install_softether_vpn_server-3.png
+[pic4]: files/install_softether_vpn_server-4.png
+[pic5]: files/install_softether_vpn_server-5.png
+[pic6]: files/install_softether_vpn_server-6.png
+[pic7]: files/install_softether_vpn_server-7.png
+[pic8]: files/install_softether_vpn_server-8.png
+[pic9]: files/install_softether_vpn_server-9.png
+[pic10]: files/install_softether_vpn_server-10.png
+[pic11]: files/install_softether_vpn_server-11.png
+[pic12]: files/install_softether_vpn_server-12.png
+[pic13]: files/install_softether_vpn_server-13.png
+[pic14]: files/install_softether_vpn_server-14.png
+[pic15]: files/install_softether_vpn_server-15.png
 
