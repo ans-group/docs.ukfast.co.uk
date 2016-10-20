@@ -17,8 +17,5 @@ script:
 after_success:
 - chmod 600 deploy_key
 - mv deploy_key ~/.ssh/id_rsa
-- ssh root@46.37.163.252 rm -rf /var/www/vhosts/docs.ukfast.co.uk/htdocs/*
-- scp -r -p build/html/* root@46.37.163.252:/var/www/vhosts/docs.ukfast.co.uk/htdocs
-- ssh root@46.37.163.252 chown -R nginx.nginx /var/www/vhosts/docs.ukfast.co.uk/htdocs
 - ssh root@46.37.163.252 "cd /opt/docs.ukfast.co.uk/ && git pull"
 - ssh root@46.37.163.252 bash /opt/docs.ukfast.co.uk/deploy_docs.sh
