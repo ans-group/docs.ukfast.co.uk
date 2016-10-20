@@ -17,3 +17,4 @@ Everyones favourite open source operating system
    nginx/index
    php/index
    websites/index
+   vpn/index
