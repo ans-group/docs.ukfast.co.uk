@@ -7,4 +7,4 @@ Guides for setting up VPNs on Linux, be it client, server, to a hardware firewal
 .. toctree::
    :maxdepth: 1
 
-   install_softether_vpn_server/install_softether_vpn_server
+   install_softether_vpn_server
