@@ -2,25 +2,25 @@
 
 List all messages out from a specific domain within a specific time::
 
-```powershell
+```ps1con
   Get-MessageTrackingLog -Server "servername" -EventID "SEND" -Start "27/07/2015 06:00:00" -End "27/07/2015 07:00:00" -ResultSize unlimited | where{$_.sender -like "*@contoso.com"}
 ```
 
 Or you could output it to a text file::
 
-```powershell
+```ps1con
   Get-MessageTrackingLog -Server "servername" -EventID "SEND" -Start "27/07/2015 06:00:00" -End "27/07/2015 07:00:00" -ResultSize unlimited | where{$_.sender -like "*@contoso.com"} | tee contoso.txt
 ```
 
 List all of the distribution groups for a given domain::
 
-```powershell
+```ps1con
   Get-DistributionGroup | where{$_.primarysmtpaddress -like "*@contoso.com"} | select name, primarysmtpaddress
 ```
 
 List all members of that distribution group::
 
-```powershell
+```ps1con
   Get-DistributionGroupMember -Identity "Name of Dist Group" | select -primarysmtpaddress
 ```
 
@@ -34,7 +34,7 @@ Set SCL rating of a domain and reject messages at the threshold::
 
 List the size of a mailbox and the number of messages::
 
-```powershell
+```ps1con
   $array = @()
   get-mailbox -identity *@contoso.com -resultsize unlimited | foreach-object {
   $dname=$_.DisplayName
