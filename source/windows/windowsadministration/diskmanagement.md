@@ -13,7 +13,7 @@ In the central field of the window, you should now be presented with the disk ma
 
 ![Disk Management](Images/diskmanagement/diskmanagement.PNG)
 
-This console will provide you information about your currently installed hard disk drives, and will also allow you to make changes to the partitionining and filesystems of those hard disks as well as carry out other functions such as extending and shrinking current partitions.
+This console will provide you with information about your currently installed hard disk drives, and will also allow you to make changes to the partitioning and filesystems of those hard disks as well as carry out other functions such as extending and shrinking current partitions.
 To view this information and to make changes, please select the disk of your choice, and right click to view the available options for that drive as below
 
 ![Options](Images/diskmanagement/diskmanagementcontextmenu.PNG)
