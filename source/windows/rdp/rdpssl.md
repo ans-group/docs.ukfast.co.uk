@@ -51,7 +51,7 @@ From the list of Administrative tools, please select the remote desktop services
 
 ![rds options](files/rdpssl/rds.PNG)
 
-In the following window, please select the "Rmeote Desktop Gateway Manager"  icon from the list as below (if this is not present, then you have not installed the remote desktop gateway role, and you will need to do so)
+In the following window, please select the "Remote Desktop Gateway Manager"  icon from the list as below (if this is not present, then you have not installed the remote desktop gateway role, and you will need to do so)
 
 ![RDS gateway manager](files/rdpssl/rdsgw.PNG)
 
@@ -67,7 +67,7 @@ the "Server Name" Properties (in this case "WINDOWS") will now be displayed, sel
 
 ![SSL options](files/rdpssl/props.PNG)
 
-You will see that the "Select an existing certificate from the RD Gateway" option is select, select the import certificate button, you will now be presented with the "Import Certificate" pane as below select the required certificate from the list and select "import"
+You will see that the "Select an existing certificate from the RD Gateway" option is selected, select the import certificate button, you will now be presented with the "Import Certificate" pane as below select the required certificate from the list and select "import"
 
 ![Import](files/rdpssl/selecttoimport.PNG)
 
