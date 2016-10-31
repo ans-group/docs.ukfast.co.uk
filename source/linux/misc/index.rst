@@ -6,6 +6,7 @@ Miscellaneous
    at
    awk
    clam
+   dirtycow
    fsck
    logrotate
    vulnerabilityscans
