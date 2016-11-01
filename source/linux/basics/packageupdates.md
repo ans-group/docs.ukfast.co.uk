@@ -1,4 +1,4 @@
-# Package Installs and Updates
+# Package Management Functions
 
 As most UKFast servers are either CentOS/RedHat or Ubuntu/Debian, this article will only cover two of the most popular Linux package managers, `yum` and `apt`.
 
@@ -67,6 +67,74 @@ If you're looking to update all the packages on your server, simply run the comm
    Failure to review package updates could result in you running a higher version of something critical (such as PHP) than your code supports.
 ```
 
+### Extra functions
+
+You can always run a number of checks with yum before either installing or updating an application.
+
+If you wish to check whether a package is available on your system, you can always run a search in yum. This will print out all the packages that match your search:
+
+```console
+   yum search $QUERY
+```
+
+An example of this, including a snippet of the output, is as follows:
+
+```console
+   yum search php
+   
+   ...
+   =============================== N/S matched: php ===============================
+   php.x86_64 : PHP scripting language for creating dynamic web sites
+   php-Assetic.noarch : Asset Management for PHP
+   php-EasyRdf.noarch : A PHP library designed to make it easy to consume and
+                      : produce RDF
+   ...
+```
+
+If the package exists on your system, you can pull additional information on it, including what version of the package is available to you.
+ 
+```eval_rst
+.. note::
+
+   This will also show you information on an updated version of the package you've got.
+   It also highlights the package's name in a different collour based on its status.
+
+   Red: Obsolete
+   yellow: Installed from another source
+   bold white: Currently installed
+   white: Available, but not installed
+   blue: Update
+```
+
+```console
+   yum info $PACKAGE_NAME
+```
+
+Here is an example, including a snippet of the output, without colour highlights:
+
+```console
+   yum info php70w
+   
+   ...
+   Installed Packages
+   Name        : **php70w**
+   Arch        : x86_64
+   Version     : 7.0.11
+   Release     : 1.w7
+   Size        : 9.0 M
+   Repo        : installed
+   From repo   : webtatic
+   ...
+   Available Packages
+   Name        : **php70w**
+   Arch        : x86_64
+   Version     : 7.0.12
+   Release     : 1.w7
+   Size        : 2.8 M
+   Repo        : webtatic/x86_64
+   ...
+```
+
 ## apt
 
 
@@ -88,16 +156,107 @@ As with installing, you should ensure your apt cache is up to date so you get th
 ```console
    apt-get update
    apt-get upgrade
+   or
+   aptitude update
+   aptitude upgrade
 ```
 
 This will pull in all available updates for your system. Sometimes you may find that packages have been held back (usually Linux kernel updates). These can be pulled in by running a `dist-upgrade`.
 
 ```console
    apt-get dist-upgrade
+   or
+   aptitude full-upgrade
+```
+
+If you wish to view which version you're upgrading to and from you can always enable verbosity with the '-V' option
+
+```console
+   apt-get -V upgrade|dist-upgrade
+   or
+   aptitude -V upgrade|full-upgrade
 ```
 
 ```eval_rst
 .. warning::
 
-   Take care when updating all packages on a server. This is not something which should be done blindly. Review the packages that are going be updated before accepting the upgrade. If you fail to review the packages you may end up installing, e.g., a new major version of MySQL or PHP which is not going to be compatible with your code.
+   Take care when updating all packages on a server. This is not something which should be done blindly. Review the packages that are going be updated before accepting the upgrade. If you fail to review the packages you may end up installing a new major version of a package which is not going to be compatible with your code, e.g. MySQL or PHP.
 ```
+
+### Extra Functions
+
+With apt, there are 2 ways to perform a search for packages, but viewing package info applies the same to both methods.
+
+```console
+   apt-cache search $QUERY
+```
+
+This will display all packages that have matches based on name, summary, and full description.
+
+If you only want package and summary searches, you can run the following:
+
+```console
+   aptitude search $QUERY
+```
+
+Here are some examples and their outputs:
+
+```console
+   apt-cache search php
+
+   ...
+   adminer - Web-based database administration tool
+   air-quality-sensor - user space driver for AppliedSensor's Indoor Air Monitor
+   ampache - web-based audio file management system
+   ampache-common - web-based audio file management system common files
+   ampache-themes - Themes for Ampache
+   aolserver4-doc - AOL web server version 4 - documentation
+   ...
+
+   aptitude search php
+
+   ...
+   p   cakephp               - MVC rapid application development framework for PHP
+   p   cakephp-instaweb      - Development webserver for CakePHP applications
+   p   cakephp-scripts       - MVC rapid application development framework for PHP (scripts)
+   p   dh-make-php           - Creates Debian source packages for PHP PEAR and PECL extensions
+   p   dh-php5               - debhelper add-on to handle PHP PECL extensions
+   ...
+```
+
+With aptitude searches, they show information about the installation status of a package.
+
+ - 'p' shows that the package is available, but not installed.
+ - 'v' shows that this is a virtual package, i.e. it's provided by another package.
+ - 'i' shows that the package is installed.
+ - 'c' shows that the package was removed, but the configuration still remains
+
+If an 'A' is visible, it shows that this was automatically installed as a dependency to another package.
+
+After searching for a package you can get more information with the following command:
+
+```console
+   apt-cache show $PACKAGE_NAME
+   or
+   aptitude show $PACKAGE_NAME
+```
+
+Here is an example, and a snippet of the output:
+
+```console
+   apt-cache show linux-image-amd64
+   or
+   aptitude show linux-image-amd64
+
+   ...
+   Package: linux-image-amd64               
+   State: installed
+   Automatically installed: no
+   Version: 3.16+63
+   Priority: optional
+   Section: kernel
+   ...
+```
+
+This will tell you additional information, such as what packages it depends on, and which packages it will conflict with, along with a description of what the package does.
+
