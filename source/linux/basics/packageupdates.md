@@ -1,4 +1,4 @@
-# Package Installs and Updates and Micellaneous functions
+# Package Management Functions
 
 As most UKFast servers are either CentOS/RedHat or Ubuntu/Debian, this article will only cover two of the most popular Linux package managers, `yum` and `apt`.
 
