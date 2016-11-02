@@ -4,7 +4,7 @@
 
 ## Windows Server 2008R2
 
-Select start, then select "Administrative Tools" from the right side of the start menu, now select "Remote Desktop Services", from the 3 available options, please select "Remote Desktop Session Host Configuration" as below
+Select start, then select "Administrative Tools" from the right side of the start menu, now select "Remote Desktop Services". From the 3 available options, please select "Remote Desktop Session Host Configuration" as below
 
 ![Session Host Config](files/rdpssl/startmenu.PNG)
 
@@ -28,7 +28,7 @@ Near the bottom of the pane, you will see a small section named "Certificate" an
 
 ![SSL Selection](files/rdpssl/selectssl.PNG)
 
-Select the SSL that you wish to use, and select "OK", you will now be returned to the RDP-Tcp properties window as below, you see that "Auto generated"  has been replaced with your certificate name
+Select the SSL that you wish to use, and select "OK", you will now be returned to the RDP-Tcp properties window as below, you will see that "Auto generated" has now been replaced with your certificate name
 
 ![SSL Selected](files/rdpssl/newpropswithssl.PNG)
 
@@ -67,7 +67,7 @@ the "Server Name" Properties (in this case "WINDOWS") will now be displayed, sel
 
 ![SSL options](files/rdpssl/props.PNG)
 
-You will see that the "Select an existing certificate from the RD Gateway" option is selected, select the import certificate button, you will now be presented with the "Import Certificate" pane as below select the required certificate from the list and select "import"
+You will see that the "Select an existing certificate from the RD Gateway" option is selected, select the import certificate button, you will now be presented with the "Import Certificate" pane as below, select the required certificate from the list and select "import"
 
 ![Import](files/rdpssl/selecttoimport.PNG)
 
@@ -75,7 +75,7 @@ The Properties window will now be displayed once more, and you will be able to s
 
 ![Selected](files/rdpssl/imported.PNG)
 
-* As with the previous guide, current sessions will now use the new configuration, to ensure users are using the correct connection parameters, please ask them to log of and back on again, alternatively restart the remote desktop service.
+* As with the previous guide, current sessions will now use the new configuration, to ensure users are using the correct connection parameters, please ask them to log off and back on again, alternatively restart the remote desktop service.
 
 ## Window Server 2016
 
