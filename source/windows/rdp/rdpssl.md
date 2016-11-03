@@ -43,7 +43,7 @@ Select "OK" and you will now be presented with a confirmation message as below, 
 
 * The process for Windows Server 2012/2012R2 is somewhat different, it is a pre-requisite of this section that you have installed the remote desktop services role, if you are unsure how to do this, please see our guide on installing roles in the windows administration section.
 
-Select start, then select "adminitrative tools" from the list of available applications as below
+Select start, then select "Administrative tools" from the list of available applications as below
 
 ![Admintools](files/rdpssl/admintools.PNG)
 
