@@ -41,21 +41,21 @@ Alternatively, you can enter the user name and password for the remote server be
 
 ### Mobile Devices
 
-Microsoft have recently developed a RDP Client for both Apple IOS and Android platforms, we will demonstrate how to connect using the IOS version of the app in this guide, however the process is the same for the android version of the app.
+Microsoft have recently developed an RDP Client for both Apple IOS and Android platforms, we will demonstrate how to connect using the IOS version of the app in this guide, however the process is the same for the android version of the app.
 
-Firstly, you will need to install the Microsoft remote desktop app from the app store as below
+Firstly, you will need to install the Microsoft Remote Desktop app from the app store as below
 
 ![RDP for IOS](files/connecting_mobiledevices/Microsoftremotedesktop.PNG)
 
-Once the app is installed, Open it to access the Dashboard, from the dashboard, you will need to select the + symbol in the top right hand corner of the app, this will present the "Add New" window. as below 
+Once the app is installed, Open it to access the Dashboard, from the Dashboard, you will need to select the + symbol in the top right hand corner of the app, this will present the "Add New" window. as below 
 
 ![RDP IOS Add New](files/connecting_mobiledevices/addnewconnection.PNG)
 
-The "add new" window will present 3 options to you, for the purposes of this guide, please select Desktop. You will now be presented with a new Desktop configuration panel as below, this panel will ask you for the ip address of the computer which you wish to access, aswell as the user account you wish to use.
+The "add new" window will present 3 options to you, for the purposes of this guide, please select Desktop. You will now be presented with a new Desktop configuration panel as below, this panel will ask you for the ip address of the computer which you wish to access, aswell as the user account that you wish to use.
 
 ![RDP IOS Desktop](files/connecting_mobiledevices/blankdesktopconnection.PNG)
 
-Once you have entered the correct details, your screen should like this, once the correct details have been entered, please select save.
+Once you have entered the correct details, your screen should look like the below example,now select save.
 
 ![RDP IOS Desktop](files/connecting_mobiledevices/chooseuseraccountoraddown.PNG)
 
@@ -74,11 +74,11 @@ Once you are ready to connect to your server via Remote desktop, you simply need
 
 Microsoft have also developed an RDP client for Apple MacOS,to form a connection using this tool, Please follow the below steps.
 
-Firstly, as with the IOS version of the App, you will need to download the app from the app store as below
+Firstly, as with the IOS version of the App, you will need to download the App from the App store as below
 
 ![RDP for Mac Appstore](files/connecting_MacOS/remotedesktopinstall.PNG)
 
-Once the app has been installed, you will need to launch it, to do this, open launchpad, and select it from the list of applications as below
+Once the App has been installed, you will need to launch it, to do this, open launchpad, and select it from the list of applications as below
 
 ![RDP Launchpad](files/connecting_MacOS/launchpad.PNG)
 
@@ -86,20 +86,20 @@ You will now be presented with the RDP client as below
 
 ![RDP for Mac](files/connecting_MacOS/rdpapp.PNG)
 
-From the above window, please select the + "New" button, and you will be presented with the Edit Remote Desktops window as below, you will need to enter the details for the server which you are attempting to connect to as demonstrated.
+From the above window, please select the + "New" button, and you will be presented with the Edit Remote Desktops window as below, you will need to enter the details for the server which you are attempting to connect to as demonstrated below.
 
 ![RDP Options](files/connecting_MacOS/connectiondetails.PNG)
 
-Once you have entered the correct details, close the window by selecting the red close button in the top left hand corner of the window. you will now be taken back to the Microsoft Remote Desktop, where you will see the profile that you have just configured as below
+Once you have entered the correct details, close the window by selecting the red close button in the top left hand corner of the window. you will now be taken back to the Microsoft Remote Desktop main window, where you will see the profile that you have just configured as below
 
 ![RDP Profile configured](files/connecting_MacOS/profilemade.PNG)
 
 The last step is to now launch your remote desktop session, there are two ways that you can do this,
 
 * 1. By double clicking the profile which you have configured
-  2. By single clicking the profile and selecting the "Start" button from the menu in the remote desktop app.
+  2. By single clicking the profile and selecting the "Start" button from the menu in the Remote Desktop App.
 
-Once you have carried out one of the above actions, your remote desktop session will be initialised as below
+Once you have carried out one of the above actions, your Remote Desktop session will be initialised as below
 
 ![RDP connection initialised](files/connecting_MacOS/connecting.PNG)
 
