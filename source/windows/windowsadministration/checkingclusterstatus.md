@@ -5,9 +5,9 @@ Windows Server uses a tool known as Failover Cluster Manager to create highly-av
 ## Which of my hosts are active?
 
 * To check which node in your cluster is currently active, please follow the below steps.
-(This guide assumed that you have already logged in to your cluster using the cluster ip)
+(This guide assumes that you have already logged in to your cluster using the cluster ip)
 
-Select start, then select "failover cluster manager" from the list of available programs as below
+Select start, then select "Failover Cluster Manager" from the list of available programs as below
 
 ![FCM](Images/clusterstatus/failoverclustermanager.png)
 
