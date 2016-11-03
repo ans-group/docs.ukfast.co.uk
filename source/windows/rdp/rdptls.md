@@ -7,7 +7,7 @@
 
 ## Windows Server 2008R2 Considerations
 
-Remote desktop services on Windows server 2008R2 does not support TLS 1.1 out of the box, However there is Hotfix which microsoft have written to add support for TLS 1.1 and TLS 1.2. This must be installed before disabling TLS 1.0 otherwise you will lose access to Remote desktop services until rectified.
+Remote desktop services on Windows server 2008R2 does not support TLS 1.1 out of the box, However there is a Hotfix which microsoft have written to add support for TLS 1.1 and TLS 1.2. This must be installed before disabling TLS 1.0 otherwise you will lose access to Remote desktop services until rectified.
 The Hotfix can be obtained from the link below
 
 [Remote Desktop Services TLS 1.1 and TLS 1.2 Support patch (KB3080079)](https://support.microsoft.com/en-us/kb/3080079)
@@ -34,7 +34,7 @@ You will now be presented with the regedit window as below
 
 ![Regedit opened](files/disabletls1/regeditopen.PNG)
 
-Starting at `HKEY_LOCAL_MACHINE` on the left hand side of the window, please navigate through to the following location in the registry `\SYSTEM\CurrentcontrolSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.0` as below
+Starting at `HKEY_LOCAL_MACHINE` on the left hand side of the window, please navigate through the hive to the following location in the registry `\SYSTEM\CurrentcontrolSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.0` as below
 
 ![TLS 1.0 Root](files/disabletls1/tls1root.PNG)
 
@@ -59,11 +59,11 @@ You should now be able to see your new key as below
 
 * We now need to carry out the same steps for the Client Key, as follows
 
-select the Client key, right click and select new, then select "DWORD (32-bit) Value". as before, a new value will be created in the main field of the regeedit window, in the "Name" field, please type "Enabled" and click away from the key.
+Select the Client key, right click and select new, then select "DWORD (32-bit) Value". as before, a new value will be created in the main field of the regeedit window, in the "Name" field, please type "Enabled" and click away from the key.
 
-Now right click the Enabled value, select `Modify...`, the Edit DWORD panel will now be displayed, Select Deciaml from the "Base" selector, and in the "Value data" field, please enter 0, then select "OK"
+Now right click the Enabled value, select `Modify...`, the Edit DWORD panel will now be displayed, Select Decimal from the "Base" selector, and in the "Value data" field, please enter 0, then select "OK"
 
-You should now be able to se your new Client key as below
+You should now be able to see your new Client key as below
 
 ![Client key set](files/disabletls1/clientkeyset.PNG)
 
