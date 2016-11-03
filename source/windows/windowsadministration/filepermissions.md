@@ -29,7 +29,7 @@ Please select Add and you will be presented with a the "Select Users, Computers,
 ![Add](Images/permissions/add.PNG)
 
 In this pane, please type the appropriate user account, in this case "administrator" and select OK. 
-You will now be returned the the permissions pane, where you will be able to see your newly added user in the list, Select the administrator entry, and then tick the deny box for the full control permission in the bottom section of the window as below
+You will now be returned to the permissions pane, where you will be able to see your newly added user in the list, Select the administrator entry, and then tick the deny box for the full control permission in the bottom section of the window as below
 Notice that this fills all other boxes thus denying any form of access to the file, select ok.
 
 ![Added](Images/permissions/added.png)
