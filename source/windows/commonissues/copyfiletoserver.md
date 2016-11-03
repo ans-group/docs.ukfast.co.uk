@@ -7,13 +7,13 @@ Depending on the size of the file, Windows offers a few different methods of tra
 * For your convenience, Before attempting to establish a remote desktop session with your server, 
   please carry out the below steps, as they cannot be changed while a session is established.
 
-To configure Remote desktop clipboard, please open the remote desktop connection application,(if you are unsure on how to do this, please see ouor guide *Connecting to a server via remote desktop*)
+To configure Remote desktop clipboard, please open the remote desktop connection application,(if you are unsure on how to do this, please see our guide Connecting to a server via remote desktop
 
 You should now be presented with the remote desktop connection application which will look like below
 
 ![mstsc](Files/rdpfilecopy/MSTSCoptions.PNG)
 
-From this window, please select the "Options" button in the bottom left hand corner the window, this will expand the window and provide you with a number of options which were previously not visible.
+From this window, please select the "Options" button in the bottom left hand corner of the window, this will expand the window and provide you with a number of options which were previously not visible.
 
 Select the "Local Resources" tab and ensure that the "Clipboard" option is ticked as below
 
@@ -46,8 +46,8 @@ The installation wizard will then progress to the "choose components" pane, in t
 
 ![filezilla component selection](Files/ftpserveranduser/choosecomponentstrimmed.png)
 
-You will now be prompted to choose the install location for FileZilla Server, this will be set by default to C:\Program Files (x86)\FileZilla Server\ which is perfectly fine, but can be changed in you prefer.
-Once you have chosen the instalation location, please select next.
+You will now be prompted to choose the install location for FileZilla Server, this will be set by default to C:\Program Files (x86)\FileZilla Server\ which is perfectly fine, but can be changed if you prefer.
+Once you have chosen the installation location, please select next.
 
 The next pane will ask you to choose the startup options for FileZilla Server, by Default this is set to "Install as service, started with Windows" which is the recommended option.
 You will also be asked to provide an Admin Port which is used to remotely administrate the FileZilla Server, this will be set to port 14147 by default, but again, can be changed to your preference.
@@ -57,7 +57,7 @@ The final option on this pane is to decide if you want FileZilla to start once t
 
 The next pane asks to you to select 2 further options before the installation begins, these options are related to the server interface.
 The first option is to choose how the server interface starts,By Default this option is set to "Start if user logs on, apply to all users", this option can be set to your preference, and can be changed to start manually if you choose.
-The Second option is to choose if you would like the server interface to be started once the setup process has been completed as below, once you have made your selection, click install to begin the instalation process.
+The Second option is to choose if you would like the server interface to be started once the setup process has been completed as below, once you have made your selection, click install to begin the installation process.
 
 ![filezilla server settings 2](Files/ftpserveranduser/startupsettings2trimmed.png)
 
@@ -67,8 +67,8 @@ Once the installation has completed, you will be presented with a screen similar
 
 ###  FTP User Creation
 
-* Now that the FTP Server has been installed, you will need to create a user account to work with
-  This section with guide you how to do this for Filezilla Server specifically, although the process is very similar in other FTP Servers also.
+* Now that the FTP Server has been installed, you will need to create a user account to work with.
+  This section will guide you how to do this for Filezilla Server specifically, although the process is very similar in other FTP Servers also.
 
 First of all, you will need to open the FileZilla Server interface, Depending on your chosen options during the installation process, the interface may open automatically for you,
 but if not, you can launch it by selecting start and selecting "FileZilla Server interface" as below
@@ -97,12 +97,12 @@ Following the last step, you will have returned to the "Users" pane, and you sho
 
 ![User Added](Files/ftpserveranduser/useraddedtrimmed.png)
 
-Select your new user account in the users section, and select the "password" tick field to enable a password for this account. once you have done this, enter your choice of password in to the text box next to the password option, once done, select ok.
+Select your new user account in the users section, and select the "password" tick box to enable a password for this account. once you have done this, enter your choice of password in to the text field next to the password option, once done, select ok.
 Your new account is now protected.
 
 Re-enter the Users pane, if you are unsure how to do this, use the steps above as a reference.
 
-Once you have navigated back to users pane, please select "Shared folders" from the left hand "Page" menu. in this pane, you can add the directories which you would like your user to be able to access via FTP.
+Once you have navigated back to the users pane, please select "Shared folders" from the left hand "Page" menu. in this pane, you can add the directories which you would like your user to be able to access via FTP.
 To do this, please select "Add" under the "Shared folders" section of the pane, you will now be presented with a file browser pane as below, navigate to your chosen folder and select ok. 
 * Please note that you can only select single directories in this menu, and you will need to repeat this step for each directory that you wish to grant access to.
 
@@ -164,7 +164,7 @@ You will need to enter the details of your FTP server and account in to these fi
 
 ![Ftp console](Files/ftpclient/ftpclient.png)
 
-Once you have entered the details as demonstrated above, please select Quickconnect, once selected, you should begin to see a number of status updates being presented in the top field of the console window, once the connection has been fully negotiated, your chosen shares should be visibible in the Remote Site section of the window, and you connection is now active as below.
+Once you have entered the details as demonstrated above, please select Quickconnect, once selected, you should begin to see a number of status updates being presented in the top field of the console window, once the connection has been fully negotiated, your chosen shares should be visible in the Remote Site section of the window, and your connection is now active as below.
 
 ![Ftp connected](Files/ftpclient/ftpclientconnected.png)
 
