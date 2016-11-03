@@ -18,7 +18,7 @@ This will now display a context box with a number of options as below, please se
 
 ![Enable PID](Images/netstat/enablepidviewtrimmed.png)
 
-now search through the list of PID's to find the once matching the PID listed by your netstat command, in this example 844,which as you can see below is ocupied by the Hmail server application.
+now search through the list of PID's to find the one matching the PID listed by your netstat command, in this example 844,which as you can see below is ocupied by the Hmail server application.
 
 ![PID Found](Images/netstat/identifyportholdingpid.PNG)
 
