@@ -14,4 +14,4 @@ The most common locations of data which is potentially not required are
 If you are unable to discover what is responsible for the space consumption,You can use a tool such as TreeSize which is a disk space analyser that can be downloaded for free from 
 [TreeSize](http://www.jam-software.de/treesize_free/?language=EN)
 
-* If you have found large log file directories but cannot delete these due to compliance requirements, it would be advisable that these files were simply moved to different drive with more free space where they can be stored for as long as required.
+* If you have found large log file directories but cannot delete these due to compliance requirements, it would be advisable that these files were simply moved to a different drive with more free space where they can be stored for as long as required.
