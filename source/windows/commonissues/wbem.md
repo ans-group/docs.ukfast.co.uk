@@ -22,13 +22,13 @@ Once the process has been completed, you will receive a notification in the comm
 
 ![Complete](Files/wbem/stopped.PNG)
 
-Now navigate to the wbem directory which is locaed in C:\Windows\System32\wbem, and right click in any blank space, select "New" and select "Folder", 
-name this folder something intuitive such as reposold as below 
+Now navigate to the wbem directory which is located in C:\Windows\System32\wbem, and right click in any blank space, select "New" and select "Folder", 
+Name this folder something intuitive such as reposold as below 
 and move any folder named repository followed by a number (For example respository001)in to the new folder which you have just created.
 
 ![Moverepos](Files/wbem/moverepos.PNG)
 
-Once all of the required file have finished moving to their new directory, return to the command prompt, and type "net start winmgnt" then press enter. This will bring Windows management instrumentation back online and will confirm that the process has completed as below
+Once all of the required files have finished moving to their new directory, return to the command prompt, and type "net start winmgnt" then press enter. This will bring Windows management instrumentation back online and will confirm that the process has completed as below
 
 ![Starting](Files/wbem/started.PNG)
 
