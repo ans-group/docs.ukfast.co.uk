@@ -4,7 +4,7 @@ If you want to find which version of Microsoft SQL and what Service Pack you are
 
 ## Microsoft SQL Server Management Studio
 
-You will need to open up and connect into Microsoft SQL Server Management Studio. Easiest way in Windows 2012 is click on start and start free-typing ssms
+You will need to open up and connect into Microsoft SQL Server Management Studio. the easiest way in Windows 2012 is to click on start and start free-typing ssms
 
 Then Click on New Query and paste the below query which will then present a results window supplying the relevant information:-
 
