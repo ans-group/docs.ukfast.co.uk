@@ -15,11 +15,11 @@ Once you have entered details to your requirements, please select options for th
 ![General](Images/createdb/namevisible.PNG)
 
 
-Within the Options page, you will be presented with a large number of options which you can change for your new database as below. Once you are happy with your choices, please select Ok to create your database
+Within the Options page, you will be presented with a large number of options which you can change for your new database as below. Once you are happy with your choices, please select Ok to create your database.
 A thorough explanation of the options and their functions can be found by visiting the following site
 
 [Database Options](https://msdn.microsoft.com/en-gb/library/ms188124.aspx)
 
 ![Options Pane](Images/createdb/setoptions.PNG)
 
-* your new database should now be visible in the "Databases" section of the Object explorer.
+* Your new database should now be visible in the "Databases" section of the Object explorer.
