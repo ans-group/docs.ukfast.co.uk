@@ -12,7 +12,7 @@ You will now be presented with the Add Roles and Features Wizard as below, the f
 
 ![Add Roles and Features Before you Begin](Files/rolesandfeatures/beforeyoubegin.PNG)
 
-The next page asks you to select the installation type, this provides you with the option to select a Role or Feature Based installation, or a Remote Desktop Services installation, in this instace, the default option of "Role-Based or feature-based Installation is the suitable option, with this selected, please select next.
+The next page asks you to select the installation type, this provides you with the option to select a Role or Feature Based installation, or a Remote Desktop Services installation, in this instace, the default option of "Role-Based or feature-based Installation" is the suitable option, with this selected, please select next.
 
 ![Select installation type](Files/rolesandfeatures/selectinstllationtype.PNG)
 
@@ -32,11 +32,11 @@ Once you have selected the required features, please select next, and you will b
 
 ![confirm selections](Files/rolesandfeatures/confirmselections.PNG)
 
-The instalation of your chosen Roles and Features will now begin and will look similar to the example below, once the instalation is complete, this pane will notify you. and you can select close.
+The installation of your chosen Roles and Features will now begin and will look similar to the example below, once the installation is complete, this pane will notify you. and you can select close.
 
 ![install progress](Files/rolesandfeatures/installprogress.PNG)
 
-* This process can be repeated as and when you need to install any new roles or features to the server.
+* This process can be repeated as and when you need to install any new roles or features on the server.
 
 
 
