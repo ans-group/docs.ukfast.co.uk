@@ -20,15 +20,15 @@ You will be provided with a list of pre-requisites for your version of PHP, sele
 
 ![Confirm Pre-requisites](files/phpinstall/confirmation.PNG)
 
-The instalation process will now begin and you will be presented with the below progress window
+The installation process will now begin and you will be presented with the below progress window
 
 ![Install](files/phpinstall/instalation.PNG)
 
-Once the process has completed, you will be presented with the below confirmation screen, please select "Finish" to complete the instalation.
+Once the process has completed, you will be presented with the below confirmation screen, please select "Finish" to complete the installation.
 
 ![Complete](files/phpinstall/complete.PNG)
 
-* Now that the instalation has been completed, please open IIS Manager, and select your site/s. Within the central module section, you should now be able to select PHP Manager as below, this will present information and options related to your PHP installation.
+* Now that the installation has been completed, please open IIS Manager, and select your site/s. Within the central module section, you should now be able to select PHP Manager as below, this will present information and options related to your PHP installation.
 
 ![PHP in IIS](files/phpinstall/phpmanageriis.PNG)
 
