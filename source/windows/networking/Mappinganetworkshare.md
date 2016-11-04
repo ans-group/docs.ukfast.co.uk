@@ -17,7 +17,7 @@ The next page asks you to specify the location, in the "internet or network addr
 
 ![Add location](files/networkshare/specifylocation.PNG)
 
-You will now be given the option to name this share, please enter a name of your chosing which will allow you to identift the location easily, once you have done so, Select Next.
+You will now be given the option to name this share, please enter a name of your chosing which will allow you to identify the location easily, once you have done so, Select Next.
 
 The final pane, will confirm that you have created the location, select finish and you should now be presented with your share as below
 
