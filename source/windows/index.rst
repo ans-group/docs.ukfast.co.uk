@@ -14,3 +14,4 @@ Windows
    mssql/index
    networking/index
    rds/index
+   server2016/index
