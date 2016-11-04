@@ -1,9 +1,9 @@
 # How to configure X-Forwarded-For (XFF) in IIS
 
 * If your solution makes use of a layer 7 load balancer with multiple web backends, from the webservers all traffic will be logged as being from the load balancer, this can be a problem in several scenarios where you need to identify the source of traffic.
-  The X-forwarded-for Header can be used to keep the source ip of inbound traffic, and log the original ip in your logs.
+  The X-Forwarded-For Header can be used to keep the source ip of inbound traffic, and then log the original ip in your logs.
 
-Different Versions of IIS have different proceedures which need to be followed to enable X-forwarded-for, please follow the appropriate section below.
+Different Versions of IIS have different proceedures which need to be followed to enable X-Forwarded-For, please follow the appropriate section below.
 
 
 ## X-Forwarded-For in IIS 7 & 7.5
@@ -14,7 +14,7 @@ Different Versions of IIS have different proceedures which need to be followed t
 
 Once you have installed the module, please install it by following the simple Wizard.
 
-With the module installed, select IIS and select the your site from the menu, now in the features view, you will see Advanced logging as below, please select this module
+With the module installed, select IIS and select your site from the menu, now in the features view, you will see Advanced logging as below, please select this module
 
 ![Advanced logging](files/xforwardfor/iis1.png)
 
@@ -64,7 +64,7 @@ With an IIS restart having been completed, your advanced logging function should
 
 
 * In Older Versions of IIS, the Advanced logging had to be installed to support X-Forwarded-For, in IIS 8.5 this is not the case.
-  To configure X-forwarded-for in IIS 8.5 or above, please follow the steps below.
+  To configure X-Forwarded-For in IIS 8.5 or above, please follow the steps below.
 
 Launch server manager by selecting start, and selecting server manager from the list of available application, alternatively, select the server manager icon from the taskbar.
 
@@ -72,12 +72,12 @@ Within Server manager, select "Tools" from the top section, and select Internet 
 
 ![Server Manager](files/xforwardfor/servermanager.PNG)
 
-you will now be presented with the IIS manager, from the connection pane on the left hand side of the window, select your site (if you wish to have logging for specific sites) or select the server instance (if you wish to enable logging for all sites)
+You will now be presented with the IIS manager, from the connection pane on the left hand side of the window, select your site (if you wish to have logging for specific sites) or select the server instance (if you wish to enable logging for all sites)
 Once you have made your selection, select "Logging" from the Feature view in the centre of the window as below
 
 ![Logging](files/xforwardfor/logging.PNG)
 
-You will now be presented with the logging options, under the "log file" section, please select format "W3C" and select the "Select Field" button next to it as below
+You will now be presented with the logging options, under the "log file" section, please select format "W3C" and choose the "Select Field" button next to it as below
 
 ![Logging options](files/xforwardfor/logoptions.PNG)
 
@@ -98,7 +98,6 @@ The Add Custom Field pane should now look as follows
 Now select "OK" and you will be returned to the "W3C Logging Fields" pane, where your new field should be visible as below, select "OK" to complete the process.
 
 ![Complete](files/xforwardfor/logoptions2.PNG)
-
 
 * Further information and different functions of the IIS 8.5 Enhanced logging module can be found at the link below
 
