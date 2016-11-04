@@ -15,7 +15,7 @@ You will now be presented with the Task Manager, Select the "Processes" tab from
 
 ![Task Manager](Images/forceendtask/taskmanager.PNG)
 
-Sroll down the list until you find the process which you wish to end, right click the process, and select "End task" as below
+Scroll down the list until you find the process which you wish to end, right click the process, and select "End task" as below
 
 ![End task](Images/forceendtask/endtask.PNG)
 
