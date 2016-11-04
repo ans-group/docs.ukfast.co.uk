@@ -10,7 +10,7 @@ and select "Map Network Drive" as below
 You will now be presented with the Map Network Drive wizard, select a drive letter which you would like the Network drive to occupy on your workstation once mapped
 then enter the location of the shared drive for example `\\server1\contoso shared drive` in the blank field next to "Folder" as below. If you are unsure of the address of the shared drive
 Please select Browse.
-* (Please Note, in a domain environment, drives cannot be viewed this way by default, and need to mounted by group policy)
+* (Please Note, in a domain environment, drives cannot be viewed this way by default, and need to be mounted by group policy)
 
 ![Browse](files/networkdrive/browse.PNG)
 
