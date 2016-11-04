@@ -82,7 +82,7 @@ If you receive the above, this test is successful
 
 ### Server 2
 
-* select start, type "cmd and select the resulting cmd.exe icon, this will open a command prompt
+* select start, type "cmd" and select the resulting cmd.exe icon, this will open a command prompt
 * In the command prompt, type `ping 10.0.0.23` and press enter
 * The command prompt should now display 4 ping responses with each line stating `Reply from 10.0.0.23: bytes=32 time=1ms TTL=128` as below
 
