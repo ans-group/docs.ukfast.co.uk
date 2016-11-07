@@ -1,4 +1,4 @@
-# Managaing Remote Desktop Sessions
+# Managing Remote Desktop Sessions
 
 * If ever you need to know which users are logged into your server(s) you can view this information using Windows Task Manager. 
 
