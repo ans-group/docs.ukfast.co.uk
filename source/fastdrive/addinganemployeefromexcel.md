@@ -1,4 +1,4 @@
-# Adding an employee from an Excel spreadsheet
+# Adding an Employee from an Excel Spreadsheet
 Alternatively, multiple employees can be added through an Excel spreadsheet to speed up the process. You will see this button:
 
 ![Image23](files/Image23.png)
