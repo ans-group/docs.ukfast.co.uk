@@ -11,20 +11,23 @@ To move an application from the list to the Tile pad, click and hold on your cho
 * Adding This-PC
 
 ![Add This-pc](files/editingquicklaunch/addedthispc.PNG)
-* Adding Failover Cluster Manager
 
-![Add Failover Cluster Manager](files/editingquicklaunch/addedfailoverclustermanager.PNG)
 * Adding Computer Management
 
 ![Add Computer Management](files/editingquicklaunch/addedcomputermanagement.PNG)
 
+* Adding Failover Cluster Manager
+
+![Add Failover Cluster Manager](files/editingquicklaunch/addedfailoverclustermanager.PNG)
+
+
 ## Expanding the Tile Pad
 
-As you can see from the above examples, by default, you can only create 6 extra Tiles before the available room is used. However if you would like to add more Tile, it is possible to expand the Tile pad, to do so, move your cursor over the right hand edge of the tile pad until the cursor changes to an horizonal double arrow as below
+As you can see from the above examples, by default, you can only create 6 extra Tiles before the available room is used. However if you would like to add more Tiles, it is possible to expand the Tile pad, to do so, move your cursor over the right hand edge of the tile pad until the cursor changes to an horizonal double arrow as below
 
 ![Expand Arrow](files/editingquicklaunch/expandarrow.PNG)
 
-Once the cursor has changed in to the horizonal arrow, click and hold, then move the cursor to the right by around a quarter of the screen and you will see that the Tile pad expands as below
+Once the cursor has changed in to the horizonal arrow, click and hold, then move the cursor to the right by around a quarter of the screen's width and you will see that the Tile pad expands as below
 
 ![Expanded Tile Pad](files/editingquicklaunch/expanded.PNG)
 
@@ -42,7 +45,7 @@ You can also use the same process to move sections of tiles, to do so, select th
 
 ## Change Tile Size
 
-The size of Tiles can be set to Medium (default) or Small, changing the Tile size to Small allows for more Tiles to be added to the Tile pad, however the Tile name will be hidden as a result.
+The size of Tiles can be set to Medium (default) or Small, changing the Tile size to Small allows for more Tiles to be added to the Tile pad, however the Tile name will be hidden as a result, leaving just the Icon.
 To change the size of a Tile, Right click on the tile in question, and select Resize, then select small as below.
 
 ![Right click edit](files/editingquicklaunch/reduceiconsize.PNG)
