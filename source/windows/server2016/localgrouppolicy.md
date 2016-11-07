@@ -1,6 +1,6 @@
 # Accessing Local Group Policy
 
-* Accessing Local Group Policy in Window Server 2016 requires a slightly different method to be used as compared to in previous versions of Windows Server
+* Accessing Local Group Policy in Window Server 2016 requires a slightly different method to be used as compared to in previous versions of Windows Server.
   To Access Local Group Policy, please follow the below guide
 
 Select the start menu, and type `MMC`, now select the resultant MMC.EXE as below
