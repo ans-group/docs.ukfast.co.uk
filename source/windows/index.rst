@@ -13,4 +13,3 @@ Windows
    mssql/index
    networking/index
    server2016/index
-   server2016/index
