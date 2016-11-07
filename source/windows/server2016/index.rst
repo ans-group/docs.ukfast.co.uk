@@ -3,5 +3,13 @@ Windows Server 2016
 ===================
 
 .. toctree::
-
-  windowsupdate
+   
+   servermanager
+   computermanagement
+   settingsapp
+   windowsupdate
+   controlpanel
+   localgrouppolicy
+   fileexplorer
+   quicklaunchstart
+   actioncentre
