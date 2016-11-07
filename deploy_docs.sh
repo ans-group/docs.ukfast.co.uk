@@ -5,6 +5,8 @@ git pull --recurse-submodules origin master
 cd ukf && git pull origin master && cd -
 curl -XDELETE 'http://localhost:9200/documentation/'
 make populate-index
+sleep 5
+make populate-index
 sphinx-build -nW -b html -d build/doctrees source/ build/html
 make build/html/_static/css/app.css
 make build/html/_static/app.js
