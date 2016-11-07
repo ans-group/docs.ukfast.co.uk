@@ -66,11 +66,11 @@ The Devices category contains the following important sections
 
 The Network & Internet category contains the following important sections.
 
-* Status (Provides an overview of current network connections, and allows you do configure options such as Windows firewall, adapter settings, and carry out a network reset)
+* Status (Provides an overview of current network connections, and allows you to configure options such as Windows firewall, adapter settings, and carry out a network reset)
 
 ![Network Status](files/settingsapp/network/networkstatus.PNG)
 
-* Ethernet (Displays active network connections and to view their ip address, mac address and driver version, aswell as access to homegroup, network and sharing center and advanced sharing options)
+* Ethernet (Displays active network connections and displays their ip address, mac address and driver version, aswell as providing access to homegroup, network and sharing center and advanced sharing options)
 
 ![Ethernet](files/settingsapp/network/ethernetoptions.PNG)
 
@@ -78,7 +78,7 @@ The Network & Internet category contains the following important sections.
 
 ![VPN](files/settingsapp/network/vpnoptions.PNG)
 
-* Proxy (Allows you to configure a proxy connection, and change autonmatic proxy options)
+* Proxy (Allows you to configure a proxy connection, and change automatic proxy options)
 
 ![Proxy](files/settingsapp/network/proxyoptions.PNG)
 
@@ -116,7 +116,7 @@ The Time and Language category contains the following sections
 
 ![Region & Language](files/settingsapp/dateandtime/regionandlanguage.PNG)
 
-* Speech (Alows you to set speech Settings to be used in conjunction with Ease of Access features and speech recognition)
+* Speech (Allows you to set speech Settings to be used in conjunction with Ease of Access features and speech recognition)
 
 ![Speech](files/settingsapp/dateandtime/speech.PNG)
 
