@@ -10,3 +10,4 @@ Shared Exchange
    changepassword
    macmail
    sharedexchangedns
+   sharedexchangeoutlook2013
