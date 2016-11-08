@@ -9,7 +9,7 @@ If you have not configured an autodiscover record and would like to setup your a
 Open system preferences and select Internet Accounts
 Select Exchange account from the available options:
 
- - Open system preferences and select Internet Accounts
+ -  Open system preferences and select Internet Accounts
 
  - Select Exchange account from the available options
 

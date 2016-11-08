@@ -9,3 +9,5 @@ Shared Exchange
    webmailconnect
    changepassword
    macmail
+   outlook2013
+   sharedexdns
