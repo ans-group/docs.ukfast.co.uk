@@ -9,3 +9,4 @@ Shared Exchange
    webmailconnect
    changepassword
    macmail
+   sharedexchangedns
