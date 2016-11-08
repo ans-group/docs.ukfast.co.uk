@@ -8,3 +8,6 @@ Shared Exchange
    forward
    webmailconnect
    changepassword
+   macmail
+   sharedexchangedns
+   sharedexchangeoutlook2013
