@@ -8,3 +8,4 @@ Shared Exchange
    forward
    webmailconnect
    changepassword
+   macmail
