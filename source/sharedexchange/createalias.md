@@ -1,6 +1,8 @@
+# Create an Alias
+
  - When logged into your MyUKFast area, in the products and services    menu (top, centre of the screen), select Shared Exchange.
 
-	
+
 
  - You will then be presented with the following screen. Here you need to select the relevant domain.
 
