@@ -11,3 +11,7 @@ Shared Exchange
    macmail
    outlook2013
    sharedexdns
+   sendas
+   messagetracking
+   createalias
+   recoveremail
