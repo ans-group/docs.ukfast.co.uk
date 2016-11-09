@@ -4,7 +4,7 @@ Windows Administration
 
 
 .. toctree::
-   
+
 
    addupnsuffix
    checkingclusterstatus
@@ -14,4 +14,4 @@ Windows Administration
    netstat
    telnet
    filepermissions
-
+   resmon

@@ -3,7 +3,7 @@ Common Issues
 =============
 
 .. toctree::
-   
+
    copyfiletoserver
    createwguser
    creatingnewgroup
@@ -12,10 +12,4 @@ Common Issues
    kb2379016
    testingwebsites
    wbem
-   
-   
-	
-	
-	
-
-	
+   iefiledownload
