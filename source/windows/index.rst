@@ -5,11 +5,12 @@ Windows
 .. toctree::
    :maxdepth: 1
 
-   rdp/index
+   activedirectory/index
    commonissues/index
-   windowsadministration/index
    exchange/index
    iis/index
    mssql/index
    networking/index
+   rdp/index
    server2016/index
+   windowsadministration/index

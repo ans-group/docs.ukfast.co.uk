@@ -1,4 +1,4 @@
-# Configuring automatic forwarding rules
+# Configuring Automatic Forwarding Rules
 
 On the shared exchange platform, email forwarders are configured using the webmail client.
 
