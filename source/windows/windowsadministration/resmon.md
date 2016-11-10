@@ -10,7 +10,7 @@ select the Performance Tab and then select " Open Resource Monitor " from the bo
 
 ![Resource Monitor](Images/resmon/resmonoverview.png)
 
-* In the Overview tab, you can view information relating to current usage of CPU, RAM, Disk, and the network, if you wish to view more specific information on any one of the aforementioned resouces, 
+* In the Overview tab, you can view information relating to current usage of CPU, RAM, Disk, and the network, if you wish to view more specific information on any one of the aforementioned resources, 
   you can select the appropriate tab along the top line of the window, for this example, we will demonstrate an inspection of disk resource usage.
 
 Select the Disk tab within Resource monitor, and you will be presented with more information on disk usage, including "processes with disk activity", "Disk Activity" and "Storage" as below

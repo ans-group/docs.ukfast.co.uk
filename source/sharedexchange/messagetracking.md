@@ -1,4 +1,4 @@
-# How do I track a message I've sent on Hosted Exchange
+# How do i Track a Message That i Have Sent Using Shared Exchange
 
 It's possible to track a message you have sent via the Hosted Exchange Servers.
 

@@ -1,4 +1,4 @@
-# Setting Up Your Account In Microsoft Outlook 2013
+# How to Connect to Your Shared Exchange Mailbox Using Microsoft Outlook 2013
 
 * In order to configure your Shared Exchange mailbox in Microsoft outlook, please follow the below steps
 
@@ -16,11 +16,11 @@ The next screen (shown opposite) determines whether or not the account is create
 
 The next screen (shown opposite) is asking which service type to connect to. Select Microsoft Exchange Server or compatible service and click next to continue.
 
-![Choose Service](files/outlook/choose.PNG) 
+![Choose Service](files/outlook/choose.PNG)
 
 The following screen requires details of the account. Enter the server information as shown below, and then your email address in the user name box.
 
-![Server Settings](files/outlook/serversettings.PNG) 
+![Server Settings](files/outlook/serversettings.PNG)
 
 After you have done this, click more settings and this will present you with a pop-up box with other options, as shown below. Across the top of the window, find and click on the connection tab. Tick the connect to Microsoft Exchange using HTTP box and then select the Exchange Proxy Settings button.
 
