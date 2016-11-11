@@ -22,7 +22,7 @@ Please allow time for any DNS changes to propagate through the internet, this ma
 
 Next, you should add an SRV record to the domain to allow for auto-discovery. This allows your Exchange ready client, such as Outlook, to find all the settings it needs to connect to our shared Exchange platform.
 
-Here is the information you need for the SRV record, in its raw format, should you not being using our UKFast SafeDNS system for DNS:
+Here is the information you need for the SRV record, in its raw format, should you not be using our UKFast SafeDNS system for DNS:
 
 `_autodiscover._tcp.DOMAIN.COM. 0 0 443 client.ukfastexchange.co.uk`
 
