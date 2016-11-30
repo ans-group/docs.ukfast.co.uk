@@ -18,5 +18,8 @@ You will need at least one FASTcloudbackup end user account to login to the FAST
 
 ## Logging into the FASTcloudbackup web console
 
-Click into your end user account and then click `Go to FASTcloudbackup web console`, or click [here](https://fcb.ukfast.co.uk).
+Click into your end user account and then click `Go to FASTcloudbackup web console`, or click [here](https://fcb.ukfast.co.uk).  Use the username and password you created previously to login to the web console
+
+!
+
 
