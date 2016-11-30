@@ -10,7 +10,7 @@ On this page you can choose how much storage quota you need.  You can have multi
 
 Once you've chosen the storage quota you want, click `Buy` and go through the MyUKFast payment process.
 
-## Create an end user account
+## Creating an end user account
 
 You will need at least one FASTcloudbackup end user account to login to the FASTcloudbackup web console and use the service.  Once you've purchased your storage quota, create a username and password for your end user account.
 
