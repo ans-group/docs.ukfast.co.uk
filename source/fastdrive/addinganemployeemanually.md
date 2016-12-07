@@ -1,85 +1,77 @@
 # Adding an Employee
 
+The admin user has permissions to create employee accounts on the system. The below is a tutorial on how to do this.
+
 ## Step 1
 
-Firstly, you will need to provide the user’s email address, which will be used as their username for logging into FASTdrive.
+Firstly, navigate to the 'People' tab which can be seen on the left-hand side of each page. Clicking here will expand the menu and here you will be able to see a variety of options. In order to create an employee, you want to choose 'Browse Employees'. Then, you want to click the green 'Create Employee' button which can be seen on the right-hand side of the page.
 
-![Image13](files/Image13.png)
+![Image42](files/Image42.png)
+
+![Image43](files/Image43.png)
 
 ## Step 2
 
-This part of setting up employees can sometimes be quite complicated so we have split it into sections. Firstly, you will need to fill in the basic details such as Name, Company. The password field will be automatically filled in as you can see below.
+Next, you will need to provide the user’s email address, which will be used as their username to log into FASTdrive.
 
-![Image14](files/Image14.png)
-
-You will also need to provide the user with some basic user permissions. Note: The lists of basic user permissions are subject to change.   We recommend unticking the box ‘Select storage zone for root-level folders’ but leaving every other basic user permission ticked up to and including ‘See the ‘My Settings’ link on the top navigation bar’. You will also be able to see two more options below this which, if ticked mean that the user will be added to the shared company address book and the FASTdrive Support personal address book for your account. We recommend that ‘Add this user in my address book’ is unticked. This is because we recommend adding the user to the shared company address book so any user can share folders with that user rather than just yourself.
-
-![Image15](files/Image15.png)
-
-Create-root-level folders – This will give users permission to create main folders that can be used. 
-
-User personal File Box – This will give user’s permission to user their file box. 
-
-Manage client users – This will give the user permission to manage the permissions and settings of client users. 
-
-Edit the shared address book – This will give user’s permission to edit the users within the shared address book. 
-
-Change his/her password – This will give the user permission to change their password. 
-
-See the ‘My Settings’ link on the top navigation bar – This will allow the user to see this button.
-
-Add this user to the shared company address book – This will add the user to this address book. This means that the user can be selected to view shared folders. 
-
-Add this user to my address book – This will add the user to your personal address book but not to other users address books.
-
-The final part of step 2 is setting up admin privileges. For a regular employee account, no Admin Privileges are usually ticked unless of course, you wish to delegate certain privileges to employees.
-
-![Image16](files/Image16.png)
-
-Here is an explanation for some of the admin privileges:
-
-Modify account-wide policies – This allows the user to edit the account name, subdomains, account wide preferences and power tools access. 
-
-Manage remote upload forms – This will allow users to manage remote upload forms. These are forms which allow visitors to upload files directly to FASTdrive without the need for a username or password. 
-
-Access account-wide reporting – This will allow users to have access to all reporting across the account. 
-
-Request plan changes – This allows the user to request changes to the plan level including cancellation of the account. 
-
-Configure single sign-on settings – This allows the user to configure single sign on-settings so extra credentials are not needed when trying to access some features of FASTdrive e.g. Admin password required. 
-
-Manage Super User Group membership – This user will be allowed to add and remove employee users to the Super User Group and select whether to hide the group from the folder access listings. 
-
-Delegate admin privileges to other employee users – This user will be allowed to manage other employees’ access to the roles of which this user currently has access (Requires being able to manage employee users).
+![Image13](files/Image13.png)
 
 ## Step 3
 
-Next you can choose to add employee users to folders. This is used to enable shared folders which employees can access to view documents as well as having their own personal folders. Additional folders can be created for the user at this point by clicking the ‘New Folder button.
+The next step involves you entering some basic information. Firstly, you will need to fill in basic details such as Name and Company.
 
-![Image17](files/Image17.PNG)
+The password field will be automatically filled in as you can see below but you can change this if you wish. However, take note that the password will not be starred out and will appear on the screen so this isn't particularly recommended. Instead, you can change the password after the account has been created.
 
-The employee you have created will automatically have the 3 folders above. You can add the employee to folders by simply clicking the + icon on the left of the folder. From here you will be presented with more folders.
+![Image45](files/Image45.png)
 
-To add employees, tick the box on the left of these folders and click the ‘Add User to Folders & Groups’ button. Clicking this button will take you to the next step so we advise that you only click this button once you have chosen everything you need to on the page. You will be able to edit folders and folder permissions for employees after the initial setup has been completed, so don’t worry if you forgot to add an employee to a specific folder.
+You will also need to provide the user with some basic user permissions. 'Select storage zone for root-level folders' will be set as unticked by default because this is automatically set to our storage zone. 'Create root-level folders', 'Use personal File Box', 'Manage client users', and 'Edit the shared address book' will be set as ticked by default. However, the admin user can choose whether the employee user can change his/her password and whether they can see the 'My Settings' link on the top navigation bar. Furthermore, you can also choose whether to add this user to the shared company address book and the address book from which you are creating the account.
 
-![Image18](files/Image18.png)
+![Image46](files/Image46.png)
 
-During this stage you can also set up Folder Permissions for users, this is located on the left hand side of the page. The basic permissions we recommend are ‘Allow download permissions’ and ‘Allow upload permissions’. Of course you can tick the other boxes for employees should you wish to give them more permission. Additional admin users can be created here by ticking ‘Allow admin permissions’.
+We recommend that ‘Add this user to the shared company address book’ is ticked. This is so that the user can be seen by other users on the platform and share files with them.
 
-Currently, you can’t set different permissions for different folders from this view. However, you can do this by navigating to each specific folder and adjusting the permissions.
+The following describes the permissions and what they do:
 
-![Image19](files/Image19.png)
+Create-root-level folders – This will give a user permission to create top level folders.
 
-You can also clone permissions from existing users to potentially save time. This may be useful if for example, you have 2 people that work in the same department and perform the same role. If you’ve set one of the two users’ accounts up you can just clone the other rather than recreating it. If you are going to clone folder access make sure that you click ‘verify email’ just to check that the current user exists.
+Use personal File Box – This will give a user permission to use their file box.
 
-![Image20](files/Image20.png)
+Manage client users – This will give the user permission to add client users.
 
-Add the folder permissions and you should see the following.
+Edit the shared address book – This will give user’s permission to edit the users within the shared address book.
 
-![Image21](files/Image21.png)
+Change his/her password – This will give the user permission to change their password.
+
+See the ‘My Settings’ link on the top navigation bar – This will allow the user to see this button.
+
+Add this user to the shared company address book – This will add the user to the shared address book which is seen by all employee users.
+
+Add this user to my address book – This will add the user to your personal address book but not to other users address books.
 
 ## Step 4
 
-The final step is to send a welcome email to the new employee user. Before they use the account, users need to activate it by clicking the activation link in the email.
+Next you can choose to add employee users to folders and groups. Here you can choose specific folders and can choose from a variety of permissions. Likewise, you can add users to a distribution group which means that they will gain access to any folders which the group has permission to use.
 
-![Image22](files/Image22.png)
+![Image47](files/Image47.png)
+
+![Image48](files/Image48.png)
+
+You can set up folder permissions after you have created the user unless you are adding a user to a distribution group. You can navigate to individual folders and set permissions by navigating to the ‘People on this Folder’ tab.
+
+Step 5:
+
+The final step is to send the user a welcome email so that they can activate their account.
+
+![Image49](files/Image49.png)
+
+Below is a snippet of the email that you will receive:
+
+![Image50](files/Image50.png)
+
+The user will then be asked to confirm their personal information.
+
+![Image51](files/Image51.png)
+
+You will then be asked to reset the password for the account and once you’ve done this you will be successfully logged in.
+
+![Image52](files/Image52.png)
