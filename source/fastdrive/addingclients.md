@@ -10,6 +10,7 @@ A client user doesn’t have the same permissions as employee users and therefor
 Firstly, navigate to the 'People' tab which can be seen on the left-hand side of each page. Clicking here will expand the menu and here you will be able to see a variety of options. In order to create an employee, you want to choose 'Browse Clients'. Then, you want to click the green 'Create Client' button which can be seen on the right-hand side of the page.
 
 ![Image69](files/Image69.png)
+
 ![Image70](files/Image70.png)
 
 ## Step 2
