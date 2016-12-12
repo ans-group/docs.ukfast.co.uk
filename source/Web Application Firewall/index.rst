@@ -7,7 +7,7 @@ A Web Application Firewall (WAF) allows you to set specific rules around which t
 .. toctree::
    :maxdepth: 1
    
-WebApplicationFirewalls–Mainpointsyouneedtoknow
-InstallingaWebApplicationFirewall
-Howdoesthetrainingprocesswork?
-Troubleshooting
+   WebApplicationFirewalls–Mainpointsyouneedtoknow
+   InstallingaWebApplicationFirewall
+   Howdoesthetrainingprocesswork?
+   Troubleshooting
