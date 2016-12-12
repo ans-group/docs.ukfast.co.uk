@@ -44,7 +44,7 @@ Navigate to the file or folder that you wish to delete. In my example below, I h
 
 ![Image104](files/Image104.png)
 
-As you can see above, within this folder is a file called ‘Doc1Test’. To delete this document, I can left-click the file and press the ‘Delete’ key on my keyboard.
+As you can see above, in this folder is a file called ‘Doc1Test’. To delete this document, I can left-click the file and press the ‘Delete’ key on my keyboard.
 
 Alternatively, I can right click the file and navigate to the delete button.
 
