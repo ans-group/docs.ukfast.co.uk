@@ -1,4 +1,6 @@
-# Resetting employee user passwords as the Admin user
+# Resetting Passwords
+
+## Resetting employee user passwords as the Admin user
 
 The admin user can reset the password of any employee user. To do this, navigate to the ‘People’ tab and click ‘Browse Employees’.
 
@@ -34,7 +36,7 @@ If the user scrolls down the page, they’ll be able to see a ‘Change Password
 
 ![Image90](files/Image90.png)
 
-# Resetting your own password as a normal employee user
+## Resetting your own password as a normal employee user
 
 Employee users can reset their own passwords as long as the ‘Change his/her password’ permission is selected under ‘User Access’.
 

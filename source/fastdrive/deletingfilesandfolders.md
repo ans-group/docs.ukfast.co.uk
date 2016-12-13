@@ -2,7 +2,7 @@
 
 Files and folders can easily be deleted from the Web App or in Drive Mapper.
 
-# Web App:
+## Web App
 
 To delete a folder in the web app, left-click the ‘Folders’ tab which you can see on the left side menu. You’ll see this menu expand into 3 folders; Personal Folders, Shared Folders, and Favorites. Choose the folder where the folder which you would like to delete is stored.
 
@@ -24,7 +24,7 @@ Left click ‘Delete’ and you’ll be asked if you want to delete this folder.
 
 Once deleted, this folder will be moved to the recycle bin where it will be stored for up to 45 days. However, it may be stored for less time than this depending on factors such as the size of the document, and how much is currently stored in the recycle bin.
 
-# Drive Mapper:
+## Drive Mapper
 
 Files and folders can also be deleted easily in Drive Mapper. Firstly, navigate to the Shared Drive in order to find the file or folder that you wish to delete.
 
