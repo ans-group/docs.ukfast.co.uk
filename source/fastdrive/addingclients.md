@@ -1,21 +1,38 @@
-# Adding Clients
+# Adding Client users
 
-Adding Clients to FASTdrive can also be done by the administrator. This can be useful if you wish to have an end user account that a client can use to share files and collaborate with your employees.
+Client users can be added by any employee user as long as they have the relevant permissions enabled on their account. In order to add a client user, ‘Manage Client Users’ must be enabled which is usually the case anyway.
+
+A client user doesn’t have the same permissions as employee users and therefore doesn't require a license.
+
 
 ## Step 1
 
-This is exactly the same as it is for setting up employee accounts.
+Firstly, navigate to the 'People' tab which can be seen on the left-hand side of each page. Clicking here will expand the menu and here you will be able to see a variety of options. In order to create an employee, you want to choose 'Browse Clients'. Then, you want to click the green 'Create Client' button which can be seen on the right-hand side of the page.
+
+![Image69](files/Image69.png)
+
+![Image70](files/Image70.png)
 
 ## Step 2
 
-The majority of this step is exactly the same as setting up an account for an employee user, the key difference being that their basic user permissions are far more limited. Below are the basic permissions that can be set for a client user. It is up to you whether you ‘Add this user to the shared company address book’ however, we do recommend that the top 2 boxes are ticked to allow the client user to control some of their settings and allow them to change their password.
+Next, in order to add a client, you need to enter their email address. This will be used in order to sign into FASTdrive as a client user.
 
-![Image27](files/Image27.png)
+![Image71](files/Image71.png)
 
 ## Step 3
 
-Again, this step is exactly the same as it is for creating employee users.
+Next, you need to enter some basic information and set some basic user permissions. As you can see, client users have much less access to the platform compared to employee users.
+
+![Image72](files/Image72.png)
 
 ## Step 4
 
-This step is exactly the same as it is for creating employee users.
+Similarly to how employee users are added to folders and groups, the same also applies to client users too. The employee user who is adding the client user can assign the client user to folders and distribute various permissions.
+
+In order to add a user to a folder, expand one of the 3 main folders (Personal Folders, Shared Folders, and Favorites) and choose a folder(s) which you’d like to add the client user to by marking the check box.
+
+![Image73](files/Image73.png)
+
+Once folder permissions have been distributed, the next stage is to send a welcome email to the new client user which allows them to activate their account.
+
+![Image74](files/Image74.png)

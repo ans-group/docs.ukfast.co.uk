@@ -1,19 +1,35 @@
-# Creating Folders within FASTdrive
+# Creating Folders in FASTdrive
 
-You can create folders in two different ways, the first is to create the folder from the FASTdrive web application as shown in the image below.
+Primarily, folders are created within the FASTdrive web app. In order to create a folder, navigate to either your ‘Personal Folders’ or your ‘Shared Folders’. If you navigate to your ‘Personal Folders’ you will see the following screen. Of course, if you already have some files here, they will be listed.
 
-![Image5](files/Image5.PNG)
+![Image57](files/Image57.png)
 
-For this, you will need to be in the folder you want to create the new folder in. Once you are in the correct location press the Create Folder button.
+In the image above, you should be able to see a green circular icon.
 
-A pop up will appear and ask you for the name and a description; this description is optional.  
+![Image58](files/Image58.png)
 
-The Add Users tick box allows you to add people who are also using your company’s FASTdrive – typically other employees or clients.
+If you hover over this icon, a variety of options will appear as shown below:
 
-![Image6](files/Image6.PNG)
+![Image59](files/Image59.png)
 
-If you are using ShareFile Drive Mapper, then you will need to navigate to the location that you want to create your new folder in. Right click in the location you want the folder and go to “New” -> “folder” . You will then need to give it a name; when creating folders using ShareFile Drive Mapper, you are unable to give permission for other users to access it.
+In order to create a folder, you want to choose ‘Create Folder’. Once you have done this, the following screen will appear. This requires you to enter the name of the folder and you can also add a description if you like. You also have the option to add people to the folder right away or you can do this after the folder has been created.
 
-However, if you do want to give permission for others to access the folder then you will need find the folder on the web application. Click on the folder,  navigate  to the bottom right hand corner and ‘Add People to Folder’.
+![Image60](files/Image60.png)
 
-![Image7](files/Image7.PNG)
+If you don’t decide to add people to the folder right away, you will see a screen similar to the one below.
+
+![Image61](files/Image61.png)
+
+However, if you do decide to add people to the folder, you will see the following:
+
+![Image62](files/Image62.png)
+
+You can add a user to the folder by entering their name if they are already in the address book, or by creating a new user. On the right, you can adjust the folder permissions to what you deem necessary. Take note that you can’t assign different permissions to different users in this view.
+
+Once users have been added, you can see their permissions by clicking ‘People on this Folder’.
+
+![Image63](files/Image63.png)
+
+Below, are the users that have been given permissions and you can see the variety of permissions that they have.
+
+![Image64](files/Image64.png)

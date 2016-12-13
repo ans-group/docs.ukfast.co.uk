@@ -1,14 +1,27 @@
 # Logging into FASTdrive
 
-Before we get started you will need to have your FASTdrive login credentials ready, this will include your username and a temporary one-time use password.  You will also have been supplied with a unique URL for your FASTdrive login.
+# First-time login
 
-![Image1](files/Image1.png)
+Before you log in for the first time, you will need to navigate to the email account which is associated with your FASTdrive account in order to activate your account.
 
-Once you have opened the FASTdrive web application, you will be presented with a login screen.
+You will see an activation email which looks similar to the below:
 
-![Image2](files/Image2.png)
+![Image53](files/Image53.png)
 
-You will be asked to create a new password after successfully logging in.
+If you click ‘Activate Account’, you will be directed to a page where you’ll be prompted to enter some personal details and a new password.
 
+![Image54](files/Image54.png)
 
+![Image55](files/Image55.png)
 
+Once you have run through these steps you will be automatically signed in.
+
+# Standard login
+
+Once you have run through the first time login process, you can login every time by entering your email address and password.
+
+To log in, you need to navigate to your unique FASTdrive URL. This will be sent to you in a ticket along with your FASTdrive admin user credentials.
+
+Below is an image of the standard log in screen that you will see. If you enter the correct credentials you will be successfully logged in.
+
+![Image56](files/Image56.png)
