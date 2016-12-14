@@ -1,15 +1,33 @@
-# Drive Mapper
+# Installing Drive Mapper
 
-If you won’t want to login to the FASTdrive web application each time you wish to access your files and folders, there are a number of “power tools” available from the FASTdrive control panel to fully integrate your device with FASTdrive.  If you use Windows, we recommend you use ShareFile Drive Mapper, which you can download by browsing to “Apps” from within the FASTdrive web application and selecting “Drive Mapper”.  Alternatively you will find the download link below:
+As well as using the web app to manage all of your FASTdrive files, there are also a variety of different applications which can be downloaded to integrate with FASTdrive.
 
-Download here: [https://dl.sharefile.com/sfdrivemap](https://dl.sharefile.com/sfdrivemap)
+The application that we recommend the most is Drive Mapper. This, along with the other applications can be downloaded by logging into the web app using your personal credentials.
 
-Once you downloaded ShareFile Drive Mapper you will need to follow the download wizard carefully, if you have any issues with downloading and or installing, please do not hesitate to call the FASTdrive support line. Our support line numbers can be found on our website: [www.ukfast.co.uk](https://www.ukfast.co.uk)
+In order to access these applications, click the ‘Apps’ link which appears in the top-right hand corner of each page.
 
-When the installation is complete you will now be presented with a login screen shown below.
+![Image122](files/Image122.png)
 
-![Image10](files/Image10.PNG)
+Here you’ll see a variety of apps for different platforms, whether that be Windows, Mac, or Mobile.
 
-The email and password are the same as you use to login to the FASTdrive unique web application
-You will now be logged in and will have access to all the files and folders which you have permission to access on FASTdrive.
-Drive Mapper automatically maps your FASTdrive account and appears as a drive (the S: drive by default) in your Windows Explorer.  You can then browse through your files and folders like you would if you were browsing any other folder.
+Click the ‘Windows’ tab and you will see a variety of applications. In this instance, we want to download Drive Mapper, which is only available on Windows.
+
+![Image123](files/Image123.png)
+
+If you left-click ‘Learn More’ you can get some more information on Drive Mapper, including the Windows platforms that it supports. If you navigate back to FASTdrive you will have the option to download Drive Mapper to your local device. Left click ‘Download’ to start the process.
+
+As soon as you hit download, you will be able to see the progress in the task bar. Left click the executable file to start the installation process.
+
+![Image124](files/Image124.png)
+
+You’ll need to accept the license terms and conditions before running the installer. Give this a read through and if you accept the terms check the tick box and click ‘Install’.
+
+![Image125](files/Image125.png)
+
+Once finished, you’ll see the following screen. If you click ‘Launch’, Drive Mapper will load for the first time.
+
+![Image126](files/Image126.png)
+
+To login to Drive Mapper, use your FASTdrive credentials. Take note that only employee users can log in and use Drive Mapper.
+
+![Image127](files/Image127.png)
