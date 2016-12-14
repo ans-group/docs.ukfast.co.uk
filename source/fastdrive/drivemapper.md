@@ -18,7 +18,7 @@ If you left-click ‘Learn More’ you can get some more information on Drive Ma
 
 As soon as you hit download, you will be able to see the progress in the task bar. Left click the executable file to start the installation process.
 
-![Image124](files/Image124.png)
+![Image128](files/Image128.png)
 
 You’ll need to accept the license terms and conditions before running the installer. Give this a read through and if you accept the terms check the tick box and click ‘Install’.
 
