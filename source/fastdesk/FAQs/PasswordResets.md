@@ -1,0 +1,16 @@
+# Resetting FASTdesk Passwords
+
+Your FASTdesk password will expire every 6 weeks and you will be prompted to change it when you log in. Upon expiry you should see a
+screen similar to the one below.
+
+![Image133](files/Image133.png)
+
+Here, you need to enter a password which matches the FASTdesk password requirements. For security purposes, passwords must be 8
+characters or longer and include mixed case and at least one number.
+
+![Image134](files/Image134.png)
+
+You’ll then be asked to confirm this password. If the passwords that you entered correctly matched you will be logged in
+successfully and you’ll see a screen similar to the below.
+
+![Image135](files/Image135.png)
