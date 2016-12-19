@@ -14,3 +14,5 @@ You’ll then be asked to confirm this password. If the passwords that you enter
 successfully and you’ll see a screen similar to the below.
 
 ![Image135](files/Image135.png)
+
+If you have forgotten your password and would it like to be reset, this is something that can only be done by FASTdesk Support. In order to reset your password, you can email support@ukfast.co.uk, create a ticket via https://my.ukfast.co.uk/pss/add.php or ring our FASTdesk Support Line directly on 0800 923 0617.
