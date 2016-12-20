@@ -6,27 +6,16 @@ Enterprise-class file storage and sharing, based on eCloud Vault and Citrix Shar
 
 .. toctree::
    :maxdepth: 1
-   
+
    loggingin
    uploadingfiles
    downloadingfiles
    creatingfolderswithinFASTdrive
    deletingfilesandfolders
    drivemapper
-   managingusers
    addinganemployeemanually
    addinganemployeefromexcel
    addingclients
    browsingandmanagingemployees
    resettingpasswords
-   folderpermissionsforusers
    distributiongroups
-   notificationhistory   
-   
-   
-   
-   
-   
-   
-   
-   
