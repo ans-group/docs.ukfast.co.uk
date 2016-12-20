@@ -1,6 +1,6 @@
 # Restoring files and folders from a backup
 
-Restoring from a backup is a simple process.  Go to the files and/or folders you wish to restore as described in the [Managing Files and Folders](link) section.  Select the files or folders you wish to restore and click `Restore` at the top of the page.
+Restoring from a backup is a simple process.  Find to the files and/or folders you wish to restore as described in the [Managing Files and Folders](link) section.  Select the files or folders you wish to restore and click `Restore` at the top of the page.
 
 ![file options](files/file options.PNG)
 
