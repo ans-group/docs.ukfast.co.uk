@@ -2,11 +2,11 @@
 
 ## Choosing which files and folders to back up
 
-From the home screen of the web console click on `My Data`, find the computer or server you wish to work on and then click `Settings`.
+From the home screen of the [FASTcloudbackup web console](https://fcb.ukfast.co.uk) click on `My Data`, find the computer or server you wish to work on and then click `Settings`.
 
 ![Computers installed](files/Computers installed.PNG)
 
-By default, everything in your C:\Documents folder will be backed up.  If you wish to change which files and folders are backed up, go to the Content area on the right hand side and click `Edit`.
+The default setting is that everything in your C:\Documents folder will be backed up when you run a backup.  If you wish to change which files and folders are backed up, go to the Content area on the right hand side and click `Edit`.
 
 ![Content](files/Content.PNG)
 
