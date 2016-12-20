@@ -11,10 +11,7 @@ This section contains help relating to problems you may run in to.
 ## Trying to Add a New Computer doesn't work
 
 
-## Showing Live Machine data
-
-
-## Showing Network Share data
+## Showing Live Machine data and Network Share data
 
 
 ## Problems browsing file structure
