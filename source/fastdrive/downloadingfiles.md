@@ -1,8 +1,19 @@
 # Downloading Files
 
-To download a file, double click the file’s name. If you need to download multiple items at once then,  use the tick boxes at the start of each file, simply check the boxes for the files you want to download. Now click the download button which will appear when you check the first tick box
+Files can be downloaded from FASTdrive in order to be used locally. Firstly, navigate to the folder where the file that you’d like to download is situated.
 
-![Image4](files/Image4.PNG)
+To find the folder using the web app, navigate to ‘Folders’ which you can see in the left-hand menu. You’ll then be prompted to select either ‘Personal Folders’, ‘Shared Folders’, or ‘Favorites’ and the file which you are looking for will be in one of these folders.
 
-This will begin the download process which will vary depending on your browser, but you will always find the file in your downloads folder. Chrome users will see a tab at the bottom of the window which will  be the file you downloaded, you can click this to open and view the file. Firefox users will see an arrow icon near the top right corner of the screen; click on this to find your file. 
-When using ShareFile Drive Mapper, you will not need to download files, they will be available for you to access directly so long as you have a connection to the internet. If you do want to have a hard copy on your PC, you just need to copy and paste the file out of the S drive into your local Drive.
+![Image118](files/Image118.png)
+
+Once you have found where your file is located, you need to left-click the file name.
+
+![Image119](files/Image119.png)
+
+Completing this action will bring up a variety of options. However, in this instance we’re looking at how to download the document. On the right-hand side amongst the other options you’ll be able to see a button named ‘Download’. Clicking this will download the document.
+
+![Image120](files/Image120.png)
+
+Once you’ve hit the ‘Download’ icon, at the bottom of your screen you should see that the file is downloading or already has been downloaded. Left click the file in order to open the document locally.
+
+![Image121](files/Image121.png)
