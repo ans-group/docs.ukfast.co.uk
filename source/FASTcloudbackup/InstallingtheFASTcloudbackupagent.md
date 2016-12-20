@@ -2,7 +2,7 @@
 
 ## Downloading the agent
 
-Login to the FASTcloudbackup web console and click `Download Center` (apologies for the US spelling!).  
+Login to the [FASTcloudbackup web console](https://fcb.ukfast.co.uk) and click `Download Center` (apologies for the US spelling!).  
 
 ![download centre](files/download centre.PNG)
 
