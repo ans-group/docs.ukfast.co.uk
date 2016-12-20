@@ -10,6 +10,10 @@ Then use the file explorer to navigate to the files or folders you wish to work 
 
 ![navigate](files/navigate.PNG)
 
+If you need to locate files or folders from a backup taken on a specific date, or within a date range, then use the drop down menu towards the top right of the Restore Files page to find the files/folders in question.
+
+![date search](files/date search.PNG)
+
 ## Working with files
 
 To view a file, simply click on the file name and a window will open within your web browser, showing the contents of the file.  If you wish to download the file, you can click `Download` in the bottom left corner of this view.
