@@ -36,4 +36,9 @@ You can create schedules on a daily or weekly basis, where backups run at a set 
 
 ![add schedule](files/add schedule.PNG)
 
+## Amending your backup schedule
+
+You can amend your backup schedule as necessary, deleting and or changing existing scheduled backups.  To do this click on the scheduled backup, make the changes as required and click `OK`, or else click `Delete` to remove the scheduled backup.
+
+![amend](files/amend.PNG)
 
