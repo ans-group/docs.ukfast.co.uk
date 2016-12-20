@@ -15,4 +15,5 @@ FASTcloudbackup allows you to backup the files and folders on laptops, desktop c
    ManagingFASTcloudbackup
    Additionalfunctionality
    alerts
-   
+   Managing FASTcloudbackup for administrators
+   Troubleshooting
