@@ -19,3 +19,21 @@ Then navigate through your file structure to choose files and folders.
 ![browse files](files/browse files.PNG)
 
 You can return to the default setting (backing up everything in C:\Documents) by clicking `Reset to Default Content`.
+
+## Running a manual backup
+
+You can run a manual backup at any time, simply click `Backup Now` in the Schedules area. The backup will run immediately.  Note that if this is the first backup then it may take some time, depending on the size of the files and folders being backup up.  Subsequent backups are incremental, only backing up changes and/or new files created, and hence will generally be quicker to run.
+
+![manual](files/manual.PNG)
+
+## Creating a backup schedule
+
+You can create a backup schedule, so that your backups run automatically.  To do this click the `+ Schedule` button.  
+
+![schedule](files/schedule.PNG)
+
+You can create schedules on a daily or weekly basis, where backups run at a set time of day/day of week.  Alternatively you can set a minimum and maximum time period between each backup job - backups will then run automatically during the specified time window.
+
+![add schedule](files/add schedule.PNG)
+
+
