@@ -26,6 +26,6 @@ When you come to a screen called CommServe Authentication, you should enter the 
 
 ## Checking the agent is set up correctly
 
-Once you've installed the agent on your computer or server, you can check it's been set up properly by heading back to the FASTcloudbackup web console.  From the home page click `My Data` and you'll be taken to a page called Computers.  On here you will see the computer(s) and server(s) you have installed the FASTcloudbackup agent on to.
+Once you've installed the agent on your computer or server, you can check it's been set up properly by heading back to the [FASTcloudbackup web console](https://fcb.ukfast.co.uk).  From the home page click `My Data` and you'll be taken to a page called Computers.  On here you will see the computer(s) and server(s) you have installed the FASTcloudbackup agent on to.
 
 ![Computers installed](files/Computers installed.PNG)
