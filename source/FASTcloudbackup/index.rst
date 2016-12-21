@@ -7,6 +7,7 @@ FASTcloudbackup allows you to backup the files and folders on laptops, desktop c
 .. toctree::
    :maxdepth: 1
    
+   General product information
    Gettingstarted
    InstallingtheFASTcloudbackupagent
    Settingupbackups
