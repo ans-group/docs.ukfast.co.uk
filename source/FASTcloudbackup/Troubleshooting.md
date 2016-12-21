@@ -38,7 +38,7 @@ You can "kill" a backup job at any point through the [FASTcloudbackup web consol
 
 ## Failed backups
 
-You can see the history and status of your backup jobs by clicking `Recent Backup Jobs` within the computer or server in question.  You'll see a complete list of jobs, along with the status, number of files and total size of backup.  This will enable you to identify any backups that did not run successfully.
+You can see the history and status of your backup jobs in the [FASTcloudbackup web console](https://fcb.ukfast.co.uk) by clicking `Recent Backup Jobs` within the computer or server in question.  You'll see a complete list of jobs, along with the state, number of files and total size of backup.  This will enable you to identify any backups that did not run successfully.
 
 ![failed](files/failed2.PNG)
 
@@ -51,6 +51,14 @@ Possible backup job states are:
 (Oli what other states are there?  presumably a Failed to Complete one?  What could be the likely causes and what should people do about it?)
 
 ## Showing Live Machine data and Network Share data
+
+There are options to show live machine data and network share data within the [FASTcloudbackup web console](https://fcb.ukfast.co.uk).  You'll find these under the drop down menu at the top of the My Data screen.
+
+![date search](files/date search.PNG)
+
+To view this data you'll be asked to enter the Username and Password for the computer or server in question (note this is not the same as your FASTcloudbackup username and password).
+
+![live machine](files/live machine.PNG)
 
 
 
