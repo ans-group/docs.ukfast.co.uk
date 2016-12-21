@@ -22,12 +22,12 @@ To view a file, simply click on the file name and a window will open within your
 
 For additional options such as viewing previous versions or erasing the file, click the checkbox next to the file name and use the menu that appears at the top of the screen:
 
+![file options](files/file options.PNG)
+
 - Restore: will restore the file to the computer or server it was backed up from
 - Download: will download the file to the device you are using at present
 - Versions: will give access to previous versions of this file (note that previous versions are only available for 28 days, which is the retention period for FASTcloudbackup) 
 - Erase:  will delete the file from the backup (but not from the original computer or server it was backed up from)
-
-![file options](files/file options.PNG)
 
 ## Favourite folders
 
