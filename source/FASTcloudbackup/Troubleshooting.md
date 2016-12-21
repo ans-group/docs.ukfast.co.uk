@@ -6,7 +6,7 @@ This section contains help relating to problems you may run in to.
 
 (Oli please could you write this section)
 
-## Trying to Add a New Computer doesn't work
+## Add a New Computer doesn't work
 
 There is an button on the Computers page labelled `Add New Computer`.  
 
