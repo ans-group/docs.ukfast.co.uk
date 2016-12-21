@@ -18,7 +18,7 @@ You should not use this to add new computers or servers to be backed up - instea
 
 FASTcloudbackup runs as a system service and so cannot pre-select or utilise shortcuts to folders such as Documents or Photos.  In order to find the folders you wish to backup you'll need to navigate through the full path - for example `C:\Users\[username]\Documents\[foldername]`
 
-To make navigation simpler for folders you access regularly you can set up Favourite folders - see [Favourite folders](link) for instructions.
+To make it simpler to get to the folders you access regularly, set them up as [Favourite folders](link).
 
 ## The amount of data backed up is larger than the total of my files and folders
 
@@ -30,7 +30,7 @@ The first time a computer or server is backed up, a full backup of all selected 
 
 The speed of your network connectivity will also affect the time a backup takes to run.
 
-You can set up an alert so you are notified if a single backup job exceeds 24 hours - see the [Alerts](link) section for details.
+You can set up an alert so you are notified if a single backup job exceeds 24 hours - see [Alerts](link) for details.
 
 You can "kill" a backup job at any point through the [FASTcloudbackup web console](https://fcb.ukfast.co.uk).  When a backup job is in progress, click `Kill` in the Schedules area to stop the backup from running.
 
@@ -38,7 +38,17 @@ You can "kill" a backup job at any point through the [FASTcloudbackup web consol
 
 ## Failed backups
 
+You can see the history and status of your backup jobs by clicking `Recent Backup Jobs` within the computer or server in question.  You'll see a complete list of jobs, along with the status, number of files and total size of backup.  This will enable you to identify any backups that did not run successfully.
 
+![failed](files/failed.PNG)
+
+Possible backup job states are:
+
+- Completed:  the backup job ran successfully.
+
+- Failed to Start:  this is most likely because the computer or server was not accessible during the scheduled backup window, potentially in line with the policy you configured when [creating a backup schedule](link) - for example specifying that backups should only run if the computer is plugged in to a power source rather than on battery mode. 
+
+(Oli what other states are there?  presumably a Failed to Complete one?  What could be the likely causes and what should people do about it?)
 
 ## Showing Live Machine data and Network Share data
 
