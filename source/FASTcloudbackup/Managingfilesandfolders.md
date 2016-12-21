@@ -1,6 +1,6 @@
 # Managing Files and Folders
 
-Once your files and folders have been backed up using FASTcloudbackup, you can manage them within the web console.
+Once your files and folders have been backed up using FASTcloudbackup, you can manage them within the [web console](link https://fcb.ukfast.co.uk).
 
 To find your files, go to `My Data` from the homepage and click `Restore` next to the relevant computer or server.  Alternatively if you're aleady within the Settings for the specific computer or server you wish to work with, click `Select Files` in the Restore area.
 
