@@ -24,7 +24,7 @@ To remove files and folders previously selected, click the checkbox and then `X`
 
 ## Running a manual backup
 
-You can run a manual backup at any time, simply click `Backup Now` in the Schedules area. The backup will run immediately.  Note that if this is the first backup then it may take some time, depending on the size of the files and folders being backup up.  Subsequent backups are incremental, only backing up changes and/or new files created, and hence will generally be quicker to run.
+You can run a manual backup at any time, simply click `Backup Now` in the Schedules area. The backup will run immediately.  Note that if this is the first backup then it may take some time, depending on the size of the files and folders being backed up.  Subsequent backups are incremental, only backing up changes and/or new files created, and hence will generally be quicker to run.
 
 ![manual](files/manual.PNG)
 
