@@ -12,7 +12,7 @@ The default setting is that everything in your C:\Documents folder will be backe
 
 You can choose which files and folders to include in your backup process, or alternatively which ones you wish to exclude.  Click on the `+` symbol to specify which files and folders to include or exclude. 
 
-![files and folders](files/files and folders.PNG)
+![files folders default](files/files folders default.PNG)
 
 Then navigate through your file structure to choose files and folders.
 
