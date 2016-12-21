@@ -4,6 +4,7 @@ This section contains help relating to problems you may run in to.
 
 ## Problems installing the FASTcloudbackup agent
 
+(Oli please could you write this section)
 
 ## Trying to Add a New Computer doesn't work
 
@@ -19,7 +20,7 @@ You should not use this process to add new computers or servers to be backed up 
 ## Size of data backups
 
 
-## Backups taking a long time to ru
+## Backups taking a long time to run
 
 
 ## Showing Live Machine data and Network Share data
