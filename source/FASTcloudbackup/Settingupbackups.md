@@ -18,7 +18,9 @@ Then navigate through your file structure to choose files and folders.
 
 ![browse files](files/browse files.PNG)
 
-You can return to the default setting (backing up everything in C:\Documents) by clicking `Reset to Default Content`.
+To remove files and folders previously selected, click the checkbox and then `X`.  You can return to the default setting (backing up everything in C:\Documents) by clicking `Reset to Default Content`.
+
+![files and folders](files/files and folders.PNG)
 
 ## Running a manual backup
 
