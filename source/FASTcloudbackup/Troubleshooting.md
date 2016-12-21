@@ -16,6 +16,9 @@ You should not use this process to add new computers or servers to be backed up 
 
 ## Problems browsing file structure
 
+FASTcloudbackup runs as a system service and so cannot pre-select or utilise shortcuts to folders such as Documents or Photos.  In order to find the folders you wish to backup you'll need to navigate through the full path - for example `C:\Users\[username]\Documents\[foldername]`
+
+To make navigation simpler for folders you need to access regularly you can set up Favourite folders - see [Favourite folders](link) for instructions.
 
 ## Size of data backups
 
