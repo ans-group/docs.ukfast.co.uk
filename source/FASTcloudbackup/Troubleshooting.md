@@ -40,7 +40,7 @@ You can "kill" a backup job at any point through the [FASTcloudbackup web consol
 
 You can see the history and status of your backup jobs by clicking `Recent Backup Jobs` within the computer or server in question.  You'll see a complete list of jobs, along with the status, number of files and total size of backup.  This will enable you to identify any backups that did not run successfully.
 
-![failed](files/failed.PNG)
+![failed](files/failed2.PNG)
 
 Possible backup job states are:
 
