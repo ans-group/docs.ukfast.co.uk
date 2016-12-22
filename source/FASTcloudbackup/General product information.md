@@ -22,6 +22,15 @@ Once your data reaches our FASTcloudbackup servers it’s secured using AES-256 
 
 28 days for all files backed up.  
 
+## How does billing work?
+
+Billing for FASTcloudbackup is based on the amount of storage quota (in gigabytes) you purchase, plus the number of computers or servers you install the FASTcloudbackup agent on to.  Full pricing details are available on the [UKFast website](http://ukfast.co.uk/fastcloudbackup.html).
+
+(a) Storage quota - this is billed monthly in advance, based on the total amount of gigabytes you have purchased across all end user accounts
+
+(b) Per device charge - this is billed monthly in arrears, based on the total number of computers or servers the FASTcloudbackup agent has been installed on to.  Note that you will be billed even if a device is not currently being actively backed up - so if you no longer wish to backup a device then we suggest removing the FASTcloudbackup agent to avoid further charges.
+
+(Oli is the above correct?  How does a user go about removing the agent, is there a way to do this through the web console or is it just a case of uninstalling it directly on their device?.  if they do this, can they still access the files backed up previously through the console??)
 
 
 
