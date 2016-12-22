@@ -1,4 +1,4 @@
-# General product information
+# General information / FAQs
 
 ## What is FASTcloudbackup?
 
