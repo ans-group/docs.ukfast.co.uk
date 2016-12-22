@@ -32,7 +32,7 @@ If you are logged in to the web console and want to change your password, click 
 
 ## Viewing account activity and login history
 
-You can check for any devices currently logged in to FASTcloudbackup, and details of the last 10 sessions, by clicking your username in the top right corner of the [FASTcloudbackup web console](https://fcb.ukfast.co.uk) and then `Account Activity`
+You can check for any devices currently logged in to your FASTcloudbackup end user account, and details of the last 10 sessions, by clicking your username in the top right corner of the [FASTcloudbackup web console](https://fcb.ukfast.co.uk) and then `Account Activity`
 
 ![account activity](files/account activity.PNG)
 
