@@ -1,13 +1,12 @@
 # Adding Client users
 
-Client users can be added by any employee user as long as they have the relevant permissions enabled on their account. In order to add a client user, ‘Manage Client Users’ must be enabled which is usually the case anyway.
+Client users can be added by any employee user as long as they have the relevant permissions enabled on their account. In order to add a client user, __Manage Client Users__ must be enabled.
 
 A client user doesn’t have the same permissions as employee users and therefore doesn't require a license.
 
-
 ## Step 1
 
-Firstly, navigate to the 'People' tab which can be seen on the left-hand side of each page. Clicking here will expand the menu and here you will be able to see a variety of options. In order to create an employee, you want to choose 'Browse Clients'. Then, you want to click the green 'Create Client' button which can be seen on the right-hand side of the page.
+Firstly, navigate to the __People__ tab which can be seen on the left-hand side of each page. Clicking here will expand the menu and here you will be able to see a variety of options. In order to create an employee, you want to choose __Browse Clients__. Then, you want to click the green __Create Client__ button which can be seen on the right-hand side of the page.
 
 ![Image69](files/Image69.png)
 
