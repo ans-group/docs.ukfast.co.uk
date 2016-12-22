@@ -22,7 +22,7 @@ To make it simpler to get to the folders you access regularly, set them up as [F
 
 ## The amount of data backed up is larger than the total of my files and folders
 
-You may notice that the total amount of data backed up within FASTcloudbackup is larger than the size of the files and folders on the computer or server being backed up.  This will typically be because of any hidden files or metadata that has also been included in the backup process.
+You may notice that the total amount of data backed up within FASTcloudbackup is larger than the size of the files and folders on the computer or server being backed up.  This will typically be because of hidden files or metadata that have also been included in the backup process.
 
 ## Backups taking a long time to run
 
