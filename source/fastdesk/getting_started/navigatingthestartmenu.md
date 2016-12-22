@@ -18,15 +18,15 @@ The full list of apps is listed below. This list includes the apps which are alr
 
 ![Image155](files/Image155.png)
 
-If you right click an app you’ll see a variety of options appear. However the main two are ‘Pin to start (Unpin from Start) and Pin to taskbar (Unpin from taskbar).
+If you right click an app you’ll see a variety of options appear. However the main two are __Pin to start__ (Unpin from Start) and __Pin to taskbar__ (Unpin from taskbar).
 
 ![Image156](files/Image156.png)
 
-Pinning an app to your start menu means that it will appear on the initial start menu. In this instance I have pinned ‘Calculator’ to the start menu.
+Pinning an app to your start menu means that it will appear on the initial start menu. In this instance I have pinned __Calculator__ to the start menu.
 
 ![Image157](files/Image157.png)
 
-Pinning an app to the taskbar means that it will be seen at the bottom of your desktop. In this instance I have pinned ‘Notepad’ to the taskbar.
+Pinning an app to the taskbar means that it will be seen at the bottom of your desktop. In this instance I have pinned __Notepad__ to the taskbar.
 
 ![Image158](files/Image158.png)
 
