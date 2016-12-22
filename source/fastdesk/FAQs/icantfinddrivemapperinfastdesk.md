@@ -6,11 +6,11 @@ Upon first-time login, Drive Mapper will load by default and you will be prompte
 
 ![Image141](files/Image141.png)
 
-However, you may come across an issue where you can’t see the mapped drive in File Explorer and can’t see the Drive Mapper icon in the system tray. This occurs if you have right-clicked the Drive Mapper icon and hit ‘Exit’.
+However, you may come across an issue where you can’t see the mapped drive in File Explorer and can’t see the Drive Mapper icon in the system tray. This occurs if you have right-clicked the Drive Mapper icon and hit __Exit__.
 
 ![Image142](files/Image142.png)
 
-After you have clicked ‘Exit’, Drive Mapper will no longer appear in File Explorer and the system tray. However, there’s no need to worry as this can be rectified easily. In order to re-launch Drive Mapper, navigate to your start menu by clicking the Windows icon in the bottom left-hand corner of the screen.
+After you have clicked __Exit__, Drive Mapper will no longer appear in File Explorer and the system tray. However, there’s no need to worry as this can be rectified easily. In order to re-launch Drive Mapper, navigate to your start menu by clicking the Windows icon in the bottom left-hand corner of the screen.
 
 ![Image143](files/Image143.png)
 
