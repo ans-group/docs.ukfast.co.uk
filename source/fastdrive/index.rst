@@ -13,14 +13,12 @@ Enterprise-class file storage and sharing, based on eCloud Vault and Citrix Shar
    creatingfolderswithinFASTdrive
    deletingfilesandfolders
    drivemapper
-   managingusers
    addinganemployeemanually
    addinganemployeefromexcel
    addingclients
    browsingandmanagingemployees
    resettingpasswords
    distributiongroups
-   accessingpreviousversionsofyourfiles
    
    
    
