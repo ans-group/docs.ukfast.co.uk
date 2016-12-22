@@ -30,6 +30,6 @@ As you can see below, there are versions of the file above which are in the recy
 
 I have selected one of the files above and I have the option to either delete the file permanently or I can restore the file which will mean that it will be shown as a previous version.
 
-In this instance I have restored the file and as you can see there are now 6 previous versions of the file (including the current version). The version which I restored is the version saved at 9.46am.
+In this instance I have restored the file and as you can see there are now 6 previous versions of the file (including the current version). The version which I restored is the version saved at 11.25am.
 
 ![Image151](files/Image151.png)
