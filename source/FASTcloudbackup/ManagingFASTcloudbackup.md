@@ -22,7 +22,7 @@ You can then change the storage quota for the account.  Note that billing change
 
 ## Changing password 
 
-If you've forgotten your password, you can reset it by clicking `Forgot password?` on the [FASTcloudbackup web console]{https://fcb.ukfast.co.uk) login page.
+If you've forgotten your password, you can reset it by clicking `Forgot password?` on the [FASTcloudbackup web console](https://fcb.ukfast.co.uk) login page.
 
 ![FCB login screen](files/FCB login screen.PNG)
 
@@ -32,7 +32,7 @@ If you are logged in to the web console and want to change your password, click 
 
 ## Viewing account activity and login history
 
-You can check for any devices currently logged in to FASTcloudbackup, and details of the last 10 sessions, by clicking your username in the top right corner of the [FASTcloudbackup web console]{https://fcb.ukfast.co.uk) and then `Account Activity`
+You can check for any devices currently logged in to FASTcloudbackup, and details of the last 10 sessions, by clicking your username in the top right corner of the [FASTcloudbackup web console](https://fcb.ukfast.co.uk) and then `Account Activity`
 
 ![account activity](files/account activity.PNG)
 
