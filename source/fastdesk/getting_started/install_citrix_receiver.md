@@ -2,14 +2,17 @@
 
 ## Downloading Citrix Receiver
 
-* Navigate to the [FASTdesk web application](https://daas.ecloud.co.uk)
+Navigate to the [FASTdesk web application](https://daas.ecloud.co.uk) and login using the credentials you have been given. Your username should be something like `yourname@companyname.fastdesk`
 
-* Login using the credentials you have been supplied
->Your username should be something like `yourname@companyname.fastdesk`
+![Image160](files/Image160.png)
 
-* You will be prompted to change your password. This must be a minimum of 8 characters in lenth and include at least one capital letter and one numerical character
+Once you've logged in, you will be prompted to change your password. For security purposes, passwords must be 8 characters or longer and include mixed case and at least one number.
 
-* Click the __Detect Receiver__ button
+![Image161](files/Image161.png)
+
+![Image162](files/Image162.png)
+
+Another screen will then appear. Here, click the __Detect Receiver__ button
 >If you already have Citrix Receiver installed then this will launch automatically
 
 * Agree to the Citrix license agreement and click the __Download__ button
@@ -17,12 +20,12 @@
 
 ## Installing Citrix Receiver
 
-* Run the Citrix Receiver file and go through the installation wizard
+Run the Citrix Receiver file and go through the installation wizard
 
-* Launch Citrix Receiver from your program menu
+Launch Citrix Receiver from your program menu
 
 ## Configuring Citrix Receiver
 
-* Enter _daas.ecloud.co.uk_ when prompted to __Add Account__
+Enter __daas.ecloud.co.uk__ when prompted to __Add Account__
 
-* Enter your username and password
+Enter your username and password
