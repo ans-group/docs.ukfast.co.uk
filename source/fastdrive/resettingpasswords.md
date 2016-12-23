@@ -26,7 +26,7 @@ Once the password has been changed and the user can log in, they can then change
 
 ![Image87](files/Image87.png)
 
-The user wants to then click __Edit Profile’ on the following page.
+The user wants to then click __Edit Profile__ on the following page.
 
 ![Image88](files/Image88.png)
 
