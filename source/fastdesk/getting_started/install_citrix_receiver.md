@@ -54,7 +54,13 @@ You should then be reverted back to the screen below
 
 Now that Citrix Receiver has been downloaded and installed, you can click __Continue__ here.
 
-You 
+You may then see the following screen. As you can see below, a check is run to check that Citrix Receiver was installed correctly. If this is the case, you may see the __Citrix Receiver Launcher__ appear. Here, click __Open Citrix Receiver Launcher__.
+
+![Image177](files/Image177.png)
+
+You'll then be logged into FASTdesk and you'll be able to launch your applications.
+
+![Image178](files/Image178.png)
 
 ## Configuring Citrix Receiver
 
