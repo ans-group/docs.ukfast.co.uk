@@ -12,7 +12,14 @@ Once you've logged in, you will be prompted to change your password. For securit
 
 ![Image162](files/Image162.png)
 
-Another screen will then appear. Here, click the __Detect Receiver__ button
+Another screen will then appear. Here, click the __Detect Receiver__ button. This detects whether Citrix Receiver is already installed on your device.
+
+![Image163](files/Image163.png)
+
+If Citrix Receiver is already installed, you should see a notification appear similar to the below. Here, click 'Open Citrix Receiver Launcher
+
+![Image164](files/Image164.png)
+
 >If you already have Citrix Receiver installed then this will launch automatically
 
 * Agree to the Citrix license agreement and click the __Download__ button
