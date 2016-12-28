@@ -20,10 +20,11 @@ If Citrix Receiver is already installed, you should see a notification appear si
 
 ![Image164](files/Image164.png)
 
->If you already have Citrix Receiver installed then this will launch automatically
+However, if you don't have Citrix Receiver installed then you will need to install the application in order to proceed further. Read and agree to the Citrix license agreement and click the __Download__ button in order to this.
 
-* Agree to the Citrix license agreement and click the __Download__ button
->Citrix Receiver should automatically download, if it does not then click __Retry download__
+Once you have clicked __Download__, you will be able to see the progress of the file which is being downloaded in your browser.
+
+![Image170](files/Image170.png)
 
 ## Installing Citrix Receiver
 
