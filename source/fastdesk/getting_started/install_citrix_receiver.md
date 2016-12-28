@@ -52,13 +52,9 @@ You should then be reverted back to the screen below
 
 ![Image176](files/Image176.png)
 
-Now that Citrix Receiver has been downloaded and installed, you can click __Continue__ here
+Now that Citrix Receiver has been downloaded and installed, you can click __Continue__ here.
 
-## Installing Citrix Receiver
-
-Run the Citrix Receiver file and go through the installation wizard
-
-Launch Citrix Receiver from your program menu
+You 
 
 ## Configuring Citrix Receiver
 
