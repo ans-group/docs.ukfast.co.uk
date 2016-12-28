@@ -16,7 +16,7 @@ Another screen will then appear. Here, click the __Detect Receiver__ button. Thi
 
 ![Image163](files/Image163.png)
 
-If Citrix Receiver is already installed, you should see a notification appear similar to the below. Here, click 'Open Citrix Receiver Launcher
+If Citrix Receiver is already installed, you should see a notification appear similar to the below. Here, click __Open Citrix Receiver Launcher__.
 
 ![Image164](files/Image164.png)
 
