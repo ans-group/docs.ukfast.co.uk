@@ -18,6 +18,8 @@ You’ll then see a few options appear. Here, you want to choose ‘Connection C
 
 On the following screen, you’ll be able to see your current connected session. Left-click ‘My Desktop – Citrix Receiver’ and then left-click ‘Preferences’.
 
+![Image179](files/Image179.png)
+
 Here, you’ll be able to adjust what drives and devices are passed through to your FASTdesk session. As you can see below, you can restrict access to your local drives. This varies from read and write access to files to restricting access completely so that you can’t even see the files which are stored on the drive.
 
 ![Image168](files/Image168.png)
