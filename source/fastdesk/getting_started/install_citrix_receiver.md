@@ -74,4 +74,4 @@ You'll then be asked to __Enter your work email or server address provided by yo
 
 Here, all you'll need to enter is __daas.ecloud.co.uk__ and then click the __Add__ button.
 
-
+Citrix Receiver will then load and you'll be able to launch your applications.
