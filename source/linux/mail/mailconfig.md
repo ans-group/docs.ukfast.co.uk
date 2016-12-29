@@ -28,9 +28,7 @@ From a mail client you would use the A record you have set up to connect, so in 
 
 If you wanted to use an external service to send mail also, you would need to add the IP range of that mail service, usually they will provide a single DNS records or IP range for you to include. It is recommended that you consult their documentation for this purpose as it will be specialised for their service.
 
-You will also need to setup a hostname for the server which matches the reverse DNS. In our example this would be mail.ukfast.co.uk. [This](https://www.cyberciti.biz/faq/linux-change-hostname/) article is a good primer on how to change your hostname.
-
-[//]: # "TODO: Create hostname changing article"
+You will also need to setup a hostname for the server which matches the reverse DNS. In our example this would be mail.ukfast.co.uk. You can learn how to change your hostname [HERE](../misc/hostname.html).
  
 ## Misc Issues
 ### Blacklists
