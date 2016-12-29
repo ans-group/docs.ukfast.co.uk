@@ -64,6 +64,14 @@ You'll then be logged into FASTdesk and you'll be able to launch your applicatio
 
 ## Configuring Citrix Receiver
 
-Enter __daas.ecloud.co.uk__ when prompted to __Add Account__
+As well as logging into FASTdesk via the web portal, you can also log in through Citrix Receiver directly. Once you've followed the steps to download Citrix Receiver above, launch Receiver on your local computer.
 
-Enter your username and password
+![Image180](files/Image180.png)
+
+You'll then be asked to __Enter your work email or server address provided by your IT department:__
+
+![Image181](files/Image181.png)
+
+Here, all you'll need to enter is __daas.ecloud.co.uk__ and then click the __Add__ button.
+
+
