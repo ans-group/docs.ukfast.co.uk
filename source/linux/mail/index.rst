@@ -7,4 +7,5 @@ Mail
 
    bounces
    exim
+   mailconfig
    postfix
