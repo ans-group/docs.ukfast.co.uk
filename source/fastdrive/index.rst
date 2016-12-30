@@ -20,6 +20,7 @@ Enterprise-class file storage and sharing, based on eCloud Vault and Citrix Shar
    resettingpasswords
    distributiongroups
    accessingpreviousversionsofyourfiles
+   addingfilesandfolderstoyourfavorites
    
    
    
