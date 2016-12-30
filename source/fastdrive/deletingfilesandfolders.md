@@ -46,7 +46,7 @@ Navigate to the file or folder that you wish to delete. In my example below, I h
 
 As you can see above, in this folder is a file called __Doc1Test__. To delete this document, I can left-click the file and press the __Delete__ key on my keyboard.
 
-Alternatively, I can right click the file and press the __delete__ button.
+Alternatively, I can right click the file and press the __Delete__ button.
 
 ![Image105](files/Image105.png)
 
