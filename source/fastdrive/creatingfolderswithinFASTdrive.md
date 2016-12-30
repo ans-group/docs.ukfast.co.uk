@@ -34,6 +34,6 @@ Once users have been added, you can see their permissions by clicking __People o
 
 ![Image63](files/Image63.png)
 
-Below, are the users that have been given permissions and you can see the variety of permissions that they have.
+Below, are the users that have been given permissions and you can see the permissions that they have.
 
 ![Image64](files/Image64.png)
