@@ -12,7 +12,7 @@ If you hover over this icon, a variety of options will appear as shown below:
 
 ![Image59](files/Image59.png)
 
-In order to create a folder, you want to choose __Create Folder__. Once you have done this, the following screen will appear. This requires you to enter the name of the folder and you can also add a description if you like. You also have the option to add people to the folder right away or you can do this after the folder has been created.
+In order to create a folder, you want to choose __Create Folder__. Once you have done this, the following screen will appear. This requires you to enter the name of the folder and you can also add a description of what is in the folder if you like. You also have the option to add people to the folder right away or you can do this after the folder has been created.
 
 ![Image60](files/Image60.png)
 
