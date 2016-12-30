@@ -1,4 +1,4 @@
-# Adding an Employee
+# Adding an employee manually
 
 The admin user has permissions to create employee accounts on the system. The below is a tutorial on how to do this.
 
