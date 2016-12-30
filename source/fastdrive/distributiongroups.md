@@ -30,7 +30,7 @@ As you can see below I have added 2 test users to the distribution group.
 
 ![Image113](files/Image113.png)
 
-This means that I can create a folder and add the distribution group as users to the folder. Below I have created a folder called __Test Distribution Group Folder__ and I have ticked the __Add People to Folder__ check box.
+This means that I can create a folder and add members of the distribution group as users to the folder. Below I have created a folder called __Test Distribution Group Folder__ and I have ticked the __Add People to Folder__ check box.
 
 ![Image114](files/Image114.png)
 
