@@ -1,6 +1,6 @@
 # Adding Client users
 
-Client users can be added by any employee user as long as they have the relevant permissions enabled on their account. In order to add a client user, __Manage Client Users__ must be enabled.
+Client users can be added by any employee user as long as they have the relevant permissions enabled on their account. In order to add a client user, the __Manage Client Users__ permission must be enabled.
 
 A client user doesn’t have the same permissions as employee users and therefore doesn't require a license.
 
