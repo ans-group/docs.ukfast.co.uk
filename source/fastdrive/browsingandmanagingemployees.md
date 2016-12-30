@@ -16,7 +16,7 @@ You can manage an employee by clicking the cog icon next to their name. Pressing
 
 In the above view you can see basic data about the user such as their email address which they use to log into FASTdrive and their name. On the right-hand side you can see various user-level actions which you can initiate. Below, these are explained in more detail.
 
-__Disable User__ – This will disable the user and make the account inactive until it is reactivated.
+__Disable User__ – This will disable the user and make the account inactive but will not delete the user. Even when disabled, accounts still use employee licenses.
 
 __Downgrade to client__ – This will remove the account as an employee user and turn it into a client user. Any files or groups owned by the employee will also need to be assigned to another user unless you would like to delete these files and groups permanently.
 
@@ -25,7 +25,6 @@ __Delete from all the folders I own__ – This will remove the specified user fr
 __Delete from the system__ – This will remove the account from the system completely. Similarly to when you are downgrading an employee user to a client user, you will be prompted to assign any files and groups owned by the user to another user unless you would like to delete these files and groups permanently.
 
 __Log this user out__ – This will log the user out of all of their active sessions, whether that is the Drive Mapper application or the web app.
-
 
 You can also change some of the user’s permissions by expanding the __User Access__ tab.
 
