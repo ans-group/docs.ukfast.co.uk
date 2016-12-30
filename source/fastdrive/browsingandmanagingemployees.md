@@ -4,7 +4,7 @@ The admin user can find other employee users on FASTdrive by navigating to the _
 
 ![Image75](files/Image75.png)
 
-Here, you’ll be able to see the amount of licenses which you have and how many are being used and also the list of employee users associated with your account.
+Here, you’ll be able to see the amount of licenses that you have and how many are being used and also the list of employee users associated with your account.
 
 ![Image76](files/Image76.png)
 
