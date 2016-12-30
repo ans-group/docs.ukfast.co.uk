@@ -4,7 +4,7 @@ Files and folders can easily be deleted from the Web App or in Drive Mapper.
 
 ## Web App:
 
-To delete a folder in the web app, left-click the ‘Folders’ tab which you can see on the left side menu. You’ll see this menu expand into 3 folders; __Personal Folders__, __Shared Folders__, and __Favorites__. Choose the folder where the folder which you would like to delete is stored.
+To delete a folder in the web app, left-click the ‘Folders’ tab which you can see on the left side menu. You’ll see this menu expand into 3 folders; __Personal Folders__, __Shared Folders__, and __Favorites__. Choose the location where the file or folder which you would like to delete is stored.
 
 ![Image97](files/Image97.png)
 
