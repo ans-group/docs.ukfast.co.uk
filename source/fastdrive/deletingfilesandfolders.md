@@ -62,6 +62,6 @@ To access the recycle bin, open up the folders tab and click __Recycle Bin__ as 
 
 You’ll then be able to see all of the files which are in the recycle bin. As you can see below, the file that we deleted earlier is now in the recycle bin.
 
-You can delete this file permanently by marking the check box and clicking __Delete Permanently__. Likewise, you can restore the file back to its previous destination by choosing __Restore__.
+You can delete this file permanently by marking the check box and clicking __Delete Permanently__. Otherwise, you can restore the file back to its previous destination by choosing __Restore__.
 
 ![Image108](files/Image108.png)
