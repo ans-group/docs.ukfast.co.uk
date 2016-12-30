@@ -26,7 +26,9 @@ However, if you do decide to add people to the folder, you will see the followin
 
 ![Image62](files/Image62.png)
 
-You can add a user to the folder by entering their name if they are already in the address book, or by creating a new user. On the right, you can adjust the folder permissions to what you deem necessary. Take note that you can’t assign different permissions to different users in this view.
+You can add a user to the folder by entering their name if they are already in the address book, or by creating a new user. On the right, you can adjust the folder permissions to what you deem necessary.
+
+_Take note that you can’t assign different permissions to different users in this view. For example, if you're adding 3 users but only wish for 1 user to have upload access, configure these permissions after you have created the folder._
 
 Once users have been added, you can see their permissions by clicking __People on this Folder__.
 
