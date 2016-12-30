@@ -32,7 +32,7 @@ To do this, open File Explorer by clicking the yellow folder icon in your task b
 
 ![Image101](files/Image101.png)
 
-You then need to navigate your mapped drive. In the list of drives on the left, you’ll be able to see the following:
+You then need to navigate to your mapped drive. In the list of drives on the left, you’ll be able to see the following:
 
 ![Image102](files/Image102.png)
 
