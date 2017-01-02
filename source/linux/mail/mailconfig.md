@@ -16,14 +16,14 @@ It requires the following types of records:
 ## DNS Explained
 
 ```eval_rst
-+-------+--------------+----------+
-| Type 	| Description 	| Example 	|
-|=======|==============|==========|
-| A 	| Points a domain to an IP 	| mail.ukfast.co.uk -> 37.220.91.195 	|
-| MX 	| Points mailservers to the correct A record which receives mail 	| ukfast.co.uk -> mail.ukfast.co.uk 	|
-| rDNS 	| Points an IP to a corresponding A record 	| 37.220.91.195 -> mail.ukfast.co.uk 	|
-| SPF (TXT) 	| Tells mailservers which IP addresses they should expect mail to arrive from 	| v=spf1 mx a ~all 	|
-+------------+------------------------------------------------------------------------------+-------------------+
++------------+------------------------------------------------------------------------------+-------------------------------------+
+| Type      	| Description                                                                 	| Example                            	|
+|============|==============================================================================|=====================================|
+| A         	| Points a domain to an IP                                                    	| mail.ukfast.co.uk -> 37.220.91.195 	|
+| MX 	       | Points mailservers to the correct A record which receives mail              	| ukfast.co.uk -> mail.ukfast.co.uk  	|
+| rDNS      	| Points an IP to a corresponding A record                                    	| 37.220.91.195 -> mail.ukfast.co.uk 	|
+| SPF (TXT) 	| Tells mailservers which IP addresses they should expect mail to arrive from 	| v=spf1 mx a ~all 	                  |
++------------+------------------------------------------------------------------------------+-------------------------------------+
 ```
 
 In the above examples you would be able to send an email to example@ukfast.co.uk because the MX records is setup for ukfast.co.uk. It points to the A record mail.ukfast.co.uk which points to the IP 37.220.91.195. The IP 37.220.91.195 has a reverse DNS of mail.ukfast.co.uk which some mail servers will check as part of their spam checks. On top of this most mail servers will do SPF checks, the example "v=spf1 mx a ~all" specifies that any IP which the A or MX record of ukfast.co.uk is allowed to send mail - Please note we have not set an A record for ukfast.co.uk but mail.ukfast.co.uk in the examples, therefore the "a" option is redundent here.
