@@ -1,4 +1,4 @@
-# Mail Primer
+# Basics of mail
 
 Mail is complicated and requires lots of setup to get right. Getting it wrong can mean lots of pain in the future. The aim of this guide is to provide you an overview of how to set up your mail server the right way.
 
