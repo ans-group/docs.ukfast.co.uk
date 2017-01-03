@@ -10,7 +10,7 @@ Here, you will see all of the employee users which are on the platform. Select t
 
 ![Image83](files/Image83.png)
 
-From here you’ll be able to see the __Basic info__ section and within the section is an option to reset the user’s password.
+From here you’ll be able to see the __Basic info__ section and you'll see an option to reset the user’s password.
 
 ![Image84](files/Image84.png)
 
