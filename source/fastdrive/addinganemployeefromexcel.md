@@ -1,6 +1,6 @@
 # Adding an employee from an Excel spreadsheet
 
-Alternatively, multiple employees can be added through an Excel spreadsheet to speed up the process. To do this, again navigate to __People__ and then __Browse Employees__. Click __Create Employee__ as normal and you will see this button:
+Instead of adding employee users manually one-by-one, multiple employees can be added through an Excel spreadsheet to speed up the process. To do this, again navigate to __People__ and then __Browse Employees__. Click __Create Employee__ as normal and you will see this button:
 
 ![Image65](files/Image65.png)
 
