@@ -12,7 +12,7 @@ Choose one of the above top-level folders and navigate to the document that you�
 
 ![Image147](files/Image147.png)
 
-If you look to the right of the file name and the file upload time, you will see a small little blue icon. As you can see, this icon does not appear beside every file. If only one version of a file can be found, the icon will not be shown and you won’t be able to view previous versions.
+If you look to the right of the file name and the file upload time, you will see a small blue icon. As you can see, this icon does not appear beside every file. If only one version of a file can be found, the icon will not be shown and you won’t be able to view previous versions.
 
 Clicking the blue icon will show you the previous version(s) of this file. In this instance, you can see that there are 5 versions (including the current version). 
 
