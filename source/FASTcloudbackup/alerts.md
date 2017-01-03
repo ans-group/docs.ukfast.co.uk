@@ -21,7 +21,7 @@ There are four alerts you can choose to set up, by ticking the relevant box:
 
 Each alert will be sent as an email to your registered email address in the event of a problem.
 
-To stop receiving alerts, simply uncheck the relevant box.
+To stop receiving alerts, simply untick the relevant box(es).
 
 ## Setting up alerts for all computers or servers within your FASTcloudbackup end user account
 
@@ -29,4 +29,4 @@ From the homepage of the [FASTcloudbackup web console](https://fcb.ukfast.co.uk)
 
 ![alerts all clients](files/alerts all clients.PNG)
 
-To stop receiving alerts, simply uncheck the relevant box.
+To stop receiving alerts, simply untick the relevant box(es).
