@@ -22,7 +22,7 @@ To add a user to the distribution group, click __Add New User__
 
 ![Image185](files/Image185.png)
 
-You can either search for a user who is already a user on the system, or you can create a new user to add to the distribution group.
+You can either search for a user who already exists on the system, or you can create a new user to add to the distribution group.
 
 ![Image112](files/Image112.png)
 
