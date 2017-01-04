@@ -4,13 +4,13 @@ Instead of adding employee users manually one-by-one, multiple employees can be 
 
 ![Image65](files/Image65.png)
 
-The following screen will then appear. There is a link to a template spreadsheet which shows how the spreadsheet needs to be structured before being uploaded. The below image also contains instructions on how to export from Outlook.
+The following screen will then appear which explains how the process is carried out. There is a link to a template spreadsheet which shows how the spreadsheet needs to be structured before being uploaded. The below image also contains instructions on how to export your Outlook contacts if you wish to use some of them in FASTdrive.
 
 ![Image66](files/Image66.png)
 
 If you copy the headers into your own spreadsheet you can then input your own data. Note: The headers must not have spaces in between words and the company field doesn’t have to be filled in. The password field can also be left blank if preferred and a password will be automatically chosen.
 
-Click __Choose File__ then upload your Excel file. Once uploaded you should see a screen like the one below.
+Click __Choose File__ then upload your Excel file. Once uploaded you should see a table like the one below. This should contain the data which you have stored in your Excel spreadsheet.
 
 ![Image67](files/Image67.png)
 
