@@ -72,8 +72,12 @@ You'll then be asked to __Enter your work email or server address provided by yo
 
 ![Image181](files/Image181.png)
 
-Here, all you'll need to enter is __daas.ecloud.co.uk__ and then click the __Add__ button.
+Here, you'll need to enter __daas.ecloud.co.uk__ and then click the __Add__ button.
 
-Citrix Receiver will then load and you'll be able to launch your applications.
+You'll then be prompted to enter your FASTdesk login credentials
+
+![Image189](files/Image189.png)
+
+Click log on, and if your credentials are correct, Citrix Receiver will then load and you'll be able to launch your applications.
 
 ![Image182](files/Image182.png)
