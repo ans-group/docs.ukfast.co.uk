@@ -12,11 +12,11 @@ You’ll then see a variety of icons appear. To navigate to the Citrix Receiver 
 
 ![Image166](files/Image166.png)
 
-You’ll then see a few options appear. Here, you want to choose ‘Connection Center’.
+You’ll then see a few options appear. Here, you want to choose __Connection Center__.
 
 ![Image167](files/Image167.png)
 
-On the following screen, you’ll be able to see your current connected session. Left-click ‘My Desktop – Citrix Receiver’ and then left-click ‘Preferences’.
+On the following screen, you’ll be able to see your current active session. Here, left-click the session and then left-click ‘Preferences’. The name of the session is likely to be called __My Desktop – Citrix Receiver__ as you can see below.
 
 ![Image179](files/Image179.PNG)
 
@@ -26,13 +26,13 @@ Here, you’ll be able to adjust what drives and devices are passed through to y
 
 Also, you can change to the ‘Connections’ tab to change which devices are passed through to your FASTdesk session. As you can see below, you can change the session settings for microphones and webcams and digital cameras and scanners.
 
-‘Connect automatically’ will ensure that the devices are automatically recognised.
+__Connect automatically__ will ensure that the devices are automatically recognised.
 
-‘Do not connect’ will prevent the devices from being recognised.
+__Do not connect__ will prevent the devices from being recognised.
 
-‘Ask me’ will prompt you when a device is going to be used.
+__Ask me__ will prompt you when a device is going to be used.
 
 ![Image169](files/Image169.png)
 
-Once you have made the necessary changes, click ‘Apply’ and then ‘OK’ to save your changes.
+Once you have made the necessary changes, click __Apply__ and then __OK__ to save your changes.
 
