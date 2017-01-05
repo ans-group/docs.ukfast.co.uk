@@ -2,7 +2,7 @@
 
 Files can be downloaded from FASTdrive in order to be used locally. Firstly, navigate to the folder where the file that you’d like to download is situated.
 
-To find the folder using the web app, navigate to ‘Folders’ which you can see in the left-hand menu. You’ll then be prompted to select either ‘Personal Folders’, ‘Shared Folders’, or ‘Favorites’ and the file which you are looking for will be in one of these folders.
+To find the folder using the web app, navigate to __Folders__ which you can see in the left-hand menu. You’ll then be prompted to select either __Personal Folders__, __Shared Folders__, or __Favorites__ and the file which you are looking for will be in one of these folders.
 
 ![Image118](files/Image118.png)
 
@@ -10,10 +10,18 @@ Once you have found where your file is located, you need to left-click the file 
 
 ![Image119](files/Image119.png)
 
-Completing this action will bring up a variety of options. However, in this instance we’re looking at how to download the document. On the right-hand side amongst the other options you’ll be able to see a button named ‘Download’. Clicking this will download the document.
+Completing this action will bring up a variety of options. However, in this instance we’re looking at how to download the document. On the right-hand side amongst the other options you’ll be able to see a button named __Download__. Clicking this will download the document.
 
 ![Image120](files/Image120.png)
 
-Once you’ve hit the ‘Download’ icon, at the bottom of your screen you should see that the file is downloading or already has been downloaded. Left click the file in order to open the document locally.
+Once you’ve hit the __Download__ icon, at the bottom of your screen you should see that the file is downloading or already has been downloaded. Left click the file in order to open the document locally.
 
 ![Image121](files/Image121.png)
+
+Files can also be downloaded without opening the file preview screen. Instead of left-clicking the name of the file which you would like to download, check the tick-box to the left of the file name as shown below.
+
+![Image183](files/Image183.png)
+
+Above this, you'll be able to see a variety of actions which you can undertake. One of these actions is to __Download__ the file(s) which you have selected. Click this button and the file will download as normal.
+
+![Image184](files/Image184.png)

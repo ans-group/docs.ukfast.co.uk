@@ -8,4 +8,5 @@ Guides for your first footsteps into the world of FASTdesk, covering installatio
    :maxdepth: 1
 
    install_citrix_receiver
+   navigatingthestartmenu
    navigation

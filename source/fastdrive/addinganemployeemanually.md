@@ -1,10 +1,10 @@
-# Adding an Employee
+# Adding an employee manually
 
 The admin user has permissions to create employee accounts on the system. The below is a tutorial on how to do this.
 
 ## Step 1
 
-Firstly, navigate to the 'People' tab which can be seen on the left-hand side of each page. Clicking here will expand the menu and here you will be able to see a variety of options. In order to create an employee, you want to choose 'Browse Employees'. Then, you want to click the green 'Create Employee' button which can be seen on the right-hand side of the page.
+Firstly, navigate to the __People__ tab which can be seen on the left-hand side of each page. Clicking here will expand the menu and here you will be able to see a variety of options. In order to create an employee, you want to choose __Browse Employees__. Then, you want to click the green __Create Employee__ button which can be seen on the right-hand side of the page.
 
 ![Image42](files/Image42.png)
 
@@ -24,29 +24,29 @@ The password field will be automatically filled in as you can see below but you 
 
 ![Image45](files/Image45.png)
 
-You will also need to provide the user with some basic user permissions. 'Select storage zone for root-level folders' will be set as unticked by default because this is automatically set to our storage zone. 'Create root-level folders', 'Use personal File Box', 'Manage client users', and 'Edit the shared address book' will be set as ticked by default. However, the admin user can choose whether the employee user can change his/her password and whether they can see the 'My Settings' link on the top navigation bar. Furthermore, you can also choose whether to add this user to the shared company address book and the address book from which you are creating the account.
+You will also need to provide the user with some basic user permissions. __Select storage zone for root-level folders__ will be set as unticked by default because this is automatically set to our storage zone. __Create root-level folders__, __Use personal File Box__, __Manage client users__, and __Edit the shared address book__ will be set as ticked by default. However, the admin user can choose whether the employee user can change his/her password and whether they can see the __My Settings__ link on the top navigation bar. Furthermore, you can also choose whether to add this user to the shared company address book and the address book from which you are creating the account.
 
 ![Image46](files/Image46.png)
 
-We recommend that ‘Add this user to the shared company address book’ is ticked. This is so that the user can be seen by other users on the platform and share files with them.
+We recommend that __Add this user to the shared company address book__ is ticked. This is so that the user can be seen by other users on the platform and share files with them.
 
 The following describes the permissions and what they do:
 
-Create-root-level folders – This will give a user permission to create top level folders.
+__Create-root-level folders__ – This will give a user permission to create top level folders.
 
-Use personal File Box – This will give a user permission to use their file box.
+__Use personal File Box__ – This will give a user permission to use their file box.
 
-Manage client users – This will give the user permission to add client users.
+__Manage client users__ – This will give the user permission to add client users.
 
-Edit the shared address book – This will give user’s permission to edit the users within the shared address book.
+__Edit the shared address book__ – This will give user’s permission to edit the users within the shared address book.
 
-Change his/her password – This will give the user permission to change their password.
+__Change his/her password__ – This will give the user permission to change their password.
 
-See the ‘My Settings’ link on the top navigation bar – This will allow the user to see this button.
+__See the 'My Settings’ link on the top navigation bar__ – This will allow the user to see this button.
 
-Add this user to the shared company address book – This will add the user to the shared address book which is seen by all employee users.
+__Add this user to the shared company address book__ – This will add the user to the shared address book which is seen by all employee users.
 
-Add this user to my address book – This will add the user to your personal address book but not to other users address books.
+__Add this user to my address book__ – This will add the user to your personal address book but not to other users address books.
 
 ## Step 4
 
@@ -56,7 +56,7 @@ Next you can choose to add employee users to folders and groups. Here you can ch
 
 ![Image48](files/Image48.png)
 
-You can set up folder permissions after you have created the user unless you are adding a user to a distribution group. You can navigate to individual folders and set permissions by navigating to the ‘People on this Folder’ tab.
+You can set up folder permissions after you have created the user unless you are adding a user to a distribution group. You can navigate to individual folders and set permissions by navigating to the __People on this Folder__ tab.
 
 Step 5:
 
