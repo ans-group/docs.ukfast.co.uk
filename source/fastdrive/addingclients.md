@@ -6,7 +6,7 @@ A client user doesn’t have the same permissions as employee users and therefor
 
 ## Step 1
 
-Firstly, navigate to the __People__ tab which can be seen on the left-hand side of each page. Clicking here will expand the menu and here you will be able to see a variety of options. In order to create an employee, you want to choose __Browse Clients__. Then, you want to click the green __Create Client__ button which can be seen on the right-hand side of the page.
+Firstly, navigate to the __People__ tab which can be seen on the left-hand side of each page. Clicking here will expand the menu and here you will be able to see a variety of options. In order to create an employee, you want to choose __Browse Clients__. Then, click the green __Create Client__ button which can be seen on the right-hand side of the page.
 
 ![Image69](files/Image69.png)
 
