@@ -74,7 +74,7 @@ You'll then be asked to __Enter your work email or server address provided by yo
 
 Here, you'll need to enter __daas.ecloud.co.uk__ and then click the __Add__ button.
 
-You'll then be prompted to enter your FASTdesk login credentials
+You'll then be prompted to enter your FASTdesk login credentials.
 
 ![Image189](files/Image189.png)
 
