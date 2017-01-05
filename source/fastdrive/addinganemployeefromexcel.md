@@ -1,6 +1,6 @@
 # Adding an employee from an Excel spreadsheet
 
-Instead of adding employee users manually one-by-one, multiple employees can be added through an Excel spreadsheet to speed up the process. To do this, again navigate to __People__ and then __Browse Employees__. Click __Create Employee__ as normal and you will see this button:
+Instead of adding employee users manually one-by-one, multiple employees can be added by using an Excel spreadsheet to speed up the process. To do this, again navigate to __People__ and then __Browse Employees__. Click __Create Employee__ and you will see this button:
 
 ![Image65](files/Image65.png)
 
@@ -38,4 +38,4 @@ __Add this user to my address book__ – This will add the user to your personal
 
 ![Image68](files/Image68.png)
 
-Once permissions have been set, you will have the option to send out confirmation emails. This lets the user know that they have been added as a user.
+Once permissions have been set, you will have the option to send out confirmation emails. This lets the new user know that they have been added to FASTdrive.
