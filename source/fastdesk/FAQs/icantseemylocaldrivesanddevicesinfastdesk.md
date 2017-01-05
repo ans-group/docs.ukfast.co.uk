@@ -16,15 +16,15 @@ You’ll then see a few options appear. Here, you want to choose __Connection Ce
 
 ![Image167](files/Image167.png)
 
-On the following screen, you’ll be able to see your current active session. Here, left-click the session and then left-click ‘Preferences’. The name of the session is likely to be called __My Desktop – Citrix Receiver__ as you can see below.
+On the following screen, you’ll be able to see your current active session. Here, left-click the session and then left-click __Preferences__. The name of the session is likely to be called __My Desktop – Citrix Receiver__ as you can see below.
 
 ![Image179](files/Image179.PNG)
 
-Here, you’ll be able to adjust what drives and devices are passed through to your FASTdesk session. As you can see below, you can restrict access to your local drives. This varies from read and write access to files to restricting access completely so that you can’t even see the files which are stored on the drive.
+Here, you’ll be able to adjust what drives and devices are passed through to your FASTdesk session. As you can see below, you can restrict access to your local drives. This varies from granting read and write access to files to restricting access completely so that you can’t even see the files which are stored on the drive.
 
 ![Image168](files/Image168.png)
 
-Also, you can change to the ‘Connections’ tab to change which devices are passed through to your FASTdesk session. As you can see below, you can change the session settings for microphones and webcams and digital cameras and scanners.
+Also, you can switch to the __Connections__ tab to change which devices are passed through to your FASTdesk session. As you can see below, you can change the session settings for microphones and webcams and digital cameras and scanners.
 
 __Connect automatically__ will ensure that the devices are automatically recognised.
 
@@ -35,4 +35,3 @@ __Ask me__ will prompt you when a device is going to be used.
 ![Image169](files/Image169.png)
 
 Once you have made the necessary changes, click __Apply__ and then __OK__ to save your changes.
-
