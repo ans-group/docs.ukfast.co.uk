@@ -44,11 +44,11 @@ Citrix Receiver will then begin to install.
 
 ![Image174](files/Image174.png)
 
-Once Citrix Receiver has fully installed you'll see the following
+Once Citrix Receiver has fully installed you'll see the following:
 
 ![Image175](files/Image175.png)
 
-You should then be reverted back to the screen below
+You should then be reverted back to the screen below:
 
 ![Image176](files/Image176.png)
 
