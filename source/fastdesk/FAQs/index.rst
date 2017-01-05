@@ -10,4 +10,3 @@ Answers to your frequently asked FASTdesk questions.
    howcaniresetmyfastdeskpassword
    icantfinddrivemapperinfastdesk
    icantseemylocaldrivesanddevicesinfastdesk
-   

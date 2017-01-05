@@ -8,6 +8,7 @@ Miscellaneous
    clam
    dirtycow
    fsck
+   hostname
    logrotate
    vulnerabilityscans
    self_signed_certificates

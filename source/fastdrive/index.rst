@@ -6,7 +6,7 @@ Enterprise-class file storage and sharing, based on eCloud Vault and Citrix Shar
 
 .. toctree::
    :maxdepth: 1
-   
+
    loggingin
    uploadingfiles
    downloadingfiles
@@ -21,11 +21,3 @@ Enterprise-class file storage and sharing, based on eCloud Vault and Citrix Shar
    distributiongroups
    accessingpreviousversionsofyourfiles
    addingfolderstoyourfavorites
-   
-   
-   
-   
-   
-   
-   
-   
