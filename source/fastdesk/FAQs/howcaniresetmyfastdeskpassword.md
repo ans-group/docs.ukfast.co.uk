@@ -1,5 +1,25 @@
 # How can I reset my FASTdesk password?
 
+FASTdesk passwords can be reset within your virtual desktop. To reset your password, firstly launch your desktop.
+
+![Image190](files/Image190.png)
+
+At the top of your screen you should be able to see a small black icon.
+
+![Image191](files/Image191.png)
+
+Click this icon and it will expand and you'll be able to see a variety of options. Here, Click __Ctrl + Alt + Del__
+
+![Image192](files/Image192.png)
+
+You'll then be able to see 4 options. One of these options is __Change a password__. Click this in order to change your password.
+
+![Image193](files/Image193.png)
+
+On the next screen, enter your old password and enter your new password twice for validation purposes.
+
+![Image194](files/Image194.png)
+
 Your FASTdesk password will expire every 6 weeks and you will be prompted to change it when you log in. Upon expiry you should see a
 screen similar to the one below.
 
