@@ -64,6 +64,10 @@ To view this data you'll be asked to enter the Username and Password for the com
 
 You may see an option within the web console to Sync data between two computers you are backing up.  However this feature is currently disabled within FASTcloudbackup and therefore will not do anything when selected.
 
+## Why doesn't the Migration Assistant work?
+
+When installing the FASTcloudbackup agent, a Migration Assistant will also be added to your computer or server.  However you should not use this to complete the installation or setup process.  Simply follow the instructions in [Setting up the FASTcloudbackup agent](link).
+
 
 
 
