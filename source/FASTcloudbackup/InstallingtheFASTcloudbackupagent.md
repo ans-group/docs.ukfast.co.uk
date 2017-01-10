@@ -14,11 +14,25 @@ Find the appropriate Windows or Linux agent and click `Download`.  The agent wil
 
 Find the agent in your browser's download folder and open it.  Follow the instructions given to install the agent.
 
-(add screenshots from agent)
+![download agent](files/windows-install01.png)
+
+Select where to install the FASTcloudbackup agent. By default this will be to C:\Program Files\FASTcloudbackup\ContentStore
+
+![download agent](files/windows-install02.png)
+
+The installer will proceed to install the FASTcloudbackup agent on your computer.
+
+![download agent](files/windows-install03.png)
+
+You will be asked to name your computer on how it will be displayed in your FASTcloudbackup console. By default, this will be the local hostname of the computer running the install, alternatively you can change this to make it easier to identify the computer. It is recommended to keep the Client Name and Host Name as the same value.
+
+![download agent](files/windows-install04.png)
 
 When you come to a screen called CommServe Authentication, you should enter the same User Name and Password that you used to log in to the FASTcloudbackup web console.
 
-(add screenshot of CommServe Authentication screen)
+![download agent](files/windows-install05.png)
+
+The installation will the complete and you can begin to manage backups of this computer in the FASTcloudbackup web console.
 
 ## Installing the agent - Linux
 
