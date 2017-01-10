@@ -20,6 +20,22 @@ On the next screen, enter your old password and enter your new password twice fo
 
 ![Image194](files/Image194.png)
 
+Alternatively, you can also change your password by pressing __Ctrl + Alt + Break__ at the same time. Once you've done this, you'll see the following screen:
+
+Use your arrow keys in order to select __Ctrl+Alt+Del__.
+
+![Image195](files/Image195.png)
+ 
+Then, as we've gone through previously, click __Change a password__ in order to change your password
+
+![Image193](files/Image193.png)
+
+Then, enter your old password and enter your new password twice for validation purposes.
+
+![Image194](files/Image194.png)
+
+## FASTdesk password information
+
 Your FASTdesk password will expire every 6 weeks and you will be prompted to change it when you log in. Upon expiry you should see a
 screen similar to the one below.
 
