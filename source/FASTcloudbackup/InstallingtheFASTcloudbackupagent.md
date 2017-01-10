@@ -38,9 +38,9 @@ The installation will the complete and you can begin to manage backups of this c
 
 Once downloaded to your Linux client, extract the .tar file to any directory. Browse to the extracted directory and run "cvpkgadd" to begin the installer
 
-'''
+```
 fastcloudbackup_linux_x86-64]# ./cvpkgadd
-'''
+```
 
 
 ## Checking the agent is set up correctly
