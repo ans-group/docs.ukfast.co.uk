@@ -60,7 +60,9 @@ To view this data you'll be asked to enter the Username and Password for the com
 
 ![live machine](files/live machine.PNG)
 
+## The Sync function doesn't work
 
+You may see an option within the web console to Sync data between two computers you are backing up.  However this feature is currently disabled within FASTcloudbackup and therefore will not do anything when selected.
 
 
 
