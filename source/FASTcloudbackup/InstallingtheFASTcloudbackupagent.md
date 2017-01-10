@@ -24,7 +24,7 @@ The installer will proceed to install the FASTcloudbackup agent on your computer
 
 ![download agent](files/windows-install03.png)
 
-You will be asked to name your computer on how it will be displayed in your FASTcloudbackup console. By default, this will be the local hostname of the computer running the install, alternatively you can change this to make it easier to identify the computer. It is recommended to keep the Client Name and Host Name as the same value.
+You will be asked to name your computer, this will be the computer name displayed in your FASTcloudbackup console. By default, this will be the local hostname of the computer running the install, though you can change this to make it easier to identify the computer in the console. It is recommended to keep the Client Name and Host Name as the same value.
 
 ![download agent](files/windows-install04.png)
 
