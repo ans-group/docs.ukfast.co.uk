@@ -20,6 +20,10 @@ When you come to a screen called CommServe Authentication, you should enter the 
 
 (add screenshot of CommServe Authentication screen)
 
+Please note that the installation process will add a Migration Assistant to your laptop, but you don't need to use this once you've completed the agent installation.  Simply head back to the [FASTcloudbackup web console](https://fcb.ukfast.co.uk) and continue as set out below.
+
+![migration assistant](files/migration assistant.PNG)
+
 ## Installing the agent - Linux
 
 [Oli please can you write this section, I have no experience of setting up the Linux version]
