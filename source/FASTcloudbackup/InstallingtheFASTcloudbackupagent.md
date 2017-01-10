@@ -24,24 +24,51 @@ The installer will proceed to install the FASTcloudbackup agent on your computer
 
 ![download agent](files/windows-install03.png)
 
-You will be asked to name your computer, this will be the computer name displayed in your FASTcloudbackup console. By default, this will be the local hostname of the computer running the install, though you can change this to make it easier to identify the computer in the console. It is recommended to keep the Client Name and Host Name as the same value.
+You will be asked to name your computer, this will be the computer name displayed in your [FASTcloudbackup web console](https://fcb.ukfast.co.uk). By default, this will be the local hostname of the computer running the install, though you can change this to make it easier to identify the computer in the console. It is recommended to keep the Client Name and Host Name as the same value.
 
 ![download agent](files/windows-install04.png)
 
-When you come to a screen called CommServe Authentication, you should enter the same User Name and Password that you used to log in to the FASTcloudbackup web console.
+When you come to a screen called CommServe Authentication, you should enter the same User Name and Password that you used to log in to the [FASTcloudbackup web console](https://fcb.ukfast.co.uk).
 
 ![download agent](files/windows-install05.png)
 
-The installation will the complete and you can begin to manage backups of this computer in the FASTcloudbackup web console.
+The installation will the complete and you can begin to manage backups of this computer in the [FASTcloudbackup web console](https://fcb.ukfast.co.uk).
 
 ## Installing the agent - Linux
 
-Once downloaded to your Linux client, extract the .tar file to any directory. Browse to the extracted directory and run "cvpkgadd" to begin the installer
+Once downloaded to your Linux client, extract the .tar file to any directory. Browse to the extracted directory and run "cvpkgadd" (with root privileges) to begin the installer
 
 ```
 fastcloudbackup_linux_x86-64]# ./cvpkgadd
 ```
 
+![download agent](files/linux-install01.png)
+
+Select Next to proceed.
+
+![download agent](files/linux-install02.png)
+
+Enter your machine hostname, by default this will be set to the computers hostname running the installer, you can leave this as default.
+
+![download agent](files/linux-install03.png)
+
+The client name will be set to the computers hostname running the installer. This is how the computer will be named in the [FASTcloudbackup web console](https://fcb.ukfast.co.uk). You can leave this as default or change this to make the computer easier to identify in the console.
+
+![download agent](files/linux-install04.png)
+
+By default, the installation directory will be set to /opt, you can change this if you wish to install the client to an alternative directory.
+
+![download agent](files/linux-install05.png)
+
+The installer will proceed to install the agent.
+
+![download agent](files/linux-install06.png)
+
+When asked for your CommCell user account details, you should enter the same User Name and Password that you used to log in to the [FASTcloudbackup web console](https://fcb.ukfast.co.uk).
+
+![download agent](files/linux-install07.png)
+
+The installation will the complete and you can begin to manage backups of this computer in the [FASTcloudbackup web console](https://fcb.ukfast.co.uk).
 
 ## Checking the agent is set up correctly
 
