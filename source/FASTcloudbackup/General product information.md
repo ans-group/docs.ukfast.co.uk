@@ -32,6 +32,8 @@ Billing for FASTcloudbackup is based on the amount of storage quota (in gigabyte
 
 (Oli is the above correct?  How does a user go about removing the agent, is there a way to do this through the web console or is it just a case of uninstalling it directly on their device?.  if they do this, can they still access the files backed up previously through the console??)
 
+## Why does the Reset Password email have a Commvault logo?
 
+FASTcloudbackup is based upon Commvault software.  That's why in some parts of the web console or system emails, you may see references to Commvault.  It's nothing to worry about - you are still using FASTcloudbackup.
 
-
+![reset password email](files/reset password email.PNG)
