@@ -14,6 +14,7 @@ Contents:
    backups/index
    myukfast/index
    flex/index
+   FASTcloudbackup/index
    fastdrive/index
    fastdesk/index
    FASTcloudbackup/index
