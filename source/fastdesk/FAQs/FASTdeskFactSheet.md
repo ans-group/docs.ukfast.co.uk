@@ -14,7 +14,7 @@ Line of Business Applications are applications which are provided by you and are
 
 ## What is included in 1st line support and what hours do we support?
 
-1st line support runs Monday to Friday, 9am - 6pm (Excluding UK Bank Holidays). Our support will be available whilst working within the FASTdesk environment. This means that our support covers the Windows operating system that you'll be working within, FASTdrive, Office 2016, and other general end user issues that you may encounter.
+1st line support is available to you between Monday and Friday, 9am - 6pm (Excluding UK Bank Holidays). Our support will be available whilst working within the FASTdesk environment. This means that our support covers the Windows operating system that you'll be working within, FASTdrive, Office 2016, and other general end user issues that you may encounter.
 
 ## Are my files backed up on FASTdesk?
 
@@ -30,7 +30,7 @@ Yes, you can provide your own Microsoft licenses for applications such as Office
 
 ## What is an Application Server?
 
-Application servers are required when one of your applications requires a back end. For example, an application such as Sage connects to an SQL database so if you wished to install this application, you would need an application server.
+Application servers are required when one of your applications requires a back end of any type; whether that be a database or so that data can be isolated etc. For example, one of your applications may connect to an SQL database so if you wished to install this application, you would need an application server.
 
 ## Is Active Directory Federation Services (ADFS) supported?
 
