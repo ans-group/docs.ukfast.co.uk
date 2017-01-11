@@ -10,11 +10,11 @@ The FASTdesk Pro Plus plan is an upgrade to the Pro plan. With the FASTdesk Pro 
 
 ## What does __Line of Business Apps__ mean?
 
-Line of Business Applications are applications which are provided by the customer and are not the default FASTdesk operations. The default FASTdesk operations are Office 2016, ShareFile Drive Mapper and Google Chrome.
+Line of Business Applications are applications which are provided by you and are not the default FASTdesk applications. The default FASTdesk applications are Office 2016, ShareFile Drive Mapper and Google Chrome.
 
 ## What is included in 1st line support and what hours do we support?
 
-1st line support runs Monday to Friday, 9am - 6pm (Excluding English Bank Holidays). Our support will be available whilst working within the VDI environment. This means that our support covers the Windows operating system that you'll be working within, FASTdrive, Office 2016, and other general end user issues that you may encounter.
+1st line support runs Monday to Friday, 9am - 6pm (Excluding UK Bank Holidays). Our support will be available whilst working within the FASTdesk environment. This means that our support covers the Windows operating system that you'll be working within, FASTdrive, Office 2016, and other general end user issues that you may encounter.
 
 ## Are my files backed up?
 
