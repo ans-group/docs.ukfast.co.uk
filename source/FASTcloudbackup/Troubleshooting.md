@@ -12,13 +12,13 @@ There is an button on the Computers page labelled `Add New Computer`.
 
 ![computer](files/computer.PNG)
 
-You should not use this to add new computers or servers to be backed up - instead follow the instructions shown on [Setting up the FASTcloudbackup agent](link) - this will guide you through installing the agent so you can run and manage backups.
+You should not use this to add new computers or servers to be backed up - instead follow the instructions shown on [Setting up the FASTcloudbackup agent](https://github.com/garryprior/docs.ukfast.co.uk-1/blob/master/source/FASTcloudbackup/InstallingtheFASTcloudbackupagent.md#setting-up-the-fastcloudbackup-agent) - this will guide you through installing the agent so you can run and manage backups.
 
 ## Problems browsing file structure
 
 FASTcloudbackup runs as a system service and so cannot pre-select or utilise shortcuts to folders such as Documents or Photos.  In order to find the folders you wish to backup you'll need to navigate through the full path - for example `C:\Users\[username]\Documents\[foldername]`
 
-To make it simpler to get to the folders you access regularly, set them up as [Favourite folders](link).
+To make it simpler to get to the folders you access regularly, set them up as [Favourite folders](https://github.com/garryprior/docs.ukfast.co.uk-1/blob/master/source/FASTcloudbackup/Managingfilesandfolders.md#favourite-folders).
 
 ## The amount of data backed up is larger than the total of my files and folders
 
@@ -30,7 +30,7 @@ The first time a computer or server is backed up, a full backup of all selected 
 
 The speed of your network connectivity will also affect the time a backup takes to run.
 
-You can set up an alert so you are notified if a single backup job exceeds 24 hours - see [Alerts](link) for details.
+You can set up an alert so you are notified if a single backup job exceeds 24 hours - see [Alerts](https://github.com/garryprior/docs.ukfast.co.uk-1/blob/master/source/FASTcloudbackup/alerts.md#setting-up-alerts) for details.
 
 You can "kill" a backup job at any point through the [FASTcloudbackup web console](https://fcb.ukfast.co.uk).  When a backup job is in progress, click `Kill` in the Schedules area to stop the backup from running.
 
@@ -66,7 +66,7 @@ You may see an option within the web console to Sync data between two computers 
 
 ## Why doesn't the Migration Assistant work?
 
-When installing the FASTcloudbackup agent, a Migration Assistant will also be added to your computer or server.  However you should not use this to complete the installation or setup process.  Simply follow the instructions in [Setting up the FASTcloudbackup agent](link).
+When installing the FASTcloudbackup agent, a Migration Assistant will also be added to your computer or server.  However you should not use this to complete the installation or setup process.  Simply follow the instructions in [Setting up the FASTcloudbackup agent](https://github.com/garryprior/docs.ukfast.co.uk-1/blob/master/source/FASTcloudbackup/InstallingtheFASTcloudbackupagent.md#setting-up-the-fastcloudbackup-agent).
 
 
 
