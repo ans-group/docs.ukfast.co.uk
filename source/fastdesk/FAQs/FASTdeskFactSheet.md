@@ -30,7 +30,7 @@ Yes, you can provide your own Microsoft licenses for applications such as Office
 
 ## What is an Application Server?
 
-Application servers are required when one of your applications requires a back end of any type; whether that be a database or so that data can be isolated etc. For example, one of your applications may connect to an SQL database so if you wished to install this application, you would need an application server.
+Application Servers are required when one of your applications requires a back end of any type; whether that be a database or so that data can be isolated etc. For example, one of your applications may connect to an SQL database so if you wished to install this application, you would need an Application Server.
 
 ## Is Active Directory Federation Services (ADFS) supported?
 
