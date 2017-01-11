@@ -4,7 +4,7 @@ This section contains help relating to problems you may run in to.
 
 ## Problems installing the FASTcloudbackup agent
 
-(Oli please could you write this section)
+
 
 ## Add New Computer button doesn't work
 
