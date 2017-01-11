@@ -1,6 +1,6 @@
-# Information for users
+# FASTdesk Fact Sheet
 
-## What are the differences between FASTdesk standard, pro and pro plus?
+## What are the differences between FASTdesk standard, pro and pro plus plans?
 
 With the FASTdesk Standard plan, you will be hosted on shared XenApp servers. This means that you will be using shared resources.
 
@@ -8,7 +8,7 @@ With the FASTdesk Pro Plan, you will have your own dedicated XenDesktop Virtual 
 
 The FASTdesk Pro Plus plan is an upgrade to the Pro plan. With the FASTdesk Pro Plus plan, you will again have your own dedicated XenDesktop Virtual Machine but the specification of this will be 4 vCPU with 8GB RAM.
 
-## What does __Line of Business Apps__ mean?
+## What are __Line of Business Apps__?
 
 Line of Business Applications are applications which are provided by you and are not the default FASTdesk applications. The default FASTdesk applications are Office 2016, ShareFile Drive Mapper and Google Chrome.
 
@@ -16,7 +16,7 @@ Line of Business Applications are applications which are provided by you and are
 
 1st line support runs Monday to Friday, 9am - 6pm (Excluding UK Bank Holidays). Our support will be available whilst working within the FASTdesk environment. This means that our support covers the Windows operating system that you'll be working within, FASTdrive, Office 2016, and other general end user issues that you may encounter.
 
-## Are my files backed up?
+## Are my files backed up on FASTdesk?
 
 Your home folder is backed up at file level and is available for 28 days. Virtual Machines are snapshotted at the storage level and are available for 28 days.
 
