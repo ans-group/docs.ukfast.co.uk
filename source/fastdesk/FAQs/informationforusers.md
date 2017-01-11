@@ -2,9 +2,11 @@
 
 ## What are the differences between FASTdesk standard, pro and pro plus?
 
-FASTdesk Standard users are located on shared XenApp servers. This means that users on this plan are on shared resources.
+With the FASTdesk Standard plan, you will be hosted on shared XenApp servers. This means that you will be using shared resources.
 
-FASTdesk Pro users have th
+With the FASTdesk Pro Plan, you will have your own dedicated XenDesktop Virtual Machine. The specification of this will be 2 vCPU with 4GB RAM.
+
+The FASTdesk Pro Plus plan is an upgrade to the Pro plan. With the FASTdesk Pro Plus plan, you will again have your own dedicated XenDesktop Virtual Machine but the specification of this will be 4 vCPU with 8GB RAM.
 
 ## What does __Line of Business Apps__ mean?
 
@@ -28,7 +30,7 @@ Yes, you can provide your own Microsoft licenses for applications such as Office
 
 ## What is an Application Server?
 
-Application servers are required when one of your applications requires a back end. For example, an application such as Sage connects to an SQL database
+Application servers are required when one of your applications requires a back end. For example, an application such as Sage connects to an SQL database so if you wished to install this application, you would need an application server.
 
 ## Is Active Directory Federation Services (ADFS) supported?
 
