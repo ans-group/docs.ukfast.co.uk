@@ -46,7 +46,7 @@ Possible backup job states are:
 
 - Completed:  the backup job ran successfully.
 
-- Failed to Start:  this is most likely because the computer or server was not accessible during the scheduled backup window, potentially in line with the policy you configured when [creating a backup schedule](link) - for example specifying that backups should only run if the computer is plugged in to a power source rather than on battery mode. 
+- Failed to Start:  this is most likely because the computer or server was not accessible during the scheduled backup window, potentially in line with the policy you configured when [creating a backup schedule](https://github.com/garryprior/docs.ukfast.co.uk-1/blob/master/source/FASTcloudbackup/Settingupbackups.md#creating-a-backup-schedule) - for example specifying that backups should only run if the computer is plugged in to a power source rather than on battery mode. 
 
 (Oli what other states are there?  presumably a Failed to Complete one?  What could be the likely causes and what should people do about it?)
 
