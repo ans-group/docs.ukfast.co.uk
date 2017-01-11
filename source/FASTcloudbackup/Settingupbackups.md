@@ -4,23 +4,23 @@
 
 From the home screen of the [FASTcloudbackup web console](https://fcb.ukfast.co.uk) click on `My Data`, find the computer or server you wish to work on and then click `Settings`.
 
-![Computers installed](files/Computers installed.PNG)
+![Computers installed](files/Computers_installed.PNG)
 
 The default setting is that everything in your C:\Documents folder will be backed up when you run a backup.  If you wish to change which files and folders are backed up, go to the Content area on the right hand side and click `Edit`.
 
 ![Content2](files/Content2.PNG)
 
-You can choose which files and folders to include in your backup process, or alternatively which ones you wish to exclude.  Click on the `+` symbol to specify which files and folders to include or exclude. 
+You can choose which files and folders to include in your backup process, or alternatively which ones you wish to exclude.  Click on the `+` symbol to specify which files and folders to include or exclude.
 
-![files folders default](files/files folders default.PNG)
+![files folders default](files/files_folders_default.PNG)
 
 Then navigate through your file structure to choose files and folders.
 
-![browse files](files/browse files.PNG)
+![browse files](files/browse_files.PNG)
 
 To remove files and folders previously selected, click the checkbox and then `X`.  You can return to the default setting (backing up everything in C:\Documents) by clicking `Reset to Default Content`.
 
-![files and folders](files/files and folders.PNG)
+![files and folders](files/files_and_folders.PNG)
 
 ## Running a manual backup
 
@@ -30,13 +30,13 @@ You can run a manual backup at any time, simply click `Backup Now` in the Schedu
 
 ## Creating a backup schedule
 
-You can create a backup schedule, so that your backups run automatically.  To do this click the `+ Schedule` button.  
+You can create a backup schedule, so that your backups run automatically.  To do this click the `+ Schedule` button.
 
 ![schedule](files/schedule.PNG)
 
 You can create schedules on a daily or weekly basis, where backups run at a set time of day/day of week.  Alternatively you can set a minimum and maximum time period between each backup job - backups will then run automatically during the specified time window.
 
-![add schedule](files/add schedule.PNG)
+![add schedule](files/add_schedule.PNG)
 
 ## Amending your backup schedule
 

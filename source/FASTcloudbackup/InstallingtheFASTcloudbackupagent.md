@@ -2,13 +2,13 @@
 
 ## Downloading the agent
 
-Login to the [FASTcloudbackup web console](https://fcb.ukfast.co.uk) and click `Download Center` (apologies for the US spelling!).  
+Login to the [FASTcloudbackup web console](https://fcb.ukfast.co.uk) and click `Download Center` (apologies for the US spelling!).
 
-![download centre](files/download centre.PNG)
+![download centre](files/download_centre.PNG)
 
-Find the appropriate Windows or Linux agent and click `Download`.  The agent will download based on your web browser's usual download process.  
+Find the appropriate Windows or Linux agent and click `Download`.  The agent will download based on your web browser's usual download process.
 
-![download agent](files/download agent.PNG)
+![download agent](files/download_agent.PNG)
 
 ## Installing the agent - Windows
 
@@ -36,7 +36,7 @@ The installation will the complete and you can begin to manage backups of this c
 
 Please note that the installation process will add a Migration Assistant to your laptop, but you don't need to use this once you've completed the agent installation.  Simply head back to the [FASTcloudbackup web console](https://fcb.ukfast.co.uk) and continue as set out below.
 
-![migration assistant](files/migration assistant.png)
+![migration assistant](files/migration_assistant.png)
 
 ## Installing the agent - Linux
 
@@ -78,4 +78,4 @@ The installation will the complete and you can begin to manage backups of this c
 
 Once you've installed the agent on your computer or server, you can check it's been set up properly by heading back to the [FASTcloudbackup web console](https://fcb.ukfast.co.uk).  From the home page click `My Data` and you'll be taken to a page called Computers.  On here you will see the computer(s) and server(s) you have installed the FASTcloudbackup agent on to.
 
-![Computers installed](files/Computers installed.PNG)
+![Computers installed](files/Computers_installed.PNG)

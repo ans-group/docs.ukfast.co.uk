@@ -6,7 +6,7 @@ FASTcloudbackup is a file and folder backup solution, based on Commvault technol
 
 ## How does FASTcloudbackup work?
 
-FASTcloudbackup works by installing an agent onto the computers and servers you wish to backup.  Once installed, you can configure and manage backups and restores through the [FASTcloudbackup web console](https://fcb.ukfast.co.uk) 
+FASTcloudbackup works by installing an agent onto the computers and servers you wish to backup.  Once installed, you can configure and manage backups and restores through the [FASTcloudbackup web console](https://fcb.ukfast.co.uk)
 
 ## Where is my data stored once it's been backed up?
 
@@ -20,7 +20,7 @@ Once your data reaches our FASTcloudbackup servers it’s secured using AES-256 
 
 ## What is the data retention period?
 
-28 days for all files backed up.  
+28 days for all files backed up.
 
 ## How does billing work?
 
@@ -34,4 +34,4 @@ Billing for FASTcloudbackup is based on the amount of storage quota (in gigabyte
 
 FASTcloudbackup is based upon Commvault software.  That's why in some parts of the web console or system emails, you may see references to Commvault.  It's nothing to worry about - you are still using FASTcloudbackup.
 
-![reset password email](files/reset password email.PNG)
+![reset password email](files/reset_password_email.PNG)
