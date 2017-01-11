@@ -8,7 +8,7 @@ This section contains help relating to problems you may run in to.
 
 ## Add New Computer button doesn't work
 
-There is an button on the Computers page labelled `Add New Computer`.  
+There is an button on the Computers page labelled `Add New Computer`.
 
 ![computer](files/computer.PNG)
 
@@ -46,7 +46,7 @@ Possible backup job states are:
 
 - Completed:  the backup job ran successfully.
 
-- Failed to Start:  this is most likely because the computer or server was not accessible during the scheduled backup window, potentially in line with the policy you configured when [creating a backup schedule](https://github.com/garryprior/docs.ukfast.co.uk-1/blob/master/source/FASTcloudbackup/Settingupbackups.md#creating-a-backup-schedule) - for example specifying that backups should only run if the computer is plugged in to a power source rather than on battery mode. 
+- Failed to Start:  this is most likely because the computer or server was not accessible during the scheduled backup window, potentially in line with the policy you configured when [creating a backup schedule](https://github.com/garryprior/docs.ukfast.co.uk-1/blob/master/source/FASTcloudbackup/Settingupbackups.md#creating-a-backup-schedule) - for example specifying that backups should only run if the computer is plugged in to a power source rather than on battery mode.
 
 (Oli what other states are there?  presumably a Failed to Complete one?  What could be the likely causes and what should people do about it?)
 
@@ -54,11 +54,11 @@ Possible backup job states are:
 
 There are options to show live machine data and network share data within the [FASTcloudbackup web console](https://fcb.ukfast.co.uk).  You'll find these under the drop down menu at the top of the My Data screen.
 
-![date search](files/date search.PNG)
+![date search](files/date_search.PNG)
 
 To view this data you'll be asked to enter the Username and Password for the computer or server in question (note this is not the same as your FASTcloudbackup username and password).
 
-![live machine](files/live machine.PNG)
+![live machine](files/live_machine.PNG)
 
 ## The Sync function doesn't work
 
@@ -67,10 +67,3 @@ You may see an option within the web console to Sync data between two computers 
 ## Why doesn't the Migration Assistant work?
 
 When installing the FASTcloudbackup agent, a Migration Assistant will also be added to your computer or server.  However you should not use this to complete the installation or setup process.  Simply follow the instructions in [Setting up the FASTcloudbackup agent](https://github.com/garryprior/docs.ukfast.co.uk-1/blob/master/source/FASTcloudbackup/InstallingtheFASTcloudbackupagent.md#setting-up-the-fastcloudbackup-agent).
-
-
-
-
-
-
-
