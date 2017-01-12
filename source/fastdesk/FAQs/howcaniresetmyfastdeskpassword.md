@@ -20,7 +20,7 @@ On the next screen, enter your old password and enter your new password twice fo
 
 ![Image194](files/Image194.png)
 
-You'll then receive a confirmation message stating that your password has been changed successfully.
+You'll then be notified that your password has been changed successfully.
 
 ![Image196](files/Image196.png)
 
