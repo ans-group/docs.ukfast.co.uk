@@ -8,7 +8,7 @@ At the top of your screen you should be able to see a small black icon.
 
 ![Image191](files/Image191.png)
 
-Click this icon and it will expand and you'll be able to see a variety of options. Here, Click __Ctrl + Alt + Del__
+Click this icon and it will expand and you'll be able to see a variety of options. Here, Click __Ctrl + Alt + Del__.
 
 ![Image192](files/Image192.png)
 
@@ -30,13 +30,17 @@ Use your arrow keys in order to select __Ctrl+Alt+Del__.
 
 ![Image195](files/Image195.png)
  
-Then, as we've gone through previously, click __Change a password__ in order to change your password
+Then, as we've gone through previously, click __Change a password__ in order to change your password.
 
 ![Image193](files/Image193.png)
 
 Then, enter your old password and enter your new password twice for validation purposes.
 
 ![Image194](files/Image194.png)
+
+You'll then be notified that your password has been changed successfully.
+
+![Image196](files/Image196.png)
 
 ## FASTdesk password information
 
