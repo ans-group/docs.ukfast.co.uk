@@ -34,10 +34,12 @@ When you come to a screen called CommServe Authentication, you should enter the 
 
 The installation will the complete and you can begin to manage backups of this computer in the [FASTcloudbackup web console](https://fcb.ukfast.co.uk).
 
-Please note that the installation process will add a Migration Assistant to your laptop, but you don't need to use this once you've completed the agent installation.  Simply head back to the [FASTcloudbackup web console](https://fcb.ukfast.co.uk) and continue as set out below.
+```eval_rst
+.. seealso::
+   Please note that the installation process will add a Migration Assistant to your laptop, but you don't need to use this once you've      completed the agent installation.  Simply head back to the [FASTcloudbackup web console](https://fcb.ukfast.co.uk) and continue as      set out below.
 
-![migration assistant](files/migration_assistant.png)
-
+   ![migration assistant](files/migration_assistant.png)
+```
 ## Installing the agent - Linux
 
 Once downloaded to your Linux client, extract the .tar file to any directory. Browse to the extracted directory and run "cvpkgadd" (with root privileges) to begin the installer
