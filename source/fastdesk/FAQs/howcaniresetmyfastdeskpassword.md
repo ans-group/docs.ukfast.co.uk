@@ -20,6 +20,10 @@ On the next screen, enter your old password and enter your new password twice fo
 
 ![Image194](files/Image194.png)
 
+You'll then receive a confirmation message stating that your password has been changed successfully.
+
+![Image196](files/Image196.png)
+
 Alternatively, you can also change your password by pressing __Ctrl + Alt + Break__ at the same time. Once you've done this, you'll see the following screen:
 
 Use your arrow keys in order to select __Ctrl+Alt+Del__.
