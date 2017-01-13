@@ -20,13 +20,28 @@ To make it simpler to get to the folders you access regularly, set them up as [F
 
 You may notice that the total amount of data backed up within FASTcloudbackup is larger than the size of the files and folders on the computer or server being backed up.  This will typically be because of hidden files or metadata that have also been included in the backup process.
 
-## Backups aren't running
+## Backups aren't running - Windows computers or servers
 
-If backups are not running (failing to start) then check that you have all the FASTcloudbackup services running correctly on your computer or server.  
+If backups are not running (failing to start) then check that you have all the FASTcloudbackup services running correctly on your computer or server.  To do this go to the Process Manager that was installed as part of the FASTcloudbackup installation.  Find and open this using your Windows Search box, often found in the Start menu.
 
-- Windows: click `CTRL+ALT+DELETE` and open the Windows Task Manager.  In the Services tab look for any services related to FASTcloudbackup and check they are running.  If they are shown as Stopped, then right click and `Start Service`
+![process_mgr](files/process_mgr.PNG)
 
-- Linux: run the command below to get a list of all FASTcloudbackup services
+  Open the Process Manager and click on the `Services` tab.  Check all the FASTcloudbackup services are shown as running (with a green arrow).  If they're not, set them to run.  Also ensure that `Auto-start services when OS starts` is ticked.
+  
+![process_mgr2](files/process_mgr2.PNG)
+
+You can also check this on Windows computers by opening the `Run` programme and then `services.msc`.
+
+![services_msc](files/services_msc.PNG)
+
+You will see a list of all services on this computer; look for the FASTcloudbackup ones and check they are shown as Running, and also Automatic in the Startup Type column.
+
+![services_list](files/services_list.PNG)
+
+## Backups aren't running - Linux computers or servers
+
+If backups are not running (failing to start) then check that you have all the FASTcloudbackup services running correctly on your computer or server.  To do this run the following command to get a list of all FASTcloudbackup services
+
 ```
 fastcloudbackup list
 ```
