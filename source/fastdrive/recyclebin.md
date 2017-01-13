@@ -4,9 +4,17 @@ The FASTdrive recycle bin contains files and folders that have been deleted from
 moved to the recycle bin will stay there for a maximum of 45 days. It's not possible to recover a file 45 days after it was originally
 deleted and if you permanantly delete a file from the recycle bin before the end of this 45 day period, it cannot be recovered.
 
-To access your recycle bin, expand the __Folders__ section of your left hand menu. Here, you'll see a link named __Recycle Bin__
+To access your recycle bin, expand the __Folders__ section of your left hand menu. Here, you'll see a link named __Recycle Bin__. Click this in order to launch your recycle bin.
 
 ![Image197](files/Image197.png)
+
+Here, you'll be able to see a list of folders and files which you have deleted.
+
+![Image198](files/Image198.png)
+
+As noted above, files and folders will be stored here for a maximum of 45 days and it's not possible to recover a file once this 45 day period has passed.
+
+You can restore files and folders from the recycle bin or delete them permanently. Be aware that once you've permanently deleted an item, you will not be able to recover it.
 
 ## Folder recycle bins
 
