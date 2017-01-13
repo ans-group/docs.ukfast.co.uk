@@ -2,10 +2,6 @@
 
 This section contains help relating to problems you may run in to.
 
-## Problems installing the FASTcloudbackup agent
-
-
-
 ## Add New Computer button doesn't work
 
 There is an button on the Computers page labelled `Add New Computer`.
@@ -24,6 +20,21 @@ To make it simpler to get to the folders you access regularly, set them up as [F
 
 You may notice that the total amount of data backed up within FASTcloudbackup is larger than the size of the files and folders on the computer or server being backed up.  This will typically be because of hidden files or metadata that have also been included in the backup process.
 
+## Backups aren't running
+
+If backups are not running (failing to start) then check that you have all the FASTcloudbackup services running correctly on your computer or server.  
+
+- Windows: click `CTRL+ALT+DELETE` and open the Windows Task Manager.  In the Services tab look for any services related to FASTcloudbackup and check they are running.  If they are shown as Stopped, then right click and `Start Service`
+
+- Linux: run the command below to get a list of all FASTcloudbackup services
+```
+fastcloudbackup list
+```
+  If any services are shown as stopped then run
+```
+fastcloudbackup restart
+```  
+   
 ## Backups taking a long time to run
 
 The first time a computer or server is backed up, a full backup of all selected files and folders needs to take place.  This can take a while, depending on the total amount of data.  Subsequent backups will be incremental, meaning that only files that have been changed or created since the last backup will be processed, making the backup quicker to run.
