@@ -18,4 +18,18 @@ You can restore files and folders from the recycle bin or delete them permanentl
 
 ## Folder recycle bins
 
-Each folder has a recycle bin which will show your recently deleted items.
+Each folder has a recycle bin which will show your recently deleted items. To access a folder's recycle bin, navigate to that particular folder.
+
+Once you are in that folder, you'll be able to see an ellipsis entitled __More Options__ next to the folder name as shown below.
+
+![Image199](files/Image199.png)
+
+Hover over the above icon and a variety of options will appear. One of these options will be entitled __Recycle Bin__.
+
+![Image200](files/Image200.png)
+
+Click this icon and you'll be directed to the recycle bin for this folder.
+
+![Image201](files/Image201.png)
+
+Similar to the normal recycle bin, files and folders can be permanently recovered or restored from this view.
