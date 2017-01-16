@@ -27,3 +27,7 @@ If you hover over one particular file or folder, you'll be able to see a few sho
 Likewise, you can also navigate directly to a folder from this view.
 
 ![Image205](files/Image205.png)
+
+If the file or folder that you are looking for doesn't appear whilst you are searching, hit the __enter__ key to perform a full search. This will perform a search on all the files and folders that you have permission to and will bring up anything that matches your search.
+
+![Image207](files/Image207.png)
