@@ -21,3 +21,7 @@ In this instance I have entered __TestDoc__ into the search bar and as you can s
 ![Image204](files/Image204.png)
 
 If you hover over one particular file or folder, you'll be able to see a few shortcuts which are related to the file or folder. From here, you can directly navigate to a file, share a file, or download a file. Likewise, you can also navigate directly to a folder from this view.
+
+![Image206](files/Image206.png)
+
+![Image205](files/Image205.png)
