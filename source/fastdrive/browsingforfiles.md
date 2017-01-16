@@ -31,3 +31,5 @@ Likewise, you can also navigate directly to a folder from this view.
 If the file or folder that you are looking for doesn't appear whilst you are searching, hit the __enter__ key to perform a full search. This will perform a search on all the files and folders that you have permission to and will bring up anything that matches your search.
 
 ![Image207](files/Image207.png)
+
+If you have the relevant permissions on your account, you will be able to see other users' files. In order to narrow this down to a particular user, enter the user's email address in the __Created By__ field. Your search results can also be narrowed down to a particular date and you can also narrow the results down to a particular type of content, whether that be a file or a folder. Finally, if you know the whereabouts of the file or folder that you are looking at, you can also state this.
