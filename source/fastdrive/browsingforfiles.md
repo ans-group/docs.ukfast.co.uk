@@ -12,3 +12,10 @@ At the top of every page you will search a small magnifying glass. Clicking this
 ![Image202](files/Image202.png)
 
 ![Image203](files/Image203.png)
+
+In this box, enter the name of the file or folder that you'd like to search for. You don't have to enter the full name of the file or
+folder here as the search will bring up all results containing the consecutive character that you have entered.
+
+In this instance I have entered __TestDoc__ into the search bar and as you can see, a variety of files have appeared which match the string of text that I entered.
+
+![Image204](files/Image204.png)
