@@ -87,12 +87,12 @@ UKFast stores client files at rest using AES 256-bit encryption, a Federal Infor
 __Redundancy/Backup__
 
 Every element of the UKFast infrastructure used to host the FASTdrive service is designed to N+1 standards, including:
- * Cisco ASA Firewalls which are locked down to Citrix SaaS Application Tier
- * UKFast Load Balancers
- * Cisco UCS Blades
- * Enterprise HP3PAR SAN Storage
- * Citrix StorageZone Controllers
- * eCloud Vault Storage used to store Customer Data
+1. Cisco ASA Firewalls which are locked down to Citrix SaaS Application Tier
+2. UKFast Load Balancers
+3. Cisco UCS Blades
+4. Enterprise HP3PAR SAN Storage
+5. Citrix StorageZone Controllers
+6. eCloud Vault Storage used to store Customer Data
  
  
  
