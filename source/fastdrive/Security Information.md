@@ -95,9 +95,9 @@ Every element of the UKFast infrastructure used to host the FASTdrive service is
  * eCloud Vault Storage used to store Customer Data
  
  
-* l Citrix StorageZone Controller data is backed up on a daily basis using UKFast‘s Enterprise Commvault Backup.
-* Fast can guarantee 100% power and connectivity to the FASTdrive solution
-
+ 
+* All Citrix StorageZone Controller data is backed up on a daily basis using UKFast‘s Enterprise Commvault Backup.
+* UKFast can guarantee 100% power and connectivity to the FASTdrive solution
 * There is a 45 day retention policy on all customer data. This is a global policy set on the platform. If a customer deletes a file, each customer has the ability through their own customer portal to restore these files.
 * Cloud Vault stores three copies of each file stored in FASTdrive – this is a standard feature of the product
 
