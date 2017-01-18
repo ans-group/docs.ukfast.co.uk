@@ -32,9 +32,6 @@ Metadata
 Customer files are never processed, stored or transferred to the ShareFile SaaS application tier. Instead we store metadata (defined as data which describes other data). The metadata attributes that ShareFile stores in the SaaS application tier’s database servers are as follows:
 
 
-
-
-
 User Info:
 First Name
 Last Name
