@@ -7,4 +7,4 @@ The shared address book is useful because it allows your employee users to be ab
 user is only added to your __personal address book__ it will mean that only you will be able to see that contact.
 
 For the most part, you will be using your address book when you are sharing files with other users. For a detailed walkthrough on how to
-share files, __[click here]__(https://docs.ukfast.co.uk/fastdrive/sharingfiles.html)
+share files, [click here](https://docs.ukfast.co.uk/fastdrive/sharingfiles.html)
