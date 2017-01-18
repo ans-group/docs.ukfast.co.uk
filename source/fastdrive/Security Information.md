@@ -2,18 +2,18 @@
 
 FASTdrive is based on using Citrix Sharefile Enterprise Edition and consists of 3 primary components: the SaaS Application Tier Hosted by Citrix within their European Data Centres, StorageZones Hosted by UKFast within our own Manchester Data Centres, and the client.
 
-•	SaaS Application Tier – sometimes referred to the as the Control Plane, this is a Citrix-managed component that consists of web, database, and API servers 
-•	StorageZones – this is where Customer Data is stored.
-•	Clients – ShareFile supports a broad device list, which includes but is not limited to Windows and Mac OSX, Android and iOS, Windows phone and Windows Metro 
+* SaaS Application Tier – sometimes referred to the as the Control Plane, this is a Citrix-managed component that consists of web, database, and API servers 
+* StorageZones – this is where Customer Data is stored.
+* Clients – ShareFile supports a broad device list, which includes but is not limited to Windows and Mac OSX, Android and iOS, Windows phone and Windows Metro 
 
 
 ## SaaS Application Tier Hosted by Citrix
 
 The ShareFile SaaS Application Tier is hosted in Citrix’s Data Centre. The components include: 
-•	NetScaler – used to load balance client requests to the ShareFile.com/eu web and API webservers 
-•	ShareFile.com/eu webservers designed to deliver the Web UI 
-•	API webservers used for client devices and tools using the HTTPS and REST API, including the Outlook plug-in, mobile and sync applications 
-•	Database – SQL database instances which contain things such as account data, file and folder metadata, including access rights, user account data, logs etc. The database in the SaaS Application tier does not process or store any customer data files 
+* NetScaler – used to load balance client requests to the ShareFile.com/eu web and API webservers 
+* ShareFile.com/eu webservers designed to deliver the Web UI 
+* API webservers used for client devices and tools using the HTTPS and REST API, including the Outlook plug-in, mobile and sync applications 
+* Database – SQL database instances which contain things such as account data, file and folder metadata, including access rights, user account data, logs etc. The database in the SaaS Application tier does not process or store any customer data files 
 
 The NetScalers and web servers are installed in the DMZ with the SQL databases installed in the private network behind an additional firewall. The SQL database instances are securely replicated to a second Data Centre for backup and disaster recovery purposes.
 
@@ -65,15 +65,15 @@ Citrix uses SSAE 16 Type II accredited or ISO 27001 certified Data Centres to ho
 __Upload/Download Speed__
 
 The following process describes how files are uploaded to, or downloaded from, the FASTdrive application and the security measures employed;
-•	Client requests a file. 
-•	A prepare message is sent by the ShareFile web application or API servers in the SaaS application tier to the StorageZone hosting the file. The location of the file is stored in the SaaS application tier database, accessed by the ShareFile web application and API servers. 
-•	A hash-based message authentication code (HMAC) based on the Shared Key used to establish a trust relation between the SaaS application tier and StorageZone, is sent as part of the prepare message and is validated by the StorageZone Controller. 
-•	Once validated, the StorageZone confirms the validity and generates a unique one-time-use download token. 
-•	The ShareFile web application or API server provides the download link to the Client with the unique download token. 
-•	To start the actual download, the Client connects to the StorageZone. 
-•	The download token (part of the download request from the Client), is validated. 
-•	If validation is successful, the file will be retrieved from storage. 
-•	The StorageZones controller server will send the file to the Client. 
+* Client requests a file. 
+* A prepare message is sent by the ShareFile web application or API servers in the SaaS application tier to the StorageZone hosting the file. The location of the file is stored in the SaaS application tier database, accessed by the ShareFile web application and API servers. 
+* A hash-based message authentication code (HMAC) based on the Shared Key used to establish a trust relation between the SaaS application tier and StorageZone, is sent as part of the prepare message and is validated by the StorageZone Controller. 
+* Once validated, the StorageZone confirms the validity and generates a unique one-time-use download token. 
+* The ShareFile web application or API server provides the download link to the Client with the unique download token. 
+* To start the actual download, the Client connects to the StorageZone. 
+* The download token (part of the download request from the Client), is validated. 
+* If validation is successful, the file will be retrieved from storage. 
+* The StorageZones controller server will send the file to the Client. 
 
 
 __Encryption in Transit__
@@ -87,34 +87,36 @@ UKFast stores client files at rest using AES 256-bit encryption, a Federal Infor
 __Redundancy/Backup__
 
 Every element of the UKFast infrastructure used to host the FASTdrive service is designed to N+1 standards, including:
-o	Cisco ASA Firewalls which are locked down to Citrix SaaS Application Tier
-o	UKFast Load Balancers
-o	Cisco UCS Blades
-o	Enterprise HP3PAR SAN Storage
-o	Citrix StorageZone Controllers
-o	eCloud Vault Storage used to store Customer Data
-•	All Citrix StorageZone Controller data is backed up on a daily basis using UKFast‘s Enterprise Commvault Backup.
-•	UKFast can guarantee 100% power and connectivity to the FASTdrive solution
-•	There is a 45 day retention policy on all customer data. This is a global policy set on the platform. If a customer deletes a file, each customer has the ability through their own customer portal to restore these files.
-•	eCloud Vault stores three copies of each file stored in FASTdrive – this is a standard feature of the product
+ * Cisco ASA Firewalls which are locked down to Citrix SaaS Application Tier
+ * UKFast Load Balancers
+ * Cisco UCS Blades
+ * Enterprise HP3PAR SAN Storage
+ * Citrix StorageZone Controllers
+ * eCloud Vault Storage used to store Customer Data
+ 
+ 
+* l Citrix StorageZone Controller data is backed up on a daily basis using UKFast‘s Enterprise Commvault Backup.
+* Fast can guarantee 100% power and connectivity to the FASTdrive solution
+
+* There is a 45 day retention policy on all customer data. This is a global policy set on the platform. If a customer deletes a file, each customer has the ability through their own customer portal to restore these files.
+* Cloud Vault stores three copies of each file stored in FASTdrive – this is a standard feature of the product
 
 __Access/Security__
 
 FASTdrive is a secure self-managed platform. Each customer will be provided with their own portal URL provided by the Citrix SaaS Tier and an Administrator User created. This Administrator user can login to the portal and manage:
-
-•	Check-In / Check-Out Functionality
-•	File/Folder Upload and Download Permissions
-•	Email Alerts and Notifications on Upload/Downloads
-•	Employees – paid for users who require all FASTdrive features and functionality
-•	Clients – free of charge users who are not employee users i.e.; 3rd party contractors who require access to particular files/folders. These users do not have the full functionality that FASTdrive offers.
-•	Multi-Factor Authentication – Customers may setup a multi-factor (strong) authentication process that requires submission of the account password and a secondary authentication such as SMS or Text, in order to access the account.
-•	Password Policies that are set per customer account that include password history, expiration and complex controls such as length, uppercase and lowercase letters, at least one number and at least one special character
-•	Optional SSO and Active Directory integration that requires an ADFS configuration applied at the customers site
-•	Customisable Terms and Condition Login Pages to indicate compliance with the terms before logging in
-•	Account Lockout policies,  Account Activity Reporting, Email Encryption and Access Log Retention
-•	Read Only Access to Files, Offline Access and IP Restrictions
-•	Apps include – Windows/Mac/Linux. Print and Scan directly to the FASTdrive account. Drive Mapper. Sync Tools and more.
-•	Mobile Device Security including: File Self-Destruct, External Application Interaction, Encryption, Remote Wipe.
+* Check-In / Check-Out Functionality
+* File/Folder Upload and Download Permissions
+* Email Alerts and Notifications on Upload/Downloads
+* Employees – paid for users who require all FASTdrive features and functionality
+* Clients – free of charge users who are not employee users i.e.; 3rd party contractors who require access to particular files/folders. These users do not have the full functionality that FASTdrive offers.
+* Multi-Factor Authentication – Customers may setup a multi-factor (strong) authentication process that requires submission of the account password and a secondary authentication such as SMS or Text, in order to access the account.
+* Password Policies that are set per customer account that include password history, expiration and complex controls such as length, uppercase and lowercase letters, at least one number and at least one special character
+* Optional SSO and Active Directory integration that requires an ADFS configuration applied at the customers site
+* Customisable Terms and Condition Login Pages to indicate compliance with the terms before logging in
+* Account Lockout policies,  Account Activity Reporting, Email Encryption and Access Log Retention
+* Read Only Access to Files, Offline Access and IP Restrictions
+* Apps include – Windows/Mac/Linux. Print and Scan directly to the FASTdrive account. Drive Mapper. Sync Tools and more.
+* Mobile Device Security including: File Self-Destruct, External Application Interaction, Encryption, Remote Wipe.
 
 UKFast Data Centres are ISO 27001 certified, PCI-compliant and secured up to UK government IL4 standards, which ensures your solution is protected by exceptional levels of both physical and virtual security at all times.
 
