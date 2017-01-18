@@ -1,7 +1,6 @@
 # Is there a way I can browse for a specific file or folder?
 
-You may encounter an issue where you can't find one of your files or folders. This may be because you haven't accessed it for a while and
-can't remember exactly where it is located.
+You may encounter an issue where you can't find one of your files or folders. This may be because you haven't accessed it for a while and can't remember exactly where it is located.
 
 If this is the case, you can directly search for a file or folder using the search function.
 
