@@ -14,7 +14,7 @@ Data is backed up to the FASTcloudbackup platform hosted in our [Manchester-base
 
 ## How is my data kept secure?
 
-All data sent during the backup process is encrypted using the HTTPS protocol, meaning it’s secure from the moment it leaves your computers and servers. You will need port 8600 open on your firewall, so that the FASTcloudbackup agent can communicate with the backup servers hosted in our data centre.
+All data sent during the backup process is encrypted using the HTTPS protocol, meaning it’s secure from the moment it leaves your computers and servers. You will need port 443 open on your firewall, so that the FASTcloudbackup agent can communicate with the backup servers hosted in our data centre.
 
 Once your data reaches our FASTcloudbackup servers it’s secured using AES-256 bit encryption – the standard used by companies and governments around the world to protect sensitive data. Our UK data centres are ISO27001 certified and PCI-DSS compliant.
 
