@@ -81,3 +81,9 @@ The installation will the complete and you can begin to manage backups of this c
 Once you've installed the agent on your computer or server, you can check it's been set up properly by heading back to the [FASTcloudbackup web console](https://fcb.ukfast.co.uk).  From the home page click `My Data` and you'll be taken to a page called Computers.  On here you will see the computer(s) and server(s) you have installed the FASTcloudbackup agent on to.
 
 ![Computers installed](files/Computers_installed.PNG)
+
+## Removing the FASTcloudbackup agent
+
+If you no longer wish to backup a particular computer or server then you can remove the FASTcloudbackup agent using your computer/server's usual uninstall process.  Note that you will no longer be able to see this computer or server in the FASTcloudbackup web console, or view/download/restore files previously backed up, so make sure to retrieve any files you need before removing the agent.
+
+Once you've removed the agent from your computer or server, you will no longer be charged the monthly per device fee, and the amount of data you had backed up will no longer count towards your storage quota.
