@@ -24,19 +24,19 @@ You may notice that the total amount of data backed up within FASTcloudbackup is
 
 If backups are not running (failing to start) then check that you have all the FASTcloudbackup services running correctly on your computer or server.  To do this go to the Process Manager that was installed as part of the FASTcloudbackup installation.  Find and open this using your Windows Search box, often found in the Start menu.
 
-![process_mgr](files/process_mgr.PNG)
+![process_mgr](files/process_mgr.png)
 
   Open the Process Manager and click on the `Services` tab.  Check all the FASTcloudbackup services are shown as running (with a green arrow).  If they're not, set them to run.  Also ensure that `Auto-start services when OS starts` is ticked.
   
-![process_mgr2](files/process_mgr2.PNG)
+![process_mgr2](files/process_mgr2.png)
 
 You can also check this on Windows computers by opening the `Run` programme and then `services.msc`.
 
-![services_msc](files/services_msc.PNG)
+![services_msc](files/services_msc.png)
 
 You will see a list of all services on this computer; look for the FASTcloudbackup ones and check they are shown as Running, and also Automatic in the Startup Type column.
 
-![services_list](files/services_list.PNG)
+![services_list](files/services_list.png)
 
 ## Backups aren't running - Linux computers or servers
 
