@@ -1,13 +1,13 @@
 # Mcafee Anti-Virus Supplied by UKFast
 
-If you choose an to include an Anti-Virus as part of your server package with UKFast, Mcafee Anti-Virus is the Software which we will provide, This is a Managed, Enterprise Grade Anti-Virus package, which is deployed on to your solution and is configured using best practice policies. An overview of the configuration can be found below.
+If you choose to include an Anti-Virus as part of your server package with UKFast, Mcafee Anti-Virus is the Software which we will provide, This is a managed, enterprise grade Anti-Virus package, which is deployed on to your solution and is configured using best practice policies. An overview of the configuration can be found below.
 
 
 ## Scanning Configuration
 
 * The Virus Scanning Engine is configured to scan files when they are written to disk during real time scanning. We disable continous read scannning to prevent IO Saturation which would result in performance degradation.
 
-* A Weekly scan is scheduled to scan all disks apart from any exclusions which have been specified, if  you wish to add, remove or modify exclusions on your anti-virus scan, please contact support via a ticket, making sure that you include your requirements within the ticket, and we will be able to action those changes for you.
+* A Weekly scan is scheduled to scan all disks apart from any exclusions which have been specified, if you wish to add, remove or modify exclusions on your anti-virus scan, please contact support via a ticket, making sure that you include your requirements within the ticket, and we will be able to action those changes for you.
 
 * Scanning of remote directories is disabled by default, however NFS mounts will be scanned and viewed as a local disk.
 
