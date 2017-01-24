@@ -18,3 +18,4 @@ Everyones favourite open source operating system
    php/index
    websites/index
    vpn/index
+   ssh/index
