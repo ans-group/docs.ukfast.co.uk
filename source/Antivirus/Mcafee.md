@@ -30,7 +30,7 @@ Scan type – All Files, Detect unwanted programs, Scan inside .zip/archive file
 Threat action – Clean First / Continue Scanning
 
 ### Default Managed Weekly Scan Policy (Linux VSE 1.9 / 2.0)
-Start Time – 11PM
+Start Time – 11:00PM
 Frequency – Weekly (Sunday)
 Scan type – All Files, Detect unwanted programs, Scan inside .zip/archive files, find unknown program/macro threats
 Threat action – Clean First / Continue Scanning
