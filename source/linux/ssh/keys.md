@@ -1,10 +1,10 @@
 # Setting up SSH keys
 
-A more secure way of accessing a server via SSH than password authentication is to use SSH keys. Each user on a server can have a public and private key pairing. To gain passwordless access to a remote server, simply add your local public key to the authorized_keys file on the remote server you wish to access. This is explained in further detail below.
+A more secure way of accessing a server via SSH than password authentication is to use SSH keys. Each user on a server can have a public and private key pairing. To gain password-less access to a remote server, simply add your local public key to the authorized_keys file on the remote server you wish to access. This is explained in further detail below.
 
 ```eval_rst
 .. note::
-   The command '~/' is used often here. This is simply a shortcut the the path '/home/user/'
+   The command '~/' is used often here. This is simply a shortcut the path '/home/user/'
 ``` 
 
 ## Generating Keys
@@ -56,12 +56,12 @@ You should now be able to log into the remote server, here 'root@1.2.3.4', witho
 
 ## Disabling Password Authentication
 
-You may also now wish to disable password authentication on your server. This is done simply by modifying the '/etc/ssh/sshd_config' file, and ammending the line below.
+You may also now wish to disable password authentication on your server. This is done simply by modifying the '/etc/ssh/sshd_config' file, and amending the line below.
 
 ```console
 PasswordAuthentication no
 ```
-The SSH service will then need restarting using the appropriate command for your distribution. For most systems this can be done with the commmand 'sudo service sshd reload'.
+The SSH service will then need restarting using the appropriate command for your distribution. For most systems this can be done with the command 'sudo service sshd reload'.
 
 You can also disable password authentication for the root user only, or disable root logins altogether by setting the following in the same file.
 
