@@ -10,11 +10,81 @@ There are three options for SSL configuration, depending on your needs:
 
 We can configure your WebCelerator to handle SSL traffic on request, which may require a small period of downtime depending on the configuration you'd like to implement.
 
-If you have multiple VIP's on your WebCelerator, we can configure more than one of these configuration options to suit a multi-tennant environment.
+If you have multiple VIP's on your WebCelerator, we can set up more than one of these configuration options to suit a multi-tennant environment.
 
 ## Diagram of SSL configuration options
 
 <center>![WebCel SSL Comparason](images/WebCel-SSL.png)</center>
+
+## Comparison of SSL configuration options
+
+<table>
+  <thead>
+    <tr>
+      <th></th>
+      <th>Pro's</th>
+      <th>Con's</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>SSL Passthrough</th>
+      <td>
+        <ul>
+          <li>SSL certificate is controlled by the backend.</li>
+          <li>No SSL-encrypted content is cached by the WebCel.</li>
+          <li>No additional configuration is required at WebCel level.</li>
+          <li>Redirection loops as a result of implementing the WebCel are unlikely.</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Any traffic sent over HTTPS will not be cached.</li>
+          <li>If all traffic is HTTPS, the WebCel will not cache anything.</li>
+          <li>If the backend goes offline, HTTPS traffic will receive a "connection refused" error.</li>
+          <li>We are unable to manipulate or alter the flow of traffic through the WebCel, other than it's destined backend.</li>
+          <li>All requests will appear as being from the WebCel's IP in access logs. We are not able to pass the client IP through to the backend</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <th>SSL Offloading</th>
+      <td>
+        <ul>
+          <li>HTTPS traffic can be cached and served from cache.</li>
+          <li>Slight performance increase on the backend from no longer needing to perform the SSL handshake.</li>
+          <li>Support for more modern SSL technologies (HTTP2, TLSv1.2, etc).</li>
+          <li>Ability to interact with and manipulate HTTPS traffic flowing through the WebCel.</li>
+          <li>Client IP will be passed onto the backend with the <code>X-Forwarded-For</code> header.</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Traffic passed to the backend will be sent over HTTP.</li>
+          <li>As a result of the above, any force-HTTPS redirects not checking <code>X-Forwarded-Proto</code> might cause redirection loops.</li>
+          <li>If configured to do so, and depending on the application, this might result in some session-related information being cached.</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <th>Secure Origin Pull</th>
+      <td>
+        <ul>
+          <li>HTTPS traffic can be cached and served from cache. Plus all of the benefits of offloading.</li>
+          <li>Traffic is re-encrypted before leaving the device, so never traverses the network in plain text.</li>
+          <li>Traffic is sent to the backend over port 443 in HTTPS, so shouldn't encounter redirection loops.</li>
+          <li>The most "drop-in" configuration for a WebCel with HTTPS and caching in place.</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Slightly increased latency for any request passed to the backend as a result of the overhead of decrypting and re-encrypting the traffic.</li>
+          <li>The SSL needs installing on both the WebCelerator and the backend server for this to work.</li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ## SSL Passthrough
 
