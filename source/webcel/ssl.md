@@ -122,6 +122,14 @@ if ($http_x_forwarded_proto = "https") {
 }
 ```
 
+Alterntatively, some clients have found that placing the following into a `server { }` block configured to `listen 80;` has worked:
+
+```
+if ($http_x_forwarded_proto = "http") {
+    return 301 https://example.com$request_uri;
+}
+```
+
 ## Secure Origin Pull
 
 With the secure origin pull configuration, traffic is first "offloaded" at WebCel level to allow us to inspect the traffic and serve requests from cache; however any requests needing to be passed to the backend are re-encrypted before leaving the WebCelerator and arrive to the backend over port 443.
