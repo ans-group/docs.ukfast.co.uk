@@ -108,7 +108,7 @@ Further to this, we also add a `X-Forwarded-For` header onto the request contain
 
 Some clients have found that adding the following to the top of their `.htaccess` file fixes issues with redirection loops:
 
-```
+```apache
 SetEnvIf X-Forwarded-Proto https HTTPS=on
 ```
 
@@ -116,9 +116,17 @@ SetEnvIf X-Forwarded-Proto https HTTPS=on
 
 Some clients have found that adding the following to their NGINX configuration for a domain fixes issues with redirection loops:
 
-```
+```nginx
 if ($http_x_forwarded_proto = "https") {
     set $fastcgi_https "on";
+}
+```
+
+Alterntatively, some clients have found that placing the following into a `server { }` block configured to `listen 80;` has worked:
+
+```nginx
+if ($http_x_forwarded_proto = "http") {
+    return 301 https://example.com$request_uri;
 }
 ```
 
