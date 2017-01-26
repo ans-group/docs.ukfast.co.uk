@@ -42,6 +42,10 @@ As you can see below, various options can be edited for your purpose.
 
 ![Image220](files/Image220.png)
 
+__Encrypt Email__ - If this option is selected, the user will be required to login in order to view the files that they have been sent. However, if this option isn't selected, the user will not be required to login in order to view the files that they have been sent.
+
+__Send me a copy of this email__ - If this option is selected, you'll also be emailed the exact same copy of the email that is being sent to your recipients __Note: If _Encrypt Email_ is selected, this option won't be available.__
+
 __For more information on how to add contacts to your address books and distribution groups, take a look at the following pages:__
 
 [Distribution Groups](https://docs.ukfast.co.uk/fastdrive/distributiongroups.html)
