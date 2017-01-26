@@ -30,6 +30,18 @@ If you click this icon, your address book will open. This will contain all of th
 
 ![Image218](files/Image218.png)
 
+Click __Add__ to confirm that you wish to add the user(s) to the message.
+
+Following this, enter a subject (this is mandatory) and if you like, enter an additional message.
+
+Below this, you will be able to see an icon named __Edit Message Options__
+
+![Image219](files/Image219.png)
+
+As you can see below, various options can be edited for your purpose. 
+
+![Image220](files/Image220.png)
+
 __For more information on how to add contacts to your address books and distribution groups, take a look at the following pages:__
 
 [Distribution Groups](https://docs.ukfast.co.uk/fastdrive/distributiongroups.html)
