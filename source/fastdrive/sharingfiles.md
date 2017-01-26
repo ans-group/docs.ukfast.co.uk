@@ -26,7 +26,9 @@ Firstly, we need to choose who we are going to send the message to. In the recip
 
 ![Image217](files/Image217.png)
 
-If you click this your address book will open. This will contain all of the contacts that have been added to either your Personal Address Book, Shared Address Book, or one of your Distribution Groups.
+If you click this icon, your address book will open. This will contain all of the contacts that have been added to either your Personal Address Book, Shared Address Book, or one of your Distribution Groups.
+
+![Image218](files/Image218.png)
 
 __For more information on how to add contacts to your address books and distribution groups, take a look at the following pages:__
 
