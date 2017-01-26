@@ -14,4 +14,21 @@ Two options will then appear; __Email with ShareFile__ and __Get a Link__. These
 
 ![Image215](files/Image215.png)
 
-You can share files via the ShareFile email system. Messages can be sent to FASTdrive users and non FASTdrive users and can be encrypted too if you like.
+Firstly, we'll go through __Email with ShareFile__.
+
+Once you've clicked __Email with ShareFile__, you'll see the following screen.
+
+![Image216](files/Image216.png)
+
+As you can see, the folder that you initially shared is shown in the top right-hand corner of the screen. On the left, you need to enter the __Recipients__ of the message, the __Subject__ of the message, and if you like you can add an additional __Message__.
+
+Firstly, we need to choose who we are going to send the message to. In the recipients field, there is a small icon as you can see below.
+
+![Image217](files/Image217.png)
+
+If you click this your address book will open. This will contain all of the contacts that have been added to either your Personal Address Book, Shared Address Book, or one of your Distribution Groups.
+
+(For more information on how to add contacts to your address books and distribution groups, take a look at the following pages:
+
+[Distribution Groups](https://docs.ukfast.co.uk/fastdrive/distributiongroups.html)
+[Address Books](https://docs.ukfast.co.uk/fastdrive/addressbooks.html)
