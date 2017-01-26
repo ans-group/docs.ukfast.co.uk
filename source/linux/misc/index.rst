@@ -14,3 +14,4 @@ Miscellaneous
    self_signed_certificates
    rsync
    sed
+   lvm
