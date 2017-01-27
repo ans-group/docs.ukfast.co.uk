@@ -46,6 +46,18 @@ __Encrypt Email__ - If this option is selected, the user will be required to log
 
 __Send me a copy of this email__ - If this option is selected, you'll also be emailed the exact same copy of the email that is being sent to your recipients __Note: If _Encrypt Email_ is selected, this option won't be available.__
 
+__Require recipients to log in__ - If this option is selected, the recipients will have to log in with their FASTdrive credentials before they can access any of the files that they have been sent.
+
+__Allow recipients to:__ - You can either allow recipients to _have full control_ or __Note: If _Encrypt Email_ is selected, this option won't be available.__
+
+__Access expires__ - You have the option to make your message expire after a certain amount of time. You can set this as low as one day or you can choose for access to never expire at all.
+
+__Accesses per user__ - You can choose to limit how many times a user can access the files within the email. You can set this between 1 and 10 or you can set this as unlimited.
+
+__Always link to the latest version of the file__ - If this option is selected, whenever the user opens the email, they will have access to the latest versions of the file(s) that they have been sent, even if a newer version has been saved after the email has been set up. If this option is not selected, the user will only be able to access the version that has been sent to them.
+
+__Remember subject and custom message for next time__ - If this option is selected, the subject and message that you have entered for this email will be remembered the next time that you send an email. This is particularly useful if you're going to be consistently sending the same email to multiple different users.
+
 __For more information on how to add contacts to your address books and distribution groups, take a look at the following pages:__
 
 [Distribution Groups](https://docs.ukfast.co.uk/fastdrive/distributiongroups.html)
