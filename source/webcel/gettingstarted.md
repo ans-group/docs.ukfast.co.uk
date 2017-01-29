@@ -1,8 +1,6 @@
 # Getting started
 
-So, as part of your expansion plans for improving your site, you've purchased a Webcelerator (or two, to be fully redundant) that will allow you to expand without adjusting the rest of your solution too much. Here's what to do next.
-
-Once your Webcelerator is ready, you will receive your VIP from UKFast support (also known as a floating IP). If you have more than one Webcelerator, these VIPs will move between them as failover events occur, rerouting traffic through the working Webcelerator. Web traffic hitting your VIP will pass through the cache before being sent onto the backend web server if necessary.
+Once your Webcelerator is ready, you will receive your VIP from our launch team (also known as a floating IP). If you have more than one Webcelerator, these VIPs will move between them as failover events occur, rerouting traffic through the working Webcelerator. Web traffic hitting your VIP will pass through the cache before being sent onto the backend web server if necessary.
 
 You can have multiple VIPs that each point to a different set of backend web servers *(e.g. VIP1 -> Web server1 & Web server2, VIP2 -> Web server2 & Web server3, etc)*. We'll keep things simple for this example, but remember that the Webcelerator can be as flexible as you need it to be.
 

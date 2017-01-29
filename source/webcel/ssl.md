@@ -112,6 +112,13 @@ Some clients have found that adding the following to the top of their `.htaccess
 SetEnvIf X-Forwarded-Proto https HTTPS=on
 ```
 
+Alterntatively, some clients have found that placing the following `RewriteRule` into their `.htaccess` file has worked:
+
+```apache
+RewriteCond %{HTTP:X-Forwarded-Proto} !https
+RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
+```
+
 ### NGINX HTTPS redirection fix
 
 Some clients have found that adding the following to their NGINX configuration for a domain fixes issues with redirection loops:
