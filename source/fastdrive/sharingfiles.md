@@ -60,6 +60,34 @@ __Remember subject and custom message for next time__ - If this option is select
 
 __For more information on how to add contacts to your address books and distribution groups, take a look at the following pages:__
 
+The next thing to go through is __Get a Link__.
+
+If you click __Get a Link__, you can share a file by creating a specific URL link which users will be able to access. Upon clicking this, you'll see the following screen.
+
+![Image223](files/Image223.png)
+
+As you can see, there is a text box at the top of the screen containing a URL. You can share this link with others so that they can access specific files.
+
+You can choose to add more files to share by hovering over the __Add more__ button. This will allow you to add more files and folders, either from FASTdrive or from your local computer
+
+![Image224](files/Image224.png)
+
+You will also be able to see a link named __Edit Link Options__. If you click this you'll see the screen below. This contains a variety of options which you, the user can modify.
+
+![Image225](files/Image225.png)
+
+__Email me when files are accessed__ - When a user uses the link that you have given them and downloads the files, you will be notified by email.
+
+__Require recipients to enter name and email__ - For tracking purposes, you can make users enter their name and email address so that you can see who is accessing the files that you have shared.
+
+__Allow recipients to:__ - Here, select __Have full control__.
+
+__Access expires__ - You have the option to make your message expire after a certain amount of time. You can set this as low as one day or you can choose for access to never expire at all.
+
+__Accesses per user__ - You can choose to limit how many times a user can access the files within the email. You can set this between 1 and 10 or you can set this as unlimited.
+
+__Always link to the latest version of the file__ - If this option is selected, whenever the user opens the email, they will have access to the latest versions of the file(s) that they have been sent, even if a newer version has been saved after the email has been set up. If this option is not selected, the user will only be able to access the version that has been sent to them.
+
 [Distribution Groups](https://docs.ukfast.co.uk/fastdrive/distributiongroups.html)
 
 [Address Books](https://docs.ukfast.co.uk/fastdrive/addressbooks.html)
