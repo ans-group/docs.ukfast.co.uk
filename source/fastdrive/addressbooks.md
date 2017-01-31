@@ -6,7 +6,7 @@ The __shared address book__ contains contacts which are visible to all employee 
 
 ![Image221](files/Image221.png)
 
-If a user is only added to your __personal address book__ it will mean that only you will be able to see that contact. Client users can be added to your personal address book but will not have access to a personal address book of their own.
+If a user is only added to your __personal address book__ it will mean that __only you__ will be able to see that contact. Client users can be added to your personal address book but will not have access to a personal address book of their own.
 
 ![Image222](files/Image222.png)
 
