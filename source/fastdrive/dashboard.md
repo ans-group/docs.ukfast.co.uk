@@ -4,11 +4,9 @@ The FASTdrive web application dashboard contains your recent files, shortcuts, t
 
 ## Recent Files
 
-Files that you have recently accessed will be shown here. Once you have opened a particular file, it will be shown here.
+Files that you have recently accessed will be shown here. Showing the files that you have recently accessed allows you to easily access them.
 
 ![Image209](files/Image209.png)
-
-Showing the files that you have recently accessed allows you to easily access them.
 
 ## Shortcuts
 
