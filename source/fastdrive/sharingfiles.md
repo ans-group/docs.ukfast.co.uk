@@ -6,11 +6,15 @@ In order to share a file with someone else, firstly navigate to that file within
 
 ![Image213](files/Image213.png)
 
-To the left of the folder name, there is a checkbox so that you can select this folder. Tick this box and you will see the variety of options that are available to you. In this instance, we want to share this file, so click the __share__ button.
+To the left of the folder name, there is a checkbox so that you can select this folder. Tick this box and you will see a variety of options that are available to you. In this instance, we want to share this file, so click the __share__ button.
 
 ![Image214](files/Image214.png)
 
 Two options will then appear; __Email with ShareFile__ and __Get a Link__. These are two different ways of sharing files.
+
+__Email with ShareFile__ is more useful when you wish to share files with other FASTdrive users.
+
+__Get a Link__ is more useful when you wish to share files with users that don't have FASTdrive.
 
 ![Image215](files/Image215.png)
 
@@ -20,7 +24,7 @@ Once you've clicked __Email with ShareFile__, you'll see the following screen.
 
 ![Image216](files/Image216.png)
 
-As you can see, the folder that you initially shared is shown in the top right-hand corner of the screen. On the left, you need to enter the __Recipients__ of the message, the __Subject__ of the message, and if you like you can add an additional __Message__.
+As you can see, the folder that you initially shared is shown in the top right-hand corner of the screen. On the left, you need to enter the __Recipient(s)__ of the message, the __Subject__ of the message, and if you like you can add an additional __Message__.
 
 Firstly, we need to choose who we are going to send the message to. In the recipients field, there is a small icon as you can see below.
 
@@ -44,21 +48,19 @@ As you can see below, various options can be edited for your purpose.
 
 __Encrypt Email__ - If this option is selected, the user will be required to login in order to view the files that they have been sent. However, if this option isn't selected, the user will not be required to login in order to view the files that they have been sent.
 
-__Send me a copy of this email__ - If this option is selected, you'll also be emailed the exact same copy of the email that is being sent to your recipients __Note: If _Encrypt Email_ is selected, this option won't be available.__
+__Send me a copy of this email__ - If this option is selected, you'll also be emailed the exact same copy of the email that is being sent to your recipient(s) __Note: If _Encrypt Email_ is selected, this option won't be available.__
 
 __Require recipients to log in__ - If this option is selected, the recipients will have to log in with their FASTdrive credentials before they can access any of the files that they have been sent.
 
-__Allow recipients to:__ - You can either allow recipients to _have full control_ or __Note: If _Encrypt Email_ is selected, this option won't be available.__
+__Allow recipients to:__ - Here, select __Full control__ __Note: If _Encrypt Email_ is selected, this option won't be available.__
 
-__Access expires__ - You have the option to make your message expire after a certain amount of time. You can set this as low as one day or you can choose for access to never expire at all.
+__Access expires__ - You have the option to make your message and file(s) expire after a certain amount of time. You can set this as low as one day or you can choose for access to never expire at all.
 
 __Accesses per user__ - You can choose to limit how many times a user can access the files within the email. You can set this between 1 and 10 or you can set this as unlimited.
 
-__Always link to the latest version of the file__ - If this option is selected, whenever the user opens the email, they will have access to the latest versions of the file(s) that they have been sent, even if a newer version has been saved after the email has been set up. If this option is not selected, the user will only be able to access the version that has been sent to them.
+__Always link to the latest version of the file__ - If this option is selected, whenever the user opens the email, they will have access to the latest versions of the file(s) that they have been sent, even if a newer version has been saved after the email has been sent. If this option is not selected, the user will only be able to access the version that has been sent to them.
 
 __Remember subject and custom message for next time__ - If this option is selected, the subject and message that you have entered for this email will be remembered the next time that you send an email. This is particularly useful if you're going to be consistently sending the same email to multiple different users.
-
-__For more information on how to add contacts to your address books and distribution groups, take a look at the following pages:__
 
 The next thing to go through is __Get a Link__.
 
@@ -87,6 +89,8 @@ __Access expires__ - You have the option to make your message expire after a cer
 __Accesses per user__ - You can choose to limit how many times a user can access the files within the email. You can set this between 1 and 10 or you can set this as unlimited.
 
 __Always link to the latest version of the file__ - If this option is selected, whenever the user opens the email, they will have access to the latest versions of the file(s) that they have been sent, even if a newer version has been saved after the email has been set up. If this option is not selected, the user will only be able to access the version that has been sent to them.
+
+__For more information on how to add contacts to your address books and distribution groups, take a look at the following pages:__
 
 [Distribution Groups](https://docs.ukfast.co.uk/fastdrive/distributiongroups.html)
 
