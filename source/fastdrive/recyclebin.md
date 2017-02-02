@@ -12,9 +12,9 @@ Here, you'll be able to see a list of folders and files which you have deleted.
 
 ![Image198](files/Image198.png)
 
-As noted above, files and folders will be stored here for a maximum of 45 days and it's not possible to recover a file once this 45 day period has passed.
-
 You can restore files and folders from the recycle bin or delete them permanently. Be aware that once you've permanently deleted an item, you will not be able to recover it.
+
+As noted above, files and folders will be stored here for a maximum of 45 days and it's not possible to recover a file once this 45 day period has passed.
 
 ## Folder recycle bins
 
