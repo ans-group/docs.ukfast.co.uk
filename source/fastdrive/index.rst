@@ -8,6 +8,7 @@ Enterprise-class file storage and sharing, based on eCloud Vault and Citrix Shar
    :maxdepth: 1
 
    loggingin
+   dashboard
    uploadingfiles
    downloadingfiles
    creatingfolderswithinFASTdrive
@@ -23,3 +24,5 @@ Enterprise-class file storage and sharing, based on eCloud Vault and Citrix Shar
    addingfolderstoyourfavorites
    recyclebin
    browsingforfiles
+   sharingfiles
+   addressbooks
