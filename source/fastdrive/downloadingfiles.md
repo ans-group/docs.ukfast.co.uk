@@ -2,10 +2,6 @@
 
 Files can be downloaded from FASTdrive in order to be used locally. Firstly, navigate to the folder where the file that you’d like to download is situated.
 
-To find the folder using the web app, navigate to __Folders__ which you can see in the left-hand menu. You’ll then be prompted to select either __Personal Folders__, __Shared Folders__, or __Favorites__ and the file which you are looking for will be in one of these folders.
-
-![Image118](files/Image118.png)
-
 Once you have found where your file is located, you need to left-click the file name.
 
 ![Image119](files/Image119.png)
