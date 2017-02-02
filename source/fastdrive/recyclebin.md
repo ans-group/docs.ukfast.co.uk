@@ -32,4 +32,4 @@ Click this icon and you'll be directed to the recycle bin for this folder.
 
 ![Image201](files/Image201.png)
 
-Similar to the normal recycle bin, files and folders can be permanently recovered or restored from this view.
+Exactly like the standard recycle bin, files and folders can be permanently deleted or restored from this view.
