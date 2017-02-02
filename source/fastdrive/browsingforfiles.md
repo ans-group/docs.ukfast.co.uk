@@ -4,7 +4,7 @@ You may encounter an issue where you can't find one of your files or folders. Th
 
 If this is the case, you can directly search for a file or folder using the search function in the FASTdrive web app.
 
-At the top of every page you will search a small magnifying glass. Clicking this icon will expand the search box.
+At the top of every page you will see a small magnifying glass. Clicking this icon will expand the search box.
 
 ![Image202](files/Image202.png)
 
