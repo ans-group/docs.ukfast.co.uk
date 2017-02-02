@@ -72,7 +72,7 @@ You’ll see an email in your inbox similar to the one below. Click __Reset your
 
 ![Image94](files/Image94.png)
 
-You will then be directed to a screen similar to the one below. Here, enter the new password twice and click __Reset Password__.
+You will then be directed to a screen similar to the one below. Here, enter your new password twice and click __Reset Password__.
 
 ![Image95](files/Image95.png)
 
