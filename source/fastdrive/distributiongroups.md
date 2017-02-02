@@ -2,7 +2,7 @@
 
 Distribution groups can be created in order to share files and folders with a certain group of people quickly. Instead of assigning individual users to a folder, a distribution group can be used instead.
 
-Admin users can create distribution groups and if they’re assigned the __Create shared distribution groups__ permission, normal employee users can do so too.
+Admin users can create distribution groups and if they’re assigned the __Create shared distribution groups__ permission, standard employee users can do so too.
 
 To create a distribution group, navigate to the __People__ tab and find __Distribution Groups__.
 
