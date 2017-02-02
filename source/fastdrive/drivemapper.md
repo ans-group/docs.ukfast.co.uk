@@ -6,6 +6,8 @@ The application that we recommend the most is Drive Mapper. This, along with the
 
 In order to access these applications, click the __Apps__ link which appears in the top-right hand corner of each page.
 
+![Image226](files/Image226.png)
+
 ![Image122](files/Image122.png)
 
 Here you’ll see a variety of apps for different platforms, whether that be Windows, Mac, or Mobile.
