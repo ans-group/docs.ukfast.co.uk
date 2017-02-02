@@ -56,7 +56,7 @@ If the user scrolls down the page, they’ll be able to see a __Change Password_
 
 If you have forgotten your password, you won’t be able to follow the above method. Instead, you can follow the method below.
 
-Firstly, navigate to the web app log in screen. This should look similar to the below.
+Firstly, navigate to your FASTdrive web app log in screen. This should look similar to the below.
 
 ![Image91](files/Image91.png)
 
