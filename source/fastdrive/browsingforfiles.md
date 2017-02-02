@@ -11,7 +11,7 @@ At the top of every page you will see a small magnifying glass. Clicking this ic
 ![Image203](files/Image203.png)
 
 In this box, enter the name of the file or folder that you'd like to search for. You don't have to enter the full name of the file or
-folder here as the search will bring up all results containing the consecutive character that you have entered.
+folder here as the search will bring up all results containing the consecutive characters that you have entered.
 
 In this instance I have entered __Test__ into the search bar and as you can see, a variety of files and foldershave appeared which match the string of text that I entered.
 
