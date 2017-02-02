@@ -8,9 +8,9 @@ In order to access these applications, click the __Apps__ link which appears in 
 
 ![Image226](files/Image226.png)
 
-![Image122](files/Image122.png)
-
 Here you’ll see a variety of apps for different platforms, whether that be Windows, Mac, or Mobile.
+
+![Image122](files/Image122.png)
 
 Click the __Windows__ tab and you will see a variety of applications. In this instance, we want to download Drive Mapper, which is only available on Windows.
 
