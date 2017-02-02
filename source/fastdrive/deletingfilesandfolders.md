@@ -26,9 +26,7 @@ Once deleted, this folder will be moved to the recycle bin where it will be stor
 
 ## Drive Mapper
 
-Files and folders can also be deleted easily in Drive Mapper. Firstly, navigate to the Shared Drive in order to find the file or folder that you would like to delete.
-
-To do this, open File Explorer by clicking the yellow folder icon in your task bar.
+Files and folders can also be deleted easily in Drive Mapper. Firstly, open File Explorer by clicking the yellow folder icon in your task bar.
 
 ![Image101](files/Image101.png)
 
