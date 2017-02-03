@@ -17,7 +17,7 @@ Given the whitelisting design used by UKFast WAFs, we benefit from the ability t
  - <b>Using Components with Known Vulnerabilities:</b> If using a component with known vulnerabilities in your environment, you must expect an attacker to use it. It is important to understand that software that is not known to be vulnerable right now may become vulnerable in the future.
  - <b>Unvalidated redirects and forward:</b> This category covers attacks that are led during redirects. Typically, 30x HTTP codes are used to redirect a user from a page to another, depending on some parameters. If the destination URL of the redirect is put as a parameter in the original page URL, then an attacker could modify this redirection by changing the URL which was put as a parameter
  
-## Threat Intelligence:
+## Threat Intelligence
 
 Due to the statistical data UKFast collects and analyses, we are able to identify bad actors and generate IP-based block lists. Data can be gathered by analyzing HTTP status codes to find software implementation faults, which allows us to build up a database of blacklist strings to deploy and block known bad traffic as early as possible.
 
