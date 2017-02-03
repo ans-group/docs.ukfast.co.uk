@@ -11,6 +11,8 @@ Contents:
    :maxdepth: 2
 
    linux/index
+   windows/index
+   Security/index
    backups/index
    myukfast/index
    flex/index
@@ -18,6 +20,6 @@ Contents:
    fastdrive/index
    fastdesk/index
    sharedexchange/index
-   windows/index
+   
 
 You can help make this documentation better on Github.  Just click on the pencil icon on the right hand side of any page.
