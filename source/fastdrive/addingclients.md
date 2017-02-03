@@ -28,7 +28,7 @@ Next, you need to enter some basic information and set some basic user permissio
 
 Similarly to how employee users are added to folders and groups, the same also applies to client users too. The employee user who is adding the client user can assign the client user to folders and distribute various permissions.
 
-In order to add a user to a folder, expand one of the 3 main folders (Personal Folders, Shared Folders, and Favorites) and choose a folder(s) which you’d like to add the client user to by marking the check box.
+In order to add a user to a folder, expand one of the 3 main folders (Personal Folders, Shared Folders, and Favorites) and choose a folder which you’d like to add the client user to by marking the check box.
 
 ![Image73](files/Image73.png)
 
