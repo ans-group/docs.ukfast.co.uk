@@ -1,6 +1,6 @@
 # Troubleshooting
 
-Typically WAFs suffer from very few problems as long as they have been [set up correctly](/gettingstarted).
+Typically WAFs suffer from very few problems as long as they have been [set up correctly](/gettingstarted.md).
 
 Here are a few possible fixes in the event of any issues: 
 
