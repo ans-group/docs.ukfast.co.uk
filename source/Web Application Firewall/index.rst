@@ -7,5 +7,5 @@ A Web Application Firewall (WAF) is an important component of your IT infrastruc
 .. toctree::
    :maxdepth: 1
    
-   GeneralProductInformation
+   whatisawaf
    Gettingstarted
