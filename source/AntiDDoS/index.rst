@@ -8,7 +8,8 @@ Distributed Denial of Service (DDoS) attacks are a major issue for many websites
 .. toctree::
    :maxdepth: 1
    
-   General_Information
-   Getting_Started
-   Monitoring_Reports
-   Under_attack
+   GeneralInformation
+   GettingStarted
+   AddingDomains
+   MonitoringReports
+   Underattack
