@@ -1,10 +1,10 @@
 # What kind of attacks does a WAF prevent?
 
-The Web Application Firewall behaves like a DROP-by-default firewall, applications are trained based on acceptable input, for example the symbols, '<', '|' or '..' are not supposed to be part of a URL.
+The Web Application Firewall behaves like a DROP-by-default firewall.  Applications are trained based on acceptable input, for example - the symbols `<`, `|` or `..` are not supposed to be part of a URL.
 
-Given our whitelisting design we benefit from the ability to prevent against new attack techniques even before a new "signature" is generated, deployed, and then enforced providing zero day protection in many instances by default.
+Given the whitelisting design used by UKFast WAFs, we benefit from the ability to prevent against new attack techniques even before a new "signature" is generated, deployed, and enforced - providing zero-day protection by default in many instances.
 
-## Typical attack vectors a WAF protects you from (aka OWASP top 10 vulnerabilities):
+## Typical attack vectors a WAF protects you from (based on [OWASP](https://www.owasp.org/index.php/Main_Page) top 10 vulnerabilities):
 
  - <b>Injection:</b> The most common injections are SQL related, even though SQL is not the only language used. It entails injecting SQL language into, for instance, a web form. 
  - <b>Broken Authentication and Session Management:</b> The easiest example involves an URL containing session identifiers, which one sends to a friend via email. If the server does not check a complementary element, the second person will be able to use the account of the first person as if he or she was logged in.
