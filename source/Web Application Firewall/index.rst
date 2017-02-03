@@ -8,4 +8,4 @@ A Web Application Firewall (WAF) is an important component of your IT infrastruc
    :maxdepth: 1
    
    whatisawaf
-   Gettingstarted
+   gettingstarted
