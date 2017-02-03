@@ -8,10 +8,10 @@ To mark a folder as a favorite, click the star to the left of a folder's name.
 
 ![Image186](files/Image186.png)
 
-This will create a shortcut to the folder in __Favorites__
+This will create a shortcut to the folder in __Favorites__.
 
 ![Image187](files/Image187.png)
 
-Clicking this folder will open the folder in its original location under __Personal Folders__
+Clicking this folder will open the folder in its original location under __Personal Folders__.
 
 ![Image188](files/Image188.png)
