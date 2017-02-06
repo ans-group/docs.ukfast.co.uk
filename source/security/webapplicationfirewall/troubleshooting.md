@@ -1,6 +1,6 @@
 # Troubleshooting
 
-Typically WAFs suffer from very few problems as long as they have been [set up correctly](/gettingstarted.html).
+Typically WAFs suffer from very few problems as long as they have been [set up correctly](https://docs.ukfast.co.uk/security/webapplicationfirewall/gettingstarted.html).
 
 Here are a few possible fixes in the event of any issues: 
 
