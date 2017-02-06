@@ -1,8 +1,0 @@
-==========
-Antivirus
-==========
-
-.. toctree::
-   
-   Mcafee
-
