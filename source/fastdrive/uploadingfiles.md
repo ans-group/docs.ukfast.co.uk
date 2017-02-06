@@ -8,7 +8,7 @@ Firstly, we’ll upload a file to our __Personal Folders__. You’ll be able to 
 
 ![Image58](files/Image58.png)
 
-If you hover over this icon you will see a variety of actions which you can undertake. In this instance we’re going to upload a file so hit the __Upload__ button.
+If you hover over this icon you will see a variety of actions which you can undertake. In this instance we’re going to upload a file, so hit the __Upload__ button.
 
 ![Image59](files/Image59.png)
 

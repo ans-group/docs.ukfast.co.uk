@@ -18,9 +18,9 @@ Once you have run through these steps you will be automatically signed in.
 
 ## Standard login
 
-Once you have run through the first time login process, you can login every time by entering your email address and password.
+To login, you need to navigate to your unique FASTdrive URL. This will be sent to you in a ticket along with your FASTdrive admin user credentials.
 
-To log in, you need to navigate to your unique FASTdrive URL. This will be sent to you in a ticket along with your FASTdrive admin user credentials.
+Once you have run through the first time login process, you can login every time by entering your email address and password.
 
 Below is an image of the standard log in screen that you will see. If you enter the correct credentials you will be successfully logged in.
 
