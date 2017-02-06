@@ -8,3 +8,4 @@ Information relating to UKFast security products and services, and general best 
    :maxdepth: 1
 
    webapplicationfirewall/index
+   antivirus/index
