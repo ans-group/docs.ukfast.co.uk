@@ -9,3 +9,6 @@ Information relating to UKFast security products and services, and general best 
 
    webapplicationfirewall/index
    antivirus/index
+   firewalls/index
+   vulnerabilityscans
+   dirtycow
