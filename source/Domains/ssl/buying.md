@@ -4,7 +4,7 @@
 .. note::
   This guide is just on how to purchase an SSL from UKFast.
   For information on the different types of SSL certificates available please see the following page:
-  :doc:`/myukfast/ssl/types`
+  :doc:`/Domains/ssl/types`
 ```
 
 SSL certificates are available to purchase via the MyUKFast Panel [here](https://my.ukfast.co.uk/ssl/buy.php)

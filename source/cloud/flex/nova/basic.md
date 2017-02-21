@@ -4,7 +4,7 @@
 .. warning::
   As with most of our Flex guides, we're going to assume that you've followed our guide on setting environment variables:
 
-  :doc:`/flex/general/settingvars`
+  :doc:`/cloud/flex/general/settingvars`
 
   If you're not using this method of authentication, you may need to specify additional flags/options in the commands used in this article.
 ```

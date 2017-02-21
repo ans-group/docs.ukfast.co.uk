@@ -10,4 +10,3 @@ MyUKFast
    network/index
    monitoring/index
    servers/index
-   ssl/index

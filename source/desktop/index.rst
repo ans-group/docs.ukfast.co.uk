@@ -10,4 +10,4 @@ UKFast offers a number of office and desktop productivity solutions.
    fastdesk/index
    fastdrive/index
    sharedexchange/index
-   FASTcloudbackup/index
+   /backups/FASTcloudbackup/index

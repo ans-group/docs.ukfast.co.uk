@@ -4,11 +4,11 @@
 .. seealso::
    If you're currently looking at a blank server, you'll first need to follow these guides
 
-   :doc:`/linux/apache/installation`
+   :doc:`/operatingsystems/linux/apache/installation`
 
-   :doc:`/linux/php/installation`
+   :doc:`/operatingsystems/linux/php/installation`
 
-   :doc:`/linux/mysql/installation`
+   :doc:`/operatingsystems/linux/mysql/installation`
 ```
 
 Wordpress is an incredibly popular blogging platform that's increasingly being used as a CMS.
@@ -127,7 +127,7 @@ Select your language and hit continue.
 
    If you haven't installed the php-mysql module, this is likely where you'll start to see issues. Check the following page for more information on installing php modules:
 
-   :doc:`/linux/php/moduleinstallation`
+   :doc:`/operatingsystems/linux/php/moduleinstallation`
 ```
 
 The next page should just be letting you know that you're going to need your database credentials, but we've already covered that.

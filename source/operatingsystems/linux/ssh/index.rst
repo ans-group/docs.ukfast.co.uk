@@ -3,5 +3,5 @@ SSH
 ===
 
 .. toctree::
-   /linux/basics/connecting
+   /operatingsystems/linux/basics/connecting
    keys

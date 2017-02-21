@@ -4,7 +4,7 @@
 .. note::
   This process contains a lot of the same steps as our article on transfering domains into UKFast, just from the inverse perspective:
 
-  :doc:`/myukfast/domains/transferin`
+  :doc:`/Domains/domains/transferin`
 ```
 
 ## .uk domains
