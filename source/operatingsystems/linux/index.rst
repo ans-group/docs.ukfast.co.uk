@@ -2,7 +2,7 @@
 Linux
 =====
 
-Everyones favourite open source operating system
+Help and guidance with Linux and related technologies
 
 .. toctree::
    :maxdepth: 1
