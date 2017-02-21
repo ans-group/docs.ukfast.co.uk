@@ -2,12 +2,13 @@
 SafeDNS
 =======
 
-It's actually quite simple!
+SafeDNS allows you to manage your DNS records, even if you didn't use UKFast as your domain registrar.
 
 .. toctree::
+   :maxdepth: 1
 
-   addarecord
    addnewdomain
+   addarecord
    spf
-   recordtypes
    ttl
+   recordtypes

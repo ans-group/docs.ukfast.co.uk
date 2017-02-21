@@ -2,9 +2,7 @@
 
 On the shared exchange platform, email forwarders are configured using the webmail client.
 
-As such, you'll first need to log into the webmail area, as described in the following article: [Connecting via Webmail](/sharedexchange/webmailconnect.html)
-
-<https://client.ukfastexchange.co.uk/owa>
+As such, you'll first need to log into the webmail area, as described in the following article: [Connecting via Webmail](/sharedexchange/webmailconnect.html) via this link <https://client.ukfastexchange.co.uk/owa>
 
 In the top right hand corner, select `Settings` and then `Options`
 
@@ -21,8 +19,7 @@ Select the plus icon and then `Create a new rule for arriving messages..`
 ![Forwarding 3](files/shex_forward3.png)
 
 
-Give the new rule a name
-Under the heading `When the message arrives, and:` select `[Apply to all messages`
+Give the new rule a name under the heading `*When the message arrives, and:` select `[Apply to all messages]`
 
 ![Forwarding 4](files/shex_forward4.png)
 
@@ -54,4 +51,4 @@ To edit the rule, use the pencil icon.
 
 
 
-As ever, if you have any issues with getting this working, just drop a ticket into UKFast support and our engineers will be able to offer some help.
+If you have any issues with getting this working, just drop a ticket into UKFast support and our engineers will be able to offer some help.
