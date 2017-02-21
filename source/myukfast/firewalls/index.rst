@@ -1,7 +1,0 @@
-=========
-Firewalls
-=========
-
-.. toctree::
-   openport
-   viewconfig

@@ -161,7 +161,7 @@ No-one wants to log in every day and start a backup running, that's not efficien
 .. seealso::
    If you're new to `cron`, you may want to read our page on it here:
 
-   :doc:`/linux/basics/cron`
+   :doc:`/operatingsystems/linux/basics/cron`
 ```
 
 The following bash script will run duply jobs on a nightly basis and email the output to the email address you specify:
