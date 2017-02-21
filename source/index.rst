@@ -10,12 +10,11 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
+   cloud/index
    desktop/index
    security/index
    backups/index
    myukfast/index
-   flex/index
-   FASTcloudbackup/index
    webcel/index
    operatingsystems/index
 

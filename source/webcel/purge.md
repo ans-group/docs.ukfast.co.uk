@@ -10,7 +10,7 @@ We provide an interface to purge your Webceletator cache via [MyUKFast](https://
 
 Simply enter a domain into the text box, or the URL to a specific file, and click "Purge Webcelerator Cache" to send a purge request to the Webcelerator.
 
-Please note that this somtimes does not work if there are devices in front of the Webcelerator (eg: Secarma G8 DDoS Protection), which would require you to use another purging method or [contacting support](http://www.ukfast.co.uk/support.html) to purge.
+Please note that this somtimes does not work if there are devices in front of the Webcelerator (eg: UKFast DDoS Protection), which would require you to use another purging method or [contacting support](http://www.ukfast.co.uk/support.html) to purge.
 
 ## Purging via cURL
 

@@ -2,6 +2,8 @@
 Shared Exchange
 ===============
 
+Shared Microsoft Exchange from UKFast; powerful mailbox features for business class email.
+
 .. toctree::
    :maxdepth: 1
 
