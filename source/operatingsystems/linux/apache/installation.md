@@ -13,7 +13,7 @@ Install the latest version with yum, like so:
 .. note::
    As with all centos/redhat packages, 'latest' usually won't mean the current stable version that could be found on the project website, but rather than latest package provided by centos/redhat.
 
-   These typically include backported security patches, see the page on vulnerability scans for further information. :doc:`/operatingsystems/linux/misc/vulnerabilityscans`
+   These typically include backported security patches, see the page on vulnerability scans for further information. :doc:`/security/vulnerabilityscans`
 ```
 
 Most people will want their webserver to start on boot, use chkconfig to make it so:
