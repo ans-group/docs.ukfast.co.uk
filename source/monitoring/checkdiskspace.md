@@ -1,6 +1,6 @@
-# Checking Disk Space
+# Disk space
 
-It's quite common to want to check the status of the various partitions/drives on your server to see how full they are. The following command is the one you'll want to run:
+It's quite common to want to check the status of the various partitions/drives on your server to see how full they are. To do so run this command:
 
 ```bash
    df -h

@@ -18,6 +18,4 @@ This will return output similar to the following:
 
 At first glance, it may seem that the server only has `5.3G` available, but the value we're interested in is the one just below it, in the `-/+ buffers/cache` section. This takes Linux's native disk caching into account, which can otherwise makes it look as though most of your RAM is being used up.
 
-For further (admittedly tongue in cheek) explanation, see the following link.
-
-<http://www.linuxatemyram.com/>
+For further explanation, see <http://www.linuxatemyram.com/>
