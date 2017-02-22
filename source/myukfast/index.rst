@@ -8,5 +8,4 @@ MyUKFast
 
    loadbalancing/index
    network/index
-   monitoring/index
    servers/index
