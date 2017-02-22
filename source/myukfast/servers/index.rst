@@ -4,5 +4,4 @@ Servers
 
 .. toctree::
 
-  bandwidth
   rdns
