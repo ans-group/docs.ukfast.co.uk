@@ -17,6 +17,7 @@ Contents:
    backups/index
    myukfast/index
    webcel/index
+   monitoring/index
    operatingsystems/index
 
 
