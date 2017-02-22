@@ -9,14 +9,12 @@ Basics
    addip
    atop
    basictroubleshooting
-   checkdiskspace
    connecting
    cron
    dns
    files
    file-manipulation
    iptables
-   memoryusage
    navigation
    network-diagnostics
    packageupdates
