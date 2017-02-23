@@ -8,6 +8,7 @@ Help with monitoring your UKFast-hosted infrastructure, and managing usage effec
    :maxdepth: 1
 
    proprotection
+   monitoring/index
    memoryusage
    bandwidth
    checkdiskspace
