@@ -44,16 +44,16 @@ Once you are in a directory you can view it's contents using the command `ls`.
 Extra details can be seen with the command `ls -l` which is commonly aliased to `ll` in RHEL/CentOS based systems.
 
 ``
-    [cloud-user@arthas ~]$ ls -l
-    total 12
-    drwxr-xr-x. 3 cloud-user cloud-user 4096 Jan 15 12:55 python
-    -rw-rw-r--. 1 cloud-user cloud-user  101 Apr  6 05:59 sampleFile.txt
-    drwxrwxr-x. 2 cloud-user cloud-user 4096 Apr  6 07:19 test
-    [cloud-user@arthas ~]$ ll
-    total 12
-    drwxr-xr-x. 3 cloud-user cloud-user 4096 Jan 15 12:55 python
-    -rw-rw-r--. 1 cloud-user cloud-user  101 Apr  6 05:59 sampleFile.txt
-    drwxrwxr-x. 2 cloud-user cloud-user 4096 Apr  6 07:19 test
+     [cloud-user@arthas ~]$ ls -l
+     total 12
+     drwxr-xr-x. 3 cloud-user cloud-user 4096 Jan 15 12:55 python
+     -rw-rw-r--. 1 cloud-user cloud-user  101 Apr  6 05:59 sampleFile.txt
+     drwxrwxr-x. 2 cloud-user cloud-user 4096 Apr  6 07:19 test
+     [cloud-user@arthas ~]$ ll
+     total 12
+     drwxr-xr-x. 3 cloud-user cloud-user 4096 Jan 15 12:55 python
+     -rw-rw-r--. 1 cloud-user cloud-user  101 Apr  6 05:59 sampleFile.txt
+     drwxrwxr-x. 2 cloud-user cloud-user 4096 Apr  6 07:19 test
 ``
 
 As you can see here, both outputs are the same as it is a CentOS server.
