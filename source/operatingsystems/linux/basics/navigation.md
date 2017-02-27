@@ -11,11 +11,8 @@ anything on the system and always logs in to `/root`.
 
 You can always find your current location using the `pwd` command like so:
 
-``console
-
     [centos@arthas centos]# pwd
     /home/centos
-``
 
 
 
@@ -25,38 +22,36 @@ You can always find your current location using the `pwd` command like so:
 `cd` will be your primary method of traversing the system, as you may have guessed `cd` stands for change directory. This command is used in conjunction with a filepath
 to change to that directory, for example:
 
-``console
-  cd /home/graphiterack/
-``
+
+    cd /home/graphiterack/
 
 `cd` can also be used to go up a folder in the system when used with two dots
 
-``console
-  cd ..
-``
+
+    cd ..
+
 
 Once you are in a directory you can view it's contents using the command `ls`.
 
-``console
+
     [cloud-user@arthas ~]$ ls
     python  sampleFile.txt  test
-``
+
 
 Extra details can be seen with the command `ls -l` which is commonly aliased to `ll` in RHEL/CentOS based systems.
 
-``console
 
-    [cloud-user@arthas ~]$ ls -l
-    total 12
-    drwxr-xr-x. 3 cloud-user cloud-user 4096 Jan 15 12:55 python
-    -rw-rw-r--. 1 cloud-user cloud-user  101 Apr  6 05:59 sampleFile.txt
-    drwxrwxr-x. 2 cloud-user cloud-user 4096 Apr  6 07:19 test
-    [cloud-user@arthas ~]$ ll
-    total 12
-    drwxr-xr-x. 3 cloud-user cloud-user 4096 Jan 15 12:55 python
-    -rw-rw-r--. 1 cloud-user cloud-user  101 Apr  6 05:59 sampleFile.txt
-    drwxrwxr-x. 2 cloud-user cloud-user 4096 Apr  6 07:19 test
-``
+     [cloud-user@arthas ~]$ ls -l
+     total 12
+     drwxr-xr-x. 3 cloud-user cloud-user 4096 Jan 15 12:55 python
+     -rw-rw-r--. 1 cloud-user cloud-user  101 Apr  6 05:59 sampleFile.txt
+     drwxrwxr-x. 2 cloud-user cloud-user 4096 Apr  6 07:19 test
+     [cloud-user@arthas ~]$ ll
+     total 12
+     drwxr-xr-x. 3 cloud-user cloud-user 4096 Jan 15 12:55 python
+     -rw-rw-r--. 1 cloud-user cloud-user  101 Apr  6 05:59 sampleFile.txt
+     drwxrwxr-x. 2 cloud-user cloud-user 4096 Apr  6 07:19 test
+
 
 As you can see here, both outputs are the same as it is a CentOS server.
 
@@ -71,13 +66,13 @@ There are many way to view files in Linux, here we will cover the two most commo
 The `cat` utility can be used for a variety of operations, however in this article we will be using it in the most simple form `cat {filename}`. This will simply print
 he contents of the file to the console window as so:
 
-``console
-    [cloud-user@arthas ~]$ cat sampleFile.txt
-    This is an example file
-    There are many like it but this one is mine
-    It has several lines
-    and bacon.
-``
+
+     [cloud-user@arthas ~]$ cat sampleFile.txt
+     This is an example file
+     There are many like it but this one is mine
+     It has several lines
+     and bacon.
+
 
 `cat` is useful for quickly viewing small files that do not need to be edited.
 
@@ -95,11 +90,11 @@ and Page Down. The file can also be searched with `/` and `?` to search up and d
 
 The easiest way to create a file in any Linux directory is to use the `touch` command as follows:
 
-``console
-    [cloud-user@arthas test]$ touch exampleFile.txt
-    [cloud-user@arthas test]$ ls
-    exampleFile.txt
-``
+
+     [cloud-user@arthas test]$ touch exampleFile.txt
+     [cloud-user@arthas test]$ ls
+     exampleFile.txt
+
 
 This will create a blank file owned by the user that you are logged into the system with, these can then be edited with the text editor of your choice.
 
