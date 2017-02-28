@@ -1,4 +1,4 @@
-# Scanning coonfiguration
+# Scanning configuration
 
 The Virus Scanning Engine is configured to scan files when they are written to disk during real-time scanning. We disable continous read scannning to prevent IO Saturation, which would result in performance degradation.
 
