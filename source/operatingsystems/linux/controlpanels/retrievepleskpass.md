@@ -6,7 +6,7 @@ If the Plesk password is ever forgotten, you can always find out the current Ple
 
 In these versions, the password is stored in plaintext in the following location:
 
-``console
+``#
   /etc/psa/.psa.shadow
 ``
 
@@ -16,6 +16,6 @@ In these versions, the psa.shadow file still exists, but it now contains a hash 
 
 To see the pasword in plaintext, use the following command:
 
-``console
+``#
   /usr/local/psa/bin/admin --show-password
 ``
