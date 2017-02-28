@@ -1,8 +1,8 @@
-==========
-Antivirus
-==========
+================
+McAfee Antivirus
+================
 
 .. toctree::
-   
-   Mcafee
+   :maxdepth: 1
 
+   Mcafee
