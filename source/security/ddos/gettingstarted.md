@@ -8,7 +8,7 @@ Protecting your domains using DDoS Protection is a two step process:
 ```eval_rst
 .. seealso::
 
-To use DDoS Protection from UKFast you also need to manage your DNS records using SafeDNS.  If you're not already doing so, please see [the SafeDNS guide](/source/Domains/safedns/index) to set this up first.
+To use DDoS Protection from UKFast, you also need to manage your DNS records using SafeDNS.  If you're not already doing so, please see [the SafeDNS guide](/source/Domains/safedns/index) to set this up first.
 
 Use SafeDNS to point your domains to the UKFast nameservers, which are:
 
@@ -17,19 +17,19 @@ Use SafeDNS to point your domains to the UKFast nameservers, which are:
 
 ```
 
-To enable DDoS Protection on your domain(s) the follow the steps below:
+To enable DDoS Protection on your domain(s), follow these steps:
 
-1. Once you've DNS records are being managed with SafeDNS, you're ready to add DDoS Protection.  First, login to [MyUKFast](https://my.ukfast.co.uk) and head to `DDoS Protection` which you'll find in the `Products and Services` menu.
+1. Login to [MyUKFast](https://my.ukfast.co.uk) and head to `DDoS Protection` in the `Products and Services` menu.
 2. Click `Protect Domain`
-3. On this page you can search for domains you are managing through SafeDNS.  Choose the domain(s) you wish to protect and click `Connect`.  Do this for every domain you wish to protect.
+3. On this page you can search for the domains you're managing through SafeDNS.  Choose the domain you wish to protect and click `Connect`.  Repeat for each domain you wish to protect.
 
 ![connect](files/connect.PNG)
 
-4. If appropriate, go through the payment process. (If you've already ordered DDoS Protection via your UKFast account manager, then you won't have to complete this step).
-5. Next click `Configure` and then choose which A Records and AAAA Records you specifically want to protect.  You can also assign any existing SSL certificates at this point.
+4. If appropriate, go through the payment process. (You won't have to complete this step if you've already ordered DDoS Protection via your UKFast account manager).
+5. Next click `Configure` and then choose which A Records and AAAA Records you specifically want to protect for each domian.  You can also assign any existing SSL certificates at this point.
 
 ![configure](files/configure.PNG)
 
-6. Click `Activate` and your domain is now connected to the UKFast DDoS Protection network and configured appropriately.  
+6. Click `Activate` and your domain is now connected to the UKFast DDoS Protection network, and configured appropriately.  
 
-Note that it may take up to 24 hours for DNS changes to propogate across the internet (as with any such changes) and before your domain is fully protected.
+Note that it may take up to 24 hours for DNS changes to propogate across the internet (as with any such changes), and before your domain is fully protected.

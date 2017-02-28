@@ -9,3 +9,11 @@ If you're struggling to connect your domains, first check that you are using [Sa
 - ns1.ukfast.co.uk
 
 You'll find SafeDNS in [MyUKFast](https://my.ukfast.co.uk) - just log in and go to `SafeDNS` under the `Products and Services` menu.  You should also read the full [SafeDNS guide](/source/Domains/safedns/index)
+
+## My domain is showing as Not Configured, why is this?
+
+If your domain is connected to the DDoS Protection network but not yet configured, you'll see a red icon in the Status column on the Manage Domains page - see example below
+
+![manage](files/manage.PNG)
+
+To configure your domain, simply click on the Settings button next to the domain in question, and then `Configure`.  Run through the process as set out in the [Getting Started guide](/gettingstarted)
