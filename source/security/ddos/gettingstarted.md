@@ -7,14 +7,12 @@ Protecting your domains using DDoS Protection is a two step process:
 
 ```eval_rst
 .. seealso::
+   To use DDoS Protection from UKFast, you also need to manage your DNS records using SafeDNS.  If you're not already doing so, please see [the SafeDNS guide](/source/Domains/safedns/index) to set this up first.
 
-To use DDoS Protection from UKFast, you also need to manage your DNS records using SafeDNS.  If you're not already doing so, please see [the SafeDNS guide](/source/Domains/safedns/index) to set this up first.
+   Use SafeDNS to point your domains to the UKFast nameservers, which are:
 
-Use SafeDNS to point your domains to the UKFast nameservers, which are:
-
-- ns0.ukfast.co.uk
-- ns1.ukfast.co.uk
-
+   - ns0.ukfast.co.uk
+   - ns1.ukfast.co.uk
 ```
 
 To enable DDoS Protection on your domain(s), follow these steps:
