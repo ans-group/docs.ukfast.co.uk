@@ -26,7 +26,7 @@ To enable DDoS Protection on your domain(s), follow these steps:
 - If appropriate, go through the payment process. (You won't have to complete this step if you've already ordered DDoS Protection via your UKFast account manager).
 - Next click `Configure` and then choose which A Records and AAAA Records you specifically want to protect for each domain.  You can also assign any existing SSL certificates at this point.
 
-![configure](files/configure.PNG)
+![configure2](files/configure2.PNG)
 
 - Click `Activate` and your domain is now connected to the UKFast DDoS Protection network, and configured appropriately.  
 
