@@ -14,4 +14,4 @@ Our DDoS Protection is designed to detect and filter out DDoS attacks, and only 
 
 ## Where does DDoS Protection sit in my IT stack?
 
-DDoS Protection is a network-based solution which sits in front of your UKFast-hosted environment.  By repointing the DNS records of the domains you wish to protect to UKFast using [SafeDNS](/source/Domains/safedns/index), we can broadcast your IP address(es) across our global DDoS network.  All traffic destined for your domains will then be routed via this network, enabling us to filter out malicious traffic as described above.
+DDoS Protection is a network-based solution which sits in front of your UKFast-hosted environment.  By repointing the DNS records of the domains you wish to protect to UKFast using [SafeDNS](/Domains/safedns/index.html), we can broadcast your IP address(es) across our global DDoS network.  All traffic destined for your domains will then be routed via this network, enabling us to filter out malicious traffic as described above.
