@@ -9,5 +9,6 @@ DDoS Protection is designed to protect your websites and applications from Denia
 
    generalinformation
    gettingstarted
-   troubleshooting
    remove
+   troubleshooting
+   
