@@ -8,8 +8,16 @@ You will need to have working server credentials for both the origin and the des
   rsync /path/to/origin/dir root@ip.ip.ip.ip:/path/to/dir/destination/server
 ```
 
-There are a lot of flags that can be added to this command that would can be found by reading the man pages for the rsync command. The below example command will use archive mode to preserve permissions, verbose output, compress the data during transfer and output information in a human readable format. The `-e` flag also allows the specification of a port to use, which in this case is 2020.
+There are a lot of flags that can be added to this command that would can be found by reading the man pages for the rsync command. The below example command will use archive mode to preserve permissions (a), verbose output (v), compress the data during transfer (z), show the progress of the transfer (P) and output information in a human readable format (h). The `-e` flag also allows the specification of a port to use, which in this case is 2020.
 
 ```bash
   rsync -avzPh -e"ssh -p2020" /path/to/dir root@ip.ip.ip.ip:/new/location/for/dir
 ```
+
+The above example will transfer the folder /path/to/dir over to /new/location/for/dir on the remote IP. The folder will appear as /new/location/for/dir/dir - if you just wanted to transfer the contents of /path/to/dir over to /new/location/for/dir you would need to include a trailing slash on the source directory:
+
+```bash
+  rsync -avzPh -e"ssh -p2020" /path/to/dir/ root@ip.ip.ip.ip:/new/location/for/dir
+```
+
+Trailing slashes on destination directories don't make any difference.
