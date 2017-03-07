@@ -1,8 +1,8 @@
 ==================
-DDoSx<sup>tm</sup>
+DDoSx<sup>TM</sup>
 ==================
 
-DDoSx<sup>tm</sup> is designed to protect your websites and applications from Denial of Service (DoS) and Distributed Denial of Service (DDoS) attacks.
+DDoSx<sup>TM</sup> is designed to protect your websites and applications from Denial of Service (DoS) and Distributed Denial of Service (DDoS) attacks.
 
 .. toctree::
    :maxdepth: 1

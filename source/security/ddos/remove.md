@@ -1,6 +1,6 @@
-# Removing a domain from DDoSx<sup>tm</sup>
+# Removing a domain from DDoSx<sup>TM</sup>
 
-If you want to remove a domain from DDoSx<sup>tm</sup> then follow these steps:
+If you want to remove a domain from DDoSx<sup>TM</sup> then follow these steps:
 
 1. Login to [MyUKFast](https://my.ukfast.co.uk) and go to the `DDoS Protection` section under `Products and Services`.
 2. Click the delete icon next to the domain in question
@@ -10,5 +10,5 @@ If you want to remove a domain from DDoSx<sup>tm</sup> then follow these steps:
 
 ```eval_rst
 .. warning::
-   If you don't point your domain records back to your own server or firewall, your domain will go offline when the domain's DDoSx<sup>tm</sup> billing period expires.
+   If you don't point your domain records back to your own server or firewall, your domain will go offline when the domain's DDoSx<sup>TM</sup> billing period expires.
 ```
