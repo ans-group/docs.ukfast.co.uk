@@ -2,7 +2,7 @@
 
 Protecting your domains using DDoSx<sup>TM</sup> is a two-step process:
 
-- **connect** your domain(s) to our DDoSx<sup>tm</sup> network
+- **connect** your domain(s) to our DDoSx<sup>TM</sup> network
 - **configure** which domain records you'd like to protect
 
 ```eval_rst
