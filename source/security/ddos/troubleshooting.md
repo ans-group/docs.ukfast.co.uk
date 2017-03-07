@@ -18,6 +18,6 @@ If your domain is connected to the DDoSx<sup>TM</sup> network but not yet config
 
 To configure your domain, simply click on the Settings button next to the domain in question, and then `Configure`.  Run through the process as set out in the [Getting Started guide](/security/ddos/gettingstarted.html)
 
-## I've removed my domain from the DDoSx<sup>tm</sup> network, and now my website is offline.
+## I've removed my domain from the DDoSx<sup>TM</sup> network, and now my website is offline.
 
 If you've previously had a domain connected to the DDoSx<sup>TM</sup> network and then removed it, make sure to use [SafeDNS](/Domains/safedns/index.html) to point your DNS records directly back to your own server or firewall.  See the section on [Removing a domain from DDoSx<sup>TM</sup>](/security/ddos/remove.html) for more details.
