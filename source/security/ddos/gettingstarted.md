@@ -7,7 +7,7 @@ Protecting your domains using DDoSx<sup>TM</sup> is a two-step process:
 
 ```eval_rst
 .. seealso::
-   To use DDoSx<sup>TM</sup> from UKFast, you also need to manage your DNS records using SafeDNS.  If you're not already doing so, please see the section on :doc:`/Domains/safedns/index` to set this up first.
+   To use DDoSx\  :sup:`TM` from UKFast, you also need to manage your DNS records using SafeDNS.  If you're not already doing so, please see the section on :doc:`/Domains/safedns/index` to set this up first.
 
    Use SafeDNS to point your domains to the UKFast nameservers, which are:
 
