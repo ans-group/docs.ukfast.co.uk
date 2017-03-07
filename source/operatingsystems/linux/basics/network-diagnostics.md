@@ -116,7 +116,7 @@ Connected to bbc.co.uk.
 Escape character is '^]'.
 ```
 
-show's you are able to connect to the BBC site from your server.
+shows you are able to connect to the BBC site from your server.
 
 ```console
 [root@c7 ~]# telnet localhost 25
@@ -181,7 +181,7 @@ listening on eth0, link-type EN10MB (Ethernet), capture size 65535 bytes
 E.....@.@..K...aQ..4....|IX.".sZP..`....E=...g.k..N`.f...M...rh..E.+h.-.#.....................NA.E.G......F..M....1.[..a.T..2....,@../.d.i.m..{.....!..y....iv...._.....J....        .Gg.v*.....XO.F.o.Ke6.l..D...N.we..U8.....g...Y.q0...~.....A$.16.L63v..'`.)....n....w.b6_..D\............{..R..Xt......X....\.  g..8(A.].O...-..g..=Xb..03.=!...=...g..D..xj.....#...3.^..&).....r]....|E...:A(..7............9:.x$..*.A......5.+S/H..(...4o
 ```
 
-This shows all activity on interface eth0.
+The above shows all activity on interface eth0. This will show you activity on eth0 on port 80
 
 ```console
 [root@c7 ~]# tcpdump -Alnni eth0 port 80
@@ -189,7 +189,7 @@ tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
 listening on eth0, link-type EN10MB (Ethernet), capture size 65535 bytes
 ```
 
-This will show you activity on eth0 on port 80
+This will show activity on eth0 going to or coming from 54.65.7.81
 
 ```console
 [root@c7 ~]# tcpdump -Alnni eth0 host 54.65.7.81
@@ -197,7 +197,7 @@ tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
 listening on eth0, link-type EN10MB (Ethernet), capture size 65535 bytes
 ```
 
-This will show activity on eth0 going to or coming from 54.65.7.81
+This combines the 2 above examples so shows all traffic on eth0 either coming from or going to 54.65.7.81 on port 80.
 
 ```console
 [root@c7 ~]# tcpdump -Alnni eth0 port 80 and host 54.65.7.81
@@ -205,4 +205,162 @@ tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
 listening on eth0, link-type EN10MB (Ethernet), capture size 65535 bytes
 ```
 
-This combines the 2 above examples so shows all traffic on eth0 either coming from or going to 54.65.7.81 on port 80.
+## WinDump
+
+The program WinDump can be used on Windows with almost exactly the same syntax as tcpdump. Search Google to find the download page for this program.
+
+One difference in the way this works is the selection of an interface. use the -D flag to list the interfaces:
+
+```console
+PS C:\Users\user1\Downloads> .\WinDump.exe -D
+1.\Device\NPF_{3DD38385-E724-421A-B877-A44EEF5730C1} (VMware vmxnet3 virtual network device)
+2.\Device\NPF_{FE51E730-F862-4E77-A733-0C5E88778135} (VMware vmxnet3 virtual network device)
+```
+
+You can then select the interface number:
+
+```console
+PS C:\Users\nick\Downloads> .\WinDump.exe -i 2
+C:\Users\user1\Downloads\WinDump.exe: listening on \Device\NPF_{FE51E730-F862-4E77-A733-0C5E88778135}
+10:28:33.106680 arp who-has 94.229.165.3.srvlist.ukfast.net tell 94.229.165.37.srvlist.ukfast.net
+10:28:33.116382 IP test.com.3389 > 80.244.179.100.srvlist.ukfast.net.58832: P 2986157641:2986157998(357) ack 6594898
+25 win 62990
+10:28:33.130406 IP test.com.3389 > 80.244.179.100.srvlist.ukfast.net.58832: P 357:746(389) ack 1 win 62990
+```
+
+## curl
+
+The man page of the curl command begins with an appropriate introduction:
+
+```console
+DESCRIPTION
+       curl is a tool to transfer data from or to a server, using one of the supported protocols (HTTP, HTTPS, FTP, FTPS, SCP, SFTP, TFTP, DICT, TELNET, LDAP or FILE).  The com-
+       mand is designed to work without user interaction.
+
+       curl offers a busload of useful tricks like proxy support, user authentication, FTP upload, HTTP post, SSL connections, cookies, file transfer resume  and  more.  As  you
+       will see below, the number of features will make your head spin!
+```
+
+We'll try not to make your head spin but here are some of the most useful commands:
+
+```console
+[root@c7 ~]# curl www.ukfast.co.uk
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="/favicon.ico">
+---
+---
+```
+
+This performed a GET request against the site www.ukfast.co.uk. As you can see, the site's source code was displayed. Apart from seeing that the a response was retrieved, this isn't especially useful.
+
+```console
+[root@c7 ~]# curl -I www.ukfast.co.uk
+HTTP/1.1 200 OK
+Date: Mon, 06 Mar 2017 10:49:35 GMT
+Content-Type: text/html; charset=utf-8
+Connection: keep-alive
+Server: Apache
+Set-Cookie: PHPSESSID=go5d65jm9jcp1slds2h7g5hfg3; path=/
+Expires: Mon, 06 Mar 2017 11:49:20 GMT
+Cache-Control: maxage=3600, public, must-revalidate, public
+Pragma: no-cache
+Last-Modified: Tue, 28 Feb 2017 16:05:01 GMT
+Set-Cookie: marketing_campaign=eyJpZCI6MCwibmFtZSI6Ik5vbmUgLSBEaXJlY3QgVmlzaXRvciIsInBob25lIjoiMDgwMCA0NTggNDU0NSIsInBob25lX2dlbyI6IjAxNjEgMjE1IDM3MDAiLCJ1dWlkIjoiMTEzNTA5NjQ3NDU4YmQzZWIwNmMxZGQzLjYyNTcyODA4IiwidGltZXN0YW1wIjoxNDg4Nzk3MzYwfQ%3D%3D; expires=Tue, 06-Jun-2017 09:49:20 GMT; path=/; domain=ukfast.co.uk
+X-Recruitment: Are you a superstar? Apply Now! http://ukfast.jobs
+Vary: Accept-Encoding,User-Agent
+Age: 0
+Via: Webcelerate
+Set-Cookie: SERVERID=web002; path=/
+```
+
+On the above example the -I flag was passed. This changes the request into a HEAD request which just retrieves the headers. As you can see, this gave a 200 OK response. This also showed other information like cookies, expire headers, cache control information etc.
+
+```console
+[root@c7 ~]# curl -I ukfast.co.uk
+HTTP/1.1 301 Moved Permanently
+Date: Mon, 06 Mar 2017 11:02:52 GMT
+Content-Type: text/html; charset=iso-8859-1
+Connection: keep-alive
+Server: Apache
+Location: http://www.ukfast.co.uk/
+Cache-Control: max-age=0
+Expires: Mon, 06 Mar 2017 11:02:37 GMT
+Vary: Accept-Encoding
+Accept-Ranges: bytes
+Age: 0
+Via: Webcelerate
+Set-Cookie: SERVERID=web002; path=/
+Cache-control: private
+```
+
+As you can see from the above example, we tested ukfast.co.uk - the response from this was a 301 Moved Permenantly redirect and we can see the location of that is http://www.ukfast.co.uk/ - we can add the flag -L which will tell curl to follow the redirect:
+
+```console
+[root@c7 ~]# curl -IL ukfast.co.uk
+HTTP/1.1 301 Moved Permanently
+Date: Mon, 06 Mar 2017 11:05:00 GMT
+Content-Type: text/html; charset=iso-8859-1
+Connection: keep-alive
+Server: Apache
+Location: http://www.ukfast.co.uk/
+Cache-Control: max-age=0
+Expires: Mon, 06 Mar 2017 11:04:45 GMT
+Vary: Accept-Encoding
+Accept-Ranges: bytes
+Age: 0
+Via: Webcelerate
+Set-Cookie: SERVERID=web002; path=/
+Cache-control: private
+
+HTTP/1.1 200 OK
+Date: Mon, 06 Mar 2017 11:05:00 GMT
+Content-Type: text/html; charset=utf-8
+Connection: keep-alive
+Server: Apache
+Set-Cookie: PHPSESSID=vksgaspkjbm0b551nijb2g8il2; path=/
+Expires: Mon, 06 Mar 2017 12:05:00 GMT
+Cache-Control: maxage=3600, public, must-revalidate, public
+Pragma: no-cache
+Last-Modified: Tue, 28 Feb 2017 16:05:01 GMT
+Set-Cookie: marketing_campaign=eyJpZCI6MCwibmFtZSI6Ik5vbmUgLSBEaXJlY3QgVmlzaXRvciIsInBob25lIjoiMDgwMCA0NTggNDU0NSIsInBob25lX2dlbyI6IjAxNjEgMjE1IDM3MDAiLCJ1dWlkIjoiMTc2ODI3Nzg1MDU4YmQ0MjVjMzIxNjQ2LjM3MzY5NDQwIiwidGltZXN0YW1wIjoxNDg4Nzk4MzAwfQ%3D%3D; expires=Tue, 06-Jun-2017 10:05:00 GMT; path=/; domain=ukfast.co.uk
+X-Recruitment: Are you a superstar? Apply Now! http://ukfast.jobs
+Vary: Accept-Encoding,User-Agent
+Age: 0
+Via: Webcelerate
+Set-Cookie: SERVERID=web001; path=/
+```
+
+As you can see, we got the 301 response first and then the original 200 response when we ended up at www.ukfast.co.uk.
+
+You may want to test a site against an IP before its DNS record has been changed. You could do this by [creating a hosts file entry](https://docs.ukfast.co.uk/operatingsystems/windows/commonissues/testingwebsites.html) or you can amend a header on your curl command with the -H flag. Here is a test against the domain testdomain.com - we don't own this. Here is the response:
+
+```console
+[root@c7 ~]# curl testdomain.com
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" data-adblockkey="MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAKrfIMFkSaoTSqKmC+BrghK0CpDHc0MuVzmMHin8LIORhpXbped+iYhSnZurWnEO0zcKcVIrzp026LVc5pMB9bUCAwEAAQ==_k30gkd/zAhhXt9eui+IJt66Wl3Fl7A0MNcpds/Ub3yjgmHPt+tNYiJiutb7b9/liIU+l3dGaeXvBJ+OC21ynAA==">
+---
+---
+```
+
+We are now going to test this domain against a server with IP 46.37.172.196 and insert a Host header with the -H flag:
+
+```console
+[root@c7 ~]# curl 46.37.172.196 -H "Host: testdomain.com"
+new testdomain server
+```
+
+Here is the same test without inserting the Host header:
+
+```console
+[root@c7 ~]# curl 46.37.172.196
+<html>
+        <head>
+                <title>Under Maintenance</title>
+```
+
+As you can see, this gave us a different response. The reason for this is that there are multiple sites on 46.37.172.196 - using the -H flag and inserting a Host header allowed us to be more specific about what site we were requesting.
+
+
