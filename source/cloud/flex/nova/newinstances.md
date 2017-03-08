@@ -13,7 +13,7 @@ There are a couple of reasons behind this change:
 +-----------------+----------------+----------------+-------------------------+-----------------------------------------------------------------------------+
 | Flavour type    | Available CPU  | Available RAM  | Attached storage volume | Ideal workloads                                                             |
 +-----------------+----------------+----------------+-------------------------+-----------------------------------------------------------------------------+
-| Small           | 1              | 0.5GB to 1GB   | 20GB                    |  ideal for small workloads, or test and development purposes                 |
+| Small           | 1              | 0.5GB to 1GB   | 20GB                    |  ideal for small workloads, or test and development purposes                |
 +-----------------+----------------+----------------+-------------------------+-----------------------------------------------------------------------------+
 | General Purpose | 2 to 8         | 2GB to 8GB     | 60GB                    |  a balance of CPU, RAM and storage, good for all-round compute requirements |
 +-----------------+----------------+----------------+-------------------------+-----------------------------------------------------------------------------+
