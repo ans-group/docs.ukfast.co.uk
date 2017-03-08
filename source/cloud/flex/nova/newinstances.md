@@ -1,7 +1,7 @@
 
 # UKF2 eCloud Flex instances replace UKF1
 
-As of March 2017, a new range of eCloud Flex instance flavours, called UKF2, has replaced the previous UKF1 range.  Details of the new flavour configurations can be found in [MyUKFast](https://my.ukfast.co.uk/ecloud-flex/16029/pricing.php) and in the [OpenStack control panel](https://api.openstack.ecloud.co.uk/project/instances/).  You can continue to run existing UKF1 instances, but will not be able to create new ones.
+As of March 2017, a new range of eCloud Flex instance flavours, called UKF2, has replaced the previous UKF1 range.  Full details of the new flavour configurations can be found in [MyUKFast](https://my.ukfast.co.uk/ecloud-flex/16029/pricing.php) (along with pricing) and in the [OpenStack control panel](https://api.openstack.ecloud.co.uk/project/instances/).  You can continue to run existing UKF1 instances, but will not be able to create new ones.
 
 There are a couple of reasons behind this change:
 
@@ -10,7 +10,7 @@ There are a couple of reasons behind this change:
 - we also wanted to introduce a couple of new flavour types to better cater for the different compute workloads customers need to run.  You can now choose from the following flavour types:
 
 | Flavour type  | Available CPU  | Available RAM  | Attached storage volume | Ideal workloads |
-| ------------- | -------------- | -------------- | ----------------------- | --------------- |
+| ------------- | -------------- | -------------- | :---------------------: | --------------- |
 | Small | 1 | 0.5GB to 1GB | 20GB |  ideal for small workloads or test and development purposes |
 | General Purpose | 2 to 8 | 2GB to 8GB | 60GB |  a balance of CPU, RAM and storage, good for all-round compute requirements |
 | High Memory | 1 to 8 | 8GB to 64GB | 60GB | a higher RAM to CPU allocation, designed for memory-intensive workloads |
