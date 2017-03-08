@@ -2,9 +2,10 @@
 Nova
 ====
 
-Guides relating to usage of nova, the compute element of openstack/flex
+Guides relating to usage of Nova, the compute element of OpenStack and eCloud Flex.
 
 .. toctree::
    :maxdepth: 1
 
    basic
+   newinstances
