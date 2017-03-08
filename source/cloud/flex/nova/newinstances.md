@@ -10,19 +10,19 @@ There are a couple of reasons behind this change:
 - we also wanted to introduce a couple of new flavour types to better cater for the different compute workloads customers need to run.  You can now choose from the following flavour types:
 
 ```eval_rst
-+-----------------+----------------+----------------+-------------------------+-----------------------------------------------------------------------------+
-| Flavour type    | Available CPU  | Available RAM  | Attached storage volume | Ideal workloads                                                             |
-+-----------------+----------------+----------------+-------------------------+-----------------------------------------------------------------------------+
-| Small           | 1              | 0.5GB to 1GB   | 20GB                    |  ideal for small workloads, or test and development purposes                |
-+-----------------+----------------+----------------+-------------------------+-----------------------------------------------------------------------------+
-| General Purpose | 2 to 8         | 2GB to 8GB     | 60GB                    |  a balance of CPU, RAM and storage, good for all-round compute requirements |
-+-----------------+----------------+----------------+-------------------------+-----------------------------------------------------------------------------+
-| High Memory     | 1 to 8         | 8GB to 64GB    | 60GB                    | a higher RAM to CPU allocation, designed for memory-intensive workloads     |
-+-----------------+----------------+----------------+-------------------------+-----------------------------------------------------------------------------+
-| High I/O        | 1 to 8         | 2GB to 16GB    | 60GB                    | designed for running databases that need higher I/O performance             |
-+-----------------+----------------+----------------+-------------------------+-----------------------------------------------------------------------------+
-| High CPU        | 2 to 8         | 12GB to 48GB   | 60GB                    |  a higher frequency CPU for workloads that need greater CPU performance     |
-+-----------------+----------------+----------------+-------------------------+-----------------------------------------------------------------------------+
++-----------------+---------------+---------------+-------------------------+------------------------------------------------------------------------------+
+| Flavour type    | Available CPU | Available RAM | Attached storage volume | Ideal workloads                                                              |
++=================+===============+===============+=========================+==============================================================================+
+| Small           | 1             | 0.5GB to 1GB  | 20GB                    | small workloads, test and development                                        |
++-----------------+---------------+---------------+-------------------------+------------------------------------------------------------------------------+
+| General Purpose | 2 to 8        | 2GB to 8GB    | 60GB                    |  a balance of CPU, RAM and storage, good for all-round compute requirements  |
++-----------------+---------------+---------------+-------------------------+------------------------------------------------------------------------------+
+| High Memory     | 1 to 8        | 8GB to 64GB   | 60GB                    | a higher RAM to CPU allocation, designed for memory-intensive workloads      |
++-----------------+---------------+---------------+-------------------------+------------------------------------------------------------------------------+
+|  High I/O       | 1 to 8        | 2GB to 16GB   | 60GB                    | designed for running databases that need higher I/O performance              |
++-----------------+---------------+---------------+-------------------------+------------------------------------------------------------------------------+
+|  High CPU       | 2 to 8        | 12GB to 48GB  | 60GB                    |  a higher frequency CPU for workloads that need greater CPU performance      |
++-----------------+---------------+---------------+-------------------------+------------------------------------------------------------------------------+
 ```
 
 Existing UKF1 instances will continue to operate as normal - we have no plans to end-of-life these any time soon.  However when you want to create new instances, you'll need to choose a UKF2 type.
