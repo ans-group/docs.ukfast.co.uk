@@ -1,13 +1,13 @@
 # Getting started
 
-Protecting your domains using DDoSx<sup>TM</sup> is a two-step process:
+Protecting your domains using DDoSX<sup>TM</sup> is a two-step process:
 
-- **connect** your domain(s) to our DDoSx<sup>TM</sup> network
+- **connect** your domain(s) to our DDoSX<sup>TM</sup> network
 - **configure** which domain records you'd like to protect
 
 ```eval_rst
 .. seealso::
-   To use DDoSx\  :sup:`TM` from UKFast, you also need to manage your DNS records using SafeDNS.  If you're not already doing so, please see the section on :doc:`/Domains/safedns/index` to set this up first.
+   To use DDoSX\ :sup:`TM` from UKFast, you also need to manage your DNS records using SafeDNS.  If you're not already doing so, please see the section on :doc:`/Domains/safedns/index` to set this up first.
 
    Use SafeDNS to point your domains to the UKFast nameservers, which are:
 
@@ -15,7 +15,7 @@ Protecting your domains using DDoSx<sup>TM</sup> is a two-step process:
    - ns1.ukfast.co.uk
 ```
 
-To enable DDoSx<sup>TM</sup> for your domain(s), follow these steps:
+To enable DDoSX<sup>TM</sup> for your domain(s), follow these steps:
 
 - Login to [MyUKFast](https://my.ukfast.co.uk) and head to `DDoS Protection` in the `Products and Services` menu.
 - Click `Protect Domain`
@@ -23,11 +23,11 @@ To enable DDoSx<sup>TM</sup> for your domain(s), follow these steps:
 
 ![connect](files/connect.PNG)
 
-- If appropriate, go through the payment process. (You won't have to complete this step if you've already ordered DDoSx<sup>TM</sup> via your UKFast account manager).
+- If appropriate, go through the payment process. (You won't have to complete this step if you've already ordered DDoSX<sup>TM</sup> via your UKFast account manager).
 - Next click `Configure` and then choose which A Records and AAAA Records you specifically want to protect for each domain.  You can also assign any existing SSL certificates at this point.
 
 ![configuredomain](files/configuredomain.PNG)
 
-- Click `Activate` and your domain is now connected to the UKFast DDoSx<sup>TM</sup> network, and configured appropriately.  
+- Click `Activate` and your domain is now connected to the UKFast DDoSX<sup>TM</sup> network, and configured appropriately.  
 
 Note that it may take up to 24 hours for DNS changes to propogate across the internet (as with any such changes), and before your domain is fully protected.
