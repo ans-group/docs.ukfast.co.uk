@@ -15,13 +15,13 @@ There are a couple of reasons behind this change:
 +=================+===============+===============+=========================+==============================================================================+
 | Small           | 1             | 0.5GB to 1GB  | 20GB                    | small workloads, test and development                                        |
 +-----------------+---------------+---------------+-------------------------+------------------------------------------------------------------------------+
-| General Purpose | 2 to 8        | 2GB to 8GB    | 60GB                    |  a balance of CPU, RAM and storage, good for all-round compute requirements  |
+| General Purpose | 2 to 8        | 2GB to 8GB    | 60GB                    | a balance of CPU, RAM and storage, good for all-round compute requirements   |
 +-----------------+---------------+---------------+-------------------------+------------------------------------------------------------------------------+
 | High Memory     | 1 to 8        | 8GB to 64GB   | 60GB                    | a higher RAM to CPU allocation, designed for memory-intensive workloads      |
 +-----------------+---------------+---------------+-------------------------+------------------------------------------------------------------------------+
-|  High I/O       | 1 to 8        | 2GB to 16GB   | 60GB                    | designed for running databases that need higher I/O performance              |
+| High I/O        | 1 to 8        | 2GB to 16GB   | 60GB                    | designed for running databases that need higher I/O performance              |
 +-----------------+---------------+---------------+-------------------------+------------------------------------------------------------------------------+
-|  High CPU       | 2 to 8        | 12GB to 48GB  | 60GB                    |  a higher frequency CPU for workloads that need greater CPU performance      |
+| High CPU        | 2 to 8        | 12GB to 48GB  | 60GB                    | a higher frequency CPU for workloads that need greater CPU performance       |
 +-----------------+---------------+---------------+-------------------------+------------------------------------------------------------------------------+
 ```
 
