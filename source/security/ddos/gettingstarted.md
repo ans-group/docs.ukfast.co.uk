@@ -17,7 +17,7 @@ Protecting your domains using DDoSx<sup>TM</sup> is a two-step process:
 
 To enable DDoSx<sup>TM</sup> for your domain(s), follow these steps:
 
-- Login to [MyUKFast](https://my.ukfast.co.uk) and head to `DDoS Protection` in the `Products and Services` menu.
+- Login to [MyUKFast](https://my.ukfast.co.uk) and head to `DDoSX` in the `Products and Services` menu.
 - Click `Protect Domain`
 - On this page you can search for the domains you're managing through SafeDNS.  Choose the domain you wish to protect and click `Connect`.  Repeat for each domain you wish to protect.
 
