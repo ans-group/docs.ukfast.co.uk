@@ -16,7 +16,7 @@ These keys will allow you to access the API endpoint found here:
 
 If you aren't familiar with the S3 API specification, information can be found here:
 
-<http://ceph.com/docs/master/radosgw/s3/>
+<http://docs.ceph.com/docs/master/radosgw/s3/>
 
 Your keypair will also allow you to access your buckets through various s3 enabled third party applications. Though UKFast can't offer any support on these applications (see below), a few are mentioned below:
 
