@@ -21,3 +21,4 @@ To configure your domain, simply click on the Settings button next to the domain
 ## I've removed my domain from the DDoSX<sup>TM</sup> network, and now my website is offline.
 
 If you've previously had a domain connected to the DDoSX<sup>TM</sup> network and then removed it, make sure to use [SafeDNS](/Domains/safedns/index.html) to point your DNS records directly back to your own server or firewall.  See the section on [Removing a domain from DDoSX<sup>TM</sup>](/security/ddos/remove.html) for more details.
+

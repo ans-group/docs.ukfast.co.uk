@@ -1,6 +1,6 @@
 # IPv6 on UKFast solutions
 
-* UKFast network is IPv6 enabled network. At the moment IPv6 is available upon reuqest. Please be aware that it may incur additional cost to enable IPv6 on a client solution.
+* UKFast network is IPv6 enabled network. At the moment IPv6 is available upon request. Please be aware that it may incur additional cost to enable IPv6 on a client solution.
 
 * Each Client will be assigned a `/64` IPv6 range by default.
 

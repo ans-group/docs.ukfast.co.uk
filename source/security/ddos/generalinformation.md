@@ -8,7 +8,7 @@ Most DDoS attacks are layer 3 or 4 network "volumentric flood" attacks, where th
 
 DDoS attacks may also target your application itself (layer 7 attacks), to try and exploit vulnerabilities and cause your web server to fail.  These attacks may often send malformed packets which can't be handled correctly by your application, again causing it to fail.
 
-## How does DDoSx<sup>TM</sup> DDoS Protection work?
+## How does DDoSX<sup>TM</sup> DDoS Protection work?
 
 DDoSX<sup>TM</sup>, our DDoS protection service, is designed to detect and filter out DDoS attacks, and only deliver genuine traffic to your servers.  This is based on our global network which detects and absorbs the large amounts of traffic that DDoS attacks are comprised of, as close to the source of the attack as possible.  Suspicious traffic targeting your domains is intelligently filtered out and redirected to a decoy; the anomalies believe that they've reached and overwhelmed their target, and degradation of your website is avoided.
 

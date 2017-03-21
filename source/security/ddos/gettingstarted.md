@@ -2,6 +2,7 @@
 
 Protecting your domains using DDoSX<sup>TM</sup> is a two-step process:
 
+
 **1. connect** your domain(s) to our DDoSX<sup>TM</sup> network
 
 **2. configure** which domain records you'd like to protect
@@ -25,7 +26,7 @@ To enable DDoSX<sup>TM</sup> for your domain(s), follow these steps:
 
 ## Connect domain
 
-- Login to [MyUKFast](https://my.ukfast.co.uk) and head to `DDoS Protection` in the `Products and Services` menu.
+- Login to [MyUKFast](https://my.ukfast.co.uk) and head to `DDoSX` in the `Products and Services` menu.
 - Click `Protect Domain`
 - On this page you can search for the domains you're managing through SafeDNS.  Choose the domain you wish to protect and click `Connect`.  Repeat for each domain you wish to protect.
 
@@ -33,9 +34,11 @@ To enable DDoSX<sup>TM</sup> for your domain(s), follow these steps:
 
 - If appropriate, go through the payment process. (You won't have to complete this step if you've already ordered DDoSX<sup>TM</sup> via your UKFast account manager).
 
+
 ## Configure domain
 
 - Next click `Configure` and then choose which A Records and AAAA Records you specifically want to protect for each domain.  You can also assign any existing SSL certificates at this point.  SSL certificates purchased from MyUKFast will appear in the dropdown menu, or click `Add SSL` to add details of other SSL certificates manually.
+
 
 ![configuredomain](files/configuredomain.PNG)
 
