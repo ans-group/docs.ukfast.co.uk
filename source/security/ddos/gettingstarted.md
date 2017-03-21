@@ -11,8 +11,8 @@ Protecting your domains using DDoSX<sup>TM</sup> is a two-step process:
 
    Use SafeDNS to point your domains to the UKFast nameservers, which are:
 
-   - ns0.ukfast.co.uk
-   - ns1.ukfast.co.uk
+   - ns0.ukfast.net
+   - ns1.ukfast.net
 ```
 
 To enable DDoSX<sup>TM</sup> for your domain(s), follow these steps:
