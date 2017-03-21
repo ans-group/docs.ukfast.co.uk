@@ -11,3 +11,4 @@ Miscellaneous
    logrotate
    rsync
    sed
+   grep
