@@ -8,5 +8,6 @@ UKFast offers a number of cloud hosting platforms, including public cloud (eClou
    :maxdepth: 1
 
    flex/index
+   vault/index
    public/index
    
