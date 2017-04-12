@@ -1,4 +1,6 @@
 # Single Sign On
+
+## Web Application
 Single Sign On (SSO) can be used to make it easier to sign into your FASTDrive account. 
 
 In the past, you would need to remember 2 sets of credentials for both FASTDesk and FASTDrive. With the use of Single Sign On, you can now sign into FASTDrive using your FASTDesk credentials. 
@@ -18,3 +20,7 @@ Here you will need to login with your FASTDesk credentials as opposed to your FA
 You will then be logged into your FASTDrive account onto the 'Dashboard'.
 
 ![ssoimage3](files/ssoimage3.png)
+
+##In Desktop Applications 
+Once you have set Single Sign On
+
