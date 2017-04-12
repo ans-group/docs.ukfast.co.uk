@@ -7,4 +7,4 @@ In the past, you would need to remember 2 sets of credentials for both FASTDesk 
 
 In order to use Single Sign On, you will need to navigate to your ShareFile domain. For example, company.sharefile.eu. This should look something like this on the sign in page: 
 
-![ssoimage1](files/ssoimage1.png)
+![ssoimage1](files/ssoimage1.PNG)
