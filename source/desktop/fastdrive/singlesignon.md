@@ -14,3 +14,5 @@ As you can see there are 2 options to log into FASTDrive with. The login on the 
 ![ssoimage2](files/ssoimage2.PNG)
 
 Here you will need to login with your FASTDesk credentials as opposed to your FASTDrive credentials. 
+ 
+You will then be logged into your FASTDrive account onto the 'Dashboard'.
