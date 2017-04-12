@@ -19,7 +19,7 @@ Here you will need to login with your FASTDesk credentials as opposed to your FA
  
 You will then be logged into your FASTDrive account onto the 'Dashboard'.
 
-![ssoimage3.1](files/ssoimage3.1.png)
+![ssoimage3.1](files/ssoimage3.1.PNG)
 
 ## In Desktop Applications 
 Once you have set Single Sign On
