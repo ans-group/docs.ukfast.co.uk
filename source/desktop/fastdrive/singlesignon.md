@@ -56,6 +56,6 @@ Selecting 'Privacy' will lead to you to the Privacy Policy article on the UKFast
 
 Selcting 'Help' will lead you to the UKFast documentation page, specifically this article. 
 
-![ssoimage10](ssoimage10.PNG)
+![ssoimage10](files/ssoimage10.PNG)
 
 
