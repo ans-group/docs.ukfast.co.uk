@@ -26,6 +26,18 @@ Once you have set-up Single Sign On on the web application, you will then be abl
 
 ![ssoimage4](files/ssoimage4.png)
 
-You will then be asked to enter the domain for your ShareFile account. This will be the web application URL that you used to initially set up Single Sign On. To save you entering in the full URL, you can also just type in the sub-domain e.g. if the URL is example@sharefile.eu, you can just enter 'example'.
+You will then be asked to enter the subdomain to your account. This will be the subdomain for the URL you use for ShareFile. For example, if you type in mycompany.sharefile.eu, then enter 'mycompany'. 
+
+![ssoimage5](files/ssoimage5.PNG)
+
+Once you have typed in the subdomain to your account, click 'Continue'. 
+
+You will then be presented with the Single Sign On login screen of which you will need to enter your FASTDesk credentials. 
+
+![ssoimage6](files/ssoimage6.PNG]
+
+You will now be signed in with Single Sign On for your desktop application of ShareFile.
+
+
 
 
