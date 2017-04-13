@@ -22,7 +22,7 @@ You will then be logged into your FASTDrive account onto the 'Dashboard'.
 ![ssoimage3.1](files/ssoimage3.1.PNG)
 
 ## In Desktop Applications 
-Once you have set-up Single Sign On on the web application, you will then be able to sign into any desktop applications you have. When you load up the desktop application, you will be presented with the login screen. You will need to select 'Log in with my company credentials'. 
+Once you have set-up Single Sign On on the web application, you will then be able to use SSO to sign into any ShareFile desktop applications you have. When you load up the desktop application, you will be presented with the following login screen. You will need to select 'Log in with my company credentials'. 
 
 ![ssoimage4](files/ssoimage4.png)
 
@@ -34,7 +34,7 @@ Once you have typed in the subdomain to your account, click 'Continue'.
 
 You will then be presented with the Single Sign On login screen of which you will need to enter your FASTDesk credentials. 
 
-![ssoimage6](files/ssoimage6.png]
+![ssoimage6](files/ssoimage6.PNG)
 
 You will now be signed in with Single Sign On for your desktop application of ShareFile.
 
