@@ -38,6 +38,8 @@ You will then be presented with the Single Sign On login screen of which you wil
 
 You will now be signed in with Single Sign On for your desktop application of ShareFile.
 
+## Extra Information
 
+When signing into Single Sign On using the web application, you will see the following 3 options at the bottom of the page: 
 
 
