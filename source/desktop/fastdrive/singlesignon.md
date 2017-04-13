@@ -25,3 +25,7 @@ You will then be logged into your FASTDrive account onto the 'Dashboard'.
 Once you have set-up Single Sign On on the web application, you will then be able to sign into any desktop applications you have. When you load up the desktop application, you will be presented with the login screen. You will need to select 'Log in with my company credentials'. 
 
 ![ssoimage4](files/ssoimage4.png)
+
+You will then be asked to enter the domain for your ShareFile account. This will be the web application URL that you used to initially set up Single Sign On. To save you entering in the full URL, you can also just type in the sub-domain e.g. if the URL is example@sharefile.eu, you can just enter 'example'.
+
+
