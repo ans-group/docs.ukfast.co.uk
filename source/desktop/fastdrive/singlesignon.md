@@ -34,7 +34,7 @@ Once you have typed in the subdomain to your account, click 'Continue'.
 
 You will then be presented with the Single Sign On login screen of which you will need to enter your FASTDesk credentials. 
 
-![ssoimage6](files/ssoimage6.PNG]
+![ssoimage6](files/ssoimage6.png]
 
 You will now be signed in with Single Sign On for your desktop application of ShareFile.
 
