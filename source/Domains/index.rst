@@ -10,3 +10,4 @@ Help with managing your domains, DNS records and SSL certificates.
    domains/index
    safedns/index
    ssl/index
+   rdns
