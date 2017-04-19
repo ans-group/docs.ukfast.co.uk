@@ -12,17 +12,15 @@ The purpose of this article is not to recreate OpenStack content here, but to si
 
 ## Compute (OpenStack instances / 'virtual machines')
 
-(compute content here)
-
+* [Compute API](https://developer.openstack.org/api-ref/compute/)
 
 ## Storage
 
-
+* [Object Storage API](https://developer.openstack.org/api-ref/object-storage/)
+* [Block Storage API](https://developer.openstack.org/api-ref/block-storage/v3/index.html)
 
 ## Networking
 
+* [Networking APIs](https://developer.openstack.org/api-ref/networking/) (includes load balancing, firewalls, security groups and more)
 
-
-## Autoscaling
-
-(autoscaling links here)
+You can find various [user guides and tutorials here](https://docs.openstack.org/index.html#user-guides)
