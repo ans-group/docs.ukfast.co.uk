@@ -28,7 +28,7 @@ Once you have set-up Single Sign On on the web application, you will then be abl
 
 ![ssoimage4](files/ssoimage4.png)
 
-You will then be asked to enter the subdomain to your account. This will be the subdomain for the URL you use for ShareFile. For example, if you type in mycompany.sharefile.eu, then enter 'mycompany'. 
+You will then be asked to enter the subdomain to your account. This will be the subdomain for the URL you use for ShareFile. For example, if you type in `mycompany.sharefile.eu`, then enter 'mycompany'. 
 
 ![ssoimage5](files/ssoimage5.PNG)
 
@@ -54,7 +54,7 @@ Selecting 'Privacy' will lead to you to the Privacy Policy article on the UKFast
 
 ![ssoimage9](files/ssoimage9.PNG)
 
-Selcting 'Help' will lead you to the UKFast documentation page, specifically this article. 
+Selecting 'Help' will lead you to the UKFast documentation page, specifically this article. 
 
 ![ssoimage10](files/ssoimage10.PNG)
 
