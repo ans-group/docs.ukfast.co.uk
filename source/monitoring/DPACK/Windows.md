@@ -1,6 +1,6 @@
 # Running a DPACK on Windows Operating Systems.
 
-## Running a standard 24-hr DPACK:
+## Running a standard DPACK:
 
 **This section explains how to run a standard DPACK which allows a collection of up to 24-hrs.**
 
@@ -36,15 +36,15 @@
 
 ![Win-DPACK-Capture](files/Windows/Win_DPACK_Capture.PNG)
 
-## Running an extended 7-day DPACK:
+## Running an extended DPACK:
 
-**This section explains how to run a extended DPACK which allows a collection of up to 7-days.**
+**This section explains how to run an extended DPACK which allows a collection of up to 7-days.**
 
 1) First create a folder and put the DellPack.exe in as it will create quite a few files when first started:
 
 ![Win-DPACK-Folder](files/Windows/Win_DPACK_Folder.PNG)
 
-2) Navigate to the folder location in CMD or Powershell and enter the following command:
+2) Navigate to the folder location in CMD or Powershell and run the command "DellPack.exe /extended":
 
 ![Win-Extended-CMD](files/Windows/Windows_Extended/Win_DPACK_CMD.PNG)
 
@@ -56,4 +56,4 @@
 
 ![Win-Extended-CMD](files/Windows/Windows_Extended/Win_DPACK_Time.PNG)
 
-You are now able to run the DPACK for 7-days.
+You are now able to run the DPACK for 7-days. Any problems, don't hesitate to contact UKFast Support.
