@@ -1,6 +1,6 @@
 # Using DPACK to monitor server/VM performance
 
-The Dell Performance Analysis Collection Kit is free software provided by Dell to check performance of a server/VM for a set period of time.
+The Dell Performance Analysis Collection Kit is free software provided by Dell to check performance of a server/VM for a set period of time. It is totally non-intrusive so can be run on production environments at any time.
 
 You can request a DPACK capture by contacting your Account Manager.
 
