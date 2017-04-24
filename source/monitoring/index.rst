@@ -13,4 +13,4 @@ Help with monitoring your UKFast-hosted infrastructure, and managing usage effec
    bandwidth
    checkdiskspace
    /operatingsystems/windows/windowsadministration/resmon
-   /DPACK/DPACK.md
+   /monitoring/DPACK/DPACK
