@@ -28,7 +28,7 @@
 
 ![Linux-DPACK-Password](files/Linux/Linux_DPACK_Password.PNG)
 
-7) The console will now display the each disk detected on the server/VM, UKFast suggests you enter "yes" to all of them:
+7) The console will now display each disk detected on the server/VM, UKFast suggests you enter "yes" to all of them:
 
 ![Linux-DPACK-Disk](files/Linux/Linux_DPACK_Disk.PNG)
 
