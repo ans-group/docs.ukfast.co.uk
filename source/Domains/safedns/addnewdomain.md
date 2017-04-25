@@ -26,6 +26,8 @@ If you know that you're going to be providing or using e-mail services from this
 
 After you've entered everything you need and you're ready to import the domain, simply click `Add DNS Record`.
 
+If you're migrating your DNS from another provider, it's advisable to do a side by side comparison to ensure that all records have been copied over.
+
 If you purchased your domain elsewhere, you will need to change the nameservers of the domain to:
 
 ```bash
