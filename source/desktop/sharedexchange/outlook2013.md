@@ -20,7 +20,7 @@ The next screen (shown below) is asking which service type to connect to. Select
 
 The following screen requires details of the account. Enter the server information as shown below, and then your email address in the user name box.
 
-![Server Settings](files/outlook/serversettings.PNG)
+![Server Settings](files/outlook/moresettings.PNG)
 
 After you have done this, click more settings and this will present you with a pop-up box with other options, as shown below. Across the top of the window, find and click on the connection tab. Tick the connect to Microsoft Exchange using HTTP box and then select the Exchange Proxy Settings button.
 
