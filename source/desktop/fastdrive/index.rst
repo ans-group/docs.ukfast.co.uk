@@ -26,4 +26,5 @@ Enterprise-class file storage and sharing, based on eCloud Vault and Citrix Shar
    browsingforfiles
    sharingfiles
    addressbooks
+   singlesignon
    techinformation
