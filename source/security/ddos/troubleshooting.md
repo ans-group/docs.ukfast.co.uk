@@ -24,4 +24,6 @@ If you've previously had a domain connected to the DDoSX<sup>TM</sup> network an
 
 ## My website does not work as expected over HTTPS
 
-Ensure that the correct SSL is selected in the dropdown box in the configuration section. If this is set to none, there will be no HTTPS configuration for your domain. If using a custom SSL, ensure that the full SSL is correctly entered in the "SSL Certificates" tab. 
+Ensure that the correct SSL is selected in the dropdown box in the configuration section, below (Products & Services > DDosSX Protection > Configure). If this is set to none, there will be no HTTPS configuration for your domain. If using a custom SSL, ensure that the full SSL is correctly entered in the "SSL Certificates" tab. 
+
+![config_clipped](files/config_clipped.png)
