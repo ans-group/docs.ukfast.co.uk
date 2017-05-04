@@ -10,6 +10,6 @@ Configuring your SSL certificates to work with SNI is very simple providing you'
 - CentOS 6 onwards
 - Windows Server 2012 onwards
 
-Using your server control panel of choice (such as cPanel or Plesk), simply configure your web server for domain you wish to SSL-enable and point them to the same IP address.  As SNI is already integrated into your server's OS, it will automatically handle the process from this point.
+Using your server control panel of choice (such as cPanel or Plesk), simply configure your web server for each domain you wish to SSL-enable and point them to the same IP address.  As SNI is already integrated into your server's OS, it will automatically handle the process from this point.
 
 For more information on SNI and a full list of web browsers that support it, please see [this Wikipedia article](https://en.wikipedia.org/wiki/Server_Name_Indication)
