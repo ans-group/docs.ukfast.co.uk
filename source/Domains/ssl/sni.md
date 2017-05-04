@@ -12,4 +12,9 @@ Configuring your SSL certificates to work with SNI is very simple providing you'
 
 Using your server control panel of choice (such as cPanel or Plesk), simply configure your web server for each domain you wish to SSL-enable and point them to the same IP address.  As SNI is already integrated into your server's OS, it will automatically handle the process from this point.
 
+Step-by-step guidance on working with SSLs and SNIs is available here:
+
+- [cPanel](https://documentation.cpanel.net/display/ALD/Install+an+SSL+Certificate+on+a+Domain#InstallanSSLCertificateonaDomain-SNIandmultiplecertificates)
+- [Plesk](https://support.plesk.com/hc/en-us/articles/213944545-How-to-activate-the-SNI-support-on-the-Plesk-server-)
+
 For more information on SNI and a full list of web browsers that support it, please see [this Wikipedia article](https://en.wikipedia.org/wiki/Server_Name_Indication)
