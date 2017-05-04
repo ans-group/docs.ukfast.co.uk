@@ -2,9 +2,15 @@
 
 Server Name Indication (SNI) technology can be used to present multiple SSL certificates on the same IP address and TCP port number.  This represents a more efficient use of scarce IPv4 addresses and is our recommended way of configuring SSL certificates.  SNI has been supported by all the major web browsers for several years.
 
-## How to configure an SSL certificate using SNI
+Assuming you already have the domains and SSL certificates in question, follow the steps below to configure your SSL-enabled domains to point to a single IP address.
 
-Configuring your SSL certificates to work with SNI is very simple providing you're using a supported operating system on your web server(s), which include:
+## Pointing your domains to an IP address
+
+If you're using SafeDNS from UKFast, follow the steps in [this article](/Domains/safedns/addnewdomain.html) to add your domain, along with the IP address you wish to point the domain to.  Repeat this for each of the domain.
+
+## Configuring an SSL certificate using SNI
+
+Next step is to configure your SSL certificates to work with SNI, which is simple providing you're using a supported operating system on your web server(s).  Operating systems which support SNI include:
 
 - Ubuntu - all in-life versions
 - CentOS 6 onwards
