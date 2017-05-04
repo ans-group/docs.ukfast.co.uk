@@ -12,4 +12,5 @@ Running a DPACK will allow you and UKFast to measure a wide variety of metrics s
 * Network Throughout
 * Hard Page Faults per Second.
 
-A DPACK can be run on any [Windows](/windows.html) or [Linux](/linux.html) based operating system.
+A DPACK can be run on any [Windows](/monitoring/dpack/windows.html) or [Linux](/monitoring/dpack/linux.html) based operating system.
+
