@@ -20,7 +20,7 @@ To view this information and to make changes, please select the disk of your cho
 
 ## Extending A Partition
 
-To Extend a partition to make use of additional space, please follow the steps above to access the Disk Management console, and then follow the guide below.
+To extend a partition to make use of additional space, please follow the steps above to access the Disk Management console, and then follow the guide below.
 
 When additional capacity is added to a Windows Server, the space needs to be either added to an existing partition, or used to create a new partition before it becomes usable. the below example shows how extra capacity will appear to you in the Disk Management console.
 
