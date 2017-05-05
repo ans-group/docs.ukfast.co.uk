@@ -26,7 +26,7 @@ When additional capacity is added to a Windows Server, the space needs to be eit
 
 ![Disk Management-With Extra Space](Images/diskmanagement/freespacevisible.PNG)
 
-In this example, we would like to extend drive C: to make use of the additional 20GB of available disk space, to do this, right click on the drive C: partition as below and select "Extend" from the context menu.
+In this example, we would like to extend drive C: to make use of the additional 20GB of available disk space, to do this, right click on the drive C: partition as below and select "Extend Volume" from the context menu.
 
 ![Partition Options](Images/diskmanagement/rightclickpartition.PNG)
 
