@@ -20,3 +20,37 @@ To view this information and to make changes, please select the disk of your cho
 
 ## Extending A Partition
 
+To Extend a partition to make use of additional space, please follow the steps above to access the Disk Management console, and then follow the guide below.
+
+When additional capacity is added to a Windows Server, the space needs to be either added to an existing partition, or used to create a new partition before it becomes usable. the below example shows how extra capacity will appear to you in the Disk Management console.
+
+![Disk Management-With Extra Space](Images/diskmanagement/freespacevisible.PNG)
+
+In this example, we would like to extend drive C: to make use of the additional 20GB of available disk space, to do this, right click on the drive C: partition as below and select "Extend" from the context menu.
+
+![Partition Options](Images/diskmanagement/rightclickpartition.PNG)
+
+You will now be presented with the "Extend Volume Wizard" as below, please select "Next"
+
+![Extend Wizard](Images/diskmanagement/extendwizard.PNG)
+
+The "Select Disks" pane will now be displayed as below
+
+![Select Disks](Images/diskmanagement/spaceselect.PNG)
+
+This pane will already be configured correctly for you to use the maximum available amount of space on the disk, however 2 options are worth noting.
+
+- Maximum available space in MB : This represents the total amount of extra space available
+- Select the amount of space in MB : This section allows you to choose the amount of the extra space that you wish to add to the disk in question, in this case C:
+
+If for example, you only wished to add 10GB of the 20GB available to drive C:, you would need to change the "Select the amount of space in MB" field to 10240.Once you have entered the correct details, please select next.
+
+You will now be presented with the "Completed the Extend Volume Wizard" pane as below, please review the selected setting in the middle of the pane, and then select "Finish".
+
+![Finish](Images/diskmanagement/complete.PNG)
+
+You will now be returned to the Disk Management console, where you will see that Partition has been expanded as per the example below
+
+![Space Added](Images/diskmanagement/diskmanwithspaceadded.PNG)
+
+The additional space is now usable.
