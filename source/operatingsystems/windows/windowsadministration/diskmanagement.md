@@ -43,7 +43,7 @@ This pane will already be configured correctly for you to use the maximum availa
 - Maximum available space in MB : This represents the total amount of extra space available
 - Select the amount of space in MB : This section allows you to choose the amount of the extra space that you wish to add to the disk in question, in this case C:
 
-If for example, you only wished to add 10GB of the 20GB available to drive C:, you would need to change the "Select the amount of space in MB" field to 10240.Once you have entered the correct details, please select next.
+If for example, you only wished to add 10GB of the 20GB available to drive C:, you would need to change the "Select the amount of space in MB" field to 10240. Once you have entered the correct details, please select next.
 
 You will now be presented with the "Completed the Extend Volume Wizard" pane as below, please review the selected setting in the middle of the pane, and then select "Finish".
 
