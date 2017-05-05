@@ -18,3 +18,5 @@ To view this information and to make changes, please select the disk of your cho
 
 ![Options](Images/diskmanagement/diskmanagementcontextmenu.PNG)
 
+## Extending A Partition
+
