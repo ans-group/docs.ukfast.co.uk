@@ -6,3 +6,4 @@ SSL Certificates
    buying
    types
    self_signed_certificates
+   sni
