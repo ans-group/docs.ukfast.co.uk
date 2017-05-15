@@ -102,7 +102,7 @@ The above command significantly reduces the available backup set, however if you
 The TOR .onion network is also utilised
 Adding a new HOSTS entry to redirect DNS lookup’s to this site and onion network;
 
-   *0.0.0.0 dist.torproject.org
+   0.0.0.0 dist.torproject.org
 
    0.0.0.0 gx7ekbenv2riucmf.onion
 
@@ -112,7 +112,7 @@ Adding a new HOSTS entry to redirect DNS lookup’s to this site and onion netwo
 
    0.0.0.0 76jdd2ir2embyv47.onion
 
-   0.0.0.0 cwwnhwhlz52maqm7.onion*
+   0.0.0.0 cwwnhwhlz52maqm7.onion
 
 The Windows HOSTS file can be found in the following location;
 
