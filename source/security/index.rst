@@ -13,3 +13,4 @@ Information relating to UKFast security products and services, and general best 
    firewalls/index
    vulnerabilityscans
    dirtycow
+   wannacry
