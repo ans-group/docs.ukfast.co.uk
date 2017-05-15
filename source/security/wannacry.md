@@ -55,13 +55,17 @@ Once connected, the malware will execute a command to attempt to modify permissi
 
 *icacls . /grant Everyone:F /T /C /Q*
 
-Once complete the malware then performs a taskkill of all database applications to allow for running database
-*content to also be encrypted;
-taskkill.exe /f /im mysqld.exe
-taskkill.exe /f /im sqlwriter.exe
-taskkill.exe /f /im sqlserver.exe
-taskkill.exe /f /im MSExchange*
-*taskkill.exe /f /im Microsoft.Exchange**
+Once complete the malware then performs a taskkill of all database applications to allow for running database content to also be encrypted;
+
+*taskkill.exe /f /im mysqld.exe*
+
+*taskkill.exe /f /im sqlwriter.exe*
+
+*taskkill.exe /f /im sqlserver.exe*
+
+*taskkill.exe /f /im MSExchange*
+
+*taskkill.exe /f /im Microsoft.Exchange*
 
 Upon confirmation of the taskkill.exe being run, the ransomware will start to perform encryption of all files that access rights permit. The files encrypted would be of the following extension types, these are the current known types:
 
@@ -98,17 +102,17 @@ The above command significantly reduces the available backup set, however if you
 The TOR .onion network is also utilised
 Adding a new HOSTS entry to redirect DNS lookup’s to this site and onion network;
 
-*0.0.0.0 dist.torproject.org
+   *0.0.0.0 dist.torproject.org
 
-0.0.0.0 gx7ekbenv2riucmf.onion
+   0.0.0.0 gx7ekbenv2riucmf.onion
 
-0.0.0.0 57g7spgrzlojinas.onion
+   0.0.0.0 57g7spgrzlojinas.onion
 
-0.0.0.0 xxlvbrloxvriy2c5.onion
+   0.0.0.0 xxlvbrloxvriy2c5.onion
 
-0.0.0.0 76jdd2ir2embyv47.onion
+   0.0.0.0 76jdd2ir2embyv47.onion
 
-0.0.0.0 cwwnhwhlz52maqm7.onion*
+   0.0.0.0 cwwnhwhlz52maqm7.onion*
 
 The Windows HOSTS file can be found in the following location;
 
