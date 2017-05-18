@@ -32,7 +32,7 @@ If your eCloud Flex account does not currently have IPv6, you can enable it by f
 
 10. Click the `Interfaces` tab and then `+Add Interface`, which will open the window shown below.
 
-11. In the Subnet drop-down menu, select the IPv6 subnet you just created.
+11. In the Subnet drop-down menu, select the IPv6 subnet you just created.  Click `Submit`
 
 ![interface](files/interface.PNG)
 
