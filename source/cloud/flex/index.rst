@@ -11,3 +11,4 @@ UKFast's flexible OpenStack-based cloud platform
    nova/index
    3rdparty/index
    openstackapis
+   ipv6
