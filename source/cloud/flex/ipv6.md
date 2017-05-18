@@ -1,6 +1,6 @@
 # Using IPv6 on eCloud Flex
 
-You can now use IPv6 on your eCloud Flex project. Each subnet you create that you want to have IPVv6 on will be allocated a /64 prefix from a /48 prefix defined by UKFast (the standard tenant network quota will limit the number of subnets a tenant can request).
+You can now use IPv6 on your eCloud Flex project. Each subnet you create that you want to have IPv6 on will be allocated a /64 prefix from a /48 prefix defined by UKFast (the standard tenant network quota will limit the number of subnets a tenant can request).
 
 All supported eCloud Flex Linux images (Windows images coming soon) have been updated to support DHCPv6, and new eCloud Flex customers will get this by default. You can also use SLAAC (which has been tested), but currently DHCPv6 provides a higher level of High Availability, as RADVD is not currently HA within OpenStack tenant networks.
 
