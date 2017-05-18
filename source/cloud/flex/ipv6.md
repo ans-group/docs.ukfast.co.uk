@@ -4,6 +4,8 @@ You can now use IPv6 on your eCloud Flex project. Each subnet you create that yo
 
 All supported eCloud Flex Linux images (Windows images coming soon) have been updated to support DHCPv6, and new eCloud Flex customers will get this by default. You can also use SLAAC (which has been tested), but currently DHCPv6 provides a higher level of High Availability, as RADVD is not currently HA within OpenStack tenant networks.
 
+## Enable IPv6 on your eCloud Flex project
+
 If your eCloud Flex account does not currently have IPv6, you can enable it by following these steps:
 
 1. Login to [MyUKFast](https://my.ukfast.co.uk), and go to `Flex` in the Products and Services menu.  Then click `OpenStack Control Panel`.  Alternatively you can go straight to the [OpenStack Control Panel](https://api.openstack.ecloud.co.uk)
@@ -37,6 +39,8 @@ If your eCloud Flex account does not currently have IPv6, you can enable it by f
 You will now see an IPv6 address is allocated to your router's interface, as shown below - this should now respond to ICMP if you have an existing IPv6 network to test it from.
 
 ![newinterface](files/newinterface.PNG)
+
+## Modify security groups for IPv6
 
 Before you deploy your first eCloud Flex instance you should modify your security groups - as most address assignment in IPv6 is done using ICMP, you will need to ensure ICMP is permited for IPv6.  To do this:
 
