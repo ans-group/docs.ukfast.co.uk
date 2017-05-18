@@ -37,6 +37,7 @@ Our support engineers are have been working around the clock since information b
 
 ## How does this malware function?
 
+
 Wana Decrypt0r utilises an embedded installer which extracts a password protected .zip archive. This archive has a number of randomly named executable files within which are run to execute the Wana Decrypt0r functionality. Once the executables are present on the Windows file system, execution of the start-up tasks utilising the newly extracted .exe’s. The ransomware will then utilise the TOR client and TOR network to allow communication between the malware and its command and control to be performed via an encrypted near untraceable network. More information regarding TOR can be found on Wikipedia [here](https://en.wikipedia.org/wiki/Tor_(anonymity_network))
 
 Once the ransomware is present on the operating system, the malware will perform remote connectivity to the following .onion addresses within the TOR network 
@@ -124,7 +125,9 @@ Addition of this HOSTS entry will prevent the TOR aspect removing some command a
 
 * UKFast’s default firewall configuration excludes access on the above TCP and UDP ports for public access, however these ports can be modified by your team(s) to be open for public access. To clarify if your firewall has these ports open or not please login to the [MyUKFast firewall section](https://my.ukfast.co.uk/server/firewalls.php) to verify the firewall port configuration.  UKFast recommends the SMB protocol TCP and UDP ports be closed for public access if open, we do not recommend allowing public  access to the SMB protocol as standard practice. If you are unfamiliar with firewall ports or require additional assistance, please contact our support team on any of the following;
    * [Priority Support Request](https://my.ukfast.co.uk/pss/add.php)
+
    * Email [support@ukfast.co.uk](mailto:support@ukfast.co.uk)
+
    * Telephone 0800 230 0032
 
 * UKFast recommends a review of domain and local administrative accounts. Allowing end users to have administrative access is quite common when faced with permission related problems. We do not recommend allowing user accounts to have domain or local administrative access.
@@ -148,5 +151,7 @@ UKFast cannot endorse the payment of ransomware to third parties. This decision 
 ## Contacting UKFast Support
 Please don’t hesitate to contact our support professionals who can provide assistance and information surrounding this malware
 * [Priority Support Request](https://my.ukfast.co.uk/pss/add.php)
+
 * Email [support@ukfast.co.uk](mailto:support@ukfast.co.uk)
 * Telephone 0800 230 0032
+
