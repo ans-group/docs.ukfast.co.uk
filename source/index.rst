@@ -15,7 +15,7 @@ Contents:
    security/index
    Domains/index
    backups/index
-   myukfast/index
+   network/index
    webcel/index
    monitoring/index
    operatingsystems/index
