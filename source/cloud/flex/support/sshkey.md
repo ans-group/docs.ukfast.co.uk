@@ -33,3 +33,5 @@ nano /home/ukfastsupport/.ssh/authorized_keys
 chown -R ukfastsupport:ukfastsupport /home/ukfastsupport/.ssh
 chmod -R u+rwX,og-rwx /home/ukfastsupport/.ssh
 ```
+
+If you run into any problems on this, please raise a support ticket via [MyUKFast](https://my.ukfast.co.uk/pss/add.php), or call support directly on 0800 230 0032.
