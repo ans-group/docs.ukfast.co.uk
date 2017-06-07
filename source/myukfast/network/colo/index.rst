@@ -1,5 +1,5 @@
 ==========
-Colocatoin
+Colocation
 ==========
 
 .. toctree::
