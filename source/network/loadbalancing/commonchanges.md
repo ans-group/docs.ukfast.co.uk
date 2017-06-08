@@ -4,7 +4,7 @@ This guide will go over some of the common changes you may want to carry out in 
 
 ```eval_rst
 .. note::
-  This guide assumes general knowledge of the UKFast loadbalancer platform. The :doc:`/myukfast/loadbalancing/quickstart` guide is recommended reading, even if you have an existing loadbalancer configuration.
+  This guide assumes general knowledge of the UKFast loadbalancer platform. The :doc:`/network/loadbalancing/quickstart` guide is recommended reading, even if you have an existing loadbalancer configuration.
 ```
 
 ## Remove a server from the pool
