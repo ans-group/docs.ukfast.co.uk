@@ -7,3 +7,4 @@ If you would like to contribute a guide or amendment to an existing one, please 
 To get started, please visit:
 - the "how to contribute" guide - https://github.com/ukfast/docs.ukfast.co.uk/blob/master/contribute.md
 - the terminology and style guide https://github.com/ukfast/docs.ukfast.co.uk/blob/master/guide.md
+
