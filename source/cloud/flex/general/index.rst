@@ -8,3 +8,4 @@ A place for articles that cover general topics or ones that otherwise don't fit 
    :maxdepth: 1
 
    settingvars
+   passwordretrieval
