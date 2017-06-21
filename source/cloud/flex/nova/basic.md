@@ -198,13 +198,3 @@ If you want to delete a few at a time, just append their names on:
   Request to delete server serverb has been accepted.
   Request to delete server tower has been accepted.
 ```
-
-## Retrieving passwords
-
-The public-key-encrypted instance password can be retrieved and decrypted using the corresponding private-key as below, useful for decrypting the `Administrator` password within Windows instances:
-
-```console
-[root@workstation ~]# nova get-password ba7a6424-3674-4f43-aca0-97dae8c23ef5 ~/private.key
-Enter pass phrase for /root/private.key:
-GDrtWKpcKHTQFUux3gpv
-```
