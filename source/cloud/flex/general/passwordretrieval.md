@@ -1,4 +1,4 @@
-# Retrieving passwords for Flex instances
+# Retrieving passwords for eCloud Flex instances
 
 The public-key-encrypted instance password can be retrieved and decrypted (when available) using the corresponding private-key, useful for decrypting the `Administrator` password within Windows instances. The methods for doing so are outlined here.
 
@@ -12,8 +12,8 @@ Enter pass phrase for /root/private.key:
 GDrtWKpcKHTQFUux3gpv
 ```
 
-## Flex Dashboard
+## eCloud Flex Dashboard
 
-The Flex instances dashboard can be used to retrieve the password via the available actions as below:
+The [eCloud Flex dashboard](https://api.openstack.ecloud.co.uk/project) can be used to retrieve passwords.  Head to the Instances area, then click on the instance in question.  In the drop down menu at the top right of the screen you'll find the option to Retrieve Password.
 
 ![instances-retrievepassword](../files/instances-retrievepassword.PNG)
