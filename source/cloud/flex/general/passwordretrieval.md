@@ -16,4 +16,4 @@ GDrtWKpcKHTQFUux3gpv
 
 The Flex instances dashboard can be used to retrieve the password via the available actions as below:
 
-![instances-retrievepassword](../files/subnet.PNG)
+![instances-retrievepassword](../files/instances-retrievepassword.PNG)
