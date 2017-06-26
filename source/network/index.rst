@@ -7,6 +7,7 @@ Information and guidance relating to the networking infrastructure at UKFast
 .. toctree::
   :maxdepth: 1
 
+  cdn/index
   colo/index
   firewalls/index
   loadbalancing/index
