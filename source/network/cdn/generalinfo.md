@@ -1,4 +1,4 @@
-# Getting Started
+# General Information
 
 A Content Delivery Network (or CDN) is a network of highly-distributed servers that are specifically designed to deliver static content or streaming media. The servers are spread over a number of physical locations in order to bring the content as close as possible to the user requesting it.
 
