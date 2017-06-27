@@ -74,10 +74,10 @@ HIT: Served from cache.
 
 Finally there might be some occasions where you need to just tell the CDN to stop caching this and fetch from the origin. There are currently three ways this can be done
 
-* Via my.ukfast.co.uk/ddosx
+* Via [MyUKFast](my.ukfast.co.uk/ddosx)
 * Using bypass methods as above, such as purge http header and the ?nocache=true arguments on the request
 * Manual PURGE/DELETE http methods
 
-One method is to use the my.ukfast.co.uk/ddosx interface, this will allow you to clear your items and effectively PURGE the content you want on each of the servers to fully clear it all out. You can also tell it specific URLs or any files ending in .jpg for example.
+One method is to use the [MyUKFast](my.ukfast.co.uk/ddosx) interface, this will allow you to clear your items and effectively PURGE the content you want on each of the servers to fully clear it all out. You can also tell it specific URLs or any files ending in .jpg for example.
 
 We also have support for telling the CDN platform via a PURGE or a DELETE method to clear cache. For example using curl `curl -XPURGE example.org/example.jpg` This should response with an OK if this was successful. If you add a -I with this request to present the headers you should see something like `X-Purged-Count: 1` to show how many items were removed. This can also be done against `curl -XPURGE example.org/*` which will effectively clear everything. Cache is stored on each server locally, so this method will only clear the cache on the server it hits.
