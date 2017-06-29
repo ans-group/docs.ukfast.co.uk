@@ -9,3 +9,4 @@ Information regarding UKFast's Content Delivery Network (CDN)
 
   gettingstarted
   troubleshooting
+  manage
