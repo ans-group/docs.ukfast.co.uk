@@ -49,13 +49,19 @@ You might recognise the first three values, but maybe not the fourth. The slice 
 
 To help understand what happened to a request we add the header X-Proxy-Cache, which can be seen in the response of the request.  Possible values are:
 
-* MISS: The response was not found in the cache and so was fetched from an origin server. The response might then have been cached.
-* BYPASS: The response was fetched from the origin server instead of served from the cache, and the CDN was told to bypass any cache it might have had.
-* EXPIRED: The entry in the cache has expired. The response contains fresh content from the origin server.
-* STALE: The content is stale because the origin server is not responding correctly, so cached content deemed as expired was served.
-* UPDATING: The content is stale because the entry is currently being updated in response to a previous request.
-* REVALIDATED: The content was expired, but the current cached version is still valid.
-* HIT: Served from cache.
+MISS: The response was not found in the cache and so was fetched from an origin server. The response might then have been cached.
+
+BYPASS: The response was fetched from the origin server instead of served from the cache, and the CDN was told to bypass any cache it might have had.
+
+EXPIRED: The entry in the cache has expired. The response contains fresh content from the origin server.
+
+STALE: The content is stale because the origin server is not responding correctly, so cached content deemed as expired was served.
+
+UPDATING: The content is stale because the entry is currently being updated in response to a previous request.
+
+REVALIDATED: The content was expired, but the current cached version is still valid.
+
+HIT: Served from cache.
 
 ## Bypassing the Cache
 
