@@ -8,5 +8,5 @@ Information regarding UKFast's Content Delivery Network (CDN)
   :maxdepth: 1
 
   gettingstarted
+  cachingrules
   troubleshooting
-  manage
