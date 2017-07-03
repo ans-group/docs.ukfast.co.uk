@@ -7,6 +7,6 @@ Information regarding UKFast's Content Delivery Network (CDN)
 .. toctree::
   :maxdepth: 1
 
-  gettingstarted
+  /security/ddos/gettingstarted
   cachingrules
   troubleshooting
