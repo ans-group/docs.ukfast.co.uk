@@ -23,7 +23,7 @@ Enabling DDoSX<sup>TM</sup> and CDN on your domains is a three-step process:
 
 **[2. Configure](#configure-domain)** which domain records you'd like to protect
 
-**[3. Create Rules]()** (CDN only) for caching content
+**[3. Create Rules](#caching-rules)** (CDN only) for caching content
 
 ## Connect domain
 
@@ -34,7 +34,7 @@ Enabling DDoSX<sup>TM</sup> and CDN on your domains is a three-step process:
 - Optionally, to add CDN to your order, ensure the highlighted toggle switch is set to "On".
 - Repeat for each domain you want to add to the network.
 
-![connect](files/connect.png)
+![connect](files/connect.PNG)
 
 - Click `Confirm` to go through the payment process. (You won't have to complete this step if you've already ordered DDoSX<sup>TM</sup> or CDN via your UKFast account manager).
 
@@ -46,7 +46,7 @@ Enabling DDoSX<sup>TM</sup> and CDN on your domains is a three-step process:
 - You can also assign any existing SSL certificates at this point. SSL certificates purchased from MyUKFast will appear in the dropdown menu, or click `Add SSL` to add details of other SSL certificates manually. SSL certificates can be managed within the `SSL Certificates` tab.
 - Ensure the highlighted toggle switches are set to "On" for all of the sub-domains you wish to protect with DDoSX<sup>TM</sup>.
 
-![configuredomain](files/configuredomain.png)
+![configuredomain](files/configuredomain.PNG)
 
 - Click `Apply Changes` and your domain is now connected to the UKFast DDoSX<sup>TM</sup> network, and configured appropriately.  
 
