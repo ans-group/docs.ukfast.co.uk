@@ -23,7 +23,7 @@ Enabling DDoSX<sup>TM</sup> and CDN on your domains is a three-step process:
 
 **[2. Configure](#configure-domain)** which domain records you'd like to protect
 
-**[3. Create Rules](#caching-rules)** (CDN only) for caching content
+**[3. Create CDN Caching Rules](#create-cdn-caching-rules)**
 
 ## Connect domain
 
@@ -52,8 +52,8 @@ Enabling DDoSX<sup>TM</sup> and CDN on your domains is a three-step process:
 
 Note that it may take up to 24 hours for DNS changes to propogate across the internet (as with any such changes), and before your domain is fully protected.
 
-## Create Rules
+## Create CDN caching Rules
 
 For any domains with CDN added, content caching will not be activated until rules have been added to the configuration.
 
-[Follow this link to the CDN 'caching rules' setup guide](/network/cdn/cachingrules)
+[Follow this link to the CDN 'caching rules' setup guide](/network/cdn/cachingrules.html)
