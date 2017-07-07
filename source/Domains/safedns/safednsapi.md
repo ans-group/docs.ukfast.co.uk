@@ -25,7 +25,7 @@ This is a list of parameters you can use with the SafeDNS API
     <th class="tg-yw4l">Description</th>
     <th class="tg-yw4l">Always Required</th>
     <th class="tg-yw4l">Size</th>
-    <th class="tg-yw4l">Type &lt;br&gt;(A = Alpha numeric; &lt;br&gt;N = Numeric)</th>
+    <th class="tg-yw4l">Type<br>(A = Alpha numeric;<br>N = Numeric)</th>
   </tr>
   <tr>
     <td class="tg-yw4l"><code>username</code></td>
