@@ -12,3 +12,4 @@ SafeDNS allows you to manage your DNS records, even if you didn't use UKFast as 
    spf
    ttl
    recordtypes
+   safednsapi
