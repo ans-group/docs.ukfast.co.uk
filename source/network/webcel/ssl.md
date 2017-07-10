@@ -141,7 +141,7 @@ if ($http_x_forwarded_proto != "https") {
 
 With the secure origin pull configuration, traffic is first "offloaded" at Webcelerator level to allow us to inspect the traffic and serve requests from cache; however any requests needing to be passed to the backend are re-encrypted before leaving the Webcelerator and arrive to the backend over port 443.
 
-This means that the backend is (for all intents and purposes) unaware that the traffic has passed through a reverse proxy device. As such, it can behave normally in terms of redirection and shouldn't require any modification to your configuration.
+This means that the backend is basically unaware that the traffic has passed through a reverse proxy device. As such, it can behave normally in terms of redirection and shouldn't require any modification to your configuration.
 
 That being said, requests will still appear as though they originated from the Webcelerator - with the actual client IP being passed under the `X-Forwarded-For` header.
 
