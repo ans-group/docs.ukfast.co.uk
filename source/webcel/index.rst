@@ -6,7 +6,11 @@ The Webcelerator (or "WebCel") is a caching appliance which sits in-front of you
 .. toctree::
    :maxdepth: 1
 
-   GeneralInformation
+   generalinformation
    gettingstarted
    ssl
-   purge
+   clientip
+   cache
+   httpcodes
+   monitoring
+   goinglive
