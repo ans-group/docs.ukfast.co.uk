@@ -16,7 +16,6 @@ Contents:
    Domains/index
    backups/index
    network/index
-   webcel/index
    monitoring/index
    operatingsystems/index
 
