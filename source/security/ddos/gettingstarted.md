@@ -4,7 +4,7 @@ DDoSX<sup>®</sup> and Content Delivery Network (CDN) are two features of our gl
 
 ```eval_rst
 .. seealso::
-   To use DDoSX and optional Content Delivery Network from UKFast, you need to have your domains' nameservers pointing to the UKFast nameservers, and you also need to manage your DNS records using SafeDNS.
+   To use DDoSX\ :sup:`®` and the optional Content Delivery Network from UKFast, you need to have your domains' nameservers pointing to the UKFast nameservers, and you also need to manage your DNS records using SafeDNS.
 
    Make sure to set up your DNS records correctly in SafeDNS first - see the :doc:`/Domains/safedns/index` guide for assistance.  You must move all records associated with the domains (including sub-domains) you wish to protect, including SMTP, MX, mail etc. to SafeDNS.
 

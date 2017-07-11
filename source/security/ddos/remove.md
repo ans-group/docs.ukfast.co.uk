@@ -11,5 +11,5 @@ If you want to remove a domain from DDoSX<sup>®</sup> then follow these steps:
 
 ```eval_rst
 .. warning::
-   If you don't point your domain records back to your own server or firewall, your domain will go offline when the domain's DDoSX® billing period expires.
+   If you don't point your domain records back to your own server or firewall, your domain will go offline when the domain's DDoSX\ :sup:`®` billing period expires.
 ```
