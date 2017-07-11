@@ -1,8 +1,8 @@
 ==================
-DDoSX\ :sup:`TM`
+DDoSX\ :sup:`R`
 ==================
 
-DDoSX\ :sup:`TM` is designed to protect your websites and applications from Denial of Service (DoS) and Distributed Denial of Service (DDoS) attacks.
+DDoSX\ :sup:`R` is designed to protect your websites and applications from Denial of Service (DoS) and Distributed Denial of Service (DDoS) attacks.
 
 .. toctree::
    :maxdepth: 1
