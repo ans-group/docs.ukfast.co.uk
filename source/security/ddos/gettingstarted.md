@@ -1,10 +1,10 @@
 # Getting started
 
-DDoSX<sup>&reg;</sup> and Content Delivery Network (CDN) are two features of our global network that work together to significantly improve your website or web application’s speed and security. DDoSX<sup>&reg;</sup> provides protection against DDoS attacks, and CDN is an **optional** feature that caches your site's content closer to the end user. In order to use CDN, DDoSX must also be enabled on the domain.
+DDoSX<sup>TM</sup> and Content Delivery Network (CDN) are two features of our global network that work together to significantly improve your website or web application’s speed and security. DDoSX<sup>TM</sup> provides protection against DDoS attacks, and CDN is an **optional** feature that caches your site's content closer to the end user. In order to use CDN, DDoSX must also be enabled on the domain.
 
 ```eval_rst
 .. seealso::
-   To use DDoSX\ :sup:`R` and optional Content Delivery Network from UKFast, you need to have your domains' nameservers pointing to the UKFast nameservers, and you also need to manage your DNS records using SafeDNS.
+   To use DDoSX\ :sup:`TM` and optional Content Delivery Network from UKFast, you need to have your domains' nameservers pointing to the UKFast nameservers, and you also need to manage your DNS records using SafeDNS.
 
    Make sure to set up your DNS records correctly in SafeDNS first - see the :doc:`/Domains/safedns/index` guide for assistance.  You must move all records associated with the domains (including sub-domains) you wish to protect, including SMTP, MX, mail etc. to SafeDNS.
 
@@ -17,7 +17,7 @@ DDoSX<sup>&reg;</sup> and Content Delivery Network (CDN) are two features of our
 
 ```
 
-Enabling DDoSX<sup>&reg;</sup> and CDN on your domains is a three-step process:
+Enabling DDoSX<sup>TM</sup> and CDN on your domains is a three-step process:
 
 **[1. Connect](#connect-domain)** your domain(s) to our global network
 
@@ -36,7 +36,7 @@ Enabling DDoSX<sup>&reg;</sup> and CDN on your domains is a three-step process:
 
 ![connect](files/connect.PNG)
 
-- Click `Confirm` to go through the payment process. (You won't have to complete this step if you've already ordered DDoSX<sup>&reg;</sup> or CDN via your UKFast account manager).
+- Click `Confirm` to go through the payment process. (You won't have to complete this step if you've already ordered DDoSX<sup>TM</sup> or CDN via your UKFast account manager).
 
 
 ## Configure domain
@@ -44,11 +44,11 @@ Enabling DDoSX<sup>&reg;</sup> and CDN on your domains is a three-step process:
 - Now that the domain has been added to the network, the DNS records need to be configured.
 - Click `Configure` next to the domain you wish to setup first within the `DDoSX & CDN` control panel and choose which A Records and AAAA Records you specifically want to protect for each domain.
 - You can also assign any existing SSL certificates at this point. SSL certificates purchased from MyUKFast will appear in the dropdown menu, or click `Add SSL` to add details of other SSL certificates manually. SSL certificates can be managed within the `SSL Certificates` tab.
-- Ensure the highlighted toggle switches are set to "On" for all of the sub-domains you wish to protect with DDoSX<sup>&reg;</sup>.
+- Ensure the highlighted toggle switches are set to "On" for all of the sub-domains you wish to protect with DDoSX<sup>TM</sup>.
 
 ![configuredomain](files/configuredomain.PNG)
 
-- Click `Apply Changes` and your domain is now connected to the UKFast DDoSX<sup>&reg;</sup> network, and configured appropriately.  
+- Click `Apply Changes` and your domain is now connected to the UKFast DDoSX<sup>TM</sup> network, and configured appropriately.  
 
 Note that it may take up to 24 hours for DNS changes to propogate across the internet (as with any such changes), and before your domain is fully protected.
 
