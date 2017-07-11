@@ -4,6 +4,7 @@ DDoSX<sup>®</sup> and Content Delivery Network (CDN) are two features of our gl
 
 ```eval_rst
 .. seealso::
+
    To use DDoSX\ :sup:`®` and optional Content Delivery Network from UKFast, you need to have your domains' nameservers pointing to the UKFast nameservers, and you also need to manage your DNS records using SafeDNS.
 
    Make sure to set up your DNS records correctly in SafeDNS first - see the :doc:`/Domains/safedns/index` guide for assistance.  You must move all records associated with the domains (including sub-domains) you wish to protect, including SMTP, MX, mail etc. to SafeDNS.
@@ -52,7 +53,7 @@ Enabling DDoSX<sup>®</sup> and CDN on your domains is a three-step process:
 
 Note that it may take up to 24 hours for DNS changes to propogate across the internet (as with any such changes), and before your domain is fully protected.
 
-## Create CDN caching Rules
+## Create CDN caching rules
 
 For any domains with CDN added, content caching will not be activated until rules have been added to the configuration.
 
