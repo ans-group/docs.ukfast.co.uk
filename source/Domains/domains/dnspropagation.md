@@ -1,0 +1,18 @@
+# What factors affect DNS propagation time?
+
+When updating domain name system (DNS) records for your domain it will likely take up to 48 hours for those updates to propagate across the internet. Adding or editing the DNS records for your domain within [SafeDNS<sup>®</sup>](https://my.ukfast.co.uk/safedns/index.php) will be subject to these timescales.
+
+.. note::
+   All nameservers, servers and browsers will be working to slightly different schedules depending on the last time their DNS information for your domain was updated. Because of this, whilst your new settings propagate across the internet, it is possible for some clients to be using new records and others to be using old records concurrently.
+
+## Factors that affect DNS propagation times
+- **TTL Settings**:  Time to live settings within the SOA     settings for each DNS record specify the amount of time that servers and nameservers will cache your DNS entry (in seconds). By default this is set to `86400` (24 hours), decreasing the TTL settings can decrease propagation time as servers and browsers will only cache your DNS settings for a shorter amount of time.
+
+  You will only be able to benefit from this after the value has been propagated across the network, setting a `3600` (1 hour) TTL from the default `86400` (24 hours) will still take upto 24 hours to propagate.
+
+.. note::
+   Shorter TTL times should shorten overall propagation time, however this will create an increased number of queries to your nameserver, potentially increasing this overhead will slow your server's processing time.
+
+- **Internet Service Providers**: All ISPs cache DNS records differently and many cache DNS settings to speed up browsing and reduce outbound traffic. Many of these servers will ignore your TTL and only update their cached records every couple of days. This could mean that clients using ISPs with long cache refreshing times could be waiting much longer to be served the new records.
+
+- **Domain Name Registries**: Changes made within SafeDNS<sup>®</sup> will be changed within our registries in a matter of minutes, however some domain name registries try to protect their servers from excess load by setting an overriding TTL of 48 hours or more, which could delay the record's propagation across the internet.
