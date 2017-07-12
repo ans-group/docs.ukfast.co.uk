@@ -19,7 +19,7 @@ You can make changes to your SOA records to attempt to speed up the propagation 
    Shorter TTL times should shorten overall propagation time, however this will create an increased number of queries to your nameserver, potentially increasing this overhead will slow your server's processing time.
 ```
 
-A guide to changing your DNS records TTL settings can be found [here](Domains/safedns/ttl.html).
+A guide to changing your DNS records TTL settings can be found [here](/Domains/safedns/ttl.html).
 
 - **Internet Service Providers**: All ISPs cache DNS records differently and many cache DNS settings to speed up browsing and reduce outbound traffic. Many of these servers will ignore your TTL and only update their cached records every couple of days. This could mean that clients using ISPs with long cache refreshing times could be waiting much longer to be served the new records.
 
