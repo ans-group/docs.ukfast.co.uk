@@ -1,5 +1,5 @@
 =========================
-Making changes to domains
+Making Changes to Domains
 =========================
 
 There are various changes you may need to make to your domains over time.
@@ -10,3 +10,4 @@ There are various changes you may need to make to your domains over time.
    transferin
    transferout
    changingnameservers
+   dnspropagation

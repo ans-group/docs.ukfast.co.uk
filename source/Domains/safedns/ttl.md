@@ -9,3 +9,5 @@ Once custom TTL values have been enabled, you can modify the TTL value for recor
 Select `Product and Services` > `SafeDNS` > select your domain name > Under the `SOA` heading is the `TTL` value.
 
 Please remember this value is in seconds and that the lowest value is `300` seconds.
+
+Also note that there are a number of different factors that can affect the total propagation time of DNS record changes. Please see ["What factors affect DNS propagation time?"](Domains/domains/dnspropagation) for more information.

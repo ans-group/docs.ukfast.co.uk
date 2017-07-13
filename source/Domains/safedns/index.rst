@@ -13,3 +13,4 @@ SafeDNS allows you to manage your DNS records, even if you didn't use UKFast as 
    ttl
    recordtypes
    safednsapi
+   /Domains/domains/dnspropagation
