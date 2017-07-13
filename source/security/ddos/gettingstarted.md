@@ -51,7 +51,7 @@ Enabling DDoSX<sup>®</sup> and CDN on your domains is a three-step process:
 
 - Click `Apply Changes` and your domain is now connected to the UKFast DDoSX<sup>®</sup> network, and configured appropriately.  
 
-Note that it may take up to 24 hours for DNS changes to propogate across the internet (as with any such changes), and before your domain is fully protected.
+Note that it may take [up to 24 hours](/Domains/domains/dnspropagation.html) for DNS changes to propogate across the internet (as with any such changes), and before your domain is fully protected.
 
 ## Create CDN caching rules
 
