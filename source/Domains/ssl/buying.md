@@ -19,7 +19,7 @@ After this, you'll need to go through one of the validation processes outlined b
   * **DNS Lookup** -  You will need to create a new CNAME record for your domain. Once validation is complete, this record can be safely deleted.
   * **Email** - An email will be sent to an administrative contact registered for the domain (you'll see a list of email addresses to choose from if this option is available).  You'll need to click on a link in the email.
 
-Once validation is complete, a UKFast support engineer will be in touch if you've selected the option for UKFast to install the certificate for you.  If you've chosen to install the SSL certificate yourself, you'll find a link to the certificate in MyUKFast [MyUKFast](https://my.ukfast.co.uk/ssl/index.php)
+Once validation is complete, a UKFast support engineer will be in touch if you've selected the option for UKFast to install the certificate for you.  If you've chosen to install the SSL certificate yourself, you'll find a link to the certificate in [MyUKFast](https://my.ukfast.co.uk/ssl/index.php)
 
 ## Renewing
 
