@@ -145,7 +145,7 @@ As such, you should perform the following steps:
     [root@acme-webdb-01 ~]# pcs resource clear g_mysql
     ```
 
-This will not move the resource group back over unless a `prefers` or `colocation` constraint is now being violated (Which in most cases it would not be); however the resource group is now free to be moved again in the future, or failover as needed.
+This will not move the resource group back over unless a `prefers` or `colocation` constraint is now being violated (which in most cases it would not be); however the resource group is now free to be moved again in the future, or failover as needed.
 
 ### Putting a node into standby
 
