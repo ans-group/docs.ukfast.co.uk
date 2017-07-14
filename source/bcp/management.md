@@ -64,7 +64,7 @@ Daemon Status:
 [root@acme-webdb-01 ~]#
 ```
 
-The abov shows that the `g_web` group contains: the web VIP, web filesystem, and `httpd` service. It is started and running on the `acme-webdb-01` node. The `g_mysql` service is running on `acme-webdb-02`, and contains: the MySQL external VIP, the MySQL crossover VIP, the MySQL filesystem, and the `mysqld` service.
+The above shows that the `g_web` group contains: the web VIP, web filesystem, and `httpd` service. It is started and running on the `acme-webdb-01` node. The `g_mysql` service is running on `acme-webdb-02`, and contains: the MySQL external VIP, the MySQL crossover VIP, the MySQL filesystem, and the `mysqld` service.
 
 If any services show as failed, you would normally receive information about the errors encountered at the end of this output.
 
