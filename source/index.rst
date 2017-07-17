@@ -14,7 +14,7 @@ Contents:
    desktop/index
    security/index
    Domains/index
-   backups/index
+   dr-ha/index
    network/index
    webcel/index
    monitoring/index
