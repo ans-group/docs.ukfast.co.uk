@@ -14,7 +14,7 @@ Some of the most commonly asked questions by clients when receiving their first 
 
 ***
 
-## Common Questions
+## Common questions
 
 ### What IP address should I use for my A record?
 
