@@ -14,7 +14,7 @@ The most common BCP configuration deployed at the moment is our two-node WEBDB c
 
 A two node BCP is usually deployed in a format similar to this:
 
-<center>![Two node BCP - Solution Diagram](files/two-node-bcp.png)</center>
+![Two node BCP - Solution Diagram](files/two-node-bcp.png)</center>
 
 In this example, each node is connected to a different switch, providing redundancy at the network level so that service can persist a switch failure.
 
