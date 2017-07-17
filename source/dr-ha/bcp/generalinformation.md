@@ -14,7 +14,7 @@ The most common BCP configuration deployed at the moment is our two-node WEBDB c
 
 A two node BCP is usually deployed in a format similar to this:
 
-![Two node BCP - Solution Diagram](files/two-node-bcp.png)</center>
+![Two node BCP - Solution Diagram](files/two-node-bcp.png)
 
 In this example, each node is connected to a different switch, providing redundancy at the network level so that service can persist a switch failure.
 
@@ -82,7 +82,7 @@ Clusters which are deployed with more than 2 nodes are designed on a per-solutio
 
 ### Solution diagram
 
-<center>![Four node BCP - Solution Diagram](files/four-node-bcp.png)</center>
+![Four node BCP - Solution Diagram](files/four-node-bcp.png)
 
 Normally this would also be racked over two switches, with the `-01` server of each pair on one switch, and the `-02` on the other switch. Sometimes NIC bonding is used to connect servers into both switches and present one interface to the server. Further connections to the switch may be made to facilitate internal traffic, depending on requirements.
 
