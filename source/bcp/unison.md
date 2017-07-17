@@ -48,7 +48,7 @@ If that cron is not configured, Unison replication will not work.
 .. warning::
    **Please note that some of the paths configured in Unison are used to ensure proper functioning of the cluster, so check with support before removing any lines from the default Unison configuration.**
 
-   Also, Unison will not work if the default SSH keys for the root user are changed. As such, if you regenerate these keys for some reason, please ensure that the nodes each have the public keys in their ```authorized_keys`` file for the root user.
+   Also, Unison will not work if the default SSH keys for the root user are changed. As such, if you regenerate these keys for some reason, please ensure that the nodes each have the public keys in their ``authorized_keys`` file for the root user.
 ```
 
 ## Manually performing a synchronization
