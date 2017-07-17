@@ -13,6 +13,8 @@ To configure Unison, edit the `/root/.unison/default.prf` file with your favorit
    The configuration file for Unison is different on all nodes in your cluster, so you will need to update all of them when making changes.
 ```
 
+For solutions with more than two nodes, the configuration on each node might be located in `/root/.unison/hostname.prf`, where "hostname" is replaced with the hostname of each of the nodes you're syncing with (eg: `/root/.unison/acme-web-01.prf`, `/root/.unison/acme-web-02.prf`, and `/root/.unison/acme-web-03.prf`).
+
 The configuration will look something like this:
 
 ```
