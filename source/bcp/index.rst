@@ -27,3 +27,4 @@ Contents
   unison
   fencing
   splitbrain
+  faq
