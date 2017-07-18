@@ -11,13 +11,13 @@ Generally, there are two DRBD volumes in each cluster:
 
  DRBD is active / passive by nature, so only one node can be "primary" for the volume at a time - and therefore only one node can have the volume mounted at a time. If more than one node considers itself "primary", the cluster has likely become [split brain](splitbrain.html).
 
- Given the above, don't be alarmed if `/var/www/vhosts` or `/var/lib/mysql` looks to be "missing" from one of your nodes, it is likely mounted elsewhere in the cluster.
+ Given the above, don't be alarmed if `/var/www/vhosts` or `/var/lib/mysql` looks to be "missing" from one of your nodes, it is probably mounted elsewhere in the cluster.
 
  ## Viewing DRBD replication status
 
  To confirm that DRBD is synchronized, or that the node you're logged into is "secondary", you can run `cat /proc/drbd`:
 
- ```
+ ```bash
  [root@acme-webdb-01 ~]# cat /proc/drbd
  version: 8.4.9-1 (api:1/proto:86-101)
  GIT-hash: 9976da086367a2476503ef7f6b13d4567327a280 build by akemi@Build64R7, 2016-12-04 01:08:48
