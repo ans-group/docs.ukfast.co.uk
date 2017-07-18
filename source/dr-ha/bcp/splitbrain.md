@@ -6,7 +6,7 @@ This is usually indicative of a network failure, or a problem with replication.
 
 ```eval_rst
 .. warning::
-   **If you encounter a split brain, please contact support. for further assistance.**
+   **If you encounter a split brain, please contact support for further assistance.**
 ```
 
 ## Resolution
