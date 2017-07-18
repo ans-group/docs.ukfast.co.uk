@@ -24,7 +24,7 @@ When performing commands on clustered services, it is usually best to run them o
 
 To view the current clustered services, their status, and the node they're running on, use the `pcs status` command:
 
-```
+```bash
 [root@acme-webdb-01 ~]# pcs status
 Cluster name: acme-webdb
 Stack: corosync
@@ -78,7 +78,7 @@ If you think that the output from `pcs status` is inaccurate, you can run `pcs r
 
 To stop a clustered service, you should issue the following command swapping `g_mysql` for the group you want to stop):
 
-```
+```bash
 [root@acme-webdb-01 ~]# pcs resource disable g_mysql
 ```
 
@@ -95,13 +95,13 @@ This will shut down the service on it's active node, and instruct the passive no
 
 To start a service which you've disabled in the cluster, run the following (swapping `g_mysql` for the group you want to start):
 
-```
+```bash
 [root@acme-webdb-01 ~]# pcs resource enable g_mysql
 ```
 
 This will update the PCS configuration to mark the resource enabled, and it might take a few seconds before the cluster actually starts the group up. You can monitor the output of `pcs status` to see it start up with the following:
 
-```
+```bash
 [root@acme-webdb-01 ~]# watch -n1 "pcs status"
 ```
 
@@ -111,7 +111,7 @@ Press `CTRL + C` to exit this watch screen.
 
 To restart a cluster service, run the following command (swapping `g_mysql` for the group you want to restart):
 
-```
+```bash
 [root@acme-webdb-01 ~]# pcs resource restart g_mysql
 ```
 
@@ -131,17 +131,17 @@ As such, you should perform the following steps:
 
 1. Issue a `pcs resource move` command to add the `ban` constraint:
 
-    ```
+    ```bash
     [root@acme-webdb-01 ~]# pcs resource move g_mysql
     ```
 2. Watch the output of `pcs status` until you've confirmed the group has fully moved over:
 
-    ```
+    ```bash
     [root@acme-webdb-01 ~]# watch -n1 "pcs status"
     ```
 3. Issue a `pcs resource clear` command to remove the `ban` constraint:
 
-    ```
+    ```bash
     [root@acme-webdb-01 ~]# pcs resource clear g_mysql
     ```
 
@@ -151,7 +151,7 @@ This will not move the resource group back over unless a `prefers` or `colocatio
 
 You can temporarily disable a node in the cluster by running the following command **on the node that you want to disable**:
 
-```
+```bash
 [root@acme-webdb-01 ~]# pcs cluster standby
 ```
 
@@ -168,7 +168,7 @@ This will move any resources running on the node off to other members, essential
 
 To put a node back into service after `pcs cluster standby` has been performed on it, run the following **on the node you want to enable**:
 
-```
+```bash
 [root@acme-webdb-01 ~]# pcs cluster unstandby
 ```
 
@@ -182,7 +182,7 @@ Constraints are used to define 'rules' which define where resources are started 
 
 You can view the current constraints configured on the cluster with the following:
 
-```
+```bash
 [root@acme-webdb-01 ~]# pcs constraint show --full
 Location Constraints:
   Resource: acme-webdb-01-stonith

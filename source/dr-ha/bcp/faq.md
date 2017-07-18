@@ -28,7 +28,7 @@ If you have a solution to which more than one of the above is true, you should u
 
 ***
 
-### I can't see `/var/www/vhosts` or `/var/lib/mysql` on one of the nodes?
+### I can't see *"/var/www/vhosts"* or *"/var/lib/mysql"* on one of the nodes?
 
 For volumes using DRBD to replicate between nodes, the mount point will only appear on the active node.
 
@@ -36,7 +36,7 @@ For volumes using DRBD to replicate between nodes, the mount point will only app
 
 ***
 
-### Running `service <servicename> restart` isn't working?
+### Running *"service servicename restart"* isn't working?
 
 Clustered services do not always use the `systemd` script shipped with the package to start up. In the case of an `ocf:heartbeat:apache` resource (for example), the `httpd` service is started by a direct call to the binary rather than through a service startup.
 

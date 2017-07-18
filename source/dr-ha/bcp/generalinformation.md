@@ -1,10 +1,10 @@
 # Introduction to BCP
 
-Our Business Continuity Platform (also known as "BCP" or "clusters") are a highly-available configuration of RedHat or CentOS servers making use of several technologies to allow for failover in the event of an issue on one node node, along with the balancing of services across more than one server.
+Our Business Continuity Platform (also known as "BCP" or "clusters") are a highly-available configuration of RedHat or CentOS servers making use of several technologies to allow for failover in the event of an issue on one node, along with the balancing of services across more than one server.
 
 Depending on your requirements, you might be working with a different number of servers operating in BCP using different methods of replication in slightly different configurations, so please bare that in mind when using this documentation.
 
-This service can be deployed on physical hardware, or within our eCloud Hybrid / Private platforms - while many of the principles are similar, there are some differences between the two.
+This service can be deployed on physical hardware, or within our eCloud Hybrid / Private platforms - while many of the principles are similar, there are some differences between the two. The main difference is the use of SAN storage in place of DRBD.
 
 ## Two node (active / passive) clusters
 
@@ -30,7 +30,7 @@ When connecting to MySQL from your application hosted on the webserver, you shou
 
 ### Replication of data
 
-There are two methods employed on two node clusters to replicate data between physical servers: DRBD and Unison. For clusters running under eCloud Unison is still used in the same way, but SAN storage is used in place of DRBD.
+There are two methods employed on two node clusters to replicate data between physical servers: DRBD and Unison. For clusters running under eCloud, Unison is still used in the same way, but SAN storage is used in place of DRBD.
 
 #### Distributed Replicated Block Device (DRBD)
 
@@ -38,9 +38,9 @@ Two DRBD volumes are created (`/dev/drbd0` and `/dev/drbd1`), one for website fi
 
 DRBD works by replicating the two local storage volumes on each server at block level over the 10GBPS connection in real-time. So, as you write to blocks on the active cluster node, these block level changes will be synchronized immediately with the passive node.
 
-As DRBD is an active / passive protocol, you will only be able to access the DRBD device on the active node in the cluster, so don't be alarmed if `/var/www/vhosts` or `/var/lib/mysql` is "missing" from the passive node.
+As DRBD is active / passive, you will only be able to access the DRBD device on the active node in the cluster, so don't be alarmed if `/var/www/vhosts` or `/var/lib/mysql` is "missing" from the passive node.
 
-Anecdotally, you can consider DRBD as operating in a similar way to RAID1, except that it synchronizes disks in different servers over the network; however it does have some major differences to RAID1, so be careful when considering this as a comparison.
+Anecdotally, you can consider DRBD as operating in a similar way to RAID1, except that it synchronizes disks in different servers over the network. That being said, there are differences between RAID1 and DRBD, so it's only comparable on a basic level.
 
 **[Continue reading about DRBD on BCP »](drbd.html)**
 
@@ -55,7 +55,7 @@ Anecdotally, you can consider DRBD as operating in a similar way to RAID1, excep
 
 #### Unison
 
-A package called [Unison](https://www.cis.upenn.edu/~bcpierce/unison/) is used to synchronize configuration between both nodes on a schedule. This runs as a [cron job](/operatingsystems/linux/basics/cron.html) on both nodes every 5 minutes, and by default will be set to copy your webserver configuration, database server configuration, SSL certificates, and system users and passwords between the two nodes.
+A package called [Unison](https://www.cis.upenn.edu/~bcpierce/unison/) is used to synchronize configuration between both nodes on a schedule. This runs as a [cron job](/operatingsystems/linux/basics/cron.html) on both nodes every minute. By default it will be set to copy your webserver configuration, database server configuration, SSL certificates, and system users and passwords between the two nodes.
 
 If you're adding configuration files outside of the standard package locations, you will likely need to modify the Unison settings to add in the new paths.
 
@@ -90,7 +90,7 @@ Normally this would also be racked over two switches, with the `-01` server of e
 
 Much like in a two node cluster, you will receive a VIP for MySQL, which will follow the MySQL service when it changes nodes. This will have an internal and external address - the internal one should be used in the application hosted on the web servers, and the external used for connecting remotely via MySQL workbench or similar.
 
-Unlike the two node clusters, load balancers are used in place of a web VIP. As such, you'll receive a VIP for the load balancer which is configured as requested to split load between the web servers, this is the address you should use in your [DNS records](/Domains/safedns/index.html) when going live.
+Unlike the two node clusters, [load balancers](/network/loadbalancing/index.html) are used in place of a web VIP. As such, you'll receive a VIP for the load balancer which is configured as requested to split load between the web servers, this is the address you should use in your [DNS records](/Domains/safedns/index.html) when going live.
 
 ### Replication of data
 
@@ -98,4 +98,7 @@ Replication in this example of a four node BCP solution uses much of the same te
 
 However, the web servers mount `/var/www/vhosts` via NFS from the export on the DBNFS cluster, meaning it can be read and written to from both web servers.
 
-This depends on your workflow - some clients opt to not have the NFS element, and push their code out to each web server individually using `git` and their chosen deployment tool. Alternatively, some clients use NFS for assets only (for example, the `media` directory of Magento), and deploy the rest of their code directly to the web servers.
+On four (or more) node solutions, there is more flexibility about how files are replicated. Some clients opt to not have the NFS element mentioned above, and push their code out to each web server individually using `git` and their chosen deployment tool. Alternatively, some clients use NFS for assets only (for example, the `media` directory of Magento), and deploy the rest of their code directly to the web servers.
+
+- **[Information about DRBD on BCP »](drbd.html)**
+- **[Information about Unison on BCP »](unison.html)**
