@@ -26,5 +26,6 @@ Contents
   drbd
   unison
   fencing
+  software
   splitbrain
   faq
