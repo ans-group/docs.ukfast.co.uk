@@ -10,7 +10,8 @@ If you have configured Custom there are two cases where you might get a MISS, th
 
 For example if the `Vary: Accept-Encoding` header is sent in the response, this tells the CDN that compressed and none compressed content should be cached independantly. If we ignore this header this could leave to compressed content being cached and delivered cache to clients that haven't sent Accept-Encoding in the request headers to get back compressed content.
 
-Please make sure that the Content-Type matches the mime-types that have been selected in [DDoSX](https://my.ukfast.co.uk/ddosx/). You can do this using curl and request the content with a HEAD request:
-curl -I example.org/image.png
+Please make sure that the Content-Type matches the mime-types that have been selected in [DDoSX](https://my.ukfast.co.uk/ddosx/). You can do this using curl and request the content with a `HEAD` request:
 
-and confirm the Content-Type header that is returned matches the mime type that has been configured.
+`curl -I example.org/image.png`
+
+and confirm the `Content-Type` header that is returned matches the mime type that has been configured.
