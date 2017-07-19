@@ -7,6 +7,9 @@ To ensure your content is cached:
 * The type of request must be a GET or HEAD request
 * The http response must be 200, 301 or 206 if you are setting how long content is cached by the CDN, otherwise we will respect the Cache-Control header.
 
+### Respect Origin Cache Control headers
+Essentially the CDN determines what should be cached based on backend Cache-Control headers.
+
 There are also a number of reasons why content will not cached:
 
 * There is a nocache cookie (Cache-Control: no-cache=Set-Cookie)
@@ -15,6 +18,17 @@ There are also a number of reasons why content will not cached:
 * A nocache argument has been added to the request. (For example example.org/?nocache=true)
 * The Authorization http header is present in the request
 * The purge http header is present. This is not a standard header and is more likely to be used if you want to force the CDN server to fetch from the origin server (purge: something)
+* If respect Origin Cache Control headers is configured, but not Cache-Control header is seen in the response, this will not be cached. 
+* Special Vary: * header has been configured in the backend response headers.
+
+### Custom
+This allows for the client to ignore response headers that relate to caching:
+
+* Cache-Control 
+* Expires 
+* X-Accel-Expires
+
+If there is a set-cookie in the header we won't cache this even if Custom has been configured in https://my.ukfast.co.uk/ddosx
 
 ## Special Cases
 
