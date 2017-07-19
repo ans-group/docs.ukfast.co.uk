@@ -28,6 +28,8 @@ This allows for the client to ignore response headers that relate to caching:
 * Expires 
 * X-Accel-Expires
 
+So you will see the header still in the response header, but the CDN will be setting it's own length to the cache content to what has been set in [ddos](https://my.ukfast.co.uk/ddosx)
+
 If there is a set-cookie in the header we won't cache this even if Custom has been configured in https://my.ukfast.co.uk/ddosx
 
 ## Special Cases
