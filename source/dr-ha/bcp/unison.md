@@ -6,7 +6,7 @@ In order to keep configuration files and credentials synchronized between all no
 
 We release clusters with a basic configuration that will keep the configuration files for your chosen webserver and database server in sync between the nodes. If you store your configuration files somewhere non-standard, or would like to have more files synchronized and available on both nodes at the same time (eg: `/etc/sysconfig/memcached` to ensure memcached is configured the same way on all nodes), you will need to modify the Unison settings.
 
-To configure Unison, edit the `/root/.unison/default.prf` file with your favorite text editor (to avoid arguments, `vim` is the correct answer to that question).
+To configure Unison, edit the `/root/.unison/default.prf` file with your favorite text editor *(to avoid arguments, `vim` is the correct answer to that question)*.
 
 ```eval_rst
 .. note::
@@ -34,7 +34,7 @@ ignore = Name access.log*
 ignore = Name error.log*
 ```
 
-To add more files into Unison, add another `path = ` line to the file, using a full path to the file omitting the leading `/` from the path.
+To add more files into Unison, add another `path =` line to the file, using a full path to the file omitting the leading `/`.
 
 Directories are denoted by the trailing `/` at the end of the path, and will be recursively copied.
 
@@ -57,12 +57,12 @@ If that cron is not configured, Unison replication will not work.
 
 You can force Unison to perform a sync by running the following command:
 
-```
+```bash
 [root@acme-webdb-01 ~]# /usr/bin/file_sync.sh
 ```
 
 However, as this doesn't provide a verbose output, you can use the following to see what Unison is doing:
 
-```
+```bash
 [root@acme-webdb-01 ~]# /usr/bin/unison -sshargs "-p 2020"
 ```
