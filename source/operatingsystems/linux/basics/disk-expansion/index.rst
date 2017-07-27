@@ -1,0 +1,29 @@
+=========================
+Disk expansion (eCloud)
+=========================
+
+This documentation covers the process of expanding the size of your disks on our eCloud Public, Hybrid, and Private platforms.
+
+From MyUKFast, you will be presented with options to alter your allocation of storage to a VM:
+
+.. toctree::
+   :maxdepth: 1
+
+   add-disk
+   resize-additional-disk
+   resize-primary-disk
+
+As most clients have a simple large :code:`/` partition, the recommended option is to [add a new disk](add-disk.html) to the server and perform a :code:`lvextend` on the :code:`/` volume to make it larger. This is the easiest to perform and doesn't require the creation of new partitions.
+
+If you would like to add custom partitions to your server (to separate `/` and `/home` onto different volumes, for example), you can use the "add a new disk" method and then configure a new Volume Group, Logical Volume, and mount point. **This should only be performed by advanced users.**
+
+Resizing disks should be done with care, and unless absolutely required should not be performed on the primary (first) disk.
+
+.. warning::
+   **For users without UKFast CommVault backups:**
+
+   Before resizing any disk or performing any changes to the logical volume configuration on the server, please ensure that you have taken a backup of your data.
+
+
+.. toctree::
+   :maxdepth: 1
