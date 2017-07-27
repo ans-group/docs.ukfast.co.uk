@@ -8,4 +8,4 @@ Within MyUKFast you can manage your eCloud Hybrid and Private resource, includin
    :maxdepth: 1
 
    CloningAndTemplatingVMs
-   /operatingsystems/linux/disk-expansion/index
+   /operatingsystems/linux/basics/disk-expansion/index
