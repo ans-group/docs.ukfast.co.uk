@@ -4,7 +4,7 @@ When increasing the amount of disk space assigned to an eCloud virtual machine (
 
 ```eval_rst
 .. note::
-This guide is for Linux-based VMs.  If you are running Windows Server based VMs please see :doc:`/operatingsystems/windows/windowsadministration/diskmanagement.html#extending-a-partition`
+This guide is for Linux-based VMs.  If you are running Windows Server based VMs please see :doc:`/operatingsystems/windows/windowsadministration/diskmanagement.html`
 ```
 
 ```eval_rst
