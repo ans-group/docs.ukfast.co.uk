@@ -19,7 +19,7 @@ Disk identifier: 0x00001caf
 [root@ssh ~]#
 ```
 
-Where `sda1` is `/boot`, and `sda2` is the first physical volume in the eCloud Volume Group.
+Where `sda1` is `/boot`, and `sda2` is the first physical volume in the eCloud Volume Group (VG).
 
 ```eval_rst
 .. warning::
