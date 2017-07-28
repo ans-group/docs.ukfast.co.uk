@@ -19,7 +19,7 @@ On Windows servers, the default is to change the size of the underlying virtual 
 
 ## Identify the type of extension that was performed
 
-As such, we must first identify which form of disk expansion has been applied to your VM.
+As such, we must first identify which form of disk expansion has been applied to your virtual machine (VM).
 
 Firstly we need to rescan the SCISI hosts:
 
@@ -131,7 +131,7 @@ We've identified that one of the disks has been resized - `sdb` in this case.
 
 ## Resize the physical volume to use the new space
 
-While the OS can see the additional space, we've still got to make this usable.
+While the operating system (OS) can see the additional space, we've still got to make this usable.
 
 First, you'll need to get LVM to recognize that the PV has changed size:
 
