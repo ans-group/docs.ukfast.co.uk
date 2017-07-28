@@ -1,13 +1,13 @@
 # Resize an additional disk *(intermediate)*
 
-This documentation covers the process for getting Linux to recognize that one of the non-primary disks (not `/dev/sda`) has changed size, and to make that new space available for use.
+This guide covers the process for getting Linux to recognize that one of the non-primary disks (not `/dev/sda`) has changed size, and to make that new space available for use.
 
 ```eval_rst
 .. note::
    This article is for intermediate-level Linux administrators. If you're not comfortable with Linux and want to increase the amount of disk space assigned, the `add a new disk <add-disk.html>`_ method might be better for you.
 ```
 
-Once you've resized one of the disks in MyUKFast on a VM, we can proceed to check which underlying volume this has altered. In most cased the mapping is similar to `Disk 1` in MyUKFast matching with `sda`, and so on.
+Once you've resized one of the disks in MyUKFast on a virtual machine (VM), we can proceed to check which underlying volume this has altered. In most cases the mapping is similar to `Disk 1` in MyUKFast matching with `sda`, and so on.
 
 ## Rescan the SCSI hosts
 
@@ -64,13 +64,13 @@ I/O size (minimum/optimal): 512 bytes / 512 bytes
 [root@ssh ~]#
 ```
 
-Here we can see that there is a 5G difference on `/dev/sdb`, which is the disk we expanded via MyUKFast.
+Here we can see that there is a 5G difference on `/dev/sdb`, which is the disk we expanded in MyUKFast.
 
 ## Resize the physical volume to use the new space
 
-While the OS can see the additional space, we've still got to make this usable.
+While the operating system (OS) can see the additional space, we've still got to make this usable.
 
-First, you'll need to get LVM to recognize that the PV has changed size:
+First, you'll need to get LVM to recognize that the physical volume (PV) has changed size:
 
 ```bash
 [root@ssh ~]# pvresize /dev/sdb
@@ -111,7 +111,7 @@ In this instance, we'll be doing the most common extension of `/`. Note the path
 [root@ssh ~]#
 ```
 
-Confirm that this has resized the LV as expected:
+Confirm that this has resized the logical volume (LV) as expected:
 
 ```bash
 root@ssh ~]# lvs
