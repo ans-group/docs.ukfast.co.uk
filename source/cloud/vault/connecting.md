@@ -1,3 +1,7 @@
+.. meta::
+   :title: UKFast Documentation | eCloud Vault | Connecting to eCloud Vault
+   :description: Detailed information on ways to connect to UKFast's eCloud Vault 
+
 # Connecting to eCloud Vault
 
 There are 2 primary means of interacting with eCloud Vault.
