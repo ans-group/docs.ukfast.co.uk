@@ -3,6 +3,11 @@
 When increasing the amount of disk space assigned to an eCloud virtual machine (VM), the simplest method is to add a new disk to the VM via [MyUKFast](https://my.ukfast.co.uk), and then add that disk into the Volume Group and Logical Volume for the `/` partition.
 
 ```eval_rst
+.. note::
+This guide is for Linux-based VMs.  If you are running Windows Server based VMs please see :doc:`/operatingsystems/windows/windowsadministration/diskmanagement.html#extending-a-partition`
+```
+
+```eval_rst
 .. warning::
    Please be aware that this article uses specific examples, such as :code:`sdc` or :code:`/dev/mapper/eCloud-root`.
 
