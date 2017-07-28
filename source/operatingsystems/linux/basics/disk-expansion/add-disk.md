@@ -1,6 +1,6 @@
-# Add a new disk to the server *(recommended)*
+# Add a new disk to the server *(recommended approach)*
 
-When increasing the amount of disk space assigned to an eCloud VM, the simplest method is to add a new disk to the VM via MyUKFast, and then add that disk into the Volume Group and Logical Volume for the `/` partition.
+When increasing the amount of disk space assigned to an eCloud virtual machine (VM), the simplest method is to add a new disk to the VM via [MyUKFast](https://my.ukfast.co.uk), and then add that disk into the Volume Group and Logical Volume for the `/` partition.
 
 ```eval_rst
 .. warning::
@@ -11,6 +11,8 @@ When increasing the amount of disk space assigned to an eCloud VM, the simplest 
    Performing this incorrectly may make irreversible changes to your filesystem or cause data loss, so please proceed with care and caution.
 
    Once an extension has been started, it cannot be reverted.
+   
+   If you're unsure of anything or need some help, please contact UKFast Support, by raising a ticket in MyUKFast or calling 0800 230 0032.
 ```
 
 ## Identifying new disk
@@ -48,7 +50,7 @@ Above shows that `/dev/sda2` and `/dev/sdb` are currently configured as physical
 
 ## Create a physical volume from the new disk
 
-We need to create a new physical volume for the new device (`sdc`) so that we can use it in LVM:
+We need to create a new physical volume (PV) for the new device (`sdc`) so that we can use it in LVM:
 
 ```bash
 [root@ssh ~]# pvcreate /dev/sdc
@@ -77,7 +79,7 @@ So that we can assign the new disk space to the logical volume, we need to first
 [root@ssh ~]#
 ```
 
-Then confirm that the VG shows the right total size:
+Then confirm that the volume group (VG) shows the right total size:
 
 ```bash
 [root@ssh ~]# vgs
@@ -86,7 +88,7 @@ Then confirm that the VG shows the right total size:
 [root@ssh ~]#
 ```
 
-We need to grow the LV over the new free space - for most people this will be the `/` partition, but if you have more than one partition, take care to ensure you're resizing the right one:
+We need to grow the logical volume (LV) over the new free space - for most people this will be the `/` partition, but if you have more than one partition, take care to ensure you're resizing the right one:
 
 ```bash
 [root@ssh ~]# lvs
