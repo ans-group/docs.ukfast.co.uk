@@ -23,3 +23,5 @@ Basics
    services_centos7
    repositories
    whois
+   lvm-extend
+   disk-expansion/index
