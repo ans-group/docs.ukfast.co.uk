@@ -1,3 +1,8 @@
+```eval_rst
+.. meta::
+   :title: UKFast Documentation | eCloud Vault | Basic s3website API usage
+   :description: Information on how you can host a static website on eCloud vault using the S3website interface
+```
 # Basic s3website API usage
 
 ```eval_rst
@@ -7,9 +12,9 @@
   If you're not using this method of authentication, you may need to specify additional flags/options in the commands used in this article.
 ```
 
-You can host a static website on Valut using the S3website interface.
+You can host a static website on eCloud vault using the S3website interface.
 
-## Hosting a Static Website on Ecloud Vault
+## Hosting a Static Website on eCloud Vault
 
 Start by creating a bucket using the domain name you wish to use such as:
 
