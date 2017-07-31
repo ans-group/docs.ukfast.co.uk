@@ -1,4 +1,5 @@
 ```eval_rst
+.. title: UKFast Documentation | eCloud Vault | Connecting to eCloud Vault
 .. meta::
    :title: UKFast Documentation | eCloud Vault | Connecting to eCloud Vault
    :description: Detailed information on ways to connect to UKFast's eCloud Vault
