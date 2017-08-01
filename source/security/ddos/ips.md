@@ -5,7 +5,7 @@
 
 # IP Ranges
 
-For some applications you may want to know the IP Ranges that are used on the DDoSX<sup>®</sup> platform (e.g. such as set_real_ip feature of nginx.)
+For some applications you may want to know the IP Ranges that are used on the DDoSX<sup>®</sup> platform (e.g. such as for defining a trusted list of IPs to accept X-Forwarded-For header from.)
 
 ## IPv4: 
 ### Unicast Range:
