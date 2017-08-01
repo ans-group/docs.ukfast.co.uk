@@ -24,13 +24,13 @@ If your eCloud Flex account does not currently have IPv6, you can enable it by f
 
 5. In the window that opens (shown below), select 'Allocate Network Address from a pool' in the Network Address Source drop-down menu.  Then select 'default-pool-ipv6' under the Address pool drop-down menu.  Click `Next`
 
-![subnet](files/subnet.PNG)
+    ![subnet](files/subnet.PNG)
 
 6. On the next tab you customise any settings (such as using SLAAC which is available in the IPv6 Address Configuration Mode drop-down menu), but by default you'll be given DHCPv6.  Click `Create`
 
 7. Once created, you will be given a public IPv6 /64 prefix, which will appear in your Networks list, as shown below.  
 
-![newsubnet](files/newsubnet.PNG)
+    ![newsubnet](files/newsubnet.PNG)
 
 8. You should now add this subnet to your router.  Click `Routers`, also under the Networks tab.
 
@@ -38,19 +38,17 @@ If your eCloud Flex account does not currently have IPv6, you can enable it by f
 
 10. Click the `Interfaces` tab and then `+Add Interface`, which will open the window shown below.
 
-
 11. In the Subnet drop-down menu, select the IPv6 subnet you just created.  Click `Submit`
 
-
-![interface](files/interface.PNG)
+    ![interface](files/interface.PNG)
 
 You will now see an IPv6 address is allocated to your router's interface, as shown below - this should now respond to ICMP if you have an existing IPv6 network to test it from.
 
-![newinterface](files/newinterface.PNG)
+    ![newinterface](files/newinterface.PNG)
 
 ## Modifying security groups for IPv6
 
-Before you deploy your first eCloud Flex instance you should modify your security groups - as most address assignment in IPv6 is done using ICMP, you will need to ensure ICMP is permited for IPv6.  To do this:
+Before you deploy your first eCloud Flex instance you should modify your security groups - as most address assignment in IPv6 is done using ICMP, you will need to ensure ICMP is permitted for IPv6.  To do this:
 
 1. Click `Security Groups`, still within the Networks tab
 2. Click `Manage Rules` of the security group you want to edit
@@ -59,7 +57,7 @@ Before you deploy your first eCloud Flex instance you should modify your securit
 5. Set the CIDR using IPv6 format e.g '::/0' is the same as IPv4's '0.0.0.0/0'
 6. You may want to do the above for both ingress and egress traffic.
 
-![rule](files/rule.PNG)
+    ![rule](files/rule.PNG)
 
 Now you are ready to go - deploy a new eCloud Flex instance and it will be given an IPv6 address.  Don't forget you may need to update security rules to also allow IPv6.
 
