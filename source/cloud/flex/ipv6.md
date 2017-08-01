@@ -44,7 +44,7 @@ If your eCloud Flex account does not currently have IPv6, you can enable it by f
 
 You will now see an IPv6 address is allocated to your router's interface, as shown below - this should now respond to ICMP if you have an existing IPv6 network to test it from.
 
-    ![newinterface](files/newinterface.PNG)
+![newinterface](files/newinterface.PNG)
 
 ## Modifying security groups for IPv6
 
