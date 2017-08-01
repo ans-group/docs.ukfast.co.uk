@@ -17,10 +17,16 @@ for f in $file_names; do
       fail=1
     fi
     title_size=$(grep '  :title:' $f | cut -d ':' -f3|wc -m)
+    if [[ "$title_size" == "1" ]]; then
+      echo "$f : Meta title not specified"
+    fi
     if [[ "$title_size" -gt "66" ]]; then
       echo "$f : Meta title is longer than 65 chars"
     fi
     descr_size=$(grep '  :description:' $f | cut -d ':' -f3|wc -m)
+    if [[ "$descr_size" == "1" ]]; then
+      echo "$f : Meta description not specified"
+    fi
     if [[ "$descr_size" -gt "166" ]]; then
       echo "$f : Meta description is longer than 165 chars"
     fi
