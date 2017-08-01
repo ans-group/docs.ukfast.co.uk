@@ -2,6 +2,7 @@
 .. meta::
    :title: IP ranges on DDoSX\ :sup:`®` | UKFast Documentation 
    :description: A list of IPv4 and IPv6 ranges used by the DDoSX\ :sup:`®` network
+```
 
 # IP Ranges
 
