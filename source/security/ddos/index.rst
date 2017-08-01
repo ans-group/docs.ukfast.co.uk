@@ -1,3 +1,7 @@
+.. meta::
+   :title: Help with DDoSX\ :sup:`®` | UKFast Documentation
+   :description: How to use UKFast's global DDoS protection service
+
 ===============
 DDoSX\ :sup:`®`
 ===============
@@ -11,3 +15,4 @@ DDoSX\ :sup:`®` is designed to protect your websites and applications from Deni
    gettingstarted
    remove
    troubleshooting
+   ips
