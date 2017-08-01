@@ -1,3 +1,7 @@
+```eval_rst
+.. meta::
+   :title: IP ranges on DDoSX\ :sup:`®` | UKFast Documentation 
+   :description: A list of IPv4 and IPv6 ranges used by the DDoSX\ :sup:`®` network
 # IP Ranges
 
 For some applications you may want to know the IP Ranges that are used on the DDoSX<sup>®</sup> platform (e.g. such as set_real_ip feature of nginx.)
