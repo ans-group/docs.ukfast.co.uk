@@ -11,4 +11,4 @@ Guides for your first footsteps into the world of FASTdesk, covering installatio
    navigatingthestartmenu
    navigation
 
-.. youtube:: OQYJQrvzYZE
+.. youtube:: http://www.youtube.com/watch?v=OQYJQrvzYZE
