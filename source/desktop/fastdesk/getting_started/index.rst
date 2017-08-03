@@ -10,3 +10,5 @@ Guides for your first footsteps into the world of FASTdesk, covering installatio
    install_citrix_receiver
    navigatingthestartmenu
    navigation
+
+.. youtube:: http://www.youtube.com/watch?v=OQYJQrvzYZE
