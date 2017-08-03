@@ -9,6 +9,7 @@ before_install:
 install:
 - pip install Sphinx
 - pip install recommonmark
+- pip install sphinxcontrib.youtube
 script:
 - ./tests.sh
 - sphinx-build -nW -b html -d build/doctrees source/ build/html
