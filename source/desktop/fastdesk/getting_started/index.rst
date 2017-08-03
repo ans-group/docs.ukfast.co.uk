@@ -17,4 +17,4 @@ Guides for your first footsteps into the world of FASTdesk, covering installatio
 
 For a quick view of how to install Citrix Receiver and start using FASTdesk, take a look at this video.
 
-.. youtube:: https://www.youtube.com/embed/OQYJQrvzYZE?rel=0&amp;showinfo=0
+.. youtube:: http://www.youtube.com/watch?v=OQYJQrvzYZE
