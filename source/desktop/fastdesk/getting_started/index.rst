@@ -6,7 +6,7 @@
 Getting Started
 ===============
 
-Guides for your first footsteps into the world of FASTdesk, covering installation, configuration and more.
+Information and guidance for FASTdesk, covering installation, configuration and more.
 
 .. toctree::
    :maxdepth: 1
