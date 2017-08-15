@@ -1,3 +1,9 @@
+```eval_rst
+.. meta::
+   :title: SafeDNS API | UKFast Documentation
+   :description: Guidance on using the SafeDNS API from UKFast to manage DNS records
+```
+
 # SafeDNS API
 
 The SafeDNS API allows you to manage and maintain your DNS records via a HTTPS
