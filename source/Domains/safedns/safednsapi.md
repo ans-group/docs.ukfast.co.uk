@@ -1,9 +1,13 @@
+```eval_rst
+.. meta::
+   :title: SafeDNS API | UKFast Documentation
+   :description: Guidance on using the SafeDNS API from UKFast to manage DNS records
+```
+
 # SafeDNS API
 
 The SafeDNS API allows you to manage and maintain your DNS records via a HTTPS
 interface.  This article details the parameters, commands and error messages you'll need to understand to use the API.
-
-If you need help using the SafeDNS API, please contact UKFast support by raising a ticket in [MyUKFast](https://my.ukfast.co.uk/pss/add.php) or by calling 0800 230 0032.
 
 You can also use SafeDNS through [MyUKFast](https://my.ukfast.co.uk/safedns/index.php) if you don't want to use the API to manage your DNS records programmatically.
 
