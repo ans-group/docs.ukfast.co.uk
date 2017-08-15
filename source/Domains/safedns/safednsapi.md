@@ -479,5 +479,3 @@ This is a list of error messages you may encounter whilst using the SafeDNS API.
     <td class="tg-yw4l">Database error, please try again or contact support</td>
   </tr>
 </table>
-
-For help using the SafeDNS API, please contact UKFast support by raising a ticket in [MyUKFast](https://my.ukfast.co.uk/pss/add.php) or by calling 0800 230 0032.
