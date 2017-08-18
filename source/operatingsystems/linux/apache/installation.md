@@ -1,9 +1,15 @@
+```eval_rst
+.. meta::
+   :title: Installation and Configuration of Apache | UKFast Documentation
+   :description: Guidance to help you get up and running with Apache 
+```
+
 # Installation/Configuration of Apache
 
 
 ## Install Apache
 
-First things first, your server may not even have apache installed on it.
+First things first, your server may not even have Apache installed on it.
 
 Install the latest version with yum, like so:
 
