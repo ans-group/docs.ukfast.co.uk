@@ -116,6 +116,6 @@ Most sites now need more that just basic html, often using php to generate their
 
 The following documents carry on the setup for those particular elements:
 
-[PHP Installation](/linux/php/installation.html)
+[PHP Installation](../php/installation.html)
 
-[MySQL Installation](/linux/mysql/installation.html)
+[MySQL Installation](../mysql/installation.html)
