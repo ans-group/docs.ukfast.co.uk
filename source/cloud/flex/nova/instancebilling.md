@@ -37,11 +37,11 @@ The possible statuses of an eCloud Flex instance are listed below.  For a full e
 
 If you don't want to be billed for an instance, then make sure to either delete or shelve it - to do this go to the [Instances page in the eCloud Flex control panel](https://api.openstack.ecloud.co.uk/project/instances/), and click the Actions drop-down menu on the righthand side of the table.  Choose either Delete Instance or Shelve Instance.
 
-![flexshutdownmenu](files/flexshutdownmenu.png)
+![flexshutdownmenu](files/flexshutdownmenu.PNG)
 
 Once the action has completed, you can check the status of the instance in the table.
 
-![shelveimage](files/shelveimage.png)
+![shelveimage](files/shelveimage.PNG)
 
 There are many potential reasons to pause, suspend or shut off an instance, as long as you understand you are still being billed for it.
 
