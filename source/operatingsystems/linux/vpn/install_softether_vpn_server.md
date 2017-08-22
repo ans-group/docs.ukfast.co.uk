@@ -1,3 +1,9 @@
+```eval_rst
+.. meta::
+    :title: How to set up a Multi-Protocol VPN Server using SoftEther
+    :keywords: vpn, softether, linux, openstack, eCloud Flex
+```
+
 # How to set up a Multi-Protocol VPN Server using SoftEther
 ## Set up the VPN server
 ### Introduction
@@ -15,12 +21,12 @@ Personally I have only tried it on CentOS 7 64-bit edition, but it has worked pe
 Using the command below, update and upgrade your server software packages to the latest version:
 
 #### Debian / Ubuntu:
-```bash
+```
 apt-get update && apt-get upgrade
 ```
 
 #### CentOS / Fedora:
-```bash
+```
 yum upgrade
 ```
 
@@ -33,50 +39,55 @@ Unfortunately, there is no repository in place for getting the latest version of
 
 First, browse their website on your own computer and choose the appropriate Component, Platform and CPU, then find the link to the appropriate package. This will download the latest stable version (at the time of writing) for Linux x86_64:
 
-```bash
+```
 wget http://www.softether-download.com/files/softether/v4.20-9608-rtm-2016.04.17-tree/Linux/SoftEther_VPN_Server/64bit_-_Intel_x64_or_AMD64/softether-vpnserver-v4.20-9608-rtm-2016.04.17-linux-x64-64bit.tar.gz
 ```
 
 ### Step 4: Install and Configure SoftEther
 Now we have to extract the package we received from the SoftEther download page and compile it. The package used in this tutorial is named **softether-vpnserver-v4.20-9608-rtm-2016.04.17-linux-x64-64bit.tar.gz** so we will extract it using the command below:
 
-```bash
+```
 tar xzvf softether-vpnserver-v4.20-9608-rtm-2016.04.17-linux-x64-64bit.tar.gz
 ```
 
 After extracting it, a directory named **vpnserver** will be created in the working folder. In order to compile SoftEther, the following tools and packages must be installed on your server:
 
-> make, gccbinutils (gcc), libc (glibc), zlib, openssl, readline, and ncurses
+```
+make, gccbinutils (gcc), libc (glibc), zlib, openssl, readline, and ncurses
+```
 
 Make sure these are installed. You can install all the packages necessary to build SoftEther using the command below:
 
 #### Debian / Ubuntu:
-```bash
+```
 apt-get install build-essential -y
 ```
 
 #### CentOS / Fedora:
-```bash
+```
 yum groupinstall "Development Tools"
 ```
 
-> Note: On Fedora, I have found that the gcc package doesn't get installed using the command above so you have to install it manually using `yum install gcc`.
+```eval_rst
+.. note::
+    On Fedora, I have found that the gcc package doesn't get installed using the command above so you have to install it manually using `yum install gcc`.
+```
 
 Now that we have all the necessary packages installed, we can compile SoftEther using the following commands.
 
 First **cd** into vpnserver directory:
 
-```bash
+```
 cd vpnserver
 ```
 
 And now run **make** to compile SoftEther into an executable file:
 
-```bash
+```
 make
 ```
 
-![pic1]
+![pic1][]
 
 SoftEther will ask you to read and agree with its License Agreement. Select **1** to read the agreement, again to confirm read, and finally to agree to the License Agreement.
 
@@ -84,7 +95,7 @@ SoftEther is now compiled and made into executable files (vpnserver and vpncmd).
 
 Now that SoftEther is compiled we can move the **vpnserver** directory to someplace else, here we move it to **/usr/local**:
 
-```bash
+```
 cd ..
 mv vpnserver /usr/local
 cd /usr/local/vpnserver/
@@ -92,7 +103,7 @@ cd /usr/local/vpnserver/
 
 And then change the files permission in order to protect them:
 
-```bash
+```
 chmod 600 *
 chmod 700 vpnserver
 chmod 700 vpncmd
@@ -100,78 +111,80 @@ chmod 700 vpncmd
 
 If you like SoftEther to start as a service on startup create a file named **vpnserver** in **/etc/init.d** directory a follows.
 
-First create and open the file using vi:	
+First create and open the file using vi:
 
-```bash
+```
 vi /etc/init.d/vpnserver
 ```
 
 And paste the following into the file:
 
-```bash
-#!/bin/sh
-# chkconfig: 2345 99 01
-# description: SoftEther VPN Server
-DAEMON=/usr/local/vpnserver/vpnserver
-LOCK=/var/lock/subsys/vpnserver
-test -x $DAEMON || exit 0
-case "$1" in
-    start)
-        $DAEMON start
-        touch $LOCK
-        ;;
-    stop)
-        $DAEMON stop
-        rm $LOCK
-        ;;
-    restart)
-        $DAEMON stop
-        sleep 3
-        $DAEMON start
-        ;;
-    *)
-        echo "Usage: $0 {start|stop|restart}"
-        exit 1
-esac
-exit 0
+``` code-block:: markdown
+    :linenos:
+    :name: Init script
+    #!/bin/sh
+    # chkconfig: 2345 99 01
+    # description: SoftEther VPN Server
+    DAEMON=/usr/local/vpnserver/vpnserver
+    LOCK=/var/lock/subsys/vpnserver
+    test -x $DAEMON || exit 0
+    case "$1" in
+        start)
+            $DAEMON start
+            touch $LOCK
+            ;;
+        stop)
+            $DAEMON stop
+            rm $LOCK
+            ;;
+        restart)
+            $DAEMON stop
+            sleep 3
+            $DAEMON start
+            ;;
+        *)
+            echo "Usage: $0 {start|stop|restart}"
+            exit 1
+    esac
+    exit 0
 ```
 
 Finally save and close the file by pressing **esc** and typing **:wq** to close vim.
 
 We have to make a directory at **/var/lock/subsys** if one does not exist:
 
-```bash
+```
 mkdir /var/lock/subsys
 ```
 
 Now change the permission for the startup script and start **vpnserver** using command below:
 
-```bash
+```
 chmod 755 /etc/init.d/vpnserver && /etc/init.d/vpnserver start
 ```
 
 Use the command below make it to run at startup:
 
 #### Debian / Ubuntu:
-```bash
+```
 update-rc.d vpnserver defaults
 ```
 
 #### CentOS / Fedora:
-```bash
-chkconfig --add vpnserver 
+```
+chkconfig --add vpnserver
 ```
 
 SoftEther VPN Server is now installed and configured to run at startup. Finally, we have to check if the VPN server is working:
 
-```bash
+```
 cd /usr/local/vpnserver
 ./vpncmd
 ```
 
 Now press **3** to choose **Use of VPN Tools** and then type:
 
-```bash
+```
 check
 ```
 
@@ -183,7 +196,7 @@ You can download SoftEther Server Manager for Windows using their website and do
 
 Here we will use **vpncmd** to configure our VPN server.
 
-###Step 5: Generate a Let’s Encrypt certificate
+### Step 5: Generate a Let’s Encrypt certificate
 
 Let’s Encrypt uses a package called **certbot** which you install on the VPN server, which automates the generation of the private key, the signing and downloading of the certificate. For that to work it requires that the server be accessible from the **Let’s Encrypt** service on specific ports, as shown:
 
@@ -195,17 +208,17 @@ Let’s Encrypt uses a package called **certbot** which you install on the VPN s
 | standalone | Y | N | Uses a “standalone” webserver to obtain a cert. Requires port 80 or 443 to be available. This is useful on systems with no webserver, or when direct integration with the local webserver is not supported or not desired. | http-01 (80) or tls-sni-01 (443) |
 | manual | Y | N | Helps you obtain a cert by giving you instructions to perform domain validation yourself. | http-01 (80) or dns-01 (53) |
 
-_Further reading: https://certbot.eff.org/docs/using.html_
+Further reading: <https://certbot.eff.org/docs/using.html>
 
 Install the certbot package from the EPEL repository as follows:
-```bash
+```
 yum install epel-release
 yum install certbot
 ```
 
-Here we’ll use the ‘standalone’ option to create a temporary web server listening on port 80. We specify the challenge type **http-01** as the SoftEther will be listening on port 443
+Here we’ll use the `standalone` option to create a temporary web server listening on port 80. We specify the challenge type **http-01** as the SoftEther will be listening on port 443
 
-```bash
+```
 certbot certonly --standalone-supported-challenges http-01 --standalone -d ##fqdn.which.points.to.your.server##
 ```
 
@@ -220,16 +233,16 @@ IMPORTANT NOTES:
    non-interactively renew *all* of your certificates, run "certbot
    renew"
  - If you like Certbot, please consider supporting our work by:
- 
+
    Donating to ISRG / Let's Encrypt:   https://letsencrypt.org/donate
    Donating to EFF:                    https://eff.org/donate-le
 ```
 
-Certbot will have generated a number of files now including the private key, certificate, full certificate chain, etc. and stored them in /etc/letsencrypt/live/##fqdn.which.points.to.your.server##
+Certbot will have generated a number of files now including the private key, certificate, full certificate chain, etc. and stored them in `/etc/letsencrypt/live/##fqdn.which.points.to.your.server##`
 
 We can now add the automatic renewal command into **cron** so that the certificate will be auto-renewed before it expires. You’ll need to do this yourself, but the command to renew the certificate is:
 
-```bash
+```
 certbot renew --quiet
 ```
 
@@ -237,7 +250,7 @@ certbot renew --quiet
 
 Now that you have SoftEther VPN server installed, you have to assign an administrator password in order to use with SoftEther. You can do this using **vpncmd** which is SoftEther's command line based administration tool:
 
-```bash
+```
 ./vpncmd
 ```
 
@@ -245,13 +258,13 @@ Press **1** to select **Management of VPN Server or VPN Bridge**, then press **E
 
 Then use command below to set the admin password:
 
-```bash
+```
 ServerPasswordSet
 ```
 
 Enter and then re-type your new password. You’ll need this whenever you want to change the server-wide options, like the IPSEC PSK
 
-###Step 7: Create A Virtual Hub
+### Step 7: Create A Virtual Hub
 
 To use SoftEther we must first create a Virtual Hub. Here as an example we create a hub named **VPN**, in order to do that enter command below in the **vpncmd** tool:
 
@@ -270,14 +283,14 @@ Hub VPN
 ### Step 8: Enable SecureNAT
 
 There are two ways of connecting your hubs to the server network:
-*using a **Local Bridge** connection
-*using the **SecureNAT** function.
+*  using a **Local Bridge** connection
+*  using the **SecureNAT** function.
 
 You can use each one separately, but using these two together will cause problems.
 
 Here we use **SecureNAT**, which is very easy to setup and works pretty well in most situations. You could also use Local Bridge mode, but then you have to install and configure a DHCP Server too.
 
-SecureNAT is a combination of Virtual NAT and DHCP Server function. By default, it will allocate the VPN clients from the subnet 192.168.30.0/24, although this can be configured.
+SecureNAT is a combination of Virtual NAT and DHCP Server function. By default, it will allocate the VPN clients from the subnet `192.168.30.0/24`, although this can be configured.
 
 You can enable SecureNAT using the command below:
 
@@ -301,17 +314,12 @@ UserCreate test
 ```
 
 The default type of authentication is **Password** but we can change it to a different type using commands below:
-> ```UserNTLMSet``` for NT Domain Authentication
-
-> ```UserPasswordSet``` for Password Authentication
-
-> ```UserAnonymousSet``` for Anonymous Authentication
-
-> ```UserRadiusSet``` for RADIUS Authentication
-
-> ```UserCertSet``` for Individual Certificate Authentication
-
-> ```UserSignedSet``` for Signed Certificate Authentication
+* ```UserNTLMSet``` for NT Domain Authentication
+* ```UserPasswordSet``` for Password Authentication
+* ```UserAnonymousSet``` for Anonymous Authentication
+* ```UserRadiusSet``` for RADIUS Authentication
+* ```UserCertSet``` for Individual Certificate Authentication
+* ```UserSignedSet``` for Signed Certificate Authentication
 
 In this tutorial we use Password as the user authentication mode for our **test** user, so using this command set a password for user test:
 ```
@@ -326,27 +334,29 @@ IPsecEnable
 ```
 
 After entering this command, you will be asked to configure the L2TP server functions:
-> **Enable L2TP over IPsec Server Function**: Choose yes to enable L2TP VPN over IPSec with pre-shared key encryption. Now you can make VPN connections to this server using iPhone, Android, Windows, and Mac OS X devices.
+*  **Enable L2TP over IPsec Server Function**: Choose yes to enable L2TP VPN over IPSec with pre-shared key encryption. Now you can make VPN connections to this server using iPhone, Android, Windows, and Mac OS X devices.
+*  **Enable Raw L2TP Server Function**: This will enable L2TP VPN for clients with no IPSec encryption.
+*  **Enable EtherIP / L2TPv3 over IPsec Server Function**: Routers which are compatible with EtherIP / L2TPv3 over IPsec can connect to this server by enabling this function.
+*  **Pre Shared Key for IPsec**: Enter a pre-shared key to use with L2TP VPN.
+*  **Default Virtual HUB in a case of omitting the HUB on the Username**: Users can specify the Virtual Hub they are trying to connect to by using **Username@TargetHubName** as their username when connecting. This option specifies which Virtual Hub to be used if the user does not provide such information. In our case enter **VPN**.
 
-> **Enable Raw L2TP Server Function**: This will enable L2TP VPN for clients with no IPSec encryption.
+### Step 11: Setup SSTP/OpenVPN
+The SoftEther can clone the functions of Microsoft SSTP VPN Server and OpenVPN Server. But before we enable these we have to import the SSL certificate and key from **Let’s Encrypt**.
 
-> **Enable EtherIP / L2TPv3 over IPsec Server Function**: Routers which are compatible with EtherIP / L2TPv3 over IPsec can connect to this server by enabling this function.
-
-> **Pre Shared Key for IPsec**: Enter a pre-shared key to use with L2TP VPN.
-
-> **Default Virtual HUB in a case of omitting the HUB on the Username**: Users can specify the Virtual Hub they are trying to connect to by using **Username@TargetHubName** as their username when connecting. This option specifies which Virtual Hub to be used if the user does not provide such information. In our case enter **VPN**.
-
-###Step 11: Setup SSTP/OpenVPN
-The SoftEther can clone the functions of Microsoft SSTP VPN Server and OpenVPN Server. But before we enable these we have to import the SSL certificate and key from **Let’s Encrypt**. 
-
-Here we use SoftEther's ServerCertSet command to point it to the SSL certificate and key for our server. Change the ##fqdn.which.points.to.your.server## to the FQDN which you provided to Let’s Encrypt’s certbot tool, which should be the same one which points to your VPN server. It’s imperative that it matches the one you will use long-term
+Here we use SoftEther's ServerCertSet command to point it to the SSL certificate and key for our server. Change the `##fqdn.which.points.to.your.server##` to the FQDN which you provided to Let’s Encrypt’s certbot tool, which should be the same one which points to your VPN server. It’s imperative that it matches the one you will use long-term
 ```
 ServerCertSet /LOADCERT:/etc/letsencrypt/live/##fqdn.which.points.to.your.server##/fullchain.pem /LOADKEY:/etc/letsencrypt/live/##fqdn.which.points.to.your.server##/privkey.pem
 ```
 
-> Note 1: SoftEther also comes with a built-in **Dynamic DNS** function, which can assign a unique and permanent hostname for your server. You can use the hostname assigned by this function for creating a SSL Certificate and connecting to your server.
+```eval_rst
+.. note::
+    SoftEther also comes with a built-in **Dynamic DNS** function, which can assign a unique and permanent hostname for your server. You can use the hostname assigned by this function for creating a SSL Certificate and connecting to your server.
+```
 
-> Note 2: If you already have a SSL certificate or you have created one using **openssl**, it can be added to the server using the command **ServerCertSet** as shown above, changing the paths to match where your files are.
+```eval_rst
+.. note::
+    If you already have a SSL certificate or you have created one using **openssl**, it can be added to the server using the command **ServerCertSet** as shown above, changing the paths to match where your files are.
+```
 
 Now that we have created and registered a SSL Certificate for our server, we can enable SSTP function with this command:
 ```
@@ -358,7 +368,7 @@ And to enable OpenVPN:
 OpenVpnEnable yes /PORTS:1194
 ```
 
-> Note: OpenVPN's default port is 1194, but you can change it to any port you want by changing the ```/PORTS:1194``` part of the command above to your desired port or ports (yes it supports multiple ports).
+* Note: OpenVPN's default port is 1194, but you can change it to any port you want by changing the ```/PORTS:1194``` part of the command above to your desired port or ports (yes it supports multiple ports).
 
 After you enabled OpenVPN, you can download a sample configuration file for OpenVPN client. Here we create a sample OpenVPN configuration file and save it to **my_openvpn_config.zip**:
 ```
@@ -371,9 +381,9 @@ SoftEther also provides a dedicated VPN Client software for both Windows and Lin
 
 Alternatively, and what we’ll do here, you can use the built-in VPN capabilities of Windows 7 or above.
 
-###Step 12: Set up IP Forwarding
+### Step 12: Set up IP Forwarding
 We have to query the sysctl kernel value ```net.ipv4.ip_forward``` to see if forwarding is enabled or not
-```bash
+```
 sysctl net.ipv4.ip_forward
 ```
 
@@ -388,86 +398,86 @@ net.ipv4.ip_forward = 1
 ```
 
 Apply the configuration with the following command
-```bash
+```
 sysctl -p
 ```
- 
+
 ## Set up the VPN connection in Windows 7
 ### Step 1: Open Network and Sharing Center
 Start by finding the network connections icon in the bottom right corner of the screen (near the clock). The icon can be in the shape of computer display or wireless signal meter. Right click on that icon.
 
-![pic2]
+![pic2][]
 
 Select **Open Network and Sharing Center**. You can also get there by going through ```Start button``` > ```Control Panel``` > ```View network status and tasks```.
 
-![pic3]
+![pic3][]
 
 ### Step 2: Set up a new connection or network
 Click **Set up a new connection or network**.
 
-![pic4]
+![pic4][]
 
 ### Step 3: Connect to a workplace
 In the appeared window select **Connect to a workplace**, click **Next**.
 
-![pic5]
+![pic5][]
 
 ### Step 4: Set as VPN
 Click **Use my Internet connection (VPN)**.
 
-![pic6]
+![pic6][]
 
 ### Step 5: Specify the VPN Server
-**Internet address** is your server’s FQDN which was used in _Step 5 of "Set up the VPN server"_. It is not ```openstackvpn.calv.tk```, that is just an example. **Destination name** can be anything you like, for example OpenStack VPN.
+**Internet address** is your server’s FQDN which was used in ***Step 5 of "Set up the VPN server"***. It is not ```openstackvpn.calv.tk```, that is just an example. **Destination name** can be anything you like, for example OpenStack VPN.
 
 Check **Don't connect now; just set it up so I can connect later** and click **Next**.
 
-![pic7]
+![pic7][]
 
 ### Step 6: Enter login credentials
-Fill the **User name** and **Password** fields. In the _Step 9 of "Set up the VPN server"_ we created the user **test**, so enter those details (or the ones you used instead). Check **Remember this password** and click **Create**.
+Fill the **User name** and **Password** fields. In the ***Step 9 of "Set up the VPN server"*** we created the user **test**, so enter those details (or the ones you used instead). Check **Remember this password** and click **Create**.
 
-![pic8]
+![pic8][]
 
 ### Step 7: Create the connection
 Click **Close**.
 
-![pic9]
+![pic9][]
 
 ### Step 8: Find the new connection
 Click **Change adapter settings**.
 
-![pic10]
+![pic10][]
 
 ### Step 9: Enter connection properties
 In the connections list find the **OpenStack VPN** connection, the description should be **WAN Miniport (IKEv2)**. Right click on it and select **Properties**.
 
-![pic11]
+![pic11][]
 
 ### Step 10: Set advanced options
 Click **Security** tab, for **Type of VPN** select **Secure Socket Tunneling Protocol (SSTP)**. For **Data encryption** select **Require encryption (disconnect if server declines)**. Click **Advanced settings**. For **Authentication** select **Unencrypted password (PAP)** and **Microsoft CHAP Version 2 (MS-CHAP v2)**. Then click **OK**
 
-![pic12]
+![pic12][]
 
 ### Step 11: Start the VPN connection
 Double click on the **OpenStack VPN** connection icon, or whatever you called yours.
 
-![pic13]
+![pic13][]
 
 ### Step 12: Verify / enter login details
 It will show the connection window. Check **Save this user name and password for the following users** and leave **Me only** selected. Click **Connect** button.
 
-![pic14]
+![pic14][]
 
 ### Step 13: Check you’re connected
 After a few seconds it will connect and show you **Connected** status. You can also check the VPN status in the Network applet (the icon in your system tray at the bottom right). Click on that icon and you will see the connection list and their statuses.
 
-![pic15]
+![pic15][]
 
 ## Further Reading
-* <https://www.digitalocean.com/community/tutorials/how-to-setup-a-multi-protocol-vpn-server-using-softether>
-* <http://www.softether.org/4-docs/1-manual/3._SoftEther_VPN_Server_Manual>
-* <http://www.softether.org/4-docs/1-manual/7._Installing_SoftEther_VPN_Server>
+*   <https://www.digitalocean.com/community/tutorials/how-to-setup-a-multi-protocol-vpn-server-using-softether>
+*   <http://www.softether.org/4-docs/1-manual/3._SoftEther_VPN_Server_Manual>
+*   <http://www.softether.org/4-docs/1-manual/7._Installing_SoftEther_VPN_Server>
 * <http://www.softether.org/4-docs/2-howto/9.L2TPIPsec_Setup_Guide_for_SoftEther_VPN_Server/4.Windows_L2TP_Client_Setup>
 * <https://letsencrypt.org/getting-started/>
 * <http://www.ducea.com/2006/08/01/how-to-enable-ip-forwarding-in-linux/>
@@ -487,4 +497,3 @@ After a few seconds it will connect and show you **Connected** status. You can a
 [pic13]: files/install_softether_vpn_server-13.png
 [pic14]: files/install_softether_vpn_server-14.png
 [pic15]: files/install_softether_vpn_server-15.png
-
