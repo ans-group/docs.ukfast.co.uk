@@ -51,4 +51,4 @@ There are many potential reasons to pause, suspend or shut off an instance, as l
 
 Shelving an instance essentially means taking an image of it, which is stored for retrieval so you can easily un-shelve it at a later point.  Importantly, once an instance has been shelved it is no longer consuming compute resources, and so you will not get billed for the instance.  (You will however be billed for the image storage, but that will generally be much cheaper than the cost of running the instance).
 
-To un-shelve an instance and start using it again, again click the Actions drop-down menu and then Unshelve instance.  The instance will soon be available for us (and become billable again).
+To un-shelve an instance and start using it again, click the Actions drop-down menu and then Unshelve instance.  The instance will soon be available for use (and become billable again).
