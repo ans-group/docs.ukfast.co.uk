@@ -9,3 +9,4 @@ Guides relating to usage of Nova, the compute element of OpenStack and eCloud Fl
 
    basic
    newinstances
+   instancebilling
