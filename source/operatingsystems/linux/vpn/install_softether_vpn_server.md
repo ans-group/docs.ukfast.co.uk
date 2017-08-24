@@ -1,7 +1,7 @@
 ```eval_rst
 .. meta::
-    :title: How to set up a Multi-Protocol VPN Server using SoftEther
-    :keywords: vpn, softether, linux, openstack, eCloud Flex
+    :title: Multi-Protocol VPN Server using SoftEther | UKFast Documentation
+    :description: Detailed guidance on setting up a multi-protocol VPN server using SoftEther
 ```
 
 # How to set up a Multi-Protocol VPN Server using SoftEther
