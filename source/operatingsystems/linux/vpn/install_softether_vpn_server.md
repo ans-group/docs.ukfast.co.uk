@@ -1,7 +1,7 @@
 ```eval_rst
 .. meta::
-    :title: How to set up a Multi-Protocol VPN Server using SoftEther
-    :keywords: vpn, softether, linux, openstack, eCloud Flex
+    :title: Multi-Protocol VPN Server using SoftEther | UKFast Documentation
+    :description: Detailed guidance on setting up a multi-protocol VPN server using SoftEther
 ```
 
 # How to set up a Multi-Protocol VPN Server using SoftEther
@@ -198,6 +198,7 @@ Here we will use **vpncmd** to configure our VPN server.
 
 Let’s Encrypt uses a package called **certbot** which you install on the VPN server, which automates the generation of the private key, the signing and downloading of the certificate. For that to work it requires that the server be accessible from the **Let’s Encrypt** service on specific ports, as shown:
 
+```eval_rst
 +------------+------+------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+
 |   Plugin   | Auth | Inst |                                                                                                            Notes                                                                                                           |             Challenge            |
 +------------+------+------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+
@@ -211,6 +212,7 @@ Let’s Encrypt uses a package called **certbot** which you install on the VPN s
 +------------+------+------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+
 |   manual   |   Y  |   N  |                                                                  Helps you obtain a cert by giving you instructions to perform domain validation yourself.                                                                 |    http-01 (80) or dns-01 (53)   |
 +------------+------+------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+
+```
 
 Further reading: <https://certbot.eff.org/docs/using.html>
 
