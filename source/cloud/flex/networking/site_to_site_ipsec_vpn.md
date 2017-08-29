@@ -35,7 +35,7 @@ Prerequisites
 	 -  Transform Protocol `[ esp | ah | ah-esp ]`
 
 ### Set up the environment
-First of all, log into the [eCloud Hybrid Horizon Dashboard](<https://api.openstack.ecloud.co.uk/project/api_access/>), navigate to **API Access** and download your bash shell configuration file by clicking **Download OpenStack RC File v3**
+First of all, log into the [eCloud Flex Horizon Dashboard](<https://api.openstack.ecloud.co.uk/project/api_access/>), navigate to **API Access** and download your bash shell configuration file by clicking **Download OpenStack RC File v3**
 
 Put that onto your Linux server in your home directory and import it into your session using `source`. For example, in my case:
 ```
