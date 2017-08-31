@@ -1,3 +1,4 @@
+# Site-To-Site VPNs on eCloud Flex
 ```eval_rst
 .. meta::
     :title: Site-To-Site VPN In eCloud Flex | UKFast Documentation
@@ -190,7 +191,7 @@ Now it's time to tie all these policies together in what OpenStack refers to as 
 -   `peer-address` is the **Public IP address or FQDN**
 -   `peer-id` is the **VPN Identity**
 -   `peer-cidr` is the **Subnet on inside interface**
--   `psk` is the *Pre-Shared Key**
+-   `psk` is the **Pre-Shared Key**
 
 The rest should be pretty self-explanatory...
 ```
@@ -223,10 +224,10 @@ Created a new ipsec_site_connection:
 | local_id          |                                                     |
 | mtu               | 1500                                                |
 | name              | VPN-to-CiscoASA-1                                   |
-| peer_address      | 185.160.252.142                                     |
-| peer_cidrs        | 172.24.72.0/25                                      |
+| peer_address      | 185.160.252.4                                       |
+| peer_cidrs        | 172.24.27.0/25                                      |
 | peer_ep_group_id  |                                                     |
-| peer_id           | 185.160.252.142                                     |
+| peer_id           | 185.160.252.4                                       |
 | project_id        | aa9c0db4ac974d2d8feb71f145e22160                    |
 | psk               | 67BDRYKpA9bYRMu2                                    |
 | route_mode        | static                                              |
@@ -244,7 +245,7 @@ If all is well you should be able to see the connection has come up, and on the 
 +--------------------------------------+-------------------+-----------------+-----------+--------+
 | id                                   | name              | peer_address    | auth_mode | status |
 +--------------------------------------+-------------------+-----------------+-----------+--------+
-| 598e981b-6b3b-4521-aaa4-8273de804402 | VPN-to-CiscoASA-1 | 185.160.252.142 | psk       | ACTIVE |
+| 598e981b-6b3b-4521-aaa4-8273de804402 | VPN-to-CiscoASA-1 | 185.160.252.4   | psk       | ACTIVE |
 +--------------------------------------+-------------------+-----------------+-----------+--------+
 ```
 
@@ -260,7 +261,7 @@ Aug 24 2017 16:58:43: %ASA-6-602303: IPSEC: An inbound LAN-to-LAN SA (SPI= 0x2B4
 Aug 24 2017 16:58:43: %ASA-5-713120: Group = 46.37.188.24, IP = 46.37.188.24, PHASE 2 COMPLETED (msgid=033c8971)
 ```
 
-### Example running-config on the Cisco ASA side:
+### Example "running-config" on the Cisco ASA side:
 ```
 object-group network ukfastserver-vpn.local
  network-object 172.24.27.0 255.255.255.128
