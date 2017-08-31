@@ -1,11 +1,5 @@
 # How to set up a Multi-Protocol VPN Server using SoftEther
 
-```eval_rst
-.. meta::
-    :title: Multi-Protocol VPN Server using SoftEther | UKFast Documentation
-    :description: Detailed guidance on setting up a multi-protocol VPN server using SoftEther
-```
-
 ## Set up the VPN server
 ### Introduction
 This article explains how to install and configure a multi-protocol VPN server using the SoftEther package. We enable and configure OpenVPN, L2TP over IPSec and SSTP VPN Servers on Linux.
@@ -504,3 +498,10 @@ After a few seconds it will connect and show you **Connected** status. You can a
 [pic13]: files/install_softether_vpn_server-13.png
 [pic14]: files/install_softether_vpn_server-14.png
 [pic15]: files/install_softether_vpn_server-15.png
+
+
+```eval_rst
+.. meta::
+    :title: Multi-Protocol VPN Server using SoftEther | UKFast Documentation
+    :description: Detailed guidance on setting up a multi-protocol VPN server using SoftEther
+```
