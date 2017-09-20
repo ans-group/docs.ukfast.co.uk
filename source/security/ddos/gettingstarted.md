@@ -18,9 +18,11 @@ DDoSX<sup>®</sup> and Content Delivery Network (CDN) are two features of our gl
 
 ```
 
-Enabling DDoSX<sup>®</sup> and CDN on your domains is a three-step process:
+To enable DDoSX<sup>®</sup> and CDN on your domains, follow these steps:
 
-**[1. Connect](#connect-domain)** your domain(s) to our global network
+**[1. Connect](#connect-domain)** your domain(s) to DDoSX
+
+**[2. Test](#test-domain)** your domains will work properly on the DDoSX network
 
 **[2. Configure](#configure-domain)** which domain records you'd like to protect
 
@@ -39,6 +41,10 @@ Enabling DDoSX<sup>®</sup> and CDN on your domains is a three-step process:
 
 - Click `Confirm` to go through the payment process. (You won't have to complete this step if you've already ordered DDoSX<sup>®</sup> or CDN via your UKFast account manager).
 
+## Test domain
+
+- use the preview function XYZ.....
+(need to write this section)
 
 ## Configure domain
 
