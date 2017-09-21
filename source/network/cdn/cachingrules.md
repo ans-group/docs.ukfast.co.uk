@@ -26,8 +26,7 @@ On this page you can add "Global" and "Per URI" rules, "Global" rules apply to y
 
 >![connect](files/customcachecontrol.PNG)
 
->- If selecting "Custom", use the drop-down menus to define the amount of time the content should be cached for.
-
+- If selecting "Custom", use the drop-down menus to define the amount of time the content should be cached for.
 - Select `Add Rule` to create this rule and repeat for all other rules.
 - Once complete, select `Apply Changes` and your rules will be made active.
 
