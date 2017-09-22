@@ -58,3 +58,20 @@ Note that it may take [up to 24 hours](/Domains/domains/dnspropagation.html) for
 For any domains with CDN added, content caching will not be activated until rules have been added to the configuration.
 
 [Follow this link to the CDN 'caching rules' setup guide](/network/cdn/cachingrules.html)
+
+## Configure webserver logging
+
+Because all the requests to your webserver will now appear to come from DDoSX<sup>®</sup> rather than the original clients, you should configure your webserver to place the original client IPs into the logs. This is most important if you're using a stats package like Webalizer or AWStats, which rely on analysing your local webserver logs. 
+
+For nginx, inserting this code into one of the `http` or `server` blocks in your configuration should do the trick. This requires the [realip](https://nginx.org/en/docs/http/ngx_http_realip_module.html) module be compiled into nginx. You can confirm if this is already there with `nginx -V 2>&1 | grep --color=auto -o realip`. If this outputs `realip`, you're good to go.
+
+```
+set_real_ip_from 185.156.64.0/24;
+set_real_ip_from 23.170.128.0/24;
+set_real_ip_from 2a02:21a8:1::/48;
+set_real_ip_from 2a02:21a8:2::/48;
+set_real_ip_from 2a02:21a8::/48;
+real_ip_header X-Forwarded-For;
+real_ip_recursive on;
+```
+
