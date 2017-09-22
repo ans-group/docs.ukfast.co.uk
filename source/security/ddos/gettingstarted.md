@@ -1,3 +1,7 @@
+.. meta::
+   :title: Getting started with DDoSX & CDN | UKFast Documentation
+   :description: Getting started with DDoSX and Content Delivery Network
+
 # Getting started
 
 DDoSX<sup>®</sup> and Content Delivery Network (CDN) are two features of our global network that work together to significantly improve your website or web application’s speed and security. DDoSX<sup>®</sup> provides protection against DDoS attacks, and CDN is an **optional** feature that caches your site's content closer to the end user. In order to use CDN, DDoSX must also be enabled on the domain.
