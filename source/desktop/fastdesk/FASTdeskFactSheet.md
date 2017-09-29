@@ -14,9 +14,9 @@
 
 The default FASTdesk applications are Microsoft Office 2016, ShareFile Drive Mapper, Adobe Acrobat and Google Chrome.  These come as standard with all FASTdesk desktops, and are supported by UKFast.  Line of Business Applications are any additional applications which are installed and maintained by FASTdesk customers.
 
-## What is a FASTdesk Application Server?
+## What is a FASTdesk Database Server?
 
-FASTdesk Application Servers are recommended when your Line Of Business Applications require a backend database engine running on a separate server.  All your FASTdesk desktop users will be able to access these applications as necessary. For example: you could have 20 x FASTdesk Standard Users, spread across 4 x XenApp Servers, each with a Line Of Business Application installed that connects to a centralised database instance running on a single FASTdesk Application Server.
+FASTdesk Database Servers are recommended when your Line Of Business Applications require a backend database engine running on a separate server.  All your FASTdesk desktop users will be able to access these applications as necessary. For example: you could have 20 x FASTdesk Standard Users, spread across 4 x XenApp Servers, each with a Line Of Business Application installed that connects to a centralised database instance running on a single FASTdesk Database Server.
 
 ## Are my files backed up on FASTdesk?
 
@@ -28,7 +28,9 @@ All FASTdesk data is encrypted via a 2048 bit RSA SSL. All connections into the 
 
 ## Can I supply my own Microsoft licenses on FASTdesk?
 
-Yes, you can provide your own Microsoft licenses for applications such as Microsoft Office and SQL, providing that this has been pre-arranged before your solution is launched. Microsoft Windows operating system licenses cannot be provided.
+Yes, you can provide your own licenses for Microsoft applications, providing that this has been pre-arranged with your licensing vendor/partner before your solution is launched.  Your Microsoft Volume Licensing agreement must include [Software Assurance](https://www.microsoft.com/en-us/licensing/licensing-programs/software-assurance-default.aspx), which allows you to use Microsoft licenses in a shared/multi-tenant or public cloud infrastructure environment.
+
+We are currently unable to allow Office 365 licenses to run on FASTdesk. Additionally, License Mobility is not applicable to Windows Server, and therefore the Windows Server operating system needs to be licensed by UKFast under our SPLA agreement.
 
 ## Is Active Directory Federation Services (ADFS) supported?
 
