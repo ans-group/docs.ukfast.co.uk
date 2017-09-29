@@ -28,9 +28,9 @@ All FASTdesk data is encrypted via a 2048 bit RSA SSL. All connections into the 
 
 ## Can I supply my own Microsoft licenses on FASTdesk?
 
-Yes, you can provide your own Microsoft licenses for applications such as Microsoft Office and SQL, providing that this has been pre-arranged before your solution is launched.  Your Microsoft Volume Licensing agreement must include [Software Assurance](https://www.microsoft.com/en-us/licensing/licensing-programs/software-assurance-default.aspx), which allows you to use Microsoft licenses in a shared infrastructure environment.
+Yes, you can provide your own licenses for Microsoft applications, providing that this has been pre-arranged with your licensing vendor/partner before your solution is launched.  Your Microsoft Volume Licensing agreement must include [Software Assurance](https://www.microsoft.com/en-us/licensing/licensing-programs/software-assurance-default.aspx), which allows you to use Microsoft licenses in a shared/multi-tenant or public cloud infrastructure environment.
 
-We are currently unable to allow Office 365 licenses to run on FASTdesk. Windows operating system licenses cannot be provided.
+We are currently unable to allow Office 365 licenses to run on FASTdesk. Additionally, License Mobility is not applicable to Windows Server, and therefore the Windows Server operating system needs to be licensed by UKFast under our SPLA agreement.
 
 ## Is Active Directory Federation Services (ADFS) supported?
 
