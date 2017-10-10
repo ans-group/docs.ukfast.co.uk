@@ -43,7 +43,7 @@ To enable DDoSX<sup>®</sup> and CDN on your domains, follow these steps:
 
 ## Test domain
 
-- Once you've connected your domain to the DDoSX network, you may wish to test that your website or application will work correctly after you've configured your DNS records.  
+- Once you've connected your domain to the DDoSX network, you may wish to test that your website or application will work correctly, before making the necessary changes to your DNS records.  This can be done by modifying your local `hosts` file.
 
 - You will see that initially your DNS Routing is shown as "Server", as per below.
 
@@ -62,7 +62,9 @@ To enable DDoSX<sup>®</sup> and CDN on your domains, follow these steps:
 189.192.54.168 www.mydomain.co.uk
 189.192.54.168 blog.mydomain.co.uk
 ```
-- Save these changes, then open a web browser and try browsing to your domain.  Your local `hosts` file will route the request directly to the DDoSX IP address so you'll be able to see exactly how your site will perform when you change your DNS records.
+- [This article](https://www.howtogeek.com/howto/27350/beginner-geek-how-to-edit-your-hosts-file/) contains instructions on modifying the `hosts` file on MacOS and Linux, as well as more details for the various versions of Windows.
+
+- Once you've added all the domains you need to test, save the file. Then open a web browser and try browsing to your domain.  Your local `hosts` file will route the request directly to the DDoSX IP address so you'll be able to see exactly how your site will perform when you change your DNS records.
 
 ## Configure domain
 
