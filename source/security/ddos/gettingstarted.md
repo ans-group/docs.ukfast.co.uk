@@ -43,12 +43,30 @@ To enable DDoSX<sup>®</sup> and CDN on your domains, follow these steps:
 
 ## Test domain
 
-- use the preview function XYZ.....
-(need to write this section)
+- Once you've connected your domain to the DDoSX network, you may wish to test that your website or application will work correctly after you've configured your DNS records.  
+
+- You will see that initially your DNS Routing is shown as "Server", as per below.
+
+![serverpreview](files/serverpreview.PNG)
+
+- Before changing the DNS Routing to DDoSX, you can test the impact on your local computer by modifying the `hosts` file to look for the "Assigned IPv4" address for your domain.
+
+- On Windows you'll find the `hosts` file in **C:\Windows\System32\Drivers\etc**
+
+![hostsfile](files/hostsfile.PNG)
+
+- Open the `hosts` file using Notepad or another plain text editor (you may need administrator rights to make changes), and insert a line for each domain you wish to test, that includes the domain and the Assigned IPv4 address from DDoSX; for example:
+
+```
+189.192.54.168 mydomain.co.uk
+189.192.54.168 www.mydomain.co.uk
+189.192.54.168 blog.mydomain.co.uk
+```
+- Save these changes, then open a web browser and try browsing to your domain.  Your local `hosts` file will route the request directly to the DDoSX IP address so you'll be able to see exactly how your site will perform when you change your DNS records.
 
 ## Configure domain
 
-- Now that the domain has been added to the network, the DNS records need to be configured.
+- Once you've completed your testing, the DNS records for your domain need to be configured.
 - Click `Configure` next to the domain you wish to setup first within the `DDoSX & CDN` control panel and choose which A Records and AAAA Records you specifically want to protect for each domain.
 - You can also assign any existing SSL certificates at this point. SSL certificates purchased from MyUKFast will appear in the dropdown menu, or click `Add SSL` to add details of other SSL certificates manually. SSL certificates can be managed within the `SSL Certificates` tab.
 - Ensure the highlighted toggle switches are set to "On" for all of the sub-domains you wish to protect with DDoSX<sup>®</sup>.
