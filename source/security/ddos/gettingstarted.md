@@ -24,7 +24,7 @@ To enable DDoSX<sup>®</sup> and CDN on your domains, follow these steps:
 
 **[2. Configure](#configure-domain)** which domain records you'd like to protect
 
-**[3. Test](#test-domain)** your domains will work properly on the DDoSX network before putting them live
+**[3. Test](#test-domain-and-put-live)** your domains will work properly on the DDoSX network before putting them live
 
 **[4. Create CDN Caching Rules](#create-cdn-caching-rules)**
 
