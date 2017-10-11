@@ -22,11 +22,11 @@ To enable DDoSX<sup>®</sup> and CDN on your domains, follow these steps:
 
 **[1. Connect](#connect-domain)** your domain(s) to DDoSX
 
-**[2. Test](#test-domain)** your domains will work properly on the DDoSX network
-
 **[2. Configure](#configure-domain)** which domain records you'd like to protect
 
-**[3. Create CDN Caching Rules](#create-cdn-caching-rules)**
+**[3. Test](#test-domain)** your domains will work properly on the DDoSX network before putting them live
+
+**[4. Create CDN Caching Rules](#create-cdn-caching-rules)**
 
 ## Connect domain
 
@@ -34,50 +34,49 @@ To enable DDoSX<sup>®</sup> and CDN on your domains, follow these steps:
 - Click `Connect Now`
 - On this page you can search for the domains you're managing through SafeDNS. (if you havent added your domains to SafeDNS yet, please refer to the info box at the top of this page)
 - Choose the domain you wish to protect and click `Connect`.
-- Optionally, to add CDN to your order, ensure the highlighted toggle switch is set to "On".
+- To add CDN to your order, ensure the highlighted toggle switch is set to "On".
 - Repeat for each domain you want to add to the network.
 
 ![connect](files/connect.PNG)
 
 - Click `Confirm` to go through the payment process. (You won't have to complete this step if you've already ordered DDoSX<sup>®</sup> or CDN via your UKFast account manager).
 
-## Test domain
-
-- Once you've connected your domain to the DDoSX network, you may wish to test that your website or application will work correctly, before making the necessary changes to your DNS records.  This can be done by modifying your local `hosts` file.
-
-- You will see that initially your DNS Routing is shown as "Server", as per below.
-
-![serverpreview](files/serverpreview.PNG)
-
-- Before changing the DNS Routing to DDoSX, you can test the impact on your local computer by modifying the `hosts` file to look for the "Assigned IPv4" address for your domain.
-
-- On Windows you'll find the `hosts` file in **C:\Windows\System32\Drivers\etc**
-
-![hostsfile](files/hostsfile.PNG)
-
-- Open the `hosts` file using Notepad or another plain text editor (you may need administrator rights to make changes), and insert a line for each domain you wish to test, that includes the domain and the Assigned IPv4 address from DDoSX; for example:
-
-```
-189.192.54.168 mydomain.co.uk
-189.192.54.168 www.mydomain.co.uk
-189.192.54.168 blog.mydomain.co.uk
-```
-- [This article](https://www.howtogeek.com/howto/27350/beginner-geek-how-to-edit-your-hosts-file/) contains instructions on modifying the `hosts` file on MacOS and Linux, as well as more details for the various versions of Windows.
-
-- Once you've added all the domains you need to test, save the file. Then open a web browser and try browsing to your domain.  Your local `hosts` file will route the request directly to the DDoSX IP address so you'll be able to see exactly how your site will perform when you change your DNS records.
-
 ## Configure domain
 
-- Once you've completed your testing, the DNS records for your domain need to be configured.
 - Click `Configure` next to the domain you wish to setup first within the `DDoSX & CDN` control panel and choose which A Records and AAAA Records you specifically want to protect for each domain.
 - You can also assign any existing SSL certificates at this point. SSL certificates purchased from MyUKFast will appear in the dropdown menu, or click `Add SSL` to add details of other SSL certificates manually. SSL certificates can be managed within the `SSL Certificates` tab.
 - Ensure the highlighted toggle switches are set to "On" for all of the sub-domains you wish to protect with DDoSX<sup>®</sup>.
 
 ![configuredomain](files/configuredomain.PNG)
 
-- Click `Apply Changes` and your domain is now connected to the UKFast DDoSX<sup>®</sup> network, and configured appropriately.  
+- Click `Apply Changes` and your domain will now be connected to the UKFast DDoSX<sup>®</sup> network, and configured appropriately. (You should allow up to 10 minutes for the changes to be fully applied)
 
-Note that it may take [up to 24 hours](/Domains/domains/dnspropagation.html) for DNS changes to propogate across the internet (as with any such changes), and before your domain is fully protected.
+## Test domain and put live
+
+- Once you've connected your domain to the DDoSX network and configured your DNS records, you may wish to test that your website or application will work correctly before changing your live DNS routing.  This can be done by modifying your local `hosts` file to look for the DDoSX "Assigned IPv4" address for your domain.
+
+- You will see that initially your DNS Routing is shown as "Server", as per below.
+
+![serverpreview](files/serverpreview.PNG)
+
+- Locate the `hosts` file on your computer.  On Windows you'll find it in **C:\Windows\System32\drivers\etc**.  
+
+- Open the `hosts` file using Notepad or another plain text editor (you may need administrator rights to make changes), and insert a line for each domain you wish to test, that includes the domain and the Assigned IPv4 address from DDoSX; for example:
+
+ ```
+ 189.192.54.168 mydomain.co.uk
+ 189.192.54.168 www.mydomain.co.uk
+ 189.192.54.168 blog.mydomain.co.uk
+ ```
+- On Linux and MacOS you can open and edit the `hosts` file in a terminal window using a command such as
+
+ ```sudo nano /private/etc/hosts```
+
+- [This article](https://www.howtogeek.com/howto/27350/beginner-geek-how-to-edit-your-hosts-file/) contains more detailed instructions on modifying the `hosts` file on MacOS, Linux, and different versions of Windows.
+
+- Once you've added all the domains you need to test to your `hosts` file, save the changes. Then open a web browser and try browsing to your domain.  Your local `hosts` file will route the request directly to the DDoSX IP address so you'll be able to see exactly how your site will perform when you change your DNS records.
+
+- If you're happy with how your site performs, you can switch the DNS Routing for your domain to "DDoSX".  Note that it may take [up to 48 hours](/Domains/domains/dnspropagation.html) for DNS changes to propogate across the internet (as with any such changes), and before your domain is fully protected.
 
 ## Create CDN caching rules
 
