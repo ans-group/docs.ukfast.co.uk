@@ -1,37 +1,49 @@
-# FASTdesk Fact Sheet
+# General information / FAQs
 
-## What are the differences between FASTdesk standard, pro and pro plus plans?
+## What are the differences between the various FASTdesk plans - Standard, Pro, ProPlus, and GPU?
 
-With the FASTdesk Standard plan, users are hosted on a shared XenApp server. Many users are assigned to one XenApp Virtual Machine and the resources are shared between these users.
+**FASTdesk Standard** - runs on shared Citrix XenApp servers.  Multiple desktop users are assigned to a XenApp Virtual Machine (VM), with resources shared between these users.
 
-With the FASTdesk Pro Plan, one user is assigned to their own dedicated XenDesktop Virtual Machine. The specification of this is 2 vCPU and 4GB RAM.
+**FASTdesk Pro** - runs on dedicated Citrix XenDesktop servers. Each desktop user has their own dedicated VM, with 2 vCPU and 4GB RAM.
 
-The FASTdesk Pro Plus plan is the same as the FASTdesk Pro Plan but with upgraded Virtual Machine specifications. The specification for this plan is  4 vCPU and 8GB RAM.
+**FASTdesk ProPlus** - runs on dedicated Citrix XenDesktop servers. Each desktop user has their own dedicated VM, with 4 vCPU and 8GB RAM.
 
-## What are __Line of Business Apps__?
+**FASTdesk GPU** - runs on dedicated Citrix XenDesktop servers, with the addition of NVIDIA Grid Virtual Workstation and Tesla M10 GPUs. Each desktop user has their own dedicated VM, with 4vCPU, 8GB RAM, and 2GB GDDR5 memory ("graphics memory").
 
-Line of Business Applications are applications which are installed and maintained by FASTdesk Users and are not the default supported FASTdesk applications. The default FASTdesk applications are Microsoft Office 2016, ShareFile Drive Mapper, Adobe Acrobat and Google Chrome.
+## What are Line of Business Applications?
 
-## What is included in 1st line Helpdesk Support and what hours do we support?
+The default FASTdesk applications are Microsoft Office 2016, ShareFile Drive Mapper, Adobe Acrobat and Google Chrome.  These come as standard with all FASTdesk desktops, and are supported by UKFast.  Line of Business Applications are any additional applications which are installed and maintained by FASTdesk customers.
 
-1st line Helpdesk Support is available to you from Monday to Friday between the hours of 9am and 6pm (Excluding UK Bank Holidays). Our support team will be available whilst working from within the FASTdesk environment. This means that our support covers the FASTdesk Microsoft Windows Virtual Desktop that you are working on, along with support for the default FASTdesk Applications, and other general end user issues that you may encounter. Support for your Line Of Business Applications is not provided. The Helpdesk telephone number is (+44) 0800 923 0617.
+## What is a FASTdesk Database Server?
+
+FASTdesk Database Servers are recommended when your Line Of Business Applications require a backend database engine running on a separate server.  All your FASTdesk desktop users will be able to access these applications as necessary. For example: you could have 20 x FASTdesk Standard Users, spread across 4 x XenApp Servers, each with a Line Of Business Application installed that connects to a centralised database instance running on a single FASTdesk Database Server.
 
 ## Are my files backed up on FASTdesk?
 
-Your home folder is backed up at file level and is available for 28 days. Virtual Machines are snapshotted at the storage level and are available for 28 days.
+Your home folder is backed up at file level and is available for 28 days. Virtual Machines are snapshotted at the storage level and are also available for 28 days.
 
 ## How is security and encryption integrated into FASTdesk?
 
-All FASTdesk data is encrypted via a 2048 bit RSA SSL. All connections into the environment are secured via Netscaler Gateways. FASTdesk is FIPS compliant and is encrypted end-to-end, meaning all communication within the environment is done over SSL.
+All FASTdesk data is encrypted via a 2048 bit RSA SSL. All connections into the environment are secured via Netscaler Gateways. FASTdesk is FIPS-compliant and is encrypted end-to-end, meaning all communication within the environment is over SSL.
 
 ## Can I supply my own Microsoft licenses on FASTdesk?
 
-Yes, you can provide your own Microsoft licenses for applications such as Microsoft Office and SQL, providing that this has been pre-arranged before your solution is launched. Microsoft Windows operating system licenses cannot be provided. 
+Yes, you can provide your own licenses for Microsoft applications, providing that this has been pre-arranged with your licensing vendor/partner before your solution is launched.  Your Microsoft Volume Licensing agreement must include [Software Assurance](https://www.microsoft.com/en-us/licensing/licensing-programs/software-assurance-default.aspx), which allows you to use Microsoft licenses in a shared/multi-tenant or public cloud infrastructure environment.
 
-## What is a FASTdesk Application Server?
-
-FASTdesk Application Servers are required when your Line Of Business Applications require a backend database engine running on a separate server. For example; you could have 20 x FASTdesk Standard Users, spread across a total of 4 x XenApp Servers, each with a Line Of Business Application installed that connects to a centralised database instance running on 1 x FASTdesk Application Server.
+We are currently unable to allow Office 365 licenses to run on FASTdesk. Additionally, License Mobility is not applicable to Windows Server, and therefore the Windows Server operating system needs to be licensed by UKFast under our SPLA agreement.
 
 ## Is Active Directory Federation Services (ADFS) supported?
 
-Unfortunately, as FASTdesk is a multi-tenanted platform, we don't support the integration of any external Active Directory Domains, for security purposes.
+As FASTdesk is a multi-tenanted platform, we don't support the integration of external Active Directory Domains for security purposes.
+
+## What is included in 1st line Helpdesk Support?
+
+1st line helpdesk support is available during office hours (Monday to Friday between 09.00 and 18.00 UK time, excluding UK Bank Holidays). This support covers the FASTdesk desktop, along with support for the default FASTdesk Applications, and other general desktop end user issues that you may encounter. Support for your Line Of Business Applications is not included. The Helpdesk telephone number is (+44) 0800 923 0617.
+
+
+```eval_rst
+.. meta::
+     :title: General information about FASTdesk | UKFast Documentation
+     :description: Guidance to help understand and use FASTdesk - desktop as a service from UKFast
+     :keywords: fastdesk, desktop, applications, daas, desktop as a service
+```
