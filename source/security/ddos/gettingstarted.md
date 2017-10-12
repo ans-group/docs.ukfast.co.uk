@@ -83,3 +83,10 @@ To enable DDoSX<sup>®</sup> and CDN on your domains, follow these steps:
 For any domains with CDN added, content caching will not be activated until rules have been added to the configuration.
 
 [Follow this link to the CDN 'caching rules' setup guide](/network/cdn/cachingrules.html)
+
+```eval_rst
+.. meta::
+     :title: Getting started with DDoSX and CDN | UKFast Documentation
+     :description: Guidance to setting up DDoSX and CDN from UKFast
+     :keywords: ddos, ddos protection, anti-ddos, cdn, content delivery, content delivery network
+```
