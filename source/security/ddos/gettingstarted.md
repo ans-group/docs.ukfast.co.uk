@@ -26,7 +26,7 @@ To enable DDoSX<sup>®</sup> and CDN on your domains, follow these steps:
 
 **[3. Test](#test-domain-and-put-live)** your domains will work properly on the DDoSX network before putting them live
 
-**[4. Create CDN Caching Rules](#create-cdn-caching-rules)**
+**[4. Create CDN Caching Rules](#create-cdn-caching-rules)** for any CDN-enabled domains
 
 ## Connect domain
 
@@ -34,7 +34,7 @@ To enable DDoSX<sup>®</sup> and CDN on your domains, follow these steps:
 - Click `Connect Now`
 - On this page you can search for the domains you're managing through SafeDNS. (if you havent added your domains to SafeDNS yet, please refer to the info box at the top of this page)
 - Choose the domain you wish to protect and click `Connect`.
-- To add CDN to your order, ensure the highlighted toggle switch is set to "On".
+- To add [Content Delivery Network (CDN)](/network/cdn/) to your order, set the CDN toggle switch to "On".
 - Repeat for each domain you want to add to the network.
 
 ![connect](files/connect.PNG)
@@ -43,9 +43,9 @@ To enable DDoSX<sup>®</sup> and CDN on your domains, follow these steps:
 
 ## Configure domain
 
-- Click `Configure` next to the domain you wish to setup first within the `DDoSX & CDN` control panel and choose which A Records and AAAA Records you specifically want to protect for each domain.
-- You can also assign any existing SSL certificates at this point. SSL certificates purchased from MyUKFast will appear in the dropdown menu, or click `Add SSL` to add details of other SSL certificates manually. SSL certificates can be managed within the `SSL Certificates` tab.
-- Ensure the highlighted toggle switches are set to "On" for all of the sub-domains you wish to protect with DDoSX<sup>®</sup>.
+- Click `Configure` next to the domain you wish to setup, and choose which A Records and AAAA Records you specifically want to protect for the domain.
+- You can assign any existing SSL certificates at this point. SSL certificates purchased from MyUKFast will appear in the dropdown menu, or click `Add SSL` to add details of other SSL certificates manually. SSL certificates can be managed within the `SSL Certificates` tab.
+- Ensure the DDoSX Protection toggle switches are set to "On" for all of the records and sub-domains you wish to protect.
 
 ![configuredomain](files/configuredomain.PNG)
 
@@ -64,13 +64,15 @@ To enable DDoSX<sup>®</sup> and CDN on your domains, follow these steps:
 - Open the `hosts` file using Notepad or another plain text editor (you may need administrator rights to make changes), and insert a line for each domain you wish to test, that includes the domain and the Assigned IPv4 address from DDoSX; for example:
 
  ```
- 189.192.54.168 mydomain.co.uk
- 189.192.54.168 www.mydomain.co.uk
- 189.192.54.168 blog.mydomain.co.uk
+ 185.156.64.0 mydomain.co.uk
+ 185.156.64.0 www.mydomain.co.uk
+ 185.156.64.0 blog.mydomain.co.uk
  ```
 - On Linux and MacOS you can open and edit the `hosts` file in a terminal window using a command such as
 
- ```sudo nano /private/etc/hosts```
+ ```
+ sudo nano /private/etc/hosts
+ ```
 
 - [This article](https://www.howtogeek.com/howto/27350/beginner-geek-how-to-edit-your-hosts-file/) contains more detailed instructions on modifying the `hosts` file on MacOS, Linux, and different versions of Windows.
 
@@ -80,18 +82,17 @@ To enable DDoSX<sup>®</sup> and CDN on your domains, follow these steps:
 
 ## Create CDN caching rules
 
-For any domains with CDN added, content caching will not be activated until rules have been added to the configuration.
+For any domains with CDN added, content caching will not be activated until you have [added caching rules to the configuration](/network/cdn/cachingrules.html)
 
-[Follow this link to the CDN 'caching rules' setup guide](/network/cdn/cachingrules.html)
+## Configure webserver logging (optional)
 
+Once your domain is fully enabled on DDoSX, all requests to your webserver will appear to come from the DDoSX IP address rather than the original client. Therefore you may wish to configure your webserver to place the original client IP address into the logs. This is most important if you're using a stats package like Webalizer or AWStats, which rely on analysing your local webserver logs.
 
-## Configure webserver logging
-
-Because all the requests to your webserver will now appear to come from DDoSX<sup>®</sup> rather than the original clients, you should configure your webserver to place the original client IPs into the logs. This is most important if you're using a stats package like Webalizer or AWStats, which rely on analysing your local webserver logs. 
+Here's how to do this for nginx and Apache:
 
 ### nginx
 
-For nginx, inserting this code into one of the `http` or `server` blocks in your configuration should do the trick. This requires the [realip](https://nginx.org/en/docs/http/ngx_http_realip_module.html) module be compiled into nginx. You can confirm if this is already there with `nginx -V 2>&1 | grep -o realip`. If this outputs `realip`, you're good to go.
+For nginx, insert this code into one of the `http` or `server` blocks in your configuration. This requires the [realip](https://nginx.org/en/docs/http/ngx_http_realip_module.html) module be compiled into nginx. You can confirm if this is already there with `nginx -V 2>&1 | grep -o realip`. If this outputs `realip`, you're good to go.
 
 ```
 set_real_ip_from 185.156.64.0/24;
@@ -121,7 +122,7 @@ For Apache 2.4 and above, you will need to use the [mod_remoteip](https://httpd.
 LogFormat "%a %l %u %t \"%r\" %>s %b \"%{Referer}i\" \"%{User-Agent}i\"" ddosx
 
 # You may already have a line like the following in your VirtualHost declaration,
-# if so, change the last part (likely the word 'combined') to 'ddosx' to use the 
+# if so, change the last part (likely the word 'combined') to 'ddosx' to use the
 # above log format.
 CustomLog /var/log/httpd/acmecorp.com/access.log ddosx
 ```
