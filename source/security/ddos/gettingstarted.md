@@ -84,6 +84,53 @@ For any domains with CDN added, content caching will not be activated until rule
 
 [Follow this link to the CDN 'caching rules' setup guide](/network/cdn/cachingrules.html)
 
+
+## Configure webserver logging
+
+Because all the requests to your webserver will now appear to come from DDoSX<sup>®</sup> rather than the original clients, you should configure your webserver to place the original client IPs into the logs. This is most important if you're using a stats package like Webalizer or AWStats, which rely on analysing your local webserver logs. 
+
+### nginx
+
+For nginx, inserting this code into one of the `http` or `server` blocks in your configuration should do the trick. This requires the [realip](https://nginx.org/en/docs/http/ngx_http_realip_module.html) module be compiled into nginx. You can confirm if this is already there with `nginx -V 2>&1 | grep -o realip`. If this outputs `realip`, you're good to go.
+
+```
+set_real_ip_from 185.156.64.0/24;
+set_real_ip_from 23.170.128.0/24;
+set_real_ip_from 2a02:21a8:1::/48;
+set_real_ip_from 2a02:21a8:2::/48;
+set_real_ip_from 2a02:21a8::/48;
+real_ip_header X-Forwarded-For;
+real_ip_recursive on;
+```
+
+Once you have added these into your configuration, test and reload your nginx configuration (e.g. `nginx -t && systemctl reload nginx`) to make the changes live.
+
+### Apache
+
+For Apache 2.4 and above, you will need to use the [mod_remoteip](https://httpd.apache.org/docs/current/mod/mod_remoteip.html) module. This should be compiled into your Apache installation, but you can confirm this by running `httpd -M 2>&1 | grep remoteip` (use `apache2ctl` instead of `httpd` on Debian/Ubuntu), which should output `remoteip_module (shared)`. As long as you have that, you're good to go. Add the following into your `<VirtualHost>` declaration, and then alter any `CustomLog` directives to use the newly defined `LogFormat`.
+
+```
+<IfModule remoteip_module>
+    RemoteIPHeader X-Forwarded-For
+    RemoteIPTrustedProxy 185.156.64.0/24
+    RemoteIPTrustedProxy 23.170.128.0/24
+    RemoteIPTrustedProxy 2a02:21a8:1::/48
+    RemoteIPTrustedProxy 2a02:21a8:2::/48
+    RemoteIPTrustedProxy 2a02:21a8::/48
+</IfModule>
+LogFormat "%a %l %u %t \"%r\" %>s %b \"%{Referer}i\" \"%{User-Agent}i\"" ddosx
+
+# You may already have a line like the following in your VirtualHost declaration,
+# if so, change the last part (likely the word 'combined') to 'ddosx' to use the 
+# above log format.
+CustomLog /var/log/httpd/acmecorp.com/access.log ddosx
+```
+
+Test and then reload your Apache configuration (e.g. `httpd -t && systemctl reload httpd`) to make the changes live.
+
+For Apache 2.2 you will need to use [mod_rpaf](https://github.com/gnif/mod_rpaf), the use of which is beyond the scope of this document.
+
+
 ```eval_rst
 .. meta::
      :title: Getting started with DDoSX and CDN | UKFast Documentation
