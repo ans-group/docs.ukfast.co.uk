@@ -36,3 +36,10 @@ Following the same process as when adding global caching rules but with control 
 ![connect](files/uricacherule.PNG)
 
 For example, adding `/static-content` to the `URI` field will apply the rule to any content hosted within **http://www.example.com/static-content**
+
+```eval_rst
+.. meta::
+     :title: Setting CDN caching rules | UKFast Documentation
+     :description: Guidance to setting content caching rules on the UKFast CDN
+     :keywords: caching, caching rules, cdn, content delivery, content delivery network
+```
