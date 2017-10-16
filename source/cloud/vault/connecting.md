@@ -1,47 +1,30 @@
-```eval_rst
-.. title:: UKFast Documentation | eCloud Vault | Connecting to eCloud Vault
-.. meta::
-   :title: UKFast Documentation | eCloud Vault | Connecting to eCloud Vault
-   :description: Detailed information on ways to connect to UKFast's eCloud Vault
-```
-
 # Connecting to eCloud Vault
 
-There are 2 primary means of interacting with eCloud Vault.
+There are two primary ways of interacting with eCloud Vault.
 
-One is by accessing the drag and drop interface in your MyUKFast area:
+One is through "drag and drop" in [MyUKFast](https://my.ukfast.co.uk/ecloud-vault/index.php).
 
-<https://my.ukfast.co.uk/ecloud-vault/index.php>
+The second is the most powerful way of accessing eCloud Vault, and the one that most people will probably need. This is via API, using the access and secret key pair found in [the eCloud Vault section in MyUKFast](https://my.ukfast.co.uk/ecloud-vault/integration.php).
 
-The second way is the most powerful way of accessing vault and the one that most people will probably need. This is the API level access and can be achieved using the access and secret key pair found in your MyUKFast client area on the following page:
+These keys will allow you to access the API endpoint found here: <http://vault.ecloud.co.uk/>
 
-<https://my.ukfast.co.uk/ecloud-vault/integration.php>
+If you aren't familiar with the S3 API specification, [information can be found here](http://docs.ceph.com/docs/master/radosgw/s3/).
 
-These keys will allow you to access the API endpoint found here:
+Your key pair will also allow you to access your eCloud Vault buckets through various S3-enabled third party applications. Though UKFast can't offer support on your configuration or use of these applications (see below), a few options are:
 
-<http://vault.ecloud.co.uk/>
+- **[Cyberduck](https://cyberduck.io/)** - Windows, Mac
+- **[s3cmd](http://s3tools.org/s3cmd)** - Windows, Linux and Mac CLI tool (further details below)
+- **[Duplicati](http://www.duplicati.com/)** - Windows backup utility
+- **[Expandrive](http://www.expandrive.com/)** - Windows backup utility
+- **[S3Anywhere](https://play.google.com/store/apps/details?id=lysesoft.s3anywhere&hl=en)** - Android s3 client
 
-If you aren't familiar with the S3 API specification, information can be found here:
-
-<http://docs.ceph.com/docs/master/radosgw/s3/>
-
-Your keypair will also allow you to access your buckets through various s3 enabled third party applications. Though UKFast can't offer any support on these applications (see below), a few are mentioned below:
-
-* [Cyberduck]     - Windows, Mac
-* [s3cmd]        - Windows, Linux and Mac CLI tool (see below)
-* [Duplicati]    - Windows backup utility
-* [Expandrive]    - Windows s3 drive utility
-* [S3Anywhere]    - Android s3 client
-
-Configuration and use of these aren't supported by UKFast, but they can typically all be configured by setting the s3 host/address as ``vault.ecloud.co.uk`` and inputting your access and secret keys.
-
-UKFast will take all necessary steps to ensure that your data on our systems remains accessible, that data integrity is maintained and the API remains accessible. Beyond this, UKFast take no responsibility for your use of this system. We are not able to offer support for any 3rd-party product, nor the use of the Ceph API in your own applications.
+These applications can typically all be configured by setting the S3 host/address as ``vault.ecloud.co.uk`` and inputting your access and secret keys.
 
 # s3cmd
 
-While UKFast does not offer support for any 3rd-party clients, interally our go-to client to test functionality and debug issues with Vault is `s3cmd`. As such, if you encounter an issue you may be asked to replicate the problem with `s3cmd`. If you're not used to using command-line applications we appreciate it can be frustrating to use, but it's a useful comparison against other clients.
+While UKFast does not offer support for 3rd-party clients, interally we use `s3cmd` to test functionality and debug issues with eCloud Vault. As such, if you contact UKFast Support with an eCloud Vault issue you may be asked to replicate the problem with `s3cmd`. If you're not used to using command-line applications we appreciate it can be frustrating to use, but it's a useful comparison against other clients.
 
-You must configure s3cmd before you use it. To do this, on Linux and MacOS, create a file in your home directory called `.s3cfg` with the following content. On Windows this should be in `C:\Users\[username]\AppData\Roaming\s3cmd.ini`.
+You must configure `s3cmd` before you use it. To do this, on Linux and MacOS, create a file in your home directory called `.s3cfg` with the following content. On Windows this should be in `C:\Users\[username]\AppData\Roaming\s3cmd.ini`.
 
 ```
 [default]
@@ -70,8 +53,10 @@ Once you have the configuration in place, you can start to use `s3cmd` to view a
 * Remove a file: `s3cmd del s3://bucketname/path/myfile.txt`
 * Remove a bucket and all files in it (danger!): `s3cmd rb --recursive s3://bucketname`
 
-[Cyberduck]: https://cyberduck.io/
-[s3cmd]: http://s3tools.org/s3cmd
-[Duplicati]: http://www.duplicati.com/
-[Expandrive]: http://www.expandrive.com/
-[S3Anywhere]: https://play.google.com/store/apps/details?id=lysesoft.s3anywhere&hl=en
+```eval_rst
+.. meta::
+   :title: Connecting to eCloud Vault | UKFast Documentation
+   :description: Detailed information on connecting to eCloud Vault object storage from UKFast
+   :keywords: eCloud, Vault, eCloud Vault, object storage, cloud storage, s3cmd
+```
+
