@@ -280,3 +280,9 @@ Here is an example, and a snippet of the output:
 
 This will tell you additional information, such as what packages it depends on, and which packages it will conflict with, along with a description of what the package does.
 
+```eval_rst
+.. meta::
+   :title: Package Management Functions | UKFast Documentation
+   :description: Examples and information on package management functions on CentOS and Ubuntu from UKFast
+   :keywords: servers, centos, ubuntu
+```
