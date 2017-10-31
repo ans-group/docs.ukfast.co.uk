@@ -39,3 +39,11 @@ In order to connect using a private key, you will have to set PuTTY to use this 
 Tell PuTTY where the private key is located on your computer by clicking “Browse…” and navigating to the folder where the key is located and opening the file.
 
 Now click “Open” and the session should open using the private key as authentication.
+
+
+  ```eval_rst
+  .. meta::
+     :title: Connecting to your server via SSH | UKFast Documentation
+     :description: Guidance on connecting to Linux using SSH 
+     :keywords: ukfast, ssh, key, private key, putty, ssh client, linux, server
+  ```
