@@ -2,35 +2,40 @@
 
 ## What is vsftpd?
 
-vsftpd is a linux FTP server application. It runs on port 21 on most servers by default but you can also have FTPS enabled.
+vsftpd stands for Very Secure File Transfer Protocol Daemon and is a Linux FTP server application. It is much more secure than regular FTP due to the use of encryption.
 
-This service will allow you to access your filesystem using an FTP client like FileZilla.
+On most servers, the default port for connecting to vsftpd is port 21. 
+
+The vsftpd service will allow you to access the files on your server using an FTP client such as FileZilla.
 
 ## Add users for ftp usage
 
-You can use the commands below to add the users and the passwords.
+In order to create an account for FTP usage, you will first have to create a user for them on the server. You can do this by using the "useradd" command, then specifying the name of the user, as shown below:
 
 ```bash
   useradd guest
 ```
 
+Now that you have created a user, you will want to make the account secure by adding a password. You can do this with the "passwd" command:
+
 ```bash
   passwd guest
 ```
 
-
 ## Add attributes to the user
 
-The users can be modified either through `/etc/passwd` or you can add attributes using the usermod command. The command below will disable SSH access for your user.
+In order to allow the user that you have created the correct permissions to use FTP, you will want to use the "usermod" command in order to edit its attributes. The command below disables SSH access to your for the specified user:
 
 ```bash
   usermod -s /sbin/nologin guest
 ```
-
+Note, you can also achieve this by editing the "/etc/passwd" file.
 
 ## vsftpd configuration
 
-Once you have applied the changes, you can set up the vsftpd configuration. The config below is going to be added into the `/etc/vsftpd/vsftpd.conf` at the bottom. This was tested with CentOS 7.
+Once you have made the attribute changes to the user, you will want to edit the vsftpd config file. The file that needs editing is `/etc/vsftpd/vsftpd.conf` file. 
+
+The below configuration was tested with CentOS 7 and will need to be added to the vsfrpd configuration file.
 
 
 ```console
