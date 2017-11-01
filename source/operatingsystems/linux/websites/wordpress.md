@@ -145,3 +145,56 @@ The next screen is much more personal to your blog and is pretty self explanator
 ![Admin setup](files/wordpress3.png)
 
 From here on out, you're good to go. Wordpress is installed on the domain you specified. Enjoy!
+
+
+## Adding an admin user to Wordpress
+
+In order to add an admin user to wordpress, you will want to access the database for the wordpress site that you are adding the user too.
+
+First, log into MySQL as root by typing:
+
+```bash
+mysql -u root -p
+```
+
+When prompted, enter the root password.
+
+To get a list of databases, type:
+
+```sql
+SHOW DATABASES;
+```
+
+You will need to use the database for the correct site. You can do this by typing:
+
+```sql
+USE DATABASE_NAME
+```
+
+
+Now you are using the correct database, the below text is the code required to add a user. You will want to change the values that have *** 's around them to suit your needs. Leave all the other code untouched:
+
+```sql
+INSERT INTO `wp_users` (`user_login`, `user_pass`, `user_nicename`, `user_email`, `user_status`)
+VALUES ('***newadmin***', MD5('***pass123***'), '***firstname lastname***', '***email@example.com***', '0');
+
+INSERT INTO `wp_usermeta` (`umeta_id`, `user_id`, `meta_key`, `meta_value`)
+VALUES (NULL, (Select max(id) FROM wp_users), 'wp_capabilities', 'a:1:{s:13:"administrator";s:1:"1";}');
+
+INSERT INTO `wp_usermeta` (`umeta_id`, `user_id`, `meta_key`, `meta_value`)
+VALUES (NULL, (Select max(id) FROM wp_users), 'wp_user_level', '10');
+```
+
+The last thing to do is to flush mysql privileges. You can do this by typing the following code into the MySQL shell:
+
+```sql
+FLUSH PRIVILEGES;
+```
+
+The user should now have been added successfully and you should be able to log into this account from your Wordpress admin page.
+
+```eval_rst
+  .. meta::
+     :title: Setting up and configuring Wordpress on Linux and creating admin users.
+     :description:  How to configure wordpress and add admin users on Linux.
+     :keywords: ukfast, wordpress, configuration, users, databases, mysql
