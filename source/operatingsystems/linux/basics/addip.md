@@ -65,3 +65,9 @@ Again, the interface can be brough up with ifup, as so:
 ```bash
    ifup eth0:1
 ```
+
+```eval_rst
+  .. meta::
+     :title: Adding an IP Address | UKFast Documentation
+     :description:  A guide on how to add an IP address in CentOS or Ubuntu
+     :keywords: ukfast, ip, address, netmask, server, linux, centos, ubuntu, network, web, config, configuration
