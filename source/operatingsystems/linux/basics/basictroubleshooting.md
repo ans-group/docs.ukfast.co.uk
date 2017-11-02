@@ -30,3 +30,10 @@ is to use the utility `top`. `top` allows you to view CPU utilisation, Memory us
 percentages to show usage. Load Average is representative of the queue of instructions on the CPU, this should ideally remain below 1.
 
 There are several variations on the `top` utility however those are not covered in this section.
+
+```eval_rst
+  .. meta::
+     :title: Basic troubleshooting for Linux | UKFast Documentation
+     :description:  A guide to troubleshooting basic issues for Linux
+     :keywords: ukfast, linux, troubleshooting, system, server, virtual, vm, performance, errors, tickets, ticket
+```
