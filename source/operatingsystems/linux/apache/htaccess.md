@@ -56,3 +56,10 @@ To use this you then need to add the following to your .htaccess file.
     Require valid-user
   </files>
 ```
+
+
+```eval_rst
+  .. meta::
+     :title: Information and guidance about htaccess | UKFast Documentation
+     :description:  Information and guidance on locking down htaccess on Linux
+     :keywords: ukfast, linux, htaccess, apache, server, virtual, vm, lockdown, IP, site
