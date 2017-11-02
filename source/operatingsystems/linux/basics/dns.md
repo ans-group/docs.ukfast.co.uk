@@ -127,5 +127,5 @@ This queries the A record for bbc.co.uk but specifically queries the nameserver 
 ```eval_rst
   .. meta::
      :title: DNS commands in Linux | UKFast Documentation
-     :description:  A guide on the DNS commands in the Linux OS
+     :description:  A guide to the DNS commands in the Linux OS
      :keywords: ukfast, linux, dns, server, command, ttl, ip, address, dig
