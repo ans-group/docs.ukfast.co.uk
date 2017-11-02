@@ -39,3 +39,10 @@ The atop utility also allows historic server monitoring. To do this you will nee
 ```
 
 This will look the same as the live monitoring but will start from the start of the current log, which is generally midnight of the current day. To step ahead in the log you will need to type `t` which will take you one step ahead in the configured logging period. To take a step backwards, you will need to type `T`. You can also specify a specific time by typing `b` followed by the desired time.
+
+
+```eval_rst
+  .. meta::
+     :title: Monitoring performance with atop | UKFast Documentation
+     :description:  A guide on how to monitor server performance with atop 
+     :keywords: ukfast, server, atop, linux, performance, virtual, vm, activity, historic, monitoring
