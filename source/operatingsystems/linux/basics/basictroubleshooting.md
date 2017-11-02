@@ -35,5 +35,5 @@ There are several variations on the `top` utility however those are not covered 
   .. meta::
      :title: Basic troubleshooting for Linux | UKFast Documentation
      :description:  A guide to troubleshooting basic issues for Linux
-     :keywords:ukfast, linux, troubleshooting, system, server, virtual, vm, performance, errors, tickets, ticket
+     :keywords: ukfast, linux, troubleshooting, system, server, virtual, vm, performance, errors, tickets, ticket
 ```
