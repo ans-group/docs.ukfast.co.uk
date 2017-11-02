@@ -168,7 +168,7 @@ SHOW DATABASES;
 You will need to use the database for the correct site. You can do this by typing:
 
 ```sql
-USE DATABASE_NAME
+USE DATABASE_NAME;
 ```
 
 
