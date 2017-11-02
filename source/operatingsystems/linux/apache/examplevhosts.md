@@ -130,3 +130,9 @@ Contents:
       ProxyTimeout 600
   </VirtualHost>
 ```
+
+```eval_rst
+  .. meta::
+     :title: Example configurations for Apache | UKFast Documentation
+     :description:  Some example configurations for the Apache web server
+     :keywords: ukfast, apache, linux, config, configuration, web, server. virtual, vm, example
