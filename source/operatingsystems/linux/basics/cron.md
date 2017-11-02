@@ -37,3 +37,9 @@ The second part of the cronjob denotes the command to be executed at the given t
 Would run the script at one minute past midnight.
 
 There are [several](http://crontab.guru/) [online](http://www.openjs.com/scripts/jslibrary/demos/crontab.php) [utilites](http://www.cronmaker.com/) that will generate the cronjob for you and most control panels will also have a user friendly interface for the system.
+
+```eval_rst
+  .. meta::
+     :title: Setting cron jobs on Linux | UKFast Documentation
+     :description:  A guide on how to set up cron jobs on Linux
+     :keywords: ukfast, linux, server, cron, jobs, schedule, virtual, vm, cronjob
