@@ -1,9 +1,3 @@
-```eval_rst
-.. meta::
-   :title: Installation and Configuration of Apache | UKFast Documentation
-   :description: Guidance to help you get up and running with Apache 
-```
-
 # Installation/Configuration of Apache
 
 
@@ -125,3 +119,10 @@ The following documents carry on the setup for those particular elements:
 [PHP Installation](../php/installation.html)
 
 [MySQL Installation](../mysql/installation.html)
+
+
+```eval_rst
+  .. meta::
+     :title: Installation and Configuration of Apache | UKFast Documentation
+     :description:  Guidance to help you get up and running with Apache
+     :keywords: ukfast, apache, configuration, php, mysql, virtual, vm, server
