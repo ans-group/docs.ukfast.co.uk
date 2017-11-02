@@ -123,3 +123,9 @@ bbc.co.uk.              191     IN      A       212.58.246.78
 ;; MSG SIZE  rcvd: 102
 ```
 This queries the A record for bbc.co.uk but specifically queries the nameserver 8.8.8.8
+
+```eval_rst
+  .. meta::
+     :title: DNS commands in Linux | UKFast Documentation
+     :description:  A guide to the DNS commands in the Linux OS
+     :keywords: ukfast, linux, dns, server, command, ttl, ip, address, dig
