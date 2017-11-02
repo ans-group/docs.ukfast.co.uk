@@ -123,3 +123,9 @@ It is possible to add the `*` on the end of the `rm -Rf` command; however, we wo
 ```console
 [root@c7 ~]# rm -Rf /root/test
 ```
+
+```eval_rst
+  .. meta::
+     :title: Manipulating files in Linux | UKFast Documentation
+     :description:  A guide to manipulating files on the Linux OS
+     :keywords: ukfast, linux, copy, move, remove, server, virtual, vm, files, directory
