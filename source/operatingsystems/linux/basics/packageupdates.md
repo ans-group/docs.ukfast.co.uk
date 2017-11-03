@@ -286,3 +286,9 @@ This will tell you additional information, such as what packages it depends on, 
    :description: Examples and information on package management functions on CentOS and Ubuntu from UKFast
    :keywords: servers, centos, ubuntu
 ```
+
+```eval_rst
+  .. meta::
+     :title: Managing packages in Linux | UKFast Documentation
+     :description: A guide to adding and managing packages on linux
+     :keywords: ukfast, linux, packages, adding, managing, yum, install, server, virtual, vm
