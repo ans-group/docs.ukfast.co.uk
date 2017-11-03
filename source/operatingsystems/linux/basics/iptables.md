@@ -103,3 +103,9 @@ The individual elements of the above commands are explained below
 
    http://iptabl.es/accept/25
 ```
+
+```eval_rst
+  .. meta::
+     :title: Linux software firewall | UKFast Documentation
+     :description: Information and guidance on using iptables in linux
+     :keywords: ukfast, linux, firewall, iptables, security, software, waf, application, server, virtual, vm
