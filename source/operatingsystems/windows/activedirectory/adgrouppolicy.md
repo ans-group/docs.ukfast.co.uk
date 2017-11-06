@@ -53,3 +53,10 @@ Pop out the `Policies` section located in both the Computer Configuration and Us
 In Both Sections, you will see `All Settings` in the left hand pane, selecting these headings will populate the central view with all of the available Group Policy options for that section as below.
 
 ![All Settings](files/grouppolicy/downloadoption.PNG)
+
+```eval_rst
+  .. meta::
+  :title: ukfast, windows, ad, active, directory, group, policy, objects, server, vm, virtual, management, admin, windowsserver
+  :description:
+  :keywords:
+
