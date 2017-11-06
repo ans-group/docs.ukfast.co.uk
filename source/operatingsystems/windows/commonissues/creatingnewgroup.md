@@ -18,3 +18,8 @@ The New group window should look similar to below
 ![new group](Files/Creategroup/useraddedtonewgroup.png)
 
 Once complete, click "OK" to finalise the creation of this group.
+```eval_rst
+  .. meta::
+  :title:Creating a new group in Computer Management
+  :description:Teaching you how to setup groups within computer managementon a windows server
+  :keywords:ukfast, windows, computer, management, users, groups, server, vm, virtual, cloud, admin
