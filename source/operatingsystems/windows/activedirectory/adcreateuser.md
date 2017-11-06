@@ -33,3 +33,9 @@ You will now be presented with a summary pane as below, please review the detail
 ![Summary](files/newuser/finish.PNG)
 
 * You have now finished the process for creating a Domain User, this process can be repeated for each user that you require.
+
+```eval_rst
+  .. meta::
+     :title: How to Create a User in Active Directory
+     :description: This guide teaches you how to create a new user within Windows Active Directory
+     :keywords: ukfast, windows, active-directory, active, directory, server, vm, user, ad, virtual
