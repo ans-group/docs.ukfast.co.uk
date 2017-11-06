@@ -52,3 +52,9 @@ Describing individual cPanel issues is beyond the scope of a page such as this d
 cPanel maintain exhaustive usage and troubleshooting guides here:
 
 <https://documentation.cpanel.net>
+
+```eval_rst
+  .. meta::
+     :title: Using cPanel on Linux | UKFast Documentation
+     :description: A guide to using cPanel on Linux
+     :keywords: ukfast, server, cpanel, cloud, whm, control, panel, virtual
