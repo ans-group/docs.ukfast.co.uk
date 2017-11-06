@@ -116,3 +116,9 @@ xml
 ```
 
 As you can see this matched two modules.
+
+```eval_rst
+  .. meta::
+     :title: Using the grep command in Linux | UKFast Documentation
+     :description: A guide to using the grep command in the Linux OS
+     :keywords: ukfast, linux, grep, search, server, find, pipe, cloud, centos, virtual
