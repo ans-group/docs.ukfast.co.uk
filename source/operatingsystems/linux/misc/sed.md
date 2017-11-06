@@ -7,3 +7,9 @@ For example if you were to copy a configuration to use for a new site and wanted
 ```bash
   sed 's/ukfast.co.uk/ukfast.net/g' ukfast.co.uk.conf > ukfast.net.conf
 ```
+
+```eval_rst
+  .. meta::
+     :title: Using the SED command in Linux | UKFast Documentation
+     :description: Informationa and guidance on the SED command in Linux
+     :keywords: ukfast, server, linux, sed, command, files, edit, text, editor, cloud
