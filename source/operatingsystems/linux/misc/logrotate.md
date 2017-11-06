@@ -34,3 +34,9 @@ Magento log files:
     notifempty
 }
 ```
+
+```eval_rst
+  .. meta::
+     :title: Log rotations in Linux | UKFast Documentation
+     :description: Information on log rotations in the Linux OS
+     :keywords: ukfast, log, rotate, linux, size, magent, cron, schedule, cloud, virtual
