@@ -30,3 +30,9 @@ Configuration files are located in specific directories for the version you inst
 ```bash
 /etc/php/7.1/
 ```
+
+```eval_rst
+  .. meta::
+     :title: Installing PHP 7 on Ubuntu 14.04 | UKFast Documentation
+     :description: A guide to installing and configuring PHP 7 on Ubuntu 14.04
+     :keywords: ukfast, php, install, ubuntu, fpm, guide, tutorial, configuration, cloud
