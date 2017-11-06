@@ -72,3 +72,9 @@ If your needs require specific tweaks or configurations additions, we suggest th
 
 <http://www.postfix.org/documentation.html>
 >>>>>>> devops/ukfast-docs-external-RickD
+
+```eval_rst
+  .. meta::
+     :title: Using Postfix in Linux | UKFast Documentation
+     :description: A guide to installing and using Postfix in Linux
+     :keywords: ukfast, mail, postfix, linux, install, guide, tutorial, server, virtual, queue
