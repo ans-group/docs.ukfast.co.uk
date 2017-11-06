@@ -171,3 +171,8 @@ Once you have entered the details as demonstrated above, please select Quickconn
 * Your connection is now active and you will be able to move files between the "Remote Site" field, and the "Local Site" field, local site being your workstation, and remote site being your server.
   If you are unable to move files in a particular direction, Please review your permissions for that file and its directory on your FileZilla server, if you are unsure how to do this, please review the steps above on setting permissions.
 
+```eval_rst
+  .. meta::
+  :title: Transferring Files to/from a Server
+  :description: A guide with common errors with uploading files via ftp and remote desktop
+  :keywords:ukfast,windows,ftp,rdp,files,uploading,remote,server,virtual,vm,webserver,website
