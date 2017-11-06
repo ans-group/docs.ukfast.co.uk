@@ -44,3 +44,8 @@ To see information on a domain such as who owns the domain and it's name servers
         ns0.ukfast.co.uk          81.201.128.134
         ns1.ukfast.co.uk          81.201.143.134
 ```
+```eval_rst
+  .. meta::
+     :title: Using the WHOIS command in Linux
+     :description: A guide to use the WHOIS command to find information about a website
+     :keywords: ukfast, linux, server, whois, website, find, registra, virtual, vm
