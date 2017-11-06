@@ -36,3 +36,9 @@ Your new hostname will be reflected instantly, but it will take time for the rev
 
 In a similar vein, it's also recommended to set up an SPF record for your domain. This is covered more in-depth in the following article:
 [Configuring SPF Records](/myukfast/safedns/spf.html)
+
+```eval_rst
+  .. meta::
+     :title: Legitimate mail being blocked | UKFast Documentation
+     :description: Information on legitimate mail being blocked on linux
+     :keywords: ukfast, mail, bounces, blocked, legitimate, dns, spf, ip, address, rdns
