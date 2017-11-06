@@ -126,3 +126,9 @@ The following documents carry on the setup for those particular elements:
 [PHP-FPM Setup](/linux/php/phpfpmsetup.html)
 
 [MySQL Installation](/linux/mysql/installation.html)
+
+```eval_rst
+  .. meta::
+     :title: Installation and configuration of Nginx on Linux | UKFast Documentation
+     :description: A guide to installing and configuring the Nginx web server on Linux
+     :keywords: ukfast, linux, nginx, web, server, configuration, installation, guide, tutorial
