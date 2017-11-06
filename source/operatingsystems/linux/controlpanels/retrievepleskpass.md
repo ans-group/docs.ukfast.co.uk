@@ -19,3 +19,9 @@ To see the pasword in plaintext, use the following command:
 ``#
   /usr/local/psa/bin/admin --show-password
 ``
+
+```eval_rst
+  .. meta::
+     :title: Retrieving Plesh password on Linux | UKFast Documentation
+     :description: A guide to retrieving the Plesk password on Linux
+     :keywords: ukfast, plesk, password, get, retrieve, cloud, server, shadow
