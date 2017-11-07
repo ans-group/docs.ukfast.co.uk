@@ -12,3 +12,9 @@
 ## Logical Structure
 
 ![Exchange Logical Structure](Files/architecture/Logical.png)
+
+```eval_rst
+  .. meta::
+     :title: Exchange 2013 Multi-Server Environment | UKFast Documentation
+     :description: Information on an Exchange 2013 Multi-Server Environment
+     :keywords: ukfast, windows, exchange, multi, server, environment, structure, cloud
