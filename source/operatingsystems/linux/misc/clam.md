@@ -9,3 +9,9 @@ To run a virus scan using the ClamAV toolkit you will use the `clamscan`command.
 ```bash
   clamscan -r -i /home/ > clamresults.txt
 ```
+
+```eval_rst
+  .. meta::
+     :title: Using the CLAM antivirus toolkit on Linux | UKFast Documentation
+     :description: A guide to running a server-wide virus scan on Linux using CLAM
+     :keywords: ukfast, clam, antivirus, scan, security, server, clamscan, clamav

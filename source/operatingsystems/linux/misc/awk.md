@@ -11,3 +11,9 @@ This can be used in conjunction with other commands and more complex commands ca
 ```bash
   grep "`date +%d/%b/%Y`" /var/log/nginx/access.log | awk '{print $1, $6, $7, $11}' | sort | uniq -c | sort -gr | head -n 20
 ```
+
+```eval_rst
+  .. meta::
+     :title: Using the AWK command in Linux | UKFast Documentation
+     :description: A guide on using the AWK command in Linux
+     :keywords: ukfast, awk, command, nginx, search, files, log, cloud, server, virtual

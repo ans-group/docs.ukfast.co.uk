@@ -158,4 +158,10 @@ To resize an `ext` filesystem, run the following - noting the format of `/dev/ma
 [root@ssh ~]# resize2fs /dev/mapper/eCloud-root
 ```
 
-Then confirm that the disk shows the correct size in `df -h`.
+Then confirm that the disk shows the correct size in `df -h`
+
+```eval_rst
+  .. meta::
+     :title: Resizing an additional disk on an eCloud virtual server | UKFast Documentation
+     :description: An intermediate-level guide to resizing an additional disk on an eCloud virtual server
+     :keywords: ukfast, linux, ecloud, cloud, server, disk, drive, resize, format, tutorial

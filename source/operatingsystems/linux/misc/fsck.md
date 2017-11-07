@@ -11,3 +11,9 @@ Once the server has booted you will be logged in as the root user and will be ab
 ```
 
 Once the filesystem check has finished you can then reboot the server. Once the server has booted you should be able to write files to the filesystem.
+
+```eval_rst
+  .. meta::
+     :title: Checking the Linux filesystem for errors | UKFast Documentation
+     :description: A guide to checking for errors on the Linux filesystem
+     :keywords: ukfast, files, filesystem, fsck, boot, data, integrity, cloud, linux

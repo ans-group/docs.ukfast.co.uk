@@ -121,3 +121,9 @@ Change: 2016-08-10 13:15:26.968222080 +0100
 ```
 
 The pm values in the configuration are there mainly to prevent the server from running out of memory; however, on higher servers with higher specification can be set to higher values.
+
+```eval_rst
+  .. meta::
+     :title: Installing and configuration PHP-FPM on Linux | UKFast Documentation
+     :description: A guide to installing and configuration of PHP-FPM on Linux
+     :keywords: ukfast, linux, php, fpm, php-fpm, install, configuration, module, tutorial, guide
