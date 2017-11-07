@@ -507,6 +507,6 @@ After a few seconds it will connect and show you **Connected** status. You can a
 
 ```eval_rst
   .. meta::
-     :title: How to set up a Multi-Protocol VPN Server using SoftEther
+     :title: How to set up a Multi-Protocol VPN Server using SoftEther | UKFast Documentation
      :description: A guide to setting up a VPN server using SoftEther
      :keywords: ukfast, vpn, softether, multi, protocol, server, security
