@@ -23,7 +23,7 @@ You will now be presented with the new user context box, you will need to enter 
 
 ```eval_rst
   .. meta::
-     :title: Creating a new user in a Workgroup | UKFast Documentation
+     :title: Creating a new user in a workgroup | UKFast Documentation
      :description: A guide for creating a new user account on your Windows Server
      :keywords: ukfast, server, windows, manager, user, create, workgroup, administration
 
