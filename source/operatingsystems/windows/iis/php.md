@@ -33,4 +33,8 @@ Once the process has completed, you will be presented with the below confirmatio
 ![PHP in IIS](files/phpinstall/phpmanageriis.PNG)
 
 
-
+```eval_rst
+  .. meta::
+     :title: Installing PHP for use in IIS | UKFast Documentation
+     :description: A guide to installing php for use in IIS
+     :keywords: ukfast, windows, iis, php, install, guide, tutorial, server, net, microsoft
