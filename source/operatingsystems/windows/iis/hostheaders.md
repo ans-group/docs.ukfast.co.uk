@@ -19,4 +19,8 @@ Repeat the above process to create another binding, but this time for a second s
 * You will now see that both of the subdomains are listed in the site bindings using the same port and ip address. Traffic to these sites will now be filtered by the server depending on the address which is being visited by the user.
 
 
-
+```eval_rst
+  .. meta::
+     :title: Configuring Host Headers in IIS | UKFast Documentation
+     :description: A guide to configuring host headers in IIS
+     :keywords: ukfast, cloud, windows, host, headers, iis, web, server, site, tutorial, guide
