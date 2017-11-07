@@ -36,3 +36,9 @@ To save a copy of the console, from the console menu, please select File, and se
 ![Save](files/localpolicyeditor/filesaveas.PNG)
 
 Choose a location for the Console to be saved to, and give it a name which will allow it to be identified in future such as "Group Policy Editor" and select the save button.
+
+```eval_rst
+  .. meta::
+     :title: Accessing Local Group Policy in Windows Server 2016 | UKFast Documentation
+     :description: Instructions on how to accessing Local Group Policy on Windows Server 2016
+     :keywords: ukfast, windows, local, group, policy, 2016, access, use, tutorial, cloud
