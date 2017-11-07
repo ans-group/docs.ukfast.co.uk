@@ -27,3 +27,9 @@ The `SRV` (autodiscover) is a requirement of having an exchange server, this wil
 This `SPF` record ensures your users look to your `SPF` settings for their own. Essentially allowing you to add servers to the solution without them violating the `SPF` policy of your users.
 
 The alternative would be to ask them to update their settings every time there is a change to the servers in the solution. This is cleaner.
+
+```eval_rst
+  .. meta::
+     :title: Exchange DNS | UKFast Documentation
+     :description: Information and guidance on Exchange DNS
+     :keywords: ukfast, windows, exchange, dns, mx, a, spf, record, srv, cloud
