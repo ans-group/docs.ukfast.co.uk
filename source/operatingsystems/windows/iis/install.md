@@ -27,3 +27,9 @@ The installation progress will be displayed in the next window, and will be upda
 ![Install](files/Install/installprogresstrimmed.png)
 
 * Once this step has finished, IIS will be installed.
+
+```eval_rst
+  .. meta::
+     :title: Installing IIS on Windows | UKFast Documentation
+     :description: A guide to installing IIS on Windows
+     :keywords: ukfast, windows, iis, web, domain, server, cloud, features, host
