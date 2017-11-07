@@ -20,6 +20,6 @@ The New group window should look similar to below
 Once complete, click "OK" to finalise the creation of this group.
 ```eval_rst
   .. meta::
-  :title:Creating a new group in Computer Management
-  :description:Teaching you how to setup groups within computer managementon a windows server
-  :keywords:ukfast, windows, computer, management, users, groups, server, vm, virtual, cloud, admin
+     :title: How to create a New Group in Active Directory
+     :description: This guide teaches you how to create a new group within Windows Active Directory
+     :keywords: ukfast, windows, active-directory, active, directory, server, vm, user, ad, virtual
