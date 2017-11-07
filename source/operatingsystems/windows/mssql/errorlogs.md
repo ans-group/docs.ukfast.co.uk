@@ -19,3 +19,9 @@ If you wish to access the logs directly rather than through the MSSQL Management
 ![Manual Logs](Images/errorlogs/logsinexplorer.PNG)
 
 * The majority of the files stored in this directory can be viewed by using a standard text editor such as notepad
+
+```eval_rst
+  .. meta::
+     :title: Reviewing SQL Error Logs | UKFast Documentation
+     :description: A guide to reviewing MSSQL error logs
+     :keywords: ukfast, mssql, windows, error, log, review, database, cloud, server
