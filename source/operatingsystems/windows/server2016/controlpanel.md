@@ -13,3 +13,9 @@ From the menu, please select "Control Panel", you will now be presented with the
 
 * You will notice that there are some differences in the control panel, and that some modules are not present, this is by design, all of the missing modules which you used to find in the control panel are now located in the new "Settings App"
   If you are not familiar with the settings app, please follow our overview which aims to provide you with an introduction to it.
+
+```eval_rst
+  .. meta::
+     :title: Accessing the Control Panel in Windows Server 2016 | UKFast Documentation
+     :description: A guide to accessing and using the Control Panel on Windows 2016
+     :keywords: ukfast, control, panel, windows, 2016, server, cloud, tutorial
