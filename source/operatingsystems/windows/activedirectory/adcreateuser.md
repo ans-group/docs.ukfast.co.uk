@@ -36,6 +36,6 @@ You will now be presented with a summary pane as below, please review the detail
 
 ```eval_rst
   .. meta::
-     :title: How to Create a User in Active Directory
-     :description: This guide teaches you how to create a new user within Windows Active Directory
-     :keywords: ukfast, windows, active-directory, active, directory, server, vm, user, ad, virtual
+     :title: Creating a user in Active Directory
+     :description: A guide to creating a new user in Windows Active Directory
+     :keywords: ukfast, windows, active directory, active, directory, server, vm, user, ad, virtual
