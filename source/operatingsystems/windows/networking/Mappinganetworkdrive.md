@@ -19,3 +19,9 @@ Once you have entered the required information, please select "Finish"
 You should now be presented with the shared drive in "This-PC" or "My Computer", under the drive letter chosen when mapping the drive (in this case A) as below.
 
 ![Mounted](files/networkdrive/mounted.PNG)
+
+```eval_rst
+  .. meta::
+     :title: How to Map a Network Drive | UKFast Documentation
+     :description: A simple guide to mapping a network drive on Windows
+     :keywords: ukfast, windows, network, mapping, drive, share, cloud, server, microsoft
