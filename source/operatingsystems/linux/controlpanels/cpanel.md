@@ -56,5 +56,5 @@ cPanel maintain exhaustive usage and troubleshooting guides here:
 ```eval_rst
   .. meta::
      :title: Using cPanel on Linux | UKFast Documentation
-     :description: A guide to using cPanel on Linux
+     :description: A guide to using the cPanel control panel on Linux servers
      :keywords: ukfast, server, cpanel, cloud, whm, control, panel, virtual
