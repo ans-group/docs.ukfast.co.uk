@@ -158,6 +158,6 @@ If your needs require specific tweaks or configurations additions, we suggest th
 
 ```eval_rst
   .. meta::
-     :title: Using EXIM in Linux | UKFast Documentation
-     :description: A guide to using EXIM in Linux
+     :title: Using EXIM on Linux | UKFast Documentation
+     :description: A guide to using the EXIM mail transfer agent on Linux servers
      :keywords: ukfast, linux, mail, exim, guide, tutorial, sql, cloud
