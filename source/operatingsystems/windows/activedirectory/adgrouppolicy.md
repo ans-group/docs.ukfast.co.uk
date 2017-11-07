@@ -56,7 +56,7 @@ In Both Sections, you will see `All Settings` in the left hand pane, selecting t
 
 ```eval_rst
   .. meta::
-  :title: Creating Group Policy Objects in Active Directory | UKFast Documentation
-  :description: A guide to creating Group Policy Objects in Windows Active Directory
-  :keywords: ukfast, windows, ad, active, directory, group, policy, objects, server, vm, virtual, management, admin, windowsserver
+     :title: Creating Group Policy Objects in Active Directory | UKFast Documentation
+     :description: A guide to creating Group Policy Objects in Windows Active Directory
+     :keywords: ukfast, windows, ad, active, directory, group, policy, objects, server, vm, virtual, management, admin, windows server
 
