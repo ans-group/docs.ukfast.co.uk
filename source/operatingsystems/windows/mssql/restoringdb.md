@@ -21,3 +21,9 @@ Now Select "OK" and the restore process will start, once completed a prompt will
 ![Restore complete](Images/restoredb/databaserestored.PNG)
 
 * The Restore process is now complete.
+
+```eval_rst
+  .. meta::
+     :title: Restoring an MMSQL Database from backup | UKFast Documentation
+     :description: A guide to restoring an MSSQL Database from a backup
+     :keywords: ukfast, windows, mssql, sql, database, restore, backup, cloud, server
