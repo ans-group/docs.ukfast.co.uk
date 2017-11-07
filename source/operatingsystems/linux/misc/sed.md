@@ -11,5 +11,5 @@ For example if you were to copy a configuration to use for a new site and wanted
 ```eval_rst
   .. meta::
      :title: Using the SED command in Linux | UKFast Documentation
-     :description: Informationa and guidance on the SED command in Linux
+     :description: Information and guidance on using the SED command to edit text files in Linux
      :keywords: ukfast, server, linux, sed, command, files, edit, text, editor, cloud
