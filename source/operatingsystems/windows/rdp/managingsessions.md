@@ -15,3 +15,9 @@ You will now be able to view a list of currently connected users as below, right
 * Disconnect - Disconnect the users session. This will leave all of their applications/documents open but will force the users remote desktop session to close on their screen.
 * Sign Off - Disconnects the users session, closes all open applications/documents and logs the user off.
 * Remote Control - Allows you to share a remote desktop session with this user. The user will be prompted to accept your request before sharing begins.
+
+```eval_rst
+  .. meta::
+     :title: Managing Remote Desktop Sessions | UKFast Documentation
+     :description: A guide on managing remote desktop connections on Windows
+     :keywords: ukfast, windows, remote, deskop, connection, manage, user, cloud, server
