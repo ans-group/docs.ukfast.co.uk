@@ -148,3 +148,9 @@ The Update and Security Category contains the following important sections
 * Windows Defender ( Allows you to launch Windows Defender aswell as set protection options and make exclusions)
 
 ![Windows Defender](files/settingsapp/update/windowsdefender.PNG)
+
+```eval_rst
+  .. meta::
+     :title: The new Settings app in Windows | UKFast Documentation
+     :description: An in-depth guide to using the new Settings app in Windows 10
+     :keywords: ukfast, windows, settings, app, new, server, administration, tutorial, guide
