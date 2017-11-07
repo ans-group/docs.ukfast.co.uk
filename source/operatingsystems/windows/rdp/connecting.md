@@ -105,3 +105,8 @@ Once you have carried out one of the above actions, your Remote Desktop session 
 
 * Your connection should now be formed, and you should be presented with the desktop of your server, if you are not, please check that you have entered the correct settings for your remote server.
 
+```eval_rst
+  .. meta::
+     :title: Connecting to a Windows server via Remote Desktop | UKFast Documentation
+     :description: A guide on how to connect to a Windows server via Remote Desktop
+     :keywords: ukfast, windows, connect, rdp, remote, desktop, connection, server, cloud
