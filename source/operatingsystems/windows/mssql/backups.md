@@ -22,3 +22,8 @@ The Backup Options window which is shown below, allows you to set several second
 
 * Your backup will now begin, and you will be presented with a confirmation once it has completed. You will now be able to retrieve the backup from the location which you specified while configuring the backup.
 
+```eval_rst
+  .. meta::
+     :title: Creating MSSQL Backups | UKFast Documentation
+     :description: A guide to backing up MSSQL databases
+     :keywords: ukfast, backup, mssql, database, create, tutorial, guide, cloud, server
