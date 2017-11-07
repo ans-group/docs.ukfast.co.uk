@@ -14,3 +14,9 @@ Within this pane, the first option `Open File Explorer to:` needs to be changed,
 Now Launch a new instance of File Explorer by selecting the Explorer (Folder) icon from the taskbar, and you will find that the familiar "This-PC" window will now be launched as below
 
 ![This-PC](files/explorer/thispcopen.PNG)
+
+```eval_rst
+  .. meta::
+     :title: How to Set "This-PC" as the default File Explorer location in Windows server 2016 | UKFast Documentation
+     :description: Instructions on how to set "This-PC" as the default file explorer location on Windows Server 2016
+     :keywords: ukfast, file, explorer, change, default, location, windows, tutorial, cloud
