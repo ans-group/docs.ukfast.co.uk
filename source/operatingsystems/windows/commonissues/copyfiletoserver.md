@@ -175,4 +175,4 @@ Once you have entered the details as demonstrated above, please select Quickconn
   .. meta::
   :title: Transferring Files to/from a Server | UKFast Documentation
   :description: A guide with common errors with uploading files via ftp and remote desktop
-  :keywords:ukfast, windows, ftp, rdp, files, uploading, remote, server, virtual, vm, webserver, website
+  :keywords: ukfast, windows, ftp, rdp, files, uploading, remote, server, virtual, vm, webserver, website
