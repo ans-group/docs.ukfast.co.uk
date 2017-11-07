@@ -91,3 +91,9 @@ If you receive the above, this test is successful
 If you receive the above, this test is successful
 
 * You can now reconfigure your application to use the IP addresses of the crossover connection to tranfer your data via this link
+
+```eval_rst
+  .. meta::
+     :title: Using a crossover connection on Windows | UKFast Documentation
+     :description: An in-depth guide to using a crossover connection on Windows
+     :keywords: ukfast, network, crossover, connection, configure, tutorial, guide, server, cloud
