@@ -75,6 +75,6 @@ If your needs require specific tweaks or configurations additions, we suggest th
 
 ```eval_rst
   .. meta::
-     :title: Using Postfix in Linux | UKFast Documentation
-     :description: A guide to installing and using Postfix in Linux
+     :title: Using Postfix on Linux | UKFast Documentation
+     :description: A guide to installing and using the Postfix mail transfer agent on Linux servers
      :keywords: ukfast, mail, postfix, linux, install, guide, tutorial, server, virtual, queue
