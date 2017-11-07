@@ -21,4 +21,4 @@ You will now be presented with the "New Object - Group" window as below, in this
   .. meta::
   :title: How to Create a Group in Active Directory
   :description: This guide teaches you how to create a group in Windows Active Directory
-  :keywords:ukfast, windows, guide, ad, active-directory, group, active, directory, vm, virtual, server, admin, adgroup, management
+  :keywords: ukfast, windows, guide, ad, active-directory, group, active, directory, vm, virtual, server, admin, adgroup, management
