@@ -33,3 +33,9 @@ For an explanation of the different roles and their functions, please visit the 
 * Once you are happy with your choices, please select ok to create your user, you will now be returned to the MSSQL Management Studio, and you should be able to see your new user in the users list for your database as below
 
 ![New User](Images/createuser/uservisible.PNG)
+
+```eval_rst
+  .. meta::
+     :title: How to create a Microsoft SQL Server Database User | UKFast Documentation
+     :description: A guide to creating a MSSQL Server Database User
+     :keywords: ukfast, database, mssql, sql, windows, user, microsoft, server, cloud, tutorial
