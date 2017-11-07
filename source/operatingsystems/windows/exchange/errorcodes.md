@@ -47,3 +47,9 @@ The results:
 
   Default Frontend CLIENT-ACCESS                              Unlimited
 ```
+
+```eval_rst
+  .. meta::
+     :title: Error Codes in Exchange | UKFast Documentation
+     :description: Information on error codes in Exchange
+     :keywords: ukfast, windows, exchange, error, codes, diagnose, cloud, server
