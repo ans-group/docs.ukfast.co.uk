@@ -13,3 +13,9 @@ netsh interface ipv4 add address [network connection name] [ip address] [subnet 
 ```console
 netsh interface ipv4 add address "Local Area Connection" 172.31.0.0 255.255.255.0 skipassource=true
 ```
+
+```eval_rst
+  .. meta::
+     :title: Add an IP using Skip As Source | UKFast Documentation
+     :description: A guide to adding an IP using skip as source in Windows
+     :keywords: ukfast, windows, ip, address, information, skip, source, add, interface, cloud, server
