@@ -37,3 +37,9 @@ Once you are happy that the details are correct, please select "Ok". You will no
 
 * Your new site is now added to IIS and is ready to accept connections once the required content has been added, and the appropriate changes have been made in DNS.
 
+
+```eval_rst
+  .. meta::
+     :title: Setting up your first site in IIS | UKFast Documentation
+     :description: A guide to setting up a website in IIS
+     :keywords: ukfast, windows, iis, web, site, setup, tutorial, guide, config
