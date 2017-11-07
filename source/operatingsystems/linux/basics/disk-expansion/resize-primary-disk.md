@@ -88,5 +88,5 @@ Following this, you can use the instructions in [add an additional disk](add-dis
 ```eval_rst
   .. meta::
      :title: Resizing the primary disk on an eCloud virtual server | UKFast Documentation
-     :description: A guide to resizing the primary disk on an eCloud virtual server
+     :description: An advanced-level guide to resizing the primary disk on an eCloud virtual server
      :keywords: ukfast, ecloud, cloud, disk, drive, resize, primary, server, virtual, linux
