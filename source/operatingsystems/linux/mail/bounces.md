@@ -1,6 +1,6 @@
 # Legitimate Mail Being Blocked
 
-In most cases this is attributable to a lack of FCrDNS (<http://en.wikipedia.org/wiki/Forward-confirmed_reverse_DNS>). Without this set up, a lot of remote mail servers will likely see mail sent from your server as spam.
+If you find that legitimate mail you send is being blocked, in many cases this is attributable to a lack of [FCrDNS](http://en.wikipedia.org/wiki/Forward-confirmed_reverse_DNS). Without this set up, a lot of remote mail servers will likely see mail sent from your server as spam.
 
 ```eval_rst
 .. note::
@@ -9,7 +9,7 @@ In most cases this is attributable to a lack of FCrDNS (<http://en.wikipedia.org
 ```
 
 
-Setting this up in a standards compliant way is fairly easy, there's two main steps:
+Setting up FCrDNS in a standards-compliant way is fairly easy, with two main steps:
 
 * Give your server a hostname that resolves to an IP on the server
 * Configure your rDNS record for that IP to the same as the server hostname.
@@ -26,15 +26,15 @@ How you set your hostname varies from operating system to operating system, and 
 Reverse-DNS is a system which lets you define what hostname an IP address resolves to. Your server will have an IP address and, by default, will reverse-resolve to `ip.ip.ip.ip.srvlist.ukfast.net`. It's important to set you hostname to something that does not contain an IP address, as the default does.
 
 
-To configure it, you'll need to first log into your MyUKFast client area and head over to the server page in question, where you should be confronted with something like this:
+To configure it, log in to [MyUKFast](https://my.ukfast.co.uk) and go to the server in question, where you will see a page like this:
 
 ![Reverse DNS](files/rdns.png)
 
-In the field highlighted, enter the hostname you chose earlier and press `Update`.
+In the `rDNS` field, enter the hostname you chose earlier and press `Update`.
 
-Your new hostname will be reflected instantly, but it will take time for the reverse-DNS to propagate - usually 24 hours - so give it time before checking everything is in place.
+Your new hostname will be reflected instantly, but it will take time for the reverse-DNS to propagate across the internet - up to 48 hours - so give it time before checking everything is in place.
 
-In a similar vein, it's also recommended to set up an SPF record for your domain. This is covered more in-depth in the following article:
+In a similar vein, it's also recommended you set up an SPF record for your domain. This is covered in more in-depth in
 [Configuring SPF Records](/myukfast/safedns/spf.html)
 
 ```eval_rst
