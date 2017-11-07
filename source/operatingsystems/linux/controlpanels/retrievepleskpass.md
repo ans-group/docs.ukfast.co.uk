@@ -22,6 +22,6 @@ To see the pasword in plaintext, use the following command:
 
 ```eval_rst
   .. meta::
-     :title: Retrieving Plesh password on Linux | UKFast Documentation
-     :description: A guide to retrieving the Plesk password on Linux
+     :title: Retrieving your Plesk password on Linux | UKFast Documentation
+     :description: A guide to retrieving your Plesk password on Linux servers
      :keywords: ukfast, plesk, password, get, retrieve, cloud, server, shadow
