@@ -19,6 +19,6 @@ You should now be taken back to the user properties "Member Of" window, which wi
 Check that all of the required groups are present, and select "Apply" to complete the process.
 ```eval_rst
   .. meta::
-  :title:Configuring user permissions in Windows Server
-  :description:A guide teaching the user how to update user permissions in windows server.
-  :keywords:ukfast, windows, server, user, permissions, computer, management, virtual, vm, dedicated, applications, security
+     :title: Configuring user permissions in Windows Server | UKFast Documentation
+     :description: A guide teaching the user how to update user permissions in windows server.
+     :keywords: ukfast, windows, server, user, permissions, computer, management, virtual, vm, dedicated, applications, security
