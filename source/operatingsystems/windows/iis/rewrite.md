@@ -38,3 +38,9 @@ You will now be presented with the URL rewrite module as below, over to the righ
 
 * The URL Rewrite module requires rules to be written for each function you wish to carry out, a guide on how to write these rules can be found at the link below which explains the various different functions and how to implement them.
 [How to Write URL Rewrite Rules](https://www.iis.net/learn/extensions/url-rewrite-module/creating-rewrite-rules-for-the-url-rewrite-module)
+
+```eval_rst
+  .. meta::
+     :title: IIS URL Rewrite module | UKFast Documentation
+     :description: A guide to installing and using the IIS URL rewrite module on Windows
+     :keywords: ukfast, windows, iis, web, module, rewrite, install, tutorial, guide
