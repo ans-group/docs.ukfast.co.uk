@@ -116,6 +116,6 @@ Use the commands below.
 
 ```eval_rst
   .. meta::
-     :title: MySQL Command Line basics | UKFast Documentation
-     :description: A guide to the basics of using the MySQL command line in Linux
+     :title: MySQL command line basics | UKFast Documentation
+     :description: A basic guide to using the MySQL command line in Linux
      :keywords: ukfast, mysql, database, command, line, basics, tutorial, guide, linux, centos
