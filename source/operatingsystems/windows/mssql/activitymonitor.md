@@ -21,3 +21,9 @@ From this view, please select your instance (in this case named WINDOWS2012R2\SQ
 You will now be presented with the SQL Server Activity Monitor which will provide you with a selection of performance related information. You can use this to identify any performance issues and find the root cause of those issues.
 
 ![Activity Monitor](Images/activitymonitor/activitymonitor.PNG)
+
+```eval_rst
+  .. meta::
+     :title: Viewing Microsoft SQL Activity Monitor | UKFast Documentation
+     :description: A guide to viewing the MSSQL activity monitor
+     :keywords: ukfast, windows, mssql, database, activity, monitor, tutorial, cloud, server
