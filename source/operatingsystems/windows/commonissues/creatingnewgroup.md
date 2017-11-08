@@ -18,3 +18,8 @@ The New group window should look similar to below
 ![new group](Files/Creategroup/useraddedtonewgroup.png)
 
 Once complete, click "OK" to finalise the creation of this group.
+```eval_rst
+  .. meta::
+     :title: How to create a New Group in Active Directory
+     :description: This guide teaches you how to create a new group within Windows Active Directory
+     :keywords: ukfast, windows, active-directory, active, directory, server, vm, user, ad, virtual

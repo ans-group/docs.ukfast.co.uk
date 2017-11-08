@@ -17,3 +17,8 @@ You should now be taken back to the user properties "Member Of" window, which wi
 ![Member of with new group/s](Files/Permissions/propertiesmemberof.png)
 
 Check that all of the required groups are present, and select "Apply" to complete the process.
+```eval_rst
+  .. meta::
+     :title: Configuring user permissions in Windows Server | UKFast Documentation
+     :description: A guide to updating user permissions in Windows Server.
+     :keywords: ukfast, windows, server, user, permissions, computer, management, virtual, vm, dedicated, applications, security

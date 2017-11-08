@@ -63,3 +63,9 @@ You should also submit an outlook.com sender information form [here](https://sup
 Once you have completed those steps you will need to email microsoft to greylist your IP (or range) at delist@messaging.microsoft.com. Office365 also has a delist page [here](https://sender.office.com/).
 
 The process can take up to a week, however it usually is done in under 24 hours.
+
+```eval_rst
+  .. meta::
+     :title: Basics of mail on Linux | UKFast Documentation
+     :description: A guide to the basics of mail on Linux
+     :keywords: ukfast, mail, basics, config, dns, spf, mx, blacklist, hotmail, live

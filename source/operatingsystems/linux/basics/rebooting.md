@@ -36,3 +36,9 @@ If you do find yourself in this situation, you can always send your server down 
 ```console
    echo b > /proc/sysrq-trigger
 ```
+
+```eval_rst
+  .. meta::
+     :title: Rebooting your Linux server | UKFast Documentation
+     :description: A guide to rebooting a linux server
+     :keywords: ukfast, reboot, linux, server, virtual, vm, shutdown, rebooting

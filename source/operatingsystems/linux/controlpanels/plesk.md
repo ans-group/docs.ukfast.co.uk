@@ -25,3 +25,9 @@ Odin maintain exhaustive usage and troubleshooting guides here:
 
 <https://docs.plesk.com/>
 <https://kb.plesk.com/>
+
+```eval_rst
+  .. meta::
+     :title: Using Plesk on Linux | UKFast Documentation
+     :description: A guide to using the Plesk control panel on Linux servers
+     :keywords: ukfast, plesk, control, panel, tutorial, cloud, server, guide, virtual

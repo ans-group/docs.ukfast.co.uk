@@ -366,5 +366,5 @@ As you can see, this gave us a different response. The reason for this is that t
 ```eval_rst
   .. meta::
      :title: Network diagnostic tools on Linux | UKFast Documentation
-     :description: A guide to using network diagnostic tools in linux
-     :keywords: ukfast, linux, server, network, diagnostics, tools, virtual, vm
+     :description: A guide to using network diagnostic tools in the Linux OS
+     :keywords: ukfast, network, diagnostic, netstat, lsof, linux, telnet, ping
