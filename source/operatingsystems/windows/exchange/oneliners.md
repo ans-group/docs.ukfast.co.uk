@@ -51,3 +51,9 @@ List the size of a mailbox and the number of messages::
   }
   $array | export-csv C:\contoso.com.csv -notypeinformation  
 ```
+
+```eval_rst
+  .. meta::
+     :title: Exchange Powershell Quick Commands | UKFast Documentation
+     :description: Some quick commands to use in Powershell for Exchange
+     :keywords: ukfast, windows, exchange, powersell, quick, command, one, liner, output, cloud, server, virtual
