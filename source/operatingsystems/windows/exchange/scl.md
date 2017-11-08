@@ -16,3 +16,9 @@ You can set the SCL on your Exchange server mailboxes using the below command
 * The `-SCLRejectThreshold 9` parameter denotes the SCL rating at which mail is outright rejected by the mail server.
 
 These values should be adjusted to your preference before running the command although the values using in our demonstration are a good starting point.
+
+```eval_rst
+  .. meta::
+     :title: Spam Confidence Level | UKFast Documentation
+     :description: Information on the Microsoft Spam Confidence Level for Exchange
+     :keywords: ukfast, windows, exchange, spam, confidence, level, scl, microsoft, block, junk, cloud, server, virtual
