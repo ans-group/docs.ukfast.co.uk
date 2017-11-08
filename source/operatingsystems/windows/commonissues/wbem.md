@@ -35,4 +35,8 @@ Once all of the required files have finished moving to their new directory, retu
 * Once you have completed the above steps, please reboot the server to initiate the rebuild of the repository. if everything is working as expected, you can now navigate to the wbem folder, and delete the "reposold" folder
   If you experience issues, please navigate back to wbem, and copy the contents of "reposold" back in to the wbem folder.
 
-
+```eval_rst
+  .. meta::
+     :title: Cleaning the WBEM Repository | UKFast Documentation
+     :description: Instructions and Information on cleaning the WBEM Repository on Windows
+     :keywords: ukfast, windows, wbem, clean, remove, repository, directory, folder, guide, cloud, tutorial
