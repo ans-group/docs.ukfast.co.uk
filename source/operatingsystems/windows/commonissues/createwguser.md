@@ -20,3 +20,11 @@ You will now be presented with the new user context box, you will need to enter 
 ![create user](Files/Createuser/creatingusercropped.png)
 
 * Once you have entered the required information, click ok. and your new user has now been created.
+
+```eval_rst
+  .. meta::
+     :title: Creating a new user in a workgroup | UKFast Documentation
+     :description: A guide for creating a new user account on your Windows Server
+     :keywords: ukfast, server, windows, manager, user, create, workgroup, administration
+
+
