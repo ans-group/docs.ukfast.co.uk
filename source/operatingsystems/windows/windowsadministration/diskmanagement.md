@@ -56,3 +56,9 @@ You will be returned to the Disk Management console, where you will see that Par
 ![Space Added](Images/diskmanagement/diskmanwithspaceadded.PNG)
 
 The additional space is now usable.
+
+```eval_rst
+  .. meta::
+     :title: Windows Disk Management | UKFast Documentation
+     :description: Information on managing disks in Windows
+     :keywords: ukfast, disk, drive, management, windows, cloud, tutorial, guide, server
