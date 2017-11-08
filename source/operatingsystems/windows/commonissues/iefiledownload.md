@@ -27,3 +27,9 @@ Select OK and attempt to download your required file.
 ## In Windows Server 2016
 
 * No Action is required in Windows Server 2016 as file downloads are enabled by default in Internet Explorer.
+
+```eval_rst
+  .. meta::
+     :title: How to enable file download in Internet Explorer on a Windows Server | UKFast Documentation
+     :description: A guide on enabling downloads in Internet Explorer on a Windows Server
+     :keywords: ukfast, windows, download, internet, explorer, iex, server, cloud, enable, tutorial
