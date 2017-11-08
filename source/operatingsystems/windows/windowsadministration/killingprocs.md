@@ -41,3 +41,9 @@ For example (By Name) `taskkill /f /im chrome.exe` as below or (By PID) `taskkil
 
 [Taskkill](https://technet.microsoft.com/en-us/library/bb491009.aspx)
 
+
+```eval_rst
+  .. meta::
+     :title: How to Forcibly end a process in Windows | UKFast Documentation
+     :description: Information and guidance to killing a process in Windows
+     :keywords: ukfast, windows, kill, stop, process, performance, task, cloud, server
