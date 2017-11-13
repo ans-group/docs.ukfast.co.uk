@@ -68,6 +68,6 @@ To remove the Tile Pad, you simply need to unpin all of the tiles from the pad, 
 
 ```eval_rst
   .. meta::
-     :title: How to customise the Start Menu Tile Pad in Windows | UKFast Documentation
-     :description: Instructions and information on customising the start menu tile pad on Windows Server 2016
-     :keywords: ukfast, windows, start, customise, tile, pad, cloud, tutorial
+     :title: Start Menu in Windows Server 2016 | UKFast Documentation
+     :description: A guide to customising the Start Menu tile pad in Windows Server 2016
+     :keywords: ukfast, windows, start, customise, tile, pad, cloud, tutorial, server, 2016
