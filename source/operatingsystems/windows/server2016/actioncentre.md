@@ -16,6 +16,6 @@ If you wish to view more information about a notification, simply select it, and
 
 ```eval_rst
   .. meta::
-     :title: Action Centre in Windows 2016 | UKFast Documentation
-     :description: Information on the new Action Centre in Windows server 2016
-     :keywords: ukfast, windows, new, action, centre, notification, cloud, tutorial
+     :title: Action Centre in Windows Server 2016 | UKFast Documentation
+     :description: Information on the new Action Centre in Windows Server 2016
+     :keywords: ukfast, windows, windows server 2016, new, action, centre, notification, cloud, tutorial
