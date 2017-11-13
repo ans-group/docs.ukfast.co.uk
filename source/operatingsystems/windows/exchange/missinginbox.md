@@ -27,6 +27,6 @@ If this does not work,you will need the following:
 
 ```eval_rst
   .. meta::
-     :title: Missing Inboxes in Exchange | UKFast Documentation
-     :description: Instructions on what to do with missing inbox.
+     :title: Missing inbox in Microsoft Exchange | UKFast Documentation
+     :description: Guidance on resolving a missing inbox or other folders in Microsoft Exchange
      :keywords: ukfast, exchange, missing, inbox, outlook, cloud, account, server
