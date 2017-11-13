@@ -106,6 +106,6 @@ Now select "OK" and you will be returned to the "W3C Logging Fields" pane, where
 
 ```eval_rst
   .. meta::
-     :title: How to configure X-Forwarded-For (XFF) in IIS | UKFast Documentation
-     :description: A guide to configuring XFF in IIS on Windows
+     :title: X-Forwarded-For (XFF) in IIS | UKFast Documentation
+     :description: A guide to configuring XFF in IIS on Windows Server
      :keywords: ukfast, windows, xff, forward, configure, tutorial, cloud, guide, web
