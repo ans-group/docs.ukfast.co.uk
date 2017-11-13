@@ -19,6 +19,6 @@ You can test your hosts file is working by running a ping against the domain in 
 
 ```eval_rst
   .. meta::
-     :title: Testing Websites on Windows | UKFast Documentation
-     :description: Information on testing websites on Windows
+     :title: Testing websites on Windows | UKFast Documentation
+     :description: Information on testing websites on Windows by modifying the hosts file
      :keywords: ukfast, windows, testing, websites, cloud, server, web, tutorial, guide
