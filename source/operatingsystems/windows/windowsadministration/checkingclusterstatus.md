@@ -37,6 +37,6 @@ Select "Move" from the resultant context menu, then select the desired node whic
 
 ```eval_rst
   .. meta::
-     :title: Checking Windows Cluster Status | UKFast Documentation
+     :title: Checking cluster status in Windows | UKFast Documentation
      :description: Instructions on how to check the status of a Windows cluster
      :keywords: ukfast, windows, cluster, check, status, hsots, server, cloud, virtual, active
