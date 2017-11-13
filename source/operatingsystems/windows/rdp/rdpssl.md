@@ -87,6 +87,6 @@ The start menu has been re-designed in Windows Server 2016, please view the belo
 
 ```eval_rst
   .. meta::
-     :title: Encrypt RDP traffic using and SSL certificate | UKFast Documentation
+     :title: Encrypting Remote Desktop traffic using SSL | UKFast Documentation
      :description: Instructions on how to encrypt RDP traffic using an SSL certificate
      :keywords: ukfast, remote, desktop, windows, encrypt, ssl, securuty, cloud, server
