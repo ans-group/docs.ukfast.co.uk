@@ -24,6 +24,6 @@ The Backup Options window which is shown below, allows you to set several second
 
 ```eval_rst
   .. meta::
-     :title: Creating MSSQL Backups | UKFast Documentation
-     :description: A guide to backing up MSSQL databases
-     :keywords: ukfast, backup, mssql, database, create, tutorial, guide, cloud, server
+     :title: Creating Microsoft SQL Server backups | UKFast Documentation
+     :description: A guide to backing up Microsoft SQL Server databases
+     :keywords: ukfast, backup, mssql, microsoft, sql server, database, create, tutorial, guide, cloud, server
