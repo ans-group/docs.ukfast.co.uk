@@ -15,6 +15,6 @@
 
 ```eval_rst
   .. meta::
-     :title: Exchange 2013 Multi-Server Environment | UKFast Documentation
-     :description: Information on an Exchange 2013 Multi-Server Environment
-     :keywords: ukfast, windows, exchange, multi, server, environment, structure, cloud
+     :title: Microsoft Exchange 2013 Multi-Server Environment | UKFast Documentation
+     :description: Designing a high availability Microsoft Exchange 2013 Multi-Server environment
+     :keywords: ukfast, windows, microsoft, exchange, multi, server, environment, structure, cloud
