@@ -24,6 +24,6 @@ Now Select "OK" and the restore process will start, once completed a prompt will
 
 ```eval_rst
   .. meta::
-     :title: Restoring an MMSQL Database from backup | UKFast Documentation
-     :description: A guide to restoring an MSSQL Database from a backup
-     :keywords: ukfast, windows, mssql, sql, database, restore, backup, cloud, server
+     :title: Restoring a Microsoft SQL Server database from backup | UKFast Documentation
+     :description: How to restore a Microsoft SQL Server database from a backup
+     :keywords: ukfast, windows, mssql, sql, sql server, microsoft, database, restore, backup, cloud, server
