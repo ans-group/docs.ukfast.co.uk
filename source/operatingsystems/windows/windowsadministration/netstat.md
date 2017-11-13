@@ -41,6 +41,6 @@ Find the the pid of the program for which you are trying to find the correspondi
 
 ```eval_rst
   .. meta::
-     :title: Using the Netstat command to find port information | UKFast Documentation
-     :description: A guide to using the netstat command to find port informaton on Windows
+     :title: Finding port information with Netstat | UKFast Documentation
+     :description: A guide to using the Netstat command to find port informaton in Windows Server
      :keywords: ukfast, windows, network, netstat, port, find, tutorial, cloud, server
