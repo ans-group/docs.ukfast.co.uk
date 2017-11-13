@@ -151,6 +151,6 @@ The Update and Security Category contains the following important sections
 
 ```eval_rst
   .. meta::
-     :title: The new Settings app in Windows | UKFast Documentation
-     :description: An in-depth guide to using the new Settings app in Windows 10
-     :keywords: ukfast, windows, settings, app, new, server, administration, tutorial, guide
+     :title: Settings in Windows Server 2016 | UKFast Documentation
+     :description: An in-depth guide to using Settings in Windows Server 2016
+     :keywords: ukfast, windows, settings, app, new, server, administration, tutorial, guide, 2016
