@@ -64,6 +64,6 @@ Your permissions will now be applied.
 
 ```eval_rst
   .. meta::
-     :title: Creating Appropriate Permissions | UKFast Documentation
-     :description: Information and instructions on creating appropriate file permissions on Windows
+     :title: Creating file permissions | UKFast Documentation
+     :description: Guidance on creating appropriate file permissions in Windows
      :keywords: ukfast, windows, file, permissions, appropriate, change, cloud, server, guide, tutorial
