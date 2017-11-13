@@ -53,6 +53,6 @@ This is what you’ll see if the packet size you are attempting to transmit is t
 
 ```eval_rst
   .. meta::
-     :title: How to Enable Jumbo Frames on Windows | UKFast Documentation
-     :description: Guidance for enabling and configuring Jumbo Frames on Windows
+     :title: How to enable jumbo frames on Windows | UKFast Documentation
+     :description: Guidance for enabling and configuring jumbo frames on Windows
      :keywords: ukfast, enable, jumbo, frames, tutorial, configuration, guide, server, cloud
