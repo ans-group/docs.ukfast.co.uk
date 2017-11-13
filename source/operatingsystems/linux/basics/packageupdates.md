@@ -290,5 +290,5 @@ This will tell you additional information, such as what packages it depends on, 
 ```eval_rst
   .. meta::
      :title: Managing packages in Linux | UKFast Documentation
-     :description: A guide to adding and managing packages on linux
+     :description: A guide to adding and managing packages in Linux
      :keywords: ukfast, linux, packages, adding, managing, yum, install, server, virtual, vm
