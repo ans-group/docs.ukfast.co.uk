@@ -17,6 +17,6 @@ Now Launch a new instance of File Explorer by selecting the Explorer (Folder) ic
 
 ```eval_rst
   .. meta::
-     :title: How to Set "This-PC" as the default File Explorer location in Windows server 2016 | UKFast Documentation
-     :description: Instructions on how to set "This-PC" as the default file explorer location on Windows Server 2016
-     :keywords: ukfast, file, explorer, change, default, location, windows, tutorial, cloud
+     :title: Default File Explorer location in Windows Server 2016 | UKFast Documentation
+     :description: Instructions on how to set "This-PC" as the default File Explorer location in Windows Server 2016
+     :keywords: ukfast, file, explorer, change, default, location, windows, tutorial, cloud, server, 2016
