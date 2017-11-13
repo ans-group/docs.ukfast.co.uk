@@ -24,6 +24,6 @@ You will now be presented with the SQL Server Activity Monitor which will provid
 
 ```eval_rst
   .. meta::
-     :title: Viewing Microsoft SQL Activity Monitor | UKFast Documentation
-     :description: A guide to viewing the MSSQL activity monitor
-     :keywords: ukfast, windows, mssql, database, activity, monitor, tutorial, cloud, server
+     :title: Microsoft SQL Server Activity Monitor | UKFast Documentation
+     :description: Viewing the Microsoft SQL Server activity monitor
+     :keywords: ukfast, windows, mssql, sql server, microsoft, database, activity, monitor, tutorial, cloud, server
