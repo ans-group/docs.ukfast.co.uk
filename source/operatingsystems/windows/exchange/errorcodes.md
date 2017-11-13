@@ -50,6 +50,6 @@ The results:
 
 ```eval_rst
   .. meta::
-     :title: Error Codes in Exchange | UKFast Documentation
-     :description: Information on error codes in Exchange
+     :title: Microsoft Exchange error codes | UKFast Documentation
+     :description: Information on common error codes in Microsoft Exchange
      :keywords: ukfast, windows, exchange, error, codes, diagnose, cloud, server
