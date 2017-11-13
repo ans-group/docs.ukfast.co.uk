@@ -43,6 +43,6 @@ This window denotes how frequently your maintenance plan will run. please config
 
 ```eval_rst
   .. meta::
-     :title: Creating an MSSQL Maintenance Plan | UKFast Documentation
-     :description: A guide to creating an MSSQL maintenance plan
-     :keywords: ukfast, mssql, database, create, maintenance, plan, tutorial, guide, cloud, server
+     :title: Microsoft SQL Server maintenance planning | UKFast Documentation
+     :description: A guide to creating a Microsoft SQL Server maintenance plan
+     :keywords: ukfast, mssql, sql server, database, create, maintenance, plan, tutorial, guide, cloud, server
