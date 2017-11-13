@@ -36,6 +36,6 @@ For an explanation of the different roles and their functions, please visit the 
 
 ```eval_rst
   .. meta::
-     :title: How to create a Microsoft SQL Server Database User | UKFast Documentation
-     :description: A guide to creating a MSSQL Server Database User
-     :keywords: ukfast, database, mssql, sql, windows, user, microsoft, server, cloud, tutorial
+     :title: Creating a Microsoft SQL Server database user | UKFast Documentation
+     :description: A guide to creating a Microsoft SQL Server database user
+     :keywords: ukfast, database, mssql, sql, sql server, windows, user, microsoft, server, cloud, tutorial
