@@ -41,6 +41,6 @@ In this example I have a patch installed:
 
 ```eval_rst
   .. meta::
-     :title: Find the version of Microsoft SQL you are running | UKFast Documentation
-     :description: A guide to finding the version of MSSQL you are running
-     :keywords: ukfast, guide, database, mssql, sql, server, version, find, microsoft
+     :title: Which Microsoft SQL Server version am I on? | UKFast Documentation
+     :description: How to find which version of Microsoft SQL Server you're running
+     :keywords: ukfast, guide, database, mssql, sql, sql server, server, version, find, microsoft
