@@ -38,5 +38,5 @@ Once all of the required files have finished moving to their new directory, retu
 ```eval_rst
   .. meta::
      :title: Cleaning the WBEM Repository | UKFast Documentation
-     :description: Instructions and Information on cleaning the WBEM Repository on Windows
+     :description: Instructions and information on cleaning the WBEM Repository on Windows
      :keywords: ukfast, windows, wbem, clean, remove, repository, directory, folder, guide, cloud, tutorial
