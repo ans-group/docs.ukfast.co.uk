@@ -16,6 +16,6 @@ From the menu, please select "Control Panel", you will now be presented with the
 
 ```eval_rst
   .. meta::
-     :title: Accessing the Control Panel in Windows Server 2016 | UKFast Documentation
-     :description: A guide to accessing and using the Control Panel on Windows 2016
+     :title: Control Panel in Windows Server 2016 | UKFast Documentation
+     :description: A guide to accessing and using the Control Panel on Windows Server 2016
      :keywords: ukfast, control, panel, windows, 2016, server, cloud, tutorial
