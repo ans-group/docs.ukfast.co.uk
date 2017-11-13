@@ -30,6 +30,6 @@ The installation progress will be displayed in the next window, and will be upda
 
 ```eval_rst
   .. meta::
-     :title: Installing IIS on Windows | UKFast Documentation
-     :description: A guide to installing IIS on Windows
+     :title: Installing IIS on the Windows Server OS | UKFast Documentation
+     :description: A guide to installing IIS on Windows Server
      :keywords: ukfast, windows, iis, web, domain, server, cloud, features, host
