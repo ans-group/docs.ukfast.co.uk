@@ -51,4 +51,8 @@ Right click on Remote Desktop Services and select "Restart" from the context men
 * If you have followed all of the above steps correctly, You should now be logged back in to your server. if you are experiencing trouble connecting to your server after this point, please confirm that you have allowed the new port in your firewall configuration.
 
 
-
+```eval_rst
+  .. meta::
+     :title: Changing the Remote Desktop port on Windows | UKFast Documentation
+     :description: A guide to changing the Remote Desktop port on Windows
+     :keywords: ukfast, windows, change, remote, desktop, port, connection, cloud, server

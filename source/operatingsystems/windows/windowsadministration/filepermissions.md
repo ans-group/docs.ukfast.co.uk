@@ -61,3 +61,9 @@ To Create Permissions based on user groups
 5. Select "OK"
 
 Your permissions will now be applied.
+
+```eval_rst
+  .. meta::
+     :title: Creating file permissions | UKFast Documentation
+     :description: Guidance on creating appropriate file permissions in Windows
+     :keywords: ukfast, windows, file, permissions, appropriate, change, cloud, server, guide, tutorial

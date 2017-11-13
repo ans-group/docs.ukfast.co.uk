@@ -23,5 +23,8 @@ The final pane, will confirm that you have created the location, select finish a
 
 ![Share](files/networkshare/shareadded.PNG)
 
-
-
+```eval_rst
+  .. meta::
+     :title: How to map a network share | UKFast Documentation
+     :description: A guide to mapping a network share on Windows 
+     :keywords: ukfast, windows, network, share, mapping, drive, cloud, server

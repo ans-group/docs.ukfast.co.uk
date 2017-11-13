@@ -13,3 +13,9 @@ The Action Center also Logs all notifications, for example a windows update inst
 If you wish to view more information about a notification, simply select it, and you will be presented with the appropriate window which contains further information as below
 
 ![Further info](files/actioncentre/actioncentrenotification.PNG)
+
+```eval_rst
+  .. meta::
+     :title: Action Centre in Windows Server 2016 | UKFast Documentation
+     :description: Information on the new Action Centre in Windows Server 2016
+     :keywords: ukfast, windows, windows server 2016, new, action, centre, notification, cloud, tutorial

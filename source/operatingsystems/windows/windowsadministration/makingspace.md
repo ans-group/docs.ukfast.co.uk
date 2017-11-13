@@ -15,3 +15,9 @@ If you are unable to discover what is responsible for the space consumption,You 
 [TreeSize](http://www.jam-software.de/treesize_free/?language=EN)
 
 * If you have found large log file directories but cannot delete these due to compliance requirements, it would be advisable that these files were simply moved to a different drive with more free space where they can be stored for as long as required.
+
+```eval_rst
+  .. meta::
+     :title: Freeing up hard disk space on Windows Server | UKFast Documentation
+     :description: Instructions on how to free up hard disk space on a Windows Server
+     :keywords: ukfast, windows, server, cloud, drive, disk, free, empty, space, full, remove, tutorial

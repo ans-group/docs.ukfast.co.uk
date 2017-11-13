@@ -16,3 +16,9 @@ Where the IP address on the left is the IP to resolve to and the entry on the ri
 On Linux and Macs the file is located in /etc/hosts - it is in exaclty the same format as above.
 
 You can test your hosts file is working by running a ping against the domain in question.
+
+```eval_rst
+  .. meta::
+     :title: Testing websites on Windows | UKFast Documentation
+     :description: Information on testing websites on Windows by modifying the hosts file
+     :keywords: ukfast, windows, testing, websites, cloud, server, web, tutorial, guide

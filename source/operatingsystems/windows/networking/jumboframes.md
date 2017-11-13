@@ -50,3 +50,9 @@ This is what you’ll see if the packet size you are attempting to transmit is t
 ```console
   Packet needs to be fragmented but DF set.
 ```
+
+```eval_rst
+  .. meta::
+     :title: How to enable jumbo frames on Windows | UKFast Documentation
+     :description: Guidance for enabling and configuring jumbo frames on Windows
+     :keywords: ukfast, enable, jumbo, frames, tutorial, configuration, guide, server, cloud

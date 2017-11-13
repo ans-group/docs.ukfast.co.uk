@@ -39,8 +39,8 @@ This will present you with a list of all current connections to and from your se
 Right click on the taskbar, and select task manager, again, select processes, and right click on the title bar, Select "PID" from the resultant list.
 Find the the pid of the program for which you are trying to find the corresponding port, now review the connections in command prompt to find the Correct PID, look to the left of the command prompt on the matching line to see which port that specific PID is using.
 
-
-
-
-
-
+```eval_rst
+  .. meta::
+     :title: Finding port information with Netstat | UKFast Documentation
+     :description: A guide to using the Netstat command to find port informaton in Windows Server
+     :keywords: ukfast, windows, network, netstat, port, find, tutorial, cloud, server

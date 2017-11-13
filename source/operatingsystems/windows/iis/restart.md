@@ -24,3 +24,9 @@ Once the process has completed, you will be given access to your command prompt 
 ![IISReset complete](files/iisreset/cmdcompletetrimmed.png)
 
 * IIS has now been restarted.
+
+```eval_rst
+  .. meta::
+     :title: Resetting IIS | UKFast Documentation
+     :description: A guide to resetting IIS in Windows Server
+     :keywords: ukfast, windows, cloud, iis, web, site, reset, tutorial, guide

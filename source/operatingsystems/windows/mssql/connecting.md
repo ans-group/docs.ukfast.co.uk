@@ -23,3 +23,9 @@ SQL Server Management Studio will now log you in, and you will be able to see yo
 ![Logged in](Images/connectingssms/loggedin.PNG)
 
 * You should now be connected to your database, and you now have the ability to administer the Instance in the same way that you would be able to if you were logged directly in to the Database Server.
+
+```eval_rst
+  .. meta::
+     :title: Connecting to a Microsoft SQL Server instance | UKFast Documentation
+     :description: A guide to connecting to a Microsoft SQL Server instance
+     :keywords: ukfast, mssql, sql server, database, connecting, microsoft, windows, tutorial, guide

@@ -38,10 +38,8 @@ The installation of your chosen Roles and Features will now begin and will look 
 
 * This process can be repeated as and when you need to install any new roles or features on the server.
 
-
-
-
-
-
-
-
+```eval_rst
+  .. meta::
+     :title: Installing Roles and Features on Windows Server | UKFast Documentation
+     :description: A guide to installing new roles and features on Windows
+     :keywords: ukfast, windows, server, install, roles, features, cloud, tutorial

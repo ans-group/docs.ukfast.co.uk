@@ -11,3 +11,8 @@ Select "Computer management" from the context box and you will now be presented 
 
 ![Computer management](files/computermanagement/computermanagement.PNG)
 
+```eval_rst
+  .. meta::
+     :title: Computer Management in Windows Server 2016 | UKFast Documentation
+     :description: A guide to accessing the Computer Management console in Windows Server 2016
+     :keywords: ukfast, windows, server, 2016, computer, manager, management, console, cloud, tutorial

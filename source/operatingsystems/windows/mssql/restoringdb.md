@@ -21,3 +21,9 @@ Now Select "OK" and the restore process will start, once completed a prompt will
 ![Restore complete](Images/restoredb/databaserestored.PNG)
 
 * The Restore process is now complete.
+
+```eval_rst
+  .. meta::
+     :title: Restoring a Microsoft SQL Server database from backup | UKFast Documentation
+     :description: How to restore a Microsoft SQL Server database from a backup
+     :keywords: ukfast, windows, mssql, sql, sql server, microsoft, database, restore, backup, cloud, server

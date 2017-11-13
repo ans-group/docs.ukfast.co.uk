@@ -148,3 +148,9 @@ The Update and Security Category contains the following important sections
 * Windows Defender ( Allows you to launch Windows Defender aswell as set protection options and make exclusions)
 
 ![Windows Defender](files/settingsapp/update/windowsdefender.PNG)
+
+```eval_rst
+  .. meta::
+     :title: Settings in Windows Server 2016 | UKFast Documentation
+     :description: An in-depth guide to using Settings in Windows Server 2016
+     :keywords: ukfast, windows, settings, app, new, server, administration, tutorial, guide, 2016
