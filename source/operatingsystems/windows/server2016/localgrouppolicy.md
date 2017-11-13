@@ -39,6 +39,6 @@ Choose a location for the Console to be saved to, and give it a name which will 
 
 ```eval_rst
   .. meta::
-     :title: Accessing Local Group Policy in Windows Server 2016 | UKFast Documentation
-     :description: Instructions on how to accessing Local Group Policy on Windows Server 2016
-     :keywords: ukfast, windows, local, group, policy, 2016, access, use, tutorial, cloud
+     :title: Local Group Policy in Windows Server 2016 | UKFast Documentation
+     :description: Instructions on accessing Local Group Policy in Windows Server 2016
+     :keywords: ukfast, windows, server, local, group, policy, 2016, access, use, tutorial, cloud
