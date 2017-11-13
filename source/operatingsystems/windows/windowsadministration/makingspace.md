@@ -18,6 +18,6 @@ If you are unable to discover what is responsible for the space consumption,You 
 
 ```eval_rst
   .. meta::
-     :title: How to free up hard disk space on your Windows Server | UKFast Documentation
-     :description: Instructions on how to free up hard drive space on your Windows Server
+     :title: Freeing up hard disk space on Windows Server | UKFast Documentation
+     :description: Instructions on how to free up hard disk space on a Windows Server
      :keywords: ukfast, windows, server, cloud, drive, disk, free, empty, space, full, remove, tutorial
