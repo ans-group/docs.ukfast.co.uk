@@ -30,6 +30,6 @@ The alternative would be to ask them to update their settings every time there i
 
 ```eval_rst
   .. meta::
-     :title: Exchange DNS | UKFast Documentation
-     :description: Information and guidance on Exchange DNS
+     :title: DNS settings for Microsoft Exchange | UKFast Documentation
+     :description: Information and guidance on DNS settings for Microsoft Exchange
      :keywords: ukfast, windows, exchange, dns, mx, a, spf, record, srv, cloud
