@@ -22,6 +22,6 @@ You should now be presented with the shared drive in "This-PC" or "My Computer",
 
 ```eval_rst
   .. meta::
-     :title: How to Map a Network Drive | UKFast Documentation
+     :title: Mapping a network drive  on Windows| UKFast Documentation
      :description: A simple guide to mapping a network drive on Windows
      :keywords: ukfast, windows, network, mapping, drive, share, cloud, server, microsoft
