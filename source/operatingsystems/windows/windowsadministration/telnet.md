@@ -21,6 +21,6 @@ If however, you are presented with a blank window, this could mean that the conn
 
 ```eval_rst
   .. meta::
-     :title: Testing Basic connectivity Using Telnet | UKFast Documentation
-     :description: A guide to testing connectivity on Windows using telnet
+     :title: Testing basic connectivity using Telnet | UKFast Documentation
+     :description: A guide to testing connectivity on Windows using Telnet
      :keywords: ukfast, network, telnet, windows, test, connect, basic, guide, tutorial, cloud
