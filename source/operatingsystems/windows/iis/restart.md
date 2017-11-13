@@ -27,6 +27,6 @@ Once the process has completed, you will be given access to your command prompt 
 
 ```eval_rst
   .. meta::
-     :title: How to Reset IIS | UKFast Documentation
-     :description: A guide to resetting IIS in Windows
+     :title: Resetting IIS | UKFast Documentation
+     :description: A guide to resetting IIS in Windows Server
      :keywords: ukfast, windows, cloud, iis, web, site, reset, tutorial, guide
