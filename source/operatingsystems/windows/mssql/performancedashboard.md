@@ -30,6 +30,6 @@ The Performance Dashboard report will generate, and once complete should be pres
 
 ```eval_rst
   .. meta::
-     :title: Microsoft SQL Performance Dashboard | UKFast Documentation
-     :description: A guide to the Microsoft SQL performance dashboard
-     :keywords: ukfast, windows, sql, mssql, database, performance, dashboard, cloud, server
+     :title: Microsoft SQL Server performance dashboard | UKFast Documentation
+     :description: A guide to the Microsoft SQL Server performance dashboard
+     :keywords: ukfast, windows, sql, sql server, microsoft, mssql, database, performance, dashboard, cloud, server
