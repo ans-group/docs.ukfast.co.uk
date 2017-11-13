@@ -71,6 +71,6 @@ You should now be able to see your new Client key as below
 
 ```eval_rst
   .. meta::
-     :title: Disabling TLS 1.0 for RDP | UKFast Documentation
-     :description: Instructions on how to disable TLS 1.0 for RDP on Windows
+     :title: Disabling TLS 1.0 for Remote Desktop | UKFast Documentation
+     :description: Instructions on how to disable TLS 1.0 for Remote Desktop on Windows
      :keywords: ukfast, windows, rdp, tls, disable, server, security, secure, cloud, tutorial
