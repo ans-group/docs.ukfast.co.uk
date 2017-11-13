@@ -30,6 +30,6 @@ To Disable Auto Restart for updates
 
 ```eval_rst
   .. meta::
-     :title: Automatic Updates in Windows Server 2016 | UKFast Documentation
-     :description: Information on the automatic updates in Windows server 2016
+     :title: Automatic updates in Windows Server 2016 | UKFast Documentation
+     :description: Information on the automatic updates feature in Windows Server 2016
      :keywords: ukfast, automatic, windows, updates, 2016, server, tutorial, restart, cloud
