@@ -26,6 +26,6 @@ You can also see that the System process, setup.exe and Chrome.exe are causing t
 
 ```eval_rst
   .. meta::
-     :title: Using Windows Resource Monitor to inspect working processes | UKFast Documentation
-     :description: Guidance on using Windows ResMon to inspect working processes
+     :title:  Windows Resource Monitor | UKFast Documentation
+     :description: Guidance on using Windows Resource Monitor to inspect working processes
      :keywords: ukfast, windows, resource, monitor, resmon, process, working, inspect, cloud, server
