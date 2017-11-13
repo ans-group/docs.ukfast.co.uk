@@ -30,6 +30,6 @@ Select OK and attempt to download your required file.
 
 ```eval_rst
   .. meta::
-     :title: How to enable file download in Internet Explorer on a Windows Server | UKFast Documentation
-     :description: A guide on enabling downloads in Internet Explorer on a Windows Server
-     :keywords: ukfast, windows, download, internet, explorer, iex, server, cloud, enable, tutorial
+     :title: Internet Explore file downloads on the Windows Server OS | UKFast Documentation
+     :description: How to enable file downloads in Internet Explorer on a Windows Server
+     :keywords: ukfast, windows, download, internet, explorer, iex, ie, server, cloud, enable, tutorial
