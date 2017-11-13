@@ -26,6 +26,6 @@ SQL Server Management Studio will now log you in, and you will be able to see yo
 
 ```eval_rst
   .. meta::
-     :title: Connecting to a Microsoft SQL Server Instance | UKFast Documentation
-     :description: A guide to connecting to a Microsoft SQL Server Instance
-     :keywords: ukfast, mssql, database, connecting, microsoft, windows, tutorial, guide
+     :title: Connecting to a Microsoft SQL Server instance | UKFast Documentation
+     :description: A guide to connecting to a Microsoft SQL Server instance
+     :keywords: ukfast, mssql, sql server, database, connecting, microsoft, windows, tutorial, guide
