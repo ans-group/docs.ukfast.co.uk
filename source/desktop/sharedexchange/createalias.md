@@ -15,3 +15,10 @@
  The final step is to click on ‘Add Alias’ and type in the alias you would like to be associated with this email address.
 
  *Please note you cannot send as an alias*
+
+```eval_rst
+  .. meta::
+     :title: Create an Alias | UKFast Documentation
+     :description: A guide to creating a Shared Exchange alias
+     :keywords: ukfast, shared, exchange, create, alias, cloud, desktop, hosting
+
