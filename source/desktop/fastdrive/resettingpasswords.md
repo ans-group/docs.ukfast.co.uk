@@ -79,3 +79,10 @@ You will then be directed to a screen similar to the one below. Here, enter your
 You will then be notified that the password has been reset successfully. Click __Back to Sign in__ and enter your new credentials.
 
 ![Image96](files/Image96.png)
+
+```eval_rst
+  .. meta::
+     :title: Resetting FASTdrive passwords | UKFast Documentation
+     :description: A guide to resetting FASTdrive passwords
+     :keywords: ukfast, fastdrive, password, reset, guide, tutorial, cloud, hosting
+
