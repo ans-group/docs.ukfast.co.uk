@@ -46,4 +46,3 @@ As FASTdesk is a multi-tenanted platform, we don't support the integration of ex
      :title: General information about FASTdesk | UKFast Documentation
      :description: Guidance to help understand and use FASTdesk - desktop as a service from UKFast
      :keywords: fastdesk, desktop, applications, daas, desktop as a service
-```
