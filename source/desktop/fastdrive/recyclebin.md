@@ -33,3 +33,10 @@ Click this icon and you'll be directed to the recycle bin for this folder.
 ![Image201](files/Image201.png)
 
 Exactly like the standard recycle bin, files and folders can be permanently deleted or restored from this view.
+
+```eval_rst
+  .. meta::
+     :title: The FASTdrive recycle bin | UKFast Documentation
+     :description: Information on the FASTdrive recycle bin
+     :keywords: ukfast, fastdrive, desktop, recycle, bin, delete, files, cloud, hosting
+
