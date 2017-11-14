@@ -30,3 +30,9 @@ From the homepage of the [FASTcloudbackup web console](https://fcb.ukfast.co.uk)
 ![alerts all clients](files/alerts_all_clients.PNG)
 
 To stop receiving alerts, simply untick the relevant box(es).
+
+```eval_rst
+  .. meta::
+     :title: Setting up Alerts | UKFast Documentation
+     :description: A guide to setting up alerts for FASTCloudBackups
+     :keywords: ukfast, fast, cloud, backups, alerts, server, tutorial, guide, restore
