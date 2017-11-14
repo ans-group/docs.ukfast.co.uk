@@ -75,3 +75,10 @@ The user will then be asked to confirm their personal information.
 You will then be asked to reset the password for the account and once you’ve done this you will be successfully logged in.
 
 ![Image52](files/Image52.png)
+
+```eval_rst
+  .. meta::
+     :title: Adding an employee manually in FASTdrive | UKFast Documentation
+     :description: A guide to manually adding an employee in FASTdrive
+     :keywords: ukfast, fastdrive, add, employee, manually, account, cloud, hosting
+
