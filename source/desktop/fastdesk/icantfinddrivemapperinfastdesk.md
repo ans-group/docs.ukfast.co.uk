@@ -26,3 +26,8 @@ To log in, double left-click this icon and enter your FASTdrive credentials.
 
 ![Image146](files/Image146.png)
 
+```eval_rst
+  .. meta::
+     :title: I can't find Drive mapper in FASTdesk, what do I do? | UKFast Documentation
+     :description: A guide on what to do if you can't find Drive Mapper in FASTdesk
+     :keywords: ukfast, fastdesk, drive, mapper, tutorial, guide, instructions, cloud, hosting
