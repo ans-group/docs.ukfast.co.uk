@@ -24,3 +24,9 @@ The purpose of this article is not to recreate OpenStack content here, but to si
 * [Networking APIs](https://developer.openstack.org/api-ref/networking/) (includes load balancing, firewalls, security groups and more)
 
 You can find various [user guides and tutorials here](https://docs.openstack.org/index.html#user-guides)
+
+```eval_rst
+  .. meta::
+     :title: Working with OpenStack APIs | UKFast Documentation
+     :description: Information on working with OpenStack APIs
+     :keywords: ukfast, openstack, virtual, vm, openstack, documentation
