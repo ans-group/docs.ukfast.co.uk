@@ -198,3 +198,9 @@ If you want to delete a few at a time, just append their names on:
   Request to delete server serverb has been accepted.
   Request to delete server tower has been accepted.
 ```
+
+```eval_rst
+  .. meta::
+     :title: Basic Nova CLI tool usage | UKFast Documentation
+     :description: A guide to the basics of the Nova CLI tools
+     :keywords: ukfast, cloud, nova, cli, tools usage, openstack, server, hosting
