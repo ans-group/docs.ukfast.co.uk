@@ -5,3 +5,10 @@ If you suspect an email has been accidentally deleted, don't worry there are a f
  2 Use the search tab in Outlook to search "All Outlook Items"
  3 The Exchange server has a 7 day retention. Click [Recover Deleted Items](https://support.office.com/en-us/article/Recover-deleted-items-in-Outlook-2010-cd9dfe12-8e8c-4a21-bbbf-4bd103a3f1fe#BKMK_recoverableitems) to find out more from Microsoft Office
  4 It's possible a rule has moved the email into a folder within the account, login to the web based version of the account at [UKFast Shared Exchange Client Login](https://client.ukfastexchange.co.uk).
+
+```eval_rst
+  .. meta::
+     :title: Recover Lost or Deleted Mail | UKFast Documentation
+     :description: A guide to recovering lost or deleted mail in Shared Exchange
+     :keywords: ukfast, shared, exchange, mail, recover, lost, deleted, security, cloud, desktop, hosting
+
