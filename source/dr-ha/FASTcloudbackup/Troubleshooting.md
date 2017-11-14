@@ -93,3 +93,9 @@ You may see an option within the web console to Sync data between two computers 
 When installing the FASTcloudbackup agent, a Migration Assistant will also be added to your computer or server.  However you should not use this to complete the installation or setup process.  Simply follow the instructions in [Setting up the FASTcloudbackup agent](InstallingtheFASTcloudbackupagent.html).
 
 ![migration_assistant](files/migration_assistant.png)
+
+```eval_rst
+  .. meta::
+     :title: Troubleshooting FASTCloudBackup | UKFast Documentation
+     :description: A guide to troubleshooting problems on FASTCloudBackup
+     :keywords: ukfast, cloud, fast, backups, issues, troubleshooting, problem
