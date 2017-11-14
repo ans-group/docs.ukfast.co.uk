@@ -35,3 +35,10 @@ In order to add a user to a folder, expand one of the 3 main folders (Personal F
 Once folder permissions have been distributed, the next stage is to send a welcome email to the new client user which allows them to activate their account.
 
 ![Image74](files/Image74.png)
+
+```eval_rst
+  .. meta::
+     :title: Adding client users in FASTdrive | UKFast Documentation
+     :description: A guide to adding a client user in FASTdrive
+     :keywords: ukfast, fastdrive, desktop, add, user, client, cloud, hosting
+
