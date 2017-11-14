@@ -26,3 +26,9 @@ There are a couple of reasons behind this change:
 ```
 
 Existing UKF1 instances will continue to operate as normal - we have no plans to end-of-life these any time soon.  However when you want to create new instances, you'll need to choose a UKF2 type.
+
+```eval_rst
+  .. meta::
+     :title: UKF2 eCloud Flex instances replace UKF1 | UKFast Documentation
+     :description: Information on new eCloud Flex instances
+     :keywords: ukfast, ecloud, flex, new, instance, ukf2, ukf1, hosting
