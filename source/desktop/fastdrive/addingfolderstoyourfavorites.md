@@ -15,3 +15,10 @@ This will create a shortcut to the folder in __Favorites__.
 Clicking this folder will open the folder in its original location under __Personal Folders__.
 
 ![Image188](files/Image188.png)
+
+```eval_rst
+  .. meta::
+     :title: Adding folders to your favourites in FASTdrive | UKFast Documentation
+     :description: A guide to adding a folder to your favourites in FASTdrive
+     :keywords: ukfast, fastdrive, adding, add, folder, favourite, cloud, hosting
+
