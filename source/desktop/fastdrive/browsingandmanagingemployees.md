@@ -33,3 +33,10 @@ You can also change some of the user’s permissions by expanding the __User Acc
 You won’t be able to adjust all permissions but you will be able to enable or disable some such as __Manage client users__ and __Create shared distribution groups__.
 
 ![Image80](files/Image80.png)
+
+```eval_rst
+  .. meta::
+     :title: Browsing and Managing Employees in FASTdrive | UKFast Documentation
+     :description: A guide to browsing and managing employees in FASTdrive
+     :keywords: ukfast, desktop, fastdrive, managing, browsing, employee, user, cloud, hosting
+
