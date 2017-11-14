@@ -13,3 +13,10 @@ If a user is only added to your __personal address book__ it will mean that __on
 For the most part, you will be using your address book when you are sharing files with other users. For a detailed walkthrough on how to
 share files, [click here](https://docs.ukfast.co.uk/fastdrive/sharingfiles.html)
 
+
+```eval_rst
+  .. meta::
+     :title: Address books in FASTdrive | UKFast Documentation
+     :description: Information on address books in FASTdrive
+     :keywords: ukfast, fastdrive, address, books, user, cloud, hosting
+
