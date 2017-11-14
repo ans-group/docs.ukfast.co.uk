@@ -49,3 +49,10 @@ Open system preferences and select Internet Accounts followed by Exchange accoun
  Leave all of the items you'd like to synchronize checked
 
 ![Sync Options](files/sharedexchangemac/synclist2.PNG)
+
+```eval_rst
+  .. meta::
+     :title: How to Connect to your Shared Exchange Mailbox Using the Mail app for Mac | UKFast Documentation
+     :description: A guide on connecting to your Shared Exchange mailbox using the mail app on OSX
+     :keywords: ukfast, shared, exchange, connect, mac, osx, mail, desktop, cloud, hosting
+
