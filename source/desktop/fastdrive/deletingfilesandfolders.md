@@ -63,3 +63,10 @@ You’ll then be able to see all of the files which are in the recycle bin. As y
 You can delete this file permanently by marking the check box and clicking __Delete Permanently__. Otherwise, you can restore the file back to the destination that it was deleted from by choosing __Restore__.
 
 ![Image108](files/Image108.png)
+
+```eval_rst
+  .. meta::
+     :title: Deleting Files and Folders in FASTdrive | UKFast Documentation
+     :description: A guide to deleting files and folders in FASTdrive
+     :keywords: ukfast, fastdrive, delete, files, folders, drive, cloud, hosting, desktop
+
