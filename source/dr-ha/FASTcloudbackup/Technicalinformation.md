@@ -51,3 +51,9 @@ The storage is accessed via media agent servers - the server which actively writ
 ## FASTcloudbackup agents
 
 FASTcloudbackup agents can be downloaded via the web console, and provide the functionality and connectivity required for backups to be performed.  The agent provides file-level backups and performs de-duplication and compression of data before this is transferred to the storage servers.
+
+```eval_rst
+  .. meta::
+     :title: Technical Information | UKFast Documentation
+     :description: Technical information for FASTCloudBackups
+     :keywords: ukfast, fast, cloud, backups, information, technical
