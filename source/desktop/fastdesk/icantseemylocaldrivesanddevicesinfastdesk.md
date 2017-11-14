@@ -35,3 +35,9 @@ __Ask me__ will prompt you when a device is going to be used.
 ![Image169](files/Image169.png)
 
 Once you have made the necessary changes, click __Apply__ and then __OK__ to save your changes.
+
+```eval_rst
+  .. meta::
+     :title: Local Drives and Devices in FASTdesk | UKFast Documentation
+     :description: Instructions on what to do if you can't see local drives and devices in FASTdesk
+     :keywords: ukfast, fastdesk, drives, local, devices, desktop, cloud, hosting
