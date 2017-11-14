@@ -34,3 +34,10 @@ After you have done this, click OK. You can then select OK again, and then Next.
 The wizard will then connect to the client.ukfastexchange.co.uk server and authorise with the username and password that you provided.
 If you encounter any issues setting up your account and would like assistance, please let us know by contacting support. You can do this through your [MyUKFast](https://www.ukfast.co.uk/myukfast.html?msg=6&url=%2Fdashboard.php) area under support > priority support system.
 You can also contact support via telephone on 0800 230 0032.
+
+```eval_rst
+  .. meta::
+     :title: How to connect to your Shared Exchange Mailbox using Microsoft Outlook 2013 | UKFast Documentation
+     :description: A guide on connecting to a Shared Exchange Mailbox using Outlook 2013
+     :keywords: ukfast, shared, exchange, mail, connect, windows, outlook, 2013, office, desktop, cloud, hosting
+
