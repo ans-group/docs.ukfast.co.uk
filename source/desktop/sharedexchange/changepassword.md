@@ -30,3 +30,10 @@ Fill in the boxes on this page with your current password and your desired new p
 ```
 
 If you have any issues carrying out the above steps, please raise a ticket with UKFast requesting a password change and our engineers will be able to assist.
+
+```eval_rst
+  .. meta::
+     :title: Changing your Shared Exchange password | UKFast Documentation
+     :description: A guide to changing your shared exchange password
+     :keywords: ukfast, shared, exchange, change, password, desktop, cloud, hosting
+
