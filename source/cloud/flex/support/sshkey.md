@@ -35,3 +35,9 @@ chmod -R u+rwX,og-rwx /home/ukfastsupport/.ssh
 ```
 
 If you run into any problems on this, please raise a support ticket via [MyUKFast](https://my.ukfast.co.uk/pss/add.php), or call support directly on 0800 230 0032.
+
+```eval_rst
+  .. meta::
+     :title: Adding a public SSH key to an eCloud Flex instance | UKFast Documentation
+     :description: A guide on how to add a public SSH key to an eCloud Flex instance
+     :keywords: ukfast, ecloud, flex, instance, ssh, public, key, security, support
