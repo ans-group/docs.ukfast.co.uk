@@ -95,3 +95,10 @@ __For more information on how to add contacts to your address books and distribu
 [Distribution Groups](https://docs.ukfast.co.uk/fastdrive/distributiongroups.html)
 
 [Address Books](https://docs.ukfast.co.uk/fastdrive/addressbooks.html)
+
+```eval_rst
+  .. meta::
+     :title: Sharing Files | UKFast Documentation
+     :description: Information on sharing files on FASTdrive
+     :keywords: ukfast, fastdrive, file, sharing, users, cloud, hosting, desktop
+
