@@ -45,3 +45,10 @@ I then added permissions to the folder. These folder permissions will apply to a
 Below, you can see the users that are included on the folder. __Test Distribution Group__ has been added to the folder meaning that the 2 users in __Test Distribution Group__ have access to this folder with the permissions shown below.
 
 ![Image117](files/Image117.png)
+
+```eval_rst
+  .. meta::
+     :title: Distribution groups in FASTdrive | UKFast Documentation
+     :description: Information on distribution groups in FASTdrive
+     :keywords: ukfast, fastdrive, distribution, groups, add, cloud, hosting, desktop
+
