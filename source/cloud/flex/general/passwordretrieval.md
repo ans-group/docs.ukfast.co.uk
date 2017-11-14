@@ -17,3 +17,9 @@ GDrtWKpcKHTQFUux3gpv
 The [eCloud Flex dashboard](https://api.openstack.ecloud.co.uk/project) can be used to retrieve passwords.  Head to the Instances area, then click on the instance in question.  In the drop down menu at the top right of the screen you'll find the option to Retrieve Password.
 
 ![instances-retrievepassword](../files/instances-retrievepassword.PNG)
+
+```eval_rst
+  .. meta::
+     :title: Retrieving passwords for eCloud Flex instances | UKFast Documentation
+     :description: A guide to retrieving passwords for eCloud Flex instances
+     :keywords: ukfast, password, retrieve, find, ecloud, flex, cloud, server
