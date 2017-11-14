@@ -46,3 +46,9 @@ Here's how:
 ![Cloning and Templating](files/CloningAndTemplating09.PNG)
 6. After a little while you should see the virtual machine be listed as Online.  
 _The login details will be same as the VM the template was created from._
+
+```eval_rst
+  .. meta::
+     :title: Cloning and Templating VMs | UKFast Documentation
+     :description: A guide to cloning and templating VMs on eCloud Private and Hybrid
+     :keywords: ukfast, ecloud, hybrid, private, clone, template, vm, virtual, server, hosting
