@@ -10,3 +10,9 @@ To ensure a consistent copy of the virtual machine is taken, a snapshot (in VMWa
 This begins a quiesce operation against the VM to commit any data waiting to be written to the disk and directs any new writes to a temporary file (called a delta file). This allows the backup application to backup the disk whilst no changes are being made, whilst the VM is still online and running.
 
 Once the backup has completed, a consolidation process is started to move any of the writes to the temporary delta file back into the virtual disks of the VM. 
+
+```eval_rst
+  .. meta::
+     :title: VM Level Backups | UKFast Documentation
+     :description: Information on VM Level Backups
+     :keywords: ukfast, vm, level, backups, definition, information
