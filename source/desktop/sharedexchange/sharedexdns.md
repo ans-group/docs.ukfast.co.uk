@@ -32,3 +32,10 @@ As an optional extra if you would like to add an SPF record to prove the validit
 `v=spf1 include:_spf.ukfastexchange.co.uk ~all`
 
 Please allow time for any DNS changes to propagate through the internet, this may take up to [24 hours](/Domains/domains/dnspropagation.html). After which you are ready to use your email client to connect to your new mailbox.
+
+```eval_rst
+  .. meta::
+     :title: Shared Exchange DNS Setup | UKFast Documentation
+     :description: A guide to setting DNS records for Shared Exchange
+     :keywords: ukfast, shared, exchange, mail, dns, record, setup, guide, cloud, desktop, hosting
+
