@@ -237,3 +237,9 @@ It's important to note that the first `/` is intentionally missing in that comma
 If you're thinking of backing up MySQL data using this, you may want to read our accompanying article on this topic to ensure you're taking consistent backups:
 
 [Linux Database Servers](linuxdbservers.html)
+
+```eval_rst
+  .. meta::
+     :title: Linux Backups with Duply & eCloud Vault | UKFast Documentation
+     :description: A guide to creating backups on Linux using Duply and eCloud Vault
+     :keywords: ukfast, linux, backup, duply, ecloud, vault, data, recovery, disaster, create, tutorial
