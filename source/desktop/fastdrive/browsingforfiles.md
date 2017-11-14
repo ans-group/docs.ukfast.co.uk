@@ -30,3 +30,10 @@ If the file or folder that you are looking for doesn't appear whilst you are sea
 ![Image207](files/Image207.png)
 
 If you have the relevant permissions on your account, you will be able to see other users' files. In order to narrow this down to a particular user, enter the user's email address in the __Created By__ field. Your search results can also be narrowed down to a particular date by changing the __Upload Date__ to your preference and you can also narrow the results down to a particular type of content, whether that be a file or a folder by choosing a particular __Content Type__. Finally, if you know the whereabouts of the file or folder that you are looking at, you can also state this by changing the __Folder Location__.
+
+```eval_rst
+  .. meta::
+     :title: Searching for files and folders in FASTdrive | UKFast Documentation
+     :description: A guide to searching for files in FASTdrive
+     :keywords: ukfast, search, files, folders, fastdrive, desktop, cloud, hosting
+
