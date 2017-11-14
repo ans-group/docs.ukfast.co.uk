@@ -90,3 +90,9 @@ Either log out and back in, or type `source ~/.os.rc` to essentially run the fil
 From here on out, you should be good. You'll be prompted for your OpenStack password whenever you open a shell session, and once you've provided it you're ok to start using the commands from this section. The documentation on basic nova usage is as good a place as any to start:
 
 [Nova Basics](/flex/nova/basic.html)
+
+```eval_rst
+  .. meta::
+     :title: Setting necessary environment variables for Flex | UKFast Documentation
+     :description: A guide to setting the necessary environment variables for eCloud Flex
+     :keywords: ukfast, setting, environment, variables, ecloud, flex, tutorial
