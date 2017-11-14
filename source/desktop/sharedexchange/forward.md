@@ -52,3 +52,10 @@ To edit the rule, use the pencil icon.
 
 
 If you have any issues with getting this working, just drop a ticket into UKFast support and our engineers will be able to offer some help.
+
+```eval_rst
+  .. meta::
+     :title: Configuring Automatic Forwarding Rules | UKFast Documentation
+     :description: A guide to creating and configuring automation forwarding rules on Shared Exchange
+     :keywords: ukfast, shared, exchange, create, rules, automatic, forwarding, cloud, desktop, hosting
+
