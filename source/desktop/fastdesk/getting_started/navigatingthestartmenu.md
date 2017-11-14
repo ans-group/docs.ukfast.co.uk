@@ -33,3 +33,9 @@ Pinning an app to the taskbar means that it will be seen at the bottom of your d
 Applications can also be unpinned in exactly the same way. Just right click the application and you’ll see the options below.
 
 ![Image159](files/Image159.png)
+
+```eval_rst
+  .. meta::
+     :title: Navigating the Start Menu | UKFast Documentation
+     :description: A guide to navigating the Start Menu on FASTDesk
+     :keywords: ukfast, fastdesk, start, menu, navigation, desktop, cloud, server, apps, taskbar
