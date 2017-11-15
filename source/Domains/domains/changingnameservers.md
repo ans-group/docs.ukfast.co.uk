@@ -16,3 +16,10 @@ Once here, select the domain you're looking to modify the namservers for and sel
 On this page you should see a list of your existing nameservers. To change these, simply delete the existing records from their field, replace these with your new nameservers and save your changes.
 
 Please note, this change can take upto 24 hours before it is reflected correctly.
+
+```eval_rst
+  .. meta::
+     :title: Changing nameservers for a domain with UKFast | UKFast Documentation
+     :description: A guide to changin nameservers for a domain with UKFast
+     :keywords: ukfast, domain, nameserver, name, server, change, guide, cloud, hosting
+
