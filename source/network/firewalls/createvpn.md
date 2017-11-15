@@ -7,3 +7,10 @@
 2. Site to Site IPSec VPN
 
     Please raise a ticket within MyUKFast Portal. An engineer will send you a VPN form to start with. Please fill in that form and return back to us. We will setup the VPN based the information you have returned back to us. In this case, the first 2 instances will be free of charge.
+
+```eval_rst
+  .. meta::
+     :title: Creating a VPN | UKFast Documentation
+     :description: A guide to creating a VPN with a dedicated firewall
+     :keywords: ukfast, network, firewall, dedicated, create, vpn, ssl, cloud, hosting
+
