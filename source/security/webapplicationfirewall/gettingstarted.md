@@ -30,7 +30,9 @@ The WAF will initially be set to operate in a learning mode, which will last 2-4
 
 Only once the learning phase is completed and we've agreed between us the specific ruleset for your application, will the WAF be fully switched-on.  At this point, any traffic not specifically whitelisted will be deemed as malicious and blocked.  This will be recorded and available for ongoing analysis.
 
-
-
-
+```eval_rst
+  .. meta::
+     :title: Getting started with a Web Application Firewall | UKFast Documentation
+     :description: A guide to getting started with a Web Application Firewall
+     :keywords: ukfast, security, web, application, firewall, waf, getting, started, cloud, hosting
 
