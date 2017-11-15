@@ -12,3 +12,10 @@
 
     3. WebSSL VPN
       >  This VPN is used for connecting a mobile devices to your UKFast solution behind a dedicated firewall. It will support windows XP/7(32bit/64bit)/10/Linux/MacOS
+
+```eval_rst
+  .. meta::
+     :title: Supported VPNs | UKFast Documentation
+     :description: Information on which types of VPN UKFast will support
+     :keywords: ukfast, network, vpn, security, site, type, server, cloud, hosting
+
