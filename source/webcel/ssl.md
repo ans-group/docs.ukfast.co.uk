@@ -146,3 +146,10 @@ This means that the backend is basically unaware that the traffic has passed thr
 That being said, requests will still appear as though they originated from the Webcelerator - with the actual client IP being passed under the `X-Forwarded-For` header.
 
 While this has a small performance overhead from the two encryption steps, this is negligable on modern hardware, and the benefit of having the Webcelerator as a "drop-in" solution to caching static content on your site outweighs this in most instances.
+
+```eval_rst
+  .. meta::
+     :title: Configuring SSLs | UKFast Documentation
+     :description: A guide to configuring SSLs to work with a WebCel
+     :keywords: ukfast, webcel, webcelerator, configure, ssl, cloud, hosting
+
