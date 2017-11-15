@@ -36,3 +36,10 @@ ns1.ukfast.net
 ```
 
 You can check what they are currently by running a WHOIS test in the [MyUKFast Panel](https://my.ukfast.co.uk). If your domain is registered with a 3rd party, you will need to change the nameservers by logging into their portal; if your domain is registered at UKFast, please see [this guide](https://docs.ukfast.co.uk/Domains/domains/changingnameservers.html) on how to change the nameservers.
+
+```eval_rst
+  .. meta::
+     :title: Adding a domain into SafeDNS | UKFast Documentation
+     :description: A guide to adding a new domain in SafeDNS
+     :keywords: ukfast, domain, add, safedns, dns, safe, cloud, hosting
+
