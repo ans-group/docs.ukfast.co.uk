@@ -9,3 +9,10 @@ A Content Delivery Network (or CDN) is a network of highly-distributed servers t
 The CDN sits between the client and the origin server and caches content to reduce the number of requests to the origin server.  In doing so it lowers latency to the end user (speeding up page load time) and eases the amount of traffic sent to the origin server. This is achieved by making use of anycast routing, where each of the servers share the same IP address so that a request for content is sent to one of many IP addresses. The IP address is announced through BGP (Border Gateway Protocol), so the client's request should hit the closest server to the client, based on the geographical location.
 
 For example, an end user based in the USA streaming video from a server hosted in the UK could typically experience latency of 75ms or higher. However the same request for a video to a CDN server based in the USA can be as little as 10ms.
+
+```eval_rst
+  .. meta::
+     :title: Introduction to CDN | UKFast Documentation
+     :description: Basic information on CDN
+     :keywords: ukfast, network, cdn, introduction, cloud, hosting
+
