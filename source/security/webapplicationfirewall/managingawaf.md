@@ -11,4 +11,9 @@ It's important you keep UKFast updated as and when you make any changes to your 
   
 Please raise a ticket via [MyUKFast](https://my.ukfast.co.uk) to provide us details of any relevant changes.
 
- 
+```eval_rst
+  .. meta::
+     :title: Managing a Web Application Firewall | UKFast Documentation
+     :description: A guide to managing a Web Application Firewall
+     :keywords: ukfast, security, web, application, firewall, waf, manage, cloud, hosting
+
