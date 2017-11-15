@@ -11,3 +11,10 @@ The bread and butter of the routable internet, chances are pretty high you'll be
 ## What if I need IP addresses from 2 different Class C ranges for SEO purposes?
 
 Good news, you don't! There's no real concept of classed IP addresses any more. All IPv4 ranges are now under the VLSM schme (Varialbe Length Subnet Masking). Google pagerank based SEO isn't based on different IP address ranges any more as far as anyone knows.
+
+```eval_rst
+  .. meta::
+     :title: IPv4 Addresses on the UKFast Network | UKFast Documentation
+     :description: Information about IPv4 addresses on the UKFast network
+     :keywords: ukfast, network, ipv4, ip, address, cloud, hosting
+
