@@ -36,3 +36,10 @@ For a more complex example that also covers using `df` to see various mountpoint
 
 In this example, we have a root partition that's 95% full along with an additional `/var` partition that's only 36% full.
 It's got an external network mount of 2T that's mounted on `/mnt/test` and a ramdisk/tmpfs mount of 500M mounted on `/var/ngx_pagespeed_cache`.
+
+```eval_rst
+  .. meta::
+     :title: Disk Space | UKFast Documentation
+     :description: Information on checking Disk usage on a server
+     :keywords: ukfast, check, disk, usage, linux, windows, cloud, server, hosting
+
