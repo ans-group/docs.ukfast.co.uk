@@ -12,3 +12,10 @@ Once logged in, navigate to the server you wish to amend with these steps:
 * Save Changes
 
 This change should propagate immediately and can be confirmed by running the following via command prompt :- `ping -a <server IP address>`
+
+```eval_rst
+  .. meta::
+     :title: Reverse DNS Records | UKFast Documentation
+     :description: Information on reverse DNS records
+     :keywords: ukfast, dns, domains, rdns, reverse, cloud, hosting
+
