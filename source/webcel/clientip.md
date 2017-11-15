@@ -26,3 +26,10 @@ To always extract the client IP you would then need to apply to the above exampl
 $_SERVER['REMOTE_ADDR'] = explode(',', $_SERVER['HTTP_X_FORWARDED_FOR']);
 $_SERVER['REMOTE_ADDR'] = trim($_SERVER['REMOTE_ADDR'][0]);
 ```
+
+```eval_rst
+  .. meta::
+     :title: Extracting Client IP | UKFast Documentation
+     :description: A guide to extracting client ip addresses from server logs
+     :keywords: ukfast, webcel, webcelerator, extract, client, ip, logs, server, cloud, hosting
+
