@@ -22,3 +22,10 @@ To transfer a non-.uk domain away from UKFast you will have to go through the tr
 Before you can do that you need to get the domain’s `EPP code` from us. In Domains > Transfer Out follow the process to choose the domain which you are moving away from us. This will unlock the domain so it can be moved away.
 
 You will need to confirm the registrant contact details, as the EPP code you will need is sent to them. Then also confirm the admin contact. It's very important that this email address is valid and a managed inbox, as the emails related to the transfer approval will be delivered there.
+
+```eval_rst
+  .. meta::
+     :title: Transferring a domain away from UKFast | UKFast Documentation
+     :description: A guide to transferring a domain away from UKFast
+     :keywords: ukfast, domain, transfer, move, away, cloud, hosting
+
