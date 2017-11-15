@@ -27,3 +27,10 @@ To stop new requests from arriving at the backend, we need to change the `weight
 To stop those sessions from arriving at this backend, we need to change the `Cookie Name` to something else temporarily. Changing it to `dot1-maintenance` will ensure that all the existing clients with the `dot1` cookie won't match against this backend, instead they'll be issued a new backend server from the pool.
 
 Click the `Update Server` button and then `Reload Load Balancer Config` when prompted. Your changes should now be live with the server removed from load until you revert those changes.
+
+```eval_rst
+  .. meta::
+     :title: Common Changes | UKFast Documentation
+     :description: Information on common changes in load balancer administration
+     :keywords: ukfast, network, load, balancer, administration, changes, common, cloud, hosting
+
