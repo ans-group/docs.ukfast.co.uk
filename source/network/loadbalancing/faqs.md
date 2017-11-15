@@ -58,3 +58,10 @@ Then restart nginx to put it live:
 ```bash
   service nginx restart
 ```
+
+```eval_rst
+  .. meta::
+     :title: Frequently Asked Questions | UKFast Documentation
+     :description: Load balancer FAQs
+     :keywords: ukfast, load, balancer, network, faq, cloud, hosting
+
