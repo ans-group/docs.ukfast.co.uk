@@ -20,3 +20,10 @@ These are the default scanning and update policies we apply to your McAfee antiv
 - Threat action – Clean First / Continue Scanning
 
 If you need to make a change to your schedules, please raise a support request via [MyUKFast](https://my.ukfast.co.uk)
+
+```eval_rst
+  .. meta::
+     :title: Scanning schedules | UKFast Documentation
+     :description: Information on scanning schedules
+     :keywords: ukfast, security, scan, schedule, time, cloud, hosting
+
