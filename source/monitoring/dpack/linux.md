@@ -53,3 +53,10 @@
 ![Linux-DPACK-Background](files/Linux/Linux_Extended/Linux_DPACK_Time.PNG)
 
 You are now able to run the DPACK for 7-days. Any problems, don't hesitate to contact UKFast Support.
+
+```eval_rst
+  .. meta::
+     :title: Running a DPACK on a Linux Operating System | UKFast Documentation
+     :description: A guide to running a DPACK on Linux
+     :keywords: ukfast, monitoring, dpack, linux, run, start, cloud, hosting
+
