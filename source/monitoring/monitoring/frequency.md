@@ -9,3 +9,10 @@ All service checks run at a pre-defined interval of 5 minutes (300 seconds). Ale
 ## Enterprise Monitoring
 
 All service checks are run at a pre-defined interval of 1 minute (60 seconds). Alerts will be generated every 3 minutes.
+
+```eval_rst
+  .. meta::
+     :title: How often are monitoring checks run? | UKFast Documentation
+     :description: Information on how often monitoring checks are run
+     :keywords: ukfast, monitoring, checks, time, often, cloud, hosting
+
