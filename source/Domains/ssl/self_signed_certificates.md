@@ -42,3 +42,10 @@ On linux servers, you should be able to create a certificate and a key. This is 
 ## Installing certificates
 
 How you configure various pieces of software to use a certificate, either self-signed or otherwise varies wildly. Referring to their relevant documentation is usually the way forward, or try using our search functionality to see if there's already an article on it.
+
+```eval_rst
+  .. meta::
+     :title: Self Signed Certificates | UKFast Documentation
+     :description: Information on self signed SSL certificates
+     :keywords: ukfast, ssl, self, signed, certificate, security, cloud, hosting
+
