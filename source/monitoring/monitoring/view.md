@@ -11,3 +11,10 @@ On the Details tab you arrive on you should see the Monitoring section which wil
 ![Monitoring List](files/monitoring.png)
 
 The monitoring options at UKFast are fairly extensive, if you haven't already discussed it with your account manager, it's worth doing so to find out the full scale of the offering.
+
+```eval_rst
+  .. meta::
+     :title: Viewing monitoring results | UKFast Documentation
+     :description: A guide to viewing monitoring results in MyUKFast
+     :keywords: ukfast, myukfast, monitoring, view, results, cloud, hosting
+
