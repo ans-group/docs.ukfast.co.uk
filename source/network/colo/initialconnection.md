@@ -5,3 +5,10 @@
 2. Please be aware that ports are configured to accept layer 3 devices only e.g routers or a routed mode firewall.  If it's a layer 2 device e.g switch or a transparent firewall, then port will be disabled automatically.
 
 3. If you have ordered dual links from us and will connect them to a fail over pair of firewalls or similar, please let us know so that we can adjust our configuration accordingly.
+
+```eval_rst
+  .. meta::
+     :title: Initial connection to the UKFast colo network | UKFast Documentation
+     :description: Information and guidance on your initial connection to the UKFast colo network
+     :keywords: ukfast, network, colo, initial, first, connection, guide, cloud, hosting
+
