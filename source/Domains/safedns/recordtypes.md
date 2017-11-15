@@ -42,3 +42,10 @@ SOA Records have the following fields:
     * Retry - The time interval (in seconds) before a failed refresh should be retried. Recommended value - 7200 (2 Hours).
     * Expire - The time interval (in seconds) that specifies the upper limit on the time interval that can elapse before the records are no longer valid. Recommended value - up to 2419200 (672 Hours).
     * TTL - The number of seconds that this record will be cached on other servers.* TTL - The number of seconds that this record will be cached on other servers.
+
+```eval_rst
+  .. meta::
+     :title: Different types of DNS records | UKFast Documentation
+     :description: Information on the different types of DNS records
+     :keywords: ukfast, dns, type, information, guide, record, cloud, hosting
+
