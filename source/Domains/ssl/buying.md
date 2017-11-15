@@ -24,3 +24,10 @@ Once validation is complete, a UKFast support engineer will be in touch if you'v
 ## Renewing
 
 We will send you a number of email alerts in the run up to your SSL certificate expiring.  Simply click the link in one of these emails and follow the process to renew your certificate within MyUKFast.  Alternatively you can login to [MyUKFast](https://my.ukfast.co.uk/ssl/index.php) and go to `Products and Services` then `SSL Certificates` to check when your certificates are due to expire, and manage their renewal.
+
+```eval_rst
+  .. meta::
+     :title: Purchasing and Renewing SSL certificates | UKFast Documentation
+     :description: A guide to purchasing and renewing SSL certificates
+     :keywords: ukfast, ssl, domains, purchase, buy, renew, cloud, hosting
+
