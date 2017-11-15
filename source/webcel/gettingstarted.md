@@ -23,3 +23,10 @@ ipconfig /flushdns
 Now when browsing to your site via this machine, your request and website will be served through the Webcelerator. At first your cache will be empty, so you're not going to see much performance benefit, but browse around using your browser's developer tools and your response times for static content like images and CSS should dropping. These items are starting to be served from the cache rather than your web servers.
 
 Now you're ready to start the testing phase; ensuring your [SSL is configred correctly](/webcel/ssl.html), and your client IP address handling is present and correct.
+
+```eval_rst
+  .. meta::
+     :title: Getting started with a WebCelerator | UKFast Documentation
+     :description: Information about getting started with a WebCel
+     :keywords: ukfast, webcel, introduction, guide, webcelerator, cloud, hosting
+
