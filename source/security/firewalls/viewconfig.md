@@ -11,3 +11,10 @@ You will now see some further tabs to navigate the device, you can click on the 
 ![Access Lists](files/access-list-1.png)
 
 Other articles will further describe the various functionality that is provided within this section.
+
+```eval_rst
+  .. meta::
+     :title: Accessing firewall config | UKFast Documentation
+     :description: A guide to accessing the firewall config in MyUKFast
+     :keywords: ukfast, access, firewall, config, myukfast, cloud, hosting
+
