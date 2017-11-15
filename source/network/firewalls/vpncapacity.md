@@ -17,3 +17,10 @@ Short answer, this depends on the model of firewall you're using. The long answe
 4. Cisco ASA 5512X firewall
    > 250 concurrent IPSec VPN sessions by default.
      2 WebSSL VPN sessions by default. Up to 250 concurrent WebSSL VPN sessions with an upgraded license.
+
+```eval_rst
+  .. meta::
+     :title: VPN capacity on dedicated firewalls | UKFast Documentation
+     :description: Information on the VPN capacity of dedicated firewalls
+     :keywords: ukfast, network, firewall, vpn, capacity, cisco, cloud, hosting
+
