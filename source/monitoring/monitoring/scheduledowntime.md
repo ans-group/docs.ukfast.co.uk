@@ -9,3 +9,10 @@ If you need to perform some maintenance on your solution then you can schedule d
 5. Complete the details and click `Schedule Maintenance`
 
 ![Schedule Downtime](files/maintenance-window.png)
+
+```eval_rst
+  .. meta::
+     :title: Scheduling downtime for maintenance | UKFast Documentation
+     :description: A guide to scheduling downtime when performing maintenance
+     :keywords: ukfast, monitoring, schedule, downtime, maintenance, development, cloud, hosting
+
