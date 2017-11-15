@@ -24,3 +24,10 @@ Step-by-step guidance on working with SSLs and SNIs is available here:
 - [Plesk](https://support.plesk.com/hc/en-us/articles/213944545-How-to-activate-the-SNI-support-on-the-Plesk-server-)
 
 For more information on SNI and a full list of web browsers that support it, please see [this Wikipedia article](https://en.wikipedia.org/wiki/Server_Name_Indication)
+
+```eval_rst
+  .. meta::
+     :title: Using Server Name Indication (SNI) with SSL certificates | UKFast Documentation
+     :description: A guide to using SNI with an SSL
+     :keywords: ukfast, ssl, sni, server, name, indication, security, cloud, hosting
+
