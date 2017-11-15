@@ -10,3 +10,10 @@ Follow these steps to run a PROProtection report:
 4. Complete the details requested, including filename, metrics and information to be included, and report timeframe.
 5. Choose the people from your account contacts list who you want to be emailed when the PROProtection report is available.
 6. Click `Generate Report`.  The report may take a little while to generate, depending on how many servers you have in your account.  You will receive an email when your report is ready to view and download as a .pdf
+
+```eval_rst
+  .. meta::
+     :title: PROProtection Reports | UKFast Documentation
+     :description: Information on PROProtection reports
+     :keywords: ukfast, monitoring, protection, proprotection, reports, results, cloud, hosting
+
