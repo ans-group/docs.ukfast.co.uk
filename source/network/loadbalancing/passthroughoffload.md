@@ -44,3 +44,10 @@ You should now have this:
 Hit `Reload Load Balancer Config` on the yellow banner at the top to put it all live and you should now be offloading traffic instead of passing it through.
 
 As ever, if you have any questions or concerns about this process, please contact [support](http://www.ukfast.co.uk/support.html).
+
+```eval_rst
+  .. meta::
+     :title: SSL Passthrough vs Offloading | UKFast Documentation
+     :description: Information on SSL passthrough and offloading for load balancers
+     :keywords: ukfast, network, load, balancer, ssl, offloading, passthrough, cloud, hosting
+
