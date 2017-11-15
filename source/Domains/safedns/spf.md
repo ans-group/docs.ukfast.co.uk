@@ -40,3 +40,10 @@ If you cannot see the `TXT` Records section you will need to add a new record ty
 
    Unless your TTL is set to a value other than the default, these records may take up to 24 hours before they have fully propagated.
 ```
+
+```eval_rst
+  .. meta::
+     :title: SPF records | UKFast Documentation
+     :description: Information on SPF records
+     :keywords: ukfast, domains, spf, mail, record, cloud, hosting
+
