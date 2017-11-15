@@ -124,4 +124,9 @@ As with CentOS, a reboot is needed to use this new kernel:
  reboot
 ```
 
+```eval_rst
+  .. meta::
+     :title: Dirty COW | UKFast Documentation
+     :description: Information on Dirty COW and it's patches
+     :keywords: ukfast, security, dirty, cow, attack, vulnerability, cloud, hosting
 
