@@ -226,3 +226,10 @@ Click `Reload Load Balancer Config` to push it up to the loadbalancer and put it
 ## Going Forward
 
 This has been a rundown of the basic functionality of the UKFast loadbalancers, but there's far more you can do with them! The other guides in the loadbalancer category will discuss topics such as setting up SSL offloading and using access control lists to divert visitors to different locations based on various layer 7 quantifiers.
+
+```eval_rst
+  .. meta::
+     :title: Quickstart | UKFast Documentation
+     :description: Information on the basics of load balancers
+     :keywords: ukfast, load, balancer, network, quickstart, guide, cloud, hosting
+
