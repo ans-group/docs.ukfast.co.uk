@@ -10,3 +10,8 @@ Guides relating to eCloud Flex instances which are based on Nova, the compute el
    basic
    newinstances
    instancebilling
+
+  .. meta::
+     :title: eCloud Flex Instances | UKFast Documentation
+     :description: Contents for eCloud Flex Instances
+     :keywords: ukfast, ecloud, cloud, flex, instance, hosting
