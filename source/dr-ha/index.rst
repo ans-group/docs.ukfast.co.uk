@@ -1,3 +1,8 @@
+  .. meta::
+     :title: Backups, DR, and High Availability | UKFast Documentation
+     :description: Information on Backups, DR and High Availability at UKFast
+     :keywords: ukfast, backups, dr, high, availability, hosting
+
 ====================================
 Backups, DR, and High Availability
 ====================================
