@@ -17,3 +17,8 @@ FASTcloudbackup allows you to backup the files and folders on laptops, desktop c
    Managingfastcloudbackup
    Troubleshooting
    Technicalinformation
+
+  .. meta::
+     :title: FASTcloudbackup | UKFast Documentation
+     :description: Contents for FASTcloudbackups
+     :keywords: ukfast, fast, cloud, backup, contents
