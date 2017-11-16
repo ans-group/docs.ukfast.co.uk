@@ -14,3 +14,8 @@ UKFast's flexible OpenStack-based cloud platform
    ipv6
    support/index
    networking/index
+
+  .. meta::
+     :title: eCloud Flex | UKFast Documentation
+     :description: Contents for eCloud Flex
+     :keywords: ukfast, cloud, ecloud, flex, hosting
