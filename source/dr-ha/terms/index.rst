@@ -1,3 +1,8 @@
+  .. meta::
+     :title: Terms | UKFast Documentation
+     :description: Articles with information on the different terms relating to backups and disaster recovery
+     :keywords: ukfast, backup, terms, dr, high, availability, hosting, disaster, recovery
+
 =====
 Terms
 =====
