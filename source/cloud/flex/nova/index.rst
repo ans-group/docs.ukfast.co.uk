@@ -18,8 +18,15 @@ Guides relating to eCloud Flex instances which are based on Nova, the compute el
 <<<<<<< HEAD
 <<<<<<< HEAD
 
+<<<<<<< HEAD
 
 =======
 >>>>>>> parent of 869a4f4... Adding cloud/flex/nova index metadata
 =======
 >>>>>>> parent of 869a4f4... Adding cloud/flex/nova index metadata
+=======
+  .. meta::
+     :title: eCloud Flex Instances | UKFast Documentation
+     :description: Contents for eCloud Flex Instances
+     :keywords: ukfast, ecloud, cloud, flex, instance, hosting
+>>>>>>> parent of 3685ac8... Update index.rst
