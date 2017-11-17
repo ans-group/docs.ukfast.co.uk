@@ -1,3 +1,9 @@
+  .. meta::
+     :title: Using DPACK to monitor server performance | UKFast Documentation
+     :description: Information on using DPACK to monitor system performance
+     :keywords: ukfast, dpack, monitor, server, performance, dell, hosting
+
+
 =========================================================
 Using DPACK to monitor server/virtual machine performance
 =========================================================
