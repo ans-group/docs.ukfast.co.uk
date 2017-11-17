@@ -22,3 +22,9 @@ To cancel a scheduled at job you can use the `atrm` command followed by the ID o
 ```bash
   atrm 2
 ```
+
+```eval_rst
+  .. meta::
+     :title: Using the AT command in Linux | UKFast Documentation
+     :description: Information and guidance on using the AT command in Linux
+     :keywords: ukfast, linux, at, command, time, console, atq, job, schedule, server, cloud

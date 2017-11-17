@@ -67,6 +67,7 @@ or the following perl script that checks your system resources and spits out a l
 <http://mysqltuner.pl>
 
 ```eval_rst
-.. warning::
-   Neither of the above links are maintained by or related to UKFast and all content is used at your own discretion.
-```
+  .. meta::
+     :title: Installing MySQL in Linux | UKFast Documentation
+     :description: A guide to installing MySQL on Linux
+     :keywords: ukfast, linux, mysql, database, install, centos, cloud, lamp, server, virtual

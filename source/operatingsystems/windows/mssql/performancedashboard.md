@@ -27,3 +27,9 @@ The Performance Dashboard report will generate, and once complete should be pres
 ![Performance](Images/performancedashboard/perfdashboard.PNG)
 
 * You can navigate the performance dashboard to review different pieces of information, generally, any information which is underlined, can be selected to provide further details specifically related to that title.
+
+```eval_rst
+  .. meta::
+     :title: Microsoft SQL Server performance dashboard | UKFast Documentation
+     :description: A guide to the Microsoft SQL Server performance dashboard
+     :keywords: ukfast, windows, sql, sql server, microsoft, mssql, database, performance, dashboard, cloud, server

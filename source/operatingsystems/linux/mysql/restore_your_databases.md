@@ -105,3 +105,9 @@ And now you can use yourdatabase.sql to restore your database.
 Once you have your database dump you will need to import this dump into MySQL. To do this, you will need to enter the below command.
 
 ```mysql -u root -p yourdatabase < yourdatabase.sql```
+
+```eval_rst
+  .. meta::
+     :title: Restoring databases from a MySQL backup file | UKFast Documentation
+     :description: A guide to restoring a database from a MySQL backup file
+     :keywords: ukfast, linux, mysql, database, backup, dump, restore, recovery, security, cloud

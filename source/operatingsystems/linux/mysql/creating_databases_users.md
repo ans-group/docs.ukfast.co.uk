@@ -9,3 +9,9 @@ The commands below need to be used in the MySQL command line. You can create rem
   GRANT ALL PRIVILEGES ON dbname.* TO dbuser@00.00.00.00 IDENTIFIED BY 'password';
   FLUSH PRIVILEGES;
 ```
+
+```eval_rst
+  .. meta::
+     :title: Creating database users in Linux | UKFast Documentation
+     :description: A guide to creating database users in Linux
+     :keywords: ukfast, mysql, database, users, add, create, sql, server, virtual

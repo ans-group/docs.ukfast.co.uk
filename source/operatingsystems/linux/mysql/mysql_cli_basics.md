@@ -113,3 +113,9 @@ Use the commands below.
   GRANT ALL PRIVILEGES ON dbname.* TO dbuser@00.00.00.00 IDENTIFIED BY 'password';
   FLUSH PRIVILEGES;
 ```
+
+```eval_rst
+  .. meta::
+     :title: MySQL command line basics | UKFast Documentation
+     :description: A basic guide to using the MySQL command line in Linux
+     :keywords: ukfast, mysql, database, command, line, basics, tutorial, guide, linux, centos

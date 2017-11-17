@@ -11,3 +11,9 @@ As well as the two licensing models available, four different versions of MSSQL 
 
 Full Details on the different versions and their feature sets, can be found by visiting the link below
 [MSSQL Versions](https://www.microsoft.com/en-gb/cloud-platform/sql-server-editions)
+
+```eval_rst
+  .. meta::
+     :title: Which version of Microsoft SQL Server do I need? | UKFast Documentation
+     :description: Guidance on which is the best version of Microsoft SQL Server for your requirements
+     :keywords: ukfast, mssql, database, sql, sql server, microsoft, guide, tutorial, cloud

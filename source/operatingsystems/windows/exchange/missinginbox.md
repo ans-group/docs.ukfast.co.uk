@@ -24,3 +24,9 @@ If this does not work,you will need the following:
 * Untick the checkbox
 * Close MFCMAPI
 * Restart Outlook and you should see the folder
+
+```eval_rst
+  .. meta::
+     :title: Missing inbox in Microsoft Exchange | UKFast Documentation
+     :description: Guidance on resolving a missing inbox or other folders in Microsoft Exchange
+     :keywords: ukfast, exchange, missing, inbox, outlook, cloud, account, server

@@ -17,3 +17,9 @@ You will now be presented with the "New Object - Group" window as below, in this
 ![Group Name](files/newgroup/newgroupname.png)
 
 * With the above fields completed, please select OK and you will now be able to see your new group in the list.
+
+```eval_rst
+   .. meta::
+     :title: Creating a Group in Active Directory | UKFast Documentation
+     :description: A guide to creating a group in Windows Active Directory
+     :keywords: ukfast, windows, guide, active, directory, group, virtual, server, admin, management

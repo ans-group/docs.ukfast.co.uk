@@ -24,3 +24,9 @@ Within the field "Redirect requests to this destination" please enter the destin
 When you have entered the new destination URL, continue to configure the behavior of the redirect by selecting from the options within the "Redirect Behavior" section.
 
 * Once you have configured all of the redirect options to your requirements, please select "Apply" from the Actions pane to the right hand side of the window to apply your redirect.
+
+```eval_rst
+  .. meta::
+     :title: Configuring a redirect in IIS | UKFast Documentation
+     :description: A guide to configuring a redirect in IIS
+     :keywords: ukfast, windows, iis, configure, redirect, setup, tutorial, guide

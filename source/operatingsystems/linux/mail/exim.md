@@ -155,3 +155,9 @@ You can also delete specific mails from a sender using the command below.
 If your needs require specific tweaks or configurations additions, we suggest that you use the official exim documentation. This details all of the open source documentation mainatined by the University of Cambridge.
 
 <http://www.exim.org/exim-html-current/doc/html/spec_html/index.html>
+
+```eval_rst
+  .. meta::
+     :title: Using EXIM on Linux | UKFast Documentation
+     :description: A guide to using the EXIM mail transfer agent on Linux servers
+     :keywords: ukfast, linux, mail, exim, guide, tutorial, sql, cloud

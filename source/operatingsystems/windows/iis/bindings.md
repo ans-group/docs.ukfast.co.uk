@@ -28,3 +28,9 @@ Once you have created all of the bindings which you require for your site, you w
 ![Bindings in place](files/bindings/bindings3trimmed.png)
 
 * Your bindings are now configured, and are ready to handle traffic once the relevant DNS records are in place.
+
+```eval_rst
+  .. meta::
+     :title: Creating bindings in IIS | UKFast Documentation
+     :description: A guide to creating bindings in IIS
+     :keywords: ukfast, windows, iis, make, create, bindings, cloud, tutorial, guide

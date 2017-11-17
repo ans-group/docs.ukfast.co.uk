@@ -121,3 +121,9 @@ To open a file in `vi` is the same as `nano` simply type `vi {filename}`, howeve
 
 `vi` operates in two modes, command and input. The program will launch in command mode, to edit the file you will need to enter input mode. This can be done by pressing
 `i`. Once in input mode you can edit text as you need to, to return to command mode hit `esc`. In command mode you can issue `:wq` to save your edits and exit the file.
+
+```eval_rst
+  .. meta::
+     :title: Navigating the Linux operating system | UKFast Documentation
+     :description: A guide on how to navigate through linux
+     :keywords: ukfast, server, linux, cd, move, vi, virtual, vm, navigate, navigation

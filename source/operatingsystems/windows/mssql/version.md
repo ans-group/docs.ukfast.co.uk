@@ -1,4 +1,4 @@
-# Finding the version of Microsoft SQL
+# Finding the version of Microsoft SQL you are running
 
 If you want to find which version of Microsoft SQL and what Service Pack you are running easily, the below query can be utilised.
 
@@ -38,3 +38,9 @@ To explain build numbers: Build 13 is the edition which in this case is MSSQL 20
 In this example I have a patch installed:
 
 * 13.00.1711.0	2015.130.1711.0	3179258 Processing a partition causes data loss on other partitions after the database is restored in SQL Server 2016 (1200)	August 17, 2016
+
+```eval_rst
+  .. meta::
+     :title: Which Microsoft SQL Server version am I on? | UKFast Documentation
+     :description: How to find which version of Microsoft SQL Server you're running
+     :keywords: ukfast, guide, database, mssql, sql, sql server, server, version, find, microsoft

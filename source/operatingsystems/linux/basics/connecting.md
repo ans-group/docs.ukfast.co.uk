@@ -28,3 +28,22 @@ For further advice on what to do once you've connected in this fashion, you coul
 However, whilst using your server like this offers you the most powerful way of maintaining your setup, it also provides you with the most powerful way to destroy your setup.
 
 If you have any questions about the command you're about to run, please don't hesitate to contact our support staff, they'll be happy to advise you.
+
+
+## Connecting using private key
+
+In order to connect using a private key, you will have to set PuTTY to use this before you open a session. To do this, navigate to the “Connection” tab and expand the “SSH” section. Now click on “Auth” and you should be presented with the following page:
+
+![Private key](SSH/Images/PuTTY1.png)
+
+Tell PuTTY where the private key is located on your computer by clicking “Browse…” and navigating to the folder where the key is located and opening the file.
+
+Now click “Open” and the session should open using the private key as authentication.
+
+
+  ```eval_rst
+  .. meta::
+     :title: Connecting to your server via SSH | UKFast Documentation
+     :description: Guidance on connecting to Linux using SSH 
+     :keywords: ukfast, ssh, key, private key, putty, ssh client, linux, server
+  ```

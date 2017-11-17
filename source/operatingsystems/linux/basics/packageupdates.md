@@ -135,6 +135,26 @@ Here is an example, including a snippet of the output, without colour highlights
    ...
 ```
 
+Yum also has great history features that allow you to examine your previous installations and roll them back if necessary.
+
+To view the history of your yum transactions, run `yum history list`, which will output something like:
+
+```console
+[root@7dd0ac475f64 /]# yum history
+Loaded plugins: fastestmirror, ovl
+ID     | Command line             | Date and time    | Action(s)      | Altered
+-------------------------------------------------------------------------------
+     4 | groupinstall development | 2017-10-24 09:20 | I, U           |  109 EE
+     3 | install vim-enhanced     | 2017-10-24 09:19 | Install        |   33 EE
+     2 | -y remove bind-libs bind | 2017-08-01 17:24 | Erase          |   35 E<
+     1 |                          | 2017-08-01 17:23 | Install        |  178 > 
+history list
+```
+
+In the above example, if you had finished with the packaged you installed in transaction 4, you could then remove those by running `yum history undo 4`. If you wished to rollback your server to transaction 2, you could run `yum history rollback 2` which would remove packages installed in transactions 3 and 4.
+
+You can get more information about this powerful feature by running `yum help history` or viewing the yum man page (`man yum`).
+
 ## apt
 
 
@@ -260,3 +280,15 @@ Here is an example, and a snippet of the output:
 
 This will tell you additional information, such as what packages it depends on, and which packages it will conflict with, along with a description of what the package does.
 
+```eval_rst
+.. meta::
+   :title: Package Management Functions | UKFast Documentation
+   :description: Examples and information on package management functions on CentOS and Ubuntu from UKFast
+   :keywords: servers, centos, ubuntu
+```
+
+```eval_rst
+  .. meta::
+     :title: Managing packages in Linux | UKFast Documentation
+     :description: A guide to adding and managing packages in Linux
+     :keywords: ukfast, linux, packages, adding, managing, yum, install, server, virtual, vm

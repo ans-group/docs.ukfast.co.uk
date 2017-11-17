@@ -27,3 +27,9 @@ To Disable Auto Restart for updates
 * Set file security to Deny for all types of access for SYSTEM, LOCAL SERVICE, NETWORK SERVICE. you can do this by selecting each of the mentioned users in turn, and selecting the Deny box for "Full Control" as below (This prevents Windows from re-enabling the task)
 
 ![Reboot Task Permissions](files/windowsupdate/rebootfileperms.PNG)
+
+```eval_rst
+  .. meta::
+     :title: Automatic updates in Windows Server 2016 | UKFast Documentation
+     :description: Information on the automatic updates feature in Windows Server 2016
+     :keywords: ukfast, automatic, windows, updates, 2016, server, tutorial, restart, cloud

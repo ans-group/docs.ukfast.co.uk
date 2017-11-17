@@ -104,4 +104,8 @@ Now select "OK" and you will be returned to the "W3C Logging Fields" pane, where
 [IIS 8.5 Enhanced Logging](https://www.iis.net/learn/get-started/whats-new-in-iis-85/enhanced-logging-for-iis85)
 
 
-
+```eval_rst
+  .. meta::
+     :title: X-Forwarded-For (XFF) in IIS | UKFast Documentation
+     :description: A guide to configuring XFF in IIS on Windows Server
+     :keywords: ukfast, windows, xff, forward, configure, tutorial, cloud, guide, web

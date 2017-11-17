@@ -17,3 +17,9 @@ You will now be presented with the Server Manager interface, this interface is e
 ![Manage](files/servermanager/manage.PNG)
 
 ![Tools](files/servermanager/tools.PNG)
+
+```eval_rst
+  .. meta::
+     :title: Server Manager in Windows Server 2016 | UKFast Documentation
+     :description: A guide to accessing Windows Server Manager in Windows Server 2016
+     :keywords: ukfast, windows, server, manager, access, tutorial, cloud, 2016
