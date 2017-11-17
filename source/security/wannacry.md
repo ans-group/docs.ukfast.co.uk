@@ -155,3 +155,9 @@ Please don’t hesitate to contact our support professionals who can provide ass
 * Email [support@ukfast.co.uk](mailto:support@ukfast.co.uk)
 * Telephone 0800 230 0032
 
+```eval_rst
+  .. meta::
+     :title: Wana Decryptor / Wana Decrypt0r 2.0 / WannaCry | UKFast Documentation
+     :description: Information on the WannaCry vulnerability
+     :keywords: ukfast, wannacry, cry, attack, hack, encrypt, windows, linux, cloud, nhs, hosting
+

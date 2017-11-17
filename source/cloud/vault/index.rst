@@ -1,3 +1,9 @@
+  .. meta::
+     :title: eCloud Vault | UKFast Documentation
+     :description: Articles with information on the eCloud Vault platform
+     :keywords: ukfast, ecloud, cloud, vault, hosting
+
+
 ============
 eCloud Vault
 ============

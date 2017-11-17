@@ -38,3 +38,9 @@ If there are certain folders you need to access frequently, then marking them as
 When you want to navigate to a favourite folder, click `Favourites` in the left hand menu, and you'll see a list of your favourite folders.
 
 ![favourites list](files/favourites_list.PNG)
+
+```eval_rst
+  .. meta::
+     :title: Managing Files and Folders in FASTCloudBackup | UKFast Documentation
+     :description: A guide to managing files and folders on FASTCloudBackups
+     :keywords: ukfast, cloud, backup, fast, sort, manage, files, folders, tutorial

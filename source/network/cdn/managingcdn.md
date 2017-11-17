@@ -69,3 +69,10 @@ One method is to use [MyUKFast](https://my.ukfast.co.uk/ddosx/), this will allow
 You can clear the CDN cache via a PURGE or a DELETE method. For example, use curl `curl -XPURGE example.org/example.jpg`.  Adding a `-I` to this request in order to present headers will return `X-Purged-Count: 1` to show how many items were removed. This can also be done using `curl -XPURGE example.org/*` which will effectively clear everything. Cache is stored on each server locally, so this method will only clear the cache on the server it hits.
 
 If you need help using the CDN or configuring your rules, please contact UKFast support by raising a ticket in [MyUKFast](https://my.ukfast.co.uk/pss/add.php) or by calling 0800 230 0032.
+
+```eval_rst
+  .. meta::
+     :title: Managing the cache | UKFast Documentation
+     :description: Information on managing the cache in CDN
+     :keywords: ukfast, network, cnd, cache, managing, cloud, hosting
+

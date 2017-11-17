@@ -13,3 +13,10 @@ You will presented with a series of fields, as such:
 We need to fill in these fields with the information we want. So in our example, I want `www.example.domain` and I want to point it at `0.0.0.0`. If you want to add more than one record, simply click `Add Record` again and a new set of text fields will appear.
 
 Once you're happy you've added the `A` records you want, just click `Save Records` at the bottom of the page and your DNS zone will be updated. These updates can take upwards of 24 hours to propagate around the world and as such, might be visible to you straight away.
+
+```eval_rst
+  .. meta::
+     :title: Adding an A record to an existing domain | UKFast Documentation
+     :description: A guide to adding an A record to a domain in SafeDNS
+     :keywords: ukfast, domains, records, dns, safedns, safe, add, a, cloud, hosting
+

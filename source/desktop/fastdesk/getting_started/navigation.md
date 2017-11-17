@@ -23,3 +23,9 @@ You can favourite an Application or Desktop by clicking the __Details__ link nex
 Similarly, you can remove an Application or Desktop from your Favourites by clicking __Details__ and click the __Remove__ button
 
 ![FASTdesk_Favourites](files/fastdesk_launchpad-remfromfav.png)
+
+```eval_rst
+  .. meta::
+     :title: Navigating the FASTdesk Interface | UKFast Documentation
+     :description: A guide to navigating the FASTdesk interface
+     :keywords: ukfast, fastdesk, navigating, apps, desktop, manage, cloud, hosting

@@ -25,3 +25,10 @@ Once you have run through the first time login process, you can login every time
 Below is an image of the standard log in screen that you will see. If you enter the correct credentials you will be successfully logged in.
 
 ![Image56](files/Image56.png)
+
+```eval_rst
+  .. meta::
+     :title: Logging in to FASTdrive | UKFast Documentation
+     :description: A guide to logging into FASTdrive
+     :keywords: ukfast, fastdrive, log, in, first, cloud, hosting, desktop
+

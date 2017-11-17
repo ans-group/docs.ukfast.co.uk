@@ -13,3 +13,10 @@ Here are a few possible fixes in the event of any issues:
   - **500 error:** This isn't typically a WAF problem, usually it means a problem has occurred server-side
 
 If you experience any problems with your WAF then please contact support or raise a ticket via [MyUKFast](https://my.ukfast.co.uk)
+
+```eval_rst
+  .. meta::
+     :title: Troubleshooting issues with Web Application Firewalls | UKFast Documentation
+     :description: A guide to troubleshooting issues with a WAF
+     :keywords: ukfast, security, web, application, firewall, waf, troubleshooting, issues, cloud, hosting
+

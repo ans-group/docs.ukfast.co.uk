@@ -57,3 +57,10 @@
 ![Win-Extended-CMD](files/Windows/Windows_Extended/Win_DPACK_Time.PNG)
 
 You are now able to run the DPACK for 7-days. Any problems, don't hesitate to contact UKFast Support.
+
+```eval_rst
+  .. meta::
+     :title: Running a DPACK on Windows | UKFast Documentation
+     :description: A guide to running a DPACK on Windows
+     :keywords: ukfast, monitoring, windows, dpack, cloud, hosting
+

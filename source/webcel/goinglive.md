@@ -5,3 +5,10 @@ When you’ve completed your testing and feel confident using the Webcelerator, 
 With regards to DNS itself, most DNS changes can take up to [24 hours](/Domains/domains/dnspropagation.html) to propagate globally (and sometimes longer). You can reduce this time by changing your domain’s TTL value to 30 minutes at least 24-48 hours before you plan on changing your DNS ‘A’ records. This should reduce the amount of time it takes to propagate the DNS changes. If you host your DNS through SafeDNS, you should speak with your account manager to get SOA controls enabled for your domains.
 
 We’ve stressed the importance of testing because of the amount of time it takes to propagate a DNS change. **It's not possible to roll back instantly if you notice a problem with the way your site and  Webcelerator interact.**
+
+```eval_rst
+  .. meta::
+     :title: Going Live | UKFast Documentation
+     :description: A guide to getting your application live using a WebCel
+     :keywords: ukfast, webcel, going, live, application, webcelerator, cloud, hosting
+

@@ -15,3 +15,9 @@ If you've already requested an SSH key previously then you can retrieve it by cl
 Once you have the SSH key, you will need to [follow this guide to add it to your eCloud Flex instance](/cloud/flex/support/sshkey.html) and grant access to `ukfastsupport`.
 
 If you run into any problems on this, please mention it in your support ticket, or call UKFast support directly on 0800 230 0032.
+
+```eval_rst
+  .. meta::
+     :title: UKFast support access to your eCloud Flex instances | UKFast Documentation
+     :description: Information on UKFast support and eCloud Flex
+     :keywords: ukfast, support, ecloud, flex, instance, cloud, hosting, server

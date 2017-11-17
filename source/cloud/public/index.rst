@@ -1,3 +1,9 @@
+  .. meta::
+     :title: eCloud Public | UKFast Documentation
+     :description: Articles with information on the UKFast eCloud Public platform
+     :keywords: ukfast, ecloud, cloud, public, articles, information, hosting
+
+
 ===============
 eCloud Public
 ===============

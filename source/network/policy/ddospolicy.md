@@ -5,3 +5,10 @@ We have an anti ddos monitoring service deployed across our entire network. The 
 If one of your IPs is under attack but isn't tripping the threshold, you can always phone or raise a ticket requesting that we blackhole the IP manually. This can be useful if traffic to one particular IP is affecting the rest of your solution.
 
 If you're repeatedly affected by DDoS attacks, we do offer a DDoS mitigation platform. Your account manager will have more information on this service.
+
+```eval_rst
+  .. meta::
+     :title: DDoS Policy | UKFast Documentation
+     :description: Information on our DDoS policy
+     :keywords: ukfast, network, ddos, attack, policy, information, cloud, hosting
+

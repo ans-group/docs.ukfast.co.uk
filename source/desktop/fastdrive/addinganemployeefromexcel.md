@@ -39,3 +39,10 @@ __Add this user to my address book__ – This will add the user to your personal
 ![Image68](files/Image68.png)
 
 Once permissions have been set, you will have the option to send out confirmation emails. This lets the new user know that they have been added to FASTdrive.
+
+```eval_rst
+  .. meta::
+     :title: Adding an employee from an Excel spreadsheet | UKFast Documentation
+     :description: A guide to adding an employee from an Excel spreadsheet in FASTdrive
+     :keywords: ukfast, employee, guide, excel, add, spreadheet, fastdrive, cloud, server
+

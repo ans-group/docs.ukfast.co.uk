@@ -7,3 +7,10 @@ The Webcelerator considers a backend to be online if the page it’s monitoring 
 Having a monitoring script you can control allows you to take a backend out of the load balancer rotation for maintenance or upgrades without affecting the live site, as traffic will automatically be directed to your other servers. If all web servers are unavailable, a maintenance page could be served from the Webcelerator.
 
 Your monitoring script could also connect to your database and run a basic query ('SELECT NOW()' for example) and return an appropriate status code based on whether that connection and request succeeded or not. If you do this, the query you use should return quickly and not put excessive load on the database, as the script will be called every few seconds.
+
+```eval_rst
+  .. meta::
+     :title: Monitoring with a WebCel | UKFast Documentation
+     :description: A guide to monitoring with a WebCel
+     :keywords: ukfast, webcel, monitoring, webcelerator, issues, cloud, hosting
+

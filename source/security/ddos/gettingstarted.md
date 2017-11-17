@@ -138,3 +138,10 @@ For Apache 2.2 you will need to use [mod_rpaf](https://github.com/gnif/mod_rpaf)
      :description: Guidance to setting up DDoSX and CDN from UKFast
      :keywords: ddos, ddos protection, anti-ddos, cdn, content delivery, content delivery network
 ```
+
+```eval_rst
+  .. meta::
+     :title: Getting started with DDoSX | UKFast Documentation
+     :description: Information and guidance on getting started with DDoSX
+     :keywords: ukfast, security, ddosx, getting, started, cdn, cloud, hosting
+

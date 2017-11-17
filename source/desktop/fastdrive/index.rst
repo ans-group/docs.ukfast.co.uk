@@ -1,3 +1,9 @@
+  .. meta::
+     :title: FASTdrive | UKFast Documentation
+     :description: Articles with information about FASTdrive, a UKFast Backup platform
+     :keywords: ukfast, fast, drive, backup, hosting
+
+
 =========
 FASTdrive
 =========

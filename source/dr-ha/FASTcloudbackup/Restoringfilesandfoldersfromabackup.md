@@ -12,3 +12,9 @@ To restore from a previous backup job, click on `Recent Backup Jobs` within the 
 Find the backup job in question from the list, click on the link and restore the files/folders as described above.
 
 ![recent jobs](files/recent_jobs.PNG)
+
+```eval_rst
+  .. meta::
+     :title: Restoring files and folders from a FASTCloudBackup | UKFast Documentation
+     :description: A guide to restoring files and folders from FASTCloudBackups
+     :keywords: ukfast, cloud, restore, data, files, backup, fast, disaster, recovery

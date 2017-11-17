@@ -15,3 +15,10 @@ These graphs will show you the packets per second that have been sent and receiv
 ![PPS](files/pps.png)
 
 For a consolidated view of various usage metrics, including bandwidth, for your UKFast-hosted servers you can run a [PROProtection Report](/monitoring/proprotection.html)
+
+```eval_rst
+  .. meta::
+     :title: Bandwidth usage | UKFast Documentation
+     :description: Information on bandwidth usage in MyUKFast
+     :keywords: ukfast, myukfast, bandwidth, usage, monitoring, cloud, hosting
+

@@ -10,3 +10,10 @@ UKFast WAFs follow the good security practice of "blacklist everything, only whi
 A WAF operates by following specially built rules and rulesets. Starting from a standard ruleset, UKFast can configure these specifically for your solution and applications to ensure that all traffic to the monitored web applications are checked.  If traffic matches the ruleset it will be allowed through, otherwise it will be dropped immediately and the potential attack will be prevented. 
 
 However, every web application can be different and have specific methods of inputting data. Given this, it is possible for some legitimate traffic to get caught by the WAF filter and dropped.  To mitigate this risk on an ongoing basis, UKFast has a dedicated analyst team who will work with you to advise on ruleset updates and tweaks for your WAF.  Often this team will spot problems and correct them before it becomes apparent to customers, however if you do believe your WAF is not functioning optimally then please contact support, raise a ticket via [MyUKFast](https://my.ukfast.co.uk) or call your UKFast account manager.
+
+```eval_rst
+  .. meta::
+     :title: What is a Web Application Firewall? | UKFast Documentation
+     :description: Information on Web Application Firewalls
+     :keywords: ukfast, security, web, application, firewall, basics, cloud, hosting
+

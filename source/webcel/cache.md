@@ -71,3 +71,10 @@ You could also submit purge requests from your application to do this programati
   }
 ?>
 ```
+
+```eval_rst
+  .. meta::
+     :title: Purging WebCel cache | UKFast Documentation
+     :description: A guide to purging WebCel cache
+     :keywords: ukfast, webcel, purge, delete, cache, cloud, hosting
+

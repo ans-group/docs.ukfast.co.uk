@@ -27,3 +27,10 @@ Ensure that the correct SSL certificate is selected in the dropdown box in the D
 ## I've removed my domain from the DDoSX<sup>®</sup> network, and now my website is offline.
 
 If you've previously had a domain connected to the DDoSX<sup>®</sup> network and then removed it, make sure to use [SafeDNS](/Domains/safedns/index.html) to point your DNS records directly back to your own server or firewall.  See the section on [Removing a domain from DDoSX<sup>®</sup>](/security/ddos/remove.html) for more details.
+
+```eval_rst
+  .. meta::
+     :title: Troubleshooting DDosX problems | UKFast Documentation
+     :description: A guide to troubleshooting issues within DDoSX
+     :keywords: ukfast, ddos, ddosx, troubleshooting, security, guide, cloud, hosting
+

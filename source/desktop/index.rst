@@ -1,3 +1,9 @@
+  .. meta::
+     :title: Desktop and Office Solutions | UKFast Documentation
+     :description: Information about the different desktop and office solutions that UKFast offer
+     :keywords: ukfast, desktop, office, solutions, backup, hosting
+
+
 ============================
 Desktop and office solutions
 ============================

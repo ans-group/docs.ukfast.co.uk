@@ -35,3 +35,9 @@ Billing for FASTcloudbackup is based on the amount of storage quota (in gigabyte
 FASTcloudbackup is based upon Commvault software.  That's why in some parts of the web console or system emails, you may see references to Commvault.  It's nothing to worry about - you are still using FASTcloudbackup.
 
 ![reset password email](files/reset_password_email.PNG)
+
+```eval_rst
+  .. meta::
+     :title: General Information / FAQ | UKFast Documentation
+     :description: Information about FASTCloudBackup
+     :keywords: ukfast, fast, cloud, backup, desk, data, recovery, disaster, server

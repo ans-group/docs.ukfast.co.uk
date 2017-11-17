@@ -15,3 +15,10 @@ Under the "Search for messages I've sent to" select this option and click `selec
 ![ShexFind](files/findemail.PNG)
 
 Your results will be displayed along with the status of delivery.
+
+```eval_rst
+  .. meta::
+     :title: Tracking messages sent via Shared Exchange | UKFast Documentation
+     :description: A guide to tracking messages send via Shared Exchange
+     :keywords: ukfast, shared, exchange, mail, track, messages, cloud, desktop, hosting
+

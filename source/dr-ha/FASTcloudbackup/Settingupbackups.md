@@ -45,3 +45,9 @@ You can amend your backup schedule as necessary, deleting or changing existing s
 ![amend](files/amend.PNG)
 
 If you stop backing up a particular computer or server, you may want to cancel any [alerts](link) you previously had set up otherwise you will continue to receive notifications that backups have not been run.
+
+```eval_rst
+  .. meta::
+     :title: Setting up Backups on FASTCloudBackup | UKFast Documentation
+     :description: A guide to setting up backups on FASTCloudBackups
+     :keywords: ukfast, cloud, backups, fast, setting, up, backup, guide, tutorial

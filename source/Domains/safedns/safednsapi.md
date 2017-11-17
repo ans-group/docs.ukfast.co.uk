@@ -479,3 +479,10 @@ This is a list of error messages you may encounter whilst using the SafeDNS API.
     <td class="tg-yw4l">Database error, please try again or contact support</td>
   </tr>
 </table>
+
+```eval_rst
+  .. meta::
+     :title: SafeDNS API | UKFast Documentation
+     :description: Information on the SafeDNS API
+     :keywords: ukfast, domains, safedns, dns, api, cloud, hosting
+

@@ -37,3 +37,10 @@ Once users have been added, you can see their permissions by clicking __People o
 Below, are the users that have been given permissions and you can see the permissions that they have.
 
 ![Image64](files/Image64.png)
+
+```eval_rst
+  .. meta::
+     :title: Creating folders in FASTdrive | UKFast Documentation
+     :description: A guide to creating folders in FASTdrive
+     :keywords: ukfast, fastdrive, create, add, folder, tutorial, cloud, hosting
+

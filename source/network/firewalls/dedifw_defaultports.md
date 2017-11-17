@@ -104,3 +104,10 @@ Traffic allowed **OUT** from your Windows server to the Internet:
 | NTP      | UDP 123 |
 +----------+---------+
 ```
+
+```eval_rst
+  .. meta::
+     :title: Default Firewall config - Dedicated Firewall | UKFast Documentation
+     :description: Information on the default firewall config on dedicated firewalls
+     :keywords: ukfast, network, firewall, dedicated, default, config, cloud, hosting
+

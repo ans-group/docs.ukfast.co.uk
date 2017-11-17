@@ -58,4 +58,9 @@ Selecting 'Help' will lead you to the UKFast documentation page, specifically th
 
 ![ssoimage10](files/ssoimage10.PNG)
 
+```eval_rst
+  .. meta::
+     :title: Single Sign On
+     :description: Information on the Single Sign On feature of FASTdrive
+     :keywords: ukfast, fastdrive, desktop, single, sign, on, login, cloud, hosting, desktop
 

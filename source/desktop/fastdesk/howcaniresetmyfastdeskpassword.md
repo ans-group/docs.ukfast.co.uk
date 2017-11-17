@@ -60,3 +60,9 @@ successfully and you’ll see a screen similar to the one below.
 ![Image135](files/Image135.png)
 
 If you have forgotten your password and would like it to be reset, this is something that can only be done by FASTdesk Support. In order to reset your password, you can email support@ukfast.co.uk, create a ticket via https://my.ukfast.co.uk/pss/add.php or ring our FASTdesk Support Line directly on 0800 923 0617.
+
+```eval_rst
+  .. meta::
+     :title: How to reset your FASTdesk password | UKFast Documentation
+     :description: A guide on resetting your FASTdesk password
+     :keywords: ukfast, fastdesk, password, reset, security, cloud, server, hosting

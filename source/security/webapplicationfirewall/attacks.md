@@ -22,3 +22,10 @@ Given the whitelisting design used by UKFast WAFs, we benefit from the ability t
 Due to the statistical data UKFast collects and analyses, we are able to identify bad actors and generate IP-based block lists. Data can be gathered by analyzing HTTP status codes to find software implementation faults, which allows us to build up a database of blacklist strings to deploy and block known bad traffic as early as possible.
 
 Here's an example: You may have a PHPMyAdmin interface in public facing environment. This is not recommended, but could be present due to a misconfiguration, or a forgotten "temporary fix". Scanners are looking for targets like this all the time by scanning IP addresses / hostnames continually. While the vast majority of our protection comes in the form of a whitelist, having blacklist signatures reporting information to UKFast provides us with vital intelligence, and allows us to clean up the traffic going through to your webservers.
+
+```eval_rst
+  .. meta::
+     :title: What kind of attacks does a WAF prevent? | UKFast Documentation
+     :description: Information on the types of attacks that WAFs prevent
+     :keywords: ukfast, security, web, application, firewall, waf, attacks, prevent, stop, cloud
+

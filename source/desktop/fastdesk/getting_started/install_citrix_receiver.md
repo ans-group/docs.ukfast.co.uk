@@ -81,3 +81,9 @@ You'll then be prompted to enter your FASTdesk login credentials.
 Click log on, and if your credentials are correct, Citrix Receiver will then load and you'll be able to launch your applications.
 
 ![Image182](files/Image182.png)
+
+```eval_rst
+  .. meta::
+     :title: Installing and Configuring Citrix Receiver | UKFast Documentation
+     :description: A guide to installing and configuring Citrix Receiver
+     :keywords: ukfast, fastdesk, install, citrix, receiver, configure, tutorial, desktop

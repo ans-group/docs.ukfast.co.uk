@@ -14,3 +14,9 @@ Running a DPACK will allow you and UKFast to measure a wide variety of metrics s
 
 A DPACK can be run on any [Windows](/monitoring/dpack/windows.html) or [Linux](/monitoring/dpack/linux.html) based operating system.
 
+```eval_rst
+  .. meta::
+     :title: Getting started with DPACK | UKFast Documentation
+     :description: A guide to getting started with DPACK
+     :keywords: ukfast, dpack, getting, started, monitoring, cloud, hosting
+

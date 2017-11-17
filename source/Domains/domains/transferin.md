@@ -34,3 +34,10 @@ Fill in the large box with your domain(s) as shown and hit `Transfer Domains` to
 Once you're done here, the next step is the authorisation. This is carried out via an email sent to the `administrative contact` email address, as mentioned earlier. This email will prompt the contact to approve the transfer and fill in the `EPP` code if necessary. At this point, the registry can approve the change.
 
 The timing for the process varies and could take up to 5 days to complete, though it's usually much quicker than that once the transfer has been approved by the administrative contact.
+
+```eval_rst
+  .. meta::
+     :title: Transferring a domain to UKFast | UKFast Documentation
+     :description: Information and instructions on moving domains to UKFast
+     :keywords: ukfast, domain, transfer, move, in, cloud, hosting
+

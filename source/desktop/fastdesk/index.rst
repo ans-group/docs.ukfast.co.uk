@@ -1,3 +1,9 @@
+  .. meta::
+     :title: FASTdesk | UKFast Documentation
+     :description: Articles with information about the FASTdesk platform
+     :keywords: ukfast, fastdesk, fast, desk, platform, hosting, desktop
+
+
 ========
 FASTdesk
 ========

@@ -23,3 +23,10 @@ Out of the box, the Webcelerator has a default set of rules that is fairly agres
 'Forcibly cached' means that the Webcelerator will strip cookie, expires, pragma, and cache-control headers from these file types, and set its own cache control headers of `max-age=7200 public` and add them to the cache. A guide to understanding cache control headers can by found [here](https://varvy.com/pagespeed/cache-control.html).
 
 This setup will give you some benefits of the Webcelerator but for an optimal solution, our engineers will work with you to create a configuration for your site's specific requirements.
+
+```eval_rst
+  .. meta::
+     :title: Introduction to WebCels | UKFast Documentation
+     :description: An introduction to WebCelerators
+     :keywords: ukfast, webcel, webcelerator, introduction, cloud, hosting
+

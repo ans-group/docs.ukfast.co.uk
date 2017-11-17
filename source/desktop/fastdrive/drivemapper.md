@@ -33,3 +33,10 @@ Once finished, you’ll see the following screen. If you click __Launch__, Drive
 To login to Drive Mapper, use your FASTdrive credentials. Take note that only employee users can log in and use Drive Mapper.
 
 ![Image127](files/Image127.png)
+
+```eval_rst
+  .. meta::
+     :title: Installing drive mapper | UKFast Documentation
+     :description: A guide to installing drive mapper for FASTdrive
+     :keywords: ukfast, fastdrive, download, install, drive, mapper, cloud, hosting, desktop
+

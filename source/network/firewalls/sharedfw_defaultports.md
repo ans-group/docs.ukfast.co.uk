@@ -177,3 +177,10 @@ Traffic allowed **OUT** from your Windows server to the Internet:
 | DNS      | UDP 53  |
 +----------+---------+
 ```
+
+```eval_rst
+  .. meta::
+     :title: Default Firewall Config - Shared Firewall | UKFast Documentation
+     :description: Information on the default firewall config on shared firewalls
+     :keywords: ukfast, network, firewall, shared, dedicated, default, config, cloud, hosting
+

@@ -1,8 +1,3 @@
-```eval_rst
-.. meta::
-   :title: UKFast Documentation | eCloud Vault | Basic s3website API usage
-   :description: Information on how you can host a static website on eCloud vault using the S3website interface
-```
 # Basic s3website API usage
 
 ```eval_rst
@@ -48,3 +43,9 @@ Using your favirote DNS provider add a CNAME to the bucket name, in our example 
 ```bash
   www.example.com.         300     IN      CNAME   www.example.com.vault-website-man-5.ecloud.co.uk
 ```
+
+```eval_rst
+  .. meta::
+     :title: Basic s3website API usage on eCloud Vault | UKFast Documentation
+     :description: Information on how you can host a static website on eCloud Vault using the S3website interface
+     :keywords: ukfast, ecloud, vault, s3, website, hosting, virtual, api, usage

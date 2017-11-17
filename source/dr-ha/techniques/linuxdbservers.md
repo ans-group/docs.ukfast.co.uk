@@ -105,3 +105,9 @@ This can then be ran nightly as a cron job as mentioned in the previous section.
 ## Next steps
 
 Once you're confident that you have consistent backups using one of the above two methods, you should now be good to follow the [Setting backup exclusions](https://my.ukfast.co.uk/faq/1090.html) guide to exclude `/var/lib/mysql` (or wherever else you may keep your datadir) from your backup run to save some space.
+
+```eval_rst
+  .. meta::
+     :title: Linux Database Servers | UKFast Documentation
+     :description: A guide to backing up databases on Linux
+     :keywords: ukfast, cloud, backup, database, linux, server, mysql, sql, dump

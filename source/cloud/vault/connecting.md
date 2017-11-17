@@ -59,4 +59,3 @@ Once you have the configuration in place, you can start to use `s3cmd` to view a
    :description: Detailed information on connecting to eCloud Vault object storage from UKFast
    :keywords: eCloud, Vault, eCloud Vault, object storage, cloud storage, s3cmd
 ```
-

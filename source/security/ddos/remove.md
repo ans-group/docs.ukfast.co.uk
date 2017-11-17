@@ -14,3 +14,10 @@ If you want to remove a domain from DDoSX<sup>®</sup> then follow these steps:
    If you don't point your domain records back to your own server or firewall, your domain will go offline when the domain's DDoSX\ :sup:`®` billing period expires.
 
 ```
+
+```eval_rst
+  .. meta::
+     :title: Removing a domain from DDoSX | UKFast Documentation
+     :description: A guide to removing a domain from DDoSX 
+     :keywords: ukfast, security, ddosx, remove, domain, cloud, hosting
+

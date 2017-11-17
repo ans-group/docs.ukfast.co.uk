@@ -33,3 +33,9 @@ I have selected one of the files above and I have the option to either delete th
 In this instance I have restored the file and as you can see there are now 6 previous versions of the file (including the current version). The version which I restored is the version saved at 11.25am.
 
 ![Image151](files/Image151.png)
+
+```eval_rst
+  .. meta::
+     :title: Accessing previous versions of your files | UKFast Documentation
+     :description: A guide to accessing previous versions of your files in FASTdrive
+     :keywords: ukfast, fastdrive, cloud, files, previous, versions, access, tutorial
