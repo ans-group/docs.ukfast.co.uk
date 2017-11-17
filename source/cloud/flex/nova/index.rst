@@ -2,7 +2,6 @@
 .. meta::
    :title: eCloud Flex Instances | UKFast Documentation
    :description: Contents for eCloud Flex Instances
-   :keywords: cloud, ecloud, flex, cloud hosting, ukfast, openstack
 
 =======
 >>>>>>> parent of 74ac59d... Update index.rst
