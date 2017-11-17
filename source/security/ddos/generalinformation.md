@@ -15,3 +15,14 @@ DDoSX<sup>®</sup>, our DDoS protection service, is designed to detect and filte
 ## Where does DDoSX<sup>®</sup> sit in my IT stack?
 
 DDoSX<sup>®</sup> is a network-based solution which sits in front of your UKFast-hosted environment.  By repointing the DNS records of the domains you wish to protect to UKFast using [SafeDNS](/Domains/safedns/index.html), we can broadcast your IP address(es) across our global DDoSX<sup>®</sup> network.  All traffic destined for your domains will then be routed via this network, enabling us to filter out malicious traffic as described above.
+
+## What type of traffic and applications does DDoSX support?
+
+DDoSX supports HTTP and HTTPS web traffic on ports 80 and 443 respectively. If you need to route other types of traffic to your UKFast-hosted solution then please contact us before setting up DDoSX.
+
+```eval_rst
+.. meta::
+     :title: DDoSX and CDN from UKFast | UKFast Documentation
+     :description: General information on UKFast's global DDoSX network with CDN
+     :keywords: ddos, ddos protection, anti-ddos, cdn, content delivery, content delivery network, ukfast, ddosx
+```

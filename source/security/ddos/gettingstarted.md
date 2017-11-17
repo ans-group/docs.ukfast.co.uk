@@ -18,6 +18,13 @@ DDoSX<sup>®</sup> and Content Delivery Network (CDN) are two features of our gl
 
 ```
 
+```eval_rst
+.. warning::
+
+   DDoSX supports HTTP and HTTPS web traffic on ports 80 and 443 respectively. If you need to route other types of traffic to your UKFast-hosted solution then please contact us before setting up DDoSX.
+
+```
+
 To enable DDoSX<sup>®</sup> and CDN on your domains, follow these steps:
 
 **[1. Connect](#connect-domain)** your domain(s) to DDoSX
