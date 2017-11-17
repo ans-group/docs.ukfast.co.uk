@@ -15,5 +15,8 @@ Guides relating to eCloud Flex instances which are based on Nova, the compute el
    basic
    newinstances
    instancebilling
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> parent of 869a4f4... Adding cloud/flex/nova index metadata
