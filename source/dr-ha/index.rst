@@ -28,8 +28,3 @@ Documentation relating to our highly-available solutions which are able to recov
 
    bcp/index
    /network/loadbalancing/index
-
-  .. meta::
-     :title: Backups, DR and High Availability | UKFast Documentation
-     :description: Contents for Backups, DR and High Availability
-     :keywords: ukfast, backups, dr, high, availability, contents
