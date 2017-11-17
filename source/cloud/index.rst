@@ -11,8 +11,3 @@ UKFast offers a number of cloud hosting platforms, including public cloud (eClou
    vault/index
    public/index
    hybridandprivate/index
-
-  .. meta::
-     :title: Cloud | UKFast Documentation
-     :description: Contents for Cloud 
-     :keywords: ukfast, cloud, hosting
