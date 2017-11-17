@@ -1,3 +1,9 @@
+  .. meta::
+     :title: UKFast Documentation
+     :description: Welcome to the UKFast Documentation centre
+     :keywords: ukfast, documentation, centre, hosting, cloud
+
+
 ==========================================
 Welcome to the UKFast documentation centre
 ==========================================
