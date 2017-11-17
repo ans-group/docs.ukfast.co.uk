@@ -1,3 +1,9 @@
+  .. meta::
+     :title: Shared Exchange | UKFast Documentation
+     :description: Information and articles about Shared Exchange at UKFast
+     :keywords: ukfast, shared, exchange, mail, information, hosting
+
+
 ===============
 Shared Exchange
 ===============
