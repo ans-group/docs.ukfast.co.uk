@@ -1,3 +1,9 @@
+  .. meta::
+     :title: Domains and DNS Management
+     :description: Articles with information regarding Domains and DNS at UKFast
+     :keywords: ukfast, domain, dns, manage, articles, hosting
+
+
 ==========================
 Domains and DNS management
 ==========================
