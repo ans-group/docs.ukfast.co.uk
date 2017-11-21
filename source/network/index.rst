@@ -1,3 +1,8 @@
+.. meta::
+   :title: Networking | UKFast Documentation
+   :description: Articles and Information about Networking at UKFast
+   :keywords: ukfast, network, networking, servers, cloud, hosting
+
 ==========
 Networking
 ==========
