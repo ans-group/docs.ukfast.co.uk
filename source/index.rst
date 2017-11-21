@@ -1,3 +1,8 @@
+.. meta::
+   :title: UKFast Documentation Centre
+   :description: Welcome to the UKFast Documentation Centre
+   :keywords: ukfast, documentation, information, centre
+
 ==========================================
 Welcome to the UKFast documentation centre
 ==========================================
