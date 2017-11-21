@@ -1,3 +1,8 @@
+.. meta::
+   :title: Making changes to domains at UKFast | UKFast Documentation
+   :description: Articles with information on making changes to domains at UKFast
+   :keywords: ukfast, making, changes, domains, website, hosting
+
 =========================
 Making Changes to Domains
 =========================
