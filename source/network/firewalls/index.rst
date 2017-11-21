@@ -1,3 +1,8 @@
+.. meta::
+   :title: Firewalls | UKFast Documentation
+   :description: Firewalls protect servers from cyber attacks
+   :keywords: ukfast, firewall, security, hack, cloud, hosting
+
 =========
 Firewalls
 =========
