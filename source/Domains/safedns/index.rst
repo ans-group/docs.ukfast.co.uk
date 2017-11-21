@@ -1,3 +1,8 @@
+.. meta::
+   :title: SafeDNS | UKFast Documentation
+   :description: SafeDNS is a UKFast DNS hosting platform
+   :keywords: ukfast, safedns, dns, hosting, cloud
+
 =======
 SafeDNS
 =======
