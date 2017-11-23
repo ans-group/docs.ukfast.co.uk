@@ -1,8 +1,8 @@
-# Getting started with DPACK
+# Getting started with LiveOptics
 
-You can request a DPACK capture by contacting your UKFast Account Manager or raising a support ticket through [MyUKFast](https://my.ukfast.co.uk/pss/add.php)
+You can request a LiveOptics capture by contacting your UKFast Account Manager or raising a support ticket through [MyUKFast](https://my.ukfast.co.uk/pss/add.php)
 
-Running a DPACK will allow you and UKFast to measure a wide variety of metrics such as:
+Running a LiveOptics capture will allow you and UKFast to measure a wide variety of metrics such as:
 
 * CPU & RAM Usage
 * IOPS
@@ -12,5 +12,5 @@ Running a DPACK will allow you and UKFast to measure a wide variety of metrics s
 * Network Throughout
 * Hard Page Faults per Second.
 
-A DPACK can be run on any [Windows](/monitoring/dpack/windows.html) or [Linux](/monitoring/dpack/linux.html) based operating system.
+A LiveOptics can be run on any [Windows](/monitoring/dpack/windows.html) or [Linux](/monitoring/dpack/linux.html) based operating system.
 
