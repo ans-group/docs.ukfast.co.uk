@@ -28,6 +28,6 @@
 
 ![Win-DPACK-Remote-Server](files/Windows/liveopticsestablishingconnection.PNG)
 
-7) Once all the servers have been added, you can select the "Start Capture" button and the collection will begin:
+7) Once all the servers have been added, you can now select the "Start Capture" button and the collection will begin:
 
 ![Win-DPACK-Capture](files/Windows/liveopticsrunning.PNG)
