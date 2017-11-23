@@ -1,3 +1,8 @@
+  .. meta::
+     :title: General Flex Information | UKFast Documentation
+     :description: Articles with different information about eCloud Flex
+     :keywords: ukfast, ecloud, cloud, flex, general, information, hosting
+
 ========================
 General Flex Information
 ========================
