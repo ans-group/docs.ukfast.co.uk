@@ -1,3 +1,8 @@
+  .. meta::
+     :title: Techniques | UKFast Documentation 
+     :description: Articles with various techniques for backing up different operating systems and programs
+     :keywords: ukfast, backups, windows, linux, dr, high, availability, hosting
+
 ==========
 Techniques
 ==========
