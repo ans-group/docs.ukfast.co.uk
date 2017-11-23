@@ -26,7 +26,7 @@
 
 6) If you are going to take a collection of a remote machine, please select the "Add Remote System" button on the portal, you will then be shown the screen below which will allow you to remotely take a collection by supplying the IP, Username and Password of the remote server.
 
-![Win-DPACK-Remote-Server](files/Windows/liveopticsestablishingconnection.PNG)
+![Win-DPACK-Remote-Server](files/Windows/liveopticsremoteserver.PNG)
 
 7) Once all the servers have been added, you can now select the "Start Capture" button and the collection will begin:
 
