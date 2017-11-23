@@ -1,3 +1,8 @@
+  .. meta::
+     :title: Terms | UKFast Documentation
+     :description: Articles with information about the different terms associated with backups
+     :keywords: ukfast, terms, definitions, backups, articles, hosting
+
 =====
 Terms
 =====
