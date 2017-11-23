@@ -1,3 +1,8 @@
+  .. meta::
+     :title: eCloud Public | UKFast Documentation
+     :description: eCloud Public is a public cloud hosting platform based on VMware
+     :keywords: ukfast, ecloud, cloud, public, virtual, server, hosting
+
 ===============
 eCloud Public
 ===============
