@@ -30,4 +30,4 @@
 
 7) Once all the servers have been added, you can now select the "Start Capture" button and the collection will begin:
 
-![Win-DPACK-Capture](files/Windows/liveopticsrunning.PNG)
+![Win-DPACK-Capture](files/Windows/liveopticsrunning.png)
