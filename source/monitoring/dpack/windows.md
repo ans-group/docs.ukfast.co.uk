@@ -8,7 +8,7 @@
 
 ![Win-DPACK-Folder](files/Windows/liveopticsfolder.PNG)
 
-2) Select "Server & Virtualization" and then click on the "Optical Prime" windo to the next pop-up to allow the Live Optics program to start:
+2) Select "Server & Virtualization" and then click on the "Optical Prime" window to the next pop-up to allow the Live Optics program to start:
 
 ![Win-DPACK-Licences](files/Windows/liveopticshome.PNG)
 
