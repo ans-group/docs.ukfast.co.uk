@@ -1,3 +1,8 @@
+  .. meta::
+     :title: eCloud Hybrid and Private | UKFast Documentation
+     :description: Articles with information regarding eCloud Hybrid and Private
+     :keywords: ukfast, cloud, ecloud, hybrid, private, hosting
+
 =========================
 eCloud Hybrid and Private
 =========================
