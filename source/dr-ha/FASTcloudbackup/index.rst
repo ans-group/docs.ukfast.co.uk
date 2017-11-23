@@ -1,3 +1,8 @@
+  .. meta::
+     :title: FASTcloudbackup | UKFast Documentation
+     :description: FASTcloudbackup is a backup service for backing up files and folders on computer systems
+     :keywords: ukfast, cloud, fast, backups, computers, hosting
+
 ===============
 FASTcloudbackup
 ===============
