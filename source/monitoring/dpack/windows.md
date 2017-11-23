@@ -4,6 +4,8 @@
 
 **This section explains how to run a standard Live Optics which allows a collection of up to 7 Days.**
 
+**LiveOptics was previously named DPACK, it has since changed and has now become LiveOptics**
+
 1) First create a folder and put the LiveOpticsDotNet4_5.exe in as it will create quite a few files when first started:
 
 ![Win-DPACK-Folder](files/Windows/liveopticsfolder.PNG)
