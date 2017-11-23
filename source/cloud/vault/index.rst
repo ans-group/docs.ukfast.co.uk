@@ -3,7 +3,6 @@
    :description: eCloud Vault is an object storage platform offered by UKFast
    :keywords: ukfast, ecloud, cloud, vault, storage, s3, swift, hosting
 
-
 ============
 eCloud Vault
 ============
