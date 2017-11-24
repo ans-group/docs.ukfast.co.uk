@@ -17,6 +17,5 @@ Help and guidance with Linux and related technologies
    nginx/index
    php/index
    websites/index
-   performance/index
    vpn/index
    ssh/index
