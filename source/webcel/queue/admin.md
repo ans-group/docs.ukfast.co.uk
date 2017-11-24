@@ -1,10 +1,3 @@
-```eval_rst
-.. meta::
-   :title: Administrative Panel | Queue System | Webcelerator | UKFast Documentation
-   :description: How to administer your Webcelerator queue system.
-   :keywords: ukfast, webcel, webcelerator, queue, webcelerate queue admin
-```
-
 # Administering your queue
 
 For you to track metrics about the queue system, change the number of users allowed through and how often they should confirm they are still active, as well as customising the queue holding page.
@@ -65,3 +58,12 @@ The following items can be configured:
 * **Show position?** *(required)*: This determines whether the position counter should be shown on the page or not. When set to "No", only the spikking loading icon will be shown.
 * **Background colour**: This sets the background colour for the holding page.
 * **Background image**: This sets a background image for the holding page. Please note that this will have the following CSS applied: `background-repeat:no-repeat;`. This will need to be hosted externally, perhaps through a service like [Imgur.com](https://imgur.com). You should place a direct URL to the image file in this field.
+
+
+```eval_rst
+.. meta::
+   :title: Managing your Webcelerator queue| UKFast Documentation
+   :description: How to administer your Webcelerator queue system
+   :keywords: ukfast, webcel, webcelerator, queue, webcelerate queue admin, traffic, high load
+```
+
