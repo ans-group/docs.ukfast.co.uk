@@ -1,10 +1,3 @@
-```eval_rst
-.. meta::
-   :title: General Information | Queue System | Webcelerator | UKFast Documentation
-   :description: The Webcelerator has a queue system which can be used to releive stress on your backend server.
-   :keywords: ukfast, webcel, webcelerator, queue, overloaded
-```
-
 # General information
 
 The Webcelerator queue system is designed for cases where your site receives heavy traffic that causes performance issues or downtime - for example a sale with a larger then expected response.
@@ -38,3 +31,12 @@ You can also update various styling elements of the holding page to brand this a
 Within the administrative panel, there are configuration options for `Reauthentication period` and `Reauthentication grace period` which specify how often a users should be silently redirected back to the queue system to touch base, and then be immediately redirected back to the page they were expecting.
 
 While not the most accurate way of calculating the active user numbers, it allows the queue to release at a roughly correct rate.
+
+
+```eval_rst
+.. meta::
+   :title: General information on the Webcelerator queue system | UKFast Documentation
+   :description: The Webcelerator has a queue system which can be used to releive stress on your backend server.
+   :keywords: ukfast, webcel, webcelerator, queue, overloaded
+```
+
