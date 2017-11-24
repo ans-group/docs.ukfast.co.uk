@@ -7,8 +7,8 @@ Help and guidance with Linux and related technologies
 .. toctree::
    :maxdepth: 1
 
-   apache/index
    basics/index
+   apache/index
    controlpanels/index
    ftp/index
    mail/index
