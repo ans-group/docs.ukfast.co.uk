@@ -1,3 +1,8 @@
+.. meta::
+   :title: Domains | UKFast Documentation
+   :description: Articles with information about domains at UKFast
+   :keywords: ukfast, articles, information, domains, hosting, cloud
+
 ==========================
 Domains and DNS management
 ==========================

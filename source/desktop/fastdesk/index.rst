@@ -1,3 +1,8 @@
+.. meta::
+   :title: FASTdesk | UKFast Documentation
+   :description: FASTdesk is a hosted desktop solution offered by UKFast
+   :keywords: ukfast, fastdesk, desktop, hosting, virtual, cloud, hosting
+
 ========
 FASTdesk
 ========

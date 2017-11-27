@@ -1,3 +1,8 @@
+.. meta::
+   :title: Monitoring | UKFast Documentation
+   :description: Articles with information about monitoring server performance
+   :keywords: ukfast, monitoring, server, performance, dpack, cpu, ram, hosting
+
 ===============================
 Monitoring and usage management
 ===============================

@@ -1,3 +1,8 @@
+.. meta::
+   :title: FASTdrive | UKFast Documentation
+   :description: FASTdrive is a file storage and sharing platform based on eCloud Vault and Ctirix Share File offered by UKFast
+   :keywords: ukfast, storage, fastdrive, vault, citrix, hosting
+
 =========
 FASTdrive
 =========

@@ -1,3 +1,8 @@
+.. meta::
+   :title: Content Delivery Network | UKFast Documentation
+   :description: Articles with information on the UKFast Content Delivery Network
+   :keywords: ukfast, content, delivery, network, cdn, cloud, hosting
+
 ========================
 Content Delivery Network
 ========================

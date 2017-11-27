@@ -1,3 +1,8 @@
+.. meta::
+   :title: DPACK | UKFast Documentation
+   :description: DPACK provides a way to monitor server performance
+   :keywords: ukfast, dpack, server, monitoring, performance, cloud, hosting
+
 =========================================================
 Using DPACK to monitor server/virtual machine performance
 =========================================================

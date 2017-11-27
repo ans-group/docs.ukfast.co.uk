@@ -1,3 +1,8 @@
+.. meta::
+   :title: Shared Exchange | UKFast Documentation
+   :description: Microsoft Shared Exchange is an email solution for businesses provided by UKFast
+   :keywords: ukfast, mail, email, shared, exchange, microsoft, hosting
+
 ===============
 Shared Exchange
 ===============
