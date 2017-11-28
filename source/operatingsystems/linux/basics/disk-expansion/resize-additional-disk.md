@@ -105,8 +105,8 @@ First, you'll need to get LVM to recognize that the physical volume (PV) has cha
 In this instance, we'll be doing the most common extension of `/`. Note the path in this command is `/dev/mapper/VG/LV` from the table above:
 
 ```bash
-[root@ssh ~]# lvresize -l +100%FREE /dev/mapper/eCloud/root
-  Size of logical volume eCloud/root changed from 18.53 GiB (4743 extents) to 23.53 GiB (6023 extents).
+[root@ssh ~]# lvresize -l +100%FREE /dev/mapper/eCloud-root
+  Size of logical volume eCloud-root changed from 18.53 GiB (4743 extents) to 23.53 GiB (6023 extents).
   Logical volume root successfully resized.
 [root@ssh ~]#
 ```
