@@ -24,13 +24,19 @@ Ensure that the correct SSL certificate is selected in the dropdown box in the D
 
 ![config_clipped](files/config_clipped.png)
 
+## Traffic is not getting through to my server on ports other than 80 and 443
+
+DDoSX is designed to support HTTP and HTTPS web traffic on ports 80 and 443 respectively. If you need to accept traffic on ports other than 80 and 443, you may find this doesn't work on DDoSX.  Please contact us to discuss further if this is the case.
+
 ## I've removed my domain from the DDoSX<sup>®</sup> network, and now my website is offline.
 
 If you've previously had a domain connected to the DDoSX<sup>®</sup> network and then removed it, make sure to use [SafeDNS](/Domains/safedns/index.html) to point your DNS records directly back to your own server or firewall.  See the section on [Removing a domain from DDoSX<sup>®</sup>](/security/ddos/remove.html) for more details.
 
+
 ```eval_rst
-  .. meta::
-     :title: Troubleshooting DDosX problems | UKFast Documentation
-     :description: A guide to troubleshooting issues within DDoSX
-     :keywords: ukfast, ddos, ddosx, troubleshooting, security, guide, cloud, hosting
+.. meta::
+     :title: Troubleshooting DDoSX and CDN | UKFast Documentation
+     :description: Help with common problems when using DDoSX and CDN from UKFast
+     :keywords: ddos, ddos protection, anti-ddos, cdn, content delivery, content delivery network, Troubleshooting, faqs, ports, offline
+```
 
