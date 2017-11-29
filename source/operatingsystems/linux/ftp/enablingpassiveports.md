@@ -72,6 +72,6 @@ Finally, you will want to restart the FTP service by using:
 
 ```eval_rst
   .. meta::
-     :title:
-     :description: 
-     :keywords:
+     :title: Enabling passive mode for FTP servers on Linux | UKFast Documentation
+     :description: A guide to enabling passive mode for FTP servers on Linux
+     :keywords: ukfast, enable, passive, ports, ftp, linux, cloud, hosting
