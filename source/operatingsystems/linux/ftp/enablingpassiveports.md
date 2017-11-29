@@ -4,7 +4,7 @@
 
 In order to open the correct ports on the firewall, you will first have to log into MyUKFast.
 
-Navigate to:
+Navigate to ->
 
 ```path
     Products and Services >> Firewalls >> FirewallName
@@ -51,7 +51,7 @@ In order to configure passive mode for VSFTPd, first, you will have to set some 
   pasv_min_port=40100
 ```
 
-If you are using IPTables, you will want to add the following line to the list of rules:
+If you are using IPTables, you will want to add the following line to the list of rules ->
 
 ```iptablesrule
   iptables -I INPUT -p tcp --destination-port 40000:40100 -j ACCEPT
