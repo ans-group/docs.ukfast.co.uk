@@ -1,4 +1,4 @@
-# Running a Live Optics capture on Windows Operating Systems.
+# Running a Live Optics capture on Windows Server Operating Systems.
 
 ## Running a standard Live Optics:
 
@@ -36,6 +36,6 @@
 
 ```eval_rst
   .. meta::
-     :title: Live Optics Windows | UKFast Documentation
-     :description: How to run a Live Optics on a Windows server
+     :title: Using Live Optics on Microsoft Windows | UKFast Documentation
+     :description: How to run a Live Optics check on a Windows server
      :keywords: ukfast, liveoptics, live, optics, windows, server, monitoring, cloud, hosting
