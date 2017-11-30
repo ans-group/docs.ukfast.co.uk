@@ -54,7 +54,7 @@ In order to configure passive mode for VSFTPd, first, you will have to set some 
 
 If you are using IPTables, you will want to add the following line to the list of rules ->
 
-```iptablesrule
+```
   iptables -I INPUT -p tcp --destination-port 40000:40100 -j ACCEPT
 ```
 
