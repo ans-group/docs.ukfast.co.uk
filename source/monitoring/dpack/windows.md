@@ -33,3 +33,9 @@
 7) Once all the servers have been added, you can now select the "Start Capture" button and the collection will begin:
 
 ![Win-DPACK-Capture](files/Windows/liveopticsrunning.png)
+
+```eval_rst
+  .. meta::
+     :title: Live Optics Windows | UKFast Documentation
+     :description: How to run a Live Optics on a Windows server
+     :keywords: ukfast, liveoptics, live, optics, windows, server, monitoring, cloud, hosting
