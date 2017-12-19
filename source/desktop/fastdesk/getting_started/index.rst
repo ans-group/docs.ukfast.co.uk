@@ -1,8 +1,3 @@
-.. meta::
-   :title: Getting started with FASTdesk | UKFast Documentation
-   :description: How to configure and start using FASTdesk with Citrix Receiver
-   :keywords: ukfast, fastdesk, getting, started, desktop, hosting
-   
 ===============
 Getting Started
 ===============
@@ -19,3 +14,10 @@ Information and guidance for FASTdesk, covering installation, configuration and 
 For a quick view of how to install Citrix Receiver and start using FASTdesk, take a look at this video.
 
 .. youtube:: http://www.youtube.com/watch?v=OQYJQrvzYZE
+
+
+.. meta::
+   :title: Getting started with FASTdesk | UKFast Documentation
+   :description: How to set up and start using FASTdesk with Citrix Receiver
+   :keywords: ukfast, fastdesk, getting, started, desktop, hosting
+   
