@@ -1,16 +1,17 @@
-  .. meta::
-     :title: eCloud Vault | UKFast Documentation
-     :description: eCloud Vault is an Object Storage Platform offered by UKFast
-     :keywords: ukfast, ecloud, cloud, storage, platform, s3, swift, hosting
-
 ============
 eCloud Vault
 ============
 
-UKFast's Object Storage Platform (s3/swift)
+eCloud Vault is UKFast's object storage platform based on the S3 and OpenStack Swift protocols.
 
 .. toctree::
    :maxdepth: 1
 
    connecting
    s3website
+
+
+.. meta::
+   :title: eCloud Vault | UKFast Documentation
+   :description: Information relating to eCloud Vault - S3 and OpenStack Swift-compatible object storage
+   :keywords: ukfast, ecloud, cloud, storage, platform, s3, swift, hosting, openstack, object storage
