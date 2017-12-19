@@ -1,13 +1,8 @@
-  .. meta::
-     :title: Terms | UKFast Documentation
-     :description: Articles with information about the different terms associated with backups
-     :keywords: ukfast, terms, definitions, backups, articles, hosting
+=======================
+General backup guidance
+=======================
 
-=====
-Terms
-=====
-
-A selection of articles that aim to demystify some of the various terms associated with the world of disaster recovery
+Guidance to help understand the world of backup and disaster recovery.
 
 .. toctree::
    :maxdepth: 1
@@ -15,3 +10,9 @@ A selection of articles that aim to demystify some of the various terms associat
    deduplication
    file_level
    vm_level
+
+
+.. meta::
+   :title: General backup help and guidance | UKFast Documentation
+   :description: Help and guidance relating to backup and disaster recovery
+   :keywords: ukfast, terms, definitions, backups, articles, hosting, disaster recover, dr
