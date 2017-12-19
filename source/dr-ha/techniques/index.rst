@@ -1,13 +1,8 @@
-  .. meta::
-     :title: Techniques | UKFast Documentation 
-     :description: Articles with various techniques for backing up different operating systems and programs
-     :keywords: ukfast, backups, windows, linux, dr, high, availability, hosting
+=================
+Backup Techniques
+=================
 
-==========
-Techniques
-==========
-
-Various techniques for backing up different operating systems or programs.
+Various techniques for backing up different operating systems and programs.
 
 .. toctree::
    :maxdepth: 1
@@ -15,3 +10,9 @@ Various techniques for backing up different operating systems or programs.
    duplyvault
    linuxdbservers
    mssql_backups
+
+
+.. meta::
+   :title: Backup techniques | UKFast Documentation 
+   :description: Information regarding backup techniques for various operating systems and programs 
+   :keywords: ukfast, backups, windows, linux, dr, high, availability, hosting, database, disaster recovery
