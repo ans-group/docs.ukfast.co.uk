@@ -1,13 +1,8 @@
-  .. meta::
-     :title: Backups, DR, High Availability | UKFast Documentation
-     :description: Articles with information on Backups, DR and High Availability
-     :keywords: ukfast, backups, dr, high, avaibility, cloud, hosting
+=================================================
+Backups, Disaster Recovery, and High Availability
+=================================================
 
-====================================
-Backups, DR, and High Availability
-====================================
-
-This page groups information relevant to backups, disaster recovery, and highly available solutions.
+Information relevant to backups, disaster recovery, and highly available solutions from UKFast.
 
 ----------------
 Backups and DR
@@ -33,3 +28,9 @@ Documentation relating to our highly-available solutions which are able to recov
 
    bcp/index
    /network/loadbalancing/index
+
+
+.. meta::
+   :title: Backups, Disaster Recover and High Availability hosting solutions | UKFast Documentation
+   :description: Help with managing backups, disaster recovery and high availability hosting
+   :keywords: ukfast, backups, dr, high, avaibility, cloud, hosting, disaster recovery
