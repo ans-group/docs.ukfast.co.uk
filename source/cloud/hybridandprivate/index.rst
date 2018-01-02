@@ -12,6 +12,6 @@ eCloud Hybrid and eCloud Private are VMware-based cloud platforms from UKFast.  
 
 
 .. meta::
-   :title: eCloud Hybrid and eCloud Private | UKFast Documentation
-   :description: Help with your eCloud Hybrid and eCloud Private resources
-   :keywords: ukfast, cloud, ecloud, hybrid, private, hosting, infrastructure, vmware
+   :title: eCloud Hybrid and eCloud Private | UKFast Documentation
+   :description: Help with your eCloud Hybrid and eCloud Private resources
+   :keywords: ukfast, cloud, ecloud, hybrid, private, hosting, infrastructure, vmware
