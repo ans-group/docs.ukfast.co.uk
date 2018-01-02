@@ -13,6 +13,6 @@ Information relating to eCloud Flex instances based on Nova, the compute element
 
 
 .. meta::
-   :title: eCloud Flex Instances | UKFast Documentation
-   :description: Articles relating to eCloud Flex instances based on OpenStack Nova
-   :keywords: ukfast, cloud, ecloud, flex, instance, openstack, hosting, vm, virtual machine, nova
+   :title: eCloud Flex Instances | UKFast Documentation
+   :description: Articles relating to eCloud Flex instances based on OpenStack Nova
+   :keywords: ukfast, cloud, ecloud, flex, instance, openstack, hosting, vm, virtual machine, nova
