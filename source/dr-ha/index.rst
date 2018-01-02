@@ -1,6 +1,6 @@
-====================================
+==================================
 Backups, DR, and High Availability
-====================================
+==================================
 
 This page groups information relevant to backups, disaster recovery, and highly available solutions.
 
