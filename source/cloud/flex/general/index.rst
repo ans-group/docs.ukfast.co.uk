@@ -12,6 +12,6 @@ A collection of helpful information regarding eCloud Flex.
 
 
 .. meta::
-   :title: General eCloud Flex Information | UKFast Documentation
-   :description: Information to help you get the most from eCloud Flex
-   :keywords: ukfast, ecloud, cloud, flex, general, information, hosting
+   :title: General eCloud Flex Information | UKFast Documentation
+   :description: Information to help you get the most from eCloud Flex
+   :keywords: ukfast, ecloud, cloud, flex, general, information, hosting
