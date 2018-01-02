@@ -4,9 +4,9 @@ Backups, Disaster Recovery, and High Availability
 
 Information relevant to backups, disaster recovery, and highly available solutions from UKFast.
 
-----------------
+--------------
 Backups and DR
-----------------
+--------------
 
 Help and guidance to ensure your data and IT is sufficiently backed up, just in case.
 
