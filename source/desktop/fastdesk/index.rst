@@ -2,7 +2,7 @@
 FASTdesk
 ========
 
-UKFast's hosted desktop solution, based on Citrix Receiver.
+FASTdesk is UKFast's hosted desktop solution, based on Citrix Receiver.
 
 .. toctree::
    :maxdepth: 1
@@ -12,3 +12,9 @@ UKFast's hosted desktop solution, based on Citrix Receiver.
    howcaniresetmyfastdeskpassword
    icantfinddrivemapperinfastdesk
    icantseemylocaldrivesanddevicesinfastdesk
+
+
+.. meta::
+   :title: FASTdesk - hosted desktops | UKFast Documentation
+   :description: Information relating to FASTdesk, a hosted desktop solution from UKFast
+   :keywords: ukfast, fastdesk, desktop, hosting, cloud, server, citrix, receiver
