@@ -20,4 +20,3 @@ For a quick view of how to install Citrix Receiver and start using FASTdesk, tak
    :title: Getting started with FASTdesk | UKFast Documentation
    :description: How to set up and start using FASTdesk with Citrix Receiver
    :keywords: ukfast, fastdesk, getting, started, desktop, hosting
-   
