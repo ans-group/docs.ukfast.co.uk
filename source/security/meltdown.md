@@ -98,4 +98,8 @@ As with CentOS, a reboot is needed to use this new kernel:
  reboot
 ```
 
-
+ ```eval_rst
+   .. meta::
+      :title: Meltdown and Spectre | UKFast Documentation
+      :description: Detailed guidance on identifying & patching the Meltdown vulnerability on Linux
+      :keywords: ukfast, linux, security, vulnerability, meltdown, spectre, 
