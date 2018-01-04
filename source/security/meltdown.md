@@ -42,11 +42,10 @@ If your kernel version is earlier (lower) than the following list, you're vulner
 
 * **3.10.0-693.11.6** for RHEL/CentOS 7
 * **2.6.32-696.18.7** for RHEL/CentOS 6
-* **TBD** for Ubuntu 17.10
-* **TBD** for Ubuntu 17.04
+* **TBD** for RHEL/CentOS 5
 * **TBD** for Ubuntu 16.04 LTS
 * **TBD** for Ubuntu 14.04 LTS
-* **TBD** for Ubuntu 
+* **TBD** for Ubuntu 12.04 LTS
 * **TBD** for Debian 9
 * **TBD** for Debian 8
 * **TBD** for Debian 7
