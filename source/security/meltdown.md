@@ -12,6 +12,16 @@ First things first though, let's check if you're actually vulnerable.
 
 ## Checking vulnerability
 
+### Windows
+
+Windows Server is patched using the following security updates:
+
+* **KB4056897** for Windows Server 2008R2
+* **KB4056898** for Windows Server 2012R2
+* **KB4056890** for Windows Server 2016
+
+### Linux
+
 Checking for the vulnerability requires comparing the kernel version against the patched kernel version. You can check your kernel version by running the command below:
 
 
