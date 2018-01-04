@@ -15,3 +15,4 @@ Windows Administration
    telnet
    filepermissions
    resmon
+   meltdownspectrepatch
