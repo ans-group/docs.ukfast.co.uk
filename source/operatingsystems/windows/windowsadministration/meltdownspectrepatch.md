@@ -83,6 +83,6 @@ https://support.microsoft.com/en-us/help/4072698/windows-server-guidance-to-prot
 
 ```eval_rst
   .. meta::
-     :title: Protecting against the Meltdown and Spectre Vulnerabilities in Windows | UKFast Documentation
+     :title: Meltdown and Spectre patch for Windows | UKFast Documentation
      :description: A guide to patching against recent CPU vulnerabilities
      :keywords: ukfast, windows, security, updates, meltdown, spectre, cpu, tutorial, guide
