@@ -20,6 +20,8 @@ Windows Server is patched using the following security updates:
 * **KB4056898** for Windows Server 2012R2
 * **KB4056890** for Windows Server 2016
 
+These security updates can be applied manually, or will be applied during your next update.
+
 ### Linux
 
 Checking for the vulnerability requires comparing the kernel version against the patched kernel version. You can check your kernel version by running the command below:
