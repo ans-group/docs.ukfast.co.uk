@@ -2,11 +2,11 @@
 
 Meltdown, or CVE-2017-5754 as it is formally known, is a hardware vulnerability which allows for unauthorised access to privileged memory which affects Intel processors. It is commonly paired with a similar vulnerability called Spectre (CVE-2017-5753, CVE-2017-5753) which affects a large range of x86 processors.
 
-The vulnerability website can be found [here](https://meltdownattack.com/), includes proof of concept and more detail on the underlying issue.
+The vulnerability website can be found [here](https://meltdownattack.com/), which includes proof of concept and further details on the underlying issue.
 
-Describing what the vulnerability is, what it does and how it came about is better left to the above link, this page is aimed at people wanting to patch their way to safety. 
+Describing what the vulnerability is, what it does, and how it came about is better left to the above link, this page is aimed at people wanting to patch their way to safety. 
 
-The good news is that by the time you're reading this, all the major linux distributions will have patches available for their various kernels, so it's simply a matter or running an update through your package manager and restarting your server. 
+The good news is that by the time you're reading this, all the major Linux distributions will have patches available for their various kernels, so it's simply a matter or running an update through your package manager and restarting your server. 
 
 First things first though, let's check if you're actually vulnerable.
 
@@ -52,17 +52,17 @@ If your kernel version is earlier (lower) than the following list, you're vulner
 
 ## Patching the vulnerability
 
-### UKFast clients
+### UKFast customers
 
-If you're one of our linux clients, you can still follow the non-ukfast section if you'd like, but we've implemented an easier patching process through your MyUKFast client area, [located here](https://my.ukfast.co.uk/server/package-update.php).
+If you're a Linux customer of UKFast, we've implemented an easy patching process through [MyUKFast](https://my.ukfast.co.uk/server/package-update.php).  Alternatively you could also follow the Non-UKFast customers process set out below.
 
-Once you've followed that link and logged in, you should be confronted with something like this:
+Once you're logged into MyUKFast you will see something like this:
 
 ![Patching page](files/dirtycow1.jpg)
 
 Select all the servers you want to patch, select `Update selected packages` from the dropdown menu underneath and then press `GO` to start the update process.
 
-This process should take a few minutes, but we're not out of the woods yet. Refresh the page in a few minutes time and you should now see the following section has appeared, showing that there are severs that need rebooting to utilise the patch you just applied:
+This process should take a few minutes, but we're not out of the woods yet. Refresh the page in a few minutes time and you should now see the following section has appeared, showing that there are servers that need rebooting to utilise the patch you just applied:
 
 ![Pending reboot](files/dirtycow2.jpg)
 
@@ -71,7 +71,7 @@ Again, select the servers you want to restart, and select either `Reboot selecte
 Once your servers are back online, you're good to go.
 
 
-### Non-UKFast clients
+### Non-UKFast customers
 
 As mentioned previously, there should be a patch available for your kernel version through your standard package manager now.
 
@@ -112,5 +112,5 @@ As with CentOS, a reboot is needed to use this new kernel:
  ```eval_rst
    .. meta::
       :title: Meltdown and Spectre | UKFast Documentation
-      :description: Detailed guidance on identifying & patching the Meltdown vulnerability on Linux
-      :keywords: ukfast, linux, security, vulnerability, meltdown, spectre, 
+      :description: Detailed guidance on identifying and patching the Meltdown vulnerability on Linux
+      :keywords: ukfast, linux, security, vulnerability, meltdown, spectre, hosting
