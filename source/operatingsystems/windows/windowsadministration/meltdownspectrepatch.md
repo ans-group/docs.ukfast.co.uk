@@ -2,17 +2,17 @@
 
 * Microsoft have released a security patch to provide protection against the recently discovered vulnerabilities in a large number of CPU chipsets.
 
-These updates will be pushed out through the regular Windows Update channels. You can checking for any outstanding windows updates using the steps below:
+These updates will be pushed out through the regular Windows Update channels. You can checking for any outstanding Windows updates using the steps below:
 
 ## Applying Windows Updates on Server 2008 R2
 
 In Windows server 2008 R2, Click on Start and type the "Windows Update" to search for the Windows Update utility.
 
-![Server 2008 R2 Start Menu](Images/meltdownpatch/2008-WindowsUpdates2.png)
+![Server 2008 R2 Start Menu](Images/meltdownpatch/2008-WindowsUpdates1.png)
 
 In Windows Updates, you can click on the "Check for Updates" option on the left hand menu to check for any newly released updates
 
-![Server 2008 R2 Windows Updates](Images/meltdownpatch/2008-WindowsUpdates3.png)
+![Server 2008 R2 Windows Updates](Images/meltdownpatch/2008-WindowsUpdates2.png)
 
 ## Applying Windows Updates on Server 2012 R2
 
@@ -22,7 +22,7 @@ In Windows Server 2012 R2, Click on Start, and type "updates", and then click on
 
 ![Server 2012 R2 Windows Updates](Images/meltdownpatch/2012r2-controlAlt.png)
 
-You can now select the "Check for Updates" button on the left, which will perform an automatic check for any newly released Windows Updates:
+You can now select the "Check for Updates" button on the left, which will perform an check for any newly released Windows Updates:
 
 ![Server 2012 R2 Check Updates](Images/meltdownpatch/2012r2-control4.png)
 
@@ -33,7 +33,7 @@ In Windows Server 2016, Click on Start, and type "Windows Update" in the search 
 
 ![Server 2016 Windows Updates](Images/meltdownpatch/2016-WindowsUpdate2.png)
 
-Click on "Windows Update Settings" and from here you can check for any new updates:
+Click on "Windows Update Settings", and from here you can check for any new updates:
 
 ![Server 2016 Check Updates](Images/meltdownpatch/2016-WindowsUpdate3.png)
 
@@ -54,7 +54,7 @@ https://www.catalog.update.microsoft.com/Search.aspx?q=KB4056897
 The basic walkthrough for manually installing the patch is provided below:
 (This will be performed on Server 2012 R2, however for manual installation, the steps will be similar for the other Windows Server editions above)
 
-* Follow the above link for your specific operating system and click `Download` on the update relevant to your operating system.
+* Follow the above link for your specific operating system and click `Download` on the patch relevant to your operating system.
 
 ![Server 2012 R2 Manual Download](Images/meltdownpatch/2012r2-UpdateCatalog1.png)
 
@@ -67,6 +67,7 @@ The basic walkthrough for manually installing the patch is provided below:
 * Run through the installation, and when complete, you will be asked to reboot your machine. You will need to reboot your machine for the patch to take effect.
 
 ![Server 2012 R2 Install Completion](Images/meltdownpatch/2012r2-installcomplete.png)
+
 
 # Enable the Registry keys
 * Once the patch has been applied and the updates have been installed, you will need to add 2 registry keys to enable the mitigations on the server. This is per the Microsoft documentation linked at the bottom of this page.
