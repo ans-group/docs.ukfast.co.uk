@@ -1,4 +1,4 @@
-# Protecting against the Meltdown and Spectre Vulnerabilities in Windows
+# Protecting against Meltdown and Spectre in Windows
 
 * Microsoft have released a security patch to provide protection against the recently discovered vulnerabilities in a large number of CPU chipsets.
 
@@ -49,38 +49,39 @@ reg add "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Mem
 For further information, please refer to the Microsoft documentation, provided below:
 https://support.microsoft.com/en-us/help/4072698/windows-server-guidance-to-protect-against-the-speculative-execution-s
 
-# Automatic installation
 
-* Once testing has been completed, this security patch will be deployed automatically for any clients that follow our automatic update schedule. It will be pushed out just like a normal Windows Update.
+## Automatic installation
+
+* Once testing has been completed, this security patch will be deployed automatically for any customers that follow our automatic update schedule and have a compatible anti-virus as per the Microsoft patch requirements.  The patch will be pushed out just like a normal Windows Update.
 
 ## Checking for Windows Updates on Server 2008 R2
 
-In Windows server 2008 R2, Click on Start and type the "Windows Update" to search for the Windows Update utility.
+* In Windows server 2008 R2, click on `Start` and type the "Windows Update" to search for the Windows Update utility.
 
 ![Server 2008 R2 Start Menu](Images/meltdownpatch/2008-WindowsUpdates1.png)
 
-In Windows Updates, you can click on the "Check for Updates" option on the left hand menu to check for any newly released updates
+* In Windows Updates, you can click on the `Check for Updates` option on the left hand menu to check for any newly released updates
 
 ![Server 2008 R2 Windows Updates](Images/meltdownpatch/2008-WindowsUpdates2.png)
 
 ## Checking for Windows Updates on Server 2012 R2
 
-In Windows Server 2012 R2, Click on Start, and type "updates", and then click on Windows Updates:
+* In Windows Server 2012 R2, Click on `Start`, and type "Updates", and then click on `Windows Updates`:
 
 ![Server 2012 R2 Windows Updates](Images/meltdownpatch/2012r2-controlAlt.png)
 
-You can now select the "Check for Updates" button on the left, which will perform an check for any newly released Windows Updates:
+* You can now select the `Check for Updates` button on the left, which will perform an check for any newly released Windows Updates:
 
 ![Server 2012 R2 Check Updates](Images/meltdownpatch/2012r2-control4.png)
 
 ## Checking for Windows Updates on Server 2016
 
-In Windows Server 2016, Click on Start, and type "Windows Update" in the search bar:
+* In Windows Server 2016, click on `Start`, and type "Windows Update" in the search bar:
 ![Server 2016 Start Menu](Images/meltdownpatch/2016-WindowsUpdate1.png)
 
 ![Server 2016 Windows Updates](Images/meltdownpatch/2016-WindowsUpdate2.png)
 
-Click on "Windows Update Settings", and from here you can check for any new updates:
+Click on `Windows Update Settings`, and from here you can check for any new updates:
 
 ![Server 2016 Check Updates](Images/meltdownpatch/2016-WindowsUpdate3.png)
 
