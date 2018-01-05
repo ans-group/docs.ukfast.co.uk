@@ -37,9 +37,11 @@ The basic walkthrough for manually installing the patch is provided below:
 
 
 ## Enable the Registry keys
+
 * Once the patch has been applied and the updates have been installed, you will need to add 2 registry keys to enable the mitigations on the server. This is per the Microsoft documentation linked at the bottom of this page.
 
-You can open up an administrator `CMD Prompt` and run the following 2 commands, one after another. This will add the relevant registry keys. If you are a UKFast customer and are not comfortable making these changes then please seek assistance from the support team.
+Open up a `CMD Prompt` as Administrator and run the following 2 commands, one after another. This will add the relevant registry keys to enable the Mitigation. If you are a UKFast customer and are not comfortable making these changes then please seek assistance from the support team. Always backup the registry before making changes.
+
 ```
 reg add "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management" /v FeatureSettingsOverride /t REG_DWORD /d 0 /f
 
@@ -58,11 +60,11 @@ https://support.microsoft.com/en-us/help/4072698/windows-server-guidance-to-prot
 
 * In Windows server 2008 R2, click on `Start` and type the "Windows Update" to search for the Windows Update utility.
 
-![Server 2008 R2 Start Menu](Images/meltdownpatch/2008-WindowsUpdates1.png)
+![Server 2008 R2 Start Menu](Images/meltdownpatch/2008-WindowsUpdates1.PNG)
 
 * In Windows Updates, you can click on the `Check for Updates` option on the left hand menu to check for any newly released updates
 
-![Server 2008 R2 Windows Updates](Images/meltdownpatch/2008-WindowsUpdates2.png)
+![Server 2008 R2 Windows Updates](Images/meltdownpatch/2008-WindowsUpdates2.PNG)
 
 ## Checking for Windows Updates on Server 2012 R2
 
@@ -77,11 +79,12 @@ https://support.microsoft.com/en-us/help/4072698/windows-server-guidance-to-prot
 ## Checking for Windows Updates on Server 2016
 
 * In Windows Server 2016, click on `Start`, and type "Windows Update" in the search bar:
+
 ![Server 2016 Start Menu](Images/meltdownpatch/2016-WindowsUpdate1.png)
 
 ![Server 2016 Windows Updates](Images/meltdownpatch/2016-WindowsUpdate2.png)
 
-Click on `Windows Update Settings`, and from here you can check for any new updates:
+* Click on `Windows Update Settings`, and from here you can check for any new updates:
 
 ![Server 2016 Check Updates](Images/meltdownpatch/2016-WindowsUpdate3.png)
 
