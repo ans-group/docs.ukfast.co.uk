@@ -2,7 +2,7 @@
 
 Microsoft have released a security patch to provide protection against the [Meltdown and Spectre vulnerabilities](/security/meltdown.html) that affect a large number of CPU chipsets.
 
-These updates will be pushed out through the regular Windows Update channels once further testing has been undertaken. If you would like to manually install the patch, you can the steps below:
+These updates will be pushed out through the regular Windows Update channels once further testing has been undertaken. If you would like to manually install the patch, you can perform the steps below:
 
 ## Manual Installation
 
@@ -50,7 +50,9 @@ For further information, please refer to the [Microsoft documentation](https://s
 
 ## Automatic installation
 
-Once testing has been completed, this security patch will be deployed automatically for any UKFast customers who follow our automatic update schedule and have a compatible anti-virus as per the Microsoft patch requirements.  The patch will be pushed out as per any normal Windows Update.
+Once testing has been completed, this security patch will be deployed automatically for any UKFast customers who follow our automatic update schedule and have a compatible anti-virus, as per the Microsoft patch requirements. The patch will be pushed out through the standard Windows Update system. 
+
+If your anti-virus version is not compatible with the patch, then the update will **not** be made available through Windows Update. Please contact your anti-virus vendor for further information.  If you use McAfee then [this article](https://kc.mcafee.com/corporate/index?page=content&id=KB90167) may help.
 
 ## Checking for Windows Updates
 
