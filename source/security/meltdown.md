@@ -49,7 +49,7 @@ If your kernel version is earlier (lower) than the following list, you're vulner
 * **TBD** for Ubuntu 16.04 LTS
 * **TBD** for Ubuntu 14.04 LTS
 * **TBD** for Ubuntu 12.04 LTS
-* **TBD** for Debian 9
+* **4.9.65-3+deb9u2** for Debian 9
 * **TBD** for Debian 8
 * **TBD** for Debian 7
 
