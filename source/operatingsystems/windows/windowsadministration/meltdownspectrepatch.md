@@ -50,7 +50,9 @@ For further information, please refer to the [Microsoft documentation](https://s
 
 ## Automatic installation
 
-Once testing has been completed, this security patch will be deployed automatically for any UKFast customers who follow our automatic update schedule and have a compatible anti-virus, as per the Microsoft patch requirements. The patch will be pushed out through the standard Windows Update system. If your anti-virus version is not compatible with the patch, then the update will not be made available through Windows Update. Please contact your anti-virus vendor for further information.
+Once testing has been completed, this security patch will be deployed automatically for any UKFast customers who follow our automatic update schedule and have a compatible anti-virus, as per the Microsoft patch requirements. The patch will be pushed out through the standard Windows Update system. 
+
+If your anti-virus version is not compatible with the patch, then the update will **not** be made available through Windows Update. Please contact your anti-virus vendor for further information.  If you use McAfee then [this article](https://kc.mcafee.com/corporate/index?page=content&id=KB90167) may help.
 
 ## Checking for Windows Updates
 
