@@ -8,14 +8,11 @@ These updates will be pushed out through the regular Windows Update channels onc
 
 The patches for Windows Server 2008 R2, 2012 R2 and 2016 can be downloaded directly from the Microsoft Update Catalog. These links are provided below:
 
-* Microsoft Server 2016
-https://www.catalog.update.microsoft.com/Search.aspx?q=KB4056890
+* [Microsoft Windows Server 2016](https://www.catalog.update.microsoft.com/Search.aspx?q=KB4056890)
 
-* Microsoft Server 2012 R2
-https://www.catalog.update.microsoft.com/Search.aspx?q=KB4056898
+* [Microsoft Windows Server 2012 R2](https://www.catalog.update.microsoft.com/Search.aspx?q=KB4056898)
 
-* Microsoft Server 2008 R2
-https://www.catalog.update.microsoft.com/Search.aspx?q=KB4056897
+* [Microsoft Server 2008 R2](https://www.catalog.update.microsoft.com/Search.aspx?q=KB4056897)
 
 
 The basic walkthrough for manually installing the patch is provided below:
