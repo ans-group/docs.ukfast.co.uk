@@ -25,4 +25,3 @@ The code needs to be in RST, and will look as per the example below.  Please not
       :description: Detailed guidance on creating OpenStack instances on eCloud Flex
       :keywords: openstack, ecloud flex, ukfast, nova, instance, virtual machine, vm, 
  
-
