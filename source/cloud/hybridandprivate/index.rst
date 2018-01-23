@@ -1,11 +1,17 @@
-=========================
-eCloud Hybrid and Private
-=========================
+================================
+eCloud Hybrid and eCloud Private
+================================
 
-Within MyUKFast you can manage your eCloud Hybrid and Private resource, including performing power operations, increasing and reducing allocated resources, creating, deleting and cloning virtual machines.
+eCloud Hybrid and eCloud Private are VMware-based cloud platforms from UKFast.  The information in this section will help manage your eCloud Hybrid and eCloud Private infrastructure
 
 .. toctree::
    :maxdepth: 1
 
    CloningAndTemplatingVMs
    /operatingsystems/linux/basics/disk-expansion/index
+
+
+.. meta::
+   :title: eCloud Hybrid and eCloud Private | UKFast Documentation
+   :description: Help with your eCloud Hybrid and eCloud Private resources
+   :keywords: ukfast, cloud, ecloud, hybrid, private, hosting, infrastructure, vmware
