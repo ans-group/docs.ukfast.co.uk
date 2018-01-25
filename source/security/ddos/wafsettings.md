@@ -78,32 +78,34 @@ You can choose which rulesets to switch on or off for each of your domains, usin
 
 ![togglerulesets](files/togglerulesets.png)
 
-## Whitelisting
+## Whitelist Rules
 
-During the "Detection Only" period of training your WAF before enabling enforcement, you may wish to create whitelist rules to allow particular traffic through which you know be legitimate.  An example of this would be allowing your place of work to bypass the rules enforced by the WAF.
+During the "Detection Only" period of training your WAF before switching it on, you may wish to create whitelist rules to allow particular traffic through which you know be legitimate.  
 
-To create a whitelist rule to accommodate the above situation, would look like this:
+An example of this would be allowing traffic from your own office network to bypass the rules enforced by the WAF.  A whitelist rule to accommodate this situation would look like this:
 
 `SecRule REQUEST_URI "@beginsWith /admin" "chain, id:1, phase:1, t:none, nolog, pass, ctl:ruleEngine=DetectionOnly" SecRule REMOTE_ADDR "@ipMatch 8.8.8.8" "t:none"`
 
-The above rule, in it's raw format may be off putting, however we've streamlined the process of creating rules like this for you in our whitelist editor tool.  What this rule achieves is;
+In simple terms this rule states *Any request made to the URI `/admin` by user with IP address `8.8.8.8` can be ignored and only log when a rule would be triggered.*
 
-`Any request made to the URI /admin by user with IP Address 8.8.8.8 can be ignored and only log when a rule would be triggered.`
+This rule in it's raw format may be off putting, but you can add whitelist rules simply in the `Whitelist` section of the WAF tab in MyUKFast - see screenshot below.
+
+**[add screenshot here]**
 
 The elements which require adding are just:
-- uri (/admin)
+- URI (/admin)
 - action (DetectionOnly)
-- ip address (8.8.8.8)
+- IP address (8.8.8.8)
 
-You can build a rule like this yourself, by looking at the logs within the dashboard and inspecting certain elements: 
+You can build a rule like this yourself, by looking at the logs within the [MyUKFast](https://my.ukfast.co.uk) DDoSX dashboard and inspecting certain elements to answer these questions: 
 
-Where are the violations coming from?  
-What parts of your site are being attacked?
-Are the rules being triggered legitimate users?
+- Where are violations coming from?  
+- What parts of your website are being attacked?
+- Are WAF rules being triggered by users you know to be legitimate?
 
-For instance, using the example we have been working on - you know that your workplace is originating from IP Address 8.8.8.8 and that you need to use the /admin area of your site, but you are running into a large number of errors to this URI from this location.  You can gather from this information that these will be false-positives and will impact your productivity if not addressed. 
+For instance, using the "office network" example above - you know that traffic from your workplace originates from IP Address 8.8.8.8 and that you need to use the /admin area of your site, but you are running into a large number of errors to this URI from your office location.  You can gather from this information that these will be false positives, and will impact your productivity if not addressed. 
 
-It is important to think carefully when applying whitelists as the more you implement the less secure your site will become, so you will be in a state of balancing security and accessibility with this and this task will require some knowledge of your application.
+It is important to think carefully when applying whitelists, as the more you implement the less secure your site will become. You should always endeavour to balance security and accessibility - a task that requires a detailed knowledge of your website, application and end users (both internal to your company, as well as external).
 
 
 ```eval_rst
