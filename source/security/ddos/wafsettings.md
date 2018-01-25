@@ -78,6 +78,33 @@ You can choose which rulesets to switch on or off for each of your domains, usin
 
 ![togglerulesets](files/togglerulesets.png)
 
+## Whitelisting
+
+During the "Detection Only" period of training your WAF before enabling enforcement, you may wish to create whitelist rules to allow particular traffic through which you know be legitimate.  An example of this would be allowing your place of work to bypass the rules enforced by the WAF.
+
+To create a whitelist rule to accommodate the above situation, would look like this:
+
+`SecRule REQUEST_URI "@beginsWith /admin" "chain, id:1, phase:1, t:none, nolog, pass, ctl:ruleEngine=DetectionOnly" SecRule REMOTE_ADDR "@ipMatch 8.8.8.8" "t:none"`
+
+The above rule, in it's raw format may be off putting, however we've streamlined the process of creating rules like this for you in our whitelist editor tool.  What this rule achieves is;
+
+`Any request made to the URI /admin by user with IP Address 8.8.8.8 can be ignored and only log when a rule would be triggered.`
+
+The elements which require adding are just:
+- uri (/admin)
+- action (DetectionOnly)
+- ip address (8.8.8.8)
+
+You can build a rule like this yourself, by looking at the logs within the dashboard and inspecting certain elements: 
+
+Where are the violations coming from?  
+What parts of your site are being attacked?
+Are the rules being triggered legitimate users?
+
+For instance, using the example we have been working on - you know that your workplace is originating from IP Address 8.8.8.8 and that you need to use the /admin area of your site, but you are running into a large number of errors to this URI from this location.  You can gather from this information that these will be false-positives and will impact your productivity if not addressed. 
+
+It is important to think carefully when applying whitelists as the more you implement the less secure your site will become, so you will be in a state of balancing security and accessibility with this and this task will require some knowledge of your application.
+
 
 ```eval_rst
 .. meta::
