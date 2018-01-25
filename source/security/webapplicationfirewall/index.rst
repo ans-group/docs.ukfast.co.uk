@@ -2,7 +2,6 @@
      :title: Web Application Firewalls | UKFast Documentation
      :description: General information relating to UKFast Web Application Firewalls
      :keywords: ukfast, ddosx, web application firewall, waf, owasp, owasp top 10
-```
 
 ========================
 Web Application Firewall
