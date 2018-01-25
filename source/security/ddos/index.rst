@@ -13,6 +13,7 @@ DDoSX\ :sup:`®` is designed to protect your websites and applications from Deni
 
    generalinformation
    gettingstarted
+   wafsettings
    remove
    troubleshooting
    ips
