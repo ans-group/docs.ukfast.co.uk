@@ -2,7 +2,7 @@
 
 Within the WAF tab in the DDoSX section of [MyUKFast](https://my.ukfast.co.uk) you will need to configure the various settings required to activate your WAF and control the level of security provided, as shown in the screenshot below.
 
-![settingupyourwaf](files/settingupyourwaf.PNG)
+![settingupwaf](files/settingupwaf.PNG)
 
 ## WAF modes
 
@@ -76,4 +76,4 @@ Analyses the response body from the server looking at potential leakage of PHP e
 
 You can choose which rulesets to switch on or off for each of your domains, using the toggle switches as shown in the screenshot below.  Remember the paranoia level you have selected will also influence how aggressively each ruleset switched on will block traffic.
 
-![toggleforrulesets](files/toggleforrulesets.PNG)
+![togglerulesets](files/togglerulesets.PNG)
