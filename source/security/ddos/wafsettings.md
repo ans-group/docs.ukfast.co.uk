@@ -78,6 +78,35 @@ You can choose which rulesets to switch on or off for each of your domains, usin
 
 ![togglerulesets](files/togglerulesets.png)
 
+## Whitelist Rules
+
+During the "Detection Only" period of training your WAF before switching it on, you may wish to create whitelist rules to allow particular traffic through which you know be legitimate.  
+
+An example of this would be allowing traffic from your own office network to bypass the rules enforced by the WAF.  A whitelist rule to accommodate this situation would look like this:
+
+`SecRule REQUEST_URI "@beginsWith /admin" "chain, id:1, phase:1, t:none, nolog, pass, ctl:ruleEngine=DetectionOnly" SecRule REMOTE_ADDR "@ipMatch 8.8.8.8" "t:none"`
+
+In simple terms this rule states *Any request made to the URI `/admin` by user with IP address `8.8.8.8` can be ignored and only log when a rule would be triggered.*
+
+This rule in it's raw format may be off putting, but you can add whitelist rules simply in the `Whitelist` section of the WAF tab in MyUKFast - see screenshot below.
+
+**[add screenshot here]**
+
+The elements which require adding are just:
+- URI (/admin)
+- action (DetectionOnly)
+- IP address (8.8.8.8)
+
+You can build a rule like this yourself, by looking at the logs within the [MyUKFast](https://my.ukfast.co.uk) DDoSX dashboard and inspecting certain elements to answer these questions: 
+
+- Where are violations coming from?  
+- What parts of your website are being attacked?
+- Are WAF rules being triggered by users you know to be legitimate?
+
+For instance, using the "office network" example above - you know that traffic from your workplace originates from IP Address 8.8.8.8 and that you need to use the /admin area of your site, but you are running into a large number of errors to this URI from your office location.  You can gather from this information that these will be false positives, and will impact your productivity if not addressed. 
+
+It is important to think carefully when applying whitelists, as the more you implement the less secure your site will become. You should always endeavour to balance security and accessibility - a task that requires a detailed knowledge of your website, application and end users (both internal to your company, as well as external).
+
 
 ```eval_rst
 .. meta::
