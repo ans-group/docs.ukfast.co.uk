@@ -48,7 +48,7 @@ To enable DDoSX<sup>®</sup>, CDN and WAF on your domains, follow these steps:
 
 ![connect](files/connect.PNG)
 
-- Click `Confirm` to go through the payment process. (You won't have to complete this step if you've already ordered DDoSX<sup>®</sup> or CDN via your UKFast account manager).
+- Click `Confirm` to go through the payment process. (You won't have to complete this step if you've ordered DDoSX<sup>®</sup>, WAF or CDN via your UKFast account manager - you should see the relevant credits in your MyUKFast account already).
 
 ## Configure domain
 
@@ -95,12 +95,12 @@ For any domains with CDN added, content caching will not be activated until you 
 
 ## Configure WAF settings
 
-Navigate to the WAF tab to find the settings for WAF on DDoSX.  There are a number of [different global WAF settings]() that allow you to manage the level of protection for your domain.
+Navigate to the WAF tab to find the settings for WAF on DDoSX.  There are a number of [different WAF settings](/wafsettings.html) that allow you to manage the level of protection for your domain.
 
 ```eval_rst
 .. warning::
 
-   Always run your WAF in Detection Only mode for a period of time before switching it on, otherwise you could cause issues that prevent your application from being accessible to you or your customers.
+   Always run your WAF in Detection Only mode for a period of time before switching it on, otherwise you could cause issues that prevent your application from being accessible to you or your customers.  More details available on the :doc:`/wafsettings` page.
 
 ```
 
