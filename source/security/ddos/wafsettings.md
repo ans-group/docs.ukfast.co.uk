@@ -77,3 +77,11 @@ Analyses the response body from the server looking at potential leakage of PHP e
 You can choose which rulesets to switch on or off for each of your domains, using the toggle switches as shown in the screenshot below.  Remember the paranoia level you have selected will also influence how aggressively each ruleset switched on will block traffic.
 
 ![togglerulesets](files/togglerulesets.png)
+
+
+```eval_rst
+.. meta::
+     :title: Web Application Firewall settings on DDoSX from UKFast | UKFast Documentation
+     :description: Help with setting up the Web Application Firewall feature on DDoSX
+     :keywords: ddos, ddos protection, anti-ddos, ukfast, ddosx, web application firewall, waf
+```

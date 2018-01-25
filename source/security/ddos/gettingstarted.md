@@ -154,7 +154,7 @@ For Apache 2.2 you will need to use [mod_rpaf](https://github.com/gnif/mod_rpaf)
 
 ```eval_rst
 .. meta::
-     :title: Getting started with DDoSX and CDN | UKFast Documentation
-     :description: Guidance to setting up DDoSX and CDN from UKFast
-     :keywords: ddos, ddos protection, anti-ddos, cdn, content delivery, content delivery network
+     :title: Getting started with DDoSX, WAF and CDN | UKFast Documentation
+     :description: Guidance to setting up DDoSX, WAF and CDN from UKFast
+     :keywords: ddos, ddos protection, anti-ddos, cdn, content delivery, content delivery network, waf, web application firewall
 ```

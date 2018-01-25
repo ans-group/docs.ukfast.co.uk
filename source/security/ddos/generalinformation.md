@@ -22,11 +22,11 @@ DDoSX supports HTTP and HTTPS web traffic on ports 80 and 443 respectively. If y
 
 ## What is a Web Application Firewall (WAF)?
 
-Web Application Firewall (WAF) on DDoSX uses a global network to protect your online property from suspicious activity, meaning there is no physical hardware and no change to your existing infrastructure.  WAF on DDoSX can be simply provisioned for any domain you wish to add to DDoSX. It is an alternative approach to Web Application Firewall protection compared to the traditional physical hardware, as it allows you to set your own parameters as ‘paranoia levels’. WAF on DDoSX also allows you to select the domains you wish to protect, meaning that you only pay for those you want protecting.
+Web Application Firewall (WAF) on DDoSX uses a global network to protect your online property from suspicious activity, meaning there is no physical hardware and no change to your existing infrastructure.  WAF on DDoSX can be simply provisioned for any domain you wish to add to DDoSX. It is an alternative approach to Web Application Firewall protection compared to a hardware-based WAF, as it allows you to set your own parameters as ‘paranoia levels’. WAF on DDoSX also allows you to select the domains you wish to protect, meaning that you only pay for those you want protecting.
 
 ## How does WAF on DDoSX work?
 
-WAF on DDoSX is an example of a cloud-based WAF, designed to be more efficient via scalability. By using a WAF on the UKFast DDoSX global network, you benefit from a much greater capacity, which makes attack prevention more effective.  WAF on DDoSX is designed to protect you from the OWASP top 10 vulnerabilities as described [here]()  
+WAF on DDoSX is an example of a cloud-based WAF, designed to be more efficient via scalability. By using a WAF on the UKFast DDoSX global network, you benefit from a much greater capacity, which makes attack prevention more effective.  WAF on DDoSX is designed to protect you from the [OWASP top 10 vulnerabilities](/webapplicationfirewalls/attacks.html)  
 
 
 ```eval_rst
