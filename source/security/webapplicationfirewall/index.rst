@@ -1,4 +1,3 @@
-```eval_rst
 .. meta::
      :title: Web Application Firewalls | UKFast Documentation
      :description: General information relating to UKFast Web Application Firewalls
