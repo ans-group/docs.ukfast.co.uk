@@ -2,7 +2,7 @@
 
 Within the WAF tab in the DDoSX section of [MyUKFast](https://my.ukfast.co.uk) you will need to configure the various settings required to activate your WAF and control the level of security provided, as shown in the screenshot below.
 
-![settingupwaf](files/settingupwaf.png)
+![wafsettings](files/wafsettings.png)
 
 ## WAF modes
 
@@ -76,7 +76,7 @@ Analyses the response body from the server looking at potential leakage of PHP e
 
 You can choose which rulesets to switch on or off for each of your domains, using the toggle switches as shown in the screenshot below.  Remember the paranoia level you have selected will also influence how aggressively each ruleset switched on will block traffic.
 
-![togglerulesets](files/togglerulesets.png)
+![wafrulesets](files/wafrulesets.png)
 
 ## Whitelist Rules
 
@@ -88,13 +88,12 @@ An example of this would be allowing traffic from your own office network to byp
 
 In simple terms this rule states *Any request made to the URI `/admin` by user with IP address `8.8.8.8` can be ignored and only log when a rule would be triggered.*
 
-This rule in it's raw format may be off putting, but you can add whitelist rules simply in the `Whitelist` section of the WAF tab in MyUKFast - see screenshot below.
+This rule in it's raw format may be off putting, but you can add whitelist rules simply in the `Whitelist` section of the WAF tab in MyUKFast, by clicking `Add Rule` - see screenshot below.
 
-**[add screenshot here]**
+![wafwhitelist](files/wafwhitelist.png)
 
-The elements which require adding are just:
+The elements which require adding are:
 - URI (/admin)
-- action (DetectionOnly)
 - IP address (8.8.8.8)
 
 You can build a rule like this yourself, by looking at the logs within the [MyUKFast](https://my.ukfast.co.uk) DDoSX dashboard and inspecting certain elements to answer these questions:
