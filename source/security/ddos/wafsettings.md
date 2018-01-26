@@ -97,20 +97,20 @@ The elements which require adding are just:
 - action (DetectionOnly)
 - IP address (8.8.8.8)
 
-You can build a rule like this yourself, by looking at the logs within the [MyUKFast](https://my.ukfast.co.uk) DDoSX dashboard and inspecting certain elements to answer these questions: 
+You can build a rule like this yourself, by looking at the logs within the [MyUKFast](https://my.ukfast.co.uk) DDoSX dashboard and inspecting certain elements to answer these questions:
 
 - Where are violations coming from?  
 - What parts of your website are being attacked?
 - Are WAF rules being triggered by users you know to be legitimate?
 
-For instance, using the "office network" example above - you know that traffic from your workplace originates from IP Address 8.8.8.8 and that you need to use the /admin area of your site, but you are running into a large number of errors to this URI from your office location.  You can gather from this information that these will be false positives, and will impact your productivity if not addressed. 
+For instance, using the "office network" example above - you know that traffic from your workplace originates from IP Address 8.8.8.8 and that you need to use the /admin area of your site, but you are running into a large number of errors to this URI from your office location.  You can gather from this information that these will be false positives, and will impact your productivity if not addressed.
 
 It is important to think carefully when applying whitelists, as the more you implement the less secure your site will become. You should always endeavour to balance security and accessibility - a task that requires a detailed knowledge of your website, application and end users (both internal to your company, as well as external).
 
 
 ```eval_rst
 .. meta::
-     :title: Web Application Firewall settings on DDoSX from UKFast | UKFast Documentation
+     :title: Web Application Firewall settings on DDoSX | UKFast Documentation
      :description: Help with setting up the Web Application Firewall feature on DDoSX
      :keywords: ddos, ddos protection, anti-ddos, ukfast, ddosx, web application firewall, waf
 ```
