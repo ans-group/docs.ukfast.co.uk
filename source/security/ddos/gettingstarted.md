@@ -95,7 +95,7 @@ For any domains with CDN added, content caching will not be activated until you 
 
 ## Configure WAF settings
 
-Navigate to the WAF tab to find the settings for WAF on DDoSX.  There are a number of [different WAF settings](/wafsettings.html) that allow you to manage the level of protection for your domain.
+Navigate to the WAF tab to find the settings for WAF on DDoSX.  There are a number of [different WAF settings](wafsettings.html) that allow you to manage the level of protection for your domain.
 
 ```eval_rst
 .. warning::
