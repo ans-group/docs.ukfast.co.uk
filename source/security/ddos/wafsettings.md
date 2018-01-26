@@ -2,7 +2,7 @@
 
 Within the WAF tab in the DDoSX section of [MyUKFast](https://my.ukfast.co.uk) you will need to configure the various settings required to activate your WAF and control the level of security provided, as shown in the screenshot below.
 
-![wafsettings](files/wafsettings.png)
+![wafsettings](files/wafsettings.PNG)
 
 ## WAF modes
 
@@ -76,7 +76,7 @@ Analyses the response body from the server looking at potential leakage of PHP e
 
 You can choose which rulesets to switch on or off for each of your domains, using the toggle switches as shown in the screenshot below.  Remember the paranoia level you have selected will also influence how aggressively each ruleset switched on will block traffic.
 
-![wafrulesets](files/wafrulesets.png)
+![wafrulesets](files/wafrulesets.PNG)
 
 ## Whitelist Rules
 
@@ -90,7 +90,7 @@ In simple terms this rule states *Any request made to the URI `/admin` by user w
 
 This rule in it's raw format may be off putting, but you can add whitelist rules simply in the `Whitelist` section of the WAF tab in MyUKFast, by clicking `Add Rule` - see screenshot below.
 
-![wafwhitelist](files/wafwhitelist.png)
+![wafwhitelist](files/wafwhitelist.PNG)
 
 The elements which require adding are:
 - URI (/admin)
