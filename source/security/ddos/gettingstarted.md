@@ -100,7 +100,7 @@ Navigate to the WAF tab to find the settings for WAF on DDoSX.  There are a numb
 ```eval_rst
 .. warning::
 
-   Always run your WAF in Detection Only mode for a period of time before switching it on, otherwise you could cause issues that prevent your application from being accessible to you or your customers.  More details available on the :doc:`/wafsettings` page.
+   Always run your WAF in Detection Only mode for a period of time before switching it on, otherwise you could cause issues that prevent your application from being accessible to you or your customers.  More details available on the :doc:`/security/ddos/wafsettings` page.
 
 ```
 
