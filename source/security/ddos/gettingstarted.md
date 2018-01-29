@@ -1,11 +1,11 @@
-# Getting started
+# Getting started with DDosX, CDN and WAF
 
-DDoSX<sup>®</sup> and Content Delivery Network (CDN) are two features of our global network that work together to significantly improve your website or web application’s speed and security. DDoSX<sup>®</sup> provides protection against DDoS attacks, and CDN is an **optional** feature that caches your site's content closer to the end user. In order to use CDN, DDoSX must also be enabled on the domain.
+DDoSX<sup>®</sup>, Content Delivery Network (CDN) and Web Application Firwall (WAF) are features of our global network that work together to significantly improve your website or web application’s speed and security. DDoSX<sup>®</sup> provides protection against DDoS attacks. CDN is an **optional** feature that caches your site's content closer to the end user, and WAF is another **optional** feature which provides protection at the application layer for your domains. In order to use CDN and WAF, DDoSX must first be enabled on your domain(s).
 
 ```eval_rst
 .. seealso::
 
-   To use DDoSX\ :sup:`®` and optional Content Delivery Network from UKFast, you need to have your domains' nameservers pointing to the UKFast nameservers, and you also need to manage your DNS records using SafeDNS.
+   To use DDoSX\ :sup:`®`, CDN and WAF from UKFast, you need to have your domains' nameservers pointing to the UKFast nameservers, and you also need to manage your DNS records using SafeDNS.
 
    Make sure to set up your DNS records correctly in SafeDNS first - see the :doc:`/Domains/safedns/index` guide for assistance.  You must move all records associated with the domains (including sub-domains) you wish to protect, including SMTP, MX, mail etc. to SafeDNS.
 
@@ -25,7 +25,7 @@ DDoSX<sup>®</sup> and Content Delivery Network (CDN) are two features of our gl
 
 ```
 
-To enable DDoSX<sup>®</sup> and CDN on your domains, follow these steps:
+To enable DDoSX<sup>®</sup>, CDN and WAF on your domains, follow these steps:
 
 **[1. Connect](#connect-domain)** your domain(s) to DDoSX
 
@@ -35,18 +35,20 @@ To enable DDoSX<sup>®</sup> and CDN on your domains, follow these steps:
 
 **[4. Create CDN Caching Rules](#create-cdn-caching-rules)** for any CDN-enabled domains
 
+**[5. Configure WAF settings](#configure-waf-settings)** for any domains requiring WAF protection
+
 ## Connect domain
 
 - Login to [MyUKFast](https://my.ukfast.co.uk) and head to `DDoSX & CDN` in the `Products and Services` menu.
 - Click `Connect Now`
 - On this page you can search for the domains you're managing through SafeDNS. (if you havent added your domains to SafeDNS yet, please refer to the info box at the top of this page)
 - Choose the domain you wish to protect and click `Connect`.
-- To add [Content Delivery Network (CDN)](/network/cdn/) to your order, set the CDN toggle switch to "On".
+- To add [Content Delivery Network (CDN)](/network/cdn/) or Web Application Firewall to your order, set the relevant toggle switches to "On".
 - Repeat for each domain you want to add to the network.
 
 ![connect](files/connect.PNG)
 
-- Click `Confirm` to go through the payment process. (You won't have to complete this step if you've already ordered DDoSX<sup>®</sup> or CDN via your UKFast account manager).
+- Click `Confirm` to go through the payment process. (You won't have to complete this step if you've ordered DDoSX<sup>®</sup>, WAF or CDN via your UKFast account manager - you should see the relevant credits in your MyUKFast account already).
 
 ## Configure domain
 
@@ -90,6 +92,17 @@ To enable DDoSX<sup>®</sup> and CDN on your domains, follow these steps:
 ## Create CDN caching rules
 
 For any domains with CDN added, content caching will not be activated until you have [added caching rules to the configuration](/network/cdn/cachingrules.html)
+
+## Configure WAF settings
+
+Navigate to the WAF tab to find the settings for WAF on DDoSX.  There are a number of [different WAF settings](/security/ddos/wafsettings.html) that allow you to manage the level of protection for your domain.
+
+```eval_rst
+.. warning::
+
+   Always run your WAF in Detection Only mode for a period of time before switching it on, otherwise you could cause issues that prevent your application from being accessible to you or your customers.  More details available on the :doc:`/security/ddos/wafsettings` page.
+
+```
 
 ## Configure webserver logging (optional)
 
@@ -141,7 +154,7 @@ For Apache 2.2 you will need to use [mod_rpaf](https://github.com/gnif/mod_rpaf)
 
 ```eval_rst
 .. meta::
-     :title: Getting started with DDoSX and CDN | UKFast Documentation
-     :description: Guidance to setting up DDoSX and CDN from UKFast
-     :keywords: ddos, ddos protection, anti-ddos, cdn, content delivery, content delivery network
+     :title: Getting started with DDoSX, WAF and CDN | UKFast Documentation
+     :description: Guidance to setting up DDoSX, WAF and CDN from UKFast
+     :keywords: ddos, ddos protection, anti-ddos, cdn, content delivery, content delivery network, waf, web application firewall
 ```
