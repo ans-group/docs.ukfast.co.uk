@@ -34,11 +34,11 @@ If you've previously had a domain connected to the DDoSX<sup>®</sup> network an
 
 ## My WAF on DDoSX doesn't appear to be blocking any traffic?
 
-Make sure you've configured your [WAF settings](/wafsettings.html) correctly, and check your WAF is not either switched off, or in Detection Only mode.
+Make sure you've configured your [WAF settings](/security/ddos/wafsettings.html) correctly, and check your WAF is not either switched off, or in Detection Only mode.
 
 ## Why is my WAF blocking legitimate requests?
 
-It can take time to configure your [WAF settings](/wafsettings.html) correctly in order to avoid "false positives", or blocking legitmate requests to your application.  Often this can require a trial-and-error approach to determine the optimal paranoia level and rulesets, that meet your security requirements without preventing legitimate users from accessing your application as needed.  We strongly recommend running your WAF in Detection Only mode for a period of time before switching it on.  This will give you the chance to understand which requests will be blocked, by analysing the log files produced.  Please contact UKFast support by raising a support ticket in [MyUKFast](https://my.ukfast.co.uk) if you need help with this.
+It can take time to configure your [WAF settings](/security/ddos/wafsettings.html) correctly in order to avoid "false positives", or blocking legitmate requests to your application.  Often this can require a trial-and-error approach to determine the optimal paranoia level and rulesets, that meet your security requirements without preventing legitimate users from accessing your application as needed.  We strongly recommend running your WAF in Detection Only mode for a period of time before switching it on.  This will give you the chance to understand which requests will be blocked, by analysing the log files produced.  Please contact UKFast support by raising a support ticket in [MyUKFast](https://my.ukfast.co.uk) if you need help with this.
 
 
 ```eval_rst

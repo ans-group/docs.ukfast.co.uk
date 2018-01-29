@@ -9,7 +9,7 @@ Within the WAF tab in the DDoSX section of [MyUKFast](https://my.ukfast.co.uk) y
 The different WAF modes available are:
 
 - **Off** – WAF not in use
-- **Detection Only** – WAF is in test mode, will report on what traffic will be blocked based on the current rulesets and paranoia level selected, but it not actively blocking traffic.  This should be used to test your WAF settings on your domain before going live, which can help you to avoid false positives and customer experience issues
+- **Detection Only** – WAF is in test mode - it will report on what traffic will be blocked based on the current rulesets and paranoia mode selected, but is not actively blocking traffic.  This should be used to test your WAF settings on your domain before going live, which can help you to avoid false positives and customer experience issues
 - **On** – The WAF is on and is now blocking requests as per the rulesets and paranoia level selected
 
 ```eval_rst
@@ -51,7 +51,7 @@ Once you have set your paranoia mode you can now decide which rules you would li
 
 - **APPLICATION ATTACK RFI (Remote File Inclusion):** Inspecting the arguments for possible attack methods for remote file inclusion, this includes looking for PHP such as "include()", URLs containing an IP address, data ends with question marks (?) and RFI host that does not match its local host value.
 
-- **APPLICATION ATTACK RCE (Remote Code Execution):** This ruleset detects either Unix based, or Windows based shell command injections such as foo.jpg;uname -a for example, this ruleset is also case-sensitive to prevent false positives. Efforts have been made to detect common evasion techniques such as 'l'"s".  
+- **APPLICATION ATTACK RCE (Remote Code Execution):** This ruleset detects either Unix-based, or Windows-based shell command injections such as foo.jpg;uname -a for example, this ruleset is also case-sensitive to prevent false positives. Efforts have been made to detect common evasion techniques such as 'l'"s".  
 
 - **APPLICATION ATTACK PHP:** Looks to identify the injection, or upload of PHP code by inspecting cookies and arguments for "<?" "<?php" opening tags, and file paths or names ending in .php. In addition it looks for the inspection of or detection of PHP configuration files in common locations, and the detection of use of PHP variables/functions from a database of common / known items.
 

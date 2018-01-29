@@ -26,7 +26,7 @@ Web Application Firewall (WAF) on DDoSX uses a global network to protect your on
 
 ## How does WAF on DDoSX work?
 
-WAF on DDoSX is an example of a cloud-based WAF, designed to be more efficient via scalability. By using a WAF on the UKFast DDoSX global network, you benefit from a much greater capacity, which makes attack prevention more effective.  WAF on DDoSX is designed to protect you from the [OWASP top 10 vulnerabilities](/webapplicationfirewalls/attacks.html)  
+WAF on DDoSX is an example of a cloud-based WAF, designed to be more efficient via scalability. By using a WAF on the UKFast DDoSX global network, you benefit from a much greater capacity, which makes attack prevention more effective.  WAF on DDoSX is designed to protect you from the [OWASP top 10 vulnerabilities](/security/webapplicationfirewall/attacks.html)  
 
 
 ```eval_rst
