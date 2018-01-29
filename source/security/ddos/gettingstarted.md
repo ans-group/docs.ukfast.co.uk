@@ -1,6 +1,6 @@
 # Getting started with DDosX, CDN and WAF
 
-DDoSX<sup>®</sup>, Content Delivery Network (CDN) and Web Application Firwall (WAF) are features of our global network that work together to significantly improve your website or web application’s speed and security. DDoSX<sup>®</sup> provides protection against DDoS attacks. CDN is an **optional** feature that caches your site's content closer to the end user, and WAF is another **optional** feature which provides protection at the application layer for your domains. In order to use CDN and WAF, DDoSX must first be enabled on your domain(s).
+DDoSX<sup>®</sup>, Content Delivery Network (CDN) and Web Application Firewall (WAF) are features of our global network that work together to significantly improve your website or web application’s speed and security. DDoSX<sup>®</sup> provides protection against DDoS attacks. CDN is an **optional** feature that caches your site's content closer to the end user, and WAF is another **optional** feature which provides protection at the application layer for your domains. In order to use CDN and WAF, DDoSX must first be enabled on your domain(s).
 
 ```eval_rst
 .. seealso::

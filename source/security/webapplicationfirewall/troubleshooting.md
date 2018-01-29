@@ -1,6 +1,6 @@
 # Troubleshooting (hardware-based WAFs)
 
-This page relates to hardware-based WAFs only.  Please [see here](/ddos/wafsettings.html) for guidance on WAF on DDoSX.
+This page relates to hardware-based WAFs only.  Please [see here](/security/ddos/wafsettings.html) for guidance on WAF on DDoSX.
 
 Typically WAFs suffer from very few problems as long as they have been [set up correctly](https://docs.ukfast.co.uk/security/webapplicationfirewall/gettingstarted.html).
 
