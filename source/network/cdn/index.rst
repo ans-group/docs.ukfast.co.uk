@@ -8,6 +8,6 @@ Information regarding UKFast's Content Delivery Network (CDN)
   :maxdepth: 1
 
   generalinfo
-  /security/ddos/gettingstarted
+  gettingstarted
   cachingrules
   managingcdn

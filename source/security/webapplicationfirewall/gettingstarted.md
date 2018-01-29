@@ -1,6 +1,8 @@
-# Getting started with a Web Application Firewall
+# Getting started with a Web Application Firewall (hardware-based)
 
-If you would like to implement a WAF then it's important to understand the phases you will need to go through.  UKFast will work with you at each stage.
+This page relates to hardware-based WAFs only.  Please [see here](/security/ddos/gettingstarted.html) for guidance on getting started with WAF on DDoSX.
+
+If you would like to implement a hardware-based WAF then it's important to understand the phases you will need to go through.  UKFast will work with you at each stage.
 
 ## Planning phase
 
@@ -10,7 +12,7 @@ You will need to provide UKFast with:
 
   - The domains hosting the web applications you wish to protect
   - The internal IPs of the servers the web applications are hosted on
-  
+
 Our WAF analysts will work with you to understand what is considered "normal" traffic to your applications.  It's important to ensure a common understanding of exactly how your applications operate before moving forwards.  We will also identify points of potential access or attack.
 
 
@@ -31,6 +33,9 @@ The WAF will initially be set to operate in a learning mode, which will last 2-4
 Only once the learning phase is completed and we've agreed between us the specific ruleset for your application, will the WAF be fully switched-on.  At this point, any traffic not specifically whitelisted will be deemed as malicious and blocked.  This will be recorded and available for ongoing analysis.
 
 
-
-
-
+```eval_rst
+.. meta::
+     :title: Getting started with a hardware-based WAF | UKFast Documentation
+     :description: Help with setting up a hardware-based Web Application Firewall from UKFast
+     :keywords: ukfast, ddosx, web application firewall, waf, owasp, owasp top 10
+```

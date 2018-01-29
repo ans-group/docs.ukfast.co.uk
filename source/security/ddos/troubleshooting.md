@@ -32,9 +32,18 @@ DDoSX is designed to support HTTP and HTTPS web traffic on ports 80 and 443 resp
 
 If you've previously had a domain connected to the DDoSX<sup>®</sup> network and then removed it, make sure to use [SafeDNS](/Domains/safedns/index.html) to point your DNS records directly back to your own server or firewall.  See the section on [Removing a domain from DDoSX<sup>®</sup>](/security/ddos/remove.html) for more details.
 
+## My WAF on DDoSX doesn't appear to be blocking any traffic?
+
+Make sure you've configured your [WAF settings](/security/ddos/wafsettings.html) correctly, and check your WAF is not either switched off, or in Detection Only mode.
+
+## Why is my WAF blocking legitimate requests?
+
+It can take time to configure your [WAF settings](/security/ddos/wafsettings.html) correctly in order to avoid "false positives", or blocking legitmate requests to your application.  Often this can require a trial-and-error approach to determine the optimal paranoia level and rulesets, that meet your security requirements without preventing legitimate users from accessing your application as needed.  We strongly recommend running your WAF in Detection Only mode for a period of time before switching it on.  This will give you the chance to understand which requests will be blocked, by analysing the log files produced.  Please contact UKFast support by raising a support ticket in [MyUKFast](https://my.ukfast.co.uk) if you need help with this.
+
+
 ```eval_rst
 .. meta::
-     :title: Troubleshooting DDoSX and CDN | UKFast Documentation
-     :description: Help with common problems when using DDoSX and CDN from UKFast
-     :keywords: ddos, ddos protection, anti-ddos, cdn, content delivery, content delivery network, Troubleshooting, faqs, ports, offline
+     :title: Troubleshooting DDoSX, WAF and CDN | UKFast Documentation
+     :description: Help with common problems when using DDoSX, WAF and CDN from UKFast
+     :keywords: ddos, ddos protection, anti-ddos, cdn, content delivery, content delivery network, troubleshooting, faqs, ports, offline, waf, web application firewall
 ```
