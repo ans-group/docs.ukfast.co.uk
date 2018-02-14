@@ -14,6 +14,7 @@ eCloud Flex is UKFast's OpenStack-based public cloud platform
    ipv6
    support/index
    networking/index
+   lbaas/index
 
 
 .. meta::
