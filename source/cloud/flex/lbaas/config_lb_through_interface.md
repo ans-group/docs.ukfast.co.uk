@@ -23,7 +23,7 @@ Next is the Pool Details page, in which you must create your first 'member pool'
 -   **ROUND_ROBIN** will use each backend in order and rotate between them on each request, regardless of the current volume of open connections to that backend or the client making the request.
 -   **SOURCE_IP** is a way of ensuring clients connecting will always use the same backend between visits or requests so long as the source IP remains identical.
 
-On the next screen you then add the pool members - the individual servers / instances which receive traffic from the listener. You can o add instances to the pool with the `Add` button to the right of the instance.
+On the next screen you then add the pool members - the individual servers / instances which receive traffic from the listener. You can add instances to the pool from your list of Available Instances by clicking the `Add` button to the right of the instance.
 
 ![lbmemberpoolwizard](../files/20.png)
 
@@ -43,9 +43,9 @@ To enable IPv4 access to your Load Balancer from public networks, a Floating IP 
 
 ![lbfip](../files/21.png)
 
-Please note, the IP address displayed to the top-left of the interface is the internal IPv4 address of the Load Balancer, but this IP will not be publicly accessible by others outside of your eCloud Flex network.
+Please note, the IP address displayed towards the top-left of the page is the internal IPv4 address of the Load Balancer, but this IP will not be publicly accessible by others outside of your eCloud Flex network.
 
-To attach a Floating IP, use the drop-down menu next to `Edit` to the top right corner, and select `Associate Floating IP`.
+To attach a Floating IP, use the drop-down menu next to `Edit` in the top right corner, and select `Associate Floating IP`.
 
 ![lbfipassociate](../files/22.png)
 
