@@ -1,9 +1,4 @@
 # Creating an eCloud Flex Load Balancer
-```eval_rst
-.. meta::
-    :title: Creating an eCloud Flex Load Balancer | UKFast Documentation
-    :description: Detailed guidance on establishing a load balancing instance on eCloud Flex using the Flex dashboard
-```
 
 ## Creating a HTTP Load Balancer
 First of all, log in to your [eCloud Flex Horizon Dashboard](<https://api.openstack.ecloud.co.uk/project/ngloadbalancersv2/>) and navigate to the **Network** tab, then **Load Balancers** in the menu. If you have no existing Load Balancers, the table presented should be empty.
@@ -57,3 +52,9 @@ To attach a Floating IP, use the drop-down icon next to **Edit** to the top righ
 Depending on your existing network configuration, one or two options may be provided. If two categories are presented, the first will be **Floating IP Addresses** where you may directly select the reserved Floating IPs in your account to attach to the Load Balancer. The second, which shall also be visible if one one category is shown, will be **Floating IP Pools**. Selecting this option will ask your network IP pool to automatically reserve a floating IP address for your account, and then continue to associated this address with your Load Balancer for you.
 
 Regardless of which method is chosen to select a Floating IP, clicking the blue **Associate** button will continue to add this to the load balancer, and this should be usable immediately to connect to. To find this Floating IP address, follow the steps outlined in the first part of this section to see the **Floating IP Address Field** found on the Load Balancer page.
+
+```eval_rst
+.. meta::
+    :title: Creating an eCloud Flex Load Balancer | UKFast Documentation
+    :description: Detailed guidance on establishing a load balancing instance on eCloud Flex using the Flex dashboard
+```
