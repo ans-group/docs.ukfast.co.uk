@@ -17,5 +17,5 @@ Your UKFast support team has uploaded the latest imaging software to resolve thi
   .. meta::
      :title: Rebooting a firewall | UKFast Documentation
      :description: A guide to rebooting a dedicated firewall through MyUKFast
-     :keywords: ukfast, firewall, rebooting, network, myukfast, cloud, hosting
+     :keywords: ukfast, firewall, rebooting, network, myukfast, cloud, hosting, dedicated
 ```
