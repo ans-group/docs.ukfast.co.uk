@@ -4,6 +4,7 @@ When increasing the amount of disk space assigned to an eCloud virtual machine (
 
 ```eval_rst
 .. warning::
+
    Please be aware that this article uses specific examples, such as :code:`sdc` or :code:`/dev/mapper/eCloud-root`.
 
    You may have different requirements or configurations in terms of device names and volumes.
@@ -13,6 +14,7 @@ When increasing the amount of disk space assigned to an eCloud virtual machine (
    Once an extension has been started, it cannot be reverted.
    
    If you're unsure of anything or need some help, please contact UKFast Support, by raising a ticket in MyUKFast or calling 0800 230 0032.
+   
 ```
 
 ## Identifying new disk
@@ -168,7 +170,8 @@ To resize an `ext` filesystem, run the following - noting the format of `/dev/ma
 Then confirm that the disk shows the correct size in `df -h`
 
 ```eval_rst
-  .. meta::
+.. meta::
      :title: Adding new disks to an eCloud virtual server | UKFast Documentation
      :description: A guide on adding a new disk to an eCloud virtual server
      :keywords: ukfast, linux, ecloud, cloud, disk, drive, virtual, vm, server, tutorial
+```
