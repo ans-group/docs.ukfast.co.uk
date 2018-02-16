@@ -2,7 +2,7 @@
 
 Firewall reboots should be done through [MyUKFast](https://my.ukfast.co.uk). Navigate to `Products and Services` >> `Firewalls` >> `Dedicated`. You should see the following screen:
 
-![firewallrebootscreen](firewallrebootscreen.png)
+![firewallrebootscreen](FirewallRebootscreen.png)
 
 Select the firewall that you would like to reboot and choose the time. Click `Schedule Reboot`.
 
