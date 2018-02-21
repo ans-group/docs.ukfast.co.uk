@@ -13,3 +13,4 @@ Guides relating to setting up and using Load Balancers on eCloud Flex.
    :maxdepth: 1
 
    config_lb_through_interface
+   config_https_termination_cli
