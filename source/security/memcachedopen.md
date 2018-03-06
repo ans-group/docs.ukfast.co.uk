@@ -66,3 +66,9 @@ secure than no authentication at all.
 ## Post checks
 
 Once you've secured memcached, check it's secure! Re run the earlier command, all alternatively contact support and we can take a look for you.
+
+ ```eval_rst
+   .. meta::
+      :title: Open Memcached Exploit | UKFast Documentation
+      :description: Guidance on open memcached instances
+      :keywords: ukfast, linux, security, vulnerability, memcached, hosting
