@@ -15,3 +15,4 @@ Information relating to UKFast security products and services, and general best 
    dirtycow
    wannacry
    meltdown
+   memcachedopen
