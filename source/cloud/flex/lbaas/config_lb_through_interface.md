@@ -15,7 +15,7 @@ The next screen will prompt you for 'Listener' details. A Listener is the interf
 
 ![lblistenerwizard](../files/19.png)
 
-You can also choose to configure listeners on **TCP** and **Terminated HTTPS** (HTTPS Offloading). More listeners can be added later in the process, and existing ones may be modified as required after setting the Load Balancer up for the first time.
+You can also choose to configure listeners on **TCP** and **Terminated HTTPS** (HTTPS Offloading). More listeners can be added later in the process, and existing ones may be modified as required after setting the Load Balancer up for the first time.  If you want to use Terminated HTTPS on your Load Balancer you'll need to follow [this guide to create the relevant listener](/cloud/flex/lbaas/config_https_termination_cli.html).
 
 Next is the Pool Details page, in which you must create your first 'member pool'. A member pool is the group of servers (instances) which will receive load-balanced traffic from the Listener you specified previously. You will need to give a name to the member pool, an optional description, and choose the load balancing method. The three load balancing methods available are:
 
