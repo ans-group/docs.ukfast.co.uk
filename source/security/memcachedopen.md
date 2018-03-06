@@ -1,6 +1,6 @@
 # Memcached security concerns and reflection/amplification DDoS attacks
 
-A DDoS attack method utilising memcached servers exposed to the public internet has come to light, and resulted in a number of extremely large DDoS attacks.  The root cause of this is vulnerable memcached servers that have been deployed without sufficient protection.  Attackers are able to utilise these vulnerable servers to launch large-scale reflection/amplification attacks at specific IP addresses.
+A DDoS attack method utilising memcached servers exposed to the public internet has come to light, and resulted in a number of extremely large DDoS attacks (this attack vector has been given the name "Memcrashed").  The root cause of this is vulnerable memcached servers that have been deployed without sufficient protection.  Attackers are able to utilise these vulnerable servers to launch large-scale reflection/amplification attacks at specific IP addresses.
 
 The attack makes use of the UDP capabilities of memcached, but this has highlighted previously known issues
 with memcached security where the service is open to the world with no authentication. This could also potentially
