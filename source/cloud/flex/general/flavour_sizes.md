@@ -16,8 +16,8 @@ Each instance on eCloud Flex comes in a variety of configurations called Flavour
 |  UKF2-mem-2x16 	|       60       	|   2   	|      16     	| 2500 	|     10,000     	|
 |  UKF2-mem-4x32 	|       60       	|   4   	|      32     	| 2500 	|     10,000     	|
 |  UKF2-mem-8x64 	|       60       	|   8   	|      64     	| 2500 	|     10,000     	|
-| UKF2-small-1x0 	|       60       	|   1   	|     0.5     	|  500 	|     10,000     	|
-| UKF2-small-1x1 	|       60       	|   1   	|      1      	| 1000 	|     10,000     	|
+| UKF2-small-1x0 	|       20       	|   1   	|     0.5     	|  500 	|     10,000     	|
+| UKF2-small-1x1 	|       20       	|   1   	|      1      	| 1000 	|     10,000     	|
 |  UKF2-std-2x2  	|       60       	|   2   	|      2      	| 1000 	|     10,000     	|
 |  UKF2-std-4x4  	|       60       	|   4   	|      4      	| 1000 	|     10,000     	|
 |  UKF2-std-8x8  	|       60       	|   8   	|      8      	| 1000 	|     10,000     	|
