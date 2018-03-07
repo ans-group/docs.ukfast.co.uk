@@ -22,13 +22,15 @@ Each instance on eCloud Flex comes in a variety of configurations called Flavour
 |  UKF2-std-4x4  	|       60       	|   4   	|      4      	| 1000 	|     10,000     	|
 |  UKF2-std-8x8  	|       60       	|   8   	|      8      	| 1000 	|     10,000     	|
 
-\* = UKF2-CPU-* range has an increased clock speed offering superior performance over other flavours with identical quantities of CPUs.
+\* = *UKF2-CPU-*\* *range has an increased clock speed offering superior performance over other flavours with identical quantities of CPUs.*
 
 Additional storage is also available through attachable volumes, with each tier offering increasing IOPS and decreased access latency:
 
 * **SATA** storage offers up to 500 IOPS and is ideal for storage of large files which are infrequently accessed and log files
 * **SSD** volumes will perform in excess of 5,000 IOPS and are ideal for frequently accessed files, databases and web files
 * **PCIE** drives brings performance of over 50,000 IOPS and are ideal for high performance databases and applications
+
+  You can quickly calculate your cloud costs using our [eCloud Flex Calculator](https://www.ukfast.co.uk/calculate-ecloud-flex.html), and get started with a [free trial account](https://www.ukfast.co.uk/ecloud-flex-trial.html) to see if Flex is the right solution for your business.
 
 ```eval_rst
 .. meta::
