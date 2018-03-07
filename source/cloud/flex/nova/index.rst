@@ -10,6 +10,7 @@ Information relating to eCloud Flex instances based on Nova, the compute element
    basic
    newinstances
    instancebilling
+   flavour_sizes
 
 
 .. meta::

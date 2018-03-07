@@ -9,7 +9,6 @@ A collection of helpful information regarding eCloud Flex.
 
    settingvars
    passwordretrieval
-   flavour_sizes
 
 
 .. meta::
