@@ -2,6 +2,7 @@
 
 Each instance on eCloud Flex comes in a variety of configurations, known as "flavours" in OpenStack terminology. The resources available for each of these flavours are shown in the table below:
 
+```eval_rst
 +-----------------+----------------+----------------+-------+-------------+------+----------------+
 | Flavour Type    | Flavour        | Disk Size (GB) | vCPUs | Memory (GB) | IOPS | Network (Mbps) |
 +-----------------+----------------+----------------+-------+-------------+------+----------------+
@@ -39,6 +40,7 @@ Each instance on eCloud Flex comes in a variety of configurations, known as "fla
 +-----------------+----------------+----------------+-------+-------------+------+----------------+
 | High CPU        | UKF2-cpu-8x48  | 60             | 8*    | 48          | 3000 | 10,000         |
 +-----------------+----------------+----------------+-------+-------------+------+----------------+
+```
 
  *\* ***High CPU*** flavours have an increased clock speed, providing superior performance over other flavours with comparable numbers of vCPUs.
 
