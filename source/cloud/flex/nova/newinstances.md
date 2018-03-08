@@ -32,3 +32,11 @@ The key reasons for the launch of UKF2 were:
 ```
 
 Existing UKF1 instances continue to operate as normal - we have no plans to end-of-life these any time soon.  However when you want to create new instances, you'll need to choose a UKF2 type.
+
+
+ ```eval_rst
+   .. meta::
+      :title: eCloud Flex UKF2 instance range | UKFast Documentation
+      :description: Overview of the UKF2 range of eCloud Flex instances
+      :keywords: ukfast, cloud, hosting, flex, ecloud, openstack, nova, instances
+      
