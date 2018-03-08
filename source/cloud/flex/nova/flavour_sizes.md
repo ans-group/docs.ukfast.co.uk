@@ -1,8 +1,8 @@
-# eCloud Flex Flavours
+# eCloud Flex flavours and configurations
 
-Each instance on eCloud Flex comes in a variety of configurations called Flavours. The resources available for each of these flavours are shown in the table below:
+Each instance on eCloud Flex comes in a variety of configurations, known as "flavours" in OpenStack terminology. The resources available for each of these flavours are shown in the table below:
 
-|   Flavour Type  |     Flavour    | Disk Size (GB) | VCPUs | Memory (GB) | IOPS | Network (Mbps) |
+|   Flavour Type  |     Flavour    | Disk Size (GB) | vCPUs | Memory (GB) | IOPS | Network (Mbps) |
 |:---------------:|:--------------:|:--------------:|:-----:|:-----------:|:----:|:--------------:|
 |      Small      | UKF2-small-1x0 |       20       |   1   |     0.5     |  500 |     10,000     |
 |      Small      | UKF2-small-1x1 |       20       |   1   |      1      | 1000 |     10,000     |
@@ -22,15 +22,21 @@ Each instance on eCloud Flex comes in a variety of configurations called Flavour
 |     High CPU    |  UKF2-cpu-6x36 |       60       |   6*  |      36     | 3000 |     10,000     |
 |     High CPU    |  UKF2-cpu-8x48 |       60       |   8*  |      48     | 3000 |     10,000     |
 
-\* = *UKF2-CPU-*\* *range has an increased clock speed offering superior performance over other flavours with identical quantities of CPUs.*
+ *\* ***High CPU*** flavours have an increased clock speed, providing superior performance over other flavours with comparable numbers of vCPUs.
 
-Additional storage is also available through attachable volumes, with each tier offering increasing IOPS and decreased access latency:
+For more regarding eCloud Flex flavour types please see [this article](/cloud/flex/nova/newinstances.html).
 
-* **SATA** storage offers up to 500 IOPS and is ideal for storage of large files which are infrequently accessed and log files
-* **SSD** volumes will perform in excess of 5,000 IOPS and are ideal for frequently accessed files, databases and web files
-* **PCIE** drives brings performance of over 50,000 IOPS and are ideal for high performance databases and applications
 
-  You can quickly calculate your cloud costs using our [eCloud Flex Calculator](https://www.ukfast.co.uk/calculate-ecloud-flex.html), and get started with a [free trial account](https://www.ukfast.co.uk/ecloud-flex-trial.html) to see if Flex is the right solution for your business.
+## Block Storage volumes
+
+Additional storage for your eCloud Flex instances is available through attachable Block Storage volumes, based on [OpenStack Cinder](https://docs.openstack.org/cinder/latest/).  Block Storage is available in SATA, SSD and PCIe tiers, with each tier offering increasing IOPS and improved access latency:
+
+* **SATA** volumes offer up to 500 IOPS, and are recommended for storage of large files which are accessed infrequently, or for log files
+* **SSD** volumes will perform in excess of 5,000 IOPS, and are recommended for frequently accessed files, databases and web files
+* **PCIe** volumes bring performance of over 50,000 IOPS, and are recommended for high performance databases and applications
+
+For pricing information and to quickly calculate your cloud costs, use our [eCloud Flex calculator](https://www.ukfast.co.uk/calculate-ecloud-flex.html).
+
 
 ```eval_rst
 .. meta::
