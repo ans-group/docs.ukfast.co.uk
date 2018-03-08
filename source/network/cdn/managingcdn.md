@@ -7,7 +7,7 @@ To ensure your content is cached:
 * The type of request must be a GET or HEAD request
 * The http response must be 200, 301 or 206 if you are setting how long content is cached by the CDN, otherwise we will respect the Cache-Control header.
 
-There are also a number of reasons why content will not cached:
+There are also a number of reasons why content will not be cached:
 
 * There is a nocache cookie (Cache-Control: no-cache=Set-Cookie)
 * Cache-Control headers are set to private
@@ -56,16 +56,10 @@ To help understand what happened to a request we add the header X-Proxy-Cache, w
 
 **HIT**: Served from cache.
 
-## Bypassing the Cache
-
-Finally there might be some occasions where you need to just tell the CDN to stop caching content and fetch it from the origin. There are currently three ways this can be done:
-
-* Via [MyUKFast](https://my.ukfast.co.uk/ddosx/)
-* Using bypass methods as above, such as PURGE http header and the ?nocache=true arguments on the request
-* Manual PURGE/DELETE http methods
-
-One method is to use [MyUKFast](https://my.ukfast.co.uk/ddosx/), this will allow you to clear your items and effectively PURGE the content you want on each of the servers. You can also provide specific URLs, or cache based on MIME type e.g. any files ending in .jpg.
-
-You can clear the CDN cache via a PURGE or a DELETE method. For example, use curl `curl -XPURGE example.org/example.jpg`.  Adding a `-I` to this request in order to present headers will return `X-Purged-Count: 1` to show how many items were removed. This can also be done using `curl -XPURGE example.org/*` which will effectively clear everything. Cache is stored on each server locally, so this method will only clear the cache on the server it hits.
-
 If you need help using the CDN or configuring your rules, please contact UKFast support by raising a ticket in [MyUKFast](https://my.ukfast.co.uk/pss/add.php) or by calling 0800 230 0032.
+
+```eval_rst
+  .. meta::
+     :title: Managing the cache on CDN | UKFast Documentation
+     :description: A guide to managing the content that is cached by CDN
+     :keywords: ukfast, content delivery network, CDN, cache, Cache-Control, Cache headers, X-Proxy-Cache Header
