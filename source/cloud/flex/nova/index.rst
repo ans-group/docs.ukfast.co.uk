@@ -7,9 +7,10 @@ Information relating to eCloud Flex instances based on Nova, the compute element
 .. toctree::
    :maxdepth: 1
 
-   basic
+   flavour_sizes
    newinstances
    instancebilling
+   basic
 
 
 .. meta::
