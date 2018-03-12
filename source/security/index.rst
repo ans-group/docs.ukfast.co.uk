@@ -9,8 +9,9 @@ Information relating to UKFast security products and services, and general best 
 
    ddos/index
    webapplicationfirewall/index
-   antivirus/index
+   threatmonitoring/index
    firewalls/index
+   antivirus/index
    vulnerabilityscans
    dirtycow
    wannacry
