@@ -17,4 +17,4 @@ From this point you will start receiving notifications should your variables gen
 
 You will also be able to view and confirm which servers have Threat Monitoring installed by going to the [Threat Monitoring area in MyUKFast](https://my.ukfast.co.uk/threat-monitoring/).  If you click on the `Monitored Servers` tab you will see a table as follows:
 
-![servers](files/agentsscreenshot.PNG)
+![servers](files/agentsscreenshot.png)
