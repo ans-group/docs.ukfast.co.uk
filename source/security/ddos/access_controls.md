@@ -53,9 +53,13 @@ You can also manage access to your domain based on the country that requests ori
 
 The country access rules you specify will work in conjunction with your IP access rules; this is how you can build rulesets such as - *block all access from country X, but allow access from a specific IP address even though it is within country X*.
 
-Once you've specified all your IP access and Country access rules, click `Apply Changes` at the bottom of the screen.  Your access rules will be applied immediately.
+Once you've specified all your IP access and Country access rules, click `Apply Changes` at the bottom of the screen.  
 
 ![acl_rules](files/acl_rules.png)
+
+Your access rules may take a few minutes to propogate out across the DDoSX network.  You can check the the status of your domain by returning to the DDoSX Domains List (click `<Back to Domains list`) - once your changes have been applied you'll see a green tick in the Status column next to the domain in question.
+
+
 
 
 ```eval_rst
