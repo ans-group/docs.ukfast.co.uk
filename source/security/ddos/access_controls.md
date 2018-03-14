@@ -40,7 +40,7 @@ To add rules based on an IP address or range, click `+Add Rule`; you'll see an a
 - Enter the Origin IP address or range you wish to filter on
 - Then choose Allow or Deny using the slider.  
 
-Note that rules will be applied **in priority order**, based on the order you add them.  So make sure to add the first rule you want applied first, then the second, and so on.  If you wish to change the order in which rules are applied you will need to delete and re-add them as appropriate.
+Note that rules will be applied **in priority order**, based on the order you add them.  Our recommendation is to place your "Allow" rules first, and then your "Deny" rules, as rules are checked in sequence until there is a match.  If you wish to change the order in which rules are applied you will need to delete and re-add them as appropriate.
 
 ### Country Access
 
