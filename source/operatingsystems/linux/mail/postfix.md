@@ -2,7 +2,7 @@
 
 ## Installation
 
-Postfix is an opensource MTA (Mail Transfer Agent). It is the standard MTA that comes installed on CentOS servers by default. It is also the MTA used by the Plesk control panel. If this is not installed on your server, this can be done with the following:
+Postfix is an open source MTA (Mail Transfer Agent). It is the standard MTA that comes installed on CentOS servers. It is also the MTA used by the Plesk control panel. If this is not installed on your server, this can be done with the following:
 
 ```bash
   yum install postfix
@@ -46,18 +46,24 @@ This will show a lot of information regarding the email and will help in investi
 
 ## Clearing the Postfix mail queue
 
-You can use two methods to clear the queue. The first method is not guaranteed to clear the mail as it will attempt to send all of the mail in the queue. You would use this method if there a lot of mails in the queue due to a network issue or a blocked port for example.
+You can use two methods to clear the queue. The first method is to 'flush' the queue, or attempt to send mail in the queue. This is not guaranteed to clear the mail as it will attempt to send all of the mail in the queue. You would use this method if there is lot of mail in the queue due to a network issue or a blocked port, and the issue has been resolved.
 
 ```bash
   postfix -f
 ```
 
-The second method would be to delete the mails in the queue. You would do this in an event such as the server was found to be sending spam mail and the queue is full of the spam mail. Once you have stopped the spam from sending then you would want to delete the contents of the queue. To do this, you can either delete mail using a mail ID or you can delete all of the mails in the queue.
+The second method would be to delete the mails in the queue. You would do this in an event such as the server was found to be sending spam mail and the queue is full of the spam mail. Once you have stopped the spam from sending then you would want to delete the contents of the queue. To do this, you can use the following commands.
 
 To delete a specific mail from the queue you would use the below command where [ID] is the ID of the mail you wish to delete.
 
 ```bash
   postsuper -d [ID]
+```
+
+If the spam is only associated with a single domain, you can use this script to search for and delete only mail associated with that domain, reducing the possibility of accidentally removing legitimate mail. Replace @example.com with your domain.
+
+```bash
+mailq | tail -n +2 | awk 'BEGIN { RS = "" } /@example.com/ { print $1 }' | tr -d '*!' | postsuper -d -
 ```
 
 To delete all mail in the mail queue you would use the below command.
