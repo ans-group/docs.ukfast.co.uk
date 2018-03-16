@@ -9,6 +9,7 @@ Information relating to UKFast security products and services, and general best 
 
    ddos/index
    webapplicationfirewall/index
+   threatmonitoring/index
    antivirus/index
    firewalls/index
    vulnerabilityscans
