@@ -16,3 +16,4 @@ Information relating to UKFast security products and services, and general best 
    wannacry
    meltdown
    memcachedopen
+   wordpress
