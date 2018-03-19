@@ -4,7 +4,7 @@ WordPress is an incredibly popular blogging platform that's increasingly being u
 
 ```eval_rst
 .. seealso::
-   If you're currently looking at a blank server, you'll first need to follow these prerequisites guides:
+   If you're currently looking at a blank server, you'll first need to follow these prerequisite guides:
 
    :doc:`/operatingsystems/linux/apache/installation`
 
@@ -26,7 +26,7 @@ WordPress is an incredibly popular blogging platform that's increasingly being u
 
 ```eval_rst
 .. note::
-   This guide covers just one method of installing wordpress, via SSH. If you're looking to install it in another way, the installation guide from WordPress is always up to date:
+   This guide covers just one method of installing WordPress, via SSH. If you're looking to install it in another way, the installation guide from WordPress is always up to date:
 
    http://codex.wordpress.org/Installing_WordPress
 ```

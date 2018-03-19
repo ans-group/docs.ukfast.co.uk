@@ -2,7 +2,7 @@
 Security
 ========
 
-Information relating to UKFast security products and services, and general best practise.
+Information relating to UKFast security products and services, and general best practice.
 
 .. toctree::
    :maxdepth: 1
