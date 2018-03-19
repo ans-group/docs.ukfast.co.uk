@@ -21,11 +21,11 @@ It requires the following types of records:
 +===========+=============================================================================+====================================+
 | A         | Points a domain to an IP                                                    | mail.ukfast.co.uk -> 37.220.91.195 |
 +-----------+-----------------------------------------------------------------------------+------------------------------------+
-| MX        | Points mail servers to the correct A record which receives mail              | ukfast.co.uk -> mail.ukfast.co.uk  |
+| MX        | Points mail servers to the correct A record which receives mail              | ukfast.co.uk -> mail.ukfast.co.uk |
 +-----------+-----------------------------------------------------------------------------+------------------------------------+
 | rDNS      | Points an IP to a corresponding A record                                    | 37.220.91.195 -> mail.ukfast.co.uk |
 +-----------+-----------------------------------------------------------------------------+------------------------------------+
-| SPF (TXT) | Tells mail servers which IP addresses they should expect mail to arrive from | v=spf1 mx a ~all                   |
+| SPF (TXT) | Tells mail servers which IP addresses they should expect mail to arrive from | v=spf1 mx a ~all                  |
 +-----------+-----------------------------------------------------------------------------+------------------------------------+
 
 ```
