@@ -25,3 +25,11 @@ You should be careful to categorise your alerts and rulesets, such that you are 
 You can gain a real-time view of all your Threat Monitoring alerts in the [Threat Monitoring section of MyUKFast](https://my.ukfast.co.uk/threat-monitoring/) in the `Dashboard` tab, which will look as follows:
 
 ![dashboard](files/dashboardscreenshot.png)
+
+
+```eval_rst
+.. meta::
+     :title: Threat Monitoring alerts | UKFast Documentation
+     :description: Guidance relating to alerts raised by UKFast's Threat Monitoring solution
+     :keywords: threat monitoring, alerts, security, compliance, critical, rules, rulesets, ukfast, hosting
+```

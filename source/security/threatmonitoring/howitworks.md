@@ -22,17 +22,28 @@ Example rules often triggered:
 
 ## Vulnerability scans
 
-Operating system and application vulnerabilities are often the primary cause of exploit on a customer's infrastructure. Part of the UKFast Threat Monitoring service is a scheduled scan which detects any components that require patching and updating, which will also highlight the severity of leaving such vulnerabilities unpatched.
+Operating system and application vulnerabilities are often the primary cause of exploit on a customer's infrastructure. Part of the UKFast Threat Monitoring service is a scheduled vulnerability scan which detects any components that require patching and updating, and will also highlight the severity of leaving such vulnerabilities unpatched.
 
-By default, vulnerability scans are scheduled monthly, however additional scans can be scheduled by raising a ticket to UKFast Support via [MyUKFast](https://my.ukfast.co.uk).  Reports are available via download from MyUKFast. You may choose to either manage any necessary patching and updates yourself, or request this to be done by UKFast Threat Response engineers during normal business hours.
+By default, vulnerability scans are scheduled monthly, however additional scans can be requested by raising a ticket to UKFast Support via [MyUKFast](https://my.ukfast.co.uk).  Reports are available via download from MyUKFast. Once you have the results of your report, you may choose to either manage any necessary patching and updates yourself, or request that this carried out by UKFast engineers during normal business hours.
 
-[add screenshot of MyUKFast]
 
-## File integrity monitoring
+## File Integrity Monitoring (FIM)
 
-As part of your setup of Threat Monitoring, you can can
-As part of the base tier system, as currently proposed, clients will need to provide UKFast with a list of core system files or directories that they would like to be monitored and any changes tracked. The biggest application seen for this is ensuring payment gateway or redirect pages are not manipulated to send customer payments elsewhere. A hash of the file is taken, any changes to the hash generates alerts which are sent directly to clients, with the time, date and user who made the changes. Clients are directly sent these alerts as the likelihood of false positives occurring, due to development work for example, can be quite regular.
+As part of your setup of Threat Monitoring, you can can provide UKFast with a list of core system files and directories for which you wish to have [alerts raised](/security/threatmonitoring/alerts.html) in the event that any changes are made.  This is known as File integrity Monitoring (FIM).  A common use of FIM is to ensure payment gateway or redirect pages are not manipulated in order to divert customer payments elswhere.
+
+FIM works by taking a hash of each file, and then any changes to this hash are alerted with the time, date and user who made the changes.
+
 
 ## Rootkit detection
 
-We don't have any information on this as Stephen Crow our top security guy wouldn't provide any. if you want to complain please email Stephen.crow@ukfast.co.uk
+A "rootkit" is a combination of software designed to enable administrator-level access to a computer or network, typically with malicious intent.  It is vital to detect when root access has been achieved on your IT systems before any malicious activity takes place.  Rootkits are often combined with malware; there are different types of rootkits but they all attempt to disguise classic malware activity to prevent rootkit detection.
+
+Threat Monitoring has been designed to detect rootkits in a number of ways, for example scanning the /dev directory and filesystem to detect anomalies, searching for the presence of hidden processes and ports, and scanning system interfaces to detect those in promiscuous mode.
+
+
+```eval_rst
+.. meta::
+     :title: How Threat Monitoring works | UKFast Documentation
+     :description: Guidance relating to UKFast's Threat Monitoring solution
+     :keywords: threat monitoring, alerts, security, compliance, rules, rulesets, ukfast, hosting, file integrity monitoring, rootkit, detection, vulnerability scan, scans, hids, intrustion detection
+```

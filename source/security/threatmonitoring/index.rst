@@ -1,6 +1,6 @@
 .. meta::
    :title: Threat Monitoring and Threat Response | UKFast Documentation
-   :description: Guidance on Threat Monitoring and Threate Response solutions from UKFast
+   :description: Guidance on Threat Monitoring and Threat Response solutions from UKFast
    :keywords: security, threat, monitoring, response, alerts, blocking, hacking, ransomware, protection
 
 =====================================

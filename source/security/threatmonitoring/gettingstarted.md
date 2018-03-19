@@ -18,3 +18,11 @@ From this point you will start receiving notifications should your variables gen
 You will also be able to view and confirm which servers have Threat Monitoring installed by going to the [Threat Monitoring area in MyUKFast](https://my.ukfast.co.uk/threat-monitoring/).  If you click on the `Monitored Servers` tab you will see a table as follows:
 
 ![servers](files/agentsscreenshot.png)
+
+
+```eval_rst
+.. meta::
+     :title: Getting started with Threat Monitoring | UKFast Documentation
+     :description: Guidance on getting started with UKFast's Threat Monitoring
+     :keywords: threat monitoring, alerts, security, compliance, rules, rulesets, ukfast, hosting, file integrity monitoring, rootkit, detection, vulnerability scan, scans, hids, intrustion detection, set up
+```
