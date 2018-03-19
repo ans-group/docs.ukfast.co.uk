@@ -4,7 +4,7 @@ Threat Monitoring from UKFast enables you to continually monitor for malicious a
 
 ## What is Threat Monitoring?
 
-Threat Monitoring works by installing an agent on to your server(s), which continuously monitors for potential threats. It involves continuously analysing data to distinguish between potential security breaches and normal activity.
+Threat Monitoring works by installing an agent on to your server(s), which continuously monitors for potential threats. It involves continuously analysing data to distinguish between potential security breaches and normal activity, and then generating reports on this activity, raising real-time alerts for any deemed serious in nature.
 
 ## What is Threat Response?
 

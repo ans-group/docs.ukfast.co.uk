@@ -11,14 +11,15 @@ During the planning phase you will work with a UKFast security specialist to def
 
 ## Implementation Phase
 
-Once the planning variables have been established, a UKFast security specialist will install your Threat Monitoring agent(s) and configure these as per your requirements.
+Once the planning variables have been established, a UKFast security specialist will install your Threat Monitoring agent(s) and configure these as per your requirements.  A central threat monitoring server will also be installed within your management zone, which all Threat Monitoring agents will forward logs to for real-time analysis.
 
-From this point you will start receiving notifications should your variables generate any alerts.
+From this point you will start receiving notifications and alerts, should your rulesets generate any.
 
-You will also be able to view and confirm which servers have Threat Monitoring installed by going to the [Threat Monitoring area in MyUKFast](https://my.ukfast.co.uk/threat-monitoring/).  If you click on the `Monitored Servers` tab you will see a table as follows:
+You will be able to view and confirm which servers have Threat Monitoring installed by going to the [Threat Monitoring area in MyUKFast](https://my.ukfast.co.uk/threat-monitoring/).  If you click on the `Monitored Servers` tab you will see a table as follows:
 
 ![servers](files/agentsscreenshot.png)
 
+If you have additional servers you wish to install Threat Monitoring onto, please speak to your [UKFast Account Manager](https://my.ukfast.co.uk/account/your-account-manager.php).
 
 ```eval_rst
 .. meta::
