@@ -1,8 +1,10 @@
 # WordPress
 
+WordPress is an incredibly popular blogging platform that's increasingly being used as a CMS.
+
 ```eval_rst
 .. seealso::
-   If you're currently looking at a blank server, you'll first need to follow these guides
+   If you're currently looking at a blank server, you'll first need to follow these prerequisites guides:
 
    :doc:`/operatingsystems/linux/apache/installation`
 
@@ -11,15 +13,13 @@
    :doc:`/operatingsystems/linux/mysql/installation`
 ```
 
-WordPress is an incredibly popular blogging platform that's increasingly being used as a CMS.
-
 ```eval_rst
 .. warning::
-    Whilst it's simplicity and wide-use is enticing, it should also be noted that if WordPress isn't kept up to date, along with all it's plugins and themes, it can be a very big security risk.
-
-    As the most used blogging platform, it's also one of the most targeted applications on the internet.
+    Whilst its simplicity and wide-use is enticing, it should also be noted that if WordPress isn't kept up to date, along with all its plugins and themes, it can be a very big security risk. As the most used blogging platform, it is also one of the most targeted applications on the internet.
 
     Care should be taken when installing any third party plugins or themes, as these are often the source of a full server compromise. Only install from very reputable sources and be very wary of any site that claims to have premium themes for cheap or free, these are often backdoored in some way.
+
+    For more information on keeping your WordPress site secure please do see the following guide. :doc:/security/wordpress
 ```
 
 ## Installation
@@ -196,5 +196,5 @@ The user should now have been added successfully and you should be able to log i
 ```eval_rst
   .. meta::
      :title: Configuring WordPress on Linux | UKFast Documentation
-     :description:  How to configure WordPress and add admin users 
+     :description:  How to configure WordPress and add admin users
      :keywords: ukfast, wordpress, configuration, users, databases, mysql, linux
