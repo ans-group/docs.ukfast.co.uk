@@ -1,6 +1,6 @@
 # WordPress
 
-WordPress is an incredibly popular blogging platform that's increasingly being used as a CMS.
+WordPress is an incredibly popular blogging platform that's increasingly being used as a Content Management System (CMS).
 
 ```eval_rst
 .. seealso::
@@ -15,21 +15,16 @@ WordPress is an incredibly popular blogging platform that's increasingly being u
 
 ```eval_rst
 .. warning::
-    Whilst its simplicity and wide-use is enticing, it should also be noted that if WordPress isn't kept up to date, along with all its plugins and themes, it can be a very big security risk. As the most used blogging platform, it is also one of the most targeted applications on the internet.
+    Whilst WordPress is simple to get up and running with, you should note that it can present a security risk if WordPress, and any plugins and themes you choose to use, are not kept up to date. Due to it's popularity, WordPress is one of the most targetted applications on the internet.
 
-    Care should be taken when installing any third party plugins or themes, as these are often the source of a full server compromise. Only install from very reputable sources and be very wary of any site that claims to have premium themes for cheap or free, these are often backdoored in some way.
+    Care should be taken when installing any third party plugins or themes, as these con often be the source of a full server compromise. Only install from reputable sources and be very wary of any site that claims to have premium themes for cheap or free, these are often backdoored in some way.
 
-    For more information on keeping your WordPress site secure please do see the following guide. :doc:/security/wordpress
+    For more information on keeping your WordPress site secure please do see :doc:/security/wordpress
 ```
 
 ## Installation
 
-```eval_rst
-.. note::
-   This guide covers just one method of installing WordPress, via SSH. If you're looking to install it in another way, the installation guide from WordPress is always up to date:
-
-   http://codex.wordpress.org/Installing_WordPress
-```
+This guide covers one method of installing WordPress, via SSH. If you're looking to install it in another way, the [installation guide from WordPress](http://codex.wordpress.org/Installing_WordPress) is a good source.
 
 Before we can install WordPress, we first need to download it. WordPress keeps a handy link to their most recent version, so you should just be able to download it like so:
 
@@ -51,7 +46,7 @@ Simply move the files from inside here to inside the location you specified as y
   mv wordpress/* /var/www/vhosts/somedomain.tld/public_html
 ```
 
-You'll also probably want to change the ownerships on all those new files so that your webserver can access them. In this example, I'm still using the default apache user:
+You'll also probably want to change the ownerships on all those new files so that your webserver can access them. In this example, we are still using the default apache user:
 
 ```console
   chown -R apache: /var/www/vhosts/somedomain.tld/public_html
@@ -81,7 +76,7 @@ Enter mysql by typing `mysql` at the command line. This should leave you confron
    mysql>
 ```
 
-What you call your database and user is up to you, but in this example I'll be using the rather uninventive `wordpress` and `wordpressuser`.
+What you call your database and user is up to you, but in this example we'll be using `wordpress` and `wordpressuser`.
 
 You'll need to use the `CREATE` syntax to create your new database:
 
@@ -104,11 +99,11 @@ Then we just flush privileges and exit:
 
 The above series of commands will have created a databases called `wordpress` a user called `wordpressuser` with a password of `IamANewPasswordMonitorPlectrum`.
 
-The important part to note is `'wordpressuser'@localhost`. This specifies the user `wordpressuser` can only log in from `localhost`, which is pretty good from a security standpoint. If you need access from a remote server, you could run the command again with a different ip or hostname in place of localhost.
+The important part to note is `'wordpressuser'@localhost`. This specifies the user `wordpressuser` can only log in from `localhost`, which is pretty good from a security standpoint. If you need access from a remote server, you could run the command again with a different IP or hostname in place of localhost.
 
 ```eval_rst
 .. warning::
-   You could also replace `localhost` with `%`, which would allow connections for that user from any IP address, but unless you have a particular reason for this it should probably be considered quite a security risk.
+   You could also replace `localhost` with `%`, which would allow connections for that user from any IP address, but unless you have a particular reason for this it should probably be considered a security risk.
 ```
 
 ## WordPress Configuration
@@ -119,16 +114,7 @@ Providing your apache configuration is correct, you should now be able to browse
 
 Select your language and hit continue.
 
-```eval_rst
-.. note::
-   If you don't see the above step, you're probably missing one of wordpress' dependencies.
-
-   https://wordpress.org/about/requirements/
-
-   If you haven't installed the php-mysql module, this is likely where you'll start to see issues. Check the following page for more information on installing php modules:
-
-   :doc:`/operatingsystems/linux/php/moduleinstallation`
-```
+If you don't see the above screen, you're probably missing one of [Wordpress's dependencies](https://wordpress.org/about/requirements/).  If you haven't installed the php-mysql module, this is likely where you'll start to see issues. Check this guide on [installing PHP modules](/operatingsystems/linux/php/moduleinstallation.html) for further guidance.
 
 The next page should just be letting you know that you're going to need your database credentials, but we've already covered that.
 
@@ -140,11 +126,11 @@ Enter the database credentials that you set up in the previous step and press 'S
 
 If you've got your permissions set up correctly, then you shouldn't be asked to manually set up your wp-config.php file, but if you do, just create the file and paste in the content that's provided.
 
-The next screen is much more personal to your blog and is pretty self explanatory:
+The next screen is specific to your blog and is pretty self explanatory:
 
 ![Admin setup](files/wordpress3.png)
 
-From here on out, you're good to go. WordPress is installed on the domain you specified. Enjoy!
+From here on you're looking good - WordPress is installed and ready to use.
 
 
 ## Adding an admin user to WordPress
@@ -172,7 +158,7 @@ USE DATABASE_NAME;
 ```
 
 
-Now you are using the correct database, the below text is the code required to add a user. You will want to change the values that have *** 's around them to suit your needs. Leave all the other code untouched:
+Now you are using the correct database, below is the code required to add a user. You will want to change the values that have *** 's around them to suit your needs. Leave all the other code untouched:
 
 ```sql
 INSERT INTO `wp_users` (`user_login`, `user_pass`, `user_nicename`, `user_email`, `user_status`)
