@@ -19,7 +19,7 @@ WordPress is an incredibly popular blogging platform that's increasingly being u
 
     Care should be taken when installing any third party plugins or themes, as these con often be the source of a full server compromise. Only install from reputable sources and be very wary of any site that claims to have premium themes for cheap or free, these are often backdoored in some way.
 
-    For more information on keeping your WordPress site secure please do see :doc:/security/wordpress
+    For more information on keeping your WordPress site secure please see :doc:`/security/wordpress`
 ```
 
 ## Installation
