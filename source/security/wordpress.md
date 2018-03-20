@@ -1,4 +1,4 @@
-## Keeping WordPress secure
+# Keeping WordPress secure
 
 WordPress is a very common Content Management System (CMS), used by many websites and blogs.  As one of the most popular applications on the internet, it's also commonly targeted and exploited by bad actors.
 
