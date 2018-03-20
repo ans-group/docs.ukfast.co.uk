@@ -1,8 +1,8 @@
-# Postfix
+# Postfix mail transfer agent
 
 ## Installation
 
-Postfix is an open source MTA (Mail Transfer Agent). It is the standard MTA that comes installed on CentOS servers. It is also the MTA used by the Plesk control panel. If this is not installed on your server, this can be done with the following:
+Postfix is an open source MTA (Mail Transfer Agent). It is the standard MTA that comes installed on CentOS servers, and one used by the Plesk control panel. If Postfix is not installed on your server, this can be done with the following:
 
 ```bash
   yum install postfix
@@ -22,11 +22,11 @@ You can set this to start when the server comes online with the following comman
 
 The server is now ready to send emails. You can configure your websites to connect to localhost over port 25 and they will not require any authentication.
 
-Please ensure that you have a valid hostname and rDNS set. See [the following article for details](/linux/mail/bounces.html)
+Please ensure that you have a valid hostname and rDNS set. See [this guide for details](/linux/mail/bounces.html)
 
-## Where are the logs
+## Where are the logs?
 
-Postfix logs are generally found in `/var/log/maillog` on Plesk servers. The log will show a variety of different information including mail sent, received and authentication attempts. The logging can be modified by making changes to the Postfix configuration file found in `/etc/postfix/main.cf`.  There are a variety of different configuration changes that can be made and it would be best to refer to the official documentation which is linked at the bottom of this guide.
+Postfix logs are generally found in `/var/log/maillog` on Plesk servers. The log will show a variety of different information including mail sent, received and authentication attempts. The logging can be modified by making changes to the Postfix configuration file found in `/etc/postfix/main.cf`.  There are a variety of different configuration changes that can be made and it would be best to refer to the [official Postfix documentation](http://www.postfix.org/documentation.html) for a detailed description.
 
 ## Queue Manipulation
 
@@ -42,7 +42,7 @@ This will display all mails in the queue including their ID, the sender and reci
   postcat -q [ID]
 ```
 
-This will show a lot of information regarding the email and will help in investigating possible mail compromises such as whether the mail was sent through a logged in account, which would indicate a mail account has been compromised or through a PHP script which would indicate a malicious script has been uploaded to your server.
+This will show a lot of information regarding the email and will help in investigating possible mail compromises such as whether the mail was sent through a logged-in account, which would indicate a mail account has been compromised, or through a PHP script which would indicate a malicious script has been uploaded to your server.
 
 ## Clearing the Postfix mail queue
 
@@ -54,7 +54,7 @@ You can use two methods to clear the queue. The first method is to 'flush' the q
 
 The second method would be to delete the mails in the queue. You would do this in an event such as the server was found to be sending spam mail and the queue is full of the spam mail. Once you have stopped the spam from sending then you would want to delete the contents of the queue. To do this, you can use the following commands.
 
-To delete a specific mail from the queue you would use the below command where [ID] is the ID of the mail you wish to delete.
+To delete a specific mail from the queue you would use the below command where `[ID]` is the ID of the mail you wish to delete.
 
 ```bash
   postsuper -d [ID]
@@ -72,12 +72,6 @@ To delete all mail in the mail queue you would use the below command.
   postsuper -d ALL
 ```
 
-## Official Postfix Documentation.
-
-If your needs require specific tweaks or configurations additions, we suggest that you use the official Postfix documentation.
-
-<http://www.postfix.org/documentation.html>
->>>>>>> devops/ukfast-docs-external-RickD
 
 ```eval_rst
   .. meta::
