@@ -1,8 +1,8 @@
-# EXIM
+# EXIM mail transfer agent
 
-Exim is an open source mail transfer agent. It is most commonly found on WHM/cPanel servers. You can configure Exim through the command line or through the cPanel itself. The guide below focuses on ways to configure Exim and the various ways you can parse logs.
+Exim is an open source mail transfer agent. It is most commonly found on Web Host Monitor (WHM) /cPanel servers. You can configure Exim through the command line or through the cPanel itself. The guide below focuses on ways to configure Exim and the various ways you can parse logs.
 
-## Where are the logs
+## Where are the logs?
 
 Exim logs are generally found in `/var/log/exim_mainlog` on cPanel servers. This can be modified by making changes to the Exim configuration file found in `/etc/exim.conf`. The variable that can be changed is shown below.
 
@@ -60,7 +60,7 @@ Here are some of the optional log items.
 
 ## Parsing logs.
 
-Here are some basic commands that you can use to look through the mail queue. These are especially useful if your mail queue has a large amount of emails. A mail queue with a lot of emails could point to a misconfiguration or a compromise on the server with malicious code causing the server to spam out. Here are a few of the basic commands that you can use through SSH to look at the details of your mail queue.
+Here are some basic commands that you can use to look through the mail queue. These are especially useful if your mail queue has a large amount of emails. A mail queue with a lot of emails could point to a misconfiguration or a compromise on the server with malicious code causing the server to generate spam out. Here are a few of the basic commands that you can use through SSH to look at the details of your mail queue.
 
 View the mail queue.
 
@@ -92,7 +92,6 @@ Force a queue out with frozen emails.
   exim -qff
 ```
 
-
 Check the emails individually. The `l` stands for log, the `b` stands for body, the `h` stands for header.
 
 ```console
@@ -103,7 +102,7 @@ Check the emails individually. The `l` stands for log, the `b` stands for body, 
 
 ## Digging deeper into the logs.
 
-Some of the commands below can allow you to find the source of spam or the to find a single user sending a lot of the mail otu. This is particularly useful during compromise investigations.
+Some of the commands below can allow you to find the source of spam or identify a single user sending a lot of mail out. This is particularly useful during compromise investigations.
 
 The following helps to spot spammers sending mail from their `/home/` directory.
 
@@ -154,9 +153,9 @@ Occasionally, Exim running under WHM/cPanel will encounter problems with file pe
 
 ## Official Exim Documentation.
 
-If your needs require specific tweaks or configurations additions, we suggest that you use the official Exim documentation. This details all of the open source documentation maintained by the University of Cambridge.
+If your needs require specific tweaks or configuration additions, we suggest that you use the [official Exim documentation](http://www.exim.org/exim-html-current/doc/html/spec_html/index.html) maintained by the University of Cambridge.
 
-<http://www.exim.org/exim-html-current/doc/html/spec_html/index.html>
+
 
 ```eval_rst
   .. meta::
