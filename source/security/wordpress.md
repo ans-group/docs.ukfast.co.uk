@@ -1,4 +1,4 @@
-## Keeping WordPress secure
+# Keeping WordPress secure
 
 WordPress is a very common Content Management System (CMS), used by many websites and blogs.  As one of the most popular applications on the internet, it's also commonly targeted and exploited by bad actors.
 
@@ -17,7 +17,7 @@ The best way to address security problems is to make sure you've taken all the s
 - Find and use a good [security plugin](https://wordpress.org/plugins/tags/security/).
 - Keep up-to-date backups of your site's files and database.
 
-If you require additional security beyond the recommendations of WordPress, you could consider a [Web Application Firewall](security/webapplicationfirewall/) from UKFast.
+If you require additional security beyond the recommendations of WordPress, you could consider a [Web Application Firewall](/security/webapplicationfirewall/) from UKFast.
 
 ### My WordPress site was hacked, what now?
 
