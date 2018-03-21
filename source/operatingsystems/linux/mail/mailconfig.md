@@ -51,7 +51,7 @@ Once done, the first step is to sign up to the JMRP and SNDS services which are 
 
 You should also submit an outlook.com [sender information form](https://support.live.com/eform.aspx?productKey=edfsmsbl3&ct=eformts&wa=wsignin1.0&scrx=1).
 
-Once you have completed those steps you will need to email Microsoft at [delist@messaging.microsoft.com](mailto:delist@messaging.microsoft.com) requesting they to delist your IP (or range). Office365 also has a delist page [here](https://sender.office.com/).
+Once you have completed those steps you will need to email Microsoft at **delist@messaging.microsoft.com** requesting they to delist your IP (or range). Office365 also has a delist page [here](https://sender.office.com/).
 
 The process can take up to a week, however it is usually completed in under 24 hours.
 
