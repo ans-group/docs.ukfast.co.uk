@@ -18,10 +18,15 @@ These providers maintain their own private blacklists, and you cannot check if y
 
 Microsoft mail servers are a little different to other providers. Their blacklists are not public so you cannot check if you are blacklisted. You must always get an IP address (or range) whitelisted if you want the mail to end up in the correct mailbox. If you have problems with your mail ending up in spam, or not appearing at all, this is likely the reason.
 
-If you have this issue, read our guide in the [Basics of mail](/operatingsystems/linux/mail/mailconfig.html#sending-to-microsoft-hotmail-office365) section, which should help you address this. 
+If you have this issue, read our guide in the [basics of mail](/operatingsystems/linux/mail/mailconfig.html#sending-to-microsoft-hotmail-office365) section, which should help you address this. 
+
+### Google / Gmail
+
+Google provides [some useful guidance on mail](https://support.google.com/mail/answer/81126?hl=en) which is also worth reading.
+
 
 ```eval_rst
   .. meta::
      :title: Email blacklisting | UKFast Documentation
      :description: How to check if you are blacklisted and steps to take
-     :keywords: ukfast, mail, basics, config, dns, spf, mx, blacklist, hotmail, live
+     :keywords: ukfast, mail, basics, config, dns, spf, mx, blacklist, hotmail, live, google, gmail
