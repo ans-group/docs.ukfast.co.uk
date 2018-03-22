@@ -25,7 +25,7 @@ In general the fastest way to get back online is to restore from backups prior t
 
 Be aware that restoring from a backup might remove the malicious code, but it won't close the vulnerability which allowed your site to be compromised in the first place. To do that please do refer back to [Hardening WordPress Codex](https://codex.wordpress.org/Hardening_WordPress).
 
-WordPress maintain their own in-depth guide with suggestions and recommended plugins here [FAQ My site was hacked](https://codex.wordpress.org/FAQ_My_site_was_hacked). Should you find your site hacked, this is an excellent resource.
+WordPress maintain [their own in-depth security guide](https://codex.wordpress.org/FAQ_My_site_was_hacked) with suggestions and recommended plugins which is worth a read should you find your site compromised.
 
 We would also recommend running an on-demand virus scan just in case there's further issues beyond the compromised site. For Linux-based products we recommend [McAfee](/security/antivirus/), or alternatively the open source [ClamAV](www.clamav.net).
 
