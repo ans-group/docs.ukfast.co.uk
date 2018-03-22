@@ -37,6 +37,11 @@ A "rootkit" is a combination of software designed to enable administrator-level 
 Threat Monitoring has been designed to detect rootkits in a number of ways, for example scanning the /dev directory and filesystem to detect anomalies, searching for the presence of hidden processes and ports, and scanning system interfaces to detect those in promiscuous mode.
 
 
+## Server Baseline Hardening (available on Linux servers only)
+
+In order to minimize the threat of an attack on computer infrastructure, a security baseline should be implemented. Our Threat Monitoring solution has the ability to scan your servers and compare them to industry-recognised baselines (PCI-DSS, CIS, NIST), to show where improvements can be made. Though security vulnerabilities are difficult or even impossible to predict, many of them require multiple conditions to be met at once in order to be successfully exploited.  Often by changing configuration files and disabling unused services, you can ensure that your infrastructure won't meet these conditions. For Linux servers, we can run baseline scans every day, providing you with a report of insecure settings that exist on your operating system, along with suggestions on how to improve them.
+
+
 ```eval_rst
 .. meta::
      :title: How Threat Monitoring works | UKFast Documentation
