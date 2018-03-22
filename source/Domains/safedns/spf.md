@@ -38,3 +38,11 @@ If you cannot see the `TXT` Records section you will need to add a new record ty
 
    Unless your TTL is set to a value other than the default, these records may take up to 24 hours before they have fully propagated.
 ```
+
+
+```eval_rst
+.. meta::
+   :title: Creating an SPF record in SafeDNS | UKFast Documentation
+   :description: Guidance on creating an Sender Policy Framework (SPF) record in SafeDNS from UKFast
+   :keywords: dns, spf, email, spam, sender policy framework, spf, safedns, ukfast, hosting, domains
+```
