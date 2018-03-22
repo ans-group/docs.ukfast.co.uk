@@ -18,3 +18,4 @@ Email is a complex and deep subject, but these guides should help cover the basi
    exim
    postfix
    dkim
+   spf
