@@ -18,25 +18,25 @@ To add the SPF record, first log into [SafeDNS in MyUKFast](https://my.ukfast.co
 
 If you already have `TXT` records configured for the domain you will need to add a new record.
 
+1. Within the `TXT` record section click `Add TXT Record`. This will add a blank record at the end of the record list.
+2. Leave hostname blank, under value enter the `SPF` string provided by the wizard. for example:
 ![SPF 1](files/spf1.png)
-
-1. Within the `TXT` record section click add record. (This will add a blank record at the end of the record list)
-2. Leave hostname blank, under value enter the `SPF` string provided by the wizard
 3. Click `Save Records` at the bottom of the page
 
 If you cannot see the `TXT` Records section you will need to add a new record type in order to add the `TXT` record.
 
+1. Click `Add New Record Type` and select `Add TXT record` from the dropdown box.
 ![SPF 2](files/spf2.png)
 
-1. Within the `Add New Record Type` section select `TXT` from the dropdown box. (This should present you with the fields in the above image)
-2. Leave hostname blank, under value enter the `SPF` string provided by the wizard
-3. Click `Add New Record Type` (You should now see the `TXT` Records section listed with your new record present)
-4. Click `Save Records` at the bottom of the page
+2. You should now see the `TXT` Records section listed with your new blank record. Leave hostname blank, under value enter the `SPF` string provided by the wizard:
+![SPF 3](files/spf3.png)
+
+3. Click `Save Records` at the bottom of the page
 
 ```eval_rst
 .. warning::
 
-   Unless your TTL is set to a value other than the default, these records may take up to 24 hours before they have fully propagated.
+   By default, TTL (Time To Live) is 24 hours. That means these records may take up to 24 hours before they have fully propagated to all DNS servers worldwide.
 ```
 
 
