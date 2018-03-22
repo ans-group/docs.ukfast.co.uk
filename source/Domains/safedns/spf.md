@@ -18,20 +18,25 @@ To add the SPF record, first log into [SafeDNS in MyUKFast](https://my.ukfast.co
 
 If you already have `TXT` records configured for the domain you will need to add a new record.
 
-1. Within the `TXT` record section click `Add TXT Record`. This will add a blank record at the end of the record list.
-2. Leave hostname blank, under value enter the `SPF` string provided by the wizard. for example:
+- Within the `TXT` record section click `Add TXT Record`. This will add a blank record at the end of the record list.
+- Leave hostname blank, under value enter the `SPF` string provided by the SPF wizard, for example:
+
 ![SPF 1](files/spf1.png)
-3. Click `Save Records` at the bottom of the page
+
+- Click `Save Records` at the bottom of the page
 
 If you cannot see the `TXT` Records section you will need to add a new record type in order to add the `TXT` record.
 
-1. Click `Add New Record Type` and select `Add TXT record` from the dropdown box.
+- Click `Add New Record Type` and select `Add TXT record` from the dropdown box towards the top right corner.
+
 ![SPF 2](files/spf2.png)
 
-2. You should now see the `TXT` Records section listed with your new blank record. Leave hostname blank, under value enter the `SPF` string provided by the wizard:
-![SPF 3](files/spf3.png)
+- You should now see the `TXT` Records section listed with your new blank record. Leave hostname blank, under value enter the `SPF` string provided by the SPF wizard:
 
-3. Click `Save Records` at the bottom of the page
+![SPF 3](files/spf3.PNG)
+
+- Click `Save Records` at the bottom of the page
+
 
 ```eval_rst
 .. warning::
