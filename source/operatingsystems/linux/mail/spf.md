@@ -53,9 +53,11 @@ There are eight mechanisms for describing what servers are allowed to send mail 
 ```
 
 Each mechanism can have a qualifier which defines what action should happen if the mechanism is matched. The default is Pass, so if a mechanism is written without a qualifier, read it as if it has a +.
+
+```eval_rst
 +-----------+--------------------+---------------------------------------------------------------------------------------------------------+
 | Qualifier | Result on matching | Further notes:                                                                                          |
-+-----------+--------------------+---------------------------------------------------------------------------------------------------------+
++===========+====================+=========================================================================================================+
 | +         | Pass               | This is the default action if a mechanism doesn't have a qualifier set.                                 |
 |           |                    | If the mechanism matches, it means that host is allowed to send mail and mail should be accepted.       |
 +-----------+--------------------+---------------------------------------------------------------------------------------------------------+
@@ -65,6 +67,7 @@ Each mechanism can have a qualifier which defines what action should happen if t
 +-----------+--------------------+---------------------------------------------------------------------------------------------------------+
 | ?         | Neutral            | This means the mechanism doesn't have any bearing on if mail should be accepted or rejected             |
 +-----------+--------------------+---------------------------------------------------------------------------------------------------------+
+```
 
 Looking back to our example:
 
