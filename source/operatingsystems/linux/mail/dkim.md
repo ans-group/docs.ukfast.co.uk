@@ -8,7 +8,7 @@ DomainKeys Identified Mail (DKIM) is an email authentication protocol that's des
 
 Setting up DKIM records on your Web Host Manager (WHM) / cPanel or Plesk server, where you are using external DNS, is tricky to get right.  Most MTAs (Mail Transfer Agents) recognize the flaws and difficulty in DKIM implementation. An absent DKIM record will not generally be held against you, while an invalid record most certainly will be.
 
-This guide is based around to WHM for the most part, but the same principles can apply to Plesk, or any custom built mail server.
+This guide is based around WHM for the most part, but the same principles can apply to Plesk, or any custom built mail server.
 
 It's worth noting that DKIM should have two records to work correctly. The public key record, and the policy record.
 
@@ -35,18 +35,18 @@ A tool to test if your record format is valid can be found here: http://dkimcore
 An example public key record for the domain "example.com" would be:
 ```
 Host field:
-default.\_domainkey
+default._domainkey
 TXT value field:
 v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCvc8OvYXyvaiTVTK0vnrPOYhetVgjjAzVMl6GI186o8hCR13/7ZMMhAz3wmADBxW00Xb6S8Z3miqLTBz79ze+N/TvtiupeQHIVH4do+sxWRVfWicWzaVrmKUSOKPk3QhtouRVfpBKOfIQArP07/7/ITC4ZWtHCPq4+l1lPBvvVFQIDAQAB
 ```
 And an example policy record would be:
 ```
 Host field:
-\_domainkey.example.com
+_domainkey.example.com
 TXT value field:
 o=~; r=postmaster@yexample.com
-This record indicates that not all mail will be signed (o=) and that invalid verifications should be reported to postmaster@yexample.com (r=).
 ```
+This record indicates that not all mail will be signed (o=) and that invalid verifications should be reported to postmaster@yexample.com (r=).
 Your DNS provider may have different requirements, so please do check your provider's documentation if you have issues with adding this record.
 
 ### For Plesk
