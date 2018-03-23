@@ -58,10 +58,10 @@ Each mechanism can have a qualifier which defines what action should happen if t
 +-----------+--------------------+---------------------------------------------------------------------------------------------------------+
 | Qualifier | Result on matching | Further notes:                                                                                          |
 +===========+====================+=========================================================================================================+
-| +         | Pass               | This is the default action if a mechanism doesn't have a qualifier set.                                 |
+| \+        | Pass               | This is the default action if a mechanism doesn't have a qualifier set.                                 |
 |           |                    | If the mechanism matches, it means that host is allowed to send mail and mail should be accepted.       |
 +-----------+--------------------+---------------------------------------------------------------------------------------------------------+
-| -         | Fail               | This means the host is not allowed to send, and mail should be rejected                                 |
+| \-        | Fail               | This means the host is not allowed to send, and mail should be rejected                                 |
 +-----------+--------------------+---------------------------------------------------------------------------------------------------------+
 | ~         | Soft Fail          | This means the host is not allowed to send, but mail should be marked and accepted rather than rejected |
 +-----------+--------------------+---------------------------------------------------------------------------------------------------------+
