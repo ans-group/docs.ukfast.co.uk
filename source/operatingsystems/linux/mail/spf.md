@@ -6,7 +6,9 @@ Once you have a suitable SPF record, please refer to this [guide on how to add y
 
 ## General overview
 
-Sender Policy Framework records (SPF) are designed to prevent spammers from spoofing email from your domain by providing you with a means of stating which servers are authorised to send email on behalf of your domain. Most mail servers will check for an SPF record when filtering for spam, which stops people pretending to send mail from your domain.
+Sender Policy Framework records (SPF) are designed to prevent spammers from spoofing email from your domain by providing you with a means of stating which servers are authorised to send email on behalf of your domain. 
+Most mail servers will check for an SPF record when filtering for spam and typically will choose to reject delivery of a message if the SPF check fails. As such, it's important to note that SPF records will not prevent people from _sending_ spoofed messages but instead provide a mechanism by which receiving mail servers can choose not to deliver them.
+SPF records are also valuable in increasing the deliverability of legitimate mail sent from your domain. A message that passes an SPF check is less likely to be labelled as spam by mail servers employing spam filtering technology.
 
 An SPF record consists of a string of text stored in a `TXT` DNS record. While there is also a specific `SPF` record type, the use of this was officially discontinued in 2017 in [RFC 7208](https://tools.ietf.org/html/rfc7208).
 
@@ -18,7 +20,7 @@ v=spf1 mx a ~ip4:192.168.1.1/32 a:mail.mybulkmailserver.com -all
 
 The first part v=spf1 defines the version of SPF used. This is the same on all records. The next parts: "mx", "a", "ip4" and "all" are "mechanisms", and the "~" and "-" are "qualifiers". Mechanisms are processed in order. We'll explain each one in detail below.
 
-There are eight mechanisms for describing what servers are allowed to send mail on behalf of your domain. We'll define them all here, but for most purposes, you will only ever need four: all, ip4, mx, and a.
+There are eight mechanisms for identifying which servers are allowed to send mail on behalf of your domain. We'll define them all here, but for most purposes, you will only ever need four: all, ip4, mx, and a.
 
 ```eval_rst
 +-----------+-------------------------------------------------------+-------------------------------------+
@@ -75,7 +77,7 @@ Looking back to our example:
 v=spf1 mx a ~ip4:192.168.1.1 a:mail.mybulkmailserver.com -all
 ```
 
-When a remote mail server receives an email claiming to be from your domain, the mail server will reading this SPF record work through the following steps:
+When a remote mail server receives an email claiming to be from your domain, the mail server will read this SPF record and work through the following steps:
 - *mx:* Match the MX records for the domain to the origin of the mail and Pass if they match.
 - *a:* Match the A records for the domain to the origin of the mail and Pass if they match.
 - *~ip4:192.168.1.1:* Match the origin against the subnet ip4:192.168.1.1, and if it matches, mark it with a Soft Fail.
@@ -95,7 +97,7 @@ v=spf1 a mx -all
 You send email from servers your have A or MX records for, but your also have another dedicated email server:
 
 ```
-v=spf1 a mx -all a:dedicatedmailserver.com -all
+v=spf1 a mx a:dedicatedmailserver.com -all
 ```
 
 If you use bulk mail services like Mandrill, Mailchimp or others, please do make sure you consult their documentation on SPF records and include all the services you intend to use:
