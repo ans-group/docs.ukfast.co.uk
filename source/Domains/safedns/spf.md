@@ -33,7 +33,7 @@ If you cannot see the `TXT` Records section you will need to add a new record ty
 
 - You should now see the `TXT` Records section listed with your new blank record. Leave hostname blank, under value enter the `SPF` string provided by the SPF wizard:
 
-![SPF 3](files/spf3.PNG)
+![SPF 3](files/spf3.png)
 
 - Click `Save Records` at the bottom of the page
 
