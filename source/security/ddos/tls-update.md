@@ -22,7 +22,7 @@ If you are using the DDoSX network, whether it's for DDoS protection alone, or t
 
 You may wish to start informing end users with incompatible browsers or devices that they will no longer be able to access your websites or applications after 14th May 2018.  It's highly likely that these users will experience problems accessing many different websites over the next few months, as websites begin to comply with the mandate to disable early TLS protocols, and so whilst inconvenient it will not come as a surprise to your users.
 
-Should you wish to continue offering access to your websites and applications using the TLS1.0 and TLS1.1 protocols after 14th May 2018 you will need to [remove your domains from DDoSX](/security/ddos/remove.html), however clearly you would no longer benefit from the DDoS protection, CDN and WAF features available on the network.  You should also consider that you would be unlikely to achieve PCI DSS compliance if you continue to allow access using TLS1.0 after the 30th June 2018 deadline set by the PCI Security Standards Council.
+If you need further help with this matter please either contact [your UKFast Account Manager](https://my.ukfast.co.uk/account/your-account-manager.php) or [raise a support ticket via MyUKFast](https://my.ukfast.co.uk/pss/add.php).
 
 
 ```eval_rst
