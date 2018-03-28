@@ -18,3 +18,4 @@ DDoSX\ :sup:`®` is designed to protect your websites and applications from Deni
    remove
    troubleshooting
    ips
+   tls-update
