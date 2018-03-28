@@ -1,6 +1,6 @@
 # Retrieving passwords for eCloud Flex instances
 
-The public-key-encrypted instance password can be retrieved and decrypted (when available) using the corresponding private-key, useful for decrypting the `Administrator` password within Windows instances. The methods for doing so are outlined here.
+The public-key-encrypted instance password can be retrieved and decrypted (when available) using the corresponding private-key, useful for decrypting the `Administrator` password within Windows instances. The methods for doing so are outlined here. To access your Linux server, please follow the steps to [Access Linux eCloud Flex Instances Using SSH]((/operatingsystems/linux/ssh/keys.html#generating-keys). 
 
 ## Nova
 
