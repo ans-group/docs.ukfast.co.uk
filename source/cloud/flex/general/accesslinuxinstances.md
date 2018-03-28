@@ -36,7 +36,7 @@ With the key pair now successfully imported, you will be able to select this whe
 
 ```eval_rst
 .. meta::
-    :title: Access Linux eCloud Flex Instances Using SSH | UKFast Documentation
+    :title: Access eCloud Flex Instances Using SSH | UKFast Documentation
     :description: Detailed guidance on accessing Linux instances using SSH on eCloud Flex
     :keywords: ecloud, flex, instance, ssh, key pair, rsa, password, horizon, putty
 ```
