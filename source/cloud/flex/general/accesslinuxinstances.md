@@ -14,7 +14,7 @@ Firstly, generate an SSH key pair, which will consist of a private key, and a pu
 
 ![generate-key-puttygen](../files/0002.PNG)
 
-Whilst creating your key, you should move your mouse around the PuTTYGen window to generate random data, which will ensure the key is cryptographically secure. As soon as this is completed, you will see options such as saving your public and private key. After typing your password for the key in the appropriate fields, save your private Key to a secure place as this will be needed in the next section.
+Whilst creating your key, you should move your mouse around the PuTTYGen window to generate random data, which will ensure the key is cryptographically secure. As soon as this is completed, you will see options such as saving your public and private key. After typing your password for the key in the appropriate fields, save your private key to a secure place as this will be needed in the next section.
 
 ![generate-key-puttygen-completed](../files/0003.PNG)
 
