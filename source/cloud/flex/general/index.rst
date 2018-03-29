@@ -1,6 +1,6 @@
-========================
-General Flex Information
-========================
+===============================
+General eCloud Flex Information
+===============================
 
 A collection of helpful information regarding eCloud Flex.
 
