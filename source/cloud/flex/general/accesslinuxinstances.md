@@ -1,6 +1,6 @@
 # Accessing Linux eCloud Flex Instances Using SSH
 
-When creating Linux servers on the eCloud Flex platform, you will need to provide an SSH in order to access the instance successfully. This page will take you through the steps to generate an SSH key in PuTTY, but you can also [generate an SSH key from the Linux command line](/operatingsystems/linux/ssh/keys.html#generating-keys), and then import this key into your eCloud Flex Dashboard.
+When creating Linux servers on the eCloud Flex platform, you will need to provide an SSH key in order to access the instance successfully. This page will take you through the steps to generate an SSH key in PuTTY, but you can also [generate an SSH key from the Linux command line](/operatingsystems/linux/ssh/keys.html#generating-keys), and then import this key into your eCloud Flex Dashboard.
 
 For Windows instances, please follow the steps to [retrieve your password](/cloud/flex/general/passwordretrieval.html) instead.
 
@@ -14,7 +14,7 @@ Firstly, generate an SSH key pair, which will consist of a private key, and a pu
 
 ![generate-key-puttygen](../files/0002.PNG)
 
-Whilst creating your key, you should move your mouse around the PuTTYGen window to generate random data, which will ensure the key is cryptographically secure. As soon as this is completed, you will see options such as saving your public and private key. After typing your password for the key in the appropriate fields, save your Private Key to a secure place as this will be needed in the next section.
+Whilst creating your key, you should move your mouse around the PuTTYGen window to generate random data, which will ensure the key is cryptographically secure. As soon as this is completed, you will see options such as saving your public and private key. After typing your password for the key in the appropriate fields, save your private Key to a secure place as this will be needed in the next section.
 
 ![generate-key-puttygen-completed](../files/0003.PNG)
 
