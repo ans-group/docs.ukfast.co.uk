@@ -9,6 +9,7 @@ A collection of helpful information regarding eCloud Flex.
 
    settingvars
    passwordretrieval
+   accesslinuxinstances   
 
 
 .. meta::
