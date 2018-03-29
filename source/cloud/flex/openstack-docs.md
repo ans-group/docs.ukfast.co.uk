@@ -16,7 +16,7 @@ The full set of OpenStack documentation including SDKs, Installation Guides and 
 ```eval_rst
 .. note::
 
-   The links above will generally take you to documentation for the latest OpenStack release of each project.  This may not be the same as the version we're running at UKFast.
+   The links above may take you to documentation for the latest OpenStack release of each project.  This may not be the same as the version we're running at UKFast.
 
 ```
 To identify the current API version your eCloud Flex solution is based upon, login to your [eCloud Flex dashboard](https://api.openstack.ecloud.co.uk/project/api_access/) and head to API Access in the left hand menu.  You'll see a list of service endpoints which will help identify the correct version in use, and hence which documentation you should refer to.
