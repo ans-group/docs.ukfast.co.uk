@@ -1,4 +1,4 @@
-# Access Linux eCloud Flex Instances Using SSH
+# Accessing Linux eCloud Flex Instances Using SSH
 
 When creating Linux servers on the eCloud Flex platform, you will need to provide an SSH in order to access the instance successfully. This page will take you through the steps to generate an SSH key in PuTTY, but you can also [generate an SSH key from the Linux command line](/operatingsystems/linux/ssh/keys.html#generating-keys), and then import this key into your eCloud Flex Dashboard.
 
@@ -14,7 +14,7 @@ Firstly, generate an SSH key pair, which will consist of a private key, and a pu
 
 ![generate-key-puttygen](../files/0002.PNG)
 
-During the procedure of generating your key, move your mouse around the PuTTYGen window to generate random data for the creation of the key, this ensures the key is cryptographically secure. As soon as this is completed, you will see options such as saving your public and private key. After typing your password for the key in the appropriate fields, save your Private Key to a secure place as this will be needed in the next section.
+Whilst creating your key, you should move your mouse around the PuTTYGen window to generate random data, which will ensure the key is cryptographically secure. As soon as this is completed, you will see options such as saving your public and private key. After typing your password for the key in the appropriate fields, save your Private Key to a secure place as this will be needed in the next section.
 
 ![generate-key-puttygen-completed](../files/0003.PNG)
 
@@ -22,11 +22,11 @@ With the output in the "Key" section of the application, which will begin with `
 
 ## Add SSH Key Pairs in the eCloud Flex Dashboard
 
-To import your new key pairs in to [eCloud Flex](https://api.openstack.ecloud.co.uk/project/key_pairs/), navigate to the "Key Pairs" page and select the "Import Key Pair" button. In the pop-up window provided, provide a memorable name for your key (we recommend using your name for environments with multiple users), and paste the public key (the "Key" section noted in the previous section if using PuTTY) in to the "Public Key" box shown below.
+To import your new key pairs in to the [eCloud Flex dashboard](https://api.openstack.ecloud.co.uk/project/key_pairs/), navigate to the "Key Pairs" page and select the "Import Key Pair" button. In the pop-up window provided, enter a memorable name for your key (we recommend using your own name for environments with multiple users), and paste the public key (the "Key" noted in the previous section if using PuTTY) in to the "Public Key" box shown below.
 
 ![key-pair-import](../files/0010.PNG)
 
-If the key has been successfully imported, this will be visible in the Key Pairs area, as shown. If you encounter errors during the import process, please double check you have exported your key in the correct format and contact UKFast Support if you continue to have difficulties with this.
+If the key has been successfully imported, this will be visible in the Key Pairs area, as shown. If you encounter errors during the import process, please double check you have exported your key in the correct format.  If it still does not work [please raise a ticket with UKFast Support](https://my.ukfast.co.uk/pss/add.php).
 
 ![key-pair-import-success](../files/0011.PNG)
 
