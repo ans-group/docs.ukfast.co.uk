@@ -9,12 +9,13 @@ eCloud Flex is UKFast's OpenStack-based public cloud platform
 
    general/index
    nova/index
-   3rdparty/index
-   openstackapis
-   ipv6
-   support/index
    networking/index
    lbaas/index
+   ipv6
+   support/index
+   openstackapis
+   openstack-docs
+   3rdparty/index
 
 
 .. meta::

@@ -3,9 +3,9 @@
   :description: Information relating eCloud Flex Load Balancers, UKFast's LBaaS
   :keywords: ukfast, ecloud, cloud, flex, virtual, server, hosting, openstack, infrastructure, load balancer, lbaas
 
-=====================================
-Load Balancers (LBaaS) on eCloud Flex
-=====================================
+======================
+Load Balancers (LBaaS)
+======================
 
 Guides relating to setting up and using Load Balancers on eCloud Flex.
 

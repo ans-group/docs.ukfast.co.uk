@@ -1,6 +1,6 @@
-========================
-General Flex Information
-========================
+===============================
+General eCloud Flex Information
+===============================
 
 A collection of helpful information regarding eCloud Flex.
 
@@ -9,6 +9,7 @@ A collection of helpful information regarding eCloud Flex.
 
    settingvars
    passwordretrieval
+   accesslinuxinstances   
 
 
 .. meta::
