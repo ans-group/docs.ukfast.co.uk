@@ -118,7 +118,7 @@ As a good rule of thumb, increase them to 32M, restart MySQL, then let your serv
 
 ```eval_rst
 .. warning::
-It is extremely important for you to fully understand each change you make to a MySQL database server. If you don't understand portions of the script's output, or if you don't understand the recommendations, you should consult a knowledgeable DBA or system administrator that you trust. Always test your changes on staging environments, and always keep in mind that improvements in one area can negatively affect MySQL in other areas.
+    It is extremely important for you to fully understand each change you make to a MySQL database server. If you don't understand portions of the script's output, or if you don't understand the recommendations, you should consult a knowledgeable DBA or system administrator that you trust. Always test your changes on staging environments, and always keep in mind that improvements in one area can negatively affect MySQL in other areas.
 ```
 
 With that warning in mind, it is a useful tool for seeing a wide range of performance metrics quickly. If you wish to run it on your server, you can, via SSH:
