@@ -7,7 +7,7 @@ The topic of MySQL tuning is too large to cover in one web article, or even one 
 The [Slow Query Log](https://dev.mysql.com/doc/refman/5.7/en/slow-query-log.html) is one of the most important troubleshooting tools available if you're seeing performance issues with MySQL. It lets you get a list of all queries which take over a certain time to complete. That can help you diagnose the problem, be it a configuration issue, or a particular query which needs optimisation.
 
 To turn on slow logging, log into MySQL and run the following queries:
-```console
+```sql
 SET GLOBAL slow_query_log = 'ON';
 SET GLOBAL long_query_time = 10;
 SET GLOBAL slow_query_log_file = '/my/log/file.log';
@@ -15,7 +15,7 @@ SET GLOBAL slow_query_log_file = '/my/log/file.log';
 
 Once you have enough data, make sure to turn off slow logging again, as there is a small performance cost to having it enabled:
 
-```console
+```sql
 SET GLOBAL slow_query_log = 'OFF';
 ```
 
@@ -25,7 +25,7 @@ Locking is a vital function of SQL, designed to protect your data integrity. By 
 
 However, locking an entire table during a long running query and making other queries wait can cause bottlenecks and even timeouts in your application. To see if you have locking occurring, in MySQL you can either look at the process list if you have locking happing right now:
 
-```console
+```sql
 mysql> SHOW FULL PROCESSLIST\G
 *************************** 1. row ***************************
      Id: 12121
@@ -39,7 +39,7 @@ Command: Query
 ```
 Or you can look more generally at the total number of locks your system has seen:
 
-```console
+```sql
 mysql> SHOW STATUS LIKE 'Table_locks%';
 +-----------------------+---------+
 | Variable_name         | Value   |
@@ -51,7 +51,7 @@ mysql> SHOW STATUS LIKE 'Table_locks%';
 
 A generally effective fix is to change your table [storage engine](https://en.wikipedia.org/wiki/Comparison_of_MySQL_database_engines) to one that supports row locking. In the majority of cases, this means changing from [MyISAM](https://dev.mysql.com/doc/refman/5.7/en/myisam-storage-engine.html) to [InnoDB](https://dev.mysql.com/doc/refman/5.7/en/innodb-storage-engine.html). InnoDB helps avoids full table locking, by locking only the row currently being worked on. To see what storage engine your tables are currently using, you can run the following query:
 
-```console
+```sql
 SELECT TABLE_NAME, ENGINE FROM information_schema.TABLES WHERE TABLE_SCHEMA = 'database_name';
 ```
 
@@ -62,7 +62,7 @@ SELECT TABLE_NAME, ENGINE FROM information_schema.TABLES WHERE TABLE_SCHEMA = 'd
 
 For a full guide on the details of converting to InnoDB please do refer to the [official guide](https://dev.mysql.com/doc/refman/5.7/en/converting-tables-to-innodb.html). To convert an existing MyISAM table to InnoDB, you can run the following query:
 
-```console
+```sql
 ALTER TABLE table_name ENGINE=InnoDB;
 ```
 
@@ -79,7 +79,7 @@ Reading data from RAM is a few orders of magnitude faster than reading data from
 In an ideal world, this should be set to be slightly larger than the total amount of data you store in InnoDB tables. That means your server can hold the entire dataset in memory and helps avoid slow disk IO when reading data. In the real world, that's not always possible. You may not have enough RAM, or you don't want to take memory away from your other applications and risk making your server unstable.
 
 To see the total size of your InnoDB tables in MB, you can run the following command:
-```console
+```sql
 SELECT TABLE_SCHEMA, SUM(ROUND(DATA_LENGTH/1024/1024,2)) AS total_size_mb FROM information_schema.tables WHERE ENGINE LIKE 'innodb' GROUP BY table_schema;
 ```
 
@@ -93,7 +93,7 @@ This variable was only introduced in MySQL 5.5.4, so if you are using an older v
 During normal operation, MySQL sometimes needs to create temporary tables. Ideally we'd like to keep these in memory, rather than on disk, to avoid slow disk IO. There's two reasons why MySQL uses disk tables instead memory. Either the table is bigger than our limits, or it uses BLOB or TEXT columns. Adjusting the column types would require application development, so we'll focus on the limits.
 
 To see the total number of temp tables, compared to the number of temp tables on disk, run the following query:
-```console
+```sql
 SHOW GLOBAL STATUS LIKE "Created%table";
 +-------------------------+-------+
 | Variable_name           | Value |
