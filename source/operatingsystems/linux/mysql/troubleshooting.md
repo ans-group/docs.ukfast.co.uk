@@ -25,7 +25,7 @@ Locking is a vital function of SQL, designed to protect your data integrity. By 
 
 However, locking an entire table during a long running query and making other queries wait can cause bottlenecks and even timeouts in your application. To see if you have locking occurring, in MySQL you can either look at the process list if you have locking happing right now:
 
-```sql
+```console
 mysql> SHOW FULL PROCESSLIST\G
 *************************** 1. row ***************************
      Id: 12121
@@ -39,7 +39,7 @@ Command: Query
 ```
 Or you can look more generally at the total number of locks your system has seen:
 
-```sql
+```console
 mysql> SHOW STATUS LIKE 'Table_locks%';
 +-----------------------+---------+
 | Variable_name         | Value   |
@@ -93,8 +93,8 @@ This variable was only introduced in MySQL 5.5.4, so if you are using an older v
 During normal operation, MySQL sometimes needs to create temporary tables. Ideally we'd like to keep these in memory, rather than on disk, to avoid slow disk IO. There's two reasons why MySQL uses disk tables instead memory. Either the table is bigger than our limits, or it uses BLOB or TEXT columns. Adjusting the column types would require application development, so we'll focus on the limits.
 
 To see the total number of temp tables, compared to the number of temp tables on disk, run the following query:
-```sql
-SHOW GLOBAL STATUS LIKE "Created%table";
+```console
+mysql> SHOW GLOBAL STATUS LIKE "Created%table";
 +-------------------------+-------+
 | Variable_name           | Value |
 +-------------------------+-------+
