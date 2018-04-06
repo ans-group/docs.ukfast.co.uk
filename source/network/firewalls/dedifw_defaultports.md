@@ -1,8 +1,8 @@
-# Default Firewall Config - Dedicated Firewall
+# Default Firewall Configuration - Dedicated Firewall
 
 To edit or change the your firewall rules, please login to the following area <https://my.ukfast.co.uk/server/dedicated-firewall.php>
 
-The default open ports, are dependent on the type server operating system you have:
+The default open ports are dependent on the type server operating system you have:
 
 ## Linux
 
@@ -103,4 +103,11 @@ Traffic allowed **OUT** from your Windows server to the Internet:
 +----------+---------+
 | NTP      | UDP 123 |
 +----------+---------+
+```
+
+```eval_rst
+  .. meta::
+     :title: Dedicated Firewall Default Ports | UKFast Documentation
+     :description: Dedicated Firewall Default Ports
+     :keywords: ukfast, firewall, dedicated, default, port, ports
 ```

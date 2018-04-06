@@ -1,9 +1,8 @@
-# Default Firewall Config - Shared Firewall
+# Default Firewall Configuration - Shared Firewall
 
 To edit or change the your firewall rules, please login to the following area <https://my.ukfast.co.uk/server/shared-firewall.php>
 
-
-The default open ports, are dependent on the type server operating system you have:
+The default open ports are dependent on the type server operating system you have:
 
 ## Linux
 
@@ -176,4 +175,11 @@ Traffic allowed **OUT** from your Windows server to the Internet:
 +----------+---------+
 | DNS      | UDP 53  |
 +----------+---------+
+```
+
+```eval_rst
+  .. meta::
+     :title: Shared Firewall Default Ports | UKFast Documentation
+     :description: Shared Firewall Default Ports
+     :keywords: ukfast, firewall, shared, default, port, ports
 ```

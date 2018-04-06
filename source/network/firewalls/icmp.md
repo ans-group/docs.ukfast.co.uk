@@ -1,4 +1,4 @@
-# Can I enable ICMP to my servers
+# Can I enable ICMP to my servers?
 
 * All servers have ICMP PING enabled outbound by default
 
@@ -7,3 +7,10 @@
 * If your solution is behind a shared firewall, we will not be able to enable inbound ICMP to your server for security reasons.
 
 * If you solution is behind a dedicated firewall, please raise a ticket from your client area to request either inbound ICMP PING or Traceroute to be enabled for your solution.
+
+```eval_rst
+  .. meta::
+     :title: ICMP | UKFast Documentation
+     :description: ICMP on UKFast Firewalls
+     :keywords: ukfast, firewall, icmp
+```

@@ -1,4 +1,4 @@
-# How do I access my firewall config?
+# How do I access my firewall configuration?
 
 We provide the ability to manage your firewall rules online if it has been enabled. You can view your current rules and make changes within the MyUKFast portal.
 
@@ -11,3 +11,10 @@ You will now see some further tabs to navigate the device, you can click on the 
 ![Access Lists](files/access-list-1.png)
 
 Other articles will further describe the various functionality that is provided within this section.
+
+```eval_rst
+  .. meta::
+     :title: Accessing your firewall | UKFast Documentation
+     :description: How to access your UKFast firewall configuration
+     :keywords: ukfast, firewall, config, configuration, access
+```

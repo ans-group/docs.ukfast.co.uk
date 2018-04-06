@@ -21,3 +21,10 @@ Click `Add Incoming or Outgoing Interface Rule`, select the action as `Permit`, 
 ![Access List SSH Port](files/access-list-ssh-group.png)
 
 Click `Create` and the configuration will be updated.
+
+```eval_rst
+  .. meta::
+     :title: How to open a port | UKFast Documentation
+     :description: How to open a port on your UKFast firewalls
+     :keywords: ukfast, firewall, port, ports, open
+```

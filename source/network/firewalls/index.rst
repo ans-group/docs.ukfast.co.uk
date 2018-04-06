@@ -3,12 +3,13 @@ Firewalls
 =========
 
 .. toctree::
-
-  createvpn
+  viewconfig
+  openport
   dedifw_defaultports
+  sharedfw_defaultports
   icmp
   schedule_firewall_reboot
-  sharedfw_defaultports
   supportedvpns
+  createvpn
   vpn2fa
   vpncapacity
