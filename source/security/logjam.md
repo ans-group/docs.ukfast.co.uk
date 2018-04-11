@@ -74,3 +74,9 @@ There are web based testers such as [this one](https://tools.keycdn.com/logjam).
 [Imperfect Forward Secrecy: How Diffie-Hellman Fails in Practice](https://weakdh.org/imperfect-forward-secrecy-ccs15.pdf)
 [Weak Diffie-Hellman and the Logjam Attack](https://weakdh.org/)
 [The Logjam Attack: What You Need to Know](https://blog.malwarebytes.com/101/2015/05/the-logjam-attack-what-you-need-to-know/)
+
+```eval_rst
+   .. meta::
+      :title: Logjam attack | UKFast Documentation
+      :description: How to prevent Logjam attacks
+      :keywords:  logjam, SSL, TLS, attack, attacks, log, jam
