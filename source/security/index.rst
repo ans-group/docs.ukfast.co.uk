@@ -2,7 +2,7 @@
 Security
 ========
 
-Information relating to UKFast security products and services, and general best practice.
+Information relating to UKFast security products and services, and general best practices.
 
 .. toctree::
    :maxdepth: 1
@@ -14,6 +14,7 @@ Information relating to UKFast security products and services, and general best 
    antivirus/index
    vulnerabilityscans
    dirtycow
+   logjam
    wannacry
    meltdown
    memcachedopen
