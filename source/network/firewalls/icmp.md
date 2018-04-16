@@ -1,16 +1,15 @@
-# Can I enable ICMP to my servers?
+# Enabling ICMP to UKFast servers
 
-* All servers have ICMP PING enabled outbound by default
+All UKFast-hosted servers have ICMP PING enabled outbound by default.  
 
-* All inbound ICMP traffic from public and outbound traceroute ICMP traffic are disabled by default
+All inbound ICMP traffic from the public Internet, and outbound traceroute ICMP traffic, are disabled by default.  If you wish to enable either inbound ICMP PING or traceroute for your solution, and you are using a dedicated firewall, please [raise a support ticket in MyUKFast](https://my.ukfast.co.uk/pss/add.php).
 
-* If your solution is behind a shared firewall, we will not be able to enable inbound ICMP to your server for security reasons.
+If your solution is behind a shared firewall, we will not be able to enable inbound ICMP to your server for security reasons.
 
-* If you solution is behind a dedicated firewall, please raise a ticket from your client area to request either inbound ICMP PING or Traceroute to be enabled for your solution.
 
 ```eval_rst
   .. meta::
-     :title: ICMP | UKFast Documentation
-     :description: ICMP on UKFast Firewalls
-     :keywords: ukfast, firewall, icmp
+     :title: Enabling ICMP for UKFast servers | UKFast Documentation
+     :description: ICMP on UKFast shared and dedicated firewalls
+     :keywords: ukfast, firewall, icmp, ping, traceroute
 ```
