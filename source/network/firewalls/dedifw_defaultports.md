@@ -1,12 +1,10 @@
-# Default Firewall Configuration - Dedicated Firewall
+# UKFast dedicated firewall - default configurations
 
-To edit or change the your firewall rules, please login to the following area <https://my.ukfast.co.uk/server/dedicated-firewall.php>
-
-The default open ports are dependent on the type server operating system you have:
+The default configurations for UKFast dedicated firewalls are set out below; these are dependant upon your server's operating system.  You can change or edit your firewall rules in [MyUKFast](https://my.ukfast.co.uk/server/dedicated-firewall.php)
 
 ## Linux
 
-Traffic allowed **IN** over the internet to your Linux server:
+Traffic allowed **in** over the Internet to your Linux server:
 
 ```eval_rst
 +----------+-------+
@@ -32,8 +30,7 @@ Traffic allowed **IN** over the internet to your Linux server:
 +----------+-------+
 ```
 
-
-Traffic allowed **OUT** from your Linux server to the Internet:
+Traffic allowed **out** from your Linux server to the Internet:
 
 ```eval_rst
 +----------+---------+
@@ -56,9 +53,9 @@ Traffic allowed **OUT** from your Linux server to the Internet:
 ```
 
 
-## Windows
+## Microsoft Windows Server
 
-Traffic allowed **IN** over the internet to your Windows server:
+Traffic allowed **in** over the Internet to your Microsoft Windows Server:
 
 ```eval_rst
 +----------+-------+
@@ -82,8 +79,7 @@ Traffic allowed **IN** over the internet to your Windows server:
 +----------+-------+
 ```
 
-
-Traffic allowed **OUT** from your Windows server to the Internet:
+Traffic allowed **out** from your Microsoft Windows Server to the Internet:
 
 ```eval_rst
 +----------+---------+
@@ -107,7 +103,7 @@ Traffic allowed **OUT** from your Windows server to the Internet:
 
 ```eval_rst
   .. meta::
-     :title: Dedicated Firewall Default Ports | UKFast Documentation
-     :description: Dedicated Firewall Default Ports
+     :title: UKFast Dedicated Firewall Default Configurations | UKFast Documentation
+     :description: Default firewall configurations for Linux and Microsoft Windows servers at UKFast
      :keywords: ukfast, firewall, dedicated, default, port, ports
 ```
