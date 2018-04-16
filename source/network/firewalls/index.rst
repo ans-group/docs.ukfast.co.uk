@@ -15,3 +15,9 @@ Firewalls
   createvpn
   vpn2fa
   vpncapacity
+
+
+.. meta::
+   :title: Firewalls | UKFast Documentation
+   :description: Guidance and information relating to firewalls when hosting with UKFast
+   :keywords: ukfast, firewall, firewalls, dedicated, shared, cloud, hosting, security
