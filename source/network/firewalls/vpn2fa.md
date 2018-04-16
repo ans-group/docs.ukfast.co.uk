@@ -6,9 +6,7 @@ This may be a chargeable service - please [contact your UKFast account manager](
 
 ```eval_rst
 .. note::
-
    Please note that UKFast is not responsible for the performance of third party software and services.
-
 ```
 
 
