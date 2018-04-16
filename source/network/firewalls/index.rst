@@ -3,6 +3,8 @@ Firewalls
 =========
 
 .. toctree::
+   :maxdepth: 1
+
   viewconfig
   openport
   dedifw_defaultports
