@@ -2,19 +2,21 @@
 Firewalls
 =========
 
+Guidance relating to UKFast dedicated and shared firewalls.
+
 .. toctree::
    :maxdepth: 1
 
-  viewconfig
-  openport
-  dedifw_defaultports
-  sharedfw_defaultports
-  icmp
-  schedule_firewall_reboot
-  supportedvpns
-  createvpn
-  vpn2fa
-  vpncapacity
+   viewconfig
+   openport
+   dedifw_defaultports
+   sharedfw_defaultports
+   icmp
+   schedule_firewall_reboot
+   supportedvpns
+   createvpn
+   vpn2fa
+   vpncapacity
 
 
 .. meta::
