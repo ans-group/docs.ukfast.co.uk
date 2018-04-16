@@ -1,32 +1,25 @@
-# What is the VPN capacity on my UKFast dedicated firewalls?
+# VPN capacity on UKFast dedicated firewalls
 
-Your VPN capacity depends on the model of firewall you're using. You can see the exact numbers by looking up your firewall model in the MyUKFast portal, and then referring to the appropriate model in the following list:
+The VPN capacity on your firewall depends on the model of firewall you're using. You can check your firewall model in [MyUKFast](https://my.ukfast.co.uk/server/dedicated-firewall.php), and then refer to the list below:
 
-1. __Cisco ASA 5505  firewall:__
-- _10_ concurrent IPSec VPN sessions by default.
-- _2_ WebSSL VPN sessions by default.
-- Up to _25_ concurrent IPSec VPN sessions with an upgraded license.
-- Up to _50_ concurrent WebSSL VPN sessions with an upgraded license
+```eval_rst
++------------------------------------------+----------------+-----------------+----------------+----------------+
+| Firewall Model                           | Cisco ASA 5505 | Cisco ASA 5506X | Cisco ASA5508X | Cisco ASA5512X |
++==========================================+================+=================+================+================+
+| Concurrent IPSec VPN sessions (default)  |       10       |        10       |       100      |       250      |
++------------------------------------------+----------------+-----------------+----------------+----------------+
+| Concurrent IPSec VPN sessions (upgraded) |        2       |        2        |                |                |
++------------------------------------------+----------------+-----------------+----------------+----------------+
+| WebSSL VPN sessions (default)            |       25       |        50       |        2       |        2       |
++------------------------------------------+----------------+-----------------+----------------+----------------+
+| WebSSL VPN sessions (upgraded)           |       50       |        50       |       100      |       250      |
++------------------------------------------+----------------+-----------------+----------------+----------------+
+```
 
-2. __Cisco ASA 5506X firewall:__
-- _10_ concurrent IPSec VPN sessions by default.
-- _2_ WebSSL VPN sessions by default.
-- Up to _50_ concurrent IPSec VPN sessions with an upgraded license.
-- Up to __50__ concurrent WebSSL VPN sessions with an upgraded license
-
-3. __Cisco ASA 5508X firewall:__
-- _100_ concurrent IPSec VPN sessions by default.
-- _2_ WebSSL VPN sessions by default.
-- Up to _100_ concurrent WebSSL VPN sessions with an upgraded license.
-
-4. __Cisco ASA 5512X firewall:__
-- _250_ concurrent IPSec VPN sessions by default.
-- _2_ WebSSL VPN sessions by default.
-- Up to _250_ concurrent WebSSL VPN sessions with an upgraded license.
 
 ```eval_rst
   .. meta::
-     :title: VPN Capacity | UKFast Documentation
+     :title: VPN Capacity of UKFast firewalls | UKFast Documentation
      :description: A reference for the number of supported VPN connections per firewall type
      :keywords: ukfast, firewall, rebooting, network, myukfast, cloud, hosting, dedicated
 ```
