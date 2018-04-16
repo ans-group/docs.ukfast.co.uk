@@ -1,4 +1,4 @@
-# How do I set up a VPN if I have a dedicated firewall?
+# Setting up a VPN on a dedicated UKFast firewall
 
 You can still use a VPN with a dedicated firewall, simply follow the steps below to set one up.
 
