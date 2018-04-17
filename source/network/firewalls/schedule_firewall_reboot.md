@@ -1,13 +1,13 @@
 # Scheduling a dedicated firewall reboot
 
-Firewall reboots should be maanged through the dedicated firewall area in [MyUKFast](https://my.ukfast.co.uk/server/dedicated-firewall.php).
+Firewall reboots should be managed through the dedicated firewall area in [MyUKFast](https://my.ukfast.co.uk/server/dedicated-firewall.php).
 
 ![firewallrebootscreen](files/FirewallRebootscreen.png)
 
 Select the firewall that you would like to reboot and choose the time, then click `Schedule Reboot`.
 
 
-# What if my firewall needs upgrading?
+## What if my firewall needs upgrading?
 
 If you are running the Java-based ASDM to manage your firewall, or AnyConnect VPN with either SSL or IKEv2, your firewall needs updating.
 
