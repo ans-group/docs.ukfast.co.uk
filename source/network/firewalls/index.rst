@@ -9,8 +9,6 @@ Guidance relating to UKFast dedicated and shared firewalls.
 
    viewconfig
    openport
-   dedifw_defaultports
-   sharedfw_defaultports
    icmp
    schedule_firewall_reboot
    supportedvpns
