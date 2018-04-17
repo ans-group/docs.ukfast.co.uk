@@ -10,7 +10,6 @@ Information relating to UKFast security products and services, and general best 
    ddos/index
    webapplicationfirewall/index
    threatmonitoring/index
-   firewalls/index
    antivirus/index
    vulnerabilityscans
    dirtycow
@@ -19,3 +18,5 @@ Information relating to UKFast security products and services, and general best 
    memcachedopen
    wordpress
    magento
+
+For guidance relating to UKFast firewalls, please see :doc:`/network/firewalls/index` in the Networking category.

@@ -1,13 +1,10 @@
-# Default Firewall Config - Shared Firewall
+# UKFast shared firewall - default configurations
 
-To edit or change the your firewall rules, please login to the following area <https://my.ukfast.co.uk/server/shared-firewall.php>
-
-
-The default open ports, are dependent on the type server operating system you have:
+Below you will find the default configurations for your shared UKFast firewall, which are dependant upon your server's operating system.  You can edit or change your firewall rules in [MyUKFast](https://my.ukfast.co.uk/server/shared-firewall.php).
 
 ## Linux
 
-Traffic allowed **IN** over the internet to the server:
+Traffic allowed **in** over the Internet to the server:
 
 ```eval_rst
 +------------+-------+
@@ -57,7 +54,7 @@ Traffic allowed **IN** over the internet to the server:
 +------------+-------+
 ```
 
-Traffic allowed **OUT** from your Linux server to the Internet:
+Traffic allowed **out** from your Linux server to the Internet:
 
 ```eval_rst
 +------------+---------+
@@ -103,10 +100,9 @@ Traffic allowed **OUT** from your Linux server to the Internet:
 +------------+---------+
 ```
 
-## Windows
+## Microsoft Windows Server
 
-
-Traffic allowed **IN** over the internet to your Windows server:
+Traffic allowed **in** over the Internet to your Microsoft Windows Server:
 
 ```eval_rst
 +------------+-------+
@@ -146,7 +142,7 @@ Traffic allowed **IN** over the internet to your Windows server:
 +------------+-------+
 ```
 
-Traffic allowed **OUT** from your Windows server to the Internet:
+Traffic allowed **out** from your Microsoft Windows Server to the Internet:
 
 ```eval_rst
 +----------+---------+
@@ -176,4 +172,11 @@ Traffic allowed **OUT** from your Windows server to the Internet:
 +----------+---------+
 | DNS      | UDP 53  |
 +----------+---------+
+```
+
+```eval_rst
+  .. meta::
+     :title: UKFast Shared Firewall Default Ports | UKFast Documentation
+     :description: Shared Firewall Default Ports for UKFast-hosted servers
+     :keywords: ukfast, firewall, shared, default, port, ports
 ```
