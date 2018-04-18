@@ -1,6 +1,6 @@
 # MySQL Troubleshooting and Tuning
 
-This guide covers some common and simpe tweaks to troubleshoot MySQL - for example dealing with slow queries and improving response times.  However please be aware that MySQL is very complex and we strongly recommend further reading.
+This guide covers some common and simple tweaks to troubleshoot MySQL - for example dealing with slow queries and improving response times.  However please be aware that MySQL is very complex and we strongly recommend further reading.
 
 ## Slow Query Logging
 
