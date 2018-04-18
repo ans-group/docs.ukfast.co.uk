@@ -1,10 +1,10 @@
 # MySQL Troubleshooting and Tuning
 
-The topic of MySQL tuning is too large to cover in one web article, or even one book. We'll attempt to cover the most common and simple tweaks we've encountered to troubleshoot slow queries and improve MySQL response times, but please know that this page only scratches the surface when it comes to MySQL performance!
+This guide covers some common and simpe tweaks to troubleshoot MySQL - for example dealing with slow queries and improving response times.  However please be aware that MySQL is very complex and we strongly recommend further reading.
 
 ## Slow Query Logging
 
-The [Slow Query Log](https://dev.mysql.com/doc/refman/5.7/en/slow-query-log.html) is one of the most important troubleshooting tools available if you're seeing performance issues with MySQL. It lets you get a list of all queries which take over a certain time to complete. That can help you diagnose the problem, be it a configuration issue, or a particular query which needs optimisation.
+The external [Slow Query Log](https://dev.mysql.com/doc/refman/5.7/en/slow-query-log.html) is one of the most important troubleshooting tools available if you're seeing performance issues with MySQL. It lets you see a list of all queries which take over a certain time to complete. That can help you diagnose the problem - whether it's a configuration issue, or a particular query which needs optimisation.
 
 To turn on slow logging, log into MySQL and run the following queries:
 ```sql
@@ -21,9 +21,9 @@ SET GLOBAL slow_query_log = 'OFF';
 
 ## Table Locking
 
-Locking is a vital function of SQL, designed to protect your data integrity. By locking a table during a query, SQL is making sure that no other queries can edit that table at the same time, preventing data corruption.
+Locking is a vital function of SQL, designed to protect your data integrity. By locking a table during a query, SQL is making sure that no other queries can edit that table at the same time, therefore preventing data corruption.
 
-However, locking an entire table during a long running query and making other queries wait can cause bottlenecks and even timeouts in your application. To see if you have locking occurring, in MySQL you can either look at the process list if you have locking happing right now:
+However, locking an entire table during a long-running query and making other queries wait can cause bottlenecks and even timeouts in your application. In MySQL you can look at the process list to determine if you have locking at that moment:
 
 ```console
 mysql> SHOW FULL PROCESSLIST\G
@@ -37,7 +37,7 @@ Command: Query
   State: Locked
    Info: [MySQL query]
 ```
-Or you can look more generally at the total number of locks your system has seen:
+Alternatively you can look more generally at the total number of locks your system has seen:
 
 ```console
 mysql> SHOW STATUS LIKE 'Table_locks%';
@@ -55,28 +55,28 @@ A generally effective fix is to change your table [storage engine](https://en.wi
 SELECT TABLE_NAME, ENGINE FROM information_schema.TABLES WHERE TABLE_SCHEMA = 'database_name';
 ```
 
-```eval_rst
-.. warning::
-    We recommend reading the official guide in full and testing the conversion before attempting this on your live application! Switching to InnoDB is not a catch-all solution, and there are exceptions. For example, tables which have an auto_increment column may not behave as you expect.
-```
-
 For a full guide on the details of converting to InnoDB please do refer to the [official guide](https://dev.mysql.com/doc/refman/5.7/en/converting-tables-to-innodb.html). To convert an existing MyISAM table to InnoDB, you can run the following query:
 
 ```sql
 ALTER TABLE table_name ENGINE=InnoDB;
 ```
 
+```eval_rst
+.. warning::
+    We recommend reading the official guide in full, and testing this conversion before attempting it on your live application. Switching to InnoDB is not a catch-all solution, and there are exceptions. For example, tables which have an auto_increment column may not behave as you expect.
+```
+
 ## Buffers and Caches
-Reading data from RAM is a few orders of magnitude faster than reading data from disks, even with SSDs. With that in mind, setting up correct buffering and caching to make optimal use of the available memory will give you faster responses from your database. There's no definite way to set these up as it varies depending on the server and the application, but there's some general recommendations we can make.
+Reading data from RAM is a few orders of magnitude faster than reading data from disks, even with SSDs. With that in mind, setting up correct buffering and caching to make optimal use of the available memory will give you faster responses from your database. There's no single right way way to set these up as it varies depending on the server and the application, but below are some general recommendations.
 
 ```eval_rst
 .. warning::
-    Adjust these values slowly, and monitor performance over time. Adjusting these values too high can cause other problems, and at worst can cause your server to become unstable and crash. There's no definite optimal value, so take your time and tune them for your application, on your server.
+    Adjust these values slowly, and monitor performance over time. Setting these values too high can cause other problems, and at worst can cause your server to become unstable and crash. There's no definitive optimal value, so take your time and tune them for your application, on your server.
 ```
 
 #### innodb_buffer_pool_size
 
-In an ideal world, this should be set to be slightly larger than the total amount of data you store in InnoDB tables. That means your server can hold the entire dataset in memory and helps avoid slow disk IO when reading data. In the real world, that's not always possible. You may not have enough RAM, or you don't want to take memory away from your other applications and risk making your server unstable.
+In an ideal world, this should be slightly larger than the total amount of data you store in InnoDB tables. That means your server can hold the entire dataset in memory, and helps avoid slow disk IO when reading data. In the real world, that's not always possible. You may not have enough RAM, or you don't want to take memory away from your other applications and risk making your server unstable.
 
 To see the total size of your InnoDB tables in MB, you can run the following command:
 ```sql
@@ -86,13 +86,13 @@ SELECT TABLE_SCHEMA, SUM(ROUND(DATA_LENGTH/1024/1024,2)) AS total_size_mb FROM i
 As a rule of thumb, if you add those numbers and round up to the nearest GB, that is a good number to aim for. Be mindful of your available memory, and if in doubt, increase this value slowly.
 
 #### innodb_buffer_pool_instances
-This variable was only introduced in MySQL 5.5.4, so if you are using an older version, ignore this section. Otherwise, this should be set to 1 per GB of innodb_buffer_pool_size. Please refer to the [MySQL documentation](https://dev.mysql.com/doc/refman/5.6/en/innodb-multiple-buffer-pools.html) for more information.
+This variable was only introduced in MySQL 5.5.4, so if you are using an older version, ignore this section. Otherwise, this should be set to 1 per GB of innodb_buffer_pool_size. Please refer to the external [MySQL documentation](https://dev.mysql.com/doc/refman/5.6/en/innodb-multiple-buffer-pools.html) for more information.
 
 ## Temp tables writing to disk
 
-During normal operation, MySQL sometimes needs to create temporary tables. Ideally we'd like to keep these in memory, rather than on disk, to avoid slow disk IO. There's two reasons why MySQL uses disk tables instead memory. Either the table is bigger than our limits, or it uses BLOB or TEXT columns. Adjusting the column types would require application development, so we'll focus on the limits.
+During normal operation, MySQL sometimes needs to create temporary tables. Ideally we'd like to keep these in memory, rather than on disk, to avoid slow disk IO. There are two reasons why MySQL uses disk tables instead of memory. Either the table is bigger than our limits, or it uses BLOB or TEXT columns. Adjusting the column types would require application development, so we'll focus on the limits.
 
-To see the total number of temp tables, compared to the number of temp tables on disk, run the following query:
+To see the total number of temp tables compared to the number of temp tables on disk, run the following query:
 ```console
 mysql> SHOW GLOBAL STATUS LIKE "Created%table";
 +-------------------------+-------+
@@ -103,18 +103,18 @@ mysql> SHOW GLOBAL STATUS LIKE "Created%table";
 +-------------------------+-------+
 ```
 
-In this case, only 44 out of 311 (or about 14%) tables were created on disk, which isn't bad. As a general rule, the lower the better. The two limits we can adjust to change this are tmp_table_size and max_heap_table_size. By default these are 16MB, so if you're seeing a high percent of temp tables created on disk it may be worth slowly increasing them in your my.cnf configuration file.
+In this case, only 44 out of 311 (or about 14%) tables were created on disk, which isn't bad. As a general rule, the lower the better. The two limits we can adjust to change this are `tmp_table_size` and `max_heap_table_size`. By default these are 16MB, so if you're seeing a high percent of temp tables created on disk it may be worth slowly increasing them in your my.cnf configuration file.
 
 ```console
 tmp_table_size=32M
 max_heap_table_size=32M
 ```
 
-As a good rule of thumb, increase them to 32M, restart MySQL, then let your server run for 24 hours before checking the number of Created_tmp_disk_tables again for improvement.
+As a good rule of thumb, increase them to 32M, restart MySQL, then let your server run for 24 hours before checking the number of `Created_tmp_disk_tables` again for improvement.
 
 ## MySQLTuner
 
-[MySQLTuner](https://github.com/major/MySQLTuner-perl) is an open source perl project that aims to provide a quick way to review your MySQL install, and makes some general suggestions for performance and stability. It is important not to take these suggestions for what they are - suggestions. MySQL Tuner does not know about your application or your server, so it may not make the best recommendations for you! They give a clear warning, which we will repeat:
+[MySQLTuner](https://github.com/major/MySQLTuner-perl) is an open source perl project that aims to provide a quick way to review your MySQL install, and makes some general suggestions for performance and stability. Please bear in mind that these are only suggestions - MySQL Tuner does not know about your application or your server, so it may not make the best recommendations for you. They give a clear warning, which we will repeat here:
 
 ```eval_rst
 .. warning::
@@ -130,9 +130,9 @@ wget https://raw.githubusercontent.com/major/MySQLTuner-perl/master/vulnerabilit
 perl mysqltuner.pl
 ```
 
-## Reference and further reading
+## References and further external reading
 
-[The official documentation](https://dev.mysql.com/doc/)
+[The official MySQL documentation](https://dev.mysql.com/doc/)
 
 [Use The Index, Luke: A guide to database performance for developers](https://use-the-index-luke.com/)
 
@@ -142,8 +142,9 @@ perl mysqltuner.pl
 
 [MySQLTuner-perl on GitHub](https://github.com/major/MySQLTuner-perl)
 
+
 ```eval_rst
   .. meta::
      :title: MySQL Tuning | UKFast Documentation
      :description: A guide to the basics of tuning MySQL for web servers
-     :keywords: linux, mysql, sql, database, tuning, performance, db,
+     :keywords: linux, mysql, sql, database, tuning, performance, db, ukfast
