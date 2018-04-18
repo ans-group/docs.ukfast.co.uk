@@ -1,5 +1,7 @@
 # Managing Databases and Users
 
+This guide outlines some common tasks when it comes to managing your MySQL database and users.
+
 ## List all Users
 
 If you need to see all the users currently on your database server, run the following query in MySQL:
@@ -7,9 +9,9 @@ If you need to see all the users currently on your database server, run the foll
   SELECT host, user, password FROM mysql.user;
 ```
 
-## Reset a users password
+## Reset a user's password
 
-Run the following query to change a users password:
+Run the following query to change a user's password:
  ```sql
   UPDATE mysql.user SET Password = PASSWORD("ChooseAStrongPassword") WHERE User="username" ;
   exit
@@ -17,9 +19,9 @@ Run the following query to change a users password:
 
 ## Reset the root user password
 
-If the MySQL root password has been lost or forgotten, it can be a problem. Luckily there is a fairly quick solution to reset the root password with minimal downtime.
+Losing your MySQL root password can be a problem. Luckily there is a fairly quick solution to reset the root password with minimal downtime.
 
-Stop MySQL and start it without grant tables so we can log in without the password. Log into MySQL as root:
+Stop MySQL, and start it without 'grant tables' so you can login without the password. Log into MySQL as root:
 
 ```console
   service mysql stop
@@ -45,6 +47,6 @@ Test logging in with the new password:
 
 ```eval_rst
   .. meta::
-     :title: Managing database users in Linux | UKFast Documentation
-     :description: A guide to managing database users in Linux
-     :keywords: ukfast, mysql, database, users, add, create, reset, sql, root, password
+     :title: Managing MySQL database users | UKFast Documentation
+     :description: A guide to managing MySQL database users
+     :keywords: ukfast, mysql, database, users, add, create, reset, sql, root, password, ukfast
