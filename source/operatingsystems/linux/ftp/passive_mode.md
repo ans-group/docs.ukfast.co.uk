@@ -27,11 +27,11 @@ For more information please do check out the [official cPanel guide](https://doc
 - Log in via SSH and open the configuration file `/var/cpanel/conf/pureftpd/local`. If this file does not exist, then create it.
 - Add this line to set which ports your server should use.
 ```console
-PassivePorts: 40000 40100
+  PassivePortRange: 40000 40100
 ```
 - If your server is behind a firewall and you are seeing unroutable address errors, add the following line, replacing 123.123.123.123 with your server's public IP:  
 ```console
-  MasqueradeAddress: 123.123.123.123
+  ForcePassiveIP: 123.123.123.123
 ```
 - Restart PureFTP by running
 ```console
@@ -44,11 +44,11 @@ PassivePorts: 40000 40100
 - Log in via SSH and open the configuration file `/var/cpanel/conf/proftpd/local`. If this file does not exist, then create it.
 - Add this line to set which ports your server should use.
 ```console
-  PassivePortRange: 40000 40100
+  PassivePorts: 40000 40100
 ```
 - If your server is behind a firewall and you are seeing unroutable address errors, add the following line, replacing 123.123.123.123 with your server's public IP:  
 ```console
-  ForcePassiveIP: 123.123.123.123
+  MasqueradeAddress: 123.123.123.123
 ```
 - Restart PureFTP by running
 ```console
@@ -91,7 +91,7 @@ PassivePorts 40000 40100
 systemctl restart xinetd
 ```
 - On your firewall, allow inbound connections on the passive port range you selected (in our example 40000 to 40100).  If necessary please read our [guide on opening firewall ports](/source/network/firewalls/openport.html).
-  
+
 ### Unroutable Address on Plesk
 
 - If your server is behind a firewall and you are seeing unroutable address errors, look to see if that configuration already exists anywhere on your server:
