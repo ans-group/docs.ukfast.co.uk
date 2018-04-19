@@ -109,7 +109,7 @@ systemctl restart xinetd
 
 ## Opening ports on your firewall
 
-If you are a UKFast customer and you're not sure about how to open ports or manage other aspects of your firewall configuration, please do refer to our other guides on [managing your firewall](/security/firewalls/index).
+If you are a UKFast customer and you're not sure about how to open ports or manage other aspects of your firewall configuration, please do refer to our other guides on [managing your firewall](/network/firewalls/index).
 
 If you use any software firewalls, such as CSF, Plesk Firewall, IPtables, or firewalld, you'll need to make sure your passive port range is not blocked there either.
 
