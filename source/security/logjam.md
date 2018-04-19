@@ -48,23 +48,27 @@ ssl_dhparam /path/to/dhparams.pem;
 ## OpenSSH
 
 Add KexAlgorithms to `sshd_config` to avoid algorithms that use DH key exchange with weak keys:
+```console
 KexAlgorithms curve25519-sha256@libssh.org, diffie-hellman-group-exchange-sha256
+```
 
 Change the existing moduli so 1024 bit keys are not available:
 Remove all DH moduli < 2048
 ```console
 awk '$5 > 2000' /etc/ssh/moduli > ~/moduli
 ```
-(check new file looks ok)
 
+Check new file looks OK, and doesn't have any 1024 bit keys, then if it's good, copy it into place:
 ```console
 mv ~/moduli" /etc/ssh/moduli
 ```
 
-Or generate new ones:
+Or generate new ones from scratch. This is more computationally expensive, but gives you all new keys:
+```console
 ssh-keygen -G moduli.candidates -b 2048 (or 4096 if you're paranoid)
 ssh-keygen -T moduli.safe -f moduli.candidates
 mv moduli.safe /etc/ssh/moduli
+```
 
 ## Testing
 
