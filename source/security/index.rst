@@ -14,7 +14,6 @@ UKFast security products
    ddos/index
    webapplicationfirewall/index
    threatmonitoring/index
-   firewalls/index
    antivirus/index
    vulnerabilityscans
 
@@ -40,6 +39,8 @@ Guidance relating to specific security threats and cyber-attacks
    wannacry
    meltdown
    memcachedopen
+   
+For guidance relating to UKFast firewalls, please see :doc:`/network/firewalls/index` in the Networking category.
 
 
 .. meta::
