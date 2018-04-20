@@ -25,19 +25,24 @@ For more information please do check out the [official cPanel guide](https://doc
 ### Pure-FTPd
 
 - Log in via SSH and open the configuration file `/var/cpanel/conf/pureftpd/local`. If this file does not exist, then create it.
+
 - Add this line to set which ports your server should use.
 ```console
   PassivePortRange: 40000 40100
 ```
+
 - If your server is behind a firewall and you are seeing unroutable address errors, add the following line, replacing 123.123.123.123 with your server's public IP:  
 ```console
   ForcePassiveIP: 123.123.123.123
 ```
+
 - Restart PureFTP by running
 ```console
   /usr/local/cpanel/scripts/setupftpserver proftpd --force
 ```
-- On your firewall, allow inbound connections on the passive port range you selected (in our example 40000 to 40100).  If necessary please read our [guide on opening firewall ports](/source/network/firewalls/openport.html).
+
+- On your firewall, allow inbound connections on the passive port range you selected (in our example 40000 to 40100).  If necessary please read our [guide on opening firewall ports](/network/firewalls/openport.html).
+
 
 ### ProFTPd
 
@@ -46,15 +51,18 @@ For more information please do check out the [official cPanel guide](https://doc
 ```console
   PassivePorts: 40000 40100
 ```
+
 - If your server is behind a firewall and you are seeing unroutable address errors, add the following line, replacing 123.123.123.123 with your server's public IP:  
 ```console
   MasqueradeAddress: 123.123.123.123
 ```
+
 - Restart PureFTP by running
 ```console
   /usr/local/cpanel/scripts/setupftpserver pure-ftpd --force
 ```
-- On your firewall, allow inbound connections on the passive port range you selected (in our example 40000 to 40100).  If necessary please read our [guide on opening firewall ports](/source/network/firewalls/openport.html).
+
+- On your firewall, allow inbound connections on the passive port range you selected (in our example 40000 to 40100).  If necessary please read our [guide on opening firewall ports](/network/firewalls/openport.html).
 
 
 ## Plesk servers
@@ -75,7 +83,7 @@ PassivePorts 40000 40100
 ```console
 systemctl restart xinetd
 ```
-- On your firewall, allow inbound connections on the passive port range you selected (in our example 40000 to 40100).  If necessary please read our [guide on opening firewall ports](/source/network/firewalls/openport.html).
+- On your firewall, allow inbound connections on the passive port range you selected (in our example 40000 to 40100).  If necessary please read our [guide on opening firewall ports](/network/firewalls/openport.html).
 
 
 #### Plesk 12.5 and older:
@@ -90,7 +98,9 @@ PassivePorts 40000 40100
 ```console
 systemctl restart xinetd
 ```
-- On your firewall, allow inbound connections on the passive port range you selected (in our example 40000 to 40100).  If necessary please read our [guide on opening firewall ports](/source/network/firewalls/openport.html).
+
+- On your firewall, allow inbound connections on the passive port range you selected (in our example 40000 to 40100).  If necessary please read our [guide on opening firewall ports](/network/firewalls/openport.html).
+  
 
 ### Unroutable Address on Plesk
 
@@ -109,7 +119,7 @@ systemctl restart xinetd
 
 ## Opening ports on your firewall
 
-If you are a UKFast customer and you're not sure about how to open ports or manage other aspects of your firewall configuration, please do refer to our other guides on [managing your firewall](/security/firewalls/).
+If you are a UKFast customer and you're not sure about how to open ports or manage other aspects of your firewall configuration, please do refer to our other guides on [managing your firewall](/network/firewalls/).
 
 If you use any software firewalls, such as CSF, Plesk Firewall, IPtables, or firewalld, you'll need to make sure your passive port range is not blocked there either.
 
