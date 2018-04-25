@@ -39,8 +39,19 @@ Guidance relating to specific security threats and cyber-attacks
    wannacry
    meltdown
    memcachedopen
+<<<<<<< Updated upstream
    
 For guidance relating to UKFast firewalls, please see :doc:`/network/firewalls/index` in the Networking category.
+=======
+<<<<<<< HEAD
+   wordpress
+   magento
+
+For guidance relating to UKFast firewalls, please see :doc:`/network/firewalls/index` in the Networking category.
+=======
+   
+For guidance relating to UKFast firewalls, please see :doc:`/network/firewalls/index` in the Networking category.
+>>>>>>> Stashed changes
 
 
 .. meta::
@@ -48,3 +59,7 @@ For guidance relating to UKFast firewalls, please see :doc:`/network/firewalls/i
    :description: Guidance on UKFast security products and general best practices
    :keywords: ukfast, security, ddos, cyber attack, threats, ddosx
    
+<<<<<<< Updated upstream
+=======
+>>>>>>> ftp
+>>>>>>> Stashed changes

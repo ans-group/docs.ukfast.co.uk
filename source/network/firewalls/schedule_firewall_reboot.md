@@ -1,6 +1,14 @@
 # Scheduling a dedicated firewall reboot
 
+<<<<<<< Updated upstream
 Firewall reboots should be managed through the dedicated firewall area in [MyUKFast](https://my.ukfast.co.uk/server/dedicated-firewall.php).
+=======
+<<<<<<< HEAD
+Firewall reboots should be maanged through the dedicated firewall area in [MyUKFast](https://my.ukfast.co.uk/server/dedicated-firewall.php).
+=======
+Firewall reboots should be managed through the dedicated firewall area in [MyUKFast](https://my.ukfast.co.uk/server/dedicated-firewall.php).
+>>>>>>> ftp
+>>>>>>> Stashed changes
 
 ![firewallrebootscreen](files/FirewallRebootscreen.png)
 
