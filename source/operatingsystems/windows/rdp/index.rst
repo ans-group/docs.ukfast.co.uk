@@ -7,6 +7,8 @@
 RDP
 ===
 
+Guidance related to Microsoft's Remote Desktop Protocol (RDP).
+
 .. toctree::
    :maxdepth: 1
 
