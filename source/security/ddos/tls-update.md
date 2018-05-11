@@ -1,4 +1,4 @@
-# Disabling TLS1.0 and TLS1.1 on DDoSX<sup>®</sup>
+# TLS1.0 and TLS1.1 disabled on DDoSX<sup>®</sup>
 
 The PCI Security Standards Council have set a deadline of 30th June 2018 for applications and websites to disable early SSL / TLS protocols in order to meet PCI Data Security Standards (PCI DSS), which are required for processing debit and credit card payments online.  This [blog post from the PCI Security Standards Council](https://blog.pcisecuritystandards.org/are-you-ready-for-30-june-2018-sayin-goodbye-to-ssl-early-tls) provides further information.
 
