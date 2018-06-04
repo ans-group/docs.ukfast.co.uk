@@ -1,6 +1,10 @@
 # Purchasing and renewing SSL certificates
 
+<<<<<<< Updated upstream
 This guide covers how to purchase and renew SSL certificates with UKFast.  Our [guide on the different types of SSL certificates available](/Domains/ssl/types.html) may also be a useful read.
+=======
+This guide covers how to purchase and renew SSL certificates with UKFast.  Our [guide on the different types of SSL certificates available](/Domains/ssl/buying.html) may also be a useful read.
+>>>>>>> Stashed changes
 
 ## Purchasing
 
