@@ -36,9 +36,9 @@ For more information please do check out the [official cPanel guide](https://doc
   ForcePassiveIP: 123.123.123.123
 ```
 
-- Restart PureFTP by running
+- Restart PureFTP by running:
 ```console
-  /usr/local/cpanel/scripts/setupftpserver proftpd --force
+  /usr/local/cpanel/scripts/setupftpserver pure-ftpd --force
 ```
 
 - On your firewall, allow inbound connections on the passive port range you selected (in our example 40000 to 40100).  If necessary please read our [guide on opening firewall ports](/network/firewalls/openport.html).
@@ -57,9 +57,9 @@ For more information please do check out the [official cPanel guide](https://doc
   MasqueradeAddress: 123.123.123.123
 ```
 
-- Restart PureFTP by running
+- Restart ProFTP by running:
 ```console
-  /usr/local/cpanel/scripts/setupftpserver pure-ftpd --force
+  /usr/local/cpanel/scripts/setupftpserver proftpd --force
 ```
 
 - On your firewall, allow inbound connections on the passive port range you selected (in our example 40000 to 40100).  If necessary please read our [guide on opening firewall ports](/network/firewalls/openport.html).
@@ -100,7 +100,7 @@ systemctl restart xinetd
 ```
 
 - On your firewall, allow inbound connections on the passive port range you selected (in our example 40000 to 40100).  If necessary please read our [guide on opening firewall ports](/network/firewalls/openport.html).
-  
+
 
 ### Unroutable Address on Plesk
 
