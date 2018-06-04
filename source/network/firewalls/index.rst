@@ -9,6 +9,14 @@ Guidance relating to UKFast dedicated and shared firewalls.
 
    viewconfig
    openport
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+   dedifw_defaultports
+   sharedfw_defaultports
+=======
+>>>>>>> ftp
+>>>>>>> Stashed changes
    icmp
    schedule_firewall_reboot
    supportedvpns
