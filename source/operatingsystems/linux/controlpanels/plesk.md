@@ -4,7 +4,7 @@ The Plesk control panel lets you manage many aspects of your server though an we
 
 ## Connecting to Plesk
 
-You can be access the login page using the server IP:
+You can access the login page using the server IP, on the Plesk port, 8443:
 
 ```console
   https://ip.ip.ip.ip:8443
@@ -14,12 +14,12 @@ You can be access the login page using the server IP:
 .. note::
    The first time you access this, it will likely show a certificate warning that varies depending on which browser you're using.
 
-   This is nothing to be worried about, it's just that Plesk uses a self-signed certificate to encrypt traffic.
+   This is nothing to be worried about, it's just due to Plesk using a self-signed certificate to encrypt traffic.
 ```
 
 Once you've skipped the warning, you'll be at the Plesk login page. Later versions of Plesk will accept the root credentials for the server, but the traditional way is the use the `admin` username and the Plesk password provided by UKFast on server launch.
 
-You can also connect to your panel though the MyUKFast portal by navigating to the server screen and clicking the link
+You can also connect to your panel though the MyUKFast portal by navigating to the server screen and clicking the link highlighted in red:
 
 ![Plesk login](files/plesk_ukfast_login.png)
 
