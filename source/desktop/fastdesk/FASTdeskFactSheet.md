@@ -8,7 +8,7 @@
 
 **FASTdesk ProPlus** - runs on dedicated Citrix XenDesktop servers. Each desktop user has their own dedicated VM, with 4 vCPU and 8GB RAM.
 
-**FASTdesk GPU** - runs on dedicated Citrix XenDesktop servers, with the addition of NVIDIA Grid Virtual Workstation and Tesla M10 GPUs. Each desktop user has their own dedicated VM, with 4vCPU, 8GB RAM, and 2GB GDDR5 memory ("graphics memory").
+**FASTdesk GPU** - runs on dedicated Citrix XenDesktop servers, with the addition of NVIDIA Grid technology combined with Nvidia Tesla P40 GPU's. Each desktop user is provided with their own dedicated VM, with 4vCPU, 8GB RAM, and a 4GB GDDR5 graphics memory allocation.
 
 ## What are Line of Business Applications?
 
