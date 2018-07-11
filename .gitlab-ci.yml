@@ -24,7 +24,7 @@ deploy stage:
     - echo "$deploy_key" | tr -d '\r' | ssh-add - > /dev/null
     - mkdir -p ~/.ssh
     - chmod 700 ~/.ssh
-    - 'ssh -o StrictHostKeyChecking=no root@46.37.163.252 "cd /opt/docs.ukfast.co.uk/ && git pull"; fi'
-    - 'ssh -o StrictHostKeyChecking=no root@46.37.163.252 bash /opt/docs.ukfast.co.uk/deploy_docs.sh; fi'
+    - 'ssh -o StrictHostKeyChecking=no root@46.37.163.252 "cd /opt/docs.ukfast.co.uk/ && git pull"'
+    - 'ssh -o StrictHostKeyChecking=no root@46.37.163.252 "bash /opt/docs.ukfast.co.uk/deploy_docs.sh"'
   tags:
     - docs
