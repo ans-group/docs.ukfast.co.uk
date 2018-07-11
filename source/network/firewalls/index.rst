@@ -6,9 +6,9 @@ Here you'll find all the guidance relating to UKFast dedicated and shared firewa
 
 Our dedicated firewalls allow much finer control, as well as advanced features like VPNs, and the ability to allow ICMP traffic. You can also have more advanced setups, including redundant pairs of firewalls.
 
-------------------------
+-----------------------------------
 General UKFast firewall information
-------------------------
+-----------------------------------
 
 .. toctree::
    :maxdepth: 1
@@ -16,18 +16,18 @@ General UKFast firewall information
    viewconfig
    icmp
 
-------------------------
+-----------------------------
 UKFast shared firewall guides
-------------------------
+-----------------------------
 .. toctree::
    :maxdepth: 1
 
    shared_openport
    shared_lockdown
 
-------------------------
+--------------------------------
 UKFast dedicated firewall guides
-------------------------
+--------------------------------
 
 .. toctree::
    :maxdepth: 1
@@ -35,9 +35,9 @@ UKFast dedicated firewall guides
    dedi_lockdown
    schedule_firewall_reboot
 
-------------------------
+----------------------------------
 UKFast VPNs on dedicated firewalls
-------------------------
+----------------------------------
 .. toctree::
    :maxdepth: 1
    supportedvpns
