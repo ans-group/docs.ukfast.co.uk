@@ -20,9 +20,11 @@ deploy stage:
   only:
     - master
   script:
-    - 'chmod 600 deploy_key; fi'
-    - 'mv deploy_key ~/.ssh/id_rsa; fi'
-    - 'ssh root@46.37.163.252 "cd /opt/docs.ukfast.co.uk/ && git pull"; fi'
-    - 'ssh root@46.37.163.252 bash /opt/docs.ukfast.co.uk/deploy_docs.sh; fi'
+    - eval $(ssh-agent -s)
+    - echo "$deploy_key" | tr -d '\r' | ssh-add - > /dev/null
+    - mkdir -p ~/.ssh
+    - chmod 700 ~/.ssh
+    - 'ssh -o StrictHostKeyChecking=no root@46.37.163.252 "cd /opt/docs.ukfast.co.uk/ && git pull"; fi'
+    - 'ssh -o StrictHostKeyChecking=no root@46.37.163.252 bash /opt/docs.ukfast.co.uk/deploy_docs.sh; fi'
   tags:
     - docs
