@@ -2,10 +2,9 @@ stages:
   - build
   - deploy
 before_script:
-  - sudo yum install -y python2-pip
-  - sudo pip install Sphinx===1.6.6
-  - sudo pip install recommonmark
-  - sudo pip install sphinxcontrib.youtube
+  - pip install Sphinx===1.6.6
+  - pip install recommonmark
+  - pip install sphinxcontrib.youtube
 build stage:
   stage: build
   script:
