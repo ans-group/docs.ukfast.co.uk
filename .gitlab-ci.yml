@@ -5,6 +5,8 @@ before_script:
   - pip install Sphinx===1.6.6
   - pip install recommonmark
   - pip install sphinxcontrib.youtube
+  - git submodule sync --recursive
+  - git submodule update --init --recursive
 build stage:
   stage: build
   script:
