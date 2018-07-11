@@ -31,6 +31,7 @@ UKFast dedicated firewall guides
 
 .. toctree::
    :maxdepth: 1
+   
    dedi_openport
    dedi_lockdown
    schedule_firewall_reboot
@@ -40,6 +41,7 @@ UKFast VPNs on dedicated firewalls
 ----------------------------------
 .. toctree::
    :maxdepth: 1
+   
    supportedvpns
    createvpn
    vpn2fa
