@@ -108,7 +108,7 @@ Navigate to the WAF tab to find the settings for WAF on DDoSX.  There are a numb
 
 Once your domain is fully enabled on DDoSX, all requests to your webserver will appear to come from the DDoSX IP address rather than the original client. Therefore you may wish to configure your webserver to place the original client IP address into the logs. This is most important if you're using a stats package like Webalizer or AWStats, which rely on analysing your local webserver logs.
 
-Here's how to do this for nginx and Apache:
+We add a new header to all requests going through DDoSX - `DDOSX-Connecting-IP` - which contains the client's IP address, but most applications are familiar with the `X-Forwarded-For` header, which we'll set below.
 
 ### nginx
 
@@ -151,6 +151,29 @@ Test and then reload your Apache configuration (e.g. `httpd -t && systemctl relo
 
 For Apache 2.2 you will need to use [mod_rpaf](https://github.com/gnif/mod_rpaf), the use of which is beyond the scope of this document.
 
+### haproxy
+
+If you have haproxy in front of your webservers, you'll probably want to set the
+X-Forwarded-For header on here. The easiest way to do this is to disable the 
+`forwardfor` option to prevent haproxy setting the header automatically, and instead
+set the header manually in each backend.
+
+First, comment out your forwardfor option, potentially in the `defaults` section, e.g.
+
+```
+defaults
+    #option forwardfor except 192.168.1.10
+...
+```
+
+Then, in each backend set the `X-Forwarded-For` header to match the value of the `DDOSX-Connecting-IP` header:
+
+```
+backend webservers
+    mode http
+    http-request set-header X-Forwarded-For %[req.hdr(DDOSX-Connecting-IP)]
+    server web1 ...
+```
 
 ```eval_rst
 .. meta::
