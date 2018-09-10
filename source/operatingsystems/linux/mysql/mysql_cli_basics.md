@@ -63,7 +63,7 @@ This will show the following information.
 Here you can view your tables and even run queries.
 
 ```sql
-  SHOW TABLES
+  SHOW TABLES;
 ```
 
 Here is an example query for a Magento database for example.
