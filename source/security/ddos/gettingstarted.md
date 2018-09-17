@@ -5,9 +5,11 @@ DDoSX<sup>®</sup>, Content Delivery Network (CDN) and Web Application Firewall 
 ```eval_rst
 .. seealso::
 
-   To use DDoSX\ :sup:`®`, CDN and WAF from UKFast, you need to have your domains' nameservers pointing to the UKFast nameservers, and you also need to manage your DNS records using SafeDNS.
+   To use DDoSX\ :sup:`®`, CDN and WAF from UKFast, you need to either have your domains' nameservers pointing to the UKFast nameservers or have the ability to setup CNAME/ALIAS records with your current provider.
 
-   Make sure to set up your DNS records correctly in SafeDNS first - see the :doc:`/Domains/safedns/index` guide for assistance.  You must move all records associated with the domains (including sub-domains) you wish to protect, including SMTP, MX, mail etc. to SafeDNS.
+  ## Using safeDNS:
+
+  To make sure to set up your DNS records correctly in SafeDNS first - see the :doc:`/Domains/safedns/index` guide for assistance.  You must move all records associated with the domains (including sub-domains) you wish to protect, including SMTP, MX, mail etc. to SafeDNS.
 
    Once you have done this, point your domains to the UKFast nameservers, which are:
 
@@ -15,6 +17,11 @@ DDoSX<sup>®</sup>, Content Delivery Network (CDN) and Web Application Firewall 
    - ns1.ukfast.net
 
    You'll need to do this through whichever domain registrar you use to manage your domains (which may not be UKFast).  If you don't know who your domain registrar is you can do a 'WHOIS' lookup on websites such as https://whois.icann.org/
+
+## Set up CNAME:
+
+To set up CNAME read our [documentation in the FAQ's](https://docs.ukfast.co.uk/security/ddos/generalinformation.html). Please note that in order to protect your root domain, for example UKFast.co.uk, you must first check that your DNS provider will support root level forwarding such as; an ALIAS or ANAME. If your DNS provider does not support this we cannot protect the root domain. The root domain will also not be protected by WAF or able to serve CDN. However, for example,  www.ukfast.co.uk  and all subdomains will be fully protected. For more information read our documentation.
+
 
 ```
 
@@ -108,7 +115,7 @@ Navigate to the WAF tab to find the settings for WAF on DDoSX.  There are a numb
 
 Once your domain is fully enabled on DDoSX, all requests to your webserver will appear to come from the DDoSX IP address rather than the original client. Therefore you may wish to configure your webserver to place the original client IP address into the logs. This is most important if you're using a stats package like Webalizer or AWStats, which rely on analysing your local webserver logs.
 
-We add a new header to all requests going through DDoSX - `DDOSX-Connecting-IP` - which contains the client's IP address, but most applications are familiar with the `X-Forwarded-For` header, which we'll set below.
+Here's how to do this for nginx and Apache:
 
 ### nginx
 
