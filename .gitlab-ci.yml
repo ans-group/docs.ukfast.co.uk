@@ -15,7 +15,7 @@ build stage:
     - make build/html/_static/css/app.css
     - make build/html/_static/app.js
   tags:
-    - docs
+    - gitlab-org
 deploy stage:
   stage: deploy
   only:
