@@ -28,6 +28,21 @@ Web Application Firewall (WAF) on DDoSX uses a global network to protect your on
 
 WAF on DDoSX is an example of a cloud-based WAF, designed to be more efficient via scalability. By using a WAF on the UKFast DDoSX global network, you benefit from a much greater capacity, which makes attack prevention more effective.  WAF on DDoSX is designed to protect you from the [OWASP top 10 vulnerabilities](/security/webapplicationfirewall/attacks.html)  
 
+## How do I set up a CNAME?
+
+In order to protect your root domain, for example UKFast.co.uk, you must first check that your DNS provider will support root level forwarding such as; an ALIAS or ANAME. If your DNS provider does not support this we cannot protect the root domain. The root domain will also not be protected by WAF or able to serve CDN. However, for example,  www.ukfast.co.uk  and all subdomains will be fully protected. For more information read our documentation.
+
+A CNAME record links a domain to the A name record of another domain for ease of redirection.
+
+1. Login to MyUKFast and head to DDoSX Protection in the Products and Services menu.
+2. Click Connect Now
+3. Type the domain you would like to protect in the domain box.
+4. A message will pop up to add a CNAME record. Click Connect.
+
+In order to connect your domain to the DDoSX network you must first verify that this is your domain. To do this follow the on screen instructions. Once this process has been completed and the verification has been confirmed you will proceed to the configure tab within DDoSX. To then complete the set up of your domain on DDoSX read our [documentation here](https://docs.ukfast.co.uk/security/ddos/gettingstarted.html). 
+
+
+
 
 ```eval_rst
 .. meta::

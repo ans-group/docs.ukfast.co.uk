@@ -158,6 +158,29 @@ Test and then reload your Apache configuration (e.g. `httpd -t && systemctl relo
 
 For Apache 2.2 you will need to use [mod_rpaf](https://github.com/gnif/mod_rpaf), the use of which is beyond the scope of this document.
 
+### haproxy
+
+If you have haproxy in front of your webservers, you'll probably want to set the
+X-Forwarded-For header on here. The easiest way to do this is to disable the 
+`forwardfor` option to prevent haproxy setting the header automatically, and instead
+set the header manually in each backend.
+
+First, comment out your forwardfor option, potentially in the `defaults` section, e.g.
+
+```
+defaults
+    #option forwardfor except 192.168.1.10
+...
+```
+
+Then, in each backend set the `X-Forwarded-For` header to match the value of the `DDOSX-Connecting-IP` header:
+
+```
+backend webservers
+    mode http
+    http-request set-header X-Forwarded-For %[req.hdr(DDOSX-Connecting-IP)]
+    server web1 ...
+```
 
 ```eval_rst
 .. meta::
