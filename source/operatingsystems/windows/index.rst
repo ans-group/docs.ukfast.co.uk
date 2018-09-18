@@ -14,3 +14,4 @@ Windows
    rdp/index
    server2016/index
    windowsadministration/index
+   tlsandschannel/index
