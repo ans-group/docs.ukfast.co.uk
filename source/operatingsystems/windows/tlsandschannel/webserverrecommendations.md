@@ -102,8 +102,7 @@ _If you are running a production web server with SSL/TLS being terminated direct
 
 
 ### Add RDP support for TLS 1.1 and TLS 1.2 on Server 2008 R2
-On Server 2008 R2, the Remote Desktop Protocol will use TLS 1.0, by default (if negotiated). If you are attempting to disable support for older TLS protocols such as TLS 1.0, you will need to ensure that the following update is applied first to enable RDP to support TLS 1.1 and TLS 1.2
-https://support.microsoft.com/en-gb/help/3080079/update-to-add-rds-support-for-tls-1-1-and-tls-1-2-in-windows-7-or-wind
+On Server 2008 R2, the Remote Desktop Protocol will use TLS 1.0, by default (if negotiated). If you are attempting to disable support for older TLS protocols such as TLS 1.0, you will need to ensure that the following update is applied first to [enable RDP to support TLS 1.1 and TLS 1.2](https://support.microsoft.com/en-gb/help/3080079/update-to-add-rds-support-for-tls-1-1-and-tls-1-2-in-windows-7-or-wind)
 
 
 

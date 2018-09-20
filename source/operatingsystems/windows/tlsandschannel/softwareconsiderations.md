@@ -14,8 +14,9 @@ A list of the SQL versions along with minimum patch requirements to support TLS 
 
 ## TLS support for Microsoft Exchange Server
 
-Excellent 3-part article
-https://blogs.technet.microsoft.com/exchange/2018/01/26/exchange-server-tls-guidance-part-1-getting-ready-for-tls-1-2/
+Modern versions of Exchange will fully support TLS 1.2, providing, of course, that the Exchange environment has the necessary Cumulative Updates applied, and meets the minimum patch level. 
+
+You can read further information from the Microsoft Exchange Team's 3-part blog on TLS guidance, [here](https://blogs.technet.microsoft.com/exchange/2018/01/26/exchange-server-tls-guidance-part-1-getting-ready-for-tls-1-2/).
 
 ## TLS support for the Remote Desktop Services
 

@@ -19,7 +19,7 @@ TLS 1.2 is currently the industry standard for secure communication, with TLS 1.
 
 + A cipher suite can be thought of as a collection of building blocks called primitives. Each primitive does nothing on its own, but can be combined with others along with additional parameters to form a cipher suit. A cipher suite essentially defines how security is going to be implemented for that connection.
 
->Both ends of the connection need to agree on the cipher suite to use during the TLS handshake. This means that both parties need to have at least one supported cipher in common or else the connection cannot be established. 
+**Both ends of the connection need to agree on the cipher suite to use during the TLS handshake. This means that both parties need to have at least one supported cipher in common or else the connection cannot be established.**
 
 For a more comprehensive overview of Transport Layer Security, consider checking the the Wikipedia page [here](https://en.wikipedia.org/wiki/Transport_Layer_Security).
 
