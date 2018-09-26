@@ -36,7 +36,7 @@ Further information on mysqldump and it's various flags can be found using `man 
 
 XtraBackup is a product from Percona, made to allow 'hot' backups of your database, meaning that there should be no locking involved.
 
-Installing it will require the percona repo on CentOS:
+Installing it will require the Percona repo on CentOS:
 
 ```console   
    [percona]
@@ -51,7 +51,7 @@ Put that in a file called `/etc/yum.repos.d/percona.repo` and then install the x
   yum install xtrabackup --enablerepo=percona
 ```
 
-Once this is installed, you can create a full backup of your datadirectory by executing the `innobackupex` command with a directory, like so:
+Once this is installed, you can create a full backup of your data directory by executing the `innobackupex` command with a directory, like so:
 
 ```console
   innobackupex /var/dumps/
@@ -74,7 +74,7 @@ Those cron jobs can be added to your standard crontab, accessible via the comman
 
 ```eval_rst
 .. note::   
-   Note that in the above mysqldump cron job, the command `date` is backticked into the command to create a different dump file/directory for each day to ensure that they don't overwrite the previous days dump.
+   Note that in the above mysqldump cron job, the command `date` is back-ticked into the command to create a different dump file/directory for each day to ensure that they don't overwrite the previous days dump.
 
    If this method is used, it will require manual intervention occasionally to go in and clear out old dump files to free up space.
 
@@ -83,7 +83,7 @@ Those cron jobs can be added to your standard crontab, accessible via the comman
 
 ## Scripting the dump
 
-If you'd like to run innodbex nightly and automatically clean up old backups, add the following script to your server, changing sections as necessary.
+If you'd like to run Innodbex nightly and automatically clean up old backups, add the following script to your server, changing sections as necessary.
 
 ```bash
    #!/bin/bash
@@ -104,4 +104,4 @@ This can then be ran nightly as a cron job as mentioned in the previous section.
 
 ## Next steps
 
-Once you're confident that you have consistent backups using one of the above two methods, you should now be good to follow the [Setting backup exclusions](https://my.ukfast.co.uk/faq/1090.html) guide to exclude `/var/lib/mysql` (or wherever else you may keep your datadir) from your backup run to save some space.
+Once you're confident that you have consistent backups using one of the above two methods, you should now be good to follow the [Setting backup exclusions](https://my.ukfast.co.uk/faq/1090.html) guide to exclude `/var/lib/mysql` (or wherever else you may keep your data directory) from your backup run to save some space.

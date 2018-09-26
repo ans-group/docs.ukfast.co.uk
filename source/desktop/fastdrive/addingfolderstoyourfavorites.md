@@ -1,14 +1,14 @@
-# Adding folders to your favorites
+# Adding folders to your favourites
 
 You may have thousands of folders stored within your __Personal Folders__ on FASTdrive but it may be the case that you only access a dozen or so of these folders on a regular basis.
 
-So that you don't have to scroll through all of these folders every time you wish to access them, folders can be added to your __Favorites__ so that they can be easily accessed.
+So that you don't have to scroll through all of these folders every time you wish to access them, folders can be added to your __Favourites__ so that they can be easily accessed.
 
-To mark a folder as a favorite, click the star to the left of a folder's name.
+To mark a folder as a favourite, click the star to the left of a folder's name.
 
 ![Image186](files/Image186.png)
 
-This will create a shortcut to the folder in __Favorites__.
+This will create a shortcut to the folder in __Favourites__.
 
 ![Image187](files/Image187.png)
 

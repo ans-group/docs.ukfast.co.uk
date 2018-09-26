@@ -4,7 +4,7 @@ A page dedicated to some of the more common questions related to our loadblancer
 
 ## Why is all my traffic now coming from one IP?
 
-Once you've moved behind a loadbalancer, you may notice that some of your analytics on your backend servers, along with your logs appear to break. Where you used to see a breakdown of all the visitors to your site, you now just see one persistant visitor. The numbers won't have changed, but the IP address will have.
+Once you've moved behind a loadbalancer, you may notice that some of your analytics on your backend servers, along with your logs appear to break. Where you used to see a breakdown of all the visitors to your site, you now just see one persistent visitor. The numbers won't have changed, but the IP address will have.
 
 This is down to the nature of the loadbalancer itself. Where visitors used to directly visit your server, they now visit the loadbalancer instead and it's the loadbalancer that makes requests to the backend server. As such, the only IP address you'll see in logs or analytics will likely be that of the loadbalancer.
 
@@ -40,11 +40,11 @@ Replace `1.1.1.1` and `2.2.2.2` with the ip address(es) your loadbalancer is sen
   service httpd restart
 ```
 
-### Nginx
+### NGiNX
 
-The comparable module for nginx is called `ngx_http_realip_module`: <http://nginx.org/en/docs/http/ngx_http_realip_module.html>
+The comparable module for NGiNX is called `ngx_http_realip_module`: <http://nginx.org/en/docs/http/ngx_http_realip_module.html>
 
-If your install of nginx was compiled with `--with-http_realip_module` then you should be able to make use of it like so in your `nginx.conf`:
+If your install of NGiNX was compiled with `--with-http_realip_module` then you should be able to make use of it like so in your `nginx.conf`:
 
 ```nginx
   set_real_ip_from 1.1.1.1;
@@ -53,7 +53,7 @@ If your install of nginx was compiled with `--with-http_realip_module` then you 
 
 As mentioned for apache, `1.1.1.1` should be replaced with the IP address that's now sending all the traffic to your servers.
 
-Then restart nginx to put it live:
+Then restart NGiNX to put it live:
 
 ```bash
   service nginx restart

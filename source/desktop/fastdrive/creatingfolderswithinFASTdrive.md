@@ -18,7 +18,7 @@ This requires you to enter the name of the folder and you can also add a descrip
 
 ![Image60](files/Image60.png)
 
-If you don’t decide to add people to the folder right away, you will see a screen similar to the one below.
+If you don't decide to add people to the folder right away, you will see a screen similar to the one below.
 
 ![Image61](files/Image61.png)
 

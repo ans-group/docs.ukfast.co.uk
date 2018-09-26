@@ -22,9 +22,9 @@ Fill in the boxes on this page with your current password and your desired new p
 
 ```eval_rst
 .. warning::
-   As always, strong passwords are highly reccomended for your own security.
+   As always, strong passwords are highly recommended for your own security.
 
-   Mailboxes are freqently targetted by blind, brute-force attacks, so any dictionary words or common substitions (`m1ch43L!`) should be avoided.
+   Mailboxes are frequently targeted by blind, brute-force attacks, so any dictionary words or common substitutions (`m1ch43L!`) should be avoided.
 
    Whilst it may be slightly harder to remember, choosing a password that is `at least 8 characters long and a mixture of upper/lower case letters and numbers` will keep you safer in the long run.
 ```

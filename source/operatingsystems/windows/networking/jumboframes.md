@@ -45,7 +45,7 @@ You should see the following, this is successful:
   Reply from 10.10.10.1: bytes=8000 time<1ms TTL=128
 ```
 
-This is what you’ll see if the packet size you are attempting to transmit is too large::
+This is what you'll see if the packet size you are attempting to transmit is too large::
 
 ```console
   Packet needs to be fragmented but DF set.

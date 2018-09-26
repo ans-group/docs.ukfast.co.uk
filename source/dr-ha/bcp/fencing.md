@@ -14,7 +14,7 @@ There are a number of occasions where fencing can be accidentally triggered, whi
 
     It is quite common for clients to accidentally trigger a fence by being `cd`'ed into `/var/www/vhosts`, or are performing an SFTP operation to the directory, and running a `pcs` command on the `g_web` service. PCS will attempt to dismount `/var/www/vhosts` and fail because there is a file-level lock on the device. To resolve this issue, the cluster will send a STONITH to the node and reboot it.
 
-    The same stands for restarting any clustered service which has a fulesystem as part of the resource group in PCS.
+    The same stands for restarting any clustered service which has a filesystem as part of the resource group in PCS.
 
 2. **Performing an operation on a clustered service outside of `pcs`.**
 

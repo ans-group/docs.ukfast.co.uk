@@ -35,7 +35,7 @@ Fill in the relevant fields until it looks something like this:
 
 With the `offloading` now created, we just need to disable the previous `passthrough` vip.
 
-Head back to the `Virtual IPs` tab and edit your `HTTPS service (no SSL offloading)` vip. With this open, uncheck the `Active` box to deactivate this vip and press `Update Virtual IP` to save it.
+Head back to the `Virtual IPs` tab and edit your `HTTPS service (no SSL offloading)` vip. With this open, un-check the `Active` box to deactivate this vip and press `Update Virtual IP` to save it.
 
 You should now have this:
 

@@ -2,7 +2,7 @@
 
 Once your files and folders have been backed up using FASTcloudbackup, you can manage them within the [web console](https://fcb.ukfast.co.uk).
 
-To find your files, go to `My Data` from the homepage and click `Restore` next to the relevant computer or server.  Alternatively if you're aleady within the Settings for the specific computer or server you wish to work with, click `Select Files` in the Restore area.
+To find your files, go to `My Data` from the homepage and click `Restore` next to the relevant computer or server.  Alternatively if you're already within the Settings for the specific computer or server you wish to work with, click `Select Files` in the Restore area.
 
 ![Restore](files/Restore.PNG)
 
@@ -33,7 +33,7 @@ For additional options such as viewing previous versions or erasing the file, cl
 
 If there are certain folders you need to access frequently, then marking them as a Favourite will give you quicker access to them.  Simply click the star icon next to the folders you wish to set as a favourite.
 
-![favorites](files/favourites.PNG)
+![Favourites](files/favourites.PNG)
 
 When you want to navigate to a favourite folder, click `Favourites` in the left hand menu, and you'll see a list of your favourite folders.
 

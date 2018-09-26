@@ -19,7 +19,7 @@ For a non `.uk` TLD domain, the process is slightly more complicated. The first 
     If you use any privacy protection services that could replace or otherwise obfuscate this email address in the WHOIS database, it's possible you may have to temporarily disable this. Again, the support team of the registrar providing this service should be able to confirm.
 ```
 
-If the address is valid and visible then you'll next need to acquire an authorisation code, usually referred to as an `EPP` code, from your current registrar. Your registrar may tell you that an authorisation code isn't needed for the type of domain you're transfering, it really does depend on the the TLD.
+If the address is valid and visible then you'll next need to acquire an authorisation code, usually referred to as an `EPP` code, from your current registrar. Your registrar may tell you that an authorisation code isn't needed for the type of domain you're transferring, it really does depend on the the TLD.
 
 The domain in question may also be marked as `locked` with your current registrar, which prevents it from being transferred. This too can be checked via `WHOIS`. If the domain is locked, then your current registrar can unlock it for you.
 

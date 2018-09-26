@@ -1,6 +1,6 @@
 # Extracting Client IP
 
-Since all requests to your web servers will now be coming directly from the Webcelerator, your log files on your server will show that every request comes from the same IP address. If you’re using something like Google Analytics for visitor stats, this shouldn’t matter. If you’re using log file processing tools like Awstats or Webalizer, you won’t be able to extract meaningful data from your logs anymore.
+Since all requests to your web servers will now be coming directly from the Webcelerator, your log files on your server will show that every request comes from the same IP address. If you’re using something like Google Analytics for visitor stats, this shouldn’t matter. If you’re using log file processing tools like Awstats or Webalizer, you won't be able to extract meaningful data from your logs anymore.
 
 If you are also extracting the client’s IP address to use in your website or application, e.g. using `$_SERVER['REMOTE_ADDR']` in PHP, then the IP reported will also now be the Webcelerator’s IP.
 

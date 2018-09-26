@@ -23,7 +23,7 @@ The web servers are installed outside of the DMZ, and traffic is passed through 
 
 __Encryption__
 
-To protect customer data and changes made, the web console servers support TLS 1.2 with up to 256 bit AES encryption and no less than 128 bit encryption, with the negotiation to TLS/AES-256 dependent on whether the end user’s device or proxy supports TLS/AES-256.
+To protect customer data and changes made, the web console servers support TLS 1.2 with up to 256 bit AES encryption and no less than 128 bit encryption, with the negotiation to TLS/AES-256 dependent on whether the end user's device or proxy supports TLS/AES-256.
 
 __Access/Security__
 

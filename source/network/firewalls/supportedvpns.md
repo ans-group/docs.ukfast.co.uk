@@ -2,7 +2,7 @@
 
 * For clients whose servers are behind UKFast shared firewalls, we will not support creating VPN for clients. However we will be able to open ports for clients who run VPN termination on their servers.
 
-* Clients whose servers are behind a UKFast dedicated fireawall, there are three different types of VPN we support:
+* Clients whose servers are behind a UKFast dedicated firewall, there are three different types of VPN we support:
 
     1. Site to Site VPN
       >   This type of VPN mainly used for VPN connecting between 2 physical locations eg your office. You will need a firewall/router to support IPSec site to site VPN at your office as well

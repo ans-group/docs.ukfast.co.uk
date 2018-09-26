@@ -8,7 +8,7 @@ This service can be deployed on physical hardware, or within our eCloud Hybrid /
 
 ## Two node (active / passive) clusters
 
-The most common BCP configuration deployed at the moment is our two-node WEBDB clusters. In this configuration, your web server runs on one side (NGINX + PHP-FPM / Apache), and the database element runs on the other side (MySQL / MariaDB / Percona) while both nodes are operational. These two node solutions are active / passive.
+The most common BCP configuration deployed at the moment is our two-node WEBDB clusters. In this configuration, your web server runs on one side (NGiNX + PHP-FPM / Apache), and the database element runs on the other side (MySQL / MariaDB / Percona) while both nodes are operational. These two node solutions are active / passive.
 
 ### Solution diagram
 

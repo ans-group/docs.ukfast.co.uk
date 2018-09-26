@@ -2,7 +2,7 @@
 
 ## WebSSL VPN & IPSec Remote Access VPN
 
-Please raise a ticket within MyUKFast Portal and an engineer will set it up for you. The first 5 instances of this will be free of charge but futher ones may incur a charge.
+Please raise a ticket within MyUKFast Portal and an engineer will set it up for you. The first 5 instances of this will be free of charge but further ones may incur a charge.
 
 ## Site to Site IPSec VPN
 

@@ -8,7 +8,7 @@ The following screen will then appear which explains how the process is carried 
 
 ![Image66](files/Image66.png)
 
-If you copy the headers into your own spreadsheet you can then input your own data. Note: The headers must not have spaces in between words and the company field doesn’t have to be filled in. The password field can also be left blank if preferred and a password will be automatically chosen.
+If you copy the headers into your own spreadsheet you can then input your own data. Note: The headers must not have spaces in between words and the company field doesn't have to be filled in. The password field can also be left blank if preferred and a password will be automatically chosen.
 
 Click __Choose File__ then upload your Excel file. Once uploaded you should see a table like the one below. This should contain the data which you have stored in your Excel spreadsheet.
 
@@ -26,7 +26,7 @@ __Use personal File Box__ – This will give a user permission to use their file
 
 __Manage client users__ – This will give the user permission to add client users.
 
-__Edit the shared address book__ – This will give user’s permission to edit the users within the shared address book.
+__Edit the shared address book__ – This will give user's permission to edit the users within the shared address book.
 
 __Change his/her password__ – This will give the user permission to change their password.
 

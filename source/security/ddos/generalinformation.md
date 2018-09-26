@@ -4,7 +4,7 @@ Denial of Service (DoS) and Distributed Denial of Service (DDoS) attacks are bec
 
 ## How do DDoS attacks work?
 
-Most DDoS attacks are layer 3 or 4 network "volumentric flood" attacks, where the objective is to saturate the bandwidth to your servers and consume your server resources to the point where requests can no longer be processed correctly.  These flood attacks target various network protocols such as UDP, IMCP, SYN/TCP and more.  They are often measured based on the amount of traffic attacking your site in Gbit/s.
+Most DDoS attacks are layer 3 or 4 network "volumetric flood" attacks, where the objective is to saturate the bandwidth to your servers and consume your server resources to the point where requests can no longer be processed correctly.  These flood attacks target various network protocols such as UDP, ICMP, SYN/TCP and more.  They are often measured based on the amount of traffic attacking your site in Gbit/s.
 
 DDoS attacks may also target your application itself (layer 7 attacks), to try and exploit vulnerabilities and cause your web server to fail.  These attacks may often send malformed packets which can't be handled correctly by your application, again causing it to fail.
 
@@ -14,4 +14,4 @@ DDoSX<sup>®</sup>, our DDoS protection service, is designed to detect and filte
 
 ## Where does DDoSX<sup>®</sup> sit in my IT stack?
 
-DDoSX<sup>®</sup> is a network-based solution which sits in front of your UKFast-hosted environment.  By repointing the DNS records of the domains you wish to protect to UKFast using [SafeDNS](/Domains/safedns/index.html), we can broadcast your IP address(es) across our global DDoSX<sup>®</sup> network.  All traffic destined for your domains will then be routed via this network, enabling us to filter out malicious traffic as described above.
+DDoSX<sup>®</sup> is a network-based solution which sits in front of your UKFast-hosted environment.  By re-pointing the DNS records of the domains you wish to protect to UKFast using [SafeDNS](/Domains/safedns/index.html), we can broadcast your IP address(es) across our global DDoSX<sup>®</sup> network.  All traffic destined for your domains will then be routed via this network, enabling us to filter out malicious traffic as described above.

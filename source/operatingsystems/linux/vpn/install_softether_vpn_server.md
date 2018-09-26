@@ -30,7 +30,7 @@ You can download the latest SoftEther server package for Linux from their websit
 
 <http://www.softether-download.com/en.aspx>
 
-Unfortunately, there is no repository in place for getting the latest version of SoftEther, and so we’ll need to download the latest version to use from their site. Therefore, you have to browse their website using a desktop browser to download the package.
+Unfortunately, there is no repository in place for getting the latest version of SoftEther, and so we'll need to download the latest version to use from their site. Therefore, you have to browse their website using a desktop browser to download the package.
 
 First, browse their website on your own computer and choose the appropriate Component, Platform and CPU, then find the link to the appropriate package. This will download the latest stable version (at the time of writing) for Linux x86_64:
 
@@ -217,7 +217,7 @@ yum install epel-release
 yum install certbot
 ```
 
-Here we’ll use the `standalone` option to create a temporary web server listening on port 80. We specify the challenge type **http-01** as the SoftEther will be listening on port 443
+Here we'll use the `standalone` option to create a temporary web server listening on port 80. We specify the challenge type **http-01** as the SoftEther will be listening on port 443
 
 ```
 certbot certonly --standalone-supported-challenges http-01 --standalone -d ##fqdn.which.points.to.your.server##
@@ -241,7 +241,7 @@ IMPORTANT NOTES:
 
 Certbot will have generated a number of files now including the private key, certificate, full certificate chain, etc. and stored them in `/etc/letsencrypt/live/##fqdn.which.points.to.your.server##`
 
-We can now add the automatic renewal command into **cron** so that the certificate will be auto-renewed before it expires. You’ll need to do this yourself, but the command to renew the certificate is:
+We can now add the automatic renewal command into **cron** so that the certificate will be auto-renewed before it expires. You'll need to do this yourself, but the command to renew the certificate is:
 
 ```
 certbot renew --quiet
@@ -263,7 +263,7 @@ Then use command below to set the admin password:
 ServerPasswordSet
 ```
 
-Enter and then re-type your new password. You’ll need this whenever you want to change the server-wide options, like the IPSEC PSK
+Enter and then re-type your new password. You'll need this whenever you want to change the server-wide options, like the IPSEC PSK
 
 ### Step 7: Create A Virtual Hub
 
@@ -380,7 +380,7 @@ Then you can download it using any SFTP client such as FileZilla and apply it to
 
 SoftEther also provides a dedicated VPN Client software for both Windows and Linux. It supports a SoftEther specific protocol called **Ethernet over HTTPS** or **SSL-VPN** which is very powerful. It uses HTTPS protocol and port 443 in order to establish a VPN tunnel, and because this port is well-known, almost all firewalls, proxy servers and NATs can pass the packet. In order to use SSL-VPN protocol, you must download and install SoftEther VPN Client, which can be obtained from their website.
 
-Alternatively, and what we’ll do here, you can use the built-in VPN capabilities of Windows 7 or above.
+Alternatively, and what we'll do here, you can use the built-in VPN capabilities of Windows 7 or above.
 
 ### Step 12: Set up IP Forwarding
 We have to query the sysctl kernel value ```net.ipv4.ip_forward``` to see if forwarding is enabled or not

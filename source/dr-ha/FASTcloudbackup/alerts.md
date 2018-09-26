@@ -29,4 +29,4 @@ From the homepage of the [FASTcloudbackup web console](https://fcb.ukfast.co.uk)
 
 ![alerts all clients](files/alerts_all_clients.PNG)
 
-To stop receiving alerts, simply untick the relevant box(es).
+To stop receiving alerts, simply un-tick the relevant box(es).

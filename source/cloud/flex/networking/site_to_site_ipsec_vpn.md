@@ -133,7 +133,7 @@ Created a new ipsecpolicy:
 These can be viewed again using `neutron vpn-ipsecpolicy-list`
 
 ### Get our Router ID and Subnet IDs
-Using the `openstack` commandset we can now get the IDs for the router and subnet as follows:
+Using the `openstack` command set we can now get the IDs for the router and subnet as follows:
 ```
 [root@ukfastserver ~]# openstack router list
 +--------------------------------------+------+--------+-------+-------------+-------+----------------------------------+

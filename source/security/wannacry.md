@@ -123,7 +123,7 @@ Open with an administrative notepad to add any additional changes
 
 Addition of this HOSTS entry will prevent the TOR aspect removing some command and control aspect of the ransomware. Preventing external connectivity to the malware by forcing the DNS request to a null address.
 
-* UKFast’s default firewall configuration excludes access on the above TCP and UDP ports for public access, however these ports can be modified by your team(s) to be open for public access. To clarify if your firewall has these ports open or not please login to the [MyUKFast firewall section](https://my.ukfast.co.uk/server/firewalls.php) to verify the firewall port configuration.  UKFast recommends the SMB protocol TCP and UDP ports be closed for public access if open, we do not recommend allowing public  access to the SMB protocol as standard practice. If you are unfamiliar with firewall ports or require additional assistance, please contact our support team on any of the following;
+* UKFast's default firewall configuration excludes access on the above TCP and UDP ports for public access, however these ports can be modified by your team(s) to be open for public access. To clarify if your firewall has these ports open or not please login to the [MyUKFast firewall section](https://my.ukfast.co.uk/server/firewalls.php) to verify the firewall port configuration.  UKFast recommends the SMB protocol TCP and UDP ports be closed for public access if open, we do not recommend allowing public  access to the SMB protocol as standard practice. If you are unfamiliar with firewall ports or require additional assistance, please contact our support team on any of the following;
    * [Priority Support Request](https://my.ukfast.co.uk/pss/add.php)
 
    * Email [support@ukfast.co.uk](mailto:support@ukfast.co.uk)
@@ -149,7 +149,7 @@ UKFast recommends upgrading the operating system at your earliest convenience. W
 UKFast cannot endorse the payment of ransomware to third parties. This decision will require serious deliberation within your company to choose the desired option for your business.
 
 ## Contacting UKFast Support
-Please don’t hesitate to contact our support professionals who can provide assistance and information surrounding this malware
+Please don't hesitate to contact our support professionals who can provide assistance and information surrounding this malware
 * [Priority Support Request](https://my.ukfast.co.uk/pss/add.php)
 
 * Email [support@ukfast.co.uk](mailto:support@ukfast.co.uk)

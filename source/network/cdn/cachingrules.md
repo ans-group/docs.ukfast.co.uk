@@ -14,7 +14,7 @@ There are two types of cache control within CDN, "Respect Origin Cache Control H
 
 ![connect](files/cdnnorules.PNG)
 
-On this page you can add "Global" and "Per URI" rules, "Global" rules apply to your entire domain and "Per URI" rules apply to a specified domain extention only.
+On this page you can add "Global" and "Per URI" rules, "Global" rules apply to your entire domain and "Per URI" rules apply to a specified domain extension only.
 
 ### Global Caching Rules
 - Within the CDN tab of DDoSX, select `Add Rule for Entire Domain`
@@ -32,7 +32,7 @@ On this page you can add "Global" and "Per URI" rules, "Global" rules apply to y
 - Once complete, select `Apply Changes` and your rules will be made active.
 
 ### URI Specific Caching Rules
-Following the same process as when adding global caching rules but with control over the domain extention.
+Following the same process as when adding global caching rules but with control over the domain extension.
 
 ![connect](files/uricacherule.PNG)
 

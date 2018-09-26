@@ -2,7 +2,7 @@
 
 Ansible is a configuration management platform that's currently owned by RedHat, popular with linux sysadmins from all over, though windows admins are currently trying to get in on the action.
 
-Describing the full scope of ansible and it's usage is clearly out of reach of this article, but I will attempt to hilight some of the useful ways in which ansible can be used to automate the creation of your flex-based infrastructure.
+Describing the full scope of ansible and it's usage is clearly out of reach of this article, but I will attempt to highlight some of the useful ways in which ansible can be used to automate the creation of your flex-based infrastructure.
 
 ## The os_server module
 
@@ -63,7 +63,7 @@ The above example shows usage of the `private_v4` fact, but there are many other
 
 ## Basic playbook example
 
-The following playbook ties together some of the above functionality to show a relatively trivial example of creating 3 instances and provisioning them as webservers in one task block. A keypair is created locally for examples sake, but could be generated using the `os_keypair` module if desired. Some relatively pointless/inadvisable actions such as creating a user with passwordless sudo access, or adding things to hosts files are carried out so that different elements can be demonstrated.
+The following playbook ties together some of the above functionality to show a relatively trivial example of creating 3 instances and provisioning them as webservers in one task block. A keypair is created locally for examples sake, but could be generated using the `os_keypair` module if desired. Some relatively pointless/inadvisable actions such as creating a user with password-less sudo access, or adding things to hosts files are carried out so that different elements can be demonstrated.
 
 ```yaml
 ---
