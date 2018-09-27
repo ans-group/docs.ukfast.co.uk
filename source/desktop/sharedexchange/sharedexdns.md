@@ -2,7 +2,7 @@
 
 
 
-## If you are using UKFast’s SafeDNS system
+## If you are using UKFast's SafeDNS system
 
 The DNS records can be created automatically by opening Shared Exchange area within MyUKFast, selecting the domain name. If you do not have pre-existing DNS records click on the “Add Exchange DNS” button, which is shown in the red box below. This will add the DNS records automatically
 ![ShexDNS](files/dns/dnsshexc.PNG)
@@ -12,7 +12,7 @@ If you would like to set these up manually please find our guide here, or contac
 Please allow time for any DNS changes to propagate through the internet, this may take up to 24 hours. Once complete, you are ready to use your email client to connect to your new mailbox.
 
 
-## If you are not using UKFast’s SafeDNS system  
+## If you are not using UKFast's SafeDNS system  
 * If you have any further questions please contact your dedicated account manager or speak with one of our support engineers on 0800 230 0032.
   You should update your DNS records with your DNS provider, the MX records should be set as:
 

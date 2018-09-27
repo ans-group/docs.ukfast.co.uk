@@ -33,4 +33,4 @@ Documentation relating to our highly-available solutions which are able to recov
 .. meta::
    :title: Backups, Disaster Recover and High Availability hosting solutions | UKFast Documentation
    :description: Help with managing backups, disaster recovery and high availability hosting
-   :keywords: ukfast, backups, dr, high, avaibility, cloud, hosting, disaster recovery
+   :keywords: ukfast, backups, dr, high, availability, cloud, hosting, disaster recovery

@@ -196,4 +196,4 @@ Ticket Constraints:
 [root@acme-webdb-01 ~]#
 ```
 
-These should be managed carefully as an incorrect constraint cause unexpected behavior, and you might take the resources offline.
+These should be managed carefully as an incorrect constraint cause unexpected behaviour, and you might take the resources offline.

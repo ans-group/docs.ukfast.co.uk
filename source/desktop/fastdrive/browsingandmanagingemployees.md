@@ -4,7 +4,7 @@ The admin user can find other employee users on FASTdrive by navigating to the _
 
 ![Image75](files/Image75.png)
 
-Here, you’ll be able to see the amount of licenses that you have and how many are being used and also the list of employee users associated with your account.
+Here, you'll be able to see the amount of licenses that you have and how many are being used and also the list of employee users associated with your account.
 
 ![Image76](files/Image76.png)
 
@@ -26,10 +26,10 @@ __Delete from the system__ – This will remove the account from the system comp
 
 __Log this user out__ – This will log the user out of all of their active sessions, whether that is the Drive Mapper application or the web app.
 
-You can also change some of the user’s permissions by expanding the __User Access__ tab.
+You can also change some of the user's permissions by expanding the __User Access__ tab.
 
 ![Image79](files/Image79.png)
 
-You won’t be able to adjust all permissions but you will be able to enable or disable some such as __Manage client users__ and __Create shared distribution groups__.
+You won't be able to adjust all permissions but you will be able to enable or disable some such as __Manage client users__ and __Create shared distribution groups__.
 
 ![Image80](files/Image80.png)

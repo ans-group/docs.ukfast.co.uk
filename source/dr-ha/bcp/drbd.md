@@ -1,13 +1,13 @@
 # Distributed Replicated Block Device (DRBD)
 
-DRBD is utilised in our physical BCP solutions to replicate data at block level between two or more servers. While not wholly comparabile, you could think of it as resembling RAID1 being performed over the network on two volumes.
+DRBD is utilised in our physical BCP solutions to replicate data at block level between two or more servers. While not wholly comparable, you could think of it as resembling RAID1 being performed over the network on two volumes.
 
 Generally, there are two DRBD volumes in each cluster:
 
  - `/dev/drbd0` mounted as `/var/www/vhosts`
  - `/dev/drbd1` mounted as `/var/lib/mysql`
 
- We connect DRBD to 10GBPS ports wherever possible, and otherwise make use of direct 10GBPS crossover cables to faciliate real-time replication between the member nodes. You'll see this listed as `p1p1` or `p1p2` when looking at the NICs connected to your server.
+ We connect DRBD to 10GBPS ports wherever possible, and otherwise make use of direct 10GBPS crossover cables to facilitate real-time replication between the member nodes. You'll see this listed as `p1p1` or `p1p2` when looking at the NICs connected to your server.
 
  DRBD is active / passive by nature, so only one node can be "primary" for the volume at a time - and therefore only one node can have the volume mounted at a time. If more than one node considers itself "primary", the cluster has likely become [split brain](splitbrain.html).
 

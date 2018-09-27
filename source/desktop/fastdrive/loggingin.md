@@ -8,7 +8,7 @@ You will see an activation email which looks similar to the below:
 
 ![Image53](files/Image53.png)
 
-If you click __Activate Account__, you will be directed to a page where you’ll be prompted to enter some personal details and a new password.
+If you click __Activate Account__, you will be directed to a page where you'll be prompted to enter some personal details and a new password.
 
 ![Image54](files/Image54.png)
 

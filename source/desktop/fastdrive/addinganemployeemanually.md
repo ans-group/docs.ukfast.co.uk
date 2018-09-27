@@ -12,7 +12,7 @@ Firstly, navigate to the __People__ tab which can be seen on the left-hand side 
 
 ## Step 2
 
-Next, you will need to provide the user’s email address, which will be used as their username to log into FASTdrive.
+Next, you will need to provide the user's email address, which will be used as their username to log into FASTdrive.
 
 ![Image13](files/Image13.png)
 
@@ -38,11 +38,11 @@ __Use personal File Box__ – This will give a user permission to use their file
 
 __Manage client users__ – This will give the user permission to add client users.
 
-__Edit the shared address book__ – This will give user’s permission to edit the users within the shared address book.
+__Edit the shared address book__ – This will give user's permission to edit the users within the shared address book.
 
 __Change his/her password__ – This will give the user permission to change their password.
 
-__See the 'My Settings’ link on the top navigation bar__ – This will allow the user to see this button.
+__See the 'My Settings' link on the top navigation bar__ – This will allow the user to see this button.
 
 __Add this user to the shared company address book__ – This will add the user to the shared address book which is seen by all employee users.
 
@@ -72,6 +72,6 @@ The user will then be asked to confirm their personal information.
 
 ![Image51](files/Image51.png)
 
-You will then be asked to reset the password for the account and once you’ve done this you will be successfully logged in.
+You will then be asked to reset the password for the account and once you've done this you will be successfully logged in.
 
 ![Image52](files/Image52.png)

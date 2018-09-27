@@ -6,7 +6,7 @@ In order to keep configuration files and credentials synchronized between all no
 
 We release clusters with a basic configuration that will keep the configuration files for your chosen webserver and database server in sync between the nodes. If you store your configuration files somewhere non-standard, or would like to have more files synchronized and available on both nodes at the same time (eg: `/etc/sysconfig/memcached` to ensure memcached is configured the same way on all nodes), you will need to modify the Unison settings.
 
-To configure Unison, edit the `/root/.unison/default.prf` file with your favorite text editor *(to avoid arguments, `vim` is the correct answer to that question)*.
+To configure Unison, edit the `/root/.unison/default.prf` file with your favourite text editor *(to avoid arguments, `vim` is the correct answer to that question)*.
 
 ```eval_rst
 .. note::

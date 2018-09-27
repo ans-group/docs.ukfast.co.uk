@@ -28,7 +28,7 @@ An MX (Mail Exchanger) record specifies the servers that deal with incoming emai
 
 * SPF (Sender Policy Framework) Record:
 
-SPF records are designed to prevent spammers from spoofing emails from your domain by providing you with a statement confirming which servers are authorised to send email on your domain’s behalf.
+SPF records are designed to prevent spammers from spoofing emails from your domain by providing you with a statement confirming which servers are authorised to send email on your domain's behalf.
 
 * SRV (Service) Record
 

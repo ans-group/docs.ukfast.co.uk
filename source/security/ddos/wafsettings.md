@@ -51,7 +51,7 @@ Once you have set your paranoia mode you can now decide which rules you would li
 
 - **APPLICATION ATTACK RFI (Remote File Inclusion):** Inspecting the arguments for possible attack methods for remote file inclusion, this includes looking for PHP such as "include()", URLs containing an IP address, data ends with question marks (?) and RFI host that does not match its local host value.
 
-- **APPLICATION ATTACK RCE (Remote Code Execution):** This ruleset detects either Unix-based, or Windows-based shell command injections such as foo.jpg;uname -a for example, this ruleset is also case-sensitive to prevent false positives. Efforts have been made to detect common evasion techniques such as 'l'"s".  
+- **APPLICATION ATTACK RCE (Remote Code Execution):** This ruleset detects either Unix-based, or Windows-based shell command injections such as `foo.jpg;uname -a` for example, this ruleset is also case-sensitive to prevent false positives. Efforts have been made to detect common evasion techniques such as 'l'"s".  
 
 - **APPLICATION ATTACK PHP:** Looks to identify the injection, or upload of PHP code by inspecting cookies and arguments for "<?" "<?php" opening tags, and file paths or names ending in .php. In addition it looks for the inspection of or detection of PHP configuration files in common locations, and the detection of use of PHP variables/functions from a database of common / known items.
 

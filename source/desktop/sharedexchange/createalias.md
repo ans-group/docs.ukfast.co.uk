@@ -12,6 +12,6 @@
  You are then directed to the alias configuration page where you can make a number of changes. In the bottom section of the screen, you can find the list of Aliases you have created. You can create unlimited aliases free of charge.  
 
 
- The final step is to click on ‘Add Alias’ and type in the alias you would like to be associated with this email address.
+ The final step is to click on ‘Add Alias' and type in the alias you would like to be associated with this email address.
 
  *Please note you cannot send as an alias*

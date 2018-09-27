@@ -85,7 +85,7 @@ Here the file copyfileone.txt has been renamed to renamedcopy.txt
 `rm` is used to delete files and directories.
 ```console
 [root@c7 test]# rm renamedcopy.txt
-rm: remove regular empty file ‘renamedcopy.txt’? y
+rm: remove regular empty file ‘renamedcopy.txt'? y
 [root@c7 test]# ll
 total 8
 drwxr-xr-x 2 root     root     4096 Aug 11 14:45 copydirectoryone
@@ -106,9 +106,9 @@ drwxr-xr-x 2 root     root     4096 Aug 11 14:58 directoryone
 To delete a directory you need to pass the `-R` flag.
 ```console
 [root@c7 test]# rm -R directoryone
-rm: descend into directory ‘directoryone’? y
-rm: remove regular empty file ‘directoryone/filetwo.txt’? y
-rm: remove directory ‘directoryone’? y
+rm: descend into directory ‘directoryone'? y
+rm: remove regular empty file ‘directoryone/filetwo.txt'? y
+rm: remove directory ‘directoryone'? y
 ```
 Again, this prompts you. You can override this by using `-Rf`.
 ```console

@@ -5,7 +5,7 @@
 * To enable Jumbo Frames, please follow the guide below. (Before carrying out these changes, please ensure that your drivers are up to date, if they are not, you may experience performance issues)
 
 Select Start,and select control panel, within control panel, please select "Network and sharing Centre", now select "Change adapter settings" from the left hand side of the window
-Right click on the NiC on which you wish to enable Jumbo Frames and select ‘Properties’.
+Right click on the NiC on which you wish to enable Jumbo Frames and select ‘Properties'.
 
 You will now be presented with the NIC properties as below
 
@@ -19,7 +19,7 @@ Within the Advanced section, you will see several options in the "property" fiel
 
 Select the "Value" button which is set to Disabled in the above example, and Select from 2KB MTU - 9KB MTU, NiC properties vary depending on model and manufacturer, in other NiC's the value may need to be entered manually, in this case, please enter up to 9000 Bytes.
 
-Select ‘OK’
+Select ‘OK'
 
 ## Testing
 
@@ -45,7 +45,7 @@ You should see the following, this is successful:
   Reply from 10.10.10.1: bytes=8000 time<1ms TTL=128
 ```
 
-This is what you’ll see if the packet size you are attempting to transmit is too large::
+This is what you'll see if the packet size you are attempting to transmit is too large::
 
 ```console
   Packet needs to be fragmented but DF set.

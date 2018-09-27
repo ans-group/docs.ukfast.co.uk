@@ -8,7 +8,7 @@ In order to access these applications, click the __Apps__ link which appears in 
 
 ![Image226](files/Image226.png)
 
-Here you’ll see a variety of apps for different platforms, whether that be Windows, Mac, or Mobile.
+Here you'll see a variety of apps for different platforms, whether that be Windows, Mac, or Mobile.
 
 ![Image122](files/Image122.png)
 
@@ -22,11 +22,11 @@ As soon as you hit download, you will be able to see the progress in the task ba
 
 ![Image128](files/Image128.png)
 
-You’ll need to accept the license terms and conditions before running the installer. Give this a read through and if you accept the terms check the tick box and click __Install__.
+You'll need to accept the license terms and conditions before running the installer. Give this a read through and if you accept the terms check the tick box and click __Install__.
 
 ![Image125](files/Image125.png)
 
-Once finished, you’ll see the following screen. If you click __Launch__, Drive Mapper will load for the first time.
+Once finished, you'll see the following screen. If you click __Launch__, Drive Mapper will load for the first time.
 
 ![Image126](files/Image126.png)
 

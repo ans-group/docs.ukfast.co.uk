@@ -2,17 +2,17 @@
 
 File versioning is enabled so that you can roll back to the previous 5 versions of a file. This can be very useful if your file corrupts or if you wish to give another user an older version of a file.
 
-Previous versions of files can be accessed via the FASTdrive web app. Here, you’ll be able to see the previous 5 versions, when they were saved, and who they were saved by.
+Previous versions of files can be accessed via the FASTdrive web app. Here, you'll be able to see the previous 5 versions, when they were saved, and who they were saved by.
 
-Firstly, log into your FASTdrive web app using your user credentials. Once you’ve logged in, navigate to the folders tab. Here, you’ll see 3 different folders that you can navigate to; Personal Folders, Shared Folders, and Favorites.
+Firstly, log into your FASTdrive web app using your user credentials. Once you've logged in, navigate to the folders tab. Here, you'll see 3 different folders that you can navigate to; Personal Folders, Shared Folders, and Favourites.
 
 ![Image81](files/Image81.PNG)
 
-Choose one of the above top-level folders and navigate to the document that you’d like to see the previous versions of.
+Choose one of the above top-level folders and navigate to the document that you'd like to see the previous versions of.
 
 ![Image147](files/Image147.png)
 
-If you look to the right of the file name and the file upload time, you will see a small blue icon. As you can see, this icon does not appear beside every file. If only one version of a file can be found, the icon will not be shown and you won’t be able to view previous versions.
+If you look to the right of the file name and the file upload time, you will see a small blue icon. As you can see, this icon does not appear beside every file. If only one version of a file can be found, the icon will not be shown and you won't be able to view previous versions.
 
 Clicking the blue icon will show you the previous version(s) of this file. In this instance, you can see that there are 5 versions (including the current version). 
 

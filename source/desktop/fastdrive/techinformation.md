@@ -9,7 +9,7 @@ FASTdrive is based on Citrix Sharefile Enterprise Edition, and consists of 3 pri
 
 ## SaaS Application Tier
 
-The ShareFile SaaS Application Tier is hosted in Citrix’s Data Centre. The components include:
+The ShareFile SaaS Application Tier is hosted in Citrix's Data Centre. The components include:
 * NetScaler – used to load balance client requests to the ShareFile.com/eu web and API webservers
 * ShareFile.com/eu webservers designed to deliver the Web UI
 * API webservers used for client devices and tools using the HTTPS and REST API, including the Outlook plug-in, mobile and sync applications
@@ -19,7 +19,7 @@ The NetScalers and web servers are installed in the DMZ with the SQL databases i
 
 __Encryption__
 
-To protect customer data in transit ShareFile supports TLS 1.2 with up to 256 bit AES encryption and no less than 128 bit encryption with the negotiation to TLS/AES-256 dependent on whether the end user’s device or proxy supports TLS/AES-256.
+To protect customer data in transit ShareFile supports TLS 1.2 with up to 256 bit AES encryption and no less than 128 bit encryption with the negotiation to TLS/AES-256 dependent on whether the end user's device or proxy supports TLS/AES-256.
 
 __Hash-based message authentication code__
 
@@ -29,7 +29,7 @@ In security systems, hashes are used to ensure that transmitted messages have no
 
 __Metadata__
 
-Customer files are never processed, stored or transferred to the ShareFile SaaS application tier. Instead we store metadata (defined as data which describes other data). The metadata attributes that ShareFile stores in the SaaS application tier’s database servers are as follows:
+Customer files are never processed, stored or transferred to the ShareFile SaaS application tier. Instead we store metadata (defined as data which describes other data). The metadata attributes that ShareFile stores in the SaaS application tier's database servers are as follows:
 
 
 User Info:
