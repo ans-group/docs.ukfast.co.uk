@@ -8,19 +8,19 @@ To resolve this issue, you can change your Citrix Receiver preferences so that y
 
 ![Image165](files/Image165.png)
 
-You’ll then see a variety of icons appear. To navigate to the Citrix Receiver preferences we need to right click the Citrix Receiver icon which you can see below.
+You'll then see a variety of icons appear. To navigate to the Citrix Receiver preferences we need to right click the Citrix Receiver icon which you can see below.
 
 ![Image166](files/Image166.png)
 
-You’ll then see a few options appear. Here, you want to choose __Connection Center__.
+You'll then see a few options appear. Here, you want to choose __Connection Center__.
 
 ![Image167](files/Image167.png)
 
-On the following screen, you’ll be able to see your current active session. Here, left-click the session and then left-click __Preferences__. The name of the session is likely to be called __My Desktop – Citrix Receiver__ as you can see below.
+On the following screen, you'll be able to see your current active session. Here, left-click the session and then left-click __Preferences__. The name of the session is likely to be called __My Desktop – Citrix Receiver__ as you can see below.
 
 ![Image179](files/Image179.PNG)
 
-Here, you’ll be able to adjust what drives and devices are passed through to your FASTdesk session. As you can see below, you can restrict access to your local drives. This varies from granting read and write access to files to restricting access completely so that you can’t even see the files which are stored on the drive.
+Here, you'll be able to adjust what drives and devices are passed through to your FASTdesk session. As you can see below, you can restrict access to your local drives. This varies from granting read and write access to files to restricting access completely so that you can't even see the files which are stored on the drive.
 
 ![Image168](files/Image168.png)
 

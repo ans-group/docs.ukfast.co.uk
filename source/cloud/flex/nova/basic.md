@@ -9,11 +9,11 @@
   If you're not using this method of authentication, you may need to specify additional flags/options in the commands used in this article.
 ```
 
-Nova is the compute element of Openstack, basically the main chunk that handles the instance/server creation. As such, the tool for interacting with this is also called `nova`. This guide will cover some basic operations that can be carried out with this tool.
+Nova is the compute element of OpenStack, basically the main chunk that handles the instance/server creation. As such, the tool for interacting with this is also called `nova`. This guide will cover some basic operations that can be carried out with this tool.
 
 ## Installation
 
-The bundle of openstack management tools can all be found in `pip`, a package manager for python, so we'll first need to install that, along with a few dependencies that you'll be needing:
+The bundle of OpenStack management tools can all be found in `pip`, a package manager for python, so we'll first need to install that, along with a few dependencies that you'll be needing:
 
 ```bash
   yum install python-pip python-devel gcc
@@ -31,7 +31,7 @@ The same goes for a library we're going to need to install the tools:
   pip install --upgrade setuptools
 ```
 
-Now we're ready to install the whole suite of openstack cli tools:
+Now we're ready to install the whole suite of OpenStack cli tools:
 
 ```bash
   pip install python-openstackclient
@@ -73,7 +73,7 @@ The syntax for creating new instances via the `nova` cli tool is as follows:
   nova boot --key-name default --image CentOS7_2016-01 --flavor UKF1-io-1x2 novatest
 ```
 
-Unless you've used it before though, you may be asking entirely resonable questions like "How do I know what image to use?" and "What's up with the spelling of flavor?", so lets break it down a bit.
+Unless you've used it before though, you may be asking entirely reasonable questions like "How do I know what image to use?" and "What's up with the spelling of flavor?", so lets break it down a bit.
 
 The first section `nova boot` is relatively self explanatory, we're telling nova that we want to boot (create) a new instance, and the last argument `novatest` is the name we want to give the instance once it's created.
 
@@ -89,7 +89,7 @@ The first section `nova boot` is relatively self explanatory, we're telling nova
   +-----------------+-------------------------------------------------+
 ```
 
-`--image` needs to be given a valid image name so that flex knows which operating system or server image you want to create this new instance based on. If you've used the web interface for flex, you may know one off by heart, but chances are you'll need to check. For that, we need to talk to the image component of Openstack, called `glance`. Using the predictably named `glance` command that we installed earlier with all the other openstack tools, we can get a list with `glance image-list` like so:
+`--image` needs to be given a valid image name so that flex knows which operating system or server image you want to create this new instance based on. If you've used the web interface for flex, you may know one off by heart, but chances are you'll need to check. For that, we need to talk to the image component of OpenStack, called `glance`. Using the predictably named `glance` command that we installed earlier with all the other OpenStack tools, we can get a list with `glance image-list` like so:
 
 ```console
   [root@workstation ~]# glance image-list
@@ -110,7 +110,7 @@ The first section `nova boot` is relatively self explanatory, we're telling nova
 
 Your output to this command may very well be different, names may have been updated and the UUIDs have been changed in my examples on this page, so don't rely on the above content!
 
-The final part of that command is `--flavor`. American spelling aside, (it doesn't accept `--flavour` as an alias sadly, I've tried) `flavor` is the openstack parlance for 'size of instance', so it's the setting that controls how much RAM and CPU allocation you're giving the instance, along with which tier (IO/mem/std). We're back to the `nova` command for this one, with `nova flavor-list`:
+The final part of that command is `--flavor`. American spelling aside, (it doesn't accept `--flavour` as an alias sadly, I've tried) `flavor` is the OpenStack parlance for 'size of instance', so it's the setting that controls how much RAM and CPU allocation you're giving the instance, along with which tier (IO/mem/std). We're back to the `nova` command for this one, with `nova flavor-list`:
 
 ```console
   [root@workstation ~]# nova flavor-list

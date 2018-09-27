@@ -2,7 +2,7 @@
 
 ## How is this malware distributed?
 
-Wana Decrypt0r 2.0 ransomware is spreading via an exploit named ‘EternalBlue’ allegedly discovered by the NSA which was then leaked online by a group of hackers known as ‘The Shadow Brokers’. Since its initial detection this malware has caused serious issues for the UK National Health Service, Telefonica, Chinese Universities and the Russian Interior Ministry.
+Wana Decrypt0r 2.0 ransomware is spreading via an exploit named ‘EternalBlue' allegedly discovered by the NSA which was then leaked online by a group of hackers known as ‘The Shadow Brokers'. Since its initial detection this malware has caused serious issues for the UK National Health Service, Telefonica, Chinese Universities and the Russian Interior Ministry.
 
 The exploit works by gaining access to a remote system via the SMBv1 (Server Message Block) protocol which
 can be exploited via the following ports.
@@ -38,7 +38,7 @@ Our support engineers are have been working around the clock since information b
 ## How does this malware function?
 
 
-Wana Decrypt0r utilises an embedded installer which extracts a password protected .zip archive. This archive has a number of randomly named executable files within which are run to execute the Wana Decrypt0r functionality. Once the executables are present on the Windows file system, execution of the start-up tasks utilising the newly extracted .exe’s. The ransomware will then utilise the TOR client and TOR network to allow communication between the malware and its command and control to be performed via an encrypted near untraceable network. More information regarding TOR can be found on Wikipedia [here](https://en.wikipedia.org/wiki/Tor_(anonymity_network))
+Wana Decrypt0r utilises an embedded installer which extracts a password protected .zip archive. This archive has a number of randomly named executable files within which are run to execute the Wana Decrypt0r functionality. Once the executables are present on the Windows file system, execution of the start-up tasks utilising the newly extracted .exe's. The ransomware will then utilise the TOR client and TOR network to allow communication between the malware and its command and control to be performed via an encrypted near untraceable network. More information regarding TOR can be found on Wikipedia [here](https://en.wikipedia.org/wiki/Tor_(anonymity_network))
 
 Once the ransomware is present on the operating system, the malware will perform remote connectivity to the following .onion addresses within the TOR network 
 
@@ -52,7 +52,7 @@ Once the ransomware is present on the operating system, the malware will perform
 
 *cwwnhwhlz52maqm7.onion*
 
-Once connected, the malware will execute a command to attempt to modify permissions on all available file system folders the malware resides within to provide ‘Everyone’ full access;
+Once connected, the malware will execute a command to attempt to modify permissions on all available file system folders the malware resides within to provide ‘Everyone' full access;
 
 *icacls . /grant Everyone:F /T /C /Q*
 
@@ -95,13 +95,13 @@ The above command significantly reduces the available backup set, however if you
 
 * We recommend installing the Microsoft patch MS17-010 with immediate effect, if you require assistance with installation of this patch please contact our support team.
 * Anti-Virus/Malware Protection
-* UKFast have taken steps to include Wana Decrypt0r mitigation within our McAfee Access Protection ruleset as per [McAfee’s recent KB article](https://kc.mcafee.com/corporate/index?page=content&id=KB89335). If you are not currently using McAfee and require UKFast to install/manage McAfee within your Windows infrastructure, please contact our UKFast support team to arrange installation.
+* UKFast have taken steps to include Wana Decrypt0r mitigation within our McAfee Access Protection ruleset as per [McAfee's recent KB article](https://kc.mcafee.com/corporate/index?page=content&id=KB89335). If you are not currently using McAfee and require UKFast to install/manage McAfee within your Windows infrastructure, please contact our UKFast support team to arrange installation.
 * Enabling software firewall(s) between servers within the same subnet. Windows Firewall can be configured to prevent communication on SMB protocol ports between servers, this can be utilised to reduce risk of malware spread to multiple servers behind a firewall.
 * Disabling the SMB protocol - If you have no requirement for the SMB protocol to be utilised, this can be disabled via registry changes. Disabling SMB requires a server restart, SMB is required for certain server functionality, please contact our support team before proceeding with any changes to live systems.
 * AppLocker implementation (available within Windows Server 2008 R2 and above) - AppLocker can be implemented to allow system administrators to impose restrictions on user access of executables, prevention of user run scripts, denial of user performed software installation/updates and prevention of changes to system .dll and .ocx files.  Click [here for details](https://technet.microsoft.com/en-us/library/dd759117(v=ws.11).aspx)
 * Hosts file DNS redirection - Wana DeCrypt0r 2.0 is known to retrieve a TOR client via the following address; https://dist.torproject.org/torbrowser/6.5.1/tor-win32-0.2.9.10.zip
 The TOR .onion network is also utilised
-Adding a new HOSTS entry to redirect DNS lookup’s to this site and onion network;
+Adding a new HOSTS entry to redirect DNS lookup's to this site and onion network;
 
    0.0.0.0 dist.torproject.org
 
@@ -123,7 +123,7 @@ Open with an administrative notepad to add any additional changes
 
 Addition of this HOSTS entry will prevent the TOR aspect removing some command and control aspect of the ransomware. Preventing external connectivity to the malware by forcing the DNS request to a null address.
 
-* UKFast’s default firewall configuration excludes access on the above TCP and UDP ports for public access, however these ports can be modified by your team(s) to be open for public access. To clarify if your firewall has these ports open or not please login to the [MyUKFast firewall section](https://my.ukfast.co.uk/server/firewalls.php) to verify the firewall port configuration.  UKFast recommends the SMB protocol TCP and UDP ports be closed for public access if open, we do not recommend allowing public  access to the SMB protocol as standard practice. If you are unfamiliar with firewall ports or require additional assistance, please contact our support team on any of the following;
+* UKFast's default firewall configuration excludes access on the above TCP and UDP ports for public access, however these ports can be modified by your team(s) to be open for public access. To clarify if your firewall has these ports open or not please login to the [MyUKFast firewall section](https://my.ukfast.co.uk/server/firewalls.php) to verify the firewall port configuration.  UKFast recommends the SMB protocol TCP and UDP ports be closed for public access if open, we do not recommend allowing public  access to the SMB protocol as standard practice. If you are unfamiliar with firewall ports or require additional assistance, please contact our support team on any of the following;
    * [Priority Support Request](https://my.ukfast.co.uk/pss/add.php)
 
    * Email [support@ukfast.co.uk](mailto:support@ukfast.co.uk)
@@ -138,7 +138,7 @@ Addition of this HOSTS entry will prevent the TOR aspect removing some command a
 
 ### Windows 2003 & XP
 
-Microsoft have released patching for Windows XP which is available via the Microsoft Update Catalog. Although these operating systems are no longer within Microsoft’s supported operating systems, they have provided patching availability which needs to be applied manually.
+Microsoft have released patching for Windows XP which is available via the Microsoft Update Catalog. Although these operating systems are no longer within Microsoft's supported operating systems, they have provided patching availability which needs to be applied manually.
 
 Patches for older operating systems are available [here](http://www.catalog.update.microsoft.com/Search.aspx?q=KB4012598&ranMID=24542&ranEAID=TnL5HPStwNw&ranSiteID=TnL5HPStwNw-veALAaECnpbc3sX3qwgd3Q&tduid=(f359256c2e7587423e1da93cc0f03bff)(256380)(2459594)(TnL5HPStwNw-veALAaECnpbc3sX3qwgd3Q)())
 
@@ -149,7 +149,7 @@ UKFast recommends upgrading the operating system at your earliest convenience. W
 UKFast cannot endorse the payment of ransomware to third parties. This decision will require serious deliberation within your company to choose the desired option for your business.
 
 ## Contacting UKFast Support
-Please don’t hesitate to contact our support professionals who can provide assistance and information surrounding this malware
+Please don't hesitate to contact our support professionals who can provide assistance and information surrounding this malware
 * [Priority Support Request](https://my.ukfast.co.uk/pss/add.php)
 
 * Email [support@ukfast.co.uk](mailto:support@ukfast.co.uk)

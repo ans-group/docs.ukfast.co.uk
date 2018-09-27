@@ -1,6 +1,6 @@
 # How to secure your dedicated firewall
 
-Your firewall is your first line of defense against malicious actors on the public internet. The best way to keep your server secure from attackers is to make sure they get blocked by your firewall.
+Your firewall is your first line of defence against malicious actors on the public internet. The best way to keep your server secure from attackers is to make sure they get blocked by your firewall.
 
 ## Locking down vital services to Admin IPs only
 

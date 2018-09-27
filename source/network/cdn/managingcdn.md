@@ -18,14 +18,14 @@ There are also a number of reasons why content will not be cached:
 
 ## Special Cases
 
-Once cachable content has been marked as expired, the CDN will perform a conditional GET request with the If-Modified-Since header. This saves bandwidth as the full item will only be fetched from the origin server if the file has been modified since the time recorded in the Last-Modified header.
+Once cacheable content has been marked as expired, the CDN will perform a conditional GET request with the If-Modified-Since header. This saves bandwidth as the full item will only be fetched from the origin server if the file has been modified since the time recorded in the Last-Modified header.
 
 There are a few situations that will mean stale content could be served from the CDN, such as:
 * http errors 500/502/503/504
 * the origin server is unable to process a request
 * cached content is currently being updated from the origin server (this is to minimize the requests to the origin server)
 * the origin server times out the request
-If there are multiple requests to an item that isn't in the cache, only one request will be fetched from the origin server. Once cached, subsequent requests will be delievered from cache.
+If there are multiple requests to an item that isn't in the cache, only one request will be fetched from the origin server. Once cached, subsequent requests will be delivered from cache.
 
 The CDN uses four values to decide what makes a request unique, and therefore uncached:
 
@@ -36,7 +36,7 @@ The CDN uses four values to decide what makes a request unique, and therefore un
 
 Put simply, a request for **https:**//example.org/example.jpg will be cached as normal, but if a request was made for **http:**//example.org/example.jpg then the first request would not be cached, but subsequent requests would be.  This is because 301's are cached, and if you are redirecting http to https we can cache the https request differently. (Only if MIME-type caching is disabled)
 
-You might recognise the first three values, but maybe not the fourth. The slice range is used to cut up larger files such as video into chucks and allow for more efficent caching, with each slice range being cached individually. You can see the value of this by looking at the http range header.
+You might recognise the first three values, but maybe not the fourth. The slice range is used to cut up larger files such as video into chucks and allow for more efficient caching, with each slice range being cached individually. You can see the value of this by looking at the http range header.
 
 ## X-Proxy-Cache Header
 

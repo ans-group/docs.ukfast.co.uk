@@ -11,7 +11,7 @@ This aim of this guide is to take a brand new UKFast loadbalancer and configure 
 
 Here's a brief rundown of some of the terms that will be used throughout this guide and in the loadbalancer interface:
 
-* `Virtual IP` - A Virtual IP (VIP) is the frontend IP address and associated servuce in a loadbalanced solution.
+* `Virtual IP` - A Virtual IP (VIP) is the frontend IP address and associated service in a loadbalanced solution.
 
 
 * `Service` - The protocol that a VIP uses. These can be either `HTTP`, `HTTPS`, `HTTPS Offloaded` or `TCP`
@@ -119,7 +119,7 @@ Here's a breakdown of the fields available to you:
 
 * `Use Cookie`
 
-  The loadbalancers use cookies as a method of setting up `sticky sessions`, which is a way of ensuring that a visitor ends up on the same backend server each time (for example, so that they don't lose their basket on an eccommerce site). If this isn't important to you, you can disable the cookie here and visitors will be distributed using whatever loadbalancing method you selected previously.
+  The loadbalancers use cookies as a method of setting up `sticky sessions`, which is a way of ensuring that a visitor ends up on the same backend server each time (for example, so that they don't lose their basket on an eCommerce site). If this isn't important to you, you can disable the cookie here and visitors will be distributed using whatever loadbalancing method you selected previously.
 
 
 * `Cookie Name`
@@ -159,7 +159,7 @@ Once again, here's a breakdown of the fields available to you:
 
 * `Virtual IP`
 
-  This is where you define the `VIP` itself. The field should automatically reccomend available IPs, but support_ can help you identify which are available to you if you're unsure. It's possible that you many need to purchase more IP addresses if you don't have any available. If this is the case, your account manager will be able to help.
+  This is where you define the `VIP` itself. The field should automatically recommend available IPs, but support_ can help you identify which are available to you if you're unsure. It's possible that you many need to purchase more IP addresses if you don't have any available. If this is the case, your account manager will be able to help.
 
 
 * `Service`

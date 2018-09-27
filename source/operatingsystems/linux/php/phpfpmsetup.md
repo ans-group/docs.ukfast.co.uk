@@ -110,7 +110,7 @@ You should now be able to see the php-fpm socket.
  which should should show something like.
 
  ```console
-   File: ‘/var/run/php-fcgi-firstdomaincom.sock’
+   File: ‘/var/run/php-fcgi-firstdomaincom.sock'
   Size: 0               Blocks: 0          IO Block: 4096   socket
 Device: 13h/19d Inode: 3108659     Links: 1
 Access: (0666/srw-rw-rw-)  Uid: (   48/  apache)   Gid: (   48/  apache)

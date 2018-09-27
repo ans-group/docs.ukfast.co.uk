@@ -1,6 +1,6 @@
 # How to secure your shared firewall
 
-Your firewall is your first line of defense against malicious actors on the public internet. The best way to keep your server secure from attackers is to make sure they get blocked by your firewall.
+Your firewall is your first line of defence against malicious actors on the public internet. The best way to keep your server secure from attackers is to make sure they get blocked by your firewall.
 
 Sometimes the more advanced firewall features are disabled by default. If you see a message like the following when attempting to use a feature you need, please do hit the "Request Access" button and we'll be alerted to your request.
 
