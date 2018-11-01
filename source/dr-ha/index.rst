@@ -1,12 +1,21 @@
-=================================================
-Backups, Disaster Recovery, and High Availability
-=================================================
+============================
+Backup and High Availability
+============================
 
-Information relevant to backups, disaster recovery, and highly available solutions from UKFast.
+Information relevant to backup, disaster recovery, and highly available solutions from UKFast.
 
---------------
-Backups and DR
---------------
+-------------
+UKFast Backup
+-------------
+
+.. toctree::
+   :maxdepth: 2
+
+   ukfast_backup/index
+
+-----------------------
+General Backup Guidance
+-----------------------
 
 Help and guidance to ensure your data and IT is sufficiently backed up, just in case.
 
@@ -31,6 +40,6 @@ Documentation relating to our highly-available solutions which are able to recov
 
 
 .. meta::
-   :title: Backups, Disaster Recover and High Availability hosting solutions | UKFast Documentation
+   :title: Backup, Disaster Recover and High Availability hosting solutions | UKFast Documentation
    :description: Help with managing backups, disaster recovery and high availability hosting
    :keywords: ukfast, backups, dr, high, availability, cloud, hosting, disaster recovery
