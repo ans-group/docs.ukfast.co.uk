@@ -11,6 +11,7 @@ Backups are performed daily and retained for 7 days
 ![connect](files/backup_schedule_2.png)
 
 **Manually Start Backup** schedules the backup to be executed as soon as possible by the server outside of the standard schedule.
+
 ```eval_rst
 .. warning::
 
