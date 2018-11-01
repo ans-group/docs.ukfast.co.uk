@@ -27,7 +27,7 @@ Includes and excludes are directories, partial directories or wildcard file name
 
 ## User defined includes and excludes
 
-Navigate to the "custom includes/excludes section on the page and select `+ Add custom record` and follow the guidance below to create a rule.
+Navigate to the "custom includes/excludes section on the page and select `+ Add custom record` and follow the guidance below to create a rule."
 
 ![connect](files/backup_schedule_3.png)
 
