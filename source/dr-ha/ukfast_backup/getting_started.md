@@ -7,9 +7,10 @@ UKFast Backup can be managed by selecting the server you want to manage within [
 **Overview** provides information on your total, used and available backup quota and provides quick access to perform a full restore.
 
 **Running jobs** is only visible when a backup or restore job is currently being processed.
+
 ```eval_rst
 .. warning::
-Please note that Windows backups must wait for a system state to run on the client before files will begin to process, this often takes up to 20 minutes.
+  Please note that Windows backups must wait for a system state to run on the client before files will begin to process, this often takes up to 20 minutes.
 ```
 
 ## Default includes and excludes
