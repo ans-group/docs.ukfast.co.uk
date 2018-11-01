@@ -13,7 +13,7 @@ Backups are performed daily and retained for 7 days
 **Manually Start Backup** schedules the backup to be executed as soon as possible by the server outside of the standard schedule.
 
 ```eval_rst
-.. warning::
+  .. warning::
   Please note: a maximum of 7 backup iterations are retained, therefore your oldest backup will be lost when performing a manual backup.
 ```
 
