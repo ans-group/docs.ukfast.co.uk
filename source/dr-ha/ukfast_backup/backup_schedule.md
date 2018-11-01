@@ -14,7 +14,7 @@ Backups are performed daily and retained for 7 days
 ```eval_rst
 .. warning::
 
-Please note: a maximum of 7 backup iterations are retained, therefore your oldest backup will be lost when performing a manual backup.
+   Please note: a maximum of 7 backup iterations are retained, therefore your oldest backup will be lost when performing a manual backup.
 ```
 
 **Backup Window** is a time period when the backup server will attempt to perform backups. This must be at least a 3 hour period to ensure that all backups can be queued and performed efficiently.
