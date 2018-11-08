@@ -9,7 +9,7 @@ eCloud Vault is UKFast's object storage platform based on the S3 and OpenStack S
 
    connecting
    s3website
-
+   integrations/cpanel
 
 .. meta::
    :title: eCloud Vault | UKFast Documentation
