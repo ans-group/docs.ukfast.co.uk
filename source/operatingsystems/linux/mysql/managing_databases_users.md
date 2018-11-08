@@ -2,14 +2,8 @@
 
 This guide outlines some common tasks when it comes to managing your MySQL database and users.
 
-## List all Users
 
-If you need to see all the users currently on your database server, run the following query in MySQL:
-```sql
-  SELECT host, user, password FROM mysql.user;
-```
-
-## Reset a user's password
+## Reset a normal user's password
 
 Run the following query to change a user's password:
  ```sql
@@ -21,10 +15,11 @@ Run the following query to change a user's password:
 
 Losing your MySQL root password can be a problem. Luckily there is a fairly quick solution to reset the root password with minimal downtime.
 
-Stop MySQL, and start it without 'grant tables' so you can login without the password. Log into MySQL as root:
+Stop MySQL, and start it with the '--skip-grant-tables' option so you can login without the password. Log into MySQL as root:
 
 ```console
   service mysql stop
+  mysqld --skip-grant-tables
   mysql -u root
 ```
 
@@ -44,6 +39,20 @@ Test logging in with the new password:
  ```console
   mysql -u root -p
 ```
+
+## To change GRANTS, create new users or modify existing users
+
+Use the commands below.
+
+```sql
+  CREATE DATABASE dbname;
+  CREATE USER dbuser@00.00.00.00;
+  SET PASSWORD FOR dbuser@00.00.00.00= PASSWORD("password");
+  GRANT ALL PRIVILEGES ON dbname.* TO dbuser@00.00.00.00 IDENTIFIED BY 'password';
+  FLUSH PRIVILEGES;
+```
+
+For a guide on a more common CLI commands, please do check out our [MySQL Command Line Basics](/operatingsystems/linux/mysql/mysql_cli_basics.html) guide.
 
 ```eval_rst
   .. meta::

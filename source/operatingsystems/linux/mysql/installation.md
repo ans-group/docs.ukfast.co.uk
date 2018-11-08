@@ -1,6 +1,6 @@
 # Installing MySQL
 
-`MySQL` is somewhat infamous for being the number one hobbyist database whilst also being the world's second most widely used (overtaken by SQLite and it's prolific usage on Android/Apple devices).
+`MySQL` is somewhat infamous for being the number one hobbyist database whilst also being the world's second most widely used (overtaken only by SQLite and its prolific usage on Android/Apple devices).
 
 ## Installation
 
@@ -18,9 +18,9 @@ CentOS 7:
   yum install mariadb-server
 ```
 
-This will also install the mysql command line client to allow you to interact with the new mysql server.
+This will also install the MySQL command line client to allow you to interact with the new MySQL server.
 
-Set mysql to start on boot with:
+## Set MySQL to always start on boot
 
 CentOS 5 & 6:
 
@@ -34,7 +34,7 @@ CentOS 7:
   systemctl enable mariadb
 ```
 
-Then start it up with the following:
+## Start your MySQL server
 
 CentOS 5 & 6:
 
@@ -48,23 +48,17 @@ CentOS 7:
   systemctl start mariadb
 ```
 
-Configuration
+## Configuration
 
-The MySQL configuration file is located in the following location:
+The MySQL configuration file is usually located in the following location:
 
 ```console
   /etc/my.cnf
 ```
 
-There are many guides on how to 'tune' mysql on the internet, most of which contain conflicting, misleading or even damaging information and any guide that claims to have 'the best' `my.cnf` layout should be treated with suspicion.
+There are many guides on how to 'tune' MySQL on the internet, most of which contain conflicting, misleading or even damaging information. Any guide that claims to have 'the best' `my.cnf` layout should be treated with suspicion. For a guide on a few of the more common steps, please do check out our [MySQL Troubleshooting and Tuning](/operatingsystems/linux/mysql/troubleshooting.html) guide.
 
-That said, there are tools out there that can be used to make reasoned guesses about what configuration you may want to run, such as the following wizard from Percona:
-
-<https://tools.percona.com/wizard>  (requires registration)
-
-or the following perl script that checks your system resources and spits out a list of reccomended tweaks:
-
-<http://mysqltuner.pl>
+While these guides can help with some common issues and configurations, they are no substitute for consulting an experienced DBA who can optimize for your application and solution, especially if your application is not standard off-the-shelf software.
 
 ```eval_rst
   .. meta::
