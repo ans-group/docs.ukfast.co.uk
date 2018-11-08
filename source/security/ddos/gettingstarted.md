@@ -2,8 +2,7 @@
 
 DDoSX<sup>®</sup>, Content Delivery Network (CDN) and Web Application Firewall (WAF) are features of our global network that work together to significantly improve your website or web application's speed and security. DDoSX<sup>®</sup> provides protection against DDoS attacks. CDN is an **optional** feature that caches your site's content closer to the end user, and WAF is another **optional** feature which provides protection at the application layer for your domains. In order to use CDN and WAF, DDoSX must first be enabled on your domain(s).
 
-To use DDoSX\ :sup:`®`, CDN and WAF from UKFast, you need to either have your domains' nameservers pointing to the UKFast nameservers or have the ability to setup CNAME/ALIAS records with your current provider.
-```
+To use DDoSX<sup>®</sup>, CDN and WAF from UKFast, you need to either have your domains' nameservers pointing to the UKFast nameservers or have the ability to setup CNAME/ALIAS records with your current provider.
 
 ## Using safeDNS:
 
