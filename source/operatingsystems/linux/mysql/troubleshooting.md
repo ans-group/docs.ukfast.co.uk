@@ -114,7 +114,7 @@ As a good rule of thumb, increase them to 32M, restart MySQL, then let your serv
 
 ## MySQLTuner
 
-[MySQLTuner](https://github.com/major/MySQLTuner-perl) is an open source perl project that aims to provide a quick way to review your MySQL install, and makes some general suggestions for performance and stability. Please bear in mind that these are only suggestions - MySQL Tuner does not know about your application or your server, so it may not make the best recommendations for you. They give a clear warning, which we will repeat here:
+[MySQLTuner](https://github.com/major/MySQLTuner-perl) is an open source perl project that aims to provide a quick way to review your MySQL install, and makes some general suggestions for performance and stability. Please bear in mind that these are only suggestions - MySQLTuner does not know about your application or your server, so it may not make the best recommendations for you. They give a clear warning, which we will repeat here:
 
 ```eval_rst
 .. warning::
@@ -129,6 +129,11 @@ wget https://raw.githubusercontent.com/major/MySQLTuner-perl/master/basic_passwo
 wget https://raw.githubusercontent.com/major/MySQLTuner-perl/master/vulnerabilities.csv -O vulnerabilities.csv
 perl mysqltuner.pl
 ```
+
+## Percona Wizard
+
+Percona offer [Configuration Wizard](https://tools.percona.com/wizard), which also aims to help you review and optimize your MySQL performance. The same warnings apply here as with MySQLTuner. While it may help with the most common issues and configurations, it is no substitute for an experienced DBA who can optimize for your applications.
+
 
 ## References and further external reading
 
