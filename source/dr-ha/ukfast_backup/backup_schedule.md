@@ -6,9 +6,11 @@ Within the **Backup** tab of your server, navigate to **Backup Schedule** and se
 
 ## Schedule options
 
-Backups are performed daily and retained for 7 days
+Backups are performed daily and retained for 7 days.
 
 ![connect](files/backup_schedule_2.png)
+
+**Number of iterations** is the number of backups that are stored by your retention schedule. For example, retaining 7 iterations of a daily backup is a 7 day retention period. It is not currently possible to change the number of iterations or freqency.
 
 **Manually Start Backup** schedules the backup to be executed as soon as possible by the server outside of the standard schedule.
 
@@ -23,7 +25,7 @@ Backups are performed daily and retained for 7 days
 
 Includes and excludes are directories, partial directories or wildcard file names that are explicitly included or excluded from your backup.
 
-[Default includes and excludes](/dr-ha/ukfast_backup/getting_started.html#Default-includes-and-excludes) are setup automatically with your server and more rules can be added via MyUKFast. Please contact support to remove any default exclusions.
+[Default includes and excludes](/dr-ha/ukfast_backup/getting_started.html#Default-includes-and-excludes) are setup automatically with your server and more rules can be added via MyUKFast.
 
 ## User defined includes and excludes
 
@@ -33,8 +35,6 @@ Navigate to the "custom includes/excludes section on the page and select `+ Add 
 
 Directories can be absolute like `C:/Users/WorkPC/Documents` or `/home/centos/documents` – this would backup the whole "Documents" folder. Wildcards can also be used `C:/Users/WorkPC/Documents/*.xlsx` or `/home/centos/documents/*.xlsx` – this would backup any `.xlsx` files in the "Documents" folder.
 It is also possible to backup specific files from across the whole volume, for instance on linux systems `*.bin` would backup all `.bin` files from the volume, or `C:/*.docx` would backup all of the `*.bin` files on the C drive.
-
-**Save and Run** saves the current editable options on the screen and schedules a backup to run immediately.
 
 **Save** saves the current editable options on the screen.
 

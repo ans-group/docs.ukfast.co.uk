@@ -11,6 +11,7 @@ UKFast Backup protects your files and folders with seven-day retention on flexib
    backup_schedule
    delete_backup
    restoring_files
+   faq
    glossary_of_terms
 
 .. meta::

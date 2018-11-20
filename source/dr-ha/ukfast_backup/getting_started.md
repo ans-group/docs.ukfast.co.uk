@@ -18,27 +18,27 @@ UKFast Backup can be managed by selecting the server you want to manage within [
 UKFast Backup comes pre-configured with a default backup schedule which includes all data from mounted disks and excludes certain temporary files and log files including:
 
 * Linux includes
-  * /
+  * `/`
 
 
 * Linux excludes
-  * /proc
-  * /sys
-  * /tmp
-  * /var/tmp
+  * `/proc`
+  * `/sys`
+  * `/tmp`
+  * `/var/tmp`
 
 
 * Windows includes
-  * [A-Z]:/
+  * `[A-Z]:/`
 
 
 * Windows excludes
-  * [A-Z]:/System Volume Information
-  * [A-Z]:/$recycle bin
-  * hiberfil
-  * [A-Z]:/pagefile.sys
-  * [A-Z]:/Windows/Temp
-  * [A-Z]:/Windows/Installer
+  * `[A-Z]:/System Volume Information`
+  * `[A-Z]:/$recycle bin`
+  * `hiberfil`
+  * `[A-Z]:/pagefile.sys`
+  * `[A-Z]:/Windows/Temp`
+  * `[A-Z]:/Windows/Installer`
 
 You can create additional rules within the [backup schedule](/dr-ha/ukfast_backup/backup_schedule.html).
 
