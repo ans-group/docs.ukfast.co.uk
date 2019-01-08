@@ -106,6 +106,48 @@ For instance, using the "office network" example above - you know that traffic f
 
 It is important to think carefully when applying whitelists, as the more you implement the less secure your site will become. You should always endeavour to balance security and accessibility - a task that requires a detailed knowledge of your website, application and end users (both internal to your company, as well as external).
 
+## Advanced Whitelist
+
+Advanced Whitelisting allows you to combat false positives more flexibly by whitelisting genuine traffic to your site based on the rules you create. Following the steps below will allow you to build rules to your specification.
+To start navigate to your DDoSX dashboard and select WAF. Here you will find the Advanced Whitelist section. Select Add Rule. 
+
+![files_AddWAFrule](files/files_AddWAFrule.png)
+
+**Step 1:**
+Choose the “Section” you want to allow, the below list are the variables available.
+
+![files_awstep1](files/files_awstep1.jpg)
+
+- ARGS GET AND POST – allow all arguments
+- MATCHED_VARS – allow all or some of the variables 
+- REMOTE_HOST – allow all or some of the hostnames
+- REQUEST_BODY – allow all or some of the request body 
+- REQUEST_COOKIES – allow all or some cookies 
+- REQUEST_HEADERS – allow all or some headers
+- REQUEST_URI – full request URL 
+
+**Step 2:**
+Choose the “Modifier” you want to implement from the below;
+
+![files_awstep2](files/files_awstep2.jpg)
+
+- contains (regex match) - Returns true if the parameter string is found anywhere in the input. Macro expansion is performed on the parameter string before comparison.
+- containsWord (regex match for string) - Returns true if the parameter string (with word boundaries) is found anywhere in the input. Macro expansion is performed on the parameter string before comparison.
+- beginsWith (Starts with e.g. ^) - Returns true if the parameter string is found at the beginning of the input. Macro expansion is performed on the parameter string before comparison.
+- endsWith (Engs with e.g. $) - Returns true if the parameter string is found at the end of the input. Macro expansion is performed on the parameter string before comparison.
+
+**Step 3:**
+Choose the “Phrase”, this is what you are looking for in the above match.
+eg. "/admin" or "test string" – this is a free type box.
+
+![files_awstep3](files/files_awstep3.jpg)
+
+**Step 4: Optional**
+
+Choose the “IP address” you want this rule to apply to. 
+
+![files_awstep4](files/files_awstep4.jpg)
+
 
 ```eval_rst
 .. meta::
