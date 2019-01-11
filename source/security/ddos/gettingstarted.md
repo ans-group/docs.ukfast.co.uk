@@ -1,22 +1,24 @@
 # Getting started with DDoSX, CDN and WAF
 
-DDoSX<sup>®</sup>, Content Delivery Network (CDN) and Web Application Firewall (WAF) are features of our global network that work together to significantly improve your website or web application’s speed and security. DDoSX<sup>®</sup> provides protection against DDoS attacks. CDN is an **optional** feature that caches your site's content closer to the end user, and WAF is another **optional** feature which provides protection at the application layer for your domains. In order to use CDN and WAF, DDoSX must first be enabled on your domain(s).
+DDoSX<sup>®</sup>, Content Delivery Network (CDN) and Web Application Firewall (WAF) are features of our global network that work together to significantly improve your website or web application's speed and security. DDoSX<sup>®</sup> provides protection against DDoS attacks. CDN is an **optional** feature that caches your site's content closer to the end user, and WAF is another **optional** feature which provides protection at the application layer for your domains. In order to use CDN and WAF, DDoSX must first be enabled on your domain(s).
 
-```eval_rst
-.. seealso::
+To use DDoSX<sup>®</sup>, CDN and WAF from UKFast, you need to either have your domains' nameservers pointing to the UKFast nameservers or have the ability to setup CNAME/ALIAS records with your current provider.
 
-   To use DDoSX\ :sup:`®`, CDN and WAF from UKFast, you need to have your domains' nameservers pointing to the UKFast nameservers, and you also need to manage your DNS records using SafeDNS.
+## Using safeDNS:
 
-   Make sure to set up your DNS records correctly in SafeDNS first - see the :doc:`/Domains/safedns/index` guide for assistance.  You must move all records associated with the domains (including sub-domains) you wish to protect, including SMTP, MX, mail etc. to SafeDNS.
+To make sure to set up your DNS records correctly in SafeDNS first - see the :doc:`/Domains/safedns/index` guide for assistance.  You must move all records associated with the domains (including sub-domains) you wish to protect, including SMTP, MX, mail etc. to SafeDNS.
 
-   Once you have done this, point your domains to the UKFast nameservers, which are:
+Once you have done this, point your domains to the UKFast nameservers, which are:
 
    - ns0.ukfast.net
    - ns1.ukfast.net
 
-   You'll need to do this through whichever domain registrar you use to manage your domains (which may not be UKFast).  If you don't know who your domain registrar is you can do a 'WHOIS' lookup on websites such as https://whois.icann.org/
+You'll need to do this through whichever domain registrar you use to manage your domains (which may not be UKFast).  If you don't know who your domain registrar is you can do a 'WHOIS' lookup on websites such as https://whois.icann.org/
 
-```
+## Set up CNAME:
+
+To set up CNAME read our [documentation in the FAQ's](https://docs.ukfast.co.uk/security/ddos/generalinformation.html). Please note that in order to protect your root domain, for example UKFast.co.uk, you must first check that your DNS provider will support root level forwarding such as; an ALIAS or ANAME. If your DNS provider does not support this we cannot protect the root domain. The root domain will also not be protected by WAF or able to serve CDN. However, for example,  www.ukfast.co.uk  and all subdomains will be fully protected. For more information read our documentation.
+
 
 ```eval_rst
 .. warning::
@@ -87,7 +89,7 @@ To enable DDoSX<sup>®</sup>, CDN and WAF on your domains, follow these steps:
 
 - Once you've added all the domains you need to test to your `hosts` file, save the changes. Then open a web browser and try browsing to your domain.  Your local `hosts` file will route the request directly to the DDoSX IP address so you'll be able to see exactly how your site will perform when you change your DNS records.
 
-- If you're happy with how your site performs, you can switch the DNS Routing for your domain to "DDoSX".  Note that it may take [up to 48 hours](/Domains/domains/dnspropagation.html) for DNS changes to propogate across the internet (as with any such changes), and before your domain is fully protected.
+- If you're happy with how your site performs, you can switch the DNS Routing for your domain to "DDoSX".  Note that it may take [up to 48 hours](/Domains/domains/dnspropagation.html) for DNS changes to propagate across the internet (as with any such changes), and before your domain is fully protected.
 
 ## Create CDN caching rules
 
@@ -108,11 +110,11 @@ Navigate to the WAF tab to find the settings for WAF on DDoSX.  There are a numb
 
 Once your domain is fully enabled on DDoSX, all requests to your webserver will appear to come from the DDoSX IP address rather than the original client. Therefore you may wish to configure your webserver to place the original client IP address into the logs. This is most important if you're using a stats package like Webalizer or AWStats, which rely on analysing your local webserver logs.
 
-Here's how to do this for nginx and Apache:
+Here's how to do this for NGiNX and Apache:
 
-### nginx
+### NGiNX
 
-For nginx, insert this code into one of the `http` or `server` blocks in your configuration. This requires the [realip](https://nginx.org/en/docs/http/ngx_http_realip_module.html) module be compiled into nginx. You can confirm if this is already there with `nginx -V 2>&1 | grep -o realip`. If this outputs `realip`, you're good to go.
+For NGiNX, insert this code into one of the `http` or `server` blocks in your configuration. This requires the [realip](https://nginx.org/en/docs/http/ngx_http_realip_module.html) module be compiled into nginx. You can confirm if this is already there with `nginx -V 2>&1 | grep -o realip`. If this outputs `realip`, you're good to go.
 
 ```
 set_real_ip_from 185.156.64.0/24;
@@ -124,7 +126,7 @@ real_ip_header X-Forwarded-For;
 real_ip_recursive on;
 ```
 
-Once you have added these into your configuration, test and reload your nginx configuration (e.g. `nginx -t && systemctl reload nginx`) to make the changes live.
+Once you have added these into your configuration, test and reload your NGiNX configuration (e.g. `nginx -t && systemctl reload nginx`) to make the changes live.
 
 ### Apache
 
@@ -142,7 +144,7 @@ For Apache 2.4 and above, you will need to use the [mod_remoteip](https://httpd.
 LogFormat "%a %l %u %t \"%r\" %>s %b \"%{Referer}i\" \"%{User-Agent}i\"" ddosx
 
 # You may already have a line like the following in your VirtualHost declaration,
-# if so, change the last part (likely the word 'combined') to 'ddosx' to use the
+# if so, change the last part (likely the word `combined`) to `ddosx` to use the
 # above log format.
 CustomLog /var/log/httpd/acmecorp.com/access.log ddosx
 ```
@@ -151,6 +153,29 @@ Test and then reload your Apache configuration (e.g. `httpd -t && systemctl relo
 
 For Apache 2.2 you will need to use [mod_rpaf](https://github.com/gnif/mod_rpaf), the use of which is beyond the scope of this document.
 
+### haproxy
+
+If you have haproxy in front of your webservers, you'll probably want to set the
+X-Forwarded-For header on here. The easiest way to do this is to disable the 
+`forwardfor` option to prevent haproxy setting the header automatically, and instead
+set the header manually in each backend.
+
+First, comment out your forwardfor option, potentially in the `defaults` section, e.g.
+
+```
+defaults
+    #option forwardfor except 192.168.1.10
+...
+```
+
+Then, in each backend set the `X-Forwarded-For` header to match the value of the `DDOSX-Connecting-IP` header:
+
+```
+backend webservers
+    mode http
+    http-request set-header X-Forwarded-For %[req.hdr(DDOSX-Connecting-IP)]
+    server web1 ...
+```
 
 ```eval_rst
 .. meta::

@@ -1,10 +1,10 @@
 # Setting Necessary Environment Variables for flex
 
-This guide is more of a springboard for the others in this category, getting your work environment set up in such a way that all the openstack tools we use *should just work™*  out of the gate.
+This guide is more of a springboard for the others in this category, getting your work environment set up in such a way that all the OpenStack tools we use *should just work™*  out of the gate.
 
-## The Openstack RC file
+## The OpenStack RC file
 
-The primary way in which we'll achieve this is via use of a file provided by openstack. This file is a list of pre-populated environment variables that will be used whenever you log into your shell session.
+The primary way in which we'll achieve this is via use of a file provided by OpenStack. This file is a list of pre-populated environment variables that will be used whenever you log into your shell session.
 
 It's best explained through demonstration, so you can head to the following location to find the file:
 
@@ -56,7 +56,7 @@ export OS_REGION_NAME="RegionOne"
 if [ -z "$OS_REGION_NAME" ]; then unset OS_REGION_NAME; fi
 ```
 
-On the machine you're going to be running your openstack commands on, open up `~/.bash_profile` (adapt as appropriate if you're using an alternate shell) and add `source ~/.os.rc` to it, replacing `~/.os.rc` with wherever you saved the rc file, so that it looks somewhat like this:
+On the machine you're going to be running your OpenStack commands on, open up `~/.bash_profile` (adapt as appropriate if you're using an alternate shell) and add `source ~/.os.rc` to it, replacing `~/.os.rc` with wherever you saved the rc file, so that it looks somewhat like this:
 
 ```bash
   # .bash_profile
@@ -75,7 +75,7 @@ On the machine you're going to be running your openstack commands on, open up `~
   export PATH
 ```
 
-Either log out and back in, or type `source ~/.os.rc` to essentially run the file, setting all the necessary environment variables. The first thing you'll notice is that this causes a prompt to appear, asking for your openstack password. This is because it's not stored in the rc file by default, it sets it manually each time you log in so that it's not stored in plaintext on the filesystem.
+Either log out and back in, or type `source ~/.os.rc` to essentially run the file, setting all the necessary environment variables. The first thing you'll notice is that this causes a prompt to appear, asking for your OpenStack password. This is because it's not stored in the rc file by default, it sets it manually each time you log in so that it's not stored in plaintext on the filesystem.
 
 ```console
   [root@workstation ~]# source ~/.os.rc

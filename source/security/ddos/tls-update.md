@@ -8,7 +8,7 @@ In accordance with this requirement, we **disabled both the TLS1.0 and TLS1.1 pr
 
 Please read the [PCI Security Standards Council blog post](https://blog.pcisecuritystandards.org/are-you-ready-for-30-june-2018-sayin-goodbye-to-ssl-early-tls) for a detailed explanation, but in summary there are serious security issues with early versions of the TLS protocol that have not been addressed retrospectively by the industry at large.  In recent years several large scale security breaches such as POODLE and BEAST originated due to weaknesses in early TLS and SSL being exploited.
 
-Given that all modern web browsers (including those used on mobile devices) now support TLS1.2 as standard, the PCI Security Standards Council have decided to set this deadline for disabling early TLS protocols in the interest of all users of online ecommerce websites and applications.
+Given that all modern web browsers (including those used on mobile devices) now support TLS1.2 as standard, the PCI Security Standards Council have decided to set this deadline for disabling early TLS protocols in the interest of all users of online eCommerce websites and applications.
 
 
 ## How is TLS1.0 and TLS1.1 traffic generated?

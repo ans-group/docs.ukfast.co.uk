@@ -10,11 +10,11 @@ There are three options for SSL configuration, depending on your needs:
 
 Configuring the Webcelerator to handle SSL may require a small period of downtime depending on the option you'd like to implement.
 
-If you have multiple VIP's on your Webcelerator, we can set up more than one of these configuration options to suit a multi-tennant environment.
+If you have multiple VIPs on your Webcelerator, we can set up more than one of these configuration options to suit a multi-tenant environment.
 
 ## Diagram of SSL configuration options
 
-<center>![WebCel SSL Comparason](images/WebCel-SSL.png)</center>
+<center>![WebCel SSL Comparison](images/WebCel-SSL.png)</center>
 
 ## Comparison of SSL configuration options
 
@@ -88,7 +88,7 @@ If you have multiple VIP's on your Webcelerator, we can set up more than one of 
 
 ## SSL Passthrough
 
-When using SSL passthrough, we will transparrently proxy the HTTPS connection to your backend over layer 4.
+When using SSL passthrough, we will transparently proxy the HTTPS connection to your backend over layer 4.
 
 All connections to the backend will be received on port 443, so your backend will continue to behave as normal in terms of redirection rules checking for HTTPS traffic; however as we can't inject headers into the request, the only IP you'll be able to retrieve is the Webcelerator's IP address.
 
@@ -102,7 +102,7 @@ Once the traffic is decrypted, we can inspect the request to determine whether i
 
 To allow you to identify from the backend whether the traffic originated as HTTPS or not, we add the `X-Forwarded-Proto` header onto the request which will be set to `https` if the request was originally HTTPS.
 
-We also add a `X-Forwarded-For` header onto the request containing the originating IP address of the request, which will allow you to retrieve the client IP for use in your applcication.
+We also add a `X-Forwarded-For` header onto the request containing the originating IP address of the request, which will allow you to retrieve the client IP for use in your application.
 
 ### Apache HTTPS redirection fix
 
@@ -112,16 +112,16 @@ Some clients have found that adding the following to the top of their `.htaccess
 SetEnvIf X-Forwarded-Proto https HTTPS=on
 ```
 
-Alterntatively, some clients have found that placing the following `RewriteRule` into their `.htaccess` file has worked:
+Alternatively, some clients have found that placing the following `RewriteRule` into their `.htaccess` file has worked:
 
 ```apache
 RewriteCond %{HTTP:X-Forwarded-Proto} !https
 RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
 ```
 
-### NGINX HTTPS redirection fix
+### NGiNX HTTPS redirection fix
 
-Some clients have found that adding the following to their NGINX configuration for a domain fixes issues with redirection loops:
+Some clients have found that adding the following to their NGiNX configuration for a domain fixes issues with redirection loops:
 
 ```nginx
 if ($http_x_forwarded_proto = "https") {
@@ -129,7 +129,7 @@ if ($http_x_forwarded_proto = "https") {
 }
 ```
 
-Alterntatively, some clients have found that placing the following into a `server { }` block configured to `listen 80;` has worked:
+Alternatively, some clients have found that placing the following into a `server { }` block configured to `listen 80;` has worked:
 
 ```nginx
 if ($http_x_forwarded_proto != "https") {
@@ -145,4 +145,4 @@ This means that the backend is basically unaware that the traffic has passed thr
 
 That being said, requests will still appear as though they originated from the Webcelerator - with the actual client IP being passed under the `X-Forwarded-For` header.
 
-While this has a small performance overhead from the two encryption steps, this is negligable on modern hardware, and the benefit of having the Webcelerator as a "drop-in" solution to caching static content on your site outweighs this in most instances.
+While this has a small performance overhead from the two encryption steps, this is negligible on modern hardware, and the benefit of having the Webcelerator as a "drop-in" solution to caching static content on your site outweighs this in most instances.

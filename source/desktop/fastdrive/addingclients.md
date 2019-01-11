@@ -2,7 +2,7 @@
 
 Client users can be added by any employee user as long as they have the relevant permissions enabled on their account. In order to add a client user, the __Manage Client Users__ permission must be enabled.
 
-A client user doesn’t have the same permissions as employee users and therefore doesn't require a license.
+A client user doesn't have the same permissions as employee users and therefore doesn't require a license.
 
 ## Step 1
 
@@ -28,7 +28,7 @@ Next, you need to enter some basic information and set some basic user permissio
 
 Similarly to how employee users are added to folders and groups, the same also applies to client users too. The employee user who is adding the client user can assign the client user to folders and distribute various permissions.
 
-In order to add a user to a folder, expand one of the 3 main folders (Personal Folders, Shared Folders, and Favorites) and choose a folder which you’d like to add the client user to by marking the check box.
+In order to add a user to a folder, expand one of the 3 main folders (Personal Folders, Shared Folders, and Favourites) and choose a folder which you'd like to add the client user to by marking the check box.
 
 ![Image73](files/Image73.png)
 

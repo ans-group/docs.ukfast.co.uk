@@ -1,5 +1,5 @@
 =============================
-3rd Party Tools and Openstack
+3rd Party Tools and OpenStack
 =============================
 
 There are a large amount of tools/products out there that can interact with OpenStack environments, including eCloud Flex.

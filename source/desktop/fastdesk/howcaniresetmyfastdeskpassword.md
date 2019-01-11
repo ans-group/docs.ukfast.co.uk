@@ -54,8 +54,8 @@ characters or longer and include mixed case and at least one number.
 
 ![Image134](files/Image134.png)
 
-You’ll then be asked to confirm this password. If the passwords that you entered matched correctly, you will be logged in
-successfully and you’ll see a screen similar to the one below.
+You'll then be asked to confirm this password. If the passwords that you entered matched correctly, you will be logged in
+successfully and you'll see a screen similar to the one below.
 
 ![Image135](files/Image135.png)
 

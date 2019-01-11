@@ -14,7 +14,7 @@ Please note that this somtimes does not work if there are devices in front of th
 
 ## Purging via cURL
 
-Slightly easier and more scriptable is the use of curl. The following command does the same as the above. (For clarity, that’s a capital 'i' and a zero):
+Slightly easier and more scriptable is the use of curl. The following command does the same as the above. (For clarity, that's a capital 'i' and a zero):
 
 ```
 curl -I0 -X PURGE -H "Host: www.example.com" http://198.51.100.200/images/logo.png
@@ -50,7 +50,7 @@ Which should return a `200 OK` response code if the purge was successful.
 
 ## Purging via PHP
 
-You could also submit purge requests from your application to do this programatically as required. An example of performing a purge in PHP follows – note that you will need the `pecl_http` module installing (on Linux boxes this can be done with the command `pecl install pecl_http`). Adjust `$DomainName`, `$VIP` and the `$request` as desired:
+You could also submit purge requests from your application to do this programmatically as required. An example of performing a purge in PHP follows – note that you will need the `pecl_http` module installing (on Linux boxes this can be done with the command `pecl install pecl_http`). Adjust `$DomainName`, `$VIP` and the `$request` as desired:
 
 ```php
 <?php

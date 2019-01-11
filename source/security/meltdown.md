@@ -69,7 +69,7 @@ This process should take a few minutes, but we're not out of the woods yet. Refr
 
 ![Pending reboot](files/dirtycow2.jpg)
 
-Again, select the servers you want to restart, and select either `Reboot selected now` or `Reboot selected at set time` from the dropdown. If you're doing it at a set time, enter a time, then hit `Schedule Reboot` to get it all underway.
+Again, select the servers you want to restart, and select either `Reboot selected now` or `Reboot selected at set time` from the dropdown. If you're doing it at a set time, enter a time, then hit `Schedule Reboot` to get it all under way.
 
 Once your servers are back online, you're good to go.
 

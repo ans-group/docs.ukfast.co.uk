@@ -2,7 +2,7 @@
 
 Ansible is a configuration management platform that's currently owned by RedHat, popular with linux sysadmins from all over, though windows admins are currently trying to get in on the action.
 
-Describing the full scope of ansible and it's usage is clearly out of reach of this article, but I will attempt to hilight some of the useful ways in which ansible can be used to automate the creation of your flex-based infrastructure.
+Describing the full scope of ansible and it's usage is clearly out of reach of this article, but I will attempt to highlight some of the useful ways in which ansible can be used to automate the creation of your flex-based infrastructure.
 
 ## The os_server module
 

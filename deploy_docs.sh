@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
-if ! getent hosts github.com > /dev/null 2>&1; then
-    /usr/bin/logger -s -t deploy_docs 'Failed to resolve github.com, aborting deployment'
+if ! getent hosts gitlab.com > /dev/null 2>&1; then
+    /usr/bin/logger -s -t deploy_docs 'Failed to resolve gitlab.com, aborting deployment'
     exit 1
 fi
 cd /opt/docs.ukfast.co.uk

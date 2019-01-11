@@ -51,7 +51,7 @@ Once you have set your paranoia mode you can now decide which rules you would li
 
 - **APPLICATION ATTACK RFI (Remote File Inclusion):** Inspecting the arguments for possible attack methods for remote file inclusion, this includes looking for PHP such as "include()", URLs containing an IP address, data ends with question marks (?) and RFI host that does not match its local host value.
 
-- **APPLICATION ATTACK RCE (Remote Code Execution):** This ruleset detects either Unix-based, or Windows-based shell command injections such as foo.jpg;uname -a for example, this ruleset is also case-sensitive to prevent false positives. Efforts have been made to detect common evasion techniques such as 'l'"s".  
+- **APPLICATION ATTACK RCE (Remote Code Execution):** This ruleset detects either Unix-based, or Windows-based shell command injections such as `foo.jpg;uname -a` for example, this ruleset is also case-sensitive to prevent false positives. Efforts have been made to detect common evasion techniques such as 'l'"s".  
 
 - **APPLICATION ATTACK PHP:** Looks to identify the injection, or upload of PHP code by inspecting cookies and arguments for "<?" "<?php" opening tags, and file paths or names ending in .php. In addition it looks for the inspection of or detection of PHP configuration files in common locations, and the detection of use of PHP variables/functions from a database of common / known items.
 
@@ -105,6 +105,48 @@ You can build a rule like this yourself, by looking at the WAF Logs within [MyUK
 For instance, using the "office network" example above - you know that traffic from your workplace originates from IP address 8.8.8.8 and that you need to use the /admin area of your site, but you are running into a large number of errors to this URI from your office location.  You can gather from this information that these will be false positives, and will impact your productivity if not addressed.
 
 It is important to think carefully when applying whitelists, as the more you implement the less secure your site will become. You should always endeavour to balance security and accessibility - a task that requires a detailed knowledge of your website, application and end users (both internal to your company, as well as external).
+
+## Advanced Whitelist
+
+Advanced Whitelisting allows you to combat false positives more flexibly by whitelisting genuine traffic to your site based on the rules you create. Following the steps below will allow you to build rules to your specification.
+To start navigate to your DDoSX dashboard and select WAF. Here you will find the Advanced Whitelist section. Select Add Rule. 
+
+![files_AddWAFrule](files/files_AddWAFrule.png)
+
+**Step 1:**
+Choose the “Section” you want to allow, the below list are the variables available.
+
+![files_awstep1](files/files_awstep1.jpg)
+
+- ARGS GET AND POST – allow all arguments
+- MATCHED_VARS – allow all or some of the variables 
+- REMOTE_HOST – allow all or some of the hostnames
+- REQUEST_BODY – allow all or some of the request body 
+- REQUEST_COOKIES – allow all or some cookies 
+- REQUEST_HEADERS – allow all or some headers
+- REQUEST_URI – full request URL 
+
+**Step 2:**
+Choose the “Modifier” you want to implement from the below;
+
+![files_awstep2](files/files_awstep2.jpg)
+
+- contains (regex match) - Returns true if the parameter string is found anywhere in the input. Macro expansion is performed on the parameter string before comparison.
+- containsWord (regex match for string) - Returns true if the parameter string (with word boundaries) is found anywhere in the input. Macro expansion is performed on the parameter string before comparison.
+- beginsWith (Starts with e.g. ^) - Returns true if the parameter string is found at the beginning of the input. Macro expansion is performed on the parameter string before comparison.
+- endsWith (Engs with e.g. $) - Returns true if the parameter string is found at the end of the input. Macro expansion is performed on the parameter string before comparison.
+
+**Step 3:**
+Choose the “Phrase”, this is what you are looking for in the above match.
+eg. "/admin" or "test string" – this is a free type box.
+
+![files_awstep3](files/files_awstep3.jpg)
+
+**Step 4: Optional**
+
+Choose the “IP address” you want this rule to apply to. 
+
+![files_awstep4](files/files_awstep4.jpg)
 
 
 ```eval_rst

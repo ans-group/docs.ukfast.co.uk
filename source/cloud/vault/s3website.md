@@ -7,7 +7,7 @@
 
 ```eval_rst
 .. warning::
-  As with most of our Vault  guides, we're going to assume that you already have a working s3cmd enviroment
+  As with most of our Vault  guides, we're going to assume that you already have a working s3cmd environment
 
   If you're not using this method of authentication, you may need to specify additional flags/options in the commands used in this article.
 ```
@@ -39,11 +39,11 @@ You can test the WebPage is working by viewing the website
 ```bash
   browser> http://www.example.com.vault-website-man-5.ecloud.co.uk
 ```
-## Hosting a Static Website on Ecloud Vault with a Custom domain name
+## Hosting a Static Website on eCloud Vault with a Custom domain name
 
 In this section we discuss the DNS settings required to point your domain to the static website bucket created above.
 
-Using your favirote DNS provider add a CNAME to the bucket name, in our example We added the below:
+Using your favourite DNS provider add a CNAME to the bucket name, in our example We added the below:
 
 ```bash
   www.example.com.         300     IN      CNAME   www.example.com.vault-website-man-5.ecloud.co.uk
