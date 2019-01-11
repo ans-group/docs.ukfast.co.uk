@@ -2,7 +2,7 @@
 
 UKFast offers two types of firewalls, shared and dedicated. Both offer a level of customization via the MyUKFast portal. You can view and customize the configuration of both under the Products and Services menu, then look for Firewalls:
 
-![Firewall location](files\firewalls_location.png)
+![Firewall location](files/firewalls_location.png)
 
  If you are not sure which type you have, you can see clearly here. You can search and browse your firewalls, clicking on the IP or Name to take you to the specific firewall. The configuration pages for shared and dedicated firewalls look a little different, but they do let you have the same basic features. On all UKFast firewalls you can:
 
