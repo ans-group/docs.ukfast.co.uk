@@ -4,7 +4,11 @@ Whilst not specific to SafeDNS, it's always nice to have a breakdown of the vari
 
 * CNAME (Canonical Name) Record:
 
- Lnks a domain to the A name record of another domain for ease of redirection. So, when you setup a CNAME you are basically saying “Use the same IP for this domain (X) as this other domain (Y)”.
+ Links a domain to the A name record of another domain for ease of redirection. So, when you setup a CNAME you are basically saying “Use the same IP for this domain (X) as this other domain (Y)”.
+
+* CAA (Certification Authority Authorisation)
+
+CAA records are used to allow domain owners to declare which certificate authorities are allowed to issue a certificate for that domain. If a CAA record is present, only the CAs listed in the records are allowed to issue certificates for that hostname.
 
 * TXT (Text) Record:
 
@@ -24,7 +28,7 @@ An MX (Mail Exchanger) record specifies the servers that deal with incoming emai
 
 * SPF (Sender Policy Framework) Record:
 
-SPF records are designed to prevent spammers from spoofing emails from your domain by providing you with a statement confirming which servers are authorised to send email on your domain’s behalf.
+SPF records are designed to prevent spammers from spoofing emails from your domain by providing you with a statement confirming which servers are authorised to send email on your domain's behalf.
 
 * SRV (Service) Record
 

@@ -23,7 +23,7 @@ The web servers are installed outside of the DMZ, and traffic is passed through 
 
 __Encryption__
 
-To protect customer data and changes made, the web console servers support TLS 1.2 with up to 256 bit AES encryption and no less than 128 bit encryption, with the negotiation to TLS/AES-256 dependent on whether the end user’s device or proxy supports TLS/AES-256.
+To protect customer data and changes made, the web console servers support TLS 1.2 with up to 256 bit AES encryption and no less than 128 bit encryption, with the negotiation to TLS/AES-256 dependent on whether the end user's device or proxy supports TLS/AES-256.
 
 __Access/Security__
 
@@ -37,7 +37,7 @@ The following process describes a backup job:
 1. Client logs into web console and manually initiates a backup, or a backup runs automatically as previously scheduled
 2. The request is relayed to the Commcell
 3. The Commcell then communicates with both the FASTcloudbackup agent on the device to be backed up, and the storage via media agent servers, to ensure that it has a connection to both, and that the customer account has sufficient storage quota to run the job
-4. The media agent will connect to the FASTcloudbackup agent and begin the transfer of data. This transfer uses AES encryption (RijnDael), making use of Commvault’s propriety encryption library - CommVault Cryptographic Library Version – 1.0 (FIPS 140-2 Certified)
+4. The media agent will connect to the FASTcloudbackup agent and begin the transfer of data. This transfer uses AES encryption (RijnDael), making use of Commvault's propriety encryption library - Commvault Cryptographic Library Version – 1.0 (FIPS 140-2 Certified)
 5. The media agent also updates the Commcell with progress information, which is passed back to the web console server and displayed in the console.
 
 ## CVStorage

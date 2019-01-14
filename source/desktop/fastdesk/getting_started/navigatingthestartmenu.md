@@ -18,7 +18,7 @@ The full list of apps is listed below. This list includes the apps which are alr
 
 ![Image155](files/Image155.png)
 
-If you right click an app you’ll see a variety of options appear. However the main two are __Pin to start__ (Unpin from Start) and __Pin to taskbar__ (Unpin from taskbar).
+If you right click an app you'll see a variety of options appear. However the main two are __Pin to start__ (Unpin from Start) and __Pin to taskbar__ (Unpin from taskbar).
 
 ![Image156](files/Image156.png)
 
@@ -30,6 +30,6 @@ Pinning an app to the taskbar means that it will be seen at the bottom of your d
 
 ![Image158](files/Image158.png)
 
-Applications can also be unpinned in exactly the same way. Just right click the application and you’ll see the options below.
+Applications can also be unpinned in exactly the same way. Just right click the application and you'll see the options below.
 
 ![Image159](files/Image159.png)

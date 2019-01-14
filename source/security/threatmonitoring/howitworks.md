@@ -46,5 +46,5 @@ In order to minimize the threat of an attack on computer infrastructure, a secur
 .. meta::
      :title: How Threat Monitoring works | UKFast Documentation
      :description: Guidance relating to UKFast's Threat Monitoring solution
-     :keywords: threat monitoring, alerts, security, compliance, rules, rulesets, ukfast, hosting, file integrity monitoring, rootkit, detection, vulnerability scan, scans, hids, intrustion detection
+     :keywords: threat monitoring, alerts, security, compliance, rules, rulesets, ukfast, hosting, file integrity monitoring, rootkit, detection, vulnerability scan, scans, hids, intrusion detection
 ```

@@ -1,5 +1,5 @@
 # Deduplicated Backups
-Some backup applications such as CommVault and DPM offer to deduplicate your data to greatly reduce the required amount of space to store your backed up data.
+Some backup applications such as Commvault and DPM offer to deduplicate your data to greatly reduce the required amount of space to store your backed up data.
 
 When your data is backed up it is divided into "blocks" of data. The size of blocks can vary, but usually they are close to 64KB in size.
 

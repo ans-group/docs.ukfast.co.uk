@@ -1,6 +1,6 @@
 # Schedules
 
-These are the default scanning and update policies we apply to your McAfee antivirus.
+These are the default scanning and update policies we apply to your McAfee anti-virus.
 
 ## Default Managed Update Policy (Windows & Linux);
 - Start Time – 5:00AM

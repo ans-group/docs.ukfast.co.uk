@@ -18,7 +18,7 @@ These users then poll for their new position every 5 seconds via an AJAX call, w
 
 The backend system then aims to achieve a target number of active users on the site (just under what your server can hold at maximum capacity), and will trickle users through as positions on the site become available.
 
-There is a timeout period where clients will be pushed to the back of the queue after a spcified amount of inactivity.
+There is a timeout period where clients will be pushed to the back of the queue after a specified amount of inactivity.
 
 ## How is the queue configured?
 
@@ -36,7 +36,7 @@ While not the most accurate way of calculating the active user numbers, it allow
 ```eval_rst
 .. meta::
    :title: General information on the Webcelerator queue system | UKFast Documentation
-   :description: The Webcelerator has a queue system which can be used to releive stress on your backend server.
+   :description: The Webcelerator has a queue system which can be used to relieve stress on your backend server.
    :keywords: ukfast, webcel, webcelerator, queue, overloaded
 ```
 

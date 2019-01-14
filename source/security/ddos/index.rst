@@ -19,3 +19,4 @@ DDoSX\ :sup:`®` is designed to protect your websites and applications from Deni
    troubleshooting
    ips
    tls-update
+   CNAME

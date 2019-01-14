@@ -16,7 +16,7 @@ The Webcelerator sits outside of the firewall, most commonly in an active/passiv
 
 ## Default configuration
 
-Out of the box, the Webcelerator has a default set of rules that is fairly agressive about caching static content. The following file types are forcibly cached for 2 hours by default:
+Out of the box, the Webcelerator has a default set of rules that is fairly aggressive about caching static content. The following file types are forcibly cached for 2 hours by default:
 
 `jpeg, jpg, gif, png, css, js, xml, txt, ico, xpm, swf, flv, pdf`
 

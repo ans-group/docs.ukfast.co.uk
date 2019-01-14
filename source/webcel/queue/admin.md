@@ -27,7 +27,7 @@ You can correlate this data with information from Google Analytics and other sou
 
 ## Queue control
 
-The "Qeueue control" section of the panel allows you to manage how the queue actually works on your Webcelerator.
+The "Queue control" section of the panel allows you to manage how the queue actually works on your Webcelerator.
 
 ![WebCel Queue Admin Control](files/webcel-queue-control.png)
 
@@ -55,7 +55,7 @@ The following items can be configured:
 * **Main heading** *(required)*: Sets the heading text at the top of the loading box on the holding page ("Please wait..." in the screenshot above).
 * **Top text** *(required)*: Sets the text underneath the heading on in the loading box.
 * **Logo image**: Sets a logo to appear above the loading box. This will need to be hosted externally, perhaps through a service like [Imgur.com](https://imgur.com). You should place a direct URL to the image file in this field.
-* **Show position?** *(required)*: This determines whether the position counter should be shown on the page or not. When set to "No", only the spikking loading icon will be shown.
+* **Show position?** *(required)*: This determines whether the position counter should be shown on the page or not. When set to "No", only the spiking loading icon will be shown.
 * **Background colour**: This sets the background colour for the holding page.
 * **Background image**: This sets a background image for the holding page. Please note that this will have the following CSS applied: `background-repeat:no-repeat;`. This will need to be hosted externally, perhaps through a service like [Imgur.com](https://imgur.com). You should place a direct URL to the image file in this field.
 

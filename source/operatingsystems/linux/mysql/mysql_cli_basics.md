@@ -1,6 +1,6 @@
 # MySQL Command Line Basics
 
-In this tutorial, we will cover the basics of MySQL command line. MySQL is a the client for accessing the mysql daemon and will allow you to access, retrieve and modify your databases and users through your linux server.
+In this tutorial, we will cover the basics of MySQL command line. MySQL CLI is a client for accessing the MySQL server daemon and will allow you to access, retrieve and modify your databases and users through your Linux server.
 
 It is available through the base CentOS and Ubuntu repositories. The commands below will help you browse through your databases and look at your users.
 
@@ -14,7 +14,7 @@ Once you have logged into your server through SSH using a client like PuTTY, use
 ```
 
 
-Once logged in your should see the following prompt.
+Once logged in your should see something like the following prompt.
 
 ```console
   Welcome to the MySQL monitor.  Commands end with ; or \g.
@@ -32,7 +32,6 @@ Once logged in your should see the following prompt.
 
   mysql>
 ```
-
 
 
 ## View Database and Tables
@@ -63,13 +62,13 @@ This will show the following information.
 Here you can view your tables and even run queries.
 
 ```sql
-  SHOW TABLES
+  SHOW TABLES;
 ```
 
-Here is an example query for a Magento database for example.
+Here is an example query from a Magento database, where we are checking the current base URL:
 
 ```sql
-  select * from core_config_data where path like '%base%url%';
+  SELECT * FROM core_config_data WHERE path LIKE '%base%url%';
 ```
 
 
@@ -79,14 +78,14 @@ Here is an example query for a Magento database for example.
 You can also view your users. All of the users that are available on your MySQL install will be shown using the command below.
 
 ```sql
-  select user,host from mysql.user;
+  SELECT user, host FROM mysql.user;
 ```
 
-A thing to note here is that the `root@localhost` user is not the same as `root@127.0.0.1` as MySQL (and linux in general) treats sockets different to a TCP/IP unless there is an alias associated with it.
-You can read more about this by using the link to the official MySQL documentation below.
+MySQL users have 2 parts: username and host, usually written as 'username'@'host'. Username is self-explanatory. Host defines where that user is allowed to connect from. For example, 'dbuser'@'123.123.123.123', which will allow dbuser to connect from the IP address 123.123.123.123, or 'root'@'localhost' means the root user, connecting from the local server only.
 
-[MySQL connection documentation](http://dev.mysql.com/doc/refman/5.5/en/can-not-connect-to-server.html)
+Note that this means you could have 2 users with the same username, as long as they have different hosts. So 'dbuser'@'123.123.123.123' and 'dbuser'@'111.111.111.111' can both exist on the same server.
 
+A thing to note here is that the `root@localhost` user is NOT the same as `root@127.0.0.1`! MySQL (and linux in general) treats sockets differently to TCP/IP connections unless there is an alias associated with it. You can read more about this by using the link to the [official MySQL documentation](http://dev.mysql.com/doc/refman/5.5/en/can-not-connect-to-server.html).
 
 You can also view grants for an individual user using the command below.
 
@@ -100,19 +99,7 @@ You can also view grants for an individual user using the command below.
   1 row in set (0.00 sec)
 ```
 
-
-
-## To change GRANTS, create new users or modify existing users
-
-Use the commands below.
-
-```sql
-  CREATE DATABASE dbname;
-  CREATE USER dbuser@00.00.00.00;
-  SET PASSWORD FOR dbuser@00.00.00.00= PASSWORD("password");
-  GRANT ALL PRIVILEGES ON dbname.* TO dbuser@00.00.00.00 IDENTIFIED BY 'password';
-  FLUSH PRIVILEGES;
-```
+For more tips on managing users and databases, please do check out our [Managing Databases and Users](/operatingsystems/linux/mysql/managing_databases_users.html) guide.
 
 ```eval_rst
   .. meta::

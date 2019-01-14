@@ -4,7 +4,7 @@ This section should help with any problems you run in to.
 
 ## I can't connect my domain(s) to the DDoSX<sup>®</sup> network
 
-If you're struggling to connect your domains, first check that you are using [SafeDNS](/Domains/safedns/index.html) to manage your DNS records.  You neeed to use SafeDNS and point your domains to the UKFast nameservers, which are
+If you're struggling to connect your domains, first check that you are using [SafeDNS](/Domains/safedns/index.html) to manage your DNS records.  You need to use SafeDNS and point your domains to the UKFast nameservers, which are
 - ns0.ukfast.co.uk
 - ns1.ukfast.co.uk
 
@@ -38,7 +38,7 @@ Make sure you've configured your [WAF settings](/security/ddos/wafsettings.html)
 
 ## Why is my WAF blocking legitimate requests?
 
-It can take time to configure your [WAF settings](/security/ddos/wafsettings.html) correctly in order to avoid "false positives", or blocking legitmate requests to your application.  Often this can require a trial-and-error approach to determine the optimal paranoia level and rulesets, that meet your security requirements without preventing legitimate users from accessing your application as needed.  We strongly recommend running your WAF in Detection Only mode for a period of time before switching it on.  This will give you the chance to understand which requests will be blocked, by analysing the log files produced.  Please contact UKFast support by raising a support ticket in [MyUKFast](https://my.ukfast.co.uk) if you need help with this.
+It can take time to configure your [WAF settings](/security/ddos/wafsettings.html) correctly in order to avoid "false positives", or blocking legitimate requests to your application.  Often this can require a trial-and-error approach to determine the optimal paranoia level and rulesets, that meet your security requirements without preventing legitimate users from accessing your application as needed.  We strongly recommend running your WAF in Detection Only mode for a period of time before switching it on.  This will give you the chance to understand which requests will be blocked, by analysing the log files produced.  Please contact UKFast support by raising a support ticket in [MyUKFast](https://my.ukfast.co.uk) if you need help with this.
 
 
 ```eval_rst

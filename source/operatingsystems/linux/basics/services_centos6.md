@@ -109,7 +109,7 @@ You can sometimes even get some information on if the service was stopped cleanl
 
 One of the most important tasks regarding services is making sure they start automatically, as you don't want to have to log in after every reboot and start them manually.
 
-The command for this is `chkconfig` on Redhat/CentOS systems.
+The command for this is `chkconfig` on RedHat/CentOS systems.
 
 Usage is fairly simple. To start apache at boot, we'd use the following command:
 
