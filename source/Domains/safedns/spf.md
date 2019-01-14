@@ -12,7 +12,7 @@ If you're looking for a very basic SPF record that fits most situations (mail wi
 v=spf1 a mx -all
 ```
 
-If you have a more complex setup (a separate dedicated mail server, or if you use a 3rd party bulk mail service), please do refer to the [in-depth SPF guide](/operatingsystems/linux/mail/spf.html).
+If you have a more complex setup (a separate dedicated mail server, or if you use a 3rd party bulk mail service), please do refer to the [in-depth SPF guide](/operatingsystems/linux/mail/spf.md).
 
 To add the SPF record, first log into [SafeDNS in MyUKFast](https://my.ukfast.co.uk/safedns/index.php) and choose the relevant domain.
 
