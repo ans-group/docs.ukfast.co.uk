@@ -44,7 +44,7 @@ If you expect to be changing PHP versions over the lifetime of your application 
 
 ```eval_rst
 .. warning::
-This is an advanced process and you should only attempt this if you are very comfortable with setting up web stacks by hand. All code given here is for example only, please do not copy paste it directly as the process will vary depending on how your server is set up. The basic steps are the same but the commands will change in different setups.
+    This is an advanced process and you should only attempt this if you are very comfortable with setting up web stacks by hand. All code given here is for example only, please do not copy paste it directly as the process will vary depending on how your server is set up. The basic steps are the same but the commands will change in different setups.
 ```
 
 The example here assumes you are using a CentOS 7 server and running PHP-FPM. If you run any other OS or do not use PHP-FPM, please adjust this to be suitable to your environment.
