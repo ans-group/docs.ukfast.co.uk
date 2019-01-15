@@ -7,6 +7,8 @@ FASTdesk®  is UKFast’s Desktop as a Service (DaaS) solution, which allows use
 From your device, download and install the latest version of the Citrix Workspace app at this URL:
 https://www.citrix.co.uk/downloads/workspace-app/
 
+![CitrixWorkspaceVersions](files/CitrixWorkspaceVersions.JPG)
+
 Mobile versions of the app can be accessed via the above link or preferably, through your devices' app store (e.g. Apple’s
 App Store or Google Play Store for Android)
 
