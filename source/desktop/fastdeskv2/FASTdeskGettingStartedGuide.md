@@ -14,6 +14,8 @@ As you can see from the image below, all versions of Workspace are listed. Expan
 Mobile versions of the app can be accessed via the above link or preferably, through your devices' app store (e.g. Apple’s
 App Store or Google Play Store for Android)
 
+![CitrixWorkspaceVersionsApple](files/CitrixWorkspaceVersionsApple.JPG) ![CitrixWorkspaceVersionsAndroid](files/CitrixWorkspaceVersionsAndroid.JPG)
+
 # Step 2 - Logging in
 
 From your preferred browser, log in via the URL: https://www.fastdesk.co.uk using the username and password provided.
