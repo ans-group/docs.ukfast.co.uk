@@ -35,3 +35,5 @@ If you're setting up the Workspace App on Android or iOS, you will similarly be 
 # Step 4 - Launching a desktop
 
 Once you have logged into FASTdesk®, you will be presented with all of your Applications and Hosted Desktops. You can navigate between Desktops and Apps via the icons found at the top of the screen. Simply click __Desktops__ to navigate to this category. You can also click the Details link for additional options. As well as being able to open your desktop you can also choose to Add To Favourites,which pins your desktop to the Favourites category
+
+![CitrixWorkspaceDesktop](files/CitrixWorkspaceDesktop.JPG) ![CitrixWorkspaceDesktopAndroid](files/CitrixWorkspaceDesktopAndroid.jpg)
