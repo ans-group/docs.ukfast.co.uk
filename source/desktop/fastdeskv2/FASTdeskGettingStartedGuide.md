@@ -24,4 +24,6 @@ After you have successfully logged in for the first time, you will be asked to c
 
 # Step 3 - Workspace App setup (Optional)
 
-After launching Citrix Workspace for the first time, you will be asked to add an account
+After launching Citrix Workspace for the first time, you will be asked to add an account. Simply type the following URL "https://www.fastdesk.co.uk" and click __Add__. You will then be asked to provide your username and password.
+
+If you're setting up the Workspace App on Android or iOS, you will similarly be asked to enter your company email address or Store URL. Again, enter "https://www.fastdesk.co.uk"
