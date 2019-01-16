@@ -21,3 +21,7 @@ App Store or Google Play Store for Android)
 From your preferred browser, log in via the URL: https://www.fastdesk.co.uk using the username and password provided.
 
 After you have successfully logged in for the first time, you will be asked to change your password. Your password must be a minimum of 8 characters in length and contain at least 3 of the following: uppercase letters, lowercase letters, numbers, symbols and unicode characters that are deemed as alphabetic characters but not uppercase or lowercase. Your password can also not contain the name of your account. For example, if your account name is John Smith, a password with the word 'john' will not be accepted. 
+
+# Step 3 - Workspace App setup (Optional)
+
+After launching Citrix Workspace for the first time, you will be asked to add an account
