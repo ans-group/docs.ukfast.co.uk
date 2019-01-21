@@ -12,7 +12,7 @@ As you can see from the image below, all versions of Workspace are listed. Expan
 ![CitrixWorkspaceVersions](files/CitrixWorkspaceVersions.JPG)
 
 Mobile versions of the app can be accessed via the above link or preferably, through your devices' app store (e.g. Apple’s
-App Store or Google Play Store for Android) - Note - Citrix Workspace for iOS is only available through the Apple App Store. Downloading Citrix Workspace for iOS from the above link will direct users to the Apple App Store
+App Store or Google Play Store for Android) - Note - Citrix Workspace for iOS is only available through the Apple App Store. Downloading Citrix Workspace for iOS from the above link will direct users to the Apple App Store anyway.
 
 ![CitrixWorkspaceVersionsApple](files/CitrixWorkspaceVersionsApple.jpg) ![CitrixWorkspaceVersionsAndroid](files/CitrixWorkspaceVersionsAndroid.jpg)
 
