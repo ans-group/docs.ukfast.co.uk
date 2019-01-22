@@ -7,9 +7,7 @@ Information and guidance for FASTdesk, covering installation, configuration and 
 .. toctree::
    :maxdepth: 1
 
-   install_citrix_receiver
-   navigatingthestartmenu
-   navigation
+   FASTdeskGettingStartedGuide
 
 For a quick view of how to install Citrix Receiver and start using FASTdesk, take a look at this video.
 
