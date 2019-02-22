@@ -119,8 +119,15 @@ For NGiNX, insert this code into one of the `http` or `server` blocks in your co
 ```
 set_real_ip_from 185.156.64.0/24;
 set_real_ip_from 23.170.128.0/24;
+set_real_ip_from 192.166.44.0/24;
+set_real_ip_from 78.24.88.0/24;
+set_real_ip_from 195.69.102.0/24;
+set_real_ip_from 185.181.196.0/22;
 set_real_ip_from 2a02:21a8:1::/48;
 set_real_ip_from 2a02:21a8:2::/48;
+set_real_ip_from 2a09:ba00:4::/48;
+set_real_ip_from 2a09:b600:5::/48;
+set_real_ip_from 2a09:b200:6::/48;
 set_real_ip_from 2a02:21a8::/48;
 real_ip_header X-Forwarded-For;
 real_ip_recursive on;
@@ -137,8 +144,15 @@ For Apache 2.4 and above, you will need to use the [mod_remoteip](https://httpd.
     RemoteIPHeader X-Forwarded-For
     RemoteIPTrustedProxy 185.156.64.0/24
     RemoteIPTrustedProxy 23.170.128.0/24
+    RemoteIPTrustedProxy 192.166.44.0/24
+    RemoteIPTrustedProxy 78.24.88.0/24
+    RemoteIPTrustedProxy 195.69.102.0/24
+    RemoteIPTrustedProxy 185.181.196.0/22
     RemoteIPTrustedProxy 2a02:21a8:1::/48
     RemoteIPTrustedProxy 2a02:21a8:2::/48
+    RemoteIPTrustedProxy 2a09:ba00:4::/48
+    RemoteIPTrustedProxy 2a09:b600:5::/48
+    RemoteIPTrustedProxy 2a09:b200:6::/48
     RemoteIPTrustedProxy 2a02:21a8::/48
 </IfModule>
 LogFormat "%a %l %u %t \"%r\" %>s %b \"%{Referer}i\" \"%{User-Agent}i\"" ddosx
@@ -156,7 +170,7 @@ For Apache 2.2 you will need to use [mod_rpaf](https://github.com/gnif/mod_rpaf)
 ### haproxy
 
 If you have haproxy in front of your webservers, you'll probably want to set the
-X-Forwarded-For header on here. The easiest way to do this is to disable the 
+X-Forwarded-For header on here. The easiest way to do this is to disable the
 `forwardfor` option to prevent haproxy setting the header automatically, and instead
 set the header manually in each backend.
 
