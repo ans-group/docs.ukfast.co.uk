@@ -59,7 +59,7 @@ Finally, start `MySQL`:
   systemctl start mysqld
 ```
 
-### Secure Installation
+### Secure Installation Command
 
 Finally, to finish the installation and review some security features of `MySQL`, run the secure installation command:
 
