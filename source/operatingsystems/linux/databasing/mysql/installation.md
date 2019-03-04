@@ -4,48 +4,67 @@
 
 ## Installation
 
-MySQL is available from the standard repositories on CentOS and can be installed with the following command:
+### CentOS 5 & 6
 
-CentOS 5 & 6:
+Use yum to install `MySQL`:
 
 ```console
   yum install mysql-server
 ```
 
-CentOS 7:
-
-```console
-  yum install mariadb-server
-```
-
-This will also install the MySQL command line client to allow you to interact with the new MySQL server.
-
-## Set MySQL to always start on boot
-
-CentOS 5 & 6:
+Set `MySQL` to start on boot:
 
 ```console
   chkconfig mysqld on
 ```
 
-CentOS 7:
-
-```console
-  systemctl enable mariadb
-```
-
-## Start your MySQL server
-
-CentOS 5 & 6:
+Finally, start `MySQL`:
 
 ```console
   service mysqld start
 ```
 
-CentOS 7:
+### CentOS 7
+
+`MySQL` on CentOS 7 must be installed via the community repo.
+
+Download and install the RPM from the community repo:
 
 ```console
-  systemctl start mariadb
+  wget http://repo.mysql.com/mysql-community-release-el7-5.noarch.rpm
+  yum install mysql-community-release-el7-5.noarch.rpm
+```
+
+Run a yum update to allow the repo to become available.
+
+```console
+  yum update
+```
+
+Now it can be yum installed:
+
+```console
+  yum install mysql-server
+```
+
+Enable `MySQL` to start on boot:
+
+```console
+  systemctl enable mysqld
+```
+
+Finally, start `MySQL`:
+
+```console
+  systemctl start mysqld
+```
+
+### Secure Installation
+
+Finally, to finish the installation and review some security features of `MySQL`, run the secure installation command:
+
+```console
+  mysql_secure_installation
 ```
 
 ## Configuration
