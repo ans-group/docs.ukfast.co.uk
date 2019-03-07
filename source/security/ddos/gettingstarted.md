@@ -117,13 +117,19 @@ Here's how to do this for NGiNX and Apache:
 For NGiNX, insert this code into one of the `http` or `server` blocks in your configuration. This requires the [realip](https://nginx.org/en/docs/http/ngx_http_realip_module.html) module be compiled into nginx. You can confirm if this is already there with `nginx -V 2>&1 | grep -o realip`. If this outputs `realip`, you're good to go.
 
 ```
-set_real_ip_from 185.156.64.0/24;
-set_real_ip_from 23.170.128.0/24;
-set_real_ip_from 2a02:21a8:1::/48;
-set_real_ip_from 2a02:21a8:2::/48;
-set_real_ip_from 2a02:21a8::/48;
-real_ip_header X-Forwarded-For;
-real_ip_recursive on;
+  set_real_ip_from 185.156.64.0/24;
+  set_real_ip_from 23.170.128.0/24;
+  set_real_ip_from 192.166.44.0/24;
+  set_real_ip_from 78.24.88.0/24;
+  set_real_ip_from 195.69.102.0/24;
+  set_real_ip_from 2a02:21a8:1::/48;
+  set_real_ip_from 2a02:21a8:2::/48;
+  set_real_ip_from 2a02:21a8::/48;
+  set_real_ip_from 2a09:ba00:4::/48;
+  set_real_ip_from 2a09:b600:5::/48;
+  set_real_ip_from 2a09:b200:6::/48;
+  real_ip_header X-Forwarded-For;
+  real_ip_recursive on;
 ```
 
 Once you have added these into your configuration, test and reload your NGiNX configuration (e.g. `nginx -t && systemctl reload nginx`) to make the changes live.
