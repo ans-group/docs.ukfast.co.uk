@@ -10,3 +10,4 @@ Mail-tester is used to test the 'quality' of emails - taking into consideration:
 
 ## How to use it
 Firstly, go to https://www.mail-tester.com in your browser. You should see something similar to:
+!(files/Mailtester1.PNG)
