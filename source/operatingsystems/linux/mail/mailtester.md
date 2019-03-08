@@ -27,4 +27,15 @@ If your test results aren't displayed automatically, a list will appear for you 
 ![Mailtester_3](files/Mailtester3.PNG)
 
 ### View of message
-'Click here to view your message' simply displays your email's content in basic HTML & plain text view. The 'source' section within this gives more detailed information on the mail servers sending and receiving your mail (including their IP addresses, and what protocol was used to encrypt the email's content)
+'Click here to view your message' simply displays your email's content in basic HTML & plain text view. The 'source' section within this gives more detailed information on the mail servers sending and receiving your mail (including their IP addresses, and what protocol was used to encrypt the email's content).
+
+### SpamAssassin
+[SpamAssassin](https://spamassassin.apache.org/) is a spam-filtering program, which uses various techniques to determine whether or not your mail will be flagged as spam. IN the example below, SpamAssassin found no issues as the records it
+checks were valid, such as SPF.
+
+SPF (Sender Policy Framework) records allow the recipient to check that your mail is authentic. The SPF record defines which mail servers are allowed to send from your domain (such as @ukfast.co.uk).
+
+If any checks were unsuccessful, this will likely decrease the overall rating given by mail-tester. For example, SpamAssassin shows that this message is not signed with DKIM (this serves the same purpose as SPF by different means). While the lack of DKIM deducts 1/10 from the overall score, it isn;t entirely necessary as most spam filters won't consider its absence to be a huge concern.
+
+![Mailtester_4](files/Mailtester4.PNG)
+
