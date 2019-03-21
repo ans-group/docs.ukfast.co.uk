@@ -1,7 +1,3 @@
-
-
-
-
 # Microsoft Security Essentials
 
 ##  Microsoft Security Essentials - Virus detected, but unable to remove.
