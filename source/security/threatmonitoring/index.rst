@@ -16,3 +16,4 @@ Threat Monitoring from UKFast enables you to continually monitor for malicious a
    howitworks
    gettingstarted
    alerts
+   rulesexplained
