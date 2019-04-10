@@ -14,8 +14,10 @@ Should a Threat Monitoring alert arise, you can always take a look at our Rules 
 .. toctree::
    :maxdepth: 1
 
-   generalinformation
-   howitworks
-   gettingstarted
-   alerts
-   rulesexplained
+   blockuseragent
+   changeport
+   checkipblock
+   htaccess
+   ipwhitelist
+   nologin
+   secureciphers
