@@ -15,7 +15,7 @@ If you need to check if an attacking Ip has been blocked, or of an IP address ha
 
 `curl --insecure https://git.thmon.ukfast.co.uk/threatmon-public/active-response-scripts/raw/master/check-block-status.sh | bash -s -- {IP TO CHECK}`
 
-If you`d like to automatically remove the IP from the block list, specify `--remove-found- when using the script, like below:
+If you'd like to automatically remove the IP from the block list, specify `--remove-found` when using the script, like below:
 
 `curl --insecure https://git.thmon.ukfast.co.uk/threatmon-public/active-response-scripts/raw/master/check-block-status.sh | bash -s -- {IP TO CHECK} --remove-found`
 
