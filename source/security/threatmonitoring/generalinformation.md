@@ -1,23 +1,25 @@
 
 # General Information and FAQs
 
-Threat Monitoring from UKFast is our tailored, all in one HIDS/SIEM system that enables you to continually monitor for malicious activity on your IT environment. Threat Monitoring is a must for businesses who take security seriously, and is highly recommended to those who wish to achieve PCI-DSS compliance for processing online card payments.
+### What is Threat Monitoring
 
-### How does Threat Monioring link into PCI-DSS?
+Threat Monitoring from UKFast is our tailored, all in one HIDS/SIEM system that enables you to continually monitor for malicious activity on your IT environment. Threat Monitoring is a must for businesses who take security seriously and is highly recommended to those who wish to achieve PCI-DSS compliance for processing online card payments.
 
-As per paper 23 million, chapter 534,  subsection B paragraph 36A of of the PCI-DSS standards, businesses that accept card payments are required to employ a form log collection to allow activity to be tracked in the event of a breach.
+### How does Threat Monitoring link into PCI-DSS?
 
-UKFast's Threat Monitornng handles this for you. By collecting all your server's logs and sending them to our Threat Monitoring inferstructure, we can parse thease logs for threats and store them securly for 12 months, as required the PCI-DSS requirements.
+As per control 12.4.1 the PCI-DSS standards, businesses that accept card payments are required to employ a form log collection to allow the activity to be tracked in the event of a breach.
+
+UKFast's Threat Monitoring handles this for you. By collecting all your server's logs and sending them to our Threat Monitoring infrastructure, we can parse these logs for threats and store them securely for 12 months, as required the PCI-DSS requirements.
 
 This easy, no fuss solution to this, and many other PCI-DSS requirements ensure your business is compliant, and ready to take card payments online.
 
 ### What attacks can Threat Monitoring detect?
-As Threat Monitoring is installed onto your servers, it can easily detect and protect against a wide veriey of attacks. We employ a advanced ruleset of bespoke detection rules that can identfy attacks such as:
+As Threat Monitoring is installed onto your servers, it can easily detect and protect against a wide variety of attacks. We employ an advanced ruleset of bespoke detection rules that can identify attacks such as:
 * Brute-force attacks
 * SQL Injection
 * XSS (Cross Site Scripting)
 * Shellshock
-* Path Trversal
+* Path Traversal
 * Code Injection
 * Version Gathering
 * Network Scanning/Mapping
@@ -26,7 +28,7 @@ As Threat Monitoring is installed onto your servers, it can easily detect and pr
 * Invalid DNS packets
 * Ping of death
 * Replay Attacks
-* Buffer Overflow atacks
+* Buffer Overflow attacks
 * Rootkits
 * Malware and Viruses
 * WordPress attacks
@@ -35,13 +37,13 @@ As Threat Monitoring is installed onto your servers, it can easily detect and pr
 * POST Bots
 * Website Scraping
 
-To name a few.
+Any many more...
 
 ### How will I be alerted?
 
-Threat Monitoring alerts can be easily viewed in the form on an email, sent directly from our realtime alerting system. Thease alerts will contain a brief description of the attack/alert, the agent (your server) IP address and the full log event detailing the attacks. 
+Threat Monitoring alerts can be easily viewed in the form on an email, sent directly from our real-time alerting system. These alerts will contain a brief description of the attack/alert, the agent (your server) IP address and the full log event detailing the attacks. 
 
-You can also view a breakdown of report of live threat events in your MyUKFast Threat Monitoring dashboard.
+You can also view a breakdown of a report of live threat events in your MyUKFast Threat Monitoring dashboard.
 
 ### What is Threat Response?
 
@@ -54,5 +56,5 @@ Additionally, our Threat Response team is more than happy to work with you to pr
 .. meta::
      :title: Threat Monitoring and Threat Response | UKFast Documentation
      :description: Guidance relating to UKFast's Threat Monitoring and Threat Response solutions
-     :keywords: threat monitoring, security, compliance, ukfast, hosting, file integrity monitoring, rootkit, detection, vulnerability scan, scans, hids, intrustion detection, threat response
+     :keywords: threat monitoring, security, compliance, ukfast, hosting, file integrity monitoring, rootkit, detection, vulnerability scan, scans, hids, intrusion detection, threat response
 ```
