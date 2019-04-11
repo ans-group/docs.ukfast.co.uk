@@ -20,7 +20,7 @@ UKFast have created rule sets which analyze log files from all core technologies
 
 If you have the additional Threat Response service then the UKFast security team will pro-actively investigate the alert and consult with you with recommended mitigating actions.
 
-Additionally, you can [view a dashboard](/security/threatmonitoring/alerts.html), highlighting all activity detected through MyUKFast.
+Additionally, you can [view a dashboard](/security/threatmonitoring/alerts.md), highlighting all activity detected through MyUKFast.
 
 Example rules often triggered:
 1.    Multiple attempts to log in to a server followed by a successful authentication
