@@ -94,8 +94,3 @@ Restart the pure-ftpd service
 Restart the cpanel service
 
 `/etc/init.d/cpanel restart`
-
-
-## RDP
-
-
