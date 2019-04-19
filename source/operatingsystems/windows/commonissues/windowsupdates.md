@@ -6,11 +6,11 @@ This policy can be changed to suit your needs. For example, you may wish for thi
 
 * Log into your Windows server via Remote Desktop (RDP). Once you're logged in, click Start, and type "gpedit.msc". This will bring up the Local Group Policy Editor.
 
-From here, navigate to the following path:
+* From here, navigate to the following path:
 
 Computer Configuration\Administrative Templates\Windows Components\Windows Update
 
-Then, click on the following option:
+* Then, click on the following option:
 
 "Configure Automatic Updates"
 
@@ -18,7 +18,7 @@ You should then be able to see a window similar to the below image:
 
 ![AutomaticUpdates](Files/windowsupdates/ConfigureAutomaticUpdates.PNG)
 
-From here, you can change the day and time this is scheduled for.
+* From here, you can change the day and time this is scheduled for.
 
 Alternatively, you can drop down the first box, and choose one of the other four options:
 
@@ -46,7 +46,7 @@ If your server is joined to an Active Directory domain, this allows the local ad
 * Finally, once you've made your changes, you can ensure these are updated by doing the following:
 
 
-Click Start -> Type cmd.exe -> Right Click -> "Run as Administrator" -> Accept the UAC Prompt -> type "gpupdate /force".
+* Click Start -> Type cmd.exe -> Right Click -> "Run as Administrator" -> Accept the UAC Prompt -> type "gpupdate /force".
 
 ![ForceGroupPolicyUpdate](Files/windowsupdates/ForceGroupPolicyUpdate.PNG)
 
