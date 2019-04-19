@@ -1,4 +1,4 @@
-# How to Connect to Your Shared Exchange Mailbox Using Microsoft Outlook 2013
+# How to Connect to Your Shared Exchange Mailbox Using Microsoft Outlook 2016
 
 In order to configure your Shared Exchange mailbox in Microsoft outlook, please follow the below steps;
 
