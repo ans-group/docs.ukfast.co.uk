@@ -4,7 +4,7 @@ By default, the policy set for Windows servers is to install Windows Updates eac
 
 This policy can be changed to suit your needs. For example, you may wish for this to take place during the night, when there will be less of an impact to business. We'll detail how to change this below.
 
-Log into your Windows server via Remote Desktop (RDP). Once you're logged in, click Start, and type "gpedit.msc". This will bring up the Local Group Policy Editor.
+* Log into your Windows server via Remote Desktop (RDP). Once you're logged in, click Start, and type "gpedit.msc". This will bring up the Local Group Policy Editor.
 
 From here, navigate to the following path:
 
@@ -43,7 +43,7 @@ If your server is joined to an Active Directory domain, this allows the local ad
 
 
 
-Finally, once you've made your changes, you can ensure these are updated by doing the following:
+* Finally, once you've made your changes, you can ensure these are updated by doing the following:
 
 
 Click Start -> Type cmd.exe -> Right Click -> "Run as Administrator" -> Accept the UAC Prompt -> type "gpupdate /force".
