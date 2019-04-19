@@ -17,3 +17,9 @@ You can use this command to see what protocols will be used:
 Voila! You can now establish a connection to the site over a secure protocol.
 
 *Note, this will only change this for the current session. If you want this change to be persistent, you'll need to apply this change in your Powershell profile*
+
+```eval_rst
+  .. meta::
+     :title: TLS connections in Powershell | UKFast Documentation
+     :description: Information and Instructions about Windows Powershell TLS options
+     :keywords: ukfast, windows, powershell, tls, ssl, secure, transport, layer, connection
