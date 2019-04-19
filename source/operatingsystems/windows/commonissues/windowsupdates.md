@@ -1,4 +1,4 @@
-# Changing Windows Updates Schedules
+# Changing Windows Updates Installation Options
 
 By default, the policy set for Windows servers is to install Windows Updates each Friday at 08:00. Microsoft release the updates on the second Tuesday of each month, so you'll typically see updates installed on the Friday after that.
 
