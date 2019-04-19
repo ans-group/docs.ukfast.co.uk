@@ -25,18 +25,26 @@ Alternatively, you can drop down the first box, and choose one of the other four
 ![UpdateOptions](Files/windowsupdates/AutomaticUpdateOptions.PNG)
 
 2 - Notify for Download and Notify for install
+
 This option will require you to manually download and install updates. It's important that if you do choose this option, you ensure you keep on top of updates. These updates contain critical patches to exploits, bug fixes, and much more. If the updates aren't installed frequently, you could be left open to known vulnerabilities.
 
 3 - Auto Download and Notify for install
+
 This option is similar to the one explained above - however the updates will download automatically. It's important to note that, whilst the updates will download automatically, they *won't* install automatically. This still requires manual intervention to install the updates.
 
 4 - Automatically download and schedule the install
+
 This is the option we configure by default. This will handle the download and install of updates automatically for you.
 
 5 - Allow local admin to choose setting
+
 If your server is joined to an Active Directory domain, this allows the local administrator of the server to control how Windows Updates are downloaded/installed.
 
+
+
+
 Finally, once you've made your changes, you can ensure these are updated by doing the following:
+
 
 Click Start -> Type cmd.exe -> Right Click -> "Run as Administrator" -> Accept the UAC Prompt -> type "gpupdate /force".
 
