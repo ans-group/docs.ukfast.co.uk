@@ -11,7 +11,9 @@ Windows
    iis/index
    mssql/index
    networking/index
+   powershell/index
    rdp/index
    server2016/index
    windowsadministration/index
    tlsandschannel/index
+   
