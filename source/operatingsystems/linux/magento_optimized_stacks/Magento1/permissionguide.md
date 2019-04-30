@@ -81,8 +81,7 @@ If the Magento site has CSS merging on you need the following additional permiss
 find var/www/vhosts/mage.ukast.co.uk/media/css -type d -exec chmod 750 {} \;
 ```
 
-Note that the above permissions do not allow the php-fpm user to write core Magento code.
-However, when deploying new content the user needs to be able to write to the document root, therefore when deploying run the following.
+Note that the above permissions will not allow the php-fpm user to write to the application files. When deploying new content the user needs to be able to write to the document root, therefore when deploying run the following.
 ```bash
 chmod –R 770 /var/www/vhosts/mage.ukast.co.uk/htdocs/
 ```
