@@ -1,11 +1,11 @@
-# Magento 1 permission Guide
+# Magento 1 permissions Guide
 
-This guide is intended to show best practices for Magento 1 permissions. Ensuring that required directories are accessible whilst restricting access to others.
+The purpose of this guide is to show best practices for Magento 1 permissions. This is intended to ensure that the application is able to function without issue whilst ensuring that security standards are upheld.
 
 ```eval_rst
 .. seealso::
    Note:
-     The following is for UKFast Magento 1 optimized stacks, which uses NGINX - this guide is for NGINX only.
+     The following information is for UKFast Magento 1 optimized servers running on the NGINX webservice - this guide is for NGINX only.
      If your configuration is bespoke or does not use our native stack we would recommend proceeding with caution.
 
      In the case that you have any queries please consult UKFast support.
@@ -19,7 +19,7 @@ grep root /etc/nginx/conf.d/mage.ukast.co.uk.conf
   root /var/www/vhosts/mage.ukast.co.uk/htdocs;
 ```
 
-Next, we need to verify which user and group should be used. This is important as if the domain is a Magento multi-store, typically the owner and group would be the same for each virtual host as the document root is shared.
+Next, to ensure we are able to set specific permissions we need to verify which user and group should be used. This is important as if the domain is a Magento multi-store, typically the owner and group would be the same for each virtual host as the document root is shared.
 
 In this case PHP-FPM is utilized - this is configured as an upstream within Nginx -
 
