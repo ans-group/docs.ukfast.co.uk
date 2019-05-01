@@ -10,7 +10,7 @@ Mail-tester is used to test the 'quality' of emails - taking into consideration:
 
 ## **How to use it**
 Firstly, go to https://www.mail-tester.com in your browser. You should see something similar to:
-![Mailtester_1](files/Mailtester1.PNG)
+![Mailtester_1](files/Mailtester1.png)
 
 As instructed by the webpage, send the email you wish to test from the desired address (for example, sending a company newsletter from the appropriate address).
 
@@ -21,12 +21,12 @@ Once you have sent the email, click the 'then check your score' button to procee
 ## **The results**
 If no other tests were recently sent to the same address as your email, you will automatically be taken to the message sent (as below). From this, you can scroll down to see the full report.
 
-![Mailtester_2](files/Mailtester2.PNG)
+![Mailtester_2](files/Mailtester2.png)
 
 If your test results aren't displayed automatically, a list will appear for you to select from. This includes the subject line, spam rating, and how long ago the email was submitted.
 
 ### **Explanation of Results**
-![Mailtester_3](files/Mailtester3.PNG)
+![Mailtester_3](files/Mailtester3.png)
 
 ### View of message
 'Click here to view your message' simply displays your email's content in basic HTML & plain text view. The 'source' section within this gives more detailed information on the mail servers sending and receiving your mail (including their IP addresses, and what protocol was used to encrypt the email's content).
@@ -39,7 +39,7 @@ SPF (Sender Policy Framework) records allow the recipient to check that your mai
 
 If any checks were unsuccessful, this will likely decrease the overall rating given by mail-tester. For example, SpamAssassin shows that this message is not signed with DKIM (this serves the same purpose as SPF by different means). While the lack of DKIM deducts 1/10 from the overall score, it isn;t entirely necessary as most spam filters won't consider its absence to be a huge concern.
 
-![Mailtester_4](files/Mailtester4.PNG)
+![Mailtester_4](files/Mailtester4.png)
 
 ### Email Formatting
 
