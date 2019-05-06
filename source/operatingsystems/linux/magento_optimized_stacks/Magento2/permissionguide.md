@@ -117,4 +117,4 @@ Add Write access when in development mode or when changes are required:
 cd <your Magento install dir> && find app/code lib var generated/code generated/metadata pub/static pub/media vendor app/etc \( -type d -or -type f \) -exec chmod g+w {} + && chmod o+rwx app/etc/env.php && chmod u+x bin/magento
 ```
 
-Now the permissions for the site should be correct. However, if you are unsure about any of the above then please do hesitate to get in touch with UKFast support and we can assist you further.
+Now the permissions for the site should be correct. However, if you are unsure about any of the above then please do not hesitate to get in touch with UKFast support and we can assist you further.
