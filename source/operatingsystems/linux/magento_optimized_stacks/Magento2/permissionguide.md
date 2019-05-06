@@ -95,7 +95,7 @@ php bin/magento --version
 ```
 
 ## Magento 2.1
-(versions lesser than or equal to.)
+(Perform the following if you are running Magento 2.1.x or an earlier version)
 
 Removal of write access as Magento recommends in production:
 ```bash
@@ -106,7 +106,7 @@ Add Write access when in development mode or when changes are required:
 cd <your Magento install dir> && find app/code lib var pub/static pub/media vendor app/etc \( -type d -or -type f \) -exec chmod g+w {} + && chmod o+rwx app/etc/env.php && chmod u+x bin/magento
 ```
 ## Magento 2.2
-(versions greater than or equal to.)
+(Perform the following if you are running Magento 2.2.x or a later version)
 Removal of write access as Magento recommends in production:
 ```bash
 cd <your Magento install dir> && find app/code lib pub/static app/etc generated/code generated/metadata var/view_preprocessed vendor \( -type d -or -type f \) -exec chmod g-w {} + && chmod o-rwx app/etc/env.php
