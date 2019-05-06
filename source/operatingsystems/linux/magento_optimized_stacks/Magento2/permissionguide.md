@@ -52,18 +52,6 @@ If this needs to be restored, the acl file can be used to restore the original p
 setfacl --restore=/var/www/vhosts/mage.ukast.co.uk/mage.ukast.co.uk-$(date +"%Y%m%d").acl
 ```
 
-We can now proceed with updating the permissions. Please remember to change the root directory and user in accordance with the output of the previous commands.
-```bash
-chown -R exampleuser:examplegroup <your Magento install dir>
-
-find <your Magento install dir> -type f -exec chmod 440 {} \;
-find <your Magento install dir> -type d -exec chmod 550 {} \;
-find <your Magento install dir>/var/ -type f -exec chmod 660 {} \;
-find <your Magento install dir>/var/ -type d -exec chmod 770 {} \;
-find <your Magento install dir>/pub/media/ -type f -exec chmod 660 {} \;
-find <your Magento install dir>/pub/media/ -type d -exec chmod 770 {} \;
-```
-
 If not already added, you can add Nginx to the group used by PHP-FPM - here is the command to do so - this only needs to be performed once
 ```bash
 usermod -a -G mage.ukast.co.uk nginx
@@ -74,11 +62,21 @@ To verify that this has been added to the group
 id nginx
 uid=10(nginx) gid=10(nginx) groups=11(mage.ukast.co.uk)
 ```
-Note that the Above permissions changes are for a production site, as such write access is restricted for improved site security.
 
-When deploying, you will need to add write permissions.
+## Magento 2.1
+(Perform the following if you are running Magento 2.1.x or an earlier version)
 
-However, As of Magento 2.2.0 the following has been changed:
+Removal of write access as Magento recommends in production:
+```bash
+cd <your Magento install dir> && find app/code lib pub/static app/etc var/generation var/di var/view_preprocessed vendor \( -type d -or -type f \) -exec chmod g-w {} + && chmod o-rwx app/etc/env.php
+```
+
+Add Write access when in development mode or when changes are required:
+```bash
+cd <your Magento install dir> && find app/code lib var pub/static pub/media vendor app/etc \( -type d -or -type f \) -exec chmod g+w {} + && chmod o+rwx app/etc/env.php && chmod u+x bin/magento
+```
+
+However, as of Magento 2.2.0 the following has been changed:
 ----
 * var/generation  --> generated/code
 * var/di          --> generated/metadata
@@ -94,17 +92,6 @@ cd <your Magento install dir>
 php bin/magento --version
 ```
 
-## Magento 2.1
-(Perform the following if you are running Magento 2.1.x or an earlier version)
-
-Removal of write access as Magento recommends in production:
-```bash
-cd <your Magento install dir> && find app/code lib pub/static app/etc var/generation var/di var/view_preprocessed vendor \( -type d -or -type f \) -exec chmod g-w {} + && chmod o-rwx app/etc/env.php
-```
-Add Write access when in development mode or when changes are required:
-```bash
-cd <your Magento install dir> && find app/code lib var pub/static pub/media vendor app/etc \( -type d -or -type f \) -exec chmod g+w {} + && chmod o+rwx app/etc/env.php && chmod u+x bin/magento
-```
 ## Magento 2.2
 (Perform the following if you are running Magento 2.2.x or a later version)
 Removal of write access as Magento recommends in production:
