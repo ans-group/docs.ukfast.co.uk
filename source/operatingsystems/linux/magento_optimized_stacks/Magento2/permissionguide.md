@@ -43,7 +43,7 @@ Using all the information provided above, we can then input this into the comman
 ```
 
 ```bash
-getfacl -R /var/www/vhosts/mage.ukast.co.uk/htdocs > /var/www/vhosts/mage.ukast.co.uk/mage.ukast.co.uk-$(date +"%Y%m%d").acl
+getfacl -p -R /var/www/vhosts/mage.ukast.co.uk/htdocs > /var/www/vhosts/mage.ukast.co.uk/mage.ukast.co.uk-$(date +"%Y%m%d").acl
 ```
 
 If this needs to be restored, the acl file can be used to restore the original permissions:
@@ -94,7 +94,7 @@ php bin/magento --version
 
 ## Magento 2.2
 (Perform the following if you are running Magento 2.2.x or a later version)
-Removal of write access as Magento recommends in production:
+This includes removal of write access as Magento recommends in production:
 ```bash
 cd <your Magento install dir> && find app/code lib pub/static app/etc generated/code generated/metadata var/view_preprocessed vendor \( -type d -or -type f \) -exec chmod g-w {} + && chmod o-rwx app/etc/env.php
 ```
