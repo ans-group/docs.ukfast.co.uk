@@ -116,7 +116,7 @@ Triggered when the URL request contains any of the flowing patterns:
 
 *Patterns are separated by a |*
 
-> %027 | %00 | %01 | %7f | %2E%2E | %0A | %0D | ../..|..\.. | echo; | ../..// | %5C../%5C | ././././ \x5C\x5C |
+> %027 | %00 | %01 | %7f | %2E%2E | %0A | %0D | ../..|..\.. | echo; | ../..// | %5C../%5C | ././././ | 2e%2e%5c%2e | \x5C\x5C |
 
 **Severity**
 
