@@ -250,9 +250,13 @@ Additionally, our Threat Response team is more than happy to work with you to pr
 Useful references:
 
 <https://www.w3schools.com/tags/ref_urlencode.asp>
+
 <https://www.owasp.org/index.php/Testing_for_SQL_Injection_(OTG-INPVAL-005)>
+
 <https://www.owasp.org/index.php/Testing_for_Cross_site_scripting>
+
 <https://www.owasp.org/index.php/Testing_Directory_traversal/file_include_(OTG-AUTHZ-001)#How_to_Test>
+
 
 
 ```eval_rst
