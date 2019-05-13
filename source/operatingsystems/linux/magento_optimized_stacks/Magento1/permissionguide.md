@@ -39,7 +39,7 @@ Using all the information provided above, we can then input this into the comman
 
 ```eval_rst
 .. warning::
-   **Please ensure the getfacl command is run first, this means that we can revert your permissions back if required.**
+   **This allows you to revert your permissions back if required.**
 ```
 
 ```bash
@@ -81,10 +81,6 @@ If the Magento site has CSS merging on you need the following additional permiss
 find var/www/vhosts/mage.ukast.co.uk/media/css -type d -exec chmod 750 {} \;
 ```
 
-Note that the above permissions will not allow the php-fpm user to write to the application files. When deploying new content the user needs to be able to write to the document root, therefore when deploying run the following.
-```bash
-chmod –R 770 /var/www/vhosts/mage.ukast.co.uk/htdocs/
-```
 Then deploy your content, once deployed revert the permissions back
 ```bash
 chown -R mage.ukast.co.uk:mage.ukast.co.uk /var/www/vhosts/mage.ukast.co.uk/htdocs/
