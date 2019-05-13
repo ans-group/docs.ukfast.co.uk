@@ -20,7 +20,7 @@ UKFast have created rule sets which analyze log files from all core technologies
 
 If you have the additional Threat Response service then the UKFast security team will pro-actively investigate the alert and consult with you with recommended mitigating actions.
 
-Additionally, you can [view a dashboard](/security/threatmonitoring/alerts.html), highlighting all activity detected through MyUKFast.
+Additionally, you can [view a dashboard](/security/threatmonitoring/alerts.md), highlighting all activity detected through MyUKFast.
 
 Example rules often triggered:
 1.    Multiple attempts to log in to a server followed by a successful authentication
@@ -49,13 +49,13 @@ As per PCI-DSS requirements, all collected logs are securely stored on our Threa
 
 Operating system and application vulnerabilities are often the primary cause of a breach of a business's infrastructure. Delivered as part of the UKFast Threat Monitoring service are on-demand vulnerability scans, which detect any components that require patching or updating and configurations that need changing to ensure security. Detected items are also highlighted with a severity score allowing you to tailor your remediation efforts to the most critical threats.
 
-Internal and external vulnerability scans can be conducted through MyUKFast. Once completed, a detailed online report will be generated, clearly defined any vulnerabilities found. A report can also be generated, contained the top vulnerabilities found in that scan. 
+Internal and external vulnerability scans can be conducted through MyUKFast. Once completed, a detailed online report will be generated, clearly defining any vulnerabilities found. A report can also be generated, containing the top vulnerabilities found in that scan. 
 
-For continued vulnerability monitoring, scheduled scans can be created, to regularly scan and detect new vulnerabilities on your solution, ensuring that your infrastructure is always safe and secure.
+For continued vulnerability monitoring, scheduled scans can be created to regularly scan and detect new vulnerabilities on your solution, ensuring that your infrastructure is always safe and secure.
 
 Once you have the results of your report, you may choose to either manage any necessary patching and updates yourself or request that this is carried out by UKFast engineers during normal business hours.
 
-Shown below is an example vulnerability scan, ran on-demand through MyUKFast, In the image below, we can see an overview of this scan report, e can see the amount of critical, high, medium and low vulnerabilities found during the scan. We can also see what server's we have scanned. and the operating system detected by the scanner.
+Shown below is an example vulnerability scan ran on-demand through MyUKFast. In the image below, we can see an overview of this scan report. We can see the amount of critical, high, medium and low vulnerabilities found during the scan. We can also see what server's we have scanned, and the operating system detected by the scanner.
 
 
 <div style="text-align: center; border: 1px solid black;">
@@ -85,9 +85,9 @@ Expanding further into a detected item, we can see exactly what this vulnerabili
 
 ## File Integrity Monitoring (FIM)
 
-As part of your setup of Threat Monitoring, you can provide UKFast with a list of core system files and directories for which you wish to have [alerts raised](/security/threatmonitoring/alerts.html) in the event that any changes are made. This is known as File Integrity Monitoring (FIM). A common use of FIM is to ensure payment gateway or redirect pages are not manipulated in order to divert customer payments elsewhere.
+As part of your setup of Threat Monitoring, you can provide UKFast with a list of core system files and directories for which you wish to have [alerts raised](/security/threatmonitoring/alerts.html) in the event that any changes are made. This is known as File Integrity Monitoring (FIM). A common use of FIM is to ensure payment gateways or redirect pages are not manipulated in order to divert customer payments elsewhere.
 
-FIM works by taking a hash of each file or utilizing audit processes such and' AuditD' in Linux and the Microsoft Windows audit system, any changes to these files are alerted with the time, date, process and user who made the changes.
+FIM works by taking a hash of each file or utilizing audit processes such as 'AuditD' in Linux and the 'Microsoft Windows audit system', any changes to these files are alerted with the time, date, process and user who made the changes.
 
 File Integrity Monitoring alerts and accessible through MyUKFast, under the 'Alerts' sections on your Threat Monitoring dashboard. Shown below is an example FIM alert in MyUKFast, here we can what file has changed, when, what process changed the file and exactly what has changed.
 

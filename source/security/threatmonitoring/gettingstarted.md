@@ -5,7 +5,7 @@
 
 ### Assigning Credits
 
-Before Threat Monitoring is installed, you'll be assigned credits which can be applied to selected servers through your MyUKFast. You can view these credits by logging into MyUKFast, navigating to the Threat Monitoring dashboard and clicking "Setup Threat Monitoring Now >" as shown below.
+Before Threat Monitoring is installed, you'll be assigned credits which can be applied to selected servers through MyUKFast. You can view these credits by logging into MyUKFast, navigating to the Threat Monitoring dashboard and clicking on "Setup Threat Monitoring Now >" as shown below.
 
 <div style="text-align: center;">
 
@@ -13,9 +13,9 @@ Before Threat Monitoring is installed, you'll be assigned credits which can be a
 
 </div>
 
-On this page, you'll be able to search for the desired server and apply a Threat Monitoring credit. After hitting confirm that server will run through our automated install process, which usually takes up to 24 hours to install your server with Threat Monitoring. 
+On this page, you'll be able to search for the desired server and apply a Threat Monitoring credit. After hitting confirm, that server will run through our automated install process, which usually takes up to 24 hours to install your server with Threat Monitoring. 
 
-While that's running, you can go ahead and apply any Threat Response Credits to servers that you've just assigned Threat Monitoring Credits to. Alerts from these servers will no go directly to our dedicated Threat Response team.
+While that's running, you can go ahead and apply any Threat Response Credits to servers that you've  assigned Threat Monitoring Credits to. Alerts from these servers will now go directly to our dedicated Threat Response team.
 
 <div style="text-align: center; border: 1px solid black;">
 
