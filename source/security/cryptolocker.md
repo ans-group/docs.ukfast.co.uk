@@ -2,6 +2,6 @@ We've put together a handy guide, which you can download here - http://pdf.ukfas
 
 ```eval_rst
    .. meta::
-      :title: CryptoLocker | UKFast Documentation
+      :title: cryptolocker | UKFast Documentation
       :description: Best Practice advice on prtoceting against cryptolocker attacks
       :keywords:  ukfast, hosting, crypto, cryptolocker, security, hacking
