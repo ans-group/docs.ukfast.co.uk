@@ -15,5 +15,6 @@ Through log interrogation, we can detect and block many atacks on below attack v
    :maxdepth: 2
 
    webattacks
-   bruteforceattacks
+   webapplicationspecificattacks
+   wordpressattacks
    

@@ -313,27 +313,7 @@ Useful references:
 
 ---
 
-### TEMPLATE
 
-**What is this attack**
- 
-FILL
-
-**Signatures detected**
-
-Triggered when the URL request contains any of the flowing patterns:
-
-*Patterns are separated by a |*
-
-> FILL
-
-**Severity**
-
-FILL
-
-**Remediation and Blocking**
-
-Taking more of a passive approach, this rule does not necessarily detect that an attack is in progress, but version gathering may be in progress. As a result of these, Threat Monitoring classified these as level 6. This event may show up in MyUKFast, but an alert will not be sent and the IP will not be blocked.
 
 ```eval_rst
 .. meta::
