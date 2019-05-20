@@ -317,7 +317,7 @@ Useful references:
 
 ```eval_rst
 .. meta::
-     :title: Threat Monitoring and Threat Response | UKFast Documentation
+     :title: Web Attacks | UKFast Documentation
      :description: Guidance relating to UKFast's Threat Monitoring and Threat Response solutions
      :keywords: threat monitoring, security, compliance, ukfast, hosting, file integrity monitoring, rootkit, detection, vulnerability scan, scans, hids, intrusion detection, threat response
 ```

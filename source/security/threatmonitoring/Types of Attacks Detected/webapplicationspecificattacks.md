@@ -228,7 +228,7 @@ Should a high-level attack be detected, Threat Monitoring will block the source 
 
 ```eval_rst
 .. meta::
-     :title: Threat Monitoring and Threat Response | UKFast Documentation
+     :title: Web Application Attacks | UKFast Documentation
      :description: Guidance relating to UKFast's Threat Monitoring and Threat Response solutions
      :keywords: threat monitoring, security, compliance, ukfast, hosting, file integrity monitoring, rootkit, detection, vulnerability scan, scans, hids, intrusion detection, threat response
 ```
