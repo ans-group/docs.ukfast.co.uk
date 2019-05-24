@@ -296,21 +296,6 @@ This rule will not specifically indicate an attack, but more if a reconnaissance
 
 Taking more of a passive approach, this rule does not necessarily detect that an attack is in progress, but version gathering may be in progress. As a result of these, Threat Monitoring classified these as level 6. This event may show up in MyUKFast, but an alert will not be sent and the IP will not be blocked.
 
-
-## What is Threat Response?
-
-Threat Response is an additional service which provides managed support by our in-house security team, pro-actively looking into all your alerts and applying and remediation as needed. With Threat Response, all your Threat Monitoring alerts will be sent directly to our dedicated team of security experts.
-
-Additionally, our Threat Response team is more than happy to work with you to provide additions tips on how to further secure your servers, with your solutions and needs in mind.
-
-Useful references:
-
-<https://www.w3schools.com/tags/ref_urlencode.asp>
-<https://www.owasp.org/index.php/Testing_for_SQL_Injection_(OTG-INPVAL-005)>
-<https://www.owasp.org/index.php/Testing_for_Cross_site_scripting>
-<https://www.owasp.org/index.php/Testing_Directory_traversal/file_include_(OTG-AUTHZ-001)#How_to_Test>
-
-
 ---
 
 
