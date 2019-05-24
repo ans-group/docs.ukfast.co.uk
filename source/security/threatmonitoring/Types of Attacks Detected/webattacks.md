@@ -299,7 +299,7 @@ Taking more of a passive approach, this rule does not necessarily detect that an
 
 ## What is Threat Response?
 
-Threat Response is an additional service which provides managed support by our in-house security team, pro-actively looking into all your alerts and applying and remediation as needed. With Threat Response, all your Threat Monitoring alerts will be sent directly to our dedicated team of SOC analysis, with years of industry leading knowledge and experience.
+Threat Response is an additional service which provides managed support by our in-house security team, pro-actively looking into all your alerts and applying and remediation as needed. With Threat Response, all your Threat Monitoring alerts will be sent directly to our dedicated team of security experts.
 
 Additionally, our Threat Response team is more than happy to work with you to provide additions tips on how to further secure your servers, with your solutions and needs in mind.
 
