@@ -14,9 +14,9 @@ Once Threat Monitoring agents are installed on your server(s) they will be autom
 ## Threat Detection, Attack Protection and log file collation
 
 ### Detection
-UKFast's Host-Based Intrusion Detection (HIDS) solution, Threat Monitoring, will monitor numerous aspects of your infrastructure in order to detect suspicious activity. UKFast provide a full list of log locations to be monitored and event types that are collected as standard. Log locations and can be customized for your environment, you can work with a UKFast security analyst to find the optimal configuration for your solution.
+UKFast's Host-Based Intrusion Detection (HIDS) solution, Threat Monitoring, will monitor numerous aspects of your infrastructure in order to detect suspicious activity. UKFast provide a full list of log locations to be monitored and event types that are collected as standard. Log locations can be customized for your environment, you can work with a UKFast security analyst to find the optimal configuration for your solution.
 
-UKFast have created rule sets which analyze log files from all core technologies such as syslog, MySQL, FTP, Postfix, SSHd, CPanel, MS-auth, Apache, Nginx, PHP and more. These events are parsed through our 2,000+ rules, should a high-level event trigger, an alert will be sent to a nominated email address (or multiple contact addresses) for you to investigate.
+UKFast have created rule sets which analyse log files from all core technologies such as syslog, MySQL, FTP, Postfix, SSHd, CPanel, MS-auth, Apache, Nginx, PHP and more. These events are parsed through our 2,000+ rules, should a high-level event trigger, an alert will be sent to a nominated email address (or multiple contact addresses) for you to investigate.
 
 If you have the additional Threat Response service then the UKFast security team will pro-actively investigate the alert and consult with you with recommended mitigating actions.
 
@@ -89,7 +89,7 @@ As part of your setup of Threat Monitoring, you can provide UKFast with a list o
 
 FIM works by taking a hash of each file or utilizing audit processes such as 'AuditD' in Linux and the 'Microsoft Windows audit system', any changes to these files are alerted with the time, date, process and user who made the changes.
 
-File Integrity Monitoring alerts and accessible through MyUKFast, under the 'Alerts' sections on your Threat Monitoring dashboard. Shown below is an example FIM alert in MyUKFast, here we can what file has changed, when, what process changed the file and exactly what has changed.
+File Integrity Monitoring alerts are accessible through MyUKFast, under the 'Alerts' sections on your Threat Monitoring dashboard. Shown below is an example FIM alert in MyUKFast, here we can see what file has changed, when, what process changed the file and exactly what has changed.
 
 <div style="text-align: center;;">
 
