@@ -13,7 +13,7 @@ Before Threat Monitoring is installed, you'll be assigned credits which can be a
 
 </div>
 
-On this page, you'll be able to search for the desired server and apply a Threat Monitoring credit. After hitting confirm, that server will run through our automated install process, which usually takes up to 24 hours to install your server with Threat Monitoring. 
+Here you can assign your Threat Monitoring credits to the required servers. After hitting confirm, that server will run through our automated install process, which usually takes up to 24 hours to install your server with Threat Monitoring. 
 
 While that's running, you can go ahead and apply any Threat Response Credits to servers that you've  assigned Threat Monitoring Credits to. Alerts from these servers will now go directly to our dedicated Threat Response team.
 
@@ -29,7 +29,7 @@ Once the installation process has been started, your account manager will be mor
 
 Additionally, the security engineer will be more than happy to launch a vulnerability scan with you, scanning your server for potential vulnerabilities, insecure configurations and outdated software. The engineer will also walk through the Alerts dashboard and set up Contacts to receive Threat Monitoring emails alerts. 
 
-After the call, the engineer will send you across our Threat Monitoring questionnaire, in your here you can detail:
+After the call, the engineer will send you across our Threat Monitoring questionnaire, in here you can detail:
 
 * Scheduled Malware scans
 * Rootkit scanning
