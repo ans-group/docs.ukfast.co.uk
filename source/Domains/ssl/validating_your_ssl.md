@@ -25,7 +25,7 @@ For this guide, we are going to be using exampledomain.co.uk, please substitute 
 
 ![listofsslcertificates](files/listofssls.PNG)
 
-If you haven't purchased your SSL yet, you can view the SSLs we provide and purchase the one certificate you need [here](https://my.ukfast.co.uk/ssl/buy.php).
+If you haven't purchased your SSL yet, you can view the SSLs we provide and purchase the certificate(s) you need [here](https://my.ukfast.co.uk/ssl/buy.php).
 
 Click on the certificate you wish to validate in the table which will redirect you to the certificate specific page.
 On this page, you will see the Domain Control Validation section which contains brief instructions on validating your certificate.
