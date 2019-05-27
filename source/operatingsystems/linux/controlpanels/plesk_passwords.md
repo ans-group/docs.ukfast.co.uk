@@ -62,6 +62,6 @@ Should you be unable to establish a connection to your server via SSH, please do
 
 ```eval_rst
   .. meta::
-     :title: Retrieving your Plesk Admin password on Linux | UKFast Documentation
+     :title: Retrieving your Plesk Admin password | UKFast Documentation
      :description: A guide to retrieving your Plesk password on Linux servers
      :keywords: ukfast, plesk, password, get, retrieve, cloud, server, shadow
