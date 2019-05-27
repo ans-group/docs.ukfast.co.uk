@@ -19,7 +19,7 @@ We will show you how to do this with FileZilla, a free and very popular FTP clie
 
 If you do not have an FTP Client, you can get FileZilla [here](https://filezilla-project.org/download.php)
 
-First of all, ensure you are logged into your [MyUKFast Area](https://my.ukfast.co.uk) and then head to the [View Certificates] (https://my.ukfast.co.uk/ssl/index.php) page under SSL Certificates.
+First of all, ensure you are logged into your [MyUKFast Area](https://my.ukfast.co.uk) and then head to the [View Certificates](https://my.ukfast.co.uk/ssl/index.php) page under SSL Certificates.
 When on that page, you will see the below showing the SSL Certificates you have purchased from UKFast.
 For this guide, we are going to be using exampledomain.co.uk, please substitute the domain you are covering with the SSL in these instructions to ensure that the certificate is installed correctly.
 
