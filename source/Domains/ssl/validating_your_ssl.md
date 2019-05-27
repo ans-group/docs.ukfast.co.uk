@@ -7,7 +7,9 @@ Before your brand new or renewed SSL certificate can be issued, it needs to be v
 Validation can be done via 3 methods:
 
    ● File Upload (recommended)
+   
    ● DNS Lookup
+   
    ● Email
 
 In this guide, we are going to be using the File Upload method which is the method we recommend you use.
@@ -21,7 +23,7 @@ First of all, ensure you are logged into your [MyUKFast Area](https://my.ukfast.
 When on that page, you will see the below showing the SSL Certificates you have purchased from UKFast.
 For this guide, we are going to be using exampledomain.co.uk, please substitute the domain you are covering with the SSL in these instructions to ensure that the certificate is installed correctly.
 
-![listofsslcertificates](files/listofssls.png)
+![listofsslcertificates](files/listofssls.PNG)
 
 If you haven't purchased your SSL yet, you can view the SSLs we provide and purchase the one certificate you need [here](https://my.ukfast.co.uk/ssl/buy.php).
 
@@ -31,7 +33,7 @@ On this page, you will see the Domain Control Validation section which contains 
 To validate your SSL Certificate via HTTP File Upload, you need to download the .txt file linked within that section of the SSL's own page.
 To download the .txt file, click on the "this verification .txt file" link as shown in the screenshot below.
 
-![downloadthisvertificationtxtfile](files/step1.png)
+![downloadthisvertificationtxtfile](files/step1.PNG)
 
 Save the file somewhere easy to locate for you later on, that is the file we are going to upload to your website to validation.
 
@@ -73,7 +75,7 @@ Uploading the verification file via FileZilla:
 Once the verification file has been uploaded, you need to ensure it is accessible via the link shown in step 3 on your SSL page within MyUKFast.
 Here is a screenshot of the link for exampledomain.co.uk, the URL for your certificate will be different as the links are randomly generated to ensure they are unique.
 
-![checkaccesstoverificationfile](files/step3.png)
+![checkaccesstoverificationfile](files/step3.PNG)
 
 A Multi-Domain SSL requires each domain covered under the certificate to be validated. The same verification file needs to be uploaded to each site before the certificate can be issued.
 
@@ -81,7 +83,9 @@ The system used for validation needs to be able to see the content within the fi
 Within the file, you will see three strings:
 
    ● SHA-256 hash
+   
    ● Issuer identifier
+   
    ● Unique value
 
 The file's content will look similar to the below:
@@ -92,7 +96,7 @@ The file's content will look similar to the below:
 
 Once you have confirmed you are able to see the contents of the file via the link provided on the SSL page, click the red "Verify" button as shown in the screenshot below:
 
-![validateyourssl](files/step4.png)
+![validateyourssl](files/step4.PNG)
 
 Your certificate will be issued once it has been validated by the certificate issuer.
 
