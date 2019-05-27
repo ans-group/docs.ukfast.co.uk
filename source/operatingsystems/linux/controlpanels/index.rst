@@ -9,9 +9,10 @@ Plesk
 ------------------------
 .. toctree::
    :maxdepth: 1
-   
+
    plesk
    plesk_passwords
+   plesk_mysql
    plesk_pci
    plesk_tips
 
@@ -20,7 +21,7 @@ cPanel/WHM
 ------------------------
 .. toctree::
    :maxdepth: 1
-   
+
    cpanel
    cpanel_tips
 
