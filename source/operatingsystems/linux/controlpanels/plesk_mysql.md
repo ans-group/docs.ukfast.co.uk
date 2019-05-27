@@ -39,3 +39,9 @@ mysql -uadmin -p`cat /etc/psa/.psa.shadow`
 
 If you experience any issues with any of the methods above, please do not hesitate to get in touch with our support team.
 Want to gain access via another method such as MySQL Workbench but encountering issues? Please raise a request with our support team who will assist and advise accordingly.
+
+```eval_rst
+  .. meta::
+     :title: Connecting to MySQL on Plesk via CLI | UKFast Documentation
+     :description: A guide to connecting to MySQL on Plesk via CLI
+     :keywords: ukfast, plesk, mysql, plesk db, linux, cli, command, mariadb
