@@ -91,7 +91,7 @@ Within the file, you will see three strings:
 The file's content will look similar to the below:
 
    c9c863405fe7675a3988b97664ea6baf442019e4e52fa335f406f7c5f26cf14f
-   
+  
    comodoca.com
    
    10af9db9tu
