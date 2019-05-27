@@ -1,15 +1,13 @@
-# Overview
+# Connecting to your Plesk Control Panel
 
 The Plesk control panel lets you manage many aspects of your server though an web GUI, taking a lot of the low level work out of setting up sites.
+Plesk allows users that are not comfortable managing their solution via a command line interface, able to maintain and make use of their Linux server with ease.
 
-## Connecting to Plesk
-
-You can access the login page using the server IP, on the Plesk port, 8443:
+Plesk runs on port 8443 as default, you can access your Plesk via the external IP of the server of via an A record that is pointing that IP Address.
 
 ```console
-  https://ip.ip.ip.ip:8443
+  https://xxx.xxx.xxx.xxx:8443
 ```
-
 ```eval_rst
 .. note::
    The first time you access this, it will likely show a certificate warning that varies depending on which browser you're using.
@@ -17,21 +15,26 @@ You can access the login page using the server IP, on the Plesk port, 8443:
    This is nothing to be worried about, it's just due to Plesk using a self-signed certificate to encrypt traffic.
 ```
 
-Once you've skipped the warning, you'll be at the Plesk login page. Later versions of Plesk will accept the root credentials for the server, but the traditional way is the use the `admin` username and the Plesk password provided by UKFast on server launch.
+How to skip the warning depends on the browser you are using.
+If you are using Google Chrome to access your Plesk Contorl Panel, when you are greeted with the warning mentioned above, click on the "Advanced" button first.
+Following that, you will see a link at the bottom "Proceed to `link` (unsafe)", click that link to proceed to the Plesk Login Screen.
 
-You can also connect to your panel though the MyUKFast portal by navigating to the server screen and clicking the link highlighted in red:
+If you are using Mozilla Firefox to access your Plesk Panel, when the warning appears, first of all click on the "Advanced" button.
+Following that, click the "Add Exception" button and then in the pop-up window, click the "Confirm Security Exception" button to proceed to the Plesk Login Screen.
+
+Now you are on the Plesk Login Screen, you can log in using the details provided on server launch.
+If you need the details for you Plesk Server, the Primary Contact on your Account can retrieve them via their MyUKFast Area.
+
+![Server Credentials](servercredntials.PNG)
+
+In addition to the above, you can also connect to your panel though the MyUKFast portal by navigating to the server screen and clicking the link "External Login" as shown in the screenshot below.
 
 ![Plesk login](files/plesk_ukfast_login.png)
 
-## Further Documentation
-
-As Plesk is frequently updated with new features and fixes, we recommend checking out the official user guides which are maintained by Plesk:
-
-<https://docs.plesk.com/>
-<https://support.plesk.com/>
+If you encounter any issues connecting to your Plesk Control Panel using the instructions above, please do not hesitate to get in touch with our support team.
 
 ```eval_rst
   .. meta::
-     :title: Using Plesk on Linux | UKFast Documentation
-     :description: A guide to using the Plesk control panel on Linux servers
+     :title: Connecting to your Plesk Control Panel | UKFast Documentation
+     :description: A guide for getting into your Plesk Control Panel
      :keywords: ukfast, plesk, control, panel, tutorial, cloud, server, guide, virtual
