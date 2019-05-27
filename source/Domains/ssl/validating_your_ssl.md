@@ -91,7 +91,9 @@ Within the file, you will see three strings:
 The file's content will look similar to the below:
 
    c9c863405fe7675a3988b97664ea6baf442019e4e52fa335f406f7c5f26cf14f
+   
    comodoca.com
+   
    10af9db9tu
 
 Once you have confirmed you are able to see the contents of the file via the link provided on the SSL page, click the red "Verify" button as shown in the screenshot below:
