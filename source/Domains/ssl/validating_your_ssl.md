@@ -91,7 +91,9 @@ Within the file, you will see three strings:
 The file's content will look similar to the below:
 
    c9c863405fe7675a3988b97664ea6baf442019e4e52fa335f406f7c5f26cf14f
+  
    comodoca.com
+   
    10af9db9tu
 
 Once you have confirmed you are able to see the contents of the file via the link provided on the SSL page, click the red "Verify" button as shown in the screenshot below:
@@ -105,6 +107,6 @@ Otherwise, your certificate parts will be available for install on the SSL page.
 
 ```eval_rst
   .. meta::
-     :title: Validating your SSL Certificate via File Upload (Linux) | UKFast Documentation
+     :title: Validating your SSL Certificate (Linux) | UKFast Documentation
      :description: A detailed guide on validating your UKFast SSL Certificate via File Upload on a UKFast Linux Server
      :keywords: ssl, linux, file upload, validation, filezilla, ftp, sftp, cert, upload, cpanel, plesk
