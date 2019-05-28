@@ -3,7 +3,7 @@
 The Plesk control panel lets you manage many aspects of your server though an web GUI, taking a lot of the low level work out of setting up sites.
 Plesk allows users to maintain and make use of their Linux server with ease, even if they are not comfortable managing a linux server via a command line interface.
 
-Plesk runs on port 8443 as default, you can access your Plesk via the external IP of the server of via an A record that is pointing that IP Address.
+Plesk runs on port 8443 by default. You can access your Plesk panel via the external IP of the server or via an A record that is pointing that IP Address.
 
 ```console
   https://xxx.xxx.xxx.xxx:8443
