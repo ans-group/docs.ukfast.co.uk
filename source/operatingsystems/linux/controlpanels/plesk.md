@@ -16,7 +16,7 @@ Plesk runs on port 8443 by default. You can access your Plesk panel via the exte
 ```
 
 How to skip the warning depends on the browser you are using.
-If you are using Google Chrome to access your Plesk Contorl Panel, when you are greeted with the warning mentioned above, click on the "Advanced" button first.
+If you are using Google Chrome to access your Plesk Control Panel, when greeted with the warning mentioned above, click on the "Advanced" button first.
 Following that, you will see a link at the bottom "Proceed to `link` (unsafe)", click that link to proceed to the Plesk Login Screen.
 
 If you are using Mozilla Firefox to access your Plesk Panel, when the warning appears, first of all click on the "Advanced" button.
