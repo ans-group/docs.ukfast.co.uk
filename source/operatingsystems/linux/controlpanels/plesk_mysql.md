@@ -1,7 +1,7 @@
 # Connecting to MySQL via SSH
 
 In Linux, the most commonly used method of connecting to MySQL is by using the `mysql` command within the command line interface.
-You are unable to do that on a server using Plesk as it's control panel, when you type `mysql` and hit enter you will be greeted with an Access Denied message.
+You are unable to do that on a server using Plesk, however. When you type `mysql` and hit enter you will be greeted with an Access Denied message.
 
 ## Version >11
 
