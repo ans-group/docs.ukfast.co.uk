@@ -1,3 +1,6 @@
 [submodule "ukf"]
-	path = ukf
-	url = https://github.com/ukfast/docs_theme.git
+        path = ukf
+        url = git@github.com:ukfast/docs_theme.git
+[submodule "docs_theme"]
+	path = docs_theme
+	url = git@github.com:ukfast/docs_theme.git
