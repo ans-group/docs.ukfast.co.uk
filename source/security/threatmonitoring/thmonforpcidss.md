@@ -44,7 +44,7 @@ In accordance with PCI DSS, these logs can be readily accessed for up to 2 month
 
 External and Internal vulnerability scans can be run through the Threat Monitoring MyUKfast dashboard, easily providing a way to hunt down server and application vulnerabilities, outdated software and insecure configurations on your infrastructure. These scans are provided in a report that can be easily used to reference PCI DSS and utilise industry recognised CVE numbers and scores.
 
-**Refrences and Credit:**
+**References and Credit:**
 
 https://www.pcisecuritystandards.org/pci_security/maintaining_payment_security
 
