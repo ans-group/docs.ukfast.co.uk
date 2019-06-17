@@ -2,7 +2,13 @@
 
 Built with PCI DSS in mind, UKFast's Threat Monitoring can be used to bring your server up to standard with many of the criteria required to achieve PCI DSS compliance. Utilising baseline and vulnerability scanning tools, coupled with advanced Intrusion detection systems and log collection, Threat Monitoring can secure your server against threats and ensure a secure baseline is achieved, in accordance with PCI DSS.
 
+<div style="text-align: center;">
 
+![hwo-it-works](files/computer128.png)
+
+
+
+</div>
 
 ## What requirement can Threat Monitoring cover?
 
@@ -38,7 +44,7 @@ In accordance with PCI DSS, these logs can be readily accessed for up to 2 month
 
 External and Internal vulnerability scans can be run through the Threat Monitoring MyUKfast dashboard, easily providing a way to hunt down server and application vulnerabilities, outdated software and insecure configurations on your infrastructure. These scans are provided in a report that can be easily used to reference PCI DSS and utilise industry recognised CVE numbers and scores.
 
-Refrences and Credit:
+**Refrences and Credit:**
 
 https://www.pcisecuritystandards.org/pci_security/maintaining_payment_security
 
