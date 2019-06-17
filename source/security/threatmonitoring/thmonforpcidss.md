@@ -10,7 +10,7 @@ Built with PCI DSS in mind, UKFast's Threat Monitoring can be used to bring your
 
 </div>
 
-## What requirement can Threat Monitoring cover?
+## What requirements can Threat Monitoring cover?
 
 UKFast's Threat Monitoring can cover the following PCI DSS controls...
 
