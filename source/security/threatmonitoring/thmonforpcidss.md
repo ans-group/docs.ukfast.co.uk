@@ -33,16 +33,24 @@ Partially covering control 6, Threat Monitoring can assist with protecting again
 
 UKFast's security specialist can also work closely with you to implement compensating controls where applicable to further secure your applications for threats, such as IP whitelisting, user-agent blacklisting and HTTP authentication.
 
+File Integrity Monitoring can also be applied to critical application files, ensuring that unauthorised changes don't go unnoticed. BY placing File Integrity Monitoring (FIM) on critical files, such as payment gateway files, admin login directories and configuration files, you will receive an alert should any changes acquire.
+
+In addition, audit information can be applied to track what had changed in files, the user that changed the file and what process was used to make the changes, adding an audit trail for investigations.
+
 #### Control 10: Track and monitor all access to network resources and cardholder data
 
 Through the use of a lightweight software agent, Threat monitoring can capture your server's log in realtime and securely send them to our enterprise-grade log interrogation infrastructure for analysis and storage. These logs are interrogated for incoming threats and automated actions are triggered to block attacks as they happen and send real-time alerts.
 
-In accordance with PCI DSS, these logs can be readily accessed for up to 2 months, and are archived for a further 9 months, providing up to 12 months of logs available upon request.
+Threat Monitoring IP blocking allows attacks to be mitigated in real-time, stopping common attacks in their tracks and adding defensive capabilities to further improve on PCI DSS requirements.
 
+In accordance with PCI DSS, these logs can be readily accessed for up to 3 months, and are archived for a further 9 months, providing up to 12 months of logs available upon request.
 
 #### Control 11: Regularly test security systems and processes
 
-External and Internal vulnerability scans can be run through the Threat Monitoring MyUKfast dashboard, easily providing a way to hunt down server and application vulnerabilities, outdated software and insecure configurations on your infrastructure. These scans are provided in a report that can be easily used to reference PCI DSS and utilise industry recognised CVE numbers and scores.
+External and Internal vulnerability scans can be run through the Threat Monitoring MyUKfast dashboard, easily providing a way to hunt down server and application vulnerabilities, outdated software and insecure configurations on your infrastructure. These scans are provided in a report that can be easily used to reference PCI DSS for internal audits, utilising a regularly updated list of industry recognised CVE numbers and scores.
+
+The additional product, our Threat Response service allows regular updating and patching to be offloaded to our security engineers,  utilise their expertise to manage regular software updates and applying security pates for items found in vulnerability scans and critical CVEs as they are released.
+
 
 **References and Credit:**
 
