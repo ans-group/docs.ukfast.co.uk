@@ -18,7 +18,7 @@ UKFast's Threat Monitoring can cover the following PCI DSS controls...
 
 Through the use of Threat Monitoring System Audit scanning, default credentials for many applications and services can be easily detected, prompting an alert for the credentials to be changed. Additionally, server security scanning can be used to determine insecure server configurations to further enhance security.
 
-We support default credential scans for many web applications, local packages, databases and administration tools. We can also run system audit scans that will interrogate your server's configuration against a UKFast approved PCI DSS 3.0 baseline.
+We support default credential scans for many web applications, local packages, databases and administration tools. We can also run system audit scans that will interrogate your server's configuration against a UKFast approved PCI DSS 3.2 baseline.
 
 
 #### Control 5: Use and regularly update anti-virus software or programs
@@ -47,7 +47,7 @@ In accordance with PCI DSS, these logs can be readily accessed for up to 3 month
 
 #### Control 11: Regularly test security systems and processes
 
-External and Internal vulnerability scans can be run through the Threat Monitoring MyUKfast dashboard, easily providing a way to hunt down server and application vulnerabilities, outdated software and insecure configurations on your infrastructure. These scans are provided in a report that can be easily used to reference PCI DSS for internal audits, utilising a regularly updated list of industry recognised CVE numbers and scores.
+Unofficial external and internal vulnerability scans can be run through the Threat Monitoring MyUKfast dashboard, easily providing a way to hunt down server and application vulnerabilities, outdated software and insecure configurations on your infrastructure in preparation for running a vulnerability scan from an approved scanning vendor to achieve PCI compliance. These scans are provided in a report that can be easily used to reference PCI DSS for internal audits, utilising a regularly updated list of industry recognised CVE numbers and scores. (Please note UKFgast is currently not an ASV, and cannot provide official PCI DSS vulnerability scans to achieve compliance, all scans are for test purposes only)
 
 The additional product, our Threat Response service allows regular updating and patching to be offloaded to our security engineers,  utilise their expertise to manage regular software updates and applying security pates for items found in vulnerability scans and critical CVEs as they are released.
 
