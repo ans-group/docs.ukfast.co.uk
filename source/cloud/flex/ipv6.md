@@ -26,7 +26,7 @@ If your eCloud Flex account does not currently have IPv6, you can enable it by f
 
     ![subnet](files/subnet.PNG)
 
-6. On the next tab you customise any settings (such as using SLAAC which is available in the IPv6 Address Configuration Mode drop-down menu), but by default you'll be given DHCPv6.  Click `Create`
+6. On the next tab you customise any settings. You must select an option in the IPv6 Address Configuration Mode drop-down menu (such as SLAAC or DHCPv6).  Click `Create`
 
 7. Once created, you will be given a public IPv6 /64 prefix, which will appear in your Networks list, as shown below.  
 
@@ -43,6 +43,11 @@ If your eCloud Flex account does not currently have IPv6, you can enable it by f
     ![interface](files/interface.PNG)
 
 You will now see an IPv6 address is allocated to your router's interface, as shown below - this should now respond to ICMP if you have an existing IPv6 network to test it from.
+
+```eval_rst
+.. warning::
+  Warning: UKFast only support IPv6 in a dual stack configuration. If you choose to use an IPv6 only network be aware cloud-init will only work if you use the config-drive option on instance deployment.
+```
 
 ![newinterface](files/newinterface.PNG)
 
