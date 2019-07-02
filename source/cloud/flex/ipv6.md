@@ -46,7 +46,7 @@ You will now see an IPv6 address is allocated to your router's interface, as sho
 
 ```eval_rst
 .. warning::
-  Warning: UKFast only support IPv6 in a dual stack configuration. If you choose to use an IPv6 only network be aware cloud-init will only work if you use the config-drive option on instance deployment.
+  Warning: When using SLAAC, UKFast can only support IPv6 usage in a dual stack configuration, due to limited IPv6 support with certain images. If you choose to use an IPv6 only network be aware cloud-init will only work if you use the config-drive option on instance deployment.
 ```
 
 ![newinterface](files/newinterface.PNG)
