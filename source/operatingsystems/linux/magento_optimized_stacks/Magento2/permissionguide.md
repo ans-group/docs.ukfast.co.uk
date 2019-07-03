@@ -105,3 +105,9 @@ cd <your Magento install dir> && find app/code lib var generated/code generated/
 ```
 
 Now the permissions for the site should be correct. However, if you are unsure about any of the above then please do not hesitate to get in touch with UKFast support and we can assist you further.
+
+```eval_rst
+  .. meta::
+     :title: Magento 2 Permissions guide | UKFast Documentation
+     :description: A guide to ensure you are running secure permissions on your Magento 2 application files
+     :keywords: ukfast, linux, permissions, nginx, install, centos, cloud, lamp, server, virtual
