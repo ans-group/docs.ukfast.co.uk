@@ -1,7 +1,9 @@
 =================================================
 UKFast Magento Optimized Stack
 =================================================
+
 Our Magento Stack consists of numerous applications for optimal performance and functionality:
+
 * Firewall: Dedicated/Shared Firewall
 * Web Service: Nginx
 * PHP Utilities: PHP-FPM, Magento Recommended PHP modules, Composer, OPCache
@@ -18,6 +20,7 @@ Magento offers open & closed Source e-commerce solution that is very popular amo
 --------------
 Magento 1
 --------------
+
 .. toctree::
    :maxdepth: 1
 
