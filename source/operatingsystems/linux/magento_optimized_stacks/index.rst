@@ -24,7 +24,7 @@ Magento 1
 .. toctree::
    :maxdepth: 1
 
-   Magento1/permissionguide
+   magento1/permissionguide
 
 -----------------
 Magento 2
@@ -32,7 +32,7 @@ Magento 2
 .. toctree::
    :maxdepth: 1
 
-   Magento2/permissionguide
+   magento2/permissionguide
    
 .. meta::
    :title: UKFast Magento Optimized Stack | UKFast Documentation
