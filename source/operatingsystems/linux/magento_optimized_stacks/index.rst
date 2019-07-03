@@ -10,7 +10,7 @@ Magento 1
 .. toctree::
    :maxdepth: 1
 
-   Magento 1/index
+   Magento1/index.rst
 
 
 -----------------
@@ -20,7 +20,7 @@ Magento 2
 .. toctree::
    :maxdepth: 1
 
-   Magento 2/index
+   Magento2/index.rst
 
 
 .. meta::
