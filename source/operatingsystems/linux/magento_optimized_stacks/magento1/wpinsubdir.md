@@ -2,7 +2,7 @@
 
 If you have Wordpress in a sub directory within your document root you will need to edit your domains Nginx configuration (Example: /etc/nginx/conf.d/example.com.conf). 
 
-For this example we have Wordpress in the sub directory /var/www/vhosts/example.com/htdocs/wp/. You need to repace the two instances of <replacemebackend> with the PHP-FPM configuration pool name (This should be defined at the top of your Nginx configuration file) 
+For this example we have Wordpress in the sub directory /var/www/vhosts/example.com/htdocs/wp/. You need to replace the two instances of <replacemebackend> with the PHP-FPM configuration pool name (This should be defined at the top of your Nginx configuration file) 
 
 ```bash
 location ~ ^/wp/ {
@@ -66,5 +66,5 @@ If there are no errors in the configuration test proceed to reload the Nginx ser
 ```eval_rst
   .. meta::
      :title: Wordpress in a Sub Directory | UKFast Documentation
-     :description: A guide to ensure you are running secure permissions on your Magento 1 application files
+     :description: A guide to adding Wordpress Nginx configuration when running Wordpress in a sub directory
      :keywords: ukfast, linux, permissions, nginx, install, centos, cloud, lamp, server, virtual, Wordpress
