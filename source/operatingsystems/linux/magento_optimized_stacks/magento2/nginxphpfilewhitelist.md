@@ -2,6 +2,8 @@
 
 The Magento 2 Nginx configuration file has a whitelist (List of allowed file names) to be passed to PHP-FPM. This guide is intended to show you how to add a new filename to the whitelist.
 
+We are going to use testfile.php as the example new php file we are trying to add to the Nginx whitelist.
+
 If you have created a new file within your Magento 2 website and you are getting a 404 when trying to access the file:
 
 ```bash
