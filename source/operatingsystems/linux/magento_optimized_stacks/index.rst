@@ -1,5 +1,5 @@
 =================================================
-UKFast Magento Optimized Stack
+Magento Optimized Stack
 =================================================
 
 Our Magento Stack consists of numerous applications for optimal performance and functionality:
@@ -25,6 +25,7 @@ Magento 1
    :maxdepth: 1
 
    magento1/permissionguide
+   magento1/wpinsubdir.md
 
 -----------------
 Magento 2
@@ -33,8 +34,9 @@ Magento 2
    :maxdepth: 1
 
    magento2/permissionguide
+   magento2/nginxphpfilewhitelist
    
 .. meta::
-   :title: UKFast Magento Optimized Stack | UKFast Documentation
+   :title: Magento Optimized Stack | UKFast Documentation
    :description: guides relating to UKFast Magento Optimized Stacks
    :keywords: ukfast, Magento, optimized, stack
