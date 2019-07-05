@@ -33,6 +33,7 @@ Magento 2
    :maxdepth: 1
 
    magento2/permissionguide
+   magento2/nginxphpfilewhitelist
    
 .. meta::
    :title: UKFast Magento Optimized Stack | UKFast Documentation
