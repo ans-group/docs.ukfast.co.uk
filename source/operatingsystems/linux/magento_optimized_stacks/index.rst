@@ -25,6 +25,7 @@ Magento 1
    :maxdepth: 1
 
    magento1/permissionguide
+   magento1/wpinsubdir.md
 
 -----------------
 Magento 2
