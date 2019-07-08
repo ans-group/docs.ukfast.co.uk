@@ -2,7 +2,7 @@
 
 If you have a file/directory you want to be accessible but is outside of the Magento 2 pub directory you need to edit your domains Nginx configuration (Example: /etc/nginx/conf.d/example.com.conf). 
 
-For this example we the sitemap.xml located in /var/www/vhosts/example.com/htdocs/. This file will produce a 404 as it's not located in the pub directory (/var/www/vhosts/example.com/htdocs/pub):
+For this example we the sitemap.xml located in /var/www/vhosts/example.com/htdocs/. This file will produce a 404 as it's not located in the pub directory (/var/www/vhosts/example.com/htdocs/pub/):
 
 ```bash
  ~]$ curl -I www.example.com/sitemap.xml
@@ -32,6 +32,13 @@ If there are no errors in the configuration test proceed to reload the Nginx ser
 
 ```bash
  ~]$ nginx -s reload
+```
+
+You should now be able to access the new file without any issues:
+
+```bash
+ ~]$ curl -I www.example.com/sitemap.xml
+ HTTP/1.1 200 OK
 ```
 
 ```eval_rst
