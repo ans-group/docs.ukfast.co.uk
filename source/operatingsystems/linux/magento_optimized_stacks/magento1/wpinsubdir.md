@@ -21,6 +21,7 @@ location ~ ^/wp/ {
                   try_files $uri $uri/ @wphandler;
                   index index.html index.htm index.php;
                   fastcgi_pass replacemebackend;
+
                   add_header Cache-Control "no-store";
                   fastcgi_buffers 1024 4k;
                   #fastcgi_param HTTPS $my_https; # Uncomment the below for SSL offloading
