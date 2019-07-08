@@ -16,7 +16,7 @@ You can add the following to the domains Nginx configuration file anywhere withi
 
 # Alias to run sitemap.xml outside of the pub folder
 location /sitemap.xml {
-    alias /var/www/vhosts/example.com/htdocs/sitemap_sf.xml;
+    alias /var/www/vhosts/example.com/htdocs/sitemap.xml;
 }
  ```
 
@@ -34,7 +34,7 @@ If there are no errors in the configuration test proceed to reload the Nginx ser
  ~]$ nginx -s reload
 ```
 
-You should now be able to access the new file without any issues:
+You should now be able to access sitemap.xml without any issues:
 
 ```bash
  ~]$ curl -I www.example.com/sitemap.xml
