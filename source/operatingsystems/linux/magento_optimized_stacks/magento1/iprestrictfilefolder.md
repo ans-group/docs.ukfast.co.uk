@@ -5,8 +5,6 @@ This guide is to show you how you can IP restrict a file or folder within your d
 We highly recommend IP restricting the Magento 1 admin URI so will use this as an example. You can achieve this with the following configuration options for Nginx:
 
 ```bash
-~]$ vim /etc/nginx/conf.d/example.com.conf
-
 # IP RESTRICTED URI 
 location ~* ^/(index\.php/mageadmin|mageadmin) {
     index index.php;
@@ -20,7 +18,8 @@ location ~* ^/(index\.php/mageadmin|mageadmin) {
     }
   }
  ```
-You need to edit replacemebackend with the PHP-FPM configuration pool name (This should be defined at the top of your Nginx configuration file)
+
+This location can be placed anywhere within the server block of your Nginx configuration file. You need to edit replacemebackend with the PHP-FPM configuration pool name (This should be defined at the top of your Nginx configuration file)
  
 To implement this change you need to reload the Nginx service. First perform a configuration test with the following command:
 
