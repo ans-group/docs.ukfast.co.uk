@@ -1,8 +1,8 @@
 # Magento 2 File/Directory Outside /pub
 
-If you have a file/directory you want to be browseable but is outside of the Magento 2 pub directory you need to edit edit your domains Nginx configuration (Example: /etc/nginx/conf.d/example.com.conf). 
+If you have a file/directory you want to be accessible but is outside of the Magento 2 pub directory you need to edit your domains Nginx configuration (Example: /etc/nginx/conf.d/example.com.conf). 
 
-For this example we the the sitemap.xml located in /var/www/vhosts/example.com/htdocs/. This file will produce a 404 as it's not located in the pub directory (/var/www/vhosts/example.com/htdocs/pub):
+For this example we the sitemap.xml located in /var/www/vhosts/example.com/htdocs/. This file will produce a 404 as it's not located in the pub directory (/var/www/vhosts/example.com/htdocs/pub):
 
 ```bash
  ~]$ curl -I www.example.com/sitemap.xml
