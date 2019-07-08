@@ -36,6 +36,7 @@ Magento 2
    magento2/permissionguide
    magento2/nginxphpfilewhitelist
    magento2/wpinsubdir.md
+   magento2/filediroutsidepub.md
    
 .. meta::
    :title: Magento Optimized Stack | UKFast Documentation
