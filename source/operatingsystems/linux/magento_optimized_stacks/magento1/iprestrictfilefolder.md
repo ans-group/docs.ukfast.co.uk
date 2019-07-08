@@ -20,7 +20,7 @@ location ~* ^/(index\.php/mageadmin|mageadmin) {
   }
  ```
 
-This location can be placed anywhere within the server block of your Nginx configuration file. You need to edit replacemebackend with the PHP-FPM configuration pool name (This should be defined at the top of your Nginx configuration file)
+This location block can be placed anywhere within the server block of your Nginx configuration file. You need to edit replacemebackend with the PHP-FPM configuration pool name (This should be defined at the top of your Nginx configuration file).
  
 To implement this change you need to reload the Nginx service. First perform a configuration test with the following command:
 
