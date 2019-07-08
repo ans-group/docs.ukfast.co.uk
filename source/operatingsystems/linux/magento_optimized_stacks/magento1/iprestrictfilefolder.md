@@ -10,6 +10,7 @@ location ~* ^/(index\.php/mageadmin|mageadmin) {
     index index.php;
     try_files $uri $uri/ @handler;
     allow 192.168.0.13; # Office IP Address
+    allow 192.168.0.51; # Warehouse IP Address
     deny all;
     location ~* \.php$ {
       fastcgi_pass replacemebackend;
