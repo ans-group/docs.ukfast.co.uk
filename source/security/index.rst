@@ -24,8 +24,8 @@ Security guidance for 3rd party software
 .. toctree::
    :maxdepth: 1  
    
-   wordpress
    magento
+   wordpress
    
 ----------------------------------------------------------------
 Guidance relating to specific security threats and cyber-attacks
@@ -34,11 +34,12 @@ Guidance relating to specific security threats and cyber-attacks
 .. toctree::
    :maxdepth: 1
 
+   cryptolocker
    dirtycow
    logjam
-   wannacry
    meltdown
    memcachedopen
+   wannacry
    
 For guidance relating to UKFast firewalls, please see :doc:`/network/firewalls/index` in the Networking category.
 

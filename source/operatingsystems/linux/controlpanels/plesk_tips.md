@@ -26,18 +26,6 @@ Yes, you can recalculate the domain statistics using the following command:
 
 There is a [full guide here](https://docs.plesk.com/en-US/onyx/cli-linux/using-command-line-utilities/statistics-calculating-statistics.78387/).
 
-## How do I access MySQL via SSH?
-
-Sometimes you need to access MySQL via the command line. If you just type mysql, you will get access denied. The primary method on never Plesk servers for accessing MySQL CLI is:
-``#
-plesk db  
-``
-
-If you have an older Plesk (version 11 and below) The following command will work:
-
-``#
-mysql -uadmin -p`cat /etc/psa/.psa.shadow`
-``
 ## How do I check my users have strong passwords?
 
 If you host a lot of accounts on your Plesk server, it's a good idea to ensure your users have strong passwords. Weak passwords are a choice attack vector for spammers who will use your server to send out spam and cause you headaches.
