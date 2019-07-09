@@ -41,6 +41,6 @@ Magento 2
    magento2/iprestrictfilefolder.md
    
 .. meta::
-   :title: Magento Optimized Stack | UKFast Documentation
-   :description: guides relating to UKFast Magento Optimized Stacks
+   :title: Magento | UKFast Documentation
+   :description: guides relating to UKFast Magento Optimised Stacks
    :keywords: ukfast, Magento, optimized, stack
