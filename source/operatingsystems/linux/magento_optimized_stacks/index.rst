@@ -1,5 +1,5 @@
 =================================================
-Magento Optimized Stack
+Magento Optimised Stack
 =================================================
 
 Our Magento Stack consists of numerous applications for optimal performance and functionality:
