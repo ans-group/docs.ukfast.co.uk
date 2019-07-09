@@ -57,3 +57,10 @@ The additional product, our Threat Response service allows regular updating and 
 https://www.pcisecuritystandards.org/pci_security/maintaining_payment_security
 
 Icons made by itim2101
+
+```eval_rst
+.. meta::
+     :title: Threat Monitoring and PCI DSS | UKFast Documentation
+     :description: Guidance relating to UKFast's Threat Monitoring solution
+     :keywords: threat monitoring, alerts, security, compliance, rules, rulesets, ukfast, hosting, file integrity monitoring, rootkit, detection, vulnerability scan, scans, hids, intrusion detection, pci, pci-dss
+```
