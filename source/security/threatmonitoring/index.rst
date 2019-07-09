@@ -14,8 +14,7 @@ Threat Response is an additional service which provides managed support by our i
 .. toctree::
    :maxdepth: 1
 
-   generalinformation
-   howitworks
-   gettingstarted
-   alerts
-   alertremediationtips
+   generalinformation/index
+   howitworks/index
+   gettingstarted/index
+   alerts/index
