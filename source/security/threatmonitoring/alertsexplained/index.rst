@@ -11,9 +11,9 @@ Having a good understanding of Threat alerts is key to esnuring that your server
 
 .. toctree::
    :maxdepth: 1
-
-	commonattacks
+	
 	clamav
+	common_attacks
 	exploit
 	ftp
 	mcafeeav
