@@ -1,5 +1,5 @@
 =================================================
-Magento Optimised Stack
+Magento
 =================================================
 
 Our Magento Stack consists of numerous applications for optimal performance and functionality:
@@ -43,4 +43,5 @@ Magento 2
 .. meta::
    :title: Magento | UKFast Documentation
    :description: guides relating to UKFast Magento Optimised Stacks
-   :keywords: ukfast, Magento, optimized, stack
+   :keywords: ukfast, Magento, optimised, stack
+
