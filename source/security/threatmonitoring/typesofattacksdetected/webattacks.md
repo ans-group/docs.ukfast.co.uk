@@ -86,6 +86,7 @@ Taking advantage of web servers, a Shellshock attack has the potential to allow 
 Triggered when the URL request contains any of the flowing patterns:
 
 *Patterns are separated by a |*
+
 > "\(\)\s*{\s*_;\.*}\s*>_[\$\(\$\(\)\)]\s*{ | "\(\)\s*{\s*:;\s*}\s*; | "\(\)\s*{\s*foo:;\s*}\s*; | "\(\)\s*{\s*ignored;\s*}\s* | "\(\)\s*{\s*gry;\s*}\s*;
 
 **Severity**
@@ -162,7 +163,7 @@ RFI (Remote file inclusion) is a technique used by attackers that take advantage
 
 For example, let's say you have a PHP based web page that includes a header from a secure server in every page, the variable that stores the location of the header file is called 'header'. In your PHP code, you have the below:
 
-``` 
+```php
 $header = $_GET['https://mysecureserver.com.files/header.php'];
 
 include($header);
@@ -217,7 +218,7 @@ Threat Monitoring will block the IP if 16 or more POST requests are detected wit
 
 Most web-based traffic will be accompanied by a user agent tag. This user agent tells that web server what type of device or software it is. For example, the Chrome 60 web browser has a user agent of:
 
-```
+```cirru
  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
  ```
  
@@ -265,7 +266,7 @@ Although dangerous, Threat Monitoring will not immediately block an IP if PHP CG
 
 Another way to secure your site against this type of attack is to configure your site to not accept requests starting with a '-' and not containing a '=' through. A rule like the below could be used on apache sites using mod_rewrite:
 
-```
+```php
          RewriteCond %{QUERY_STRING} ^(%2d|-)[^=]+$ [NC]
          RewriteRule ^(.*) $1? [L]
 ```
