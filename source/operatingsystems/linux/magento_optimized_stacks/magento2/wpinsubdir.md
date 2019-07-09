@@ -1,6 +1,6 @@
-# Magento 1 Wordpress in a Sub Directory
+# Magento 2 Wordpress in a Sub Directory
 
-If you have Wordpress in a sub directory within your Magento 1 document root you will need to edit your domains Nginx configuration (Example: /etc/nginx/conf.d/example.com.conf). 
+If you have Wordpress in a sub directory within your Magento 2 document root you will need to edit your domains Nginx configuration (Example: /etc/nginx/conf.d/example.com.conf). 
 
 For this example we have Wordpress in the sub directory /var/www/vhosts/example.com/htdocs/wp/. You need to replace the two instances of replacemebackend with the PHP-FPM configuration pool name (This should be defined at the top of your Nginx configuration file) 
 
@@ -21,7 +21,6 @@ location ~ ^/wp/ {
                   try_files $uri $uri/ @wphandler;
                   index index.html index.htm index.php;
                   fastcgi_pass replacemebackend;
-
                   add_header Cache-Control "no-store";
                   fastcgi_buffers 1024 4k;
                   #fastcgi_param HTTPS $my_https; # Uncomment the below for SSL offloading
@@ -66,6 +65,6 @@ If there are no errors in the configuration test proceed to reload the Nginx ser
 
 ```eval_rst
   .. meta::
-     :title: Magento 1 Wordpress in a Sub Directory | UKFast Documentation
+     :title: Magento 2 Wordpress in a Sub Directory | UKFast Documentation
      :description: A guide to adding Wordpress Nginx configuration when running Wordpress in a sub directory
      :keywords: ukfast, linux, permissions, nginx, install, centos, cloud, lamp, server, virtual, Wordpress, Magento

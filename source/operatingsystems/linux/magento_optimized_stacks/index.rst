@@ -26,6 +26,7 @@ Magento 1
 
    magento1/permissionguide
    magento1/wpinsubdir.md
+   magento1/iprestrictfilefolder.md
 
 -----------------
 Magento 2
@@ -35,6 +36,9 @@ Magento 2
 
    magento2/permissionguide
    magento2/nginxphpfilewhitelist
+   magento2/wpinsubdir.md
+   magento2/filediroutsidepub.md
+   magento2/iprestrictfilefolder.md
    
 .. meta::
    :title: Magento Optimized Stack | UKFast Documentation
