@@ -4,7 +4,7 @@
    :keywords: security, threat, monitoring, response, alerts, blocking, hacking, ransomware, protection
 
 =====================================
-Alert Remediation and Threat Prevension Tips
+Alert Remediation Tips
 =====================================
 
 Threat Monitoring alerts provide a great insight into your server(s) threat activity. Created with Threat Monitoring alets in mind, thease pages will provide some remediation steps, secure configirations and threat prevention tips, securing your servers from potential Threats. 
