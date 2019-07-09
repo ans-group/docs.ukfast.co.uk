@@ -1,14 +1,4 @@
-=================================================
-<<<<<<< HEAD
-<<<<<<< HEAD
 Magento Optimised Stack
-=======
-Magento
->>>>>>> f2bf3ca9e157e735b21e4789e86a7f6ecc93700b
-=======
-Magento
->>>>>>> f2bf3ca9e157e735b21e4789e86a7f6ecc93700b
-=================================================
 
 Our Magento Stack consists of numerous applications for optimal performance and functionality:
 
@@ -51,14 +41,4 @@ Magento 2
 .. meta::
    :title: Magento | UKFast Documentation
    :description: guides relating to UKFast Magento Optimised Stacks
-<<<<<<< HEAD
-<<<<<<< HEAD
    :keywords: ukfast, Magento, optimized, stack
-=======
-   :keywords: ukfast, Magento, optimised, stack
-
->>>>>>> f2bf3ca9e157e735b21e4789e86a7f6ecc93700b
-=======
-   :keywords: ukfast, Magento, optimised, stack
-
->>>>>>> f2bf3ca9e157e735b21e4789e86a7f6ecc93700b
