@@ -3,9 +3,9 @@
    :description: Guidance on Threat Monitoring and Threat Response solutions from UKFast
    :keywords: security, threat, monitoring, response, alerts, blocking, hacking, ransomware, protection
 
-=====================================
+============================================
 Types of attack Threat Monitoring can detect
-=====================================
+============================================
 
 Threat Monitoring from UKFast can be configured to detect and protect againast a range of attack types, areas of comprimise and attack vectors. Threat Monitoring can detect attacks that could prove to be dangerous to your mission critical systems, including web servers, Databases, Authentication services and maangeemnt interfaces like FTP, SSH and RDP. 
 
