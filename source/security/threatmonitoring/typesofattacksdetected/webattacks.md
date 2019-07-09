@@ -154,7 +154,7 @@ Threat Monitoring will block the IP if 10 or more Command Injection signatures a
 
 Additionally, If a Command Injection attack returns a code 200 (Web Request success), Threat Monitoring will check the source IP address against AbuseIPDB. If the IP is known for malicious activity within the last 14 days, the IP will be blocked via IPTables and hosts.deny (Linux) or Windows Firewall for 30 minutes.
 
-### Remote File Inclusion (RFI)
+### Remote file inclusion (RFI)
 
 **What is this attack**
 
