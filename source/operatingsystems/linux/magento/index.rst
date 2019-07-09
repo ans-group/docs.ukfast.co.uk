@@ -1,5 +1,5 @@
 =================================================
-Magento Optimized Stack
+Magento Optimised Stack
 =================================================
 
 Our Magento Stack consists of numerous applications for optimal performance and functionality:
@@ -41,6 +41,6 @@ Magento 2
    magento2/iprestrictfilefolder.md
    
 .. meta::
-   :title: Magento Optimized Stack | UKFast Documentation
-   :description: guides relating to UKFast Magento Optimized Stacks
+   :title: Magento | UKFast Documentation
+   :description: guides relating to UKFast Magento Optimised Stacks
    :keywords: ukfast, Magento, optimized, stack
