@@ -124,8 +124,7 @@ server {
     
     server_name my.website.com;
     listen 443 ssl http2;
-```
-``` 
+
         ssl_protocols TLSv1.3;# Requires nginx >= 1.13.0 else use TLSv1.2
         ssl_prefer_server_ciphers on; 
         ssl_dhparam /etc/nginx/dhparam.pem; # openssl dhparam -out /etc/nginx/dhparam.pem 4096
@@ -142,8 +141,7 @@ server {
         add_header X-Frame-Options DENY;
         add_header X-Content-Type-Options nosniff;
         add_header X-XSS-Protection "1; mode=block";
-```
-```
+
 }
 ```
 
@@ -154,7 +152,7 @@ We can also set secure cyphers for SSH sessions, this will ensure a secure conne
 
 Follow the below commands to set secure cyphers for SSH.
 
-Edit the SSH config file, /etc/ssh/sshd_config with your preferred editor.
+Edit the SSH config file `/etc/sshd/sshd_config` with your preferred editor.
 
 `vi /etc/ssh/sshd_config`
 
