@@ -1,4 +1,6 @@
-Magento has been around for a while now and is one of the most frequently used E-Commerce platforms on the Web. This means different techniques for increasing performance have been tested and several have come out as no brainers in terms of their benefit in relation to the effort required to get it up and running.
+Magento 1 - Redis
+
+Magento 1 has been around for a while now and is one of the most frequently used E-Commerce platforms on the Web. This means different techniques for increasing performance have been tested and several have come out as no brainers in terms of their benefit in relation to the effort required to get it up and running.
 
 Magento out of the box stores its cache data on the file system, this works OK for small low traffic sites but once your catalog and visitor base grows this can quickly become a bottleneck.
 
@@ -41,6 +43,7 @@ app/etc/modules/CM_RedisSession.xml
 
 In this file change the value from “false” to “true” as below;
 
+```bash
 <config>
   <modules>
     <Cm_RedisSession>
@@ -49,6 +52,7 @@ In this file change the value from “false” to “true” as below;
     </Cm_RedisSession>
   </modules>
 </config>
+```
 
 Along with this you then need to configure Magento to utilise Redis in your app/etc/local.xml file. Below is an example configuration that can be used;
 REDIS EXAMPLE CODE HERE FROM LOCAL.XML.ADDITIONAL.
@@ -131,5 +135,9 @@ Mage::app()->getCache()->getBackend()->clean('old');
 
 We would recommend adding this to the shell folder and configuring a cron to run daily.
 
-
+```eval_rst
+  .. meta::
+     :title: Magento 1 IP Restrict File/Folder | UKFast Documentation
+     :description: A guide to IP restrict a file or folder within Nginx
+     :keywords: ukfast, linux, nginx, install, centos, cloud, server, virtual, Magento, security
 
