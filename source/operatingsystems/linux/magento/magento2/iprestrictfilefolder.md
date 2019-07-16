@@ -8,7 +8,7 @@ We highly recommend IP restricting the Magento 2 admin URI so will use this as a
 # IP RESTRICTED URI 
 location ~* ^/(index\.php/mageadmin|mageadmin) {
     index index.php;
-    try_files $uri $uri/ @handler;
+    try_files $uri $uri/ /index.php?$args;
     allow 192.168.0.13; # Office IP Address
     allow 192.168.0.51; # Warehouse IP Address
     deny all;
