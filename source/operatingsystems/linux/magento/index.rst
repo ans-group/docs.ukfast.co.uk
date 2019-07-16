@@ -1,8 +1,8 @@
 =================================================
-Magento
+Magento Optimised Stacks
 =================================================
 
-Our Magento Stack consists of numerous applications for optimal performance and functionality:
+Our Magento Optimised Stack consists of numerous applications for optimal performance and functionality:
 
 * Firewall: Dedicated/Shared Firewall
 * Web Service: Nginx
