@@ -11,7 +11,7 @@ Our Magento Stack consists of numerous applications for optimal performance and 
 * SSH/FTP Access: SSH, VSFTPd, ProFTPD
 * HTTP Caching Utilities: Varnish
 * Database services: MySQL Percona, Apache SOLR, Elasticsearch, Memcached, Redis, Sphinx, RabbitMQ
-* Monitoring/Management Services: Monit, Zabbix, New Relic
+* Monitoring/Management Services: Monit, Zabbix, NewRelic
 * Version Control Utilities: Git
 * File system distribution: NFS
 
