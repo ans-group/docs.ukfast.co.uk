@@ -28,6 +28,7 @@ Magento 1
    magento1/wpinsubdir.md
    magento1/iprestrictfilefolder.md
    magento1/magentoinsubdir.md
+   magento1/redis.md
 
 -----------------
 Magento 2
