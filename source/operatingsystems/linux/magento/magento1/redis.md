@@ -1,4 +1,4 @@
-# Magento 1 - Redis
+# Magento 1 Redis
 
 Magento 1 has been around for a while now and is one of the most frequently used E-Commerce platforms on the Web. This means different techniques for increasing performance have been tested and several have come out as no brainers in terms of their benefit in relation to the effort required to get it up and running.
 
