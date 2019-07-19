@@ -26,7 +26,7 @@ The credentials will be saved on the server in the example path:
 
 You can edit the Nginx configuratin file (/etc/nginx/conf.d/exampledomain.co.uk.conf) to configure the MAGE_RUN_CODE and MAGE_RUN_TYPE variables for this domain by uncommenting the following lines:
 
-#fastcgi_param  MAGE_RUN_CODE default;
+#fastcgi_param  MAGE_RUN_CODE default;<br>
 #fastcgi_param  MAGE_RUN_TYPE store;
 
 To implement this change you need to reload the Nginx service. First perform a configuration test with the following command:
