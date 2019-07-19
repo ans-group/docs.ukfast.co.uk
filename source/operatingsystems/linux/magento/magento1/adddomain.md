@@ -18,7 +18,6 @@ We will then setup the following for you:
 - Database User and password (exampleFwpO)
 
 The credentials will be saved on the server in the example path:
-
 ```bash
 ~]$ /root/magento1.exampledomain.co.uk_setup.txt
 ```
