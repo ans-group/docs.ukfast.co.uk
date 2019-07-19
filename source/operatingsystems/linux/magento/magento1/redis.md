@@ -95,8 +95,8 @@ Colin Mollenhours repository also provides scripts to enable you to do this.  De
 
 #### Files to Redis
 
-(in Magento document root folder)
 ```bash
+(in Magento document root folder)
 ~]$ touch maintenance.flag
 ~]$ wget https://raw2.github.com/colinmollenhour/Cm_RedisSession/master/migrateSessions.php
 ~]$ php migrateSessions.php -y
@@ -105,8 +105,8 @@ Colin Mollenhours repository also provides scripts to enable you to do this.  De
 
 #### Database to Redis
 
-(in Magento document root folder)
 ```bash
+(in Magento document root folder)
 ~]$ touch maintenance.flag
 ~]$ wget https://raw2.github.com/colinmollenhour/Cm_RedisSession/master/migrateSessions_mysql_redis.php
 ~]$ php migrateSessions_mysql_redis.php -y
@@ -152,18 +152,14 @@ For versions of Magento before 1.8.0 (CE) where the Cm_Cache_Backend_Redis modul
 
 ```bash
 <backend>CACHE_BACKEND_CLASS_NAME</backend>
-```
 With
-```bash
 <backend>Cm_Cache_Backend_Redis</backend>
  ```
 For Magento (CE) versions 1.8.0 and (EE) 1.13.0 replace the following line
 
 ```bash
 <backend>CACHE_BACKEND_CLASS_NAME</backend>
-```
 With
-```bash
 <backend>Mage_Cache_Backend_Redis</backend>
 ```
 
