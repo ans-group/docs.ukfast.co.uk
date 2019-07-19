@@ -11,15 +11,13 @@ Using APC/Memcached if data is edited in the backend of Magento will need to inv
 At UKFast on our Magento optimised hosting platforms we configure three different instances of Redis running on different ports. This is beneficial for the following reasons;
 
 •	Redis maxmemory is configurable per instance meaning certain data can over utilise this and leave insufficient space for other data such as cache. With separate instances this can be configured per instance to allow more flexibility.<br>
-•	Statistics are stored globally meaning this would be unhelpful if this encompasses all data.
-•	Configurations are usually per instance rather than per database making it inflexible if all data is in the same instance.
+•	Statistics are stored globally meaning this would be unhelpful if this encompasses all data.<br>
+•	Configurations are usually per instance rather than per database making it inflexible if all data is in the same instance.<br>
 •	Redis is single threaded meaning performance peaks when one core is fully utilised. With multiple instances this is less of an issue.
 
 To integrate Redis with Magento there is two key components, the Redis service running on the server itself and the Redis extension that allows Magento/PHP to communicate correctly with the Redis service.
 
 UKFast will install and configure your Redis instances so you can begin enabling this in Magento as soon as you are ready.
-
-SERVICE INSTALLATION
 
 The Magento Redis modules for cache and session data were originally community projects from Colin Mollenhour until they were integrated as part of the core code in the following versions;
 
@@ -118,12 +116,11 @@ redis-cli -p 6381 monitor
 
 This will show the data being pulled through to the Redis instance.
 
-
-
 Cleaning out old Cache Tags
 
 It is recommended to clear out old cache tags if the cache is cleared infrequently. This can be done using the garbage collection script provided by Colin Mollenhour. An example of this can be found below
 
+```bash
 <?php PHP_SAPI == 'cli' or die('<h1>:P</h1>');
 ini_set('memory_limit','1024M');
 set_time_limit(0);
@@ -132,6 +129,7 @@ require_once '../app/Mage.php';
 Mage::app()->getCache()->getBackend()->clean('old');
 // uncomment this for Magento Enterprise Edition
 // Enterprise_PageCache_Model_Cache::getCacheInstance()->getFrontend()->getBackend()->clean('old');
+```
 
 We would recommend adding this to the shell folder and configuring a cron to run daily.
 
