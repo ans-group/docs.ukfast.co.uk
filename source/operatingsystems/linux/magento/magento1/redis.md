@@ -116,7 +116,7 @@ Colin Mollenhours repository also provides scripts to enable you to do this.  De
 Once sessions have been Migrated (or before if you don’t mind losing session data) you can test if Magento is now utilising Redis by clearing out your (docroot)/var/session directory (or core_session if db was previously used) and browsing the site then ensuring this directory remains empty. Another way to check is to actually monitor the data in Redis using the following command;
 
 ```bash
-~]$ redis-cli -p 6379 monitor
+~]$ redis-cli -h 127.0.0.1 -p 6379 monitor
 ```
 
 This will show the data being pulled through to the Redis instance.
@@ -124,35 +124,84 @@ This will show the data being pulled through to the Redis instance.
 ### Redis for Cache Data
 
 Utilising Redis for cache data does not require the enabling of a module as above. This can simply be enabled by adding the configuration to your app/etc/local.xml file. See example below
-REDIS EXAMPLE CODE HERE FROM LOCAL.XML.ADDITIONAL.
+
+```bash
+<!-- example of redis cache -->
+        <cache>
+          <backend>Cm_Cache_Backend_Redis</backend>
+          <backend_options>
+            <server>127.0.0.1</server>
+            <port>6380</port>
+            <persistent></persistent>
+            <database>0</database>
+            <password></password>
+            <force_standalone>0</force_standalone>
+            <connect_retries>1</connect_retries>
+            <read_timeout>10</read_timeout>
+            <automatic_cleaning_factor>0</automatic_cleaning_factor>
+            <compress_data>1</compress_data>
+            <compress_tags>1</compress_tags>
+            <compress_threshold>20480</compress_threshold>
+            <compression_lib>gzip</compression_lib>
+            <use_lua>0</use_lua>
+          </backend_options>
+        </cache>
+```
 
 For versions of Magento before 1.8.0 (CE) where the Cm_Cache_Backend_Redis module has been installed replace the following line
 
+```bash
 <backend>CACHE_BACKEND_CLASS_NAME</backend>
+```
 With
- <backend>Cm_Cache_Backend_Redis</backend>
-
+```bash
+<backend>Cm_Cache_Backend_Redis</backend>
+ ```
 For Magento (CE) versions 1.8.0 and (EE) 1.13.0 replace the following line
 
+```bash
 <backend>CACHE_BACKEND_CLASS_NAME</backend>
+```
 With
+```bash
 <backend>Mage_Cache_Backend_Redis</backend>
+```
 
-Once this has been added you should be able to clear the (document root)/var/cache directory and browse to the site and this folder should remain empty. Another way to check as above is to actually monitor the data in Redis using the following command;
+Once this has been added you should be able to clear the (document root)/var/cache/ directory and browse to the site and this folder should remain empty. Another way to check as above is to actually monitor the data in Redis using the following command;
 
-redis-cli -p 6380 monitor
+```bash
+~]$ redis-cli -h 127.0.0.1 -p 6380 monitor
+```
 
 This will show the data being pulled through to the Redis instance.
 
-Using Redis for Full Page Cache Data (EE)
+### Using Redis for Full Page Cache Data (EE)
 
 As above, the following configuration can be added to the app/etc/local.xml file, again adding the backend class name as above. See example below
 
-REDIS EXAMPLE CODE HERE FROM LOCAL.XML.ADDITIONAL.
+```bash
+<!-- example of redis Magento Enterprise FPC -->
+        <full_page_cache>
+          <backend>Cm_Cache_Backend_Redis</backend>
+          <backend_options>
+            <server>127.0.0.1</server>
+            <port>6381</port>
+            <persistent></persistent>
+            <database>1</database>
+            <password></password>
+            <force_standalone>0</force_standalone>
+            <connect_retries>1</connect_retries>
+            <lifetimelimit>57600</lifetimelimit>
+            <compress_data>0</compress_data>
+          </backend_options>
+        </full_page_cache>
+```
 
 When this is enabled you can clear the (document root)/var/full_page_cache directory and browse to the site and this folder should remain empty. Another way to check as above is to actually monitor the data in Redis using the following command;
 
-redis-cli -p 6381 monitor
+```bash
+~]$ redis-cli -h 127.0.0.1 -p 6381 monitor
+```
 
 This will show the data being pulled through to the Redis instance.
 
