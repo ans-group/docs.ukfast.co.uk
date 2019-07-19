@@ -17,6 +17,32 @@ We will then setup the following for you:
 - Database (exampledomaincouk)
 - Database User and password (exampleFwpO)
 
+The credentials will be saved on the server in the example path:
+
+```bash
+~]$ /root/magento1.exampledomain.co.uk_setup.txt
+```
+### Multistore
+
+You can edit the Nginx configuratin file (/etc/nginx/conf.d/exampledomain.co.uk.conf) to configure the MAGE_RUN_CODE and MAGE_RUN_TYPE variables for this domain by uncommenting the following lines:
+
+#fastcgi_param  MAGE_RUN_CODE default;
+#fastcgi_param  MAGE_RUN_TYPE store;
+
+To implement this change you need to reload the Nginx service. First perform a configuration test with the following command:
+
+```bash
+ ~]$ nginx -t
+nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
+nginx: configuration file /etc/nginx/nginx.conf test is successful
+```
+
+If there are no errors in the configuration test proceed to reload the Nginx server with the following command:
+
+```bash
+ ~]$ nginx -s reload
+```
+
 ```eval_rst
   .. meta::
      :title: Magento 1 Adding Domain(s) To The Stack | UKFast Documentation
