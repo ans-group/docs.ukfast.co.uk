@@ -22,7 +22,7 @@ The credentials will be saved on the server in the example path:
 ```bash
 ~]$ /root/magento1.exampledomain.co.uk_setup.txt
 ```
-### Multistore
+## Multistore
 
 You can edit the Nginx configuratin file (/etc/nginx/conf.d/exampledomain.co.uk.conf) to configure the MAGE_RUN_CODE and MAGE_RUN_TYPE variables for this domain by uncommenting the following lines:
 
