@@ -29,6 +29,7 @@ Magento 1
    magento1/iprestrictfilefolder.md
    magento1/magentoinsubdir.md
    magento1/redis.md
+   magento1/adddomain.md
 
 -----------------
 Magento 2
