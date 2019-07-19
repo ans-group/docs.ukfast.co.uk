@@ -19,10 +19,10 @@ redis    16810  0.1  0.1 153952  8284 ?        Ssl  Jul01  48:47 /usr/bin/redis-
 
 This is beneficial for the following reasons;
 
-•	Redis maxmemory is configurable per instance meaning certain data can over utilise this and leave insufficient space for other data such as cache. With separate instances this can be configured per instance to allow more flexibility.<br>
-•	Statistics are stored globally meaning this would be unhelpful if this encompasses all data.<br>
-•	Configurations are usually per instance rather than per database making it inflexible if all data is in the same instance.<br>
-•	Redis is single threaded meaning performance peaks when one core is fully utilised. With multiple instances this is less of an issue.
+- Redis maxmemory is configurable per instance meaning certain data can over utilise this and leave insufficient space for other data such as cache. With separate instances this can be configured per instance to allow more flexibility.<br>
+- Statistics are stored globally meaning this would be unhelpful if this encompasses all data.<br>
+- Configurations are usually per instance rather than per database making it inflexible if all data is in the same instance.<br>
+- Redis is single threaded meaning performance peaks when one core is fully utilised. With multiple instances this is less of an issue.
 
 To integrate Redis with Magento there is two key components, the Redis service running on the server itself and the Redis extension that allows Magento/PHP to communicate correctly with the Redis service.
 
