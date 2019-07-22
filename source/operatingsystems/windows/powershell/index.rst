@@ -1,6 +1,4 @@
-===
 Tips
-===
 
 General tips for Windows Server.
 
