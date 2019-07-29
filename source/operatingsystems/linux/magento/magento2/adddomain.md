@@ -32,10 +32,10 @@ You can edit the Nginx configuratin file (/etc/nginx/conf.d/exampledomain.co.uk.
 
 ## Magento 2 CLI
 
-If running the Magento CLI please ensure you're logged in as the PHP-FPM configured user ($DOMAIN). You can log into this account via SSH or with the following command when logged in as root:
+If running the Magento 2 CLI please ensure you're logged in as the PHP-FPM configured user. You can log into this account via SSH or with the following command when logged in as root (Replacing phpconfigureduser with the PHP-FPM configured user, example exampledomain.co.uk):
 
 ```bash
-~]# su - $USERNAME
+~]# su - phpconfigureduser
 ```
 
 To implement this change you need to reload the Nginx service. First perform a configuration test with the following command:
