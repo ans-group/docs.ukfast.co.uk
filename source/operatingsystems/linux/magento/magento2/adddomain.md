@@ -28,6 +28,16 @@ You can edit the Nginx configuratin file (/etc/nginx/conf.d/exampledomain.co.uk.
 #fastcgi_param  MAGE_RUN_CODE default;<br>
 #fastcgi_param  MAGE_RUN_TYPE store;
 
+## Nginx .php File Whitelist 
+
+## Magento 2 CLI
+
+If running the Magento CLI please ensure you're logged in as the PHP-FPM configured user ($DOMAIN). You can log into this account via SSH or with the following command when logged in as root:
+
+```bash
+~]# su - $USERNAME
+```
+
 To implement this change you need to reload the Nginx service. First perform a configuration test with the following command:
 
 ```bash
