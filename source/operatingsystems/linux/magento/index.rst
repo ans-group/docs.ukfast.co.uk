@@ -43,6 +43,7 @@ Magento 2
    magento2/filediroutsidepub.md
    magento2/iprestrictfilefolder.md
    magento2/m2insubdir.md
+   magento2/adddomain.md
    
 .. meta::
    :title: Magento Optimised Stacks | UKFast Documentation
