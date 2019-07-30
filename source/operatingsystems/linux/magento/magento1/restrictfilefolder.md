@@ -56,7 +56,7 @@ location ~* ^/(index\.php/mageadmin|mageadmin) {
  
  ## Password and IP Restriction ##
  
-To password restrict the website excluding certain IP address you can use the following configuration options for Nginx:
+To password restrict the website while allowing certain IP address access to the website without password restrictions you can use the following configuration options for Nginx:
  
   ```bash
 # PASSWORD AND IP RESTRICTED URI 
