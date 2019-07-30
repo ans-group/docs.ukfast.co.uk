@@ -56,6 +56,8 @@ location ~* ^/(index\.php/mageadmin|mageadmin) {
  
  ## Password and IP Restriction ##
  
+ You can achieve this with the following configuration options for Nginx:
+ 
   ```bash
 # PASSWORD AND IP RESTRICTED URI 
 location ~* ^/(index\.php/mageadmin|mageadmin) {
