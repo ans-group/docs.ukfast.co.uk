@@ -47,7 +47,7 @@ If there are no errors in the configuration test proceed to reload the Nginx ser
 The web service (Nginx) configuration file has a whitelist for .php files to pass to php-fpm. If you want to access a .php file not in the dedault list:
 
 ```bash
-location ~ (index|get|static|report|404|503|stats|testfile)\.php$ {
+location ~ (index|get|static|report|404|503|health_check)\.php$ {
 ```
 
 Please refer to this guide: [Magento 2 .php File Whitelist](/operatingsystems/linux/magento/magento2/nginxphpfilewhitelist.html)
