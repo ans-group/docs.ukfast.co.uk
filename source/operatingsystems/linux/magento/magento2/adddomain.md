@@ -44,6 +44,14 @@ If there are no errors in the configuration test proceed to reload the Nginx ser
 
 ## Nginx .php File Whitelist 
 
+The web service (Nginx) configuration file has a whitelist for .php files to pass to php-fpm. If you want to access a .php file not in the dedault list:
+
+```bash
+location ~ (index|get|static|report|404|503|stats|testfile)\.php$ {
+```
+
+Please refer to this guide: [Magento 2 .php File Whitelist](/operatingsystems/linux/magento/magento2/nginxphpfilewhitelist.html)
+
 ## Magento 2 CLI
 
 If running the Magento 2 CLI please ensure you're logged in as the PHP-FPM configured user. You can log into this account via SSH or with the following command when logged in as root (Replacing phpconfigureduser with the PHP-FPM configured user, example exampledomain.co.uk):
