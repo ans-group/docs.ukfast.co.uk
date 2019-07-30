@@ -20,7 +20,7 @@ Adding password for user adminusername
 You can achieve this with the following configuration options for Nginx:
 
 ```bash
-# IP RESTRICTED URI 
+# PASSWORD RESTRICTED URI
 location ~* ^/(index\.php/mageadmin|mageadmin) {
     index index.php;
     try_files $uri $uri/ @handler;
@@ -57,7 +57,7 @@ location ~* ^/(index\.php/mageadmin|mageadmin) {
  ## Password and IP Restriction ##
  
   ```bash
-# IP RESTRICTED URI 
+# PASSWORD AND IP RESTRICTED URI 
 location ~* ^/(index\.php/mageadmin|mageadmin) {
     index index.php;
     try_files $uri $uri/ @handler;
