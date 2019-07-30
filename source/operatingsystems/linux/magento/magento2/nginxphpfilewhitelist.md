@@ -23,7 +23,7 @@ Second, add the new filename to the Nginx domain configuration file:
 ~]$ vim /etc/nginx/conf.d/example.com.conf
 
 # PHP entry point for main application (Define files to be executed)
- location ~ (index|get|static|report|404|503|stats|testfile)\.php$ {
+ location ~ (index|get|static|report|404|503|health_check|testfile)\.php$ {
   try_files $uri =404;
   fastcgi_pass examplecombackend;
   fastcgi_buffers 1024 4k;
