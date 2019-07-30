@@ -4,7 +4,18 @@ This guide is to show you how you can Password and or IP restrict a file or fold
 
 We highly recommend restricting the Magento 1 admin URI so will use this as an example. 
 
+## htpasswd ##
 
+For password restriction you need to generate a username and password before configuring Nginx. You can do this with the following command:
+
+```bash
+~]$ htpasswd -c /etc/nginx/conf.d/.htpasswd adminusername
+New password:
+Re-type new password:
+Adding password for user adminusername
+~]$
+```
+## Password Restriction ##
 
 You can achieve this with the following configuration options for Nginx:
 
@@ -23,6 +34,26 @@ location ~* ^/(index\.php/mageadmin|mageadmin) {
     }
   }
  ```
+ 
+ ## IP Restriction ##
+ 
+ ```bash
+# IP RESTRICTED URI 
+location ~* ^/(index\.php/mageadmin|mageadmin) {
+    index index.php;
+    try_files $uri $uri/ @handler;
+    allow 192.168.0.13; # Office IP Address
+    allow 192.168.0.51; # Warehouse IP Address
+    deny all;
+    location ~* \.php$ {
+      fastcgi_pass replacemebackend;
+      fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
+      include fastcgi_params;
+    }
+  }
+ ```
+ 
+ ## Password and IP Restriction ##
 
 This location block can be placed anywhere within the server block of your Nginx configuration file. You need to edit replacemebackend with the PHP-FPM configuration pool name (This should be defined at the top of your Nginx configuration file).
  
