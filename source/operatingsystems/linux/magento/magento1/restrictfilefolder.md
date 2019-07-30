@@ -17,7 +17,7 @@ Adding password for user adminusername
 ```
 ## Password Restriction ##
 
-You can achieve this with the following configuration options for Nginx:
+To password restrict your admin URI use the following configuration options for Nginx:
 
 ```bash
 # PASSWORD RESTRICTED URI
@@ -36,7 +36,7 @@ location ~* ^/(index\.php/mageadmin|mageadmin) {
  
  ## IP Restriction ##
  
- You can achieve this with the following configuration options for Nginx:
+ To IP restrict your admin URI use the following configuration options for Nginx:
  
  ```bash
 # IP RESTRICTED URI 
@@ -56,7 +56,7 @@ location ~* ^/(index\.php/mageadmin|mageadmin) {
  
  ## Password and IP Restriction ##
  
- You can achieve this with the following configuration options for Nginx:
+To password restrict the website excluding certain IP address you can use the following configuration options for Nginx:
  
   ```bash
 # PASSWORD AND IP RESTRICTED URI 
