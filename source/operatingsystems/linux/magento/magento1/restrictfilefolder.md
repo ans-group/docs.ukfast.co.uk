@@ -56,7 +56,7 @@ location ~* ^/(index\.php/mageadmin|mageadmin) {
  
  ## Password and IP Restriction ##
  
-To password restrict the website while allowing certain IP address access to the website without password restrictions you can use the following configuration options for Nginx:
+To password restrict the website while allowing certain IP address(s) access to the website without password restrictions you can use the following configuration options for Nginx:
  
   ```bash
 # PASSWORD AND IP RESTRICTED URI 
@@ -77,7 +77,7 @@ location ~* ^/(index\.php/mageadmin|mageadmin) {
   }
  ```
 
-These location block need to be placed anywhere within the server block of your Nginx configuration file. You need to edit replacemebackend with the PHP-FPM configuration pool name (This should be defined at the top of your Nginx configuration file).
+These location blocks need to be placed within the server block of your Nginx configuration file. You need to edit replacemebackend with the PHP-FPM configuration pool name (This should be defined at the top of your Nginx configuration file).
  
 To implement this change you need to reload the Nginx service. First perform a configuration test with the following command:
 
