@@ -95,7 +95,7 @@ If there are no errors in the configuration test proceed to reload the Nginx ser
 
 ```eval_rst
   .. meta::
-     :title: Magento 1 IP Restrict File/Folder | UKFast Documentation
-     :description: A guide to IP restrict a file or folder within Nginx
+     :title: Magento 1 Restrict File/Folder | UKFast Documentation
+     :description: A guide to restrict a file or folder within Nginx
      :keywords: ukfast, linux, nginx, install, centos, cloud, server, virtual, Magento, security
 
