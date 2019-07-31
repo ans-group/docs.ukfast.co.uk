@@ -59,7 +59,7 @@ location ~* ^/(index\.php/mageadmin|mageadmin) {
 To password restrict the URI whilst allowing certain IP address(s) access to the URI without password restrictions you can use the following configuration options for Nginx:
  
   ```bash
-# PASSWORD AND IP RESTRICTED URI 
+# PASSWORD RESTRICTED WITH IP WHITELIST URI 
 location ~* ^/(index\.php/mageadmin|mageadmin) {
     index index.php;
     try_files $uri $uri/ @handler;
