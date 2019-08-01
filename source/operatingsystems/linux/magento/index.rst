@@ -41,7 +41,7 @@ Magento 2
    magento2/nginxphpfilewhitelist
    magento2/wpinsubdir.md
    magento2/filediroutsidepub.md
-   magento2/iprestrictfilefolder.md
+   magento2/restrictfilefolder.md
    magento2/m2insubdir.md
    magento2/adddomain.md
    
