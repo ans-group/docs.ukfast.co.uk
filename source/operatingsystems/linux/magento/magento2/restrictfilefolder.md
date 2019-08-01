@@ -1,8 +1,8 @@
-# Magento 1 Restrict File/Folder
+# Magento 2 Restrict File/Folder
 
-This guide is to show you how you can Password and or IP restrict a file or folder within your document root using Nginx.
+This guide is to show you how you can restrict a file or folder within your document root using Nginx.
 
-We highly recommend restricting the Magento 1 admin URI so will use this as an example (mageadmin). 
+We highly recommend restricting the Magento 2 admin URI so will use this as an example (mageadmin). 
 
 ## htpasswd File ##
 
@@ -15,15 +15,16 @@ Re-type new password:
 Adding password for user adminusername
 ~]$
 ```
+
 ## Password Restriction ##
 
 To password restrict your admin URI use the following configuration options for Nginx:
 
 ```bash
-# PASSWORD RESTRICTED URI
+# IP RESTRICTED URI 
 location ~* ^/(index\.php/mageadmin|mageadmin) {
     index index.php;
-    try_files $uri $uri/ @handler;
+    try_files $uri $uri/ /index.php?$args;
     auth_basic "Restricted";
     auth_basic_user_file /etc/nginx/conf.d/.htpasswd;
     location ~* \.php$ {
@@ -42,7 +43,7 @@ location ~* ^/(index\.php/mageadmin|mageadmin) {
 # IP RESTRICTED URI 
 location ~* ^/(index\.php/mageadmin|mageadmin) {
     index index.php;
-    try_files $uri $uri/ @handler;
+    try_files $uri $uri/ /index.php?$args;
     allow 192.168.0.13; # Office IP Address
     allow 192.168.0.51; # Warehouse IP Address
     deny all;
@@ -57,12 +58,12 @@ location ~* ^/(index\.php/mageadmin|mageadmin) {
  ## Password with IP Whitelist ##
  
 To password restrict the URI whilst allowing certain IP address(s) access to the URI without password restrictions you can use the following configuration options for Nginx:
- 
-  ```bash
-# PASSWORD RESTRICTED WITH IP WHITELIST URI 
+
+ ```bash
+# IP RESTRICTED URI 
 location ~* ^/(index\.php/mageadmin|mageadmin) {
     index index.php;
-    try_files $uri $uri/ @handler;
+    try_files $uri $uri/ /index.php?$args;
     satisfy any;
     allow 192.168.0.13; # Office IP Address
     allow 192.168.0.51; # Warehouse IP Address
@@ -76,16 +77,16 @@ location ~* ^/(index\.php/mageadmin|mageadmin) {
     }
   }
  ```
- 
-  ## Password and IP Restriction ##
+
+## Password and IP Restriction ##
  
 The most secure method is to restrict the admin URI to a whitelist of IP addresses and then have password restriction for the whitelist. You can achieve this with the following configuration options in Nginx:
  
-  ```bash
-# PASSWORD AND IP RESTRICTED URI 
+ ```bash
+# IP RESTRICTED URI 
 location ~* ^/(index\.php/mageadmin|mageadmin) {
     index index.php;
-    try_files $uri $uri/ @handler;
+    try_files $uri $uri/ /index.php?$args;
     satisfy all;
     allow 192.168.0.13; # Office IP Address
     allow 192.168.0.51; # Warehouse IP Address
@@ -99,7 +100,7 @@ location ~* ^/(index\.php/mageadmin|mageadmin) {
     }
   }
  ```
-
+ 
 These location blocks need to be placed within the server block of your Nginx configuration file. You need to edit replacemebackend with the PHP-FPM configuration pool name (This should be defined at the top of your Nginx configuration file).
  
 To implement this change you need to reload the Nginx service. First perform a configuration test with the following command:
@@ -118,7 +119,7 @@ If there are no errors in the configuration test proceed to reload the Nginx ser
 
 ```eval_rst
   .. meta::
-     :title: Magento 1 Restrict File/Folder | UKFast Documentation
+     :title: Magento 2 Restrict File/Folder | UKFast Documentation
      :description: A guide to restrict a file or folder within Nginx
      :keywords: ukfast, linux, nginx, install, centos, cloud, server, virtual, Magento, security
 
