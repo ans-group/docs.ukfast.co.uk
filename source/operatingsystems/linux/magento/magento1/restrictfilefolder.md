@@ -2,7 +2,7 @@
 
 This guide is to show you how you can Password and or IP restrict a file or folder within your document root using Nginx.
 
-We highly recommend restricting the Magento 1 admin URI so will use this as an example. 
+We highly recommend restricting the Magento 1 admin URI so will use this as an example (mageadmin). 
 
 ## htpasswd File ##
 
