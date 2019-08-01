@@ -8,7 +8,7 @@ We highly recommend restricting the Magento 1 admin URI so will use this as an e
 .. seealso::
    Note:
      URI is the string presented after the URL: https://exampledomain.com/`category/page1.html`
-     ```
+```
 
 ## htpasswd File ##
 
