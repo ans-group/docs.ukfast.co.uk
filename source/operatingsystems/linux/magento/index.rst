@@ -30,6 +30,7 @@ Magento 1
    magento1/magentoinsubdir.md
    magento1/redis.md
    magento1/adddomain.md
+   magento1/redtrictwebsite.md
 
 -----------------
 Magento 2
