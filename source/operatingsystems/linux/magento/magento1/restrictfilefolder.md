@@ -4,12 +4,6 @@ This guide is to show you how you can Password and or IP restrict a file or fold
 
 We highly recommend restricting the Magento 1 admin URI so will use this as an example. 
 
-```eval_rst
-.. seealso::
-   Note:
-     URI is the string presented after the URL: https://exampledomain.com/category/page1.html
-```
-
 ## htpasswd File ##
 
 For password restriction you need to generate a username and password before configuring Nginx. You can do this with the following command:
