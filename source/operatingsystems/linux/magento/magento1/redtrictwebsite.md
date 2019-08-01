@@ -1,6 +1,6 @@
-# Magento 1 Restrict Website
+# Magento Restrict Website
 
-This guide is to show you how you can Password and or IP restrict a website. This is most common for staging or development websites.
+This guide is to show you how you can Password and or IP restrict a website. This is most common for staging or development websites. This guide is for the Nginx web service and is applicable for Magento 1 or Magento 2.
 
 ## htpasswd File ##
 
@@ -39,7 +39,7 @@ To password restrict your website following configuration options for Nginx:
 To password restrict the website whilst allowing certain IP address(s) access to the website without password restrictions you can use the following configuration options for Nginx:
  
   ```bash
-# PASSWORD RESTRICTED WITH IP WHITELIST URI 
+# PASSWORD RESTRICTED WITH IP WHITELIST WEBSITE 
     satisfy any;
     allow 192.168.0.13; # Office IP Address
     allow 192.168.0.51; # Warehouse IP Address
@@ -53,7 +53,7 @@ To password restrict the website whilst allowing certain IP address(s) access to
 The most secure method is to restrict the website to a whitelist of IP addresses and then have password restriction for the whitelist. You can achieve this with the following configuration options in Nginx:
  
   ```bash
-# PASSWORD AND IP RESTRICTED URI 
+# PASSWORD AND IP RESTRICTED WEBSITE
     satisfy all;
     allow 192.168.0.13; # Office IP Address
     allow 192.168.0.51; # Warehouse IP Address
@@ -80,7 +80,7 @@ If there are no errors in the configuration test proceed to reload the Nginx ser
 
 ```eval_rst
   .. meta::
-     :title: Magento 1 Restrict Website | UKFast Documentation
-     :description: A guide to restrict website
+     :title: Magento Restrict Website | UKFast Documentation
+     :description: A guide to restrict access to a website
      :keywords: ukfast, linux, nginx, install, centos, cloud, server, virtual, Magento, security
 
