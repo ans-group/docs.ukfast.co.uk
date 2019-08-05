@@ -1,6 +1,8 @@
 # Magento Time To First Byte (TTFB)
 
+## Server Time To First Byte
 
+## Magento Time To First Byte
 
 ```eval_rst
   .. meta::
