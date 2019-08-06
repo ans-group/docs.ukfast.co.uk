@@ -7,7 +7,7 @@ Time to first btye (TTFB) is a measurement to show the responsiveness of your Ma
 You can test the reponse time of the server with a text file, this will show you the speed of which the server, network and webservice reponse.
 
 ```bash
- ~]$ curl -o /dev/null -s -w "Time: %{time_total} \n" https://exampledomain.com/index.html
+ ~]$ curl -o /dev/null -s -w "Time: %{time_total} \n" https://exampledomain.com/ttfbtest.txt
 Time: 0.197
 ```
 
