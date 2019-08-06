@@ -14,7 +14,7 @@ Time: 0.197
 ## Magento Time To First Byte
 
 ```bash
- ~]$ curl -o /dev/null -s -w "Time: %{time_total} \n" https://exampledomain.com/ttfbtest.txt
+ ~]$ curl -o /dev/null -s -w "Time: %{time_total} \n" https://exampledomain.com/index.php
 Time: 0.197
 ```
 
