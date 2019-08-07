@@ -17,14 +17,9 @@ Replace DBNAME with the database name in question:
 
 ## Replace The Incorrect Useranme/Hostname
 
-Username:
 ```bash
 ~]$ sed -i 's/username/newusername/g' /tmp/DBNAME_triggers_export.sql
-```
-
-Hostname:
-```bash
-~]$ sed -i 's/localhost/22.93.135.106/g' 
+~]$ sed -i 's/localhost/22.93.135.106/g' /tmp/DBNAME_triggers_export.sql
 ```
 
 ## Drop Database Triggers
@@ -32,9 +27,7 @@ Hostname:
 ## Import Triggers
 
 ```bash
-~]$ mysql DBNAME <  /tmp/DBNAME_triggers_export.sql
-```
-
+~]$ mysql DBNAME < /tmp/DBNAME_triggers_export.sql
 ```
 
 ```eval_rst
