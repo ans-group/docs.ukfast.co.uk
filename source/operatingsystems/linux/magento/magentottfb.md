@@ -4,7 +4,7 @@ Time to first btye (TTFB) is a measurement to show the responsiveness of your Ma
 
 ## Server Time To First Byte
 
-You can test the reponse time of the server with a simple PHP info page, this will show you the speed of which the network, server, webservice and PHP-FPM response:
+You can test the reponse time of the server with a simple PHP info page. This will show you the speed of which the network, server, webservice and PHP-FPM response:
 
 ```bash
  ~]$ curl -o /dev/null -s -w "Time: %{time_total} \n" https://exampledomain.com/info.php
