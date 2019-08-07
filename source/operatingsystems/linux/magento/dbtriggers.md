@@ -9,7 +9,7 @@
 
 ```bash
 ~]$ sed -i 's/172.25.124.38/172.25.124.\%/g'  /tmp/DBNAME_triggers_export.sql
-````
+```
 
 ## Drop Database Triggers
 
