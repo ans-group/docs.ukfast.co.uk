@@ -14,4 +14,5 @@ PhaaS comes ready to go, with a selection of preconfigured phishing attack templ
 .. toctree::
    :maxdepth: 1
    
-   gettingstarted
+   whatisphaas
+   launchcampaign
