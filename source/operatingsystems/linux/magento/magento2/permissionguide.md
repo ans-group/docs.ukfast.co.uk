@@ -1,4 +1,4 @@
-# Magento 2 permission Guide
+# Magento 2 Permission Guide
 
 This guide is intended to show best practices for Magento 2 permissions. Ensuring that required directories are accessible whilst restricting access to others.
 
