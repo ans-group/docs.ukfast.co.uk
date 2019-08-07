@@ -32,6 +32,7 @@ Magento 1
    magento1/adddomain.md
    redtrictwebsite.md
    magentottfb.md
+   dbtriggers.md
 
 -----------------
 Magento 2
@@ -48,6 +49,7 @@ Magento 2
    magento2/adddomain.md
    redtrictwebsite.md
    magentottfb.md
+   dbtriggers.md
    
 .. meta::
    :title: Magento Optimised Stacks | UKFast Documentation
