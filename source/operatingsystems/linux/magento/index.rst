@@ -31,6 +31,7 @@ Magento 1
    magento1/redis.md
    magento1/adddomain.md
    redtrictwebsite.md
+   magentottfb.md
 
 -----------------
 Magento 2
@@ -46,6 +47,7 @@ Magento 2
    magento2/m2insubdir.md
    magento2/adddomain.md
    redtrictwebsite.md
+   magentottfb.md
    
 .. meta::
    :title: Magento Optimised Stacks | UKFast Documentation
