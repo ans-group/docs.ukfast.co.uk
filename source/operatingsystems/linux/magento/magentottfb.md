@@ -4,7 +4,7 @@ Time to first btye (TTFB) is a measurement to show the responsiveness of your Ma
 
 ## Server Time To First Byte
 
-You can test the reponse time of the server with a text file, this will show you the speed of which the server, network and webservice respond.
+You can test the reponse time of the server with a text file, this will show you the speed of which the server, network and webservice respond:
 
 ```bash
  ~]$ curl -o /dev/null -s -w "Time: %{time_total} \n" https://exampledomain.com/ttfbtest.txt
@@ -13,9 +13,10 @@ Time: 0.197
 
 ## Magento Time To First Byte
 
+Comparing the same test when hitting Magento will provide an indication of server response time versus Magento response time:
 ```bash
  ~]$ curl -o /dev/null -s -w "Time: %{time_total} \n" https://exampledomain.com/index.php
-Time: 0.197
+Time: 2.034
 ```
 
 ```eval_rst
