@@ -19,10 +19,10 @@ Comparing the same test when hitting Magento will provide an indication of serve
 Time: 2.034
 ```
 
-The key to having a fast TTFB with Magento is to optimise Magento to reduce the load time. Some recommendations on imporving TTFB:
+The key to having a lower TTFB with Magento is to optimise Magento to reduce the load time. Some recommendations on imporving TTFB:
 
-- Implement FPC (Ideally with Varnish)
-- RAM based sessions managment (Redis)
+- Implement Full Page Cache (Ideally with Varnish)
+- Memory based sessions managment (Redis)
 - Disable/Remove unused modules in Magento
 - Optimise code in theme .phtml files
 - Ensure Magento is on the latest version
