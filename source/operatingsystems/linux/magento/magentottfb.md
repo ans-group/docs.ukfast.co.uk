@@ -19,6 +19,14 @@ Comparing the same test when hitting Magento will provide an indication of serve
 Time: 2.034
 ```
 
+The key to having a fast TTFB with Magento is to optimise Magento to reduce the load time. Some recommendations on imporving TTFB:
+
+- Implement FPC (Ideally with Varnish)
+- RAM based sessions managment (Redis)
+- Disable/Remove unused modules in Magento
+- Optimise code in theme .phtml files
+- Ensure Magento is on the latest version
+
 ```eval_rst
   .. meta::
      :title: Magento Time To First Byte | UKFast Documentation
