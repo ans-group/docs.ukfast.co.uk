@@ -51,7 +51,7 @@ Before you import the triggers that now have the correct username in, we need to
 
 ## Import Triggers
 
-No we have removed the triggers in the database we need to import the triggers again with the correct username:
+No we have removed the triggers in the database we need to import the triggers again with the correct User and Host:
 
 ```bash
 ~]$ mysql DBNAME < /tmp/DBNAME_triggers_export.sql
