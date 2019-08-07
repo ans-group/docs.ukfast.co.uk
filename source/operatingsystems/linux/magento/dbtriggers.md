@@ -24,6 +24,8 @@ Replace DBNAME with the database name in question:
 
 ## Drop Database Triggers
 
+Before you import the triggers that now 
+
 ## Import Triggers
 
 ```bash
