@@ -24,7 +24,12 @@ Replace DBNAME with the database name in question:
 
 ## Drop Database Triggers
 
-Before you import the triggers that now 
+Before you import the triggers that now have the correct username in, we need to drop the triggers with the wrong usernames. Replace DBNAME with the database name in question and run the following:
+
+```bash
+
+for i in $(mysql -e "SELECT CONCAT('DROP TRIGGER ',trigger_name,';') FROM information_schema.triggers WHERE trigger_schema = 'DBNAME';" | sed s'/\|//g'); do mysql -e "$i"; done
+```
 
 ## Import Triggers
 
