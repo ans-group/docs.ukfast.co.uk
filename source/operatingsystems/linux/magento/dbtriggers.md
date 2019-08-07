@@ -17,12 +17,12 @@ Replace DBNAME with the database name in question:
 
 ## Replace The Incorrect Useranme/Hostname
 
-Review the file above and look for the DEFINER, exmaple:
+Review the file above and look for the DEFINER:
 
 ```bash 
+~]# cat /tmp/DBNAME_triggers_export.sql | grep DEFINER
 /*!50003 CREATE*/ /*!50017 DEFINER=`username`@`localhost`*/
 ```
-
 We need to replace the username and hostname in the file /tmp/DBNAME_triggers_export.sql with the username and host defined in the Magento local.xml/env.php:
 ```bash
 ~]$ sed -i 's/username/newusername/g' /tmp/DBNAME_triggers_export.sql
