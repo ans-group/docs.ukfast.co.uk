@@ -6,7 +6,7 @@ When performing actions in the Magento admin area (Saving products for example) 
 SQLSTATE[HY000]: General error: 1449 The user specified as a definer ('username'@'localhost') does not exist, query was: UPDATE `catelog_product_entity` SET `attrivute_set_id` =?, `sku` =?, has_options` =?, `required_options` =?, `created_at` =?, `updated_at` =? WHERE(entity_id = '4062)
 ```
 
-The database triggers may have been imported with the wrong username defined in the triggers. You can correct this with the following process:
+The database triggers may have been imported with the wrong username defined. You can correct this with the following process:
 
 ## Export Database Triggers
 
