@@ -12,7 +12,7 @@ The database triggers may have been impotred with the wrong username defined in 
 
 Replace DBNAME with the database name in question:
 ```bash
-~]$ mysqldump -uroot --triggers --add-op-trigger --no-create-info --no-data --no-create-db --skip-opt DBNAME > /tmp/DBNAME_triggers_export.sql
+~]$ mysqldump --triggers --no-create-info --no-data --no-create-db --skip-opt DBNAME > /tmp/DBNAME_triggers_export.sql
 ```
 
 ## Replace The Incorrect Useranme/Hostname
@@ -27,8 +27,8 @@ Replace DBNAME with the database name in question:
 Before you import the triggers that now have the correct username in, we need to drop the triggers with the wrong usernames. Replace DBNAME with the database name in question and run the following:
 
 ```bash
-
-for i in $(mysql -e "SELECT CONCAT('DROP TRIGGER ',trigger_name,';') FROM information_schema.triggers WHERE trigger_schema = 'DBNAME';" | sed s'/\|//g'); do mysql -e "$i"; done
+~]$ mysql -ANe "SELECT CONCAT('DROP TRIGGER ',trigger_name,';') FROM information_schema.triggers WHERE trigger_schema = 'DBNAME';" | sed s'/\|//g' > DBNAME_drop_statement.sql
+~]$ mysql DBNAME < DBNAME_drop_statement.sql
 ```
 
 ## Import Triggers
