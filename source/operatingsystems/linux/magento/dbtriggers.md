@@ -26,12 +26,14 @@ Review the file above and look for the DEFINER:
 We need to replace the username and hostname in the file /tmp/DBNAME_triggers_export.sql. The username needs to be set to the same defined in the Magento local.xml/env.php file. You can confirm the hostname Magento is connecting to the database with the following command:
 
 ```bash
-[root@m2 ~]# mysql -e "show processlist;"
+~]# mysql -e "show processlist;"
 +--------+------------+-----------+---------------------------+---------+------+----------+------------------+-----------+---------------+
 | Id     | User       | Host      | db                        | Command | Time | State    | Info             | Rows_sent | Rows_examined |
 +--------+------------+-----------+---------------------------+---------+------+----------+------------------+-----------+---------------+
-|   1132 | username | localhost | DBNAME | Sleep   |    0 |          | NULL             |         0 |             0 |
+|   1132 | newusername | 22.93.135.106 | DBNAME | Sleep   |    0 |          | NULL             |         0 |             0 |
 ```
+
+Replace the old username and host with the User and Host from the above command:
 
 ```bash
 ~]$ sed -i 's/username/newusername/g' /tmp/DBNAME_triggers_export.sql
