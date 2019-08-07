@@ -26,7 +26,7 @@ The key to having a lower TTFB with Magento is to optimise Magento to reduce the
 - Disable/Remove unused modules in Magento
 - Optimise code in theme .phtml files
 - Ensure Magento is on the latest version
-- Optimise static content (Optimise Images, minify JS. merge CSS)
+- Optimise static content (Reduce image sizes, minify js/css)
 
 ```eval_rst
   .. meta::
