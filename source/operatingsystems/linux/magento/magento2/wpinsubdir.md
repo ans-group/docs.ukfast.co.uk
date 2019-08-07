@@ -57,7 +57,7 @@ nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
 nginx: configuration file /etc/nginx/nginx.conf test is successful
 ```
 
-If there are no errors in the configuration test proceed to reload the Nginx server with the following command:
+If there are no errors in the configuration test proceed to reload the Nginx service with the following command:
 
 ```bash
  ~]$ nginx -s reload
