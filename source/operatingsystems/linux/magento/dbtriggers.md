@@ -15,10 +15,16 @@ Replace DBNAME with the database name in question:
 ~]$ mysqldump -uroot --triggers --add-op-trigger --no-create-info --no-data --no-create-db --skip-opt DBNAME > /tmp/DBNAME_triggers_export.sql
 ```
 
-## Replace The Incorrect Useranme
+## Replace The Incorrect Useranme/Hostname
 
+Username:
 ```bash
-~]$ sed -i 's/172.25.124.38/172.25.124.\%/g'  /tmp/DBNAME_triggers_export.sql
+~]$ sed -i 's/username/newusername/g' /tmp/DBNAME_triggers_export.sql
+```
+
+Hostname:
+```bash
+~]$ sed -i 's/localhost/22.93.135.106/g' 
 ```
 
 ## Drop Database Triggers
