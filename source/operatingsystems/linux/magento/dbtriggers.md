@@ -23,7 +23,16 @@ Review the file above and look for the DEFINER:
 ~]# cat /tmp/DBNAME_triggers_export.sql | grep DEFINER
 /*!50003 CREATE*/ /*!50017 DEFINER=`username`@`localhost`*/
 ```
-We need to replace the username and hostname in the file /tmp/DBNAME_triggers_export.sql with the username and host defined in the Magento local.xml/env.php:
+We need to replace the username and hostname in the file /tmp/DBNAME_triggers_export.sql. The username needs to be set to the same defined in the Magento local.xml/env.php file. You can confirm the hostname Magento is connecting to the database with the following command:
+
+```bash
+[root@m2 ~]# mysql -e "show processlist;"
++--------+------------+-----------+---------------------------+---------+------+----------+------------------+-----------+---------------+
+| Id     | User       | Host      | db                        | Command | Time | State    | Info             | Rows_sent | Rows_examined |
++--------+------------+-----------+---------------------------+---------+------+----------+------------------+-----------+---------------+
+|   1132 | username | localhost | DBNAME | Sleep   |    0 |          | NULL             |         0 |             0 |
+```
+
 ```bash
 ~]$ sed -i 's/username/newusername/g' /tmp/DBNAME_triggers_export.sql
 ~]$ sed -i 's/localhost/22.93.135.106/g' /tmp/DBNAME_triggers_export.sql
