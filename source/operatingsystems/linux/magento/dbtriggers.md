@@ -4,6 +4,7 @@
 
 ```bash
 ~]$ mysqldump -uroot --triggers --add-op-trigger --no-create-info --no-data --no-create-db --skip-opt DBNAME > /tmp/DBNAME_triggers_export.sql
+```
 
 ## Search and Replace Username In Triggers
 
