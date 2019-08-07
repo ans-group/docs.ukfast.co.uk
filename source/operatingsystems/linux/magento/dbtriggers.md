@@ -1,18 +1,21 @@
 # Magento Database Triggers
 
-When performing actions in the admin area (Saving products for example) and you get a similar error message to:
+When performing actions in the Magento admin area (Saving products for example) and you get a similar error message to:
 
 ```bash
 SQLSTATE[HY000]: General error: 1449 The user specified as a definer ('username'@'localhost') does not exist, query was: UPDATE `catelog_product_entity` SET `attrivute_set_id` =?, `sku` =?, has_options` =?, `required_options` =?, `created_at` =?, `updated_at` =? WHERE(entity_id = '4062)
 ```
 
+The database triggers may have been impotred with the wrong username defined in the triggers. You can correct this with the following process:
+
 ## Export Database Triggers
 
+Replace DBNAME with the database name in question:
 ```bash
 ~]$ mysqldump -uroot --triggers --add-op-trigger --no-create-info --no-data --no-create-db --skip-opt DBNAME > /tmp/DBNAME_triggers_export.sql
 ```
 
-## Search and Replace Username In Triggers
+## Replace The Incorrect Useranme
 
 ```bash
 ~]$ sed -i 's/172.25.124.38/172.25.124.\%/g'  /tmp/DBNAME_triggers_export.sql
