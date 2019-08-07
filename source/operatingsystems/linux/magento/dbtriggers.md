@@ -17,6 +17,13 @@ Replace DBNAME with the database name in question:
 
 ## Replace The Incorrect Useranme/Hostname
 
+Review the file above and look for the DEFINER, exmaple:
+
+```bash 
+/*!50003 CREATE*/ /*!50017 DEFINER=`username`@`localhost`*/
+```
+
+We need to replace the username and hostname in the file /tmp/DBNAME_triggers_export.sql with the username and host defined in the Magento local.xml/env.php:
 ```bash
 ~]$ sed -i 's/username/newusername/g' /tmp/DBNAME_triggers_export.sql
 ~]$ sed -i 's/localhost/22.93.135.106/g' /tmp/DBNAME_triggers_export.sql
@@ -32,6 +39,8 @@ Before you import the triggers that now have the correct username in, we need to
 ```
 
 ## Import Triggers
+
+No we have removed the triggers in the database we need to import the triggers again with the correct username:
 
 ```bash
 ~]$ mysql DBNAME < /tmp/DBNAME_triggers_export.sql
