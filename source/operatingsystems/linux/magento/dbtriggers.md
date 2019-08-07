@@ -42,7 +42,7 @@ Replace the old username and host with the User and Host from the above command:
 
 ## Drop Database Triggers
 
-Before you import the triggers that now have the correct username in, we need to drop the triggers with the wrong User and Host. Replace DBNAME with the database name in question and run the following:
+Before you import the triggers that now have the correct username in, we need to drop the triggers with the wrong User and Host in the database. Replace DBNAME with the database name in question and run the following:
 
 ```bash
 ~]$ mysql -ANe "SELECT CONCAT('DROP TRIGGER ',trigger_name,';') FROM information_schema.triggers WHERE trigger_schema = 'DBNAME';" | sed s'/\|//g' > /tmp/DBNAME_drop_statement.sql
