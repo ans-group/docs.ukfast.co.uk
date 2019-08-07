@@ -2,7 +2,7 @@
 
 When performing actions in the Magento admin area (Saving products for example) and you get a similar error message to:
 
-```bash
+```console
 SQLSTATE[HY000]: General error: 1449 The user specified as a definer ('username'@'localhost') does not exist, query was: UPDATE `catelog_product_entity` SET `attrivute_set_id` =?, `sku` =?, has_options` =?, `required_options` =?, `created_at` =?, `updated_at` =? WHERE(entity_id = '4062)
 ```
 
@@ -25,7 +25,7 @@ Review the file above and look for the DEFINER:
 ```
 We need to replace the username and hostname in the file /tmp/DBNAME_triggers_export.sql. View the User and Host Magento is connecting to the database with the following command:
 
-```bash
+```console
 ~]# mysql -e "show processlist;"
 +--------+------------+-----------+---------------------------+---------+------+----------+------------------+-----------+---------------+
 | Id     | User       | Host      | db                        | Command | Time | State    | Info             | Rows_sent | Rows_examined |
