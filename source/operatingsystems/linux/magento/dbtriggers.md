@@ -6,7 +6,7 @@ When performing actions in the Magento admin area (Saving products for example) 
 SQLSTATE[HY000]: General error: 1449 The user specified as a definer ('username'@'localhost') does not exist, query was: UPDATE `catelog_product_entity` SET `attrivute_set_id` =?, `sku` =?, has_options` =?, `required_options` =?, `created_at` =?, `updated_at` =? WHERE(entity_id = '4062)
 ```
 
-The database triggers may have been imported with the wrong username defined. You can correct this with the following process:
+The database triggers may have been imported with the wrong User and Host defined. You can correct this with the following process:
 
 ## Export Database Triggers
 
@@ -42,7 +42,7 @@ Replace the old username and host with the User and Host from the above command:
 
 ## Drop Database Triggers
 
-Before you import the triggers that now have the correct username in, we need to drop the triggers with the wrong usernames. Replace DBNAME with the database name in question and run the following:
+Before you import the triggers that now have the correct username in, we need to drop the triggers with the wrong User and Host. Replace DBNAME with the database name in question and run the following:
 
 ```bash
 ~]$ mysql -ANe "SELECT CONCAT('DROP TRIGGER ',trigger_name,';') FROM information_schema.triggers WHERE trigger_schema = 'DBNAME';" | sed s'/\|//g' > /tmp/DBNAME_drop_statement.sql
