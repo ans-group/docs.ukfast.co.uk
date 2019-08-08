@@ -8,6 +8,7 @@ There are a large amount of tools/products out there that can interact with Open
    :maxdepth: 1
 
    ansible
+   terraform
    
 .. meta::
    :title: Using 3rd Party Tools with OpenStack | UKFast Documentation
