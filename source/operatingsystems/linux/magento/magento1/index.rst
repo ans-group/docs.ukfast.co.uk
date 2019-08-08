@@ -9,7 +9,7 @@ Magento 1
    wpinsubdir.md
    restrictfilefolder.md
    magentoinsubdir.md
-   redis.md
+   redis/index
    adddomain.md
    ../redtrictwebsite.md
    ../magentottfb.md
