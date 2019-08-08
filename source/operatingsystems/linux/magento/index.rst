@@ -17,21 +17,10 @@ Our Magento Optimised Stack consists of numerous applications for optimal perfor
 
 Magento offers open & closed Source e-commerce solution that is very popular amongst our clients. As such we have developed a selection of guides that cater for this product:
 
---------------
-Magento 1
---------------
-
 .. toctree::
    :maxdepth: 1
 
    magento1/index
-
------------------
-Magento 2
------------------
-.. toctree::
-   :maxdepth: 1
-
    magento2/index
    
 .. meta::
