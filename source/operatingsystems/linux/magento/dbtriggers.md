@@ -1,4 +1,4 @@
-# Magento Database Triggers
+# Database Triggers
 
 When performing actions in the Magento admin area (Saving products for example) and you get a similar error message to:
 
