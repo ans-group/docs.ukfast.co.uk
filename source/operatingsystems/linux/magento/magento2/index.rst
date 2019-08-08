@@ -15,6 +15,7 @@ Magento 2
    ../redtrictwebsite.md
    ../magentottfb.md
    ../dbtriggers.md
+   varnish/index
    
 .. meta::
    :title: Magento 2 Optimised Stack | UKFast Documentation
