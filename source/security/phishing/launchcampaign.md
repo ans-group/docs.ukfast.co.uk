@@ -114,4 +114,10 @@ Once created, you'll be taken to the campaigns section where you can see all of 
 
 ![phaas](files/campaign3.png)
 
+```eval_rst
+.. meta::
+   :title: Phishing as a Service | UKFast Documentation
+   :description: Guidance on Phsihing solutions from UKFast
+   :keywords: security, email, phishing, alerts, blocking, hacking, ransomware, protection
+```
 
