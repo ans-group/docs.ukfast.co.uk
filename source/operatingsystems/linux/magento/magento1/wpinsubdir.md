@@ -1,4 +1,4 @@
-# Magento 1 Wordpress in a Sub Directory
+# Wordpress in a Sub Directory
 
 If you have Wordpress in a sub directory within your Magento 1 document root you will need to edit your domains Nginx configuration (Example: /etc/nginx/conf.d/example.com.conf). 
 

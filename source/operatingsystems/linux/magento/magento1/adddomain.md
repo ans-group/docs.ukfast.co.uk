@@ -1,4 +1,4 @@
-# Magento 1 Adding Domain(s) To The Stack
+# Adding Domain(s) To The Stack
 
 To add a domain to your Magento optimised stack please provide us with the following information:
 
