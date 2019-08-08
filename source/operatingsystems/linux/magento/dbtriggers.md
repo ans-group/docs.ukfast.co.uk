@@ -8,14 +8,14 @@ SQLSTATE[HY000]: General error: 1449 The user specified as a definer ('username'
 
 The database triggers may have been imported with the wrong User and Host defined. You can correct this with the following process:
 
-## Export Database Triggers
+### Export Database Triggers
 
 Replace DBNAME with the database name in question:
 ```bash
 ~]$ mysqldump --triggers --no-create-info --no-data --no-create-db --skip-opt DBNAME > /tmp/DBNAME_triggers_export.sql
 ```
 
-## Replace The Incorrect Username/Hostname
+### Replace The Incorrect Username/Hostname
 
 Review the file above and look for the DEFINER:
 
@@ -40,7 +40,7 @@ Replace the old username and host with the User and Host from the above command:
 ~]$ sed -i 's/localhost/22.93.135.106/g' /tmp/DBNAME_triggers_export.sql
 ```
 
-## Drop Database Triggers
+### Drop Database Triggers
 
 Before you import the triggers that now have the correct username in, we need to drop the triggers with the wrong User and Host in the database. Replace DBNAME with the database name in question and run the following:
 
@@ -49,7 +49,7 @@ Before you import the triggers that now have the correct username in, we need to
 ~]$ mysql DBNAME < /tmp/DBNAME_drop_statement.sql
 ```
 
-## Import Triggers
+### Import Triggers
 
 Now the troggers have been removed from the database we need to import the triggers again with the correct User and Host:
 
