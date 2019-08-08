@@ -18,7 +18,7 @@ You can start the Varnish service with the following command:
 ## Generate VCL
 
 ## Cache Static Files
-Static files are not cached by default in the Magento generated VCL. This is due to the assumption you have another service caching static files like a CDN. If you need Varnish to cache static files edit section for static files:
+Static files are not cached by default in the Magento generated VCL. This is due to the assumption you have another service caching static files like a CDN. If you need Varnish to cache static files edit the section for static files in the VCL:
 
 ```bash
 # Static files should not be cached by default
@@ -29,6 +29,7 @@ Static files are not cached by default in the Magento generated VCL. This is due
   #unset req.http./*  */;
   #unset req.http.Cookie;
 ```
+Varnish will not a reload for this to take affect.
 
 ## Memory Limit
 The default memory limit in Varnish is 256M. You may want to increase this, especially if you are using Varnish for Full Page Cache. You can do this by changing the value under VARNISH_STORAGE in the file /etc/varnish/varnish.params.
