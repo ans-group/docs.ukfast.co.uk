@@ -35,7 +35,7 @@ As we set the document root to pub you need to remove pub from the probe URL:
     .threshold = 5;
     }
 ```
-
+Varnish will not a reload for this to take affect.
 ## Generate VCL
 
 ## Cache Static Files
