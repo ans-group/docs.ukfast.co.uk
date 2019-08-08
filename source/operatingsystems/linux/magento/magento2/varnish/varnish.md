@@ -37,6 +37,12 @@ As we set the document root to pub you need to remove pub from the probe URL:
 ```
 The Varnish service needs to be reloaded in order for this to take affect.
 ## Generate VCL
+- Log in to the Magento Admin as an administrator.
+- Click STORES > Settings > Configuration > ADVANCED > System > Full Page Cache.
+- From the Caching Application list, click Varnish Caching.
+- Click one of the export buttons to create a varnish.vcl you can use with Varnish.
+
+You can now copy the file /var/www/vhosts/exmapledomain.com/htdocs/var/varnish.vcl to /etc/varnish/default.vcl
 
 ## Cache Static Files
 Static files are not cached by default in the Magento generated VCL. This is due to the assumption you have another service caching static files like a CDN. If you need Varnish to cache static files edit the section for static files in the VCL:
