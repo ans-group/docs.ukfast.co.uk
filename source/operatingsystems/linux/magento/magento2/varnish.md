@@ -35,7 +35,7 @@ As we set the document root to pub you need to remove pub from the probe URL:
     .threshold = 5;
     }
 ```
-Varnish will not a reload for this to take affect.
+The Varnish service needs to be reloaded in order for this to take affect.
 ## Generate VCL
 
 ## Cache Static Files
@@ -50,7 +50,7 @@ Static files are not cached by default in the Magento generated VCL. This is due
   #unset req.http./*  */;
   #unset req.http.Cookie;
 ```
-Varnish will not a reload for this to take affect.
+The Varnish service needs to be reloaded in order for this to take affect.
 
 ## Memory Limit
 The default memory limit in Varnish is 256M. You may want to increase this, especially if you are using Varnish for Full Page Cache. You can do this by changing the value under VARNISH_STORAGE in the file /etc/varnish/varnish.params.
