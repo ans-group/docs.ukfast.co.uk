@@ -1,4 +1,4 @@
-# Magento 1 Restrict File/Folder
+# Restrict File/Folder
 
 This guide is to show you how you can Password and or IP restrict a file or folder within your document root using Nginx.
 
