@@ -3,6 +3,11 @@
 ## Install Varnish
 
 ### Configuration Test
+It's very important to run a configuration test before starting/restarting the Varnish service. You can run a configruation test with the following command:
+```bash
+~]# varnishd -C -f /etc/varnish/default.vcl
+```
+A susceeful output from this command will be the VCL displayed  on the terminal with no error message.
 
 #### Start Varnish
 
