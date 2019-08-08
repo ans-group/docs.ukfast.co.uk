@@ -43,3 +43,9 @@ If the above has been checked and the issue still occurs, please raise a support
 ![phaas](files/beenphished.png)
 
 
+```eval_rst
+.. meta::
+   :title: Phishing as a Service | UKFast Documentation
+   :description: Guidance on Phsihing solutions from UKFast
+   :keywords: security, email, phishing, alerts, blocking, hacking, ransomware, protection
+```
