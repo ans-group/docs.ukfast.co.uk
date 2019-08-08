@@ -1,5 +1,5 @@
 =================================================
-Magento 2
+Varnish
 =================================================
 
 .. toctree::
@@ -7,7 +7,7 @@ Magento 2
    varnish.md
    
 .. meta::
-   :title: Magento 2 Optimised Stack | UKFast Documentation
-   :description: guides relating to UKFast Magento 2 Optimised Stack
-   :keywords: ukfast, Magento, optimised, stack
+   :title: Magento 2 Varnish | UKFast Documentation
+   :description: guides relating to Magento 2 using Varnish
+   :keywords: ukfast, Magento2, optimised, stack, varnish
 
