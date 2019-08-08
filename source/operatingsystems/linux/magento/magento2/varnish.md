@@ -14,6 +14,11 @@
 
 ## Pipe timeout
 
+## SSL Termination
+Varnish does not support SSL-encrypted traffic, therefore we use Nginx for SSL termination.
+
+
+
 ```eval_rst
   .. meta::
      :title: Magento 2 Varnish | UKFast Documentation
