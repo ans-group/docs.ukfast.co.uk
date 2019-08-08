@@ -24,15 +24,7 @@ Magento 1
 .. toctree::
    :maxdepth: 1
 
-   magento1/permissionguide
-   magento1/wpinsubdir.md
-   magento1/restrictfilefolder.md
-   magento1/magentoinsubdir.md
-   magento1/redis.md
-   magento1/adddomain.md
-   redtrictwebsite.md
-   magentottfb.md
-   dbtriggers.md
+   magento1/index
 
 -----------------
 Magento 2
@@ -40,16 +32,7 @@ Magento 2
 .. toctree::
    :maxdepth: 1
 
-   magento2/permissionguide
-   magento2/nginxphpfilewhitelist
-   magento2/wpinsubdir.md
-   magento2/filediroutsidepub.md
-   magento2/restrictfilefolder.md
-   magento2/m2insubdir.md
-   magento2/adddomain.md
-   redtrictwebsite.md
-   magentottfb.md
-   dbtriggers.md
+   magento2/index
    
 .. meta::
    :title: Magento Optimised Stacks | UKFast Documentation
