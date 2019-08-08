@@ -1,4 +1,4 @@
-# Magento 2 .php File Whitelist
+# .php File Whitelist
 
 The Magento 2 Nginx configuration file has a whitelist (List of allowed file names) to be passed to PHP-FPM. This guide is intended to show you how to add a new filename to the whitelist.
 
