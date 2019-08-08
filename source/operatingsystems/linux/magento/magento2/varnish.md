@@ -1,6 +1,14 @@
 # Magento 2 Varnish
 
+## Install Varnish
 
+## Health Check
+
+## Generate VCL
+
+## Memory Limit
+
+## Pipe timeout
 
 ```eval_rst
   .. meta::
