@@ -2,7 +2,7 @@
 
 Time to first byte (TTFB) is a measurement to show the responsiveness of your Magento website. TTFB measures the time from the end user making an HTTP request to the first byte of the page being received by the end user's browser. Magento can show a slower TTFB as it does not send any bytes until PHP has rendered the whole page (Unless there are cache mechanism in place).
 
-### Server Time To First Byte
+## Server Time To First Byte
 
 You can test the response time of the server with a simple PHP info page. This will show you the speed of which the network, server, webservice and PHP-FPM response:
 
