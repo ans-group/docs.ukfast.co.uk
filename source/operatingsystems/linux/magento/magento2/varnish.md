@@ -2,6 +2,10 @@
 
 ## Install Varnish
 
+### Configure Test
+
+### Start Varnish
+
 ## Health Check
 
 ## Generate VCL
