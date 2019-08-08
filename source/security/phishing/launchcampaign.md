@@ -52,7 +52,7 @@ On this page, you can see a list of all the user's can send phishing emails to. 
 ![phaas](files/users2.png)
 
 
-This will open a section where you can add new users. Entering the user's First name, Last name, Email address and Position in the text boxes provided and clicking the 'Add' button will add a user. 
+This will open a section where you can add new users. Entering the user's First Name, Last Name, Email address and Position in the text boxes provided and clicking the 'Add' button will add a user. 
 
 Alternatively, you can upload a list of users in CSV format. a CSV template can be downloaded by pressing the 'Download CSV Template' link. The completed CSV can then be uploaded by pressing the 'Bulk Import Users' button.
 
@@ -63,7 +63,7 @@ Once your users have been added, press the green 'Save Changes' button saves the
 
 # 3) Creating a distribution group
 
-With your user's added, you can now create a distribution group for later reference in a phishing campaign. Disctivuton groups allow a selection of users to be used in a certain phishing campaign.
+With your users added, you can now create a distribution group for later reference in a phishing campaign. Distribution groups allow a selection of users to be used in a certain phishing campaign.
 
 Looking at your progress bar at the top of the page, you can press the 'click here' link to go to the 'Groups' page. This can also be accessed by clicking the 'Groups' link under the phishing section in the navigation bar to the left.
 
