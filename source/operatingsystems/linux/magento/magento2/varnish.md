@@ -36,7 +36,30 @@ pipe_timeout is set to 60 seconds by default. This can cause time out issues whe
 Within the DAEMON_OPTS sections in the file /etc/varnish/varnish.params. You need to restart Varnish for this setting to take affect.
 
 ## SSL Termination
-Varnish does not support SSL-encrypted traffic, therefore we use Nginx for SSL termination.
+Varnish does not support SSL-encrypted traffic, therefore we use Nginx for SSL termination. You need to remove the 443 listen from the server block in the Nginx vhosts configruation file and then add a new server block for 443. Example block:
+
+```bash
+server {
+  server_name example.domain.com;
+  listen 10.0.0.17:443 ssl http2;
+  ssl_certificate /etc/nginx/ssk/example.domain.com.crt;
+  ssl_certificate_key /etc/nginx/ssk/example.domain.com.key;
+
+  access_log /var/log/nginx/example.domain.com-ssl-access.log main buffer=32k flush=300;
+  error_log /var/log/nginx/example.domain.com-ssl-error.log;
+
+  location / {
+            proxy_pass http://10.0.0.17:80;
+            proxy_set_header X-Real-IP  $remote_addr;
+            proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+            proxy_set_header X-Forwarded-Proto https;
+            proxy_set_header X-Forwarded-Port 443;
+            proxy_set_header Host $host;
+  }
+}
+```
+
+This block performs an SSL handshake and then sends traffic to port 80 which Varnish should be running on.
 
 
 
