@@ -1,4 +1,4 @@
-# What is Phishing as a servive (PHaas)?
+# What is Phishing as a service (PHaas)?
 
 ![hwo-it-works](files/phishing128.png)
 
@@ -8,10 +8,10 @@ PhaaS comes ready to go, with a selection of preconfigured phishing attack templ
 
 # What is a phishing attack?
 
-As businesses rely more and more in IT for their day to day operations, email and other internet based communication systems are becoming thr backbone of a business. Hackers know this, and as a result, social engnearing and Phishing attacks are on the rise.
+As businesses rely more and more on IT for their day to day operations, email and other internet-based communication systems are becoming the backbone of a business. Hackers know this, and as a result, social engineering and phishing attacks are on the rise.
 
-Simular to a fraudulent phone calls, phishing attacks utilise emails to trick the recipient into handing over important or personally identifiable information to the attacker. The attacker can then use this information to gain further unauthertised access into IT systems, such as email accounts, bank accounts or even corprate IT systems, bypassing many security measure put in place.
+Similar to fraudulent phone calls, phishing attacks utilise emails to trick the recipient into handing over important or personally identifiable information to the attacker. The attacker can then use this information to gain further unauthorised access into IT systems, such as email accounts, bank accounts or even corporate IT systems, bypassing many security measures put in place.
 
-Phishing emails are oftern disguised as a legitimate email, pretending to originate from a comany you trust and recognise. This is called spear phsihing, and is the most common type of phishing attack we see. Spear phishing emails will ofern follow a vry simular folratting to the original email, using the same colours, logosd and contenbt in a effor to mislead the ricipient into hadning over important information.
+Phishing emails are often disguised as a legitimate email, pretending to originate from a company you trust and recognise. This is called spear phishing and is the most common type of phishing attack we see. Spear phishing emails will often follow very similar formatting to the original email, using the same colours, logos and content to mislead the recipient into handing over important information.
 
-Another common but dangerous type of phishing attack is CEO imporanation, crafted in a simular way to spear phishing attacks, thease emails impersonate a business's CEO, CTO or another authoeitive figure in your business. It's common for thease attacks to request that the recipient perform a selection of tasks for the 'CEO' or attacker in this case. We commonly see emails from attackers asking reciepient to use the company credit card to buy gift cards for a fake raffle or fund raising event. We also see o supply the attacker with inside information reguarding te businesss's operations or upcoming products
+Another common but dangerous type of phishing attack is CEO impersonation, crafted in a similar way to spear-phishing attacks, these emails impersonate a business's CEO, CTO or another authoritative figure in your business. It's common for these attacks to request that the recipient perform a selection of tasks for the 'CEO' or attacker in this case. We commonly see emails from attackers asking the recipient to use the company credit card to buy gift cards for a fake raffle or fundraising event. We also see o supply the attacker with inside information regarding the business's operations or upcoming products
