@@ -2,7 +2,7 @@
 
 ### I'm not receiving phishing emails
 
-If you're not receiving emails send from UKfast PHaaS, it's most likely being blocked by your email filter.
+If you're not receiving emails send from UKFast PHaaS, it's most likely being blocked by your email filter.
 
 Please double check that the email you have entered in MyUKFast is correct. Then, confirm with your IT department that emails from our email servers (178.238.132.248 185.207.111.242) have been whitelisted, preventing them from being blocked by your email filters.
 
@@ -32,7 +32,7 @@ If you see a message that says "Deceptive site ahead" like the example below, pl
 
 ![phaas](files/deceptivesite.png)
 
-### When clicking the link, I goto a website that says "You just fell for a phishing attack!"
+### When clicking the link I go to a website that says "You just fell for a phishing attack!"
 
 When a user falls for a phishing attack, they a redirected to a website that looks like the example below. This is normal behaviour.
 
