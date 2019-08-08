@@ -1,4 +1,4 @@
-# Magento 2 File/Directory Outside /pub
+# File/Directory Outside /pub
 
 If you have a file/directory you want to be accessible but is outside of the Magento 2 pub directory you need to edit your domains Nginx configuration (Example: /etc/nginx/conf.d/example.com.conf). 
 

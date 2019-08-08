@@ -1,4 +1,4 @@
-# Magento Restrict Website
+# Restrict Website
 
 This guide is to show you how you can Password and or IP restrict a website. This is most common for staging or development websites. This guide is for the Nginx web service and is applicable for Magento 1 or Magento 2.
 
