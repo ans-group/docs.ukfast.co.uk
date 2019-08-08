@@ -20,6 +20,10 @@ You can start the Varnish service with the following command:
 ## Memory Limit
 The default memory limit in Varnish is 256M. You may want to increase this, especially if you are using Varnish for Full Page Cache. You can do this by changing the value under VARNISH_STORAGE in the file /etc/varnish/varnish.params.
 
+```bash
+~]# grep VARNISH_STORAGE /etc/varnish/varnish.params
+VARNISH_STORAGE="malloc,3G"
+```
 Please note Varnish will need a restart for this change to take affect.
 ## Version Check
 You can see the version of Varnish installed with the following command:
