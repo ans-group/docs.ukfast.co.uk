@@ -2,9 +2,9 @@
 
 ## Install Varnish
 
-### Configure Test
+### Configuration Test
 
-### Start Varnish
+#### Start Varnish
 
 ## Health Check
 
