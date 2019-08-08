@@ -17,7 +17,7 @@ Magento 2
    ../dbtriggers.md
    
 .. meta::
-   :title: Magento 2 Optimised Stacks | UKFast Documentation
-   :description: guides relating to UKFast Magento 2 Optimised Stacks
+   :title: Magento 2 Optimised Stack | UKFast Documentation
+   :description: guides relating to UKFast Magento 2 Optimised Stack
    :keywords: ukfast, Magento, optimised, stack
 
