@@ -10,7 +10,10 @@ It's very important to run a configuration test before starting/restarting the V
 A susceeful output from this command will be the VCL displayed  on the terminal with no error message.
 
 #### Start Varnish
-
+You can start the Varnish service with the following command:
+```bash
+~]# systemctl start varnish
+```
 ## Health Check
 
 ## Generate VCL
