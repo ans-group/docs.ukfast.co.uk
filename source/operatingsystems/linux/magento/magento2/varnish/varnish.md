@@ -1,7 +1,5 @@
 # Magento 2 Varnish
 
-## Install Varnish
-
 ### Configuration Test
 It's very important to run a configuration test before starting/restarting the Varnish service. You can run a configuration test with the following command:
 ```bash
