@@ -10,3 +10,9 @@ Also, you can see if a user has clicked the phishing link and submitted data. Yo
 
 ![phaas](files/overview1.png)
 
+```eval_rst
+.. meta::
+   :title: Phishing as a Service | UKFast Documentation
+   :description: Guidance on Phsihing solutions from UKFast
+   :keywords: security, email, phishing, alerts, blocking, hacking, ransomware, protection
+```
