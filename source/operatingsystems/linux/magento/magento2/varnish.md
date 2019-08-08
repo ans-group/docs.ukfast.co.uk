@@ -14,6 +14,17 @@ You can start the Varnish service with the following command:
 ~]# systemctl start varnish
 ```
 ## Health Check
+The Magento genereated VCL has the following healthcheck:
+```bash
+.probe = {
+    .url = "/pub/health_check.php";
+    .timeout = 2s;
+    .interval = 5s;
+    .window = 10;
+    .threshold = 5;
+    }
+```
+As we set the document root to pub you need to change the probe URL to: .url = "/health_check.php";
 
 ## Generate VCL
 
