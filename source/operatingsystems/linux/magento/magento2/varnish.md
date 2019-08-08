@@ -24,7 +24,17 @@ The Magento genereated VCL has the following healthcheck:
     .threshold = 5;
     }
 ```
-As we set the document root to pub you need to change the probe URL to: .url = "/health_check.php";
+As we set the document root to pub you need to remove pub from the probe URL:
+
+```bash
+.probe = {
+    .url = "/health_check.php";
+    .timeout = 2s;
+    .interval = 5s;
+    .window = 10;
+    .threshold = 5;
+    }
+```
 
 ## Generate VCL
 
