@@ -1,4 +1,4 @@
-# Magento 1 Permissions Guide
+# Permissions Guide
 
 The purpose of this guide is to show best practices for Magento 1 permissions. This is intended to ensure that the application is able to function without issue whilst ensuring that security standards are upheld.
 
