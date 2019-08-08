@@ -42,7 +42,12 @@ The Varnish service needs to be reloaded in order for this to take affect.
 - From the Caching Application list, click Varnish Caching.
 - Click one of the export buttons to create a varnish.vcl you can use with Varnish.
 
-You can now copy the file /var/www/vhosts/exmapledomain.com/htdocs/var/varnish.vcl to /etc/varnish/default.vcl
+You can now copy the file /var/www/vhosts/exmapledomain.com/htdocs/var/varnish.vcl to /etc/varnish/default.vcl. You may want to backup the default.vcl file:
+
+```bash
+~]# mv /etc/varnish/default.vcl /etc/varnish/default.vcl.backup
+~]# cp /var/www/vhosts/exmapledomain.com/htdocs/var/varnish.vcl /etc/varnish/default.vcl
+```
 
 ## Cache Static Files
 Static files are not cached by default in the Magento generated VCL. This is due to the assumption you have another service caching static files like a CDN. If you need Varnish to cache static files edit the section for static files in the VCL:
