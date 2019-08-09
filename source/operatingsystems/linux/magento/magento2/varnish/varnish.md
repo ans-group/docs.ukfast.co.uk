@@ -140,6 +140,15 @@ If pages are not being cached we recommend you search for cacheable="false" with
 ~]$ find vendor app -regextype 'egrep' -type f -regex '.*/layout/.*\.xml' -not -regex '.*(vendor/magento/|/checkout_|/catalogsearch_result_|/dotmailer).*' | xargs grep --color -n -e 'cacheable="false"'
 ```
 
+### Exclude Domain From Cache
+If you have a domain you wish to exclude from cache you can add the following:
+
+```bashif (req.http.host ~ "exampledomain.com") {
+    return (pass);
+   }
+```
+This needs to go under the vcl_recv section of the VCL. Varnish will need a reload for this to take efect.
+   
 ### SSL Termination
 Varnish does not support SSL-encrypted traffic, therefore we use Nginx for SSL termination. You need to remove the 443 listen from the server block in the Nginx vhosts configuration file and then add a new server block for 443. Example block:
 
