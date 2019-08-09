@@ -217,6 +217,34 @@ if (resp.status == 750) {
 ```
 
 Under vcl_synth. Varnish will need a reload for this to take efect.
+
+### Purge Cache
+Magento purges Varnish hosts after you configure Varnish hosts using the magento setup:config:set command (Ensure you run the Magento 2 CLI as the local system user defined in PHP-FPM and not root)
+
+```bash
+~]$ php magento setup:config:set --http-cache-hosts=10.0.0.17
+```
+You can also define more hosts if you have multiple web/varnish servers:
+```bash
+~]$ php magento setup:config:set --http-cache-hosts=10.0.0.17,10.0.0.18,10.0.0.19
+```
+
+However you can purge the cache manually with the following command:
+
+```bash
+~]$ curl -I0 -X PURGE www.exampledomain.com -H "X-Magento-Tags-Pattern: *"
+```
+
+Single URI:
+```bash
+~]$ curl -I0 -X PURGE www.exampledomain.com/client.css -H "X-Magento-Tags-Pattern: *"
+```
+
+If the DNS for your domain does not point to Varnish you can use the IP address of your Varnish host:
+
+```bash
+curl -I0 -X PURGE http://158.228.105.80 -H "Host: www.exampledomain.com" -H "X-Magento-Tags-Pattern: *"
+```
  
 ### SSL Termination
 Varnish does not support SSL-encrypted traffic, therefore we use Nginx for SSL termination. You need to remove the 443 listen from the server block in the Nginx vhosts configuration file and then add a new server block for 443. Example block:
