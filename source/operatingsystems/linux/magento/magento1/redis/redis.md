@@ -40,8 +40,8 @@ Magento EE – 1.13.1
 
 The Repositories for these modules can be found here along with installation details for older versions of Magento
 
-Cm_RedisSession - (https://github.com/colinmollenhour/Cm_RedisSession)<br>
-Cm_Cache_Backend_Redis - (https://github.com/colinmollenhour/Cm_Cache_Backend_Redis)
+Cm_RedisSession - [https://github.com/colinmollenhour/Cm_RedisSession](https://github.com/colinmollenhour/Cm_RedisSession)<br>
+Cm_Cache_Backend_Redis - [https://github.com/colinmollenhour/Cm_Cache_Backend_Redis](https://github.com/colinmollenhour/Cm_Cache_Backend_Redis)
 
 ### Using Redis for Session Data
 
