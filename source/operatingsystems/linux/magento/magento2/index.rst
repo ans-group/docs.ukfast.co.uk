@@ -13,6 +13,7 @@ Our Magento 2 optimised stack has been going since 2015. The core components of 
 * **Database services**: MySQL Percona, Elasticsearch, Memcached, Redis, Sphinx, RabbitMQx
 * **Version Control Utilities**: Git
 * **File system distribution**: NFS
+
 .. toctree::
    :maxdepth: 1
 
