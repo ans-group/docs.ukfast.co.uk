@@ -2,6 +2,8 @@
 Redis
 =================================================
 
+Magento 1 integrated Redis as part of the core code from version 1.8.0(CE)/1.13.1(EE). Redis can be used for Session, Object Cache and Full Page Cache for Magento 1.
+
 .. toctree::
    
    redis.md
