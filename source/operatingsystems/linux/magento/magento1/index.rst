@@ -6,11 +6,11 @@ Our Magento 1 optimised stack has been going since 2008. The core components of 
 
 - **Web Service**: Nginx
 - **PHP Utilities**: PHP-FPM, Magento 1 Recommended PHP modules, OPCache
-* **Mail Services**: Postfix, Sendmail
-* **SSH/FTP Access**: SSH, VSFTPd, ProFTPD
-* **Database services**: MySQL Percona, Redis
-* **Version Control Utilities**: Git
-* **File system distribution**: NFS
+- **Mail Services**: Postfix, Sendmail
+- **SSH/FTP Access**: SSH, VSFTPd, ProFTPD
+- **Database services**: MySQL Percona, Redis
+- **Version Control Utilities**: Git
+- **File system distribution**: NFS
 
 .. toctree::
    :maxdepth: 1
