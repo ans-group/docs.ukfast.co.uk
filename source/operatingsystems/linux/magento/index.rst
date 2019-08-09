@@ -2,6 +2,8 @@
 Magento
 =================================================
 
+Magento offers open & closed Source e-commerce solutions that is very popular amongst our clients. As such we have developed a selection of guides that cater for this:
+
 .. toctree::
    :maxdepth: 1
 
