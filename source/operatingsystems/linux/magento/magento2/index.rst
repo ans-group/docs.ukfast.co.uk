@@ -2,7 +2,7 @@
 Magento 2
 =================================================
 
-Our Magento 2 optimised stack has been going since 2015. The core components of our Magento 2 optimised stack are:
+Our Magento 2 optimised stack has been going since 2015. The core components of this stack are:
 
 * **Firewall**: Dedicated/Shared Firewall
 * **Web Service**: Nginx
