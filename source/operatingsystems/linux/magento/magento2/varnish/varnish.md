@@ -186,7 +186,38 @@ if (req.url ~ "^/.well-known/") {
 ```
 
 This needs to go under the vcl_recv section of the VCL. Varnish will need a reload for this to take efect.
-   
+
+### HTTP -> HTTPS Redirect
+To configure Varnish to perform the HTTP to HTTPS redirect add the following:
+
+All domains:
+```bash
+if (req.http.X-Forwarded-Proto !~ "https") {
+        set req.http.location = "https://" + req.http.host + req.url;
+        return (synth(750, "Permanently moved"));
+    }
+```
+
+Single domain:
+```bash
+if (req.http.host ~ "exampledomain.com" && req.http.X-Forwarded-Proto !~ "https") {
+        set req.http.location = "https://" + req.http.host + req.url;
+        return (synth(750, "Permanently moved"));
+    }
+```
+
+Under the vcl_recv section of /etc/varnish/default.vcl and:
+
+```bash
+if (resp.status == 750) {
+        set resp.http.location = req.http.location;
+        set resp.status = 301;
+        return (deliver);
+    }
+```
+
+Under vcl_synth. Varnish will need a reload for this to take efect.
+ 
 ### SSL Termination
 Varnish does not support SSL-encrypted traffic, therefore we use Nginx for SSL termination. You need to remove the 443 listen from the server block in the Nginx vhosts configuration file and then add a new server block for 443. Example block:
 
