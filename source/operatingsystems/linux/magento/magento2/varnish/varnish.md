@@ -130,6 +130,16 @@ X-Cache: HIT
 X-Cache-Hits: 4
 ```
 
+### cacheable="false"
+Cacheable and uncacheable are terms Magento uses to indicate whether or not a page should be cached at all. (By default, all pages are cacheable.) If any block in a layout is designated as uncacheable, the entire page is uncacheable.
+
+If pages are not being cached we recommend you search for cacheable="false" with the below command:
+
+```bash
+~]$ cd /var/www/vhosts/domainname.com/htdocs/
+~]$ find vendor app -regextype 'egrep' -type f -regex '.*/layout/.*\.xml' -not -regex '.*(vendor/magento/|/checkout_|/catalogsearch_result_|/dotmailer).*' | xargs grep --color -n -e 'cacheable="false"'
+```
+
 ### SSL Termination
 Varnish does not support SSL-encrypted traffic, therefore we use Nginx for SSL termination. You need to remove the 443 listen from the server block in the Nginx vhosts configuration file and then add a new server block for 443. Example block:
 
