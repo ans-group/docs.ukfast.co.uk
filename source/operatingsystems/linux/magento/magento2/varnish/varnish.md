@@ -29,6 +29,7 @@ The default memory limit in Varnish is 256M. You may want to increase this, espe
 ~]# grep VARNISH_STORAGE /etc/varnish/varnish.params
 VARNISH_STORAGE="malloc,3G"
 ```
+Please note Varnish will need a restart for this change to take effect.
 
 ## Pipe timeout
 pipe_timeout is set to 60 seconds by default. This can cause time out issues when running exports in the Magento admin interface. You can increase this by adding the option:
@@ -36,8 +37,6 @@ pipe_timeout is set to 60 seconds by default. This can cause time out issues whe
 -p pipe_timeout=600
 
 Within the DAEMON_OPTS sections in the file /etc/varnish/varnish.params. You need to restart Varnish for this setting to take effect.
-
-Please note Varnish will need a restart for this change to take effect.
 
 ### Configuration Test
 It's very important to run a configuration test before starting/restarting the Varnish service. You can run a configuration test with the following command:
