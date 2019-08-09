@@ -22,7 +22,7 @@ Varnish 5.2 can then be installed with the command:
 ```bash
 ~]# yum install varnish --disablerepo='*' --enablerepo='varnishcache_varnish52'
 ```
-## Memory Limit
+### Memory Limit
 The default memory limit in Varnish is 256M. You may want to increase this, especially if you are using Varnish for Full Page Cache. You can do this by changing the value under VARNISH_STORAGE in the file /etc/varnish/varnish.params.
 
 ```bash
@@ -31,7 +31,7 @@ VARNISH_STORAGE="malloc,3G"
 ```
 Please note Varnish will need a restart for this change to take effect.
 
-## Pipe timeout
+### Pipe timeout
 pipe_timeout is set to 60 seconds by default. This can cause time out issues when running exports in the Magento admin interface. You can increase this by adding the option:
 
 -p pipe_timeout=600
@@ -50,7 +50,7 @@ You can start the Varnish service with the following command:
 ```bash
 ~]# systemctl start varnish
 ```
-## Generate VCL
+### Generate VCL
 - Log in to the Magento Admin as an administrator.
 - Click STORES > Settings > Configuration > ADVANCED > System > Full Page Cache.
 - From the Caching Application list, click Varnish Caching.
@@ -62,7 +62,7 @@ You can now copy the file /var/www/vhosts/exmapledomain.com/htdocs/var/varnish.v
 ~]# mv /etc/varnish/default.vcl /etc/varnish/default.vcl.backup
 ~]# cp /var/www/vhosts/exmapledomain.com/htdocs/var/varnish.vcl /etc/varnish/default.vcl
 ```
-## Health Check
+### Health Check
 The Magento genereated VCL has the following healthcheck:
 ```bash
 .probe = {
@@ -86,7 +86,7 @@ As we set the document root to pub you need to remove pub from the probe URL:
 ```
 The Varnish service needs to be reloaded in order for this to take effect.
 
-## Cache Static Files
+### Cache Static Files
 Static files are not cached by default in the Magento generated VCL. This is due to the assumption you have another service caching static files like a CDN. If you need Varnish to cache static files edit the section for static files in the VCL:
 
 ```bash
@@ -100,7 +100,7 @@ Static files are not cached by default in the Magento generated VCL. This is due
 ```
 The Varnish service needs to be reloaded in order for this to take effect.
 
-## Version Check
+### Version Check
 You can see the version of Varnish installed with the following command:
 ```bash
 ~]# varnishd -V
@@ -109,7 +109,28 @@ Copyright (c) 2006 Verdens Gang AS
 Copyright (c) 2006-2019 Varnish Software AS
 ```
 
-## SSL Termination
+### HIT/MISS Headers
+To test the caching of URLs in Varnish while Magento 2 is in producion mode you can add HIT/MISS headers to the VCL. Edit the vcl_deliver section in /etc/varnish/default.vcl and add the following:
+
+```bash
+if (obj.hits > 0) {
+        set resp.http.X-Cache = "HIT";
+        set resp.http.X-Cache-Hits = obj.hits;
+    }
+    else {
+        set resp.http.X-Cache = "MISS";
+    }
+```
+
+You need to reload Varnish for this change to take effect. Once done you can browse your website and check for these headers:
+
+```bash
+~]$ curl -sI https://exampledomain.co.uk/ | grep Cache
+X-Cache: HIT
+X-Cache-Hits: 4
+```
+
+### SSL Termination
 Varnish does not support SSL-encrypted traffic, therefore we use Nginx for SSL termination. You need to remove the 443 listen from the server block in the Nginx vhosts configuration file and then add a new server block for 443. Example block:
 
 ```bash
