@@ -175,6 +175,17 @@ if (req.http.host ~ "exampledomain.com") {
    }
 ```
 This needs to go under the vcl_recv section of the VCL. Varnish will need a reload for this to take efect.
+
+### Exclude URI From Cache
+You may need to exclude a URI from being cached, like the .well-known folder for example when validating an SSL.
+
+```bash
+if (req.url ~ "^/.well-known/") {
+      return (pass);
+   }
+```
+
+This needs to go under the vcl_recv section of the VCL. Varnish will need a reload for this to take efect.
    
 ### SSL Termination
 Varnish does not support SSL-encrypted traffic, therefore we use Nginx for SSL termination. You need to remove the 443 listen from the server block in the Nginx vhosts configuration file and then add a new server block for 443. Example block:
