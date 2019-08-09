@@ -59,7 +59,7 @@ It's very important to run a configuration test before starting/restarting the V
 ```bash
 ~]# varnishd -C -f /etc/varnish/default.vcl
 ```
-A successful output from this command will be the VCL displayed  on the terminal with no error message.
+A successful output from this command will be the VCL displayed  on the terminal with no error message(s).
 
 #### Start Varnish
 You can start the Varnish service with the following command:
@@ -200,7 +200,31 @@ server {
 }
 ```
 
-This block performs an SSL handshake and then sends traffic to port 80 which Varnish should be running on.
+This block performs an SSL handshake and then sends traffic to port 80 which Varnish should be running on. You then need to ensure Nginx does not listen on port 80 by changing the listen from 80 to 8080:
+
+```bash
+server {
+  listen 10.0.0.17:8080;
+```
+
+#### SSL Offloading
+If SSL is set to offloading like the above example you need to uncomment the following from the Nginx vhosts configuration file:
+
+```bash
+ # Enable for SSL offloading
+  set $my_https off;
+  set $my_port 80;
+  
+  if ($http_x_forwarded_proto = https) {
+    set $my_https on;
+    set $my_port 443;
+  }
+  
+  fastcgi_param HTTPS $my_https; # Uncomment the below for SSL offloading
+  fastcgi_param SERVER_PORT $my_port; # Uncomment the below for SSL offloading
+```
+
+This tells Magento that despite the connection over from port 80 -> 8080 it should be treated as a secure connection due to the header x_forwarded_proto containing https. 
 
 ```eval_rst
   .. meta::
