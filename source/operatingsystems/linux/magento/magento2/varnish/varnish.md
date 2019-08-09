@@ -38,6 +38,22 @@ pipe_timeout is set to 60 seconds by default. This can cause time out issues whe
 
 Within the DAEMON_OPTS sections in the file /etc/varnish/varnish.params. You need to restart Varnish for this setting to take effect.
 
+### Header Size
+If you have this error message in Nginx: 
+
+```bash
+[error] 110200#110200: *102122 upstream sent too big header while reading response header from upstream
+```
+
+You may need to increase http_resp_hdr_len and http_resp_size. You can do this by adding:
+
+```bash
+-p http_resp_hdr_len=983044 \
+-p http_resp_size=983044 \
+```
+
+To the DAEMON_OPTS sections in the file /etc/varnish/varnish.params. You need to restart Varnish for this setting to take effect.
+
 ### Configuration Test
 It's very important to run a configuration test before starting/restarting the Varnish service. You can run a configuration test with the following command:
 ```bash
@@ -49,6 +65,16 @@ A successful output from this command will be the VCL displayed  on the terminal
 You can start the Varnish service with the following command:
 ```bash
 ~]# systemctl start varnish
+```
+#### Reload Varnish
+You can reload the Varnish service with the following command:
+```bash
+~]# systemctl reload varnish
+```
+#### Restart Varnish
+You can restart the Varnish service with the following command:
+```bash
+~]# systemctl restart varnish
 ```
 ### Generate VCL
 - Log in to the Magento Admin as an administrator.
