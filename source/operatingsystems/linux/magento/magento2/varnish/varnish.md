@@ -143,7 +143,8 @@ If pages are not being cached we recommend you search for cacheable="false" with
 ### Exclude Domain From Cache
 If you have a domain you wish to exclude from cache you can add the following:
 
-```bashif (req.http.host ~ "exampledomain.com") {
+```bash
+if (req.http.host ~ "exampledomain.com") {
     return (pass);
    }
 ```
