@@ -22,6 +22,22 @@ Varnish 5.2 can then be installed with the command:
 ```bash
 ~]# yum install varnish --disablerepo='*' --enablerepo='varnishcache_varnish52'
 ```
+## Memory Limit
+The default memory limit in Varnish is 256M. You may want to increase this, especially if you are using Varnish for Full Page Cache. You can do this by changing the value under VARNISH_STORAGE in the file /etc/varnish/varnish.params.
+
+```bash
+~]# grep VARNISH_STORAGE /etc/varnish/varnish.params
+VARNISH_STORAGE="malloc,3G"
+```
+
+## Pipe timeout
+pipe_timeout is set to 60 seconds by default. This can cause time out issues when running exports in the Magento admin interface. You can increase this by adding the option:
+
+-p pipe_timeout=600
+
+Within the DAEMON_OPTS sections in the file /etc/varnish/varnish.params. You need to restart Varnish for this setting to take effect.
+
+Please note Varnish will need a restart for this change to take effect.
 
 ### Configuration Test
 It's very important to run a configuration test before starting/restarting the Varnish service. You can run a configuration test with the following command:
@@ -29,10 +45,23 @@ It's very important to run a configuration test before starting/restarting the V
 ~]# varnishd -C -f /etc/varnish/default.vcl
 ```
 A successful output from this command will be the VCL displayed  on the terminal with no error message.
+
 #### Start Varnish
 You can start the Varnish service with the following command:
 ```bash
 ~]# systemctl start varnish
+```
+## Generate VCL
+- Log in to the Magento Admin as an administrator.
+- Click STORES > Settings > Configuration > ADVANCED > System > Full Page Cache.
+- From the Caching Application list, click Varnish Caching.
+- Click one of the export buttons to create a varnish.vcl you can use with Varnish.
+
+You can now copy the file /var/www/vhosts/exmapledomain.com/htdocs/var/varnish.vcl to /etc/varnish/default.vcl. You may want to back up the default.vcl file:
+
+```bash
+~]# mv /etc/varnish/default.vcl /etc/varnish/default.vcl.backup
+~]# cp /var/www/vhosts/exmapledomain.com/htdocs/var/varnish.vcl /etc/varnish/default.vcl
 ```
 ## Health Check
 The Magento genereated VCL has the following healthcheck:
@@ -57,18 +86,6 @@ As we set the document root to pub you need to remove pub from the probe URL:
     }
 ```
 The Varnish service needs to be reloaded in order for this to take effect.
-## Generate VCL
-- Log in to the Magento Admin as an administrator.
-- Click STORES > Settings > Configuration > ADVANCED > System > Full Page Cache.
-- From the Caching Application list, click Varnish Caching.
-- Click one of the export buttons to create a varnish.vcl you can use with Varnish.
-
-You can now copy the file /var/www/vhosts/exmapledomain.com/htdocs/var/varnish.vcl to /etc/varnish/default.vcl. You may want to back up the default.vcl file:
-
-```bash
-~]# mv /etc/varnish/default.vcl /etc/varnish/default.vcl.backup
-~]# cp /var/www/vhosts/exmapledomain.com/htdocs/var/varnish.vcl /etc/varnish/default.vcl
-```
 
 ## Cache Static Files
 Static files are not cached by default in the Magento generated VCL. This is due to the assumption you have another service caching static files like a CDN. If you need Varnish to cache static files edit the section for static files in the VCL:
@@ -84,14 +101,6 @@ Static files are not cached by default in the Magento generated VCL. This is due
 ```
 The Varnish service needs to be reloaded in order for this to take effect.
 
-## Memory Limit
-The default memory limit in Varnish is 256M. You may want to increase this, especially if you are using Varnish for Full Page Cache. You can do this by changing the value under VARNISH_STORAGE in the file /etc/varnish/varnish.params.
-
-```bash
-~]# grep VARNISH_STORAGE /etc/varnish/varnish.params
-VARNISH_STORAGE="malloc,3G"
-```
-Please note Varnish will need a restart for this change to take effect.
 ## Version Check
 You can see the version of Varnish installed with the following command:
 ```bash
@@ -100,13 +109,6 @@ varnishd (varnish-4.1.11 revision 61367ed17d08a9ef80a2d42dc84caef79cdeee7a)
 Copyright (c) 2006 Verdens Gang AS
 Copyright (c) 2006-2019 Varnish Software AS
 ```
-
-## Pipe timeout
-pipe_timeout is set to 60 seconds by default. This can cause time out issues when running exports in the Magento admin interface. You can increase this by adding the option:
-
--p pipe_timeout=600
-
-Within the DAEMON_OPTS sections in the file /etc/varnish/varnish.params. You need to restart Varnish for this setting to take effect.
 
 ## SSL Termination
 Varnish does not support SSL-encrypted traffic, therefore we use Nginx for SSL termination. You need to remove the 443 listen from the server block in the Nginx vhosts configuration file and then add a new server block for 443. Example block:
