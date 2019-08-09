@@ -2,7 +2,7 @@
 Magento 1
 =================================================
 
-Our Magento 1 optimised stack has been going since 2008. The core components of our Magento 1 optimised stack are:
+Our Magento 1 optimised stack has been going since 2008. The core components of this stack are:
 
 
 - **Firewall**: Dedicated/Shared Firewall
