@@ -1,17 +1,68 @@
 # Magento 2 Varnish
 
+### Install Varnish
+#### Version 4.1
+Varnish 4.1 is available from the varnishcache_varnish41 repository, this repository can be installed with the following command:
+```bash
+curl -s https://packagecloud.io/install/repositories/varnishcache/varnish41/script.rpm.sh | sudo bash
+```
+
+Varnish 4.1 can then be installed with the command:
+```bash
+~]# yum install varnish --disablerepo='*' --enablerepo='varnishcache_varnish41'
+```
+
+#### Version 5.2
+Varnish 5.2 is available from the varnishcache_varnish52 repository, this repository can be installed with the following command:
+```bash
+curl -s https://packagecloud.io/install/repositories/varnishcache/varnish52/script.rpm.sh | sudo bash
+```
+
+Varnish 5.2 can then be installed with the command:
+```bash
+~]# yum install varnish --disablerepo='*' --enablerepo='varnishcache_varnish52'
+```
+### Memory Limit
+The default memory limit in Varnish is 256M. You may want to increase this, especially if you are using Varnish for Full Page Cache. You can do this by changing the value under VARNISH_STORAGE in the file /etc/varnish/varnish.params.
+
+```bash
+~]# grep VARNISH_STORAGE /etc/varnish/varnish.params
+VARNISH_STORAGE="malloc,3G"
+```
+Please note Varnish will need a restart for this change to take effect.
+
+### Pipe timeout
+pipe_timeout is set to 60 seconds by default. This can cause time out issues when running exports in the Magento admin interface. You can increase this by adding the option:
+
+-p pipe_timeout=600
+
+Within the DAEMON_OPTS sections in the file /etc/varnish/varnish.params. You need to restart Varnish for this setting to take effect.
+
 ### Configuration Test
 It's very important to run a configuration test before starting/restarting the Varnish service. You can run a configuration test with the following command:
 ```bash
 ~]# varnishd -C -f /etc/varnish/default.vcl
 ```
 A successful output from this command will be the VCL displayed  on the terminal with no error message.
+
 #### Start Varnish
 You can start the Varnish service with the following command:
 ```bash
 ~]# systemctl start varnish
 ```
-## Health Check
+### Generate VCL
+- Log in to the Magento Admin as an administrator.
+- Click STORES > Settings > Configuration > ADVANCED > System > Full Page Cache.
+- From the Caching Application list, click Varnish Caching.
+- Click one of the export buttons to create a varnish.vcl you can use with Varnish.
+
+You can now copy the file /var/www/vhosts/exmapledomain.com/htdocs/var/varnish.vcl to /etc/varnish/default.vcl. You may want to back up the default.vcl file:
+
+```bash
+~]# mv /etc/varnish/default.vcl /etc/varnish/default.vcl.backup
+~]# cp /var/www/vhosts/exmapledomain.com/htdocs/var/varnish.vcl /etc/varnish/default.vcl
+```
+### Health Check
 The Magento genereated VCL has the following healthcheck:
 ```bash
 .probe = {
@@ -34,20 +85,8 @@ As we set the document root to pub you need to remove pub from the probe URL:
     }
 ```
 The Varnish service needs to be reloaded in order for this to take effect.
-## Generate VCL
-- Log in to the Magento Admin as an administrator.
-- Click STORES > Settings > Configuration > ADVANCED > System > Full Page Cache.
-- From the Caching Application list, click Varnish Caching.
-- Click one of the export buttons to create a varnish.vcl you can use with Varnish.
 
-You can now copy the file /var/www/vhosts/exmapledomain.com/htdocs/var/varnish.vcl to /etc/varnish/default.vcl. You may want to back up the default.vcl file:
-
-```bash
-~]# mv /etc/varnish/default.vcl /etc/varnish/default.vcl.backup
-~]# cp /var/www/vhosts/exmapledomain.com/htdocs/var/varnish.vcl /etc/varnish/default.vcl
-```
-
-## Cache Static Files
+### Cache Static Files
 Static files are not cached by default in the Magento generated VCL. This is due to the assumption you have another service caching static files like a CDN. If you need Varnish to cache static files edit the section for static files in the VCL:
 
 ```bash
@@ -61,15 +100,7 @@ Static files are not cached by default in the Magento generated VCL. This is due
 ```
 The Varnish service needs to be reloaded in order for this to take effect.
 
-## Memory Limit
-The default memory limit in Varnish is 256M. You may want to increase this, especially if you are using Varnish for Full Page Cache. You can do this by changing the value under VARNISH_STORAGE in the file /etc/varnish/varnish.params.
-
-```bash
-~]# grep VARNISH_STORAGE /etc/varnish/varnish.params
-VARNISH_STORAGE="malloc,3G"
-```
-Please note Varnish will need a restart for this change to take effect.
-## Version Check
+### Version Check
 You can see the version of Varnish installed with the following command:
 ```bash
 ~]# varnishd -V
@@ -78,14 +109,48 @@ Copyright (c) 2006 Verdens Gang AS
 Copyright (c) 2006-2019 Varnish Software AS
 ```
 
-## Pipe timeout
-pipe_timeout is set to 60 seconds by default. This can cause time out issues when running exports in the Magento admin interface. You can increase this by adding the option:
+### HIT/MISS Headers
+To test the caching of URLs in Varnish while Magento 2 is in producion mode you can add HIT/MISS headers to the VCL. Edit the vcl_deliver section in /etc/varnish/default.vcl and add the following:
 
--p pipe_timeout=600
+```bash
+if (obj.hits > 0) {
+        set resp.http.X-Cache = "HIT";
+        set resp.http.X-Cache-Hits = obj.hits;
+    }
+    else {
+        set resp.http.X-Cache = "MISS";
+    }
+```
 
-Within the DAEMON_OPTS sections in the file /etc/varnish/varnish.params. You need to restart Varnish for this setting to take effect.
+You need to reload Varnish for this change to take effect. Once done you can browse your website and check for these headers:
 
-## SSL Termination
+```bash
+~]$ curl -sI https://exampledomain.co.uk/ | grep Cache
+X-Cache: HIT
+X-Cache-Hits: 4
+```
+
+### cacheable="false"
+Cacheable and uncacheable are terms Magento uses to indicate whether or not a page should be cached at all. (By default, all pages are cacheable.) If any block in a layout is designated as uncacheable, the entire page is uncacheable.
+
+If pages are not being cached we recommend you search for cacheable="false" with the below command:
+
+```bash
+~]$ cd /var/www/vhosts/domainname.com/htdocs/
+~]$ find vendor app -regextype 'egrep' -type f -regex '.*/layout/.*\.xml' -not -regex '.*(vendor/magento/|/checkout_|/catalogsearch_result_|/dotmailer).*' | xargs grep --color -n -e 'cacheable="false"'
+```
+
+### Exclude Domain From Cache
+If you have a domain you wish to exclude from cache you can add the following:
+
+```bash
+if (req.http.host ~ "exampledomain.com") {
+    return (pass);
+   }
+```
+This needs to go under the vcl_recv section of the VCL. Varnish will need a reload for this to take efect.
+   
+### SSL Termination
 Varnish does not support SSL-encrypted traffic, therefore we use Nginx for SSL termination. You need to remove the 443 listen from the server block in the Nginx vhosts configuration file and then add a new server block for 443. Example block:
 
 ```bash
