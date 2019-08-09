@@ -219,7 +219,7 @@ if (resp.status == 750) {
 Under vcl_synth. Varnish will need a reload for this to take efect.
 
 ### Purge Cache
-Magento purges Varnish hosts after you configure Varnish hosts using the magento setup:config:set command (Ensure you run the Magento 2 CLI as the local system user defined in PHP-FPM and not root)
+Magento purges Varnish hosts after you configure Varnish hosts using the magento setup:config:set command (Ensure you run the Magento 2 CLI as the local system user defined in PHP-FPM and not root). Once configured when you clean, flush, or refresh the Magento cache, Varnish purges as well. 
 
 ```bash
 ~]$ php magento setup:config:set --http-cache-hosts=10.0.0.17
