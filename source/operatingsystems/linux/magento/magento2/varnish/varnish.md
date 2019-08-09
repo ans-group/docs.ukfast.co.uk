@@ -1,6 +1,7 @@
 # Magento 2 Varnish
 
 ### Install Varnish
+#### 4.1
 Varnish 4.1 is available from the varnishcache_varnish41 repository, this repository can be installed with the following command:
 ```bash
 curl -s https://packagecloud.io/install/repositories/varnishcache/varnish41/script.rpm.sh | sudo bash
@@ -8,9 +9,19 @@ curl -s https://packagecloud.io/install/repositories/varnishcache/varnish41/scri
 
 Varnish 4.1 can then be installed with the command:
 ```bash
-~]# ~]# yum install varnish --disablerepo='*' --enablerepo='varnishcache_varnish41'
+~]# yum install varnish --disablerepo='*' --enablerepo='varnishcache_varnish41'
 ```
-Varnish 5.2 is available from the packagecloud.io repository
+
+#### 5.2
+Varnish 5.2 is available from the varnishcache_varnish52 repository, this repository can be installed with the following command:
+```bash
+curl -s https://packagecloud.io/install/repositories/varnishcache/varnish52/script.rpm.sh | sudo bash
+```
+
+Varnish 5.2 can then be installed with the command:
+```bash
+~]# yum install varnish --disablerepo='*' --enablerepo='varnishcache_varnish52'
+```
 
 ### Configuration Test
 It's very important to run a configuration test before starting/restarting the Varnish service. You can run a configuration test with the following command:
