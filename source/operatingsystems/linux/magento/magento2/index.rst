@@ -2,6 +2,18 @@
 Magento 2
 =================================================
 
+Our Magento 2 optimised stack has been going since 2015. The core components of this stack are:
+
+* **Firewall**: Dedicated/Shared Firewall
+* **Web Service**: Nginx
+* **PHP Utilities**: PHP-FPM, Magento 2 Recommended PHP modules, Composer, OPCache
+* **Mail Services**: Postfix, Sendmail
+* **SSH/FTP Access**: SSH, VSFTPd, ProFTPD
+* **HTTP Caching Utilities**: Varnish
+* **Database services**: MySQL Percona, Elasticsearch, Memcached, Redis, Sphinx, RabbitMQx
+* **Version Control Utilities**: Git
+* **File system distribution**: NFS
+
 .. toctree::
    :maxdepth: 1
 
