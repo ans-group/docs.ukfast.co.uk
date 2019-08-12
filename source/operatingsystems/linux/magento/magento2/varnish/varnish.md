@@ -38,17 +38,43 @@ pipe_timeout is set to 60 seconds by default. This can cause time out issues whe
 
 Within the DAEMON_OPTS sections in the file /etc/varnish/varnish.params. You need to restart Varnish for this setting to take effect.
 
+### Header Size
+If you have this error message in Nginx: 
+
+```bash
+[error] 110200#110200: *102122 upstream sent too big header while reading response header from upstream
+```
+
+You may need to increase http_resp_hdr_len and http_resp_size. You can do this by adding:
+
+```bash
+-p http_resp_hdr_len=983044 \
+-p http_resp_size=983044 \
+```
+
+To the DAEMON_OPTS sections in the file /etc/varnish/varnish.params. You need to restart Varnish for this setting to take effect.
+
 ### Configuration Test
 It's very important to run a configuration test before starting/restarting the Varnish service. You can run a configuration test with the following command:
 ```bash
 ~]# varnishd -C -f /etc/varnish/default.vcl
 ```
-A successful output from this command will be the VCL displayed  on the terminal with no error message.
+A successful output from this command will be the VCL displayed  on the terminal with no error message(s).
 
 #### Start Varnish
 You can start the Varnish service with the following command:
 ```bash
 ~]# systemctl start varnish
+```
+#### Reload Varnish
+You can reload the Varnish service with the following command:
+```bash
+~]# systemctl reload varnish
+```
+#### Restart Varnish
+You can restart the Varnish service with the following command:
+```bash
+~]# systemctl restart varnish
 ```
 ### Generate VCL
 - Log in to the Magento Admin as an administrator.
@@ -149,7 +175,77 @@ if (req.http.host ~ "exampledomain.com") {
    }
 ```
 This needs to go under the vcl_recv section of the VCL. Varnish will need a reload for this to take efect.
-   
+
+### Exclude URI From Cache
+You may need to exclude a URI from being cached, like the .well-known folder for example when validating an SSL.
+
+```bash
+if (req.url ~ "^/.well-known/") {
+      return (pass);
+   }
+```
+
+This needs to go under the vcl_recv section of the VCL. Varnish will need a reload for this to take efect.
+
+### HTTP -> HTTPS Redirect
+To configure Varnish to perform the HTTP to HTTPS redirect add the following:
+
+All domains:
+```bash
+if (req.http.X-Forwarded-Proto !~ "https") {
+        set req.http.location = "https://" + req.http.host + req.url;
+        return (synth(750, "Permanently moved"));
+    }
+```
+
+Single domain:
+```bash
+if (req.http.host ~ "exampledomain.com" && req.http.X-Forwarded-Proto !~ "https") {
+        set req.http.location = "https://" + req.http.host + req.url;
+        return (synth(750, "Permanently moved"));
+    }
+```
+
+Under the vcl_recv section of /etc/varnish/default.vcl and:
+
+```bash
+if (resp.status == 750) {
+        set resp.http.location = req.http.location;
+        set resp.status = 301;
+        return (deliver);
+    }
+```
+
+Under vcl_synth. Varnish will need a reload for this to take efect.
+
+### Purge Cache
+Magento purges Varnish hosts after you configure Varnish hosts using the magento setup:config:set command (Ensure you run the Magento 2 CLI as the local system user defined in PHP-FPM and not root). Once configured when you clean, flush, or refresh the Magento cache, Varnish purges as well. 
+
+```bash
+~]$ php magento setup:config:set --http-cache-hosts=10.0.0.17
+```
+You can also define more hosts if you have multiple web/varnish servers:
+```bash
+~]$ php magento setup:config:set --http-cache-hosts=10.0.0.17,10.0.0.18,10.0.0.19
+```
+
+However you can purge the cache manually with the following command:
+
+```bash
+~]$ curl -I0 -X PURGE www.exampledomain.com -H "X-Magento-Tags-Pattern: *"
+```
+
+Single URI:
+```bash
+~]$ curl -I0 -X PURGE www.exampledomain.com/client.css -H "X-Magento-Tags-Pattern: *"
+```
+
+If the DNS for your domain does not point to Varnish you can use the IP address of your Varnish host:
+
+```bash
+curl -I0 -X PURGE http://158.228.105.80 -H "Host: www.exampledomain.com" -H "X-Magento-Tags-Pattern: *"
+```
+ 
 ### SSL Termination
 Varnish does not support SSL-encrypted traffic, therefore we use Nginx for SSL termination. You need to remove the 443 listen from the server block in the Nginx vhosts configuration file and then add a new server block for 443. Example block:
 
@@ -174,7 +270,31 @@ server {
 }
 ```
 
-This block performs an SSL handshake and then sends traffic to port 80 which Varnish should be running on.
+This block performs an SSL handshake and then sends traffic to port 80 which Varnish should be running on. You then need to ensure Nginx does not listen on port 80 by changing the listen from 80 to 8080:
+
+```bash
+server {
+  listen 10.0.0.17:8080;
+```
+
+#### SSL Offloading
+If SSL is set to offloading like the above example you need to uncomment the following from the Nginx vhosts configuration file:
+
+```bash
+ # Enable for SSL offloading
+  set $my_https off;
+  set $my_port 80;
+  
+  if ($http_x_forwarded_proto = https) {
+    set $my_https on;
+    set $my_port 443;
+  }
+  
+  fastcgi_param HTTPS $my_https; # Uncomment the below for SSL offloading
+  fastcgi_param SERVER_PORT $my_port; # Uncomment the below for SSL offloading
+```
+
+This tells Magento that although the connection is port 80 -> 8080 it should be treated as a secure connection due to the header x_forwarded_proto containing https. 
 
 ```eval_rst
   .. meta::
