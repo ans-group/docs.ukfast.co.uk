@@ -49,4 +49,5 @@ You can find the full configuration reference, resource types and further detail
 .. meta::
    :title: UKFast Documentation | eCloud Flex | Using eCloud Flex as a Terraform Provider
    :description: How to use eCloud Flex as a terraform provider
+   :keywords: ecloud, flex, terraform, openstack, IaC, provider, integration
 ```
