@@ -294,7 +294,7 @@ If SSL is set to offloading like the above example you need to uncomment the fol
   fastcgi_param SERVER_PORT $my_port; # Uncomment the below for SSL offloading
 ```
 
-This tells Magento that despite the connection over from port 80 -> 8080 it should be treated as a secure connection due to the header x_forwarded_proto containing https. 
+This tells Magento that although the connection is port 80 -> 8080 it should be treated as a secure connection due to the header x_forwarded_proto containing https. 
 
 ```eval_rst
   .. meta::
