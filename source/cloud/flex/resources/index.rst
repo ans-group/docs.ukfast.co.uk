@@ -31,8 +31,6 @@ Load Balancing (LBaaS)
 
    lbaas/config_lb_through_interface
    lbaas/config_https_termination_cli
-  
-
 
 .. meta::
    :title: Managing eCloud Flex Resources | UKFast Documentation
