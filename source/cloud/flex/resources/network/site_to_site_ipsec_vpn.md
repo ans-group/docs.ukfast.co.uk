@@ -1,11 +1,9 @@
+### Note; This has not been indexed purposefully, as the service is currently unavailable.
+
 # Site-To-Site VPNs on eCloud Flex
-```eval_rst
-.. meta::
-    :title: Site-To-Site VPN In eCloud Flex | UKFast Documentation
-    :description: Detailed guidance on setting up a site-to-site VPN between eCloud Flex and various endpoints
-```
 
 ## Site-To-Site VPN To A Cisco ASA Firewall
+
 In this guide we will use `python-neutronclient` and `python-openstackclient` to orchestrate setting up a site-to-site VPN between eCloud Flex and a Cisco ASA firewall.  
 Prerequisites
 -   Python 2.7+
@@ -294,4 +292,10 @@ crypto ikev1 policy 10
 tunnel-group 46.37.188.24 type ipsec-l2l
 tunnel-group 46.37.188.24 ipsec-attributes
  ikev1 pre-shared-key 67BD88KpA9bY0Mu2
+```
+
+```eval_rst
+.. meta::
+    :title: Site-To-Site VPN In eCloud Flex | UKFast Documentation
+    :description: Detailed guidance on setting up a site-to-site VPN between eCloud Flex and various endpoints
 ```

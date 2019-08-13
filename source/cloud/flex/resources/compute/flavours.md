@@ -44,9 +44,6 @@ Each instance on eCloud Flex comes in a variety of configurations, known as "fla
 
  *\* ***High CPU*** flavours have an increased clock speed, providing superior performance over other flavours with comparable numbers of vCPUs.
 
-For more regarding eCloud Flex flavour types please see [this article](/cloud/flex/nova/newinstances.html).
-
-
 ## Block Storage volumes
 
 Additional storage for your eCloud Flex instances is available through attachable Block Storage volumes, based on [OpenStack Cinder](https://docs.openstack.org/cinder/latest/).  Block Storage is available in SATA, SSD and PCIe tiers, with each tier offering increasing IOPS and improved access latency:
@@ -56,7 +53,6 @@ Additional storage for your eCloud Flex instances is available through attachabl
 * **PCIe** volumes bring performance of over 50,000 IOPS, and are recommended for high performance databases and applications
 
 For pricing information and to quickly calculate your cloud costs, use our [eCloud Flex calculator](https://www.ukfast.co.uk/calculate-ecloud-flex.html).
-
 
 ```eval_rst
 .. meta::

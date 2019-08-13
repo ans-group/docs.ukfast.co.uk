@@ -7,10 +7,12 @@ A collection of helpful information regarding eCloud Flex.
 .. toctree::
    :maxdepth: 1
 
+   accesslinuxinstances
    settingvars
-   passwordretrieval
-   accesslinuxinstances   
-
+   flexapis
+   supportaccess
+   sshkey
+   instancebilling
 
 .. meta::
    :title: General eCloud Flex Information | UKFast Documentation

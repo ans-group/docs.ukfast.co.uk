@@ -1,8 +1,8 @@
-# Creating flex instances using ansible
+# Creating eCloud Flex instances using Ansible
 
-Ansible is a configuration management platform that's currently owned by RedHat, popular with linux sysadmins from all over, though windows admins are currently trying to get in on the action.
+Ansible is an open-source software provisioning, configuration management, and application-deployment tool developed by RedHat, and is generally regarded as one of the leading tools in the DevOps community.
 
-Describing the full scope of ansible and it's usage is clearly out of reach of this article, but I will attempt to highlight some of the useful ways in which ansible can be used to automate the creation of your flex-based infrastructure.
+Describing the full scope of ansible and it's usage is clearly out of reach of this article, but we will attempt to highlight some of the useful ways in which ansible can be used to automate the creation of your flex-based infrastructure.
 
 ## The os_server module
 
@@ -193,4 +193,11 @@ The following playbook ties together some of the above functionality to show a r
       - servera
       - serverb
       - serverc
+```
+
+```eval_rst
+.. meta::
+   :title: UKFast Documentation | eCloud Flex | Using eCloud Flex as a Terraform Provider
+   :description: How to use eCloud Flex as a terraform provider
+   :keywords: ecloud, flex, openstack, ansible, redhat, automation, deployment, configuration, webserver
 ```

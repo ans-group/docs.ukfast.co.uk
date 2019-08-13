@@ -1,5 +1,5 @@
 ===============================================
-eCloud Flex instances (based on OpenStack Nova)
+eCloud Flex instances (Compute)
 ===============================================
 
 Information relating to eCloud Flex instances based on Nova, the compute element of OpenStack
@@ -7,11 +7,8 @@ Information relating to eCloud Flex instances based on Nova, the compute element
 .. toctree::
    :maxdepth: 1
 
-   flavour_sizes
-   newinstances
-   instancebilling
-   basic
-
+   flavours
+   instances
 
 .. meta::
    :title: eCloud Flex Instances | UKFast Documentation

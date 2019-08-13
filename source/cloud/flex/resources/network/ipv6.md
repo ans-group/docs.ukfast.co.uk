@@ -1,9 +1,3 @@
-```eval_rst
-.. meta::
-   :title: UKFast Documentation | eCloud Flex | Using IPv6 on eCloud Flex
-   :description: How to enable and use IPv6 on eCloud Flex - Linux and Windows
-```
-
 # Using IPv6 on eCloud Flex
 
 You can now use IPv6 on your eCloud Flex project. Each subnet you create that you want to have IPv6 on will be allocated a /64 prefix from a /48 prefix defined by UKFast (the standard tenant network quota will limit the number of subnets a tenant can request).
@@ -67,3 +61,10 @@ Before you deploy your first eCloud Flex instance you should modify your securit
 Now you are ready to go - deploy a new eCloud Flex instance and it will be given an IPv6 address.  Don't forget you may need to update security rules to also allow IPv6.
 
 If you have any existing eCloud Flex instances you want to add IPv6 to, and you're not using SLAAC, you will need to detach and re-attach the network interface of the instance and then configure DHCP inside the instance.
+
+```eval_rst
+.. meta::
+   :title: UKFast Documentation | eCloud Flex | Using IPv6 on eCloud Flex
+   :description: How to enable and use IPv6 on eCloud Flex - Linux and Windows
+   :metadata: flex, ecloud, hosting, openstack, ipv6, networks, networking
+```
