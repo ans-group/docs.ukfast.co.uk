@@ -93,7 +93,7 @@ Either log out and back in, or type `source ~/.os.rc` to essentially run the fil
 
 From here on out, you should be good. You'll be prompted for your OpenStack password whenever you open a shell session, and once you've provided it you're ok to start using the commands from this section. The next section of our documenation details managing the resources in your project, you can see more information about this below:
 
-[Managing Resources](/flex/resources/)
+[Managing Resources](https://docs.ukfast.co.uk/cloud/flex/resources)
 
 ```eval_rst
 .. meta::

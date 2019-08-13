@@ -4,7 +4,7 @@ To set up HTTPS termination on your eCloud Flex load balancer you will need to u
 
 ## Environment Configuration
 
-If you don't already have an eCloud Flex load balancer set up that you wish to add HTTPS termination to, please follow the [guide here](/cloud/flex/lbaas/config_lb_through_interface.html) to create one.  You'll then need to install these Python packages, we recommend using `pip` with the command below:
+If you don't already have an eCloud Flex load balancer set up that you wish to add HTTPS termination to, please follow the [guide here](https://docs.ukfast.co.uk/cloud/flex/resources/lbaas/config_lb_through_interface.html) to create one.  You'll then need to install these Python packages, we recommend using `pip` with the command below:
 
 `pip install python-neutronclient python-barbicanclient`
 
@@ -20,7 +20,7 @@ Now run the file with `source Project-[your-project-number]-openrc.sh`, and you 
 
 ## Upload the SSL Certificate to Barbican
 
-Next you need to upload an SSL certificate to the secret store known as Barbican. If you do not have an SSL certificate, these can be purchased through [MyUKFast](https://www.ukfast.co.uk/sslcertificate.html).  Your certificate should be formatted according to the [X509 Standard](https://tools.ietf.org/html/rfc5280) with the website certificate at the top of the file, and the appropriate Certificate Authority bundle below it. If you have purchased your certificate from UKFast and have difficulty with this process, please contact our Support team by raising a ticket in [MyUKFast](https://my.ukfast.co.uk/pss/add.php) who can assist with this. 
+Next you need to upload an SSL certificate to the secret store known as Barbican. If you do not have an SSL certificate, these can be purchased through [MyUKFast](https://www.ukfast.co.uk/sslcertificate.html).  Your certificate should be formatted according to the [X509 Standard](https://tools.ietf.org/html/rfc5280) with the website certificate at the top of the file, and the appropriate Certificate Authority bundle below it. If you have purchased your certificate from UKFast and have difficulty with this process, please contact our Support team by raising a ticket in [MyUKFast](https://my.ukfast.co.uk/pss/add.php) who can assist with this.
 
 For our example below, *certificate.crt* is our combined certificate, and *private.key* is the private key of the certificate.
 
@@ -32,7 +32,7 @@ barbican secret store --payload-content-type='text/plain' --name='certificate' -
 
 The output of this command will look like the below. Please note down the `Secret href`, as you will need this shortly.
 
-```
+```console
 +---------------+-----------------------------------------------------------------------------------------+
 | Field         | Value                                                                                   |
 +---------------+-----------------------------------------------------------------------------------------+
@@ -55,9 +55,9 @@ You will also need to upload the private key of the certificate to Barbican. Fol
 barbican secret store --payload-content-type='text/plain' --name='private_key' --payload="$(cat private.key)"
 ```
 
-Again note down the `Secret href` given. 
+Again note down the `Secret href` given.
 
-```
+```console
 +---------------+-----------------------------------------------------------------------------------------+
 | Field         | Value                                                                                   |
 +---------------+-----------------------------------------------------------------------------------------+
@@ -82,7 +82,7 @@ barbican secret container create --name='ssl_certificate_container' --type='cert
 
 If this is successful, you will receive a final output from Barbican, providing a `Container href` as shown below.  Again note this down as you will need it to complete the process.
 
-```
+```console
 +----------------+--------------------------------------------------------------------------------------------+
 | Field          | Value                                                                                      |
 +----------------+--------------------------------------------------------------------------------------------+
@@ -105,9 +105,9 @@ If any errors are encountered during this stage, it is likely due to the format 
 
 Using your `Container href` noted from the previous steps, you will now need to create a HTTPS Terminated Listener on your Load Balancer. If you do not already have a Load Balancer, you will need to [create one](/cloud/flex/lbaas/config_lb_through_interface.html) before proceeding.
 
-Creating the HTTPS Terminated Listener will require you to substitute two parameters in the following command. 
+Creating the HTTPS Terminated Listener will require you to substitute two parameters in the following command.
 
-- *--loadbalancer* is the ID of your load balancer, which is available in the [eCloud Flex dashboard](https://api.openstack.ecloud.co.uk/project/ngloadbalancersv2) or by typing `neutron lbaas-loadbalancer-list`. 
+- *--loadbalancer* is the ID of your load balancer, which is available in the [eCloud Flex dashboard](https://api.openstack.ecloud.co.uk/project/ngloadbalancersv2) or by typing `neutron lbaas-loadbalancer-list`.
 - *--default-tls-container-ref* is the `Container href` you noted down in the previous step.
 
 ```bash
