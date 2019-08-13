@@ -17,7 +17,7 @@ We will then setup the following for you:
 - Database (exampledomaincouk)
 - Database User and password (exampleFwpO)
 
-The credentials will be saved on the server in the example path:
+The credentials will be saved on the server in the /root/ directory similar to:
 ```bash
 ~]$ /root/magento2.exampledomain.co.uk_setup.txt
 ```
