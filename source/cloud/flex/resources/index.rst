@@ -32,7 +32,16 @@ Load Balancing (LBaaS)
    lbaas/config_lb_through_interface
    lbaas/config_https_termination_cli
 
+----------------------------------------
+Orchestration
+----------------------------------------
+
+.. toctree::
+   :maxdepth: 1
+
+   orchestration/magnum
+
 .. meta::
    :title: Managing eCloud Flex Resources | UKFast Documentation
    :description: Information to help manage eCloud Flex resources
-   :keywords: ukfast, ecloud, cloud, flex, general, information, hosting, compute, network, storage
+   :keywords: ukfast, ecloud, cloud, flex, general, information, hosting, compute, network, storage, orchestration, heat, nova, neutron, magnum, cinder, glance

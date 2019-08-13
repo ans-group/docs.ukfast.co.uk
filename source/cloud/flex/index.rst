@@ -30,6 +30,7 @@ Managing Resources
     resources/compute/index
     resources/network/index
     resources/lbaas/index
+    resources/orchestration/index
    
 ----------------------------------------------------------------
 Integrating Deployment Tools

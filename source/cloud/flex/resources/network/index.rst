@@ -8,3 +8,8 @@ Guides relating to setting up Networking in OpenStack and eCloud Flex.
    :maxdepth: 1
 
    ipv6
+
+.. meta::
+   :title: eCloud Flex Networking | UKFast Documentation
+   :description: Articles relating to networking (neutron service) in eCloud Flex.
+   :keywords: ukfast, cloud, ecloud, flex, networking, network, openstack, hosting, vm, virtual machine, neutron
