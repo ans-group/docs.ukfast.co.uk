@@ -10,7 +10,8 @@ Compute
 
 .. toctree::
    :maxdepth: 1
-  
+    compute/flavours
+    compute/instances
  
 ----------------------------------------
 Network
@@ -18,14 +19,18 @@ Network
 
 .. toctree::
    :maxdepth: 1
-  
+
+     network/ipv6
 
 ----------------------------------------
-Compute
+Load Balancing (LBaaS)
 ----------------------------------------
 
 .. toctree::
    :maxdepth: 1
+
+   lbaas/config_lb_through_interface
+   lbaas/config_https_termination_cli
   
 
 
