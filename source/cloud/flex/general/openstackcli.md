@@ -50,7 +50,23 @@ We recommend using a Python virtual environment for installing any Python module
 
 ---
 
-If you'd like to find out more about the Openstack client, you can find more information [here](https://docs.openstack.org/newton/user-guide/common/cli-install-openstack-command-line-clients.html).
+## Upgrading / Removing clients
+
+In order to upgrade your pip packages, run the `install` command with the `--upgrade` flag.
+
+```bash
+# pip install --upgrade python-openstackclient
+```
+
+To remove the openstackclient, run the `uninstall` command.
+
+```bash
+# pip uninstall python-openstackclient
+```
+
+---
+
+If you'd like to find out more about the Openstack client, you can find more information [here](https://docs.openstack.org/newton/user-guide/common/cli-install-openstack-command-line-clients.html). We also have some documentation about [setting up environment variables](https://docs.ukfast.co.uk/cloud/flex/general/settingvars.html) in order to authenticate with Keystone.
 
 The next section of our documenation details managing the resources in your project, you can see more information about this below:
 

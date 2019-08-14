@@ -18,6 +18,7 @@ General Information
     general/supportaccess
     general/sshkey
     general/instancebilling
+    general/openstackcli
 
 ----------------------------------------
 Managing Resources

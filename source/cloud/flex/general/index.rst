@@ -13,6 +13,7 @@ A collection of helpful information regarding eCloud Flex.
    supportaccess
    sshkey
    instancebilling
+   openstackcli
 
 .. meta::
    :title: General eCloud Flex Information | UKFast Documentation
