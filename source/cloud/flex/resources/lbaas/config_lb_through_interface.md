@@ -54,6 +54,8 @@ Depending on your existing network configuration, one or two options may be prov
 
 Regardless of which method is chosen to select a Floating IP address, clicking the `Associate` button will add this to the load balancer, and this should be usable immediately to connect to.
 
+For more information about removing a load balancer in eCloud Flex, check out our documentation [here](https://docs.ukfast.co.uk/cloud/flex/resources/lbaas/deleting_lb_horizon.html).
+
 ```eval_rst
 .. meta::
     :title: Creating an eCloud Flex Load Balancer using Horizon | UKFast Documentation

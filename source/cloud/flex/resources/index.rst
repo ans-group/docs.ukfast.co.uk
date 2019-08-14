@@ -31,6 +31,7 @@ Load Balancing (LBaaS)
 
    lbaas/config_lb_through_interface
    lbaas/config_https_termination_cli
+   lbaas/deleting_lb_horizon.md
 
 ----------------------------------------
 Orchestration

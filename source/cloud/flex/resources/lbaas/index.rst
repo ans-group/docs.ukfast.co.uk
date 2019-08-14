@@ -9,6 +9,7 @@ Guides relating to setting up and using Load Balancers on eCloud Flex.
 
    config_lb_through_interface
    config_https_termination_cli
+   deleting_lb_horizon
 
 .. meta::
    :title: eCloud Flex Load Balancers (LBaaS) | UKFast Documentation
