@@ -23,6 +23,17 @@ Network
      network/ipv6
 
 ----------------------------------------
+Storage
+----------------------------------------
+
+.. toctree::
+   :maxdepth: 1
+
+   storage/managing-volumes
+   storage/managing-images
+   storage/exporting-storage
+
+----------------------------------------
 Load Balancing (LBaaS)
 ----------------------------------------
 
@@ -31,7 +42,7 @@ Load Balancing (LBaaS)
 
    lbaas/config_lb_through_interface
    lbaas/config_https_termination_cli
-   lbaas/deleting_lb_horizon.md
+   lbaas/deleting_lb_horizon
 
 ----------------------------------------
 Orchestration

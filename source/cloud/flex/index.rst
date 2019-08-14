@@ -29,6 +29,7 @@ Managing Resources
     resources/index
     resources/compute/index
     resources/network/index
+    resources/storage/index
     resources/lbaas/index
     resources/orchestration/index
    
