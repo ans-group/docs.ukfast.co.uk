@@ -99,7 +99,7 @@ If you need any further assistance, you can contact our UKFast Support team by [
 
 ```eval_rst
 .. meta::
-   :title: Deploying a kubernetes cluster using Magnum | UKFast Documentation
+   :title: Deploying a Kubernetes cluster using Magnum | UKFast Documentation
    :description: How to use eCloud Flex Magnum to deploy a kubernetes cluster
    :keywords: ecloud, flex, kubernetes, magnum, docker, containers, deployment, cluster, templates
 ```
