@@ -25,6 +25,8 @@ Now we're ready to install the whole suite of OpenStack cli tools:
   pip install python-openstackclient
 ```
 
+We have a full page of documentation that details how to do this for various operating systems [here](https://docs.ukfast.co.uk/cloud/flex/general/openstackcli.html).
+
 ## List instances
 
 Starting with one of the more basic commands, we've got the following one to list all the instances you currently have. Running `openstack server list` will get you some output along these lines:
