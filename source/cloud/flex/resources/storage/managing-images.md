@@ -1,4 +1,4 @@
-# Placeholder
+# Managing Images
 
 ```eval_rst
 .. meta::

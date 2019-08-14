@@ -1,4 +1,4 @@
-# Control instances using CLI client
+# Managing and Launching instances
 
 ```eval_rst
 .. warning::
@@ -99,7 +99,7 @@ The first section `openstack server create` is relatively self explanatory, we'r
 +--------------------------------------+----------------------------------------+-------------+
 ```
 
-Your output to this command may very well be different, names may have been updated and the UUIDs have been changed in our examples on this page, so don't rely on the above content!
+Your output to this command may very well be different, names may have been updated and the UUIDs have been changed in our examples on this page, so don't rely on the above content! Please refer to our other documentation for more information about [managing images](https://docs.ukfast.co.uk/cloud/flex/resources/storage/managing-images.html).
 
 The final part of that command is `--flavor`. American spelling aside, (it doesn't accept `--flavour` as an alias sadly, we've tried) `flavor` is the OpenStack parlance for 'size of instance', so it's the setting that controls how much RAM and CPU allocation you're giving the instance, along with which tier (IO/mem/std). We're back to the `openstack server` command for this one, with `openstack flavor list`:
 

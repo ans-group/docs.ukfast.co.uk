@@ -34,6 +34,8 @@ Our Magnum deployment supports all of the engines that Magnum supports (Docker S
 
    Be sure to make a note of your image ID, as we'll be using this in the next step. We must specify the os_distro property in order for the cluster to build correctly. If you're using Fedora Atomic, the os_distro would be `fedora-atomic`.
 
+   Please refer to our other documentation for more information about [managing images](https://docs.ukfast.co.uk/cloud/flex/resources/storage/managing-images.html).
+
 2. Create the cluster template
 
     The cluster template does what it says on the tin, it contains a collection of parameters to describe how a cluster can be constructed. We can use the `openstack coe` command to control all-things Magnum.
