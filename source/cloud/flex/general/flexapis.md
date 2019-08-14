@@ -22,9 +22,7 @@ The purpose of this article is not to recreate OpenStack content here, but to si
 
 ```eval_rst
 .. note::
-
    The links above may take you to documentation for the latest OpenStack release of each project.  This may not be the same as the version we're running at UKFast.
-
 ```
 
 ## API references
