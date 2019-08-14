@@ -73,9 +73,64 @@ root@dev:~# openstack image show 47ac8b2c-9922-4ef9-9add-04580f080b89
 +------------------+---------------------------------------------------------------------------+
 ```
 
-## Creating / Uploading Images
+## Creating / Modifying Images
 
-Placer
+Creating images in eCloud Flex is simple, and uses the `openstack image create <imagename>` command as you might expect.
+
+```console
+root@dev:~# openstack image create test-image
++------------------+------------------------------------------------------+
+| Field            | Value                                                |
++------------------+------------------------------------------------------+
+| checksum         | None                                                 |
+| container_format | bare                                                 |
+| created_at       | 2019-08-14T16:28:21Z                                 |
+| disk_format      | raw                                                  |
+| file             | /v2/images/a4ffe635-4d3b-472f-ae5b-910f82e52ac5/file |
+| id               | a4ffe635-4d3b-472f-ae5b-910f82e52ac5                 |
+| min_disk         | 0                                                    |
+| min_ram          | 0                                                    |
+| name             | test-image                                           |
+| owner            | 7d86a2004a9d472681f18115dbd7b0a3                     |
+| properties       | locations='[]'                                       |
+| protected        | False                                                |
+| schema           | /v2/schemas/image                                    |
+| size             | None                                                 |
+| status           | queued                                               |
+| tags             |                                                      |
+| updated_at       | 2019-08-14T16:28:21Z                                 |
+| virtual_size     | None                                                 |
+| visibility       | shared                                               |
++------------------+------------------------------------------------------+
+```
+
+However, an empty image isn't too handy. We need to pass this command various parameters in order to make this image _useful_.
+
+```bash
+openstack image create --disk-format qcow2 \
+                       --file ubuntu-image.qcow2 \
+                       --private \
+                       --protected \
+                       ubuntu-image
+```
+
+In the above example, we created an image called `ubuntu-image`, as can be seen in the final argument. Various flags can be used to control the properties of the image, and we suggest running `openstack image create --help` in order to see the full description for each flag.
+
+You are also able to update the properties of your existing images, by using the `openstack image set [--flag] <id>` command.
+
+```bash
+openstack image set --unprotected ubuntu-image
+```
+
+## Deleting Images
+
+The command for deleting images in your project is simple as you would expect.
+
+```bash
+openstack image delete <imageid>
+```
+
+If you would like to learn more about managing images in eCloud Flex, please refer to the [Openstack documentation](https://docs.openstack.org/glance/pike/user/index.html).
 
 ```eval_rst
 .. meta::
