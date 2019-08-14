@@ -39,6 +39,7 @@ Integrating Deployment Tools
 .. toctree::
    :maxdepth: 1
     
+    integration/index
     integration/ansible
     integration/terraform
 
