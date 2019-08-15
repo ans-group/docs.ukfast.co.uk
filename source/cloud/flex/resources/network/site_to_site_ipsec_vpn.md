@@ -1,6 +1,4 @@
-# Note; This has not been indexed purposefully, as the service is currently unavailable
-
-## Site-To-Site VPNs on eCloud Flex
+# Site-To-Site VPNs on eCloud Flex
 
 ## Site-To-Site VPN To A Cisco ASA Firewall
 

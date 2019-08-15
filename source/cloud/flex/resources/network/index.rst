@@ -13,3 +13,4 @@ Guides relating to setting up Networking in OpenStack and eCloud Flex.
    :maxdepth: 1
 
    ipv6
+   site_to_site_ipsec_vpn

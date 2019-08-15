@@ -26,7 +26,9 @@ Network
 .. toctree::
    :maxdepth: 1
 
+   network/index
    network/ipv6
+   network/site_to_site_ipsec_vpn
 
 ----------------------------------------
 Storage
