@@ -31,7 +31,6 @@ Storage
 
    storage/managing-volumes
    storage/managing-images
-   storage/exporting-storage
 
 ----------------------------------------
 Load Balancing (LBaaS)

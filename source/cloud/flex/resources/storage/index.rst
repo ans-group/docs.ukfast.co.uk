@@ -9,7 +9,6 @@ Guides relating to managing all-things storage in eCloud Flex
 
    managing-volumes
    managing-images
-   exporting-storage
 
 .. meta::
    :title: eCloud Flex Storage | UKFast Documentation
