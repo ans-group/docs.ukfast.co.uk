@@ -1,3 +1,8 @@
+.. meta::
+   :title: Managing eCloud Flex Resources | UKFast Documentation
+   :description: Information to help manage eCloud Flex resources
+   :keywords: ukfast, ecloud, cloud, flex, general, information, hosting, compute, network, storage, orchestration, heat, nova, neutron, magnum, cinder, glance
+
 ===============================
 Managing eCloud Flex Resources
 ===============================
@@ -10,7 +15,7 @@ Compute
 
 .. toctree::
    :maxdepth: 1
-   
+
    compute/flavours
    compute/instances
  
@@ -52,8 +57,3 @@ Orchestration
    :maxdepth: 1
 
    orchestration/magnum
-
-.. meta::
-   :title: Managing eCloud Flex Resources | UKFast Documentation
-   :description: Information to help manage eCloud Flex resources
-   :keywords: ukfast, ecloud, cloud, flex, general, information, hosting, compute, network, storage, orchestration, heat, nova, neutron, magnum, cinder, glance

@@ -1,3 +1,8 @@
+.. meta::
+   :title: eCloud Flex Storage | UKFast Documentation
+   :description: Articles relating to eCloud Flex Storage, managing volumes and images
+   :keywords: ukfast, cloud, ecloud, flex, images, hosting, volumes, storage, block, ssd, sata, pcie
+
 ==========
 Storage
 ==========
@@ -9,8 +14,3 @@ Guides relating to managing all-things storage in eCloud Flex
 
    managing-volumes
    managing-images
-
-.. meta::
-   :title: eCloud Flex Storage | UKFast Documentation
-   :description: Articles relating to eCloud Flex Storage, managing volumes and images
-   :keywords: ukfast, cloud, ecloud, flex, images, hosting, volumes, storage, block, ssd, sata, pcie
