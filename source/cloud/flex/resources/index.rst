@@ -10,6 +10,7 @@ Compute
 
 .. toctree::
    :maxdepth: 1
+   
    compute/flavours
    compute/instances
  
