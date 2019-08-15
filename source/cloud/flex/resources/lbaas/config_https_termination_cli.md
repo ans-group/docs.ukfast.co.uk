@@ -12,7 +12,7 @@ If you encounter difficulties in installing these clients, please ensure you are
 
 With these clients installed, next you need to set the correct authentication information as an environment variable. These can be easily set using the script available within your [eCloud Flex dashboard](https://api.openstack.ecloud.co.uk). In the top right corner of the screen, click the drop-down menu next to your username and select `OpenStack RC File v3`.
 
-![Find the OpenStack RC File](../files/openrcfile.png)
+![Find the OpenStack RC File](../../files/openrcfile.png)
 
 Download this file to your Linux filesystem and provide the file with execution capabilities using `chmod +x Project-[your-project-number]-openrc.sh`. Don't forget to enter your own eCloud Flex project number where indicated - again this is available in the eCloud Flex dashboard.
 
