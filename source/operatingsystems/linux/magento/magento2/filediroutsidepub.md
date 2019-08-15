@@ -4,7 +4,7 @@ If you have a file/directory you want to be accessible but is outside of the Mag
 
 ### PHP Files
 
-For this example we the info.php located in /var/www/vhosts/example.com/htdocs/. This file will produce a 404 as it's not located in the pub directory (/var/www/vhosts/example.com/htdocs/pub/):
+For this example we will use info.php which is located in /var/www/vhosts/example.com/htdocs/. This file will produce a 404 as it's not located in the pub directory (/var/www/vhosts/example.com/htdocs/pub/):
 
 ```bash
  ~]$ curl -I www.example.com/info.php
@@ -31,7 +31,7 @@ You need to edit replacemebackend with the PHP-FPM configuration pool name (This
 
 ### Text / XML
 
-For this example we the sitemap.xml located in /var/www/vhosts/example.com/htdocs/. This file will produce a 404 as it's not located in the pub directory (/var/www/vhosts/example.com/htdocs/pub/):
+For this example we will use sitemap.xml which is located in /var/www/vhosts/example.com/htdocs/. This file will produce a 404 as it's not located in the pub directory (/var/www/vhosts/example.com/htdocs/pub/):
 
 ```bash
  ~]$ curl -I www.example.com/sitemap.xml
