@@ -7,6 +7,7 @@ For this example we have Wordpress in the sub directory /var/www/vhosts/example.
 ```bash
 location ~ ^/wp/ {
         index index.php index.html index.htm;
+        root $MAGE_ROOT;
         try_files $uri $uri/ @wphandler;
         expires 30d;
 
@@ -47,6 +48,13 @@ location ~ ^/wp/ {
   location @wphandler {
         rewrite / /wp/index.php;
   }
+```
+
+If you have wordpress inside the pub folder (Example: /var/www/vhosts/example.com/htdocs/pub/wp/), you need to remove the line:
+
+
+```bash
+root $MAGE_ROOT;
 ```
 
 To implement this change you need to reload the Nginx service. First perform a configuration test with the following command:
