@@ -16,6 +16,8 @@ sudo yum install python-magnumclient
 sudo apt-get install python-magnumclient
 ```
 
+We have a full page of documentation about installing the openstack clients [here](https://docs.ukfast.co.uk/cloud/flex/general/openstackcli.html).
+
 ### Creating a Kubernetes cluster with Magnum
 
 Our Magnum deployment supports all of the engines that Magnum supports (Docker Swarm, Kubernetes and Apache Mesos) however this article details how to create a cluster using the Kubernetes engine.
