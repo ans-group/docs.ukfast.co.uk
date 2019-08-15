@@ -10,8 +10,8 @@ Compute
 
 .. toctree::
    :maxdepth: 1
-    compute/flavours
-    compute/instances
+   compute/flavours
+   compute/instances
  
 ----------------------------------------
 Network
@@ -20,7 +20,7 @@ Network
 .. toctree::
    :maxdepth: 1
 
-     network/ipv6
+   network/ipv6
 
 ----------------------------------------
 Storage

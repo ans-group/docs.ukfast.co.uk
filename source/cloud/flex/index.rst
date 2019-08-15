@@ -11,14 +11,14 @@ General Information
 .. toctree::
    :maxdepth: 1
 
-    general/index
-    general/accesslinuxinstances
-    general/settingvars
-    general/flexapis
-    general/supportaccess
-    general/sshkey
-    general/instancebilling
-    general/openstackcli
+   general/index
+   general/accesslinuxinstances
+   general/settingvars
+   general/flexapis
+   general/supportaccess
+   general/sshkey
+   general/instancebilling
+   general/openstackcli
 
 ----------------------------------------
 Managing Resources
