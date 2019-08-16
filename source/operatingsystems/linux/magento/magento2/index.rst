@@ -11,7 +11,7 @@ Our Magento 2 optimised stack has been going since 2015. The core components of 
 * **SSH/FTP Access**: SSH, VSFTPd, ProFTPD
 * **HTTP Caching Utilities**: :doc:`/operatingsystems/linux/magento/magento2/varnish/index`
 * **Database services**: MySQL Percona, Elasticsearch, Memcached, Redis, Sphinx, RabbitMQx
-* **Version Control Utilities**: Git
+* **Version Control Utilities**: :doc:`/operatingsystems/linux/magento/magento2/git/index`
 * **File system distribution**: NFS
 
 .. toctree::
@@ -28,9 +28,10 @@ Our Magento 2 optimised stack has been going since 2015. The core components of 
    ../magentottfb.md
    ../dbtriggers.md
    varnish/index
+   git/index
    
 .. meta::
    :title: Magento 2 Optimised Stack | UKFast Documentation
    :description: guides relating to UKFast Magento 2 Optimised Stack
-   :keywords: ukfast, Magento, optimised, stack
+   :keywords: ukfast, Magento, Magento2, optimised, stack
 
