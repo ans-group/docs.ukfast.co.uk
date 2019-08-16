@@ -29,13 +29,15 @@ If the server has port 2020 defined as the default outbound SSH port:
    Port 2020
 ```
 
-You will need to add a hostmatch to change the port to the file /etc/ssh/ssh_config:
+You will need to add a host name match to change the port to 22 in the file /etc/ssh/ssh_config:
 
 ```bash
 Host github.com
     HostName github.com
     Port 22
 ```
+
+This block needs to be added at the top of the file.
 
 You will need to ensure the firewall for the server also allows port 22 outbound after making this change. This can be done through the MyUKFast portal, you can find more information on this [here](https://docs.ukfast.co.uk/network/firewalls/)
 
