@@ -11,7 +11,7 @@ Our Magento 2 optimised stack has been going since 2015. The core components of 
 * **SSH/FTP Access**: SSH, VSFTPd, ProFTPD
 * **HTTP Caching Utilities**: :doc:`/operatingsystems/linux/magento/magento2/varnish/index`
 * **Database services**: MySQL Percona, Elasticsearch, Memcached, Redis, Sphinx, RabbitMQx
-* **Version Control Utilities**: :doc:`/operatingsystems/linux/magento/git/index`
+* **Version Control Utilities**: :doc:`/operatingsystems/linux/magento/magento2/git/index`
 * **File system distribution**: NFS
 
 .. toctree::
