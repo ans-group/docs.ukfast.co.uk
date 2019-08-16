@@ -11,6 +11,12 @@ Varnish 4.1 can then be installed with the command:
 ```bash
 ~]# yum install varnish --disablerepo='*' --enablerepo='varnishcache_varnish41.epel'
 ```
+##### Enable On Boot
+You can enable Varnish on boot after installing it with this command:
+
+```bash
+~]# systemctl enable varnish
+```
 
 #### Version 5.2
 Varnish 5.2 is available from the varnishcache_varnish52 repository, this repository can be installed with the following command:
