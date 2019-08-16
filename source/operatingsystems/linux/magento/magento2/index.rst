@@ -9,7 +9,7 @@ Our Magento 2 optimised stack has been going since 2015. The core components of 
 * **PHP Utilities**: PHP-FPM, Magento 2 Recommended PHP modules, Composer, OPCache
 * **Mail Services**: Postfix, Sendmail
 * **SSH/FTP Access**: SSH, VSFTPd, ProFTPD
-* **HTTP Caching Utilities**: [Varnish] (https://docs.ukfast.co.uk/operatingsystems/linux/magento/magento2/varnish/)
+* **HTTP Caching Utilities**: [Varnish] (https://docs.ukfast.co.uk/operatingsystems/linux/magento/magento2/varnish/) [here](https://docs.ukfast.co.uk/operatingsystems/linux/magento/magento2/nginxphpfilewhitelist.html)
 * **Database services**: MySQL Percona, Elasticsearch, Memcached, Redis, Sphinx, RabbitMQx
 * **Version Control Utilities**: Git
 * **File system distribution**: NFS
