@@ -2,6 +2,8 @@
 Elasticsearch
 =================================================
 
+Elasticsearch is a fast catalog search solution for Magento2
+
 .. toctree::
    
    elasticsearch.md
