@@ -17,8 +17,12 @@ Composer can be updated with the following command:
 #### Version Check
 You can check the installed version of Composer with the command:
 ```bash
-~]# composer  -V
+~]$ composer  -V
 Composer version 1.8.6 2019-06-11 15:03:05
+```
+```eval_rst
+.. warning::
+   **Do not run Composer as root/super user!**
 ```
 
 ```eval_rst
