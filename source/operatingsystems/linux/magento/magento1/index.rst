@@ -11,7 +11,7 @@ Our Magento 1 optimised stack has been going since 2008. The core components of 
 - **Mail Services**: Postfix, Sendmail
 - **SSH/FTP Access**: SSH, VSFTPd, ProFTPD
 - **Database services**: MySQL Percona, :doc:`/operatingsystems/linux/magento/magento1/redis/index`
-- **Version Control Utilities**: :doc:`/operatingsystems/linux/magento/magneto1/git/index` 
+- **Version Control Utilities**: :doc:`/operatingsystems/linux/magento/magento1/git/index` 
 - **File system distribution**: NFS
 
 .. toctree::
