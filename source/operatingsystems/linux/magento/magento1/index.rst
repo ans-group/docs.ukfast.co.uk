@@ -4,7 +4,6 @@ Magento 1
 
 Our Magento 1 optimised stack has been going since 2008. The core components of this stack are:
 
-
 - **Firewall**: :doc:`Dedicated/Shared Firewall </network/firewalls/index>` 
 - **Web Service**: :doc:`/operatingsystems/linux/nginx/index`
 - **PHP Utilities**: PHP, PHP-FPM, OPCache
