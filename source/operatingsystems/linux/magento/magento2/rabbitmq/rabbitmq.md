@@ -1,6 +1,21 @@
 # RabbitMQ
 
+### Install RabbitMQ
+RabbitMQ is available from the rabbitmq_rabbitmq-server repository, this repository can be installed with the following command:
+```bash
+curl -s https://packagecloud.io/install/repositories/rabbitmq/rabbitmq-server/script.rpm.sh | sudo bash
+```
 
+Varnish 4.1 can then be installed with the command:
+```bash
+~]# yum install varnish --disablerepo='*' --enablerepo='varnishcache_varnish41.epel'
+```
+##### Start On Boot
+You can enable Varnish on boot after installing it with this command:
+
+```bash
+~]# systemctl enable varnish
+```
 
 ```eval_rst
   .. meta::
