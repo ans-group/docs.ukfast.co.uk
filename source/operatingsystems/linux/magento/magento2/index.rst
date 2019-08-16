@@ -14,8 +14,6 @@ Our Magento 2 optimised stack has been going since 2015. The core components of 
 * **Version Control Utilities**: Git
 * **File system distribution**: NFS
 
-[here](https://docs.ukfast.co.uk/operatingsystems/linux/magento/magento2/nginxphpfilewhitelist.html)
-
 .. toctree::
    :maxdepth: 1
 
