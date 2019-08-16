@@ -1,6 +1,6 @@
 # Composer
 
-### Installing Composer
+### Install Composer
 Composer can be installed from the epel yum repostiroy with the following command:
 
 ```bash
