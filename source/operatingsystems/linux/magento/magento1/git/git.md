@@ -1,3 +1,6 @@
+
+# Git
+
 .. include:: /operatingsystems/linux/magento/magento2/git/git.md
 
 ```eval_rst
