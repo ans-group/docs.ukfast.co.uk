@@ -14,14 +14,14 @@ curl -s https://packagecloud.io/install/repositories/rabbitmq/erlang/script.rpm.
 
 RabbitMQ erlang can then be installed with the command:
 ```bash
-~]# yum install rabbitmq-server erlang --disablerepo='*' --enablerepo=rabbitmq_erlang,rabbitmq_rabbitmq-server
+~]# yum install rabbitmq-server erlang --enablerepo=rabbitmq_erlang,rabbitmq_rabbitmq-server
 ```
 
 ##### Start On Boot
-You can enable Varnish on boot after installing it with this command:
+You can enable rabbitmq-server on boot after installing it with this command:
 
 ```bash
-~]# systemctl enable varnish
+~]# systemctl enable rabbitmq-server
 ```
 
 ```eval_rst
