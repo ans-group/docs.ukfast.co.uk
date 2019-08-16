@@ -12,7 +12,7 @@ You also need the rabbitmq_erlang repository so you can install erlang:
 curl -s https://packagecloud.io/install/repositories/rabbitmq/erlang/script.rpm.sh | sudo bash
 ```
 
-RabbitMQ erlang can then be installed with the command:
+RabbitMQ and erlang can then be installed with the command:
 ```bash
 ~]# yum install rabbitmq-server erlang --enablerepo=rabbitmq_erlang,rabbitmq_rabbitmq-server
 ```
