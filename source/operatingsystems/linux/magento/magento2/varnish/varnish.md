@@ -1,4 +1,4 @@
-# Magento 2 Varnish
+# Varnish
 
 ### Install Varnish
 #### Version 4.1
