@@ -1,4 +1,4 @@
-# Magento 2 Varnish
+# Varnish
 
 ### Install Varnish
 #### Version 4.1
@@ -10,6 +10,12 @@ curl -s https://packagecloud.io/install/repositories/varnishcache/varnish41/scri
 Varnish 4.1 can then be installed with the command:
 ```bash
 ~]# yum install varnish --disablerepo='*' --enablerepo='varnishcache_varnish41.epel'
+```
+##### Start On Boot
+You can enable Varnish on boot after installing it with this command:
+
+```bash
+~]# systemctl enable varnish
 ```
 
 #### Version 5.2
