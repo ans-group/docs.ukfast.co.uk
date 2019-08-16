@@ -112,6 +112,15 @@ As we set the document root to pub you need to remove pub from the probe URL:
 ```
 The Varnish service needs to be reloaded in order for this to take effect.
 
+#### Health Check Status
+You can check the health check status of all defined backends with the following command:
+
+```bash
+~]# varnishadm backend.list
+Backend name                   Admin      Probe
+boot.default                   probe      Healthy (no probe)
+```
+
 ### Cache Static Files
 Static files are not cached by default in the Magento generated VCL. This is due to the assumption you have another service caching static files like a CDN. If you need Varnish to cache static files edit the section for static files in the VCL:
 
@@ -222,11 +231,11 @@ Under vcl_synth. Varnish will need a reload for this to take efect.
 Magento purges Varnish hosts after you configure Varnish hosts using the magento setup:config:set command (Ensure you run the Magento 2 CLI as the local system user defined in PHP-FPM and not root). Once configured when you clean, flush, or refresh the Magento cache, Varnish purges as well. 
 
 ```bash
-~]$ php magento setup:config:set --http-cache-hosts=10.0.0.17
+~]$ php bin/magento setup:config:set --http-cache-hosts=10.0.0.17
 ```
 You can also define more hosts if you have multiple web/varnish servers:
 ```bash
-~]$ php magento setup:config:set --http-cache-hosts=10.0.0.17,10.0.0.18,10.0.0.19
+~]$ php bin/magento setup:config:set --http-cache-hosts=10.0.0.17,10.0.0.18,10.0.0.19
 ```
 
 However you can purge the cache manually with the following command:
