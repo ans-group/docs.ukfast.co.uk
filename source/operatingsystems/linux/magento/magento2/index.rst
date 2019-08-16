@@ -27,6 +27,7 @@ Our Magento 2 optimised stack has been going since 2015. The core components of 
    ../redtrictwebsite.md
    ../magentottfb.md
    ../dbtriggers.md
+   rabbitmq/index
    varnish/index
    git/index
    composer/index
