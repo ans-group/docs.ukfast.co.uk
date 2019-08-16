@@ -6,10 +6,17 @@ RabbitMQ is available from the rabbitmq_rabbitmq-server repository, this reposit
 curl -s https://packagecloud.io/install/repositories/rabbitmq/rabbitmq-server/script.rpm.sh | sudo bash
 ```
 
-Varnish 4.1 can then be installed with the command:
+You also need the rabbitmq_erlang repository so you can install erlang:
+
 ```bash
-~]# yum install varnish --disablerepo='*' --enablerepo='varnishcache_varnish41.epel'
+curl -s https://packagecloud.io/install/repositories/rabbitmq/erlang/script.rpm.sh | sudo bash
 ```
+
+RabbitMQ erlang can then be installed with the command:
+```bash
+~]# yum install rabbitmq-server erlang --disablerepo='*' --enablerepo=rabbitmq_erlang,rabbitmq_rabbitmq-server
+```
+
 ##### Start On Boot
 You can enable Varnish on boot after installing it with this command:
 
