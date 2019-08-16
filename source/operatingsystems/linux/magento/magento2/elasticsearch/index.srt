@@ -2,8 +2,6 @@
 Elasticsearch
 =================================================
 
-
-
 .. toctree::
    
    elasticsearch.md
