@@ -21,7 +21,7 @@ You can check the version of git installed with the following command:
 ~]# git --version
 git version 1.8.3.1
 ```
-### Change Port
+### SSH Port
 IF the server has port 2020 defined as the default outbound SSH port:
 
 ```bash
