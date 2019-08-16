@@ -112,6 +112,15 @@ As we set the document root to pub you need to remove pub from the probe URL:
 ```
 The Varnish service needs to be reloaded in order for this to take effect.
 
+#### Health Check Status
+You can check the health check status of all defined backends with the following command:
+
+```bash
+~]# varnishadm backend.list
+Backend name                   Admin      Probe
+boot.default                   probe      Healthy (no probe)
+```
+
 ### Cache Static Files
 Static files are not cached by default in the Magento generated VCL. This is due to the assumption you have another service caching static files like a CDN. If you need Varnish to cache static files edit the section for static files in the VCL:
 
