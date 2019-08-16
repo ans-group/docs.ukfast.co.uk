@@ -9,7 +9,7 @@ curl -s https://packagecloud.io/install/repositories/varnishcache/varnish41/scri
 
 Varnish 4.1 can then be installed with the command:
 ```bash
-~]# yum install varnish --disablerepo='*' --enablerepo='varnishcache_varnish41'
+~]# yum install varnish --disablerepo='*' --enablerepo='varnishcache_varnish41.epel'
 ```
 
 #### Version 5.2
@@ -20,7 +20,7 @@ curl -s https://packagecloud.io/install/repositories/varnishcache/varnish52/scri
 
 Varnish 5.2 can then be installed with the command:
 ```bash
-~]# yum install varnish --disablerepo='*' --enablerepo='varnishcache_varnish52'
+~]# yum install varnish --disablerepo='*' --enablerepo='varnishcache_varnish52,epel'
 ```
 ### Memory Limit
 The default memory limit in Varnish is 256M. You may want to increase this, especially if you are using Varnish for Full Page Cache. You can do this by changing the value under VARNISH_STORAGE in the file /etc/varnish/varnish.params.
