@@ -14,7 +14,7 @@ You can update git with the following command:
 ~]# yum update git
 ```
 
-#### Version Checl
+#### Version Check
 You can check the version of git installed with the following command:
 
 ```bash
