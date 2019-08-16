@@ -28,7 +28,7 @@ Our Magento 2 optimised stack has been going since 2015. The core components of 
    ../magentottfb.md
    ../dbtriggers.md
    varnish/index
-   /../git/index
+   :doc:`/operatingsystems/linux/magento/git/index`
    
 .. meta::
    :title: Magento 2 Optimised Stack | UKFast Documentation
