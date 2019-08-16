@@ -8,8 +8,8 @@ Our Magento 1 optimised stack has been going since 2008. The core components of 
 - **Firewall**: :doc:`Dedicated/Shared Firewall </network/firewalls/index>` 
 - **Web Service**: :doc:`/operatingsystems/linux/nginx/index`
 - **PHP Utilities**: PHP-FPM, Magento 1 Recommended PHP modules, OPCache
-- **Mail Services**: :doc:`Postfix </operatingsystems/linux/mail/postfix.md>`, Sendmail
-- **SSH/FTP Access**: :doc:`/operatingsystems/linux/ssh/index`, :doc:`/operatingsystems/linux/ftp/setup_vsftpd.md`
+- **Mail Services**: :doc:`Postfix </operatingsystems/linux/mail/postfix>`, Sendmail
+- **SSH/FTP Access**: :doc:`/operatingsystems/linux/ssh/index`, :doc:`/operatingsystems/linux/ftp/setup_vsftpd`
 - **Database services**: MySQL Percona, :doc:`/operatingsystems/linux/magento/magento1/redis/index`
 - **Version Control Utilities**: :doc:`/operatingsystems/linux/magento/magento1/git/index` 
 - **File system distribution**: NFS
