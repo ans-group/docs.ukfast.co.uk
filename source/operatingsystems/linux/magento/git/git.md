@@ -22,7 +22,7 @@ You can check the version of git installed with the following command:
 git version 1.8.3.1
 ```
 ### SSH Port
-IF the server has port 2020 defined as the default outbound SSH port:
+If the server has port 2020 defined as the default outbound SSH port:
 
 ```bash
 ~]# grep Port /etc/ssh/ssh_config
@@ -37,6 +37,7 @@ Host github.com
     Port 22
 ```
 
+You will need to ensure the firewall for the server also allows port 22 outbound after making this change. This can be done through the MyUKFast portal, you can find more information on this [here](https://docs.ukfast.co.uk/network/firewalls/)
 
 ```eval_rst
   .. meta::
