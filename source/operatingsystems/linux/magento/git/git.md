@@ -40,7 +40,7 @@ Host github.com
 This block needs to be added at the top of the file.
 
 #### Firewall
-You will need to ensure the firewall for the server also allows port 22 outbound after making this change. This can be done through the MyUKFast portal, you can find more information on this [here](https://docs.ukfast.co.uk/network/firewalls/)
+You need to ensure the firewall for the server allows port 22 outbound. This can be done through the MyUKFast portal, you can find more information on this [here](https://docs.ukfast.co.uk/network/firewalls/)
 
 ```eval_rst
   .. meta::
