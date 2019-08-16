@@ -1,6 +1,20 @@
 # Git
 
+### Install Git
+You can install git with the following command:
 
+```bash
+~]# yum install git
+```
+
+#### Updating Git
+You can update git with the following command:
+
+```bash
+~]# yum update git
+```
+
+### Change Port
 
 ```eval_rst
   .. meta::
