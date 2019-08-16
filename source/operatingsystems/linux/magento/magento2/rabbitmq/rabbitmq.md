@@ -17,12 +17,25 @@ RabbitMQ erlang can then be installed with the command:
 ~]# yum install rabbitmq-server erlang --enablerepo=rabbitmq_erlang,rabbitmq_rabbitmq-server
 ```
 
+#### rabbitmq-env.conf
+You need to create the file rabbitmq-env.conf before starting RabbitMQ:
+
+```bash
+echo "HOSTNAME=localhost" > /etc/rabbitmq/rabbitmq-env.conf
+```
+### Start RabbitMQ
+You can start the RabbitMQ service with the command:
+```bash
+systemctl start rabbitmq-server
+```
+
 ##### Start On Boot
 You can enable rabbitmq-server on boot after installing it with this command:
 
 ```bash
 ~]# systemctl enable rabbitmq-server
 ```
+
 
 ```eval_rst
   .. meta::
