@@ -51,6 +51,17 @@ sed -i 's/;opcache.load_comments=1/opcache.load_comments=0/g' /etc/php.d/*opcach
 sed -i 's/;opcache.enable_file_override=0/opcache.enable_file_override=1/g' /etc/php.d/*opcache.ini
 ```
 
+This changes the values to:
+
+```bash
+opcache.memory_consumption=512
+opcache.interned_strings_buffer=12
+opcache.max_accelerated_files=60000
+opcache.max_accelerated_files=60000
+opcache.load_comments=0/
+opcache.enable_file_override=1
+```
+
 ```eval_rst
   .. meta::
      :title: Magento Opcache | UKFast Documentation
