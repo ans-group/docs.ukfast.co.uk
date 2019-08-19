@@ -1,6 +1,6 @@
 # PHP-FPM
 
-### Vhosts Error Log
+### Domain Error Log
 The error log for your domain is located just outside of the document root:
 
 ```bash
