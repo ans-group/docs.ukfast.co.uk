@@ -66,6 +66,7 @@ The OPcache GUI [https://github.com/amnuts/opcache-gui](https://github.com/amnut
 ```bash
 ~]# cd /var/www/vhosts/magentodomain.com/htdocs/
 ~]# git clone https://github.com/amnuts/opcache-gui
+~]# chown -R magentouser: opcache-gui
 ```
 
 You can then browse: magentodomain.com/opcache-gui. We recommend password/ip redirection while folder, we have guides on how to do this [here](https://docs.ukfast.co.uk/operatingsystems/linux/magento/redtrictwebsite.html)
