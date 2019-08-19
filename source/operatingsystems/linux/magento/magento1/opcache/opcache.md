@@ -1,6 +1,36 @@
 # Opcache
 
+OPcache will cache .php and .phtml files within your Magento application. Therefore you should add flushing OPcache to your deployment process.
 
+### Version Check
+You can check the version of OPcache installed with the command:
+
+```bash
+~]# php -v | grep -i opcache
+    with Zend OPcache v7.2.19, Copyright (c) 1999-2018, by Zend Technologies
+```
+
+#### Module Check
+You can confirm the module has been loaded:
+
+```bash
+~]# php -m | grep -i opcache
+Zend OPcache
+```
+
+### Flush OPcache
+
+### Stack OPcache settings
+We use the following sed to change the default settings of OPcache on our Magento1 stacks:
+
+```bash
+sed -i 's/opcache.memory_consumption=128/opcache.memory_consumption=512/g' /etc/php.d/*opcache.ini
+sed -i 's/opcache.interned_strings_buffer=8/opcache.interned_strings_buffer=12/g' /etc/php.d/*opcache.ini
+sed -i 's/opcache.max_accelerated_files=4000/opcache.max_accelerated_files=60000/g' /etc/php.d/*opcache.ini
+sed -i 's/;opcache.save_comments=1/opcache.save_comments=0/g' /etc/php.d/*opcache.ini
+sed -i 's/;opcache.load_comments=1/opcache.load_comments=0/g' /etc/php.d/*opcache.ini
+sed -i 's/;opcache.enable_file_override=0/opcache.enable_file_override=1/g' /etc/php.d/*opcache.ini
+```
 
 ```eval_rst
   .. meta::
