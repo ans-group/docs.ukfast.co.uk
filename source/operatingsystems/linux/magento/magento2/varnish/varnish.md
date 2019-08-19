@@ -4,7 +4,7 @@
 #### Version 4.1
 Varnish 4.1 is available from the varnishcache_varnish41 repository, this repository can be installed with the following command:
 ```bash
-curl -s https://packagecloud.io/install/repositories/varnishcache/varnish41/script.rpm.sh | sudo bash
+~]# curl -s https://packagecloud.io/install/repositories/varnishcache/varnish41/script.rpm.sh | sudo bash
 ```
 
 Varnish 4.1 can then be installed with the command:
@@ -21,7 +21,7 @@ You can enable Varnish on boot after installing it with this command:
 #### Version 5.2
 Varnish 5.2 is available from the varnishcache_varnish52 repository, this repository can be installed with the following command:
 ```bash
-curl -s https://packagecloud.io/install/repositories/varnishcache/varnish52/script.rpm.sh | sudo bash
+~]# curl -s https://packagecloud.io/install/repositories/varnishcache/varnish52/script.rpm.sh | sudo bash
 ```
 
 Varnish 5.2 can then be installed with the command:
