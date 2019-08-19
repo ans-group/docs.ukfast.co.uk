@@ -1,4 +1,4 @@
-# Opcache
+# OPcache
 
 OPcache will cache .php and .phtml files within your Magento2 application. Therefore you should add flushing OPcache to your deployment process.
 
