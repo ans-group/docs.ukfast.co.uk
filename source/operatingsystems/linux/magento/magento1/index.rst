@@ -6,7 +6,7 @@ Our Magento 1 optimised stack has been going since 2008. The core components of 
 
 - **Firewall**: :doc:`Dedicated/Shared Firewall </network/firewalls/index>` 
 - **Web Service**: :doc:`/operatingsystems/linux/nginx/index`
-- **PHP Utilities**: PHP, PHP-FPM, OPCache
+- **PHP Utilities**: PHP, PHP-FPM, :doc:`/operatingsystems/linux/magento/magento1/opcache/index`
 - **Mail Services**: :doc:`Postfix </operatingsystems/linux/mail/postfix>`
 - **SSH/FTP Access**: :doc:`/operatingsystems/linux/ssh/index`, :doc:`/operatingsystems/linux/ftp/setup_vsftpd`
 - **Database services**: MySQL Percona, :doc:`/operatingsystems/linux/magento/magento1/redis/index`
@@ -26,6 +26,7 @@ Our Magento 1 optimised stack has been going since 2008. The core components of 
    ../magentottfb.md
    ../dbtriggers.md
    git/index
+   opcache/index
    
 .. meta::
    :title: Magento 1 Optimised Stack | UKFast Documentation
