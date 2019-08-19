@@ -12,7 +12,7 @@ Our Magento 2 optimised stack has been going since 2015. The core components of 
 * **HTTP Caching Utilities**: :doc:`/operatingsystems/linux/magento/magento2/varnish/index`
 * **Database services**: MySQL Percona, :doc:`/operatingsystems/linux/magento/magento2/elasticsearch/index`, Redis
 * **Version Control Utilities**: :doc:`/operatingsystems/linux/magento/magento2/git/index`
-* **File system distribution**: NFS
+* **File system distribution**: :doc:`/operatingsystems/linux/magento/magento2/nfs/index`
 
 .. toctree::
    :maxdepth: 1
@@ -34,6 +34,7 @@ Our Magento 2 optimised stack has been going since 2015. The core components of 
    elasticsearch/index
    opcache/index
    php-fpm/index
+   nfs/index
    
 .. meta::
    :title: Magento 2 Optimised Stack | UKFast Documentation
