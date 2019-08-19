@@ -9,14 +9,21 @@ The error log for your domain is located just outside of the document root:
 
 This error log should be reviewed regularly as you may see PHP errors in this file.
 
-### Main Error Log
+### Domain Conf File
+The PHP-FPM configuration pool for your domain is located in /etc/php-fpm.d/
+
+```bash
+/etc/php-fpm.d/magentodomaincom.conf
+```
+
+### PHP-FPM Error Log
 The error log for the PHP-FPM service is:
 
 ```bash
 /var/log/php-fpm/error.log
 ```
 
-### Main Conf File
+### PHP-FPM Conf File
 The main configuration file for PHP-FPM is:
 
 ```bash
