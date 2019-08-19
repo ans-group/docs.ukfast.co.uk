@@ -12,7 +12,7 @@ This error log should be reviewed regularly as you may see PHP errors in this fi
 ### Main Error Log
 The error log for the PHP-FPM service is:
 
-``bash
+```bash
 /var/log/php-fpm/error.log
 ```
 
