@@ -1,6 +1,34 @@
 # PHP-FPM
 
+### Vhosts Error Log
+The error log for your domain is located just outside of the document root:
 
+```bash
+/var/www/vhosts/magentodomain.com/magentodomain.com-phpfpm-error.log
+```
+
+This error log should be reviewed regularly as you may see PHP errors in this file.
+
+### Main Error Log
+The error log for the PHP-FPM service is:
+
+``bash
+/var/log/php-fpm/error.log
+```
+
+### Main Conf File
+The main configuration file for PHP-FPM is:
+
+```bash
+/etc/php-fpm.conf
+```
+
+This file has an include to /etc/php-fpm.d/*.conf:
+
+```bash
+~]# grep include /etc/php-fpm.conf
+include=/etc/php-fpm.d/*.conf
+```
 
 ```eval_rst
   .. meta::
