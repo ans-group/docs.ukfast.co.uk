@@ -42,6 +42,41 @@ You can start Elasticsearch with the command:
 systemctl start elasticsearch
 ```
 
+### Check Elasticsearch is running:
+
+```bash
+~]# curl -X GET "127.0.0.1:9200/?pretty"
+{
+  "name" : "5qXM9wk",
+  "cluster_name" : "elasticsearch",
+  "cluster_uuid" : "sWWOH_oGTuOAQPs8USjiyQ",
+  "version" : {
+    "number" : "6.8.2",
+    "build_flavor" : "default",
+    "build_type" : "rpm",
+    "build_hash" : "b506955",
+    "build_date" : "2019-07-24T15:24:41.545295Z",
+    "build_snapshot" : false,
+    "lucene_version" : "7.7.0",
+    "minimum_wire_compatibility_version" : "5.6.0",
+    "minimum_index_compatibility_version" : "5.0.0"
+  },
+  "tagline" : "You Know, for Search"
+}
+```
+
+### Bind/Listen IP Address
+In order to changfe the listen IP address for elasticsearch you need to configure network.host in /etc/elasticsearch/elasticsearch.yml
+
+```bash
+~]# vim /etc/elasticsearch/elasticsearch.yml
+
+network.host: 10.0.0.17
+```
+
+The elasticsearch service will need a restart after this change.
+
+
  ```eval_rst
 .. meta::
    :title: Magento Elasticsearch | UKFast Documentation
