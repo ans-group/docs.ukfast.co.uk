@@ -42,7 +42,8 @@ You can start Elasticsearch with the command:
 systemctl start elasticsearch
 ```
 
-### Check Elasticsearch is running:
+### Check Elasticsearch is running
+Run the following curl command on the server to test Elasticsearch is running:
 
 ```bash
 ~]# curl -X GET "127.0.0.1:9200/?pretty"
