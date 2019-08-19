@@ -1,6 +1,6 @@
 # Opcache
 
-OPcache will cache .php and .phtml files within your Magento application. Therefore you should add flushing OPcache to your deployment process.
+OPcache will cache .php and .phtml files within your Magento2 application. Therefore you should add flushing OPcache to your deployment process.
 
 ### Version Check
 You can check the version of OPcache installed with the command:
@@ -44,8 +44,10 @@ We use the following sed to change the default settings of OPcache on our Magent
 sed -i 's/opcache.memory_consumption=128/opcache.memory_consumption=512/g' /etc/php.d/*opcache.ini
 sed -i 's/opcache.interned_strings_buffer=8/opcache.interned_strings_buffer=12/g' /etc/php.d/*opcache.ini
 sed -i 's/opcache.max_accelerated_files=4000/opcache.max_accelerated_files=60000/g' /etc/php.d/*opcache.ini
-sed -i 's/;opcache.save_comments=1/opcache.save_comments=0/g' /etc/php.d/*opcache.ini
-sed -i 's/;opcache.load_comments=1/opcache.load_comments=0/g' /etc/php.d/*opcache.ini
+sed -i 's/;opcache.save_comments=0/opcache.save_comments=1/g' /etc/php.d/*opcache.ini
+sed -i 's/;opcache.save_comments=1/opcache.save_comments=1/g' /etc/php.d/*opcache.ini
+sed -i 's/opcache.save_comments=0/opcache.save_comments=1/g' /etc/php.d/*opcache.ini
+sed -i 's/;opcache.load_comments=1/opcache.load_comments=1/g' /etc/php.d/*opcache.ini
 sed -i 's/;opcache.enable_file_override=0/opcache.enable_file_override=1/g' /etc/php.d/*opcache.ini
 ```
 
@@ -53,10 +55,10 @@ This changes the values to:
 
 ```bash
 opcache.memory_consumption=512
-opcache.interned_strings_buffer=12
+pcache.interned_strings_buffer=12
 opcache.max_accelerated_files=60000
-opcache.max_accelerated_files=60000
-opcache.load_comments=0/
+opcache.save_comments=1
+opcache.save_comments=1
 opcache.enable_file_override=1
 ```
 
@@ -64,12 +66,12 @@ opcache.enable_file_override=1
 The OPcache GUI [https://github.com/amnuts/opcache-gui](https://github.com/amnuts/opcache-gui) is a very handy tool which allows you to flush cache, view the files in cache, memory statistics and lots more. You simply need to download the files to your document root:
 
 ```bash
-~]# cd /var/www/vhosts/magentodomain.com/htdocs/
+~]# cd /var/www/vhosts/magentodomain.com/htdocs/pub/
 ~]# git clone https://github.com/amnuts/opcache-gui
 ~]# chown -R magentouser: opcache-gui
 ```
 
-You can then browse www.magentodomain.com/opcache-gui. We recommend password/ip redirection for this URI, we have guides on how to do this [here](https://docs.ukfast.co.uk/operatingsystems/linux/magento/magento1/restrictfilefolder.html)
+You can then browse www.magentodomain.com/opcache-gui. We recommend password/ip redirection for this URI, we have guides on how to do this [here](https://docs.ukfast.co.uk/operatingsystems/linux/magento/magento2/restrictfilefolder.html)
 
 ```eval_rst
   .. meta::
