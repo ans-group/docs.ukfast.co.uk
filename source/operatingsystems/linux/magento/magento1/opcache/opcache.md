@@ -19,6 +19,25 @@ Zend OPcache
 ```
 
 ### Flush OPcache
+#### Service Reload
+You can flush OPcache with a reload of the php-fpm service, always run a configuration test before reloading
+
+```bash
+~]# php-fpm -t
+[19-Aug-2019 08:48:54] NOTICE: configuration file /etc/php-fpm.conf test is successful
+~]# systemctl reload php-fpm
+```
+
+#### PHP Function
+You can also clear OPcache using the PHP function:
+
+```bash
+<?php
+ opcache_reset();
+?>
+```
+
+### OPcache GUI
 
 ### Stack OPcache settings
 We use the following sed to change the default settings of OPcache on our Magento1 stacks:
