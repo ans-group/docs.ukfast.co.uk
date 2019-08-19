@@ -28,6 +28,20 @@ type=rpm-md
 ~]# yum install elasticsearch 
 ```
 
+###### Start On Boot
+Once installed you can configure elasticsearch to start on boot with the command:
+
+```bash
+systemctl enable elasticsearch
+```
+
+### Start Elasticsearch
+You can start Elasticsearch with the command:
+
+```bash
+systemctl start elasticsearch
+```
+
  ```eval_rst
 .. meta::
    :title: Magento Elasticsearch | UKFast Documentation
