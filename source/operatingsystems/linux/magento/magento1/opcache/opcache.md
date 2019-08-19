@@ -37,8 +37,6 @@ You can also clear OPcache using the PHP function:
 ?>
 ```
 
-### OPcache GUI
-
 ### Stack OPcache settings
 We use the following sed to change the default settings of OPcache on our Magento1 stacks:
 
@@ -61,6 +59,16 @@ opcache.max_accelerated_files=60000
 opcache.load_comments=0/
 opcache.enable_file_override=1
 ```
+
+### OPcache GUI
+The OPcache GUI [https://github.com/amnuts/opcache-gui](https://github.com/amnuts/opcache-gui) is a very handy tool which allows you to flush cache, view the files in cache, memory statistics and lots more. You simply need to download the files to your document root:
+
+```bash
+~]# cd /var/www/vhosts/magentodomain.com/htdocs/
+~]# git clone https://github.com/amnuts/opcache-gui
+```
+
+You can then browse: magentodomain.com/opcache-gui. We recommend password/ip redirection while folder, we have guides on how to do this [here](https://docs.ukfast.co.uk/operatingsystems/linux/magento/redtrictwebsite.html)
 
 ```eval_rst
   .. meta::
