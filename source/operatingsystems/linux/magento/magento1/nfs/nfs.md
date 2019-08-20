@@ -7,7 +7,7 @@ You can install NFS with the following command:
 ```
 
 ### Distributed Files/Folders
-It's very important to only use NFS for files/folder which need to be distributed between multiple servers. We strongly advise against having the entire document root of your Magento website on NFS. For Magento2 the typical directories that need NFS are:
+It's very important to only use NFS for files/folder which need to be distributed between multiple servers. We strongly advise against having the entire document root of your Magento website on NFS. The typical directorie that needs NFS is:
 
 - media
 
