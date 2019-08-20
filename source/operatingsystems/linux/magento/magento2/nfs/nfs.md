@@ -56,7 +56,11 @@ NFSSERVER:/nfsshare/media /var/www/vhosts/magentodomain.com/htdocs/pub/media nfs
 ```
 
 #### Symlinks
+You can symlink files/folders from your document root to the NFS mount point.
 
+```bash
+~]# ln -s /var/www/vhosts/magentodomain.com/htdocs/pub/media /nfsshare/media
+```
 
 ### Open File Check
 You can see all the NFS open files with the following command:
