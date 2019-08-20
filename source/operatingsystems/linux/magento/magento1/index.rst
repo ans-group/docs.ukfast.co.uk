@@ -11,7 +11,7 @@ Our Magento 1 optimised stack has been going since 2008. The core components of 
 - **SSH/FTP Access**: :doc:`/operatingsystems/linux/ssh/index`, :doc:`/operatingsystems/linux/ftp/setup_vsftpd`
 - **Database services**: MySQL Percona, :doc:`/operatingsystems/linux/magento/magento1/redis/index`
 - **Version Control Utilities**: :doc:`/operatingsystems/linux/magento/magento1/git/index` 
-- **File system distribution**: NFS
+- **File system distribution**: :doc:`/operatingsystems/linux/magento/magento1/nfs/index` 
 
 .. toctree::
    :maxdepth: 1
@@ -28,6 +28,7 @@ Our Magento 1 optimised stack has been going since 2008. The core components of 
    git/index
    opcache/index
    php-fpm/index
+   nfs/index
    
 .. meta::
    :title: Magento 1 Optimised Stack | UKFast Documentation
