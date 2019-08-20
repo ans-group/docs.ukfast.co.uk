@@ -42,6 +42,18 @@ $bootstrap->run($app);
 ```
 
 #### Direct Mount Point
+You can directly mount NFS to the folder within your document root:
+
+```bash
+NFSSERVER/nfsshare/media -> /var/www/vhosts/magentodomain.com/htdocs/pub/media
+```
+You can do this with the following entry in /etc/fstab:
+
+```bash
+ ~]# cat /etc/fstab | grep -i nfs
+NFSSERVER:/nfsshare/media /var/www/vhosts/magentodomain.com/htdocs/pub/media nfs rw,vers=3,noatime,nodiratime,async,timeo=1800 0 0
+ ~]# mount /var/www/vhosts/magentodomain.com/htdocs/pub/media
+```
 
 #### Symlinks
 
