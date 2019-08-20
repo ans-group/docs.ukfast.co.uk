@@ -12,7 +12,7 @@ It's very important to only use NFS for files/folder which need to be distribute
 - pub/media
 - pub/static
 
-There are a number of ways in which you can achtive this.
+There are a number of ways in which you can achieve this.
 
 #### Customize MAGE_DIRS
 You can set MAGE_DIRS in any of the following ways:
