@@ -6,7 +6,7 @@ Our Magento 2 optimised stack has been going since 2015. The core components of 
 
 * **Firewall**: :doc:`Dedicated/Shared Firewall </network/firewalls/index>` 
 * **Web Service**: :doc:`/operatingsystems/linux/nginx/index`
-* **PHP Utilities**: PHP, :doc:`/operatingsystems/linux/magento/magento2/php-fpm/index`, :doc:`/operatingsystems/linux/magento/magento2/opcache/index`, :doc:`/operatingsystems/linux/magento/magento2/composer/index`
+* **PHP Utilities**: :doc:`/operatingsystems/linux/magento/magento2/php/index`, :doc:`/operatingsystems/linux/magento/magento2/php-fpm/index`, :doc:`/operatingsystems/linux/magento/magento2/opcache/index`, :doc:`/operatingsystems/linux/magento/magento2/composer/index`
 * **Mail Services**: :doc:`Postfix </operatingsystems/linux/mail/postfix>`
 * **SSH/FTP Access**: :doc:`/operatingsystems/linux/ssh/index`, :doc:`/operatingsystems/linux/ftp/setup_vsftpd`
 * **HTTP Caching Utilities**: :doc:`/operatingsystems/linux/magento/magento2/varnish/index`
@@ -35,6 +35,7 @@ Our Magento 2 optimised stack has been going since 2015. The core components of 
    opcache/index
    php-fpm/index
    nfs/index
+   php/index
    
 .. meta::
    :title: Magento 2 Optimised Stack | UKFast Documentation
