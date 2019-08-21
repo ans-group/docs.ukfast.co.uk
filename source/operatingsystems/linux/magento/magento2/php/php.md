@@ -23,7 +23,7 @@ We use the remi yum repository for PHP. You can install the remi repoistory with
 ~]# wget http://rpms.remirepo.net/enterprise/remi-release-7.rpm && rpm -Uvh remi-release-7.rpm && rm -f remi-release-7.rpm
 ```
 
-#### CentOS 7
+#### CentOS 6
 ```bash
 ~]# wget http://rpms.remirepo.net/enterprise/remi-release-6.rpm && rpm -Uvh remi-release-6.rpm && rm -f remi-release-6.rpm
 ```
