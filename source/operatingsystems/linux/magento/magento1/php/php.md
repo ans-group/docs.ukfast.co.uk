@@ -1,7 +1,7 @@
 # PHP
 
 ### Create Backup
-If you have PHP already installed and would like to take a backup of the configuration files, you can run the follolwing (You can copy and paste the whole block below into your SSH terminal):
+If you have PHP already installed and would like to take a backup of the configuration files, you can run the following (You can copy and paste the whole block below into your SSH terminal):
 
 ```bash
 mkdir /root/php_upgrade_backup-$(date +%d_%b_%Y)
@@ -69,7 +69,7 @@ yum install --disablerepo='*' --enablerepo=base,remi-php73,remi,epel php php-pdo
 Review and then apply the OPcache settings outlined here: [https://docs.ukfast.co.uk/operatingsystems/linux/magento/magento1/opcache/opcache.html#stack-opcache-settings](https://docs.ukfast.co.uk/operatingsystems/linux/magento/magento1/opcache/opcache.html#stack-opcache-settings)
 
 ### /etc/php.ini Settings
-Review and copy the settings from /root/php_upgrade_backup-$(date +%d_%b_%Y)/php.ini to /etc/php.ini. Alternativly use our standard settins for the php.ini file (You can copy and paste the whole block below into your SSH terminal):
+Review and copy the settings from /root/php_upgrade_backup-$(date +%d_%b_%Y)/php.ini to /etc/php.ini. Alternatively use our standard settings for the php.ini file (You can copy and paste the whole block below into your SSH terminal):
 
 ```bash
 sed -ie "s_;date.timezone =_date.timezone = \"Europe/London\"_g" /etc/php.ini
