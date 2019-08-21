@@ -1,4 +1,4 @@
-# Opcache
+# OPcache
 
 OPcache will cache .php and .phtml files within your Magento2 application. Therefore you should add flushing OPcache to your deployment process.
 
@@ -10,7 +10,7 @@ You can check the version of OPcache installed with the command:
     with Zend OPcache v7.2.19, Copyright (c) 1999-2018, by Zend Technologies
 ```
 
-#### Module Check
+### Module Check
 You can confirm the module has been loaded:
 
 ```bash
