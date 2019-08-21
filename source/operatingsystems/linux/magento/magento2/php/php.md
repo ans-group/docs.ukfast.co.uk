@@ -23,7 +23,7 @@ We use the remi yum repository for PHP. You can install the remi repoistory with
 ~]# wget http://rpms.remirepo.net/enterprise/remi-release-7.rpm && rpm -Uvh remi-release-7.rpm && rm -f remi-release-7.rpm
 ```
 
-#### CentOS 7
+#### CentOS 6
 ```bash
 ~]# wget http://rpms.remirepo.net/enterprise/remi-release-6.rpm && rpm -Uvh remi-release-6.rpm && rm -f remi-release-6.rpm
 ```
@@ -54,7 +54,7 @@ This includes the PHP modules required by Magento. If you are replacing another 
 ```
 
 ### OPcache Setting
-Review and then apply the OPcache settings outlined here: [https://docs.ukfast.co.uk/operatingsystems/linux/magento/magento2/opcache/opcache.html#stack-opcache-settings](https://docs.ukfast.co.uk/operatingsystems/linux/magento/magento2/opcache/opcache.html#stack-opcache-settings)
+Review and then apply the OPcache settings outlined [here](https://docs.ukfast.co.uk/operatingsystems/linux/magento/magento2/opcache/opcache.html#stack-opcache-settings)
 
 ### /etc/php.ini Settings
 Review and copy the settings from /root/php_upgrade_backup-$(date +%d_%b_%Y)/php.ini to /etc/php.ini. Alternatively use our standard settings for the php.ini file (You can copy and paste the whole block below into your SSH terminal):
