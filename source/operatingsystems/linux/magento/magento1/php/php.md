@@ -1,7 +1,7 @@
 # PHP
 
-### PHP Backup
-If you have PHP already installed and would like to take a backup of the configuration files, you can run the follolwing:
+### Create Backup
+If you have PHP already installed and would like to take a backup of the configuration files, you can run the follolwing (You can copy and paste the whole block below into your SSH terminal):
 
 ```bash
 mkdir /root/php_upgrade_backup-$(date +%d_%b_%Y)
@@ -69,6 +69,43 @@ yum install --disablerepo='*' --enablerepo=base,remi-php73,remi,epel php php-pdo
 Review and then apply the OPcache settings outlined here: [https://docs.ukfast.co.uk/operatingsystems/linux/magento/magento1/opcache/opcache.html#stack-opcache-settings](https://docs.ukfast.co.uk/operatingsystems/linux/magento/magento1/opcache/opcache.html#stack-opcache-settings)
 
 ### /etc/php.ini Settings
+Review and copy the settings from /root/php_upgrade_backup-$(date +%d_%b_%Y)/php.ini to /etc/php.ini. Alternativly use our standard settins for the php.ini file (You can copy and paste the whole block below into your SSH terminal):
+
+```bash
+sed -ie "s_;date.timezone =_date.timezone = \"Europe/London\"_g" /etc/php.ini
+sed -ie "s/; max_input_vars = 1000/max_input_vars = 20000/g" /etc/php.ini
+sed -ie "s/memory_limit = 128M/memory_limit = 512M/" /etc/php.ini
+sed -ie "s/max_execution_time = 30/max_execution_time = 1800/" /etc/php.ini
+sed -ie "s/max_input_time = 60/max_input_time = 90/" /etc/php.ini
+sed -ie "s/short_open_tag = Off/short_open_tag = On/" /etc/php.ini
+sed -ie "s/;always_populate_raw_post_data = On/always_populate_raw_post_data = -1/" /etc/php.ini
+sed -ie "s/expose_php = On/expose_php = Off/" /etc/php.ini
+sed -ie "s/upload_max_filesize = 2M/upload_max_filesize = 8M/" /etc/php.ini
+```
+
+### PHP-FPM Default Pool
+Stop default PHP-FPM pool from running with the command:
+```bash
+echo ";Default file, please don't remove" > /etc/php-fpm.d/www.conf
+```
+
+### Start PHP-FPM
+#### Configuration Test
+Run a configuration test of PHP-FPM before starting:
+```bash
+~]# php-fpm -t
+[21-Aug-2019 07:53:29] NOTICE: configuration file /etc/php-fpm.conf test is successful
+```
+#### Start PHP-FPM
+You can then start the PHP-FPM service with the command
+```bash
+systemctl start php-fpm
+```
+#### Start On Boot
+You can also enable PHP-FPM to start on boot:
+```bash
+systemctl enable php-fpm
+```
 
 
 
