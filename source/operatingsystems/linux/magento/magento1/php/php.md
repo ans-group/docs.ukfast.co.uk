@@ -84,7 +84,7 @@ sed -ie "s/upload_max_filesize = 2M/upload_max_filesize = 8M/" /etc/php.ini
 ```
 
 ### PHP-FPM Default Pool
-Stop default PHP-FPM pool from running with the command:
+Stop the default PHP-FPM pool (www) from running with the command:
 ```bash
 echo ";Default file, please don't remove" > /etc/php-fpm.d/www.conf
 ```
@@ -106,7 +106,6 @@ You can also enable PHP-FPM to start on boot:
 ```bash
 systemctl enable php-fpm
 ```
-
 
 
 ```eval_rst
