@@ -40,47 +40,37 @@ We highly recommend taking a backup before running this command (See PHP Backup 
 ### Install PHP
 This includes the PHP modules needed by Magento. If you are replacing another version of PHP you should review the backup file /root/php_upgrade_backup-$(date +%d_%b_%Y)/modules taken above. If there are any additional modules to the list before, simply add them to the command.
 
-#### PHP 5.5
-```bash
-yum install --disablerepo='*' --enablerepo=base,remi-php55,remi,epel php php-pdo php-mysqlnd php-opcache php-xml php-mcrypt php-gd php-devel php-mysql php-intl php-mbstring php-bcmath php-json php-iconv php-pecl-redis php-fpm php-zip php-soap 
-```
-#### PHP 5.6
-```bash
-yum install --disablerepo='*' --enablerepo=base,remi-php56,remi,epel php php-pdo php-mysqlnd php-opcache php-xml php-mcrypt php-gd php-devel php-mysql php-intl php-mbstring php-bcmath php-json php-iconv php-pecl-redis php-fpm php-zip php-soap 
-```
-#### PHP 7.0
-```bash
-yum install --disablerepo='*' --enablerepo=base,remi-php70,remi,epel php php-pdo php-mysqlnd php-opcache php-xml php-mcrypt php-gd php-devel php-mysql php-intl php-mbstring php-bcmath php-json php-iconv php-pecl-redis php-fpm php-zip php-soap 
-```
 #### PHP 7.1
 ```bash
-yum install --disablerepo='*' --enablerepo=base,remi-php71,remi,epel php php-pdo php-mysqlnd php-opcache php-xml php-mcrypt php-gd php-devel php-mysql php-intl php-mbstring php-bcmath php-json php-iconv php-pecl-redis php-fpm php-zip php-soap 
+yum install --disablerepo='*' --enablerepo=base,remi-php71,remi,epel,updates php php-mcrypt php-pdo php-mysqlnd php-opcache php-xml php-gd php-devel php-mysql php-intl php-mbstring php-bcmath php-json php-iconv php-pecl-redis php-fpm php-zip php-soap composer
 ```
 #### PHP 7.2
 ```bash
-yum install --disablerepo='*' --enablerepo=base,remi-php72,remi,epel php php-pdo php-mysqlnd php-opcache php-xml php-mcrypt php-gd php-devel php-mysql php-intl php-mbstring php-bcmath php-json php-iconv php-pecl-redis php-fpm php-zip php-soap 
-```
+yum install --disablerepo='*' --enablerepo=base,remi-php72,remi,epel,updates php php-pecl-mcrypt php-pdo php-mysqlnd php-opcache php-xml php-gd php-devel php-mysql php-intl php-mbstring php-bcmath php-json php-iconv php-pecl-redis php-fpm php-zip php-soap composer
 #### PHP 7.3
 ```bash
-yum install --disablerepo='*' --enablerepo=base,remi-php73,remi,epel php php-pdo php-mysqlnd php-opcache php-xml php-mcrypt php-gd php-devel php-mysql php-intl php-mbstring php-bcmath php-json php-iconv php-pecl-redis php-fpm php-zip php-soap 
+yum install --disablerepo='*' --enablerepo=base,remi-php73,remi,epel,updates php php-pecl-mcrypt php-pdo php-mysqlnd php-opcache php-xml php-gd php-devel php-mysql php-intl php-mbstring php-bcmath php-json php-iconv php-pecl-redis php-fpm php-zip php-soap composer
 ```
 
 ### OPcache Setting
-Review and then apply the OPcache settings outlined here: [https://docs.ukfast.co.uk/operatingsystems/linux/magento/magento1/opcache/opcache.html#stack-opcache-settings](https://docs.ukfast.co.uk/operatingsystems/linux/magento/magento1/opcache/opcache.html#stack-opcache-settings)
+Review and then apply the OPcache settings outlined here: [https://docs.ukfast.co.uk/operatingsystems/linux/magento/magento2/opcache/opcache.html#stack-opcache-settings](https://docs.ukfast.co.uk/operatingsystems/linux/magento/magento2/opcache/opcache.html#stack-opcache-settings)
 
 ### /etc/php.ini Settings
 Review and copy the settings from /root/php_upgrade_backup-$(date +%d_%b_%Y)/php.ini to /etc/php.ini. Alternatively use our standard settings for the php.ini file (You can copy and paste the whole block below into your SSH terminal):
 
 ```bash
+cp /etc/php.ini /root/php.ini.default
 sed -ie "s_;date.timezone =_date.timezone = \"Europe/London\"_g" /etc/php.ini
 sed -ie "s/; max_input_vars = 1000/max_input_vars = 20000/g" /etc/php.ini
-sed -ie "s/memory_limit = 128M/memory_limit = 512M/" /etc/php.ini
-sed -ie "s/max_execution_time = 30/max_execution_time = 1800/" /etc/php.ini
+sed -ie "s/memory_limit = 128M/memory_limit = 756M/" /etc/php.ini
+sed -ie "s/max_execution_time = 30/max_execution_time = 18000/" /etc/php.ini
 sed -ie "s/max_input_time = 60/max_input_time = 90/" /etc/php.ini
 sed -ie "s/short_open_tag = Off/short_open_tag = On/" /etc/php.ini
 sed -ie "s/;always_populate_raw_post_data = On/always_populate_raw_post_data = -1/" /etc/php.ini
 sed -ie "s/expose_php = On/expose_php = Off/" /etc/php.ini
 sed -ie "s/upload_max_filesize = 2M/upload_max_filesize = 8M/" /etc/php.ini
+sed -ie "s/zlib.output_compression = Off/zlib.output_compression = On/" /etc/php.ini
+echo "suhosin.session.cryptua = off" >> /etc/php.ini
 ```
 
 ### PHP-FPM Default Pool
