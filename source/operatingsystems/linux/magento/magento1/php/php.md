@@ -38,31 +38,31 @@ We highly recommend taking a backup before running this command (See PHP Backup 
 ```
 
 ### Install PHP
-This includes the PHP modules needed by Magento. If you are replacing another version of PHP you should review the backup file /root/php_upgrade_backup-$(date +%d_%b_%Y)/modules taken above. If there are any additional modules to the list before, simply add them to the command.
+This includes the PHP modules required by Magento. If you are replacing another version of PHP you should review the backup file /root/php_upgrade_backup-$(date +%d_%b_%Y)/modules taken above. If there are any additional modules to the list below, simply add them to the command.
 
 #### PHP 5.5
 ```bash
-yum install --disablerepo='*' --enablerepo=base,remi-php55,remi,epel php php-pdo php-mysqlnd php-opcache php-xml php-mcrypt php-gd php-devel php-mysql php-intl php-mbstring php-bcmath php-json php-iconv php-pecl-redis php-fpm php-zip php-soap 
+~]# yum install --disablerepo='*' --enablerepo=base,remi-php55,remi,epel php php-pdo php-mysqlnd php-opcache php-xml php-mcrypt php-gd php-devel php-mysql php-intl php-mbstring php-bcmath php-json php-iconv php-pecl-redis php-fpm php-zip php-soap 
 ```
 #### PHP 5.6
 ```bash
-yum install --disablerepo='*' --enablerepo=base,remi-php56,remi,epel php php-pdo php-mysqlnd php-opcache php-xml php-mcrypt php-gd php-devel php-mysql php-intl php-mbstring php-bcmath php-json php-iconv php-pecl-redis php-fpm php-zip php-soap 
+~]# yum install --disablerepo='*' --enablerepo=base,remi-php56,remi,epel php php-pdo php-mysqlnd php-opcache php-xml php-mcrypt php-gd php-devel php-mysql php-intl php-mbstring php-bcmath php-json php-iconv php-pecl-redis php-fpm php-zip php-soap 
 ```
 #### PHP 7.0
 ```bash
-yum install --disablerepo='*' --enablerepo=base,remi-php70,remi,epel php php-pdo php-mysqlnd php-opcache php-xml php-mcrypt php-gd php-devel php-mysql php-intl php-mbstring php-bcmath php-json php-iconv php-pecl-redis php-fpm php-zip php-soap 
+~]# yum install --disablerepo='*' --enablerepo=base,remi-php70,remi,epel php php-pdo php-mysqlnd php-opcache php-xml php-mcrypt php-gd php-devel php-mysql php-intl php-mbstring php-bcmath php-json php-iconv php-pecl-redis php-fpm php-zip php-soap 
 ```
 #### PHP 7.1
 ```bash
-yum install --disablerepo='*' --enablerepo=base,remi-php71,remi,epel php php-pdo php-mysqlnd php-opcache php-xml php-mcrypt php-gd php-devel php-mysql php-intl php-mbstring php-bcmath php-json php-iconv php-pecl-redis php-fpm php-zip php-soap 
+~]# yum install --disablerepo='*' --enablerepo=base,remi-php71,remi,epel php php-pdo php-mysqlnd php-opcache php-xml php-mcrypt php-gd php-devel php-mysql php-intl php-mbstring php-bcmath php-json php-iconv php-pecl-redis php-fpm php-zip php-soap 
 ```
 #### PHP 7.2
 ```bash
-yum install --disablerepo='*' --enablerepo=base,remi-php72,remi,epel php php-pdo php-mysqlnd php-opcache php-xml php-mcrypt php-gd php-devel php-mysql php-intl php-mbstring php-bcmath php-json php-iconv php-pecl-redis php-fpm php-zip php-soap 
+~]# yum install --disablerepo='*' --enablerepo=base,remi-php72,remi,epel php php-pdo php-mysqlnd php-opcache php-xml php-mcrypt php-gd php-devel php-mysql php-intl php-mbstring php-bcmath php-json php-iconv php-pecl-redis php-fpm php-zip php-soap 
 ```
 #### PHP 7.3
 ```bash
-yum install --disablerepo='*' --enablerepo=base,remi-php73,remi,epel php php-pdo php-mysqlnd php-opcache php-xml php-mcrypt php-gd php-devel php-mysql php-intl php-mbstring php-bcmath php-json php-iconv php-pecl-redis php-fpm php-zip php-soap 
+~]# yum install --disablerepo='*' --enablerepo=base,remi-php73,remi,epel php php-pdo php-mysqlnd php-opcache php-xml php-mcrypt php-gd php-devel php-mysql php-intl php-mbstring php-bcmath php-json php-iconv php-pecl-redis php-fpm php-zip php-soap 
 ```
 
 ### OPcache Setting
@@ -86,7 +86,7 @@ sed -ie "s/upload_max_filesize = 2M/upload_max_filesize = 8M/" /etc/php.ini
 ### PHP-FPM Default Pool
 Stop the default PHP-FPM pool (www) from running with the command:
 ```bash
-echo ";Default file, please don't remove" > /etc/php-fpm.d/www.conf
+~]# echo ";Default file, please don't remove" > /etc/php-fpm.d/www.conf
 ```
 
 ### Start PHP-FPM
@@ -99,12 +99,12 @@ Run a configuration test of PHP-FPM before starting:
 #### Start PHP-FPM
 You can then start the PHP-FPM service with the command
 ```bash
-systemctl start php-fpm
+~]# systemctl start php-fpm
 ```
 #### Start On Boot
 You can also enable PHP-FPM to start on boot:
 ```bash
-systemctl enable php-fpm
+~]# systemctl enable php-fpm
 ```
 
 
