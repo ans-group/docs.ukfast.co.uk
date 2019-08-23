@@ -1,6 +1,4 @@
-=================================================
-Magento
-=================================================
+Magento Optimised Stack
 
 Magento offers open & closed Source e-commerce solutions that is very popular amongst our clients. As such we have developed a selection of guides that cater for this:
 
@@ -13,5 +11,4 @@ Magento offers open & closed Source e-commerce solutions that is very popular am
 .. meta::
    :title: Magento Optimised Stacks | UKFast Documentation
    :description: guides relating to UKFast Magento Optimised Stacks
-   :keywords: ukfast, Magento, optimised, stack
-
+   :keywords: ukfast, Magento, optimized, stack
