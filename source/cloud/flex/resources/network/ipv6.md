@@ -1,9 +1,3 @@
-```eval_rst
-.. meta::
-   :title: UKFast Documentation | eCloud Flex | Using IPv6 on eCloud Flex
-   :description: How to enable and use IPv6 on eCloud Flex - Linux and Windows
-```
-
 # Using IPv6 on eCloud Flex
 
 You can now use IPv6 on your eCloud Flex project. Each subnet you create that you want to have IPv6 on will be allocated a /64 prefix from a /48 prefix defined by UKFast (the standard tenant network quota will limit the number of subnets a tenant can request).
@@ -24,13 +18,13 @@ If your eCloud Flex account does not currently have IPv6, you can enable it by f
 
 5. In the window that opens (shown below), select 'Allocate Network Address from a pool' in the Network Address Source drop-down menu.  Then select 'default-pool-ipv6' under the Address pool drop-down menu.  Click `Next`
 
-    ![subnet](files/subnet.PNG)
+    ![subnet](../../files/subnet.PNG)
 
 6. On the next tab you customise any settings. You must select an option in the IPv6 Address Configuration Mode drop-down menu (such as SLAAC or DHCPv6).  Click `Create`
 
 7. Once created, you will be given a public IPv6 /64 prefix, which will appear in your Networks list, as shown below.  
 
-    ![newsubnet](files/newsubnet.PNG)
+    ![newsubnet](../../files/newsubnet.PNG)
 
 8. You should now add this subnet to your router.  Click `Routers`, also under the Networks tab.
 
@@ -40,7 +34,7 @@ If your eCloud Flex account does not currently have IPv6, you can enable it by f
 
 11. In the Subnet drop-down menu, select the IPv6 subnet you just created.  Click `Submit`
 
-    ![interface](files/interface.PNG)
+    ![interface](../../files/interface.PNG)
 
 You will now see an IPv6 address is allocated to your router's interface, as shown below - this should now respond to ICMP if you have an existing IPv6 network to test it from.
 
@@ -49,7 +43,7 @@ You will now see an IPv6 address is allocated to your router's interface, as sho
   Warning: When using SLAAC, UKFast can only support IPv6 usage in a dual stack configuration, due to limited IPv6 support with certain images. We only support DNS configuration in IPv4 subnets. If you choose to use an IPv6 only network be aware cloud-init will only work if you use the config-drive option on instance deployment.
 ```
 
-![newinterface](files/newinterface.PNG)
+![newinterface](../../files/newinterface.PNG)
 
 ## Modifying security groups for IPv6
 
@@ -62,8 +56,15 @@ Before you deploy your first eCloud Flex instance you should modify your securit
 5. Set the CIDR using IPv6 format e.g '::/0' is the same as IPv4's '0.0.0.0/0'
 6. You may want to do the above for both ingress and egress traffic.
 
-    ![rule](files/rule.PNG)
+    ![rule](../../files/rule.PNG)
 
 Now you are ready to go - deploy a new eCloud Flex instance and it will be given an IPv6 address.  Don't forget you may need to update security rules to also allow IPv6.
 
 If you have any existing eCloud Flex instances you want to add IPv6 to, and you're not using SLAAC, you will need to detach and re-attach the network interface of the instance and then configure DHCP inside the instance.
+
+```eval_rst
+.. meta::
+   :title: UKFast Documentation | eCloud Flex | Using IPv6 on eCloud Flex
+   :description: How to enable and use IPv6 on eCloud Flex - Linux and Windows
+   :metadata: flex, ecloud, hosting, openstack, ipv6, networks, networking
+```

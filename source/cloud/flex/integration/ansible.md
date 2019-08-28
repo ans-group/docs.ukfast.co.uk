@@ -1,8 +1,8 @@
-# Creating flex instances using ansible
+# Creating eCloud Flex instances using Ansible
 
-Ansible is a configuration management platform that's currently owned by RedHat, popular with linux sysadmins from all over, though windows admins are currently trying to get in on the action.
+Ansible is an open-source software provisioning, configuration management, and application-deployment tool developed by RedHat, and is generally regarded as one of the leading tools in the DevOps community.
 
-Describing the full scope of ansible and it's usage is clearly out of reach of this article, but I will attempt to highlight some of the useful ways in which ansible can be used to automate the creation of your flex-based infrastructure.
+Describing the full scope of ansible and it's usage is clearly out of reach of this article, but we will attempt to highlight some of the useful ways in which ansible can be used to automate the creation of your flex-based infrastructure.
 
 ## The os_server module
 
@@ -21,7 +21,7 @@ If you've already got ansible installed, I'd certainly hope you already have pyt
 
 ## Creating instances
 
-If you've followed the guide [here](/flex/general/settingvars.html), you should already have all the correct environment variables set, so you won't need a large amount of the authentication based options for the module. You should be able to get away with a fairly lean task that looks like this:
+If you've followed the guide [here](https://docs.ukfast.co.uk/cloud/flex/general/settingvars.html), you should already have all the correct environment variables set, so you won't need a large amount of the authentication based options for the module. You should be able to get away with a fairly lean task that looks like this:
 
 ```yaml
   - name: Create 3 VMs
@@ -193,4 +193,11 @@ The following playbook ties together some of the above functionality to show a r
       - servera
       - serverb
       - serverc
+```
+
+```eval_rst
+.. meta::
+   :title: Using eCloud Flex with Ansible
+   :description: How to use eCloud Flex with Ansible
+   :keywords: ecloud, flex, openstack, ansible, redhat, automation, deployment, configuration, webserver
 ```
