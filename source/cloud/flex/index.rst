@@ -16,13 +16,7 @@ General Information
 .. toctree::
    :maxdepth: 1
 
-   general/accesslinuxinstances
-   general/settingvars
-   general/flexapis
-   general/supportaccess
-   general/sshkey
-   general/instancebilling
-   general/openstackcli
+   general/index
 
 ----------------------------------------
 Managing Resources
@@ -31,6 +25,7 @@ Managing Resources
 .. toctree::
    :maxdepth: 1
 
+   resources/index
    resources/compute/index
    resources/network/index
    resources/storage/index
@@ -43,6 +38,7 @@ Integrating Deployment Tools
 
 .. toctree::
    :maxdepth: 1
-    
+
+   integration/index
    integration/ansible
    integration/terraform
