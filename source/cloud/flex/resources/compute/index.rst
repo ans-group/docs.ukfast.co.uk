@@ -4,7 +4,7 @@
    :keywords: ukfast, cloud, ecloud, flex, instance, openstack, hosting, vm, virtual machine, nova
 
 ===============================================
-eCloud Flex instances (Compute)
+Compute
 ===============================================
 
 Information relating to eCloud Flex instances based on Nova, the compute element of OpenStack

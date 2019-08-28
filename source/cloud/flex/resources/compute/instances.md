@@ -4,7 +4,7 @@
 .. warning::
   As with most of our Flex guides, we're going to assume that you've followed our guide on setting environment variables and installing the openstackclient:
 
-  :doc:`/cloud/flex/general/settingvars`
+  :doc:`/cloud/flex/general/settingvars`  
   :doc:`/cloud/flex/general/openstackcli`
 
   If you're not using this method of authentication, you may need to specify additional flags/options in the commands used in this article.
@@ -190,7 +190,7 @@ So it turns out that the section on creating instances is quite big, but thankfu
   openstack server delete f1713d4d-eef1-4042-bd3e-cdc33c99ccfa
 ```
 
-If you want to delete a few at a time, just append their names on:
+If you want to delete a few at a time, just append their UUIDs onto the command:
 
 ```bash
 openstack server delete f1713d4d-eef1-4042-bd3e-cdc33c99ccfa 4659bffc-923f-41b3-8dc0-8c24395b5add

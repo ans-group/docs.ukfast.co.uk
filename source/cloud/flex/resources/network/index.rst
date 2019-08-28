@@ -4,7 +4,7 @@
    :keywords: ukfast, cloud, ecloud, flex, networking, network, openstack, hosting, vm, virtual machine, neutron
 
 ==============================
-Networking in eCloud Flex
+Networking
 ==============================
 
 Guides relating to setting up Networking in OpenStack and eCloud Flex.
