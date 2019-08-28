@@ -7,7 +7,7 @@
 Orchestration
 ==============
 
-Guides relating to orchastrating resources using services within eCloud Flex.
+Guides relating to orchestrating resources using services within eCloud Flex.
 
 .. toctree::
    :maxdepth: 1

@@ -103,7 +103,7 @@ If any errors are encountered during this stage, it is likely due to the format 
 
 ## Create the HTTPS Terminated Listener
 
-Using your `Container href` noted from the previous steps, you will now need to create a HTTPS Terminated Listener on your Load Balancer. If you do not already have a Load Balancer, you will need to [create one](/cloud/flex/lbaas/config_lb_through_interface.html) before proceeding.
+Using your `Container href` noted from the previous steps, you will now need to create a HTTPS Terminated Listener on your Load Balancer. If you do not already have a Load Balancer, you will need to [create one](/cloud/flex/resources/lbaas/config_lb_through_interface.html) before proceeding.
 
 Creating the HTTPS Terminated Listener will require you to substitute two parameters in the following command.
 

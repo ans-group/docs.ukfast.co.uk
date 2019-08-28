@@ -19,3 +19,4 @@ A collection of helpful information regarding eCloud Flex.
    sshkey
    instancebilling
    openstackcli
+   passwordretrieval
