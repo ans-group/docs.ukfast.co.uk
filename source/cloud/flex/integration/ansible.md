@@ -197,7 +197,7 @@ The following playbook ties together some of the above functionality to show a r
 
 ```eval_rst
 .. meta::
-   :title: UKFast Documentation | eCloud Flex | Using eCloud Flex as a Terraform Provider
-   :description: How to use eCloud Flex as a terraform provider
+   :title: Using eCloud Flex with Ansible
+   :description: How to use eCloud Flex with Ansible
    :keywords: ecloud, flex, openstack, ansible, redhat, automation, deployment, configuration, webserver
 ```

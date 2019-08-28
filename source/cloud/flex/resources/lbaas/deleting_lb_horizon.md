@@ -36,7 +36,7 @@ If you are still having problems removing your Load Balancer after following thi
 
 ```eval_rst
 .. meta::
-   :title: Deleting a Load Balancer in the Horizon Dashboard | UKFast Documentation
+   :title: Deleting a Load Balancer in the Horizon Dashboard
    :description: A guide detailing how to remove load balancers using the Horizon dashboard
    :keywords: ecloud, flex, cloud, load balancers, lbaas, neutron, horizon, guide, delete, load, balancer
 ```

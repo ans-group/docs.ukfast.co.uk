@@ -97,7 +97,7 @@ From here on out, you should be good. You'll be prompted for your OpenStack pass
 
 ```eval_rst
 .. meta::
-     :title: Setting Environment Variables for eCloud Flex | UKFast Documentation
+     :title: Setting Environment Variables for eCloud Flex
      :description: Details how to set necessary environment variables to connect to eCloud Flex
      :keywords: openstack, ecloud, flex, ukfast, nova, swift, cinder, glance, keystone, heat, hosting, cloud, api, variables
 ```
