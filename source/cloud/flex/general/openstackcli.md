@@ -2,8 +2,6 @@
 
 This guide details how to install the Openstack command line tool and project-specific modules. The client is currently available on _most_ Linux distributions, Windows and MacOS. Every installation requires Python 2.7 or later.
 
----
-
 ## Installing Pip
 
 ### Ubuntu or Debian
@@ -35,8 +33,6 @@ c:\> easy_install pip
 # sudo easy_install pip
 ```
 
----
-
 ## Installing the Openstack client
 
 Once `python-pip` and other dependencies have been installed, we can use pip to install the Openstack tools. Most tools that you will need to use will be in the default `python-openstackclient` package, however you are also able to install individual project packages (legacy) using the second command (using Glance as an example).
@@ -47,8 +43,6 @@ Once `python-pip` and other dependencies have been installed, we can use pip to 
 ```
 
 We recommend using a Python virtual environment for installing any Python modules, as this keeps all the dependencies together in one place and seperated from the system. You can find information about how to do this [here](https://docs.python.org/3/tutorial/venv.html).
-
----
 
 ## Upgrading / Removing clients
 
@@ -63,8 +57,6 @@ To remove the openstackclient, run the `uninstall` command.
 ```bash
 # pip uninstall python-openstackclient
 ```
-
----
 
 If you'd like to find out more about the Openstack client, you can find more information [here](https://docs.openstack.org/newton/user-guide/common/cli-install-openstack-command-line-clients.html). We also have some documentation about [setting up environment variables](https://docs.ukfast.co.uk/cloud/flex/general/settingvars.html) in order to authenticate with Keystone.
 
