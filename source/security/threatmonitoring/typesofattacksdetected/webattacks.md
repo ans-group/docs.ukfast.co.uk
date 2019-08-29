@@ -17,10 +17,13 @@ Triggered when the URL request contains any of the flowing patterns:
 
 *Patterns are separated by a |*
 
- >  select%20 | select+ | insert%20 | %20from%20 | % 20where%20 | union%20 | union+ | where+ |null,null | xp_cmdshell | +as+varchar | %2Bchar\(\d+\)%2Bchar\(\d+\)%2Bchar\(\d+\)%2Bchar\(\d+\)%2Bchar\(\d+\)%2Bchar\(\d+\) | =%27 | select%2B | insert%2B | %2Bfrom%2B | %2Bwhere%2B | %2Bunion%2B | %EF%BC%87 | %EF%BC%87 | %EF%BC%87 | %2531 | %u0053%u0045 | 0x7b5d 
+***MySQL***
 
-MSSQL
-> %2Bchar\(\d+\)%2Bchar\(\d+\)%2Bchar\(\d+\)%2Bchar\(\d+\)%2Bchar\(\d+\)%2Bchar\(\d+\)
+Regex:  ```select%20 | select+ | insert%20 | %20from%20 | % 20where%20 | union%20 | union+ | where+ |null,null | xp_cmdshell | +as+varchar | %2Bchar\(\d+\)%2Bchar\(\d+\)%2Bchar\(\d+\)%2Bchar\(\d+\)%2Bchar\(\d+\)%2Bchar\(\d+\) | =%27 | select%2B | insert%2B | %2Bfrom%2B | %2Bwhere%2B | %2Bunion%2B | %EF%BC%87 | %EF%BC%87 | %EF%BC%87 | %2531 | %u0053%u0045 | 0x7b5d ```
+
+***MSSQL***
+
+Regex: ```%2Bchar\(\d+\)%2Bchar\(\d+\)%2Bchar\(\d+\)%2Bchar\(\d+\)%2Bchar\(\d+\)%2Bchar\(\d+\)```
 
 **Severity**
 
@@ -53,7 +56,7 @@ Triggered when the URL request contains any of the flowing patterns:
 
 *Patterns are separated by a |*
 
- >  %3Cscript | %3C%2Fscript | script> | script%3E | SRC=javascript | IMG%20 | %20ONLOAD= | INPUT%20 | iframe%20
+Regex: ```%3Cscript | %3C%2Fscript | script> | script%3E | SRC=javascript | IMG%20 | %20ONLOAD= | INPUT%20 | iframe%20```
 
 
 **Severity**
@@ -87,7 +90,7 @@ Triggered when the URL request contains any of the flowing patterns:
 
 *Patterns are separated by a |*
 
-> "\(\)\s*{\s*_;\.*}\s*>_[\$\(\$\(\)\)]\s*{ | "\(\)\s*{\s*:;\s*}\s*; | "\(\)\s*{\s*foo:;\s*}\s*; | "\(\)\s*{\s*ignored;\s*}\s* | "\(\)\s*{\s*gry;\s*}\s*;
+Regex: ```"\(\)\s*{\s*_;\.*}\s*>_[\$\(\$\(\)\)]\s*{ | "\(\)\s*{\s*:;\s*}\s*; | "\(\)\s*{\s*foo:;\s*}\s*; | "\(\)\s*{\s*ignored;\s*}\s* | "\(\)\s*{\s*gry;\s*}\s*;```
 
 **Severity**
 
@@ -117,7 +120,7 @@ Triggered when the URL request contains any of the flowing patterns:
 
 *Patterns are separated by a |*
 
-> %027 | %00 | %01 | %7f | %2E%2E | %0A | %0D | ../..|..\.. | echo; | ../..// | %5C../%5C | ././././ | 2e%2e%5c%2e | \x5C\x5C |
+Regex: ```%027 | %00 | %01 | %7f | %2E%2E | %0A | %0D | ../..|..\.. | echo; | ../..// | %5C../%5C | ././././ | 2e%2e%5c%2e | \x5C\x5C```
 
 **Severity**
 
@@ -143,7 +146,7 @@ Triggered when the URL request contains any of the flowing patterns:
 
 *Patterns are separated by a |*
 
-> cmd.exe | root.exe | _mem_bin | msadc | /winnt/ | /boot.ini | /x90/ | default.ida | /sumthin | nsiislog.dll | chmod% |wget% | cd%20 | exec%20
+Regex: ```cmd.exe | root.exe | _mem_bin | msadc | /winnt/ | /boot.ini | /x90/ | default.ida | /sumthin | nsiislog.dll | chmod% |wget% | cd%20 | exec%20```
 
 **Severity**
 
@@ -183,7 +186,7 @@ Triggered when the URL request contains any of the flowing patterns:
 
 *Patterns are separated by a |*
 
-> ?\S+=http://\d+.\d+.\d+.\d+/\S+ | ?\S+=https://\d+.\d+.\d+.\d+/\S+
+Regex: ```?\S+=http://\d+.\d+.\d+.\d+/\S+ | ?\S+=https://\d+.\d+.\d+.\d+/\S+```
 
 
 **Severity**
@@ -232,7 +235,7 @@ Triggered when the URL request contains any of the flowing patterns:
 
 *Patterns are separated by a |*
 
-> "ZmEu" |  "libwww-perl/ | "the beast" | "Morfeus | "ZmEu | "Nikto | "w3af.sourceforge.net | Jorgee" | "Proxy Gear Pro | "DataCha0s
+Regex: ```"ZmEu" |  "libwww-perl/ | "the beast" | "Morfeus | "ZmEu | "Nikto | "w3af.sourceforge.net | Jorgee" | "Proxy Gear Pro | "DataCha0s```
 
 **Severity**
 
@@ -258,7 +261,7 @@ Triggered when the URL request contains any of the flowing patterns:
 
 *Patterns are separated by a |*
 
-> ?-d | ?-s | ?-a | ?-b | ?-w
+Regex: ```?-d | ?-s | ?-a | ?-b | ?-w```
 
 **Severity**
 
@@ -287,7 +290,7 @@ Triggered when the URL request contains any of the flowing patterns:
 
 *Patterns are separated by a |*
 
-> phpinfo.php
+Regex: ```phpinfo.php```
 
 **Severity**
 
