@@ -13,7 +13,7 @@ Triggered when the URL request contains any of the flowing patterns:
 
 *Patterns are separated by a |*
 
-```URL Contains: login.php```
+URL Contains: ```login.php```
 
 Regex:  ```"POST /\S+.php/login.php?cPath=```
  
@@ -33,9 +33,9 @@ Triggered when the URL request contains any of the flowing patterns:
 
 *Patterns are separated by a |*
 
-> URL Contains: login.php
->
-> Regex: /admin/\w+.php/login.php
+URL Contains: ```login.php```
+
+Regex: ```/admin/\w+.php/login.php```
 
 **Severity**
 
@@ -53,9 +53,9 @@ Triggered when the URL request contains any of the flowing patterns:
 
 *Patterns are separated by a |*
 
-> URL Contains: uploadify.php
->
-> Regex: "GET /\S+/uploadify.php?src=http://\S+.php
+URL Contains: ```uploadify.php```
+
+Regex: ```"GET /\S+/uploadify.php?src=http://\S+.php```
 
 **Severity**
 
@@ -73,9 +73,9 @@ Triggered when the URL request contains any of the flowing patterns:
 
 *Patterns are separated by a |*
 
-> URL Contains: delete.php
->
-> Regex: "GET \S+/delete.php?board_skin_path=http://\S+.php
+URL Contains: ```delete.php```
+
+Regex: ```"GET \S+/delete.php?board_skin_path=http://\S+.php```
 
 **Severity**
 
@@ -93,9 +93,9 @@ Triggered when the URL request contains any of the flowing patterns:
 
 *Patterns are separated by a |*
 
-> URL Contains: shell.php
->
-> Regex: "GET \S+/shell.php?cmd=
+URL Contains: ```shell.php```
+
+Regex: ```GET \S+/shell.php?cmd=```
 
 **Severity**
 
@@ -113,7 +113,7 @@ Triggered when the URL request contains any of the flowing patterns:
 
 *Patterns are separated by a |*
 
-> URL Contains: phpMyAdmin/scripts/setup.php
+URL Contains: ```phpMyAdmin/scripts/setup.php```
 
 **Severity**
 
@@ -131,7 +131,7 @@ Triggered when the URL request contains any of the flowing patterns:
 
 *Patterns are separated by a |*
 
-> URL Contains: .swp$ | .bak$ | /.htaccess | /server-status | /.ssh | /.history | /wallet.dat
+URL Contains: ```.swp$ | .bak$ | /.htaccess | /server-status | /.ssh | /.history | /wallet.dat```
 
 **Severity**
 
@@ -149,11 +149,11 @@ Triggered when the URL request contains any of the flowing patterns:
 
 *Patterns are separated by a |*
 
-> Request Type: POST
->
-> Frequency: 16
->
-> Time frame: 20
+Request Type: ```POST```
+
+Frequency: ```16```
+
+Time frame: ```20```
 
 **Severity**
 
@@ -171,9 +171,9 @@ Triggered when the URL request contains any of the flowing patterns:
 
 *Patterns are separated by a |*
 
-> URL Contains: %00
->
-> Regex: "GET /\S+.php?\S+%00
+URL Contains: ```%00```
+
+Regex: ```"GET /\S+.php?\S+%00```
 
 **Severity**
 
@@ -191,9 +191,9 @@ Triggered when the URL request contains any of the flowing patterns:
 
 *Patterns are separated by a |*
 
-> URL Contains: thumb.php | timthumb.php
->
-> Regex: "GET \S+thumb.php?src=\S+.php
+URL Contains: ```thumb.php | timthumb.php```
+
+Regex: ```"GET \S+thumb.php?src=\S+.php```
 
 **Severity**
 
@@ -211,11 +211,9 @@ Triggered when the URL request contains any of the flowing patterns:
 
 *Patterns are separated by a |*
 
-> URL Contains: cart.php
->
-> Regex: "GET /\S+cart.php?\S+templatefile=../
+Regex: ```"GET /\S+cart.php?\S+templatefile=../```
 
-> URL Contains: DECLARE%20@S%20CHAR|%20AS%20CHAR
+URL Contains: ```DECLARE%20@S%20CHAR|%20AS%20CHAR```
 
 **Severity**
 
