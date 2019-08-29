@@ -13,9 +13,9 @@ Triggered when the URL request contains any of the flowing patterns:
 
 *Patterns are separated by a |*
 
-> URL Contains: login.php
->
-> Regex:  "POST /\S+.php/login.php?cPath=
+```URL Contains: login.php```
+
+Regex:  ```"POST /\S+.php/login.php?cPath=```
  
 **Severity**
 
