@@ -1,4 +1,4 @@
-# Magento 2 Restrict File/Folder
+# Restrict File/Folder (URI)
 
 This guide is to show you how you can restrict a file or folder within your document root using Nginx.
 
