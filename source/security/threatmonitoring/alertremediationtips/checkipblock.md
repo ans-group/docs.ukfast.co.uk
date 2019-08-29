@@ -13,11 +13,11 @@ Threat Monitoring has the ability to detect incoming attacks in real-time and pr
 
 If you need to check if an attacking Ip has been blocked, or of an IP address has been blocked unintentionally, you can use the below command on a Linux system to use check this with one of our scripts
 
-`curl --insecure https://git.thmon.ukfast.co.uk/threatmon-public/active-response-scripts/raw/master/check-block-status.sh | bash -s -- {IP TO CHECK}`
+`wget https://git.thmon.ukfast.co.uk/threatmon-public/threat-monitoring-scripts/raw/master/check-block-status.sh && bash check-block-status.sk {IP TO CHECK}`
 
 If you'd like to automatically remove the IP from the block list, specify `--remove-found` when using the script, like below:
 
-`curl --insecure https://git.thmon.ukfast.co.uk/threatmon-public/active-response-scripts/raw/master/check-block-status.sh | bash -s -- {IP TO CHECK} --remove-found`
+`wget https://git.thmon.ukfast.co.uk/threatmon-public/threat-monitoring-scripts/raw/master/check-block-status.sh && bash check-block-status.sk {IP TO CHECK} --remove-found`
 
 ## Windows
 
