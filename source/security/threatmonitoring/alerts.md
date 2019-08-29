@@ -1,4 +1,4 @@
-# Alerts and rulesets 
+# Alerts and rulesets
 
 The alerts you wish to have generated will depend on your specific requirements, which you will define in the [planning phase](/security/threatmonitoring/gettingstarted.html)
 
