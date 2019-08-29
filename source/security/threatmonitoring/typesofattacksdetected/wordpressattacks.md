@@ -24,13 +24,13 @@ Triggered when the URL request contains any of the flowing patterns:
 
 *Patterns are separated by a |*
 
-> URL Contains: wp-login.php|/administrator
->
-> Regex: ] "POST \S+wp-login.php| "POST /administrator
->
-> Frequency: 8
->
-> Timeframe: 30
+URL Contains: ```wp-login.php|/administrator```
+
+Regex: ```"POST \S+wp-login.php| "POST /administrator```
+
+Frequency: ```8```
+
+Timeframe: ```30```
 
 **Severity**
 
@@ -48,11 +48,11 @@ Triggered when the URL request contains any of the flowing patterns:
 
 *Patterns are separated by a |*
 
-> Request Type: POST
->
-> URL Contains: /wp-comments-post.php
->
-> Regex: Googlebot | MSNBot | BingBot
+Request Type: ```POST```
+
+URL ```Contains: /wp-comments-post.php```
+
+Regex: ```Googlebot | MSNBot | BingBot```
  
 **Severity**
 
