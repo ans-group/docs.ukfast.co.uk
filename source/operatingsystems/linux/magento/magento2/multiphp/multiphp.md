@@ -79,6 +79,12 @@ root     25623  0.1  0.3 519820 31280 ?        Ss   15:00   0:00 php-fpm: master
 root     25761  4.0  0.2 535516 17496 ?        Ss   15:02   0:00 php-fpm: master process (/etc/opt/remi/php73/php-fpm.conf)
 ```
 
+### Magento2 CLI
+Using 7.2 in this example:
+```bash
+-bash-4.2$ /opt/remi/php72/root/bin/php bin/magento cache:status
+```
+
 ```eval_rst
   .. meta::
      :title: Magento 2 Multiple PHP Installations | UKFast Documentation
