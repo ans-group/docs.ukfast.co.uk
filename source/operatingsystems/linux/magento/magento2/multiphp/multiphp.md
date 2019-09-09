@@ -67,7 +67,8 @@ php_admin_value[error_log] = /var/www/vhosts/example.com/example.com-phpfpm-erro
 ### PHP-FPM configuration check
 Using 7.2 in this example:
 ```bash
-
+/opt/remi/php72/root/sbin/php-fpm -t
+NOTICE: configuration file /etc/opt/remi/php72/php-fpm.conf test is successful
 ```
 
 ### Start and Enable
