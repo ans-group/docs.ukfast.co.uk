@@ -64,6 +64,12 @@ slowlog = /var/www/vhosts/example.com/example.com-phpfpm-slow72.log
 php_admin_value[error_log] = /var/www/vhosts/example.com/example.com-phpfpm-error72.log
 ```
 
+### PHP-FPM configuration check
+Using 7.2 in this example:
+```bash
+
+```
+
 ### Start and Enable
 Using 7.2 in this example:
 ```bash
