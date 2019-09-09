@@ -54,6 +54,13 @@ slowlog = /var/www/vhosts/example.com/example.com-phpfpm-slow72.log
 php_admin_value[error_log] = /var/www/vhosts/example.com/example.com-phpfpm-error72.log
 ```
 
+### Start and Enable
+Using 7.2 for example:
+```bash
+systemctl daemon-reload
+systemctl enable --now php72-php-fpm
+```
+
 
 ```eval_rst
   .. meta::
