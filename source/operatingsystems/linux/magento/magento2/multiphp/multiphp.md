@@ -13,6 +13,7 @@ yum install --disablerepo='*' --enablerepo=base,remi,epel,updates php72-php php7
 ```
 
 ### Apply Magento 2 PHP optimizations
+Simply colpy and paste the below:
 ```bash
 sed -i 's/opcache.memory_consumption=128/opcache.memory_consumption=512/g' /etc/opt/remi/php7?/php.d/*opcache.ini
 sed -i 's/opcache.interned_strings_buffer=8/opcache.interned_strings_buffer=12/g' /etc/opt/remi/php7?/php.d/*opcache.ini
@@ -44,24 +45,14 @@ We recommend you only copy the domain(s) configureation file you want to use the
 cp /etc/php-fpm.d/examplecom.conf /etc/opt/remi/php7?/php-fpm.d/examplecom.conf
 ```
 #### Edit The Copied File(S) 
-Ensure you change the following in the copied PHP-FPM configuration file:
+Ensure you change the following in the copied PHP-FPM configuration file depending on the version of the addtional install (Using version 7.2 as an example to added 72):
 
-From:
-```bash
-[examplecom]
-listen = '/var/run/php-fpm-examplecom.sock'
-slowlog = /var/www/vhosts/example.com/example.com-phpfpm-slow.log
-php_admin_value[error_log] = /var/www/vhosts/example.com/example.com-phpfpm-error.log
-```
-
-To (Using version 7.2 as an example to added 72):
 ```bash
 [examplecom72]
 listen = '/var/run/php-fpm-examplecom72.sock'
 slowlog = /var/www/vhosts/example.com/example.com-phpfpm-slow72.log
 php_admin_value[error_log] = /var/www/vhosts/example.com/example.com-phpfpm-error72.log
 ```
-
 
 
 ```eval_rst
