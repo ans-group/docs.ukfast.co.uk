@@ -71,6 +71,13 @@ systemctl daemon-reload
 systemctl enable --now php72-php-fpm
 ```
 
+### Checking Running PHP Installations
+```bash
+~]# ps awux | grep php | grep master
+root     16718  0.0  0.2 934204 22708 ?        Ss   Jul03   8:39 php-fpm: master process (/etc/php-fpm.conf)
+root     25623  0.1  0.3 519820 31280 ?        Ss   15:00   0:00 php-fpm: master process (/etc/opt/remi/php70/php-fpm.conf)
+root     25761  4.0  0.2 535516 17496 ?        Ss   15:02   0:00 php-fpm: master process (/etc/opt/remi/php73/php-fpm.conf)
+```
 
 ```eval_rst
   .. meta::
