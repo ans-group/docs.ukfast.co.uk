@@ -65,7 +65,7 @@ php_admin_value[error_log] = /var/www/vhosts/example.com/example.com-phpfpm-erro
 ```
 
 ### Start and Enable
-Using 7.2 for example:
+Using 7.2 in this example:
 ```bash
 systemctl daemon-reload
 systemctl enable --now php72-php-fpm
