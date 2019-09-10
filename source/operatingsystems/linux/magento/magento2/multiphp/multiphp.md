@@ -89,11 +89,21 @@ upstream examplecombackend {
 ```
 
 ### Checking Running PHP Installations
+You can find out which PHP-FPM versions are running on the server with the following command:
 ```bash
 ~]# ps awux | grep php | grep master
 root     16718  0.0  0.2 934204 22708 ?        Ss   Jul03   8:39 php-fpm: master process (/etc/php-fpm.conf)
 root     25623  0.1  0.3 519820 31280 ?        Ss   15:00   0:00 php-fpm: master process (/etc/opt/remi/php70/php-fpm.conf)
 root     25761  4.0  0.2 535516 17496 ?        Ss   15:02   0:00 php-fpm: master process (/etc/opt/remi/php73/php-fpm.conf)
+```
+
+### Checking Installed PHP Versions
+You can review the installed PHP versions with the command:
+```bash
+~]# rpm -qa | grep php-common
+php70-php-common-7.0.33-13.el7.remi.x86_64
+php-common-7.2.19-2.el7.remi.x86_64
+php73-php-common-7.3.9-1.el7.remi.x86_64
 ```
 
 ### Magento2 CLI
