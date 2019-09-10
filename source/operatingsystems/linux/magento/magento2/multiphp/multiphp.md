@@ -2,7 +2,7 @@
 
 ### Install Additional PHP Version
 
-To remove an additional PHP installation simply replace 'install' with 'remove' in the commands below.
+*To remove an additional PHP installation simply replace 'install' with 'remove' in the commands below.*
 
 #### PHP 7.0
 ```bash
