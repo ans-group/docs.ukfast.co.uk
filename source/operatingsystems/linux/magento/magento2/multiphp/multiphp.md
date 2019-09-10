@@ -78,6 +78,16 @@ systemctl daemon-reload
 systemctl enable --now php72-php-fpm
 ```
 
+### Sock File Change In Nginx
+Change the sock file in Nginx so the domain(s) use the desierded version of PHP. We are using 7.2 in this example and editing the file /etc/nginx/conf.d/example.com.conf:
+
+```bash
+# Define the PHP-FPM socket file for nginx to proxy-pass to
+upstream examplecombackend {
+    server unix:/var/run/php-fpm-examplecom72.sock;
+}
+```
+
 ### Checking Running PHP Installations
 ```bash
 ~]# ps awux | grep php | grep master
