@@ -2,6 +2,8 @@
 
 ### Install Additional PHP Version
 
+To remove an additional PHP installation simply replace 'install' with 'remove' in the commands below.
+
 #### PHP 7.0
 ```bash
 yum install --disablerepo='*' --enablerepo=base,remi,epel,updates php70-php php70-php-mcrypt php70-php-pdo php70-php-mysqlnd php70-php-opcache php70-php-xml php70-php-gd php70-php-devel php70-php-mysql php70-php-intl php70-php-mbstring php70-php-bcmath php70-php-json php70-php-iconv php70-php-pecl-redis php70-php-fpm php70-php-zip php70-php-soap
