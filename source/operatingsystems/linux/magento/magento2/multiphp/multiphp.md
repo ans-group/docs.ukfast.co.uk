@@ -79,7 +79,7 @@ systemctl enable --now php72-php-fpm
 ```
 
 ### Nginx vHost Change
-Change the sock file in Nginx so the domain(s) use the desierded version of PHP. We are using 7.2 in this example and editing the file /etc/nginx/conf.d/example.com.conf:
+Change the sock file in Nginx so the domain(s) use the desired version of PHP. We are using 7.2 in this example and editing the file /etc/nginx/conf.d/example.com.conf:
 
 ```bash
 # Define the PHP-FPM socket file for nginx to proxy-pass to
