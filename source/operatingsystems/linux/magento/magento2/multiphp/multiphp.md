@@ -50,7 +50,7 @@ echo ";Default" > /etc/opt/remi/php7?/php-fpm.d/www.conf
 ### Configure PHP-FPM
 
 #### Copy Original PHP-FPM Configuration File(s)
-We recommend you only copy the domain(s) configureation file you want to use the additional PHP version.
+We recommend you only copy the domain(s) configuration file you want to use the additional PHP version.
 ```bash
 cp /etc/php-fpm.d/examplecom.conf /etc/opt/remi/php7?/php-fpm.d/examplecom.conf
 ```
