@@ -23,7 +23,7 @@ yum install --disablerepo='*' --enablerepo=base,remi,epel,updates php73-php php7
 ```
 
 ### Apply Magento 2 PHP optimizations
-Simply colpy and paste the below:
+Simply copy and paste the below:
 ```bash
 sed -i 's/opcache.memory_consumption=128/opcache.memory_consumption=512/g' /etc/opt/remi/php7?/php.d/*opcache.ini
 sed -i 's/opcache.interned_strings_buffer=8/opcache.interned_strings_buffer=12/g' /etc/opt/remi/php7?/php.d/*opcache.ini
