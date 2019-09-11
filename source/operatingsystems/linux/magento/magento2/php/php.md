@@ -50,7 +50,7 @@ This includes the PHP modules required by Magento2.
 ```
 
 ### Update PHP
-You can perform an update of PHP with the following commands:
+You can perform an update of PHP with the following command depending on the desired version:
 
 #### PHP 7.1
 ```bash
