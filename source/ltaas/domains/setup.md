@@ -4,14 +4,14 @@ When first using the UKFast loadtesting service, you'll be prompted with the sam
 as when you manually add a new domain in future. To get started, only two pieces of
 information are required: `Domain Name`, `Verification Method`
 
-![Four node BCP - Solution Diagram](files/domainsetup.png)
+![Domain setup screen](files/domainsetup.png)
 
 ## Domain Name
 
 The domain name is the part of the URL (The bar at the top of your browser) which is
 after the protocol `http(s)://` and before the first `/` following the protocol.
 
-![Four node BCP - Solution Diagram](files/urlbar.png)
+![URL bar with domain](files/urlbar.png)
 
 In this screenshot, the URL contains `https://www.ukfast.co.uk/cloud-hosting.html`,
 so if we remove the protocol (https in this case), we're left with 
