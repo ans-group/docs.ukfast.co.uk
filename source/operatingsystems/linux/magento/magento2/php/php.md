@@ -28,17 +28,17 @@ We use the remi yum repository for PHP. You can install the remi repoistory with
 ~]# wget http://rpms.remirepo.net/enterprise/remi-release-6.rpm && rpm -Uvh remi-release-6.rpm && rm -f remi-release-6.rpm
 ```
 
-### Upgrade/Downgrade
-If you are upgrading or downgrading a major version of PHP you need to remove PHP from the server and then follow the install guide below. We can remove PHP with the command:
+### Install/Downgrade
+If you are installing or downgrading PHP you need to remove PHP from the server and then follow the install guide below. We can remove PHP with the command:
 
 We highly recommend taking a backup before running this command (See PHP Backup above)
 
 ```bash
-~]# yum remove '*php*'
+~]# yum remove "php-*"
 ```
 
 ### Install PHP
-This includes the PHP modules required by Magento. If you are replacing another version of PHP you should review the backup file /root/php_upgrade_backup-$(date +%d_%b_%Y)/modules taken above. If there are any additional modules to the list below, simply add them to the command.
+This includes the PHP modules required by Magento2.
 
 #### PHP 7.1
 ```bash
@@ -48,9 +48,17 @@ This includes the PHP modules required by Magento. If you are replacing another 
 ```bash
 ~]# yum install --disablerepo='*' --enablerepo=base,remi-php72,remi,epel,updates php php-pecl-mcrypt php-pdo php-mysqlnd php-opcache php-xml php-gd php-devel php-mysql php-intl php-mbstring php-bcmath php-json php-iconv php-pecl-redis php-fpm php-zip php-soap composer
 ```
-#### PHP 7.3
+
+### Update PHP
+You can perform an update of PHP with the following command depending on the desired version:
+
+#### PHP 7.1
 ```bash
-~]# yum install --disablerepo='*' --enablerepo=base,remi-php73,remi,epel,updates php php-pecl-mcrypt php-pdo php-mysqlnd php-opcache php-xml php-gd php-devel php-mysql php-intl php-mbstring php-bcmath php-json php-iconv php-pecl-redis php-fpm php-zip php-soap composer
+~]# yum update --disablerepo='*' --enablerepo=base,remi-php71,remi,epel,updates php 
+```
+#### PHP 7.2
+```bash
+~]# yum update --disablerepo='*' --enablerepo=base,remi-php72,remi,epel,updates php 
 ```
 
 ### OPcache Setting
