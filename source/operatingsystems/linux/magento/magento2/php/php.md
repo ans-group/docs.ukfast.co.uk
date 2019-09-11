@@ -29,12 +29,12 @@ We use the remi yum repository for PHP. You can install the remi repoistory with
 ```
 
 ### Install/Downgrade
-If you are installing or downgrading a major version of PHP you need to remove PHP from the server and then follow the install guide below. We can remove PHP with the command:
+If you are installing or downgrading PHP you need to remove PHP from the server and then follow the install guide below. We can remove PHP with the command:
 
 We highly recommend taking a backup before running this command (See PHP Backup above)
 
 ```bash
-~]# yum remove '*php*'
+~]# yum remove "php-*"
 ```
 
 ### Install PHP
