@@ -65,11 +65,14 @@ verifying.
 
 ```
 
-### File verification
+### File Verification
 
 This method of verification will prompt you with a button to download a file.
 This file needs uploading to the document root of your site. Do not change the name
 of the file or the verification will fail. You can check that the verification file
 is in place by opening your browser, going to the domain and then adding `/` to the
 end of the URL, in addition to the name of the file. For example:
-`https://www.ukfast.co.uk/www.ukfast.co.uk.txt`. 
+`https://www.ukfast.co.uk/www.ukfast.co.uk.txt`.
+
+Once you've manually verified the file exists, click on verify to have the
+load testing platform test verification.
