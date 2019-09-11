@@ -58,7 +58,7 @@ This includes the PHP modules required by Magento:
 ```
 
 ### Update PHP
-You can perform an update of PHP with the following commands:
+You can perform an update of PHP with the following command depending on the desired version:
 
 #### PHP 5.6
 ```bash
