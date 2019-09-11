@@ -8,12 +8,13 @@ The verification is relatively quick and can be done in just a couple of minutes
 
 .. warning::
    Verification of domains is performed to ensure ownership or authorization of the domains use.
+   Ensure you have permission from the appropriate parties before running a test.
 
 ----------
 Contents
 ----------
 
 .. toctree::
-  :maxdepth: 2
+  :maxdepth: 3
 
   setup
