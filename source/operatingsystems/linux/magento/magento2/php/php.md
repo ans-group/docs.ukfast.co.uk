@@ -38,7 +38,7 @@ We highly recommend taking a backup before running this command (See PHP Backup 
 ```
 
 ### Install PHP
-This includes the PHP modules required by Magento. If you are replacing another version of PHP you should review the backup file /root/php_upgrade_backup-$(date +%d_%b_%Y)/modules taken above. If there are any additional modules to the list below, simply add them to the command.
+This includes the PHP modules required by Magento2.
 
 #### PHP 7.1
 ```bash
