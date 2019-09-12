@@ -5,16 +5,11 @@ Load Testing
 Information and guidance on load testing with UKFast load testing tools.
 This information should be suitable in areas for clients using alternative tools.
 
--------------
-Domains
--------------
-
-Guidance on setting up domains in UKFast load testing.
-
 .. toctree::
    :maxdepth: 1
 
    domains/index
+   newtest
 
 .. meta::
    :title: Load Testing Guidance | UKFast Documentation
