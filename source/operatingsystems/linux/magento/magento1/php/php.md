@@ -20,12 +20,12 @@ We use the remi yum repository for PHP. You can install the remi repoistory with
 
 #### CentOS 7
 ```bash
-~]# wget http://rpms.remirepo.net/enterprise/remi-release-7.rpm && rpm -Uvh remi-release-7.rpm && rm -f remi-release-7.rpm
+wget http://rpms.remirepo.net/enterprise/remi-release-7.rpm && rpm -Uvh remi-release-7.rpm && rm -f remi-release-7.rpm
 ```
 
 #### CentOS 6
 ```bash
-~]# wget http://rpms.remirepo.net/enterprise/remi-release-6.rpm && rpm -Uvh remi-release-6.rpm && rm -f remi-release-6.rpm
+wget http://rpms.remirepo.net/enterprise/remi-release-6.rpm && rpm -Uvh remi-release-6.rpm && rm -f remi-release-6.rpm
 ```
 
 ### Install/Downgrade
@@ -34,7 +34,7 @@ If you are installing or downgrading PHP you need to remove PHP from the server 
 We highly recommend taking a backup before running this command (See PHP Backup above)
 
 ```bash
-~]# yum remove "php-*"
+yum remove "php-*"
 ```
 
 ### Install PHP
@@ -42,19 +42,19 @@ This includes the PHP modules required by Magento:
 
 #### PHP 5.6
 ```bash
-~]# yum install --disablerepo='*' --enablerepo=base,remi-php56,remi,epel php php-pdo php-mysqlnd php-opcache php-xml php-mcrypt php-gd php-devel php-mysql php-intl php-mbstring php-bcmath php-json php-iconv php-pecl-redis php-fpm php-zip php-soap 
+yum install --disablerepo='*' --enablerepo=base,remi-php56,remi,epel php php-pdo php-mysqlnd php-opcache php-xml php-mcrypt php-gd php-devel php-mysql php-intl php-mbstring php-bcmath php-json php-iconv php-pecl-redis php-fpm php-zip php-soap 
 ```
 #### PHP 7.0
 ```bash
-~]# yum install --disablerepo='*' --enablerepo=base,remi-php70,remi,epel php php-pdo php-mysqlnd php-opcache php-xml php-mcrypt php-gd php-devel php-mysql php-intl php-mbstring php-bcmath php-json php-iconv php-pecl-redis php-fpm php-zip php-soap 
+yum install --disablerepo='*' --enablerepo=base,remi-php70,remi,epel php php-pdo php-mysqlnd php-opcache php-xml php-mcrypt php-gd php-devel php-mysql php-intl php-mbstring php-bcmath php-json php-iconv php-pecl-redis php-fpm php-zip php-soap 
 ```
 #### PHP 7.1
 ```bash
-~]# yum install --disablerepo='*' --enablerepo=base,remi-php71,remi,epel php php-pdo php-mysqlnd php-opcache php-xml php-mcrypt php-gd php-devel php-mysql php-intl php-mbstring php-bcmath php-json php-iconv php-pecl-redis php-fpm php-zip php-soap 
+yum install --disablerepo='*' --enablerepo=base,remi-php71,remi,epel php php-pdo php-mysqlnd php-opcache php-xml php-mcrypt php-gd php-devel php-mysql php-intl php-mbstring php-bcmath php-json php-iconv php-pecl-redis php-fpm php-zip php-soap 
 ```
 #### PHP 7.2
 ```bash
-~]# yum install --disablerepo='*' --enablerepo=base,remi-php72,remi,epel php php-pdo php-mysqlnd php-opcache php-xml php-mcrypt php-gd php-devel php-mysql php-intl php-mbstring php-bcmath php-json php-iconv php-pecl-redis php-fpm php-zip php-soap 
+yum install --disablerepo='*' --enablerepo=base,remi-php72,remi,epel php php-pdo php-mysqlnd php-opcache php-xml php-mcrypt php-gd php-devel php-mysql php-intl php-mbstring php-bcmath php-json php-iconv php-pecl-redis php-fpm php-zip php-soap 
 ```
 
 ### Update PHP
@@ -62,21 +62,37 @@ You can perform an update of PHP with the following command depending on the des
 
 #### PHP 5.6
 ```bash
-~]# yum update --disablerepo='*' --enablerepo=base,remi-php56,remi,epel,updates php 
+yum update --disablerepo='*' --enablerepo=base,remi-php56,remi,epel,updates 'php-*' 
 ```
 
 #### PHP 7.0
 ```bash
-~]# yum update --disablerepo='*' --enablerepo=base,remi-php70,remi,epel,updates php 
+yum update --disablerepo='*' --enablerepo=base,remi-php70,remi,epel,updates 'php-*' 
 ```
 
 #### PHP 7.1
 ```bash
-~]# yum update --disablerepo='*' --enablerepo=base,remi-php71,remi,epel,updates php 
+yum update --disablerepo='*' --enablerepo=base,remi-php71,remi,epel,updates 'php-*' 
 ```
 #### PHP 7.2
 ```bash
-~]# yum update --disablerepo='*' --enablerepo=base,remi-php72,remi,epel,updates php 
+yum update --disablerepo='*' --enablerepo=base,remi-php72,remi,epel,updates 'php-*' 
+```
+
+If any of the following packages are updated as dependices, Nginx will require a restart after updating PHP
+
+```bash
+curl 
+nss 
+openssl 
+libcurl
+```
+
+You can restart Nginx with the commands:
+
+```bash
+nginx -t
+systemctl restart nginx
 ```
 
 ### OPcache Setting
@@ -100,27 +116,26 @@ sed -ie "s/upload_max_filesize = 2M/upload_max_filesize = 8M/" /etc/php.ini
 ### PHP-FPM Default Pool
 Stop the default PHP-FPM pool (www) from running with the command:
 ```bash
-~]# echo ";Default file, please don't remove" > /etc/php-fpm.d/www.conf
+echo ";Default file, please don't remove" > /etc/php-fpm.d/www.conf
 ```
 
 ### Start PHP-FPM
 #### Configuration Test
 Run a configuration test of PHP-FPM before starting:
 ```bash
-~]# php-fpm -t
+php-fpm -t
 [21-Aug-2019 07:53:29] NOTICE: configuration file /etc/php-fpm.conf test is successful
 ```
 #### Start PHP-FPM
 You can then start the PHP-FPM service with the command
 ```bash
-~]# systemctl start php-fpm
+ystemctl start php-fpm
 ```
 #### Start On Boot
 You can also enable PHP-FPM to start on boot:
 ```bash
-~]# systemctl enable php-fpm
+systemctl enable php-fpm
 ```
-
 
 ```eval_rst
   .. meta::
