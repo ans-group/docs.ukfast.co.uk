@@ -71,7 +71,7 @@ yum update --disablerepo='*' --enablerepo=base,remi-php71,remi,epel,updates 'php
 yum update --disablerepo='*' --enablerepo=base,remi-php72,remi,epel,updates 'php-*' 
 ```
 
-If any of the following packages are updated as dependices, Nginx will require a restart after updating PHP
+If any of the following packages are updated as dependences, Nginx will require a restart after updating PHP
 
 ```bash
 curl 
