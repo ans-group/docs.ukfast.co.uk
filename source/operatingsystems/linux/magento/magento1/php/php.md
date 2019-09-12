@@ -129,7 +129,7 @@ php-fpm -t
 #### Start PHP-FPM
 You can then start the PHP-FPM service with the command
 ```bash
-ystemctl start php-fpm
+systemctl start php-fpm
 ```
 #### Start On Boot
 You can also enable PHP-FPM to start on boot:
