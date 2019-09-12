@@ -17,5 +17,6 @@ Contents
 .. toctree::
   :maxdepth: 3
 
+  risk
   setup
   notification
