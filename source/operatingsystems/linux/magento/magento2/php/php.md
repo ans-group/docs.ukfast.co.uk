@@ -54,6 +54,11 @@ yum install --disablerepo='*' --enablerepo=base,remi-php71,remi,epel,updates php
 yum install --disablerepo='*' --enablerepo=base,remi-php72,remi,epel,updates php php-pecl-mcrypt php-pdo php-mysqlnd php-opcache php-xml php-gd php-devel php-mysql php-intl php-mbstring php-bcmath php-json php-iconv php-pecl-redis php-fpm php-zip php-soap composer
 ```
 
+#### PHP 7.3
+```bash
+yum install --disablerepo='*' --enablerepo=base,remi-php73,remi,epel,updates php php-pecl-mcrypt php-pdo php-mysqlnd php-opcache php-xml php-gd php-devel php-mysql php-intl php-mbstring php-bcmath php-json php-iconv php-pecl-redis php-fpm php-zip php-soap composer
+```
+
 ### Update PHP
 You can perform an update of PHP with the following command depending on the desired version:
 
@@ -67,6 +72,11 @@ yum update --disablerepo='*' --enablerepo=base,remi-php70,remi,epel,updates 'php
 yum update --disablerepo='*' --enablerepo=base,remi-php71,remi,epel,updates 'php-*'
 ```
 #### PHP 7.2
+```bash
+yum update --disablerepo='*' --enablerepo=base,remi-php72,remi,epel,updates 'php-*' 
+```
+
+#### PHP 7.3
 ```bash
 yum update --disablerepo='*' --enablerepo=base,remi-php72,remi,epel,updates 'php-*' 
 ```
