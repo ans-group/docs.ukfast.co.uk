@@ -54,7 +54,7 @@ yum install --disablerepo='*' --enablerepo=base,remi-php71,remi,epel php php-pdo
 ```
 #### PHP 7.2
 ```bash
-yum install --disablerepo='*' --enablerepo=base,remi-php72,remi,epel php php-pdo php-mysqlnd php-opcache php-xml php-mcrypt php-gd php-devel php-mysql php-intl php-mbstring php-bcmath php-json php-iconv php-pecl-redis php-fpm php-zip php-soap 
+yum install --disablerepo='*' --enablerepo=base,remi-php72,remi,epel php php-pdo php-mysqlnd php-opcache php-xml php-pecl-mcrypt php-gd php-devel php-intl php-mbstring php-bcmath php-json php-iconv php-pecl-redis php-fpm php-zip php-soap 
 ```
 
 ### Update PHP
