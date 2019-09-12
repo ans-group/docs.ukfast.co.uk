@@ -8,7 +8,7 @@ This information should be suitable in areas for clients using alternative tools
 .. toctree::
    :maxdepth: 1
 
-   domains/index
+   setup/index
    newtest
 
 .. meta::
