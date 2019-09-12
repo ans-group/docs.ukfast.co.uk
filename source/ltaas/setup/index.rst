@@ -1,5 +1,5 @@
 =================================
-Domains
+Setup
 =================================
 
 Load Testing is performed against websites. For the load testing platform to know where to send traffic,
