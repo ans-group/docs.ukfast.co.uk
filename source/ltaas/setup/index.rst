@@ -18,3 +18,4 @@ Contents
   :maxdepth: 3
 
   setup
+  notification
