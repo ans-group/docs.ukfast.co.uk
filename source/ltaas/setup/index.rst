@@ -2,13 +2,11 @@
 Setup
 =================================
 
-Load Testing is performed against websites. For the load testing platform to know where to send traffic,
-a domain must be supplied. We perform a quick verification of domains before tests can be scheduled.
-The verification is relatively quick and can be done in just a couple of minutes in most situations.
+The first steps you'll take are not within MyUKFast. You should take some time to talk with relevant parties
+about the risks involved (But also the benefits!)
 
-.. warning::
-   Verification of domains is performed to ensure ownership or authorization of the domains use.
-   Ensure you have permission from the appropriate parties before running a test.
+Once you've done that, you'll be able to move on to setting up the domain and from there you should notify
+relevant parties about when you're going to be performing tests.
 
 ----------
 Contents
