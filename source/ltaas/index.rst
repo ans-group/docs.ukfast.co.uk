@@ -10,6 +10,7 @@ This information should be suitable in areas for clients using alternative tools
 
    setup/index
    newtest
+   guidance
 
 .. meta::
    :title: Load Testing Guidance | UKFast Documentation
