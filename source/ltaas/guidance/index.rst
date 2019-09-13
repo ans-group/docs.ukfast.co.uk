@@ -15,3 +15,4 @@ Contents
   :maxdepth: 3
 
   what
+  results
