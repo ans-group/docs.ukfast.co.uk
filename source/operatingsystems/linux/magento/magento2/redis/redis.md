@@ -72,26 +72,11 @@ else
         service redis${REDISINSTANCE} start
         chkconfig redis${REDISINSTANCE} on
 fi
-
-# File removal
-# Create at job to remove this script as a safe guard
-echo "rm -f ${PWD}/${0}" | at now + 20 minutes &> /dev/null
-
-# Promt to remove this script or run again
-echo -e "\n *** Do you need to run $0 again? y/n ***"
-read removeme
-if [ $removeme = n ]
-  then
-    rm -f $0
-    echo "File: $0 removed"
-  else
-    vim $0
-fi
 ```
 
 #### Run redis-add.sh
 ```bash
-
+sh /tmp/redis-add.sh
 ```
 
 ### Check Running Instances
