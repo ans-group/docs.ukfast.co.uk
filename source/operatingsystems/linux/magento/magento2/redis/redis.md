@@ -104,6 +104,21 @@ Remove or truncate any existing dump.rdb files:
 > /var/lib/redis/dump3.rdb
 ```
 
+### OS Settings
+Redis recommends the following OS settings:
+```bash
+sysctl  vm.overcommit_memory=1
+sysctl -w net.core.somaxconn=65535
+echo never > /sys/kernel/mm/transparent_hugepage/enabled
+```
+#### OS Settings to Startup
+```bash
+chmod +x /etc/rc.d/rc.local
+echo "vm.overcommit_memory=1" >> /etc/sysctl.conf
+echo "net.core.somaxconn=65535" >> /etc/sysctl.conf
+echo "echo never > /sys/kernel/mm/transparent_hugepage/enabled"  >> /etc/rc.d/rc.local
+```
+
 ### Redis Status
 You can run the following command to see the status of a Redis instance. This includes version number, memory usage plus information on the databases:
 ```bash
