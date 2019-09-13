@@ -28,11 +28,6 @@ redis-5.0.5-1.el7.remi.x86_64
 #!/bin/bash
 ########## First run creates Redis2 and second run creates redis3
 
-if [ ! -e /etc/redhat-release ]; then
-        echo "This is only for Redhat but most of it probably works for Debian"
-        exit
-fi
-
 version=`rpm -qi redis | grep Version | awk '{print $3}'`
 versionmajor=`echo $version | cut -d. -f1`
 versionminor=`echo $version | cut -d. -f2`
