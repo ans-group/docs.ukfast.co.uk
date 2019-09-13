@@ -85,6 +85,20 @@ redis    24372  0.2  0.0 153952  2644 ?        Ssl  15:37   0:00 /usr/bin/redis-
 redis    24645  0.2  0.0 153952  2820 ?        Ssl  15:40   0:00 /usr/bin/redis-server 127.0.0.1:6379
 ```
 
+### Redis Status
+You can run the following command to see the status of a Redis instance. This includes version number, memory usage plus information on the databases:
+```bash
+redis-cli -h 127.0.0.1 -p 6379 info
+```
+
+### Flush Single Database
+To flush a single database. define the database numer with -n and run the command flushdb:
+```bash
+redis-cli -h 127.0.0.1 -p 6379 -n 0 flushdb
+```
+
+### Flush All Databases
+redis-cli -h 127.0.0.1 -p 6379 flushall
 
 ```eval_rst
   .. meta::
