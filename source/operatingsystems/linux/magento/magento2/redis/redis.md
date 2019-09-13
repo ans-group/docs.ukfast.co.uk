@@ -85,6 +85,25 @@ redis    24372  0.2  0.0 153952  2644 ?        Ssl  15:37   0:00 /usr/bin/redis-
 redis    24645  0.2  0.0 153952  2820 ?        Ssl  15:40   0:00 /usr/bin/redis-server 127.0.0.1:6379
 ```
 
+### Disable Snapshotting
+Unless you need to preverse session/cache information we recoomend you disable Snapshotting to reduce I/O. Comment out everything under SNAPSHOTTING in redis.conf. Typically the following:
+```bash
+#save 900 1
+#save 300 10
+#save 60 10000
+
+#dbfilename dump.rdb
+
+#dir /var/lib/redis/
+```
+#### Truncate Redis Database
+Remove or truncate any existing dump.rdb files:
+```bash
+> /var/lib/redis/dump.rdb
+> /var/lib/redis/dump2.rdb
+> /var/lib/redis/dump3.rdb
+```
+
 ### Redis Status
 You can run the following command to see the status of a Redis instance. This includes version number, memory usage plus information on the databases:
 ```bash
@@ -99,6 +118,24 @@ redis-cli -h 127.0.0.1 -p 6379 -n 0 flushdb
 
 ### Flush All Databases
 redis-cli -h 127.0.0.1 -p 6379 flushall
+
+### Monitor Redis
+You can review the information to and from Redis with the monitor command:
+```bash
+redis-cli -h 127.0.0.1 -p 6379 monitor
+```
+
+### Magento Modules
+We recommend you ensure the Magento modules are kept up to date, these can be located here:
+#### Sessions
+```bash
+https://github.com/colinmollenhour/Cm_RedisSession
+https://github.com/colinmollenhour/credis
+```
+#### Cache
+```bash
+https://github.com/colinmollenhour/Cm_Cache_Backend_Redis
+```
 
 ```eval_rst
   .. meta::
