@@ -4,6 +4,11 @@
 
 *To remove an additional PHP installation simply replace 'install' with 'remove' in the commands below.*
 
+#### PHP 5.6
+```bash
+yum install --disablerepo='*' --enablerepo=base,remi,epel,updates php56-php php56-php-mcrypt php56-php-pdo php56-php-mysqlnd php56-php-opcache php56-php-xml php56-php-gd php56-php-devel php56-php-mysql php56-php-intl php56-php-mbstring php56-php-bcmath php56-php-json php56-php-iconv php56-php-pecl-redis php56-php-fpm php56-php-zip php56-php-soap
+```
+
 #### PHP 7.0
 ```bash
 yum install --disablerepo='*' --enablerepo=base,remi,epel,updates php70-php php70-php-mcrypt php70-php-pdo php70-php-mysqlnd php70-php-opcache php70-php-xml php70-php-gd php70-php-devel php70-php-mysql php70-php-intl php70-php-mbstring php70-php-bcmath php70-php-json php70-php-iconv php70-php-pecl-redis php70-php-fpm php70-php-zip php70-php-soap
@@ -24,7 +29,7 @@ yum install --disablerepo='*' --enablerepo=base,remi,epel,updates php72-php php7
 yum install --disablerepo='*' --enablerepo=base,remi,epel,updates php73-php php73-php-pecl-mcrypt php73-php-pdo php73-php-mysqlnd php73-php-opcache php73-php-xml php73-php-gd php73-php-devel php73-php-mysql php73-php-intl php73-php-mbstring php73-php-bcmath php73-php-json php73-php-iconv php73-php-pecl-redis php73-php-fpm php73-php-zip php73-php-soap
 ```
 
-### Apply Magento 2 PHP optimizations
+### Apply Magento PHP optimizations
 Simply copy and paste the below:
 ```bash
 sed -i 's/opcache.memory_consumption=128/opcache.memory_consumption=512/g' /etc/opt/remi/php7?/php.d/*opcache.ini
