@@ -111,7 +111,7 @@ sysctl  vm.overcommit_memory=1
 sysctl -w net.core.somaxconn=65535
 echo never > /sys/kernel/mm/transparent_hugepage/enabled
 ```
-#### OS Settings to Startup
+#### OS Settings on Startup
 ```bash
 chmod +x /etc/rc.d/rc.local
 echo "vm.overcommit_memory=1" >> /etc/sysctl.conf
