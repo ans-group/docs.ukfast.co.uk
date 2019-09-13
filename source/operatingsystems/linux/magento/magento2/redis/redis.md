@@ -28,14 +28,10 @@ redis-5.0.5-1.el7.remi.x86_64
 #!/bin/bash
 ########## First run creates Redis2 and second run creates redis3
 
-version=`rpm -qi redis | grep Version | awk '{print $3}'`
-versionmajor=`echo $version | cut -d. -f1`
-versionminor=`echo $version | cut -d. -f2`
-if [ $versionmajor -lt 3 ]; then
-        if [ $versionminor -le 6 ]; then
-                echo "Redis version is $version. It needs to be version 2.6 or above."
-        exit
-        fi
+if [[ ! -f /etc/redis.conf ]]
+        then
+                echo "File /etc/redis.conf not found, please review"
+                exit 1
 fi
 
 if [[ -f /etc/redis2.conf ]]
