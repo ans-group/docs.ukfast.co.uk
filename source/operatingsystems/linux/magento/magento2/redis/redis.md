@@ -24,7 +24,7 @@ redis-5.0.5-1.el7.remi.x86_64
 ### Install Multiple Instances
 #### Create redis-add.sh
 ```bash
-~]# > /tmp/redis-add.sh
+~]# cat > /tmp/redis-add.sh
 #!/bin/bash
 ########## First run creates Redis2 and second run creates redis3
 
@@ -87,6 +87,11 @@ if [ $removeme = n ]
   else
     vim $0
 fi
+```
+
+#### Run redis-add.sh
+```bash
+
 ```
 
 ### Check Running Instances
