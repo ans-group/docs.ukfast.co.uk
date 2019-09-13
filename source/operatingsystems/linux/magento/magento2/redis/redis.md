@@ -43,7 +43,6 @@ else
         REDISPORT="6380"
 fi
 
-
 cp -a /etc/redis.conf /etc/redis${REDISINSTANCE}.conf
 mkdir /var/lib/redis${REDISINSTANCE}
 chown -R redis: /var/lib/redis${REDISINSTANCE}
