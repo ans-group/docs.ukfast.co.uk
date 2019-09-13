@@ -30,6 +30,7 @@ Our Magento 1 optimised stack has been going since 2008. The core components of 
    php-fpm/index
    nfs/index
    php/index
+   multiphp/index
    
 .. meta::
    :title: Magento 1 Optimised Stack | UKFast Documentation

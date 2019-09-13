@@ -4,6 +4,11 @@
 
 *To remove an additional PHP installation simply replace 'install' with 'remove' in the commands below.*
 
+#### PHP 5.6
+```bash
+yum install --disablerepo='*' --enablerepo=base,remi,epel,updates php56-php php56-php-mcrypt php56-php-pdo php56-php-mysqlnd php56-php-opcache php56-php-xml php56-php-gd php56-php-devel php56-php-mysql php56-php-intl php56-php-mbstring php56-php-bcmath php56-php-json php56-php-iconv php56-php-pecl-redis php56-php-fpm php56-php-zip php56-php-soap
+```
+
 #### PHP 7.0
 ```bash
 yum install --disablerepo='*' --enablerepo=base,remi,epel,updates php70-php php70-php-mcrypt php70-php-pdo php70-php-mysqlnd php70-php-opcache php70-php-xml php70-php-gd php70-php-devel php70-php-mysql php70-php-intl php70-php-mbstring php70-php-bcmath php70-php-json php70-php-iconv php70-php-pecl-redis php70-php-fpm php70-php-zip php70-php-soap
@@ -24,29 +29,25 @@ yum install --disablerepo='*' --enablerepo=base,remi,epel,updates php72-php php7
 yum install --disablerepo='*' --enablerepo=base,remi,epel,updates php73-php php73-php-pecl-mcrypt php73-php-pdo php73-php-mysqlnd php73-php-opcache php73-php-xml php73-php-gd php73-php-devel php73-php-mysql php73-php-intl php73-php-mbstring php73-php-bcmath php73-php-json php73-php-iconv php73-php-pecl-redis php73-php-fpm php73-php-zip php73-php-soap
 ```
 
-### Apply Magento 2 PHP optimizations
+### Apply Magento PHP optimizations
 Simply copy and paste the below:
 ```bash
-sed -i 's/opcache.memory_consumption=128/opcache.memory_consumption=512/g' /etc/opt/remi/php7?/php.d/*opcache.ini
-sed -i 's/opcache.interned_strings_buffer=8/opcache.interned_strings_buffer=12/g' /etc/opt/remi/php7?/php.d/*opcache.ini
-sed -i 's/opcache.max_accelerated_files=4000/opcache.max_accelerated_files=60000/g' /etc/opt/remi/php7?/php.d/*opcache.ini
-sed -i 's/;opcache.save_comments=0/opcache.save_comments=1/g' /etc/opt/remi/php7?/php.d/*opcache.ini
-sed -i 's/;opcache.save_comments=1/opcache.save_comments=1/g' /etc/opt/remi/php7?/php.d/*opcache.ini
-sed -i 's/opcache.save_comments=0/opcache.save_comments=1/g' /etc/opt/remi/php7?/php.d/*opcache.ini
-sed -i 's/;opcache.load_comments=1/opcache.load_comments=1/g' /etc/opt/remi/php7?/php.d/*opcache.ini
-sed -i 's/;opcache.enable_file_override=0/opcache.enable_file_override=1/g' /etc/opt/remi/php7?/php.d/*opcache.ini
-sed -ie "s_;date.timezone =_date.timezone = "Europe/London"_g" /etc/opt/remi/php7?/php.ini
-sed -ie "s/; max_input_vars = 1000/max_input_vars = 20000/g" /etc/opt/remi/php7?/php.ini
-sed -ie "s/memory_limit = 128M/memory_limit = 756M/" /etc/opt/remi/php7?/php.ini
-sed -ie "s/max_execution_time = 30/max_execution_time = 18000/" /etc/opt/remi/php7?/php.ini
-sed -ie "s/max_input_time = 60/max_input_time = 90/" /etc/opt/remi/php7?/php.ini
-sed -ie "s/short_open_tag = Off/short_open_tag = On/" /etc/opt/remi/php7?/php.ini
-sed -ie "s/;always_populate_raw_post_data = On/always_populate_raw_post_data = -1/" /etc/opt/remi/php7?/php.ini
-sed -ie "s/expose_php = On/expose_php = Off/" /etc/opt/remi/php7?/php.ini
-sed -ie "s/upload_max_filesize = 2M/upload_max_filesize = 8M/" /etc/opt/remi/php7?/php.ini
-sed -ie "s/zlib.output_compression = Off/zlib.output_compression = On/" /etc/opt/remi/php7?/php.ini
-echo "suhosin.session.cryptua = off" >> /etc/opt/remi/php7?/php.ini
-echo ";Default" > /etc/opt/remi/php7?/php-fpm.d/www.conf
+sed -i 's/opcache.memory_consumption=128/opcache.memory_consumption=512/g' /etc/opt/remi/php??/php.d/*opcache.ini
+sed -i 's/opcache.interned_strings_buffer=8/opcache.interned_strings_buffer=12/g' /etc/opt/remi/php??/php.d/*opcache.ini
+sed -i 's/opcache.max_accelerated_files=4000/opcache.max_accelerated_files=60000/g' /etc/opt/remi/php??/php.d/*opcache.ini
+sed -i 's/;opcache.save_comments=1/opcache.save_comments=0/g' /etc/opt/remi/php??/php.d/*opcache.ini
+sed -i 's/;opcache.load_comments=1/opcache.load_comments=0/g' /etc/opt/remi/php??/php.d/*opcache.ini
+sed -i 's/;opcache.enable_file_override=0/opcache.enable_file_override=1/g' /etc/opt/remi/php??/php.d/*opcache.ini
+sed -ie "s_;date.timezone =_date.timezone = \"Europe/London\"_g" /etc/opt/remi/php??/php.ini
+sed -ie "s/; max_input_vars = 1000/max_input_vars = 20000/g" /etc/opt/remi/php??/php.ini
+sed -ie "s/memory_limit = 128M/memory_limit = 512M/" /etc/opt/remi/php??/php.ini
+sed -ie "s/max_execution_time = 30/max_execution_time = 1800/" /etc/opt/remi/php??/php.ini
+sed -ie "s/max_input_time = 60/max_input_time = 90/" /etc/opt/remi/php??/php.ini
+sed -ie "s/short_open_tag = Off/short_open_tag = On/" /etc/opt/remi/php??/php.ini
+sed -ie "s/;always_populate_raw_post_data = On/always_populate_raw_post_data = -1/" /etc/opt/remi/php??/php.ini
+sed -ie "s/expose_php = On/expose_php = Off/" /etc/opt/remi/php??/php.ini
+sed -ie "s/upload_max_filesize = 2M/upload_max_filesize = 8M/" /etc/opt/remi/php??/php.ini
+echo ";Default" > /etc/opt/remi/php??/php-fpm.d/www.conf
 ```
 
 ### Configure PHP-FPM
@@ -108,16 +109,15 @@ php-common-7.2.19-2.el7.remi.x86_64
 php73-php-common-7.3.9-1.el7.remi.x86_64
 ```
 
-### Magento2 CLI
-Using 7.2 in this example:
+### Magento Crons
+Using 7.2 in this example, you can define the PHP binary for the Magento crons like so:
 ```bash
--bash-4.2$ /opt/remi/php72/root/bin/php bin/magento cache:status
+-bash-4.2$ crontab -l
+* * * * * /opt/remi/php72/root/bin/php /path/to/magento/cron.sh cron.php -mdefault
 ```
 
 ```eval_rst
   .. meta::
-     :title: Magento 2 Multiple PHP Installations | UKFast Documentation
+     :title: Magento Multiple PHP Installations | UKFast Documentation
      :description: A guide to installing and running multiple versions of PHP
-     :keywords: ukfast, linux, nginx, install, centos, cloud, server, virtual, Magento2, php-fpm, php
-
-
+     :keywords: ukfast, linux, nginx, install, centos, cloud, server, virtual, Magento, php-fpm, php
