@@ -47,3 +47,15 @@ regarding a custom user journey. The following pages are good to look for:
 - Pages lacking cache
 
 ## User Journeys
+
+Since load testing is intended to emulate real traffic, it's a good idea to know
+how your users move around your site. First how they land on your site and where
+they click and subsequently click after that to eventually arrive at their final
+destination. This is called a user journey in the industry. You can work out
+what your user journeys are by looking at logs and/or your analytics. Your
+analytics should also give you an idea of real users as well, since getting that
+out of access logs is a little trickier.
+
+User journeys can be difficult to create with realistic timings, that's why we
+can build those custom user journeys for you. Please speak to your account manager
+about this if you're interested.
