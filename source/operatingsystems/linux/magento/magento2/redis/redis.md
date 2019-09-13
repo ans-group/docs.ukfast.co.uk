@@ -80,6 +80,11 @@ sh /tmp/redis-add.sh
 ```
 
 ### Check Running Instances
+```bash
+~]# ps awux | grep redis
+redis    24372  0.2  0.0 153952  2644 ?        Ssl  15:37   0:00 /usr/bin/redis-server 127.0.0.1:6381
+redis    24645  0.2  0.0 153952  2820 ?        Ssl  15:40   0:00 /usr/bin/redis-server 127.0.0.1:6379
+```
 
 
 ```eval_rst
