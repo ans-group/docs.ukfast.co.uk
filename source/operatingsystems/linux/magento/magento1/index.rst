@@ -34,6 +34,8 @@ We have a number of guides for our Magento 1 optimised stack:
    php/index
    multiphp/index
    
+We also have guides for :doc:`/operatingsystems/linux/magento/magento2/index`
+   
 .. meta::
    :title: Magento 1 Optimised Stack | UKFast Documentation
    :description: guides relating to UKFast Magento 1 Optimised Stack
