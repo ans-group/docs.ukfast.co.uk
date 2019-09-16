@@ -2,7 +2,7 @@
 Magento 2
 =================================================
 
-Our Magento 2 optimised stack has been going since 2015. The core components of this stack are:
+In 2015 we created our Magento 2 optimised stack. The core components of this stack are:
 
 * **Firewall**: :doc:`Dedicated/Shared Firewall </network/firewalls/index>` 
 * **Web Service**: :doc:`/operatingsystems/linux/nginx/index`
@@ -13,6 +13,8 @@ Our Magento 2 optimised stack has been going since 2015. The core components of 
 * **Database services**: MySQL Percona, :doc:`/operatingsystems/linux/magento/magento2/elasticsearch/index`, :doc:`/operatingsystems/linux/magento/magento2/redis/index`
 * **Version Control Utilities**: :doc:`/operatingsystems/linux/magento/magento2/git/index`
 * **File system distribution**: :doc:`/operatingsystems/linux/magento/magento2/nfs/index`
+
+We have a number of guides related to our Magento 2 optimised stack:
 
 .. toctree::
    :maxdepth: 1
