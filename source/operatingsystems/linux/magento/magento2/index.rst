@@ -41,6 +41,8 @@ We have a number of guides for our Magento 2 optimised stack:
    multiphp/index
    redis/index
    
+We also have guides for :doc:`/operatingsystems/linux/magento/magento1/index`
+   
 .. meta::
    :title: Magento 2 Optimised Stack | UKFast Documentation
    :description: guides relating to UKFast Magento 2 Optimised Stack
