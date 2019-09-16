@@ -75,6 +75,7 @@ fi
 ```
 
 #### Run redis-add.sh
+Run twice if you want two additional instances (redis2 and redi3)
 ```bash
 sh /tmp/redis-add.sh
 ```
