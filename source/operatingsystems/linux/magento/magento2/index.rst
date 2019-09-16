@@ -14,7 +14,7 @@ In 2015 we created our Magento 2 optimised stack. The core components of this st
 * **Version Control Utilities**: :doc:`/operatingsystems/linux/magento/magento2/git/index`
 * **File system distribution**: :doc:`/operatingsystems/linux/magento/magento2/nfs/index`
 
-We have a number of guides related to our Magento 2 optimised stack:
+We have a number of guides for our Magento 2 optimised stack:
 
 .. toctree::
    :maxdepth: 1
