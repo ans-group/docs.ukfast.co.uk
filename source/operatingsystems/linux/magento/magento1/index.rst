@@ -13,7 +13,7 @@ The UKFast Magento 1 optimised stack has been going since 2008. The core compone
 - **Version Control Utilities**: :doc:`/operatingsystems/linux/magento/magento1/git/index` 
 - **File system distribution**: :doc:`/operatingsystems/linux/magento/magento1/nfs/index` 
 
-We have a number of guides for to our Magento 1 optimised stack:
+We have a number of guides for our Magento 1 optimised stack:
 
 .. toctree::
    :maxdepth: 1
