@@ -2,7 +2,7 @@
 Magento 1
 =================================================
 
-Our Magento 1 optimised stack has been going since 2008. The core components of this stack are:
+The UKFast Magento 1 optimised stack has been going since 2008. The core components of this stack are:
 
 - **Firewall**: :doc:`Dedicated/Shared Firewall </network/firewalls/index>` 
 - **Web Service**: :doc:`/operatingsystems/linux/nginx/index`
@@ -12,6 +12,8 @@ Our Magento 1 optimised stack has been going since 2008. The core components of 
 - **Database services**: MySQL Percona, :doc:`/operatingsystems/linux/magento/magento1/redis/index`
 - **Version Control Utilities**: :doc:`/operatingsystems/linux/magento/magento1/git/index` 
 - **File system distribution**: :doc:`/operatingsystems/linux/magento/magento1/nfs/index` 
+
+We have a number of guides for to our Magento 1 optimised stack:
 
 .. toctree::
    :maxdepth: 1
