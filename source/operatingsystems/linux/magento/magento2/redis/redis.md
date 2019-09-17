@@ -22,6 +22,7 @@ redis-5.0.5-1.el7.remi.x86_64
 ```
 
 ### Install Multiple Instances
+The following script will install an additional instances of Redis, run this script twice for two additional instances. These instances will be called redis2 and redis3. You need to ensure Redis is installed before running this script.
 #### Create redis-add.sh
 ```bash
 ~]# cat > /tmp/redis-add.sh
@@ -74,6 +75,7 @@ fi
 ```
 
 #### Run redis-add.sh
+Run twice if you want two additional instances (redis2 and redi3)
 ```bash
 sh /tmp/redis-add.sh
 ```

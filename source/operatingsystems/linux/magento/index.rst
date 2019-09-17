@@ -2,7 +2,7 @@
 Magento
 =================================================
 
-Magento offers open & closed Source e-commerce solutions that is very popular amongst our clients. As such we have developed a selection of guides that cater for this:
+Magento is an open-source e-commerce platform written in PHP. Here at UKFast we have hosted :doc:`/operatingsystems/linux/magento/magento1/index` websites since 2008 on our Magento optimised stack. In 2015 we created our :doc:`/operatingsystems/linux/magento/magento2/index` optimicased stack. Please select the version of Magento you wish to see the UKFast docs for:
 
 .. toctree::
    :maxdepth: 1
