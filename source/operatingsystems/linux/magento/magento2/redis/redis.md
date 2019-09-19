@@ -22,7 +22,13 @@ redis-5.0.5-1.el7.remi.x86_64
 ```
 
 ### Install Multiple Instances
-The following script will install an additional instances of Redis, run this script twice for two additional instances. These instances will be called redis2 and redis3. You need to ensure Redis is installed before running this script.
+The following script will install an additional instances of Redis. Simply define the REDISINSTANCE number and the desired REDISPORT. This example has:
+
+```bash
+REDISINSTANCE="3"
+REDISPORT="6381"
+```
+
 #### Create redis-add.sh
 ```bash
 ~]# cat > /tmp/redis-add.sh
@@ -35,13 +41,13 @@ if [[ ! -f /etc/redis.conf ]]
                 exit 1
 fi
 
-if [[ -f /etc/redis2.conf ]]
+REDISINSTANCE="3"
+REDISPORT="6381"
+
+if [[ ! -f /etc/redis${REDISINSTANCE}.conf ]]
         then
-                REDISINSTANCE="3"
-                REDISPORT="6381"
-else
-        REDISINSTANCE="2"
-        REDISPORT="6380"
+                echo "File /etc/redis${REDISINSTANCE}.conf already exists, please reivew"
+                exit 1
 fi
 
 cp -a /etc/redis.conf /etc/redis${REDISINSTANCE}.conf
