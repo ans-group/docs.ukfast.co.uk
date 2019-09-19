@@ -1,7 +1,7 @@
 # Redis
 
 ### Install Redis
-Redis can be installed from the remi yum repostiroy with the following command:
+Redis can be installed from the remi yum repository with the following command:
 
 ```bash
 yum install redis --enablerepo=remi
@@ -48,7 +48,7 @@ REDISPORT="6382"
 
 if [[ ! -f /etc/redis${REDISINSTANCE}.conf ]]
         then
-                echo "File /etc/redis${REDISINSTANCE}.conf already exists, please reivew"
+                echo "File /etc/redis${REDISINSTANCE}.conf already exists, please review"
                 exit 1
 fi
 
@@ -96,7 +96,7 @@ redis    24645  0.2  0.0 153952  2820 ?        Ssl  15:40   0:00 /usr/bin/redis-
 ```
 
 ### Disable Snapshotting
-Unless you need to preverse session/cache information we recoomend you disable Snapshotting to reduce I/O. Comment out everything under SNAPSHOTTING in redis.conf. Typically the following:
+Unless you need to perverse session/cache information we recommend you disable Snapshotting to reduce I/O. Comment out everything under SNAPSHOTTING in redis.conf. Typically the following:
 ```bash
 #save 900 1
 #save 300 10
@@ -136,7 +136,7 @@ redis-cli -h 127.0.0.1 -p 6379 info
 ```
 
 ### Flush Single Database
-To flush a single database. define the database numer with -n and run the command flushdb:
+To flush a single database. define the database number with -n and run the command flushdb:
 ```bash
 redis-cli -h 127.0.0.1 -p 6379 -n 0 flushdb
 ```
