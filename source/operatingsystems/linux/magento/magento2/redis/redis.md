@@ -35,14 +35,14 @@ REDISPORT="6381"
 #!/bin/bash
 ########## First run creates Redis2 and second run creates redis3
 
-if [[ ! -f /etc/redis.conf ]]
+if [[ -f /etc/redis.conf ]]
         then
                 echo "File /etc/redis.conf not found, please review"
                 exit 1
 fi
 
 REDISINSTANCE="3"
-REDISPORT="6381"
+REDISPORT="6382"
 
 if [[ ! -f /etc/redis${REDISINSTANCE}.conf ]]
         then
