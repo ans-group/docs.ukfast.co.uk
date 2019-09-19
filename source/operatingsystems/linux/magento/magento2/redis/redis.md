@@ -22,14 +22,16 @@ redis-5.0.5-1.el7.remi.x86_64
 ```
 
 ### Install Multiple Instances
-The following script will install an additional instances of Redis. Simply define the REDISINSTANCE number and the desired REDISPORT. This example has:
+The following script will install an additional instances of Redis. Simply define the REDISINSTANCE number and the desired REDISPORT in the script. The below example uses:
 
 ```bash
 REDISINSTANCE="3"
-REDISPORT="6381"
+REDISPORT="6382"
 ```
 
 #### Create redis-add.sh
+Simply define the REDISINSTANCE number and the desired REDISPORT before running this script:
+
 ```bash
 ~]# cat > /tmp/redis-add.sh
 #!/bin/bash
