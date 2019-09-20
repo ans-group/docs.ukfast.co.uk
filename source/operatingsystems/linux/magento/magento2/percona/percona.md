@@ -36,17 +36,37 @@ systemctl enable mysqld
 systemctl start mysqld
 ```
 
+### Increase max_connections
+You can edit the writeable variable max_connections like so:
+```sql
+set global max_connections = 400;
+```
+
+To make the change permenmant you need to change the value in /etc/my.cnf
+
+### ~/.my.cnf (User-specific options)
+
+### Wildcard Grants
+This is an example of a wildcard grant to databasename*
+```sql
+GRANT ALL PRIVILEGES ON `databasename\_%`.* TO 'databaseuser'@'172.18.68.%';
+```
+
 ### Disalbe Warnings
 ```sql
 mysql> set global log_warnings = 0;
 ```
 
-### Display Current Loggedin User
+### Display Current User
 ```sql
 mysql> select CURRENT_USER();
 ```
 
 ### MySQL Tuner
+```bash
+wget mysqltuner.pl -O mysqltuner.pl
+perl mysqltuner.pl
+```
 
 
 ```eval_rst
