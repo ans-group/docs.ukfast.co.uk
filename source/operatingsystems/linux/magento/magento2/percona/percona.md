@@ -16,12 +16,38 @@ yum install Percona-Server-server-56
 yum install Percona-Server-server-57
 ```
 
+### Updating Percona
+#### 5.6
+```bash
+yum update Percona-Server-server-56
+```
+#### 5.7
+```bash
+yum update Percona-Server-server-57
+```
+
 ### Enable On Boot
 ```bash
 systemctl enable mysqld
 ```
 
-### Updating Percona
+### Start Percona
+```bash
+systemctl start mysqld
+```
+
+### Disalbe Warnings
+```mysql
+set global log_warnings = 0;
+```
+
+### Display Current Loggedin User
+```bash
+select CURRENT_USER();
+```
+
+### MySQL Tuner
+
 
 ```eval_rst
   .. meta::
