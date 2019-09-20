@@ -49,7 +49,7 @@ To make the change permenmant you need to change the value in /etc/my.cnf
 ### Wildcard Grants
 This is an example of a wildcard grant to databasename*
 ```sql
-GRANT ALL PRIVILEGES ON `databasename\_%`.* TO 'databaseuser'@'172.18.68.%';
+mysql> GRANT ALL PRIVILEGES ON `databasename\_%`.* TO 'databaseuser'@'172.18.68.%';
 ```
 
 ### Disalbe Warnings
