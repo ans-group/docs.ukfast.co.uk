@@ -16,7 +16,7 @@ cp /etc/php.ini /root/php_upgrade_backup-$(date +%d_%b_%Y)/
 ```
 
 ### Remi Repository
-We use the remi yum repository for PHP. You can install the remi repoistory with the command:
+We use the remi yum repository for PHP. You can install the remi repository with the command:
 
 #### CentOS 7
 ```bash
@@ -34,7 +34,7 @@ If you are installing or downgrading PHP you need to remove PHP from the server 
 We highly recommend taking a backup before running this command (See PHP Backup above)
 
 ```bash
-yum remove "php-*"
+yum remove "php*"
 ```
 
 ### Install PHP
@@ -96,7 +96,17 @@ systemctl restart nginx
 ```
 
 ### OPcache Setting
-Review and then apply the OPcache settings outlined [here](https://docs.ukfast.co.uk/operatingsystems/linux/magento/magento1/opcache/opcache.html#stack-opcache-settings)
+Review and then apply the OPcache settings (Simply copy and paste the entire block below):
+```bash
+sed -i 's/opcache.memory_consumption=128/opcache.memory_consumption=512/g' /etc/php.d/*opcache.ini
+sed -i 's/opcache.interned_strings_buffer=8/opcache.interned_strings_buffer=12/g' /etc/php.d/*opcache.ini
+sed -i 's/opcache.max_accelerated_files=4000/opcache.max_accelerated_files=60000/g' /etc/php.d/*opcache.ini
+sed -i 's/;opcache.save_comments=1/opcache.save_comments=0/g' /etc/php.d/*opcache.ini
+sed -i 's/;opcache.load_comments=1/opcache.load_comments=0/g' /etc/php.d/*opcache.ini
+sed -i 's/;opcache.enable_file_override=0/opcache.enable_file_override=1/g' /etc/php.d/*opcache.ini
+```
+
+You can find more information on OPcache [here](https://docs.ukfast.co.uk/operatingsystems/linux/magento/magento1/opcache/opcache.html#stack-opcache-settings)
 
 ### /etc/php.ini Settings
 Review and copy the settings from /root/php_upgrade_backup-$(date +%d_%b_%Y)/php.ini to /etc/php.ini. Alternatively use our standard settings for the php.ini file (You can copy and paste the whole block below into your SSH terminal):
