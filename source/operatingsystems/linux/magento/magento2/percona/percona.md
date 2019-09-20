@@ -38,12 +38,12 @@ systemctl start mysqld
 
 ### Disalbe Warnings
 ```mysql
-set global log_warnings = 0;
+mysql> set global log_warnings = 0;
 ```
 
 ### Display Current Loggedin User
-```bash
-select CURRENT_USER();
+```mysql
+mysql> select CURRENT_USER();
 ```
 
 ### MySQL Tuner
