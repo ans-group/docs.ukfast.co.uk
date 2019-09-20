@@ -37,12 +37,12 @@ systemctl start mysqld
 ```
 
 ### Disalbe Warnings
-```mysql
+```sql
 mysql> set global log_warnings = 0;
 ```
 
 ### Display Current Loggedin User
-```mysql
+```sql
 mysql> select CURRENT_USER();
 ```
 
