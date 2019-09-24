@@ -45,6 +45,16 @@ set global max_connections = 400;
 To make the change permenmant you need to change the value in /etc/my.cnf
 
 ### ~/.my.cnf (User-specific options)
+You can create the file .my.cnf in the home direcotry of your desiered user to configure and save MySQL cmd options:
+```bash
+[client]
+host=IP.IP.IP.IP
+user=username
+password=password
+```
+
+Now when running the mysql command the values in the file .my.cnf will be used.
+
 
 ### Wildcard Grants
 This is an example of a wildcard grant to databasename*
