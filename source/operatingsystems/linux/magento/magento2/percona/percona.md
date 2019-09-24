@@ -78,6 +78,20 @@ wget mysqltuner.pl -O mysqltuner.pl
 perl mysqltuner.pl
 ```
 
+### innodb_buffer_pool_instances
+This variable was only introduced in MySQL 5.5.4, so if you are using an older version, ignore this section. Otherwise, this should be set to 1 per GB of innodb_buffer_pool_size. Please refer to the external [MySQL documentation](https://dev.mysql.com/doc/refman/5.6/en/innodb-multiple-buffer-pools.html) for more information.
+
+#### innodb_buffer_pool_size
+
+In an ideal world, this should be slightly larger than the total amount of data you store in InnoDB tables. That means your server can hold the entire dataset in memory, and helps avoid slow disk IO when reading data. In the real world, that's not always possible. You may not have enough RAM, or you don't want to take memory away from your other applications and risk making your server unstable.
+
+To see the total size of your InnoDB tables in MB, you can run the following command:
+```sql
+SELECT TABLE_SCHEMA, SUM(ROUND(DATA_LENGTH/1024/1024,2)) AS total_size_mb FROM information_schema.tables WHERE ENGINE LIKE 'innodb' GROUP BY table_schema;
+```
+
+As a rule of thumb, if you add those numbers and round up to the nearest GB, that is a good number to aim for. Be mindful of your available memory, and if in doubt, increase this value slowly.
+
 
 ```eval_rst
   .. meta::
