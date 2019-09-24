@@ -55,7 +55,6 @@ password=password
 
 Now when running the mysql command the values in the file .my.cnf will be used.
 
-
 ### Wildcard Grants
 This is an example of a wildcard grant to databasename*
 ```sql
@@ -73,6 +72,7 @@ mysql> select CURRENT_USER();
 ```
 
 ### MySQL Tuner
+MySQL tuner is a great tool to review resource usage and MySQL settings. You can download and run MySQL tuner with the commands:
 ```bash
 wget mysqltuner.pl -O mysqltuner.pl
 perl mysqltuner.pl
