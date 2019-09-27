@@ -1,7 +1,7 @@
 # Percona
 
 ### Percona Repository
-You can install the Percona repoistory with the command:
+You can install the Percona repository with the command:
 ```bash
 yum install https://repo.percona.com/yum/percona-release-latest.noarch.rpm
 ```
@@ -48,10 +48,10 @@ You can edit the writeable variable max_connections like so:
 set global max_connections = 400;
 ```
 
-To make the change permenmant you need to change the value in /etc/my.cnf
+To make the change permanent you need to change the value in /etc/my.cnf
 
 ### ~/.my.cnf (User-specific options)
-You can create the file .my.cnf in the home direcotry of your desiered user to configure and save MySQL cmd options:
+You can create the file .my.cnf in the home directory of your desired user to configure and save MySQL cmd options:
 ```bash
 [client]
 host=IP.IP.IP.IP
@@ -71,6 +71,10 @@ mysql> GRANT ALL PRIVILEGES ON `databasename\_%`.* TO 'databaseuser'@'172.18.68.
 ```sql
 mysql> set global log_warnings = 0;
 ```
+
+To make this change permanent add to /etc/my.cnf under [mysqld]: 
+
+log_warnings = 0
 
 ### Display Current User
 ```sql
