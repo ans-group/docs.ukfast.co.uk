@@ -72,7 +72,7 @@ mysql> select CURRENT_USER();
 ```
 
 ### Database Sizes
-You can list the sizes in MB for all the databases with the command:
+You can list the sizes in MB for all databases with the command:
 ```sql
 mysql> SELECT table_schema "DB", Round(Sum(data_length + index_length) / 1024 / 1024, 1) "MB" FROM information_schema.tables GROUP BY table_schema;
 +-----------------------------+--------+
@@ -93,7 +93,6 @@ mysql> SELECT table_schema "DB", Round(Sum(data_length + index_length) / 1024 / 
 You can view the table sizes within a database with the command:
 
 Replace DBNAME with the database name you want to see the table sizes for:
-
 ```sql
 mysql> SELECT table_name AS "Table", round(((data_length + index_length) / 1024 / 1024), 2) as SIZE FROM information_schema.TABLES WHERE table_schema = "DBNAME" order by SIZE;
 +---------------------------------------------------------+---------+
