@@ -117,6 +117,26 @@ mysql> SELECT table_name AS "Table", round(((data_length + index_length) / 1024 
 +---------------------------------------------------------+---------+
 702 rows in set (0.16 sec)
 ```
+### Display Base URL
+You can review the base URL from with the database with the commands:
+```sql
+mysql> use magentotestdb
+mysql> select * from core_config_data where path like "%base_url%";
++-----------+---------+----------+-----------------------+-------------------------------------------+
+| config_id | scope   | scope_id | path                  | value                                     |
++-----------+---------+----------+-----------------------+-------------------------------------------+
+|      1531 | default |        0 | web/unsecure/base_url | http://magentotest.co.uk/ |
+|      1532 | default |        0 | web/secure/base_url   | https://magentotest.co.uk/ |
++-----------+---------+----------+-----------------------+-------------------------------------------+
+2 rows in set (0.01 sec)
+```
+
+#### Change Base URL
+Examples of changing the Magento2 base URL through SQL:
+```sql
+update core_config_data set value = 'http://domainname/' where path = 'web/unsecure/base_url' and scope_id = '0'; 
+update core_config_data set value = 'http://domainname/' where path = 'web/secure/base_url' and scope_id = '0'; ;
+```
 
 ### MySQL Tuner
 MySQL tuner is a great tool to review resource usage and MySQL settings. You can download and run MySQL tuner with the commands:
