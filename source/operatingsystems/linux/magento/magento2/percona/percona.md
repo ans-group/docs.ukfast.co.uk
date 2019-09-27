@@ -26,6 +26,12 @@ yum update Percona-Server-server-56
 yum update Percona-Server-server-57
 ```
 
+#### Major Version Update
+If you are updating MySQL by a major version run the command:
+```bash
+mysql_upgrade
+```
+
 ### Enable On Boot
 ```bash
 systemctl enable mysqld
