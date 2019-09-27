@@ -71,6 +71,44 @@ mysql> set global log_warnings = 0;
 mysql> select CURRENT_USER();
 ```
 
+### Database Sizes
+You can list the sizes in MB for all the databases with the command:
+```sql
+mysql> SELECT table_schema "DB", Round(Sum(data_length + index_length) / 1024 / 1024, 1) "MB" FROM information_schema.tables GROUP BY table_schema;
++-----------------------------+--------+
+| DB                          | MB     |
++-----------------------------+--------+
+| information_schema          |    0.2 |
+| magento2ee                  |   53.0 |
+| magento2                    |   48.9 |
+| mysql                       |    8.0 |
+| performance_schema          |    0.0 |
+| sys                         |    0.0 |
+| testingdb                   | 1376.7 |
++-----------------------------+--------+
+7 rows in set (1.00 sec)
+```
+
+### Table Sizes In DB
+You can view the table sizes within a database with the command:
+
+Replace DBNAME with the database name you want to see the table sizes for:
+
+```sql
+mysql> SELECT table_name AS "Table", round(((data_length + index_length) / 1024 / 1024), 2) as SIZE FROM information_schema.TABLES WHERE table_schema = "DBNAME" order by SIZE;
++---------------------------------------------------------+---------+
+| Table                                                   | SIZE    |
++---------------------------------------------------------+---------+
+| inventory_stock_1                                       |    NULL |
+| cataloginventory_stock_status_tmp                       |    0.00 |
+| catalog_product_index_price_tmp                         |    0.00 |
+| url_rewrite                                             |   15.06 |
+| catalog_product_index_eav_idx                           |   34.09 |
+| media_storage_file_storage                              | 1145.53 |
++---------------------------------------------------------+---------+
+702 rows in set (0.16 sec)
+```
+
 ### MySQL Tuner
 MySQL tuner is a great tool to review resource usage and MySQL settings. You can download and run MySQL tuner with the commands:
 ```bash
