@@ -67,7 +67,7 @@ This is an example of a wildcard grant to databasename*
 mysql> GRANT ALL PRIVILEGES ON `databasename\_%`.* TO 'databaseuser'@'172.18.68.%';
 ```
 
-### Disalbe Warnings
+### Disable Warnings
 ```sql
 mysql> set global log_warnings = 0;
 ```
