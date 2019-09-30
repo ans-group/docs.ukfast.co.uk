@@ -44,7 +44,7 @@ systemctl start mysqld
 
 ### Increase max_connections
 You can edit the writeable variable max_connections like so:
-```sql
+```bash
 set global max_connections = 400;
 ```
 
