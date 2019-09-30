@@ -81,6 +81,12 @@ systemctl daemon-reload
 systemctl enable --now php72-php-fpm
 ```
 
+### Reload
+If you make a configuration change to one of the php-fpm configuration files, perform a config test and then reload with the command (Using 7.2 in this example)
+```bash
+systemctl reload php72-php-fpm
+```
+
 ### Nginx vHost Change
 Change the sock file in Nginx so the domain(s) use the desired version of PHP. We are using 7.2 in this example and editing the file /etc/nginx/conf.d/example.com.conf:
 
