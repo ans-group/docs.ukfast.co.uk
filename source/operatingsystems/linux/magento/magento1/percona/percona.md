@@ -63,7 +63,7 @@ Now when running the mysql command the values in the file .my.cnf will be used.
 
 ### Wildcard Grants
 This is an example of a wildcard grant to databasename*
-```sql
+```bash
 mysql> GRANT ALL PRIVILEGES ON `databasename\_%`.* TO 'databaseuser'@'172.18.68.%';
 ```
 
