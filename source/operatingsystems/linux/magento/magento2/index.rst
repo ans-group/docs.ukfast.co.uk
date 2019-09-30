@@ -10,7 +10,7 @@ In 2015 we created our Magento 2 optimised stack. The core components of this st
 * **Mail Services**: :doc:`Postfix </operatingsystems/linux/mail/postfix>`
 * **SSH/FTP Access**: :doc:`/operatingsystems/linux/ssh/index`, :doc:`/operatingsystems/linux/ftp/setup_vsftpd`
 * **HTTP Caching Utilities**: :doc:`/operatingsystems/linux/magento/magento2/varnish/index`
-* **Database services**: MySQL Percona, :doc:`/operatingsystems/linux/magento/magento2/elasticsearch/index`, :doc:`/operatingsystems/linux/magento/magento2/redis/index`
+* **Database services**: :doc:`/operatingsystems/linux/magento/magento2/percona/index`, :doc:`/operatingsystems/linux/magento/magento2/elasticsearch/index`, :doc:`/operatingsystems/linux/magento/magento2/redis/index`
 * **Version Control Utilities**: :doc:`/operatingsystems/linux/magento/magento2/git/index`
 * **File system distribution**: :doc:`/operatingsystems/linux/magento/magento2/nfs/index`
 
@@ -40,6 +40,7 @@ We have a number of guides for our Magento 2 optimised stack:
    php/index
    multiphp/index
    redis/index
+   percona/index
    
 We also have guides for :doc:`/operatingsystems/linux/magento/magento1/index`
    
