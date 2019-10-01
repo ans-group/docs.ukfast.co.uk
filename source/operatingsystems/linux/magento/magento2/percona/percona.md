@@ -148,7 +148,7 @@ perl mysqltuner.pl
 ### innodb_buffer_pool_instances
 This variable was only introduced in MySQL 5.5.4, so if you are using an older version, ignore this section. Otherwise, this should be set to 1 per GB of innodb_buffer_pool_size. Please refer to the external [MySQL documentation](https://dev.mysql.com/doc/refman/5.6/en/innodb-multiple-buffer-pools.html) for more information.
 
-#### innodb_buffer_pool_size
+### innodb_buffer_pool_size
 
 In an ideal world, this should be slightly larger than the total amount of data you store in InnoDB tables. That means your server can hold the entire dataset in memory, and helps avoid slow disk IO when reading data. In the real world, that's not always possible. You may not have enough RAM, or you don't want to take memory away from your other applications and risk making your server unstable.
 
