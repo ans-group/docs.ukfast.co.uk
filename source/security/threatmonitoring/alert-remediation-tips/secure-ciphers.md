@@ -1,5 +1,3 @@
-
-
 ```eval_rst
 .. meta::
      :title: Setting Secure Ciphers | UKFast Documentation
