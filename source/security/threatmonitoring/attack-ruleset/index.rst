@@ -14,7 +14,7 @@ Through log interrogation, we can detect and block many attacks on below attack 
 .. toctree::
    :maxdepth: 2
 
-   web-attacks/web-attacks
+   web-attacks/common-web-attacks
    web-attacks/web-application-specific-attacks
    web-attacks/wordpress-attacks
    
