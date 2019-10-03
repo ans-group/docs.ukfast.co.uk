@@ -7,7 +7,7 @@
 
 ## Shellshock attack detected
 
-### What is a Shellshock attack?
+*What is a Shellshock attack?*
 
 
 A very common attack vector is a shellshock attack. Attacking the BASH (Bourne Again Shell) service on your server, this form of attack could allow an attacker to run arbitrary code on your server. This attack tries to get the target service to interpret input as a BASH command which is then ran as if the command was input into a BASH shell. The BASH shell allows us to command and manage our server. Though here we can do things like creating users, set passwords, and control the operating system kernel. SSH (Secure Shell)works similar to a bash shell.
@@ -24,7 +24,7 @@ We can also see that the user agent on this occasion was OpenVAS, which is an Op
 
 We can also see that the payload attack was trying to input BASH commands via the web service, we can see that this particular attack was trying to access the /bin and similar directories.
 
-### How can I remediation this attack?
+*How can I remediation this attack?*
 
 
 We can prevent these attacks by ensuring that our web service and BASH is updated to the latest version with the latest security patches to allow the service to recognize the malicious input and drop it before any malicious code is able to run.
@@ -34,7 +34,7 @@ This rule also implements Dynamic Protection IP blocking, meaning that the attac
 
 ## Brute Force Attacks
 
-### What is a brute force attack?
+*What is a brute force attack?*
 
 
 One of the most common forms of attack is a brute force attack. As its name suggests, this attack is a relentless attempt to gain access to a system by constantly trying user name and password combinations in an effort to guess the correct credentials.
@@ -43,7 +43,7 @@ A simple brute force attack will try many commonly used usernames and password c
 
 We also see more sophisticated brute force attacks that have the ability to detect what service they are trying to gain access to, and then try common user name and password combinations for that service, or even try the default credentials for that service. For example, an SSH or PHPMyAdmin Brute Force attack will usually try the username root, as this the most common user name used by default. Another example could be the administrator for Windows RDP 
 
-### How can I prevent a brute force attack?
+*How can I prevent a brute force attack?*
 
 
 A successful brute force attack can easily be avoided by ensuring a strong user name and password combination is used. For more information on this, please consider reading our guide on how to set secure usernames and passwords here.
@@ -53,7 +53,7 @@ One of the best ways to mitigate these attacks is to remove the attacker's acces
 
 ## Network scan from same source IP.
 
-### What is a network scan?
+*What is a network scan?*
 
 
 Often a preliminary action to an attack, a network scan can be used to find potential vulnerabilities in your configuration, operating system and services running on your server. With information about potential exploits that can be utilized, an attacker can then run a more targeted attempt to exploit a vulnerability in your system to gain access, steal data or to cause damage.
@@ -63,14 +63,14 @@ Looking more specifically at a Network Scan, these scans tend to try and detect 
 ## Multiple viruses detected - Possible outbreak.
 
 
-### What does this rule mean?
+*What does this rule mean?*
 
 
 Triggered when more than 8 virus detection events occur during a 360 second period, this rule could indicate that a malware/virus outbreak has occurred. This can occur when a particularly resistant piece of malware has managed to make its way onto your server, and is either replicating itself or is allowing a flood of viruses to be installed onto the system.
 
 This rule will trigger even if your virus/malware scanner has successfully removed the infection(s). To check this out, you can view your alerting history for virus detection events, view your virus malware scanners logs, or contact UKFast support for assistance.
 
-### How can I remediate this.
+*How can I remediate this.*
 
 
 If the viruses/malware was not removed by your scanner, you need to jump into action and remove as many infections items as possible. Please refer to this page for more information on how to do this, or contact UKFast support for assistance.

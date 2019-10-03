@@ -1,14 +1,6 @@
-# Using Threat Monitoring for PCI DSS Compliance
+# PCI DSS Compliance
 
 Built with PCI DSS in mind, UKFast's Threat Monitoring can be used to bring your server up to standard with many of the criteria required to achieve PCI DSS compliance. Utilising baseline and vulnerability scanning tools, coupled with advanced Intrusion detection systems and log collection, Threat Monitoring can secure your server against threats and ensure a secure baseline is achieved, in accordance with PCI DSS.
-
-<div style="text-align: center;">
-
-![hwo-it-works](files/computer128.png)
-
-
-
-</div>
 
 ## What requirements can Threat Monitoring cover?
 

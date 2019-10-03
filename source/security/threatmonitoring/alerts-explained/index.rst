@@ -13,12 +13,12 @@ Having a good understanding of Threat alerts is key to esnuring that your server
    :maxdepth: 1
 
    clamav
-   common_attacks
+   common-attacks
    exploit
    ftp
    mcafeeav
-   msdefender
-   mssecurityessentials
+   ms-defender
+   ms-security-essentials
    mysql
    postfix
    postgresql

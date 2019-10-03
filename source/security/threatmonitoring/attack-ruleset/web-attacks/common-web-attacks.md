@@ -1,11 +1,9 @@
 
-# Web Attacks
+# Common Web Attacks
 
 Web attacks are perhaps one of the most common attacks on Internet-facing systems, and they're only becoming more of a danger. UKFast's Threat Monitoring has a range of rules dedicated to detecting and blocking common web-based attacks and malicious connection attempts. 
 
-## Web Attacks Threat Monitoring Detects
-
-### SQL Injection
+## SQL Injection
 
 **What is this attack**
 
@@ -44,7 +42,7 @@ Attackers will commonly try SQL injections on your site, the best ways to preven
 * Perform regular database audits
 
 
-### XSS (Cross Site Scripting)
+## XSS (Cross Site Scripting)
 
 **What is this attack**
 
@@ -77,7 +75,7 @@ Attackers will commonly try XSS  injections on your site, the best ways to preve
 * Always update to the latest web application version
 * Perform regular code audits
 
-### Shellshock Attack (CVE-2014-6271)
+## Shellshock Attack (CVE-2014-6271)
 
 
 **What is this attack**
@@ -106,7 +104,7 @@ To protect against this vulnerability, you should ensure that your system is up-
 
 Many vulnerability scanners will run a non-malicious shellshock attack against a target system, as a result, false positive alerts may trigger when an ASV's system scans your server. 
 
-### Directory Traversal
+## Directory Traversal
 
 **What is this attack**
 
@@ -132,7 +130,7 @@ Threat Monitoring will block the IP if 10 or more Directory Traversal signatures
 
 Additionally, If a Directory Traversal attack returns a code 200 (Web Request success), Threat Monitoring will check the source IP address against AbuseIPDB. If the IP is known for malicious activity within the last 14 days, the IP will be blocked via IPTables and hosts.deny (Linux) or Windows Firewall for 30 minutes.
 
-### Command Injection
+## Command Injection
 
 **What is this attack**
 
@@ -158,7 +156,7 @@ Threat Monitoring will block the IP if 10 or more Command Injection signatures a
 
 Additionally, If a Command Injection attack returns a code 200 (Web Request success), Threat Monitoring will check the source IP address against AbuseIPDB. If the IP is known for malicious activity within the last 14 days, the IP will be blocked via IPTables and hosts.deny (Linux) or Windows Firewall for 30 minutes.
 
-### Remote file inclusion (RFI)
+## Remote file inclusion (RFI)
 
 **What is this attack**
 
@@ -201,7 +199,7 @@ Additionally, If an RFI attack returns a code 200 (Web Request success), Threat 
 
 To disable the ability to include remote files completely, you can set `allow_url_include` to `off` in your php.ini or .htaccess file
 
-### POST Bots
+## POST Bots
 
 **What is this attack**
 
@@ -215,7 +213,7 @@ POST request bots are not specifically dangerous, but detecting them can be a vi
 
 Threat Monitoring will block the IP if 16 or more POST requests are detected within 20 seconds. The IP will be blocked via IPTables and hosts.deny (Linux) or Windows Firewall for 30 minutes.
 
-### Malicious User Agents
+## Malicious User Agents
 
 **What is this attack**
 
@@ -246,7 +244,7 @@ Taking more of a passive approach, this rule does not necessarily detect that an
 Threat Monitoring will block the IP if a malicious user agent is detected. The IP will be blocked via IPTables and hosts.deny (Linux) or Windows Firewall for 30 minutes.
 
 
-### PHP CGI-bin Vulnerabilities
+## PHP CGI-bin Vulnerabilities
 
 **What is this attack**
  
@@ -278,7 +276,7 @@ Another way to secure your site against this type of attack is to configure your
 
 Threat Monitoring will block the IP if a malicious user agent is detected. The IP will be blocked via IPTables and hosts.deny (Linux) or Windows Firewall for 30 minutes.
 
-### PHP Info Scans
+## PHP Info Scans
 
 **What is this attack**
  

@@ -10,21 +10,21 @@
 
 ## Three failed attempts to run sudo
 
-### What does this mean?
+*What does this mean?*
 
 
 This rule tells you that there have been 3 incorrect password attempts on syslog within the space of a few minutes. This could be someone forgetting their passwords. Usually, this is an administrator or someone who has access to the system. 
 
 This does not discount an attacker from triggering this rule. Some investigation should be done to make sure that this is a valid authorised user completing these actions. 
 
-### What program/service does this rule relate to?
+*What program/service does this rule relate to?*
 
 
 This relates to user management and permissions management. The `sudo` program allows users to act as root when performing actions that directly relate to the system. This allows the users to start and stop services, modify configuration files and access restricted parts of the file system. 
 
 This program is also very locked-down to specific individuals. The program needs the authorization to allow a user to use it. This is meant as an administration tool, to allow the root account login to be disabled.  
 
-### How can I fix this?
+*How can I fix this?*
 
 
 Finding out which user triggered this alert would be useful. It should be listed on our alert to you. This would allow you to investigate to see what they have been doing. 
@@ -34,19 +34,19 @@ If the user is not meant to be able to use the `sudo` command then looking throu
 
 ## SCSI RAID ARRAY ERROR, drive failed
 
-### What does this mean?
+*What does this mean?*
 
 
 This tells you that one or more of the drives in RAID array have failed, this is usually because the drive has been in operation for a long while so is suffering from general wear and tear. This needs to be looked at immediately.  
 
 **NOTE**: This does not indicate an attack. This is caused by a disk physically failing in the server. 
 
-### What does this rule relate to?
+*What does this rule relate to?*
 
 
 This can affect everything in your server. Anything which needs to access data on that disk will error out and fail. This is a serious issue. Mostly RAIDs are used to store data, so the operating system of the server is unlikely to be affected by a disk failure.
 
-### How can I fix this?
+*How can I fix this?*
 
 
 Contact the providers of your server. Make sure your backups are as up to date as they can be, and work with them to get everything back up and running. Keeping an open dialogue with them, so that you are informed of any updates and developments would be good too.  
@@ -57,7 +57,7 @@ A good backup solution is also a must in these situations, as if the array does 
 
 ## Possible Disk failure. SCSI controller error.
 
-### What does this mean?
+*What does this mean?*
 
 
 This means that there is a failure on the hard drive or an error with the SCSI controller. This is usually caused by normal wear and tear of the server, and can often lead to data loss, if not monitored carefully. 
@@ -66,10 +66,10 @@ Linux and Windows Servers will do some monitoring of Hard Disks and some SCSI co
 
 This does not mean that an attack is taking place. This is a hardware alert which is generated to inform the user of hardware that is about to fail. 
  
-### How can I fix this?
+*How can I fix this?*
 
 
-Replace the hard drive will be necessary to preserve all the data. Migrating data from onto a new drive is the best way to not lose data. Please contact your technical team, or our support staff to help you with this. 
+A replacement hard drive will be necessary to preserve all the data. Migrating data from onto a new drive is the best way to not lose data. Please contact your technical team, or our support staff to help you with this. 
 
 **NOTE**: If you are dealing with a RAID array, please seek the advice of our support staff or another experienced IT professional for the best way to replace disks in a RAID array. 
 
@@ -77,15 +77,16 @@ Replace the hard drive will be necessary to preserve all the data. Migrating dat
 To find out more about the health of your hard drives on Linux run the command replacing the `<device_id>` with the device you wish to run it against, such as `sda` or `sdb`.
 
 
-smartctl -a /dev/<device_id>
+`smartctl -a /dev/<device_id>`
 
 
 On Windows open PowerShell and type in:
 
 
-* `wmic`
-* `diskdrive get status`
+`wmic`
+
+`diskdrive get status`
 
 
 
-This will return `Status OK` if the drive is all good, or an error message. This error message will indicate problems with your hard drive.
+This will return 'Status OK' if the drive is all good, or an error message. This error message will indicate problems with your hard drive.
