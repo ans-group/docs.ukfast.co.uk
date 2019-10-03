@@ -13,7 +13,7 @@ Please note that changing service ports will not stop all brute force and exploi
 
 Feel free to follow the below steps to change the port for common services. If you do change your SSH or RDP port, please let UKfast know so we can update our database to ensure we can still provide support.
 
-## SSH
+### SSH
 
 Edit the file /etc/ssh/sshd_config using your prefered file editor.
 
@@ -33,7 +33,7 @@ Restart the sshd service with the below command.
 
 `service sshd restart`
 
-## FTP (ProFTPd)
+### FTP (ProFTPd)
 
 Edit the file `/etc/proftpd.conf` with your preferred text editor.
 
@@ -50,7 +50,7 @@ Save the file.
 Restart the proftpd service
 `$ /etc/init.d/proftpd restart`
 
-## FTP (vsftpd)
+### FTP (vsftpd)
 
 Edit the file `/etc/vsftpd.conf` with your perfered text editor. Please note in some distrubutions this file is located at `/etc/vsftpd/vsftpd.conf`.
 
@@ -67,7 +67,7 @@ Save the file.
 Restart the vsftpd service
 `bash$ /etc/init.d/vsftpd restart`
 
-## FTP (pure-ftpd/CPanel)
+### FTP (pure-ftpd/CPanel)
 
 Pure-ftpd is commonly used on servers with CPanel, the below steps are for a server with CPanel, but they may be applicable to servers without Cpanel too, your mileage may vary.
 

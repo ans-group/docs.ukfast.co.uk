@@ -14,11 +14,11 @@ Threat Response is an additional service which provides managed support by our i
 .. toctree::
    :maxdepth: 1
    
-   alertremediationtips/index
-   alertsexplained/index
-   typesofattacksdetected/index
-   generalinformation
-   howitworks
-   gettingstarted
+   how-it-works
+   thmon-for-pci-dss
+   general-information
    alerts
-   thmonforpcidss
+   getting-started
+   attack-ruleset/index
+   alerts-explained/index
+   alert-remediation-tips/index

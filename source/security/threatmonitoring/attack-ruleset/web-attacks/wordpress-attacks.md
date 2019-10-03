@@ -1,7 +1,9 @@
 
-# WordPress Activity
+# WordPress
 
 WordPress is an incredibly powerful website CMS that powers over 40% of websites on the Internet, so its no surprise that it's also one of the most common targets for attackers. WordPress, being more user orientated and it's ability to be expanded with plugins is especially susceptible to exploits and Zero Day attacks. 
+
+## Monitor WordPress Activity
 
 UKFast's Threat Monitoring has the ability to track WordPress activity and detect common attacks.
 
@@ -13,8 +15,6 @@ UKFast's Threat Monitoring has the ability to track WordPress activity and detec
 * New Blog Post Published
 * Blog Post Deleted
 * New Attachments
-
-# WordPress Attacks
 
 ## Login Brute Force
 

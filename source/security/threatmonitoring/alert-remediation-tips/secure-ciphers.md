@@ -17,6 +17,8 @@ Follow the below steps to set secure cyphers for web servers like Apache, nginx 
 
 ## Web Servers
 
+---
+
 ### Apache
 
 **RHEL/CentOS**
@@ -147,6 +149,8 @@ server {
 
 
 ## SSH
+
+---
 
 We can also set secure cyphers for SSH sessions, this will ensure a secure connection is made whenever a server administrator connects to the server via SSH.
 

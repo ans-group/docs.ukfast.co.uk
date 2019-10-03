@@ -13,7 +13,7 @@ To prevent an attacker from accessing sensitive services like ssh or FTP, we can
 
 Follow the steps below to implement this, in the example shown we implement IP based restrictions on SSH, which is port 2020 for UKFast servers. Please bear in mind that the steps for dedicated firewalls are different from shared firewalls. We have documented both below. Please ensure you're following the right guide for your type of firewall.
 
-## Shared firewalls
+### Shared firewalls
 
 1. Under the ‘Products and Services’ ‘Firewall’ section, select ‘Shared’
 2. Select the Shared Firewall used for the affected server.
@@ -29,7 +29,7 @@ Follow the steps below to implement this, in the example shown we implement IP b
 
 
 
-## Dedicated firewalls
+### Dedicated firewalls
 
 1.    Under the ‘Products and Services’ ‘Firewall’ section, select ‘Dedicated`.
 2.    Select the Dedicated Firewall used for the affected server.

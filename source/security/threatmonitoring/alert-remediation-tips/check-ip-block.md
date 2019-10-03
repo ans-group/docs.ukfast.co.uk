@@ -9,7 +9,7 @@
 
 Threat Monitoring has the ability to detect incoming attacks in real-time and proactively block them, minimising the risk of compromise. This is achieved through the use of iptables and hosts.deny on Linux, and Windows firewall on Windows systems
 
-## Linux
+### Linux
 
 If you need to check if an attacking Ip has been blocked, or of an IP address has been blocked unintentionally, you can use the below command on a Linux system to use check this with one of our scripts
 
@@ -19,7 +19,7 @@ If you'd like to automatically remove the IP from the block list, specify `--rem
 
 `wget https://git.thmon.ukfast.co.uk/threatmon-public/threat-monitoring-scripts/raw/master/check-block-status.sh && bash check-block-status.sh {IP TO CHECK} --remove-found`
 
-## Windows
+### Windows
 
 To check if an Ip has been blocked in windows, follow the below steps.
 
