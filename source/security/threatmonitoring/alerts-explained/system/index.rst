@@ -1,19 +1,18 @@
 .. meta::
-   :title: Scan and Reconnaissance| UKFast Documentation
+   :title: System Alerts | UKFast Documentation
    :description: Guidance on Threat Monitoring and Threat Response solutions from UKFast
    :keywords: security, threat, monitoring, response, alerts, blocking, hacking, ransomware, protection
 
 =====================================
-Scan and Reconnaissance
+System
 =====================================
 
-Before attacking, many targeted attacks and bots will perform a network scan on your server. This scan may check if common ports are open, what services are listening on those ports and the version of those services. With this information, an attacker or bot may be able to tailor their attacking strategy to that specific software version.
+In addition to monitoring for suspicious activity and threats, UKFast Threat Monitoring can also alert for system-level issues. Alerts can be generated for high memory usage, killed processes, disks errors and system auditing tools such as 'auditd'. 
 
-For example, if you were running a vulnerable version of Exim on a common mail port, then the attacker could launch an RCE attack (CVE-2019-15846) against your server.
-
-Threat Monitoring can detect when a network scan or version gathering scan may be in progress, and take the needed actions to block the scan.
+This information can prove useful when diagnosing issues with the system and when investigating suspicious activity that could be the result fo a compromise elsewhere in the system.
 
 .. toctree::
    :maxdepth: 1
 
-   network-scans
+   selinux
+   system
