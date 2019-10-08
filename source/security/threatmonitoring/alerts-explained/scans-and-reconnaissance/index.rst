@@ -1,10 +1,10 @@
 .. meta::
-   :title: Scan and Reconnaissance| UKFast Documentation
+   :title: Scans and Reconnaissance| UKFast Documentation
    :description: Guidance on Threat Monitoring and Threat Response solutions from UKFast
    :keywords: security, threat, monitoring, response, alerts, blocking, hacking, ransomware, protection
 
 =====================================
-Scan and Reconnaissance
+Scans and Reconnaissance
 =====================================
 
 Before attacking, many targeted attacks and bots will perform a network scan on your server. This scan may check if common ports are open, what services are listening on those ports and the version of those services. With this information, an attacker or bot may be able to tailor their attacking strategy to that specific software version.

@@ -2,7 +2,7 @@
 .. meta::
      :title: MySQL Rules Explained | UKFast Documentation
      :description: Our Threat Monitoring ruleset explained
-     :keywords: threat monitoring, alerts, security, compliance, rules, rulesets, ukfast, hosting, file integrity monitoring, rootkit, detection, vulnerability scan, scans, hids, intrustion detection, set up
+     :keywords: threat monitoring, alerts, security, compliance, rules, rulesets, ukfast, hosting, file integrity monitoring, rootkit, detection, vulnerability scan, scans, hids, intrusion detection, set up
 ```
 
 # MySQL
@@ -21,16 +21,16 @@ Attackers may attempt to SQL Inject to discover data about how the underlying da
 *How do I stop MySQL Fatal Errors?*
 
 
-Many different websites try various different techniques to try and mitigate this. Escaping Strings is by far the most popular. Making sure that any inputs on your website are properly escaped, so that the user cannot input any control characters into a search box or a user input field. Escaping strings is the act of encoding the control characters so that they do not register as these characters to database engines. Examples of control characters are semi-colons `;` and quotes `"` ``.
+Many different websites try various techniques to try and mitigate this. Escaping Strings is by far the most popular. Making sure that any inputs on your website are properly escaped, so that the user cannot input any control characters into a search box or a user input field. Escaping strings is the act of encoding the control characters so that they do not register as these characters to database engines. Examples of control characters are semi-colons `;` and quotes `"` ``.
 
 ## MySQL shutdown message.
 
 *What is a Database Shutdown Message?*
 
 
-When MySQL receives this message it will try to shut down the SQL databases. This means that MySQL will refuse any and all new connections to the database, and shall wait for all current clients to disconnect. Sometimes this can take a while, and sometimes this cannot. You must disconnect all clients before you can restart the database. 
+When MySQL receives this message it will try to shut down the SQL databases. This means that MySQL will refuse any new connections to the database, and shall wait for all current clients to disconnect. Sometimes this can take a while, and sometimes this cannot. You must disconnect all clients before you can restart the database. 
 
-MySQL can receive a shutdown message mainly from its own server through its daemon. The daemon will not perform a graceful shutdown on its own, so this command is triggered. 
+MySQL can receive a shutdown message mainly from its server through its daemon. The daemon will not perform a graceful shutdown on its own, so this command is triggered. 
 
 *What do can I do about this?*
 

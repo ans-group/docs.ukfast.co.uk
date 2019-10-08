@@ -12,6 +12,6 @@ Many services and software are targeted by attacks in an attempt to gain access 
 .. toctree::
    :maxdepth: 1
 
-   fpt
+   ftp
    postfix
    ssh

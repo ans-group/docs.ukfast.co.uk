@@ -7,8 +7,9 @@
 Windows
 =====================================
 
-Windows is one of the most popular operating systems used since most people are familar with it. Unfortantly this means it is often attacked by malicious actors. 
-UKFast Threat Monitoring uses rules designed for Windows Servers in order to detect attacks. 
+Windows is one of the most popular operating systems used since most people are familiar with it. Unfortunately this means it is often attacked by malicious actors. 
+
+UKFast Threat Monitoring uses rules designed for Windows Servers to detect attacks. 
 
 .. toctree::
    :maxdepth: 1

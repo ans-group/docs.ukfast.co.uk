@@ -1,7 +1,7 @@
 
 # Web Application Specific Attacks
 
-Many attacks are targeted to exploit a known vulnerability in a specific web application like Word Press, Magneto or Joomla. These attacks have a higher likelihood of being successful, as they tend to specifically exploit known weaknesses in these applications. UKFast Threat Monitoring has the ability to detect common attacks and block the source IP address via a host-based firewall.
+Many attacks are targeted to exploit a known vulnerability in a specific web application like Word Press, Magneto or Joomla. These attacks have a higher likelihood of being successful, as they tend to specifically exploit known weaknesses in these applications. UKFast Threat Monitoring can detect common attacks and block the source IP address via a host-based firewall.
 
 
 ## osCOmmerce login.php bypass

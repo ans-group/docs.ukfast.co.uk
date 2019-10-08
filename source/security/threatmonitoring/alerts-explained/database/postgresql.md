@@ -2,7 +2,7 @@
 .. meta::
      :title: PostgreSQL rules Explained | UKFast Documentation
      :description: Our Threat Monitoring ruleset explained
-     :keywords: threat monitoring, alerts, security, compliance, rules, rulesets, ukfast, hosting, file integrity monitoring, rootkit, detection, vulnerability scan, scans, hids, intrustion detection, set up
+     :keywords: threat monitoring, alerts, security, compliance, rules, rulesets, ukfast, hosting, file integrity monitoring, rootkit, detection, vulnerability scan, scans, hids, intrusion detection, set up
 ```
 # PostgreSQL
 
@@ -18,9 +18,9 @@ This is not always a drop-in replacement for other databases such as MySQL, beca
 *What is Database Shutdown?*
 
 
-When PostgreSQL Postmaster is told to shut down the SQL databases. This means that PostgreSQL will refuse any and all new connections to the database, and shall wait for all current clients to disconnect. Sometimes this can take a while, and sometimes this cannot. You must disconnect all clients before you can restart the database. 
+When PostgreSQL Postmaster is told to shut down the SQL databases. This means that PostgreSQL will refuse any new connections to the database, and shall wait for all current clients to disconnect. Sometimes this can take a while, and sometimes this cannot. You must disconnect all clients before you can restart the database. 
 
-PostgreSQL can receive a shutdown message mainly from its own server through its daemon. The daemon will not perform a graceful shutdown on its own, so this command is triggered. 
+PostgreSQL can receive a shutdown message mainly from its server through its daemon. The daemon will not perform a graceful shutdown on its own, so this command is triggered. 
 
 *What do can I do about this?*
 

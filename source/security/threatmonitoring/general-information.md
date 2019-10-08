@@ -11,7 +11,7 @@ As per control 12.4.1 of the PCI-DSS standards, businesses that accept card paym
 
 UKFast's Threat Monitoring handles this for you. By collecting all your server's logs and sending them to our Threat Monitoring infrastructure, we can parse these logs for threats and store them securely for 12 months, as required the PCI-DSS requirements.
 
-This easy, no fuss solution to this, and many other PCI-DSS requirements ensure your business is compliant and ready to take card payments online.
+This easy, no-fuss solution to this, and many other PCI-DSS requirements ensure your business is compliant and ready to take card payments online.
 
 ### What attacks can Threat Monitoring detect?
 
@@ -19,7 +19,7 @@ As Threat Monitoring is installed onto your servers, it can easily detect and pr
 
 * Brute-force attacks
 * SQL Injection
-* XSS (Cross Site Scripting)
+* XSS (Cross-Site Scripting)
 * Shellshock
 * Path Traversal
 * Code Injection
