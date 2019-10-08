@@ -50,16 +50,6 @@ A successful brute force attack can easily be avoided by ensuring a strong user 
 
 One of the best ways to mitigate these attacks is to remove the attacker's access to affected services completely. We can do this by implementing restriction rules to only allow safe, trusted IP addresses to access certain services and ports. By restricting access to SSH, for example, we can ensure that only trusted locations/IP addresses can access SSH and run commands on our server(s). For more information and a step by step guide on creating firewall rules, please follow our documentation here.
 
-
-## Network scan from same source IP.
-
-*What is a network scan?*
-
-
-Often a preliminary action to an attack, a network scan can be used to find potential vulnerabilities in your configuration, operating system and services running on your server. With information about potential exploits that can be utilized, an attacker can then run a more targeted attempt to exploit a vulnerability in your system to gain access, steal data or to cause damage.
-
-Looking more specifically at a Network Scan, these scans tend to try and detect how your network is set up and determined the best attack vectors based on your setup. These attacks could detect open ports for example, or detect what services are listening on your server. This information will allow them to establish what functionality it has and therefore what will be trying to connect to it. As a rough example, if the attacker detects that port 53 is listening, it knows that a DNS service is running, and can tailor attacks accordingly.
-
 ## Multiple viruses detected - Possible outbreak.
 
 

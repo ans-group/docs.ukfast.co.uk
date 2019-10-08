@@ -4,24 +4,24 @@
    :keywords: security, threat, monitoring, response, alerts, blocking, hacking, ransomware, protection
 
 =====================================
-High Level Alerts explained
+High Level Alerts Explained
 =====================================
 
-Having a good understanding of Threat alerts is key to esnuring that your server is secure and protected from attacks. Should you recedive a Threat Monitoring alert, you can use the below pages to find more ifnromation reguarding what the alert means, what servcice it relates to and the type of attack that could pitentially be improgress. For remediation and prevension advice, take a look at or remnediation tips
+Having a good understanding of Threat Monitoring alerts is key to ensuring that your server is secure and protected from attacks. Should you receive a Threat Monitoring alert, you can use the below pages to find more information reguarding what the alert means, what service it relates to and the type of attack that could potentially be inprogress.
 
 .. toctree::
    :maxdepth: 1
 
-   clamav
-   common-attacks
-   exploit
-   ftp
-   mcafeeav
-   ms-defender
-   ms-security-essentials
-   mysql
-   postfix
-   postgresql
-   selinux
-   ssh
-   system
+   malware/clamav
+   attack/common-attacks
+   explot/exploit
+   other-services/ftp
+   malware/mcafeeav
+   malware/ms-defender
+   malware/ms-security-essentials
+   database/mysql
+   datebase/postfix
+   database/postgresql
+   system/selinux
+   other-services/ssh
+   system/system
