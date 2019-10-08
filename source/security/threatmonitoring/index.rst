@@ -22,3 +22,12 @@ Threat Response is an additional service which provides managed support by our i
    attack-ruleset/index
    alerts-explained/index
    alert-remediation-tips/index
+   alerts-explained/attack/index
+   alerts-explained/database/index
+   alerts-explained/exploit/index
+   alerts-explained/file-monitoring/index
+   alerts-explained/malware/index
+   alerts-explained/other-services/index
+   alerts-explained/system/index
+   alerts-explained/windows/index
+   alerts-explained/scans-and-reconnaissance/index
