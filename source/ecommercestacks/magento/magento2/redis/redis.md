@@ -166,5 +166,5 @@ https://github.com/colinmollenhour/Cm_Cache_Backend_Redis
   .. meta::
      :title: Magento2 Redis | UKFast Documentation
      :description: A guide to using Redis on our Magento2 optimised stack
-     :keywords: ukfast, linux, install, centos, cloud, server, virtual, Magento2, Redis
+     :keywords: ukfast, linux, install, centos, cloud, server, virtual, Magento2, Redis, eCommerce
 
