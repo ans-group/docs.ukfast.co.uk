@@ -11,5 +11,5 @@ NFS, or Network File System is a distributed file system protocol that allows ac
 .. meta::
    :title: Magento NFS | UKFast Documentation
    :description: guides relating to using NFS on our Magento optimised stack
-   :keywords: ukfast, Magento, optimised, stack, NFS
+   :keywords: ukfast, Magento, optimised, stack, NFS, eCommerce
 
