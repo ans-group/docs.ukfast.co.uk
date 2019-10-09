@@ -11,5 +11,5 @@ Percona Server for MySQL is a distribution of the MySQL relational database mana
 .. meta::
    :title: Magento Percona | UKFast Documentation
    :description: guides relating to using PErcona on our Magento optimised stack
-   :keywords: ukfast, linux, centos, Magento, optimised, stack, Percona, MySQL
+   :keywords: ukfast, linux, centos, Magento, optimised, stack, Percona, MySQL, eCommerce
 
