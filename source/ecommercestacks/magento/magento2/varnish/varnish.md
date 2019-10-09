@@ -323,4 +323,4 @@ This tells Magento that although the connection is on port 80 -> 8080 it should 
   .. meta::
      :title: Magento 2 Varnish | UKFast Documentation
      :description: A guide using Varnish with Magento 2
-     :keywords: ukfast, linux, nginx, install, centos, cloud, server, virtual, Magento2, varnish
+     :keywords: ukfast, linux, nginx, install, centos, cloud, server, virtual, Magento2, varnish, eCommerce
