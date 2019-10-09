@@ -11,7 +11,7 @@ To add a domain to your Magento optimised stack please provide us with the follo
 We will then setup the following for you:
 
 - Nginx configuration file (/etc/nginx/conf.d/exampledomain.co.uk.conf)
-- PHP-FPM configuation file (/etc/php-fpm.d/exampledomain.co.uk.conf)
+- PHP-FPM configuration file (/etc/php-fpm.d/exampledomain.co.uk.conf)
 - Document Root (/var/www/vhosts/exampledomain.co.uk/htdocs/)
 - Local System User and password (exampledomain.co.uk)
 - Database (exampledomaincouk)
