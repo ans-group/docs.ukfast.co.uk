@@ -7,7 +7,7 @@ Web attacks are perhaps one of the most common attacks on Internet-facing system
 
 **What is this attack**
 
-Making malicious connections to your database, SQL  attacks are designed to utilize your web applications to run arbitrary SQL queries against your database. As these queries are run by your web application, they can bypass existing security controls and NAC. SQL Injections can take advantage of many different attack vectors, one of the most common is web queries as they tend to sit in close proximity to other services and have privileged access to databases.
+Making malicious connections to your database, SQL  attacks are designed to utilize your web applications to run arbitrary SQL queries against your database. As these queries are run by your web application, they can bypass existing security controls and NAC. SQL Injections can take advantage of many different attack vectors, one of the most common is web queries as they tend to sit close to other services and have privileged access to databases.
 
 **Signatures detected**
 
@@ -225,7 +225,7 @@ Most web-based traffic will be accompanied by a user agent tag. This user agent 
  
  It looks confusing because, well, it is, but that's for another time :P 
  
- Malicious programs will often also pass their own unique user agent or the more deceptive programs may try to imitate a more common user agent like the above, but accidentally misspell some aspects. Threat Monitoring has the ability to detected many of these malicious user agents and block them. See the Remediation and Blocking section below for more information.
+ Malicious programs will often also pass their unique user agent or the more deceptive programs may try to imitate a more common user agent like the above, but accidentally misspell some aspects. Threat Monitoring can detected many of these malicious user agents and block them. See the Remediation and Blocking section below for more information.
 
 **Signatures detected**
 

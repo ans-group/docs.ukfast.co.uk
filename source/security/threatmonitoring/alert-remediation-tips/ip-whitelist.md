@@ -2,7 +2,7 @@
 .. meta::
      :title: IP Whitelisting | UKFast Documentation
      :description: Useful threat remediation and prevention tips
-     :keywords: threat monitoring, alerts, security, compliance, rules, rulesets, ukfast, hosting, file integrity monitoring, rootkit, detection, vulnerability scan, scans, hids, intrustion detection, set up
+     :keywords: threat monitoring, alerts, security, compliance, rules, rulesets, ukfast, hosting, file integrity monitoring, rootkit, detection, vulnerability scan, scans, hids, intrusion detection, set up
 ```
 
 # IP Based Whitelisting
@@ -40,7 +40,7 @@ Follow the steps below to implement this, in the example shown we implement IP b
 7.    Add the IP to restrict access to in the IP address field, set the ‘IP Type’ to ‘Single IP’.
 8.    Add the attacking IP address in the ‘IP Address’ field.
 9.    Leave a note if required.
-10.    You can add additional IP addresses  by pressing ‘Add network Location’
+10.    You can add additional IP addresses  by pressing ‘Add Network Location’
 11.    Press ‘Create Group’ To save this IP group.
 
 12.    Navigate to the ‘Port Groups’ Section
@@ -64,4 +64,4 @@ Follow the steps below to implement this, in the example shown we implement IP b
 28.    Add another similar ‘Incoming Interface Rule’, but change the action to 'Den' and set the source to 'anywhere', ensuring that the destination and ports are the same as the previous access-list rule.
 29. Click the create button.
 30. By clicking and holding the arrows next to the rule in the order column, move the rule to ensure that the Permit rule you just created is at the top of the list and that the Deny rule you just created is directly below it.
-31.    Press the ‘Save Changes’ Button to apply your configuration.
+31.    Press the ‘Save Changes’ button to apply your configuration.

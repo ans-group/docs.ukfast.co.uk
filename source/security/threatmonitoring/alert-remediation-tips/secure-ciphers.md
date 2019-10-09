@@ -4,14 +4,14 @@
 .. meta::
      :title: Setting Secure Ciphers | UKFast Documentation
      :description: Useful threat remediation and prevention tips
-     :keywords: threat monitoring, alerts, security, compliance, rules, rulesets, ukfast, hosting, file integrity monitoring, rootkit, detection, vulnerability scan, scans, hids, intrustion detection, set up
+     :keywords: threat monitoring, alerts, security, compliance, rules, rulesets, ukfast, hosting, file integrity monitoring, rootkit, detection, vulnerability scan, scans, hids, intrusion detection, set up
 ```
 
 # Setting Secure Ciphers
 
-Cyphers and key exchange algorithms are used by many applications to ensure that the connection between the server and the user is secure, and uses a strong encryption algorithm. As computers become faster and more equipped, older cyphers and encryption algorithm become obsolete, so it's important to ensur that we're using that latest and greatest cyphers whre possible.
+Cyphers and key exchange algorithms are used by many applications to ensure that the connection between the server and the user is secure, and uses a strong encryption algorithm. As computers become faster and more equipped, older cyphers and encryption algorithm become obsolete, so it's important to ensure that we're using that latest and greatest cyphers where possible.
 
-A great list of up-to-date strong ciphers can be found here: https://cipherli.st/
+A great list of up-to-date strong cyphers can be found here: https://cipherli.st/
 
 Follow the below steps to set secure cyphers for web servers like Apache, nginx and other services like SSH.
 
@@ -61,7 +61,7 @@ SSLSessionTickets Off
 
 Save the file
 
-Restart the Apache web server.
+Restart the Apache webserver.
 
 `service httpd restart`
 
@@ -108,7 +108,7 @@ SSLSessionTickets Off
 
 Save the file
 
-Restart the Apache web server.
+Restart the Apache webserver.
 
 `service apache2 restart`
 

@@ -2,7 +2,7 @@
 .. meta::
      :title: Postfix Rules Explained | UKFast Documentation
      :description: Our Threat Monitoring ruleset explained
-     :keywords: threat monitoring, alerts, security, compliance, rules, rulesets, ukfast, hosting, file integrity monitoring, rootkit, detection, vulnerability scan, scans, hids, intrustion detection, set up
+     :keywords: threat monitoring, alerts, security, compliance, rules, rulesets, ukfast, hosting, file integrity monitoring, rootkit, detection, vulnerability scan, scans, hids, intrusion detection, set up
 ```
 ## Postfix
 
@@ -10,7 +10,7 @@
 
 Multiple Misuse of SMTP Service is a feature where some Postfix commands are being used in unsupported configurations and return ```503 Bad Sequence of Commands```. This can be caused by servers sending multiple commands out at a time or messing up the ordering of the commands. 
 
-This can relate to all mail servers, however, this page focuses on Postfix. This is a standard communication between mail servers which allows for communication of email servers of different types. Postfix is a more commonly used system which runs in Unix-like systems such as Linux, MacOS and FreeBSD.
+This can relate to all mail servers, however, this page focuses on Postfix. This is a standard communication between mail servers which allows for communication of email servers of different types. Postfix is a more commonly used system which runs on Unix-like systems such as Linux, macOS and FreeBSD.
 
 *Does this mean I am being attacked?*
 
@@ -35,7 +35,7 @@ This error is very rarely to do with your server configuration and is more likel
 If an attacker is trying to break your mail server, blocking their IP address on your firewalls will stop them from being able to reach your mail server, so they will not be able to send the wrong commands. 
 
 
-## Postfix Multiple attempts to send e-mail from a black-listed IP address (blocked).
+## Postfix Multiple attempts to send e-mail from a blacklisted IP address (blocked).
 
 
 *What does this mean?*
@@ -43,8 +43,8 @@ If an attacker is trying to break your mail server, blocking their IP address on
 
 This rule is informing you that there have been multiple attempts at sending an email from an IP that is blacklisted, meaning the IP address is known to be involved in spam activities. It's not uncommon for a mail IP address to end up on the blacklist, especially on a shared server. This can be due to the volume of mail coming from that server or messages possessing spam-like characteristics. It can also be caused by email forwarders. 
 
-This does not mean that you are being attacked. It is more likely because blacklists automatically add your mail servers IP address that is assigned via your ISP. An IP can also end up being on a blacklist due to a virus, malware or spam. Should you have a virus or malware on your computer and it is constantly pinging or attempting to communicate with other computers, it is likely that the admin of another computer will see this attack and block the IP address and report it. If spam email is sent or a mail server is run that is not properly configured and it allows spam to be sent then the IP address becomes blacklisted. 
+This does not mean that you are being attacked. It is more likely because blacklists automatically add your mail servers IP address that is assigned via your ISP. An IP can also end up being on a blacklist due to a virus, malware or spam. Should you have a virus or malware on your computer and it is constantly pinging or attempting to communicate with other computers, the admin of another computer will likely see this attack and block the IP address and report it. If spam email is sent or a mail server is run that is not properly configured and it allows spam to be sent then the IP address becomes blacklisted. 
 
 *How do I fix this?*
 
-First, you should make sure that all devices on your network are not infected. After you've determined your network is clean and that no unauthorized traffic is going out, you many need to request that your IP address be removed from the relevant blacklist. Each blacklist will have guidance how how to do this for their service.
+First, you should make sure that all devices on your network are not infected. After you've determined your network is clean and that no unauthorized traffic is going out, you may need to request that your IP address be removed from the relevant blacklist. Each blacklist will have guidance on how how to do this for their service.
