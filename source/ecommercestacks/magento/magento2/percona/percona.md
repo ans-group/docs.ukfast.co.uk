@@ -164,5 +164,5 @@ As a rule of thumb, if you add those numbers and round up to the nearest GB, tha
   .. meta::
      :title: Magento2 Percona | UKFast Documentation
      :description: A guide to using Percona on our Magento2 optimised stack
-     :keywords: ukfast, linux, install, centos, cloud, server, virtual, Magento2, Percona
+     :keywords: ukfast, linux, install, centos, cloud, server, virtual, Magento2, Percona, eCommerce
 
