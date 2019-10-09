@@ -44,7 +44,7 @@ You need to ensure the firewall for the server allows port 22 outbound. This can
 
 ```eval_rst
   .. meta::
-     :title: Shopware Git | UKFast Documentation
-     :description: A guide to using Git on our Shopware optimised stacks
-     :keywords: ukfast, linux, install, centos, cloud, server, virtual, Shopware, git, eCommerce
+     :title: Git | UKFast Documentation
+     :description: A guide to using Git
+     :keywords: ukfast, linux, install, centos, cloud, server, virtual, git, eCommerce
 
