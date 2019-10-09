@@ -6,34 +6,25 @@ The UKFast Shopware optimised stack was created in 20017. The core components of
 
 - **Firewall**: :doc:`Dedicated/Shared Firewall </network/firewalls/index>` 
 - **Web Service**: :doc:`/operatingsystems/linux/nginx/index`
-- **PHP Utilities**: :doc:`/ecommercestacks/magento/magento1/php/index` , :doc:`/ecommercestacks/magento/magento1/php-fpm/index`, :doc:`/ecommercestacks/magento/magento1/opcache/index`
+- **PHP Utilities**: :doc:`/ecommercestacks/shopware/php/index` , :doc:`/ecommercestacks/shopware/php-fpm/index`, :doc:`/ecommercestacks/shopware/opcache/index`, :doc:`/ecommercestacks/shopware/apcu/index`
 - **Mail Services**: :doc:`Postfix </operatingsystems/linux/mail/postfix>`
 - **SSH/FTP Access**: :doc:`/operatingsystems/linux/ssh/index`, :doc:`/operatingsystems/linux/ftp/setup_vsftpd`
-- **Database services**: :doc:`ecommercestacks/magento/magento1/percona/index`, :doc:`/ecommercestacks/magento/magento1/redis/index`
-- **Version Control Utilities**: :doc:`/ecommercestacks/magento/magento1/git/index` 
-- **File system distribution**: :doc:`/ecommercestacks/magento/magento1/nfs/index`
+- **Database services**: :doc:`ecommercestacks/shopware/percona/index`, :doc:`/ecommercestacks/shopware/redis/index`, :doc:`/ecommercestacks/shopware/phpmyadmin/index`
+- **Version Control Utilities**: :doc:`/ecommercestacks/shopware/git/index` 
 
-We have a number of guides for our Magento 1 optimised stack:
+We have a number of guides for our shopware optimised stack:
 
 .. toctree::
    :maxdepth: 1
 
-   permissionguide
-   wpinsubdir.md
-   restrictfilefolder.md
-   magentoinsubdir.md
-   redis/index
-   adddomain.md
-   ../redtrictwebsite.md
-   ../magentottfb.md
-   ../dbtriggers.md
+   php/index
+   php-fpm/index
    git/index
    opcache/index
-   php-fpm/index
-   nfs/index
-   php/index
-   multiphp/index
+   apcu/index
    percona/index
+   redis/index
+   phpmyadmin/index
    
 We also have guides for :doc:`/ecommercestacks/magento/magento2/index`
    
