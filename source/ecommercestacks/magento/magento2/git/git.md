@@ -46,5 +46,5 @@ You need to ensure the firewall for the server allows port 22 outbound. This can
   .. meta::
      :title: Magento Git | UKFast Documentation
      :description: A guide to using Git on our Magento optimised stacks
-     :keywords: ukfast, linux, install, centos, cloud, server, virtual, Magento, git
+     :keywords: ukfast, linux, install, centos, cloud, server, virtual, Magento, git, eCommerce
 
