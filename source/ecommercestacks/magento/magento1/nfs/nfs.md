@@ -63,5 +63,5 @@ This write speed test creates the file /nfsshare/testfile with NFS being mounted
   .. meta::
      :title: Magento NFS | UKFast Documentation
      :description: A guide to using NFS on our Magento optimised stack
-     :keywords: ukfast, linux, install, centos, cloud, server, virtual, Magento, NFS
+     :keywords: ukfast, linux, install, centos, cloud, server, virtual, Magento, NFS, eCommerce
 
