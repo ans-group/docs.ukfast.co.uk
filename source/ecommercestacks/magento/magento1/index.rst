@@ -6,12 +6,12 @@ The UKFast Magento 1 optimised stack has been going since 2008. The core compone
 
 - **Firewall**: :doc:`Dedicated/Shared Firewall </network/firewalls/index>` 
 - **Web Service**: :doc:`/operatingsystems/linux/nginx/index`
-- **PHP Utilities**: :doc:`/operatingsystems/linux/magento/magento1/php/index` , :doc:`/operatingsystems/linux/magento/magento1/php-fpm/index`, :doc:`/operatingsystems/linux/magento/magento1/opcache/index`
+- **PHP Utilities**: :doc:`/ecommercestacks/magento/magento1/php/index` , :doc:`/ecommercestacks/magento/magento1/php-fpm/index`, :doc:`/ecommercestacks/magento/magento1/opcache/index`
 - **Mail Services**: :doc:`Postfix </operatingsystems/linux/mail/postfix>`
 - **SSH/FTP Access**: :doc:`/operatingsystems/linux/ssh/index`, :doc:`/operatingsystems/linux/ftp/setup_vsftpd`
-- **Database services**: :doc:`/operatingsystems/linux/magento/magento1/percona/index`, :doc:`/operatingsystems/linux/magento/magento1/redis/index`
-- **Version Control Utilities**: :doc:`/operatingsystems/linux/magento/magento1/git/index` 
-- **File system distribution**: :doc:`/operatingsystems/linux/magento/magento1/nfs/index` 
+- **Database services**: :doc:`ecommercestacks/magento/magento1/percona/index`, :doc:`/ecommercestacks/magento/magento1/redis/index`
+- **Version Control Utilities**: :doc:`/ecommercestacks/magento/magento1/git/index` 
+- **File system distribution**: :doc:`/ecommercestacks/magento/magento1/nfs/index`
 
 We have a number of guides for our Magento 1 optimised stack:
 
@@ -35,10 +35,10 @@ We have a number of guides for our Magento 1 optimised stack:
    multiphp/index
    percona/index
    
-We also have guides for :doc:`/operatingsystems/linux/magento/magento2/index`
+We also have guides for :doc:`/ecommercestacks/magento/magento2/index`
    
 .. meta::
    :title: Magento 1 Optimised Stack | UKFast Documentation
    :description: guides relating to UKFast Magento 1 Optimised Stack
-   :keywords: ukfast, Magento, optimised, stack
+   :keywords: ukfast, Magento, optimised, stack, eCommerce
 
