@@ -222,5 +222,5 @@ We would recommend adding this to the shell folder and configuring a cron to run
   .. meta::
      :title: Magento 1 IP Restrict File/Folder | UKFast Documentation
      :description: A guide to IP restrict a file or folder within Nginx
-     :keywords: ukfast, linux, nginx, install, centos, cloud, server, virtual, Magento, security
+     :keywords: ukfast, linux, nginx, install, centos, cloud, server, virtual, Magento, security, eCommerce
 
