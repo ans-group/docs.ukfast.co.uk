@@ -75,5 +75,5 @@ You can then browse www.magentodomain.com/opcache-gui. We recommend password/ip 
   .. meta::
      :title: Magento Opcache | UKFast Documentation
      :description: A guide to using Opcache on our Magento optimised stack
-     :keywords: ukfast, linux, install, centos, cloud, server, virtual, Magento, Opcache
+     :keywords: ukfast, linux, install, centos, cloud, server, virtual, Magento, Opcache, eCommerce
 
