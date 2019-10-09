@@ -26,8 +26,6 @@ We have a number of guides for our shopware optimised stack:
    redis/index
    phpmyadmin/index
    
-We also have guides for :doc:`/ecommercestacks/magento/magento2/index`
-   
 .. meta::
    :title: Shopware Optimised Stack | UKFast Documentation
    :description: guides relating to UKFast Shopware Optimised Stack
