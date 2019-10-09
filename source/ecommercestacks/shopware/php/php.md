@@ -23,11 +23,6 @@ We use the remi yum repository for PHP. You can install the remi repository with
 wget http://rpms.remirepo.net/enterprise/remi-release-7.rpm && rpm -Uvh remi-release-7.rpm && rm -f remi-release-7.rpm
 ```
 
-#### CentOS 6
-```bash
-wget http://rpms.remirepo.net/enterprise/remi-release-6.rpm && rpm -Uvh remi-release-6.rpm && rm -f remi-release-6.rpm
-```
-
 ### Install/Downgrade
 If you are installing or downgrading PHP you need to remove PHP from the server and then follow the install guide below. We can remove PHP with the command:
 
@@ -42,21 +37,21 @@ This includes the PHP modules required by Shopware.
 
 #### PHP 7.0
 ```bash
-yum install --disablerepo='*' --enablerepo=base,remi-php70,remi,epel,updates php php-mcrypt php-pdo php-mysqlnd php-opcache php-xml php-gd php-devel php-mysql php-intl php-mbstring php-bcmath php-json php-iconv php-pecl-redis php-fpm php-zip php-soap composer
+yum install --enablerepo=remi-php70,remi,epel php php-pdo php-mysqlnd php-opcache php-xml php-mcrypt php-gd php-devel php-mysql php-intl php-mbstring php-bcmath php-json php-pecl-zip php-iconv php-pecl-apcu php-pecl-redis php-fpm php-zip php-soap php-ioncube-loader composer
 ```
 
 #### PHP 7.1
 ```bash
-yum install --disablerepo='*' --enablerepo=base,remi-php71,remi,epel,updates php php-mcrypt php-pdo php-mysqlnd php-opcache php-xml php-gd php-devel php-mysql php-intl php-mbstring php-bcmath php-json php-iconv php-pecl-redis php-fpm php-zip php-soap composer
+yum install --enablerepo=remi-php71,remi,epel php php-pdo php-mysqlnd php-opcache php-xml php-mcrypt php-gd php-devel php-mysql php-intl php-mbstring php-bcmath php-json php-pecl-zip php-iconv php-pecl-apcu php-pecl-redis php-fpm php-zip php-soap php-ioncube-loader composer
 ```
 #### PHP 7.2
 ```bash
-yum install --disablerepo='*' --enablerepo=base,remi-php72,remi,epel,updates php php-pecl-mcrypt php-pdo php-mysqlnd php-opcache php-xml php-gd php-devel php-mysql php-intl php-mbstring php-bcmath php-json php-iconv php-pecl-redis php-fpm php-zip php-soap composer
+yum install --enablerepo=remi-php72,remi,epel php php-pdo php-mysqlnd php-opcache php-xml php-pecl-mcrypt php-gd php-devel php-intl php-mbstring php-bcmath php-json php-pecl-zip php-iconv php-pecl-apcu php-pecl-redis php-fpm php-zip php-soap php-ioncube-loader composer
 ```
 
 #### PHP 7.3
 ```bash
-yum install --disablerepo='*' --enablerepo=base,remi-php73,remi,epel,updates php php-pecl-mcrypt php-pdo php-mysqlnd php-opcache php-xml php-gd php-devel php-mysql php-intl php-mbstring php-bcmath php-json php-iconv php-pecl-redis php-fpm php-zip php-soap composer
+yum install --enablerepo=remi-php73,remi,epel php php-pdo php-mysqlnd php-opcache php-xml php-pecl-mcrypt php-gd php-devel php-intl php-mbstring php-bcmath php-json php-pecl-zip php-iconv php-pecl-apcu php-pecl-redis php-fpm php-zip php-soap php-ioncube-loader composer
 ```
 
 ### Update PHP
