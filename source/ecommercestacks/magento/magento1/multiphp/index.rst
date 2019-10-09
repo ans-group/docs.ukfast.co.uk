@@ -13,5 +13,5 @@ Once testing is complete we recommend changing the base install to the desired v
 .. meta::
    :title: Magento Multiple PHP Installations | UKFast Documentation
    :description: guides relating to using multiple PHP installations on our Magento optimised stack
-   :keywords: ukfast, Magento, optimised, stack, PHP
+   :keywords: ukfast, Magento, optimised, stack, PHP, eCommerce
 
