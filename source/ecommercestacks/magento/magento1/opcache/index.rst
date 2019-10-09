@@ -11,5 +11,5 @@ OPcache improves PHP performance by storing precompiled script bytecode in share
 .. meta::
    :title: Magento OPCache | UKFast Documentation
    :description: guides relating to using OPCache on our Magento optimised stack
-   :keywords: ukfast, Magento, optimised, stack, OPCache
+   :keywords: ukfast, Magento, optimised, stack, OPCache, eCommerce
 
