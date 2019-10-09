@@ -19,3 +19,4 @@ Help and guidance with Linux and related technologies
    websites/index
    vpn/index
    ssh/index
+   git/index
