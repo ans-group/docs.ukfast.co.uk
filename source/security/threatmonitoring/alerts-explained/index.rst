@@ -20,7 +20,6 @@ Having a good understanding of Threat Monitoring alerts is key to ensuring that 
    malware/ms-defender
    malware/ms-security-essentials
    database/mysql
-   datebase/postfix
    database/postgresql
    system/selinux
    other-services/ssh
