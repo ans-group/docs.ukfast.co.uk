@@ -74,4 +74,4 @@ You should now be able to access sitemap.xml without any issues:
   .. meta::
      :title: Magento 2 File/Directory Outside /pub | UKFast Documentation
      :description: A guide to adding Files/Directories to run outside /pub in Nginx
-     :keywords: ukfast, linux, permissions, nginx, install, centos, cloud, lamp, server, virtual, Wordpress, Magento
+     :keywords: ukfast, linux, permissions, nginx, install, centos, cloud, lamp, server, virtual, Wordpress, Magento, eCommerce
