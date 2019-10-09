@@ -64,6 +64,6 @@ If running the Magento 2 CLI please ensure you're logged in as the PHP-FPM confi
   .. meta::
      :title: Magento 2 Adding Domain(s) To The Stack | UKFast Documentation
      :description: A guide to adding domains to the Magento optimised stack
-     :keywords: ukfast, linux, nginx, install, centos, cloud, server, virtual, Magento2, security, php-fpm, mysql, percona
+     :keywords: ukfast, linux, nginx, install, centos, cloud, server, virtual, Magento2, security, php-fpm, mysql, percona, eCommerce
 
 
