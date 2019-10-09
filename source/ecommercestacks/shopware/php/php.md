@@ -108,7 +108,7 @@ sed -i 's/;opcache.enable_file_override=0/opcache.enable_file_override=1/g' /etc
 You can find more information on OPcache [here](https://docs.ukfast.co.uk/ecommercestacks/shopware/opcache/opcache.html)
 
 ### APCu Settings
-Review and then apply the OPcache settings (Simply copy and paste the entire block below):
+Review and then apply the APCu settings (Simply copy and paste the below):
 ```bash
 sed -i 's/;apc.shm_size=32M/apc.shm_size=512M/g' /etc/php.d/*apcu.ini
 ```
