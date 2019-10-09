@@ -75,4 +75,4 @@ If there are no errors in the configuration test proceed to reload the Nginx ser
   .. meta::
      :title: Magento 2 Wordpress in a Sub Directory | UKFast Documentation
      :description: A guide to adding Wordpress Nginx configuration when running Wordpress in a sub directory
-     :keywords: ukfast, linux, permissions, nginx, install, centos, cloud, lamp, server, virtual, Wordpress, Magento
+     :keywords: ukfast, linux, permissions, nginx, install, centos, cloud, lamp, server, virtual, Wordpress, Magento, eCommerce
