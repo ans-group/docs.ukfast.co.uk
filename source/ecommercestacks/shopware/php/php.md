@@ -92,37 +92,42 @@ nginx -t
 systemctl restart nginx
 ```
 
-### OPcache Setting
+### OPcache Settings
 Review and then apply the OPcache settings (Simply copy and paste the entire block below):
 ```bash
 sed -i 's/opcache.memory_consumption=128/opcache.memory_consumption=512/g' /etc/php.d/*opcache.ini
 sed -i 's/opcache.interned_strings_buffer=8/opcache.interned_strings_buffer=12/g' /etc/php.d/*opcache.ini
 sed -i 's/opcache.max_accelerated_files=4000/opcache.max_accelerated_files=60000/g' /etc/php.d/*opcache.ini
 sed -i 's/;opcache.save_comments=0/opcache.save_comments=1/g' /etc/php.d/*opcache.ini
-sed -i 's/;opcache.save_comments=1/opcache.save_comments=1/g' /etc/php.d/*opcache.ini
-sed -i 's/opcache.save_comments=0/opcache.save_comments=1/g' /etc/php.d/*opcache.ini
-sed -i 's/;opcache.load_comments=1/opcache.load_comments=1/g' /etc/php.d/*opcache.ini
+sed -i 's/;opcache.fast_shutdown=0/opcache.fast_shutdown=1/g' /etc/php.d/*opcache.ini
+sed -i 's/;opcache.load_comments=0/opcache.load_comments=1/g' /etc/php.d/*opcache.ini
+sed -i 's/;opcache.revalidate_freq=2/opcache.revalidate_freq=5/g' /etc/php.d/*opcache.ini
 sed -i 's/;opcache.enable_file_override=0/opcache.enable_file_override=1/g' /etc/php.d/*opcache.ini
 ```
 
-You can find more information on OPcache [here](https://docs.ukfast.co.uk/ecommercestacks/shopware/opcache/opcache.html#stack-opcache-settings)
+You can find more information on OPcache [here](https://docs.ukfast.co.uk/ecommercestacks/shopware/opcache/opcache.html)
+
+### APCu Settings
+Review and then apply the OPcache settings (Simply copy and paste the entire block below):
+```bash
+sed -i 's/;apc.shm_size=32M/apc.shm_size=512M/g' /etc/php.d/*apcu.ini
+```
+
+You can find more information on APCu [here](https://docs.ukfast.co.uk/ecommercestacks/shopware/apcu/apcu.html)
 
 ### /etc/php.ini Settings
 Review and copy the settings from /root/php_upgrade_backup-$(date +%d_%b_%Y)/php.ini to /etc/php.ini. Alternatively use our standard settings for the php.ini file (You can copy and paste the whole block below into your SSH terminal):
 
 ```bash
 cp /etc/php.ini /root/php.ini.default
-sed -ie "s_;date.timezone =_date.timezone = \"Europe/London\"_g" /etc/php.ini
-sed -ie "s/; max_input_vars = 1000/max_input_vars = 20000/g" /etc/php.ini
-sed -ie "s/memory_limit = 128M/memory_limit = 2G/" /etc/php.ini
-sed -ie "s/max_execution_time = 30/max_execution_time = 18000/" /etc/php.ini
+ssed -ie "s_;date.timezone =_date.timezone = \"Europe/London\"_g" /etc/php.ini
+sed -ie "s/memory_limit = 128M/memory_limit = 1024M/" /etc/php.ini
+sed -ie "s/max_execution_time = 30/max_execution_time = 1800/" /etc/php.ini
 sed -ie "s/max_input_time = 60/max_input_time = 90/" /etc/php.ini
 sed -ie "s/short_open_tag = Off/short_open_tag = On/" /etc/php.ini
 sed -ie "s/;always_populate_raw_post_data = On/always_populate_raw_post_data = -1/" /etc/php.ini
 sed -ie "s/expose_php = On/expose_php = Off/" /etc/php.ini
 sed -ie "s/upload_max_filesize = 2M/upload_max_filesize = 8M/" /etc/php.ini
-sed -ie "s/zlib.output_compression = Off/zlib.output_compression = On/" /etc/php.ini
-echo "suhosin.session.cryptua = off" >> /etc/php.ini
 ```
 
 ### PHP-FPM Default Pool
