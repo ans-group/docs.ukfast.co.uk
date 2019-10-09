@@ -29,5 +29,5 @@ Composer version 1.8.6 2019-06-11 15:03:05
   .. meta::
      :title: Magento Composer | UKFast Documentation
      :description: A guide to using Composer on our Magento2 optimised stack
-     :keywords: ukfast, linux, install, centos, cloud, server, virtual, Magento2, composer
+     :keywords: ukfast, linux, install, centos, cloud, server, virtual, Magento2, composer, eCommerce
 
