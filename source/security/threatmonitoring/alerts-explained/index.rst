@@ -14,7 +14,7 @@ Having a good understanding of Threat Monitoring alerts is key to ensuring that 
 
    malware/clamav
    attack/common-attacks
-   explot/exploit
+   exploit/exploit
    other-services/ftp
    malware/mcafeeav
    malware/ms-defender
