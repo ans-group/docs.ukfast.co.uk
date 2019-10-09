@@ -59,5 +59,5 @@ You should now be able to access the new file without any issues:
   .. meta::
      :title: Magento 2 .php File Whitelist | UKFast Documentation
      :description: A guide to adding new php filenames to the Nginx whitelist
-     :keywords: ukfast, linux, nginx, install, centos, cloud, server, virtual
+     :keywords: ukfast, linux, nginx, install, centos, cloud, server, virtual, eCommerce
 
