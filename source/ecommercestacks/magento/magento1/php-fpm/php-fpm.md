@@ -41,5 +41,5 @@ include=/etc/php-fpm.d/*.conf
   .. meta::
      :title: Magento PHP-FPM | UKFast Documentation
      :description: A guide to using PHP-FPM on our Magento optimised stacks
-     :keywords: ukfast, linux, install, centos, cloud, server, virtual, Magento, PHP-FPM
+     :keywords: ukfast, linux, install, centos, cloud, server, virtual, Magento, PHP-FPM, eCommerce
 
