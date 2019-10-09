@@ -110,4 +110,4 @@ Now the permissions for the site should be correct. However, if you are unsure a
   .. meta::
      :title: Magento 2 Permissions guide | UKFast Documentation
      :description: A guide to ensure you are running secure permissions on your Magento 2 application files
-     :keywords: ukfast, linux, permissions, nginx, install, centos, cloud, lamp, server, virtual
+     :keywords: ukfast, linux, permissions, nginx, install, centos, cloud, lamp, server, virtual, eCommerce
