@@ -9,7 +9,7 @@ The UKFast Magento 1 optimised stack has been going since 2008. The core compone
 - **PHP Utilities**: :doc:`/ecommercestacks/magento/magento1/php/index` , :doc:`/operatingsystems/linux/php-fpm/index`, :doc:`/ecommercestacks/magento/magento1/opcache/index`
 - **Mail Services**: :doc:`Postfix </operatingsystems/linux/mail/postfix>`
 - **SSH/FTP Access**: :doc:`/operatingsystems/linux/ssh/index`, :doc:`/operatingsystems/linux/ftp/setup_vsftpd`
-- **Database services**: :doc:`ecommercestacks/magento/magento1/percona/index`, :doc:`/ecommercestacks/magento/magento1/redis/index`
+- **Database services**: :doc:`/operatingsystems/linux/percona/index`, :doc:`/ecommercestacks/magento/magento1/redis/index`
 - **Version Control Utilities**: :doc:`/operatingsystems/linux/git/index` 
 - **File system distribution**: :doc:`/ecommercestacks/magento/magento1/nfs/index`
 
@@ -31,7 +31,6 @@ We have a number of guides for our Magento 1 optimised stack:
    nfs/index
    php/index
    multiphp/index
-   percona/index
    
 We also have guides for :doc:`/ecommercestacks/magento/magento2/index`
    
