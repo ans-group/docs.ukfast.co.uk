@@ -13,21 +13,21 @@ It's very important to only use NFS for files/folder which need to be distribute
 You can directly mount NFS to the folder within your document root:
 
 ```bash
-NFSSERVER/nfsshare/media -> /var/www/vhosts/magentodomain.com/htdocs/pub/media
+NFSSERVER/nfsshare/media -> /var/www/vhosts/domain.com/htdocs/media
 ```
 You can do this with the following entry in /etc/fstab:
 
 ```bash
  ~]# cat /etc/fstab | grep -i nfs
-NFSSERVER:/nfsshare/media /var/www/vhosts/magentodomain.com/htdocs/pub/media nfs rw,vers=3,noatime,nodiratime,async,timeo=1800 0 0
- ~]# mount /var/www/vhosts/magentodomain.com/htdocs/pub/media
+NFSSERVER:/nfsshare/media /var/www/vhosts/domain.com/htdocs/media nfs rw,vers=3,noatime,nodiratime,async,timeo=1800 0 0
+ ~]# mount /var/www/vhosts/domain.com/htdocs/media
 ```
 
 #### Symlinks
 You can symlink files/folders from your document root to the NFS mount point.
 
 ```bash
-~]# ln -s /var/www/vhosts/magentodomain.com/htdocs/pub/media /nfsshare/media
+~]# ln -s /var/www/vhosts/domain.com/htdocs/media /nfsshare/media
 ```
 
 ### Open File Check
@@ -57,7 +57,7 @@ This write speed test creates the file /nfsshare/testfile with NFS being mounted
 
 ```eval_rst
   .. meta::
-     :title: Magento2 NFS | UKFast Documentation
-     :description: A guide to using NFS on our Magento2 optimised stack
-     :keywords: ukfast, linux, install, centos, cloud, server, virtual, Magento, Magento2, NFS, eCommerce
+     :title: NFS | UKFast Documentation
+     :description: A guide to using NFS
+     :keywords: ukfast, linux, install, centos, cloud, server, virtual, Magento, Magento2, Shopware, NFS, eCommerce
 
