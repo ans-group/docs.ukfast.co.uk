@@ -19,6 +19,7 @@ Help and guidance with Linux and related technologies
    php/index
    php-fpm/index
    websites/index
+   nfs/index
    vpn/index
    percona/index
    ssh/index
