@@ -1,5 +1,6 @@
 # Redis
 
+### Cache
 From Shopware 5.3 it is possible to use [Redis](https://redis.io/) as cache adapter. Add the following to config.php:
 
 ```bash
@@ -25,6 +26,22 @@ From Shopware 5.3 it is possible to use [Redis](https://redis.io/) as cache adap
 ```
 
 Be aware, that for Zend_Cache::CLEANING_MODE_ALL the cache implementation will issue "FLUSHDB" and therefore clear the current redis db index. For that reason, the db index for the cache should not be used for persistent data.
+
+### Sessions
+You can use Redis for sessions by adding to the config.php file:
+```bash
+'session' => [
+    'save_handler' => 'redis',
+    'save_path' => "tcp://127.0.0.1:6379",
+],
+
+'backendsession' => [
+    'save_handler' => 'redis',
+    'save_path' => "tcp://127.0.0.1:6379",
+],
+```
+
+You may need to change the IP address and you can change the port to run backend sessions and frontend sessions on different instances.
 
 You can find more information on the Redis service [here](https://docs.ukfast.co.uk/operatingsystems/linux/redis/redis.html)
 
