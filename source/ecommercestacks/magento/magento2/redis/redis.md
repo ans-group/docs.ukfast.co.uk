@@ -16,14 +16,16 @@ https://github.com/colinmollenhour/Cm_Cache_Backend_Redis
 ### Configure Magento2 For Redis
 You can use the Magento2 CLI to configure Redis. The examples below uses the following:
 
-*Sessions:* 
+*Sessions:* <br>
 Host: 127.0.0.1
 Port: 6379
 DB: 0
+
 *Cache:*
 Host: 127.0.0.1
 Port: 6380
 DB: 1
+
 *Page_Cahce:*
 Host: 127.0.0.1
 Port: 6381
