@@ -20,5 +20,6 @@ Help and guidance with Linux and related technologies
    php-fpm/index
    websites/index
    vpn/index
+   percona/index
    ssh/index
    git/index
