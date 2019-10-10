@@ -16,9 +16,9 @@ You can confirm the module has been loaded:
 Zend OPcache
 ```
 
-### Flush OPcache
+### Flush APCu
 #### Service Reload
-You can flush OPcache with a reload of the php-fpm service, always run a configuration test before reloading
+You can flush APCu with a reload of the php-fpm service, always run a configuration test before reloading
 
 ```bash
 ~]# php-fpm -t
@@ -31,45 +31,18 @@ You can also clear OPcache using the PHP function:
 
 ```bash
 <?php
- opcache_reset();
+ if (extension_loaded('apcu')) {
+    echo "APCu cache: " . apcu_clear_cache() . "\n";
+ }
 ?>
 ```
 
 ### Stack APCu settings
-We use the following sed to change the default settings of OPcache on our Shopware stacks:
+We use the following sed to change the default settings of APCu on our Shopware stacks:
 
 ```bash
-sed -i 's/opcache.memory_consumption=128/opcache.memory_consumption=512/g' /etc/php.d/*opcache.ini
-sed -i 's/opcache.interned_strings_buffer=8/opcache.interned_strings_buffer=12/g' /etc/php.d/*opcache.ini
-sed -i 's/opcache.max_accelerated_files=4000/opcache.max_accelerated_files=60000/g' /etc/php.d/*opcache.ini
-sed -i 's/;opcache.save_comments=0/opcache.save_comments=1/g' /etc/php.d/*opcache.ini
-sed -i 's/;opcache.save_comments=1/opcache.save_comments=1/g' /etc/php.d/*opcache.ini
-sed -i 's/opcache.save_comments=0/opcache.save_comments=1/g' /etc/php.d/*opcache.ini
-sed -i 's/;opcache.load_comments=1/opcache.load_comments=1/g' /etc/php.d/*opcache.ini
-sed -i 's/;opcache.enable_file_override=0/opcache.enable_file_override=1/g' /etc/php.d/*opcache.ini
+sed -i 's/;apc.shm_size=32M/apc.shm_size=512M/g' /etc/php.d/*apcu.ini
 ```
-
-This changes the values to:
-
-```bash
-opcache.memory_consumption=512
-pcache.interned_strings_buffer=12
-opcache.max_accelerated_files=60000
-opcache.save_comments=1
-opcache.save_comments=1
-opcache.enable_file_override=1
-```
-
-### OPcache GUI
-The OPcache GUI [https://github.com/amnuts/opcache-gui](https://github.com/amnuts/opcache-gui) is a very handy tool which allows you to flush cache, view the files in cache, memory statistics and lots more. You simply need to download the files to your document root:
-
-```bash
-~]# cd /var/www/vhosts/shopwaredomain.com/htdocs/pub/
-~]# git clone https://github.com/amnuts/opcache-gui
-~]# chown -R shopwareuser: opcache-gui
-```
-
-You can then browse www.shopwaredomain.com/opcache-gui. We recommend password/ip redirection for this URI, we have guides on how to do this [here](https://docs.ukfast.co.uk/operatingsystems/linux/magento/magento2/restrictfilefolder.html)
 
 ```eval_rst
   .. meta::
