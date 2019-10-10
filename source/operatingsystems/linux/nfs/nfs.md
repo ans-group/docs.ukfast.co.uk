@@ -19,7 +19,7 @@ You can do this with the following entry in /etc/fstab:
 
 ```bash
  ~]# cat /etc/fstab | grep -i nfs
-NFSSERVER:/nfsshare/media /var/www/vhosts/domain.com/htdocs/media nfs rw,vers=3,noatime,nodiratime,async,timeo=1800 0 0
+NFSSERVER:/nfsshare/media /var/www/vhosts/domain.com/htdocs/media nfs rw,noatime,nodiratime,async,timeo=1800 0 0
  ~]# mount /var/www/vhosts/domain.com/htdocs/media
 ```
 
