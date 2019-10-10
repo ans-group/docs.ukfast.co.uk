@@ -4,16 +4,16 @@
 You can check the version of OPcache installed with the command:
 
 ```bash
-~]# php -v | grep -i opcache
-    with Zend OPcache v7.2.19, Copyright (c) 1999-2018, by Zend Technologies
+~]# rpm -qa | grep -i apcu
+php-pecl-apcu-5.1.17-1.el7.remi.7.2.x86_64
 ```
 
 ### Module Check
 You can confirm the module has been loaded:
 
 ```bash
-~]# php -m | grep -i opcache
-Zend OPcache
+~]# php -m | grep -i APCu
+apcu
 ```
 
 ### Flush APCu
