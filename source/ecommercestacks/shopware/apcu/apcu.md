@@ -1,7 +1,7 @@
 # APCu
 
 ### Version Check
-You can check the version of OPcache installed with the command:
+You can check the version of APCu installed with the command:
 
 ```bash
 ~]# rpm -qa | grep -i apcu
@@ -27,7 +27,7 @@ You can flush APCu with a reload of the php-fpm service, always run a configurat
 ```
 
 #### PHP Function
-You can also clear OPcache using the PHP function:
+You can also clear APCu using the PHP function:
 
 ```bash
 <?php
