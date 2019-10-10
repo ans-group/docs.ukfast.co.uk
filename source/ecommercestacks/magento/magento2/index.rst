@@ -12,7 +12,7 @@ In 2015 we created our Magento 2 optimised stack. The core components of this st
 * **HTTP Caching Utilities**: :doc:`/ecommercestacks/magento/magento2/varnish/index`
 * **Database services**: :doc:`/operatingsystems/linux/percona/index`, :doc:`/ecommercestacks/magento/magento2/elasticsearch/index`, :doc:`/ecommercestacks/magento/magento2/redis/index`
 * **Version Control Utilities**: :doc:`/operatingsystems/linux/git/index`
-* **File system distribution**: :doc:`/ecommercestacks/magento/magento2/nfs/index`
+* **File system distribution**: :doc:`/operatingsystems/linux/nfs/index`
 
 We have a number of guides for our Magento 2 optimised stack:
 
@@ -34,7 +34,6 @@ We have a number of guides for our Magento 2 optimised stack:
    composer/index
    elasticsearch/index
    opcache/index
-   nfs/index
    php/index
    multiphp/index
    redis/index
