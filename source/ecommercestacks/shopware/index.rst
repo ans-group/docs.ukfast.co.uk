@@ -10,6 +10,7 @@ The UKFast Shopware optimised stack was created in 20017. The core components of
 - **Mail Services**: :doc:`Postfix </operatingsystems/linux/mail/postfix>`
 - **SSH/FTP Access**: :doc:`/operatingsystems/linux/ssh/index`, :doc:`/operatingsystems/linux/ftp/setup_vsftpd`
 - **Database services**: :doc:`/operatingsystems/linux/percona/index`, :doc:`/ecommercestacks/shopware/redis/index`, :doc:`/ecommercestacks/shopware/phpmyadmin/index`
+* **HTTP Caching Utilities**: :doc:`/ecommercestacks/shopware/varnish/index`
 - **Version Control Utilities**: :doc:`/operatingsystems/linux/git/index`
 
 We have a number of guides for our shopware optimised stack:
@@ -22,6 +23,7 @@ We have a number of guides for our shopware optimised stack:
    apcu/index
    redis/index
    phpmyadmin/index
+   varnish/index
    
 .. meta::
    :title: Shopware Optimised Stack | UKFast Documentation
