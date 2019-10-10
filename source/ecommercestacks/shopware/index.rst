@@ -2,7 +2,7 @@
 Shopware
 =================================================
 
-The UKFast Shopware optimised stack was created in 20017. The core components of this stack are:
+The UKFast Shopware optimised stack was created in 2017. The core components of this stack are:
 
 - **Firewall**: :doc:`Dedicated/Shared Firewall </network/firewalls/index>` 
 - **Web Service**: :doc:`/operatingsystems/linux/nginx/index`
