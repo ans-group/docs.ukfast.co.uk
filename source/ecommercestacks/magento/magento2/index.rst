@@ -22,6 +22,7 @@ We have a number of guides for our Magento 2 optimised stack:
    permissionguide
    nginxphpfilewhitelist
    wpinsubdir.md
+   nfs.md
    filediroutsidepub.md
    restrictfilefolder.md
    m2insubdir.md
