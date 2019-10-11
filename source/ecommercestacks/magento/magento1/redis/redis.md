@@ -1,6 +1,6 @@
 # Redis
 
-Magento 1 has been around for a while now and is one of the most frequently used E-Commerce platforms on the Web. This means different techniques for increasing performance have been tested and several have come out as no brainers in terms of their benefit in relation to the effort required to get it up and running.
+Magento 1 has been around for a while now and is one of the most frequently used eCommerce platforms on the Web. This means different techniques for increasing performance have been tested and several have come out as no brainers in terms of their benefit in relation to the effort required to get it up and running.
 
 Magento out of the box stores its cache data on the file system, this works OK for small low traffic sites but once your catalog and visitor base grows this can quickly become a bottleneck.
 
