@@ -25,3 +25,4 @@ Help and guidance with Linux and related technologies
    ssh/index
    git/index
    redis/index
+   elasticsearch/index
