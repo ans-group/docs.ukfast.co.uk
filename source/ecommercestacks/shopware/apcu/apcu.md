@@ -37,7 +37,7 @@ You can also clear APCu using the PHP function:
 ?>
 ```
 
-### Stack APCu settings
+### APCu settings
 We use the following sed to change the default settings of APCu on our Shopware stacks:
 
 ```bash
