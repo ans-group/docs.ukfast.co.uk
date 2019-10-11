@@ -17,6 +17,7 @@ Contents:
    dr-ha/index
    network/index
    webcel/index
+   ecommercestacks/index
    monitoring/index
    operatingsystems/index
 
