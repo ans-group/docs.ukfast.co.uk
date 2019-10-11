@@ -14,7 +14,7 @@ The UKFast Shopware optimised stack was created in 2017. The core components of 
 - **Version Control Utilities**: :doc:`/operatingsystems/linux/git/index`
 - **File system distribution**: :doc:`/operatingsystems/linux/nfs/index`
 
-We have a number of guides for our shopware optimised stack:
+We have a number of guides for our Shopware optimised stack:
 
 .. toctree::
    :maxdepth: 1
