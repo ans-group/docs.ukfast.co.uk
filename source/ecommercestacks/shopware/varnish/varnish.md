@@ -46,7 +46,7 @@ VARNISH_STORAGE="malloc,3G"
 Please note Varnish will need a restart for this change to take effect.
 
 ### Pipe timeout
-pipe_timeout is set to 60 seconds by default. This can cause time out issues when running exports in the Magento admin interface. You can increase this by adding the option:
+pipe_timeout is set to 60 seconds by default. This can cause time out issues when running exports in the Shopware admin interface. You can increase this by adding the option:
 
 -p pipe_timeout=600
 
