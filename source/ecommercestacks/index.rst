@@ -1,6 +1,6 @@
-=====
+============================
 eCommerce Stacks
-=====
+============================
 
 The UKFast dedicated eCommerce team created and support the following optimised eCommerce Stacks:
 
