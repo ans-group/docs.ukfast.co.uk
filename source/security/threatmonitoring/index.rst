@@ -12,7 +12,7 @@ Threat Monitoring from UKFast is our tailored, all in one HIDS/SIEM system that 
 Threat Response is an additional service which provides managed support by our in-house security team, pro-actively looking into all your alerts and applying and remediation as needed. Additionally, our Threat Response team is more than happy to work with you to provide additions tips on how to further secure your servers, with your solutions and needs in mind.
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    
    how-it-works
    thmon-for-pci-dss
