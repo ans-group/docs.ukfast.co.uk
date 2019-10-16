@@ -80,6 +80,6 @@ The elasticsearch service will need a restart after this change.
 
  ```eval_rst
 .. meta::
-   :title: Magento Elasticsearch | UKFast Documentation
-   :description: guides relating to using Elasticsearch on our Magento2 optimised stack
-   :keywords: ukfast, Magento, Magento2, optimised, stack, Elasticsearch, eCommerce
+   :title: Elasticsearch | UKFast Documentation
+   :description: guides relating to using Elasticsearch
+   :keywords: ukfast, Magento, Magento2, Shopware, optimised, stack, Elasticsearch, eCommerce
