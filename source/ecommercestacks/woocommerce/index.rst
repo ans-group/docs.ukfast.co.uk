@@ -14,7 +14,7 @@ WooCommerce is an open-source e-commerce plugin for WordPress. The core componen
 - **Version Control Utilities**: :doc:`/operatingsystems/linux/git/index`
 - **File system distribution**: :doc:`/operatingsystems/linux/nfs/index`
 
-We have a number of guides for our Shopware optimised stack:
+We have a number of guides for our WooCommerce optimised stack:
 
 .. toctree::
    :maxdepth: 1
