@@ -13,3 +13,4 @@ The UKFast dedicated eCommerce team created and support the following optimised 
    :maxdepth: 1
    
    shopware/index
+   woocommerce/index
