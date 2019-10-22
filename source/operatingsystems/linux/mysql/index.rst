@@ -9,4 +9,5 @@ MySQL
    managing_databases_users
    mysql_cli_basics
    restore_your_databases
+   reset_root_password
    troubleshooting
