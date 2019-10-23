@@ -6,11 +6,9 @@ The UKFast dedicated eCommerce team created and support the following optimised 
 
 .. toctree::
    :maxdepth: 2
-
    magento/index
    
 .. toctree::
    :maxdepth: 1
-   
    shopware/index
    woocommerce/index
