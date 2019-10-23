@@ -113,7 +113,7 @@ Review and copy the settings from /root/php_upgrade_backup-$(date +%d_%b_%Y)/php
 ```bash
 cp /etc/php.ini /root/php.ini.default
 ssed -ie "s_;date.timezone =_date.timezone = \"Europe/London\"_g" /etc/php.ini
-sed -ie "s/memory_limit = 128M/memory_limit = 1024M/" /etc/php.ini
+sed -ie "s/memory_limit = 128M/memory_limit = 512M/" /etc/php.ini
 sed -ie "s/max_execution_time = 30/max_execution_time = 1800/" /etc/php.ini
 sed -ie "s/max_input_time = 60/max_input_time = 90/" /etc/php.ini
 sed -ie "s/short_open_tag = Off/short_open_tag = On/" /etc/php.ini
