@@ -22,7 +22,6 @@ We have a number of guides for our WooCommerce optimised stack:
    php/index
    opcache/index
    redis/index
-   varnish/index
    
 .. meta::
    :title: WooCommerce Optimised Stack | UKFast Documentation
