@@ -57,7 +57,7 @@ and then reload it.
 
 Fully featured examples of this and other apache functionality can be found on the following page:
 
-[Sample vhosts](/linux/apache/examplevhosts.html)
+[Sample vhosts](/operatingsystems/linux/apache/examplevhosts.html)
 
 ```eval_rst
   .. meta::
