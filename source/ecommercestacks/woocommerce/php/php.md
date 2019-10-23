@@ -97,11 +97,10 @@ Review and then apply the OPcache settings (Simply copy and paste the entire blo
 ```bash
 sed -i 's/opcache.memory_consumption=128/opcache.memory_consumption=512/g' /etc/php.d/*opcache.ini
 sed -i 's/opcache.interned_strings_buffer=8/opcache.interned_strings_buffer=12/g' /etc/php.d/*opcache.ini
-sed -i 's/opcache.max_accelerated_files=4000/opcache.max_accelerated_files=60000/g' /etc/php.d/*opcache.ini
-sed -i 's/;opcache.save_comments=0/opcache.save_comments=1/g' /etc/php.d/*opcache.ini
+sed -i 's/opcache.max_accelerated_files=4000/opcache.max_accelerated_files=10000/g' /etc/php.d/*opcache.ini
 sed -i 's/;opcache.fast_shutdown=0/opcache.fast_shutdown=1/g' /etc/php.d/*opcache.ini
-sed -i 's/;opcache.load_comments=0/opcache.load_comments=1/g' /etc/php.d/*opcache.ini
-sed -i 's/;opcache.revalidate_freq=2/opcache.revalidate_freq=5/g' /etc/php.d/*opcache.ini
+sed -i 's/;opcache.validate_timestamps=1/opcache.validate_timestamps=1/g' /etc/php.d/*opcache.ini
+sed -i 's/;opcache.revalidate_freq=2/opcache.revalidate_freq=60/g' /etc/php.d/*opcache.ini
 sed -i 's/;opcache.enable_file_override=0/opcache.enable_file_override=1/g' /etc/php.d/*opcache.ini
 ```
 
