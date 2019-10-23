@@ -22,9 +22,6 @@ We have a number of guides for our WooCommerce optimised stack:
    adddomain.md
    php/index
    opcache/index
-   apcu/index
-   redis/index
-   varnish/index
    
 .. meta::
    :title: WooCommerce Optimised Stack | UKFast Documentation
