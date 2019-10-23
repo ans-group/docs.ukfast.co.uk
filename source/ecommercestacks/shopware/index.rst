@@ -19,6 +19,7 @@ We have a number of guides for our Shopware optimised stack:
 .. toctree::
    :maxdepth: 1
 
+   adddomain.md
    php/index
    opcache/index
    apcu/index
