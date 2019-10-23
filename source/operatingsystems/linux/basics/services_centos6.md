@@ -2,7 +2,7 @@
 
 On a linux server, a service is an application that is capable of running in the background performing some task or other. This guide will detail the SysVinit system and how you can manage services with it.
 
-To keep in the scope of this tutorial as part of a [linux basics](/linux/basics/) series, we'll only be covering two of the most common services you'll come accross when managing a linux web server, `apache` and `MySQL`
+To keep in the scope of this tutorial as part of a [linux basics](/operatingsystems/linux/basics/) series, we'll only be covering two of the most common services you'll come accross when managing a linux web server, `apache` and `MySQL`
 
 
 Our main tool for interacting with services on linux is fairly straight forward: `service`
