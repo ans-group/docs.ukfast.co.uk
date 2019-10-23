@@ -23,8 +23,8 @@ The credentials will be saved on the server in the /root/ directory similar to:
 
 ```eval_rst
   .. meta::
-     :title: Magento 2 Adding Domain(s) To The Stack | UKFast Documentation
-     :description: A guide to adding domains to the Magento optimised stack
-     :keywords: ukfast, linux, nginx, install, centos, cloud, server, virtual, Magento2, security, php-fpm, mysql, percona, eCommerce
+     :title: Shopware Adding Domain(s) To The Stack | UKFast Documentation
+     :description: A guide to adding domains to the Shopware optimised stack
+     :keywords: ukfast, linux, nginx, install, centos, cloud, server, virtual, Shopware, security, php-fpm, mysql, percona, eCommerce
 
 
