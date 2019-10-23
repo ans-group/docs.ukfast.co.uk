@@ -8,7 +8,7 @@ For more full and in depth guides, we recommend checking out the official user g
 
 ## I can't connect to FTP?
 
-Please do refer to our [guide on setting up FTP](..ftp/passive_mode.html) and to the [official cPanel guide](https://documentation.cpanel.net/display/CKB/How+to+Enable+FTP+Passive+Mode). If you still have trouble after following those steps, please do [submit a support request](https://my.ukfast.co.uk/pss/add.php) and be sure to include any changes made so far, and any error logs from your FTP client.
+Please do refer to our [guide on setting up FTP](/operatingsystems/linux/ftp/passive_mode.html) and to the [official cPanel guide](https://documentation.cpanel.net/display/CKB/How+to+Enable+FTP+Passive+Mode). If you still have trouble after following those steps, please do [submit a support request](https://my.ukfast.co.uk/pss/add.php) and be sure to include any changes made so far, and any error logs from your FTP client.
 
 ## My mailboxes aren't showing properly/Mail isn't sending
 
