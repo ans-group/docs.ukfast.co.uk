@@ -3,7 +3,7 @@
 To add a domain to your Shopware optimised stack please provide us with the following information:
 
 - Domain name
-- Magento version
+- Shopware version
 - If this a Subshop domain? If so please provide the main website domain name
 - Is this domain for UAT/Staging or is it going to be used for live traffic
 
