@@ -1,10 +1,3 @@
-```eval_rst
-.. meta::
-     :title: Check if an IP is blocked | UKFast Documentation
-     :description: Useful threat remediation and prevention tips
-     :keywords: threat monitoring, alerts, security, compliance, rules, rulesets, ukfast, hosting, file integrity monitoring, rootkit, detection, vulnerability scan, scans, hids, intrusion detection, set up
-```
-
 # Checking if an IP has been blocked
 
 Threat Monitoring can detect incoming attacks in real-time and proactively block them, minimising the risk of compromise. This is achieved through the use of iptables and hosts.deny on Linux, and Windows firewall on Windows systems
@@ -32,3 +25,9 @@ You should now be able to see all the incoming firewall rules.
 Look for any rules with the name "WAZUH ACTIVE RESPONSE BLOCKED IP", check the 'Remote Address' column to see if the IP in question has been blocked.
 
 If you'd like to remove an IP from the blocklist, you can right-click the rule that is enforcing the block, and click delete, confirming by pressing Yes.
+
+```eval_rst
+.. meta::
+     :title: Check if an IP is blocked | UKFast Documentation
+     :description: Useful threat remediation and prevention tips
+     :keywords: threat monitoring, alerts, security, compliance, rules, rulesets, ukfast, hosting, file integrity monitoring, rootkit, detection, vulnerability scan, scans, hids, intrusion detection, set up

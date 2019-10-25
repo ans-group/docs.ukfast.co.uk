@@ -1,10 +1,3 @@
-```eval_rst
-.. meta::
-     :title: IP Whitelisting | UKFast Documentation
-     :description: Useful threat remediation and prevention tips
-     :keywords: threat monitoring, alerts, security, compliance, rules, rulesets, ukfast, hosting, file integrity monitoring, rootkit, detection, vulnerability scan, scans, hids, intrusion detection, set up
-```
-
 # IP Based Whitelisting
 
 Services like SSH, FTP and SQL are frequently subject to a wide variety of attacks, from brute force attacks to software firewall bypasses and challenge-response exploits. We find that 70% of all Threat Monitoring alerts are caused by brute force attacks, so securing access to these services is critical to ensure your server is safe.
@@ -65,3 +58,9 @@ Follow the steps below to implement this, in the example shown we implement IP b
 29. Click the create button.
 30. By clicking and holding the arrows next to the rule in the order column, move the rule to ensure that the Permit rule you just created is at the top of the list and that the Deny rule you just created is directly below it.
 31.    Press the ‘Save Changes’ button to apply your configuration.
+
+```eval_rst
+.. meta::
+     :title: IP Whitelisting | UKFast Documentation
+     :description: Useful threat remediation and prevention tips
+     :keywords: threat monitoring, alerts, security, compliance, rules, rulesets, ukfast, hosting, file integrity monitoring, rootkit, detection, vulnerability scan, scans, hids, intrusion detection, set up

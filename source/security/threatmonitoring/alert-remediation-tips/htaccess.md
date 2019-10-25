@@ -1,10 +1,3 @@
-```eval_rst
-.. meta::
-     :title: htaccess Authentication | UKFast Documentation
-     :description: Useful threat remediation and prevention tips
-     :keywords: threat monitoring, alerts, security, compliance, rules, rulesets, ukfast, hosting, file integrity monitoring, rootkit, detection, vulnerability scan, scans, hids, intrustion detection, set up
-```
-
 # Page authentication and restrictions with htaccess
 
 Administration panels and gateways are a prime target for attackers, brute force attacks and XSS attacks are common to try and gain access to your website with administrative privileges. Websites powered by a CMS, like WordPress or Magento are especially vulnerable to this. Login and administration panels can be easily found with these CMS systems, so enabling an extra step of authentication is pivotal to ensure security.
@@ -15,3 +8,8 @@ From a Threat Monitoring standpoint, we find that servers that employ this type 
 
 For more information on setting this up, feel free to follow our guide on setting up htaccess rules.
 
+```eval_rst
+.. meta::
+     :title: htaccess Authentication | UKFast Documentation
+     :description: Useful threat remediation and prevention tips
+     :keywords: threat monitoring, alerts, security, compliance, rules, rulesets, ukfast, hosting, file integrity monitoring, rootkit, detection, vulnerability scan, scans, hids, intrustion detection, set up
