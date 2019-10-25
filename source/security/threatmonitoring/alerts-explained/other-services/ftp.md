@@ -1,9 +1,3 @@
-```eval_rst
-.. meta::
-     :title: FTP Rules Explained | UKFast Documentation
-     :description: Our Threat Monitoring ruleset explained
-     :keywords: threat monitoring, alerts, security, compliance, rules, rulesets, ukfast, hosting, file integrity monitoring, rootkit, detection, vulnerability scan, scans, hids, intrustion detection, set up
-```
 # ProFTPd
 
 ## proftpd FTP brute force (multiple failed logins).
@@ -33,10 +27,8 @@ Restrict access to your login URL. Your login page may be publicly facing, if so
 
 In this situation, there is a high chance that your server is being targeted by a brute force attack. If the numbers are relatively low, this may not be the case and it might be that someone has forgotten their login credentials and is trying to regain access.
 
-
-
-
-
-
-
-
+```eval_rst
+.. meta::
+     :title: FTP Rules Explained | UKFast Documentation
+     :description: Our Threat Monitoring ruleset explained
+     :keywords: threat monitoring, alerts, security, compliance, rules, rulesets, ukfast, hosting, file integrity monitoring, rootkit, detection, vulnerability scan, scans, hids, intrustion detection, set up
