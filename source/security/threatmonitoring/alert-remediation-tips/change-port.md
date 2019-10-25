@@ -1,10 +1,3 @@
-```eval_rst
-.. meta::
-     :title: Change service ports | UKFast Documentation
-     :description: Useful threat remediation and prevention tips
-     :keywords: threat monitoring, alerts, security, compliance, rules, rulesets, UKFast, hosting, file integrity monitoring, rootkit, detection, vulnerability scan, scans, hids, intrustion detection, set up
-```
-
 # Changing common service ports
 
 Most attacks are automated, utilising specially crafted scripts that crawl the internet looking for servers to attack. These scripts aim to find as many servers as possible and attack as many servers as possible in an attempt to find an insecure server that it can exploit. An effective way to prevent an attack from most of these scripts is to change the port that services like SSH and FTP use. This will stop all but the most advanced scripts. This can be a useful solution where IP Whitelisting or a VPN is not an option.
@@ -94,3 +87,9 @@ Restart the pure-ftpd service
 Restart the cpanel service
 
 `/etc/init.d/cpanel restart`
+
+```eval_rst
+.. meta::
+     :title: Change service ports | UKFast Documentation
+     :description: Useful threat remediation and prevention tips
+     :keywords: threat monitoring, alerts, security, compliance, rules, rulesets, UKFast, hosting, file integrity monitoring, rootkit, detection, vulnerability scan, scans, hids, intrustion detection, set up
