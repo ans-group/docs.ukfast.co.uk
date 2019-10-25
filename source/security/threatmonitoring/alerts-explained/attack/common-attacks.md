@@ -1,9 +1,3 @@
-```eval_rst
-.. meta::
-     :title: Common Attacks | UKFast Documentation
-     :description: Our Threat Monitoring ruleset explained
-     :keywords: threat monitoring, alerts, security, compliance, rules, rulesets, ukfast, hosting, file integrity monitoring, rootkit, detection, vulnerability scan, scans, hids, intrusion detection, set up
-```
 
 ## Shellshock attack detected
 
@@ -66,3 +60,10 @@ This rule will trigger even if your virus/malware scanner has successfully remov
 If the viruses/malware was not removed by your scanner, you need to jump into action and remove as many infections items as possible. Please refer to this page for more information on how to do this, or contact UKFast support for assistance.
 
 If the viruses/malware has been removed by your scanner, its recommended to immediately run another virus/malware scan to try and detect any missed infections. Then, consult with your developers and UKFast support to secure your server in the future.
+
+```eval_rst
+.. meta::
+     :title: Common Attacks | UKFast Documentation
+     :description: Our Threat Monitoring ruleset explained
+     :keywords: threat monitoring, alerts, security, compliance, rules, rulesets, ukfast, hosting, file integrity monitoring, rootkit, detection, vulnerability scan, scans, hids, intrusion detection, set up
+
