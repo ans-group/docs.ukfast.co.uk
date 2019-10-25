@@ -1,12 +1,3 @@
-
-
-```eval_rst
-.. meta::
-     :title: Setting Secure Ciphers | UKFast Documentation
-     :description: Useful threat remediation and prevention tips
-     :keywords: threat monitoring, alerts, security, compliance, rules, rulesets, ukfast, hosting, file integrity monitoring, rootkit, detection, vulnerability scan, scans, hids, intrusion detection, set up
-```
-
 # Setting Secure Ciphers
 
 Cyphers and key exchange algorithms are used by many applications to ensure that the connection between the server and the user is secure, and uses a strong encryption algorithm. As computers become faster and more equipped, older cyphers and encryption algorithm become obsolete, so it's important to ensure that we're using that latest and greatest cyphers where possible.
@@ -179,6 +170,12 @@ Save the file.
 Restart the sshd service.
 
 `service sshd restart`
+
+```eval_rst
+.. meta::
+     :title: Setting Secure Ciphers | UKFast Documentation
+     :description: Useful threat remediation and prevention tips
+     :keywords: threat monitoring, alerts, security, compliance, rules, rulesets, ukfast, hosting, file integrity monitoring, rootkit, detection, vulnerability scan, scans, hids, intrusion detection, set up
 
 
 
