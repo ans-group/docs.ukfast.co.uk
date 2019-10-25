@@ -64,4 +64,3 @@ Follow the steps below to implement this, in the example shown we implement IP b
      :title: IP Whitelisting | UKFast Documentation
      :description: Useful threat remediation and prevention tips
      :keywords: threat monitoring, alerts, security, compliance, rules, rulesets, ukfast, hosting, file integrity monitoring, rootkit, detection, vulnerability scan, scans, hids, intrusion detection, set up
-```
