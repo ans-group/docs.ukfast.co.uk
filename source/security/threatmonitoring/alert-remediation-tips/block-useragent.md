@@ -1,10 +1,3 @@
-```eval_rst
-.. meta::
-     :title: Blocking User Agents| UKFast Documentation
-     :description: Useful threat remediation and prevention tips
-     :keywords: threat monitoring, alerts, security, compliance, rules, rulesets, UKFast, hosting, file integrity monitoring, rootkit, detection, vulnerability scan, scans, HIDS, intrusion detection, set up
-```
-
 # Blocking user-agents using htaccess (Apache)
 
 Many malicious scripts and vulnerability scanners will have their own user-agent, a filed that is passed to the web server to help the web server send the website to the user properly. We can use this information to block known bad user agents to certain areas of our site, or site-wide.
@@ -37,3 +30,9 @@ We can use the following to block multiple user agents, separating each with a `
   RewriteRule .* - [F,L]
 </IfModule>
 ```
+
+```eval_rst
+.. meta::
+     :title: Blocking User Agents| UKFast Documentation
+     :description: Useful threat remediation and prevention tips
+     :keywords: threat monitoring, alerts, security, compliance, rules, rulesets, UKFast, hosting, file integrity monitoring, rootkit, detection, vulnerability scan, scans, HIDS, intrusion detection, set up
