@@ -1,10 +1,3 @@
-```eval_rst
-.. meta::
-     :title: SELinux Rules Explained | UKFast Documentation
-     :description: Our Threat Monitoring ruleset explained
-     :keywords: threat monitoring, alerts, security, compliance, rules, rulesets, ukfast, hosting, file integrity monitoring, rootkit, detection, vulnerability scan, scans, hids, intrustion detection, set up
-```
-
 # SELinux/Auditd
 
 ## Audit: Replay attack dedtected
@@ -22,3 +15,9 @@ For example, Alice is on public WiFi and is logging into the electricity company
 * A lot of websites tend to use things like Session Identifiers which are used to change the information sent in some way, which prevents a third-party like Eve from being able to replay messages because they will not verify with the unique session identifier.
 * Other sites use a one-time password, which expires after they are used. This means that anything sent using that one-time password after the first time will be rejected by the server. 
 * Other websites use Number used Once (Nonce) and Message Authentication Codes (MAC) which are verified against each other. This increases the security of the sessions because an attacker replaying a session ID cannot forge the nonce or MAC.
+
+```eval_rst
+.. meta::
+     :title: SELinux Rules Explained | UKFast Documentation
+     :description: Our Threat Monitoring ruleset explained
+     :keywords: threat monitoring, alerts, security, compliance, rules, rulesets, ukfast, hosting, file integrity monitoring, rootkit, detection, vulnerability scan, scans, hids, intrustion detection, set up
