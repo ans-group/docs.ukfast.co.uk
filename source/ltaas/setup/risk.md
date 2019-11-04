@@ -28,3 +28,11 @@ If there's still reluctance, you should consider a proposal of a testing environ
 An additional environment may be more expensive, but it does allow you to test
 code and infrastructure decisions outside of your live environment. If you've already
 considered a UAT/Staging/Dev environment, then this may be a good argument for it.
+
+
+```eval_rst
+  .. meta::
+    :title: Understand The Risks With Load Testing | UKFast Documentation
+    :description: Load testing involves risk. This document goes over that in detail.
+    :keywords: load, test, testing, loadtest, load-test, risk
+```

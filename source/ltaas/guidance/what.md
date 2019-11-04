@@ -59,3 +59,11 @@ out of access logs is a little trickier.
 User journeys can be difficult to create with realistic timings, that's why we
 can build those custom user journeys for you. Please speak to your account manager
 about this if you're interested.
+
+
+```eval_rst
+  .. meta::
+    :title: What To Target With Load Testing | UKFast Documentation
+    :description: Advice regarding what to target to get the best results with load testing
+    :keywords: load, test, testing, loadtest, load-test, target, what, user, journey, performance
+```

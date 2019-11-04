@@ -76,3 +76,11 @@ end of the URL, in addition to the name of the file. For example:
 
 Once you've manually verified the file exists, click on verify to have the
 load testing platform test verification.
+
+
+```eval_rst
+  .. meta::
+    :title: Verify A Domain To Load Test | UKFast Documentation
+    :description: How to verify ownership of a domain which you wish to load test
+    :keywords: load, test, testing, loadtest, load-test, verify, verification
+```

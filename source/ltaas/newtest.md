@@ -75,3 +75,11 @@ and hardware level. All you need to do is tick the Repeat option and enter a
 quantity and a frequency. For example, entering a quantity of 7 and a Frequency of
 Days, would mean the test runs every 7 days. You could achieve the same by entering
 a quantity of 1 and a Frequency of weeks.
+
+
+```eval_rst
+  .. meta::
+    :title: Creating a new Load Test | UKFast Documentation
+    :description: How to create a new load test
+    :keywords: load, test, testing, loadtest, load-test, create
+```
