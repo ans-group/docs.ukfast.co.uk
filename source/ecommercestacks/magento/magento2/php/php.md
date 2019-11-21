@@ -107,6 +107,7 @@ sed -i 's/;opcache.save_comments=0/opcache.save_comments=1/g' /etc/php.d/*opcach
 sed -i 's/;opcache.save_comments=1/opcache.save_comments=1/g' /etc/php.d/*opcache.ini
 sed -i 's/opcache.save_comments=0/opcache.save_comments=1/g' /etc/php.d/*opcache.ini
 sed -i 's/;opcache.load_comments=1/opcache.load_comments=1/g' /etc/php.d/*opcache.ini
+sed -i 's/;opcache.load_comments=0/opcache.load_comments=1/g' /etc/php.d/*opcache.ini
 sed -i 's/;opcache.enable_file_override=0/opcache.enable_file_override=1/g' /etc/php.d/*opcache.ini
 ```
 
@@ -119,7 +120,9 @@ Review and copy the settings from /root/php_upgrade_backup-$(date +%d_%b_%Y)/php
 cp /etc/php.ini /root/php.ini.default
 sed -ie "s_;date.timezone =_date.timezone = \"Europe/London\"_g" /etc/php.ini
 sed -ie "s/; max_input_vars = 1000/max_input_vars = 20000/g" /etc/php.ini
+sed -ie "s/;max_input_vars = 1000/max_input_vars = 20000/g" /etc/php.ini
 sed -ie "s/memory_limit = 128M/memory_limit = 2G/" /etc/php.ini
+sed -ie "s/memory_limit = 512M/memory_limit = 2G/" /etc/php.ini
 sed -ie "s/max_execution_time = 30/max_execution_time = 18000/" /etc/php.ini
 sed -ie "s/max_input_time = 60/max_input_time = 90/" /etc/php.ini
 sed -ie "s/short_open_tag = Off/short_open_tag = On/" /etc/php.ini
