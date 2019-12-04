@@ -23,7 +23,7 @@ php bin/magento setup:config:set --session-save=redis --session-save-redis-host=
 
 #### Cache
 ```bash
-php bin/magento setup:config:set --cache-backend=redis --cache-backend-redis-server=127.0.0.1 ---cache-backend-redis-port=6380 --cache-backend-redis-db=0
+php bin/magento setup:config:set --cache-backend=redis --cache-backend-redis-server=127.0.0.1 --cache-backend-redis-port=6380 --cache-backend-redis-db=0
 ```
 
 #### Page Cache
