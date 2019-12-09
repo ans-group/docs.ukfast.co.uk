@@ -17,23 +17,23 @@ Below this, you will see various backup configuration options, such as retention
 4. You will fill out a series of options which tells cPanel where to send your backups... The configuration settings are as follows:
 
 ```eval_rst
-+----------+-------------+
-| Setting  | Description |
-+==========+=============+
-| Destination Name | This name appears in your destination table in cPanel. |
-+----------+-------------+
-| Transfer System Backups to Destination |  Select this checkbox to transfer system backups to this additional destination (Warning: Only select this if you are using the Vault interface over HTTPS) |
-+----------+-------------+
-| Bucket                                 | Enter the name of the directory where you wish to store backups. |
-+----------+-------------+
-| Access Key ID                          | Enter the access key ID in this text box. Your server uses the access key to authenticate with the eCloud Vault account. This can be found within [MyUKFast](https://my.ukfast.co.uk/ecloud-vault/integration.php). |
-+----------+-------------+
-| Secret Access Key                      | Enter the secret access key in this text box. |
-+----------+-------------+
-| Timeout                                | The maximum amount of time, in seconds, that you want the server to wait for a response from the remote server before it generates errors. You must enter a number between 30 and 300. If the server does not respond before the time expires, it makes two additional attempts to contact the server. If the server does not respond after those attempts, the system administrator receives an email that notes the failed attempts. The system will retry the transfer when it runs the backup process again. |
-+----------+-------------+
-| S3 Endpoint                            | The endpoint you'd like to connect to, ie. vault.ecloud.co.uk |
-+----------+-------------+
++----------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Setting                                | Description                                                                                                                                                                              |
++========================================+==========================================================================================================================================================================================+
+| Destination Name                       | This name appears in your destination table in cPanel.                                                                                                                                   |
++----------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Transfer System Backups to Destination |  Select this checkbox to transfer system backups to this additional destination (Warning: Only select this if you are using the Vault interface over HTTPS)                              |
++----------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Bucket                                 | Enter the name of the directory where you wish to store backups.                                                                                                                         |
++----------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Access Key ID                          | Enter the access key ID in this text box. Your server uses the access key to authenticate with the eCloud Vault account. This can be found within MyUKFast > eCloud Vault > Integration. |
++----------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Secret Access Key                      | Enter the secret access key in this text box.                                                                                                                                            |
++----------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Timeout                                | The maximum amount of time, in seconds, that you want the server to wait for a response from the remote server before it generates errors. You must enter a number between 30 and 300.   |
++----------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| S3 Endpoint                            | The endpoint you'd like to connect to, ie. vault.ecloud.co.uk                                                                                                                            |
++----------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 ```
 
 5. Once these values have been filled with your unique access and secret keys, select 'Save and Validate Destination'. 
