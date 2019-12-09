@@ -4,17 +4,17 @@
 
 ## How to configure
 
-1. From the WHM Dashboard, browse to `Home >> Backup >> Backup Configuration`.
+1) From the WHM Dashboard, browse to `Home >> Backup >> Backup Configuration`.
 
-2. Ensure that the backup switch is enabled, which will allow for backup activity.
+2) Ensure that the backup switch is enabled, which will allow for backup activity.
 
 Below this, you will see various backup configuration options, such as retention, scheduling, and database settings. At the bottom of the page, you'll see an `Additional Destinations` sub-heading.
 
 ![additionaldest](../files/additionaldest.png)
 
-3. Within the `Destination Type` drop down menu, select `S3 Compatible`, then choose `Create New Destination`.
+3) Within the `Destination Type` drop down menu, select `S3 Compatible`, then choose `Create New Destination`.
 
-4. You will fill out a series of options which tells cPanel where to send your backups... The configuration settings are as follows:
+4) You will fill out a series of options which tells cPanel where to send your backups... The configuration settings are as follows:
 
 ```eval_rst
 +----------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -36,9 +36,9 @@ Below this, you will see various backup configuration options, such as retention
 +----------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 ```
 
-5. Once these values have been filled with your unique access and secret keys, select 'Save and Validate Destination'. 
+5) Once these values have been filled with your unique access and secret keys, select 'Save and Validate Destination'. 
 
-6. Ensure that you receive a success message:
+6) Ensure that you receive a success message:
 
 >  "Success: The destination “Vault” validated."
 
