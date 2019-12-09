@@ -8,7 +8,7 @@
 
 2. Ensure that the backup switch is enabled, which will allow for backup activity.
 
-Below this, you will see various backup configuration options, such as retention, scheduling, and database settings. At the bottom of the page, you'll see an `Additional Destinations` sub-heading.
+    Below this, you will see various backup configuration options, such as retention, scheduling, and database settings. At the bottom of the page, you'll see an `Additional Destinations` sub-heading.
 
     ![additionaldest](../files/additionaldest.png)
 
