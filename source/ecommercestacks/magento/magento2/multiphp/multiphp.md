@@ -11,17 +11,17 @@ yum install --disablerepo='*' --enablerepo=base,remi,epel,updates php70-php php7
 
 #### PHP 7.1
 ```bash
-yum install --disablerepo='*' --enablerepo=base,remi,epel,updates php71-php php71-php-mcrypt php71-php-pdo php71-php-mysqlnd php71-php-opcache php71-php-xml php71-php-gd php71-php-devel php71-php-mysql php71-php-intl php71-php-mbstring php71-php-bcmath php71-php-json php71-php-iconv php71-php-pecl-redis php71-php-fpm php71-php-zip php71-php-soap
+yum install --disablerepo='*' --enablerepo=base,remi,epel,updates php71-php php71-php-mcrypt php71-php-pdo php71-php-mysqlnd php71-php-opcache php71-php-xml php71-php-gd php71-php-devel php71-php-mysql php71-php-intl php71-php-mbstring php71-php-bcmath php71-php-json php71-php-iconv php71-php-pecl-redis php71-php-fpm php71-php-zip php71-php-soap php-pecl-libsodium libsodium
 ```
 
 #### PHP 7.2
 ```bash
-yum install --disablerepo='*' --enablerepo=base,remi,epel,updates php72-php php72-php-pecl-mcrypt php72-php-pdo php72-php-mysqlnd php72-php-opcache php72-php-xml php72-php-gd php72-php-devel php72-php-mysql php72-php-intl php72-php-mbstring php72-php-bcmath php72-php-json php72-php-iconv php72-php-pecl-redis php72-php-fpm php72-php-zip php72-php-soap
+yum install --disablerepo='*' --enablerepo=base,remi,epel,updates php72-php php72-php-pecl-mcrypt php72-php-pdo php72-php-mysqlnd php72-php-opcache php72-php-xml php72-php-gd php72-php-devel php72-php-mysql php72-php-intl php72-php-mbstring php72-php-bcmath php72-php-json php72-php-iconv php72-php-pecl-redis php72-php-fpm php72-php-zip php72-php-soap php-pecl-libsodium libsodium
 ```
 
 #### PHP 7.3
 ```bash
-yum install --disablerepo='*' --enablerepo=base,remi,epel,updates php73-php php73-php-pecl-mcrypt php73-php-pdo php73-php-mysqlnd php73-php-opcache php73-php-xml php73-php-gd php73-php-devel php73-php-mysql php73-php-intl php73-php-mbstring php73-php-bcmath php73-php-json php73-php-iconv php73-php-pecl-redis php73-php-fpm php73-php-zip php73-php-soap
+yum install --disablerepo='*' --enablerepo=base,remi,epel,updates php73-php php73-php-pecl-mcrypt php73-php-pdo php73-php-mysqlnd php73-php-opcache php73-php-xml php73-php-gd php73-php-devel php73-php-mysql php73-php-intl php73-php-mbstring php73-php-bcmath php73-php-json php73-php-iconv php73-php-pecl-redis php73-php-fpm php73-php-zip php73-php-soap php-pecl-libsodium libsodium
 ```
 
 ### Apply Magento 2 PHP optimizations
