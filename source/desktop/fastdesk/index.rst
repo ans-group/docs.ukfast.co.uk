@@ -7,7 +7,7 @@ FASTdesk is UKFast's hosted desktop solution, based on Citrix Receiver.
 .. toctree::
    :maxdepth: 1
 
-   getting_started/index
+   getting_startedguide/index
    FASTdeskFactSheet
    howcaniresetmyfastdeskpassword
    icantfinddrivemapperinfastdesk
