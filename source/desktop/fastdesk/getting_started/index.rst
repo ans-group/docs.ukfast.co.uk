@@ -8,6 +8,10 @@ Information and guidance for FASTdesk, covering installation, configuration and 
    :maxdepth: 1
 
    FASTdeskGettingStartedGuide
+   FASTdeskGettingStartedGuideios
+   FASTdeskGettingStartedGuidePC
+   FASTdeskGettingStartedGuideAndroid
+   FASTdeskGettingStartedGuideMacOs
 
 
 .. meta::
