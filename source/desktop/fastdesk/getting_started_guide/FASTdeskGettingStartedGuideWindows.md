@@ -28,7 +28,13 @@ Once the "Citrix Workspace application" has been installed, use your preferred b
 
 After you have successfully logged in for the first time, you will be asked to change your password. Your password must be a minimum of 8 characters in length and contain at least 3 of the following: uppercase letters, lowercase letters, numbers, symbols and unicode characters that are deemed as alphabetic characters but not uppercase or lowercase. Your password can also not contain the name of your account. For example, if your account name is John Smith, a password with the word 'john' will not be accepted. 
 
-# Step 3 - Workspace App setup (Optional)
+# Step 3 - Launching a desktop
+
+Once you have logged into FASTdesk®, you will be presented with all of your Applications and Hosted Desktops. You can navigate between Desktops and Apps via the icons found at the top of the screen. Simply click __Desktops__ to navigate to this category. You can also click the Details link for additional options. As well as being able to open your desktop you can also choose to Add To Favourites,which pins your desktop to the Favourites category
+
+![CitrixWorkspaceDesktop](files/CitrixWorkspaceDesktop.JPG) ![CitrixWorkspaceDesktopAndroid](files/CitrixWorkspaceDesktopAndroid.jpg)
+
+# Step 4 - Workspace App setup (Optional)
 
 If you prefer to login directly to the Citrix Workspace app, you can do so. After launching Citrix Workspace for the first time, you will be asked to add an account. Simply type the following URL "https://www.fastdesk.co.uk" and click __Add__. You will then be asked to provide your username and password.
 
@@ -37,12 +43,6 @@ If you prefer to login directly to the Citrix Workspace app, you can do so. Afte
 If you're setting up the Workspace App on Android or iOS, you will similarly be asked to enter your company email address or Store URL. Again, enter "https://www.fastdesk.co.uk"
 
 ![CitrixWorkspaceAddAccountAndroid](files/CitrixWorkspaceAddAccountAndroid.jpg)
-
-# Step 4 - Launching a desktop
-
-Once you have logged into FASTdesk®, you will be presented with all of your Applications and Hosted Desktops. You can navigate between Desktops and Apps via the icons found at the top of the screen. Simply click __Desktops__ to navigate to this category. You can also click the Details link for additional options. As well as being able to open your desktop you can also choose to Add To Favourites,which pins your desktop to the Favourites category
-
-![CitrixWorkspaceDesktop](files/CitrixWorkspaceDesktop.JPG) ![CitrixWorkspaceDesktopAndroid](files/CitrixWorkspaceDesktopAndroid.jpg)
 
  ```eval_rst
    .. meta::
