@@ -12,21 +12,24 @@ To begin with, on your Android device, navigate to and open the Google Play stor
 CitrixWorkspaceVersions
 
 Step 2 - Logging in
-Once the "Citrix Workspace" application is installed, proceed to open it. After launching Citrix Workspace for the first time, you will be prompted to enter a company email address or store URL. Simply type the following URL “https://www.fastdesk.co.uk” and click Continue. You will then be prompted to enter your username and password into the application. Go ahead and enter the username and password credentials that were provided to you by the FASTdesk team.
+Once the "Citrix Workspace" application is installed, proceed to open it. After launching Citrix Workspace for the first time, you will be prompted to enter a company email address or store URL. Simply type the following URL “https://www.fastdesk.co.uk” and click Continue. Please leave the "Add account type as Web Interface" unselected (Refer to image included). "You will then be prompted to enter your username and password into the application. Go ahead and enter the username and password credentials that were provided to you by the FASTdesk team. If you get a promt to save username and password, the option is yours as to whether you want the password saved or not.
 
 CitrixWorkspaceAddAccount
 
 Once successfully logged in for the first time, you will be asked to change your password. Your password must be a minimum of 8 characters in length and contain at least 3 of the following: uppercase letters, lowercase letters, numbers, symbols and special characters e.g “! ” £”. Your password can also not contain the name of your account. For example, if your account name is John Smith, a password with the word ‘john’ will not be accepted.
 
 Step 3 - Launching a desktop
-Once logged in, you will notice that towards the bottom of the page, there are three different sections named "Favorites", "Apps" and "Settings". When you initially log in, you are shown the "Apps" section by default. The "Favorites" page contains hosted desktops you have tagged as your favourites whilst the "Settings" section presents you with the settings you can customise. The "Apps" page presents you with the hosted desktop(s) that has been allocated to you.
+When you first log in, you will notice there is nothing to click except the menu button in the left top corner of the screen and the search button in the top right corner of the screen(refer to the image included). Select the menu button and there is a list of options (Home, Apps, and Desktops). The "Home" section in the menu contains hosted desktops you have tagged as your favourites whilst the "Apps" section presents you with specific applications that have been made available to you. In most cases, you will not use this section. The "Refresh" options will reset your connection to the application whilst the "Settings" section presents you with the settings you can customise including the ability for you to manage your accounts. 
+
+Image 
+
+Select Desktops by clicking on the text "Desktops". This should present you with the desktops that have been allocated to you. Go ahead and select the desktop by clicking on it and this will launch your desktop. Upon loading, the gestures manual should appear giving you details on how to interact with your desktop. Click anywhere on the screen to close this manual and access the desktop. Begin navigating your desktop following the instructions that were provided with the gestures manual. You can later set the desktop that has been allocated to you as a "Favorite". This will allow it to appear as soon as you log in. 
 
 CitrixWorkspaceDesktop CitrixWorkspaceDesktopAndroid
 
-From the "Apps" section, you will be able to launch your desktop. To do this, select the hosted desktop that has been allocated to you. As an example, please refer to the images included for a visual example (In this case, it would be "Client Desktop Demo"). Once selected, it should begin to launch your desktop. Once this has booted, your FASTdesk is ready for you.
 
   .. meta::
      :title: FASTdesk Getting Started Guide: Apple iOS | UKFast Documentation
-     :description: Guide for users on how to get setup on FASTdesk using an iOS
+     :description: Guide for users on how to get setup on FASTdesk using an Android Device
      :keywords: FASTdesk, Citrix, ukfast, VDI, Citrix Receiver 
 
