@@ -12,7 +12,7 @@ To begin with, on your Android device, navigate to and open the Google Play stor
 CitrixWorkspaceVersions
 
 Step 2 - Logging in
-Once the "Citrix Workspace" application is installed, proceed to open it. After launching Citrix Workspace for the first time, you will be prompted to enter a company email address or store URL. Simply type the following URL “https://www.fastdesk.co.uk” and click Continue. Please leave the "Add account type as Web Interface" unselected (Refer to image included). "You will then be prompted to enter your username and password into the application. Go ahead and enter the username and password credentials that were provided to you by the FASTdesk team. If you get a promt to save username and password, the option is yours as to whether you want the password saved or not.
+Once the "Citrix Workspace" application is installed, proceed to open it. After launching Citrix Workspace for the first time, you will be prompted to enter a company email address or store URL. Simply type the following URL “https://www.fastdesk.co.uk” and click Continue. Please leave the "Add account type as Web Interface" unselected (Refer to image included). "You will then be prompted to enter your username and password into the application. Go ahead and enter the username and password credentials that were provided to you by the FASTdesk team. If you get a prompt to save username and password, the option is yours as to whether you want the password saved or not.
 
 CitrixWorkspaceAddAccount
 
