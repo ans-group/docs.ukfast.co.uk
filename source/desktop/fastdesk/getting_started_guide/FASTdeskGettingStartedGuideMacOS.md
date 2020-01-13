@@ -41,6 +41,12 @@ Once you have logged into FASTdesk, you will be presented with the Applications 
 From the "Apps" section, you will be able to launch your desktop. To do this, select the hosted desktop that has been allocated to you. As an example, please refer to the images included for a visual example (In this case, it would be "Client Desktop Demo").  Once selected, it should begin to launch your desktop. Once this has booted, your FASTdesk is ready for use. 
 
 
+# Workspace App setup (Optional)
+
+Although it is recommended you access FASTdesk through the URL, you can also access your desktop through the Citrix Workspace Launcher. If you prefer to login directly to the Citrix Workspace app, you can do so. After launching Citrix Workspace for the first time, you will be asked to add an account. Simply type the following URL "https://www.fastdesk.co.uk" and click Add. You will then be asked to provide your username and password.
+
+
+
  ```eval_rst
    .. meta::
       :title: FASTdesk Getting Started Guide: Apple iOS | UKFast Documentation
