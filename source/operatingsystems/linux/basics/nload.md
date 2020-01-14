@@ -28,7 +28,7 @@ If you do not already have `epel` on a RHEL & CentOS operating system, you can i
   sudo yum install epel-release
 ```
 
-## Live network monitoring
+## Live network bandwidth monitoring
 
 Load can be used with the command `nload` via a console or SSH session. This utility has a number of options that vary the data that is provided.
 
@@ -61,10 +61,14 @@ Ttl: 21.72 GByte                                              Ttl: 21.72 GByte
 ```
 
 The default time window is '300' milliseconds between average calculations. You can set a custom time window with `nload -a <time>` - for example to update this to 150 milliseconds you would perform the command:
-`nload -a 150`
+```bash
+nload -a 150
+```
 
 You can also modify the default display interval - by default this value is 500 milliseconds. The flag to update the display interval is `-t` and can be used as follows:
-`nload -t 600`
+```bash  
+nload -t 600
+```
 
 ```eval_rst
 .. warning::
@@ -73,26 +77,19 @@ always succeed.
 ```
 
 If you have a specific device(s) that you want to monitor you can specify this with the following:
-`nload devices device1 device2`
-
-In addition the metrics in which the data is display can be changed - the default is adaptive to the amount of bandwidth being used but you can force this with:
-
-```nload -u K ## KByte/s```   
-```nload -u k ## KBit/s```   
-```nload -u M ## MByte/s```   
-```nload -u m ## KBit/s```   
-```nload -u G ## GByte/s```   
-```nload -u g ## GBit/s```   
-
-## Basic historic monitoring
-
-The nload utility also allows historic server monitoring. To do this you will need to use the below command.
-
 ```bash
-  nload -r
+nload devices device1 device2
 ```
 
-This will look the same as the live monitoring but will start from the start of the current log, which is generally midnight of the current day. To step ahead in the log you will need to type `t` which will take you one step ahead in the configured logging period. To take a step backwards, you will need to type `T`. You can also specify a specific time by typing `b` followed by the desired time.
+In addition the metrics in which the data is display can be changed - the default is adaptive to the amount of bandwidth being used but you can force this with:   
+```bash
+nload -u K ## KByte/s
+nload -u k ## KBit/s
+nload -u M ## MByte/s
+nload -u m ## KBit/s
+nload -u G ## GByte/s
+nload -u g ## GBit/s
+```
 
 ```eval_rst
   .. meta::
