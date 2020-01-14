@@ -1,4 +1,4 @@
-# FASTdesk Getting Start Guide: Apple iOS
+# FASTdesk Getting Started Guide: Apple iOS Edition
 
 FASTdesk®  is UKFast’s Desktop as a Service (DaaS) solution, which allows users and organisations to work more effectively and securely by giving access to files, applications, and desktop items remotely via an internet connection. All desktop settings and files are stored remotely in the cloud, providing cross-device compatibility and eliminating the risk of data loss by removing the risk of unauthorised access. This DaaS solution allows users to work in the same way they would with a traditional local desktop, but increase the flexibility with which they do so regardless of the endpoint device hardware, operating system or form factor.
 Pre-Installation information
@@ -11,7 +11,7 @@ On your iOS device, navigate to and open the App Store. Once complete, use the a
 
 ![CitrixWorkspaceVersions](files/CitrixWorkspaceVersions.JPG)
 
-# Step 2 - Logging in
+# Step 2 - Logging into FASTdesk through the Citrix Workspace Application
 
 Once the "Citrix Workspace" application is installed, proceed to open it. After launching Citrix Workspace for the first time, you will be prompted to enter a company email address or store URL. Simply type the following URL “https://www.fastdesk.co.uk” and click Continue. You will then be prompted to enter your username and password into the application. Go ahead and enter the username and password credentials that were provided to you by the FASTdesk team. 
 
@@ -20,7 +20,7 @@ Once the "Citrix Workspace" application is installed, proceed to open it. After 
 Once successfully logged in for the first time, you will be asked to change your password. Your password must be a minimum of 8 characters in length and contain at least 3 of the following: uppercase letters, lowercase letters, numbers, symbols and special characters e.g “! ” £”. Your password can also not contain the name of your account. For example, if your account name is John Smith, a password with the word ‘john’ will not be accepted.
 
 
-# Step 3 - Launching a desktop
+# Step 3 - Launching a desktop through the Citrix Workspace Application
 
 Once logged in, you will notice that towards the bottom of the page, there are three different sections named "Favorites", "Apps" and "Settings".  When you initially log in, you are shown the "Apps" section by default. The "Favorites" page contains hosted desktops you have tagged as your favourites whilst the "Settings" section presents you with the settings you can customise. The "Apps" page presents you with the hosted desktop(s) that has been allocated to you. 
 
