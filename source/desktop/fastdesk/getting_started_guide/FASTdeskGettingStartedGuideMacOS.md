@@ -41,7 +41,7 @@ Once you have logged into the FASTdesk portal, you will be presented with the Ap
 Although it is recommended you access FASTdesk through the URL, you can also access your desktop through the Citrix Workspace Launcher. If you prefer to login directly to the Citrix Workspace app, you can do so. Simply click your windows start menu button and search for "Citrix Workspace Application". After launching the Citrix Workspace app, you will be asked to add an account. Simply type the following URL "https://www.fastdesk.co.uk" and click Add. You will then be prompted to enter your username and password into the application. Go ahead and enter the username and password credentials that were provided to you by the FASTdesk team. To continue setup, refer to step 2 and follow the guide.
 
 
-This inststruction guide should assist you getting logged in for the first time. If you have any questions or still require assistance, please contact the FASTdesk support team on 0800 923 0617.
+This instruction guide should assist you in getting logged in for the first time. If you have any questions or still require assistance, please contact the FASTdesk support team on 0800 923 0617.
 
 
  ```eval_rst
