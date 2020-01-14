@@ -45,6 +45,6 @@ This instruction guide should assist you getting logged in for the first time. I
 
  ```eval_rst
    .. meta::
-      :title: FASTdesk Getting Started Guide | UKFast Documentation
-      :description: Guide for users on how to get setup on FASTdesk
-      :keywords: FASTdesk, Citrix, ukfast, VDI, Citrix Receiver 
+      :title: FASTdesk Getting Started Guide Windows PC Edition | UKFast Documentation
+      :description: Guide for users on how to get setup on FASTdesk using a Windows PC 
+      :keywords: FASTdesk, Citrix, ukfast, VDI, Citrix Receiver, Windows, Workspace Application 
