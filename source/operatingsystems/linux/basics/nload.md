@@ -1,10 +1,10 @@
 # Monitoring current network usage
 
-One utility to display the current network usage is `nload`. This can be useful when you need to clearly see the ingress/egress bandwidth usage directly on a Linux server.
+One utility to display the current network usage is `nload`. This can be useful when you need to monitor the ingress/egress bandwidth usage directly on Linux servers and this can be used for specific network devices.
 
 ## Installation
 
-You can install `nload` through the `yum` on Redhat/CentOS operating systems or with `apt` on Debian based distributions. Here are both variations:
+You can install `nload` through `yum` on Redhat/CentOS operating systems, with `apt` on Debian based distributions or `dnf` with Fedora . Here are several variations:
 
 RHEL & CentOS
 ```bash
@@ -21,25 +21,25 @@ Fedora
   sudo dnf install nload
 ```
 
-The `nload` utility can be installed from the `epel` repository on Redhat distributions.
+The `nload` utility can be installed from the `epel` repository on Redhat/CentOS distributions.
 
-If you do not already have `epel` on a RHEL & CentOS operating system, you can install this with:
+If `epel` is not already installed on the RHEL & CentOS environment, this can be installed with:
 ```bash
   sudo yum install epel-release
 ```
 
 ## Live network bandwidth monitoring
 
-Load can be used with the command `nload` via a console or SSH session. This utility has a number of options that vary the data that is provided.
+Nload can be used with the command `nload` via a console or SSH session. This utility has several options that vary the output.
 
 By default this will auto-detect devices and you can switch between devices with the left and right arrow keys.
 
-The device being displayed can be seen at the top of the `nload` output - for example:
+The device displayed can be seen at the top of the `nload` output - for example:
 ```bash
 Device lo [127.0.0.1] (1/2):
 ```
 
-Or you can show all devices (supressing traffic graphs) with the command `nload -m` - this will something similiar to this in the standard output:
+Or to show all devices (supressing traffic graphs), use the command `nload -m` - this will something similiar to this in the standard output:
 ```bash
 Device eth0 [10.0.0.20] (1/2):
 =============================================================================================================================
@@ -60,13 +60,13 @@ Max: 671.77 kBit/s                                            Max: 671.77 kBit/s
 Ttl: 21.72 GByte                                              Ttl: 21.72 GByte
 ```
 
-The default time window is '300' milliseconds between average calculations. You can set a custom time window with `nload -a <time>` - for example to update this to 150 milliseconds you would perform the command:
+The default time window is '300' milliseconds between average calculations. It can be set to a custom time window with `nload -a <time>` - for example to update this to 150 milliseconds you would perform the command:
 ```bash
 nload -a 150
 ```
 
-You can also modify the default display interval - by default this value is 500 milliseconds. The flag to update the display interval is `-t` and can be used as follows:
-```bash  
+Modifying the default display interval is also possible - by default this value is 500 milliseconds. The flag to update the display interval is `-t` and can be used as follows:
+```bash
 nload -t 600
 ```
 
@@ -76,12 +76,12 @@ PLEASE NOTE: Specifying refresh intervals shorter than about 100  milliseconds  
 always succeed.
 ```
 
-If you have a specific device(s) that you want to monitor you can specify this with the following:
+If there is a specific device(s) that needs to be monitored, you can specify this with the following:
 ```bash
 nload devices device1 device2
 ```
 
-In addition the metrics in which the data is display can be changed - the default is adaptive to the amount of bandwidth being used but you can force this with:   
+In addition, the metrics in which the data is displayed can be customised - the default is adaptive to the amount of bandwidth being used but it can be forced with one of the subsequent variations:   
 ```bash
 nload -u K ## KByte/s
 nload -u k ## KBit/s
