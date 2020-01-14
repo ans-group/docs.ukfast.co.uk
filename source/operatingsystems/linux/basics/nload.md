@@ -72,7 +72,7 @@ nload -t 600
 
 ```eval_rst
 .. warning::
-PLEASE NOTE: Specifying refresh intervals shorter than about 100  milliseconds  makes  traffic  calculation very  unprecise.  Also  the display may flicker using such short refresh intervals.  nload tries to balance this out by doing extra time measurements, but this may not
+  Please note that specifying refresh intervals shorter than about 100  milliseconds  makes  traffic  calculation very  unprecise.  Also  the display may flicker using such short refresh intervals.  nload tries to balance this out by doing extra time measurements, but this may not
 always succeed.
 ```
 
