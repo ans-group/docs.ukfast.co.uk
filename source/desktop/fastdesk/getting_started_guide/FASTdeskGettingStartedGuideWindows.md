@@ -20,7 +20,7 @@ As you can see from the **image 1** below, all versions of Workspace are listed.
 
 ![Image 1: Citrix Website OS options Download Page](files/Website_download.PNG "Image 1: Citrix website OS options download page")
 
-Expand the "Workspace app for Windows" section relative to your operating system and select the latest version of the "Workspace app for Windows". This takes you to the download link where you can download the application (See **image 2**).
+Expand the "Workspace app for Windows" section and select the latest version of the "Workspace app for Windows". This takes you to the download link where you can download the application (See **image 2**).
 
 ![Image 2: Citrix Website Windows Download Page](files/Website_download2.PNG "Image 2: Citrix website Windows download page")
 
