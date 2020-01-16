@@ -15,7 +15,7 @@ https://www.citrix.co.uk/downloads/workspace-app/
 
 As you can see from the **image 1** below, all versions of Workspace are listed. 
 
-![Image 1: Citrix Website OS options Download Page](files/Downloads_Webpage.PNG "Image 1: Citrix website OS options download page")
+![Image 1: Citrix Website OS options Download Page](files/Downloads_Webpage .PNG "Image 1: Citrix website OS options download page")
 
 Expand the "Workspace app for Mac" section and select the latest version of the "Workspace app for Mac". This takes you to the download link where you can download the application (See **image 2**).
 
