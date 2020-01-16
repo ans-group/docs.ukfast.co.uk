@@ -52,7 +52,7 @@ Once you have logged into the FASTdesk portal, you will be presented with a blan
 
 ![Image 6 FASTdesk Logged in Landing Page](files/HomeScreen.PNG "Image 6: FASTdesk Logged in Landing Page")
 
-You can navigate between Desktops and Apps and Home via the icons found at the top of the screen. The icons found at the top of the screen also gives you the ability to search as well as open settings . Simply click Desktops to navigate to this category (Refer to **image 7** below).
+You can navigate between Desktops and Home via the icons found at the top of the screen. The icons found at the top of the screen also gives you the ability to search as well as open settings. Simply click Desktops to navigate to this category (Refer to **image 7** below).
 
 ![Image 7: FASTdesk web Portal Desktops Page](files/Desktopsurl.PNG "Image 7: FASTdesk web Portal Desktops Page")
 
