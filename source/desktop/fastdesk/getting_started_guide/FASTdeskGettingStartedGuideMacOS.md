@@ -62,7 +62,7 @@ Once in the desktops categories, you can open the desktop that has been allocate
 
 When either the monitor or open button has been clicked, you will get a pop up that asks "Open Citrix Workspace Launcher?" (Refer to **image 9** below). Next, allow it to open the Launcher. 
 
-![Image 9 Open Citrix Workspace Launcher?](files/Open_launcher..png "Image 9: Open Citrix Workspace Launcher?")
+![Image 9 Open Citrix Workspace Launcher?](files/Open_launcher.PNG "Image 9: Open Citrix Workspace Launcher?")
 
 Upon opening this, your desktop will begin to launch in another window (Refer to image **image 10** below included). 
 
