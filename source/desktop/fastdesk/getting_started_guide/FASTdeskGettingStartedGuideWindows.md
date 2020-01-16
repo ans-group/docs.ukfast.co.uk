@@ -25,19 +25,27 @@ Expand the "Workspace app for Windows" section relative to your operating system
 
 Once the file has downloaded, open the file to begin installation. You might get a security warning asking "Do you want to run this file?". Check that the "Publisher" identifies as "Citrix Systems, Inc." before selecting Run (Refer to **_image 3_** included).
 
-![Image 3: Citrix Website Windows Download Page](files/run_file.PNG "Image 3: Do you want to run this application?")
+![Image 3: Do you want to run this application?](files/Run_file.PNG "Image 3: Do you want to run this application?")
 
-Follow the installation dialog box to finish with the installation of the workspace app. 
+Follow the installation dialog box to finish with the installation of the workspace app.
+
+![Image 4: Installing Citrix Workspace](files/Installing app.PNG "Image 4: Installing Citrix Workspace Dialog box")
 
 
 
 # Step 2 - Logging into the FASTdesk Portal
 
-Once the "Citrix Workspace" application is installed, open your web browser and navigate to the Following URL “https://www.fastdesk.co.uk”.
+Once the "Citrix Workspace" application is installed, open your web browser and navigate to the Following URL “www.fastdesk.co.uk”. On this step, it is vital that you enter the full URL including the "www". 
 
-Once here, you will see the FASTdesk branding and a log in page (Refer to image included). Go ahead and enter the username and password credentials that were provided to you by the FASTdesk team.
+![Image 5: FASTdesk URL](files/Url.png "Image 5: FASTdesk URL")
 
-Upon entering your credentials, you will be asked to change your password. Your new password must be a minimum of 8 characters in length and contain at least 3 of the following: uppercase letters, lowercase letters, numbers, symbols and special characters e.g “! ” £”. Your password can also not contain the name of your account. For example, if your account name is John Smith, a password with the word ‘john’ will not be accepted. Once your password has been reset, it should simply log you in.
+Once here, you will see the FASTdesk branding and a log in page with a man on a sofa (Refer to **_image 5_** included). 
+
+![Image 6 FASTdesk Landing Page](files/Welcome_screen.png "Image 6: FASTdesk Landing Page")
+
+Go ahead and enter the username and password credentials that were provided to you by the FASTdesk team.
+
+Upon entering your credentials, you will be asked to change your password. Your new password must be a minimum of 8 characters in length and contain at least 3 of the following: uppercase letters, lowercase letters, numbers, symbols and special characters e.g “! ” £”. Your password can also not contain the name of your account. For example, if your account name is John Smith, a password with the word ‘john’ will not be accepted. Once your password has been reset, it should simply log you in. It may ask you to dectect receiver, if so, simply select the option that allows it to detect the receiver. 
 
 # Step 3 - Launching a desktop from the Portal
 
