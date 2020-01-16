@@ -29,7 +29,8 @@ Next, the "Citrix Workspace Installer" will open (Refer to the image included). 
 
 # Step 2 - Logging into the FASTdesk Portal
 
-Once the "Citrix Workspace" application is installed, open your web browser and navigate to the Following URL 
+Once the "Citrix Workspace" application is installed, open your web browser and navigate to the Following URL:
+"www.fastdesk.co.uk"
 
 [FASTdesk URL](https://www.fastdesk.co.uk "FASTdesk Landing Page")
 
@@ -70,14 +71,14 @@ Upon opening this, your desktop will begin to launch in another window (Refer to
 
 Once fully launched, your desktop should appear as it is in **image 11** below. 
 
-![Image 11 FASTdesk ready for use](files/Fullscreen.PNG "Image 11: FASTdesk ready for use")
+![Image 11 FASTdesk ready for use](files/Fullscreen.png "Image 11: FASTdesk ready for use")
 
 
 # Workspace Application Log in setup (Optional)
 
 Although it is recommended you access FASTdesk through the URL, you can also access your desktop through the Citrix Workspace Launcher. If you prefer to login directly to the Citrix Workspace app, you can do so. Simply click your windows start menu button and search for "Citrix Workspace Application". After launching the Citrix Workspace app, you will be asked to add an account. See **image 12**.
 
-![Image 12 Add an account](files/Enter_Store_URL.png "Image 12: Add an account")
+![Image 12 Add an account](files/Enter_Store_URL.PNG "Image 12: Add an account")
 
 Simply type the following URL "https://www.fastdesk.co.uk" and click Add. You will then be prompted to enter your username and password into the application. See **image 13**. 
 
