@@ -82,7 +82,7 @@ Although it is recommended you access FASTdesk through the URL, you can also acc
 
 Simply type the following URL "https://www.fastdesk.co.uk" and click Add. You will then be prompted to enter your username and password into the application. See **image 13**. 
 
-![Image 13 Enter credentials](files/workspace_log in.PNG "Image 13: Enter Credentials")
+![Image 13 Enter credentials](files/workspace_log_in2.PNG "Image 13: Enter Credentials")
 
 Go ahead and enter the username and password credentials that were provided to you by the FASTdesk team. To continue setup, refer to step 2 and follow the guide.
 
