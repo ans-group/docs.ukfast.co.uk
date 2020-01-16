@@ -27,7 +27,7 @@ Once the file has downloaded, open the file to begin installation. You might get
 
 ![Image 3: Do you want to run this application?](files/Run_file.PNG "Image 3: Do you want to run this application?")
 
-Follow the installation dialog box to finish with the installation of the workspace app (Refer to **_image 4_** to see what it would look like when istalling).
+Follow the installation dialog box to finish with the installation of the workspace app (Refer to **_image 4_** to see what it would look like when installing).
 
 ![Image 4: Installing Citrix Workspace](files/Installing_app.PNG "Image 4: Installing Citrix Workspace Dialog box")
 
@@ -45,21 +45,49 @@ Once here, you will see the FASTdesk branding and a log in page with a man on a 
 
 Go ahead and enter the username and password credentials that were provided to you by the FASTdesk team.
 
-Upon entering your credentials, you will be asked to change your password. Your new password must be a minimum of 8 characters in length and contain at least 3 of the following: uppercase letters, lowercase letters, numbers, symbols and special characters e.g “! ” £”. Your password can also not contain the name of your account. For example, if your account name is John Smith, a password with the word ‘john’ will not be accepted. Once your password has been reset, it should simply log you in. It may ask you to dectect receiver, if so, simply select the option that allows it to detect the receiver. 
+Upon entering your credentials, you will be asked to change your password (See **_image 7_**). 
+
+![Image 7 FASTdesk Password Reset](files/resetpassword.png "Image 7: FASTdesk Password Reset Page")
+
+Your new password must be a minimum of 8 characters in length and contain at least 3 of the following: uppercase letters, lowercase letters, numbers, symbols and special characters e.g “! ” £”. Your password can also not contain the name of your account. For example, if your account name is John Smith, a password with the word ‘john’ will not be accepted. Once your password has been reset, it should simply log you in. It may ask you to dectect receiver, if so, simply select the option that allows it to detect the receiver. 
 
 # Step 3 - Launching a desktop from the Portal
 
-Once you have logged into FASTdesk, you will be presented with the Applications and hosted Desktops that have been allocated to you (Refer to image included). You can navigate between Desktops and Apps via the icons found at the top of the screen. The icons found at the top of the screen also gives you the ability to search as well as open settings (Refer to image). Simply click Desktops to navigate to this category. Once in the desktops categories, you can open the desktop that has been allocated to you by just clicking the monitor of the desktop or by clicking the downward arrow which will give you three options of "Open", "Add To Favorites" and "Restart". You can also choose to "Add To Favourites",which pins your desktop to the Favourites category. From here you can also click "open". When either the monitor or open button has been clicked, you will get a pop up that asks "Open Citrix Workspace Launcher?" (Refer to image). Next, allow it to open the Launcher. Upon opening this, your desktop will open in another window (Refer to image included). 
+Once you have logged into FASTdesk, you will be presented with the Applications and hosted Desktops that have been allocated to you (Refer to **_image 8_**). 
 
-![CitrixWorkspaceDesktop](files/CitrixWorkspaceDesktop.JPG) ![CitrixWorkspaceDesktopAndroid](files/CitrixWorkspaceDesktopAndroid.jpg)
+![Image 8 FASTdesk Logged in Landing Page](files/Homescreen.png "Image 8: FASTdesk Logged in Landing Page")
+
+You can navigate between Desktops and Apps via the icons found at the top of the screen. The icons found at the top of the screen also gives you the ability to search as well as open settings. Simply click Desktops to navigate to this category (Refer to **_image 9_**).
+
+![Image 9 FASTdesk Desktops Page](files/storefront.png "Image 9: FASTdesk Desktops Page")
+
+Once in the desktops categories, you can open the desktop that has been allocated to you by just clicking the monitor of the desktop or by clicking the downward arrow which will give you three options of "Open", "Add To Favorites" and "Restart". You can also choose to "Add To Favourites", which pins your desktop to the Favourites category. From here you can also click "open" (Refer to **_image 9_**).
+
+When either the monitor or open button has been clicked, you will get a pop up that asks "Open Citrix Workspace Launcher?" (Refer to **_image 10_**). Next, allow it to open the Launcher. 
+
+![Image 10 Open Citrix Workspace Launcher?](files/openlauncher.png "Image 10: Open Citrix Workspace Launcher?")
+
+Upon opening this, your desktop will begin to launch in another window (Refer to image **_image 11_** included). 
+
+![Image 11 Desktop Launching](files/Openingdesktop.png "Image 11: Desktop Launching")
+
+Once fully launched, your desktop should appear as it is in **_image 12_**. 
+
+![Image 12 Fully Loaded Desktop](files/otherwindow.png "Image 12: FASTdesk ready for use")
 
 # Workspace Application Log in setup (Optional)
 
-Although it is recommended you access FASTdesk through the URL, you can also access your desktop through the Citrix Workspace Launcher. If you prefer to login directly to the Citrix Workspace app, you can do so. Simply click your windows start menu button and search for "Citrix Workspace Application". After launching the Citrix Workspace app, you will be asked to add an account. Simply type the following URL "https://www.fastdesk.co.uk" and click Add. You will then be prompted to enter your username and password into the application. Go ahead and enter the username and password credentials that were provided to you by the FASTdesk team. To continue setup, refer to step 2 and follow the guide.
+Although it is recommended you access FASTdesk through the URL, you can also access your desktop through the Citrix Workspace Launcher. If you prefer to login directly to the Citrix Workspace app, you can do so. Simply click your windows start menu button and search for "Citrix Workspace Application". After launching the Citrix Workspace app, you will be asked to add an account. See **_image 13_**
 
-This instruction guide should assist you getting logged in for the first time. If you have any questions or still require assistance, please contact the FASTdesk support team on 0800 923 0617.
+![Image 13 Add an account](files/addaccountworkspace.png "Image 13: Add an account")
 
-![CitrixWorkspaceAddAccount](files/CitrixWorkspaceAddAccount.JPG)
+Simply type the following URL "https://www.fastdesk.co.uk" and click Add. You will then be prompted to enter your username and password into the application. See **_image 14_**
+
+![Image 14 Enter credentials](files/entercredsapp.png "Image 14: Enter Credentials")
+
+Go ahead and enter the username and password credentials that were provided to you by the FASTdesk team. To continue setup, refer to step 2 and follow the guide.
+
+*This instruction guide should assist you getting logged in for the first time. If you have any questions or still require assistance, please contact the FASTdesk support team on 0800 923 0617*.
 
  ```eval_rst
    .. meta::
