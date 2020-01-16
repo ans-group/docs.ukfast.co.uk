@@ -27,7 +27,7 @@ Once the file has downloaded, open the file to begin installation. You might get
 
 ![Image 3: Do you want to run this application?](files/Run_file.PNG "Image 3: Do you want to run this application?")
 
-Follow the installation dialog box to finish with the installation of the workspace app.
+Follow the installation dialog box to finish with the installation of the workspace app (Refer to **_image 4_** to see what it would look like when istalling).
 
 ![Image 4: Installing Citrix Workspace](files/Installing app.PNG "Image 4: Installing Citrix Workspace Dialog box")
 
