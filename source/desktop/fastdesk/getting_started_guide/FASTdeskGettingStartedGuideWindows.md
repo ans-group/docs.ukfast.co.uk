@@ -39,7 +39,7 @@ Once the "Citrix Workspace" application is installed, open your web browser and 
 
 ![Image 5: FASTdesk URL](files/Url.png "Image 5: FASTdesk URL")
 
-Once here, you will see the FASTdesk branding and a log in page with a man on a sofa (Refer to **_image 5_** included). 
+Once here, you will see the FASTdesk branding and a log in page with a man on a sofa (Refer to **_image 6_** included). 
 
 ![Image 6 FASTdesk Landing Page](files/Welcome_screen.png "Image 6: FASTdesk Landing Page")
 
