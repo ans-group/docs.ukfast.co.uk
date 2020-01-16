@@ -13,13 +13,18 @@ To install the Citrix Workspace Application on the local machine, there is a min
 From your macOS device, download and install the latest version of the Citrix Workspace app at this URL:
 https://www.citrix.co.uk/downloads/workspace-app/
 
-As you can see from the image below, all versions of Workspace are listed. Expand the "Workspace app for Mac" section and select the latest version of the "Workspace app for Mac". This takes you to the download link where you can download the application.
+As you can see from the **image 1** below, all versions of Workspace are listed. 
+
+![Image 1: Citrix Website OS options Download Page](files/Website_download.PNG "Image 1: Citrix website OS options download page")
+
+Expand the "Workspace app for Mac" section and select the latest version of the "Workspace app for Mac". This takes you to the download link where you can download the application.
 
 Once the file has downloaded, open the file to begin installation and select Install "Citrix Workspace app" if prompted. Next, the "Citrix Workspace Installer" will open (Refer to the image included). Select continue to begin installation and continue again to agree to the Citrix terms of service. The next page dialog screen displays the storage space required and gives you the ability to change the install location of your Citrix Workspace app. In most cases, this will stay the same and you can simply select install. At this point, it might prompt you again for your local machines' password. Enter this if required and wait for the installation to finish. Once the installation has finished, it will take you to the Add Account page dialog box. On this screen, do not tick "Add Account" and simply select "Finish installation".
 
 # Step 2 - Logging into the FASTdesk Portal
 
 Once the "Citrix Workspace" application is installed, open your web browser and navigate to the Following URL “https://www.fastdesk.co.uk”. 
+
 
 Once here, you will see the FASTdesk branding and a log in page (Refer to image included). Go ahead and enter the username and password credentials that were provided to you by the FASTdesk team.
 
