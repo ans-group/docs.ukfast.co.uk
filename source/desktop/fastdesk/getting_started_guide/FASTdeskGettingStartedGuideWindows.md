@@ -55,7 +55,7 @@ Your new password must be a minimum of 8 characters in length and contain at lea
 
 Once you have logged into FASTdesk, you will be presented with the Applications and hosted Desktops that have been allocated to you (Refer to **_image 8_**). 
 
-![Image 8 FASTdesk Logged in Landing Page](files/Homescreen.png "Image 8: FASTdesk Logged in Landing Page")
+![Image 8 FASTdesk Logged in Landing Page](files/HomeScreen.png "Image 8: FASTdesk Logged in Landing Page")
 
 You can navigate between Desktops and Apps via the icons found at the top of the screen. The icons found at the top of the screen also gives you the ability to search as well as open settings. Simply click Desktops to navigate to this category (Refer to **_image 9_**).
 
@@ -69,7 +69,7 @@ When either the monitor or open button has been clicked, you will get a pop up t
 
 Upon opening this, your desktop will begin to launch in another window (Refer to image **_image 11_** included). 
 
-![Image 11 Desktop Launching](files/Openingdesktop.png "Image 11: Desktop Launching")
+![Image 11 Desktop Launching](files/Openingdesktop.PNG "Image 11: Desktop Launching")
 
 Once fully launched, your desktop should appear as it is in **_image 12_**. 
 
