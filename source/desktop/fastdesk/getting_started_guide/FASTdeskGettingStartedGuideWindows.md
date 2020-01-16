@@ -15,19 +15,19 @@ The Citrix Workspace application is compatible with Windows 7, 8.1, 10 (32-bit a
 From your Windows PC, download and install the latest version of the Citrix Workspace app at this URL:
 https://www.citrix.co.uk/downloads/workspace-app/
 
-As you can see from the **_image 1_** below, all versions of Workspace are listed. 
+As you can see from the **image 1** below, all versions of Workspace are listed. 
 
 ![Image 1: Citrix Website OS options Download Page](files/Website_download.PNG "Image 1: Citrix website OS options download page")
 
-Expand the "Workspace app for Windows" section relative to your operating system and select the latest version of the "Workspace app for Windows". This takes you to the download link where you can download the application (See **_image 2_**).
+Expand the "Workspace app for Windows" section relative to your operating system and select the latest version of the "Workspace app for Windows". This takes you to the download link where you can download the application (See **image 2**).
 
 ![Image 2: Citrix Website Windows Download Page](files/Website_download2.PNG "Image 2: Citrix website Windows download page")
 
-Once the file has downloaded, open the file to begin installation. You might get a security warning asking "Do you want to run this file?". Check that the "Publisher" identifies as "Citrix Systems, Inc." before selecting Run (Refer to **_image 3_** included).
+Once the file has downloaded, open the file to begin installation. You might get a security warning asking "Do you want to run this file?". Check that the "Publisher" identifies as "Citrix Systems, Inc." before selecting Run (Refer to **image 3** included).
 
 ![Image 3: Do you want to run this application?](files/Run_file.PNG "Image 3: Do you want to run this application?")
 
-Follow the installation dialog box to finish with the installation of the workspace app (Refer to **_image 4_** to see what it would look like when installing).
+Follow the installation dialog box to finish with the installation of the workspace app (Refer to **image 4** to see what it would look like when installing).
 
 ![Image 4: Installing Citrix Workspace](files/Installing_app.PNG "Image 4: Installing Citrix Workspace Dialog box")
 
@@ -39,13 +39,13 @@ Once the "Citrix Workspace" application is installed, open your web browser and 
 
 ![Image 5: FASTdesk URL](files/Url.png "Image 5: FASTdesk URL")
 
-Once here, you will see the FASTdesk branding and a log in page with a man on a sofa (Refer to **_Image 6_** included). 
+Once here, you will see the FASTdesk branding and a log in page with a man on a sofa (Refer to **image 6** included). 
 
 ![Image 6 FASTdesk Landing Page](files/Welcome_screen.png "Image 6: FASTdesk Landing Page")
 
 Go ahead and enter the username and password credentials that were provided to you by the FASTdesk team.
 
-Upon entering your credentials, you will be asked to change your password (See **_Image 7_**). 
+Upon entering your credentials, you will be asked to change your password (See **image 7**). 
 
 ![Image 7 FASTdesk Password Reset](files/resetpassword.png "Image 7: FASTdesk Password Reset Page")
 
@@ -53,17 +53,17 @@ Your new password must be a minimum of 8 characters in length and contain at lea
 
 # Step 3 - Launching a desktop from the Portal
 
-Once you have logged into FASTdesk, you will be presented with the Applications and hosted Desktops that have been allocated to you (Refer to **_Image 8_**). 
+Once you have logged into FASTdesk, you will be presented with the Applications and hosted Desktops that have been allocated to you (Refer to **image 8**). 
 
 ![Image 8 FASTdesk Logged in Landing Page](files/HomeScreen.PNG "Image 8: FASTdesk Logged in Landing Page")
 
-You can navigate between Desktops and Apps via the icons found at the top of the screen. The icons found at the top of the screen also gives you the ability to search as well as open settings. Simply click Desktops to navigate to this category (Refer to **_image 9_**).
+You can navigate between Desktops and Apps via the icons found at the top of the screen. The icons found at the top of the screen also gives you the ability to search as well as open settings. Simply click Desktops to navigate to this category (Refer to **image 9**).
 
 ![Image 9 FASTdesk Desktops Page](files/storefront.png "Image 9: FASTdesk Desktops Page")
 
-Once in the desktops categories, you can open the desktop that has been allocated to you by just clicking the monitor of the desktop or by clicking the downward arrow which will give you three options of "Open", "Add To Favorites" and "Restart". You can also choose to "Add To Favourites", which pins your desktop to the Favourites category. From here you can also click "open" (Refer to **_image 9_**).
+Once in the desktops categories, you can open the desktop that has been allocated to you by just clicking the monitor of the desktop or by clicking the downward arrow which will give you three options of "Open", "Add To Favorites" and "Restart". You can also choose to "Add To Favourites", which pins your desktop to the Favourites category. From here you can also click "open" (Refer to **image 9**).
 
-When either the monitor or open button has been clicked, you will get a pop up that asks "Open Citrix Workspace Launcher?" (Refer to **_Image 10_**). Next, allow it to open the Launcher. 
+When either the monitor or open button has been clicked, you will get a pop up that asks "Open Citrix Workspace Launcher?" (Refer to **image 10**). Next, allow it to open the Launcher. 
 
 ![Image 10 Open Citrix Workspace Launcher?](files/Openlauncher.png "Image 10: Open Citrix Workspace Launcher?")
 
@@ -77,11 +77,11 @@ Once fully launched, your desktop should appear as it is in **image 12**.
 
 # Workspace Application Log in setup (Optional)
 
-Although it is recommended you access FASTdesk through the URL, you can also access your desktop through the Citrix Workspace Launcher. If you prefer to login directly to the Citrix Workspace app, you can do so. Simply click your windows start menu button and search for "Citrix Workspace Application". After launching the Citrix Workspace app, you will be asked to add an account. See **_image 13_**
+Although it is recommended you access FASTdesk through the URL, you can also access your desktop through the Citrix Workspace Launcher. If you prefer to login directly to the Citrix Workspace app, you can do so. Simply click your windows start menu button and search for "Citrix Workspace Application". After launching the Citrix Workspace app, you will be asked to add an account. See **image 13**
 
 ![Image 13 Add an account](files/addaccountworkspace.png "Image 13: Add an account")
 
-Simply type the following URL "https://www.fastdesk.co.uk" and click Add. You will then be prompted to enter your username and password into the application. See **_image 14_**
+Simply type the following URL "https://www.fastdesk.co.uk" and click Add. You will then be prompted to enter your username and password into the application. See **image 14**
 
 ![Image 14 Enter credentials](files/entercredsapp.PNG "Image 14: Enter Credentials")
 
