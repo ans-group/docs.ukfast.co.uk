@@ -88,7 +88,7 @@ Simply type the following URL "https://www.fastdesk.co.uk" and click Add. You wi
 
 Go ahead and enter the username and password credentials that were provided to you by the FASTdesk team. To continue setup, refer to step 2 and follow the guide.
 
-*This instruction guide should assist you getting logged in for the first time. If you have any questions or still require assistance, please contact the FASTdesk support team on 0800 923 0617*.
+**_This instruction guide should assist you getting logged in for the first time. If you have any questions or still require assistance, please contact the FASTdesk support team on 0800 923 0617_**.
 
  ```eval_rst
    .. meta::
