@@ -17,28 +17,29 @@ As you can see from the **image 1** below, all versions of Workspace are listed.
 
 ![Image 1: Citrix Website OS options Download Page](files/Downloads_Webpage.PNG "Image 1: Citrix website OS options download page")
 
-Expand the "Workspace app for Mac" section and select the latest version of the "Workspace app for Mac". This takes you to the download link where you can download the application (See **image 2**).
+Expand the "Workspace app for Mac" section and select the latest version of the "Workspace app for Mac". This takes you to the download link where you can download the application (See **image 2** below).
 
 ![Image 2: Citrix Website macOS Download Page](files/Url_download.PNG "Image 2: Citrix website macOS download page")
 
 Once the file has downloaded, open the file to begin installation and select Install "Citrix Workspace app" if prompted. 
 
-Next, the "Citrix Workspace Installer" will open (Refer to the image included). Select continue to begin installation and continue again to agree to the Citrix terms of service. The next page dialog screen displays the storage space required and gives you the ability to change the install location of your Citrix Workspace app. In most cases, this will stay the same and you can simply select install. At this point, it might prompt you again for your local machines' password. Enter this if required and wait for the installation to finish. Once the installation has finished, it will take you to the Add Account page dialog box. On this screen, do not tick "Add Account" and simply select "Finish installation" (See **image 3**).
+Next, the "Citrix Workspace Installer" will open (Refer to the image included). Select continue to begin installation and continue again to agree to the Citrix terms of service. The next page dialog screen displays the storage space required and gives you the ability to change the install location of your Citrix Workspace app. In most cases, this will stay the same and you can simply select install. At this point, it might prompt you again for your local machines' password. Enter this if required and wait for the installation to finish. Once the installation has finished, it will take you to the Add Account page dialog box. On this screen, do not tick "Add Account" and simply select "Finish installation" (See **image 3** below).
 
 ![Image 3: macOS installation finished](files/Installation_finishedmacos.PNG "Image 3: macOS installation finished")
 
 # Step 2 - Logging into the FASTdesk Portal
 
-Once the "Citrix Workspace" application is installed, open your web browser and navigate to the Following URL “https://www.fastdesk.co.uk”. 
+Once the "Citrix Workspace" application is installed, open your web browser and navigate to the Following URL 
 
+[FASTdesk URL](https://www.fastdesk.co.uk "FASTdesk Landing Page")
 
-Once here, you will see the FASTdesk branding and a log in page with a man on the sofa (Refer to **image 4** included).
+Once here, you will see the FASTdesk landing and log in page with a man on the sofa (Refer to **image 4** below).
 
 ![Image 4: macOS FASTdesk web URL page](files/loggininurl.PNG "Image 4: macOS FASTdesk web URL page")
 
 Go ahead and enter the username and password credentials that were provided to you by the FASTdesk team.
 
-Upon entering your credentials, you will be asked to change your password (See **image 5**). 
+Upon entering your credentials, you will be asked to change your password (See **image 5** below). 
 
 ![Image 5: macOS FASTdesk reset password](files/reset_password.PNG "Image 5: macOS FASTdesk reset password")
 
@@ -47,27 +48,27 @@ Your new password must be a minimum of 8 characters in length and contain at lea
 
 # Step 3 - Launching a desktop from the Portal
 
-Once you have logged into the FASTdesk portal, you will be presented with the Applications and hosted Desktops that have been allocated to you(Refer to **image 6**). 
+Once you have logged into the FASTdesk portal, you will be presented with a blank page with some instructions (Refer to **image 6** below). 
 
 ![Image 6 FASTdesk Logged in Landing Page](files/HomeScreen.PNG "Image 6: FASTdesk Logged in Landing Page")
 
-You can navigate between Desktops and Apps via the icons found at the top of the screen. The icons found at the top of the screen also gives you the ability to search as well as open settings (Refer to the image). Simply click Desktops to navigate to this category (Refer to **image 7**).
+You can navigate between Desktops and Apps and Home via the icons found at the top of the screen. The icons found at the top of the screen also gives you the ability to search as well as open settings . Simply click Desktops to navigate to this category (Refer to **image 7** below).
 
-![Image 7: FASTdesk web Portal Desktops Page](files/desktopsurl.PNG "Image 7: FASTdesk web Portal Desktops Page")
+![Image 7: FASTdesk web Portal Desktops Page](files/Desktopsurl.PNG "Image 7: FASTdesk web Portal Desktops Page")
 
-Once in the desktops categories, you can open the desktop that has been allocated to you by just clicking the monitor of the desktop or by clicking the downward arrow which will give you three options of "Open", "Add To Favorites" and "Restart". You can also choose to "Add To Favourites", which pins your desktop to the Favourites category. From here you can also click "open" (Refer to **image 8**).
+Once in the desktops categories, you can open the desktop that has been allocated to you by just clicking the monitor of the desktop or by clicking the downward arrow which will give you three options of "Open", "Add To Favorites" and "Restart". You can also choose to "Add To Favourites", which pins your desktop to the Favourites category. From here you can also click "open" (Refer to **image 8** below).
 
 ![Image 8 FASTdesk Desktops Page](files/storefront.png "Image 8: FASTdesk Desktops Page")
 
-When either the monitor or open button has been clicked, you will get a pop up that asks "Open Citrix Workspace Launcher?" (Refer to **image 9**). Next, allow it to open the Launcher. 
+When either the monitor or open button has been clicked, you will get a pop up that asks "Open Citrix Workspace Launcher?" (Refer to **image 9** below). Next, allow it to open the Launcher. 
 
 ![Image 9 Open Citrix Workspace Launcher?](files/Open_launcher..png "Image 9: Open Citrix Workspace Launcher?")
 
-Upon opening this, your desktop will begin to launch in another window (Refer to image **image 10** included). 
+Upon opening this, your desktop will begin to launch in another window (Refer to image **image 10** below included). 
 
 ![Image 10 Desktop Launching](files/Openingdesktop.PNG "Image 10: Desktop Launching")
 
-Once fully launched, your desktop should appear as it is in **image 11*. 
+Once fully launched, your desktop should appear as it is in **image 11** below. 
 
 ![Image 11 FASTdesk ready for use](files/Fullscreen.PNG "Image 11: FASTdesk ready for use")
 
