@@ -21,6 +21,8 @@ Once the file has downloaded, open the file to begin installation. You might get
 
 ![CitrixWorkspaceVersions](files/CitrixWorkspaceVersions.JPG)
 
+![Citrix Website OS options Download Page](files/Website_download.PNG "Citrix website OS options download page")
+
 # Step 2 - Logging into the FASTdesk Portal
 
 Once the "Citrix Workspace" application is installed, open your web browser and navigate to the Following URL “https://www.fastdesk.co.uk”.
