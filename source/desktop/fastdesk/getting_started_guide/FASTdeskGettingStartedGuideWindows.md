@@ -55,7 +55,7 @@ Your new password must be a minimum of 8 characters in length and contain at lea
 
 Once you have logged into FASTdesk, you will be presented with the Applications and hosted Desktops that have been allocated to you (Refer to **_Image 8_**). 
 
-![Image 8 FASTdesk Logged in Landing Page](files/HomeScreen.png "Image 8: FASTdesk Logged in Landing Page")
+![Image 8 FASTdesk Logged in Landing Page](files/HomeScreen.PNG "Image 8: FASTdesk Logged in Landing Page")
 
 You can navigate between Desktops and Apps via the icons found at the top of the screen. The icons found at the top of the screen also gives you the ability to search as well as open settings. Simply click Desktops to navigate to this category (Refer to **_image 9_**).
 
@@ -65,13 +65,13 @@ Once in the desktops categories, you can open the desktop that has been allocate
 
 When either the monitor or open button has been clicked, you will get a pop up that asks "Open Citrix Workspace Launcher?" (Refer to **_Image 10_**). Next, allow it to open the Launcher. 
 
-![Image 10 Open Citrix Workspace Launcher?](files/openlauncher.png "Image 10: Open Citrix Workspace Launcher?")
+![Image 10 Open Citrix Workspace Launcher?](files/Openlauncher.png "Image 10: Open Citrix Workspace Launcher?")
 
-Upon opening this, your desktop will begin to launch in another window (Refer to image **_Image 11_** included). 
+Upon opening this, your desktop will begin to launch in another window (Refer to image **image 11** included). 
 
 ![Image 11 Desktop Launching](files/Openingdesktop.PNG "Image 11: Desktop Launching")
 
-Once fully launched, your desktop should appear as it is in **_Image 12_**. 
+Once fully launched, your desktop should appear as it is in **image 12**. 
 
 ![Image 12 Fully Loaded Desktop](files/otherwindow.png "Image 12: FASTdesk ready for use")
 
