@@ -15,13 +15,21 @@ The Citrix Workspace application is compatible with Windows 7, 8.1, 10 (32-bit a
 From your Windows PC, download and install the latest version of the Citrix Workspace app at this URL:
 https://www.citrix.co.uk/downloads/workspace-app/
 
-As you can see from the image below, all versions of Workspace are listed. Expand the "Workspace app for Windows" section relative to your operating system and select the latest version of the "Workspace app for Windows". This takes you to the download link where you can download the application.
+As you can see from the **_image 1_** below, all versions of Workspace are listed. 
 
-Once the file has downloaded, open the file to begin installation. You might get a security warning asking "Do you want to run this file?". Check that the "Publisher" identifies as "Citrix Systems, Inc." before selecting Run (Refer to image included). Follow the installation dialog box to finish with the installation of the workspace app. 
+![Image 1: Citrix Website OS options Download Page](files/Website_download.PNG "Image 1: Citrix website OS options download page")
 
-![CitrixWorkspaceVersions](files/CitrixWorkspaceVersions.JPG)
+Expand the "Workspace app for Windows" section relative to your operating system and select the latest version of the "Workspace app for Windows". This takes you to the download link where you can download the application (See **_image 2_**).
 
-![Citrix Website OS options Download Page](files/Website_download.PNG "Citrix website OS options download page")
+![Image 2: Citrix Website Windows Download Page](files/Website_download2.PNG "Image 2: Citrix website Windows download page")
+
+Once the file has downloaded, open the file to begin installation. You might get a security warning asking "Do you want to run this file?". Check that the "Publisher" identifies as "Citrix Systems, Inc." before selecting Run (Refer to **_image 3_** included).
+
+![Image 3: Citrix Website Windows Download Page](files/run_file.PNG "Image 3: Do you want to run this application?")
+
+Follow the installation dialog box to finish with the installation of the workspace app. 
+
+
 
 # Step 2 - Logging into the FASTdesk Portal
 
