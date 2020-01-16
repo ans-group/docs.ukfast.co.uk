@@ -29,7 +29,7 @@ Once the file has downloaded, open the file to begin installation. You might get
 
 Follow the installation dialog box to finish with the installation of the workspace app (Refer to **_image 4_** to see what it would look like when istalling).
 
-![Image 4: Installing Citrix Workspace](files/Installing app.PNG "Image 4: Installing Citrix Workspace Dialog box")
+![Image 4: Installing Citrix Workspace](files/Installing_app.PNG "Image 4: Installing Citrix Workspace Dialog box")
 
 
 
