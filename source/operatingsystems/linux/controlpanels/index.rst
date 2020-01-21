@@ -25,6 +25,7 @@ cPanel/WHM
    cpanel
    cpanel_connect
    cpanel_add_account
+   cpanel_ftp_account
    cpanel_tips
 
 .. meta::
