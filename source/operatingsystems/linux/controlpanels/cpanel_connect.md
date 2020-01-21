@@ -33,3 +33,10 @@ Account Information >> List Accounts >> "cP" Button
 ```
 
 [ThisIsAPicture](LinkGoesHere)
+
+
+```eval_rst
+  .. meta::
+     :title: Connecting to WHM or Cpanel | UKFast Documentation
+     :description: Guide on connecting to a WHM/cPanel server
+     :keywords: ukfast, cpanel, whm, control, panel, tutorial, cloud, server, guide, virtual
