@@ -23,6 +23,7 @@ cPanel/WHM
    :maxdepth: 1
 
    cpanel
+   cpanel_connect
    cpanel_tips
 
 .. meta::
