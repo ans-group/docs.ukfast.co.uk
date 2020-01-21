@@ -16,7 +16,7 @@ Now you can click "Create":
 
 ![ImageOfTheCreateButton](LinkGoesHere)
 
-You've now added an account to WHM. You can now login, [using the guide here!](cpanel_connect.md)
+You've now added an account to WHM. You can now login, [using the guide here!](cpanel_connect.md#connecting-to-cpanel)
 
 ```eval_rst
   .. meta::
