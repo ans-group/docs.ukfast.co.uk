@@ -2,19 +2,25 @@
 
 Once you've got your WHM server setup, you're going to want to add an account.  
 
-Search for "create" in the search bar on the left-hand side of the screen:
+On the homepage of WHM, you will see a section called "Manage Your Accounts", and a "Create a New Account" button below that:
 
-![ImageOfSearchBarInWHM](LinkGoesHere)
+![Create a New Account Button](files/whm_homepage.jpg)
 
-This will present you with a page to fill in information regarding the account that you're adding. The top section is "Domain Information":
+This will present you with a page to fill in information regarding the account that you're adding. The top section is "Domain Information". Fill in the relevant information for the account you're adding:
 
-![ImageOfNewAccountInformation](LinkGoesHere)
+![Domain Information](files\account_creation_domain_info.JPG)
 
-Fill in the relevant information for the account. By default, you can leave the rest of the sections as they are.  
+The next three sections can be left as the defaults:
 
-Now you can click "Create":
+![Blank Sections](files/account_creation_blanks.jpg)
 
-![ImageOfTheCreateButton](LinkGoesHere)
+For the "DNS Settings" section, untick the box labelled "Enable DKIM on this account":
+
+![DNS Settings](files/account_creation_dns.jpg)
+
+For the final section, "Mail Routing Settings", choose the automatic configuration option, then you can click "Create":
+
+![Mail Exchange](files/account_creation_mail.jpg)
 
 You've now added an account to WHM. You can now login, [using the guide here!](cpanel_connect.md#connecting-to-cpanel)
 
