@@ -9,7 +9,7 @@ First, log in to your MyUKFast area, and navigate to the server page.
   
 In the top section of the page, you will see the "External Login" button. This will take you straight to the login page for WHM:
 
-[ThisIsALink](LinkGoesHere)
+![cPanel MyUKFast Login](files/cpanel_external_login.png)
 
 
 ### Via URL
