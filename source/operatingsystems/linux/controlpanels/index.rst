@@ -24,7 +24,7 @@ cPanel/WHM
 
    cpanel
    cpanel_connect
-   cpanel_inital_setup
+   cpanel_initial_setup
    cpanel_add_account
    cpanel_ftp_account
    cpanel_tips
