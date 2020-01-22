@@ -20,7 +20,8 @@ mysqldump --events --routines yourdatabase > yourdatabase.sql
 ```
 ```eval_rst
 .. note::
-    Always ensure you have enough disk space available before creating a database dump
+
+   Always ensure you have enough disk space available before creating a database dump
 ```
 
 When disk space is low, you can pipe `mysqldump` output straight into compressed file. As the output is basically text, you should see a sizeable reduction.
@@ -43,7 +44,8 @@ For MyIASM tables, this will prevent writes to the database during the dump.
 ```
 ```eval_rst
 .. warning::
-    Please note that **MyIASM** tables will lock during a database dump by default
+
+   Please note that **MyIASM** tables will lock during a database dump by default
 ```
    
 ### Multiple Databases
@@ -66,7 +68,8 @@ find /root/mysqldumps/ -type f -name "*.sql.gz" -mtime +7 -delete
 ```
 ```eval_rst
 .. note::
-    More information on the `mysqldump` command can be found in the [official documentation](https://dev.mysql.com/doc/refman/8.0/en/mysqldump.html)
+
+   More information on the `mysqldump` command can be found in the [official documentation](https://dev.mysql.com/doc/refman/8.0/en/mysqldump.html)
 
 ```
 
@@ -114,7 +117,8 @@ This backup service supports **Data-at-Rest Encryption** and **InnoDB Page Compr
 * `Install mariabackup`
 ```eval_rst
 .. note::
-    You will need to match the exact version of your MariaDB server or it will not backup.
+
+   You will need to match the exact version of your MariaDB server or it will not backup.
 ```
 ```
 yum install MariaDB-Backup-10.3*
@@ -131,7 +135,8 @@ mariabackup --prepare --target-dir=/path/to/backup/
 ```
 ```eval_rst
 .. note::
-More information on **Mariabackup** can be found in the [MariaDB Backup Documentation](https://mariadb.com/kb/en/mariabackup-overview/)
+
+   More information on **Mariabackup** can be found in the [MariaDB Backup Documentation](https://mariadb.com/kb/en/mariabackup-overview/)
 ```
 
 ```eval_rst
