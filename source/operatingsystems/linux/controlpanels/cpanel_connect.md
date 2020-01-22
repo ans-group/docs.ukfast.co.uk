@@ -32,7 +32,7 @@ If you're logged into WHM, you can login to any of the cPanel accounts on that s
 Account Information >> List Accounts >> "cP" Button
 ```
 
-![cP Button](files/cpanel_connect_from_whm.jpg)
+![cP Button](files/cpanel_connect_from_whm.JPG)
 
 
 ```eval_rst

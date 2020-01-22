@@ -4,15 +4,15 @@ Once you've got your WHM server setup, you're going to want to add an account.
 
 On the homepage of WHM, you will see a section called "Manage Your Accounts", and a "Create a New Account" button below that:
 
-![Create a New Account Button](files/whm_homepage.jpg)
+![Create a New Account Button](files/whm_homepage.JPG)
 
 This will present you with a page to fill in information regarding the account that you're adding. The top section is "Domain Information". Fill in the relevant information for the account you're adding:
 
-![Domain Information](files\account_creation_domain_info.JPG)
+![Domain Information](files/account_creation_domain_info.JPG)
 
 The next three sections can be left as the defaults:
 
-![Blank Sections](files/account_creation_blanks.jpg)
+![Blank Sections](files/account_creation_blanks.JPG)
 
 For the "DNS Settings" section, untick the box labelled "Enable DKIM on this account":
 
