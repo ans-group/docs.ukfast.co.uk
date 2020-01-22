@@ -11,49 +11,20 @@ WHM, or Web Host Manager, is the top level control panel that allows you to crea
 
 cPanel is for management of individual sites and controls things such as mailboxes and site specific variables.
 
-## Connecting to WHM
+## Our Guides
 
-You can connect to WHM using the server's IP and the port 2087. If you put that into a browser window, you should get to the WHM login screen.
+We have a number of guides on getting started with WHM/cPanel. See below:
+* [Connecting To WHM/cPanel](cpanel_connect.md)
+* [Creating A New cPanel Account](cpanel_add_account.md)
+* [Adding An FTP Account](cpanel_ftp_account.md)
 
-```console
-  https://ip.ip.ip.ip:2087
-```
-
-You can also connect to your panel though the MyUKFast portal by navigating to the server screen and clicking the link highlighted in red here:
-
-![WHM login](files/cpanel_ukfast_login.png)
-
-WHM will require you to use your server's root credentials for access.
-
-## Connecting to cPanel
-
-cPanel is for managing individual sites, so generally you would use the site URL and the cPanel port, 2083
-
-```console
-  https://example.com:2083
-```
-
-Logging into cPanel will require a set of account credentials that you created through WHM.
-
-```eval_rst
-.. note::
-   The first time you access this, it will likely show a certificate warning that varies depending on which browser you're using.
-
-   This is nothing to be worried about, it's just that cPanel uses a self-signed certificate to encrypt traffic.
-```
-
-It is also possible to use WHM to connect directly to any accounts cPanel without need for their credentials using the following method:
-
-![cPanel Login](files/cPanellogin.png)
-
-1. Find the 'List Accounts' page in the navigation pane on the left
-2. Press the 'cP' logo next to the domain you want to access
+[All WHM/cPanel Documentation](index.rst)
 
 ## Further Documentation
 
 Due to the frequent updates brought to cPanel, describing individual cPanel issues is beyond the scope of this page. Fortunately, cPanel maintain an official usage and troubleshooting guide here:
 
-<https://documentation.cpanel.net>
+[cPanel Official Documentation](https://documentation.cpanel.net)
 
 ```eval_rst
   .. meta::
