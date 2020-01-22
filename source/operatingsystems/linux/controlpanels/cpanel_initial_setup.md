@@ -9,3 +9,5 @@ Unless you're using custom nameservers, you can use our SafeDNS nameservers here
 * ns1.ukfast.net
 
 ![Initial Setup Page](files/whm_initial_setup.JPG)
+
+You're now ready to start using WHM/cPanel. [See our guide on adding accounts here!](cpanel_add_account)
