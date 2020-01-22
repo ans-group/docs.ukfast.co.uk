@@ -10,4 +10,4 @@ Unless you're using custom nameservers, you can use our SafeDNS nameservers here
 
 ![Initial Setup Page](files/whm_initial_setup.JPG)
 
-You're now ready to start using WHM/cPanel. [See our guide on adding accounts here!](cpanel_add_account)
+You're now ready to start using WHM/cPanel. [See our guide on adding accounts here!](/operatingsystems/linux/controlpanels/cpanel_add_account.html)
