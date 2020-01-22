@@ -13,8 +13,10 @@ You will be looking at this page:
 
 ![ImageToShowFTPAccountPage](LinkGoesHere)
 
-From here, fill in a username and password for the account, and give it a quota if you need (This can be left as unlimited by default).  
+Firstly, choose and input a username and password for your account.
 
-The last box says "Directory", unless the account needs to only access a specific folder, this can be left default also.  
+The next box is for "Quota". This determines how much bandwidth the FTP account can use. By default, this can be left as unlimited.
 
-Now you can click "Create".
+The last box is "Directory". Unless the account you're adding should only be allowed to access a specific subdirectory of the site, this can be left as `public_html`
+
+Now you can click "Create"
