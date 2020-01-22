@@ -9,14 +9,16 @@ Now, navigate to:
 Files >> FTP Accounts
 ```
 
+![FTP Accounts](files/ftp_accounts_button.JPG)
+
 You will be looking at this page:
 
-![ImageToShowFTPAccountPage](LinkGoesHere)
+![FTP Accpunt Page](files/ftp_accounts_page.JPG)
 
 Firstly, choose and input a username and password for your account.
 
 The next box is for "Quota". This determines how much bandwidth the FTP account can use. By default, this can be left as unlimited.
 
-The last box is "Directory". Unless the account you're adding should only be allowed to access a specific subdirectory of the site, this can be left as `public_html`
+The last box is "Directory". Unless the account you're adding should only be allowed to access a specific subdirectory of the site, this can be left as blank. This will allow the FTP user to access all the files in the site's home directory.
 
-Now you can click "Create"
+Now you can click "Create".
