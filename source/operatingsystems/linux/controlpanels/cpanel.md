@@ -15,6 +15,7 @@ cPanel is for management of individual sites and controls things such as mailbox
 
 We have a number of guides on getting started with WHM/cPanel. See below:
 * [Connecting To WHM/cPanel](cpanel_connect.md)
+* [cPanel Inital Setup Page](cpanel_initial_setup.md)
 * [Creating A New cPanel Account](cpanel_add_account.md)
 * [Adding An FTP Account](cpanel_ftp_account.md)
 
