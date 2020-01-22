@@ -27,7 +27,6 @@ cPanel/WHM
    cpanel_initial_setup
    cpanel_add_account
    cpanel_ftp_account
-   cpanel_tips
 
 .. meta::
   :title: Plesk and cPanel | UKFast Documentation
