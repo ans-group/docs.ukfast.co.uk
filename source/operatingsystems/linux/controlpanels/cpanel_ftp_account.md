@@ -22,3 +22,9 @@ The next box is for "Quota". This determines how much bandwidth the FTP account 
 The last box is "Directory". Unless the account you're adding should only be allowed to access a specific subdirectory of the site, this can be left as blank. This will allow the FTP user to access all the files in the site's home directory.
 
 Now you can click "Create".
+
+```eval_rst
+  .. meta::
+     :title: Creating An FTP Account In cPanel | UKFast Documentation
+     :description: Creating an FTP Account in cPanel
+     :keywords: ukfast, cpanel, whm, control, panel, ftp, cloud, server, guide, virtual
