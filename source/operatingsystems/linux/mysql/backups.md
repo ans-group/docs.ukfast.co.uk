@@ -24,7 +24,7 @@ mysqldump --events --routines yourdatabase > yourdatabase.sql
    Always ensure you have enough disk space available before creating a database dump
 ```
 
-When disk space is low, you can pipe `mysqldump` output straight into compressed file. As the output is basically text, you should see a sizeable reduction.
+When disk space is low, you can pipe `mysqldump` output straight into a compressed file. As the output is basically text, you should see a sizeable reduction.
 
 ```
 mysqldump yourdatabase | gzip > yourdatabase.sql.gz
@@ -55,6 +55,8 @@ mysqldump --all-databases > all_databases.sql
 ### Scripting
 
 Should you wish to script this, here is an example loop. This takes each database, dumps it to an example directory, then compresses it, names it and dates it.
+
+The `nice` command adjusts the CPU priority of the process, defaulting to **10** without a flag. CPU prioirty ranges from -20 (highest) to 19 (lowest), so here we are making the dump less disruptive to other processes.
 
 ```
 for i in $(echo 'SHOW DATABASES;' | mysql | grep -v '^Database$')
