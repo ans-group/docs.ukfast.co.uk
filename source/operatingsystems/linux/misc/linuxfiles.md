@@ -141,3 +141,9 @@ Panel log - `/var/log/plesk/panel.log` <br/>
 Domains access and error logs directory- `/var/www/vhosts/system/domain.com/logs/`
 
 PHP-FPM logs, replacing $$ for PHP version - `/var/log/plesk-php$$-fpm/error.log`
+
+```eval_rst
+  .. meta::
+     :title: Linux Log Files | UKFast Documentation
+     :description: Guidance on where to find important Linux logs
+     :keywords: linux, logs, ukfast, secure, plesk, cpanel, messages
