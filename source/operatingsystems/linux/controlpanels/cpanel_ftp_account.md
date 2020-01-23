@@ -17,9 +17,9 @@ You will be looking at this page:
 
 Firstly, choose and input a username and password for your account.
 
-The next box is for "Quota". This determines how much bandwidth the FTP account can use. By default, this can be left as unlimited.
+The next box is "Directory". Unless the account you're adding should only be allowed to access a specific subdirectory of the site, this can be left as blank. This will allow the FTP user to access all the files in the site's home directory.
 
-The last box is "Directory". Unless the account you're adding should only be allowed to access a specific subdirectory of the site, this can be left as blank. This will allow the FTP user to access all the files in the site's home directory.
+The last box is for "Quota". This determines how much bandwidth the FTP account can use. By default, this can be left as unlimited.
 
 Now you can click "Create".
 
