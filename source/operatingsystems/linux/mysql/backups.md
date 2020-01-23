@@ -56,7 +56,7 @@ mysqldump --all-databases > all_databases.sql
 
 Should you wish to script this, here is an example loop. This takes each database, dumps it to an example directory, then compresses it, names it and dates it.
 
-The `nice` command adjusts the CPU priority of the process, defaulting to **10** without a flag. CPU prioirty ranges from -20 (highest) to 19 (lowest), so here we are making the dump less disruptive to other processes.
+The `nice` command adjusts the CPU priority of the process, defaulting to **10** without a flag. CPU priority ranges from -20 (highest) to 19 (lowest), so here we are making the dump less disruptive to other processes.
 
 ```
 for i in $(echo 'SHOW DATABASES;' | mysql | grep -v '^Database$')
