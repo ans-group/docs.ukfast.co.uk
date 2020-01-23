@@ -93,13 +93,6 @@ This can be useful when diagnosing why the MySQL service will not start, an exam
 
 The location of your web server logs will be dependant on the web service currently running.
 
-```eval_rst
-.. note::
-
-If your server runs cPanel or Plesk, your web access and error logs may be located in another location.
-Detailed log locations for these panels can be found later on in this guide.
-```
-
 `/var/log/httpd/` - Directory for Apache server logs. The main logs in this directory are error_log and access_log. Many errors in regards to your web service can be found here. The access logs can be used to search for suspicious requests and reviewing incoming traffic.
 
 `/var/log/nginx/` - Directory for NGINX server logs. The main logs in this directory are error.log and access.log. Each site configured can have their own individual log file: domain.error.log.
