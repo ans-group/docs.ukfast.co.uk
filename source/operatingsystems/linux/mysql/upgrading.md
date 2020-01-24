@@ -17,17 +17,20 @@ Both `Plesk` and `cPanel` allow you to upgrade your database service, but take d
 
 Here, we will run through how to perform both types of upgrades depending on your solution.
 
-
 ```eval_rst
 .. warning::
+
    Before proceeding, please ensure that you have checked that your sites/services are compatible with the upgraded version of MySQL/MariaDB, that you have backed up your databases.
 
 ```
+
 ### Upgrading
 
 ```eval_rst
 .. note::
+
    Plesk supports versions 5.1 through to 5.7, but will drop support for older versions in due course. Therefore it is in your best interest to upgrade to 5.7 or equivalent.
+   
 ```
 
 Upgrading between MySQL versions can be straightforward, but you do have to upgrade incrementally
@@ -37,7 +40,8 @@ In this example, we will upgrade from *5.1* to *5.5* to show you the first step 
 ```eval_rst
 .. warning::
 
-   We would encourage you to put your website into maintenance mode to ensure database consistency and false alerts.
+   We would encourage you to put your website into maintenance mode to ensure database consistency and to prevent false alerts.
+   
 ```
 
 * First, dump out your MySQL databases (ensuring you have enough room first). Verify that the dump is of expected size before proceeding.
@@ -48,10 +52,13 @@ mysqldump --events --triggers --all-databases > mysqldumps/all_databases.sql
 ```
 
 * Install the **MySQL Community Repo**
+
 ```bash
 yum install https://dev.mysql.com/get/mysql80-community-release-el7-1.noarch.rpm
 ```
+
 * Edit the newly installed repo to **enable** `MySQL 5.5` and **disable** `MySQL 8.0` (in a text editor of your choice. Here we are using `vim`)
+
 ```bash
 vim /etc/yum.repos.d/mysql-community.repo
 
@@ -66,14 +73,17 @@ name=MySQL 8.0 Community Server
 baseurl=http://repo.mysql.com/yum/mysql-8.0-community/el/7/$basearch/
 enabled=0
 ```
+
 * Stop `MySQL`
 ```bash
 systemctl stop mysqld
 ```
+
 * Upgrade `MySQL`
 ```bash
 yum upgrade mysql
 ```
+
 * Start it up
 ```bash
 systemctl start mysqld
@@ -82,11 +92,14 @@ systemctl start mysqld
 ```bash
 mysql_upgrade
 ```
+
 * Once happy, you can edit the yum repo file to *disable* **5.6**, enable **5.7**, dump your databases and follow the above steps again to upgrade to the next version.
 
 ```eval_rst
 .. note::
-   Be sure to test your website functionality after each change
+
+   Be sure to test your website functionality after each change.
+   
 ```
 
 Plesk have some additional documentation for upgrading MariaDB from 5.5 to 10.x at the following link
@@ -95,10 +108,11 @@ Plesk have some additional documentation for upgrading MariaDB from 5.5 to 10.x 
 
 ### cPanel
 
-
 ```eval_rst
 .. warning::
-   WHM does not offer a downgrade option, so any rollback would require a full server restore to revert this change
+
+   WHM does not offer a downgrade option, so any rollback would require a full server restore to revert this change.
+   
 ```
 
 * Log into [WHM](https://docs.ukfast.co.uk/operatingsystems/linux/controlpanels/cpanel.html)
