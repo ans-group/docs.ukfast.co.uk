@@ -34,7 +34,7 @@ cPanel/WHM
    cpanel_installphpextension
 
 ------------------------
-cPanel/WHM
+Migrations
 ------------------------
 .. toctree::
    :maxdepth: 1
