@@ -37,7 +37,7 @@ In this guide we will look into the main log files that can be used for troubles
 
 ## General Logs
 
-Usually the first point to an investigation will be in the messages and secure logs. These contain general, but useful, information which could help confirm issues such a hung task timeout, or out of memory issue.
+Usually the first point to an investigation will be in the `messages` and `secure` logs. These contain general, but useful information which could help confirm issues such as a hung task timeout, or out of memory issue.
 
 CentOS: `/var/log/messages` <br/>
 Ubuntu: `/var/log/syslog` <br/>
