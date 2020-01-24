@@ -1,6 +1,6 @@
 # Retrieving passwords for eCloud Flex instances
 
-The public-key-encrypted instance password can be retrieved and decrypted (when available) using the corresponding private-key, useful for decrypting the `Administrator` password within Windows instances. The methods for doing so are outlined here. To access your Linux server, please follow the steps on [accessing Linux eCloud Flex Instances Using SSH](cloud/flex/general/accesslinuxinstances.html).
+The public-key-encrypted instance password can be retrieved and decrypted (when available) using the corresponding private-key, useful for decrypting the `Administrator` password within Windows instances. The methods for doing so are outlined here. To access your Linux server, please follow the steps on [accessing Linux eCloud Flex Instances Using SSH](accesslinuxinstances.html).
 
 ## Nova
 
@@ -14,9 +14,7 @@ GDrtWKpcKHTQFUux3gpv
 
 ## eCloud Flex Dashboard
 
-The [eCloud Flex dashboard](https://api.openstack.ecloud.co.uk/project) can be used to retrieve passwords.  Head to the Instances area, then click on the instance in question.  In the drop down menu at the top right of the screen you'll find the option to Retrieve Password.
-
-![instances-retrievepassword](../files/instances-retrievepassword.PNG)
+The [eCloud Flex dashboard](https://api.openstack.ecloud.co.uk/project) can be used to retrieve passwords.  Head to the Instances area, then click on the instance in question.  In the drop down menu at the top right of the screen you'll find the option to Retrieve Password. You'll then need to input your private key, and the password will appear in the popup window.
 
 ```eval_rst
 .. meta::
