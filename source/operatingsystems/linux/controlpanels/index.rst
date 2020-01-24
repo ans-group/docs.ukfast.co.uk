@@ -15,8 +15,6 @@ Plesk
    plesk_mysql
    plesk_pci
    plesk_tips
-   plesk_upgradingfromonyxtoobsidian
-   plesk_applyingsystemupdates
 
 ------------------------
 cPanel/WHM
