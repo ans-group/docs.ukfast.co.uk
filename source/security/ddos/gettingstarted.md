@@ -141,17 +141,17 @@ For Apache 2.4 and above, you will need to use the [mod_remoteip](https://httpd.
 ```
 <IfModule remoteip_module>
     RemoteIPHeader X-Forwarded-For
-    RemoteIPTrustedProxy 185.156.64.0/24;
-    RemoteIPTrustedProxy 23.170.128.0/24;
-    RemoteIPTrustedProxy 192.166.44.0/24;
-    RemoteIPTrustedProxy 78.24.88.0/24;
-    RemoteIPTrustedProxy 195.69.102.0/24;
-    RemoteIPTrustedProxy 2a02:21a8:1::/48;
-    RemoteIPTrustedProxy 2a02:21a8:2::/48;
-    RemoteIPTrustedProxy 2a02:21a8::/48;
-    RemoteIPTrustedProxy 2a09:ba00:4::/48;
-    RemoteIPTrustedProxy 2a09:b600:5::/48;
-   RemoteIPTrustedProxy 2a09:b200:6::/48;
+    RemoteIPTrustedProxy 185.156.64.0/24
+    RemoteIPTrustedProxy 23.170.128.0/24
+    RemoteIPTrustedProxy 192.166.44.0/24
+    RemoteIPTrustedProxy 78.24.88.0/24
+    RemoteIPTrustedProxy 195.69.102.0/24
+    RemoteIPTrustedProxy 2a02:21a8:1::/48
+    RemoteIPTrustedProxy 2a02:21a8:2::/48
+    RemoteIPTrustedProxy 2a02:21a8::/48
+    RemoteIPTrustedProxy 2a09:ba00:4::/48
+    RemoteIPTrustedProxy 2a09:b600:5::/48
+   RemoteIPTrustedProxy 2a09:b200:6::/48
 </IfModule>
 LogFormat "%a %l %u %t \"%r\" %>s %b \"%{Referer}i\" \"%{User-Agent}i\"" ddosx
 
