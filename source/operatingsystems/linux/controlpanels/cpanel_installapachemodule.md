@@ -1,7 +1,7 @@
 # Installing an Apache Module via EasyApache4
 
 Before you begin to install an Apache Module on your WHM/cPanel server, you need to log in to your WHM Panel.
-Installing an Apache Module requires you to be logged into the WHM panel as oppose to cPanel for a specific domain, this is because access to EasyApache4 is required.
+Installing an Apache Module requires you to be logged into the WHM panel as opposed to cPanel for a specific domain, this is because access to EasyApache4 is required.
 EasyApache4 is used to install packages on a server-wide level and can not be used by domain level users to install package unless they have access to WHM.
 
 ![cPanel Home](files/cpanel_home.PNG)
