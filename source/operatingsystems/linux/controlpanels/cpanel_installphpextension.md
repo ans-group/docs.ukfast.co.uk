@@ -45,3 +45,9 @@ Once the process has finished, click the "Done" button to close your EasyApache4
 ![cPanel EA4 Done](files/cpanel_easyapachedone.PNG)
 
 Using this guide, you have successfully installed a PHP extension using EasyApache4!
+
+```eval_rst
+  .. meta::
+     :title: Installing an Apache Module via EasyApache4
+     :description:  A guide to installing an Apache Module via EasyApache4
+     :keywords: ukfast, php, extension, easy, easyapache, easyapache4, cpanel, install
