@@ -23,7 +23,10 @@ cPanel/WHM
    :maxdepth: 1
 
    cpanel
-   cpanel_tips
+   cpanel_connect
+   cpanel_initial_setup
+   cpanel_add_account
+   cpanel_ftp_account
    cpanel_installapachemodule
    cpanel_installphpversion
    cpanel_installphpextension
