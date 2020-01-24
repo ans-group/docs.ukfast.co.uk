@@ -24,6 +24,9 @@ cPanel/WHM
 
    cpanel
    cpanel_tips
+   cpanel_installapachemodule
+   cpanel_installphpversion
+   cpanel_installphpextension
 
 .. meta::
   :title: Plesk and cPanel | UKFast Documentation

@@ -168,7 +168,7 @@ git push
 
 When you don't have permission to push to a repository directly, you will likely want to Fork the repository and start a new pull request to apply your suggested changes. Typically this would need to be aproved before being merged into the origional branch.
 
-First look a the currently configured remote repositories
+First look at the currently configured remote repositories
 
 ```bash
 git remote -v
