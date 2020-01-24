@@ -1,4 +1,4 @@
-## Using Git
+# Using Git
 
 ### Setup
 
@@ -11,7 +11,7 @@ git config --global user.name "Support"
 git config --global user.email support@ukfast.co.uk
 ```
 
-## Cloning repo's
+### Cloning repo's
 
 To start using a public repository, you can clone a repo to your local machine using either `https` or `ssh`. To get the full path navigate to the repo in github or gitlab.
 
