@@ -12,3 +12,4 @@ MySQL
    restore_your_databases
    reset_root_password
    troubleshooting
+   upgrading
