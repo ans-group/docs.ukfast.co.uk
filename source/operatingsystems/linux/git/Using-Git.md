@@ -1,6 +1,6 @@
 # Using Git
 
-##SETUP
+## SETUP
 
 Firstly, you will need to have installed git on your local machine.
 
@@ -10,24 +10,22 @@ Set your name and email address using the following commands, commits are associ
 git config --global user.name "Support"
 git config --global user.email support@ukfast.co.uk
 ```
-### CLONING REPO'S
 
+## CLONING REPO'S
 
-To start using a public repository, you can clone a repo to your local machine using either https or ssh. To get the full path navigate to the repo in github or gitlab.
+To start using a public repository, you can clone a repo to your local machine using either `https` or `ssh`. To get the full path navigate to the repo in github or gitlab.
 
 ```bash
 git clone https://github.com/path/to/repo
 ```
 
-
 ```bash
 git clone ssh://user-name@github.com/path/to/repo.git
 ```
 
-### Git ADD, COMMIT AND PUSH 
+## Git ADD, COMMIT AND PUSH
 
-
-Once you have made a change to the source code in your repos directory, use the git add command 
+Once you have made a change to the source code in your repos directory, use the `git add` command
 
 ```bash
 git add .           # add's all changed files
@@ -35,7 +33,7 @@ git add filename    # add's only specified file
 git add *           # wildcard, used for *.txt
 ```
 
-Commit changes as often as possible and provide useful commit messages for the community 
+Commit changes as often as possible and provide useful commit messages for the community
 
 ```bash
 git commit -m "Updated README.md"
@@ -44,11 +42,10 @@ git commit -m "Updated README.md"
 When you are ready to publish your new code, push it to the remote repo specifying the remote branch:
 
 ```bash
-git push origin master
+ git push origin master
 ```
 
-
-### CHECK YOUR CHANGES 
+## CHECK YOUR CHANGES
 
 It's very important to know what you are committing and make sure what you think you are pushing is what you will push to the remote branch :
 
@@ -86,10 +83,9 @@ index e69de29..3b18e51 100644
 +hello world
 ```
 
-### BRANCHES
+## BRANCHES
 
-
-Ideally you would never be pushing to the master branch directly and instead branching off from the master committing and pushing your changes then merging back to the master branch. 
+Ideally you would never be pushing to the master branch directly and instead branching off from the master committing and pushing your changes then merging back to the master branch.
 
  Check existing branches
 
@@ -132,15 +128,15 @@ git merge newbranch
 git push origin master
 ```
 
-### PULLING 
+## PULLING
 
-Use git pull to fetch and incorporate changes from the remote repository into your current branch.
+Use `git pull` to fetch and incorporate changes from the remote repository into your current branch.
 
 ```bash
 git pull
 ```
 
-Although git is very good at combining multiple changes, running a git pull can sometimes result in merge conflicts depending on how far behind your branch is :
+Although git is very good at combining multiple changes, running a `git pull` can sometimes result in merge conflicts depending on how far behind your branch is :
 
 ```bash
 Auto-merging example2.txt
@@ -160,10 +156,79 @@ Hello World!
 
 Edit the bits from <<<<<<< to >>>>>>>, to make the file just as you want it.
 
-Then the usual add, commit, push:
+Then the usual `add`, `commit`, `push`:
 
 ```bash
 git add -A (add all files/changes to files)
 git commit -m "Fix merge conflicts"
 git push
 ```
+
+## FORKING
+
+When you don't have permission to push to a repository directly, you will likely want to Fork the repository and start a new pull request to apply your suggested changes. Typically this would need to be aproved before being merged into the origional branch.
+
+First look a the currently configured remote repositories
+
+```bash
+git remote -v
+origin  https://github.com/path/to/repo.git (fetch)
+origin  https://github.com/path/to/repo.git (push)
+```
+
+Now we will specify a new remote repository, we will call it `upstream`
+
+```bash
+git remote add upstream https://github.com/path/to/origional/repo.git
+```
+
+Have a look at the now configured remote repositories
+
+```bash
+git remote -v
+origin  https://github.com/path/to/repo.git (fetch)
+origin  https://github.com/path/to/repo.git (push)
+upstream  https://github.com/path/to/origional/repo.git (fetch)
+upstream  https://github.com/path/to/origional/repo.git (push)
+```
+
+Now we will fetch respective commits from the `upstream/master`
+
+```bash
+git fetch upstream
+> remote: Counting objects: 75, done.
+> remote: Compressing objects: 100% (53/53), done.
+> remote: Total 62 (delta 27), reused 44 (delta 9)
+> Unpacking objects: 100% (62/62), done.
+> From https://github.com/path/to/origional/repo.git
+>  * [new branch]      master     -> upstream/master
+```
+
+On your local `master` branch
+
+```bash
+git checkout master
+```
+
+Merge the commits from the `upstream/master`, this will leave all local changes untouched.
+
+```bash
+git merge upstream/master
+Merge made by the 'recursive' strategy.
+ path/to/changed/file.md | 148 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ path/to/another/changed/file.md  |   1 +
+ 2 files changed, 149 insertions(+)
+ create mode 100644 path/to/changed/file.md
+```
+
+Remeber to push your changes to your remote `origin`
+
+```bash
+git push origin
+```
+
+ ```eval_rst
+  .. meta::
+     :title:  Using Git | UKFast Documentation
+     :description: An advanced guide on basic git commands
+     :keywords: ukfast, linux, install, centos, cloud, server, virtual, git, eCommerce, branch, fork, merge, gitlab, devops, github

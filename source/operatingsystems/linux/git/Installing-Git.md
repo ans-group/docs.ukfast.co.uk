@@ -72,3 +72,10 @@ Using the terminal, configure your Git username and email using the following co
 git config --global user.name "Support"
 git config --global user.email support@ukfast.co.uk
 ```
+
+ ```eval_rst
+  .. meta::
+     :title: Installing Git | UKFast Documentation
+     :description: Guide to install git multiple operating systems
+     :keywords: ukfast, linux, install, centos, cloud, server, virtual, git, eCommerce, branch, fork, merge, gitlab, devops, github, windows, mac, debian, ubuntu, homebrew
+
