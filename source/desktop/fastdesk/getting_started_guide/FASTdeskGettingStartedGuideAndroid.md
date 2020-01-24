@@ -22,7 +22,7 @@ Once the "Citrix Workspace" application is installed, proceed to open it (Refer 
 
 After launching Citrix Workspace for the first time, you will receive four notifications from your phone asking to "Allow Workspace to access photos, media and other files on your device?" Please select Allow for the set-up to continue(Refer to **_image 4_**). 
 
-![Image 4: Citrix Workspace asking for read permissions.](filespermisions1.png "Image 4: Citrix Workspace asking for read permissions.")
+![Image 4: Citrix Workspace asking for read permissions.](files/permisions1.png "Image 4: Citrix Workspace asking for read permissions.")
 
 Once finished, you will be prompted to enter a company email address or store URL. Simply type the following URL “https://www.fastdesk.co.uk” and click Continue. Do make sure you enter the full URL includining the "https://www." Please leave the "Add account type as Web Interface" unselected (Refer to **_image 5_** included).
 
