@@ -1,6 +1,6 @@
 # Using Git
 
-## SETUP
+### Setup
 
 Firstly, you will need to have installed git on your local machine.
 
@@ -11,7 +11,7 @@ git config --global user.name "Support"
 git config --global user.email support@ukfast.co.uk
 ```
 
-## CLONING REPO'S
+### Cloning repo's
 
 To start using a public repository, you can clone a repo to your local machine using either `https` or `ssh`. To get the full path navigate to the repo in github or gitlab.
 
@@ -23,7 +23,7 @@ git clone https://github.com/path/to/repo
 git clone ssh://user-name@github.com/path/to/repo.git
 ```
 
-## Git ADD, COMMIT AND PUSH
+### Git add, commit and push
 
 Once you have made a change to the source code in your repos directory, use the `git add` command
 
@@ -45,7 +45,7 @@ When you are ready to publish your new code, push it to the remote repo specifyi
  git push origin master
 ```
 
-## CHECK YOUR CHANGES
+### Check your changes
 
 It's very important to know what you are committing and make sure what you think you are pushing is what you will push to the remote branch :
 
@@ -83,7 +83,7 @@ index e69de29..3b18e51 100644
 +hello world
 ```
 
-## BRANCHES
+### Branches
 
 Ideally you would never be pushing to the master branch directly and instead branching off from the master committing and pushing your changes then merging back to the master branch.
 
@@ -128,7 +128,7 @@ git merge newbranch
 git push origin master
 ```
 
-## PULLING
+### Pulling
 
 Use `git pull` to fetch and incorporate changes from the remote repository into your current branch.
 
@@ -164,7 +164,7 @@ git commit -m "Fix merge conflicts"
 git push
 ```
 
-## FORKING
+### Forking
 
 When you don't have permission to push to a repository directly, you will likely want to Fork the repository and start a new pull request to apply your suggested changes. Typically this would need to be aproved before being merged into the origional branch.
 
