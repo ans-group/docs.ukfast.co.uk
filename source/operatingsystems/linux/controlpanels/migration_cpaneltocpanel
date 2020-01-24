@@ -11,7 +11,7 @@ The migration can only be started via WHM, which is the server-wide control pane
 Once you are logged in to WHM, use the search box in the top left under the WHM logo to search for "Transfer Tool"
 Click on "Transfer Tool" to be directed to the Transfer Tool page in which you can start your migration.
 
-![cPanel Home Transfer](cpanel_searchtransfertool.PNG]
+![cPanel Home Transfer](cpanel_searchtransfertool.PNG)
 
 Now you are within the Transfer Tool section of WHM, fill in the details accordingly for the server you want to pull your data from.
 
