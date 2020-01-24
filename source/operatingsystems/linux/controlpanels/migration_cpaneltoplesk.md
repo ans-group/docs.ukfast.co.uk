@@ -8,15 +8,15 @@
 To begin your migration you first need to ensure you are logged into your Plesk Web Interface.
 Once you are logged in, click on the "Tools and Settings" link on the left hand side menu.
 
-![Plesk Obsidian Homepage](plesk_obsidianhomepage.PNG)
+![Plesk Obsidian Homepage](files/plesk_obsidianhomepage.PNG)
 
 When you are on the "Tools and Settings" page, click on "Migration and Transfer Manager" which is under "Tools & Resources".
 
-![Plesk Obsidian Tools and Settings](plesk_obsidiantoolsandsettings.PNG)
+![Plesk Obsidian Tools and Settings](files/plesk_obsidiantoolsandsettings.PNG)
 
 Now you are within the Migration and Transfer Manager, click on "Start a New Migration".
 
-![Plesk Obsidian Transfer Manager](plesk_migrationandtransfermanager.PNG)
+![Plesk Obsidian Transfer Manager](files/plesk_migrationandtransfermanager.PNG)
 
 For "Panel type", select cPanel and then populate the rest of the details accordingly.
 
@@ -27,18 +27,18 @@ For "Panel type", select cPanel and then populate the rest of the details accord
 
 Once the details have been filled in, click the "Prepare Migration" button.
 
-![Plesk Obsidian Migration Details](plesk_migrationdetails.PNG)
+![Plesk Obsidian Migration Details](files/plesk_migrationdetails.PNG)
 
 When Plesk has scanned the remote server for migratable cPanel Accounts, select what you want to copy over.
 Ensure that your chosen cPanel Accounts are in the "Selected" box in the "Subscriptions".
 Make sure you have ticked what content you want to transfer under the "Content that must be transferred" section.
 Once you are ready to start the migration, click the "Migrate" button.
 
-![Plesk Obsidian Select Sites to Migrate](plesk_selecttomigrate.PNG)
+![Plesk Obsidian Select Sites to Migrate](files/plesk_selecttomigrate.PNG)
 
 When the migration completes, you can go to the "Domains" page linked on the left hand side menu and see the site(s) you have transferred over.
 
-![Plesk Obsidian List Domains](plesk_listdomains.PNG)
+![Plesk Obsidian List Domains](files/plesk_listdomains.PNG)
 
 You have successfully performed a cPanel to Plesk Migration!
 
