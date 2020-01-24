@@ -42,7 +42,7 @@ On this page, you can review all the changes that are going to be made to the Ea
 You will then be redirected to the final page in which will include an output window of the processes that EasyApache4 does to action your requested changes.
 Once the process has finished, click the "Done" button to close your EasyApache4 session and return to the main EasyApache4 page.
 
-![cPanel EA4 Done](files/cpanel_easyapachedone.PNG)
+![cPanel EA4 Done](files/cpanel_easyapache4done.PNG)
 
 Using this guide, you have successfully installed a PHP version using EasyApache4!
 
