@@ -31,7 +31,6 @@ cPanel/WHM
    cpanel_installphpversion
    cpanel_installphpextension
 
-
 .. meta::
   :title: Plesk and cPanel | UKFast Documentation
   :description: Guidance on using your Plesk and cPanel servers from UKFast
