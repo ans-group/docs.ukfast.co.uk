@@ -1,8 +1,8 @@
 # Linux Log Files
 
-If you are experiencing issues with either your site or server, server logs can provide an insight into what may be causing these issues. My services running on the server will have their own specific log files. Mosts logs for Linux can be found in the /var/log/ directory.
+If you are experiencing issues with either your site or server, server logs can provide an insight into what may be causing these issues. Each service running on the server will have their own specific log file. Most logs for Linux can be found in the /var/log/ directory.
 
-In this directory we can see an example list of what you might expect to see on a Linux server:
+In this directory we can see an example list of what you might expect to see in /var/log/:
 
 ```bash
    [root@UKFast ~]# ls -l /var/log
@@ -37,9 +37,9 @@ In this guide we will look into the main log files that can be used for troubles
 
 ## General Logs
 
-Usually the first point to an investigation will be in the messages and secure logs. These contain general but useful information which could help confirm issues such as hung task timeouts, or out of memory issues.
+Usually the first point to an investigation will be in the messages and secure logs. These contain general, but useful, information which could help confirm issues such a hung task timeout, or out of memory issue.
 
-CentOS: `/var/log/messages`
+CentOS: `/var/log/messages` <br/>
 Ubuntu: `/var/log/syslog` <br/>
 General messages and log in attempts. A useful log for diagnosing kernel panics and out of memory issues.
 
@@ -51,7 +51,8 @@ kernel: Out of memory: Kill process 9163 (mysqld) score 511 or sacrifice child
 kernel: Killed process 9163, UID 27, (mysqld) total-vm:2457368kB, anon-rss:816780kB, file-rss:4kB
 ```
 
-CentOS: `/var/log/secure` Ubuntu: `/var/log/auth.log`<br/>
+CentOS: `/var/log/secure` <br/>
+Ubuntu: `/var/log/auth.log`<br/>
 Contains the login attempts for SSH. Useful to check for hacking attempts or unauthorised logins.
 
 
@@ -116,7 +117,7 @@ User's activities while they are logged into the cPanel account - `/usr/local/cp
 
 Exim Mail Transfer Agent - `/var/log/exim_mainlog`
 
-Domains access and error logs directory - `/home/domain/logs/`
+A domain's access and error logs directory - `/home/domain/logs/`
 
 PHP-FPM logs, replacing $$ for PHP version - `/opt/cpanel/ea-php$$/root/usr/var/log/php-fpm/error.log`
 
@@ -131,7 +132,7 @@ Plesk Access log - `/var/log/plesk/httpsd_access_log` <br/>
 
 Panel log - `/var/log/plesk/panel.log` <br/>
 
-Domains access and error logs directory- `/var/www/vhosts/system/domain.com/logs/`
+A domain's access and error logs directory- `/var/www/vhosts/system/domain.com/logs/`
 
 PHP-FPM logs, replacing $$ for PHP version - `/var/log/plesk-php$$-fpm/error.log`
 
