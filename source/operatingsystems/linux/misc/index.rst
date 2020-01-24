@@ -12,3 +12,4 @@ Miscellaneous
    rsync
    sed
    grep
+   linuxlogs

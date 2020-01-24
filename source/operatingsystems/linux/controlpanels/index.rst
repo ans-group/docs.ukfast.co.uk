@@ -27,6 +27,10 @@ cPanel/WHM
    cpanel_initial_setup
    cpanel_add_account
    cpanel_ftp_account
+   cpanel_tips
+   cpanel_installapachemodule
+   cpanel_installphpversion
+   cpanel_installphpextension
 
 .. meta::
   :title: Plesk and cPanel | UKFast Documentation
