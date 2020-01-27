@@ -6,7 +6,7 @@
 ```
 
 To begin your migration you first need to ensure you are logged into your WHM panel.
-The migration can only be started via WHM, which is the server-wide control panel, as oppose to cPanel which is the domain specific panel for your sites.
+The migration can only be started via WHM, which is the server-wide control panel, as opposed to cPanel which is the domain specific panel for your sites.
 
 ```eval_rst
 .. note::
@@ -23,7 +23,7 @@ Now you are within the Transfer Tool section of WHM, fill in the details accordi
 ![cPanel Transfer Tool Start](files/cpanel_transfertool1.PNG)
 
 - Remote Server Address: The IP Address of the other server
-- Remote SSH Port: The port SSH is binded to on the other server
+- Remote SSH Port: The port SSH is bound to on the other server
 - Root Password: The password for the root user on the other server
 
 ```eval_rst
@@ -42,11 +42,11 @@ After selecting what you want to transfer over, click the "Copy" button to start
 
 ![cPanel Select scanned sites for migration](files/cpanel_transfertoolscannedplesk.PNG)
 
-When the migration completes you will see the following page showing that both that transfer of the data and the restore of the account to your server is complete.
+When the migration completes you will see the following page showing that both the transfer of data and restore of the account to your server is complete.
 
 ![cPanel Transfer Success](files/cpanel_transfertoolplesksuccess.PNG)
 
-After the migration, you can go to the "List Accounts" page in WHM and you will be able to see the account you have just transferred
+After the migration, you can go to the "List Accounts" page in WHM and you will be able to see the account you have just transferred.
 
 ![cPanel List accounts to see the transferred site](files/cpanel_transfertoollistaccounts.PNG)
 

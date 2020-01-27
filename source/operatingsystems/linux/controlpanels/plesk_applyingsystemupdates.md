@@ -1,5 +1,10 @@
 # Applying system updates on your Plesk Server
 
+```eval_rst
+.. note::
+   Plesk System Updates may impact running services depending on the updates being applied.
+   We always recommend you review the updates available before applying them.
+```
 To begin applying your system updates on your Plesk server, you first of all need to be logged into your Plesk Web Interface.
 Once you are logged in and you are on the Plesk homepage, click on "Tools & Settings" on the left hand side menu.
 
