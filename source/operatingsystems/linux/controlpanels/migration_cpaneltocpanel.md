@@ -55,7 +55,7 @@ You have successfully performed a cPanel to cPanel Migration!
 ```eval_rst
 .. note::
     Before amending your DNS to point to your new server, you can test your websites using a hostfile change
-    You can view more information on that[here](https://my.ukfast.co.uk/safedns/index.php)
+    You can view more information on that [here](https://my.ukfast.co.uk/safedns/index.php)
 ```
 
 ```eval_rst
