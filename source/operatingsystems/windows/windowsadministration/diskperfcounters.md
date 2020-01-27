@@ -4,7 +4,7 @@ Disk performance counters allow you to see the current disk activity in Task Man
 
 Disk performance counters are enabled but not visible in Task Manager by default in Windows Server flavours of the OS:
 
-![Default Task Manager (no disk performance stats)](Images/diskperf/before_disk_perf.png)
+![Default Task Manager (no disk performance stats)](Images/diskperf/before_disk_perf.PNG)
 
 The steps below can be used to enable visibility in Task Manager:
 
@@ -15,11 +15,11 @@ The steps below can be used to enable visibility in Task Manager:
 diskperf -Y 
 ```
 
-![Running the diskperf command](Images/diskperf/command_diskperf.png)
+![Running the diskperf command](Images/diskperf/command_diskperf.PNG)
   
 - Open Task Manager and select the `Performance` tab:
 
-![Task Manager with disk performance stats](Images/diskperf/after_disk_perf.png)
+![Task Manager with disk performance stats](Images/diskperf/after_disk_perf.PNG)
 
 Disk performance counters can be hidden again if necessary using the `-N` switch:
 
