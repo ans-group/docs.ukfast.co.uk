@@ -45,7 +45,7 @@ After the migration, you can go to the "List Accounts" page in WHM and you will 
 
 ![cPanel List accounts to see the transferred site](files/cpanel_transfertoollistaccounts.PNG)
 
-You have successfully performed a Plesk to cPanel Migration!#
+You have successfully performed a Plesk to cPanel Migration!
 
 ```eval_rst
 .. note::
