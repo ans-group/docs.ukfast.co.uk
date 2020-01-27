@@ -1,4 +1,4 @@
-# hMailServer:  Anti-spam Setup
+# hMailServer - Anti-spam Setup
 
 hMailServer comes with some Anti-Spam protection enabled out-of-the-box. This article is designed to help you make sure this is configured and proviide some further options to help make it its spam detection even better.
 
@@ -47,6 +47,7 @@ From here we will be configuring hMail’s anti-spam settings, covering them tab
 .. note::
 
 If no DKIM signature is included in the message's headers, this check will not be executed.
+
 ```
 
 ## SpamAssassin
@@ -94,3 +95,9 @@ If you do enable this feature we would recommend whitelisting large mail provide
 
 For further information on Hmail’s anti-Spam features, please refer to the official documentation:
 https://www.hmailserver.com/documentation/v5.3/?page=details_antispam_methods
+
+```eval_rst
+  .. meta::
+     :title: hMailServer - Anti-spam Setup | UKFast Documentation
+     :description: A guide to anti-spam configurations in hMailServer
+     :keywords: ukfast, windows, hMail, hMailServer, mail, email, spam
