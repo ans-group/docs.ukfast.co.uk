@@ -4,6 +4,10 @@
 .. note::
    Plesk requires the ability to connect to your other Plesk server via your defined SSH port to complete any migrations
 ```
+```eval_rst
+.. note::
+   Plesk Migrations have to be initiated from the destination Plesk server
+```
 To begin your migration, you first need to ensure you are logged into your Plesk Web Interface.
 Once you are logged in, click on the "Tools and Settings" link on the left hand side menu.
 
@@ -21,7 +25,7 @@ For "Panel type", select Plesk and then populate the rest of the details accordi
 
 ```eval_rst
 .. note::
-   UKFast Linux Server listen on port 2020 for SSH by default
+   UKFast Linux Servers listen on port 2020 for SSH by default
 ```
 
 Once the details have been filled in, click the "Prepare Migration" button.

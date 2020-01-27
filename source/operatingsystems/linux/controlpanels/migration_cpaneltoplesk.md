@@ -22,7 +22,7 @@ For "Panel type", select cPanel and then populate the rest of the details accord
 
 ```eval_rst
 .. note::
-   UKFast Linux Server listen on port 2020 for SSH by default
+   UKFast Linux Servers listen on port 2020 for SSH by default
 ```
 
 Once the details have been filled in, click the "Prepare Migration" button.

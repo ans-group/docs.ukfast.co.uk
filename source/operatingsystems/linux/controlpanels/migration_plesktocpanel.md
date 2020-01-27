@@ -23,7 +23,7 @@ Now you are within the Transfer Tool section of WHM, fill in the details accordi
 
 ```eval_rst
 .. note::
-   UKFast Linux Server listen on port 2020 for SSH by default
+   UKFast Linux Servers listen on port 2020 for SSH by default
 ```
 ![cPanel Plesk to cPanel server details](files/cpanel_transfertool1withdetails.PNG)
 

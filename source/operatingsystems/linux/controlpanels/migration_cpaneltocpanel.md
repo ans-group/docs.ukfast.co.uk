@@ -8,6 +8,11 @@
 To begin your migration you first need to ensure you are logged into your WHM panel.
 The migration can only be started via WHM, which is the server-wide control panel, as oppose to cPanel which is the domain specific panel for your sites.
 
+```eval_rst
+.. note::
+   cPanel Migrations have to be initiated from the destination cPanel server
+```
+
 Once you are logged in to WHM, use the search box in the top left under the WHM logo to search for "Transfer Tool"
 Click on "Transfer Tool" to be directed to the Transfer Tool page in which you can start your migration.
 
@@ -23,7 +28,7 @@ Now you are within the Transfer Tool section of WHM, fill in the details accordi
 
 ```eval_rst
 .. note::
-   UKFast Linux Server listen on port 2020 for SSH by default
+   UKFast Linux Servers listen on port 2020 for SSH by default
 ```
 ![cPanel Transfer Tool Details](files/cpanel_transfertool1withdetails.PNG)
 
