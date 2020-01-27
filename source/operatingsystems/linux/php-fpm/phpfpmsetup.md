@@ -135,7 +135,7 @@ You should now be able to see the `PHP-FPM` socket.
 
 ```console
   stat /var/run/php-fcgi-firstdomaincom.sock
-  ```
+```
 
  which should should show something like.
 
@@ -153,7 +153,7 @@ Change: 2016-08-10 13:15:26.968222080 +0100
 ```eval_rst
 .. note::
 
-The `pm values` in the configuration are there mainly to prevent the server from running out of memory. However, on servers with higher specification these values can be increased.
+   The pm values in the configuration are there mainly to prevent the server from running out of memory. However, on servers with higher specification these values can be increased.
 
 ```
 
