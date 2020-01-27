@@ -1,10 +1,10 @@
 ```eval_rst
 .. meta::
    :title: Testing a domain on DDoSX\ :sup:`®` | UKFast Documentation 
-   :description: A guide for testing your domain on  DDoSX\ :sup:`®` before enabling DNS
+   :description: A guide for testing your domain on  DDoSX`®` before enabling DNS
 ```
 
-# Testing your domain on  DDoSX\ :sup:`®`
+# Testing your domain on  DDoSX`®`
 
 Before using ddosx it is strongly recommended that you test your web site first. This will 
 help to find issues that might have affected your users if you went live with ddosx straight away. 
@@ -37,7 +37,7 @@ $ curl -H "Host: example.org" https://<[replace_with_ipv6_ddosx_ip]>/ -gk
 ```
 However this will return the site in plain html and might not give you a true representative of what your site looks like through ddosx compared to loading it via your web browser.
 
-### mac osx
+### Mac OSX
 You need to open up the Terminal app and then run the command
 ```
 $ sudo nano /private/etc/hosts
@@ -46,7 +46,7 @@ and enter `your ddosx ip` `example.org www.example.org` at the bottom of the fil
 
 <b>Note: If you currently have a AAAA record for your domain or subdomains you will also need to put the IPv6 address into your `/private/etc/hosts` file to ensure your IPv6 connection goes through ddosx as well.</b>  
 
-### windows 7/8/10
+### Windows 7/8/10
 
 * Right click on notepad and open as the administrator
 * Select File > Open
