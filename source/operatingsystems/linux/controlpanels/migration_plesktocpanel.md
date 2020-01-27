@@ -45,8 +45,13 @@ After the migration, you can go to the "List Accounts" page in WHM and you will 
 
 ![cPanel List accounts to see the transferred site](files/cpanel_transfertoollistaccounts.PNG)
 
-You have successfully performed a Plesk to cPanel Migration!
+You have successfully performed a Plesk to cPanel Migration!#
 
+```eval_rst
+.. note::
+    Before amending your DNS to point to your new server, you can test your websites using a hostfile change
+    You can view more information on that[here](https://my.ukfast.co.uk/safedns/index.php)
+```
 
 ```eval_rst
   .. meta::

@@ -53,6 +53,12 @@ After the migration, you can go to the "List Accounts" page in WHM and you will 
 You have successfully performed a cPanel to cPanel Migration!
 
 ```eval_rst
+.. note::
+    Before amending your DNS to point to your new server, you can test your websites using a hostfile change
+    You can view more information on that[here](https://my.ukfast.co.uk/safedns/index.php)
+```
+
+```eval_rst
   .. meta::
      :title: Performing a cPanel to cPanel Migration
      :description:  A guide to performing a cPanel to cPanel Migration
