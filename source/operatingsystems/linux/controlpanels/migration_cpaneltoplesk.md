@@ -42,11 +42,8 @@ When the migration completes, you can go to the "Domains" page linked on the lef
 
 You have successfully performed a cPanel to Plesk Migration!
 
-```eval_rst
-.. note::
-    Before amending your DNS to point to your new server, you can test your websites using a hostfile change
-    You can view more information on that[here](https://my.ukfast.co.uk/safedns/index.php)
-```
+Before amending your DNS to point to your new server, you can test your websites using a hostfile change
+You can view more information on that [here](https://my.ukfast.co.uk/safedns/index.php)
 
 ```eval_rst
   .. meta::
