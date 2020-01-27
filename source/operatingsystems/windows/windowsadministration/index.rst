@@ -9,6 +9,7 @@ Windows Administration
    addupnsuffix
    checkingclusterstatus
    diskmanagement
+   diskperfcounters
    killingprocs
    makingspace
    netstat
