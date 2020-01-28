@@ -45,7 +45,7 @@ When you first log in, you will notice there is nothing to click except the menu
 
 Select the menu button and there is a list of options (Home, Apps, and Desktops). Refer to **_image 9_ below** for a visual representation. The "Home" section in the menu contains hosted desktops you have tagged as your favourites whilst the "Apps" section presents you with specific applications that have been made available to you. In most cases, you will not use this section. The "Refresh" options will reset your connection to the application whilst the "Settings" section presents you with the settings you can customise including the ability for you to manage your accounts. 
 
-![Image 9: Citrix Workspace Menu Bar](files/workspacemain.png"Image 9: Citrix Workspace Menu Bar")
+![Image 9: Citrix Workspace Menu Bar](files/workspacemain.png "Image 9: Citrix Workspace Menu Bar")
 
 Select Desktops by clicking on the text "Desktops". This should present you with the desktops that have been allocated to you. In the case of **_image 10_** below, this is the client Desktop Demo.)  
 
@@ -53,15 +53,15 @@ Select Desktops by clicking on the text "Desktops". This should present you with
 
 Go ahead and select the desktop by clicking on it and this will begin to launch your desktop (see **_image 11_** below).
 
-![Image 11: Desktop loading](files/Logginin2.PNG "Image 11: Desktop loading")
+![Image 11: Desktop loading](files/Logginin2.png "Image 11: Desktop loading")
 
 Upon loading, the gestures manual should appear giving you details on how to interact with your desktop (see **_image 12_** below).
 
-![Image 12:  Instructions on interacting with the desktop](files/desktop_set_up.PNG "Image 12: Instructions on interacting with the desktop")
+![Image 12:  Instructions on interacting with the desktop](files/desktop_set_up.png "Image 12: Instructions on interacting with the desktop")
 
 Click anywhere on the screen to close this manual and access the desktop (See **_image 13_**).
 
-![Image 13:  Your fully loaded desktop](files/desktopsloaded.PNG "Image 13: Your fully loaded desktop")
+![Image 13:  Your fully loaded desktop](files/desktopsloaded.png "Image 13: Your fully loaded desktop")
 
 Begin navigating your desktop following the instructions that were provided with the gestures manual.
 
