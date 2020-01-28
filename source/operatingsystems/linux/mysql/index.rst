@@ -4,7 +4,7 @@ MySQL
 
 -----------------------
 Installation & Administration
-------------------------
+-----------------------
 .. toctree::
    :maxdepth: 1
 
@@ -15,7 +15,7 @@ Installation & Administration
 
 -----------------------
 Backups & Restores
-------------------------
+-----------------------
 .. toctree::
    :maxdepth: 1
 
@@ -24,7 +24,7 @@ Backups & Restores
 
 -----------------------
 Upgrades, Tuning & Troubleshooting
-------------------------
+-----------------------
 .. toctree::
    :maxdepth: 1
 
