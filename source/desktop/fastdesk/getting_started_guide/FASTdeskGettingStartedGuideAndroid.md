@@ -34,22 +34,22 @@ If you get a prompt to save the URL, the option is yours as to whether you want 
 
 "You will then be prompted to enter your username and password into the application. Go ahead and enter the username and password credentials that were provided to you by the FASTdesk team (See **_Image 7 below_**). 
 
-![Image 7: Enter your credentials](files/entercreds.PNG "Image 7: Enter your credentials")
+![Image 7: Enter your credentials](files/entercreds.png "Image 7: Enter your credentials")
 
 Once successfully logged in for the first time, you will be asked to change your password. Your password must be a minimum of 8 characters in length and contain at least 3 of the following: uppercase letters, lowercase letters, numbers, symbols and special characters e.g “! ” £”. Your password can also not contain the name of your account. For example, if your account name is John Smith, a password with the word ‘john’ will not be accepted.
 
 # Step 3 - Launching a desktop from the Portal
 When you first log in, you will notice there is nothing to click except the menu button in the left top corner of the screen and the search button in the top right corner of the screen(refer to **_image 8_** below). 
 
-![Image 8: When you first log-in](files/mainscreen.PNG "Image 8: When you first log-in")
+![Image 8: When you first log-in](files/mainscreen.png "Image 8: When you first log-in")
 
 Select the menu button and there is a list of options (Home, Apps, and Desktops). Refer to **_image 9_ below** for a visual representation. The "Home" section in the menu contains hosted desktops you have tagged as your favourites whilst the "Apps" section presents you with specific applications that have been made available to you. In most cases, you will not use this section. The "Refresh" options will reset your connection to the application whilst the "Settings" section presents you with the settings you can customise including the ability for you to manage your accounts. 
 
-![Image 9: Citrix Workspace Menu Bar](files/workspacemain.PNG "Image 9: Citrix Workspace Menu Bar")
+![Image 9: Citrix Workspace Menu Bar](files/workspacemain.png"Image 9: Citrix Workspace Menu Bar")
 
 Select Desktops by clicking on the text "Desktops". This should present you with the desktops that have been allocated to you. In the case of **_image 10_** below, this is the client Desktop Demo.)  
 
-![Image 10: Desktop(s) that have been allocated to you](files/clientdesktop.PNG "Image 10: Desktop(s) that have been allocated to you")
+![Image 10: Desktop(s) that have been allocated to you](files/clientdesktop.png "Image 10: Desktop(s) that have been allocated to you")
 
 Go ahead and select the desktop by clicking on it and this will begin to launch your desktop (see **_image 11_** below).
 
