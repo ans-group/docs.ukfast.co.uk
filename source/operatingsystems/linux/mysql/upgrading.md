@@ -20,7 +20,7 @@ Here, we will run through how to perform both types of upgrades depending on you
 ```eval_rst
 .. warning::
 
-   Before proceeding, please ensure that you have checked that your sites/services are compatible with the upgraded version of MySQL/MariaDB, that you have backed up your databases.
+   Before proceeding, please ensure that you have checked that your sites/services are compatible with the upgraded version of MySQL/MariaDB, and that you have backed up your databases.
 
 ```
 
