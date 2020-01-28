@@ -26,7 +26,7 @@ Using the `enable --now` flag, we can *start* the service and set it to *start o
 
 By default, this configuration starts a `PHP-FPM` server listening on *port 9000* that binds to `127.0.0.1` (localhost).
 
-If your intention is to run `PHP-FPM`on a *separate server*, then you will need to amend the following values in your `PHP-FPM` domain configuration file .
+If your intention is to run `PHP-FPM`on a *separate server*, then you will need to amend the following values in your `PHP-FPM` domain configuration file.
 
 ```bash
 listen = <add your internal ip address>:9000
@@ -56,7 +56,7 @@ listen = '/var/run/php-fcgi-firstdomaincom.sock'
 
  ```
 
- Here is a sample configuration for a domain called domain.com
+ Here is a sample configuration for a domain called domain.com.
 
 ```console
 [firstdomaincom]
@@ -137,7 +137,7 @@ You should now be able to see the `PHP-FPM` socket.
   stat /var/run/php-fcgi-firstdomaincom.sock
 ```
 
- which should should show something like.
+ which should show something like.
 
  ```console
    File: ‘/var/run/php-fcgi-firstdomaincom.sock'
