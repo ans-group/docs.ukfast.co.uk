@@ -48,7 +48,8 @@ Once selected, it should begin to launch your desktop. Once this has booted, you
 
 ![Image 8: Client Desktop Demo Fully Loaded](files/loaded.png "Image 8: Client Desktop Demo Fully Loaded")
 
-**Warning:** 
+### Warning
+
 Whenever you log out of a desktop, do allow at least 3 minutes before attempting to log back in. This is to ensure the session correctly ends before another one is open. If you have not waited long enough, there is a danger of your applications not appearing when you log in. If you do find that this is the case, simply log out, wait at least 3 minutes and log back in again.
 
 **_This instruction guide should assist you getting logged in for the first time. If you have any questions or still require assistance, please contact the FASTdesk support team on 0800 923 0617_**.
