@@ -42,7 +42,7 @@ The "Favorites" page contains hosted desktops you have tagged as your favourites
 
 From the "Apps" section, you will be able to launch your desktop. To do this, select the hosted desktop that has been allocated to you. As an example, please refer to **_image 7 below_** for a visual example (In this case, it would be "Client Desktop Demo").
 
-![Image 7: Opening Client Desktop Demo](files/opening.png "Image 7: Opening Client Desktop Demo")
+![Image 7: Opening Client Desktop Demo](files/Opening.png "Image 7: Opening Client Desktop Demo")
 
 Once selected, it should begin to launch your desktop. Once this has booted, your FASTdesk is ready for you as shown in **_image 8 below_**.
 
