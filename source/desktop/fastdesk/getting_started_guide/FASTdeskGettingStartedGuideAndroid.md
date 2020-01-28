@@ -67,7 +67,8 @@ Begin navigating your desktop following the instructions that were provided with
 
 You can later set the desktop that has been allocated to you as a "Favorite". This will allow it to appear as soon as you log in.
 
-**Warning:** 
+### Warning 
+
 Whenever you log out of a desktop, do allow at least 3 minutes before attempting to log back in. This is to ensure the session correctly ends before another one is open. If you have not waited long enough, there is a danger of your applications not appearing when you log in. If you do find that this is the case, simply log out, wait at least 3 minutes and log back in again.
 
 **_This instruction guide should assist you getting logged in for the first time. If you have any questions or still require assistance, please contact the FASTdesk support team on 0800 923 0617_**.
