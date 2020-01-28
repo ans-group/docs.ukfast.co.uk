@@ -7,39 +7,68 @@ FASTdesk® is UKFast’s Desktop as a Service (DaaS) solution, which allows user
 This guide provides step by step instructions on installing and accessing FASTdesk on your Android device through the Citrix Workspace application. It is possible to access FASTdesk through the web portal on your Android device, however, it is recommended FASTdesk is accessed specifically through the Citrix Workspace Application. The Citrix Workspace application gives you instant access to your FASTdesk environment in an easy-to-use, all-in-one interface. The Workspace application also fully integrated with the Citrix Content Collaboration (Also known as ShareFile) which gives you ability to upload and download files all within the one application. If you currently use the older Citrix Receiver for Android, Citrix Workspace will replace this. The Citrix Workspace app for Android supports Nougat (Android 7.x), Oreo (Android 8.x) and Pie (Android 9.x). For the most optimum experience, we recommend updating your Android device to the latest Android Software. If your Android device has insufficient storage, it is possible to install the Citrix Workspace App for Android on an external SD card and mount it on the local device (For more information on this, please contact the FASTdesk Team).
  
 # Step 1 - Installation
-To begin with, on your Android device, navigate to and open the Google Play store. Once complete, use the application search bar to look for “Citrix Workspace”. When found, please refer to the **_image 1_** included to ensure it is the correct application. Once confirmed, proceed to install the application by tapping the green install button. 
+To begin with, on your Android device, navigate to and open the Google Play store. Once complete, use the application search bar to look for “Citrix Workspace”. When found, please refer to the **_image 1 below_** included to ensure it is the correct application. Once confirmed, proceed to install the application by tapping the green install button. 
 
 ![Image 1: Google Play Store download page](files/Downloads_page.png "Image 1: Google Play Store download page")
 
-Once installation begins, your screen will be similar to what is pictured in **_image 2_**.
+Once installation begins, your screen will be similar to what is pictured in **_image 2 below_**.
 
 ![Image 2: Citrix Workspace application is downloading](files/downloading.png "Image 2: Citrix Workspace application is downloading")
 
 # Step 2 - Logging into the FASTdesk Portal
-Once the "Citrix Workspace" application is installed, proceed to open it (Refer to **_image 3_**).
+Once the "Citrix Workspace" application is installed, proceed to open it (Refer to **_image 3_ below**).
 
 ![Image 3: Citrix Workspace application is installed](files/appstore.png "Image 3: Citrix Workspace application is installed")
 
-After launching Citrix Workspace for the first time, you will receive four notifications from your phone asking to "Allow Workspace to access photos, media and other files on your device?" Please select Allow for the set-up to continue(Refer to **_image 4_**). 
+After launching Citrix Workspace for the first time, you will receive four notifications from your phone asking to "Allow Workspace to access photos, media and other files on your device?" Please select Allow for the set-up to continue(Refer to **_image 4 below_**). 
 
 ![Image 4: Citrix Workspace asking for read permissions.](files/permisions1.png "Image 4: Citrix Workspace asking for read permissions.")
 
-Once finished, you will be prompted to enter a company email address or store URL. Simply type the following URL “https://www.fastdesk.co.uk” and click Continue. Do make sure you enter the full URL includining the "https://www." Please leave the "Add account type as Web Interface" unselected (Refer to **_image 5_** included).
+Once finished, you will be prompted to enter a company email address or store URL. Simply type the following URL “https://www.fastdesk.co.uk” and click Continue. Do make sure you enter the full URL includining the "https://www." Please leave the "Add account type as Web Interface" unselected (Refer to **_image 5 below_** included).
 
-![Image 5: Entering FASTdesk Store URL](Enterservercreds.png "Image 5: Entering FASTdesk Store URL")
+![Image 5: Entering FASTdesk Store URL](files/Enterservercreds.png "Image 5: Entering FASTdesk Store URL")
 
-"You will then be prompted to enter your username and password into the application. Go ahead and enter the username and password credentials that were provided to you by the FASTdesk team. If you get a prompt to save username and password, the option is yours as to whether you want the password saved or not.
+If you get a prompt to save the URL, the option is yours as to whether you want the URL saved or not but we would recommend it as it makes it easier to log on on a day-to-day basis (See **_Image 6 below_**).
 
-![Image 1: Citrix Website OS options Download Page](files/Downloads_Webpage.PNG "Image 1: Citrix website OS options download page")
+![Image 6: Save FASTdesk URL](files/firstlogin.png "Image 6: Save FASTdesk URL")
+
+"You will then be prompted to enter your username and password into the application. Go ahead and enter the username and password credentials that were provided to you by the FASTdesk team (See **_Image 7 below_**). 
+
+![Image 7: Enter your credentials](files/entercreds.PNG "Image 7: Enter your credentials")
 
 Once successfully logged in for the first time, you will be asked to change your password. Your password must be a minimum of 8 characters in length and contain at least 3 of the following: uppercase letters, lowercase letters, numbers, symbols and special characters e.g “! ” £”. Your password can also not contain the name of your account. For example, if your account name is John Smith, a password with the word ‘john’ will not be accepted.
 
 # Step 3 - Launching a desktop from the Portal
-When you first log in, you will notice there is nothing to click except the menu button in the left top corner of the screen and the search button in the top right corner of the screen(refer to the image included). Select the menu button and there is a list of options (Home, Apps, and Desktops). The "Home" section in the menu contains hosted desktops you have tagged as your favourites whilst the "Apps" section presents you with specific applications that have been made available to you. In most cases, you will not use this section. The "Refresh" options will reset your connection to the application whilst the "Settings" section presents you with the settings you can customise including the ability for you to manage your accounts. 
+When you first log in, you will notice there is nothing to click except the menu button in the left top corner of the screen and the search button in the top right corner of the screen(refer to **_image 8_** below). 
 
-![Image 1: Citrix Website OS options Download Page](files/Downloads_Webpage.PNG "Image 1: Citrix website OS options download page")
+![Image 8: When you first log-in](files/mainscreen.PNG "Image 8: When you first log-in")
 
-Select Desktops by clicking on the text "Desktops". This should present you with the desktops that have been allocated to you. Go ahead and select the desktop by clicking on it and this will launch your desktop. Upon loading, the gestures manual should appear giving you details on how to interact with your desktop. Click anywhere on the screen to close this manual and access the desktop. Begin navigating your desktop following the instructions that were provided with the gestures manual. You can later set the desktop that has been allocated to you as a "Favorite". This will allow it to appear as soon as you log in. 
+Select the menu button and there is a list of options (Home, Apps, and Desktops). Refer to **_image 9_ below** for a visual representation. The "Home" section in the menu contains hosted desktops you have tagged as your favourites whilst the "Apps" section presents you with specific applications that have been made available to you. In most cases, you will not use this section. The "Refresh" options will reset your connection to the application whilst the "Settings" section presents you with the settings you can customise including the ability for you to manage your accounts. 
+
+![Image 9: Citrix Workspace Menu Bar](files/workspacemain.PNG "Image 9: Citrix Workspace Menu Bar")
+
+Select Desktops by clicking on the text "Desktops". This should present you with the desktops that have been allocated to you. In the case of **_image 10_** below, this is the client Desktop Demo.)  
+
+![Image 10: Desktop(s) that have been allocated to you](files/clientdesktop.PNG "Image 10: Desktop(s) that have been allocated to you")
+
+Go ahead and select the desktop by clicking on it and this will begin to launch your desktop (see **_image 11_** below).
+
+![Image 11: Desktop loading](files/Logginin2.PNG "Image 11: Desktop loading")
+
+Upon loading, the gestures manual should appear giving you details on how to interact with your desktop (see **_image 12_** below).
+
+![Image 12:  Instructions on interacting with the desktop](files/desktop_set_up.PNG "Image 12: Instructions on interacting with the desktop")
+
+Click anywhere on the screen to close this manual and access the desktop (See **_image 13_**).
+
+![Image 13:  Your fully loaded desktop](files/desktopsloaded.PNG "Image 13: Your fully loaded desktop")
+
+Begin navigating your desktop following the instructions that were provided with the gestures manual.
+
+You can later set the desktop that has been allocated to you as a "Favorite". This will allow it to appear as soon as you log in.
+
+**Warning:** 
+Whenever you log out of a desktop, do allow at least 3 minutes before attempting to log back in. This is to ensure the session correctly ends before another one is open. If you have not waited long enough, there is a danger of your applications not appearing when you log in. If you do find that this is the case, simply log out, wait at least 3 minutes and log back in again.
 
 CitrixWorkspaceDesktop CitrixWorkspaceDesktopAndroid
 
