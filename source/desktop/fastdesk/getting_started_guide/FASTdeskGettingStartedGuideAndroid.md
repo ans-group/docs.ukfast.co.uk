@@ -7,7 +7,7 @@ FASTdesk® is UKFast’s Desktop as a Service (DaaS) solution, which allows user
 This guide provides step by step instructions on installing and accessing FASTdesk on your Android device through the Citrix Workspace application. It is possible to access FASTdesk through the web portal on your Android device, however, it is recommended FASTdesk is accessed specifically through the Citrix Workspace Application. The Citrix Workspace application gives you instant access to your FASTdesk environment in an easy-to-use, all-in-one interface. The Workspace application also fully integrated with the Citrix Content Collaboration (Also known as ShareFile) which gives you ability to upload and download files all within the one application. If you currently use the older Citrix Receiver for Android, Citrix Workspace will replace this. The Citrix Workspace app for Android supports Nougat (Android 7.x), Oreo (Android 8.x) and Pie (Android 9.x). For the most optimum experience, we recommend updating your Android device to the latest Android Software. If your Android device has insufficient storage, it is possible to install the Citrix Workspace App for Android on an external SD card and mount it on the local device (For more information on this, please contact the FASTdesk Team).
  
 # Step 1 - Installation
-To begin with, on your Android device, navigate to and open the Google Play store. Once complete, use the application search bar to look for “Citrix Workspace”. When found, please refer to the **_image 1 below_** included to ensure it is the correct application. Once confirmed, proceed to install the application by tapping the green install button. 
+To begin with, on your Android device, navigate to and open the Google Play store. Once complete, use the application search bar to look for “Citrix Workspace”. When found, please refer to **_image 1 included below_** to ensure it is the correct application. Once confirmed, proceed to install the application by tapping the green install button. 
 
 ![Image 1: Google Play Store download page](files/Downloads_page.png "Image 1: Google Play Store download page")
 
@@ -24,7 +24,7 @@ After launching Citrix Workspace for the first time, you will receive four notif
 
 ![Image 4: Citrix Workspace asking for read permissions.](files/permisions1.png "Image 4: Citrix Workspace asking for read permissions.")
 
-Once finished, you will be prompted to enter a company email address or store URL. Simply type the following URL “https://www.fastdesk.co.uk” and click Continue. Do make sure you enter the full URL includining the "https://www." Please leave the "Add account type as Web Interface" unselected (Refer to **_image 5 below_** included).
+Once finished, you will be prompted to enter a company email address or store URL. Simply type the following URL “https://www.fastdesk.co.uk” and click Continue. Do make sure you enter the full URL including the "https://www." Please leave the "Add account type as Web Interface" unselected (Refer to **_image 5 below_** included).
 
 ![Image 5: Entering FASTdesk Store URL](files/Enterservercreds.png "Image 5: Entering FASTdesk Store URL")
 
