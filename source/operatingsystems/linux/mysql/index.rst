@@ -2,9 +2,9 @@
 MySQL
 =====
 
------------------------
+-----------------------------
 Installation & Administration
------------------------
+-----------------------------
 .. toctree::
    :maxdepth: 1
 
@@ -13,18 +13,18 @@ Installation & Administration
    mysql_cli_basics
    reset_root_password
 
------------------------
+------------------
 Backups & Restores
------------------------
+------------------
 .. toctree::
    :maxdepth: 1
 
    backups
    restore_your_databases
 
------------------------
+----------------------------------
 Upgrades, Tuning & Troubleshooting
------------------------
+----------------------------------
 .. toctree::
    :maxdepth: 1
 
