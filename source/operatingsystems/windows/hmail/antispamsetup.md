@@ -1,6 +1,6 @@
 # hMailServer - Anti-spam Setup
 
-hMailServer comes with some Anti-Spam protection enabled out-of-the-box. This article is designed to help you make sure this is configured and proviide some further options to help make it its spam detection even better.
+hMailServer comes with some Anti-Spam protection enabled out-of-the-box. This article is designed to help you make sure this is configured and provide some further options to help make it its spam detection even better.
 
 - Start by logging into your `hMailServer Administrator` program. This can be found in the Start Menu on your server. 
 - Once signed in proceed to
@@ -39,7 +39,7 @@ From here we will be configuring hMail’s anti-spam settings, covering them tab
 
 - **Check host in the HELO Command** - Default value is "2". This will compare the hostname used in the sending mail server's HELO to its rDNS (PTR) record. We would recommend changing this to "3".
 
-- **Check that sender had DNS-MX records** - Default value is "2". This will make sure that the sender domain has MX reccordds. Any legitimate domain sending mail should have MX records. As such, we recommend setting this score to "5".
+- **Check that sender had DNS-MX records** - Default value is "2". This will make sure that the sender domain has MX reccords. Any legitimate domain sending mail should have MX records. As such, we recommend setting this score to "5".
 
 - **Verify DKIM-Signature header** - Default value is "5". If the relevant sending domain has a DKIM DNS record, hMail will check to make sure the message's DKIM signature matches. If it does not, the check will fail. We recommend leaving this at the default value.
 
@@ -79,11 +79,11 @@ hMail believe enabling this can cut down spam by as much as 15-25% and we would 
 
 ![hMailServer > Settings > Anti-spam > Greylisting](files/antispam/greylisting.png)
 
-**Grey Listing** works by _temporarily_ rejecting any mail sent to your server - a correctly configured mail server will almost always attempt to resend a message rejected in this manner, being successful on the second attempt. 
+**Grey Listing** works by _temporarily_ rejecting any mail sent to your server; a correctly configured mail server will almost always attempt to resend a message rejected in this manner, being successful on the second attempt. 
 
-hMail will keep a log of the sending IP for the initial message and compare this against any re-try attempts. Most spam mail servers will typically _not_ try to resend a message once it has been rejected. 
+hMail will keep a log of the sending IP for the initial message and compare this against any retry attempts. Most spam mail servers will typically _not_ try to resend a message once it has been rejected. 
 
-This process can cause issues as the re-try delay can be lengthy (minutes / hours) and large mail servers can send from multiple IPs. This can cause delays in delivery to your server until the same email is sent by the same IP twice. For this reason, we typically advise against enabling Grey Listing. 
+This process can cause issues as the retry delay can be lengthy (minutes / hours) and large mail servers can send from multiple IPs. This can cause delays in delivery to your server until the same email is sent by the same IP twice. For this reason, we typically advise against enabling Grey Listing. 
 
 If you do enable this feature we would recommend whitelisting large mail providers such as Google, Hotmail (etc.) and companies with which you deal regularly.
 
