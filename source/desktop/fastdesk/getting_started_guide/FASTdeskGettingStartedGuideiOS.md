@@ -29,6 +29,9 @@ Once logged in, you will notice that towards the bottom of the page, there are t
 From the "Apps" section, you will be able to launch your desktop. To do this, select the hosted desktop that has been allocated to you. As an example, please refer to the images included for a visual example (In this case, it would be "Client Desktop Demo").  Once selected, it should begin to launch your desktop. Once this has booted, your FASTdesk is ready for you. 
 
 
+**Warning:** 
+Whenever you log out of a desktop, do allow at least 3 minutes before attempting to log back in. This is to ensure the session correctly ends before another one is open. If you have not waited long enough, there is a danger of your applications not appearing when you log in. If you do find that this is the case, simply log out, wait at least 3 minutes and log back in again.
+
  ```eval_rst
    .. meta::
       :title: FASTdesk Getting Started Guide: Apple iOS | UKFast Documentation
