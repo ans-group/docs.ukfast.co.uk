@@ -30,6 +30,8 @@ Expand the "Workspace app for Windows" section and select the latest version of 
 
 Once the file has downloaded, open the file to begin installation. You might get a security warning asking "Do you want to run this file?". Check that the "Publisher" identifies as "Citrix Systems, Inc." before selecting Run (Refer to **image 3** included).
 
+#
+
 ![Image 3: Do you want to run this application?](files/Run_file.PNG "Image 3: Do you want to run this application?")
 
 #
@@ -55,8 +57,6 @@ Once here, you will see the FASTdesk branding and a log in page with a man on a 
 Go ahead and enter the username and password credentials that were provided to you by the FASTdesk team. Upon entering your credentials, you will be asked to change your password (See **image 7**). 
 
 ![Image 7 FASTdesk Password Reset](files/resetpassword.png "Image 7: FASTdesk Password Reset Page")
-
-#
 
 Your new password must be a minimum of 8 characters in length and contain at least 3 of the following: uppercase letters, lowercase letters, numbers, symbols and special characters e.g “! ” £”. Your password can also not contain the name of your account. For example, if your account name is John Smith, a password with the word ‘john’ will not be accepted. Once your password has been reset, it should simply log you in. It may ask you to dectect receiver, if so, simply select the option that allows it to detect the receiver. 
 
