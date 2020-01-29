@@ -2,7 +2,7 @@
 FASTdesk
 ========
 
-FASTdesk is UKFast's hosted desktop solution, based on Citrix Receiver.
+FASTdesk is UKFast's Hosted Desktop As A Service solution, based on Citrix Receiver.
 
 .. toctree::
    :maxdepth: 1
