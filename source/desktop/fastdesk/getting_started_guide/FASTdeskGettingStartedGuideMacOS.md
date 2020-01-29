@@ -38,7 +38,6 @@ Once the "Citrix Workspace" application is installed, open your web browser and 
 
 [FASTdesk URL](https://www.fastdesk.co.uk "FASTdesk Landing Page")
 
-#
 
 Once here, you will see the FASTdesk landing and log in page with a man on the sofa (Refer to **image 4** below).
 
@@ -52,6 +51,7 @@ Upon entering your credentials, you will be asked to change your password (See *
 
 Your new password must be a minimum of 8 characters in length and contain at least 3 of the following: uppercase letters, lowercase letters, numbers, symbols and special characters e.g “! ” £”. Your password can also not contain the name of your account. For example, if your account name is John Smith, a password with the word ‘john’ will not be accepted. Once your password has been reset, it should simply log you in. It may ask you to dectect receiver, if so, simply select the option that allows it to detect the receiver. 
 
+#
 
 ## Step 3 - Launching a desktop from the Portal
 
