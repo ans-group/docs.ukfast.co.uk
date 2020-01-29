@@ -52,11 +52,7 @@ Once logged in, you will notice that towards the bottom of the page, there are t
 
 ![Image 6: Workspace App Logged in Homepage](files/cwahomepageios.png "Image 6: Workspace App Logged in Homepage")
 
-The "Favorites" page contains hosted desktops you have tagged as your favourites whilst the "Settings" section presents you with the settings you can customise. You can later set the desktop that has been allocated to you as a "Favorite". The "Apps" page presents you with the hosted desktop(s) that has been allocated to you.
-
-#
-
-From the "Apps" section, you will be able to launch your desktop. To do this, select the hosted desktop that has been allocated to you. As an example, please refer to **_image 7 below_** for a visual example (In this case, it would be "Client Desktop Demo").
+The "Favorites" page contains hosted desktops you have tagged as your favourites whilst the "Settings" section presents you with the settings you can customise. You can later set the desktop that has been allocated to you as a "Favorite". The "Apps" page presents you with the hosted desktop(s) that has been allocated to you. From the "Apps" section, you will be able to launch your desktop. To do this, select the hosted desktop that has been allocated to you. As an example, please refer to **_image 7 below_** for a visual example (In this case, it would be "Client Desktop Demo").
 
 ![Image 7: Opening Client Desktop Demo](files/Openingios.png "Image 7: Opening Client Desktop Demo")
 
