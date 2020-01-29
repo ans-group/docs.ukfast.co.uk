@@ -8,6 +8,7 @@ Windows
    activedirectory/index
    commonissues/index
    exchange/index
+   ftp/index
    hmail/index
    iis/index
    mssql/index
