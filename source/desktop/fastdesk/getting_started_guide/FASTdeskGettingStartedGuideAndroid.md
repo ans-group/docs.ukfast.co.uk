@@ -82,6 +82,8 @@ Go ahead and select the desktop by clicking on it and this will begin to launch 
 
 Upon loading, the gestures manual should appear giving you details on how to interact with your desktop (see **_image 12_** below).
 
+#
+
 ![Image 12:  Instructions on interacting with the desktop](files/desktop_set_up.png "Image 12: Instructions on interacting with the desktop")
 
 #
