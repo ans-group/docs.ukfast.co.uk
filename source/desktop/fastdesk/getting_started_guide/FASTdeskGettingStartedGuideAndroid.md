@@ -24,7 +24,7 @@ After launching Citrix Workspace for the first time, you will receive four notif
 
 ![Image 4: Citrix Workspace asking for read permissions.](files/permisions1.png "Image 4: Citrix Workspace asking for read permissions.")
 
-Once finished, you will be prompted to enter a company email address or store URL. Simply type the following URL “https://www.fastdesk.co.uk” and click Continue. Do make sure you enter the full URL including the "https://www." Please leave the "Add account type as Web Interface" unselected (Refer to **_image 5 below_** included).
+Once finished, you will be prompted to enter a company email address or store URL. Simply type the following URL “**https://www.fastdesk.co.uk**” and click Continue. Do make sure you enter the full URL including the "https://www." Please leave the "Add account type as Web Interface" unselected (Refer to **_image 5 below_** included).
 
 ![Image 5: Entering FASTdesk Store URL](files/Enterservercreds.png "Image 5: Entering FASTdesk Store URL")
 
