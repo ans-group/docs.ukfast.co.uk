@@ -53,6 +53,8 @@ Once logged in, you will notice that towards the bottom of the page, there are t
 
 The "Favorites" page contains hosted desktops you have tagged as your favourites whilst the "Settings" section presents you with the settings you can customise. You can later set the desktop that has been allocated to you as a "Favorite". The "Apps" page presents you with the hosted desktop(s) that has been allocated to you.
 
+#
+
 From the "Apps" section, you will be able to launch your desktop. To do this, select the hosted desktop that has been allocated to you. As an example, please refer to **_image 7 below_** for a visual example (In this case, it would be "Client Desktop Demo").
 
 #
@@ -68,6 +70,8 @@ Once selected, it should begin to launch your desktop. Once this has booted, you
 ### Warning
 
 Whenever you log out of a desktop, do allow at least 3 minutes before attempting to log back in. This is to ensure the session correctly ends before another one is open. If you have not waited long enough, there is a danger of your applications not appearing when you log in. If you do find that this is the case, simply log out, wait at least 3 minutes and log back in again.
+
+#
 
 **_This instruction guide should assist you getting logged in for the first time. If you have any questions or still require assistance, please contact the FASTdesk support team on 0800 923 0617_**.
 
