@@ -56,4 +56,4 @@ Once you have connected you should see something similar to the following messag
   .. meta::
      :title: Installing FileZilla Server for Windows | UKFast Documentation
      :description: Guidance on installing the FileZilla Server for Windows
-     :keywords: ukfast, ftp, filezilla, server
+     :keywords: ukfast, ftp, filezilla, server, windows
