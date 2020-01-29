@@ -5,34 +5,47 @@ Pre-Installation information
 
 This guide provides step by step instructions on installing and accessing FASTdesk on your Apple iOS devices through the Citrix Workspace application. The Application runs on devices such as iPhone X, iPad mini and iPad Pro. It is possible to access FASTdesk through the web portal on your iOS device, however, it is recommended FASTdesk is accessed specifically through the Citrix Workspace Application. The Citrix Workspace application gives you instant access to your FASTdesk environment in an easy-to-use, all-in-one interface. The Workspace application also fully integrated with the Citrix Content Collaboration (Also known as ShareFile) which gives you ability to upload and download files all within the one application. If you currently use the older Citrix Receiver for iOS, Citrix Workspace will replace this. The Citrix Workspace app for Android supports iPhone 7x models, iPhone 8x models and only iPhone X model. All iPad models (including iPad Pro) are supported except for iPad 1 and iPad 2.  For the most optimum experience, we recommend updating your iOS device to the latest iOS release. 
 
-# Step 1 - Installation
+## Step 1 - Installation
 
 On your iOS device, navigate to and open the App Store. Once complete, use the application search bar to look for “Citrix Workspace”. When found, please refer to **_image 1 below_** to ensure it is the correct application. Once confirmed, proceed to install the application.
 
 ![Image 1: iOS Store download page](files/Appstoreios.png "Image 1: iOS Store download page")
 
-# Step 2 - Logging into FASTdesk through the Citrix Workspace Application
+#
+
+## Step 2 - Logging into FASTdesk through the Citrix Workspace Application
 
 Once the "Citrix Workspace" application is installed, it will appear within your apps just like in **_image 2 below_**.
 
 ![Image 2: Citrix Workspace App installed](files/onceinstalledios.png "Image 2: Citrix Workspace App installed")
 
+#
+
 Proceed to open it. After launching Citrix Workspace for the first time, it will bring you to the landing page like in **_image 3 below_**. 
+
+#
 
 ![Image 3: Citrix Workspace App Landing Page](files/openedonceios.png "Image 3: Citrix Workspace App Landing Page")
 
+#
+
 Continue to select "Get Started".  You will then be prompted to enter a company email address or store URL. Simply type the following URL “https://www.fastdesk.co.uk” and click Continue. Do make sure you enter the full URL including the "https://www.". Please use **_image 4 below_** as an example.
+
+#
 
 ![Image 4: Server URL entered on Workspace App](files/enteredURLios.png "Image 4: Server URL entered on Workspace App")
 
 You will then be prompted to enter your username and password into the application. Go ahead and enter the username and password credentials that were provided to you by the FASTdesk team (See **_image 5 below_**). 
 
+#
+
 ![Image 5: Workspace App Credentials Page](files/entercredsios.png "Image 5: Workspace App Credentials Page")
 
 Once successfully logged in for the first time, you will be asked to change your password. Your password must be a minimum of 8 characters in length and contain at least 3 of the following: uppercase letters, lowercase letters, numbers, symbols and special characters e.g “! ” £”. Your password can also not contain the name of your account. For example, if your account name is John Smith, a password with the word ‘john’ will not be accepted.
 
+#
 
-# Step 3 - Launching a desktop through the Citrix Workspace Application
+## Step 3 - Launching a desktop through the Citrix Workspace Application
 
 Once logged in, you will notice that towards the bottom of the page, there are three different sections named "Favorites", "Apps" and "Settings".  When you initially log in, you are shown the "Apps" section by default (See **_image 6 below_**). 
 
@@ -42,7 +55,11 @@ The "Favorites" page contains hosted desktops you have tagged as your favourites
 
 From the "Apps" section, you will be able to launch your desktop. To do this, select the hosted desktop that has been allocated to you. As an example, please refer to **_image 7 below_** for a visual example (In this case, it would be "Client Desktop Demo").
 
+#
+
 ![Image 7: Opening Client Desktop Demo](files/Openingios.png "Image 7: Opening Client Desktop Demo")
+
+#
 
 Once selected, it should begin to launch your desktop. Once this has booted, your FASTdesk is ready for you as shown in **_image 8 below_**.
 
