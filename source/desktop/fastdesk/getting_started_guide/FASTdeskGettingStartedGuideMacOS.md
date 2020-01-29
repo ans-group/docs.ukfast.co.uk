@@ -34,7 +34,7 @@ Next, the "Citrix Workspace Installer" will open (Refer to the image included). 
 ## Step 2 - Logging into the FASTdesk Portal
 
 Once the "Citrix Workspace" application is installed, open your web browser and navigate to the Following URL:
-"https://www.fastdesk.co.uk"
+"https://www.fastdesk.co.uk". Alternatively, you can simply click the link below.
 
 [FASTdesk URL](https://www.fastdesk.co.uk "FASTdesk Landing Page")
 
@@ -43,9 +43,9 @@ Once here, you will see the FASTdesk landing and log in page with a man on the s
 
 ![Image 4: macOS FASTdesk web URL page](files/loggininurl.PNG "Image 4: macOS FASTdesk web URL page")
 
-Go ahead and enter the username and password credentials that were provided to you by the FASTdesk team.
+#
 
-Upon entering your credentials, you will be asked to change your password (See **image 5** below). 
+Go ahead and enter the username and password credentials that were provided to you by the FASTdesk team. Upon entering your credentials, you will be asked to change your password (See **image 5** below). 
 
 ![Image 5: macOS FASTdesk reset password](files/reset_password.PNG "Image 5: macOS FASTdesk reset password")
 
@@ -63,6 +63,8 @@ You can navigate between Desktops and Home via the icons found at the top of the
 
 ![Image 7: FASTdesk web Portal Desktops Page](files/Desktopsurl.PNG "Image 7: FASTdesk web Portal Desktops Page")
 
+#
+
 Once in the desktops categories, you can open the desktop that has been allocated to you by just clicking the monitor of the desktop or by clicking the downward arrow which will give you three options of "Open", "Add To Favorites" and "Restart". You can also choose to "Add To Favourites", which pins your desktop to the Favourites category. From here you can also click "open" (Refer to **image 8** below).
 
 ![Image 8 FASTdesk Desktops Page](files/storefront.png "Image 8: FASTdesk Desktops Page")
@@ -70,6 +72,8 @@ Once in the desktops categories, you can open the desktop that has been allocate
 When either the monitor or open button has been clicked, you will get a pop up that asks "Open Citrix Workspace Launcher?" (Refer to **image 9** below). Next, allow it to open the Launcher. 
 
 ![Image 9 Open Citrix Workspace Launcher?](files/Open_launcher.PNG "Image 9: Open Citrix Workspace Launcher?")
+
+#
 
 Upon opening this, your desktop will begin to launch in another window (Refer to image **image 10** below included). 
 
@@ -79,6 +83,7 @@ Once fully launched, your desktop should appear as it is in **image 11** below.
 
 ![Image 11 FASTdesk ready for use](files/Fullscreen.png "Image 11: FASTdesk ready for use")
 
+#
 
 ## Workspace Application Log in setup (Optional)
 
@@ -86,16 +91,21 @@ Although it is recommended you access FASTdesk through the URL, you can also acc
 
 ![Image 12 Add an account](files/Enter_Store_URL.PNG "Image 12: Add an account")
 
+#
+
 Simply type the following URL "https://www.fastdesk.co.uk" and click Add. You will then be prompted to enter your username and password into the application. See **image 13**. 
 
 ![Image 13 Enter credentials](files/workspace_log_in2.PNG "Image 13: Enter Credentials")
 
 Go ahead and enter the username and password credentials that were provided to you by the FASTdesk team. To continue setup, refer to step 2 and follow the guide.
 
+#
+
 ### Warning
 
 Whenever you log out of a desktop, do allow at least 3 minutes before attempting to log back in. This is to ensure the session correctly ends before another one is open. If you have not waited long enough, there is a danger of your applications not appearing when you log in. If you do find that this is the case, simply log out, wait at least 3 minutes and log back in again.
 
+#
 
 **_This instruction guide should assist you in getting logged in for the first time. If you have any questions or still require assistance, please contact the FASTdesk support team on 0800 923 0617._**
 
