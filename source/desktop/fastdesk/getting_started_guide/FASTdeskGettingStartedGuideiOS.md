@@ -9,7 +9,7 @@ This guide provides step by step instructions on installing and accessing FASTde
 
 On your iOS device, navigate to and open the App Store. Once complete, use the application search bar to look for “Citrix Workspace”. When found, please refer to **_image 1 below_** to ensure it is the correct application. Once confirmed, proceed to install the application.
 
-![Image 1: iOS Store download page](files/Appstore.png "Image 1: iOS Store download page")
+![Image 1: iOS Store download page](files/Appstoreios.png "Image 1: iOS Store download page")
 
 # Step 2 - Logging into FASTdesk through the Citrix Workspace Application
 
