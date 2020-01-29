@@ -33,7 +33,7 @@ If you get a prompt to save the URL, the option is yours as to whether you want 
 
 ![Image 6: Save FASTdesk URL](files/firstlogin.png "Image 6: Save FASTdesk URL")
 
-"You will then be prompted to enter your username and password into the application. Go ahead and enter the username and password credentials that were provided to you by the FASTdesk team (See **_Image 7 below_**). 
+You will then be prompted to enter your username and password into the application. Go ahead and enter the username and password credentials that were provided to you by the FASTdesk team (See **_Image 7 below_**). 
 
 
 ![Image 7: Enter your credentials](files/entercreds.png "Image 7: Enter your credentials")
