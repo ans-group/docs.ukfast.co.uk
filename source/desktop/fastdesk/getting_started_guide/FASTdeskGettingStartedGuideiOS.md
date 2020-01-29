@@ -27,7 +27,7 @@ Continue to select "Get Started".  You will then be prompted to enter a company 
 
 You will then be prompted to enter your username and password into the application. Go ahead and enter the username and password credentials that were provided to you by the FASTdesk team (See **_image 5 below_**). 
 
-![Image 5: Workspace App Credentials Page](files/entercreds.png "Image 5: Workspace App Credentials Page")
+![Image 5: Workspace App Credentials Page](files/entercredsios.png "Image 5: Workspace App Credentials Page")
 
 Once successfully logged in for the first time, you will be asked to change your password. Your password must be a minimum of 8 characters in length and contain at least 3 of the following: uppercase letters, lowercase letters, numbers, symbols and special characters e.g “! ” £”. Your password can also not contain the name of your account. For example, if your account name is John Smith, a password with the word ‘john’ will not be accepted.
 
