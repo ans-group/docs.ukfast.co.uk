@@ -8,8 +8,6 @@ This guide provides step by step instructions on installing and accessing FASTde
  
 ## Step 1 - Installation
 
-#
-
 To begin with, on your Android device, navigate to and open the Google Play store. Once complete, use the application search bar to look for “Citrix Workspace”. When found, please refer to **_image 1 included below_** to ensure it is the correct application. Once confirmed, proceed to install the application by tapping the green install button. 
 
 #
@@ -19,8 +17,6 @@ To begin with, on your Android device, navigate to and open the Google Play stor
 #
 
 Once installation begins, your screen will be similar to what is pictured in **_image 2 below_**.
-
-#
 
 ![Image 2: Citrix Workspace application is downloading](files/downloading.png "Image 2: Citrix Workspace application is downloading")
 
