@@ -61,7 +61,7 @@ Upon loading, the gestures manual should appear giving you details on how to int
 
 Click anywhere on the screen to close this manual and access the desktop (See **_image 13_**).
 
-![Image 13:  Your fully loaded desktop](files/Desktopsloaded.jpg "Image 13: Your fully loaded desktop")
+![Image 13:  Your fully loaded desktop](files/Desktopsloaded.png "Image 13: Your fully loaded desktop")
 
 Begin navigating your desktop following the instructions that were provided with the gestures manual.
 
