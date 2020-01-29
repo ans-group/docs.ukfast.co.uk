@@ -52,13 +52,13 @@ Once here, you will see the FASTdesk branding and a log in page with a man on a 
 
 ![Image 6 FASTdesk Landing Page](files/Welcome_screen.png "Image 6: FASTdesk Landing Page")
 
-#
-
 Go ahead and enter the username and password credentials that were provided to you by the FASTdesk team. Upon entering your credentials, you will be asked to change your password (See **image 7**). 
 
 ![Image 7 FASTdesk Password Reset](files/resetpassword.png "Image 7: FASTdesk Password Reset Page")
 
 Your new password must be a minimum of 8 characters in length and contain at least 3 of the following: uppercase letters, lowercase letters, numbers, symbols and special characters e.g “! ” £”. Your password can also not contain the name of your account. For example, if your account name is John Smith, a password with the word ‘john’ will not be accepted. Once your password has been reset, it should simply log you in. It may ask you to dectect receiver, if so, simply select the option that allows it to detect the receiver. 
+
+#
 
 ## Step 3 - Launching a desktop from the Portal
 
@@ -72,15 +72,14 @@ You can navigate between Desktops and Apps via the icons found at the top of the
 
 ![Image 9 FASTdesk Desktops Page](files/storefront.png "Image 9: FASTdesk Desktops Page")
 
-#
 
 Once in the desktops categories, you can open the desktop that has been allocated to you by just clicking the monitor of the desktop or by clicking the downward arrow which will give you three options of "Open", "Add To Favorites" and "Restart". You can also choose to "Add To Favourites", which pins your desktop to the Favourites category. From here you can also click "open" (Refer to **image 9**).
+
+#
 
 When either the monitor or open button has been clicked, you will get a pop up that asks "Open Citrix Workspace Launcher?" (Refer to **image 10**). Next, allow it to open the Launcher. 
 
 ![Image 10 Open Citrix Workspace Launcher?](files/Openlauncher.png "Image 10: Open Citrix Workspace Launcher?")
-
-#
 
 Upon opening this, your desktop will begin to launch in another window (Refer to image **image 11** included). 
 
@@ -92,6 +91,7 @@ Once fully launched, your desktop should appear as it is in **image 12**.
 
 ![Image 12 Fully Loaded Desktop](files/otherwindow.png "Image 12: FASTdesk ready for use")
 
+#
 
 ## Workspace Application Log in setup (Optional)
 
