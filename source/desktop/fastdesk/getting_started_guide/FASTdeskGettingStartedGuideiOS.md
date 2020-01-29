@@ -28,6 +28,7 @@ Proceed to open it. After launching Citrix Workspace for the first time, it will
 ![Image 3: Citrix Workspace App Landing Page](files/openedonceios.png "Image 3: Citrix Workspace App Landing Page")
 
 #
+#
 
 Continue to select "Get Started".  You will then be prompted to enter a company email address or store URL. Simply type the following URL “https://www.fastdesk.co.uk” and click Continue. Do make sure you enter the full URL including the "https://www.". Please use **_image 4 below_** as an example.
 
@@ -56,8 +57,6 @@ The "Favorites" page contains hosted desktops you have tagged as your favourites
 #
 
 From the "Apps" section, you will be able to launch your desktop. To do this, select the hosted desktop that has been allocated to you. As an example, please refer to **_image 7 below_** for a visual example (In this case, it would be "Client Desktop Demo").
-
-#
 
 ![Image 7: Opening Client Desktop Demo](files/Openingios.png "Image 7: Opening Client Desktop Demo")
 
