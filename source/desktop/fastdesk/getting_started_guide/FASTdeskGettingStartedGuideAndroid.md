@@ -15,7 +15,7 @@ Once installation begins, your screen will be similar to what is pictured in **_
 
 ![Image 2: Citrix Workspace application is downloading](files/downloading.png "Image 2: Citrix Workspace application is downloading")
 
-# Step 2 - Logging into the FASTdesk Portal
+## Step 2 - Logging into the FASTdesk Portal
 Once the "Citrix Workspace" application is installed, proceed to open it (Refer to **_image 3_ below**).
 
 ![Image 3: Citrix Workspace application is installed](files/appstore.png "Image 3: Citrix Workspace application is installed")
@@ -30,6 +30,7 @@ Once finished, you will be prompted to enter a company email address or store UR
 
 If you get a prompt to save the URL, the option is yours as to whether you want the URL saved or not but we would recommend it as it makes it easier to log on on a day-to-day basis (See **_Image 6 below_**).
 
+#
 
 ![Image 6: Save FASTdesk URL](files/firstlogin.png "Image 6: Save FASTdesk URL")
 
@@ -41,7 +42,7 @@ You will then be prompted to enter your username and password into the applicati
 
 Once successfully logged in for the first time, you will be asked to change your password. Your password must be a minimum of 8 characters in length and contain at least 3 of the following: uppercase letters, lowercase letters, numbers, symbols and special characters e.g “! ” £”. Your password can also not contain the name of your account. For example, if your account name is John Smith, a password with the word ‘john’ will not be accepted.
 
-# Step 3 - Launching a desktop from the Portal
+## Step 3 - Launching a desktop from the Portal
 When you first log in, you will notice there is nothing to click except the menu button in the left top corner of the screen and the search button in the top right corner of the screen(refer to **_image 8_** below). 
 
 ![Image 8: When you first log-in](files/mainscreen.png "Image 8: When you first log-in")
