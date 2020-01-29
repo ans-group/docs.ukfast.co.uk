@@ -11,9 +11,15 @@ To begin with, on your Android device, navigate to and open the Google Play stor
 
 ![Image 1: Google Play Store download page](files/Downloads_page.png "Image 1: Google Play Store download page")
 
+#
+
 Once installation begins, your screen will be similar to what is pictured in **_image 2 below_**.
 
+#
+
 ![Image 2: Citrix Workspace application is downloading](files/downloading.png "Image 2: Citrix Workspace application is downloading")
+
+#
 
 ## Step 2 - Logging into the FASTdesk Portal
 Once the "Citrix Workspace" application is installed, proceed to open it (Refer to **_image 3_ below**).
