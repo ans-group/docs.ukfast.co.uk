@@ -64,3 +64,8 @@ If you are a UKFast customer and you're not sure about how to open ports or mana
 
 If you have windows firewall enabled on your server, you will need to ensure that your passive port range is allowed through the firewall.
 
+```eval_rst
+  .. meta::
+     :title: Installing FileZilla Server for Windows | UKFast Documentation
+     :description: Guidance on installing the FileZilla Server for Windows
+     :keywords: ukfast, ftp, filezilla, server, windows, iis, passive, port
