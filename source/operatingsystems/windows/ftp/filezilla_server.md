@@ -8,14 +8,14 @@ This guide will help you install the FileZilla Server application on your Window
 
 Run the FileZilla server installer file as below:
 
-![FTP install License](files/ftpinstall_license.PNG)
+![FTP install License](files/filezilla_server/ftpinstall_license.PNG)
 
 - You will be presented with the current FileZilla server license agreements that you can view prior to installing the application.
 - You will need to agree to the license terms in order to install FileZilla Server.
   
 Once you click the `I Agree` button a `Choose Components` window will be displayed.
 
-![FTP install Components](files/ftpinstall_components.PNG)
+![FTP install Components](files/filezilla_server/ftpinstall_components.PNG)
 
 - Within this window you are given the option to select what type of FileZilla Server install you would like.
     - **Standard** install will install both the FileZilla service and the Administrative interface (we recommend this option).
@@ -28,7 +28,7 @@ After selecting the desired type of install and click the `Next` button, you wil
 
 Once you have entered a location for the FileZilla Server files you will then be presented with the following window
 
-![FTP install Startup](files/ftpinstall_startup.PNG)
+![FTP install Startup](files/filezilla_server/ftpinstall_startup.PNG)
 
 - Here you are able to choose how you would like the FileZilla Server to be started. We recommend that you leave this option as default, as this will install FileZilla as a service and the server will start on startup
 - The next option is the port that the administrative interface will listen on. We recommend that you leave this as default as this is only for the administrative interface and not FTP itself.
@@ -39,13 +39,13 @@ Upon clicking the `Next` button you will be asked to choose how the administrati
 
 After the installation has finshed the administrative intereface will startup as can be seen below:
 
-![FTP Connecting](files/ftpconfig_intereface.PNG)
+![FTP Connecting](files/filezilla_server/ftpconfig_intereface.PNG)
 
 - Within the first window that is displayed, you will need to enter the correct port that the administrative intereface is listening on and then click the `Connect` button.
 
 Once you have connected you should see something similar to the following messages within the intereface:
 
-![FTP Connected](files/ftpconfig_connected.PNG)
+![FTP Connected](files/filezilla_server/ftpconfig_connected.PNG)
 
 - Within the adminstrative intereface, you can make changes to FTP users, FTP groups and modify FileZilla Server settings.
 - You can add additional FTP users by proceeding to `Edit > Users`.
