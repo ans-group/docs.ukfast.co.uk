@@ -4,13 +4,13 @@ This guide will help you install the FileZilla Server application on your Window
 
 ## Installing FileZilla Server
 
-- You can download the FileZilla server application from the [official FileZilla website](https://filezilla-project.org/download.php?type=server)
+- You can download the FileZilla Server application from the [official FileZilla website](https://filezilla-project.org/download.php?type=server)
 
-Run the FileZilla server installer file as below:
+Run the FileZilla Server installer file as below:
 
 ![FTP install License](files/filezilla_server/ftpinstall_license.PNG)
 
-- You will be presented with the current FileZilla server license agreements that you can view prior to installing the application.
+- You will be presented with the current FileZilla Server license agreements that you can view prior to installing the application.
 - You will need to agree to the license terms in order to install FileZilla Server.
   
 Once you click the `I Agree` button a `Choose Components` window will be displayed.
@@ -24,9 +24,9 @@ Once you click the `I Agree` button a `Choose Components` window will be display
     - **Interface only** install will only install the administrative interface, the FileZilla Server service will not be included.
     - **Custom** install allows you to select any of the optional components listed.
 
-After selecting the desired type of install and click the `Next` button, you will be presented with a window where you can choose a location on your server to store the apllication files.
+After selecting the desired type of install, click the `Next` button and a window where you can choose a location on your server to store the application files will be displayed.
 
-Once you have entered a location for the FileZilla Server files you will then be presented with the following window
+Once you have entered a location for the FileZilla Server files you will then be presented with the following window:
 
 ![FTP install Startup](files/filezilla_server/ftpinstall_startup.PNG)
 
@@ -35,7 +35,7 @@ Once you have entered a location for the FileZilla Server files you will then be
 
 Upon clicking the `Next` button you will be asked to choose how the administrative interface is started, we recommend that you leave this as the default option and click the `Install` button. The FileZilla Service will then be installed with the desired options the FTP server will startup automatically depending on your startup options.
 
-## Connecting to the FileZilla Server Adminstrative Intereface
+### Connecting to the FileZilla Server Adminstrative Intereface
 
 After the installation has finshed the administrative intereface will startup as can be seen below:
 

@@ -66,6 +66,6 @@ If you have windows firewall enabled on your server, you will need to ensure tha
 
 ```eval_rst
   .. meta::
-     :title: Installing FileZilla Server for Windows | UKFast Documentation
-     :description: Guidance on installing the FileZilla Server for Windows
+     :title: Configuring FTP passive mode | UKFast Documentation
+     :description: Guidance on enabling FTP passive mode for Windows FTP Servers
      :keywords: ukfast, ftp, filezilla, server, windows, iis, passive, port
