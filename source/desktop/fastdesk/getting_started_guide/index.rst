@@ -4,8 +4,8 @@ Information and guidance for FASTdesk, covering installation, configuration and 
 .. toctree::
    :maxdepth: 1
 
-   FASTdeskGettingStartedGuideiOS
-   FASTdeskGettingStartedGuideWindows
-   FASTdeskGettingStartedGuideAndroid
-   FASTdeskGettingStartedGuideMacOS
+   FASTdeskGettingStartedGuideiOS/index
+   FASTdeskGettingStartedGuideWindows/index
+   FASTdeskGettingStartedGuideAndroid/index
+   FASTdeskGettingStartedGuideMacOS/index
 
