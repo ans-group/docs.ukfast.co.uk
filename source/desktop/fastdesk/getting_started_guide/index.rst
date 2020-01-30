@@ -7,5 +7,5 @@ Information and guidance for FASTdesk, covering installation, configuration and 
    FASTdeskGettingStartedGuideiOS
    FASTdeskGettingStartedGuideWindows
    FASTdeskGettingStartedGuideAndroid
-   FASTdeskGettingStartedGuideMacOs
+   FASTdeskGettingStartedGuideMacOS
 
