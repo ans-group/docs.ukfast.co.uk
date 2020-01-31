@@ -1,10 +1,8 @@
 # Extended Validation SSL
 
-## Prerequisites
+EV SSL certificates provide the highest level of trust, giving customers greater confidence that they are conducting business through a trusted websites. To be approved for the extended validation SSL certificate, there are first several steps and prerequisites that need to be completed. 
 
-## How to obtain an EV SSL
-
-### Prerequesites
+### Prerequisite's
 
 1. The company must be registered on [Companies House](https://www.gov.uk/government/organisations/companies-house). If the client is ***not*** registered with **Companies House** they do not qualify for an `Extended Validation SSL Certificate`.
 
