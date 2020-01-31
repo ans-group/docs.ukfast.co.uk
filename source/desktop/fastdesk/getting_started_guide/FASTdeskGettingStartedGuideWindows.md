@@ -9,7 +9,13 @@ This guide provides step by step instructions on installing and accessing FASTde
 - The Web Portal (FASTdesk URL). 
 - The Citrix Workspace Application 
 
-Whilst this guide will help you install the Citrix Workspace Application in order to access FASTdesk for the first time, we highly recommend using the web portal to access FASTdesk on a day-to-day basis. Both the Citrix Workspace application and web portal gives you instant access to your FASTdesk environment in an easy-to-use, all-in-one interface. They are also fully integrated with the Citrix Content Collaboration (Also known as ShareFile) which gives you the ability to upload and download files all in one place. You can use the web portal on domain and non-domain joined PCs and thin clients. For a list of known compatible thin clients please refer to the FASTdesk technical specification or contact the FASTdesk support team.   
+Whilst this guide will help you install the Citrix Workspace Application in order to access FASTdesk for the first time, we highly recommend using the web portal to access FASTdesk on a day-to-day basis. Both the Citrix Workspace application and web portal gives you:
+
+- Instant access to your FASTdesk environment in an easy-to-use, all-in-one interface.
+- Ability to use the FASTdesk on domain and non-domain joined PCs and thin clients. 
+- Full integration with the Citrix Content Collaboration (Also known as ShareFile) which gives you the ability to upload and download files all in one place.
+
+For a list of known compatible thin clients please refer to the FASTdesk technical specification or contact the FASTdesk support team.   
 
 To install the Citrix Workspace Application on the local machine, there is a minimum storage requirement of 1GB RAM. In addition, two pre-requisites must be installed. These pre-requisites are normally installed with Windows updates so if your version of Windows is up to date, you should not have to install these. If you follow this guide and the Citrix Workspace application does not install then do install these pre-requisites. the .NET Framework 4.6.2 must be installed. Microsoft Visual C++ Redistributable 14.16.27012.6 or later must also be installed (Only an administrator can install the Microsoft Visual C++ Redistributable package). The download links should be easily found from a google search. If you are struggling to install both pre-requisites, please visit the Citrix help page at:
 https://support.citrix.com/article/CTX250044?_ga=2.101236417.1997404425.1578506907-124105596.1573051453. 
