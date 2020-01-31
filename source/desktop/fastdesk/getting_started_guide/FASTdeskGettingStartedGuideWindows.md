@@ -18,7 +18,8 @@ Whilst this guide will help you install the Citrix Workspace Application in orde
 For a list of known compatible thin clients please refer to the FASTdesk technical specification or contact the FASTdesk support team on **_0800 923 0617_**.   
 
 To install the Citrix Workspace Application on the local machine, there is a minimum storage requirement of 1GB RAM. In addition, two pre-requisites must be installed. These pre-requisites are normally installed with Windows updates so if your version of Windows is up to date, you should not have to install these. If you follow this guide and the Citrix Workspace application does not install then do install these pre-requisites. the .NET Framework 4.6.2 must be installed. Microsoft Visual C++ Redistributable 14.16.27012.6 or later must also be installed (Only an administrator can install the Microsoft Visual C++ Redistributable package). The download links should be easily found from a google search. If you are struggling to install both pre-requisites, please visit the Citrix help page at:
-https://support.citrix.com/article/CTX250044?_ga=2.101236417.1997404425.1578506907-124105596.1573051453. 
+https://support.citrix.com/article/CTX250044?_ga=2.101236417.1997404425.1578506907-124105596.1573051453. Alternatively, you can click this [link here](https://support.citrix.com/article/CTX250044?_ga=2.101236417.1997404425.1578506907-124105596.1573051453) to take you to the website.
+
  
 The Citrix Workspace application is compatible with Windows 7, 8.1, 10 (32-bit and 64-bit editions). It is also compatible with Windows Thin PC as well as Windows Server 2008 (R2, 64-bit), 2012 (R2, Standard, and, Datacenter editions), 2016 and 2019. In terms of browsers, the web portal is compatible with the latest versions of Google Chrome, Mozilla Firefox, Microsoft Edge and Internet Explorer.
  
