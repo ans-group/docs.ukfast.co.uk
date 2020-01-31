@@ -14,7 +14,7 @@ The Citrix Workspace application is compatible with Windows 7, 8.1, 10 (32-bit a
 ## Step 1 - Installation
 
 From your Windows PC, download and install the latest version of the Citrix Workspace app at this URL:
-https://www.citrix.co.uk/downloads/workspace-app/
+https://www.citrix.co.uk/downloads/workspace-app/. Alternatively, you can click this [link here!](https://www.citrix.co.uk/downloads/workspace-app/) to take you to the website.
 
 As you can see from the **image 1** below, all versions of Workspace are listed. 
 
@@ -28,13 +28,13 @@ Expand the "Workspace app for Windows" section and select the latest version of 
 
 #
 
+#
+
 Once the file has downloaded, open the file to begin installation. You might get a security warning asking "Do you want to run this file?". Check that the "Publisher" identifies as "Citrix Systems, Inc." before selecting Run (Refer to **image 3** included).
 
 #
 
 ![Image 3: Do you want to run this application?](files/Run_file.PNG "Image 3: Do you want to run this application?")
-
-#
 
 Follow the installation dialog box to finish with the installation of the workspace app (Refer to **image 4** to see what it would look like when installing).
 
@@ -99,7 +99,7 @@ Although it is recommended you access FASTdesk through the URL, you can also acc
 
 ![Image 13 Add an account](files/addaccountworkspace.png "Image 13: Add an account")
 
-Simply type the following URL "https://www.fastdesk.co.uk" and click Add. You will then be prompted to enter your username and password into the application. See **image 14**
+Simply type the following URL "https://www.fastdesk.co.uk" and click Add. Alternatively, enter the URL that has been provided to you by the FASTdesk team if you have a private build. You will then be prompted to enter your username and password into the application. See **image 14.**
 
 ![Image 14 Enter credentials](files/entercredsapp.PNG "Image 14: Enter Credentials")
 
