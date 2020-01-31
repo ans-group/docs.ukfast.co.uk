@@ -34,8 +34,6 @@ Expand the "Workspace app for Windows" section and select the latest version of 
 
 Once the file has downloaded, open the file to begin installation. You might get a security warning asking "Do you want to run this file?". Check that the "Publisher" identifies as "Citrix Systems, Inc." before selecting Run (Refer to **image 3** included).
 
-#
-
 ![Image 3: Do you want to run this application?](files/Run_file.PNG "Image 3: Do you want to run this application?")
 
 Follow the installation dialog box to finish with the installation of the workspace app (Refer to **image 4** to see what it would look like when installing).
