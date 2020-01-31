@@ -14,11 +14,13 @@ The Citrix Workspace application is compatible with Windows 7, 8.1, 10 (32-bit a
 ## Step 1 - Installation
 
 From your Windows PC, download and install the latest version of the Citrix Workspace app at this URL:
-https://www.citrix.co.uk/downloads/workspace-app/. Alternatively, you can click this [link here!](https://www.citrix.co.uk/downloads/workspace-app/) to take you to the website.
+https://www.citrix.co.uk/downloads/workspace-app/. Alternatively, you can click this [link here](https://www.citrix.co.uk/downloads/workspace-app/) to take you to the website.
 
 As you can see from the **image 1** below, all versions of Workspace are listed. 
 
 ![Image 1: Citrix Website OS options Download Page](files/Website_download.PNG "Image 1: Citrix website OS options download page")
+
+#
 
 #
 
