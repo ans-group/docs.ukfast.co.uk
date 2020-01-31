@@ -27,7 +27,7 @@ To begin the process for the `Extended Validation` checks, **Sectigo** require s
 
 Once the EV docs have been submitted for review, complete the **Domain Control Validation (DCV).**
 
-When purchasing the `Extended Validation SSL` the choice of **DNS**, **File upload** or **email validation** will have been selected for the **DVC** method.
+When purchasing the `Extended Validation SSL` the choice of **DNS**, **File upload** or **email validation** will have been selected for the **DCV** method.
 
 Upon purchase, unique `SHA` and `MD5` hashes will be provided. 
 
