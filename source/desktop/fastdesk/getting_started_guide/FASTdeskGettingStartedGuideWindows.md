@@ -4,7 +4,12 @@ FASTdesk®  is UKFast’s Desktop as a Service (DaaS) solution, which allows use
 
 ## Pre-Installation information
 
-This guide provides step by step instructions on installing and accessing FASTdesk on your Windows PC device. Day-to-day, there are two available methods to access FASTdesk on your Windows PC. These methods consist of the Citrix Workspace application as well as the web portal (FASTdesk URL). Whilst this guide will help you install the Citrix Workspace Application in order to access FASTdesk for the first time, we highly recommend using the web portal to access FASTdesk on a day-to-day basis. Both the Citrix Workspace application and web portal gives you instant access to your FASTdesk environment in an easy-to-use, all-in-one interface. They are also fully integrated with the Citrix Content Collaboration (Also known as ShareFile) which gives you the ability to upload and download files all in one place. You can use the web portal on domain and non-domain joined PCs and thin clients. For a list of known compatible thin clients please refer to the FASTdesk technical specification or contact the FASTdesk support team.   
+This guide provides step by step instructions on installing and accessing FASTdesk on your Windows PC device. Day-to-day, there are two available methods to access FASTdesk on your Windows PC. These methods consist of:
+
+- The Web Portal (FASTdesk URL). 
+- The Citrix Workspace Application 
+
+Whilst this guide will help you install the Citrix Workspace Application in order to access FASTdesk for the first time, we highly recommend using the web portal to access FASTdesk on a day-to-day basis. Both the Citrix Workspace application and web portal gives you instant access to your FASTdesk environment in an easy-to-use, all-in-one interface. They are also fully integrated with the Citrix Content Collaboration (Also known as ShareFile) which gives you the ability to upload and download files all in one place. You can use the web portal on domain and non-domain joined PCs and thin clients. For a list of known compatible thin clients please refer to the FASTdesk technical specification or contact the FASTdesk support team.   
 
 To install the Citrix Workspace Application on the local machine, there is a minimum storage requirement of 1GB RAM. In addition, two pre-requisites must be installed. These pre-requisites are normally installed with Windows updates so if your version of Windows is up to date, you should not have to install these. If you follow this guide and the Citrix Workspace application does not install then do install these pre-requisites. the .NET Framework 4.6.2 must be installed. Microsoft Visual C++ Redistributable 14.16.27012.6 or later must also be installed (Only an administrator can install the Microsoft Visual C++ Redistributable package). The download links should be easily found from a google search. If you are struggling to install both pre-requisites, please visit the Citrix help page at:
 https://support.citrix.com/article/CTX250044?_ga=2.101236417.1997404425.1578506907-124105596.1573051453. 
@@ -40,7 +45,7 @@ Once the file has downloaded, open the file to begin installation. You might get
 
 #
 
-Follow the installation dialog box to finish with the installation of the workspace app (Refer to **image 4** to see what it would look like when installing).
+Follow the installation dialog box to finish with the installation of the workspace app ( **Image 4** provides a visual representation).
 
 ![Image 4: Installing Citrix Workspace](files/Installing_app.PNG "Image 4: Installing Citrix Workspace Dialog box")
 
@@ -50,11 +55,11 @@ Follow the installation dialog box to finish with the installation of the worksp
 
 ## Step 2 - Logging into the FASTdesk Portal
 
-Once the "Citrix Workspace" application is installed, open your web browser and navigate to the Following URL “https://www.fastdesk.co.uk”. On this step, it is vital that you enter the full URL including the "www". 
+Once the "Citrix Workspace" application is installed, open your web browser and navigate to the Following URL “https://www.fastdesk.co.uk”. On this step, it is vital that you enter the full URL including the "www". Alternatively, you can click this [link here](https://www.fastdesk.co.uk) to take you to the website.
 
 ![Image 5: FASTdesk URL](files/Url.png "Image 5: FASTdesk URL")
 
-Once here, you will see the FASTdesk branding and a log in page with a man on a sofa (Refer to **image 6** included). 
+Once here, you will see the FASTdesk branding and a log in page with a man on a sofa (Refer to **image 6** below). 
 
 ![Image 6 FASTdesk Landing Page](files/Welcome_screen.png "Image 6: FASTdesk Landing Page")
 
