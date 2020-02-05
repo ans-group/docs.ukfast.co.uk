@@ -27,7 +27,7 @@ Very much the same as a Single VLAN configuration, all of the terms are one and 
 
 An example rule can be found below:
 
-![Access_list_example] (files/dedi_access_list_multi_zone.png)
+source/network/firewalls/files/dedi_access_list_multi_zone.png
 
 This rule will allow your 'db.vlan' group to communicate to the 'inside.vlan' group on ports specified in the group 'Mysql-port.tcp'
 
