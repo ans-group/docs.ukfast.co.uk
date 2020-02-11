@@ -29,7 +29,7 @@ yum install --disablerepo='*' --enablerepo=base,remi,epel,updates php73-php php7
 yum install --disablerepo='*' --enablerepo=base,remi,epel,updates php74-php php74-php-pecl-mcrypt php74-php-pdo php74-php-mysqlnd php74-php-opcache php74-php-xml php74-php-gd php74-php-devel php74-php-mysql php74-php-intl php74-php-mbstring php74-php-bcmath php74-php-json php74-php-iconv php74-php-pecl-redis php74-php-fpm php74-php-zip php74-php-soap php74-php-sodium libsodium
 ```
 
-### Install Additional PHP Version
+### Update Additional PHP Version
 
 Update example:
 
