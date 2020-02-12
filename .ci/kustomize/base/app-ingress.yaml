@@ -5,7 +5,7 @@ metadata:
   name: app-ingress
 spec:
   rules:
-  - host: ukfast-docs.k8s.uat.ukfast.co.uk
+  - host: docs.ukfast.co.uk
     http:
       paths:
       - path: /
