@@ -58,10 +58,6 @@ yum install --disablerepo='*' --enablerepo=base,remi-php72,remi,epel,updates php
 ```bash
 yum install --disablerepo='*' --enablerepo=base,remi-php73,remi,epel,updates php php-pecl-mcrypt php-pdo php-mysqlnd php-opcache php-xml php-gd php-devel php-mysql php-intl php-mbstring php-bcmath php-json php-iconv php-pecl-redis php-fpm php-zip php-soap php-sodium libsodium composer
 ```
-#### PHP 7.4
-```bash
-yum install --disablerepo='*' --enablerepo=base,remi-php74,remi,epel,updates php php-pecl-mcrypt php-pdo php-mysqlnd php-opcache php-xml php-gd php-devel php-mysql php-intl php-mbstring php-bcmath php-json php-iconv php-pecl-redis php-fpm php-zip php-soap php-sodium libsodium composer
-```
 
 ### Update PHP
 You can perform an update of PHP with the following command depending on the desired version:
@@ -83,11 +79,6 @@ yum update --disablerepo='*' --enablerepo=base,remi-php72,remi,epel,updates 'php
 #### PHP 7.3
 ```bash
 yum update --disablerepo='*' --enablerepo=base,remi-php73,remi,epel,updates 'php-*' 
-```
-
-#### PHP 7.4
-```bash
-yum update --disablerepo='*' --enablerepo=base,remi-php74,remi,epel,updates 'php-*' 
 ```
 
 If any of the following packages are updated as dependences, Nginx will require a restart after updating PHP

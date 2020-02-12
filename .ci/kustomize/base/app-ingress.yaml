@@ -1,0 +1,14 @@
+---
+apiVersion: networking.k8s.io/v1beta1
+kind: Ingress
+metadata:
+  name: app-ingress
+spec:
+  rules:
+  - host: ukfast-docs.k8s.uat.ukfast.co.uk
+    http:
+      paths:
+      - path: /
+        backend:
+          serviceName: app
+          servicePort: 80
