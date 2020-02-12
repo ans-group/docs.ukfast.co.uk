@@ -1,0 +1,4 @@
+Move ukf into source/_themes
+Move _static and _templates in source
+Move your conf.py out of the way and move conf.py.ukf to conf.py
+Move your Makefile out of the way and move Makefile in
