@@ -259,7 +259,7 @@ if __name__ == '__main__':
     for file in list_md_files_in_dir(target):
         logging.info('Processing {}...'.format(file))
         output = format_markdown_text(open(file, 'r').read())
-        output['url'] = '/' + file.replace(target, '').replace('.md', '.html')
+        output['url'] = file.replace(target, '').replace('.md', '.html')
         res = es.index(index=index, body=output)
 
     logging.info('Done!')

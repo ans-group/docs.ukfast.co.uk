@@ -11,7 +11,7 @@ WORKDIR /build/
 
 ADD Makefile rasterize.js tests.sh /build/
 ADD ./files/ ./files/
-ADD ./ukf/ ./ukf/
+# ADD ./ukf/ ./ukf/
 # Do two copies, the above wont change much, adds a layer but saves time
 ADD ./source/ ./source/
 
