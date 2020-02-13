@@ -23,7 +23,7 @@ The rule means Allow traffic from Anywhere, to "linux", on the ports "linux.port
 
 # The Access List - Multi VLAN
 
-Very much the same as a Single VLAN configuration, to allow inter-vlan communication a explicit rule from the source VLAN is needed.
+Very much the same as a Single VLAN configuration, to allow inter-vlan communication an explicit rule from the source VLAN is needed.
 
 An example rule can be found below:
 
