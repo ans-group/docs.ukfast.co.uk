@@ -24,7 +24,7 @@ We have a number of guides for our Magento 1 optimised stack:
    magentoinsubdir.md
    redis/index
    adddomain.md
-   ../redtrictwebsite.md
+   ../restrictwebsite.md
    ../magentottfb.md
    ../dbtriggers.md
    opcache/index
