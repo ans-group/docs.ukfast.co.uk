@@ -1,6 +1,6 @@
 App = {};
 App.config = {
-  url: 'http://localhost/search/',
+  url: '/search/',
   version: '2-3'
 };
 
@@ -35,7 +35,7 @@ App.InlineSearch = (function () {
   var doSearch = function (value, syncResults, asyncResults) {
     value = value.replace('/', '\\/');
     value = value + '*';
-    var query = {q: value};
+    var query = { q: value };
     var url = App.config.url + '_search?' + jQuery.param(query);
 
     lastValue = value;

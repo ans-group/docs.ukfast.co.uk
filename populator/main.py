@@ -18,7 +18,8 @@ another_list = ['eval_rst', ':doc:', '`',
 meta_words = [':title:', ':description:', ':keywords:']
 
 hostname = 'elasticsearch'
-host = 'http://'+hostname+':9200'
+host = 'http://' + hostname + ':9200'
+
 
 class Colour:
     RED = '\033[91m'
@@ -31,6 +32,7 @@ class Colour:
     BOLD = '\033[1m'
     UNDERLINE = '\033[4m'
     ENDC = '\033[0m'
+
 
 def setup_logging():
     logging.basicConfig(
@@ -74,6 +76,7 @@ def check_elasticsearch_alive(host):
     except:
         return False
     return True
+
 
 def sanitise(text):
     try:
@@ -220,18 +223,17 @@ if __name__ == '__main__':
     if es.indices.exists(index=index):
         es.indices.delete(index=index, ignore=[400, 404])
 
-    
     # Create the documentation index and set the 'boost' levels for the columns.
     # Essentially lets us prioritse columns in searches.
     request_body = """
     {
         "mappings": {
             "properties": {
-              "keywords": {
+              "title": {
                 "type": "text",
                 "boost": 4
               },
-              "title": {
+              "keywords": {
                 "type": "text",
                 "boost": 3
               },
