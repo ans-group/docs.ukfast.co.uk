@@ -10,10 +10,16 @@ Overview
 ========
 Find out more about FASTdesk and how it can help increase the flexibility in the way users work. Inside you will find the getting started guide as well as other resources that will enable you to begin your FASTdesk experience.
 
+- [What is FASTdesk?] (https://www.ukfast.co.uk/fastdesk.html). 
+
+========
+Gettting Started Guides
+========
+
 .. toctree::
    :maxdepth: 1
 
-   getting_started_guide/index
+  - getting_started_guide/index
    
 .. meta::
    :title: FASTdesk - hosted desktops | UKFast Documentation
