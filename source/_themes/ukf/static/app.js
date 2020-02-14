@@ -34,7 +34,7 @@ App.InlineSearch = (function () {
   // Send the query to search app and get results.
   var doSearch = function (value, syncResults, asyncResults) {
     value = value.replace('/', '\\/');
-    value = value + '*';
+    value = value;
     var query = { q: value };
     var url = App.config.url + '_search?' + jQuery.param(query);
 

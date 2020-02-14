@@ -36,8 +36,8 @@ App.Search = (function () {
 
   function executeSearch(value, page) {
     value = value.replace('/', '\\/');
-    value = value + '*';
-    var query = {q: value};
+    value = value;
+    var query = { q: value };
     var url = App.config.url + '_search?' + jQuery.param(query);
     var xhr = $.ajax({
       url: url,
