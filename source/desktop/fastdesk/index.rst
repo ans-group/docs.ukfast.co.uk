@@ -10,8 +10,7 @@ Overview
 ========
 Find out more about FASTdesk and how it can help increase the flexibility in the way users work. Inside you will find the getting started guide as well as other resources that will enable you to begin your FASTdesk experience.
 
-- [What is FASTdesk?](https://www.ukfast.co.uk/fastdesk.html "What is FASTdesk"). 
-[I'm an inline-style link with title](https://www.google.com "Google's Homepage")
+- [What is FASTdesk?](https://www.ukfast.co.uk/fastdesk.html "What is FASTdesk?"). 
 
 ========
 Gettting Started Guides
