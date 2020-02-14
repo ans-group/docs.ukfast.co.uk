@@ -38,13 +38,15 @@ deploy_production:
   tags:
     - docker
   script: 
-    - cd .ci/kustomize
-    - kustomize create --resources base
-    - kustomize edit set image appImage=${IMAGE_NAME}
-    - kustomize edit set image populatorImage=${POPULATOR_IMAGE_NAME}
-    - kustomize edit set namespace $NAMESPACE_NAME
-    - kustomize build . | kubectl --kubeconfig=${KUBE_CONFIG_FILE} apply -f -
-    - kustomize build . | kubectl --kubeconfig=${KUBE_CONFIG_FILE} apply --dry-run -f - | grep deployment | awk '{print $1}' | xargs -n1 kubectl --kubeconfig=${KUBE_CONFIG_FILE} -n $NAMESPACE_NAME rollout status -w
+    - echo ${KUBE_CONFIG_FILE}
+    - cat ${KUBE_CONFIG_FILE}
+    # - cd .ci/kustomize
+    # - kustomize create --resources base
+    # - kustomize edit set image appImage=${IMAGE_NAME}
+    # - kustomize edit set image populatorImage=${POPULATOR_IMAGE_NAME}
+    # - kustomize edit set namespace $NAMESPACE_NAME
+    # - kustomize build . | kubectl --kubeconfig=${KUBE_CONFIG_FILE} apply -f -
+    # - kustomize build . | kubectl --kubeconfig=${KUBE_CONFIG_FILE} apply --dry-run -f - | grep deployment | awk '{print $1}' | xargs -n1 kubectl --kubeconfig=${KUBE_CONFIG_FILE} -n $NAMESPACE_NAME rollout status -w
   environment:
     name: production
     url: docs.ukfast.co.uk
