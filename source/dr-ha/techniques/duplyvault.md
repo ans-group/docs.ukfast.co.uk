@@ -17,7 +17,7 @@ First things first, we need to get `duply` onto your server. It can be found in 
 You can then install `duply` and all related packages with this command:
 
 ```console
-  yum install duply --enablrepo=epel
+  yum install duply --enablerepo=epel
 ```
 
 For it's encryption, `duply` uses the venerable GPG suite. Explanation of how GPG does what it does is a bit beyond the scope of this article, but it's worth reading up on if you're interested. All you really need to know here is that you'll need a gpg keypair for `duply` to work with, which you can generate with the following command:
