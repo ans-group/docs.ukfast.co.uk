@@ -12,7 +12,7 @@ If you've already requested an SSH key previously then you can retrieve it by cl
 
 ![retrievessh](../files/retrievessh.png)
 
-Once you have the SSH key, you will need to [follow this guide to add it to your eCloud Flex instance](https://docs.ukfast.co.uk/cloud/flex/general/sshkey.html) and grant access to `ukfastsupport`.
+Once you have the SSH key, you will need to [follow this guide to add it to your eCloud Flex instance](/cloud/flex/general/sshkey.html) and grant access to `ukfastsupport`.
 
 If you run into any problems on this, please mention it in your support ticket, or call UKFast support directly on 0800 230 0032.
 
