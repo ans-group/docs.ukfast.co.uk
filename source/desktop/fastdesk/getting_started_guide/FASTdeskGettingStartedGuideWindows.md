@@ -18,7 +18,12 @@ Whilst this guide will help you install the Citrix Workspace Application in orde
 - Ability to use the FASTdesk on domain and non-domain joined PCs and thin clients. 
 - Full integration with the Citrix Content Collaboration (Also known as ShareFile) which gives you the ability to upload and download files all in one place.
 
-To install the Citrix Workspace Application on the local machine, there is a minimum memory requirement of 1GB RAM. In addition, two pre-requisites must be installed. These pre-requisites are normally installed with Windows updates so if your version of Windows is up to date, you should not have to install these. If you follow this guide and the Citrix Workspace application does not install then do install these pre-requisites. the .NET Framework 4.6.2 must be installed. Microsoft Visual C++ Redistributable 14.16.27012.6 or later must also be installed (Only an administrator can install the Microsoft Visual C++ Redistributable package). The download links should be easily found from a google search. If you cannot install both pre-requisites, please visit the Citrix help page at:
+To install the Citrix Workspace Application on the local machine, there is a minimum memory requirement of 1GB RAM. In addition, two pre-requisites must be installed. They are:
+
+- .NET Framework 4.6.2 or later. 
+- Microsoft Visual C++ Redistributable 14.16.27012.6 or later (requires admin access). 
+
+These pre-requisites are normally installed with Windows updates so if your version of Windows is up to date, you should not have to install these. Alternatively, the Citrix Workspace application also attempts to install them during intallation. **(See Step 1)**. If none of these steps result in the installation of the pre-requisites, please visit the Citrix help page at:
 https://support.citrix.com/article/CTX250044?_ga=2.101236417.1997404425.1578506907-124105596.1573051453. Alternatively, you can click this [link here](https://support.citrix.com/article/CTX250044?_ga=2.101236417.1997404425.1578506907-124105596.1573051453) to take you to the website.
 
 
