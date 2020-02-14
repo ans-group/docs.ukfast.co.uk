@@ -1,6 +1,8 @@
 
 # Getting Started with FASTdesk: Windows PC Edition
 
+> Compatible with Windows 7, 8.1, 10 (32-bit and 64-bit editions). Also compatible with Windows Thin PC as well as Windows Server 2008 (R2, 64-bit), 2012 (R2, Standard, and, Datacenter editions)
+
 FASTdesk®  is UKFast’s Desktop as a Service (DaaS) solution, which allows users and organisations to work more effectively and securely by giving access to files, applications and desktop items remotely via an internet connection. All desktop settings and files are stored remotely in the cloud, providing cross-device compatibility and eliminating the risk of data loss by removing the risk of unauthorised access. This DaaS solution allows users to work in the same way they would with a traditional local desktop, but increase the flexibility with which they do so regardless of the endpoint device hardware, operating system or form factor.
 
 ## Pre-Installation information
@@ -16,15 +18,11 @@ Whilst this guide will help you install the Citrix Workspace Application in orde
 - Ability to use the FASTdesk on domain and non-domain joined PCs and thin clients. 
 - Full integration with the Citrix Content Collaboration (Also known as ShareFile) which gives you the ability to upload and download files all in one place.
 
-For a list of known compatible thin clients please refer to the FASTdesk technical specification or contact the FASTdesk support team on **_0800 923 0617_**.   
-
-To install the Citrix Workspace Application on the local machine, there is a minimum storage requirement of 1GB RAM. In addition, two pre-requisites must be installed. These pre-requisites are normally installed with Windows updates so if your version of Windows is up to date, you should not have to install these. If you follow this guide and the Citrix Workspace application does not install then do install these pre-requisites. the .NET Framework 4.6.2 must be installed. Microsoft Visual C++ Redistributable 14.16.27012.6 or later must also be installed (Only an administrator can install the Microsoft Visual C++ Redistributable package). The download links should be easily found from a google search. If you are struggling to install both pre-requisites, please visit the Citrix help page at:
+To install the Citrix Workspace Application on the local machine, there is a minimum memory requirement of 1GB RAM. In addition, two pre-requisites must be installed. These pre-requisites are normally installed with Windows updates so if your version of Windows is up to date, you should not have to install these. If you follow this guide and the Citrix Workspace application does not install then do install these pre-requisites. the .NET Framework 4.6.2 must be installed. Microsoft Visual C++ Redistributable 14.16.27012.6 or later must also be installed (Only an administrator can install the Microsoft Visual C++ Redistributable package). The download links should be easily found from a google search. If you cannot install both pre-requisites, please visit the Citrix help page at:
 https://support.citrix.com/article/CTX250044?_ga=2.101236417.1997404425.1578506907-124105596.1573051453. Alternatively, you can click this [link here](https://support.citrix.com/article/CTX250044?_ga=2.101236417.1997404425.1578506907-124105596.1573051453) to take you to the website.
 
- 
-The Citrix Workspace application is compatible with Windows 7, 8.1, 10 (32-bit and 64-bit editions). It is also compatible with Windows Thin PC as well as Windows Server 2008 (R2, 64-bit), 2012 (R2, Standard, and, Datacenter editions), 2016 and 2019. In terms of browsers, the web portal is compatible with the latest versions of Google Chrome, Mozilla Firefox, Microsoft Edge and Internet Explorer.
- 
-## Step 1 - Installation
+
+## Step 1 - Installing the Citrix Workspace Application
 
 From your Windows PC, download and install the latest version of the Citrix Workspace app at this URL:
 https://www.citrix.co.uk/downloads/workspace-app/. Alternatively, you can click this [link here](https://www.citrix.co.uk/downloads/workspace-app/) to take you to the website.
@@ -33,17 +31,10 @@ As you can see from the **image 1** below, all versions of Workspace are listed.
 
 ![Image 1: Citrix Website OS options Download Page](files/Website_download.PNG "Image 1: Citrix website OS options download page")
 
-#
-
-#
-
 Expand the "Workspace app for Windows" section and select the latest version of the "Workspace app for Windows". This takes you to the download link where you can download the application (See **image 2**).
 
 ![Image 2: Citrix Website Windows Download Page](files/Website_download2.PNG "Image 2: Citrix website Windows download page")
 
-#
-
-#
 
 Once the file has downloaded, open the file to begin installation. You might get a security warning asking "Do you want to run this file?". Check that the "Publisher" identifies as "Citrix Systems, Inc." before selecting Run (Refer to **image 3** included).
 
@@ -63,7 +54,7 @@ Follow the installation dialog box to finish with the installation of the worksp
 
 ## Step 2 - Logging into the FASTdesk Portal
 
-Once the "Citrix Workspace" application is installed, open your web browser and navigate to the Following URL “https://www.fastdesk.co.uk”. On this step, it is vital that you enter the full URL including the "www". Alternatively, you can click this [link here](https://www.fastdesk.co.uk) to take you to the website.
+Once the "Citrix Workspace" application is installed, open your web browser and navigate to the Following URL “https://www.fastdesk.co.uk”. On this step, it is vital that you enter the full URL including the "www". Alternatively, you can click this [link here](https://www.fastdesk.co.uk) to take you to the website. In terms of browsers, the web portal is compatible with the latest versions of Google Chrome, Mozilla Firefox, Microsoft Edge and Internet Explorer.
 
 ![Image 5: FASTdesk URL](files/Url.png "Image 5: FASTdesk URL")
 
