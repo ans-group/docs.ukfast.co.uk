@@ -1,15 +1,5 @@
----
-title: Connect to Windows Virtual Desktop Windows 10 or 7 - Azure
-description: How to connect to Windows Virtual Desktop using the Windows Desktop client.
-services: virtual-desktop
-author: Heidilohr
 
-ms.service: virtual-desktop
-ms.topic: conceptual
-ms.date: 11/12/2019
-ms.author: helohr
----
-# Connect with the Windows Desktop client
+
 
 > Applies to: Windows 7, Windows 10, and Windows 10 IoT Enterprise
 
@@ -19,6 +9,7 @@ ms.author: helohr
 FASTdesk®  is UKFast’s Desktop as a Service (DaaS) solution, which allows users and organisations to work more effectively and securely by giving access to files, applications and desktop items remotely via an internet connection. All desktop settings and files are stored remotely in the cloud, providing cross-device compatibility and eliminating the risk of data loss by removing the risk of unauthorised access. This DaaS solution allows users to work in the same way they would with a traditional local desktop, but increase the flexibility with which they do so regardless of the endpoint device hardware, operating system or form factor.
 
 ## Pre-Installation information
+
 
 This guide provides step by step instructions on installing and accessing FASTdesk on your Windows PC device. Day-to-day, there are two available methods to access FASTdesk on your Windows PC. These methods consist of:
 
@@ -144,7 +135,8 @@ Go ahead and enter the username and password credentials that were provided to y
 #### Warning
 Whenever you log out of a desktop, do allow at least 3 minutes before attempting to log back in. This is to ensure the session correctly ends before another one is open. If you have not waited long enough, there is a danger of your applications not appearing when you log in. If you do find that this is the case, simply log out, wait at least 3 minutes and log back in again.
 
-#
+> [!IMPORTANT]
+> Whenever you log out of a desktop, do allow at least 3 minutes before attempting to log back in. This is to ensure the session correctly ends before another one is open. If you have not waited long enough, there is a danger of your applications not appearing when you log in. If you do find that this is the case, simply log out, wait at least 3 minutes and log back in again.
 
 **_This instruction guide should assist you getting logged in for the first time. If you have any questions or still require assistance, please contact the FASTdesk support team on 0800 923 0617_**.
 
