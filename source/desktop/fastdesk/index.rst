@@ -2,17 +2,15 @@
 FASTdesk
 ========
 
-FASTdesk is UKFast's hosted desktop solution, based on Citrix Receiver.
+
+FASTdesk is our desktop as a service (DaaS) solution, based on our award-winning hosting platform. It combines enterprise-grade infrastructure and hosting with market-leading Citrix desktop-virtualisation technology to provide a seamless all-in-one desktop experience regardless of the endpoint device. Welcome to the Future.
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
 
-   getting_started/index
+   getting_started_guide/index
    FASTdeskFactSheet
-   howcaniresetmyfastdeskpassword
-   icantfinddrivemapperinfastdesk
-   icantseemylocaldrivesanddevicesinfastdesk
-
+  
 
 .. meta::
    :title: FASTdesk - hosted desktops | UKFast Documentation

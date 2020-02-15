@@ -2,7 +2,7 @@
 
 You can open ports on your dedicated firewall within [MyUKFast](https://www.ukfast.co.uk/myukfast.html). Instructions on viewing your existing firewall configuration are provided in [this guide](viewconfig.html).
 
-# The Access List
+# The Access List - Single VLAN
 
 Dedicated firewalls provide more flexibility over your access control, and as a result the interface is a little more complex than our shared firewalls. The main screen for looking at your dedicated firewall is called the Access List and it looks like this:
 
@@ -20,6 +20,17 @@ If all these match, the firewall rule is applied to the traffic and it is allowe
 ![Access list example](files/dedi_access_list_single.png)
 
 The rule means Allow traffic from Anywhere, to "linux", on the ports "linux.ports.fromoutside.tcp".
+
+# The Access List - Multi VLAN
+
+Very much the same as a Single VLAN configuration, to allow inter-vlan communication an explicit rule from the source VLAN is needed.
+
+An example rule can be found below:
+
+![Access list example](files/dedi_access_list_multi_zone.png)
+
+This rule will allow your 'db.vlan' group to communicate to the 'inside.vlan' group on ports specified in the group 'Mysql-port.tcp'
+
 
 ## Creating a port group
 

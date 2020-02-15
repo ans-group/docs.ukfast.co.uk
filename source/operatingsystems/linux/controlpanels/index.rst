@@ -9,20 +9,40 @@ Plesk
 ------------------------
 .. toctree::
    :maxdepth: 1
-   
+
    plesk
    plesk_passwords
+   plesk_mysql
    plesk_pci
    plesk_tips
+   plesk_upgradingfromonyxtoobsidian
+   plesk_applyingsystemupdates
 
 ------------------------
 cPanel/WHM
 ------------------------
 .. toctree::
    :maxdepth: 1
-   
+
    cpanel
-   cpanel_tips
+   cpanel_connect
+   cpanel_initial_setup
+   cpanel_add_account
+   cpanel_ftp_account
+   cpanel_installapachemodule
+   cpanel_installphpversion
+   cpanel_installphpextension
+
+------------------------
+Migrations
+------------------------
+.. toctree::
+   :maxdepth: 1
+ 
+   migration_cpaneltocpanel
+   migration_plesktoplesk
+   migration_cpaneltoplesk
+   migration_plesktocpanel
 
 .. meta::
   :title: Plesk and cPanel | UKFast Documentation
