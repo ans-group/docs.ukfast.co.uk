@@ -36,7 +36,7 @@ App.InlineSearch = (function () {
     value = value.replace('/', '\\/');
     value = value;
     var query = { q: value };
-    var query_format = 'q=title:' + value + '*+keywords:' + value + '*+description:' + value + '*+content:' + value + '*'
+    var query_format = 'q=title:' + value + '*+keywords:' + value + '*+description:' + value + '*+content:' + value + '*&analyze_wildcard=true'
     var url = App.config.url + '_search?' + query_format;
 
     lastValue = value;
