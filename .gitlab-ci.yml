@@ -34,7 +34,7 @@ deploy_uat:
   stage: deploy
   image: $KUSTOMIZE_IMAGE
   only:
-    - master
+    - tags
   tags:
     - docker
   script: 
