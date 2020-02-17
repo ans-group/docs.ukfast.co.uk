@@ -10,62 +10,18 @@ import shutil
 import sys
 import time
 
-directory = './'
-file_type = '.md'
-remove_list = [r'.. (.*?)::']
-another_list = ['eval_rst', ':doc:', '`',
-                '\\ :sup:', ' | UKFast Documentation']
-meta_words = [':title:', ':description:', ':keywords:']
+logging.basicConfig(level=logging.DEBUG, format='%(asctime)s | %(levelname)-10s | %(filename)-20s  | %(funcName)-30s | %(lineno)-5d | %(message)s')
+logging.getLogger("elasticsearch").setLevel(logging.WARNING)
 
+file_type = '.md'
+remove_regex = [r'.. (.*?)::']
+remove_list = ['eval_rst', ':doc:', '`', '\\ :sup:', ' | UKFast Documentation']
+meta_words = [':title:', ':description:', ':keywords:']
 hostname = 'elasticsearch'
 host = 'http://' + hostname + ':9200'
 
-
-class Colour:
-    RED = '\033[91m'
-    GREEN = '\033[92m'
-    YELLOW = '\033[93m'
-    BLUE = '\033[94m'
-    PURPLE = '\033[95m'
-    LIGHT_BLUE = '\033[96m'
-    WHITE = '\033[97m'
-    BOLD = '\033[1m'
-    UNDERLINE = '\033[4m'
-    ENDC = '\033[0m'
-
-
-def setup_logging():
-    logging.basicConfig(
-        # filename='log',
-        # filemode='w+',
-        level=logging.INFO,
-        format='%(asctime)s | %(levelname)-10s | %(name)-20s | %(filename)-20s  | %(funcName)-30s | %(lineno)-5d | %(message)s'
-        # format='%(asctime)s | %(message)s'
-    )
-
-    logging.addLevelName(logging.CRITICAL, "\033[1;91;43m{}\033[0m".format(" ******** "))
-
-    logging.addLevelName(logging.INFO, "{}{:10}{}".format(
-        Colour.BLUE,
-        logging.getLevelName(logging.INFO),
-        Colour.ENDC)
-    )
-
-    logging.addLevelName(logging.WARNING, "{}{:10}{}".format(
-        Colour.YELLOW,
-        logging.getLevelName(logging.WARNING),
-        Colour.ENDC)
-    )
-
-    logging.addLevelName(logging.ERROR, "{}{:10}{}".format(
-        Colour.RED,
-        logging.getLevelName(logging.ERROR),
-        Colour.ENDC)
-    )
-
-    logging.getLogger("sqlalchemy").setLevel(logging.WARNING)
-    logging.getLogger("requests").setLevel(logging.WARNING)
-    logging.getLogger("urllib3").setLevel(logging.WARNING)
+index_name = os.getenv('ESINDEX', 'documentation')
+source_dir = os.getenv('SOURCEDIR', 'source')
 
 
 def check_elasticsearch_alive(host):
@@ -81,9 +37,9 @@ def check_elasticsearch_alive(host):
 def sanitise(text):
     try:
         plain_text = text
-        for remove in remove_list:
+        for remove in remove_regex:
             plain_text = re.sub(remove, '', plain_text)
-        for remove in another_list:
+        for remove in remove_list:
             plain_text = plain_text.replace(remove, '')
     except:
         pass
@@ -139,7 +95,7 @@ def get_meta(text):
 
 def approximate_meta(text):
     """
-    Takes the fist and second non-blank lines as the title and description.
+    Takes the first and second non-blank lines as the title and description.
     Only called on files that don't have the meta info at the bottom.
     """
     lines = text.split('\n')
@@ -174,7 +130,7 @@ def list_md_files_in_dir(dir_):
     return file_paths
 
 
-def format_markdown_text(text):
+def format_markdown_text(text, file):
     """
     Input a doc.md file and it'll spit out the title, description, keywords (perhaps), and the content.
     """
@@ -183,13 +139,9 @@ def format_markdown_text(text):
 
     if not title or not desc:
         title, desc = approximate_meta(text)
-        print('Missing proper meta tags...')
-
-    # print('title: {}'.format(title))
-    # print('desc: {}'.format(desc))
-    # print('keys: {}'.format(keywords))
-    # print('body: {}'.format(output))
-    # print('\n')
+        logging.warning('Missing proper meta tags in {}'.format(file))
+    else:
+        logging.info('Found meta data for {}'.format(file))
 
     return {
         'title': title,
@@ -200,15 +152,13 @@ def format_markdown_text(text):
 
 
 if __name__ == '__main__':
-    setup_logging()
-    logging.info('waiting for es at {}'.format(hostname))
+    logging.info('Waiting for the elasticsearch to become responsive at {}...'.format(hostname))
 
     while True:
         if check_elasticsearch_alive(host):
             break
         time.sleep(3)
 
-    index = 'documentation'
     es = None
 
     while True:
@@ -220,11 +170,13 @@ if __name__ == '__main__':
             logging.exception('sleeping')
             time.sleep(5)
 
-    if es.indices.exists(index=index):
-        es.indices.delete(index=index, ignore=[400, 404])
+    if es.indices.exists(index=index_name):
+        logging.warning('Elasticsearch index \'{}\' already exists. Attempting to delete...'.format(index_name))
+        es.indices.delete(index=index_name, ignore=[400, 404])
 
     # Create the documentation index and set the 'boost' levels for the columns.
     # Essentially lets us prioritse columns in searches.
+    # Could do with converting this to python.
     request_body = """
     {
         "mappings": {
@@ -250,16 +202,25 @@ if __name__ == '__main__':
     }
     """
 
-    es.indices.create(index=index, body=request_body)
+    es.indices.create(index=index_name, body=request_body)
 
     logging.info('Populating elasticsearch...')
 
-    target = 'source'
-    logging.info(list_md_files_in_dir(target))
-    for file in list_md_files_in_dir(target):
-        logging.info('Processing {}...'.format(file))
-        output = format_markdown_text(open(file, 'r').read())
-        output['url'] = file.replace(target, '').replace('.md', '.html')
-        res = es.index(index=index, body=output)
+    logging.info(list_md_files_in_dir(source_dir))
+    missing_meta = 0
+    found_meta = 0
+    for file in list_md_files_in_dir(source_dir):
 
+        logging.info('Processing {}...'.format(file))
+
+        output = format_markdown_text(open(file, 'r').read(), file)
+        if output['keywords'] == '':
+            missing_meta += 1
+        else:
+            found_meta += 1
+
+        output['url'] = file.replace(source_dir, '').replace('.md', '.html')
+        es.index(index=index_name, body=output)
+
+    logging.info('Total documents missing meta tags {}/{}'.format(missing_meta, missing_meta + found_meta))
     logging.info('Done!')
