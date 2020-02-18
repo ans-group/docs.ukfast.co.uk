@@ -19,7 +19,7 @@ App.Search = (function () {
     if (typeof s == 'undefined') {
       s = document.location.search;
     }
-    var parts = s.substr(s.indexOf('_searchXXX') + 1).split('&');
+    var parts = s.substr(s.indexOf('_search?') + 1).split('&');
     var result = {};
     for (var i = 0; i < parts.length; i++) {
       var tmp = parts[i].split('=', 2);
