@@ -36,10 +36,8 @@ App.Search = (function () {
 
   function executeSearch(value, page) {
     value = value.replace('/', '\\/');
-    value = value;
-    var query = { q: value };
-    var query_format = 'q=title:' + value + '*+keywords:' + value + '*+description:' + value + '*+content:' + value + '*&analyze_wildcard=true'
-    var url = App.config.url + '_search?' + query_format;
+    // var query_format = 'q=title:' + value + '*+keywords:' + value + '*+description:' + value + '*+content:' + value + '*&analyze_wildcard=true'
+    var url = App.config.url + '_search?q=' + value + '~';
     var xhr = $.ajax({
       url: url,
       dataType: 'json',

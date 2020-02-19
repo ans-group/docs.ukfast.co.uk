@@ -183,15 +183,15 @@ if __name__ == '__main__':
             "properties": {
               "title": {
                 "type": "text",
-                "boost": 4
+                "boost": 10
               },
               "keywords": {
                 "type": "text",
-                "boost": 3
+                "boost": 5
               },
               "description": {
                 "type": "text",
-                "boost": 2
+                "boost": 3
               },
               "content": {
                 "type": "text",

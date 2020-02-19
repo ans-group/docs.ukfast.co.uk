@@ -34,10 +34,8 @@ App.InlineSearch = (function () {
   // Send the query to search app and get results.
   var doSearch = function (value, syncResults, asyncResults) {
     value = value.replace('/', '\\/');
-    value = value;
-    var query = { q: value };
-    var query_format = 'q=title:' + value + '*+keywords:' + value + '*+description:' + value + '*+content:' + value + '*&analyze_wildcard=true'
-    var url = App.config.url + '_search?' + query_format;
+    // var query_format = 'q=title:' + value + '*+keywords:' + value + '*+description:' + value + '*+content:' + value + '*&analyze_wildcard=true'
+    var url = App.config.url + '_search?q=' + value + '~';
 
     lastValue = value;
 
