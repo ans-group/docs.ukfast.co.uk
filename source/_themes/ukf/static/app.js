@@ -92,8 +92,8 @@ App.InlineSearch = (function () {
 
     // 'click' the link.
     input.on('typeahead:select', function (event, suggestion) {
-      input.typeahead('val', item["_source"].title);
-      window.location = url + item["_source"].url;
+      input.typeahead('val', suggestion["_source"].title);
+      window.location = window.location.origin + suggestion["_source"].url;
       return false;
     });
 

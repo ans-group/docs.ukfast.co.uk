@@ -117,6 +117,7 @@ JS_FILES = source/_themes/ukf/static/jquery.js \
   source/_themes/ukf/static/vendor.js \
   source/_themes/ukf/static/app.js \
   source/_themes/ukf/static/search.js \
+  source/_themes/ukf/static/underscore-min.1.9.2.js \
   source/_themes/ukf/static/typeahead.js
 
 build/html/_static/app.js: build/html/_static $(JS_FILES)
