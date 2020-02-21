@@ -58,10 +58,6 @@ yum install --disablerepo='*' --enablerepo=base,remi-php72,remi,epel,updates php
 ```bash
 yum install --disablerepo='*' --enablerepo=base,remi-php73,remi,epel,updates php php-pecl-mcrypt php-pdo php-mysqlnd php-opcache php-xml php-gd php-devel php-mysql php-intl php-mbstring php-bcmath php-json php-iconv php-pecl-redis php-fpm php-zip php-soap php-sodium libsodium composer
 ```
-#### PHP 7.4
-```bash
-yum install --disablerepo='*' --enablerepo=base,remi-php74,remi,epel,updates php php-pecl-mcrypt php-pdo php-mysqlnd php-opcache php-xml php-gd php-devel php-mysql php-intl php-mbstring php-bcmath php-json php-iconv php-pecl-redis php-fpm php-zip php-soap php-sodium libsodium composer
-```
 
 ### Update PHP
 You can perform an update of PHP with the following command depending on the desired version:
@@ -83,11 +79,6 @@ yum update --disablerepo='*' --enablerepo=base,remi-php72,remi,epel,updates 'php
 #### PHP 7.3
 ```bash
 yum update --disablerepo='*' --enablerepo=base,remi-php73,remi,epel,updates 'php-*' 
-```
-
-#### PHP 7.4
-```bash
-yum update --disablerepo='*' --enablerepo=base,remi-php74,remi,epel,updates 'php-*' 
 ```
 
 If any of the following packages are updated as dependences, Nginx will require a restart after updating PHP
@@ -120,7 +111,7 @@ sed -i 's/;opcache.load_comments=0/opcache.load_comments=1/g' /etc/php.d/*opcach
 sed -i 's/;opcache.enable_file_override=0/opcache.enable_file_override=1/g' /etc/php.d/*opcache.ini
 ```
 
-You can find more information on OPcache [here](https://docs.ukfast.co.uk/ecommercestacks/magento/magento2/opcache/opcache.html#stack-opcache-settings)
+You can find more information on OPcache [here](/ecommercestacks/magento/magento2/opcache/opcache.html#stack-opcache-settings)
 
 ### /etc/php.ini Settings
 Review and copy the settings from /root/php_upgrade_backup-$(date +%d_%b_%Y)/php.ini to /etc/php.ini. Alternatively use our standard settings for the php.ini file (You can copy and paste the whole block below into your SSH terminal):
