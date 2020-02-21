@@ -3,8 +3,8 @@ stages:
   - deploy
 
 variables:
-  IMAGE_NAME: ${CI_REGISTRY_IMAGE}/app:${CI_COMMIT_TAG}
-  POPULATOR_IMAGE_NAME: ${CI_REGISTRY_IMAGE}/populator:${CI_COMMIT_TAG}
+  IMAGE_NAME: ${CI_REGISTRY_IMAGE}/app:${CI_COMMIT_SHA}
+  POPULATOR_IMAGE_NAME: ${CI_REGISTRY_IMAGE}/populator:${CI_COMMIT_SHA}
 
 .docker_build:
   stage: build
@@ -12,7 +12,7 @@ variables:
   services:
     - docker:19.03.1-dind
   only:
-    - tags
+    - master
   tags:
     - dind
   before_script:
@@ -30,30 +30,11 @@ build_populator:
     - docker build -t $POPULATOR_IMAGE_NAME -f populator/Dockerfile .
     - docker push $POPULATOR_IMAGE_NAME
 
-deploy_uat:
-  stage: deploy
-  image: $KUSTOMIZE_IMAGE
-  only:
-    - tags
-  tags:
-    - docker
-  script: 
-    - cd .ci/kustomize
-    - kustomize create --resources base
-    - kustomize edit set image appImage=${IMAGE_NAME}
-    - kustomize edit set image populatorImage=${POPULATOR_IMAGE_NAME}
-    - kustomize edit set namespace $NAMESPACE_NAME
-    - kustomize build . | kubectl --kubeconfig=${KUBE_CONFIG_FILE} apply -f -
-    - kustomize build . | kubectl --kubeconfig=${KUBE_CONFIG_FILE} apply --dry-run -f - | grep deployment | awk '{print $1}' | xargs -n1 kubectl --kubeconfig=${KUBE_CONFIG_FILE} -n $NAMESPACE_NAME rollout status -w
-  environment:
-    name: uat
-    url: docs.ukfast.co.uk
-
 deploy_production:
   stage: deploy
   image: $KUSTOMIZE_IMAGE
   only:
-    - tags
+    - master
   tags:
     - docker
   script: 
