@@ -55,6 +55,7 @@ Once the "Citrix Workspace" application is installed, open your web browser and 
 
 Once here, you will see the FASTdesk branding and a log in page with a man on a sofa (Refer to **image 6** below). 
 
+
 ![Image 6 FASTdesk Landing Page](files/Welcome_screen.png "Image 6: FASTdesk Landing Page")
 
 Go ahead and enter the username and password credentials that were provided to you by the FASTdesk team. Upon entering your credentials, you will be asked to change your password (See **image 7**). 
