@@ -1,4 +1,4 @@
- # FASTdesk Getting Started Guide: Apple iOS Edition
+ # Getting Started with FASTdesk: Apple iOS Edition
  
  > Compatible with iPhone 7x models, iPhone 8x models and only iPhone X model. All iPad models (including iPad Pro) are supported except for iPad 1 and iPad 2.  For the most optimum experience, we recommend updating your iOS device to the latest iOS release. 
 
