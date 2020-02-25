@@ -11,7 +11,8 @@ Your RPO is the last point in time that you will be able to failover to. This is
 Your retention period is how long restore points are kept for, which you can use to failover to. This is also defined per replication job, but in the 'Job Settings' section by choosing 'Restore Points to Keep'. The max number of replication restore points is 28 due each of them being stored as a VM snapshot on UKFasts infrastructure. Each snapshot will store the changes made since the last restore point and therefore have the potential to use a considerable amount of your storage at UKFast depending on your rate of data change. The retention period is the number of restore points x your schedule frequency. 
 
 ```
-#### Retention Period Example  
+Retention Period Example 
+
 If you have a job that has 7 restore points and runs once an hour, the retention period would be 7 x 1 hour = 7 hour retention.
 ```
 
@@ -24,7 +25,8 @@ The size of VMs and how much data change that occurs on them is important to tak
 Running off the back of the rentention periods and data change for VMs is the storage required at UKFast for replication Jobs. The more restore points and the longer retention you have, coupled with the amount of data change, the more storage you will use out of your Cloud Connect quota.
 
 ```
-#### Storage Utilisation Example  
+Storage Utilisation Example  
+
 Continuing with the previous example where there is a VM with 7 restore points and runs once an hour. Lets say this VM is 1000GB in size and has a data change of 10GB per hour. Each restore point on that VM would be saved as a 10GB Snapshot on UKFast's Infrastructure and therefore take 1070GB of your storage quota.  
 ```
 
