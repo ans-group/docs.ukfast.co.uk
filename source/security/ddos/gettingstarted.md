@@ -17,7 +17,7 @@ You'll need to do this through whichever domain registrar you use to manage your
 
 ## Set up CNAME:
 
-To set up CNAME read our [documentation in the FAQ's](https://docs.ukfast.co.uk/security/ddos/generalinformation.html). Please note that in order to protect your root domain, for example UKFast.co.uk, you must first check that your DNS provider will support root level forwarding such as; an ALIAS or ANAME. If your DNS provider does not support this we cannot protect the root domain. The root domain will also not be protected by WAF or able to serve CDN. However, for example,  www.ukfast.co.uk  and all subdomains will be fully protected. For more information read our documentation.
+To set up CNAME read our [documentation in the FAQ's](/security/ddos/generalinformation.html). Please note that in order to protect your root domain, for example UKFast.co.uk, you must first check that your DNS provider will support root level forwarding such as; an ALIAS or ANAME. If your DNS provider does not support this we cannot protect the root domain. The root domain will also not be protected by WAF or able to serve CDN. However, for example,  www.ukfast.co.uk  and all subdomains will be fully protected. For more information read our documentation.
 
 
 ```eval_rst

@@ -17,6 +17,7 @@ Basics
    iptables
    navigation
    network-diagnostics
+   nload
    packageupdates
    rebooting
    services_centos6
