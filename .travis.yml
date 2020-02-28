@@ -7,7 +7,7 @@ install:
 - pip install Sphinx
 - pip install recommonmark
 script:
-#- ./tests.sh
+- ./tests.sh
 - sphinx-build -n -b html -d build/doctrees source/ build/html
 - make build/html/_static/css/app.css
 - make build/html/_static/app.js
