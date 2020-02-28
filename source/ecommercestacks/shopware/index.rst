@@ -26,6 +26,8 @@ We have a number of guides for our Shopware optimised stack:
    redis/index
    varnish/index
    
+Find out more about our Shopware hosting offerings here: https://www.ukfast.co.uk/shopware-optimised-hosting.html
+   
 .. meta::
    :title: Shopware Optimised Stack | UKFast Documentation
    :description: guides relating to UKFast Shopware Optimised Stack
