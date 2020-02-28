@@ -1,9 +1,16 @@
- # FASTdesk Getting Started Guide: Apple iOS Edition
+
+ # Getting Started with FASTdesk: Apple iOS Edition
+ 
+ > Compatible with iPhone 7x models, iPhone 8x models and only iPhone X model. All iPad models (including iPad Pro) are supported except for iPad 1 and iPad 2. For the most optimum experience, we recommend updating your iOS device to the latest iOS release. 
 
 FASTdesk®  is UKFast’s Desktop as a Service (DaaS) solution, which allows users and organisations to work more effectively and securely by giving access to files, applications, and desktop items remotely via an internet connection. All desktop settings and files are stored remotely in the cloud, providing cross-device compatibility and eliminating the risk of data loss by removing the risk of unauthorised access. This DaaS solution allows users to work in the same way they would with a traditional local desktop, but increase the flexibility with which they do so regardless of the endpoint device hardware, operating system or form factor.
-Pre-Installation information
 
-This guide provides step by step instructions on installing and accessing FASTdesk on your Apple iOS devices through the Citrix Workspace application. The Application runs on devices such as iPhone X, iPad mini and iPad Pro. It is possible to access FASTdesk through the web portal on your iOS device, however, it is recommended FASTdesk is accessed specifically through the Citrix Workspace Application. The Citrix Workspace application gives you instant access to your FASTdesk environment in an easy-to-use, all-in-one interface. The Workspace application also fully integrated with the Citrix Content Collaboration (Also known as ShareFile) which gives you ability to upload and download files all within the one application. If you currently use the older Citrix Receiver for iOS, Citrix Workspace will replace this. The Citrix Workspace app for Android supports iPhone 7x models, iPhone 8x models and only iPhone X model. All iPad models (including iPad Pro) are supported except for iPad 1 and iPad 2.  For the most optimum experience, we recommend updating your iOS device to the latest iOS release. 
+## Pre-Installation information
+
+This guide provides step by step instructions on installing and accessing FASTdesk on your Apple iOS devices through the Citrix Workspace application. It is possible to access FASTdesk through the web portal on your iOS device, however, it is recommended FASTdesk is accessed specifically through the Citrix Workspace Application. If you currently use the older Citrix Receiver for iOS, Citrix Workspace will replace this.  The Citrix Workspace application gives you:
+
+- Instant access to your FASTdesk environment in an easy-to-use, all-in-one interface. 
+- Full integration with the Citrix Content Collaboration (Also known as ShareFile) which gives you ability to upload and download files all within the one application. 
 
 ## Step 1 - Installation
 
@@ -17,6 +24,7 @@ On your iOS device, navigate to and open the App Store. Once complete, use the a
 Once the "Citrix Workspace" application is installed, it will appear within your apps just like in **_image 2 below_**.
 
 ![Image 2: Citrix Workspace App installed](files/onceinstalledios.png "Image 2: Citrix Workspace App installed")
+
 
 Proceed to open it. After launching Citrix Workspace for the first time, it will bring you to the landing page like in **_image 3 below_**. 
 
@@ -48,9 +56,9 @@ Once selected, it should begin to launch your desktop. Once this has booted, you
 
 ![Image 8: Client Desktop Demo Fully Loaded](files/loadedios.png "Image 8: Client Desktop Demo Fully Loaded")
 
-### Warning
 
-Whenever you log out of a desktop, do allow at least 3 minutes before attempting to log back in. This is to ensure the session correctly ends before another one is open. If you have not waited long enough, there is a danger of your applications not appearing when you log in. If you do find that this is the case, simply log out, wait at least 3 minutes and log back in again.
+> [!IMPORTANT]
+> Whenever you log out of a desktop, do allow at least 3 minutes before attempting to log back in. This is to ensure the session correctly ends before another one is open. If you have not waited long enough, there is a danger of your applications not appearing when you log in. If you do find that this is the case, simply log out, wait at least 3 minutes and log back in again.
 
 **_This instruction guide should assist you getting logged in for the first time. If you have any questions or still require assistance, please contact the FASTdesk support team on 0800 923 0617_**.
 

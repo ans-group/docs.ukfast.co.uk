@@ -1,10 +1,19 @@
-# FASTdesk Getting Started Guide: Android Edition
+
+# Getting Started with FASTdesk: Android Edition
+
+> Compatible with Nougat (Android 7.x), Oreo (Android 8.x) and Pie (Android 9.x).For the most optimum experience, we recommend updating your Android device to the latest Android Software.
 
 FASTdesk® is UKFast’s Desktop as a Service (DaaS) solution, which allows users and organisations to work more effectively and securely by giving access to files, applications, and desktop items remotely via an internet connection. All desktop settings and files are stored remotely in the cloud, providing cross-device compatibility and eliminating the risk of data loss by removing the risk of unauthorised access. This DaaS solution allows users to work in the same way they would with a traditional local desktop, but increase the flexibility with which they do so regardless of the endpoint device hardware, operating system or form factor.
 
 ## Pre-Installation information
 
-This guide provides step by step instructions on installing and accessing FASTdesk on your Android device through the Citrix Workspace application. It is possible to access FASTdesk through the web portal on your Android device, however, it is recommended FASTdesk is accessed specifically through the Citrix Workspace Application. The Citrix Workspace application gives you instant access to your FASTdesk environment in an easy-to-use, all-in-one interface. The Workspace application also fully integrated with the Citrix Content Collaboration (Also known as ShareFile) which gives you ability to upload and download files all within the one application. If you currently use the older Citrix Receiver for Android, Citrix Workspace will replace this. The Citrix Workspace app for Android supports Nougat (Android 7.x), Oreo (Android 8.x) and Pie (Android 9.x). For the most optimum experience, we recommend updating your Android device to the latest Android Software. If your Android device has insufficient storage, it is possible to install the Citrix Workspace App for Android on an external SD card and mount it on the local device (For more information on this, please contact the FASTdesk Team).
+
+This guide provides step by step instructions on installing and accessing FASTdesk on your Android device through the Citrix Workspace application. It is possible to access FASTdesk through the web portal on your Android device, however, it is recommended FASTdesk is accessed specifically through the Citrix Workspace Application. The Citrix Workspace application gives you:
+
+- Instant access to your FASTdesk environment in an easy-to-use, all-in-one interface. 
+- The Workspace application also fully integrated with the Citrix Content Collaboration (Also known as ShareFile) which gives you ability to upload and download files all within the one application. 
+
+If you currently use the older Citrix Receiver for Android, Citrix Workspace will replace this. If your Android device has insufficient storage, it is possible to install the Citrix Workspace App for Android on an external SD card and mount it on the local device (For more information on this, please contact the FASTdesk Team).
  
 ## Step 1 - Installation
 
@@ -60,6 +69,10 @@ Upon loading, the gestures manual should appear giving you details on how to int
 
 ![Image 12:  Instructions on interacting with the desktop](files/desktop_set_up.png "Image 12: Instructions on interacting with the desktop")
 
+Upon loading, the gestures manual should appear giving you details on how to interact with your desktop (see **_image 12_** below).
+
+![Image 12:  Instructions on interacting with the desktop](files/desktop_set_up.png "Image 12: Instructions on interacting with the desktop")
+
 Click anywhere on the screen to close this manual and access the desktop (See **_image 13_**).
 
 ![Image 13:  Your fully loaded desktop](files/Desktopsloaded.png "Image 13: Your fully loaded desktop")
@@ -68,16 +81,12 @@ Begin navigating your desktop following the instructions that were provided with
 
 You can later set the desktop that has been allocated to you as a "Favorite". This will allow it to appear as soon as you log in.
 
-### Warning 
-
-Whenever you log out of a desktop, do allow at least 3 minutes before attempting to log back in. This is to ensure the session correctly ends before another one is open. If you have not waited long enough, there is a danger of your applications not appearing when you log in. If you do find that this is the case, simply log out, wait at least 3 minutes and log back in again.
+> [!IMPORTANT]
+> Whenever you log out of a desktop, do allow at least 3 minutes before attempting to log back in. This is to ensure the session correctly ends before another one is open. If you have not waited long enough, there is a danger of your applications not appearing when you log in. If you do find that this is the case, simply log out, wait at least 3 minutes and log back in again.
 
 **_This instruction guide should assist you getting logged in for the first time. If you have any questions or still require assistance, please contact the FASTdesk support team on 0800 923 0617_**.
 
-
-CitrixWorkspaceDesktop CitrixWorkspaceDesktopAndroid
-
-
+   ```eval_rst
   .. meta::
      :title: FASTdesk Getting Started Guide: Apple iOS | UKFast Documentation
      :description: Guide for users on how to get setup on FASTdesk using an Android Device
