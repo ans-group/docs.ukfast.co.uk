@@ -1,5 +1,5 @@
 =======
-Getting Started
+Getting Started Guides
 =======
 
 A step-by-by guide for FASTdesk covering installation, configuration and more.
