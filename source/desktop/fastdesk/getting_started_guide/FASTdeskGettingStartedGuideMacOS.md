@@ -1,5 +1,4 @@
 # Getting Started with FASTdesk : Apple MacOS Edition
-
 > Compatible with MacOS Catalina, MacOS Mojave and MacOS High Sierra. 
 
 FASTdesk®  is UKFast’s Desktop as a Service (DaaS) solution, which allows users and organisations to work more effectively and securely by giving access to files, applications, and desktop items remotely via an internet connection. All desktop settings and files are stored remotely in the cloud, providing cross-device compatibility and eliminating the risk of data loss by removing the risk of unauthorised access. This DaaS solution allows users to work in the same way they would with a traditional local desktop, but increase the flexibility with which they do so regardless of the endpoint device hardware, operating system or form factor.
@@ -7,7 +6,7 @@ FASTdesk®  is UKFast’s Desktop as a Service (DaaS) solution, which allows use
 ## Pre-Installation information
 
 
-This guide provides step by step instructions on installing and accessing FASTdesk on your Apple MacOS device. Day-to-day, there are two available methods to access FASTdesk on your  Apple MacOS device. TThese methods consist of the [web portal](https://www.fastdesk.co.uk/) and the Citrix Workspace Application. Whilst this guide will help you install the Citrix Workspace Application in order to access FASTdesk for the first time, we highly recommend using the web portal to access FASTdesk on a day-to-day basis. 
+This guide provides step by step instructions on installing and accessing FASTdesk on your Apple MacOS device. Day-to-day, there are two available methods to access FASTdesk on your  Apple MacOS device. These methods consist of the [web portal](https://www.fastdesk.co.uk/) and the Citrix Workspace Application. Whilst this guide will help you install the Citrix Workspace Application in order to access FASTdesk for the first time, we highly recommend using the web portal to access FASTdesk on a day-to-day basis. 
 
 Both the Citrix Workspace application and web portal gives you:
 
@@ -15,10 +14,10 @@ Both the Citrix Workspace application and web portal gives you:
 - Ability to use the FASTdesk on domain and non-domain joined PCs and thin clients. 
 - Full integration with the Citrix Content Collaboration (Also known as ShareFile) which gives you the ability to upload and download files all in one place.
 
-## Step 1 - Installation
+## Step 1 -  Installing the Citrix Workspace Application
 
 From your macOS device, download and install the latest version of the Citrix Workspace app at this URL:
-https://www.citrix.co.uk/downloads/workspace-app/
+https://www.citrix.co.uk/downloads/workspace-app/. Alternatively, you can click this [link here](https://www.citrix.co.uk/downloads/workspace-app/) to take you to the website.
 
 As you can see from the **image 1** below, all versions of Workspace are listed. 
 
@@ -37,9 +36,7 @@ Next, the "Citrix Workspace Installer" will open (Refer to the image included). 
 ## Step 2 - Logging into the FASTdesk Portal
 
 Once the "Citrix Workspace" application is installed, open your web browser and navigate to the Following URL:
-"https://www.fastdesk.co.uk". Alternatively, you can simply click the link below. In terms of web browsers, the web portal is compatible with Safari (7.0 or later), Mozilla Firefox (22.x and later) and Google Chrome (28.x and later)
-
-[FASTdesk URL](https://www.fastdesk.co.uk "FASTdesk Landing Page")
+"https://www.fastdesk.co.uk". Alternatively, you can simply click the [link here](https://www.fastdesk.co.uk) to take you to the website. In terms of web browsers, the web portal is compatible with Safari (7.0 or later), Mozilla Firefox (22.x and later) and Google Chrome (28.x and later)
 
 Once here, you will see the FASTdesk landing and log in page with a man on the sofa (Refer to **image 4** below).
 
@@ -92,7 +89,9 @@ Simply type the following URL "https://www.fastdesk.co.uk" and click Add. You wi
 
 Go ahead and enter the username and password credentials that were provided to you by the FASTdesk team. To continue setup, refer to step 2 and follow the guide.
 
-> [!IMPORTANT]
+> [IMPORTANT]
+
+
 > Whenever you log out of a desktop, do allow at least 3 minutes before attempting to log back in. This is to ensure the session correctly ends before another one is open. If you have not waited long enough, there is a danger of your applications not appearing when you log in. If you do find that this is the case, simply log out, wait at least 3 minutes and log back in again.
 
 **_This instruction guide should assist you in getting logged in for the first time. If you have any questions or still require assistance, please contact the FASTdesk support team on 0800 923 0617._**
