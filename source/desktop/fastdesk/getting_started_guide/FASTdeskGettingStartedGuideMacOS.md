@@ -6,7 +6,7 @@ FASTdesk®  is UKFast’s Desktop as a Service (DaaS) solution, which allows use
 ## Pre-Installation information
 
 
-This guide provides step by step instructions on installing and accessing FASTdesk on your Apple MacOS device. Day-to-day, there are two available methods to access FASTdesk on your  Apple MacOS device. TThese methods consist of the [web portal](https://www.fastdesk.co.uk/) and the Citrix Workspace Application. Whilst this guide will help you install the Citrix Workspace Application in order to access FASTdesk for the first time, we highly recommend using the web portal to access FASTdesk on a day-to-day basis. 
+This guide provides step by step instructions on installing and accessing FASTdesk on your Apple MacOS device. Day-to-day, there are two available methods to access FASTdesk on your  Apple MacOS device. These methods consist of the [web portal](https://www.fastdesk.co.uk/) and the Citrix Workspace Application. Whilst this guide will help you install the Citrix Workspace Application in order to access FASTdesk for the first time, we highly recommend using the web portal to access FASTdesk on a day-to-day basis. 
 
 Both the Citrix Workspace application and web portal gives you:
 
