@@ -2,7 +2,7 @@
 Getting Started Guides
 =======
 
-A step-by-by guide for FASTdesk covering installation, configuration and more.
+A step-by-by guide for FASTdesk covering installation and configuration for first time use.
 
 .. toctree::
    :maxdepth: 1
