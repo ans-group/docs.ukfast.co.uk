@@ -7,9 +7,7 @@ A step-by-by guide for FASTdesk covering installation and configuration for firs
 .. toctree::
    :maxdepth: 1
 
-   FASTdeskGettingStartedGuideWindows/index
-   FASTdeskGettingStartedGuideMacOS/index
-   FASTdeskGettingStartedGuideiOS/index
-   FASTdeskGettingStartedGuideAndroid/index
-   
-
+   FASTdeskGettingStartedGuideWindows.md
+   FASTdeskGettingStartedGuideMacOS.md
+   FASTdeskGettingStartedGuideiOS.md
+   FASTdeskGettingStartedGuideAndroid.md
