@@ -20,7 +20,7 @@ Getting Started Guides
    :maxdepth: 1
 
  getting_started_guide/index
- 
+
 .. meta::
    :title: FASTdesk - hosted desktops | UKFast Documentation
    :description: Information relating to FASTdesk, a hosted desktop solution from UKFast
