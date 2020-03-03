@@ -1,5 +1,11 @@
 # Getting Started with FASTdesk: Apple MacOS Edition
-> Compatible with MacOS Catalina, MacOS Mojave and MacOS High Sierra. 
+
+```eval_rst
+.. note::
+
+   Compatible with MacOS Catalina, MacOS Mojave and MacOS High Sierra.
+   
+```
 
 FASTdesk®  is UKFast’s Desktop as a Service (DaaS) solution, which allows users and organisations to work more effectively and securely by giving access to files, applications, and desktop items remotely via an internet connection. All desktop settings and files are stored remotely in the cloud, providing cross-device compatibility and eliminating the risk of data loss by removing the risk of unauthorised access. This DaaS solution allows users to work in the same way they would with a traditional local desktop, but increase the flexibility with which they do so regardless of the endpoint device hardware, operating system or form factor.
 
@@ -17,7 +23,7 @@ Both the Citrix Workspace application and web portal gives you:
 ## Step 1 -  Installing the Citrix Workspace Application
 
 From your macOS device, download and install the latest version of the Citrix Workspace app at this URL:
-https://www.citrix.co.uk/downloads/workspace-app/. Alternatively, you can click this [link here](https://www.citrix.co.uk/downloads/workspace-app/) to take you to the website.
+`https://www.citrix.co.uk/downloads/workspace-app/`. Alternatively, you can click this [link here](https://www.citrix.co.uk/downloads/workspace-app/) to take you to the website.
 
 As you can see from the **image 1** below, all versions of Workspace are listed. 
 
@@ -36,7 +42,7 @@ Next, the "Citrix Workspace Installer" will open (Refer to the image included). 
 ## Step 2 - Logging into the FASTdesk Portal
 
 Once the "Citrix Workspace" application is installed, open your web browser and navigate to the Following URL:
-"https://www.fastdesk.co.uk". Alternatively, you can simply click the [link here](https://www.fastdesk.co.uk) to take you to the website. In terms of web browsers, the web portal is compatible with Safari (7.0 or later), Mozilla Firefox (22.x and later) and Google Chrome (28.x and later)
+`"https://www.fastdesk.co.uk"`. Alternatively, you can simply click the [link here](https://www.fastdesk.co.uk) to take you to the website. In terms of web browsers, the web portal is compatible with Safari (7.0 or later), Mozilla Firefox (22.x and later) and Google Chrome (28.x and later)
 
 Once here, you will see the FASTdesk landing and log in page with a man on the sofa (Refer to **image 4** below).
 
@@ -47,7 +53,12 @@ Go ahead and enter the username and password credentials that were provided to y
 
 ![Image 5: macOS FASTdesk reset password](files/reset_password.PNG "Image 5: macOS FASTdesk reset password")
 
-Your new password must be a minimum of 8 characters in length and contain at least 3 of the following: uppercase letters, lowercase letters, numbers, symbols and special characters e.g “! ” £”. Your password can also not contain the name of your account. For example, if your account name is John Smith, a password with the word ‘john’ will not be accepted. Once your password has been reset, it should simply log you in. It may ask you to dectect receiver, if so, simply select the option that allows it to detect the receiver. 
+```eval_rst
+.. note::
+
+   Your new password must be a minimum of 8 characters in length and contain at least 3 of the following: uppercase letters, lowercase letters, numbers, symbols and special characters e.g “! ” £”. Your password can also not contain the name of your account. For example, if your account name is John Smith, a password with the word ‘john’ will not be accepted. Once your password has been reset, it should simply log you in. It may ask you to dectect receiver, if so, simply select the option that allows it to detect the receiver.
+   
+```
 
 ## Step 3 - Launching a desktop from the Portal
 
@@ -83,16 +94,18 @@ Although it is recommended you access FASTdesk through the URL, you can also acc
 
 ![Image 12 Add an account](files/Enter_Store_URL.PNG "Image 12: Add an account")
 
-Simply type the following URL "https://www.fastdesk.co.uk" and click Add. You will then be prompted to enter your username and password into the application. See **image 13**. 
+Simply type the following URL `"https://www.fastdesk.co.uk"` and click Add. You will then be prompted to enter your username and password into the application. See **image 13**. 
 
 ![Image 13 Enter credentials](files/workspace_log_in2.PNG "Image 13: Enter Credentials")
 
 Go ahead and enter the username and password credentials that were provided to you by the FASTdesk team. To continue setup, refer to step 2 and follow the guide.
 
-> [IMPORTANT]
+```eval_rst
+.. warning::
 
-
-> Whenever you log out of a desktop, do allow at least 3 minutes before attempting to log back in. This is to ensure the session correctly ends before another one is open. If you have not waited long enough, there is a danger of your applications not appearing when you log in. If you do find that this is the case, simply log out, wait at least 3 minutes and log back in again.
+   Whenever you log out of a desktop, do allow at least 3 minutes before attempting to log back in. This is to ensure the session correctly ends before another one is open. If you have not waited long enough, there is a danger of your applications not appearing when you log in. If you do find that this is the case, simply log out, wait at least 3 minutes and log back in again.
+   
+```
 
 **_This instruction guide should assist you in getting logged in for the first time. If you have any questions or still require assistance, please contact the FASTdesk support team on 0800 923 0617._**
 
