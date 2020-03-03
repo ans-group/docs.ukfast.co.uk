@@ -8,9 +8,7 @@ Find out more about FASTdesk and how it can help increase the flexibility in the
 
  [What is FASTdesk?](https://www.ukfast.co.uk/fastdesk.html)
  
- 
  [Where is FASTdesk?](https://www.ukfast.co.uk/our-datacentres.html)
- 
  
  [What compliance certifications does FASTdesk meet?](https://www.ukfast.co.uk/certifications.html)
  
