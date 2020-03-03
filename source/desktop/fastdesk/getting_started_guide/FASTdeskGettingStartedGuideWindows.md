@@ -96,7 +96,7 @@ Although it is recommended you access FASTdesk through the URL, you can also acc
 
 ![Image 13 Add an account](files/addaccountworkspace.png "Image 13: Add an account")
 
-Simply type the following URL "https://www.fastdesk.co.uk" and click Add. Alternatively, enter the URL that has been provided to you by the FASTdesk team if you have a private fastdesk. You will then be prompted to enter your username and password into the application. See **image 14.**
+Simply type the following URL `"https://www.fastdesk.co.uk"` and click Add. Alternatively, enter the URL that has been provided to you by the FASTdesk team if you have a private fastdesk. You will then be prompted to enter your username and password into the application. See **image 14.**
 
 ![Image 14 Enter credentials](files/entercredsapp.PNG "Image 14: Enter Credentials")
 
