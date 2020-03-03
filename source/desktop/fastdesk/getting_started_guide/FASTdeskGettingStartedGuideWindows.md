@@ -21,13 +21,13 @@ To install the Citrix Workspace Application on the local machine, there is a min
 - Microsoft Visual C++ Redistributable 14.16.27012.6 or later (requires admin access). 
 
 These pre-requisites are normally installed with Windows updates so if your version of Windows is up to date, you should not have to install these. Alternatively, the Citrix Workspace application also attempts to install them during intallation. **(See Step 1)**. If none of these steps result in the installation of the pre-requisites, please visit the Citrix help page at:
-https://support.citrix.com/article/CTX250044?_ga=2.101236417.1997404425.1578506907-124105596.1573051453. Alternatively, you can click this [link here](https://support.citrix.com/article/CTX250044?_ga=2.101236417.1997404425.1578506907-124105596.1573051453) to take you to the website.
+`https://support.citrix.com/article/CTX250044?_ga=2.101236417.1997404425.1578506907-124105596.1573051453`. Alternatively, you can click this [link here](https://support.citrix.com/article/CTX250044?_ga=2.101236417.1997404425.1578506907-124105596.1573051453) to take you to the website.
 
 
 ## Step 1 - Installing the Citrix Workspace Application
 
 From your Windows PC, download and install the latest version of the Citrix Workspace app at this URL:
-https://www.citrix.co.uk/downloads/workspace-app/. Alternatively, you can click this [link here](https://www.citrix.co.uk/downloads/workspace-app/) to take you to the website.
+`https://www.citrix.co.uk/downloads/workspace-app/`. Alternatively, you can click this [link here](https://www.citrix.co.uk/downloads/workspace-app/) to take you to the website.
 
 
 As you can see from the **image 1** below, all versions of Workspace are listed. 
@@ -50,7 +50,7 @@ Follow the installation dialog box to finish with the installation of the worksp
 
 ## Step 2 - Logging into the FASTdesk Portal
 
-Once the "Citrix Workspace" application is installed, open your web browser and navigate to the Following URL “https://www.fastdesk.co.uk”. On this step, it is vital that you enter the full URL including the "www". Alternatively, you can click this [link here](https://www.fastdesk.co.uk) to take you to the website. In terms of browsers, the web portal is compatible with the latest versions of Google Chrome, Mozilla Firefox, Microsoft Edge and Internet Explorer.
+Once the "Citrix Workspace" application is installed, open your web browser and navigate to the Following URL `“https://www.fastdesk.co.uk”`. On this step, it is vital that you enter the full URL including the "www". Alternatively, you can click this [link here](https://www.fastdesk.co.uk) to take you to the website. In terms of browsers, the web portal is compatible with the latest versions of Google Chrome, Mozilla Firefox, Microsoft Edge and Internet Explorer.
 
 ![Image 5: FASTdesk URL](files/Url.png "Image 5: FASTdesk URL")
 
@@ -100,11 +100,12 @@ Simply type the following URL "https://www.fastdesk.co.uk" and click Add. Altern
 
 ![Image 14 Enter credentials](files/entercredsapp.PNG "Image 14: Enter Credentials")
 
-> [IMPORTANT]
+```eval_rst
+.. note::
 
+ Whenever you log out of a desktop, do allow at least 3 minutes before attempting to log back in. This is to ensure the session correctly ends before another one is open. If you have not waited long enough, there is a danger of your applications not appearing when you log in. If you do find that this is the case, simply log out, wait at least 3 minutes and log back in again.
 
-> Whenever you log out of a desktop, do allow at least 3 minutes before attempting to log back in. This is to ensure the session correctly ends before another one is open. If you have not waited long enough, there is a danger of your applications not appearing when you log in. If you do find that this is the case, simply log out, wait at least 3 minutes and log back in again.
-
+```
 
 **_This instruction guide should assist you getting logged in for the first time. If you have any questions or still require assistance, please contact the FASTdesk support team on 0800 923 0617_**.
 
