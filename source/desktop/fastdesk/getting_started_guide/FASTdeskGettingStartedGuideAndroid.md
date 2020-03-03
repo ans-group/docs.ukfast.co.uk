@@ -1,6 +1,5 @@
-=============================================
-Getting Started with FASTdesk: Android Edition
-=============================================
+# Getting Started with FASTdesk: Android Edition
+
 > Compatible with Nougat (Android 7.x), Oreo (Android 8.x) and Pie (Android 9.x).For the most optimum experience, we recommend updating your Android device to the latest Android Software.
 
 
