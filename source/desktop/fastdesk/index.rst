@@ -7,6 +7,8 @@ FASTdesk is our desktop as a service (DaaS) solution, based on our award-winning
 Find out more about FASTdesk and how it can help increase the flexibility in the way users work. Inside you will find the getting started guide as well as other resources that will enable you to begin your FASTdesk experience.
 
  [What is FASTdesk?](https://www.ukfast.co.uk/fastdesk.html)
+ 
+ 
  [Where is FASTdesk?](https://www.ukfast.co.uk/our-datacentres.html)
  [What compliance certifications does FASTdesk meet?](https://www.ukfast.co.uk/certifications.html)
  [How can I partner with FASTdesk?](https://www.ukfast.co.uk/partner-programme-reseller-application.html)
