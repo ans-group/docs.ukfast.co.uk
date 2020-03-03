@@ -1,7 +1,8 @@
 # Getting Started with FASTdesk: Android Edition
 
-> Compatible with Nougat (Android 7.x), Oreo (Android 8.x) and Pie (Android 9.x).For the most optimum experience, we recommend updating your Android device to the latest Android Software.
-
+```console
+  Compatible with Nougat (Android 7.x), Oreo (Android 8.x) and Pie (Android 9.x).For the most optimum experience, we recommend updating your Android device to the latest Android Software.
+```
 
 FASTdesk® is UKFast’s Desktop as a Service (DaaS) solution, which allows users and organisations to work more effectively and securely by giving access to files, applications, and desktop items remotely via an internet connection. All desktop settings and files are stored remotely in the cloud, providing cross-device compatibility and eliminating the risk of data loss by removing the risk of unauthorised access. This DaaS solution allows users to work in the same way they would with a traditional local desktop, but increase the flexibility with which they do so regardless of the endpoint device hardware, operating system or form factor.
 
@@ -34,7 +35,7 @@ After launching Citrix Workspace for the first time, you will receive four notif
 
 ![Image 4: Citrix Workspace asking for read permissions.](files/permisions1.png "Image 4: Citrix Workspace asking for read permissions.")
 
-Once finished, you will be prompted to enter a company email address or store URL. Simply type the following URL “https://www.fastdesk.co.uk” and click Continue. Do make sure you enter the full URL including the "https://www." Please leave the "Add account type as Web Interface" unselected (Refer to **_image 5 below_** included).
+Once finished, you will be prompted to enter a company email address or store URL. Simply type the following URL `“https://www.fastdesk.co.uk” and click Continue`. Do make sure you enter the full URL including the `"https://www."`. Please leave the "Add account type as Web Interface" unselected (Refer to **_image 5 below_** included).
 
 ![Image 5: Entering FASTdesk Store URL](files/Enterservercreds.png "Image 5: Entering FASTdesk Store URL")
 
@@ -46,7 +47,12 @@ You will then be prompted to enter your username and password into the applicati
 
 ![Image 7: Enter your credentials](files/entercreds.png "Image 7: Enter your credentials")
 
-Once successfully logged in for the first time, you will be asked to change your password. Your password must be a minimum of 8 characters in length and contain at least 3 of the following: uppercase letters, lowercase letters, numbers, symbols and special characters e.g “! ” £”. Your password can also not contain the name of your account. For example, if your account name is John Smith, a password with the word ‘john’ will not be accepted.
+```eval_rst
+.. note::
+
+   Once successfully logged in for the first time, you will be asked to change your password. Your password must be a minimum of 8 characters in length and contain at least 3 of the following: uppercase letters, lowercase letters, numbers, symbols and special characters e.g “! ” £”. Your password can also not contain the name of your account. For example, if your account name is John Smith, a password with the word ‘john’ will not be accepted.
+
+```
 
 ## Step 3 - Launching a desktop from the Portal
 When you first log in, you will notice there is nothing to click except the menu button in the left top corner of the screen and the search button in the top right corner of the screen(refer to **_image 8_** below). 
@@ -81,10 +87,12 @@ Begin navigating your desktop following the instructions that were provided with
 
 You can later set the desktop that has been allocated to you as a "Favorite". This will allow it to appear as soon as you log in.
 
-> [IMPORTANT]
+```eval_rst
+.. note::
 
+   Whenever you log out of a desktop, do allow at least 3 minutes before attempting to log back in. This is to ensure the session correctly ends before another one is open. If you have not waited long enough, there is a danger of your applications not appearing when you log in. If you do find that this is the case, simply log out, wait at least 3 minutes and log back in again.
 
-> Whenever you log out of a desktop, do allow at least 3 minutes before attempting to log back in. This is to ensure the session correctly ends before another one is open. If you have not waited long enough, there is a danger of your applications not appearing when you log in. If you do find that this is the case, simply log out, wait at least 3 minutes and log back in again.
+```
 
 **_This instruction guide should assist you getting logged in for the first time. If you have any questions or still require assistance, please contact the FASTdesk support team on 0800 923 0617_**.
 
