@@ -14,7 +14,6 @@ Find out more about FASTdesk and how it can help increase the flexibility in the
  
  [What compliance certifications does FASTdesk meet?](https://www.ukfast.co.uk/certifications.html)
  
- 
  [How can I partner with FASTdesk?](https://www.ukfast.co.uk/partner-programme-reseller-application.html)
 
 
