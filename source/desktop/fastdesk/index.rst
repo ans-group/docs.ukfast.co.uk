@@ -20,7 +20,10 @@ Getting Started Guides
 
 .. toctree::
 
- getting_started_guide/index
+   FASTdeskGettingStartedGuideWindows.md
+   FASTdeskGettingStartedGuideMacOS.md
+   FASTdeskGettingStartedGuideiOS.md
+   FASTdeskGettingStartedGuideAndroid.md
 
 .. meta::
    :title: FASTdesk - hosted desktops | UKFast Documentation
