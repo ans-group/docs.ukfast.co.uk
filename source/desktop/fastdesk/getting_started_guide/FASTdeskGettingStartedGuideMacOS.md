@@ -3,7 +3,7 @@
 ```eval_rst
 .. note::
 
-   Compatible with MacOS Catalina, MacOS Mojave and MacOS High Sierra.
+    Compatible with MacOS Catalina, MacOS Mojave and MacOS High Sierra.
    
 ```
 
