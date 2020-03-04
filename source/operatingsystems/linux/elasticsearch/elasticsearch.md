@@ -7,7 +7,7 @@ You first need to install Java which is required by Elasticsearch
 ```bash
 ~]# yum install java
 ```
-#### Elasticsearch Repoistory Setup
+#### Elasticsearch Repository Setup
 Create a file called elasticsearch.repo in the /etc/yum.repos.d/ directory
 
 ```bash
