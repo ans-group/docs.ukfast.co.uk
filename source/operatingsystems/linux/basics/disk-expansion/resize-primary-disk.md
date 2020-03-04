@@ -35,7 +35,7 @@ Firstly we need to rescan the SCSI hosts to detect changes in disk size.
 [root@ssh ~]# for i in /sys/class/scsi_device/*/device/rescan; do echo "1" > $i; done
 ```
 
-## Extend and existing partition
+## Extend an existing partition
 
 For disks that have been extended using the eCloud control panel, you will use the `growpart` command to extend the last partition.
 
