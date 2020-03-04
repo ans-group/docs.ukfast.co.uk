@@ -36,6 +36,23 @@ You can enable Varnish on boot after installing it with this command:
 ~]# systemctl enable varnish
 ```
 
+### Version Check
+
+You can see the version of Varnish installed with the following command:
+```bash
+~]# varnishd -V
+varnishd (varnish-4.1.11 revision 61367ed17d08a9ef80a2d42dc84caef79cdeee7a)
+Copyright (c) 2006 Verdens Gang AS
+Copyright (c) 2006-2019 Varnish Software AS
+```
+
+### DAEMON_OPTS
+DAEMON_OPTS can be defined in the /etc/varnish/varnish.params file. Here is an example that we use:
+
+```bash
+DAEMON_OPTS=" -p http_req_hdr_len=12000 -p http_resp_hdr_len=12000 -p thread_pool_min=100 -p thread_pool_max=3000 -p timeout_linger=0.1 -p pipe_timeout=600"
+```
+
 ### Memory Limit
 The default memory limit in Varnish is 256M. You may want to increase this, especially if you are using Varnish for Full Page Cache. You can do this by changing the value under VARNISH_STORAGE in the file /etc/varnish/varnish.params.
 
@@ -148,15 +165,6 @@ Static files are not cached by default in the Magento generated VCL. This is due
   #unset req.http.Cookie;
 ```
 The Varnish service needs to be reloaded in order for this to take effect.
-
-### Version Check
-You can see the version of Varnish installed with the following command:
-```bash
-~]# varnishd -V
-varnishd (varnish-4.1.11 revision 61367ed17d08a9ef80a2d42dc84caef79cdeee7a)
-Copyright (c) 2006 Verdens Gang AS
-Copyright (c) 2006-2019 Varnish Software AS
-```
 
 ### HIT/MISS Headers
 To test the caching of URLs in Varnish while Magento 2 is in producion mode you can add HIT/MISS headers to the VCL. Edit the vcl_deliver section in /etc/varnish/default.vcl and add the following:
