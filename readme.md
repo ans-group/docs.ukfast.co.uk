@@ -38,3 +38,15 @@ Where relevant please add screenshots to pages as image files (ideally .png).  T
 ## Adding tables
 
 Tables need to be in RST format otherwise they won't display properly when published (it will look fine in Git, but will look horrible when published, trust me). There are free tools that will generate RST for you, [this one](http://www.tablesgenerator.com/text_tables#) is good
+
+
+## Deploy Locally
+Ensure you have docker and docker-compose installed.
+
+```bash
+git clone https://github.com/ukfast/docs.ukfast.co.uk.git ukfast_docs
+cd ukfast_docs
+docker-compose -f docker-compose.dev.yml up --build
+```
+
+Open a browser to 'http://localhost:80'
