@@ -5,7 +5,7 @@ FASTdesk® is UKFast’s Desktop as a Service (DaaS) solution, which allows user
 ```eval_rst
 .. note::
 
-    Compatible with Nougat (Android 7.x), Oreo (Android 8.x) and Pie (Android 9.x).For the most optimum experience, we recommend updating your Android device to the latest Android Software.
+    Compatible with Nougat (Android 7.x), Oreo (Android 8.x), Pie (Android 9.x) and Android Q (Android 10.x). For the most optimum experience, we recommend updating your Android device to the latest Android Software.
    
 ```
 
