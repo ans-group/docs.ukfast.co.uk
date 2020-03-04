@@ -1,13 +1,13 @@
 # Getting Started with FASTdesk: Android Edition
 
+FASTdesk® is UKFast’s Desktop as a Service (DaaS) solution, which allows users and organisations to work more effectively and securely by giving access to files, applications, and desktop items remotely via an internet connection. All desktop settings and files are stored remotely in the cloud, providing cross-device compatibility and eliminating the risk of data loss by removing the risk of unauthorised access. This DaaS solution allows users to work in the same way they would with a traditional local desktop, but increase the flexibility with which they do so regardless of the endpoint device hardware, operating system or form factor.
+
 ```eval_rst
 .. note::
 
     Compatible with Nougat (Android 7.x), Oreo (Android 8.x) and Pie (Android 9.x).For the most optimum experience, we recommend updating your Android device to the latest Android Software.
    
 ```
-
-FASTdesk® is UKFast’s Desktop as a Service (DaaS) solution, which allows users and organisations to work more effectively and securely by giving access to files, applications, and desktop items remotely via an internet connection. All desktop settings and files are stored remotely in the cloud, providing cross-device compatibility and eliminating the risk of data loss by removing the risk of unauthorised access. This DaaS solution allows users to work in the same way they would with a traditional local desktop, but increase the flexibility with which they do so regardless of the endpoint device hardware, operating system or form factor.
 
 ## Pre-Installation information
 
