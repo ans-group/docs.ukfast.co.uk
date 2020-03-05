@@ -119,6 +119,25 @@ You can now copy the file /var/www/vhosts/exmapledomain.com/htdocs/var/varnish.v
 ~]# mv /etc/varnish/default.vcl /etc/varnish/default.vcl.backup
 ~]# cp /var/www/vhosts/exmapledomain.com/htdocs/var/varnish.vcl /etc/varnish/default.vcl
 ```
+### set Varnish for FPC in Magento
+- Log in to the Magento Admin as an administrator.
+- Click STORES > Settings > Configuration > ADVANCED > System > Full Page Cache.
+- From the Caching Application list, click Varnish Caching.
+
+You can also set this via the Magento2 CLI
+
+```bash
+php bin/magento config:set system/full_page_cache/caching_application 2
+```
+
+To check this has been set correctly:
+
+```bash
+php bin/magento config:show system/full_page_cache/caching_application
+```
+
+With the expected outcome being 2.
+
 ### Health Check
 The Magento genereated VCL has the following healthcheck:
 ```bash
