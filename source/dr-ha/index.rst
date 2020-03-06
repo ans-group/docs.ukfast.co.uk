@@ -37,6 +37,7 @@ Documentation relating to our highly-available solutions which are able to recov
 
    bcp/index
    /network/loadbalancing/index
+   /draas/index
 
 
 .. meta::
