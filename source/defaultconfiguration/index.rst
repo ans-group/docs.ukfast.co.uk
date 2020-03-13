@@ -9,3 +9,4 @@ This section outlines the default configuration of products at deployment unless
 
    dedicatedservers/index
    ukfastappliances
+   ukfastbackup
