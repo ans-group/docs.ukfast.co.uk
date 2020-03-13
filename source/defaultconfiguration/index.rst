@@ -8,3 +8,4 @@ This section outlines the default configuration of products at deployment unless
    :maxdepth: 1
 
    dedicatedservers/index
+   ukfastappliances
