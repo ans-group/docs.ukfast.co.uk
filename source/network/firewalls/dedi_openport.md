@@ -12,7 +12,7 @@ You will see an "outside" zone at the top of the editor.  This is the firewall z
 
 The other zone here is your internal zone, this governs traffic from your servers to the outside.
 
-Each firewall zone has a list of rules that your firewall will apply to the traffic as it crosses the interfacedevice. Rules are processed in order, top to bottom, and each rule has 4 parts:
+Each firewall zone has a list of rules that your firewall will apply to the traffic as it crosses the zone. Rules are processed in order, top to bottom, and each rule has 4 parts:
 
 1. Action - If the traffic meets this rule, take this action. Actions can be Allow, or Deny.
 2. Source - Where the traffic is coming from.
