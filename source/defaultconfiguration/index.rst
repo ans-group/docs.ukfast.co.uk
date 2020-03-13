@@ -7,4 +7,4 @@ This section outlines the default configuration of products at deployment unless
 .. toctree::
    :maxdepth: 1
 
-dedicatedservers/index
+   dedicatedservers/index
