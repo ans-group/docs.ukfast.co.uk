@@ -48,13 +48,15 @@ You can add single ports or port ranges that you would like to open. Each is add
 
 ![Add Port To Group](files/editor2_add_port_group2.png)
 
+You can also delete port groups by clicking the `bin` icon next to the group.  You can only delete a port group if it is not used in an access-list so you may need to delete some ACL's before the `bin` icon can be clicked for the port group.
+
 Please note all changes made are only stored locally.  When you have made all your desired changes please click `Apply` to send the config change to the firewall at which point they will take effect.
 
 ## Adding access rules to open ports
 
 If you already have an existing port group, then you can add the required ports directly to this.  If you have just created a new port group, or the group hasn't previously been used, then you will need to add the actual access list to have the group take effect.
 
-On the `Access Lists` tab, find the access-list you would like to add a rule to and click `Add New`.  You then need to select following:
+On the `Access Lists` tab, find the access-list you would like to add a rule to and click `Add New`.  You then need to select the following:
 
 1. Operation (Permit/Deny)
 2. Protocol
@@ -62,11 +64,13 @@ On the `Access Lists` tab, find the access-list you would like to add a rule to 
 4. To (Destination)
 5. Ports
 
-The groups available in 3,4,5 are listed in a dropdown and are restricted to valid groups for the access-list you are editing.
+The groups available in 3,4,5 are listed in a dropdown and are limited to valid groups for the access-list you are editing.
 
 ![Access List SSH Port](files/editor2_add_acl.png)
 
 Click `Save ACL` and the local configuration will be updated.
+
+You can also delete ACL entries by clicking the `bin` icon next to the entry.
 
 Please note all changes made are only stored locally.  When you have made all your desired changes please click `Apply` to send the config change to the firewall at which point they will take effect.
 
@@ -87,6 +91,8 @@ You can add single IPs or IP ranges. Each is added to the group by clicking `Add
 ![Add IP To Group](files/editor2_add_port_group3.png)
 
 Only valid IPs/IP ranges can be entered and this will be limited based on whether you selected an `Internal` group or an `External` one.  For example you can only put IPs that are valid as being behind your firewall in an `Internal` group.
+
+You can also delete IP groups by clicking the `bin` icon next to the group.  You can only delete a IP group if it is not used in an access-list so you may need to delete some ACL's before the `bin` icon can be clicked for the IP group.
 
 Please note all changes made are only stored locally.  When you have made all your desired changes please click `Apply` to send the config change to the firewall at which point they will take effect.
 
