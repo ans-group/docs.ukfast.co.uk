@@ -161,11 +161,9 @@ Installed Version | Latest version of NFS
 Mount on following servers | WEB-01 , WEB-02
 Mount Point | /var/www/
 
-
-
-
-
-
-
-
+```eval_rst
+  .. meta::
+      :title: UKFast Default Configuration Of A Linux Server | UKFast Documentation
+      :description: Default Configuration for Linux Servers at deployment. 
+      :keywords: ukfast, hosting, linux, server, virtual
 
