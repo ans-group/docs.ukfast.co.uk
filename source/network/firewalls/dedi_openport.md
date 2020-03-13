@@ -14,12 +14,12 @@ The other zone here is your internal zone, this governs traffic from your server
 
 Each firewall zone has a list of rules that your firewall will apply to the traffic as it crosses the zone. Rules are processed in order, top to bottom, and each rule has 4 parts:
 
-1. Operation - If the traffic meets this rule, take this action. Actions can be Allow, or Deny.
+1. Operation - If the traffic meets this rule, take this action. Operations can be Allow, or Deny.
 2. Source - Where the traffic is coming from.
 3. Destination - Where the traffic is going.
 4. Port Group - Which port the traffic is connecting to.
 
-If criteria 2,3 and 4 match , the firewall rule is applied to the traffic and it is allowed to pass, or denied, depending on the action selected (criteria 1). If it doesn't match then the next rule down is tried.  Please note, if a rule is matched no further rules are compared to the traffic and if no rule is matched the traffic will be denied. Let's look at a single rule as an example:
+If criteria 2,3 and 4 match , the firewall rule is applied to the traffic and it is allowed to pass, or denied, depending on the operation (criteria 1). If it doesn't match then the next rule down is tried.  Please note, if a rule is matched no further rules are compared to the traffic and if no rule is matched the traffic will be denied. Let's look at a single rule as an example:
 
 ![Access list example](files/editor2_zone_rule_example.png)
 
