@@ -14,7 +14,7 @@ The other zone here is your internal zone, this governs traffic from your server
 
 Each firewall zone has a list of rules that your firewall will apply to the traffic as it crosses the zone. Rules are processed in order, top to bottom, and each rule has 4 parts:
 
-1. Action - If the traffic meets this rule, take this action. Actions can be Allow, or Deny.
+1. Operation - If the traffic meets this rule, take this action. Actions can be Allow, or Deny.
 2. Source - Where the traffic is coming from.
 3. Destination - Where the traffic is going.
 4. Port Group - Which port the traffic is connecting to.
