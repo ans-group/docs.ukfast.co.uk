@@ -1,7 +1,7 @@
 # Default Configuration for Windows Servers
 
 ## Pre-Launch Questionaire
-With every dedicated sever on your order form you will receive your Pre-Launch Questionnaire (PLQ). The PLQ give you the ability to verify the configuration for each server, firewall, or other configurable products on your order before we begin the launch process.
+With every dedicated server on your order form you will receive your Pre-Launch Questionnaire (PLQ). The PLQ give you the ability to verify the configuration for each server, firewall, or other configurable products on your order before we begin the launch process.
 
 Once you are satisfied with your installation settings, please press the "Launch solution" button so that we can get your servers to you as quickly as possible. You will receive your PLQ within 15 minutes of your order form being processed.
 
