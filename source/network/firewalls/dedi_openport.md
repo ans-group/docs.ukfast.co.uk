@@ -23,7 +23,7 @@ If criteria 2,3 and 4 match , the firewall rule is applied to the traffic and it
 
 ![Access list example](files/editor2_zone_rule_example.png)
 
-The rule means Allow traffic from "any" source, to "linux", on the ports "linux.ports.fromoutside.tcp".  You can hover your mouse of the named port and IP groups to the their contents.
+The rule means Allow traffic from "any" source, to "linux", on the ports "linux.ports.fromoutside.tcp".  You can hover your mouse over the name of the port and IP groups to see their contents.
 
 # The Access List - Multi VLAN
 
