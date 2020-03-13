@@ -165,6 +165,9 @@ CTXMISC01 | Citrix Licencing & Citrix Database Host | Citrix Licencing, Citrix R
 CTXXENAPP01 | Citrix XenApp Host | Purchased Apps (I.E. Microsoft Office)
 CTXXENAPP02 | Citrix XenApp Host | Purchased Apps (I.E. Microsoft Office)
 
-
-
+```eval_rst
+  .. meta::
+      :title: UKFast Default Configuration Of A Windows Server | UKFast Documentation
+      :description: Default Configuration for Windows Servers at deployment. 
+      :keywords: ukfast, hosting, windows, server, virtual
 
