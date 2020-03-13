@@ -4,7 +4,7 @@ You can open ports on your dedicated firewall within [MyUKFast](https://www.ukfa
 
 # The Access List - Single VLAN
 
-Dedicated firewalls provide more flexibility over your access control, and as a result the interface is a little more complex than our shared firewalls. The main screen for looking at your dedicated firewall is called the Access List and it looks like this:
+Dedicated firewalls provide more flexibility over your access control, and as a result the interface is a little more complex than our shared firewalls. The main screen for looking at your dedicated firewall is on the Access List tab of the editor and it looks like this:
 
 ![Access list example](files/editor2_single_zone_acls.png)
 
