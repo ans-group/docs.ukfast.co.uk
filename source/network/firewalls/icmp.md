@@ -8,7 +8,7 @@ While we consider it good security to keep this traffic disabled, we appreciate 
 
 You can create the rule like this:
 
-![ICMP Rule](files/editor2_permit_icmp.png)
+![ICMP Rule](files/editor2_permit_icmp.PNG)
 
 Please note this will allow all ICMP message types, if you wish to restrict this to certain ICMP types please [raise a support request via MyUKFast](https://my.ukfast.co.uk/pss/create).
 
