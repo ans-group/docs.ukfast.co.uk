@@ -5,7 +5,7 @@ Where UKFast appliances are deployed as virtual machines and configured in an ac
 This document provides information about the default configuration - please use the Priority Support System in the MyUKFast portal after launch to make advanced configuration changes (e.g. to get SSL offloading set up).
 
 ## Load Balancers
-Your load balancers are configured with a single virtual IP on port 80 load balancing your web servers in a round robin fashion, for example WEB-01 and WEB-02 with an equal weighting of 1:1. 
+Your UKFast load balancers are configured with a single virtual IP on port 80 load balancing your web servers in a round robin fashion, for example WEB-01 and WEB-02 with an equal weighting of 1:1. 
 
 More information around load balancing can be found [here](https://docs.ukfast.co.uk/network/loadbalancing/index.html)
 
@@ -19,7 +19,7 @@ Your [hardware based WAFs](https://docs.ukfast.co.uk/security/webapplicationfire
 
 ## Webcelerators
 
-Your Webcelerators are configured with a single virtual IP on port 80 pointing to the Web Application virtual IP, if you do not have Web Application firewalls this will point to your or your load balancer IP.
+Your UKFast Webcelerators are configured with a single virtual IP on port 80 pointing to the Web Application virtual IP, if you do not have Web Application firewalls this will point to your or your load balancer IP.
 
 The full Webcelerator configuration guide is available [here](https://docs.ukfast.co.uk/webcel/)
 
