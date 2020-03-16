@@ -2,7 +2,7 @@
 
 UKFast offers two types of firewalls, shared and dedicated. Both offer a level of customization via the MyUKFast portal. You can view and customize the configuration of both under the Firewalls menu:
 
-![Firewall location](files/editor2_navigation.png)
+![Firewall location](files/editor2_navigation.PNG)
 
 After selecting Dedicated or Shared you will be presented with a list of that type of firewall that is associated with your servers.  The configuration pages for shared and dedicated firewalls look a little different, but they do let you have the same basic features. On all UKFast firewalls you can:
 
@@ -17,7 +17,7 @@ There are occasions when you may wish to block a single IP. UKFast firewalls let
 
 Sometimes the more advanced firewall features are disabled by default. If you see a message like the following when attempting to use a feature you need, please do hit the "Request Access" button and we'll be alerted to your request.
 
-![Not configured](files/not_configured.png)
+![Not configured](files/not_configured.PNG)
 
 Our dedicated firewalls allow much finer control, as well as advanced features like VPNs, and the ability to allow ICMP traffic. You can also have more advanced setups, including redundant pairs of firewalls.
 
