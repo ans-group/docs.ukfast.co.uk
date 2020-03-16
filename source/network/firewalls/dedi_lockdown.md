@@ -10,19 +10,19 @@ Fortunately, there is an easy way to stop this. If you know the IPs you want to 
 
 To start, you'll want to create a new IP Group and select "External" and provide a name for the group (eg. Admin):
 
-![New IP Group](files/editor2_ip_groups_admin.png)
+![New IP Group](files/editor2_ip_groups_admin.PNG)
 
 Then create an admin port group:
 
-![New Port Group](files/editor2_add_port_admin1.png)
+![New Port Group](files/editor2_add_port_admin1.PNG)
 
 Add the 3306 port to the group:
 
-![New Port Group](files/editor2_add_port_admin2.png)
+![New Port Group](files/editor2_add_port_admin2.PNG)
 
 Then we go to our Access list and create the rule:
 
-![New Access rule](files/editor2_add_admin_acl.png)
+![New Access rule](files/editor2_add_admin_acl.PNG)
 
 Now for any new Admin IPs or services, you can add them to the existing groups.
 
@@ -30,11 +30,11 @@ Now for any new Admin IPs or services, you can add them to the existing groups.
 
 There are some situations where the best solution is to block an IP entirely. The best way to do this is to create a blocked IPs group, just as we did for the admin group:
 
-![New IP Group](files/editor2_add_blocked_ip_group.png)
+![New IP Group](files/editor2_add_blocked_ip_group.PNG)
 
 Then we need to define all the ports we want to block. We can define a group of TCP or UDP ports or ismply use the `IP` option in the Access List editor to block all ports.
 
-![New Access rule](files/editor2_add_blocked_acl.png)
+![New Access rule](files/editor2_add_blocked_acl.PNG)
 
 You can drag and drop an access-list entry in the tab to move its position within the list. Make sure this block rule is first in your list by dragging it to the top. This ensures it's the first rule to be processed.
 
