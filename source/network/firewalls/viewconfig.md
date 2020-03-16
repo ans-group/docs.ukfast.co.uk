@@ -17,7 +17,7 @@ There are occasions when you may wish to block a single IP. UKFast firewalls let
 
 Sometimes the more advanced firewall features are disabled by default. If you see a message like the following when attempting to use a feature you need, please do hit the "Request Access" button and we'll be alerted to your request.
 
-![Not configured](files/not_configured.PNG)
+![Not configured](files/not_configured.png)
 
 Our dedicated firewalls allow much finer control, as well as advanced features like VPNs, and the ability to allow ICMP traffic. You can also have more advanced setups, including redundant pairs of firewalls.
 
