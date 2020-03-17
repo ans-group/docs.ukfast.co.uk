@@ -14,7 +14,7 @@ In order for UKFast to simplify our backup schedule offering without losing the 
 ```eval_rst
 +---------------------------------+-------------+--------------------+
 | Option                          | Full Backup | Incremental Backup |
-+=================================++============+====================+
++=================================+=============+====================+
 | File Level - Option 1 (default) | Weekly      | Once Daily         |
 +---------------------------------+-------------+--------------------+
 | File Level - Option 2           | Daily       | n/a                |
@@ -68,7 +68,7 @@ When referring to Database Backups by default we will apply the below configurat
 ```eval_rst
 +---------------------------------+-------------+--------------------+
 | Option                          | Full Backup | Incremental Backup |
-+=================================++============+====================+
++=================================+=============+====================+
 | VM Level - Option 1             | Weekly      | Once Daily         |
 +---------------------------------+-------------+--------------------+
 ```
