@@ -2,7 +2,7 @@
 
 In order for UKFast to simplify our backup schedule offering without losing the ability to tailor the configuration to your solution, we have predefined backup options available for you to select from. Please note that: 
 - The default retention for Dedicated CommVault is 7 days.
-- The time backups run at is stipulated by UKFast in an overnight window, unless otherwise specified.
+- The backup run time is stipulated by UKFast in an overnight window, unless otherwise specified.
 
 ## Operating System and File Level Backups
 
