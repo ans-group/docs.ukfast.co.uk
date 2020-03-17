@@ -233,6 +233,7 @@ If you wish, you are able to update this to:
 
 ### NFS File Configuration
 
+```eval_rst
 +----------------------------+-----------------------+
 |         NFS Setup          |        Default        |
 +============================+=======================+
@@ -242,6 +243,7 @@ If you wish, you are able to update this to:
 +----------------------------+-----------------------+
 | Mount Point                | /var/www/             |
 +----------------------------+-----------------------+
+```
 
 ```eval_rst
   .. meta::
