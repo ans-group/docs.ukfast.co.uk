@@ -87,22 +87,22 @@ Swap Usage | 0% - 80%	| Swap usage hits 81% |	Enabled
 All Physical and Virtual Machines as part of your solution will come with McAfee Anti-Virus installed, this comes as part of your PROprotection package.
 Below you will find a list of common questions related to Anti-Virus:
 
-IS THIS INSTALLED ON ALL SERVERS IN MY SOLUTION?
+Is this installed on all servers in my solution?
 > This will be included on all servers if you have purchased PROprotection, both Windows and Linux server. The only devices this does not apply to are UKFast Appliances and Magento Servers.
 
-ARE ALL FILES SCANNED BY THE AV SOFTWARE?
+Are all files scanned by the av software?
 > Yes, on-access scanning is enabled by default.
 
-AT WHAT FREQUENCY ARE FILES SCANNED?
+At what frequency are files scanned?
 > On-access scanning and weekly full scan.
 
-AT WHAT FREQUENCY IS THE AV SOFTWARE UPDATED?
+At what frequency is the av software updated?
 > Daily DAT Updates and Agent updates when available.
 
-WHAT ARE DAT FILES?
+What are dat files?
 > Virus definition or DAT files contain virus signatures and other information that McAfee anti-virus products use to protect your computer against existing and new potential threats. DAT files are released on a daily basis.
 
-ARE ANY OTHER AV BASED TOOLS OR ACTIVATES USED? (E.G. LOCAL FIREWALL)
+Are any other av based tools or activates used? (e.g. local firewall)
 > No, by default local firewalls are disabled and no other AV tools are installed or used by UKFast.
 
 ## Updates
