@@ -6,20 +6,33 @@ Please contact your Account Manager to ensure you receive a copy of the BCP Pre-
 
 ## Disk Space
 
-Clustered Resource | % of recommended disk space
------------- | -------------
-NFS	| 100%
-Database | 100%
-Database and NFS | 50% / 50% 
-Web and Database | 50% / 50% 
+```eval_rst
++--------------------+-----------------------------+
+| Clustered Resource | % of recommended disk space |
++====================+=============================+
+| NFS                | 100%                        |
++--------------------------------------------------+
+| Database           | 100%                        |
++--------------------------------------------------+
+| Database and NFS   | 50% / 50%                   |
++--------------------------------------------------+
+| Web and Database   | 50% / 50%                   |
++--------------------------------------------------+
+```
 
 ## Software Versions
 
-Recommended Versions | No Magento | Magento 1	| Magento 2
------------- | ------------- | ------------ | ------------
-PHP	| 7.3 |	5.6 |	7.2
-DB | MariaDB 10.3 |	Percona 5.6 |	Percona 5.7
-Web Server | nginx | nginx | nginx
+```eval_rst
++----------------------+--------------+--------------+--------------+
+| Recommended Versions | No Magento   | Magento 1    | Magento 2    |
++======================+==============+==============+==============+
+| PHP                  | 7.3          | 5.6          | 7.2          |
++----------------------+--------------+--------------+--------------+
+| DB                   | MariaDB 10.3 | Percona 5.6  | Percona 5.7  |
++----------------------+--------------+--------------+--------------+
+| Web Server           | nginx        | nginx        | nginx        |
++----------------------+--------------+--------------+--------------+
+```
 
 ```eval_rst
   .. meta::

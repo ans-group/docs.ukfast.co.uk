@@ -11,10 +11,15 @@ In order for UKFast to simplify our backup schedule offering without losing the 
 
 ### Backup Options
 
-Option | Full Backup | Incremental Backup
------------- | ------------- | -------------
-File Level - Option 1 (default)	| Weekly | Once Daily 
-File Level - Option 2	| Daily	| n/a
+```eval_rst
++---------------------------------+-------------+--------------------+
+| Option                          | Full Backup | Incremental Backup |
++=================================+=============+====================+
+| File Level - Option 1 (default) | Weekly      | Once Daily         |
++---------------------------------+-------------+--------------------+
+| File Level - Option 2           | Daily       | n/a                |
++---------------------------------+-------------+--------------------+
+```
 
 ## Database Backups
 
@@ -31,12 +36,19 @@ When referring to Database Backups by default we will apply the below configurat
 
 ### Backup Options
 
-Option | Full Backup | Incremental Backup
------------- | ------------- | -------------
-Database Level - Option 1 |	Weekly |	Once Daily 
-Database Level - Option 2	| Daily |	n/a
-Database Level - Option 3 (default) |	Daily |	Every Hour
-Database Level - Option 4 | Daily |	Every 15 minutes
+```eval_rst
++-------------------------------------+-------------+--------------------+
+| Option                              | Full Backup | Incremental Backup |
++=====================================+=============+====================+
+| Database Level - Option 1           | Weekly      | Once Daily         |
++-------------------------------------+-------------+--------------------+
+| Database Level - Option 2           | Daily       | n/a                |
++-------------------------------------+-------------+--------------------+
+| Database Level - Option 3 (default) | Daily       | Every Hour         |
++-------------------------------------+-------------+--------------------+
+| Database Level - Option 4           | Daily       | Every 15 minutes   |
++-------------------------------------+-------------+--------------------+
+```
 
 ## Standalone Database Servers
 
@@ -53,9 +65,13 @@ Database Level - Option 4 | Daily |	Every 15 minutes
 
 ### Backup Options
 
-Option | Full Backup | Incremental Backup
------------- | ------------- | -------------
-VM Level - Option 1 |	Weekly |	Once Daily 
+```eval_rst
++---------------------------------+-------------+--------------------+
+| Option                          | Full Backup | Incremental Backup |
++=================================+=============+====================+
+| VM Level - Option 1             | Weekly      | Once Daily         |
++---------------------------------+-------------+--------------------+
+```
 
 All full backups for Virtual Machines are performed on a weekly basis with daily incremental backups taken daily except for the day the full backup is taken.
 
@@ -68,3 +84,4 @@ To make changes to the backup window, frequency or retention of any of your back
       :title: UKFast Default Backup Policies | UKFast Documentation
       :description: Default Configuration for Backups
       :keywords: ukfast, hosting, server, vm, backup, incremental backup, Full backup, retention
+
