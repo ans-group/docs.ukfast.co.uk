@@ -4,23 +4,23 @@
 
 ### Veeam Backup & Replication Server (VBR Server)
 
-The Veeam Backup & Replication will be the central compenent in your Veeam installation. This holds all of the configuration and manages any jobs that you run. It is run from a Windows Servers and is backed by a SQL, which can on the same Server as SQL Express in small installations or can be split out on to a dedicate Server for large installations. 
+The Veeam Backup & Replication Server will be the central compenent in your Veeam installation. This holds all of the configuration and manages any jobs that you run. It is run from a Windows Servers and is backed by a SQL, which can on the same Server as SQL Express in small installations or can be split out on to a dedicate Server for large installations. 
+
 
 ### Veeam Proxy Server 
 
 A Proxy Server handles data between your Physical & Virtual infrastructure during Backups to your Veeam repositories. They will also handle the data during a replication to a UKFast Cloud Connect Environment. In very small environments this can be installed on the VBR Server, but it is recommended to split this service out on to its own dedicated Windows Server/s.
 
-### Veeam Backup Repository
-
-A backup repository is used to store local backup files on your site. You will need this set up in advance if you want to use BaaS to perform backup copies to UKFast.
 
 ### Network Extension Appliance (NEA Appliance)
 
-An NEA Appliance is a small linux appliance, which is automatically launched by Veeam when you initially connect to a UKFast Cloud Connect environment. This is used to create the Layer 2 connection between sites during a partial failover.
+An NEA Appliance is a small linux appliance, which is automatically launched by Veeam when you initially connect to a UKFast Cloud Connect environment. This is used to create the Layer 2 connection between sites during a partial failover. You will have one NEA Appliance for every internal Subnet/VLAN that you are going to be replicating to UKFast.
+
 
 ## Environment Sizing 
 
-Veeam have a good document that gives information regarding the sizing of each of the Veeam Components. It's strongly recommended that you pay close attention to this to ensure your jobs optimally. Failure to do so means RPO's will likely be missed and excessive amounts of data could be lost during a DR Scenario. This can be accessed here [Veeam Sizing Summary](https://www.veeambp.com/appendix_a_sizing)
+Veeam have a good document that gives information regarding the sizing of each of the Veeam Components and. It's strongly recommended that you pay close attention to this to ensure your jobs optimally. Failure to do so means RPO's will likely be missed and excessive amounts of data could be lost during a DR Scenario. This can be accessed here: [Veeam Sizing Summary](https://www.veeambp.com/appendix_a_sizing)
+
 
 ### Concurrent Tasks
 

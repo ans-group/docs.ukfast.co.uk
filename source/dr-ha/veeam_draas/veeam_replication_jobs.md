@@ -10,12 +10,12 @@ Your RPO is the last point in time that you will be able to failover to. This is
 
 Your retention period is how long restore points are kept for, which you can use to failover to. This is also defined per replication job, but in the 'Job Settings' section by choosing 'Restore Points to Keep'. The max number of replication restore points is 28 due each of them being stored as a VM snapshot on UKFasts infrastructure. Each snapshot will store the changes made since the last restore point and therefore have the potential to use a considerable amount of your storage at UKFast depending on your rate of data change. The retention period is the number of restore points x your schedule frequency. 
 
-`this section doesn't appear correctly in MyUKFast`
-```
-Retention Period Example
+`check this shows correctly in myukfast`
 
-If you have a job that has 7 restore points and runs once an hour, the retention period would be 7 x 1 hour = 7 hour retention.
-```
+    Retention Period Example
+
+    If you have a job that has 7 restore points and runs once an hour, the retention period would be 7 x 1 hour = 7 hour retention.
+
 
 It is important to review each VM individually to decide what RPO they require and only set low RPOs on the VMs that need it. The lower the RPO means more regular snapshots on the VMs, more storage required to meet longer retention periods, potentially more network bandwidth used and more Veeam resources required to meet the higher concurrent tasks (bigger or more proxy servers). Often VMs like webservers can have higher RPO's of a once a day due to them not having a large amount of data change day to day.
 
@@ -26,11 +26,11 @@ The size of VMs and how much data change that occurs on them is important to tak
 Running off the back of the rentention periods and data change for VMs is the storage required at UKFast for replication Jobs. The more restore points and the longer retention you have, coupled with the amount of data change, the more storage you will use out of your Cloud Connect quota.
 
 `this section doesn't appear correctly in MyUKFast`
-```
-Storage Utilisation Example 
 
-Continuing with the previous example where there is a VM with 7 restore points and runs once an hour. Lets say this VM is 1000GB in size and has a data change of 10GB per hour. Each restore point on that VM would be saved as a 10GB Snapshot on UKFast's Infrastructure and therefore take 1070GB of your storage quota.  
-```
+    Storage Utilisation Example 
+
+    Continuing with the previous example where there is a VM with 7 restore points and runs once an hour. Lets say this VM is 1000GB in size and has a data change of 10GB per hour. Each restore point on that VM would be saved as a 10GB Snapshot on UKFast's Infrastructure and therefore take 1070GB of your storage quota.  
+
 
 ## Summary
 Once you are happy with all of the factors above you can start configuring your replication jobs in Veeam. If you have a large VMware estate that needs replicating it is worth noting that you will likely not get the schedule and configuring perfect first time round and that you can tweak/reconfigure jobs as and when needed.
