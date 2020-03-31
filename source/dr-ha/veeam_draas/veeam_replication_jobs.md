@@ -23,13 +23,13 @@ It is important to review each VM individually to decide what RPO they require a
 The size of VMs and how much data change that occurs on them is important to take in to consideration when deciding which VMs are grouped together in replication jobs. If you were to group together multiple large VMs with a high amount of data change, they will attempt to run simultaneously and could take up all of the Veeam resources; this would likely cause other replications to sit idle potentially missing their RPO. These large VMs should be split out, so they don't all run at once, while many smaller VMs can be put in to the same job due to each replication being able to finish quickly.
 
 ## Storage Utilisation 
-Running off the back of the rentention periods and data change for VMs is the storage required at UKFast for replication Jobs. The more restore points and the longer retention you have, coupled with the amount of data change, the more storage you will use out of your UKFast Cloud Connect quota.
+Running off the back of the retention periods and data change for VMs is the storage required at UKFast for replication Jobs. The more restore points and the longer retention you have, coupled with the amount of data change, the more storage you will use out of your UKFast Cloud Connect quota.
 
-`this section doesn't appear correctly in MyUKFast`
+`check this shows correctly in myukfast`
 
     Storage Utilisation Example 
 
-    Continuing with the previous example where there is a VM with 7 restore points and runs once an hour. Lets say this VM is 1000GB in size and has a data change of 10GB per hour. Each restore point on that VM would be saved as a 10GB Snapshot on UKFast's Infrastructure and therefore take ~1070GB of your storage quota (this figure could be higher if there has been a lot of additional data written rather than just changes).  
+    Continuing with the previous example where there is a VM with 7 restore points and runs once an hour. Let's say this VM is 1000GB in size and has a data change of 10GB per hour. Each restore point on that VM would be saved as a 10GB Snapshot on UKFast's Infrastructure and therefore take ~1070GB of your storage quota (this figure could be higher if there has been a lot of additional data written rather than just changes).  
 
 
 ## Summary

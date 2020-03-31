@@ -6,9 +6,9 @@ If you are currently in a DR Situation and need to perform a failover, please na
 
 
 ## Full Failovers
-Full failovers are perform using the a Failover Plan which you will have created yourself in your local Veeam Backup and Replication Console. How to create a Failover Plan can be found here - [How to create a failover plan](creating_a_failover_plan.md)
+Full failovers are perform using a Failover Plan which you will have created yourself in your local Veeam Backup and Replication Console. How to create a Failover Plan can be found here - [How to create a failover plan](creating_a_failover_plan.md)
 
-This is the failover type that you will use in the event of a DR Scenario where you have lost access to your production site. When performing a failover using a Failover plan it uses the NEA Appliance at UKFast to configure the External IP NAT's that you set up in the mapping section of the failover plan configuration. It **does not** set up the layer 2 VPN connection; this is only able to be do using Partial Failovers which I will speak about further down.
+This is the failover type that you will use in the event of a DR Scenario where you have lost access to your production site. When performing a failover using a Failover plan it uses the NEA Appliance at UKFast to configure the External IP NAT's that you set up in the mapping section of the failover plan configuration. It **does not** set up the layer 2 VPN connection; this is only able to be done using Partial Failovers which I will speak about further down.
 
 You have the ability to initiate these failovers from within your Veeam Backup and Replication console or via your MyUKFast portal should you not have access to your production site. You also have the option to call UKFast support who can initiate the failover for you.
 
@@ -39,7 +39,7 @@ You also have the option to call the UKFast Support line should you have any iss
 
 ### Test Failover while production is still online 
 
-The most likely reason you would do this is to simulate a real DR situation and bring your VMs online at UKFast since you have the ability to do this without affecting your live VMs. The VMs will be powered up on UKFasts Infrastucture and the NEA Appliance will configure the NAT's specified in the Failover Plan. Production will not be able to communicate with DR, but you should be able to access your VMs by the NAT's you configured with the external IPs.
+The most likely reason you would do this is to simulate a real DR situation and bring your VMs online at UKFast since you have the ability to do this without affecting your live VMs. The VMs will be powered up on UKFast's Infrastucture and the NEA Appliance will configure the NAT's specified in the Failover Plan. Production will not be able to communicate with DR, but you should be able to access your VMs by the NAT's you configured with the external IPs.
 
 1. Open "Veeam Backup & Replication Console" and connect to your Veeam Server
 2. Navigate to **Home** > **Replicas** > **Failover Plans**
@@ -49,11 +49,11 @@ When you right click you have three options to select, **Start**, **Start to** a
 #### Start
 ![Veeam Full Failover](files/veeam_failovers/veeamfailovers_fullfailover.png)
 
-1. This option will start a failover immediately without giving any diagalogue box with further warnings. It will open up a window giving you a break down and progress of the failover process; if there are any errors they will be shown here. You can press F5 to refresh this box manually.
+1. This option will start a failover immediately without giving any dialogue box with further warnings. It will open up a window giving you a break down and progress of the failover process; if there are any errors they will be shown here. You can press F5 to refresh this box manually.
 
 ![Veeam Full Failover Status](files/veeam_failovers/veeamfailovers_fullfailoverstatus.png)
 
-2. Once complete all of the VMs along the left handside should show a status of success and you should also see "Success" in the top right. If you were to test the external IPs you set the NAT rules up with you should now be able to access them.
+2. Once complete all of the VMs along the left hand side should show a status of success and you should also see "Success" in the top right. If you were to test the external IPs you set the NAT rules up with you should now be able to access them.
 
 3. Once you are finished and you want to roll everything back you need to **right click the Failover Plan** > **Undo**
 
@@ -92,10 +92,10 @@ Your VMs in production should now be able to communicate with the VMs you have f
 
 #### Reverting the Failover
 4. Underneath **Replicas** on the left hand side, there should now be a new section called **Active**. If you right click on the VM you have failed over in that section you will get two options for rolling back.
-   1. **Undo Failover** - this option will revert the failover, but you will loose any changes made on the VM running on UKFast's infrastructure
+   1. **Undo Failover** - this option will revert the failover, but you will lose any changes made on the VM running on UKFast's infrastructure
    2. **Failback to production** - this option will set up a reverse replication, so any changes you have made in DR will be replicated to DR.
-        * **Failback to the original VM** - you should us this option if you original VM you failed over from is still in place and you are happy for data on it to be over written by the VM running on UKFasts Infrastructure. You have the option perform a **Quick rollback**, which Veeam only recommend doing if the failback process is needed due to a software or user issue. This will only replicate the changed blocks rather than all data.
+        * **Failback to the original VM** - you should us this option if you original VM you failed over from is still in place and you are happy for data on it to be over written by the VM running on UKFast's Infrastructure. You have the option perform a **Quick rollback**, which Veeam only recommend doing if the failback process is needed due to a software or user issue. This will only replicate the changed blocks rather than all data.
         * **Failover to the original VM restored in a different location** - this is the same as the first option; however, you are able to specify the location of the VM. You may use this option because you have performed a restore of the VM on your local site, which you would like to replicate changes made in DR to.
-        * **Failback to the specified location** This will replicate an exact copy of the VM in DR back to a location of your choice on your local VMware infrastructure.
+        * **Failback to the specified location** - This will replicate an exact copy of the VM in DR back to a location of your choice on your local VMware infrastructure.
 
 ![Veeam Partial Failover - Failover Back to Production](files/veeam_failovers/veeamfailovers_partialfailover_failback.png)

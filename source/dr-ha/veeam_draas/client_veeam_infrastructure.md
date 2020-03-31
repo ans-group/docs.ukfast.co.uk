@@ -1,10 +1,10 @@
 # Client Veeam Infrastructure
 
-## Core Compenents
+## Core Components
 
 ### Veeam Backup & Replication Server (VBR Server)
 
-The Veeam Backup & Replication Server will be the central compenent in your Veeam installation. This holds all of the your configuration data and manages any jobs that you run. It is run from a Windows Server and is backed by SQL, which can run on the same Server as a SQL Express instance in small installations or can be split out on to a dedicate Server for larger installations. 
+The Veeam Backup & Replication Server will be the central component in your Veeam installation. This holds all of the configuration data and manages any jobs that you run. It is run from a Windows Server and is backed by SQL, which can run on the same Server as a SQL Express instance in small installations or can be split out on to a dedicate Server for larger installations. 
 
 
 ### Veeam Proxy Server 
@@ -26,7 +26,7 @@ Veeam have a good document that gives information regarding the sizing of each o
 
 One important thing to pay close attention to is the Concurrent tasks that your Veeam Environment can handle. A task is defined as one single VM disk being process; it is often mistaken that a task is the processing of a single VM, which is incorrect.  
 
-The two main compenents that you need to look at concurrency when sizing is Veeam Repositories and Proxies. I will focus on Proxies for this example since that is what will be used for Replications, but the same rules apply for the repositories. It is recommended that you have a CPU Core for each concurrent task; you can set the limit for concurrent tasks in the properties of your Proxy Server in the Veeam Console (this should match the number of vCPUs, if you set a higher value you risk replications not performing optimally)
+The two main components that you need to look at concurrency when sizing is Veeam Repositories and Proxies. I will focus on Proxies for this example since that is what will be used for Replications, but the same rules apply for the repositories. It is recommended that you have a CPU Core for each concurrent task; you can set the limit for concurrent tasks in the properties of your Proxy Server in the Veeam Console (this should match the number of vCPUs, if you set a higher value you risk replications not performing optimally)
 
 One large factor of how many concurrent tasks will run at any one time is how you schedule your replication jobs. If you split these out to run at different times, there will be less concurrent tasks than if you were to run them all at once. If you have more jobs running than your environment can handle, VMs will simply queue while they wait for resources to become available.
 

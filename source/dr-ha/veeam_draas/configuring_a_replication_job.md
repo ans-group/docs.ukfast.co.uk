@@ -43,19 +43,19 @@ Section to create network mappings. When you create a mapping all VMs on the "So
 ### Job Settings
 1. **Repository for replica metadata** - select a local repository for replica metadata. You will need on average 128MB of storage for every 1TB replicated, but this could vary.
 2. **Replica name suffix** - this is what shows up within our VMware environment, so recommend that it is left as the default "_replica"
-3. **Restore points to keep** - this specifies the amount of restore points that will be available when performing a fail over; the maximum number possible 28. The time difference between each restore point will be the time between is defined by the schedule that is chosen in a later step (i.e. if you choose an hourly replication with 7 restore points, you will have 7 hours worth of restore points, each an hour apart. Depending on the amount of data change inbetween each restore point these have the potential to take up a considerable amount of space due to them being store in a VMware snapshot.
+3. **Restore points to keep** - this specifies the amount of restore points that will be available when performing a fail over; the maximum number possible 28. The time difference between each restore point will be the time between is defined by the schedule that is chosen in a later step (i.e. if you choose an hourly replication with 7 restore points, you will have 7 hours' worth of restore points, each an hour apart. Depending on the amount of data change in between each restore point these have the potential to take up a considerable amount of space due to them being store in a VMware snapshot.
 
 4. **Advanced**
     1. **Storage optimization** - this setting needs changing to "WAN Target" to ensure the replication jobs get the best performance when replicating over the internet to UKFast
-    2. **Guess quiescence** - on the "vsphere" page there is an option "Enable VMware Tools quiescence", which is disabled by default. It is recommended to leave this as disabled due to the potential impact caused when the VM is stunned unless you definitely need it enabled.
+    2. **Guess quiescence** - on the "vSphere" page there is an option "Enable VMware Tools quiescence", which is disabled by default. It is recommended to leave this as disabled due to the potential impact caused when the VM is stunned unless you definitely need it enabled.
 
 ![Replication Job - Job Settings](files/createreplicationjob/createreplicationjob_jobsettings.png)
 
 ### Data Transfer
 <blockquote>
-Section to configure WAN Accelerators, these are only beneficial to use when you have a very slow network upload speed of lower than 60Mb/s. If you have not purchased a WAN Accelerator from UKFast, you only need to complete step 1 ("Source Proxy"). You cannot configure one at your side if it hasn't been enabled on the service providers end.
+Section to configure WAN Accelerators, these are only beneficial to use when you have a very slow network upload speed of lower than 60Mb/s. If you have not purchased a WAN Accelerator from UKFast, you only need to complete step 1 ("Source Proxy"). You cannot configure one at your side if it hasn't been enabled on the service providers' end.
 
-Sizing information for WAN Accelerators can be found on Veeams Website - [WAN Accellerator Sizing](https://helpcenter.veeam.com/docs/backup/vsphere/wan_accelerator_sizing.html?ver=100). We generally recommend a starting point of the following:  
+Sizing information for WAN Accelerators can be found on Veeam's Website - [WAN Accelerator Sizing](https://helpcenter.veeam.com/docs/backup/vsphere/wan_accelerator_sizing.html?ver=100). We generally recommend a starting point of the following:  
 * Hard disk size - 10% of total data that requires replicating
 * 4 CPUs
 * 16GB RAM
@@ -63,7 +63,7 @@ Sizing information for WAN Accelerators can be found on Veeams Website - [WAN Ac
 
 1. **Source proxy** - we would generally recommend this is left as the default "Automatic Selection" unless you have any specific requirements.
 2. **Through built-in WAN accelerators** - if you have purchased a WAN Accelerator from UKFast, select this option. 
-    1. **Source WAN accelerator** - select the WAN Accelerator at your site to be used for this replication job. It's recommended the WAN Accelerator is set up as a seperate Virtual Machine and not installed on the Veeam Backup and Replication Server.
+    1. **Source WAN accelerator** - select the WAN Accelerator at your site to be used for this replication job. It's recommended the WAN Accelerator is set up as a separate Virtual Machine and not installed on the Veeam Backup and Replication Server.
     2. **Target WAN accelerator** - select the WAN Accelerator at UKFasts' site to be used for this replication job.
 
     ![Replication Job - Data Transfer](files/createreplicationjob/createreplicationjob_datatransfer.png)
