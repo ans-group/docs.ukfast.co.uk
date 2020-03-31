@@ -78,23 +78,23 @@ Please note all changes made are only stored locally.  When you have made all yo
 
 In addition to Port Groups, our example uses an IP group as a destination. This is a way of grouping multiple IPs with a friendly name to make our Access List more readable. In our example, the IP group is called "Linux Inside", and it contains all the IPs of our Linux servers. IP groups can be created and managed in the IP Groups tab.
 
-![IP Groups](files/editor2_ip_groups1.PNG)
+![IP Groups](files/editor2_ip_groups_1.PNG)
 
 So if we wished to apply all our existing firewall rules to a new Linux server, all we need to do is add the new server's IP into the "linux" IP group, and it will have all the same rules. Likewise if we want to change the Access List rules for all our linux servers, we can do so to all of them. As you can imagine, the more servers you have, the more powerful groups are.
 
 You may wish to add an IP Group if you don't already have a suitable group set up.  If so, go to the `IP Groups` tab and then click the `Add a Group` button (above and to the left of the tabs).  Select Internal (a group of IPs behind your firewall) or external (a group of IPs outside the firewall) provide a name and click `Add`.
 
-![Add IP Group](files/editor2_ip_groups2.PNG)
+![Add IP Group](files/editor2_ip_groups_2.PNG)
 
-You can add single IPs or IP ranges. Each is added to the group by clicking `Add`.  You can then click other tabs to either use the group in an ACL or create other port or IP groups.  
+You can add domains, single IPs or IP ranges. Each is added to the group by clicking `Add`.  You can then click other tabs to either use the group in an ACL or create other port or IP groups.  
 
-![Add IP To Group](files/editor2_add_port_group3.PNG)
+![Add IP To Group](files/editor2_add_ip_groups_3.PNG)
 
 Only valid IPs/IP ranges can be entered and this will be limited based on whether you selected an `Internal` group or an `External` one.  For example you can only put IPs that are valid as being behind your firewall in an `Internal` group.
 
 You can also delete IP groups by clicking the `bin` icon next to the group.  You can only delete a IP group if it is not used in an access-list so you may need to delete some ACL's before the `bin` icon can be clicked.
 
-Please note all changes made are only stored locally.  When you have made all your desired changes please click `Apply` to send the config change to the firewall at which point they will take effect.
+Please note all changes made are only stored locally.  When you have made all your desired changes please click `Apply Changes` to send the config change to the firewall at which point they will take effect.
 
 ```eval_rst
   .. meta::
