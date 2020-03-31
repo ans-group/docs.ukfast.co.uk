@@ -32,7 +32,7 @@ There are some situations where the best solution is to block an IP entirely. Th
 
 ![New IP Group](files/editor2_add_blocked_ip_group.PNG)
 
-Then we need to define all the ports we want to block. We can define a group of TCP or UDP ports or ismply use the `IP` option in the Access List editor to block all ports.
+Then we need to define all the ports we want to block. We can define a group of TCP or UDP ports or simply use the `IP` option in the Access List editor to block all ports.
 
 ![New Access rule](files/editor2_add_blocked_acl.PNG)
 
