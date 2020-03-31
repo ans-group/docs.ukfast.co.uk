@@ -88,7 +88,7 @@ You may wish to add an IP Group if you don't already have a suitable group set u
 
 You can add domains, single IPs or IP ranges. Each is added to the group by clicking `Add`.  You can then click other tabs to either use the group in an ACL or create other port or IP groups.  
 
-![Add IP To Group](files/editor2_add_ip_groups_3.PNG)
+![Add IP To Group](files/editor2_ip_groups_3.PNG)
 
 Only valid IPs/IP ranges can be entered and this will be limited based on whether you selected an `Internal` group or an `External` one.  For example you can only put IPs that are valid as being behind your firewall in an `Internal` group.
 
