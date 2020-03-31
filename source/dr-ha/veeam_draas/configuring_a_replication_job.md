@@ -10,17 +10,17 @@ Before configuring your replication job please ensure that you have read through
 ![Create Replication Job](files/createreplicationjob/createreplicationjob.png)
 
 ### Name
-1. Enter a name for the replication job and a description if needed (recommend something that is easy to reference which VMs are going to be in this particular job)
+1. Enter a name for the replication job and a description if needed (recommend something that is easy to reference which VMs are going to be in the job)
     1. **Replica seeding** - this is used if there has been a copy of your backups shipped to us and uploaded on to our Veeam Environment. 
     2. **Network remapping** - <span style="color:green">**(enable)**</span> this is used to map the internal networks on your current VMs to the internal networks UKFast have provided to you. 
-    3. **Replica re-IP** - <span style="color:red">**(do not enable)**</span> - this is used when you DR sites use different internal networks as your production. This is not required when replicating to UKFast, as you will keep your current IPs.
+    3. **Replica re-IP** - <span style="color:red">**(do not enable)**</span> - this is used when you DR sites use different internal networks as your production. This is not required when replicating to UKFast, as you will keep your current internal IPs.
 
 ![Replication Job - Name](files/createreplicationjob/createreplicationjob_name.png)
 
 ### Virtual Machines
 1. **Add** - select the VMs that you would like to replicate in this job<br />
     1. **Exclusions** - you have the option to exclude specific disks on VMs from being replicated. You may want to do this if you want to save your Cloud Connect storage and there is a none critical data disk that won't be needed in the event of a DR situation.
-    2. **Source** - you can choose to obtain the replication data from a Veeam backup rather than taking it directly from a Snapshot on the VM. <span style="color:red">**This will only replicate data from the latest backup, so enable with caution.**</span>
+    2. **Source** - you can choose to obtain the replication data from a Veeam backup rather than taking it directly from a Snapshot on the VM. This is useful if you want to limit the snapshots on a VM and there aren't strict RPO requirements. <span style="color:red">**This will only replicate data from the latest backup, so enable with caution.**</span>
 
 ![Replication Job - Virtual Machine](files/createreplicationjob/createreplicationjob_virtualmachine.png)
 

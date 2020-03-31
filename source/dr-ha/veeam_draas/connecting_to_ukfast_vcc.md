@@ -29,5 +29,7 @@
          * **Resource pool** - Select a resource pool for the appliance. If you don't use these, just select the host object
          * **Datastore** - Select a datastore for the appliance to be stored in.
          * **Network** - Select the internal network for the appliance. This is the section that needs to be different for each appliance if you are lauching multiple.
+         * **IP Address** - The NEA Appliance needs to be given an internal IP address on the network that it is going to be attached to. This can be done manually or via DHCP if you have a server set up.
+         ![Connect to UKast Cloud Connect Infrastructure](files/connecttoserviceprovider/connecttoserviceprovider_addnea.png)
    5. Select **Apply** and then **Next**
    6. **Summary** - Give all of the settings one final check before clicking **Finish**

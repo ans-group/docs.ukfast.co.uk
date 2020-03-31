@@ -10,7 +10,7 @@
 
 
 ### Job
-1. **Name/Description** - enter a name for the backup copy job and a description if needed (recommend something that is easy to reference which VMs are going to be in this particular job)
+1. **Name/Description** - enter a name for the backup copy job and a description if needed (recommend adding something that is easy to reference which VMs are going to be in the job)
 2. **Copy Every** - you need to pick how often you would like a backup copy transferred to UKFast Cloud Connect and when you would like the copy interval to start. We would generally recommend that the copy interval starts at a time where you are confident the Backup job for the given VMs will have finished.
 
 ![Create Replication Job - Job](files/createbackupcopyjob/createbackupcopyjob_job.png)

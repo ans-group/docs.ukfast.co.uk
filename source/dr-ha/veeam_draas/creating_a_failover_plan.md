@@ -1,8 +1,8 @@
 # Creating a Failover Plan
 
-A Failover Plan defines VMs to failover, internal networking at UKFast and your NATs for your external IPs. These should be created straight after you have configured your replications, so they are ready to be used in the event of a DR situation. Once your site goes down you will not be able to create or modify you failover plans.
+A Failover Plan defines the VMs to failover, internal networking at UKFast and your NATs for your external IPs. These should be created straight after you have configured and run your replications, so they are ready to be used in the event of a DR situation. Once your site goes down you will not be able to create or modify you failover plans.
 
-We generally recommend you have one Failover Plan that has all of your VMs in, so that it is as simple as possible to failover in the event of a DR scenario. That said, tere is nothing stopping you from having multile. You may want to split your business critical VMs in to one failover plan, which you can fail over first and then a second with the less critical VMs, which can be failed over once the first is up and runing. The main thing to be aware of if you decide to use multiple Failover Plans is that you can only use an external IP in one plan (it can be used multiple times in that one plan to create different network mappings).
+We generally recommend you have one Failover Plan that has all of your VMs in, so that it is as simple as possible to failover in the event of a DR scenario. That said, there is no reason why you can have multile. You may want to split your business critical VMs in to one failover plan, which you can fail over first and then a second with the less critical VMs, which can be failed over once the first is up and runing. The main thing to be aware of if you decide to use multiple Failover Plans is that you can only use an external IP in one plan (it can be used multiple times in that one plan to create different network mappings).
 
 ## Creating the Failover Plan
 1. Open "Veeam Backup & Replication Console" and connect to your Veeam Server
@@ -19,7 +19,7 @@ We generally recommend you have one Failover Plan that has all of your VMs in, s
 ### Virtual Machines
 
 1. **Add VM** - after clicking this you will see a list of your replication jobs, you can choose to either select a replication job as a whole or expand it and pick inidividual VMs underneith
-2. **Set delay...** - you have the ability to select boot delays for each of your VMs. There are multiple reasons why you may do this, such as ensuring you Domain Controllers come up before the rest of your Servers or your Database servers coming up before your Application Servers. You may also want to put a long delay on your none business critical VMs, so you can ensure that your business critical VMs come online first.
+2. **Set delay...** - you have the ability to select boot delays for each of your VMs. There are multiple reasons why you may do this, such as ensuring your Domain Controllers come up before the rest of your Servers or your Database servers coming up before your Application Servers. You may also want to put a long delay on your none business critical VMs, so you can ensure that your business critical VMs come online first.
     * You will need to use the **Up** & **Down** buttons in the bottom right to change the boot order
 
 ![Create Veeam Failover Plan - Virtual Machines](files/createfailoverplan/createfailoverplan_virtualmachines.png)

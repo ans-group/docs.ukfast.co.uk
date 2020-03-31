@@ -17,22 +17,22 @@ Your retention period is how long restore points are kept for, which you can use
     If you have a job that has 7 restore points and runs once an hour, the retention period would be 7 x 1 hour = 7 hour retention.
 
 
-It is important to review each VM individually to decide what RPO they require and only set low RPOs on the VMs that need it. The lower the RPO means more regular snapshots on the VMs, more storage required to meet longer retention periods, potentially more network bandwidth used and more Veeam resources required to meet the higher concurrent tasks (bigger or more proxy servers). Often VMs like webservers can have higher RPO's of a once a day due to them not having a large amount of data change day to day.
+It is important to review each VM individually to decide what RPO they require and only set low RPOs on the VMs that need it. The lower the RPO means more regular snapshots on the VMs, more storage required to meet longer retention periods, potentially more network bandwidth used and more Veeam resources required to meet the higher concurrent tasks (bigger or more proxy servers). Often VMs like webservers can have higher RPO's of once a day due to them not having a large amount of data change.
 
 ### VM Sizes and Data Change
-The size of VMs and how much data change that occurs on them is important to take in to consideration when deciding which VMs are grouped together in replication jobs. If you were to group together multiple large VMs with a high amount of data change, they will attempt to run at the same time and could take up all of the Veeam resources; this would likely cause other replications to sit idle potentially missing their RPO. These large VMs should be split out, so they don't all run at once, while many smaller VMs can be put in to the same job due to each replication being able to finish quickly.
+The size of VMs and how much data change that occurs on them is important to take in to consideration when deciding which VMs are grouped together in replication jobs. If you were to group together multiple large VMs with a high amount of data change, they will attempt to run simultaneously and could take up all of the Veeam resources; this would likely cause other replications to sit idle potentially missing their RPO. These large VMs should be split out, so they don't all run at once, while many smaller VMs can be put in to the same job due to each replication being able to finish quickly.
 
 ## Storage Utilisation 
-Running off the back of the rentention periods and data change for VMs is the storage required at UKFast for replication Jobs. The more restore points and the longer retention you have, coupled with the amount of data change, the more storage you will use out of your Cloud Connect quota.
+Running off the back of the rentention periods and data change for VMs is the storage required at UKFast for replication Jobs. The more restore points and the longer retention you have, coupled with the amount of data change, the more storage you will use out of your UKFast Cloud Connect quota.
 
 `this section doesn't appear correctly in MyUKFast`
 
     Storage Utilisation Example 
 
-    Continuing with the previous example where there is a VM with 7 restore points and runs once an hour. Lets say this VM is 1000GB in size and has a data change of 10GB per hour. Each restore point on that VM would be saved as a 10GB Snapshot on UKFast's Infrastructure and therefore take 1070GB of your storage quota.  
+    Continuing with the previous example where there is a VM with 7 restore points and runs once an hour. Lets say this VM is 1000GB in size and has a data change of 10GB per hour. Each restore point on that VM would be saved as a 10GB Snapshot on UKFast's Infrastructure and therefore take ~1070GB of your storage quota (this figure could be higher if there has been a lot of additional data written rather than just changes).  
 
 
 ## Summary
-Once you are happy with all of the factors above you can start configuring your replication jobs in Veeam. If you have a large VMware estate that needs replicating it is worth noting that you will likely not get the schedule and configuring perfect first time round and that you can tweak/reconfigure jobs as and when needed.
+Once you are happy with all of the factors above you can start configuring your replication jobs in Veeam. If you have a large VMware estate that needs replicating it is worth noting that you will likely not get the schedule and configuration of jobs perfect first time round and will need to tweak them as time goes on.
 
 [Configuring Veeam Replication Jobs](configuring_a_replication_job.md)

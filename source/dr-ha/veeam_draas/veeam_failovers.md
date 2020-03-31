@@ -15,7 +15,7 @@ You have the ability to initiate these failovers from within your Veeam Backup a
 
 ## Partial Failovers
 
-Partial failovers are used to failover individual VMs. You will only use this type of failover in the event that your production site is still up and running. It will use both the NEA Appliance on your production and UKFast's infrastructure to create a Layer 2 VPN tunnel between the sites along with a ProxyARP solutions enabling VMs to communicate as if they were still in the same Layer 2 network. More information on this can be found here - [NEA Appliance - Partial Failovers](https://helpcenter.veeam.com/docs/backup/cloud/cloud_connect_partial_site_failover.html?ver=100)
+Partial failovers are used to failover individual VMs. You will only use this type of failover in the event that your production site is still up and running. It will use both the NEA Appliance on yours and UKFast's infrastructure to create a Layer 2 VPN tunnel between the sites along with a ProxyARP solutions enabling VMs to communicate as if they were still in the same Layer 2 network. More information on this can be found here - [NEA Appliance - Partial Failovers](https://helpcenter.veeam.com/docs/backup/cloud/cloud_connect_partial_site_failover.html?ver=100)
 
 
 
