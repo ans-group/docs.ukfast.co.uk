@@ -32,9 +32,9 @@ Before configuring your replication job please ensure you have read through this
 ![Replication Job - Destination](files/createreplicationjob/createreplicationjob_destination.png)
 
 ### Network
-<blockquote>
+
 Here you’ll create your network mappings. When you create a mapping all VMs on the "source network" at your site will be connected to the "target network" at UKFast. You should have a dedicated target network for each of the source networks which you are replicating VMs from.
-</blockquote>
+
 
 1. Select "Add" to create a network mapping > select the "source network" and "target network"
 
@@ -52,14 +52,14 @@ Here you’ll create your network mappings. When you create a mapping all VMs on
 ![Replication Job - Job Settings](files/createreplicationjob/createreplicationjob_jobsettings.png)
 
 ### Data Transfer
-<blockquote>
+
 Section to configure WAN accelerators, these are only beneficial to use when you have a network upload speed of lower than 60Mb/s. If you have not purchased a WAN accelerator from UKFast, you only need to complete step 1 ("Source Proxy"). You cannot configure one at your side if it hasn't been enabled on the service provider’s end.
 
 Sizing information for WAN accelerators can be found on Veeam’s website  - [WAN accelerator sizing](https://helpcenter.veeam.com/docs/backup/vsphere/wan_accelerator_sizing.html?ver=100). We generally recommend a starting point of the following:  
 * Hard disk size - 10% of total data that requires replicating
 * 4 CPUs
 * 16GB RAM
-</blockquote>
+
 
 1. **Source proxy** - we would generally recommend this is left as the default "Automatic Selection" unless you have any specific requirements.
 2. **Through built-in WAN accelerators** - if you have purchased a WAN accelerator from UKFast, select this option. 

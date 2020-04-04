@@ -34,11 +34,10 @@ We generally recommend you have one Failover Plan that has all of your VMs in, s
 
 ### Public IP Addresses
 
-```
 This is he section where you will create the network mappings for the public IP address UKFast has assigned to you. 
 
 You can use the same External IP multiple times for the same or different VMs providing you use a different source port. 
-```
+
 1. **Assign public IP addresses to use during full site failover** - if you need to assign public IPs to any VMs, you need to tick this box.
     * **Add...** - select this to create a new mapping rule. You have to create each mapping individually, but you can create multiple one after another while configuring the Failover Plan. You can also come back at a later date to add/modify/remove them.
         1. **Replica VM** - this will bring up a list of all VMs that you have selected to be included in your failover plan. You should select the VM that you want to set a rule up for.
