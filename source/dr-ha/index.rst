@@ -49,7 +49,7 @@ Documentation relating to our DR as a Service solutions.
 .. toctree::
    :maxdepth: 1
    
-   /draas/index
+   draas/index
 
 
 .. meta::
