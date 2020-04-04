@@ -37,19 +37,8 @@ Documentation relating to our highly-available solutions which are able to recov
 
    bcp/index
    /network/loadbalancing/index
+   draas/veeam_draas/index
    
-   
-   
------------------
-DRaaS
------------------
-
-Documentation relating to our DR as a Service solutions.
-
-.. toctree::
-   :maxdepth: 1
-   
-   draas/index
 
 
 .. meta::
