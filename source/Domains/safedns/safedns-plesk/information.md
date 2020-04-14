@@ -1,6 +1,4 @@
-# Plesk SafeDNS Extension
-
-## Info & Troubleshooting
+# Info & Troubleshooting - Plesk SafeDNS Ext
 
 The UKFast SafeDNS Plesk extension provides the ability to manage the SafeDNS Zone for any of the domains on your Plesk Server.
 

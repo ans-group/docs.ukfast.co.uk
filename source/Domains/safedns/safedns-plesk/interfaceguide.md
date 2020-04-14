@@ -1,6 +1,4 @@
-# Plesk SafeDNS Extension
-
-## Extension Interface
+# Interface Guide - Plesk SafeDNS Ext
 
 
 ### Welcome Page

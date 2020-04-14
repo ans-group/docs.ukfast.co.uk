@@ -1,6 +1,4 @@
-# Plesk SafeDNS Extension
-
-## Setup
+# Setup - Plesk SafeDNS Ext
 
 There are some settings you need to check before use, to make sure the DNS records will be valid.
 If you install the extension, the “Welcome” tab will guide you through this.
