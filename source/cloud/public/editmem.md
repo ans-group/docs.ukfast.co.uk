@@ -4,7 +4,9 @@ If resource contention on memory is noticed and additional resource is required 
 
 ![vmConfig](files/vmConfigLaunched.png)
 
-Within this screen you can drag the memory slider to increase or decrease the memory allocated to this VM specifically. After this has been set you can then apply changes for this to take effect. This can be done while the VM stays online as we allow memory hot-add on the platform. **Please note that services within the OS such as MySQL may require a restart to recognise the new memory.** A reduction of memory allocation however will require a reboot this is clearly stated before actioned as shown below.
+Within this screen you can drag the memory slider to increase or decrease the memory allocated to this VM specifically. After this has been set you can then apply changes for this to take effect. This can be done while the VM stays online as we allow memory hot-add on the platform. A reduction of memory allocation however will require a reboot this is clearly stated before actioned as shown below.
+
+**Please note that services within the OS such as MySQL may require a restart to recognise the new memory.** 
 
 ![rebootWarning](files/rebootWarning.png)
 
