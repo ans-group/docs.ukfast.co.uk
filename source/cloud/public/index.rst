@@ -19,6 +19,7 @@ eCloud Public is a public cloud hosting platform based on VMware.
    console
    /network/firewalls/index
    reinstallOS
+   marketplace 
 
 .. meta::
    :title: eCloud Public | UKFast Documentation
