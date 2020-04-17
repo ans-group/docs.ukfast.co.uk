@@ -15,6 +15,7 @@ eCloud Public is a public cloud hosting platform based on VMware.
    /operatingsystems/linux/basics/disk-expansion/index
    deletevm
    powerCycleVM
+   creds
 
 .. meta::
    :title: eCloud Public | UKFast Documentation
