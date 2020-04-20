@@ -1,8 +1,8 @@
 =======
-Getting Started Guides
+Getting Started with FastDesk
 =======
 
-A step-by-by guide for FASTdesk covering installation and configuration for first time use.
+A step-by-by guide for FastDesk covering installation and configuration for first time use.
 
 .. toctree::
 
