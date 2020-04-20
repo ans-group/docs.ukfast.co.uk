@@ -1,10 +1,3 @@
-```eval_rst
-.. meta::
-     :title: SSH Rules Explained | UKFast Documentation
-     :description: Our Threat Monitoring ruleset explained
-     :keywords: threat monitoring, alerts, security, compliance, rules, rulesets, ukfast, hosting, file integrity monitoring, rootkit, detection, vulnerability scan, scans, hids, intrusion detection, set up
-```
-
 # SSH (Secure Shell)
 
 ## OpenSSH challenge-response exploit.
@@ -56,3 +49,10 @@ Do not support SSH Version 1. This can be done by following the steps below as t
 * Restart OpenSSH: `service sshd restart`
 
 Done. This turns off support for SSH1 which is where the vulnerability lies. 
+
+```eval_rst
+.. meta::
+     :title: SSH Rules Explained | UKFast Documentation
+     :description: Our Threat Monitoring ruleset explained
+     :keywords: threat monitoring, alerts, security, compliance, rules, rulesets, ukfast, hosting, file integrity monitoring, rootkit, detection, vulnerability scan, scans, hids, intrusion detection, set up
+

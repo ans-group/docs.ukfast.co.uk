@@ -4,15 +4,15 @@ Magento 2
 
 In 2015 we created our Magento 2 optimised stack. The core components of this stack are:
 
-* **Firewall**: :doc:`Dedicated/Shared Firewall </network/firewalls/index>` 
-* **Web Service**: :doc:`/operatingsystems/linux/nginx/index`
-* **PHP Utilities**: :doc:`/ecommercestacks/magento/magento2/php/index`, :doc:`/operatingsystems/linux/php-fpm/index`, :doc:`/ecommercestacks/magento/magento2/opcache/index`, :doc:`/ecommercestacks/magento/magento2/composer/index`
-* **Mail Services**: :doc:`Postfix </operatingsystems/linux/mail/postfix>`
-* **SSH/FTP Access**: :doc:`/operatingsystems/linux/ssh/index`, :doc:`/operatingsystems/linux/ftp/setup_vsftpd`
-* **HTTP Caching Utilities**: :doc:`/ecommercestacks/magento/magento2/varnish/index`
-* **Database services**: :doc:`/operatingsystems/linux/percona/index`, :doc:`/operatingsystems/linux/elasticsearch/index`, :doc:`/ecommercestacks/magento/magento2/redis/index`
-* **Version Control Utilities**: :doc:`/operatingsystems/linux/git/index`
-* **File system distribution**: :doc:`/operatingsystems/linux/nfs/index`
+- **Firewall**: :doc:`Dedicated/Shared Firewall </network/firewalls/index>` 
+- **Web Service**: :doc:`/operatingsystems/linux/nginx/index`
+- **PHP Utilities**: :doc:`/ecommercestacks/magento/magento2/php/index`, :doc:`/operatingsystems/linux/php-fpm/index`, :doc:`/ecommercestacks/magento/magento2/opcache/index`, :doc:`/ecommercestacks/magento/magento2/composer/index`
+- **Mail Services**: :doc:`Postfix </operatingsystems/linux/mail/postfix>`
+- **SSH/FTP Access**: :doc:`/operatingsystems/linux/ssh/index`, :doc:`/operatingsystems/linux/ftp/setup_vsftpd`
+- **HTTP Caching Utilities**: :doc:`/ecommercestacks/magento/magento2/varnish/index`
+- **Database services**: :doc:`/operatingsystems/linux/percona/index`, :doc:`/operatingsystems/linux/elasticsearch/index`, :doc:`/ecommercestacks/magento/magento2/redis/index`
+- **Version Control Utilities**: :doc:`/operatingsystems/linux/git/index`
+- **File system distribution**: :doc:`/operatingsystems/linux/nfs/index`
 
 We have a number of guides for our Magento 2 optimised stack:
 
@@ -27,7 +27,7 @@ We have a number of guides for our Magento 2 optimised stack:
    restrictfilefolder.md
    m2insubdir.md
    adddomain.md
-   ../redtrictwebsite.md
+   ../restrictwebsite.md
    ../magentottfb.md
    ../dbtriggers.md
    rabbitmq/index
@@ -37,6 +37,8 @@ We have a number of guides for our Magento 2 optimised stack:
    php/index
    multiphp/index
    redis/index
+   
+Find out more about our Magento hosting offerings here: https://www.ukfast.co.uk/magento-ecommerce-hosting.html
    
 We also have guides for :doc:`/ecommercestacks/magento/magento1/index`
    

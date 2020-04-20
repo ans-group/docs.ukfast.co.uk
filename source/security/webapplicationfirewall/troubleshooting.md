@@ -2,13 +2,13 @@
 
 This page relates to hardware-based WAFs only.  Please [see here](/security/ddos/wafsettings.html) for guidance on WAF on DDoSX.
 
-Typically WAFs suffer from very few problems as long as they have been [set up correctly](https://docs.ukfast.co.uk/security/webapplicationfirewall/gettingstarted.html).
+Typically WAFs suffer from very few problems as long as they have been [set up correctly](/security/webapplicationfirewall/gettingstarted.html).
 
 Here are a few possible fixes in the event of any issues:
 
   - **WAF doesn't appear to be working:**  Ensure the DNS is pointing towards the WAF IP rather than your internal server IP, as the WAF is acting as a proxy to provide the smoothest way of checking incoming traffic.
 
-  - **WAF isn't blocking any traffic:**  This is most likely due to the WAF being in [learning mode](https://docs.ukfast.co.uk/security/webapplicationfirewall/gettingstarted.html).  Contact UKFast immediately to have the WAF fully switched-on.
+  - **WAF isn't blocking any traffic:**  This is most likely due to the WAF being in [learning mode](/security/webapplicationfirewall/gettingstarted.html).  Contact UKFast immediately to have the WAF fully switched-on.
 
   - **400 error:** This is typically due to either the WAF having a problem connecting to your internal server, or a problem on the internal server itself.
 

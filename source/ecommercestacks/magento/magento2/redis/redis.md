@@ -18,21 +18,21 @@ You can use the Magento2 CLI to configure Redis. Please review the below command
 
 #### Sessions
 ```bash
-bin/magento setup:config:set --session-save=redis --session-save-redis-host=127.0.0.1 session-save-redis-port=6379 --session-save-redis-log-level=3 --session-save-redis-db=2
+php bin/magento setup:config:set --session-save=redis --session-save-redis-host=127.0.0.1 --session-save-redis-port=6379 --session-save-redis-log-level=3 --session-save-redis-db=2
 ```
 
 #### Cache
 ```bash
-bin/magento setup:config:set --cache-backend=redis --cache-backend-redis-server=127.0.0.1 cache-backend-redis-port=6380 --cache-backend-redis-db=0
+php bin/magento setup:config:set --cache-backend=redis --cache-backend-redis-server=127.0.0.1 --cache-backend-redis-port=6380 --cache-backend-redis-db=0
 ```
 
 #### Page Cache
 ```bash
-bin/magento setup:config:set --page-cache=redis --page-cache-redis-server=127.0.0.1 page-cache-redis-port=6381 --page-cache-redis-db=1
+php bin/magento setup:config:set --page-cache=redis --page-cache-redis-server=127.0.0.1 --page-cache-redis-port=6381 --page-cache-redis-db=1
 ```
 
 ### Redis Service
-You can find more information on the Redis service [here](https://docs.ukfast.co.uk/operatingsystems/linux/redis/redis.html)
+You can find more information on the Redis service [here](/operatingsystems/linux/redis/redis.html)
 
 ```eval_rst
   .. meta::

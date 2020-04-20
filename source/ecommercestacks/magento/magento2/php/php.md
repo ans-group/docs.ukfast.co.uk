@@ -47,16 +47,16 @@ yum install --disablerepo='*' --enablerepo=base,remi-php70,remi,epel,updates php
 
 #### PHP 7.1
 ```bash
-yum install --disablerepo='*' --enablerepo=base,remi-php71,remi,epel,updates php php-mcrypt php-pdo php-mysqlnd php-opcache php-xml php-gd php-devel php-mysql php-intl php-mbstring php-bcmath php-json php-iconv php-pecl-redis php-fpm php-zip php-soap composer
+yum install --disablerepo='*' --enablerepo=base,remi-php71,remi,epel,updates php php-mcrypt php-pdo php-mysqlnd php-opcache php-xml php-gd php-devel php-mysql php-intl php-mbstring php-bcmath php-json php-iconv php-pecl-redis php-fpm php-zip php-soap php-sodium  libsodium composer
 ```
 #### PHP 7.2
 ```bash
-yum install --disablerepo='*' --enablerepo=base,remi-php72,remi,epel,updates php php-pecl-mcrypt php-pdo php-mysqlnd php-opcache php-xml php-gd php-devel php-mysql php-intl php-mbstring php-bcmath php-json php-iconv php-pecl-redis php-fpm php-zip php-soap composer
+yum install --disablerepo='*' --enablerepo=base,remi-php72,remi,epel,updates php php-pecl-mcrypt php-pdo php-mysqlnd php-opcache php-xml php-gd php-devel php-mysql php-intl php-mbstring php-bcmath php-json php-iconv php-pecl-redis php-fpm php-zip php-soap php-sodium  libsodium composer
 ```
 
 #### PHP 7.3
 ```bash
-yum install --disablerepo='*' --enablerepo=base,remi-php73,remi,epel,updates php php-pecl-mcrypt php-pdo php-mysqlnd php-opcache php-xml php-gd php-devel php-mysql php-intl php-mbstring php-bcmath php-json php-iconv php-pecl-redis php-fpm php-zip php-soap composer
+yum install --disablerepo='*' --enablerepo=base,remi-php73,remi,epel,updates php php-pecl-mcrypt php-pdo php-mysqlnd php-opcache php-xml php-gd php-devel php-mysql php-intl php-mbstring php-bcmath php-json php-iconv php-pecl-redis php-fpm php-zip php-soap php-sodium libsodium composer
 ```
 
 ### Update PHP
@@ -78,7 +78,7 @@ yum update --disablerepo='*' --enablerepo=base,remi-php72,remi,epel,updates 'php
 
 #### PHP 7.3
 ```bash
-yum update --disablerepo='*' --enablerepo=base,remi-php72,remi,epel,updates 'php-*' 
+yum update --disablerepo='*' --enablerepo=base,remi-php73,remi,epel,updates 'php-*' 
 ```
 
 If any of the following packages are updated as dependences, Nginx will require a restart after updating PHP
@@ -107,10 +107,11 @@ sed -i 's/;opcache.save_comments=0/opcache.save_comments=1/g' /etc/php.d/*opcach
 sed -i 's/;opcache.save_comments=1/opcache.save_comments=1/g' /etc/php.d/*opcache.ini
 sed -i 's/opcache.save_comments=0/opcache.save_comments=1/g' /etc/php.d/*opcache.ini
 sed -i 's/;opcache.load_comments=1/opcache.load_comments=1/g' /etc/php.d/*opcache.ini
+sed -i 's/;opcache.load_comments=0/opcache.load_comments=1/g' /etc/php.d/*opcache.ini
 sed -i 's/;opcache.enable_file_override=0/opcache.enable_file_override=1/g' /etc/php.d/*opcache.ini
 ```
 
-You can find more information on OPcache [here](https://docs.ukfast.co.uk/ecommercestacks/magento/magento2/opcache/opcache.html#stack-opcache-settings)
+You can find more information on OPcache [here](/ecommercestacks/magento/magento2/opcache/opcache.html#stack-opcache-settings)
 
 ### /etc/php.ini Settings
 Review and copy the settings from /root/php_upgrade_backup-$(date +%d_%b_%Y)/php.ini to /etc/php.ini. Alternatively use our standard settings for the php.ini file (You can copy and paste the whole block below into your SSH terminal):
@@ -119,7 +120,9 @@ Review and copy the settings from /root/php_upgrade_backup-$(date +%d_%b_%Y)/php
 cp /etc/php.ini /root/php.ini.default
 sed -ie "s_;date.timezone =_date.timezone = \"Europe/London\"_g" /etc/php.ini
 sed -ie "s/; max_input_vars = 1000/max_input_vars = 20000/g" /etc/php.ini
+sed -ie "s/;max_input_vars = 1000/max_input_vars = 20000/g" /etc/php.ini
 sed -ie "s/memory_limit = 128M/memory_limit = 2G/" /etc/php.ini
+sed -ie "s/memory_limit = 512M/memory_limit = 2G/" /etc/php.ini
 sed -ie "s/max_execution_time = 30/max_execution_time = 18000/" /etc/php.ini
 sed -ie "s/max_input_time = 60/max_input_time = 90/" /etc/php.ini
 sed -ie "s/short_open_tag = Off/short_open_tag = On/" /etc/php.ini

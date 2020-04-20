@@ -21,9 +21,9 @@ Add the following ‘KexAlgorithms’ in /etc/ssh/sshd_config
 KexAlgorithms ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1,diffie-hellman-group-exchange-sha256
 ```
 
-### Restar SSH service on the server
+### Restart SSH service on the server
 ```bash
-/etc/init.d/sshd restart
+systemctl restart sshd
 ```
 
 ```eval_rst
