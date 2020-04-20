@@ -21,7 +21,7 @@ Getting Started Guides
 ######################
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    
    getting_started_guide/index
    
