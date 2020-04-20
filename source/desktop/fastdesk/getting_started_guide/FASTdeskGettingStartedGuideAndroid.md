@@ -1,6 +1,6 @@
-# Getting Started with FASTdesk: Android Edition
+# Getting Started with FastDesk: Android Edition
 
-FASTdesk® is UKFast’s Desktop as a Service (DaaS) solution, which allows users and organisations to work more effectively and securely by giving access to files, applications, and desktop items remotely via an internet connection. All desktop settings and files are stored remotely in the cloud, providing cross-device compatibility and eliminating the risk of data loss by removing the risk of unauthorised access. This DaaS solution allows users to work in the same way they would with a traditional local desktop, but increase the flexibility with which they do so regardless of the endpoint device hardware, operating system or form factor.
+FastDesk® is UKFast’s Desktop as a Service (DaaS) solution, which allows users and organisations to work more effectively and securely by giving access to files, applications, and desktop items remotely via an internet connection. All desktop settings and files are stored remotely in the cloud, providing cross-device compatibility and eliminating the risk of data loss by removing the risk of unauthorised access. This DaaS solution allows users to work in the same way they would with a traditional local desktop, but increase the flexibility with which they do so regardless of the endpoint device hardware, operating system or form factor.
 
 ```eval_rst
 .. note::
@@ -12,9 +12,9 @@ FASTdesk® is UKFast’s Desktop as a Service (DaaS) solution, which allows user
 ## Pre-Installation information
 
 
-This guide provides step by step instructions on installing and accessing FASTdesk on your Android device through the Citrix Workspace application. It is possible to access FASTdesk through the web portal on your Android device, however, it is recommended FASTdesk is accessed specifically through the Citrix Workspace Application. The Citrix Workspace application gives you:
+This guide provides step by step instructions on installing and accessing FastDesk on your Android device through the Citrix Workspace application. It is possible to access FastDesk through the web portal on your Android device, however, it is recommended FastDesk is accessed specifically through the Citrix Workspace Application. The Citrix Workspace application gives you:
 
-- Instant access to your FASTdesk environment in an easy-to-use, all-in-one interface. 
+- Instant access to your FastDesk environment in an easy-to-use, all-in-one interface. 
 - The Workspace application also fully integrated with the Citrix Content Collaboration (Also known as ShareFile) which gives you ability to upload and download files all within the one application. 
 
 If you currently use the older Citrix Receiver for Android, Citrix Workspace will replace this. If your Android device has insufficient storage, it is possible to install the Citrix Workspace App for Android on an external SD card and mount it on the local device (For more information on this, please contact the FASTdesk Team).
@@ -29,7 +29,7 @@ Once installation begins, your screen will be similar to what is pictured in **_
 
 ![Image 2: Citrix Workspace application is downloading](files/downloading.png "Image 2: Citrix Workspace application is downloading")
 
-## Step 2 - Logging into the FASTdesk Portal
+## Step 2 - Logging into the FastDesk Portal
 Once the "Citrix Workspace" application is installed, proceed to open it (Refer to **_image 3_ below**).
 
 ![Image 3: Citrix Workspace application is installed](files/appstore.png "Image 3: Citrix Workspace application is installed")
@@ -40,13 +40,13 @@ After launching Citrix Workspace for the first time, you will receive four notif
 
 Once finished, you will be prompted to enter a company email address or store URL. Simply type the following URL `“https://www.fastdesk.co.uk” and click Continue`. Do make sure you enter the full URL including the `"https://www."`. Please leave the "Add account type as Web Interface" unselected (Refer to **_image 5 below_** included).
 
-![Image 5: Entering FASTdesk Store URL](files/Enterservercreds.png "Image 5: Entering FASTdesk Store URL")
+![Image 5: Entering FASTdesk Store URL](files/Enterservercreds.png "Image 5: Entering FastDesk Store URL")
 
 If you get a prompt to save the URL, the option is yours as to whether you want the URL saved or not but we would recommend it as it makes it easier to log on on a day-to-day basis (See **_Image 6 below_**).
 
 ![Image 6: Save FASTdesk URL](files/firstlogin.png "Image 6: Save FASTdesk URL")
 
-You will then be prompted to enter your username and password into the application. Go ahead and enter the username and password credentials that were provided to you by the FASTdesk team (See **_Image 7 below_**). 
+You will then be prompted to enter your username and password into the application. Go ahead and enter the username and password credentials that were provided to you by the FastDesk team (See **_Image 7 below_**). 
 
 ![Image 7: Enter your credentials](files/entercreds.png "Image 7: Enter your credentials")
 
@@ -97,11 +97,11 @@ You can later set the desktop that has been allocated to you as a "Favorite". Th
    
 ```
 
-**_This instruction guide should assist you getting logged in for the first time. If you have any questions or still require assistance, please contact the FASTdesk support team on 0800 923 0617_**.
+**_This instruction guide should assist you getting logged in for the first time. If you have any questions or still require assistance, please contact the FastDesk support team on 0800 923 0617_**.
 
    ```eval_rst
   .. meta::
-     :title: FASTdesk Getting Started Guide: Apple iOS | UKFast Documentation
-     :description: Guide for users on how to get setup on FASTdesk using an Android Device
-     :keywords: FASTdesk, Citrix, ukfast, VDI, Citrix Receiver 
+     :title: FastDesk Getting Started Guide: Android | UKFast Documentation
+     :description: Guide for users on how to get setup on FastDesk using an Android Device
+     :keywords: FastDesk, Citrix, ukfast, VDI, Citrix Receiver 
 
