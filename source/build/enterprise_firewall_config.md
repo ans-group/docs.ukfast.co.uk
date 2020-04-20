@@ -25,7 +25,6 @@ All ports closed.
 | HTTPS    | 443  | TCP       |                    |
 +----------+------+-----------+--------------------+
 ```
-
 Other ports may be required to internally between VLANs as part of the configuration and setup of the solution by UKFast, for example Active Directory. If so additional ports may be opened depending on the technical requirements of your solution. 
 
 .. seealso::
