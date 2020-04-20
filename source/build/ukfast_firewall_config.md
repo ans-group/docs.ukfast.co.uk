@@ -58,6 +58,6 @@ If you have multiple VLANs as part of your solutions other ports may be required
 
 ```eval_rst
   .. meta::
-      :title: UKFast Default Configuration Of A Linux Server | UKFast Documentation
-      :description: Default Configuration for Linux Servers at deployment. 
-      :keywords: ukfast, hosting, linux, server, virtual
+      :title: UKFast Firewall Default Configuration | UKFast Documentation
+      :description: Default Configuration for UKFast Firewalls
+      :keywords: ukfast, hosting, firewall, server, virtual
