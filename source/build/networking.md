@@ -41,5 +41,3 @@ Each VLAN will be assigned a separate internal subnet, defined by UKFast.
       :title: UKFast networking build documentation | UKFast Documentation
       :description: Build documentation for UKFast networking
       :keywords: ukfast, hosting, networking, server, virtual
-
-
