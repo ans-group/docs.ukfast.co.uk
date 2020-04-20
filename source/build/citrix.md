@@ -1,4 +1,4 @@
-## Remote Desktop Services
+## Citrix
 
 Below outlines how the proposed configuration will be configured for the Citrix Farm.
 
@@ -6,22 +6,26 @@ Below outlines how the proposed configuration will be configured for the Citrix 
    UKFast will configure each role, add the SSL certificate (if purchased through UKFast) and ensure each role is able to communicate with the others.
 
 ```eval_rst
-+------------------+----------------------------+-------------------------------+
-| NetBIOS Name     | Role                       | Software / Features Installed |
-+==================+============================+===============================+
-| CTXADC01 / CTXNS | Citrix Netscaler ADC       | Citrix ADC Appliance          |
-+------------------+----------------------------+-------------------------------+
-| CTXSF01          | Citrix StoreFront          | Citrix Storefront             |
-|                  |                            | Citrix Receiver               |
-|                  |                            | IIS                           |
-+------------------+----------------------------+-------------------------------+
-| CTXDC01          | Citrix Delivery Controller | Citrix Delivery Controller    |
-|                  | Citrix Studio              | Citrix Studio                 |
-|                  |                            | Citrix Receiver               |
-+------------------+----------------------------+-------------------------------+
-| CTXMISC01        | Citrix Licencing           | Citrix Licencing              |
-|                  | Citrix Database Host       | Citrix Receiver               |
-+------------------+----------------------------+-------------------------------+
++------------------+----------------------------+----------------------------------------+
+| NetBIOS Name     | Role                       | Software / Features Installed          |
++==================+============================+========================================+
+| CTXADC01 / CTXNS | Citrix Netscaler ADC       | Citrix ADC Appliance                   |
++------------------+----------------------------+----------------------------------------+
+| CTXSF01          | Citrix StoreFront          | Citrix Storefront                      |
+|                  |                            | Citrix Receiver                        |
+|                  |                            | IIS                                    |
++------------------+----------------------------+----------------------------------------+
+| CTXDC01          | Citrix Delivery Controller | Citrix Delivery Controller             |
+|                  | Citrix Studio              | Citrix Studio                          |
+|                  |                            | Citrix Receiver                        |
++------------------+----------------------------+----------------------------------------+
+| CTXMISC01        | Citrix Licencing           | Citrix Licencing                       |
+|                  | Citrix Database Host       | Citrix Receiver                        |
++------------------+----------------------------+----------------------------------------+
+| CTXXENAPP01      | Citrix XenApp Host         | Purchased Apps (i.e. Microsoft Office) |
++------------------+----------------------------+----------------------------------------+
+| CTXXENAPP02      | Citrix XenApp Host         | Purchased Apps (i.e. Microsoft Office) |
++------------------+----------------------------+----------------------------------------+
 ```
 
 .. warning::
