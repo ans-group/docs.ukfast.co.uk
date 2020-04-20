@@ -33,11 +33,11 @@ Service Monitoring can be customised using your online Pre-Launch Questionnaire 
 
 ## Capacity Threshold Monitoring
 
-More information about Capacity Threshold Monitoring can be found here.
+More information about Capacity Threshold Monitoring can be found [here](ctm.md).
 
 ## Specific Application Monitoring
 
-More information about specific application monitoring can be found here.
+More information about specific application monitoring can be found [here](app_monitoring.md).
 
 ```eval_rst
   .. meta::
