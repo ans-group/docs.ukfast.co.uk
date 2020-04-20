@@ -49,9 +49,3 @@ If you wish, you are able to update this to:
       :title: UKFast Updates Default Configuration | UKFast Documentation
       :description: Default Configuration for UKFast Updates
       :keywords: ukfast, hosting, updates, server, virtual
-
-
-
-
-
-
