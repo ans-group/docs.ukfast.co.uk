@@ -12,12 +12,12 @@ FastDesk®  is UKFast’s Desktop as a Service (DaaS) solution, which allows use
 ## Pre-Installation information
 
 
-This guide provides step by step instructions on installing and accessing FastDesk on your Apple MacOS device. Day-to-day, there are two available methods to access FASTdesk on your  Apple MacOS device. These methods consist of the [web portal](https://www.fastdesk.co.uk/) and the Citrix Workspace Application. Whilst this guide will help you install the Citrix Workspace Application in order to access FastDesk for the first time, we highly recommend using the web portal to access FASTdesk on a day-to-day basis. 
+This guide provides step by step instructions on installing and accessing FastDesk on your Apple MacOS device. Day-to-day, there are two available methods to access FastDesk on your  Apple MacOS device. These methods consist of the [web portal](https://www.fastdesk.co.uk/) and the Citrix Workspace Application. Whilst this guide will help you install the Citrix Workspace Application in order to access FastDesk for the first time, we highly recommend using the web portal to access FASTdesk on a day-to-day basis. 
 
 Both the Citrix Workspace application and web portal gives you:
 
-- Instant access to your FASTdesk environment in an easy-to-use, all-in-one interface.
-- Ability to use the FASTdesk on domain and non-domain joined PCs and thin clients. 
+- Instant access to your FastDesk environment in an easy-to-use, all-in-one interface.
+- Ability to use the FastDesk on domain and non-domain joined PCs and thin clients. 
 - Full integration with the Citrix Content Collaboration (Also known as ShareFile) which gives you the ability to upload and download files all in one place.
 
 ## Step 1 -  Installing the Citrix Workspace Application
