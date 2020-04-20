@@ -18,12 +18,15 @@ Find out more about FastDesk and how it can help increase the flexibility in the
 
 
 Getting Started Guides 
-######################
+###
 
 .. toctree::
    :maxdepth: 1
    
-   getting_started_guide/index
+   getting_started_guide/FASTdeskGettingStartedGuideWindows.md
+   getting_started_guide/FASTdeskGettingStartedGuideMacOS.md
+   getting_started_guide/FASTdeskGettingStartedGuideiOS.md
+   getting_started_guide/FASTdeskGettingStartedGuideAndroid.md
    
 .. meta::
    :title: FastDesk - hosted desktops | UKFast Documentation
