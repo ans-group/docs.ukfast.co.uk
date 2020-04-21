@@ -76,7 +76,11 @@ release = '0.1'
 # List of directories, relative to source directory, that shouldn't be searched
 # for source files.
 #exclude_trees = ['source/_themes']
-exclude_patterns= ['*_themes*']
+
+exclude_patterns = [
+    '*_themes*',
+    'security/phishing/*.rst'
+]
 
 # The reST default role (used for this markup: `text`) to use for all documents.
 #default_role = None
@@ -202,9 +206,6 @@ htmlhelp_basename = 'UKFastdocsdoc'
 
 # Documents to append as an appendix to all manuals.
 #latex_appendices = []
-
-#  Added by bradley.king@ukfast.co.uk to exclude the PhaaS content from the build
-exclude_patterns = ['security/phishing/*.rst']
 
 # If false, no module index is generated.
 #latex_use_modindex = True
