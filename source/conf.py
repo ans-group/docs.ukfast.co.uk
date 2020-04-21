@@ -79,7 +79,7 @@ release = '0.1'
 
 exclude_patterns = [
     '*_themes*',
-    'security/phishing/*.rst'
+    'security/phishing/*'
 ]
 
 # The reST default role (used for this markup: `text`) to use for all documents.
