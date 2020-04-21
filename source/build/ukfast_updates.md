@@ -1,8 +1,8 @@
 # Updates
-
+```eval_rst
 .. seealso::
    Please note that updates can be customised using your online Pre-Launch Questionnaire.
-
+```
 ## Windows Updates
 
 By default single role Windows Servers will have the following Group Policy Configuration:
@@ -16,10 +16,10 @@ You are also able to configure Windows Updates with the following options:
 - Notify me when there is an update before downloading, and allow me to manually install the update
 - Never check for updates
 - Install Preferences (Day and Time)
-
+```eval_rst
 .. seealso::
    Please keep in mind that updates may reboot your server automatically, so you should pick an appropriate time to install the updates.
-
+```
 ### Example Updates Schedule
 
 ```eval_rst
