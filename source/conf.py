@@ -203,6 +203,9 @@ htmlhelp_basename = 'UKFastdocsdoc'
 # Documents to append as an appendix to all manuals.
 #latex_appendices = []
 
+#  Added by bradley.king@ukfast.co.uk to exclude the PhaaS content from the build
+exclude_patterns = ['security/phishing/*.rst']
+
 # If false, no module index is generated.
 #latex_use_modindex = True
 doc_root = 'https://docs.ukfast.co.uk/'
