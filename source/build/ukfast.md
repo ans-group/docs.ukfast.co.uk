@@ -25,7 +25,7 @@ Below are the different facets that make up a UKFast solution, click on the link
 ## Updates
 - [Updates Policy](ukfast_updates.md)
 
-## Application Specific configuration
+## Application Specific Configuration
 - [Database Server Configuration](db_default.md)
 - [Web Server Configuration](web_default.md)
 - [File Server Configuration](file_default.md)
