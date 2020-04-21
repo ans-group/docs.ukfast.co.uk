@@ -1,8 +1,8 @@
 # Updates
-
+```eval_rst
 .. seealso::
    Please note that updates can be customised using your Enterprise Launch Questionnaire.
-
+```
 ## Windows Updates
 
 Any File or SQL Clusters in the solution will have the following Group Policy configuration:
