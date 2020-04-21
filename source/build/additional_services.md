@@ -8,10 +8,6 @@ For the latest information on DDOSX® Protection please see https://my.ukfast.co
 
 For the latest information on Threat Monitoring please see https://my.ukfast.co.uk/threat-monitoring/ and https://docs.ukfast.co.uk/security/threatmonitoring/ for all technical documentation. 
 
-## Phishing As A Service
-
-For the latest information on PhaaS please see https://my.ukfast.co.uk/phishing. 
-
 ```eval_rst
   .. meta::
       :title: UKFast additional services build documentation | UKFast Documentation
