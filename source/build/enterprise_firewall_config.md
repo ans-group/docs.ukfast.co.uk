@@ -26,10 +26,10 @@ All ports closed.
 +----------+------+-----------+--------------------+
 ```
 Other ports may be required to internally between VLANs as part of the configuration and setup of the solution by UKFast, for example Active Directory. If so additional ports may be opened depending on the technical requirements of your solution. 
-
+```eval_rst
 .. seealso::
    Depending on your solution design & complexity, firewall rules can be viewed & configured in MyUKFast.
-
+```
 ```eval_rst
   .. meta::
       :title: UKFast Enterprise Firewall Default Configuration | UKFast Documentation
