@@ -11,7 +11,7 @@ Below are the different facets that make up a UKFast solution, click on the link
 - [VPNs & VLANs](networking.md)
   
 ## Monitoring
-- [Server Monitoring](ukfast_monitoring.md)
+- [Service Monitoring](ukfast_monitoring.md)
 - [Application Monitoring](app_monitoring.md)
 - [Capacity Threshold Monitoring](ctm.md)
 
