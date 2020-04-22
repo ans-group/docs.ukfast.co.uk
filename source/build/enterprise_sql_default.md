@@ -35,6 +35,6 @@
 
 ```eval_rst
   .. meta::
-      :title: UKFast MS-SQL database build documentation | UKFast Documentation
-      :description: Build documentation for MS-SQL database servers
+      :title: UKFast Enterprise MS-SQL database build documentation | UKFast Documentation
+      :description: Build documentation for Enterprise MS-SQL database servers
       :keywords: ukfast, hosting, database, server, virtual, mssql
