@@ -41,7 +41,7 @@ Below are the different facets that make up a UKFast Enterprise solution, click 
 - [Load Balancers, Web Application Firewalls & Webcelerators](appliances.md)
 
 ## Additional Services
-- [DDoSX, Threat Monitoring & Phishing as a Service](additional_services.md)
+- [DDoSX & Threat Monitoring](additional_services.md)
 - [FastDrive](fastdrive.md)
 
 ```eval_rst
