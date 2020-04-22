@@ -1,6 +1,6 @@
 # User Administraion For AnyConnect VPN
 
-If you have an AnyConnect VPN setup on your dedicated firewal you can now edit the user configuration via the online editor.  You can 
+If you have an AnyConnect VPN setup on your dedicated firewal you can edit the user configuration via the online editor.  You can 
 add a user, remove a user, change passwords and/or group-policy for a user all via the MyUKFast VPN Users tab.
 
 ![VPN Users Tab](files/UserTab.png)
