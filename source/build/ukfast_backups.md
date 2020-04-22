@@ -3,10 +3,10 @@
 In order for UKFast to simplify our backup schedule offering without losing the ability to tailor the configuration to your solution, we have predefined backup options available for you to select from. Please note that: 
 - The default retention for dedicated CommVault is 7 days.
 - The time backups run at is stipulated by UKFast in an overnight window, unless otherwise specified.
-
+```eval_rst
 .. seealso::
-   To make changes to the backup window, frequency or retention of any of your backup policies post launch, along with adding any backup excultions to specific folders, files or file types please use the Priority Support System in the MyUKFast portal.
-
+   To make changes to the backup window, frequency or retention of any of your backup policies post launch, along with adding any backup exclusions to specific folders, files or file types please use the Priority Support System in the MyUKFast portal.
+```
 ## Operating System and File Level Backups
 
 ### Backup Options

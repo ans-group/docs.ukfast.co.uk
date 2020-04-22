@@ -1,9 +1,10 @@
 # Networking
 
 ## VPN Connections
+```eval_rst
 .. seealso::
    Depending on the firewall you have purchased will depend on the number of available VPN connections for each device. 
-
+```
 Below you will find the maximum number of supported Site to Site VPNs:
 
 ```eval_rst
@@ -32,10 +33,11 @@ Your solution will be configured with a single VLAN which will contain all of yo
 | Inside    | All servers. |
 +-----------+--------------+
 ```
+```eval_rst
 .. warning::
    If you require additional VLAN segregation, please speak to your Account Manager as soon as possible. This must be done before the solution build is started, or we may not be able to fulfil your request. 
 Each VLAN will be assigned a separate internal subnet, defined by UKFast.
-
+```
 ```eval_rst
   .. meta::
       :title: UKFast networking build documentation | UKFast Documentation

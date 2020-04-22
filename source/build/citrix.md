@@ -1,10 +1,10 @@
 ## Citrix
 
 Below outlines how the proposed configuration will be configured for the Citrix Farm.
-
+```eval_rst
 .. seealso::
    UKFast will configure each role, add the SSL certificate (if purchased through UKFast) and ensure each role is able to communicate with the others.
-
+```
 ```eval_rst
 +------------------+----------------------------+----------------------------------------+
 | NetBIOS Name     | Role                       | Software / Features Installed          |
@@ -28,9 +28,10 @@ Below outlines how the proposed configuration will be configured for the Citrix 
 +------------------+----------------------------+----------------------------------------+
 ```
 
+```eval_rst
 .. warning::
    UKFast are not responsible for configuring users, Group Policies or RDS Collection Groups. This is the responsibility of the client to administer, although UKFast Support is on-hand if any guidance is required.
-
+```
 ```eval_rst
   .. meta::
       :title: UKFast Citrix build documentation | UKFast Documentation

@@ -18,9 +18,10 @@ Service Monitoring can be customised using your online Pre-Launch Questionnaire 
 | FTP        | Enabled |
 +------------+---------+
 ```
+```eval_rst
 .. seealso::
    If additional optional monitoring is required for services not listed above please inform your Account Manager or request via the Priority Support system in the MyUKFast portal after launch to make configuration changes.
-
+```
 ## Example Additional Monitoring Options
 
 ```eval_rst
