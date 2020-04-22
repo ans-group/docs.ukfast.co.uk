@@ -17,6 +17,6 @@
 
 ```eval_rst
   .. meta::
-      :title: UKFast database build documentation | UKFast Documentation
-      :description: Build documentation for database servers
-      :keywords: ukfast, hosting, database, server, virtual
+      :title: UKFast MySQL database build documentation | UKFast Documentation
+      :description: Build documentation for MySQL database servers
+      :keywords: ukfast, hosting, database, server, virtual, mssql
