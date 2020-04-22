@@ -10,7 +10,7 @@ add a user, remove a user, change passwords and/or group-policy for a user all v
 Once on the VPN Users tab you will see an option to "Add New User" near the top of the page.  Click this and you will be presented
 with this screen:
 
-![New User](files/NewUser.png)
+![New User](files/NewUser.PNG)
 
 Fill in the fields given and select the group-policy you would like applying to the new user (there may only be one in the list).  Then 
 click add user.
