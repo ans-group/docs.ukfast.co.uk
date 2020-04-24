@@ -23,7 +23,9 @@ To edit an existing user click the user name in the list of users on the VPN Use
 
 Please note, the change is not made to the firewall until you click "Apply Changes".
 
-.. meta::
+```eval_rst
+     .. meta::
      :title: User Administration For AnyConnect VPN | UKFast Documentation
      :description: How to add/remove/edit AnyConnect VPN Users
      :keywords: ukfast, firewall, vpn, setup, remove access, AnyConnect
+```
