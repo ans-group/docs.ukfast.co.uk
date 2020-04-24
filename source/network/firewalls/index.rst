@@ -44,6 +44,7 @@ UKFast VPNs on dedicated firewalls
    
    supportedvpns
    createvpn
+   VPNUsers
    vpn2fa
    vpncapacity
 

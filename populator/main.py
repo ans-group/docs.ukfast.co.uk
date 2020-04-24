@@ -9,9 +9,13 @@ from elasticsearch import Elasticsearch
 import shutil
 import sys
 import time
+import json
 
-logging.basicConfig(level=logging.DEBUG, format='%(asctime)s | %(levelname)-10s | %(filename)-20s  | %(funcName)-30s | %(lineno)-5d | %(message)s')
+logging.basicConfig(
+    level=logging.DEBUG,
+    format='%(asctime)s | %(levelname)-10s | %(filename)-20s  | %(funcName)-30s | %(lineno)-5d | %(message)s')
 logging.getLogger("elasticsearch").setLevel(logging.WARNING)
+logging.getLogger("urllib3").setLevel(logging.WARNING)
 
 file_type = '.md'
 remove_regex = [r'.. (.*?)::']
@@ -120,11 +124,32 @@ def list_md_files_in_dir(dir_):
     Useful if you've cloned the docs repo.
     """
     file_paths = []
+    exclusions = []
+
+    try:
+        with open('../source/exclusions.json', 'r') as file:
+            data = json.load(file)
+            exclusions = data['search']
+    except:
+        logging.warning('Failed to parse exclusions.')
+
     try:
         for root, _, files in os.walk(dir_):
             for file in files:
                 if file.endswith(file_type):
-                    file_paths.append(os.path.join(root, file))
+                    
+                    exclude = False
+                    for exclusion in exclusions:
+                        file_path = os.path.join(root, file)
+                        if exclusion.replace('*', '') in file_path:
+                            exclude = True
+                            break
+
+                    if not exclude:
+                        file_paths.append(file_path)
+                    else:
+                        logging.info('File \'{}\' excluded due to exclusion match \'{}\''.format(
+                            file_path, exclusion))
     except:
         logging.exception('')
     return file_paths
@@ -136,10 +161,12 @@ def format_markdown_text(text, file):
     """
     output = prettify(text)
     title, desc, keywords = get_meta(text)
+    missing_metadata = False
 
     if not title or not desc:
         title, desc = approximate_meta(text)
         logging.warning('Missing proper meta tags in {}'.format(file))
+        missing_metadata = True
     else:
         logging.info('Found meta data for {}'.format(file))
 
@@ -148,7 +175,7 @@ def format_markdown_text(text, file):
         'description': desc,
         'keywords': ' '.join(keywords),
         'content': output
-    }
+    }, missing_metadata
 
 
 if __name__ == '__main__':
@@ -206,21 +233,23 @@ if __name__ == '__main__':
 
     logging.info('Populating elasticsearch...')
 
-    logging.info(list_md_files_in_dir(source_dir))
-    missing_meta = 0
-    found_meta = 0
-    for file in list_md_files_in_dir(source_dir):
+    missing_meta = []
 
+    files = list_md_files_in_dir(source_dir)
+
+    for file in files:
         logging.info('Processing {}...'.format(file))
 
-        output = format_markdown_text(open(file, 'r').read(), file)
-        if output['keywords'] == '':
-            missing_meta += 1
-        else:
-            found_meta += 1
+        output, missing_metadata = format_markdown_text(open(file, 'r').read(), file)
+        if missing_metadata:
+            missing_meta.append(file)
 
         output['url'] = file.replace(source_dir, '').replace('.md', '.html')
         es.index(index=index_name, body=output)
 
-    logging.info('Total documents missing meta tags {}/{}'.format(missing_meta, missing_meta + found_meta))
+    logging.info('Total documents missing meta tags {}/{}:'.format(len(missing_meta), len(files)))
+
+    for file in missing_meta: 
+        logging.warning(file)
+
     logging.info('Done!')
