@@ -26,7 +26,8 @@ Below are the different facets that make up a UKFast solution, click on the link
 - [Updates Policy](ukfast_updates.md)
 
 ## Application Specific Configuration
-- [Database Server Configuration](db_default.md)
+- [MS-SQL Database Server Configuration](ukfast_sql_default.md)
+- [MySQL Database Server Configuration](mysql_default.md)
 - [Web Server Configuration](web_default.md)
 - [File Server Configuration](file_default.md)
 
@@ -41,7 +42,7 @@ Below are the different facets that make up a UKFast solution, click on the link
 - [Load Balancers, Web Application Firewalls & Webcelerators](appliances.md)
 
 ## Additional Services
-- [DDoSX, Threat Monitoring & Phishing as a Service](additional_services.md)
+- [DDoSX & Threat Monitoring](additional_services.md)
 - [FastDrive](fastdrive.md)
 
 ```eval_rst
