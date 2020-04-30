@@ -21,7 +21,7 @@ For more information about FastDesk, visit the various links below.
 Ready to get started? 
 ------------------------------
 
-Step-by-step tutorials designed to help you set up and launch your FastDesk desktop. Simply choose your end client.   
+Here are step-by-step tutorials designed to help you set up and launch your FastDesk desktop. Simply choose your end client.   
 
 .. toctree::
    :maxdepth: 1
