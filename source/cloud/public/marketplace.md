@@ -1,6 +1,6 @@
 # eCloud Public VM Marketplace
 
-Specific OS customisation is available via the [eCloud marketplace](https://my.ukfast.co.uk/ecloud-public/marketplace). From you can chose a specific template and launch a VM pre-configured for this by selecting the template then launch appliance as shown below:
+Specific OS customisation is available via the [eCloud marketplace](https://my.ukfast.co.uk/ecloud-public/marketplace). From here you can chose a specific template and launch a VM pre-configured for this by selecting the template then launch appliance as shown below:
 
 ![launchAppliance](files/launchAppliance.png)
 

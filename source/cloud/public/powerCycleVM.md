@@ -1,6 +1,6 @@
 # eCloud Public VM power cycle
 
-In the event that you needed to reboot or power on or off a VM this can be actioned through [MyUKFast](https://my.ukfast.co.uk/ecloud-public), by selecting the VM and navigating to the reboot tab along the top. This will display the following. 
+In the event that you need to reboot or power on or off a VM this can be actioned through [MyUKFast](https://my.ukfast.co.uk/ecloud-public), by selecting the VM and navigating to the reboot tab along the top. This will display the following. 
 
 ![vmReboot](files/vmReboot.png)
 
