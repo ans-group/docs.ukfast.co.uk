@@ -18,7 +18,7 @@ For more information about FastDesk, visit the various links below.
  [How can I partner with FastDesk?](https://www.ukfast.co.uk/partner-programme-reseller-application.html)
 
 ------------------------------
-Getting Started with FastDesk
+Get started with FastDesk 
 ------------------------------
 
 .. toctree::
