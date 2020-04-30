@@ -35,6 +35,19 @@ Here are step-by-step tutorials designed to help you set up and launch your Fast
 Additional Resources
 ---------------------
 
+How-to guides. 
+
+More step-by-step tutorials 
+
+.. toctree::
+   :maxdepth: 1
+   
+   Whitelabelling
+   
+---------------------
+Additional Resources
+---------------------
+
 Find additional resources that will enhance your FastDesk experience. 
 
 .. toctree::
