@@ -35,16 +35,15 @@ Here are step-by-step tutorials designed to help you set up and launch your Fast
 Additional Resources
 ---------------------
 
+Find additional resources that will enhance your FastDesk experience. 
+
 .. toctree::
    :maxdepth: 1
    
-   getting_started_guide/FASTdeskGettingStartedGuideWindows.md
-   getting_started_guide/FASTdeskGettingStartedGuideMacOS.md
-   getting_started_guide/FASTdeskGettingStartedGuideiOS.md
-   getting_started_guide/FASTdeskGettingStartedGuideAndroid.md
-
+   Whitelabelling
+   
    
 .. meta::
    :title: FastDesk - hosted desktops | UKFast Documentation
    :description: Information relating to FastDesk, a hosted desktop solution from UKFast
-   :keywords: ukfast, fastdesk, desktop, hosting, cloud, server, citrix, workspace
+   :keywords: ukfast, fastdesk, desktop, hosting, cloud, server, citrix, workspace, daas
