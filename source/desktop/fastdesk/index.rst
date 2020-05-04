@@ -10,7 +10,7 @@ What is FastDesk?
 
 FastDesk is our desktop as a service (DaaS) solution, based on our award-winning hosting platform. It combines enterprise-grade infrastructure and hosting with market-leading Citrix desktop-virtualisation technology to provide a seamless all-in-one desktop experience regardless of the endpoint device. Welcome to the Future.
 
-For more information about FastDesk, visit the various links below. 
+For more information about FastDesk, please visit the various links below. 
  
  [What is FastDesk?](https://www.ukfast.co.uk/fastdesk.html)
  [Where is FastDesk?](https://www.ukfast.co.uk/our-datacentres.html)
@@ -32,23 +32,21 @@ Here are step-by-step tutorials designed to help you set up and launch your Fast
    getting_started_guide/FASTdeskGettingStartedGuideAndroid.md
    
 ---------------------
-Additional Resources
+How-to guide
 ---------------------
 
-How-to guides. 
-
-More step-by-step tutorials 
+A list of step-by-step tutorials to help you make the most out of your desktop
 
 .. toctree::
    :maxdepth: 1
    
-   Whitelabelling
+   Signout
    
 ---------------------
 Additional Resources
 ---------------------
 
-Find additional resources that will enhance your FastDesk experience. 
+Find additional resources that to enhance or customise your FastDesk experience. 
 
 .. toctree::
    :maxdepth: 1
