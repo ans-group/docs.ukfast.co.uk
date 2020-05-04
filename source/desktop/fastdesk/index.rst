@@ -35,7 +35,7 @@ Here are step-by-step tutorials designed to help you set up and launch your Fast
 How-to guide
 ---------------------
 
-A list of step-by-step tutorials to help you make the most out of your desktop
+Further step-by-step tutorials designed to help you make the most out of your desktop.
 
 .. toctree::
    :maxdepth: 1
@@ -46,7 +46,7 @@ A list of step-by-step tutorials to help you make the most out of your desktop
 Additional Resources
 ---------------------
 
-Find additional resources that to enhance or customise your FastDesk experience. 
+Find additional resources that will allow you to enhance or customise your FastDesk experience. 
 
 .. toctree::
    :maxdepth: 1
