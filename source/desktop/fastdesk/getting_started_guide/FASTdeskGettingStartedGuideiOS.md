@@ -73,7 +73,8 @@ Once selected, it should begin to launch your desktop. Once this has booted, you
    
 ```
 
-**_This instruction guide should assist you getting logged in for the first time. If you have any questions or still require assistance, please contact the FastDesk support team on 0800 923 0617_**.
+**_This instruction guide should assist you in getting logged in for the first time. If you have any questions or still require assistance, please contact the FastDesk support team on 0800 923 0617_**.
+
 
  ```eval_rst
    .. meta::

@@ -1,6 +1,5 @@
 # Launch FastDesk with a Windows Client
 
-
 FastDesk®  is UKFast’s Desktop as a Service (DaaS) solution, which allows users and organisations to work more effectively and securely by giving access to files, applications and desktop items remotely via an internet connection. All desktop settings and files are stored remotely in the cloud, providing cross-device compatibility and eliminating the risk of data loss by removing the risk of unauthorised access. This DaaS solution allows users to work in the same way they would with a traditional local desktop, but increase the flexibility with which they do so regardless of the endpoint device hardware, operating system or form factor.
 
 ```eval_rst
@@ -116,7 +115,7 @@ Simply type the following URL `"https://www.fastdesk.co.uk"` and click Add. Alte
    
 ```
 
-**_This instruction guide should assist you getting logged in for the first time. If you have any questions or still require assistance, please contact the FastDesk support team on 0800 923 0617_**.
+**_This instruction guide should assist you in getting logged in for the first time. If you have any questions or still require assistance, please contact the FastDesk support team on 0800 923 0617_**.
 
  ```eval_rst
    .. meta::

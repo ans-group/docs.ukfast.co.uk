@@ -11,15 +11,17 @@
 # All configuration values have a default; values that are commented out
 # serve to show the default.
 
-import sys, os
+import sys
+import os
+import json
 from recommonmark.parser import CommonMarkParser
 from recommonmark.transform import AutoStructify
 
 extensions = ['recommonmark']
 
-#source_parsers = {
+# source_parsers = {
 #    '.md': CommonMarkParser,
-#}
+# }
 
 #source_suffix = ['.rst', '.md']
 source_suffix = {
@@ -29,7 +31,7 @@ source_suffix = {
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
-#sys.path.append(os.path.abspath('.'))
+# sys.path.append(os.path.abspath('.'))
 
 #extensions = ['sphinxcontrib.youtube']
 
@@ -76,7 +78,13 @@ release = '0.1'
 # List of directories, relative to source directory, that shouldn't be searched
 # for source files.
 #exclude_trees = ['source/_themes']
-exclude_patterns= ['*_themes*']
+
+exclude_patterns = []
+
+with open('./exclusions.json', 'r') as file:
+    data = json.load(file)
+    exclude_patterns = data['build']
+
 
 # The reST default role (used for this markup: `text`) to use for all documents.
 #default_role = None
@@ -110,7 +118,7 @@ html_theme = 'ukf'
 # further.  For a list of options available for each theme, see the
 # documentation.
 html_theme_options = {
-#    'logo_only': True,
+    #    'logo_only': True,
 }
 
 # Add any paths that contain custom themes here, relative to this directory.
@@ -149,7 +157,7 @@ html_static_path = ['_static']
 
 # Custom sidebar templates, maps document names to template names.
 html_sidebars = {
- '**' : ['globaltoc.html', 'localtoc.html']
+    '**': ['globaltoc.html', 'localtoc.html']
 }
 
 # Additional templates that should be rendered to pages, maps page names to
@@ -206,10 +214,12 @@ htmlhelp_basename = 'UKFastdocsdoc'
 # If false, no module index is generated.
 #latex_use_modindex = True
 doc_root = 'https://docs.ukfast.co.uk/'
+
+
 def setup(app):
     app.add_config_value('recommonmark_config', {
-            'url_resolver': lambda url: doc_root + url,
-            'auto_toc_tree_section': 'Contents',
-            'enable_eval_rst': True,
-            }, True)
+        'url_resolver': lambda url: doc_root + url,
+        'auto_toc_tree_section': 'Contents',
+        'enable_eval_rst': True,
+    }, True)
     app.add_transform(AutoStructify)

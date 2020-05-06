@@ -11,7 +11,6 @@ FastDesk® is UKFast’s Desktop as a Service (DaaS) solution, which allows user
 
 ## Pre-Installation information
 
-
 This guide provides step by step instructions on installing and accessing FastDesk on your Android device through the Citrix Workspace application. It is possible to access FastDesk through the web portal on your Android device, however, it is recommended FastDesk is accessed specifically through the Citrix Workspace Application. The Citrix Workspace application gives you:
 
 - Instant access to your FastDesk environment in an easy-to-use, all-in-one interface. 
@@ -97,7 +96,7 @@ You can later set the desktop that has been allocated to you as a "Favorite". Th
    
 ```
 
-**_This instruction guide should assist you getting logged in for the first time. If you have any questions or still require assistance, please contact the FastDesk support team on 0800 923 0617_**.
+**_This instruction guide should assist you in getting logged in for the first time. If you have any questions or still require assistance, please contact the FastDesk support team on 0800 923 0617_**.
 
    ```eval_rst
   .. meta::
