@@ -1,4 +1,4 @@
-# How to effectively exit your FastDesk Desktop session 
+# How to effectively end your FastDesk Desktop session 
 
 ## What is disconnecting and when should I do it?
 
