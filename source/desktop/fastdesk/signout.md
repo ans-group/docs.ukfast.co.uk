@@ -23,7 +23,7 @@ To sign out of your FastDesk desktop, firstly find and click on the start menu b
 
 Once clicked, the start menu should open. You'll find three icons just above the Windows start menu button. The top icon will show your user icon, or a grey outline of a head and shoulders (refer to **image 2**). 
 
-![Image 1: How to sign out](files/Signout12 "Image 1: How to sign out")
+![Image 1: How to sign out](files/Signout12.png "Image 1: How to sign out")
 
 As illustrated in **image 2**, clicking on the icon (outlined in orange) will bring out a menu. Select the "Sign out" option (outlined in blue) and this will begin to fully sign out your FastDesk desktop. 
 
