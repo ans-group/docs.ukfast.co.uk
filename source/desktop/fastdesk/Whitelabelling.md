@@ -1,8 +1,8 @@
-# What is White Labelling?
+# White Labelling
 
 White Labelling allows you to impress your clients with out-of-the-box, enterprise-level technology, branded from your own portfolio. Offer UKFast's Desktop-as-a-Service solution as your own, build your brand and expand your business offerings. White Labelling will enable you to customise your FastDesk environment without the cost of a Private FastDesk. You will be able to add your own branding to custom domain.
 
-## How to get prepared? 
+## Getting Prepared
 
 In order to incorporate any form of white labelling onto your FastDesk environment, you will first need to purchase a domain. This domain can be anything of your choosing. This often relates to the company using the FastDesk environment. 
 
