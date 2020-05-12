@@ -2,16 +2,10 @@
 FastDesk
 =========
 
-Find out more about FastDesk and how it can help increase the flexibility in the way users work. Inside you will find the getting started guide as well as other resources that will enable you to begin your FastDesk experience.
-
-------------------------
-What is FastDesk?
-------------------------
-
 FastDesk is our desktop as a service (DaaS) solution, based on our award-winning hosting platform. It combines enterprise-grade infrastructure and hosting with market-leading Citrix desktop-virtualisation technology to provide a seamless all-in-one desktop experience regardless of the endpoint device. Welcome to the Future.
 
-For more information about FastDesk, please visit the various links below. 
- 
+For more information about FastDesk, and how it can help increase the flexibility in the way users work, please visit the various links below. 
+
 - `What is FASTdesk? <https://www.ukfast.co.uk/fastdesk.html>`_
  
 - `Where is FASTdesk? <https://www.ukfast.co.uk/our-datacentres.html/>`_
@@ -21,10 +15,10 @@ For more information about FastDesk, please visit the various links below.
 - `How can I partner with FASTdesk? <https://www.ukfast.co.uk/partner-programme-reseller-application.html>`_
 
 ------------------------------
-Ready to get started? 
+Getting Started Guides 
 ------------------------------
 
-Here are step-by-step tutorials designed to help you set up and launch your FastDesk desktop. Simply choose your end client.   
+Here are step-by-step tutorials designed to help you set up and launch your FastDesk desktop. Simply choose your device.   
 
 .. toctree::
    :maxdepth: 1
@@ -35,7 +29,7 @@ Here are step-by-step tutorials designed to help you set up and launch your Fast
    getting_started_guide/FASTdeskGettingStartedGuideAndroid.md
    
 ---------------------
-How-to guide
+How-to guides
 ---------------------
 
 Further step-by-step tutorials designed to help you make the most out of your desktop.
@@ -43,7 +37,7 @@ Further step-by-step tutorials designed to help you make the most out of your de
 .. toctree::
    :maxdepth: 1
    
-   Signout
+   signout
    
 ---------------------
 Additional Resources
