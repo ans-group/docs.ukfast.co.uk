@@ -13,6 +13,6 @@ Within this screen you can drag the memory slider to increase or decrease the di
 **Please note that services within the OS such as MySQL may require a restart to recognise the new memory.** 
 
 .. meta::
-   :title: eCloud Public APIs | UKFast Documentation
-   :description: Programatic control of your eCloud Public resources
-   :keywords: ukfast, cloud, ecloud, public, hosting, infrastructure, vmware, memory
+    :title: eCloud Public APIs | UKFast Documentation
+    :description: Programatic control of your eCloud Public resources
+    :keywords: ukfast, cloud, ecloud, public, hosting, infrastructure, vmware, memory
