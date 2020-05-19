@@ -1,21 +1,32 @@
-# Getting started with DDoSX, CDN and WAF
+# Setting up DDoSX, CDN and WAF
 
-DDoSX<sup>®</sup>, Content Delivery Network (CDN) and Web Application Firewall (WAF) are features of our global network that work together to significantly improve your website or web application's speed and security. DDoSX<sup>®</sup> provides protection against DDoS attacks. CDN is an **optional** feature that caches your site's content closer to the end user, and WAF is another **optional** feature which provides protection at the application layer for your domains. In order to use CDN and WAF, DDoSX must first be enabled on your domain(s).
+DDoSX<sup>®</sup>, can be setup to protect any domain from DDoS and common Web Application attacks such as SQL Injections, Remote Command Execution and Cross-Site Scripting (XSS). More on how DDoSX<sup>®</sup> works can be found :doc:`/security/ddos/generalinformation`.
 
-To use DDoSX<sup>®</sup>, CDN and WAF from UKFast, you need to either have your domains' nameservers pointing to the UKFast nameservers or have the ability to setup CNAME/ALIAS records with your current provider.
+CDN and WAF are optional additional DDoSX<sup>®</sup> features, and as a result DDoSX must first be enabled on your domain(s) to allow CDN and WAF to be configured.
 
-## Using safeDNS:
+To use DDoSX<sup>®</sup>, CDN and WAF, you need to either have your domains' setup on UKFast SafeDNS and ensure it's nameservers pointing to the UKFast nameservers or create a ANAME/ALIAS record with your current DNS provider to point to DDOSx using a provided CNAME. 
 
-To make sure to set up your DNS records correctly in SafeDNS first - see the :doc:`/Domains/safedns/index` guide for assistance.  You must move all records associated with the domains (including sub-domains) you wish to protect, including SMTP, MX, mail etc. to SafeDNS.
+Please note, only a handful of DNS providers have the ability to setup ANAME/ALIAS records. Please check that your DNS provider supports ANAME or ALIAS records beofre trying to setup a domain on DDoSX<sup>®</sup> using a CNAME.
+
+Some DNS providers that do support creating ALIAS/ANAME records include:
+
+* DNS Made Easy
+* Cloudflare (Via CNAME Flattening)
+
+## Pre using UKFast safeDNS:
+
+Before setting up a SafeDNS domain in, double check that your domain is setup correctly and working as expected Documentation onm how to setup SafeDNS can be found at :doc:`/Domains/safedns/index` should you assistance. 
+
+You must move all records associated with the domains (including sub-domains) you wish to protect, including SMTP, MX, mail etc to SafeDNS.
 
 Once you have done this, point your domains to the UKFast nameservers, which are:
 
    - ns0.ukfast.net
    - ns1.ukfast.net
 
-You'll need to do this through whichever domain registrar you use to manage your domains (which may not be UKFast).  If you don't know who your domain registrar is you can do a 'WHOIS' lookup on websites such as https://whois.icann.org/
+You'll need to do this through whichever domain registrar you use to manage your domains (which may not be UKFast). If you don't know who your domain registrar is you can do a 'WHOIS' lookup on websites such as https://whois.icann.org/
 
-## Set up CNAME:
+## Setup using an ALIAS/ANAME record:
 
 To set up CNAME read our [documentation in the FAQ's](/security/ddos/generalinformation.html). Please note that in order to protect your root domain, for example UKFast.co.uk, you must first check that your DNS provider will support root level forwarding such as; an ALIAS or ANAME. If your DNS provider does not support this we cannot protect the root domain. The root domain will also not be protected by WAF or able to serve CDN. However, for example,  www.ukfast.co.uk  and all subdomains will be fully protected. For more information read our documentation.
 
