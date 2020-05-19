@@ -60,7 +60,7 @@ To enable DDoSX<sup>®</sup>, CDN and WAF on your domains, follow these steps:
 
 **[5. Configure WAF settings](#configure-waf-settings)** for any domains requiring WAF protection
 
-## Connect domain
+### Connect domain
 
 - Login to [MyUKFast](https://my.ukfast.co.uk) and head to `DDoSX & CDN` in the `Products and Services` menu.
 - Click `Connect Now`
@@ -73,7 +73,7 @@ To enable DDoSX<sup>®</sup>, CDN and WAF on your domains, follow these steps:
 
 - Click `Confirm` to go through the payment process. (You won't have to complete this step if you've ordered DDoSX<sup>®</sup>, WAF or CDN via your UKFast account manager - you should see the relevant credits in your MyUKFast account already).
 
-## Configure domain
+### Configure domain
 
 - Click `Configure` next to the domain you wish to setup, and choose which A Records and AAAA Records you specifically want to protect for the domain.
 - You can assign any existing SSL certificates at this point. SSL certificates purchased from MyUKFast will appear in the dropdown menu, or click `Add SSL` to add details of other SSL certificates manually. SSL certificates can be managed within the `SSL Certificates` tab.
@@ -83,7 +83,7 @@ To enable DDoSX<sup>®</sup>, CDN and WAF on your domains, follow these steps:
 
 - Click `Apply Changes` and your domain will now be connected to the UKFast DDoSX<sup>®</sup> network, and configured appropriately. (You should allow up to 10 minutes for the changes to be fully applied)
 
-## Test domain and put live
+### Test domain and put live
 
 - Once you've connected your domain to the DDoSX network and configured your DNS records, you may wish to test that your website or application will work correctly before changing your live DNS routing.  This can be done by modifying your local `hosts` file to look for the DDoSX "Assigned IPv4" address for your domain.
 
@@ -112,11 +112,11 @@ To enable DDoSX<sup>®</sup>, CDN and WAF on your domains, follow these steps:
 
 - If you're happy with how your site performs, you can switch the DNS Routing for your domain to "DDoSX".  Note that it may take [up to 48 hours](/Domains/domains/dnspropagation.html) for DNS changes to propagate across the internet (as with any such changes), and before your domain is fully protected.
 
-## Create CDN caching rules
+### Create CDN caching rules
 
 For any domains with CDN added, content caching will not be activated until you have [added caching rules to the configuration](/network/cdn/cachingrules.html)
 
-## Configure WAF settings
+### Configure WAF settings
 
 Navigate to the WAF tab to find the settings for WAF on DDoSX.  There are a number of [different WAF settings](/security/ddos/wafsettings.html) that allow you to manage the level of protection for your domain.
 
@@ -127,7 +127,7 @@ Navigate to the WAF tab to find the settings for WAF on DDoSX.  There are a numb
 
 ```
 
-## Configure webserver logging (optional)
+### Configure webserver logging (optional)
 
 Once your domain is fully enabled on DDoSX, all requests to your webserver will appear to come from the DDoSX IP address rather than the original client. Therefore you may wish to configure your webserver to place the original client IP address into the logs. This is most important if you're using a stats package like Webalizer or AWStats, which rely on analysing your local webserver logs.
 
