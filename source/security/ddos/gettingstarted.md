@@ -66,14 +66,16 @@ Non-root level domains such as dashboard.example.com or my.example.com can be se
     - If the domain is in SafeDNS, the domain will automatically appear as a part of a selectable dropdown
     - If the domain is not in SafeDNS, you will need to enter the full domain. A blue message box will display with additional information.
 - Select any additional features you'd like like to add to this domain such as CDN or WAF.
-- Double check your domain and selected additional features and then hit 'Buy Now'
+- Double check your domain and selected additional features and then hit 'Buy Now'..
 - Repeat for each domain you want to add to the network.
 
 ![connect](files/connect_safedns_external.png)
 
-- Click `Confirm` to go through the payment process. (You won't have to complete this step if you've ordered DDoSX<sup>®</sup>, WAF or CDN via your UKFast account manager - you should see the relevant credits in your MyUKFast account already).
+- Click `Complete Transaction` on the next page to completed payment process. (You won't have to complete this step if you've ordered DDoSX<sup>®</sup>, WAF or CDN via your UKFast account manager -  Any existing credits will be consumed first).
 
-### Configure domain
+## 3) Verify domain (Non SafeDNS setup only)
+
+## 4) Configure domain
 
 - Click `Configure` next to the domain you wish to setup, and choose which A Records and AAAA Records you specifically want to protect for the domain.
 - You can assign any existing SSL certificates at this point. SSL certificates purchased from MyUKFast will appear in the dropdown menu, or click `Add SSL` to add details of other SSL certificates manually. SSL certificates can be managed within the `SSL Certificates` tab.
@@ -83,7 +85,7 @@ Non-root level domains such as dashboard.example.com or my.example.com can be se
 
 - Click `Apply Changes` and your domain will now be connected to the UKFast DDoSX<sup>®</sup> network, and configured appropriately. (You should allow up to 10 minutes for the changes to be fully applied)
 
-### Test domain and put live
+## 5) Test domain and put live
 
 - Once you've connected your domain to the DDoSX network and configured your DNS records, you may wish to test that your website or application will work correctly before changing your live DNS routing.  This can be done by modifying your local `hosts` file to look for the DDoSX "Assigned IPv4" address for your domain.
 
@@ -111,6 +113,10 @@ Non-root level domains such as dashboard.example.com or my.example.com can be se
 - Once you've added all the domains you need to test to your `hosts` file, save the changes. Then open a web browser and try browsing to your domain.  Your local `hosts` file will route the request directly to the DDoSX IP address so you'll be able to see exactly how your site will perform when you change your DNS records.
 
 - If you're happy with how your site performs, you can switch the DNS Routing for your domain to "DDoSX".  Note that it may take [up to 48 hours](/Domains/domains/dnspropagation.html) for DNS changes to propagate across the internet (as with any such changes), and before your domain is fully protected.
+
+## Additional Configuration
+
+If you have added additional features such as CDN or WAF to your DDoSX<sup>®</sup> protected domain, you can configure theese now.
 
 ### Create CDN caching rules
 
