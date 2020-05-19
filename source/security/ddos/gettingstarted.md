@@ -6,6 +6,18 @@ CDN and WAF are optional additional DDoSX<sup>®</sup> features, and as a result
 
 To use DDoSX<sup>®</sup>, CDN and WAF, you need to either have your domains' setup on UKFast SafeDNS and ensure it's nameservers pointing to the UKFast nameservers or create a ANAME/ALIAS record with your current DNS provider to point to DDOSx using a provided CNAME. 
 
+To enable DDoSX<sup>®</sup>, CDN and WAF on your domains, follow these steps:
+
+**[1. Connect](#connect-domain)** your domain(s) to DDoSX
+
+**[2. Configure](#configure-domain)** which domain records you'd like to protect
+
+**[3. Test](#test-domain-and-put-live)** your domains will work properly on the DDoSX network before putting them live
+
+**[4. Create CDN Caching Rules](#create-cdn-caching-rules)** for any CDN-enabled domains
+
+**[5. Configure WAF settings](#configure-waf-settings)** for any domains requiring WAF protection
+
 ```eval_rst
 .. warning::
 
@@ -46,30 +58,18 @@ If your DNS provider does not support this we cannot protect the root domain.
 Non-root level domains such as dashboard.example.com or my.example.com can be setup without using a ANAME/ALIAS by instead creating a basic CNAME record via your DNS provider and pointing it to your DDoSX<sup>®</sup> provided CNAME. 
 
 
-## 2) Add your domain to DDoSX<sup>®</sup>
+## 2) Connect your domain to DDoSX<sup>®</sup>
 
-To enable DDoSX<sup>®</sup>, CDN and WAF on your domains, follow these steps:
-
-**[1. Connect](#connect-domain)** your domain(s) to DDoSX
-
-**[2. Configure](#configure-domain)** which domain records you'd like to protect
-
-**[3. Test](#test-domain-and-put-live)** your domains will work properly on the DDoSX network before putting them live
-
-**[4. Create CDN Caching Rules](#create-cdn-caching-rules)** for any CDN-enabled domains
-
-**[5. Configure WAF settings](#configure-waf-settings)** for any domains requiring WAF protection
-
-### Connect domain
-
-- Login to [MyUKFast](https://my.ukfast.co.uk) and head to `DDoSX & CDN` in the `Products and Services` menu.
-- Click `Connect Now`
-- On this page you can search for the domains you're managing through SafeDNS. (if you havent added your domains to SafeDNS yet, please refer to the info box at the top of this page)
-- Choose the domain you wish to protect and click `Connect`.
-- To add [Content Delivery Network (CDN)](/network/cdn/) or Web Application Firewall to your order, set the relevant toggle switches to "On".
+- Login to [MyUKFast](https://my.ukfast.co.uk) and head to `DDoSX Protection` in the navigation menu.
+- Click the `GET STARTED` button if this is your first domain, or click 'Add additional domain' in the top right if this is an additional doamin.
+- Enter the domain that you want to protect. 
+    - If the domain is in SafeDNS, the domain will automatically appear as a part of a selectable dropdown
+    - If the domain is not in SafeDNS, you will need to enter the full domain. A blue message box will display with additional information.
+- Select any additional features you'd like like to add to this domain such as CDN or WAF.
+- Double check your domain and selected additional features and then hit 'Buy Now'
 - Repeat for each domain you want to add to the network.
 
-![connect](files/connect.PNG)
+![connect](files/connect_safedns_external.png)
 
 - Click `Confirm` to go through the payment process. (You won't have to complete this step if you've ordered DDoSX<sup>®</sup>, WAF or CDN via your UKFast account manager - you should see the relevant credits in your MyUKFast account already).
 
