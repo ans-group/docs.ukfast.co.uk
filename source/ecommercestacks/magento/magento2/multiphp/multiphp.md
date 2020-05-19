@@ -98,7 +98,10 @@ upstream examplecombackend {
     server unix:/var/run/php-fpm-examplecom72.sock;
 }
 ```
-
+Following this you will need to test the nginx configuration and reload the service:
+```bash
+nginx -t && nginx -s reload
+```
 ### Checking Running PHP Installations
 You can find out which PHP-FPM versions are running on the server with the following command:
 ```bash
