@@ -6,14 +6,18 @@ CDN and WAF are optional additional DDoSX<sup>®</sup> features, and as a result
 
 To use DDoSX<sup>®</sup>, CDN and WAF, you need to either have your domains' setup on UKFast SafeDNS and ensure it's nameservers pointing to the UKFast nameservers or create a ANAME/ALIAS record with your current DNS provider to point to DDOSx using a provided CNAME. 
 
-Please note, only a handful of DNS providers have the ability to setup ANAME/ALIAS records. Please check that your DNS provider supports ANAME or ALIAS records beofre trying to setup a domain on DDoSX<sup>®</sup> using a CNAME.
+```eval_rst
+.. warning::
 
-Some DNS providers that do support creating ALIAS/ANAME records include:
+   DDoSX supports HTTP and HTTPS web traffic on ports 80 and 443 respectively. If you need to route other types of traffic to your UKFast-hosted solution then please contact us before setting up DDoSX.
 
-* DNS Made Easy
-* Cloudflare (Via CNAME Flattening)
+```
 
-## Pre using UKFast safeDNS:
+## 1) Prepare your domain
+
+The first step to setting up DDoSX<sup>®</sup> is to preper your domain. Depending if you're going to use SafeDNS or an ANAME/ALIAS, we recoconed complted a few checks first to ensure that DDoSX<sup>®</sup> will work properly.
+
+### SafeDNS:
 
 Before setting up a SafeDNS domain in, double check that your domain is setup correctly and working as expected Documentation onm how to setup SafeDNS can be found at :doc:`/Domains/safedns/index` should you assistance. 
 
@@ -26,17 +30,23 @@ Once you have done this, point your domains to the UKFast nameservers, which are
 
 You'll need to do this through whichever domain registrar you use to manage your domains (which may not be UKFast). If you don't know who your domain registrar is you can do a 'WHOIS' lookup on websites such as https://whois.icann.org/
 
-## Setup using an ALIAS/ANAME record:
+### ALIAS/ANAME via CNAME
 
-To set up CNAME read our [documentation in the FAQ's](/security/ddos/generalinformation.html). Please note that in order to protect your root domain, for example UKFast.co.uk, you must first check that your DNS provider will support root level forwarding such as; an ALIAS or ANAME. If your DNS provider does not support this we cannot protect the root domain. The root domain will also not be protected by WAF or able to serve CDN. However, for example,  www.ukfast.co.uk  and all subdomains will be fully protected. For more information read our documentation.
+If you don't want to use UKFast SafeDNS, you can route traffic from your domain to DDoSX<sup>®</sup> by creating an ANAME or ALIAS records using a CNAME provided by DDoSX<sup>®</sup>.
+
+Please note, only a handful of DNS providers have the ability to setup ANAME/ALIAS records. Please check that your DNS provider supports root level forwarding via an ANAME or ALIAS records beofre trying to setup a root level domain on DDoSX<sup>®</sup> using a CNAME.
+
+Some DNS providers that do support creating ALIAS/ANAME records include:
+
+* DNS Made Easy
+* Cloudflare (Via CNAME Flattening)
+
+If your DNS provider does not support this we cannot protect the root domain.
+
+Non-root level domains such as dashboard.example.com or my.example.com can be setup without using a ANAME/ALIAS by instead creating a basic CNAME record via your DNS provider and pointing it to your DDoSX<sup>®</sup> provided CNAME. 
 
 
-```eval_rst
-.. warning::
-
-   DDoSX supports HTTP and HTTPS web traffic on ports 80 and 443 respectively. If you need to route other types of traffic to your UKFast-hosted solution then please contact us before setting up DDoSX.
-
-```
+## 2) Add your domain to DDoSX<sup>®</sup>
 
 To enable DDoSX<sup>®</sup>, CDN and WAF on your domains, follow these steps:
 
