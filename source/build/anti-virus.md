@@ -7,22 +7,22 @@
 ```
 Below you will find a list of common questions related to Anti-Virus: 
 
-Is this installed on all servers in my solution? 
+### Is this installed on all servers in my solution? 
 - This will be included on all servers if you have purchased PROprotection, both Windows and Linux server. The only devices this does not apply to are UKFast Appliances and Magento Servers. 
 
-Are all files scanned by the AV software? 
+### Are all files scanned by the AV software? 
 - Yes, on-access scanning is enabled by default. 
 
-At what frequency are files scanned?  
+### At what frequency are files scanned?  
 - On-access scanning and weekly full scan. 
 
-At what frequency is the AV software updated?
+### At what frequency is the AV software updated?
 - Daily DAT Updates and Agent updates when available.
 
-What are DAT files?
+### What are DAT files?
 - Virus definition or DAT files contain virus signatures and other information that McAfee anti-virus products use to protect your computer against existing and new potential threats. DAT files are released on a daily basis.
 
-Are any other AV based tools or activates used? (e.g. local firewall)
+### Are any other AV based tools or activates used? (e.g. local firewall)
 - No, by default local firewalls are disabled and no other AV tools are installed or used by UKFast. 
 
 ```eval_rst

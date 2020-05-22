@@ -4,19 +4,19 @@
 
 Service Monitoring can be customised using your online Pre-Launch Questionnaire on a per server basis. The following service monitoring will be added across all servers in the solution by default:
 ```eval_rst
-+------------+---------+
-| Monitoring | Default |
-+============+=========+
-| Ping       | Enabled |
-+------------+---------+
-| SMTP       | Enabled |
-+------------+---------+
-| POP        | Enabled |
-+------------+---------+
-| HTTP       | Enabled |
-+------------+---------+
-| FTP        | Enabled |
-+------------+---------+
++------------+----------+
+| Monitoring | Default  |
++============+==========+
+| Ping       | Enabled  |
++------------+----------+
+| SMTP       | Disabled |
++------------+----------+
+| POP        | Disabled |
++------------+----------+
+| HTTP       | Disabled |
++------------+----------+
+| FTP        | Disabled |
++------------+----------+
 ```
 ```eval_rst
 .. seealso::
