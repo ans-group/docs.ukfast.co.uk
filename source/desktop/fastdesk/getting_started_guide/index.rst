@@ -1,11 +1,12 @@
-Getting Started
-Information and guidance for FASTdesk, covering installation, configuration and more.
+=======
+Getting Started with FastDesk
+=======
+
+A step-by-by guide for FastDesk covering installation and configuration for first time use.
 
 .. toctree::
-   :maxdepth: 1
 
-   FASTdeskGettingStartedGuideiOS
-   FASTdeskGettingStartedGuideWindows
-   FASTdeskGettingStartedGuideAndroid
-   FASTdeskGettingStartedGuideMacOS
-
+   FASTdeskGettingStartedGuideWindows.md
+   FASTdeskGettingStartedGuideMacOS.md
+   FASTdeskGettingStartedGuideiOS.md
+   FASTdeskGettingStartedGuideAndroid.md

@@ -35,9 +35,49 @@ Firstly we need to rescan the SCSI hosts to detect changes in disk size.
 [root@ssh ~]# for i in /sys/class/scsi_device/*/device/rescan; do echo "1" > $i; done
 ```
 
+## Extend an existing partition
+
+For disks that have been extended using the eCloud control panel, you will use the `growpart` command to extend the last partition.
+
+In the below example we can see that the last device partition number is `/dev/sda4`
+
+```bash
+[root@ssh ~]# fdisk -l
+
+Disk /dev/sda: 118.1 GB, 118111600640 bytes, 230686720 sectors
+Units = sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disk label type: dos
+Disk identifier: 0x0009cb29
+
+   Device Boot      Start         End      Blocks   Id  System
+/dev/sda1   *        2048      526335      262144   83  Linux
+/dev/sda2          526336    41943006    20708335+  8e  Linux LVM
+/dev/sda3        41943040   125829119    41943040   83  Linux
+/dev/sda4       125829120   230686686    52428783+  83  Linux
+```
+
+Now that we have the partition number that we are going to extend, we will use the following command to grow the size of the last partition
+
+```bash
+[root@ssh ~]# growpart /dev/sda 4
+CHANGED: partition=4 start=125829120 old: size=58720256 end=184549376 new: size=104857567,end=230686687
+```
+
+The output of `fdisk -l` will show the additional space is now present for /dev/sda4
+
+Finish off by resizing the physical volume into the newly extended disk
+
+```bash
+root@ssh ~]# pvresize /dev/sda4
+  Physical volume "/dev/sda4" changed
+  1 physical volume(s) resized or updated / 0 physical volume(s) not resized
+```
+
 ## Create a new partition
 
-From here, you can now create a new partition on `sda` to use the new space assigned to this disk.
+Alternatively, there is the option to create a new partition on `sda` to use the newly assigned disk space.
 
 ```eval_rst
 .. note::
