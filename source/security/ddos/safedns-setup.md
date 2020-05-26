@@ -1,4 +1,4 @@
-# Setting up DDoSX, CDN and WAF
+# Setting up DDoSX, CDN and WAF using SafeDNS
 
 DDoSX<sup>®</sup>, can be setup to protect any domain from DDoS and common Web Application attacks such as SQL Injections, Remote Command Execution and Cross-Site Scripting (XSS). More on how DDoSX<sup>®</sup> works can be found :doc:`/security/ddos/generalinformation`.
 
