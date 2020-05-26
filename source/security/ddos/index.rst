@@ -11,7 +11,8 @@ DDoSX\ :sup:`®` is designed to protect your websites and web applications from 
 .. toctree::
    :maxdepth: 1
 
-   gettingstarted
+   setup-safedns
+   setup-cname
    CNAME
    access_controls
    wafsettings
