@@ -6,6 +6,8 @@ CDN and WAF are optional additional DDoSX<sup>®</sup> features, and as a result
 
 To use DDoSX<sup>®</sup>, CDN and WAF, you need to either have your domains' setup on UKFast SafeDNS and ensure it's nameservers pointing to the UKFast nameservers or create a ANAME/ALIAS record with your current DNS provider to point to DDOSx using a provided CNAME. 
 
+**This documentation is for settign up DDoSX<sup>®</sup> using SafeDNS. Documentaion on seting up an external domainvia an ALIAS, ANAME or CNAME can be found here** :doc:`/security/ddos/setup-cname`.
+
 To enable DDoSX<sup>®</sup>, CDN and WAF on your domains, follow these steps:
 
 **[1. Connect](#connect-domain)** your domain(s) to DDoSX
@@ -27,11 +29,11 @@ To enable DDoSX<sup>®</sup>, CDN and WAF on your domains, follow these steps:
 
 ## 1) Prepare your domain
 
-The first step to setting up DDoSX<sup>®</sup> is to preper your domain. Depending if you're going to use SafeDNS or an ANAME/ALIAS, we recoconed complted a few checks first to ensure that DDoSX<sup>®</sup> will work properly.
+The first step to setting up DDoSX<sup>®</sup> via SafeDNS is to preper and check your doman before enabling DDoSX<sup>®</sup> protection. 
 
 ### SafeDNS:
 
-Before setting up a SafeDNS domain in, double check that your domain is setup correctly and working as expected Documentation onm how to setup SafeDNS can be found at :doc:`/Domains/safedns/index` should you assistance. 
+Before setting up a SafeDNS domain in DDoSX<sup>®</sup>, double check that your domain is setup correctly and working as expected through SafeDNS. Documentation on how to setup SafeDNS can be found at :doc:`/Domains/safedns/index` should you assistance. 
 
 You must move all records associated with the domains (including sub-domains) you wish to protect, including SMTP, MX, mail etc to SafeDNS.
 
@@ -42,34 +44,21 @@ Once you have done this, point your domains to the UKFast nameservers, which are
 
 You'll need to do this through whichever domain registrar you use to manage your domains (which may not be UKFast). If you don't know who your domain registrar is you can do a 'WHOIS' lookup on websites such as https://whois.icann.org/
 
-### ALIAS/ANAME via CNAME
-
-If you don't want to use UKFast SafeDNS, you can route traffic from your domain to DDoSX<sup>®</sup> by creating an ANAME or ALIAS records using a CNAME provided by DDoSX<sup>®</sup>.
-
-Please note, only a handful of DNS providers have the ability to setup ANAME/ALIAS records. Please check that your DNS provider supports root level forwarding via an ANAME or ALIAS records beofre trying to setup a root level domain on DDoSX<sup>®</sup> using a CNAME.
-
-Some DNS providers that do support creating ALIAS/ANAME records include:
-
-* DNS Made Easy
-* Cloudflare (Via CNAME Flattening)
-
-If your DNS provider does not support this we cannot protect the root domain.
-
-Non-root level domains such as dashboard.example.com or my.example.com can be setup without using a ANAME/ALIAS by instead creating a basic CNAME record via your DNS provider and pointing it to your DDoSX<sup>®</sup> provided CNAME. 
-
+The nameserver change may take upto 48 hours to propegate accross the world. A good tool to check this is https://www.whatsmydns.net/
 
 ## 2) Connect your domain to DDoSX<sup>®</sup>
 
 - Login to [MyUKFast](https://my.ukfast.co.uk) and head to `DDoSX Protection` in the navigation menu.
-- Click the `GET STARTED` button if this is your first domain, or click 'Add additional domain' in the top right if this is an additional doamin.
-- Enter the domain that you want to protect. 
-    - If the domain is in SafeDNS, the domain will automatically appear as a part of a selectable dropdown
-    - If the domain is not in SafeDNS, you will need to enter the full domain. A blue message box will display with additional information.
-- Select any additional features you'd like like to add to this domain such as CDN or WAF.
-- Double check your domain and selected additional features and then hit 'Buy Now'..
-- Repeat for each domain you want to add to the network.
 
-![connect](files/connect_safedns_external.png)
+- Click the red `GET STARTED` button if this is your first domain, or click 'Add additional domain' in the top right if this is an additional doamin.
+
+- Enter the domain that you want to protect in the 'Domain Name' text box
+
+- Select any additional features you'd like like to add to this domain such as CDN or WAF by clicking the check box next to your chosen features.
+
+- Double check your domain and selected additional features and then press 'Buy Now'
+
+![connect](files/ddosx_safedns_connect.png)
 
 - Click `Complete Transaction` on the next page to completed payment process. (You won't have to complete this step if you've ordered DDoSX<sup>®</sup>, WAF or CDN via your UKFast account manager -  Any existing credits will be consumed first).
 
