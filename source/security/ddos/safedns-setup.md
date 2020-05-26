@@ -10,15 +10,15 @@ To use DDoSX<sup>®</sup>, CDN and WAF, you need to either have your domains' se
 
 To enable DDoSX<sup>®</sup>, CDN and WAF on your domains, follow these steps:
 
-**[1. Prepare](#prepare-your-domain)** your domain(s) before adding to DDoSX<sup>®</sup>
+**[1. Prepare](#1-prepare-your-domain)** your domain(s) before adding to DDoSX<sup>®</sup>
 
-**[2. Connect](#connect-your-domain)** your domain(s) to DDoSX<sup>®</sup>
+**[2. Connect](#2-connect-your-domain)** your domain(s) to DDoSX<sup>®</sup>
 
-**[3. Configure Domain](#configure-domain)** your domain(s) with your prefered proxy settings
+**[3. Configure Domain](#3-configure-domain)** your domain(s) with your prefered proxy settings
 
-**[4. Configure Additinal Features](#configure-additional-features)** for any CDN or WAF enabled domains
+**[4. Configure Additinal Features](#4-configure-additional-features)** for any CDN or WAF enabled domains
 
-**[5. Test](#test-domain)** your domain(s) work properly before putting them live
+**[5. Test and Put Live](#5-test-and-put-live)** your domain(s) work properly before putting them live
 
 ```eval_rst
 .. warning::
@@ -97,6 +97,10 @@ Ensure that the `DDOSx Protection` toggle switch is enabled for all the domains 
 ![configuredomain](files/configuredomain.PNG)
 
 Finally, click `Apply Changes` and your domain will now be setup on the UKFast DDoSX<sup>®</sup> network, and configured appropriately. (You should allow up to 10 minutes for the changes to be fully applied)
+
+## 4) Configure Additional Features
+
+fsdf
 
 ## 5) Test domain and put live
 
