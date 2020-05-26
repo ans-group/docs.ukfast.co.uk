@@ -2,9 +2,9 @@
 
 DDoSX<sup>®</sup>, can be setup to protect any domain from DDoS and common Web Application attacks such as SQL Injections, Remote Command Execution and Cross-Site Scripting (XSS). More on how DDoSX<sup>®</sup> works can be found :doc:`/security/ddos/generalinformation`.
 
-CDN and WAF are optional additional DDoSX<sup>®</sup> features, and as a result DDoSX must first be enabled on your domain(s) to allow CDN and WAF to be configured.
+CDN and WAF are optional additional DDoSX<sup>®</sup> features, and as a result, DDoSX must first be enabled on your domain(s) to allow CDN and WAF to be configured.
 
-To use DDoSX<sup>®</sup>, CDN and WAF, you need to either have your domains' setup on UKFast SafeDNS and ensure it's nameservers pointing to the UKFast nameservers or create a ANAME/ALIAS record with your current DNS provider to point to DDOSx using a provided CNAME. 
+To use DDoSX<sup>®</sup>, CDN and WAF, you need to either have your domains' setup on UKFast SafeDNS and ensure it's nameservers pointing to the UKFast nameservers or create an ANAME/ALIAS record with your current DNS provider to point to DDOSx using a provided CNAME. 
 
 **This documentation is for settign up DDoSX<sup>®</sup> using SafeDNS. Documentaion on seting up an external domainvia an ALIAS, ANAME or CNAME can be found here** :doc:`/security/ddos/setup-cname`.
 
@@ -16,7 +16,7 @@ To enable DDoSX<sup>®</sup>, CDN and WAF on your domains, follow these steps:
 
 **[3. Configure Domain](#3-configure-domain)** your domain(s) with your prefered proxy settings
 
-**[4. Configure Additinal Features](#4-configure-additional-features)** for any CDN or WAF enabled domains
+**[4. Configure Additional Features](#4-configure-additional-features)** for any CDN or WAF enabled domains
 
 **[5. Test Domain and Put Live](#5-test-domain-and-put-live)** your domain(s) work properly before putting them live
 
@@ -33,7 +33,7 @@ The first step to setting up DDoSX<sup>®</sup> via SafeDNS is to preper and che
 
 ### SafeDNS:
 
-Before setting up a SafeDNS domain in DDoSX<sup>®</sup>, double check that your domain is setup correctly and working as expected through SafeDNS. Documentation on how to setup SafeDNS can be found at :doc:`/Domains/safedns/index` should you assistance. 
+Before setting up a SafeDNS domain in DDoSX<sup>®</sup>, double-check that your domain is set up correctly and working as expected through SafeDNS. Documentation on how to setup SafeDNS can be found at :doc:`/Domains/safedns/index` should you assistance. 
 
 You must move all records associated with the domains (including sub-domains) you wish to protect, including SMTP, MX, mail etc to SafeDNS.
 
@@ -44,71 +44,71 @@ Once you have done this, point your domains to the UKFast nameservers, which are
 
 You'll need to do this through whichever domain registrar you use to manage your domains (which may not be UKFast). If you don't know who your domain registrar is you can do a 'WHOIS' lookup on websites such as https://whois.icann.org/
 
-The nameserver change may take upto 48 hours to propegate accross the world. A good tool to check this is https://www.whatsmydns.net/
+The nameserver change may take up to 48 hours to propagate across the world. A good tool to check this is https://www.whatsmydns.net/
 
 ## 2) Connect your domain
 
 - Login to [MyUKFast](https://my.ukfast.co.uk) and head to `DDoSX Protection` in the navigation menu.
 
-- Click the red `GET STARTED` button if this is your first domain, or click 'Add additional domain' in the top right if this is an additional doamin.
+- Click the red `GET STARTED` button if this is your first domain, or click 'Add additional domain' in the top-right if this is an additional domain.
 
 - Enter the domain that you want to protect in the 'Domain Name' text box
 
-- Select any additional features you'd like like to add to this domain such as CDN or WAF by clicking the check box next to your chosen features.
+- Select any additional features you'd like like to add to this domain such as CDN or WAF by clicking the checkbox next to your chosen features.
 
-- Double check your domain and selected additional features and then press 'Buy Now'
+- Double-check your domain and selected additional features and then press 'Buy Now'
 
-- Click `Complete Transaction` on the next page to completed payment process. (You won't have to complete this step if you have already ordered DDoSX<sup>®</sup>, WAF or CDN via your UKFast account manager -  Any existing credits will be consumed first).
+- Click `Complete Transaction` on the next page to complete the payment process. (You won't have to complete this step if you have already ordered DDoSX<sup>®</sup>, WAF or CDN via your UKFast account manager -  Any existing credits will be consumed first).
 
 ![connect](files/ddosx_safedns_connect.png)
 
 ## 3) Configure Domain
 
-Once a new domain has been added to DDoSX<sup>®</sup>, you will automatially be taken to the configuration page for that domain. 
+Once a new domain has been added to DDoSX<sup>®</sup>, you will automatically be taken to the configuration page for that domain. 
 
-**Seting up Records**
+**Setting up Records**
 
-Alternatively, navigate to the main DDoSX<sup>®</sup> page on via the navigrtion bar on the left, click on the domain you want to configure, and then and click `Configure` tab.
+Alternatively, navigate to the main DDoSX<sup>®</sup> page on via the navigation bar on the left, click on the domain you want to configure, and then and click `Configure` tab.
 
-First, use the `Add Record` button to configure your root and subdomains' origin IP addess. This will be the IP address that the request is forwarded to after being routed through DoSX<sup>®</sup>. This is usually you web server or load balancer's external IP address. 
+First, use the `Add Record` button to configure your root and subdomains' origin IP address. This will be the IP address that the request is forwarded to after being routed through DoSX<sup>®</sup>. This is usually your web server or load balancer's external IP address. 
 
 ![configuredomain](files/ddosx_add_record.png)
 
-You can add multiple subdomains at once via the `Add Record` button. Once you're happy with your configure, press the `Confirm` buttom
+You can add multiple subdomains at once via the `Add Record` button. Once you're happy with your configure, press the `Confirm` button
 
 The origin IP address of any of your subdomains (Including your root domain) can be changed by editing the IP in the text box shown under `Origin IP` for the specific record.
 
 **Adding SSL Certificates**
 
-Before presing the `Apply Changes` button, we can add any required SSL certificates to our domains. 
+Before pressing the `Apply Changes` button, we can add any required SSL certificates to our domains. 
 
-To add an SSL certificate, click the `SSL` Tab. Any existing SSL certificates, or SSL certificates purchased through UKFast for this domain should show up here.
+To add an SSL certificate, click the `SSL` Tab. Any existing SSL certificates or SSL certificates purchased through UKFast for this domain should show up here.
 
 If the required SSL certificate for the domain does not show up in here, we can add it by pressing the `Add SSL` button.
 
-Enter your SSL's Private Key, Certificate, any CA/Chain certificates (Optional) and a name for this SSL. Press the `Create an SSl` button to add your SSL to DoSX<sup>®</sup>.
+Enter your SSL's Private Key, Certificate, any CA/Chain certificates (Optional) and a name for this SSL. Press the `Create an SSL` button to add your SSL to DoSX<sup>®</sup>.
 
 ![configuredomain](files/ddosx_add_ssl.png)
 
-At this point, you should be able to go back into the `DNS Records` tab and select the SSL you want to apply via the `SSL` dropdown for each record. Only SSLs that are valid for the configured subdomain will show in the dropdown. For example, an SSL for only `www.ukfast.co.uk` and `ukfast.co.uk` will NOT show in the dropdown for  `my.ukfast.co.uk`. Wildcard SSL certificates should show for all applicable sub domains.
+At this point, you should be able to go back into the `DNS Records` tab and select the SSL you want to apply via the `SSL` dropdown for each record. Only SSLs that are valid for the configured subdomain will show in the dropdown. For example, an SSL for only `www.ukfast.co.uk` and `ukfast.co.uk` will NOT show in the dropdown for  `my.ukfast.co.uk`. Wildcard SSL certificates should show for all applicable subdomains.
 
 Ensure that the `DDOSx Protection` toggle switch is enabled for all the domains you want to enable DDOSx for. This will **NOT** put DDOSx live just yet, toggling this switch will only enable the domain within DDoSX<sup>®</sup>.
 
 ![configuredomain](files/configuredomain.PNG)
 
-Finally, click `Apply Changes` and your domain will now be setup on the UKFast DDoSX<sup>®</sup> network, and configured appropriately. (You should allow up to 10 minutes for the changes to be fully applied)
+Finally, click `Apply Changes` and your domain will now be set up on the UKFast DDoSX<sup>®</sup> network, and configured appropriately. (You should allow up to 10 minutes for the changes to be fully applied)
 
 ## 4) Configure Additional Features
 
 You now have the option to configure and additional DDoSX<sup>®</sup> features such as CDN and WAF before testing and putting your domain live. 
 
-The confgiuration of CDN and WAF can be quite complex, so each have their own documentation.
+The configuration of CDN and WAF can be quite complex, so each has its own documentation.
 
 [CDN Documentation](/network/cdn/cachingrules.html)
 
 [WAF Documentation](/security/ddos/wafsettings)
 
-Alternativly, you can skip the configuration of additional features for now and re-visit it after DDOSx has been verified as working and out live. To do this, continue to step 5.
+Alternatively, you can skip the configuration of additional features for now and re-visit it after DDOSx has been verified as working and put live. To do this, continue to step 5.
 
 ## 5) Test domain and put live
 
@@ -118,7 +118,7 @@ You will see that initially your DNS Routing is shown as "Server", as per below.
 
 ![serverpreview](files/serverpreview.PNG)
 
-Locate the `hosts` file on your computer.  On Windows you'll find it in **C:\Windows\System32\drivers\etc**.  
+Locate the `hosts` file on your computer.  On Windows, you'll find it in **C:\Windows\System32\drivers\etc**.  
 
 Open the `hosts` file using Notepad or another plain text editor (you may need administrator rights to make changes), and insert a line for each domain you wish to test, that includes the domain and the Assigned IPv4 address from DDoSX; for example:
 
@@ -127,23 +127,23 @@ Open the `hosts` file using Notepad or another plain text editor (you may need a
  185.156.64.0 www.mydomain.co.uk
  185.156.64.0 blog.mydomain.co.uk
  ```
-On Linux and MacOS you can open and edit the `hosts` file in a terminal window using a command such as
+On Linux and macOS you can open and edit the `hosts` file in a terminal window using a command such as
 
  ```
  sudo nano /private/etc/hosts
  ```
 
-[This article](https://www.howtogeek.com/howto/27350/beginner-geek-how-to-edit-your-hosts-file/) contains more detailed instructions on modifying the `hosts` file on MacOS, Linux, and different versions of Windows.
+[This article](https://www.howtogeek.com/howto/27350/beginner-geek-how-to-edit-your-hosts-file/) contains more detailed instructions on modifying the `hosts` file on macOS, Linux, and different versions of Windows.
 
 Once you've added all the domains you need to test to your `hosts` file, save the changes. Then open a web browser and try browsing to your domain.  Your local `hosts` file will route the request directly to the DDoSX IP address so you'll be able to see exactly how your site will perform when you change your DNS records.
 
 If you're happy with how your site performs, you can switch the DNS Routing for your domain to "DDoSX".  Note that it may take [up to 48 hours](/Domains/domains/dnspropagation.html) for DNS changes to propagate across the internet (as with any such changes), and before your domain is fully protected.
 
-Once DNS propogation had concluded, your domain will be fully setup with DDoSX<sup>®</sup> protection.
+Once DNS propagation had concluded, your domain will be fully set up with DDoSX<sup>®</sup> protection.
 
 ## Further Configuration
 
-You may wish to add further confgiuration on your origin server to work more closley with DDoSX<sup>®</sup>. Some common configurations are documented below.
+You may wish to add further configuration on your origin server to work more closely with DDoSX<sup>®</sup>. Some common configurations are documented below.
 
 ### Block Traffic not from DDoSX<sup>®</sup> (optional but recommended)
 
@@ -154,9 +154,9 @@ You may wish to add further confgiuration on your origin server to work more clo
 
 ```
 
-Now that DDoSX<sup>®</sup> is configured for your domain, and requests going to your domain and via common name servers will be routed through DDOSx, however attackers commonly try to avoid proxies like DDoSX<sup>®</sup> by using custom DNS servers to make the domain resolve to your origin server's IP instead of DDoSX<sup>®</sup>, bypassing the protecttion if offers. Further more, an attacker may still be able to attack your origin server by sending requests to the IP directly, (http://185.234.39.17/ for example).
+Now that DDoSX<sup>®</sup> is configured for your domain, and requests going to your domain and via common name servers will be routed through DDOSx, however, attackers commonly try to avoid proxies like DDoSX<sup>®</sup> by using custom DNS servers to make the domain resolve to your origin server's IP instead of DDoSX<sup>®</sup>, bypassing the protection it offers. Furthermore, an attacker may still be able to attack your origin server by sending requests to the IP directly, (http://185.234.39.17/ for example).
 
-To prevent both theese evasion methords, you can add firewall rules to only allow traffic on port TCP 443 and TCP 80 from our DDoSX<sup>®</sup> IP ranges mentioned below.
+To prevent both these evasion methods, you can add firewall rules to only allow traffic on port TCP 443 and TCP 80 from our DDoSX<sup>®</sup> IP ranges mentioned below.
 
 ```
 185.156.64.0/24
@@ -190,7 +190,7 @@ iptables --append INPUT --protocol tcp --dport 443 --jump DROP
 
 ### Configure webserver logging (optional but recommended)
 
-Once your domain is fully enabled on DDoSX, all requests to your webserver will appear to come from the DDoSX IP address rather than the original client. Therefore you may wish to configure your webserver to place the original client IP address into the logs. This is most important if you're using a stats package like Webalizer or AWStats, which rely on analysing your local webserver logs.
+Once your domain is fully enabled on DDoSX, all requests to your webserver will appear to come from the DDoSX IP address rather than the original client. Therefore you may wish to configure your webserver to place the original client IP address into the logs. This is most important if you're using a stats package like Webalizer or AWStats, which rely on analysing your local web server logs.
 
 Here's how to do this for NGiNX and Apache:
 
@@ -251,7 +251,7 @@ For Apache 2.2 you will need to use [mod_rpaf](https://github.com/gnif/mod_rpaf)
 
 If you have haproxy in front of your webservers, you'll probably want to set the
 X-Forwarded-For header on here. The easiest way to do this is to disable the 
-`forwardfor` option to prevent haproxy setting the header automatically, and instead
+`forwardfor` option to prevent haproxy setting the header automatically and instead
 set the header manually in each backend.
 
 First, comment out your forwardfor option, potentially in the `defaults` section, e.g.
