@@ -14,11 +14,11 @@ To enable DDoSX<sup>®</sup>, CDN and WAF on your domains, follow these steps:
 
 **[2. Connect](#connect-your-domain)** your domain(s) to DDoSX<sup>®</sup>
 
-**[3. Configure](#configure-domain)** your domain(s) with your prefered proxy settings
+**[3. Configure Domain](#configure-domain)** your domain(s) with your prefered proxy settings
 
-**[4. Configure Additinal Features(#create-cdn-caching-rules)** for any CDN or WAF enabled domains
+**[4. Configure Additinal Features](#configure-additional-features)** for any CDN or WAF enabled domains
 
-**[5. Test] your domain(s) work properly before putting them live
+**[5. Test](#test-domain)** your domain(s) work properly before putting them live
 
 ```eval_rst
 .. warning::
@@ -62,15 +62,41 @@ The nameserver change may take upto 48 hours to propegate accross the world. A g
 
 ![connect](files/ddosx_safedns_connect.png)
 
-## 3) Configure domain
+## 3) Configure Domain
 
-- Click `Configure` next to the domain you wish to setup, and choose which A Records and AAAA Records you specifically want to protect for the domain.
-- You can assign any existing SSL certificates at this point. SSL certificates purchased from MyUKFast will appear in the dropdown menu, or click `Add SSL` to add details of other SSL certificates manually. SSL certificates can be managed within the `SSL Certificates` tab.
-- Ensure the DDoSX Protection toggle switches are set to "On" for all of the records and sub-domains you wish to protect.
+Once a new domain has been added to DDoSX<sup>®</sup>, you will automatially be taken to the configuration page for that domain. 
+
+**Seting up Records**
+
+Alternativly, navigate to the main DDoSX<sup>®</sup> page on via the navigrtion bar on the left, click on the domain you want to configure, and then and click `Configure` tab.
+
+First, use the `Add Record` button to configure your root and subdomains' origin IP addess. This will be the IP address that the request is forwarded to after being routed through DoSX<sup>®</sup>. This is usually you web server or load balancer's external IP address. 
+
+![configuredomain](files/ddosx_add_record.png)
+
+You can add multiple subdomains at once via the `Add Record` button. Once you're happy with your configure, press the `Confirm` buttom
+
+The origin IP address of any of your subdomains (Including your root domain) can be changed by editing the IP in the text box shown under `Origin IP` for the specific record.
+
+**Adding SSL Certificates**
+
+Before presing the `Apply Changes` button, we can add any required SSL certificates to our domains. 
+
+To add an SSL certificate, click the `SSL` Tab. Any existing SSL certificates, or SSL certificates purchased through UKFast for this domain should show up here.
+
+If the required SSL certificate for the domain does not show up in here, we can add it by pressing the `Add SSL` button.
+
+Enter your SSL's Private Key, Certificate, any CA/Chain certificates (Optional) and a name for this SSL. Press the `Create an SSl` button to add your SSL to DoSX<sup>®</sup>.
+
+![configuredomain](files/ddosx_add_ssl.png)
+
+At this point, you should be able to go back into the `DNS Records` tab and select the SSL you want to apply via the `SSL` dropdown for each record. Only SSLs that are valid for the configured subdomain will show in the dropdown. For example, an SSL for only `www.ukfast.co.uk` and `ukfast.co.uk` will NOT show in the dropdown for  `my.ukfast.co.uk`. Wildcard SSL certificates should show for all applicable sub domains.
+
+Ensure that the `DDOSx Protection` toggle switch is enabled for all the domains you want to enable DDOSx for. This will **NOT** put DDOSx live just yet, toggling this switch will only enable the domain within DDoSX<sup>®</sup>.
 
 ![configuredomain](files/configuredomain.PNG)
 
-- Click `Apply Changes` and your domain will now be connected to the UKFast DDoSX<sup>®</sup> network, and configured appropriately. (You should allow up to 10 minutes for the changes to be fully applied)
+Finally, click `Apply Changes` and your domain will now be setup on the UKFast DDoSX<sup>®</sup> network, and configured appropriately. (You should allow up to 10 minutes for the changes to be fully applied)
 
 ## 5) Test domain and put live
 
