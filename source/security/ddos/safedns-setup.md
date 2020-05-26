@@ -18,7 +18,7 @@ To enable DDoSX<sup>®</sup>, CDN and WAF on your domains, follow these steps:
 
 **[4. Configure Additinal Features](#4-configure-additional-features)** for any CDN or WAF enabled domains
 
-**[5. Test and Put Live](#5-test-and-put-live)** your domain(s) work properly before putting them live
+**[5. Test Domain and Put Live](#5-test-domain-and-put-live)** your domain(s) work properly before putting them live
 
 ```eval_rst
 .. warning::
