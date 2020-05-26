@@ -10,15 +10,15 @@ To use DDoSX<sup>®</sup>, CDN and WAF, you need to either have your domains' se
 
 To enable DDoSX<sup>®</sup>, CDN and WAF on your domains, follow these steps:
 
-**[1. Connect](#connect-domain)** your domain(s) to DDoSX
+**[1. Prepare](#prepare-your-domain)** your domain(s) before adding to DDoSX<sup>®</sup>
 
-**[2. Configure](#configure-domain)** which domain records you'd like to protect
+**[2. Connect](#connect-your-domain)** your domain(s) to DDoSX<sup>®</sup>
 
-**[3. Test](#test-domain-and-put-live)** your domains will work properly on the DDoSX network before putting them live
+**[3. Configure](#configure-domain)** your domain(s) with your prefered proxy settings
 
-**[4. Create CDN Caching Rules](#create-cdn-caching-rules)** for any CDN-enabled domains
+**[4. Configure Additinal Features(#create-cdn-caching-rules)** for any CDN or WAF enabled domains
 
-**[5. Configure WAF settings](#configure-waf-settings)** for any domains requiring WAF protection
+**[5. Test] your domain(s) work properly before putting them live
 
 ```eval_rst
 .. warning::
@@ -46,7 +46,7 @@ You'll need to do this through whichever domain registrar you use to manage your
 
 The nameserver change may take upto 48 hours to propegate accross the world. A good tool to check this is https://www.whatsmydns.net/
 
-## 2) Connect your domain to DDoSX<sup>®</sup>
+## 2) Connect your domain
 
 - Login to [MyUKFast](https://my.ukfast.co.uk) and head to `DDoSX Protection` in the navigation menu.
 
@@ -58,13 +58,11 @@ The nameserver change may take upto 48 hours to propegate accross the world. A g
 
 - Double check your domain and selected additional features and then press 'Buy Now'
 
+- Click `Complete Transaction` on the next page to completed payment process. (You won't have to complete this step if you have already ordered DDoSX<sup>®</sup>, WAF or CDN via your UKFast account manager -  Any existing credits will be consumed first).
+
 ![connect](files/ddosx_safedns_connect.png)
 
-- Click `Complete Transaction` on the next page to completed payment process. (You won't have to complete this step if you've ordered DDoSX<sup>®</sup>, WAF or CDN via your UKFast account manager -  Any existing credits will be consumed first).
-
-## 3) Verify domain (Non SafeDNS setup only)
-
-## 4) Configure domain
+## 3) Configure domain
 
 - Click `Configure` next to the domain you wish to setup, and choose which A Records and AAAA Records you specifically want to protect for the domain.
 - You can assign any existing SSL certificates at this point. SSL certificates purchased from MyUKFast will appear in the dropdown menu, or click `Add SSL` to add details of other SSL certificates manually. SSL certificates can be managed within the `SSL Certificates` tab.
