@@ -68,7 +68,7 @@ Once a new domain has been added to DDoSX<sup>®</sup>, you will automatially be
 
 **Seting up Records**
 
-Alternativly, navigate to the main DDoSX<sup>®</sup> page on via the navigrtion bar on the left, click on the domain you want to configure, and then and click `Configure` tab.
+Alternatively, navigate to the main DDoSX<sup>®</sup> page on via the navigrtion bar on the left, click on the domain you want to configure, and then and click `Configure` tab.
 
 First, use the `Add Record` button to configure your root and subdomains' origin IP addess. This will be the IP address that the request is forwarded to after being routed through DoSX<sup>®</sup>. This is usually you web server or load balancer's external IP address. 
 
@@ -100,63 +100,101 @@ Finally, click `Apply Changes` and your domain will now be setup on the UKFast D
 
 ## 4) Configure Additional Features
 
-fsdf
+You now have the option to configure and additional DDoSX<sup>®</sup> features such as CDN and WAF before testing and putting your domain live. 
+
+The confgiuration of CDN and WAF can be quite complex, so each have their own documentation.
+
+[CDN Documentation](/network/cdn/cachingrules.html)
+
+[WAF Documentation](/security/ddos/wafsettings)
+
+Alternativly, you can skip the configuration of additional features for now and re-visit it after DDOSx has been verified as working and out live. To do this, continue to step 5.
 
 ## 5) Test domain and put live
 
-- Once you've connected your domain to the DDoSX network and configured your DNS records, you may wish to test that your website or application will work correctly before changing your live DNS routing.  This can be done by modifying your local `hosts` file to look for the DDoSX "Assigned IPv4" address for your domain.
+Once you've connected your domain to the DDoSX network and configured your DNS records, you may wish to test that your website or application will work correctly before changing your live DNS routing.  This can be done by modifying your local `hosts` file to look for the DDoSX "Assigned IPv4" address for your domain.
 
-- You will see that initially your DNS Routing is shown as "Server", as per below.
+You will see that initially your DNS Routing is shown as "Server", as per below.
 
 ![serverpreview](files/serverpreview.PNG)
 
-- Locate the `hosts` file on your computer.  On Windows you'll find it in **C:\Windows\System32\drivers\etc**.  
+Locate the `hosts` file on your computer.  On Windows you'll find it in **C:\Windows\System32\drivers\etc**.  
 
-- Open the `hosts` file using Notepad or another plain text editor (you may need administrator rights to make changes), and insert a line for each domain you wish to test, that includes the domain and the Assigned IPv4 address from DDoSX; for example:
+Open the `hosts` file using Notepad or another plain text editor (you may need administrator rights to make changes), and insert a line for each domain you wish to test, that includes the domain and the Assigned IPv4 address from DDoSX; for example:
 
  ```
  185.156.64.0 mydomain.co.uk
  185.156.64.0 www.mydomain.co.uk
  185.156.64.0 blog.mydomain.co.uk
  ```
-- On Linux and MacOS you can open and edit the `hosts` file in a terminal window using a command such as
+On Linux and MacOS you can open and edit the `hosts` file in a terminal window using a command such as
 
  ```
  sudo nano /private/etc/hosts
  ```
 
-- [This article](https://www.howtogeek.com/howto/27350/beginner-geek-how-to-edit-your-hosts-file/) contains more detailed instructions on modifying the `hosts` file on MacOS, Linux, and different versions of Windows.
+[This article](https://www.howtogeek.com/howto/27350/beginner-geek-how-to-edit-your-hosts-file/) contains more detailed instructions on modifying the `hosts` file on MacOS, Linux, and different versions of Windows.
 
-- Once you've added all the domains you need to test to your `hosts` file, save the changes. Then open a web browser and try browsing to your domain.  Your local `hosts` file will route the request directly to the DDoSX IP address so you'll be able to see exactly how your site will perform when you change your DNS records.
+Once you've added all the domains you need to test to your `hosts` file, save the changes. Then open a web browser and try browsing to your domain.  Your local `hosts` file will route the request directly to the DDoSX IP address so you'll be able to see exactly how your site will perform when you change your DNS records.
 
-- If you're happy with how your site performs, you can switch the DNS Routing for your domain to "DDoSX".  Note that it may take [up to 48 hours](/Domains/domains/dnspropagation.html) for DNS changes to propagate across the internet (as with any such changes), and before your domain is fully protected.
+If you're happy with how your site performs, you can switch the DNS Routing for your domain to "DDoSX".  Note that it may take [up to 48 hours](/Domains/domains/dnspropagation.html) for DNS changes to propagate across the internet (as with any such changes), and before your domain is fully protected.
 
-## Additional Configuration
+Once DNS propogation had concluded, your domain will be fully setup with DDoSX<sup>®</sup> protection.
 
-If you have added additional features such as CDN or WAF to your DDoSX<sup>®</sup> protected domain, you can configure theese now.
+## Further Configuration
 
-### Create CDN caching rules
+You may wish to add further confgiuration on your origin server to work more closley with DDoSX<sup>®</sup>. Some common configurations are documented below.
 
-For any domains with CDN added, content caching will not be activated until you have [added caching rules to the configuration](/network/cdn/cachingrules.html)
-
-### Configure WAF settings
-
-Navigate to the WAF tab to find the settings for WAF on DDoSX.  There are a number of [different WAF settings](/security/ddos/wafsettings.html) that allow you to manage the level of protection for your domain.
+### Block Traffic not from DDoSX<sup>®</sup> (optional but recommended)
 
 ```eval_rst
 .. warning::
 
-   Always run your WAF in Detection Only mode for a period of time before switching it on, otherwise you could cause issues that prevent your application from being accessible to you or your customers.  More details available on the :doc:`/security/ddos/wafsettings` page.
+   Make sure all websites hosted on your origin server are behind DDoSX<sup>®</sup> before applying these firewall rules. As doing so cut off access to any websites not protected by DDoSX<sup>®</sup>.
 
 ```
 
-### Configure webserver logging (optional)
+Now that DDoSX<sup>®</sup> is configured for your domain, and requests going to your domain and via common name servers will be routed through DDOSx, however attackers commonly try to avoid proxies like DDoSX<sup>®</sup> by using custom DNS servers to make the domain resolve to your origin server's IP instead of DDoSX<sup>®</sup>, bypassing the protecttion if offers. Further more, an attacker may still be able to attack your origin server by sending requests to the IP directly, (http://185.234.39.17/ for example).
+
+To prevent both theese evasion methords, you can add firewall rules to only allow traffic on port TCP 443 and TCP 80 from our DDoSX<sup>®</sup> IP ranges mentioned below.
+
+```
+185.156.64.0/24
+23.170.128.0/24
+192.166.44.0/24
+78.24.88.0/24
+195.69.102.0/24
+185.181.196.0/22
+```
+
+These rules would commonly take the form of an allow rule for port TCP 80 and TCP 443 for each of the above IP ranges, followed by a deny rule for all other IPs using TCP 80 and TCP 443.
+
+Example rules for IPTables are below:
+
+```
+iptables --append INPUT --protocol tcp --src 185.156.64.0/24 --dport 80 --jump ACCEPT
+iptables --append INPUT --protocol tcp --src 23.170.128.0/24 --dport 80 --jump ACCEPT
+iptables --append INPUT --protocol tcp --src 192.166.44.0/24 --dport 80 --jump ACCEPT
+iptables --append INPUT --protocol tcp --src 78.24.88.0/24 --dport 80 --jump ACCEPT
+iptables --append INPUT --protocol tcp --src 195.69.102.0/24 --dport 80 --jump ACCEPT
+iptables --append INPUT --protocol tcp --src 185.181.196.0/22 --dport 80 --jump ACCEPT
+iptables --append INPUT --protocol tcp --src 185.156.64.0/24 --dport 443 --jump ACCEPT
+iptables --append INPUT --protocol tcp --src 23.170.128.0/24 --dport 443 --jump ACCEPT
+iptables --append INPUT --protocol tcp --src 192.166.44.0/24 --dport 443 --jump ACCEPT
+iptables --append INPUT --protocol tcp --src 78.24.88.0/24 --dport 443 --jump ACCEPT
+iptables --append INPUT --protocol tcp --src 195.69.102.0/24 --dport 443 --jump ACCEPT
+iptables --append INPUT --protocol tcp --src 185.181.196.0/22 --dport 443 --jump ACCEPT
+iptables --append INPUT --protocol tcp --dport 80 --jump DROP
+iptables --append INPUT --protocol tcp --dport 443 --jump DROP
+```
+
+### Configure webserver logging (optional but recommended)
 
 Once your domain is fully enabled on DDoSX, all requests to your webserver will appear to come from the DDoSX IP address rather than the original client. Therefore you may wish to configure your webserver to place the original client IP address into the logs. This is most important if you're using a stats package like Webalizer or AWStats, which rely on analysing your local webserver logs.
 
 Here's how to do this for NGiNX and Apache:
 
-### NGiNX
+**NGiNX**
 
 For NGiNX, insert this code into one of the `http` or `server` blocks in your configuration. This requires the [realip](https://nginx.org/en/docs/http/ngx_http_realip_module.html) module be compiled into nginx. You can confirm if this is already there with `nginx -V 2>&1 | grep -o realip`. If this outputs `realip`, you're good to go.
 
@@ -178,7 +216,7 @@ For NGiNX, insert this code into one of the `http` or `server` blocks in your co
 
 Once you have added these into your configuration, test and reload your NGiNX configuration (e.g. `nginx -t && systemctl reload nginx`) to make the changes live.
 
-### Apache
+**Apache**
 
 For Apache 2.4 and above, you will need to use the [mod_remoteip](https://httpd.apache.org/docs/current/mod/mod_remoteip.html) module. This should be compiled into your Apache installation, but you can confirm this by running `httpd -M 2>&1 | grep remoteip` (use `apache2ctl` instead of `httpd` on Debian/Ubuntu), which should output `remoteip_module (shared)`. As long as you have that, you're good to go. Add the following into your `<VirtualHost>` declaration, and then alter any `CustomLog` directives to use the newly defined `LogFormat`.
 
@@ -209,7 +247,7 @@ Test and then reload your Apache configuration (e.g. `httpd -t && systemctl relo
 
 For Apache 2.2 you will need to use [mod_rpaf](https://github.com/gnif/mod_rpaf), the use of which is beyond the scope of this document.
 
-### haproxy
+**haproxy**
 
 If you have haproxy in front of your webservers, you'll probably want to set the
 X-Forwarded-For header on here. The easiest way to do this is to disable the 
