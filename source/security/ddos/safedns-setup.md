@@ -32,7 +32,7 @@ To enable DDoSX<sup>®</sup>, CDN and WAF on your domains, follow these steps:
 
 ## 1) Prepare your domain
 
-The first step to setting up DDoSX<sup>®</sup> via SafeDNS is to preper and check your doman before enabling DDoSX<sup>®</sup> protection. 
+The first step to setting up DDoSX<sup>®</sup> via SafeDNS is to prepare and check your doman before enabling DDoSX<sup>®</sup> protection. 
 
 ### SafeDNS:
 
