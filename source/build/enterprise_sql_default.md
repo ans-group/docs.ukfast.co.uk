@@ -1,6 +1,7 @@
 # Database Server Default Configuration
 
-## MS-SQL Database
+By default your MS-SQL database server will be configured with the following settings:
+
 ```eval_rst
 +-----------------------------------+------------------------------------------------------------------------+
 | Database Setting                  | Default                                                                |
