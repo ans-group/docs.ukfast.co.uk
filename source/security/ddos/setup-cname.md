@@ -1,4 +1,4 @@
-# Setting up DDoSX, CDN and WAF using an ALIAS, ANAMe or CNAME
+# Setting up DDoSX, CDN and WAF using an ALIAS, ANAME or CNAME
 
 DDoSX<sup>®</sup>, can be setup to protect any domain from DDoS and common Web Application attacks such as SQL Injections, Remote Command Execution and Cross-Site Scripting (XSS). More on how DDoSX<sup>®</sup> works can be found in our [DDoSX<sup>®</sup> General Information](/security/ddos/generalinformation)
 
@@ -32,9 +32,7 @@ To enable DDoSX<sup>®</sup>, CDN and WAF on your domains, follow these steps:
 
 ## 1) Prepare your domain
 
-The first step to setting up DDoSX<sup>®</sup> via an ALIAS, ANAMe or CNAME is to prepare and check your domain before enabling DDoSX<sup>®</sup> protection. 
-
-### SafeDNS:
+The first step to setting up DDoSX<sup>®</sup> via an ALIAS, ANAME or CNAME is to prepare and check your domain before enabling DDoSX<sup>®</sup> protection. 
 
 Before setting up a external domain in DDoSX<sup>®</sup>, double-check that your current DNS provider allow the creation of either an ALIAS, ANAME or flattened CNAME record if you wish to put your root domain (Like ukfast.co.uk) behind DDoSX<sup>®</sup>.
 
@@ -66,7 +64,7 @@ On the other hand, if you ONLY wish to place subdomains that are not used in MX 
 
 ![connect](files/ddosx_cname_connect.png)
 
-Once the transaction has completed, you will be asked to verify that you own th domain. We can do this one of two ways, either add a TXT record in your current DNS provider with the provided value, or upload a file to your server that can be accsessed via your domain.
+Once the transaction has completed, you will be asked to verify that you own this domain. You can do this one of two ways, either add a TXT record in your current DNS provider with the provided value, or upload a file to your server that can be accessed via your domain.
 
 - Select the verification type you want to use
 
@@ -75,25 +73,22 @@ Once the transaction has completed, you will be asked to verify that you own th 
 **Verify via DNS**
 
 - Select the DNS verification method
-- Create a TXT record with your current DNS provider for the root of your domain, setting the value of the TXT record to the value provided on the verify domain page. An @ symbol or blank value is commonly used when specifyng the root domain. For example:
+- Create a TXT record with your current DNS provider for the root of your domain, setting the value of the TXT record to the value provided on the verify domain page. An `@` symbol or blank value is commonly used when specifying the root domain. For example:
 
 | Record Type | Hostname  | Value
 |---------------|-----------------|-----------------|
 | TXT | @         |ddosx-site-verification=245b62a2878fc30hd6altya37f00fe29e09c0f1f7d9d43a72f07fns06af8e2be
 
-- Once the TXT record has been created, allow some time for the DNS changes to propogate, this norally take no longer than 5 minutes but can take upto 48 hours.
-- Use the `Verify` button on the Domain verification page to check if the record has been applied sucessfully. If DDoSX<sup>®</sup> finds the correct TXT record, your domain will be verified. Be sure to leave this record applied to your DNS as DDoSX<sup>®</sup> may perodically check that you still have control over domain.
+- Once the TXT record has been created, allow some time for the DNS changes to propagate, this normally take no longer than 5 minutes but can take up to 48 hours.
+- Use the `Verify` button on the Domain verification page to check if the record has been applied successfully. If DDoSX<sup>®</sup> finds the correct TXT record, your domain will be verified. Be sure to leave this record applied to your DNS as DDoSX<sup>®</sup> may periodically check that you still have control over domain.
 
 **Veriify via File Upload**
 
-- Select the Fule Upload verification method
+- Select the `File Upload` verification method
 - Press the `Download File` button to download the verification file to your local machine
-- Using FTP or a web GUI for example, upload the downloaded vetification file to the root of your website. This is commonly inside a `www` or `public_html` folder. 
-- Once uploaded, the file should be accessible by navigating to your domain followed by the name of the file. For example non-safedns-domain.co.uk/e9e0a272db6b707e81a88ac4baed776367d15dbd.txt
-- Once the file has been uploaded and working, press the `Verify` button on the domain verifiucation page. If DDoSX<sup>®</sup> finds the correct verification file, your domain will be verified. Be sure to leave this file on your server as DDoSX<sup>®</sup> may perodically check that you still have control over domain.
-
-
-
+- Using FTP or a web GUI for example, upload the downloaded verification file to the root of your website. This is commonly inside a `www` or `public_html` folder. 
+- Once uploaded, the file should be accessible by navigating to your domain followed by the name of the file. For example https://non-safedns-domain.co.uk/e9e0a272db6b707e81a88ac4baed776367d15dbd.txt
+- Once the file has been uploaded and working, press the `Verify` button on the domain verification page. If DDoSX<sup>®</sup> finds the correct verification file, your domain will be verified. Be sure to leave this file on your server as DDoSX<sup>®</sup> may periodically check that you still have control over domain.
 
 ## 3) Configure Domain
 
@@ -123,13 +118,17 @@ Enter your SSL's Private Key, Certificate, any CA/Chain certificates (Optional) 
 
 ![addssl](files/ddosx_add_ssl.png)
 
-At this point, you should be able to go back into the `DNS Records` tab and select the SSL you want to apply via the `SSL` dropdown for each record. Only SSLs that are valid for the configured subdomain will show in the dropdown. For example, an SSL for only `www.ukfast.co.uk` and `ukfast.co.uk` will NOT show in the dropdown for  `my.ukfast.co.uk`. Wildcard SSL certificates should show for all applicable subdomains.
+At this point, you should be able to go back into the `DNS Records` tab and select the SSL you want to apply via the `SSL` dropdown for each record. Only SSLs that are valid for the configured subdomain will show in the dropdown. For example, an SSL for only `www.ukfast.co.uk` and `ukfast.co.uk` will NOT show in the dropdown for `my.ukfast.co.uk`. Wildcard SSL certificates should show for all applicable subdomains.
 
-Ensure that the `DDOSx Protection` toggle switch is enabled for all the domains you want to enable DDOSx for. This will **NOT** put DDOSx live just yet, toggling this switch will only enable the domain within DDoSX<sup>®</sup>.
-
-![configuredomain](files/configuredomain.PNG)
 
 Finally, click `Apply Changes` and your domain will now be set up on the UKFast DDoSX<sup>®</sup> network, and configured appropriately. (You should allow up to 10 minutes for the changes to be fully applied)
+
+```eval_rst
+.. warning::
+
+   Your domain has not been put live yet, this step only configures the domain within DDoSX<sup>®</sup>. Please continue with the rest of this documentation to test and put your domain live.
+
+```
 
 ## 4) Configure Additional Features
 
@@ -145,20 +144,20 @@ Alternatively, you can skip the configuration of additional features for now and
 
 ## 5) Test domain and put live
 
-Once you've connected your domain to the DDoSX network and configured your DNS records, you may wish to test that your website or application will work correctly before changing your live DNS routing.  This can be done by modifying your local `hosts` file to look for the DDoSX "Assigned IPv4" address for your domain.
+**Test Domain**
 
-You will see that initially your DNS Routing is shown as "Server", as per below.
+Once you've connected your domain to the DDoSX network and configured your DNS records, you may wish to test that your website or application will work correctly before changing your live DNS.  This can be done by modifying your local `hosts` file to look for the DDoSX "DNS CNAME Record" address for your domain, which can found at the top of the `DNS Records` page in DDoSX<sup>®</sup> for each domain.
 
-![serverpreview](files/serverpreview.PNG)
+![serverpreview](files/ddosx_cname_record.PNG)
 
 Locate the `hosts` file on your computer.  On Windows, you'll find it in **C:\Windows\System32\drivers\etc**.  
 
-Open the `hosts` file using Notepad or another plain text editor (you may need administrator rights to make changes), and insert a line for each domain you wish to test, that includes the domain and the Assigned IPv4 address from DDoSX; for example:
+Open the `hosts` file using Notepad or another plain text editor (you may need administrator rights to make changes), and insert a line for each domain you wish to test, that includes the domain and the CNAME Value from DDoSX; for example:
 
  ```
- 185.156.64.0 mydomain.co.uk
- 185.156.64.0 www.mydomain.co.uk
- 185.156.64.0 blog.mydomain.co.uk
+64cf9871a5b0ca045an96udtf9a63687c180f47df6.user.ddosx.com mydomain.co.uk
+64cf9871a5b0ca045an96udtf9a63687c180f47df6.user.ddosx.com  www.mydomain.co.uk
+64cf9871a5b0ca045an96udtf9a63687c180f47df6.user.ddosx.com blog.mydomain.co.uk
  ```
 On Linux and macOS you can open and edit the `hosts` file in a terminal window using a command such as
 
@@ -168,11 +167,29 @@ On Linux and macOS you can open and edit the `hosts` file in a terminal window u
 
 [This article](https://www.howtogeek.com/howto/27350/beginner-geek-how-to-edit-your-hosts-file/) contains more detailed instructions on modifying the `hosts` file on macOS, Linux, and different versions of Windows.
 
-Once you've added all the domains you need to test to your `hosts` file, save the changes. Then open a web browser and try browsing to your domain.  Your local `hosts` file will route the request directly to the DDoSX IP address so you'll be able to see exactly how your site will perform when you change your DNS records.
+Once you've added all the domains you need to test to your `hosts` file, save the changes. Then open a web browser and try browsing to your domain.  Your local `hosts` file will route the request directly to the DDoSX CNAME address so you'll be able to see exactly how your site will perform when you change your DNS records.
 
-If you're happy with how your site performs, you can switch the DNS Routing for your domain to "DDoSX".  Note that it may take [up to 48 hours](/Domains/domains/dnspropagation.html) for DNS changes to propagate across the internet (as with any such changes), and before your domain is fully protected.
+**Put domain Live**
 
-Once DNS propagation had concluded, your domain will be fully set up with DDoSX<sup>®</sup> protection.
+If you're happy with how your site performs, you can make the required DNS changes with your current DNS provider to point traffic to DDOSx.
+
+The process to change DNS record varies between providers, so we do recommended following your DNS providers documentation should you need assistance creating ALIAS, ANAME or CNAME records.
+
+To create these records, you will need to log into to your current DNS provider and delete and existing A, AAAA, ALIAS ANAME or CNAME records for the domain or sub domain you want to route through DDoSX<sup>®</sup>. Feel free to take a backup of your DNS configuration of your prover supports it. A screenshot may also be useful. 
+
+Next, if you're setting up your root domain, create either an ALIAS or ANAME record and set the hostname to your root domain. This is commonly done by setting the `hostname` to an `@` symbol or a blank value. Then set the value/target of this record to your unique DDoSX<sup>®</sup> DNS CNAME Record value. For example:
+
+| Record Type | Hostname  | Target
+|---------------|-----------------|-----------------|
+| ALIAS | @         | 64cf9871a5b0ca045an96udtf9a63687c180f47df6.user.ddosx.com
+
+If you're setting up a non-root domain like `portal.example.com` that is not used in MX records etc, you can instead create a simple CNAME record, following the same process as above, but setting the record type to CNAME. An ALAIS or ANAME would also work too. For example:
+
+| Record Type | Hostname | Target
+|---------------|-----------------|-----------------|
+| CNAME | portal         | 64cf9871a5b0ca045an96udtf9a63687c180f47df6.user.ddosx.com
+
+Once your DNS changes have been applied and DNS propagation has concluded, your domain will be fully set up with DDoSX<sup>®</sup> protection.
 
 ## Further Configuration
 
