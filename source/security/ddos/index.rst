@@ -13,7 +13,6 @@ DDoSX\ :sup:`®` is designed to protect your websites and web applications from 
 
    setup-safedns
    setup-cname
-   CNAME
    access_controls
    wafsettings
    testing_domain
