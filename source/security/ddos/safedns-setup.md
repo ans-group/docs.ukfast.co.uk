@@ -4,11 +4,11 @@ DDoSX<sup>®</sup>, can be setup to protect any domain from DDoS and common Web 
 
 CDN and WAF are optional additional DDoSX<sup>®</sup> features, and as a result, DDoSX must first be enabled on your domain(s) to allow CDN and WAF to be configured.
 
-To use DDoSX<sup>®</sup>, CDN and WAF, you need to either have your domains' setup on UKFast SafeDNS and ensure it's nameservers pointing to the UKFast nameservers or create an ANAME/ALIAS record with your current DNS provider to point to DDOSx using a provided CNAME.
+To use DDoSX<sup>®</sup>, CDN and WAF, you need to either have your domains' setup on UKFast SafeDNS and ensure its name servers pointing to the UKFast name servers or create an ANAME/ALIAS record with your current DNS provider to point to DDOSx using a provided CNAME.
 
 ```eval_rst
 .. warning::
-   This documentation is for settign up DDoSX<sup>®</sup> using SafeDNS. Documentaion on seting up an external domain via an ALIAS, ANAME or CNAME can be found in our** [Setup DDoSX<sup>®</sup> via ALIAS, ANAME or CNAME](/security/ddos/setup-cname).
+   This documentation is for setting up DDoSX<sup>®</sup> using SafeDNS. Documentation on setting up an external domain via an ALIAS, ANAME or CNAME can be found in our** [Setup DDoSX<sup>®</sup> via ALIAS, ANAME or CNAME](/security/ddos/setup-cname).
 ```
 
 To enable DDoSX<sup>®</sup>, CDN and WAF on your domains, follow these steps:
@@ -17,7 +17,7 @@ To enable DDoSX<sup>®</sup>, CDN and WAF on your domains, follow these steps:
 
 **[2. Connect](#2-connect-your-domain)** your domain(s) to DDoSX<sup>®</sup>
 
-**[3. Configure Domain](#3-configure-domain)** your domain(s) with your prefered proxy settings
+**[3. Configure Domain](#3-configure-domain)** your domain(s) with your preferred proxy settings
 
 **[4. Configure Additional Features](#4-configure-additional-features)** for any CDN or WAF enabled domains
 
@@ -32,7 +32,7 @@ To enable DDoSX<sup>®</sup>, CDN and WAF on your domains, follow these steps:
 
 ## 1) Prepare your domain
 
-The first step to setting up DDoSX<sup>®</sup> via SafeDNS is to prepare and check your doman before enabling DDoSX<sup>®</sup> protection. 
+The first step to setting up DDoSX<sup>®</sup> via SafeDNS is to prepare and check your domain before enabling DDoSX<sup>®</sup> protection. 
 
 ### SafeDNS:
 
@@ -40,14 +40,14 @@ Before setting up a SafeDNS domain in DDoSX<sup>®</sup>, double-check that your
 
 You must move all records associated with the domains (including sub-domains) you wish to protect, including SMTP, MX, mail etc to SafeDNS.
 
-Once you have done this, point your domains to the UKFast nameservers, which are:
+Once you have done this, point your domains to the UKFast name servers, which are:
 
    - ns0.ukfast.net
    - ns1.ukfast.net
 
 You'll need to do this through whichever domain registrar you use to manage your domains (which may not be UKFast). If you don't know who your domain registrar is you can do a 'WHOIS' lookup on websites such as https://whois.icann.org/
 
-The nameserver change may take up to 48 hours to propagate across the world. A good tool to check this is https://www.whatsmydns.net/
+The name server change may take up to 48 hours to propagate across the world. A good tool to check this is https://www.whatsmydns.net/
 
 ## 2) Connect your domain
 
@@ -57,7 +57,7 @@ The nameserver change may take up to 48 hours to propagate across the world. A g
 
 - Enter the domain that you want to protect in the 'Domain Name' text box
 
-- Select any additional features you'd like like to add to this domain such as CDN or WAF by clicking the checkbox next to your chosen features.
+- Select any additional features you'd like to add to this domain such as CDN or WAF by clicking the checkbox next to your chosen features.
 
 - Double-check your domain and selected additional features and then press 'Buy Now'
 
