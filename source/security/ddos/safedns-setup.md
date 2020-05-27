@@ -8,7 +8,7 @@ To use DDoSX<sup>®</sup>, CDN and WAF, you need to either have your domains' se
 
 ```eval_rst
 .. warning::
-   This documentation is for setting up DDoSX<sup>®</sup> using SafeDNS. Documentation on setting up an external domain via an ALIAS, ANAME or CNAME can be found in our** [Setup DDoSX<sup>®</sup> via ALIAS, ANAME or CNAME](/security/ddos/setup-cname).
+   This documentation is for setting up DDoSX<sup>®</sup> using SafeDNS. Documentation on setting up an external domain via an ALIAS, ANAME or CNAME can be found in our** [Setup DDoSX<sup>®</sup> via ALIAS, ANAME or CNAME](/security/ddos/setup-cname) documentation.
 ```
 
 To enable DDoSX<sup>®</sup>, CDN and WAF on your domains, follow these steps:
