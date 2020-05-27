@@ -1,12 +1,12 @@
 # Setting up DDoSX, CDN and WAF using SafeDNS
 
-DDoSX<sup>®</sup>, can be setup to protect any domain from DDoS and common Web Application attacks such as SQL Injections, Remote Command Execution and Cross-Site Scripting (XSS). More on how DDoSX<sup>®</sup> works can be found here: [DDoSX<sup>®</sup> General Information](/security/ddos/generalinformation)
+DDoSX<sup>®</sup>, can be setup to protect any domain from DDoS and common Web Application attacks such as SQL Injections, Remote Command Execution and Cross-Site Scripting (XSS). More on how DDoSX<sup>®</sup> works can be found in our [DDoSX<sup>®</sup> General Information](/security/ddos/generalinformation)
 
 CDN and WAF are optional additional DDoSX<sup>®</sup> features, and as a result, DDoSX must first be enabled on your domain(s) to allow CDN and WAF to be configured.
 
 To use DDoSX<sup>®</sup>, CDN and WAF, you need to either have your domains' setup on UKFast SafeDNS and ensure it's nameservers pointing to the UKFast nameservers or create an ANAME/ALIAS record with your current DNS provider to point to DDOSx using a provided CNAME. 
 
-**This documentation is for settign up DDoSX<sup>®</sup> using SafeDNS. Documentaion on seting up an external domain via an ALIAS, ANAME or CNAME can be found here** [Setup DDoSX<sup>®</sup> via ALIAS, ANAME or CNAME](/security/ddos/setup-cname).
+**This documentation is for settign up DDoSX<sup>®</sup> using SafeDNS. Documentaion on seting up an external domain via an ALIAS, ANAME or CNAME can be found in our** [Setup DDoSX<sup>®</sup> via ALIAS, ANAME or CNAME](/security/ddos/setup-cname).
 
 To enable DDoSX<sup>®</sup>, CDN and WAF on your domains, follow these steps:
 
@@ -33,7 +33,7 @@ The first step to setting up DDoSX<sup>®</sup> via SafeDNS is to preper and che
 
 ### SafeDNS:
 
-Before setting up a SafeDNS domain in DDoSX<sup>®</sup>, double-check that your domain is set up correctly and working as expected through SafeDNS. Documentation on how to setup SafeDNS can be found at :doc:`/Domains/safedns/index` should you assistance. 
+Before setting up a SafeDNS domain in DDoSX<sup>®</sup>, double-check that your domain is set up correctly and working as expected through SafeDNS. Documentation on how to setup SafeDNS can be found in our [SafeDNS Documentation](/Domains/safedns/index) should you assistance. 
 
 You must move all records associated with the domains (including sub-domains) you wish to protect, including SMTP, MX, mail etc to SafeDNS.
 
