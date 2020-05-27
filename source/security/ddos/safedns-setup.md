@@ -34,8 +34,6 @@ To enable DDoSX<sup>®</sup>, CDN and WAF on your domains, follow these steps:
 
 The first step to setting up DDoSX<sup>®</sup> via SafeDNS is to prepare and check your domain before enabling DDoSX<sup>®</sup> protection. 
 
-### SafeDNS:
-
 Before setting up a SafeDNS domain in DDoSX<sup>®</sup>, double-check that your domain is set up correctly and working as expected through SafeDNS. Documentation on how to setup SafeDNS can be found in our [SafeDNS Documentation](/Domains/safedns/index) should you assistance. 
 
 You must move all records associated with the domains (including sub-domains) you wish to protect, including SMTP, MX, mail etc to SafeDNS.
