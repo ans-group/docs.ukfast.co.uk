@@ -4,9 +4,12 @@ DDoSX<sup>®</sup>, can be setup to protect any domain from DDoS and common Web 
 
 CDN and WAF are optional additional DDoSX<sup>®</sup> features, and as a result, DDoSX must first be enabled on your domain(s) to allow CDN and WAF to be configured.
 
-To use DDoSX<sup>®</sup>, CDN and WAF, you need to either have your domains' setup on UKFast SafeDNS and ensure it's nameservers pointing to the UKFast nameservers or create an ANAME/ALIAS record with your current DNS provider to point to DDOSx using a provided CNAME. 
+To use DDoSX<sup>®</sup>, CDN and WAF, you need to either have your domains' setup on UKFast SafeDNS and ensure it's nameservers pointing to the UKFast nameservers or create an ANAME/ALIAS record with your current DNS provider to point to DDOSx using a provided CNAME.
 
-**This documentation is for settign up DDoSX<sup>®</sup> using SafeDNS. Documentaion on seting up an external domain via an ALIAS, ANAME or CNAME can be found in our** [Setup DDoSX<sup>®</sup> via ALIAS, ANAME or CNAME](/security/ddos/setup-cname).
+```eval_rst
+.. warning::
+   This documentation is for settign up DDoSX<sup>®</sup> using SafeDNS. Documentaion on seting up an external domain via an ALIAS, ANAME or CNAME can be found in our** [Setup DDoSX<sup>®</sup> via ALIAS, ANAME or CNAME](/security/ddos/setup-cname).
+```
 
 To enable DDoSX<sup>®</sup>, CDN and WAF on your domains, follow these steps:
 
