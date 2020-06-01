@@ -1,14 +1,14 @@
-# Setting up DDoSX, CDN and WAF using an ALIAS, ANAME or CNAME
+# Setting up DDoSX<sup>®</sup>, CDN and WAF using an ALIAS, ANAME or CNAME
 
 DDoSX<sup>®</sup>, can be setup to protect any domain from DDoS and common Web Application attacks such as SQL Injections, Remote Command Execution and Cross-Site Scripting (XSS). More on how DDoSX<sup>®</sup> works can be found in our [DDoSX<sup>®</sup> General Information](/security/ddos/generalinformation)
 
-CDN and WAF are optional additional DDoSX<sup>®</sup> features, and as a result, DDoSX must first be enabled on your domain(s) to allow CDN and WAF to be configured.
+CDN and WAF are optional additional DDoSX<sup>®</sup> features, and as a result, DDoSX<sup>®</sup> must first be enabled on your domain(s) to allow CDN and WAF to be configured.
 
-To use DDoSX<sup>®</sup>, CDN and WAF, you need to either have your domains' setup on UKFast SafeDNS and ensure its name servers pointing to the UKFast name servers or create an ANAME/ALIAS record with your current DNS provider to point to DDOSx using a provided CNAME.
+To use DDoSX<sup>®</sup>, CDN and WAF, you need to either have your domains' setup on UKFast SafeDNS and ensure its name servers pointing to the UKFast name servers or create an ANAME/ALIAS record with your current DNS provider to point to DDoSX<sup>®</sup> using a provided CNAME.
 
 ```eval_rst
 .. warning::
-   This documentation is for setting up DDoSX<sup>®</sup> using an ALIAS, ANAME or CNAME. Documentation on setting up an domain via SafeDNS can be found in our** [Setting up DDoSX, CDN and WAF using SafeDNS](/security/ddos/setup-safedns) documentation.
+   This documentation is for setting up DDoSX<sup>®</sup> using an ALIAS, ANAME or CNAME. Documentation on setting up an domain via SafeDNS can be found in our** [Setting up DDoSX<sup>®</sup>, CDN and WAF using SafeDNS](/security/ddos/setup-safedns) documentation.
 ```
 
 To enable DDoSX<sup>®</sup>, CDN and WAF on your domains, follow these steps:
@@ -26,7 +26,7 @@ To enable DDoSX<sup>®</sup>, CDN and WAF on your domains, follow these steps:
 ```eval_rst
 .. warning::
 
-   DDoSX supports HTTP and HTTPS web traffic on ports 80 and 443 respectively. If you need to route other types of traffic to your UKFast-hosted solution then please contact us before setting up DDoSX.
+   DDoSX<sup>®</sup> supports HTTP and HTTPS web traffic on ports 80 and 443 respectively. If you need to route other types of traffic to your UKFast-hosted solution then please contact us before setting up DDoSX<sup>®</sup>.
 
 ```
 
@@ -48,7 +48,7 @@ On the other hand, if you ONLY wish to place subdomains that are not used in MX 
 
 ## 2) Connect and verify your domain
 
-- Login to [MyUKFast](https://my.ukfast.co.uk) and head to `DDoSX Protection` in the navigation menu.
+- Login to [MyUKFast](https://my.ukfast.co.uk) and head to `DDoSX<sup>®</sup> Protection` in the navigation menu.
 
 - Click the red `GET STARTED` button if this is your first domain, or click 'Add additional domain' in the top-right if this is an additional domain.
 
@@ -140,13 +140,13 @@ The configuration of CDN and WAF can be quite complex, so each has its own docum
 
 [WAF Documentation](/security/ddos/wafsettings)
 
-Alternatively, you can skip the configuration of additional features for now and re-visit it after DDOSx has been verified as working and put live. To do this, continue to step 5.
+Alternatively, you can skip the configuration of additional features for now and re-visit it after DDoSX<sup>®</sup> has been verified as working and put live. To do this, continue to step 5.
 
 ## 5) Test domain and put live
 
 **Test Domain**
 
-Once you've connected your domain to the DDoSX network and configured your DNS records, you may wish to test that your website or application will work correctly before changing your live DNS.  This can be done by modifying your local `hosts` file to look for the DDoSX "DNS CNAME Record" address for your domain, which can found at the top of the `DNS Records` page in DDoSX<sup>®</sup> for each domain.
+Once you've connected your domain to the DDoSX<sup>®</sup> network and configured your DNS records, you may wish to test that your website or application will work correctly before changing your live DNS.  This can be done by modifying your local `hosts` file to look for the DDoSX<sup>®</sup> "DNS CNAME Record" address for your domain, which can found at the top of the `DNS Records` page in DDoSX<sup>®</sup> for each domain.
 
 ![serverpreview](files/ddosx_cname_record.PNG)
 
