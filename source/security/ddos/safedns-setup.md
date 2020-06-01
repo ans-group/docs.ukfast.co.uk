@@ -1,10 +1,10 @@
-# Setting up DDoSX, CDN and WAF using SafeDNS
+# Setting up DDoSX<sup>®</sup>, CDN and WAF using SafeDNS
 
 DDoSX<sup>®</sup>, can be setup to protect any domain from DDoS and common Web Application attacks such as SQL Injections, Remote Command Execution and Cross-Site Scripting (XSS). More on how DDoSX<sup>®</sup> works can be found in our [DDoSX<sup>®</sup> General Information](/security/ddos/generalinformation)
 
 CDN and WAF are optional additional DDoSX<sup>®</sup> features, and as a result, DDoSX must first be enabled on your domain(s) to allow CDN and WAF to be configured.
 
-To use DDoSX<sup>®</sup>, CDN and WAF, you need to either have your domains' setup on UKFast SafeDNS and ensure its name servers pointing to the UKFast name servers or create an ANAME/ALIAS record with your current DNS provider to point to DDOSx using a provided CNAME.
+To use DDoSX<sup>®</sup>, CDN and WAF, you need to either have your domains' setup on UKFast SafeDNS and ensure its name servers pointing to the UKFast name servers or create an ANAME/ALIAS record with your current DNS provider to point to DDoSX<sup>®</sup> using a provided CNAME.
 
 ```eval_rst
 .. warning::
@@ -26,7 +26,7 @@ To enable DDoSX<sup>®</sup>, CDN and WAF on your domains, follow these steps:
 ```eval_rst
 .. warning::
 
-   DDoSX supports HTTP and HTTPS web traffic on ports 80 and 443 respectively. If you need to route other types of traffic to your UKFast-hosted solution then please contact us before setting up DDoSX.
+   DDoSX<sup>®</sup> supports HTTP and HTTPS web traffic on ports 80 and 443 respectively. If you need to route other types of traffic to your UKFast-hosted solution then please contact us before setting up DDoSX<sup>®</sup>.
 
 ```
 
@@ -93,7 +93,7 @@ Enter your SSL's Private Key, Certificate, any CA/Chain certificates (Optional) 
 
 At this point, you should be able to go back into the `DNS Records` tab and select the SSL you want to apply via the `SSL` dropdown for each record. Only SSLs that are valid for the configured subdomain will show in the dropdown. For example, an SSL for only `www.ukfast.co.uk` and `ukfast.co.uk` will NOT show in the dropdown for  `my.ukfast.co.uk`. Wildcard SSL certificates should show for all applicable subdomains.
 
-Ensure that the `DDOSx Protection` toggle switch is enabled for all the domains you want to enable DDOSx for. This will **NOT** put DDOSx live just yet, toggling this switch will only enable the domain within DDoSX<sup>®</sup>.
+Ensure that the `DDoSX<sup>®</sup> Protection` toggle switch is enabled for all the domains you want to enable DDoSX<sup>®</sup> for. This will **NOT** put DDoSX<sup>®</sup> live just yet, toggling this switch will only enable the domain within DDoSX<sup>®</sup>.
 
 ![configuredomain](files/configuredomain.PNG)
 
@@ -109,7 +109,7 @@ The configuration of CDN and WAF can be quite complex, so each has its own docum
 
 [WAF Documentation](/security/ddos/wafsettings)
 
-Alternatively, you can skip the configuration of additional features for now and re-visit it after DDOSx has been verified as working and put live. To do this, continue to step 5.
+Alternatively, you can skip the configuration of additional features for now and re-visit it after DDoSX<sup>®</sup> has been verified as working and put live. To do this, continue to step 5.
 
 ## 5) Test domain and put live
 
@@ -155,7 +155,7 @@ You may wish to add further configuration on your origin server to work more clo
 
 ```
 
-Now that DDoSX<sup>®</sup> is configured for your domain, and requests going to your domain and via common name servers will be routed through DDOSx, however, attackers commonly try to avoid proxies like DDoSX<sup>®</sup> by using custom DNS servers to make the domain resolve to your origin server's IP instead of DDoSX<sup>®</sup>, bypassing the protection it offers. Furthermore, an attacker may still be able to attack your origin server by sending requests to the IP directly, (http://185.234.39.17/ for example).
+Now that DDoSX<sup>®</sup> is configured for your domain, and requests going to your domain and via common name servers will be routed through DDoSX<sup>®</sup>, however, attackers commonly try to avoid proxies like DDoSX<sup>®</sup> by using custom DNS servers to make the domain resolve to your origin server's IP instead of DDoSX<sup>®</sup>, bypassing the protection it offers. Furthermore, an attacker may still be able to attack your origin server by sending requests to the IP directly, (http://185.234.39.17/ for example).
 
 To prevent both these evasion methods, you can add firewall rules to only allow traffic on port TCP 443 and TCP 80 from our DDoSX<sup>®</sup> IP ranges mentioned below.
 
