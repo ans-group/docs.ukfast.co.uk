@@ -1,6 +1,6 @@
 # Setting up DDoSX<sup>®</sup>, CDN and WAF using an ALIAS, ANAME or CNAME
 
-DDoSX<sup>®</sup>, can be setup to protect any domain from DDoS and common Web Application attacks such as SQL Injections, Remote Command Execution and Cross-Site Scripting (XSS). More on how DDoSX<sup>®</sup> works can be found in our [DDoSX<sup>®</sup> General Information](/security/ddos/generalinformation)
+DDoSX<sup>®</sup>, can be setup to protect any domain from DDoS and common Web Application attacks such as SQL Injections, Remote Command Execution and Cross-Site Scripting (XSS). More on how DDoSX<sup>®</sup> works can be found in our [DDoSX General Information](/security/ddos/generalinformation)
 
 CDN and WAF are optional additional DDoSX<sup>®</sup> features, and as a result, DDoSX<sup>®</sup> must first be enabled on your domain(s) to allow CDN and WAF to be configured.
 
@@ -8,7 +8,7 @@ To use DDoSX<sup>®</sup>, CDN and WAF, you need to either have your domains' se
 
 ```eval_rst
 .. warning::
-   This documentation is for setting up DDoSX<sup>®</sup> using an ALIAS, ANAME or CNAME. Documentation on setting up an domain via SafeDNS can be found in our** [Setting up DDoSX<sup>®</sup>, CDN and WAF using SafeDNS](/security/ddos/setup-safedns) documentation.
+   This documentation is for setting up DDoSX using an ALIAS, ANAME or CNAME. Documentation on setting up an domain via SafeDNS can be found in our** [Setting up DDoSX, CDN and WAF using SafeDNS](/security/ddos/setup-safedns) documentation.
 ```
 
 To enable DDoSX<sup>®</sup>, CDN and WAF on your domains, follow these steps:
@@ -26,13 +26,13 @@ To enable DDoSX<sup>®</sup>, CDN and WAF on your domains, follow these steps:
 ```eval_rst
 .. warning::
 
-   DDoSX<sup>®</sup> supports HTTP and HTTPS web traffic on ports 80 and 443 respectively. If you need to route other types of traffic to your UKFast-hosted solution then please contact us before setting up DDoSX<sup>®</sup>.
+   DDoSX supports HTTP and HTTPS web traffic on ports 80 and 443 respectively. If you need to route other types of traffic to your UKFast-hosted solution then please contact us before setting up DDoSX<sup>®</sup>.
 
 ```
 
 ## 1) Prepare your domain
 
-The first step to setting up DDoSX<sup>®</sup> via an ALIAS, ANAME or CNAME is to prepare and check your domain before enabling DDoSX<sup>®</sup> protection. 
+The first step to setting up DDoSX via an ALIAS, ANAME or CNAME is to prepare and check your domain before enabling DDoSX<sup>®</sup> protection. 
 
 Before setting up a external domain in DDoSX<sup>®</sup>, double-check that your current DNS provider allow the creation of either an ALIAS, ANAME or flattened CNAME record if you wish to put your root domain (Like ukfast.co.uk) behind DDoSX<sup>®</sup>.
 
@@ -126,7 +126,7 @@ Finally, click `Apply Changes` and your domain will now be set up on the UKFast 
 ```eval_rst
 .. warning::
 
-   Your domain has not been put live yet, this step only configures the domain within DDoSX<sup>®</sup>. Please continue with the rest of this documentation to test and put your domain live.
+   Your domain has not been put live yet, this step only configures the domain within DDoSX. Please continue with the rest of this documentation to test and put your domain live.
 
 ```
 
@@ -200,7 +200,7 @@ You may wish to add further configuration on your origin server to work more clo
 ```eval_rst
 .. warning::
 
-   Make sure all websites hosted on your origin server are behind DDoSX<sup>®</sup> before applying these firewall rules. As doing so cut off access to any websites not protected by DDoSX<sup>®</sup>.
+   Make sure all websites hosted on your origin server are behind DDoSX before applying these firewall rules. As doing so cut off access to any websites not protected by DDoSX<.
 
 ```
 
