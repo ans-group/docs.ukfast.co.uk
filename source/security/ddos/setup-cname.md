@@ -152,7 +152,7 @@ Once you've connected your domain to the DDoSX<sup>®</sup> network and configur
 
 Locate the `hosts` file on your computer.  On Windows, you'll find it in **C:\Windows\System32\drivers\etc**.  
 
-Open the `hosts` file using Notepad or another plain text editor (you may need administrator rights to make changes), and insert a line for each domain you wish to test, that includes the domain and the CNAME Value from DDoSX; for example:
+Open the `hosts` file using Notepad or another plain text editor (you may need administrator rights to make changes), and insert a line for each domain you wish to test, that includes the domain and the CNAME Value from DDoSX<sup>®</sup>; for example:
 
  ```
 64cf9871a5b0ca045an96udtf9a63687c180f47df6.user.ddosx.com mydomain.co.uk
@@ -167,11 +167,11 @@ On Linux and macOS you can open and edit the `hosts` file in a terminal window u
 
 [This article](https://www.howtogeek.com/howto/27350/beginner-geek-how-to-edit-your-hosts-file/) contains more detailed instructions on modifying the `hosts` file on macOS, Linux, and different versions of Windows.
 
-Once you've added all the domains you need to test to your `hosts` file, save the changes. Then open a web browser and try browsing to your domain.  Your local `hosts` file will route the request directly to the DDoSX CNAME address so you'll be able to see exactly how your site will perform when you change your DNS records.
+Once you've added all the domains you need to test to your `hosts` file, save the changes. Then open a web browser and try browsing to your domain.  Your local `hosts` file will route the request directly to the DDoSX<sup>®</sup> CNAME address so you'll be able to see exactly how your site will perform when you change your DNS records.
 
 **Put domain Live**
 
-If you're happy with how your site performs, you can make the required DNS changes with your current DNS provider to point traffic to DDOSx.
+If you're happy with how your site performs, you can make the required DNS changes with your current DNS provider to point traffic to DDoSX<sup>®</sup>.
 
 The process to change DNS record varies between providers, so we do recommended following your DNS providers documentation should you need assistance creating ALIAS, ANAME or CNAME records.
 
@@ -204,7 +204,7 @@ You may wish to add further configuration on your origin server to work more clo
 
 ```
 
-Now that DDoSX<sup>®</sup> is configured for your domain, and requests going to your domain and via common name servers will be routed through DDOSx, however, attackers commonly try to avoid proxies like DDoSX<sup>®</sup> by using custom DNS servers to make the domain resolve to your origin server's IP instead of DDoSX<sup>®</sup>, bypassing the protection it offers. Furthermore, an attacker may still be able to attack your origin server by sending requests to the IP directly, (http://185.234.39.17/ for example).
+Now that DDoSX<sup>®</sup> is configured for your domain, and requests going to your domain and via common name servers will be routed through DDoSX<sup>®</sup>, however, attackers commonly try to avoid proxies like DDoSX<sup>®</sup> by using custom DNS servers to make the domain resolve to your origin server's IP instead of DDoSX<sup>®</sup>, bypassing the protection it offers. Furthermore, an attacker may still be able to attack your origin server by sending requests to the IP directly, (http://185.234.39.17/ for example).
 
 To prevent both these evasion methods, you can add firewall rules to only allow traffic on port TCP 443 and TCP 80 from our DDoSX<sup>®</sup> IP ranges mentioned below.
 
@@ -240,7 +240,7 @@ iptables --append INPUT --protocol tcp --dport 443 --jump DROP
 
 ### Configure webserver logging (optional but recommended)
 
-Once your domain is fully enabled on DDoSX, all requests to your webserver will appear to come from the DDoSX IP address rather than the original client. Therefore you may wish to configure your webserver to place the original client IP address into the logs. This is most important if you're using a stats package like Webalizer or AWStats, which rely on analysing your local web server logs.
+Once your domain is fully enabled on DDoSX<sup>®</sup>, all requests to your webserver will appear to come from the DDoSX<sup>®</sup> IP address rather than the original client. Therefore you may wish to configure your webserver to place the original client IP address into the logs. This is most important if you're using a stats package like Webalizer or AWStats, which rely on analysing your local web server logs.
 
 Here's how to do this for NGiNX and Apache:
 
