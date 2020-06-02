@@ -6,7 +6,7 @@ Veeam DRaaS
    :maxdepth: 1
 
    client_veeam_infrastructure
-   installing_vbr_server.md
+   installing_vbr_server
    connecting_to_ukfast_vcc
    veeam_replication_jobs
    configuring_a_replication_job
