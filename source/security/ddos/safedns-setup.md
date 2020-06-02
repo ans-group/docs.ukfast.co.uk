@@ -113,7 +113,7 @@ Alternatively, you can skip the configuration of additional features for now and
 
 ## 5) Test domain and put live
 
-Once you've connected your domain to the DDoSX network and configured your DNS records, you may wish to test that your website or application will work correctly before changing your live DNS routing.  This can be done by modifying your local `hosts` file to look for the DDoSX "Assigned IPv4" address for your domain.
+Once you've connected your domain to the DDoSX<sup>®</sup> network and configured your DNS records, you may wish to test that your website or application will work correctly before changing your live DNS routing.  This can be done by modifying your local `hosts` file to look for the DDoSX<sup>®</sup> "Assigned IPv4" address for your domain.
 
 You will see that initially your DNS Routing is shown as "Server", as per below.
 
@@ -121,7 +121,7 @@ You will see that initially your DNS Routing is shown as "Server", as per below.
 
 Locate the `hosts` file on your computer.  On Windows, you'll find it in **C:\Windows\System32\drivers\etc**.  
 
-Open the `hosts` file using Notepad or another plain text editor (you may need administrator rights to make changes), and insert a line for each domain you wish to test, that includes the domain and the Assigned IPv4 address from DDoSX; for example:
+Open the `hosts` file using Notepad or another plain text editor (you may need administrator rights to make changes), and insert a line for each domain you wish to test, that includes the domain and the Assigned IPv4 address from DDoSX<sup>®</sup>; for example:
 
  ```
  185.156.64.0 mydomain.co.uk
@@ -136,9 +136,9 @@ On Linux and macOS you can open and edit the `hosts` file in a terminal window u
 
 [This article](https://www.howtogeek.com/howto/27350/beginner-geek-how-to-edit-your-hosts-file/) contains more detailed instructions on modifying the `hosts` file on macOS, Linux, and different versions of Windows.
 
-Once you've added all the domains you need to test to your `hosts` file, save the changes. Then open a web browser and try browsing to your domain.  Your local `hosts` file will route the request directly to the DDoSX IP address so you'll be able to see exactly how your site will perform when you change your DNS records.
+Once you've added all the domains you need to test to your `hosts` file, save the changes. Then open a web browser and try browsing to your domain.  Your local `hosts` file will route the request directly to the DDoSX<sup>®</sup> IP address so you'll be able to see exactly how your site will perform when you change your DNS records.
 
-If you're happy with how your site performs, you can switch the DNS Routing for your domain to "DDoSX".  Note that it may take [up to 48 hours](/Domains/domains/dnspropagation.html) for DNS changes to propagate across the internet (as with any such changes), and before your domain is fully protected.
+If you're happy with how your site performs, you can switch the DNS Routing for your domain to "DDoSX<sup>®</sup>".  Note that it may take [up to 48 hours](/Domains/domains/dnspropagation.html) for DNS changes to propagate across the internet (as with any such changes), and before your domain is fully protected.
 
 Once DNS propagation had concluded, your domain will be fully set up with DDoSX<sup>®</sup> protection.
 
@@ -191,7 +191,7 @@ iptables --append INPUT --protocol tcp --dport 443 --jump DROP
 
 ### Configure webserver logging (optional but recommended)
 
-Once your domain is fully enabled on DDoSX, all requests to your webserver will appear to come from the DDoSX IP address rather than the original client. Therefore you may wish to configure your webserver to place the original client IP address into the logs. This is most important if you're using a stats package like Webalizer or AWStats, which rely on analysing your local web server logs.
+Once your domain is fully enabled on DDoSX<sup>®</sup>, all requests to your webserver will appear to come from the DDoSX<sup>®</sup> IP address rather than the original client. Therefore you may wish to configure your webserver to place the original client IP address into the logs. This is most important if you're using a stats package like Webalizer or AWStats, which rely on analysing your local web server logs.
 
 Here's how to do this for NGiNX and Apache:
 
