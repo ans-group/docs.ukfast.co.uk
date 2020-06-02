@@ -151,7 +151,7 @@ You may wish to add further configuration on your origin server to work more clo
 ```eval_rst
 .. warning::
 
-   Make sure all websites hosted on your origin server are behind DDoSX<sup>®</sup> before applying these firewall rules. As doing so cut off access to any websites not protected by DDoSX<sup>®</sup>.
+   Make sure all websites hosted on your origin server are behind DDoSXbefore applying these firewall rules. As doing so cut off access to any websites not protected by DDoSX.
 
 ```
 
