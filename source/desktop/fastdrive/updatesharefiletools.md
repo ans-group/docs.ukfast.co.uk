@@ -1,62 +1,43 @@
-# eCloud Flex flavours and configurations
+# REQUIRED: Upgrade to newer ShareFile tools
 
-Each instance on eCloud Flex comes in a variety of configurations, known as "flavours" in OpenStack terminology. The resources available for each of these flavours are shown in the table below:
+As you may already know, ShareFile Drive Mapper, ShareFile Desktop App for Windows and ShareFile Desktop App for Mac are reaching ‘end of life’ on 30th June 2020. They require upgrading to newer versions on which the key Citrix component which provides privacy and data integrity has been updated.
+
+The deadline for updating is **_30th June 2020_**. Any clients using older versions after this date will be prevented from accessing some of their services, due to a security risk and chance of service disruption which could include difficulty accessing services.
+
+To find out how to identify how up to date your tool is, use the instructions below based on your endpoint device. More information on the upgrade can be found on the [Citrix support centre](https://support.citrix.com/article/CTX236104).
+
 
 ```eval_rst
-+-----------------+----------------+----------------+-------+-------------+------+----------------+
-| Flavour Type    | Flavour        | Disk Size (GB) | vCPUs | Memory (GB) | IOPS | Network (Mbps) |
-+=================+================+================+=======+=============+======+================+
-| Small           | UKF2-small-1x0 | 20             | 1     | 0.5         | 500  | 10,000         |
-+-----------------+----------------+----------------+-------+-------------+------+----------------+
-| Small           | UKF2-small-1x1 | 20             | 1     | 1           | 1000 | 10,000         |
-+-----------------+----------------+----------------+-------+-------------+------+----------------+
-| General Purpose | UKF2-std-2x2   | 60             | 2     | 2           | 1000 | 10,000         |
-+-----------------+----------------+----------------+-------+-------------+------+----------------+
-| General Purpose | UKF2-std-4x4   | 60             | 4     | 4           | 1000 | 10,000         |
-+-----------------+----------------+----------------+-------+-------------+------+----------------+
-| General Purpose | UKF2-std-8x8   | 60             | 8     | 8           | 1000 | 10,000         |
-+-----------------+----------------+----------------+-------+-------------+------+----------------+
-| High Memory     | UKF2-mem-1x8   | 60             | 1     | 8           | 2500 | 10,000         |
-+-----------------+----------------+----------------+-------+-------------+------+----------------+
-| High Memory     | UKF2-mem-2x16  | 60             | 2     | 16          | 2500 | 10,000         |
-+-----------------+----------------+----------------+-------+-------------+------+----------------+
-| High Memory     | UKF2-mem-4x32  | 60             | 4     | 32          | 2500 | 10,000         |
-+-----------------+----------------+----------------+-------+-------------+------+----------------+
-| High Memory     | UKF2-mem-8x64  | 60             | 8     | 64          | 2500 | 10,000         |
-+-----------------+----------------+----------------+-------+-------------+------+----------------+
-| High IO         | UKF2-io-1x2    | 60             | 1     | 2           | 5000 | 10,000         |
-+-----------------+----------------+----------------+-------+-------------+------+----------------+
-| High IO         | UKF2-io-2x4    | 60             | 2     | 4           | 5000 | 10,000         |
-+-----------------+----------------+----------------+-------+-------------+------+----------------+
-| High IO         | UKF2-io-4x8    | 60             | 4     | 8           | 5000 | 10,000         |
-+-----------------+----------------+----------------+-------+-------------+------+----------------+
-| High IO         | UKF2-io-8x16   | 60             | 8     | 16          | 5000 | 10,000         |
-+-----------------+----------------+----------------+-------+-------------+------+----------------+
-| High CPU        | UKF2-cpu-2x12  | 60             | 2*    | 12          | 3000 | 10,000         |
-+-----------------+----------------+----------------+-------+-------------+------+----------------+
-| High CPU        | UKF2-cpu-4x24  | 60             | 4*    | 24          | 3000 | 10,000         |
-+-----------------+----------------+----------------+-------+-------------+------+----------------+
-| High CPU        | UKF2-cpu-6x36  | 60             | 6*    | 36          | 3000 | 10,000         |
-+-----------------+----------------+----------------+-------+-------------+------+----------------+
-| High CPU        | UKF2-cpu-8x48  | 60             | 8*    | 48          | 3000 | 10,000         |
-+-----------------+----------------+----------------+-------+-------------+------+----------------+
++--------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------+----------------------------------------------------------------------+
+| ShareFile Tool           | Finding Out Current Version                                                                                                                                             | Minimum Required Version | How to install the latest version                                    | 
++==========================+=========================================================================================================================================================================+==========================+======================================================================+
+| Citrix files for Windows | Left click on the ShareFile logo in the System Tray to open the Dashboard. Select ‘Help’ from the dashboard. The version number appears at the top of the ‘Help’ page.  | 4.x and later            | [Windows Edition](https://support.citrix.com/article/CTX228273)      |
++--------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------+----------------------------------------------------------------------+
+| Citrix files for macOS   | Left click on the ShareFile logo in the System Tray to open the Dashboard. Select ‘Help’ from the dashboard. The version number appears at the top of the ‘Help’ page.  | 4.x and later            | [macOS Edition](https://support.citrix.com/article/CTX226351)        |
++--------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------+----------------------------------------------------------------------+
+| Citrix files for Outlook | Select ‘Help’ from the Citrix Files for Outlook ‘Options’ menu. The version number appears at the top of the ‘Help’ page.                                               | 6.x and later            | [Outlook User Guide](https://support.citrix.com/article/CTX2370      |
++--------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------+----------------------------------------------------------------------+
+| Print to Sharefile       | Select the ‘Help’ icon (?) in the upper right hand corner of the app. On the top right hand side you will see the version number.                                       | 2.8.97 and later         | [Print to ShareFile](https://support.citrix.com/article/CTX207793    |
++--------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------+----------------------------------------------------------------------+
+
 ```
+## Citrix Files for Mobile Apps
 
- *\* ***High CPU*** flavours have an increased clock speed, providing superior performance over other flavours with comparable numbers of vCPUs.
+```eval_rst
++--------------------------+-------------------------------------+----------------------------------------------------------------------------------------+
+| Mobile Apps              | TLS 1.2 Supported OS Platforms      | App Download Location                                                                  | 
++==========================+=====================================+========================================================================================+
+| Citrix files for Android | Android 5 and later                 | [Google Play App](https://play.google.com/store/apps/details?id=com.citrix.sharefile)  |
++--------------------------+-------------------------------------+----------------------------------------------------------------------------------------+
+| Citrix files for iOS     | iOS 10 and later                    | [iOS App Store](https://apps.apple.com/us/app/citrix-sharefile/id434391375)            | 
++--------------------------+-------------------------------------+----------------------------------------------------------------------------------------+
 
-## Block Storage volumes
-
-Additional storage for your eCloud Flex instances is available through attachable Block Storage volumes, based on [OpenStack Cinder](https://docs.openstack.org/cinder/latest/).  Block Storage is available in SATA, SSD and PCIe tiers, with each tier offering increasing IOPS and improved access latency:
-
-* **SATA** volumes offer up to 500 IOPS, and are recommended for storage of large files which are accessed infrequently, or for log files
-* **SSD** volumes will perform in excess of 5,000 IOPS, and are recommended for frequently accessed files, databases and web files
-* **PCIe** volumes bring performance of over 50,000 IOPS, and are recommended for high performance databases and applications
-
-For pricing information and to quickly calculate your cloud costs, use our [eCloud Flex calculator](https://www.ukfast.co.uk/calculate-ecloud-flex.html).
+```
+ 
 
 ```eval_rst
 .. meta::
-    :title: eCloud Flex Flavours | UKFast Documentation
-    :description: Detailed guidance on the resources for each eCloud Flex Flavour
-    :keywords: ecloud, flex, volume, instance, flavour, flavor, RAM, memory, CPU, clock speed, IOPS, network
+    :title: Upgrade to newer ShareFile tools | UKFast Documentation
+    :description: Detailed guidance on upgrading ShareFile tools to the latest version 
+    :keywords: FastDrive, ShareFile, Update, Citrix, Outlook, Windows, macOS, TLS
 ```
