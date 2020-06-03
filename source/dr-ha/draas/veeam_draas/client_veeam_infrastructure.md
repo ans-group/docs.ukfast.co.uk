@@ -33,9 +33,10 @@ One large factor of how many concurrent tasks will run at any one time is how yo
 
 ```eval_rst
 .. note::
-Proxy server sizing example
 
-If you had a replication job with five VMs, all of which had two virtual disks, you would have a total of 10 tasks attempting to replicate concurrently.
+   Proxy server sizing example
 
-In order to support this you would require at least 10 cores on your proxy server/s. This could be split across two smaller proxy servers or one single larger one.
+   If you had a replication job with five VMs, all of which had two virtual disks, you would have a total of 10 tasks attempting to replicate concurrently.
+
+   In order to support this you would require at least 10 cores on your proxy server/s. This could be split across two smaller proxy servers or one single larger one.
 ```
