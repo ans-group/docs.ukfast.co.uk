@@ -1,11 +1,12 @@
+
 # Upgrade to Newer ShareFile tools
+
 
 As you may already know, ShareFile Drive Mapper, ShareFile Desktop App for Windows and ShareFile Desktop App for Mac are reaching ‘end of life’ on 30th June 2020. They require upgrading to newer versions on which the key Citrix component which provides privacy and data integrity has been updated.
 
 The deadline for updating is **_30th June 2020_**. Any clients using older versions after this date will be prevented from accessing some of their services, due to a security risk and chance of service disruption which could include difficulty accessing services.
 
 To find out how to identify how up to date your tool is, use the instructions below based on your endpoint device. More information on the upgrade can be found on the [Citrix Support Centre](https://support.citrix.com/article/CTX236104).
-
 
 ```eval_rst
 +--------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------+------------------------------------------------+
@@ -24,7 +25,7 @@ To find out how to identify how up to date your tool is, use the instructions be
 ## Citrix Files for Mobile Apps
 
 ```eval_rst
-+--------------------------+-------------------------------------+---------------------------------------------------------------------+
+=+--------------------------+-------------------------------------+---------------------------------------------------------------------+
 | Mobile Apps              | Minimum OS Version                  | App Download Location                                               | 
 +==========================+=====================================+=====================================================================+
 | Citrix files for Android | Android 5 and later                 | https://play.google.com/store/apps/details?id=com.citrix.sharefile  |
@@ -36,6 +37,7 @@ To find out how to identify how up to date your tool is, use the instructions be
 
 **_This instruction guide should assist you in getting logged in for the first time. If you have any questions or still require assistance, please contact the FastDesk support team on 0800 923 0617_**
  
+
 ```eval_rst
 .. meta::
     :title: Upgrade to newer ShareFile tools | UKFast Documentation

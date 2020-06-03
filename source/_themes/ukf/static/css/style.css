@@ -2053,3 +2053,29 @@ header {
     font-family: 'Roboto Mono', sans-serif;
     font-size: 11px !important;
 }
+
+/* Allows specifically tagged ul's to utilise flex */
+.docs-flex-holder {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    margin: auto;
+}
+
+.docs-flex-item {
+    padding-bottom: 30px;
+    padding-left: 10px;
+    width: 30%;
+    min-width: 270px;
+}
+
+.docs-flex-holder ul {
+    margin: 0;
+    padding: 0;
+    padding-left: 20px;
+}
+
+.docs-flex-holder li {
+    margin-top: 5px;
+}
