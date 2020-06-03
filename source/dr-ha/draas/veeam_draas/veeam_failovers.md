@@ -106,3 +106,9 @@ Your VMs in production should now be able to communicate with the VMs you have f
         * **Failback to the specified location** - Replicates an exact copy of the VM in DR back to a location of your choice on your local VMware infrastructure.
 
 ![Veeam Partial Failover - Failover Back to Production](files/veeam_failovers/veeamfailovers_partialfailover_failback.png)
+
+```eval_rst
+   .. meta::
+      :title: Veeam Failovers | UKFast Documentation
+      :description: Information regarding types of failovers and how to initiate them
+      :keywords: ukfast, cloud, ecloud, public, hosting, infrastructure, vmware, draas, veeam, connect, dr, replication, backup, failover

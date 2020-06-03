@@ -33,3 +33,9 @@
          ![Connect to UKast Cloud Connect Infrastructure](files/connecttoserviceprovider/connecttoserviceprovider_addnea.png)
    5. Select **Apply** and then **Next**
    6. **Summary** - Give all of the settings one final check before clicking **Finish**
+
+```eval_rst
+   .. meta::
+      :title: Connecting to UKFast Veeam Cloud Connect | UKFast Documentation
+      :description: How to connect to UKFasts Veeam Cloud Connect infrastructure
+      :keywords: ukfast, cloud, ecloud, public, hosting, infrastructure, vmware, draas, veeam, connect, dr, replication, backup

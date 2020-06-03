@@ -1,4 +1,4 @@
-# Failover Planning
+# Creating a Failover Plan
 
 A Failover Plan defines which VMs you want to failover, internal networking at UKFast and your NATs for your external IPs. These should be created immediately after you have configured and run your replications, so they are ready to be used in the event of a DR situation. In the event of an outage you will not be able to create or modify your Failover Plans.
 
@@ -51,3 +51,8 @@ You can use the same External IP multiple times for the same or different VMs pr
 
 ![Create Veeam Failover Plan - Public IP Addresses](files/createfailoverplan/createfailoverplan_publicipaddresses.png)
 
+```eval_rst
+   .. meta::
+      :title: Creating a Failover Plan | UKFast Documentation
+      :description: How to create a Failover Plan in Veeam
+      :keywords: ukfast, cloud, ecloud, public, hosting, infrastructure, vmware, draas, veeam, connect, dr, replication, backup, failover

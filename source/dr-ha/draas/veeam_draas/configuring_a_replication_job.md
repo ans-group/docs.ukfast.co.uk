@@ -85,3 +85,10 @@ If you are running the replication as a one-time job you can skip past this page
 
 ![Replication Job - Schedule](files/createreplicationjob/createreplicationjob_schedule.png)
 
+
+```eval_rst
+   .. meta::
+      :title: Configuring a replication job | UKFast Documentation
+      :description: How to configure a replication job to UKFast
+      :keywords: ukfast, cloud, ecloud, public, hosting, infrastructure, vmware, draas, veeam, connect, dr, replication, backup
+

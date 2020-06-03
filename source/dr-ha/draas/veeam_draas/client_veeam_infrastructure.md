@@ -40,3 +40,9 @@ One large factor of how many concurrent tasks will run at any one time is how yo
 
    In order to support this you would require at least 10 cores on your proxy server/s. This could be split across two smaller proxy servers or one single larger one.
 ```
+
+```eval_rst
+   .. meta::
+      :title: Client Veeam Infrastructure | UKFast Documentation
+      :description: Client infrastructure required to connect to UKFast Veeam Cloud Connect
+      :keywords: ukfast, cloud, ecloud, public, hosting, infrastructure, vmware, draas, veeam, connect, dr, replication, backup
