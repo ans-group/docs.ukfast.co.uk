@@ -2,7 +2,7 @@
 
 ## IIS
 
-Internet Information Services (IIS) is a Microsoft built web server that runs .NET. IIS is a built in feature of the Windows Operating System and below are the default settings/components installed at point of deployment:
+Internet Information Services (IIS) is a Microsoft developed web server that runs .NET. IIS is a built in feature of the Windows Operating System and below are the default settings/components installed at point of deployment:
 
 ```eval_rst
 +---------------------------+----------------------------------------------------------------+
