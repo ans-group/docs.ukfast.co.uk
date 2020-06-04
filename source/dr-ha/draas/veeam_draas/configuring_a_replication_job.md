@@ -75,9 +75,7 @@ Sizing information for WAN accelerators can be found on Veeam’s website  - [WA
 ![Replication Job - Guest Processing](files/createreplicationjob/createreplicationjob_guestprocessing.png)
 
 ### Schedule
-<blockquote>
-If you are running the replication as a one-time job you can skip past this page.
-</blockquote>
+**If you are running the replication as a one-time job you can skip past this page.**
 
 1. **Run the job automatically** - Schedule the job to run daily, monthly or periodically specifying minutes or hours. You also have the option to select the job only to run on certain days, months or at certain times if using the periodically option.
 2. **Automatic retry** - We find the default settings here usually suffice, but you have the option to change this if you have a specific need.
