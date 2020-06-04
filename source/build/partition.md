@@ -1,4 +1,4 @@
-# Server Partitions
+# Partitions
 
 Please find below the UKFast Default Partitions configured as part of your solution. 
 
@@ -29,6 +29,10 @@ The below configuration applies to the following Linux Servers:
 | /boot Partition | 1GB Minimum         | 1GB                      |
 +-----------------+---------------------+--------------------------+
 ```
+
+## Virtual Machines
+
+The size of disk allocation to virtual machines can be edited depending on requirements in the Enterprise Launch Questionnaire.
 
 ```eval_rst
   .. meta::
