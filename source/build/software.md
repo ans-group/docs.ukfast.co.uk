@@ -1,6 +1,10 @@
 # Server Software
 
-Please find below the UKFast Default Software installed as part of your solution. 
+Please find below the UKFast Default Software installed as part of your solution.
+
+## Virtual Machine
+
+By default virtual machines are built with the specified operating system **only**, additional software can be requested in the Enterprise Launch Questionnaire.
 
 ## Windows Server
 ```eval_rst
