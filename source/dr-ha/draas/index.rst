@@ -1,10 +1,10 @@
 ===============
-DRaaS 
-===============
+Distaster Recovery as a Service
+
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
 
-veeam_draas/index
+   veeam_draas/index
 
 

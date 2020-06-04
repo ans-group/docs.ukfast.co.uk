@@ -24,8 +24,6 @@ Partial failovers are used to failover individual VMs. Use this type of failover
 
 ### Initiating the Failover
 
-`this needs editing once the myukfast DRaaS page has been completed, so it is accurate`
-
 1. Login to your MyUKFast > navigate to the **Disaster Recovery** section down the left hand side > **DRaaS** - [MyUKFast DRaaS](https://my.ukfast.co.uk/draas)
 2. If you only have one DRaaS solution it will take you straight into the overview page. If you have more than one, select the DRaaS solution that you would like to perform the failover on.
 3. Next to the Failover Plan you would like to failover, select **Enable Failover** to initiate the failover
