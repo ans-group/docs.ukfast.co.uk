@@ -1,5 +1,5 @@
 ===============
-Distaster Recovery as a Service
+Disaster Recovery as a Service
 ===============
 
 .. toctree::
