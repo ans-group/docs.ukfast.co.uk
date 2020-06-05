@@ -36,9 +36,9 @@ You also have the option to call UKFast support, should you have any issues doin
 
 **This will not replicate changes made at UKFast back to your local infrastructure, it will simply power off the VMs at UKFast. If you want to replicate changes made at UKFast, you must use the "Failback to production" feature on your local Veeam console**
 
-1.  Login to your MyUKFast > navigate to the **Disaster Recovery** section down the left hand side > **DRaaS** - [MyUKFast DRaaS](https://my.ukfast.co.uk/draas)
+1. Login to your MyUKFast > navigate to the **Disaster Recovery** section down the left hand side > **DRaaS** - [MyUKFast DRaaS](https://my.ukfast.co.uk/draas)
 2. If you only have one DRaaS solution it will take you straight into the overview page. If you have more than one, select the DRaaS solution that you would like to revert the failover on.
-3. Next to the failover plan which has been failed over, select `???` to revert the failover
+3. Next to the failover plan which has been failed over, select **Disable Failover** to revert the failover
 
 ![Disable Full Failover](files/veeam_failovers/veeamfailovers_disablefailover.png)
 
