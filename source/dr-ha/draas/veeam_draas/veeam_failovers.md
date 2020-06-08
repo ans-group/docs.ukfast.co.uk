@@ -1,4 +1,4 @@
-# Veeam Failovers
+# Failovers
 
 This guide explains the different failover types within Veeam and how to perform each of them.
 
