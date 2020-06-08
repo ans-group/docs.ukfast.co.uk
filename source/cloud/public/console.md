@@ -4,6 +4,7 @@ From the [MyUKFast VM list page](https://my.ukfast.co.uk/ecloud-public) a consol
 
  ![consoleButton](files/consoleButton.png)
 
+```eval_rst
 .. meta::
    :title: eCloud Public APIs | UKFast Documentation
    :description: Programatic control of your eCloud Public resources
