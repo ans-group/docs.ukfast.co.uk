@@ -1,4 +1,4 @@
-# Veeam Replication Jobs
+# Replication Jobs
 
 There are a number of thoughts and considerations that need to be taken before setting up your replication jobs to UKFast Cloud Connect Infrastructure. Pre-planning ensures that jobs run as reliably as possible, storage is used optimally and your replication jobs remain compliant with the required RPOs (recovery point objectives)
 
