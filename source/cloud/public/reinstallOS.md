@@ -10,6 +10,7 @@ From here you will be prompted for your MyUKFast password as below:
 
 This will then re-run our automation to present a fresh install of the operating system.
 
+```eval_rst
 .. meta::
    :title: eCloud Public APIs | UKFast Documentation
    :description: Programatic control of your eCloud Public resources

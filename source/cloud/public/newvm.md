@@ -8,6 +8,7 @@ Here you will have options for the VM name, [operating system](https://docs.ukfa
 
 Shortly after this will have ran through our automated launch process and you will be able to access your [new VM](https://my.ukfast.co.uk/ecloud-public)
 
+```eval_rst
 .. meta::
    :title: eCloud New VM | UKFast Documentation
    :description: Guide on creating a new eCloud public VM

@@ -8,6 +8,7 @@ From here you have options to perform a soft reboot of the VM along with a full 
 
  ![consoleButton](files/consoleButton.png)
 
+```eval_rst
 .. meta::
    :title: eCloud Public APIs | UKFast Documentation
    :description: Programatic control of your eCloud Public resources
