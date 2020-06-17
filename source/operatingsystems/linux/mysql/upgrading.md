@@ -115,7 +115,7 @@ Plesk have some additional documentation for upgrading MariaDB from 5.5 to 10.x 
    
 ```
 
-* Log into [WHM](https://docs.ukfast.co.uk/operatingsystems/linux/controlpanels/cpanel.html)
+* Log into [WHM](/operatingsystems/linux/controlpanels/cpanel.html)
 * In the *search bar*, search for `MySQL/MariaDB Upgrade`
 
 ![Search](files/mariadbsearch.PNG)

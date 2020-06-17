@@ -39,7 +39,7 @@ A CNAME record links a domain to the A name record of another domain for ease of
 3. Type the domain you would like to protect in the domain box.
 4. A message will pop up to add a CNAME record. Click Connect.
 
-In order to connect your domain to the DDoSX network you must first verify that this is your domain. To do this follow the on screen instructions. Once this process has been completed and the verification has been confirmed you will proceed to the configure tab within DDoSX. To then complete the set up of your domain on DDoSX read our [documentation here](https://docs.ukfast.co.uk/security/ddos/gettingstarted.html). 
+In order to connect your domain to the DDoSX network you must first verify that this is your domain. To do this follow the on screen instructions. Once this process has been completed and the verification has been confirmed you will proceed to the configure tab within DDoSX. To then complete the set up of your domain on DDoSX read our [documentation here](/security/ddos/gettingstarted.html). 
 
 
 

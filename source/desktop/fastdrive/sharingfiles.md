@@ -92,6 +92,6 @@ __Always link to the latest version of the file__ - If this option is selected, 
 
 __For more information on how to add contacts to your address books and distribution groups, take a look at the following pages:__
 
-[Distribution Groups](https://docs.ukfast.co.uk/fastdrive/distributiongroups.html)
+[Distribution Groups](/fastdrive/distributiongroups.html)
 
-[Address Books](https://docs.ukfast.co.uk/fastdrive/addressbooks.html)
+[Address Books](/fastdrive/addressbooks.html)

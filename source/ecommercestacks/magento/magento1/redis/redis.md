@@ -219,7 +219,7 @@ Mage::app()->getCache()->getBackend()->clean('old');
 We would recommend adding this to the shell folder and configuring a cron to run daily.
 
 ### Redis Service
-You can find more information on the Redis service [here](https://docs.ukfast.co.uk/operatingsystems/linux/redis/redis.html)
+You can find more information on the Redis service [here](/operatingsystems/linux/redis/redis.html)
 
 ```eval_rst
   .. meta::

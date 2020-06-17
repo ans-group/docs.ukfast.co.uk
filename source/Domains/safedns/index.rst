@@ -14,3 +14,4 @@ SafeDNS allows you to manage your DNS records, even if you didn't use UKFast as 
    recordtypes
    safednsapi
    /Domains/domains/dnspropagation
+   safedns-plesk/index

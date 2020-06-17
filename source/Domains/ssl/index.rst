@@ -10,3 +10,4 @@ SSL Certificates
    types
    self_signed_certificates
    sni
+   Extended_Validation_SSL

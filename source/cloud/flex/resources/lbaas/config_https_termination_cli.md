@@ -4,7 +4,7 @@ To set up HTTPS termination on your eCloud Flex load balancer you will need to u
 
 ## Environment Configuration
 
-If you don't already have an eCloud Flex load balancer set up that you wish to add HTTPS termination to, please follow the [guide here](https://docs.ukfast.co.uk/cloud/flex/resources/lbaas/config_lb_through_interface.html) to create one.  You'll then need to install these Python packages, we recommend using `pip` with the command below:
+If you don't already have an eCloud Flex load balancer set up that you wish to add HTTPS termination to, please follow the [guide here](/cloud/flex/resources/lbaas/config_lb_through_interface.html) to create one.  You'll then need to install these Python packages, we recommend using `pip` with the command below:
 
 `pip install python-neutronclient python-barbicanclient`
 

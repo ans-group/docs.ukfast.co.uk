@@ -1,6 +1,6 @@
 # Restoring files and folders from a backup
 
-Restoring from a backup is a simple process.  Find the files and/or folders you wish to restore as described in the [Managing Files and Folders](https://docs.ukfast.co.uk/FASTcloudbackup/Managingfilesandfolders.html) section.  Select the files or folders and click `Restore` at the top of the page.
+Restoring from a backup is a simple process.  Find the files and/or folders you wish to restore as described in the [Managing Files and Folders](/FASTcloudbackup/Managingfilesandfolders.html) section.  Select the files or folders and click `Restore` at the top of the page.
 
 ![file options](files/file_options.PNG)
 

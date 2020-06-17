@@ -1,0 +1,10 @@
+.grid-parent {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.grid-item {
+    width: 25rem;
+    margin: 2rem;
+}

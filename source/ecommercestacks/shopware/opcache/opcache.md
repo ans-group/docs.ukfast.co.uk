@@ -71,7 +71,7 @@ The OPcache GUI [https://github.com/amnuts/opcache-gui](https://github.com/amnut
 ~]# chown -R shopwareuser: opcache-gui
 ```
 
-You can then browse www.shopwaredomain.com/opcache-gui. We recommend password/ip redirection for this URI, we have guides on how to do this [here](https://docs.ukfast.co.uk/operatingsystems/linux/magento/magento2/restrictfilefolder.html)
+You can then browse www.shopwaredomain.com/opcache-gui. We recommend password/ip redirection for this URI, we have guides on how to do this [here](/operatingsystems/linux/magento/magento2/restrictfilefolder.html)
 
 ```eval_rst
   .. meta::
