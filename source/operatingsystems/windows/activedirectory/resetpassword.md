@@ -22,8 +22,8 @@ A window similar to the below will then be displayed:
 ![AD reset](files/resetpassword/AD_reset.PNG)
 
 - Within this window, enter a `New password` for the user.
-- If you would like the user to change the password upon next logging on, check the `User must change password at next logon` check box.
 - If the user's account has been locked, check the `Unlock the user's account` check box.
+- We would recommend that you change the password upon logging into the account.
 
 ## Using Powershell
 
