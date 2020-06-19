@@ -38,7 +38,7 @@ Shown below is an example Threat Monitoring email alert. In the below alert, we 
 
 ### Dynamic Protection
 
-Providing real-time protection against incoming attacks, UKFast's Threat Monitoring solution can block attacking IP addresses, through the use of a host-based firewall, such as IPTables (Linux) or Windows firewall. This protection, called Dynamic Protection, will block an attacker for 30 minutes, afterwards, removing the block. Should the attacker continue, the IP address is placed on a global blacklist for 30 days. This global blacklist spans across all customers protected with Threat Monitoring, enabling a wide area of protection, from a wide and varied attack base.
+Providing real-time protection against incoming attacks, UKFast's Threat Monitoring solution can block attacking IP addresses, through the use of a host-based firewall, such as IPTables (Linux) or Windows firewall. This protection, called Dynamic Protection, will block an attacker for 30 minutes, afterwards, removing the block. Should the attacker continue, the IP address is placed on a global blocklist for 30 days. This global blocklist spans across all customers protected with Threat Monitoring, enabling a wide area of protection, from a wide and varied attack base.
 
 ### Log collation
 

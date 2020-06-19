@@ -1,6 +1,6 @@
 # .php File allow list
 
-The Magento 2 Nginx configuration file has an allow list (List of allowed file names) to be passed to PHP-FPM. This guide is intended to show you how to add a new filename to the whitelist.
+The Magento 2 Nginx configuration file has an allow list (List of allowed file names) to be passed to PHP-FPM. This guide is intended to show you how to add a new filename to the allow list.
 
 We are going to use testfile.php as the example new php file we are trying to add to the Nginx allow list.
 

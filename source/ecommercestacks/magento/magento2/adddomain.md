@@ -42,15 +42,15 @@ If there are no errors in the configuration test proceed to reload the Nginx ser
  ~]$ nginx -s reload
 ```
 
-## Nginx .php File Whitelist 
+## Nginx .php File Allow list 
 
-The web service (Nginx) configuration file has a whitelist for .php files to pass to php-fpm. If you want to access a .php file not in the dedault list:
+The web service (Nginx) configuration file has an allow list for .php files to pass to php-fpm. If you want to access a .php file not in the default list:
 
 ```bash
 location ~ (index|get|static|report|404|503|health_check)\.php$ {
 ```
 
-Please refer to this guide: [Magento 2 .php File Whitelist](/operatingsystems/linux/magento/magento2/nginxphpfilewhitelist.html)
+Please refer to this guide: [Magento 2 .php File Allow list](/ecommercestacks/magento/magento2/nginxphpfileallowlist.html)
 
 ## Magento 2 CLI
 

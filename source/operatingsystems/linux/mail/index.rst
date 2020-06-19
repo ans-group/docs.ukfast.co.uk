@@ -1,7 +1,7 @@
 .. meta::
    :title: Email hosting | UKFast Documentation
    :description: Information regarding a wide range of email related issues
-   :keywords: ukfast, email, exim, postfix, mail, dovecot, blacklist, dkim, spf
+   :keywords: ukfast, email, exim, postfix, mail, dovecot, blocklist, dkim, spf
 
 ====
 Mail
@@ -14,7 +14,7 @@ Email is a complex and deep subject, but these guides should help cover the basi
 
    mailconfig
    bounces
-   blacklists
+   blocklists
    exim
    postfix
    dkim

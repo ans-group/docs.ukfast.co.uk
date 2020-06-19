@@ -58,11 +58,11 @@ From here we will be configuring hMail’s anti-spam settings, covering them tab
 
 https://www.hmailserver.com/forum/viewtopic.php?t=28133
 
-## DNS Blacklists
+## DNS Blocklists
 
-![hMailServer > Settings > Anti-spam > DNS Blacklists](files/antispam/dnsblacklists.png)
+![hMailServer > Settings > Anti-spam > DNS Blocklists](files/antispam/dnsblocklists.png)
 
-**DNS Blacklists** are lists maintained by different organisations that track IPs' associated mail traffic. When these are enabled it will check domains that email your server to ensure they are not on any blacklists. If the sending IP is blacklisted, it will reject the message. 
+**DNS Blocklists** are lists maintained by different organisations that track IPs' associated mail traffic. When these are enabled it will check domains that email your server to ensure they are not on any blocklists. If the sending IP is blocked, it will reject the message. 
 
 hMail believe enabling this can cut down spam by as much as 15-25% and we would recommend enabling the default lists:
 
@@ -85,7 +85,7 @@ hMail will keep a log of the sending IP for the initial message and compare this
 
 This process can cause issues as the retry delay can be lengthy (minutes / hours) and large mail servers can send from multiple IPs. This can cause delays in delivery to your server until the same email is sent by the same IP twice. For this reason, we typically advise against enabling Grey Listing. 
 
-If you do enable this feature we would recommend whitelisting large mail providers such as Google, Hotmail (etc.) and companies with which you deal regularly.
+If you do enable this feature we would recommend allowing large mail providers such as Google, Hotmail (etc.) and companies with which you deal regularly.
 
 ## White Listing
 
