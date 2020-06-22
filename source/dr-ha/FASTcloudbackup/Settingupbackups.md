@@ -1,5 +1,12 @@
 # Setting up backups
 
+```eval_rst
+   .. meta::
+      :title: FastCloudBackup | Setting up Backups | UKFast Documentation
+      :description: Information on how to manage your FastCloudBackup account
+```      
+
+
 ## Choosing which files and folders to back up
 
 From the home screen of the [FASTcloudbackup web console](https://fcb.ukfast.co.uk) click on `My Data`, find the computer or server you wish to work on and then click `Settings`.

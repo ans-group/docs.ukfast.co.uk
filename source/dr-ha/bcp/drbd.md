@@ -1,5 +1,11 @@
 # Distributed Replicated Block Device (DRBD)
 
+```eval_rst
+   .. meta::
+      :title: Distributed Replicated Block Device (DRBD) | UKFast Documentation
+      :description: Information on how to manage your FastCloudBackup account
+```     
+
 DRBD is utilised in our physical BCP solutions to replicate data at block level between two or more servers. While not wholly comparable, you could think of it as resembling RAID1 being performed over the network on two volumes.
 
 Generally, there are two DRBD volumes in each cluster:

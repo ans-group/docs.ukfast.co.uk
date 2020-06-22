@@ -1,5 +1,14 @@
 # Managing your FASTcloudbackup account
 
+
+```eval_rst
+   .. meta::
+      :title: FastCloudBackup | Managing Your Account | UKFast Documentation
+      :description: Information on how to manage your FastCloudBackup account
+      
+```
+
+
 This section describes various admin tasks you may need to undertake from time to time.
 
 ## Creating additional FASTcloudbackup end user accounts
