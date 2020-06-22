@@ -2,7 +2,7 @@
 
 ```eval_rst
    .. meta::
-      :title: SSL | Buying EV SSL Certificates from UKFast | UKFast Documentation
+      :title: SSL | Buying EV SSL Certs from UKFast | UKFast Documentation
       :description: Purchasing and renewing EV SSL certificates from UKFast
 
 ```
@@ -43,7 +43,7 @@ Upon purchase, unique `SHA` and `MD5` hashes will be provided.
 
    For guidance about the different types of validation please see the following guide
 
-   :doc:`/Domains/ssl/validating_your_ssl.html`
+   :doc:`/domains/ssl/validating_your_ssl.html`
 
 ```
 
@@ -67,10 +67,3 @@ When successful, they will move onto the final stage.
 Once the above has been completed, **Sectigo** refers the case files to a *secondary validation team* to review for any discrepancies.
 
 This can take up to **1** business day, and should the review be successful **Sectigo** will then issue the certificate.
-
-```eval_rst
-   .. meta::
-      :title: Extended Validation SSL | UKFast Documentation
-      :description: General guidance on the process for Extended Validation SSL certificates and the steps to complete them
-      :keywords: ssl, certificate, ukfast, dcv, validation, renewal, extended validation, ev, sectigo, 
-```

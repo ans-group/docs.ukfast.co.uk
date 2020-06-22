@@ -14,7 +14,7 @@ DDoSX<sup>®</sup>, our DDoS protection service, is designed to detect and filte
 
 ## Where does DDoSX<sup>®</sup> sit in my IT stack?
 
-DDoSX<sup>®</sup> is a network-based solution which sits in front of your UKFast-hosted environment.  By re-pointing the DNS records of the domains you wish to protect to UKFast using [SafeDNS](/Domains/safedns/index.html), we can broadcast your IP address(es) across our global DDoSX<sup>®</sup> network.  All traffic destined for your domains will then be routed via this network, enabling us to filter out malicious traffic as described above.
+DDoSX<sup>®</sup> is a network-based solution which sits in front of your UKFast-hosted environment.  By re-pointing the DNS records of the domains you wish to protect to UKFast using [SafeDNS](/domains/safedns/index.html), we can broadcast your IP address(es) across our global DDoSX<sup>®</sup> network.  All traffic destined for your domains will then be routed via this network, enabling us to filter out malicious traffic as described above.
 
 ## What type of traffic and applications does DDoSX support?
 

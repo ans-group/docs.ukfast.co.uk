@@ -1,5 +1,14 @@
 # Introduction to BCP
 
+
+```eval_rst
+
+   .. meta::
+      :title: DR HA | Introduction to BCP | UKFast Documentation
+      :description: Introduction to the Business Continuity Platform from UKFast
+
+```
+
 Our Business Continuity Platform (also known as "BCP" or "clusters") are a highly-available configuration of RedHat or CentOS servers making use of several technologies to allow for failover in the event of an issue on one node, along with the balancing of services across more than one server.
 
 Depending on your requirements, you might be working with a different number of servers operating in BCP using different methods of replication in slightly different configurations, so please bare that in mind when using this documentation.
@@ -24,7 +33,7 @@ The red lines in the diagram represent 10GBPS direct connections between the nod
 
 The two virtual IPs ("VIPs") provided are attached to the resource group for the web services and DB services respectively. These VIPs will always be attached to the half of the cluster which is actively running the related service.
 
-As such, the external web VIP *(109.108.11.103 in this example)* would be the address used when updating your [DNS records](/Domains/safedns/index.html) to point at the cluster. The MySQL VIP *(109.108.11.104 in this example)* would be used to access MySQL remotely via MySQL Workbench or a similar application.
+As such, the external web VIP *(109.108.11.103 in this example)* would be the address used when updating your [DNS records](/domains/safedns/index.html) to point at the cluster. The MySQL VIP *(109.108.11.104 in this example)* would be used to access MySQL remotely via MySQL Workbench or a similar application.
 
 When connecting to MySQL from your application hosted on the webserver, you should use the `10.1.0.3` internal-only crossover VIP which is associated to the resource group for the database service, and operates over a 10GBPS NIC. Using the public MySQL VIP *(172.10.62.4 in this example)* would mean that MySQL traffic needs to flow over the switch alongside your visitor traffic and might cause performance issues when under heavy load, as such, using the crossover connection is recommended.
 
@@ -90,7 +99,7 @@ Normally this would also be racked over two switches, with the `-01` server of e
 
 Much like in a two node cluster, you will receive a VIP for MySQL, which will follow the MySQL service when it changes nodes. This will have an internal and external address - the internal one should be used in the application hosted on the web servers, and the external used for connecting remotely via MySQL workbench or similar.
 
-Unlike the two node clusters, [load balancers](/network/loadbalancing/index.html) are used in place of a web VIP. As such, you'll receive a VIP for the load balancer which is configured as requested to split load between the web servers, this is the address you should use in your [DNS records](/Domains/safedns/index.html) when going live.
+Unlike the two node clusters, [load balancers](/network/loadbalancing/index.html) are used in place of a web VIP. As such, you'll receive a VIP for the load balancer which is configured as requested to split load between the web servers, this is the address you should use in your [DNS records](/domains/safedns/index.html) when going live.
 
 ### Replication of data
 

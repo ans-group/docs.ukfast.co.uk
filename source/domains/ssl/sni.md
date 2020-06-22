@@ -13,7 +13,7 @@ Assuming you already have the domains and SSL certificates in question, follow t
 
 ## Pointing your domains to an IP address
 
-If you're using SafeDNS from UKFast, follow the steps in [this article](/Domains/safedns/addnewdomain.html) to add your domain, along with the IP address you wish to point the domain to.  Repeat this for each of the domain.
+If you're using SafeDNS from UKFast, follow the steps in [this article](/domains/safedns/addnewdomain.html) to add your domain, along with the IP address you wish to point the domain to.  Repeat this for each of the domain.
 
 ## Configuring an SSL certificate using SNI
 

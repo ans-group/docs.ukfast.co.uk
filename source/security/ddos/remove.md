@@ -6,7 +6,7 @@ If you want to remove a domain from DDoSX<sup>®</sup> then follow these steps:
 2. Click the delete icon next to the domain in question
 3. You'll be asked to re-enter your MyUKFast password to confirm you wish to go ahead and delete the domain.
 4. Your domain will now be disconnected from the DDoSX<sup>®</sup> network.  You can reconnect your domain at any time until the billing period expires.
-5. You should use [SafeDNS](/Domains/safedns/index.html) to point your domain records back to your own server or firewall, so that traffic to the domain is no longer being routed via the UKFast DDoSX<sup>®</sup> network.
+5. You should use [SafeDNS](/domains/safedns/index.html) to point your domain records back to your own server or firewall, so that traffic to the domain is no longer being routed via the UKFast DDoSX<sup>®</sup> network.
 
 ```eval_rst
 .. warning::
