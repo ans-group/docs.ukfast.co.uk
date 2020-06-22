@@ -15,8 +15,8 @@ body {
     text-rendering: optimizeLegibility;
     -moz-osx-font-smoothing: grayscale;
     min-height: 100%;
-    font-family: 'Droid Sans', sans-serif;
-    font-size: 14px;
+    font-family: system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    font-size: 1.5em;
     line-height: 26px;
     /* letter-spacing: 0.05em; */
     font-weight: 500;
@@ -39,43 +39,67 @@ hr {
     width: 100%;
 }
 h1, h2, h3, h4, h5, h6 {
-    font-family: Droid Sans, sans-serif;
     font-weight: 300;
     margin: 0;
     color: #363637;
     margin: 9px 0 9px 0;
 }
 h1 {
-    font-size: 42px;
-    line-height: 44px;
-    margin: 0 0 40px 0;
+    font-size: 2.25em;
+    margin: 0 0 0.5em 0;
 }
 h2 {
-    font-size: 36px;
-    line-height: 50px;
+    font-size: 1.5em;
 }
 h3 {
-    font-size: 28px;
+    font-size: 1em;
     font-weight: 400;
-    line-height: 50px;
 }
 h4 {
-    font-size: 16px;
+    font-size: 1em;
     font-weight: 400;
-    line-height: 50px;
 }
 h5 {
-    font-size: 14px;
-    font-weight: 600;
-    line-height: 40px;
+    font-size: 1em;
+    font-weight: 600;;
 }
 h6 {
-    font-size: 12px;
+    font-size: 1px;
     font-weight: 400;
-    line-height: 18px;
 }
 p {
     margin: 0 0 20px;
+}
+
+h2 a {
+    color: #363637;
+}
+
+#container {
+    background-color: #f6f5f4
+}
+
+#main-menu-container {
+    background-color: #fff;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.1),0 1px 2px 0 rgba(0,0,0,.06);
+    border-radius: .25rem;
+    padding: 2em 2.5em
+}
+
+#sidebar-container {
+    position: relative;
+    width:220px;
+    float:left
+}
+
+#content-container {
+    width: auto;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+@media only screen and (min-width: 991px){
+    #content-container {margin-left: 250px;}
 }
 
 /* 
@@ -106,7 +130,7 @@ ul ul {
     padding: 0;
 }
 a {
-    color: #f32837;
+    color: #040d9a;
     text-decoration:none;
     -webkit-transition:all 0.2s linear; transition:all 0.2s linear;
 }
@@ -116,6 +140,7 @@ a:focus,
 a:active,
 .btn:hover,
 .btn:focus,
+
 .btn:active,
 button:hover,
 button:focus,
@@ -537,7 +562,7 @@ iframe {
 
 @media (max-width: 767px) {
     .header-wrapper {
-        background-color: #f32837;
+        background-color: #e65743;
         color: #dadde2;
     }
 
@@ -1303,6 +1328,10 @@ input[type="email"].big-dog::webkit-input-placeholder {
     padding: 0 20px;
 }
 
+#footer a {
+    color: #ffffff;
+}
+
 .back-2 {
     background: #363638;
 }
@@ -1502,7 +1531,7 @@ blockquote {
     display: block;
     width: 100%;
     height: 34px;
-    font-size: 14px;
+    font-size: 1.5em;
     line-height: 1.42857143;
     color: #FFF;
     background-color: #A92B32;
@@ -1646,12 +1675,11 @@ header {
     transition: top 0.2s ease-in-out;
     width: 100%;
     z-index: 99;
-    background:url("../shard.png") no-repeat scroll #f32837;
-    background-position: top right;
+    background: #e65743;
 }
 
 .nav-up {
-    top: -76px;
+    top: -76px;fonr
 }
 
 #sub {
@@ -1683,7 +1711,6 @@ header {
     height: 60px;
     font-size: 16px;
     display: inline-block;
-    font-family: 'Droid Sans', sans-serif;
     font-weight: 400;
     border: none;
     outline: none;
@@ -1883,7 +1910,7 @@ header {
     position: fixed;
     bottom: calc(70% - 44px);
     right: 0;
-    background: #f32837;
+    background: #e65743;
     padding: 5px 0px 4px;
     z-index: 90; /* Behind header */
 }
@@ -1896,7 +1923,7 @@ header {
     -moz-transition-duration: 0.3s;
     -o-transition-duration: 0.3s;
     transition-duration: 0.3s;
-    background: #f32837;
+    background: #e65743;
     padding: 5px 0px 4px;
     z-index: 90; /* Behind header */
 }
@@ -1914,7 +1941,7 @@ header {
     -moz-transition-duration: 0.3s;
     -o-transition-duration: 0.3s;
     transition-duration: 0.3s;
-    background: #f32837;
+    background: #e65743;
     padding: 5px 12px;
     width: 210px;
 }
