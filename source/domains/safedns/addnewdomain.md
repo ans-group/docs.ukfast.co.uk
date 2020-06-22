@@ -1,5 +1,13 @@
 # Adding a domain into SafeDNS
 
+```eval_rst
+
+   .. meta::
+      :title: SafeDNS | Adding a Domain into SafeDNS | UKFast Documentation
+      :description: How to add a A Name record in SafeDNS
+
+```
+
 Adding a domain into the SafeDNS system allows you to manage the records for that domain and carefully craft how your clients access your solution.
 
 Before we delve into the steps required to add a domain to your SafeDNS service, please ensure you've configured the domain to work with our SafeDNS system. If your domain was registered with us, then you don't need to worry about this step, but if you've registered the domain with an external service provider, then you may need to follow this guide before you can proceed.

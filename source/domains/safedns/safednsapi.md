@@ -1,6 +1,6 @@
 ```eval_rst
 .. meta::
-   :title: SafeDNS API | UKFast Documentation
+   :title: SafeDNS | How to use the SafeDNS API | UKFast Documentation
    :description: Guidance on using the SafeDNS API from UKFast to manage DNS records
 ```
 

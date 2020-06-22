@@ -1,5 +1,13 @@
 # SafeDNS Authenticator plugin for Certbot
 
+```eval_rst
+
+   .. meta::
+      :title: SafeDNS | Authenticator plugin for Certbot | UKFast Documentation
+      :description: SafeDNS Authenticator plugin for Certbot
+
+```
+
 ## Setup
 
 ```bash

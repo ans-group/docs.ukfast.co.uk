@@ -1,5 +1,13 @@
 # Adding a Sender Policy Framework (SPF) record to SafeDNS
 
+```eval_rst
+
+   .. meta::
+      :title: SafeDNS | Adding a SPF record | UKFast Documentation
+      :description: Adding a Sender Policy Framework (SPF) record to SafeDNS
+
+```
+
 This guide provides the instructions needed to configure an SPF (Sender Policy Framework) record for your domain with SafeDNS. For an in-depth guide on SPF records how they work, please refer to [our general SPF guide](/operatingsystems/linux/mail/spf.md).
 
 SPF records are designed to prevent spammers from spoofing email from your domain. They give you the means to state which servers are authorised to send email on behalf of your domain. The large majority of mail servers will check for an SPF record when filtering for spam, preventing people from being able to spoof your domain for spam or phishing purposes.
