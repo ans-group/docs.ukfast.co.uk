@@ -40,9 +40,9 @@ You will also need to setup a hostname for the server which matches the reverse 
 
 ### Sending mail to Microsoft/Hotmail/Office365
 
-Microsoft mail servers are a little different to other providers. They operate their own private blacklists and greylists, so if you want to send mail to these domains, you should make sure to follow the steps here in order to make sure your IP is whitelisted by Microsoft. If not, you may find your mail sent to spam. This is described as a "greylist".
+Microsoft mail servers are a little different to other providers. They operate their own private blocklists and greylists, so if you want to send mail to these domains, you should make sure to follow the steps here in order to make sure your IP is allowed by Microsoft. If not, you may find your mail sent to spam. This is described as a "greylist".
 
-In terms of preparing for getting whitelisted by Microsoft, you must follow the steps outlined above. The two important factors are setting up SPF records and having a hostname on the server resolve to the rDNS for the IP sending mail from that server.
+In terms of preparing for getting your IP allowed by Microsoft, you must follow the steps outlined above. The two important factors are setting up SPF records and having a hostname on the server resolve to the rDNS for the IP sending mail from that server.
 
 Once done, the first step is to sign up to the JMRP and SNDS services which are provided by Microsoft for email postmasters:
 
@@ -60,4 +60,4 @@ The process can take up to a week, however it is usually completed in under 24 h
   .. meta::
      :title: Basics of mail on Linux | UKFast Documentation
      :description: A guide to the basics of mail on Linux
-     :keywords: ukfast, mail, basics, config, dns, spf, mx, blacklist, hotmail, live, microsoft
+     :keywords: ukfast, mail, basics, config, dns, spf, mx, blocklist, hotmail, live, microsoft
