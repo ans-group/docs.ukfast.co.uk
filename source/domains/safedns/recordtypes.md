@@ -1,5 +1,13 @@
 # Different types of DNS records
 
+```eval_rst
+
+   .. meta::
+      :title: SafeDNS | Different types of DNS records | UKFast Documentation
+      :description: Different types of DNS records within SafeDNS
+
+```
+
 Whilst not specific to SafeDNS, it's always nice to have a breakdown of the various types of DNS records available, so here's a bit of a glossary:
 
 * CNAME (Canonical Name) Record:

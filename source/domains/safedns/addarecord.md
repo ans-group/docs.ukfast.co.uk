@@ -1,5 +1,14 @@
 # Adding an A record to an existing domain
 
+```eval_rst
+
+   .. meta::
+      :title: SafeDNS | Adding a A Name Record | UKFast Documentation
+      :description: How to add a A Name record in SafeDNS
+
+```
+
+
 Before you can add a subdomain or an `A` record to your domain, you must login to the My UKFast client area and access the SafeDNS service, which can be located under the `Services` drop-down menu at the top of the client area.
 
 Once logged in, and in the SafeDNS system, start by selecting the domain you wish to manipulate. In our example, we're using `example.domain`, which isn't a real/valid domain name. Once you've selected the domain, you will want to start by selecting `Add Record` under the `A Records` section:

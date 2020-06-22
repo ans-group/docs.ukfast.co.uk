@@ -1,5 +1,12 @@
 # Self Signed Certificates
 
+```eval_rst
+   .. meta::
+      :title: SSL | Self Signed SSL Certificates | UKFast Documentation
+      :description: Information on Self Signed SSL Certificates
+
+```
+
 ## What are Self Signed Certificates?
 
 Self signed certificates are exactly the same as a normal SSL certificate. The only difference between a self signed certificate and a purchased SSL from a company such as comodo, is that the purchased SSL will be signed by a recognised certificate authority, and the self signed certificate is signed, as the name implies, by you.

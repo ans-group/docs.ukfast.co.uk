@@ -19,7 +19,6 @@
 }
 
 .document-body {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: normal;
     font-size: 15px;
     /* letter-spacing: 0.02em; */
@@ -31,7 +30,7 @@
 }
 
 .page-container {
-    padding-top: 160px;
+    padding-top: 150px;
     padding-bottom: 40px;
 }
 
@@ -250,11 +249,13 @@ table.internal-toc {
 
 .tt-menu .empty-result,
 .tt-menu .tt-suggestion {
-    font-size: 12px;
-    line-height: 1.4em;
     display: block;
     padding: 5px 10px;
     border-bottom: 1px solid #eee;
+}
+
+a.tt-suggestion {
+    color:#363637
 }
 .tt-cursor,
 .tt-suggestion:focus,
@@ -333,10 +334,10 @@ tt {
     font-size: 105%;
     line-height: normal;
     padding: 0px 2px;
-    color: #c9111e363637;
+    color: #e65743;
 }
 a tt {
-    color: #f32837;
+    color: #e65743;
 }
 dl tt {
     border-bottom: none;
@@ -671,10 +672,9 @@ dt tt {
 /* Structure */
 
 * {
-    box-sizing: border-box;
+    box-sizing: border-box; 
 }
 .grid-container {
-    max-width: 1000px;
     width: 100%;
     margin: 0 auto;
 }
@@ -695,20 +695,27 @@ dt tt {
 }
 
 /* Boxes */
-a.box {
-    background-color: #ebeff0;
-    text-align: center;
-    padding: 40px;
+.box {
+    padding: 10px 20px;
     display: block;
     text-decoration: none;
-    color: #000000;
-    font-size: 25px;
+    color: #4a5568;
+    font-size: 1.5em;
 }
-a.box:hover {
-    background-color: #e6eaeb;
+
+.box p{
+    margin:10px 0 10px
 }
-a.box i {
+
+.box i {
     font-size: 44px;
+    float: left;
+    margin: 10px 20px 0 0;
+    color: #2C5282;
+}
+
+.box ul {
+    margin: 0 0 10px 90px;
 }
 
 /* Media Queries */

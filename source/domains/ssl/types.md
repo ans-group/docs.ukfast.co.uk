@@ -1,5 +1,12 @@
 # Different types of SSL certificates available from UKFast
 
+```eval_rst
+   .. meta::
+      :title: SSL | Types of SSL Available from UKFast | UKFast Documentation
+      :description: Information on Types of SSL Available from UKFast
+
+```
+
 SSL Certificates come in various forms, which provide the different features that may be required by your business. The different types of SSL available through UKFast are:
 
 **Single-Domain SSLs - covers www.domain.com and domain.com**

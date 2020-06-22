@@ -1,6 +1,10 @@
 # Changing nameservers for a domain with UKFast
 
 ```eval_rst
+   .. meta::
+      :title: Domain Names | Changing Nameservers | UKFast Documentation
+      :description: How to change your domain nameservers with UKFast
+
 .. note::
     This guide is only for domains that have already been transferred to UKFast. If you're not there yet, you can follow our guide here:
 

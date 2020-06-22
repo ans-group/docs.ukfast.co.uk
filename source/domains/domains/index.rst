@@ -1,5 +1,5 @@
 =========================
-Making Changes to Domains
+Domain Name Management
 =========================
 
 There are various changes you may need to make to your domains over time.
