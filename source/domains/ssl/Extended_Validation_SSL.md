@@ -43,7 +43,7 @@ Upon purchase, unique `SHA` and `MD5` hashes will be provided.
 
    For guidance about the different types of validation please see the following guide
 
-   :doc:`/Domains/ssl/validating_your_ssl.html`
+   :doc:`/domains/ssl/validating_your_ssl.html`
 
 ```
 
