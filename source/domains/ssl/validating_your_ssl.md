@@ -1,5 +1,12 @@
 # Validating your SSL certificate via File Upload
 
+```eval_rst
+   .. meta::
+      :title: SSL | Validating your SSL Certificate | UKFast Documentation
+      :description: Information on how to validate your SSL Certificate
+
+```
+
 Please note that the following guide has been written with UKFast Linux Servers in mind.
 If you need any assistance with any UKFast Products and Services that are not covered in this guide, please get in touch with our support team.
 

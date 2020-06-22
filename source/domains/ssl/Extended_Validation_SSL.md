@@ -1,5 +1,12 @@
 # Extended Validation SSL
 
+```eval_rst
+   .. meta::
+      :title: SSL | Buying EV SSL Certificates from UKFast | UKFast Documentation
+      :description: Purchasing and renewing EV SSL certificates from UKFast
+
+```
+
 EV SSL certificates provide the highest level of trust, giving customers greater confidence that they are conducting business through a trusted websites. To be approved for the extended validation SSL certificate, there are first several steps and prerequisites that need to be completed. 
 
 ### Prerequisite's

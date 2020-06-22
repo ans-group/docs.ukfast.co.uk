@@ -1,5 +1,12 @@
 # Cloning and Templating VMs
 
+```eval_rst
+   .. meta::
+      :title: eCloud Private | Cloning and Templating VMs | UKFast Documentation
+      :description: Information on how to Cloning and Templating VMs in your eCloud Private solution
+
+```
+
 This guide walks you through the process of cloning and templating VMs in the MyUKFast portal.
 
 ## Cloning VMs

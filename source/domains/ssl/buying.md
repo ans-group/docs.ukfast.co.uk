@@ -1,5 +1,12 @@
 # Purchasing and renewing SSL certificates
 
+```eval_rst
+   .. meta::
+      :title: SSL | Buying SSL Certificates from UKFast | UKFast Documentation
+      :description: Purchasing and renewing SSL certificates from UKFast
+
+```
+
 This guide covers how to purchase and renew SSL certificates with UKFast.  Our [guide on the different types of SSL certificates available](/Domains/ssl/types.html) may also be a useful read.
 
 ## Purchasing
