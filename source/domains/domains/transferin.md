@@ -3,7 +3,7 @@
 ```eval_rst
 
    .. meta::
-      :title: Domain Names | Transfering your domain to UKFast | UKFast Documentation
+      :title: Domain Names | Transfering to UKFast | UKFast Documentation
       :description: How to transfer your domain to UKFast
 
 .. note::
