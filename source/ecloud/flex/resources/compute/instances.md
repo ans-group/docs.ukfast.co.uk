@@ -4,9 +4,9 @@
 .. warning::
   As with most of our Flex guides, we're going to assume that you've followed our guide on setting environment variables and installing the openstackclient:
 
-  :doc:`/cloud/flex/general/settingvars`  
+  :doc:`/ecloud/flex/general/settingvars`  
   
-  :doc:`/cloud/flex/general/openstackcli`
+  :doc:`/ecloud/flex/general/openstackcli`
 
   If you're not using this method of authentication, you may need to specify additional flags/options in the commands used in this article.
 ```
@@ -26,7 +26,7 @@ Now we're ready to install the whole suite of OpenStack cli tools:
   pip install python-openstackclient
 ```
 
-We have a full page of documentation that details how to do this for various operating systems [here](/cloud/flex/general/openstackcli.html).
+We have a full page of documentation that details how to do this for various operating systems [here](/ecloud/flex/general/openstackcli.html).
 
 ## List instances
 
@@ -103,7 +103,7 @@ The first section `openstack server create` is relatively self explanatory, we'r
 +--------------------------------------+----------------------------------------+-------------+
 ```
 
-Your output to this command may very well be different, names may have been updated and the UUIDs have been changed in our examples on this page, so don't rely on the above content! Please refer to our other documentation for more information about [managing images](/cloud/flex/resources/storage/managing-images.html).
+Your output to this command may very well be different, names may have been updated and the UUIDs have been changed in our examples on this page, so don't rely on the above content! Please refer to our other documentation for more information about [managing images](/ecloud/flex/resources/storage/managing-images.html).
 
 The final part of that command is `--flavor`. American spelling aside, (it doesn't accept `--flavour` as an alias sadly, we've tried) `flavor` is the OpenStack parlance for 'size of instance', so it's the setting that controls how much RAM and CPU allocation you're giving the instance, along with which tier (IO/mem/std). We're back to the `openstack server` command for this one, with `openstack flavor list`:
 
@@ -119,7 +119,7 @@ The final part of that command is `--flavor`. American spelling aside, (it doesn
 +--------------------------------------+----------------+-------+------+-----------+-------+-----------+
 ```
 
-We are also able to view the available networks in our project. Every project in eCloud Flex is deployed with a pre-built network and router, so you should be able to plug in your default network. We have more information about networking in eCloud Flex [here](/cloud/flex/resources/network/).
+We are also able to view the available networks in our project. Every project in eCloud Flex is deployed with a pre-built network and router, so you should be able to plug in your default network. We have more information about networking in eCloud Flex [here](/ecloud/flex/resources/network/).
 
 ```console
 [root@workstation ~]# openstack network list

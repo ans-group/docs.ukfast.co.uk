@@ -34,7 +34,7 @@ To enable DDoSX<sup>®</sup>, CDN and WAF on your domains, follow these steps:
 
 The first step to setting up DDoSX<sup>®</sup> via SafeDNS is to prepare and check your domain before enabling DDoSX<sup>®</sup> protection. 
 
-Before setting up a SafeDNS domain in DDoSX<sup>®</sup>, double-check that your domain is set up correctly and working as expected through SafeDNS. Documentation on how to setup SafeDNS can be found in our [SafeDNS Documentation](/Domains/safedns/index) should you assistance. 
+Before setting up a SafeDNS domain in DDoSX<sup>®</sup>, double-check that your domain is set up correctly and working as expected through SafeDNS. Documentation on how to setup SafeDNS can be found in our [SafeDNS Documentation](/domains/safedns/index) should you assistance. 
 
 You must move all records associated with the domains (including sub-domains) you wish to protect, including SMTP, MX, mail etc to SafeDNS.
 
@@ -138,7 +138,7 @@ On Linux and macOS you can open and edit the `hosts` file in a terminal window u
 
 Once you've added all the domains you need to test to your `hosts` file, save the changes. Then open a web browser and try browsing to your domain.  Your local `hosts` file will route the request directly to the DDoSX<sup>®</sup> IP address so you'll be able to see exactly how your site will perform when you change your DNS records.
 
-If you're happy with how your site performs, you can switch the DNS Routing for your domain to "DDoSX<sup>®</sup>".  Note that it may take [up to 48 hours](/Domains/domains/dnspropagation.html) for DNS changes to propagate across the internet (as with any such changes), and before your domain is fully protected.
+If you're happy with how your site performs, you can switch the DNS Routing for your domain to "DDoSX<sup>®</sup>".  Note that it may take [up to 48 hours](/domains/domains/dnspropagation.html) for DNS changes to propagate across the internet (as with any such changes), and before your domain is fully protected.
 
 Once DNS propagation had concluded, your domain will be fully set up with DDoSX<sup>®</sup> protection.
 

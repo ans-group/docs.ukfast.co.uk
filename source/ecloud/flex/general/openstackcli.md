@@ -58,11 +58,11 @@ To remove the openstackclient, run the `uninstall` command.
 # pip uninstall python-openstackclient
 ```
 
-If you'd like to find out more about the Openstack client, you can find more information [here](https://docs.openstack.org/newton/user-guide/common/cli-install-openstack-command-line-clients.html). We also have some documentation about [setting up environment variables](/cloud/flex/general/settingvars.html) in order to authenticate with Keystone.
+If you'd like to find out more about the Openstack client, you can find more information [here](https://docs.openstack.org/newton/user-guide/common/cli-install-openstack-command-line-clients.html). We also have some documentation about [setting up environment variables](/ecloud/flex/general/settingvars.html) in order to authenticate with Keystone.
 
 The next section of our documenation details managing the resources in your project, you can see more information about this below:
 
-[Managing Resources](/cloud/flex/resources)
+[Managing Resources](/ecloud/flex/resources)
 
 ```eval_rst
 .. meta::
