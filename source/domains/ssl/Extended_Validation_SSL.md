@@ -67,10 +67,3 @@ When successful, they will move onto the final stage.
 Once the above has been completed, **Sectigo** refers the case files to a *secondary validation team* to review for any discrepancies.
 
 This can take up to **1** business day, and should the review be successful **Sectigo** will then issue the certificate.
-
-```eval_rst
-   .. meta::
-      :title: Extended Validation SSL | UKFast Documentation
-      :description: General guidance on the process for Extended Validation SSL certificates and the steps to complete them
-      :keywords: ssl, certificate, ukfast, dcv, validation, renewal, extended validation, ev, sectigo, 
-```
