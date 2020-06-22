@@ -4,7 +4,7 @@ This section describes various admin tasks you may need to undertake from time t
 
 ## Creating additional FASTcloudbackup end user accounts
 
-You will need to create at least one FASTcloudbackup end user account to start using the service.  If you wish to create additional accounts, go to the FASTcloudbackup page in [MyUKFast](https://www.ukfast.co.uk/myukfast.html) and click `Create a new account`.  See [Getting started](/FASTcloudbackup/Gettingstarted.html) for more help.
+You will need to create at least one FASTcloudbackup end user account to start using the service.  If you wish to create additional accounts, go to the FASTcloudbackup page in [MyUKFast](https://www.ukfast.co.uk/myukfast.html) and click `Create a new account`.  See [Getting started](/dr-ha/FASTcloudbackup/Gettingstarted.html) for more help.
 
 ![manage quota](files/manage_quota.PNG)
 

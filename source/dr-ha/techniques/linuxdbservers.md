@@ -61,7 +61,7 @@ Once this is installed, you can create a full backup of your data directory by e
 
 As with most things on linux, the best way to automate one of the above is to use `cron`.
 
-Our guide on cron can be found [here](/linux/basics/cron.html), but as an example, here are both the methods laid out as cron jobs that would run at 10pm each night:
+Our guide on cron can be found [here](/operatingsystems/linux/basics/cron.html), but as an example, here are both the methods laid out as cron jobs that would run at 10pm each night:
 
 ```bash
    0 22 * * * mysqldump -uroot -pMySuperLongPassword --all-databases > /var/dumps/alldb-`date`.sql

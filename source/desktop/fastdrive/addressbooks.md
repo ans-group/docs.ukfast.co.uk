@@ -11,5 +11,5 @@ If a user is only added to your __personal address book__ it will mean that __on
 ![Image222](files/Image222.png)
 
 For the most part, you will be using your address book when you are sharing files with other users. For a detailed walkthrough on how to
-share files, [click here](/fastdrive/sharingfiles.html)
+share files, [click here](/desktop/fastdrive/sharingfiles.html)
 

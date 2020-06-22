@@ -44,4 +44,4 @@ You can amend your backup schedule as necessary, deleting or changing existing s
 
 ![amend](files/amend.PNG)
 
-If you stop backing up a particular computer or server, you may want to cancel any [alerts](link) you previously had set up otherwise you will continue to receive notifications that backups have not been run.
+If you stop backing up a particular computer or server, you may want to cancel any [alerts](alerts.html) you previously had set up otherwise you will continue to receive notifications that backups have not been run.

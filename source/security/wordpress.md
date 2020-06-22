@@ -27,7 +27,7 @@ Be aware that restoring from a backup might remove the malicious code, but it wo
 
 WordPress maintain [their own in-depth security guide](https://codex.wordpress.org/FAQ_My_site_was_hacked) with suggestions and recommended plugins which is worth a read should you find your site compromised.
 
-We would also recommend running an on-demand virus scan just in case there's further issues beyond the compromised site. For Linux-based products we recommend [McAfee](/security/antivirus/), or alternatively the open source [ClamAV](www.clamav.net).
+We would also recommend running an on-demand virus scan just in case there's further issues beyond the compromised site. For Linux-based products we recommend [McAfee](/security/antivirus/), or alternatively the open source [ClamAV](https://www.clamav.net).
 
 And in all cases, we would always recommend getting a security expert to review and confirm your site is safe again.
 

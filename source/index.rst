@@ -13,7 +13,7 @@ Contents:
    desktop/index
    domains/index
    dr-ha/index
-   ecommercestacks/
+   ecommercestacks/index
    security/index
    ltaas/index
    monitoring/index
