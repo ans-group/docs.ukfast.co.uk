@@ -23,7 +23,7 @@ Taking scanning to the next level, Threat Monitoring ties in closely with indust
 
 Partially covering control 6, Threat Monitoring can assist with protecting against attacks to your application's code where applicable. Web-based applications can be protected against common web attacks, such as SQL Injections, CSS, PHP Remote file inclusion and much more, more on this can be found in our web attacks section.
 
-UKFast's security specialist can also work closely with you to implement compensating controls where applicable to further secure your applications for threats, such as IP whitelisting, user-agent blacklisting and HTTP authentication.
+UKFast's security specialist can also work closely with you to implement compensating controls where applicable to further secure your applications for threats, such as IP allow listing, user-agent blocklisting and HTTP authentication.
 
 File Integrity Monitoring can also be applied to critical application files, ensuring that unauthorised changes don't go unnoticed. BY placing File Integrity Monitoring (FIM) on critical files, such as payment gateway files, admin login directories and configuration files, you will receive an alert should any changes acquire.
 

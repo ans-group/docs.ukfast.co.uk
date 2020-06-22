@@ -3,7 +3,7 @@
 A Web Application Firewall (WAF) is a piece of software installed on a proxy that is used to filter, control, and analyse traffic sent to and from a web application e.g. a website.
 On a simple level a WAF is a firewall that has been specifically configured from the ground up to cover web applications, as opposed to a standard firewall that works based on access lists, input & output, and access controls.
 
-UKFast WAFs follow the good security practice of "blacklist everything, only whitelist what is necessary". This approach ensures the WAF detects and prevents as many attacks as possible, and secures your application accordingly.
+UKFast WAFs follow the good security practice of "block everything, only allow what is necessary". This approach ensures the WAF detects and prevents as many attacks as possible, and secures your application accordingly.
 
 ## How does a WAF work?
 

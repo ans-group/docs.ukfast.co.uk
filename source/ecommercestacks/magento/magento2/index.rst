@@ -20,7 +20,7 @@ We have a number of guides for our Magento 2 optimised stack:
    :maxdepth: 1
 
    permissionguide
-   nginxphpfilewhitelist
+   nginxphpfileallowlist
    wpinsubdir.md
    nfs.md
    filediroutsidepub.md

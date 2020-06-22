@@ -61,7 +61,7 @@ You should also verify that memcached is indeed only listening on the localhost 
 
     netstat -plunt
 	
-#### Whitelist IPs on your firewall
+#### Allow IPs on your firewall
 
 You can modify your firewall rules to block any IPs which are not listed. This can be done at a software firewall level or on a hardware firewall.
 It is recommended you do this at the hardware firewall level. Please read [our guidance on configuring your firewalls with UKFast](/security/firewalls/)

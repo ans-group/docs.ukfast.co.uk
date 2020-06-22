@@ -1,4 +1,4 @@
-# IP Based Whitelisting
+# IP Based Allow listing
 
 Services like SSH, FTP and SQL are frequently subject to a wide variety of attacks, from brute force attacks to software firewall bypasses and challenge-response exploits. We find that 70% of all Threat Monitoring alerts are caused by brute force attacks, so securing access to these services is critical to ensure your server is safe.
 
@@ -61,6 +61,6 @@ Follow the steps below to implement this, in the example shown we implement IP b
 
 ```eval_rst
 .. meta::
-     :title: IP Whitelisting | UKFast Documentation
+     :title: IP Allow listing | UKFast Documentation
      :description: Useful threat remediation and prevention tips
      :keywords: threat monitoring, alerts, security, compliance, rules, rulesets, ukfast, hosting, file integrity monitoring, rootkit, detection, vulnerability scan, scans, hids, intrusion detection, set up

@@ -18,6 +18,6 @@ Should a Threat Monitoring alert arise, you can always take a look at our Rules 
    change-port
    check-ip-block
    htaccess
-   ip-whitelist
+   ip-allowlist
    no-login
    secure-ciphers
