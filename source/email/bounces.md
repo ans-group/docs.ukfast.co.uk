@@ -7,7 +7,7 @@
   .. title:: Email | Legitimate mail being blocked
 
   .. meta::
-     :title: Email | Legitimate mail being blocked | UKF Docs
+     :title: Email | Legitimate mail being blocked
      :description: Information on legitimate mail being blocked on linux
      :keywords: ukfast, mail, bounces, blocked, legitimate, dns, spf, ip, address, rdns
 ```
