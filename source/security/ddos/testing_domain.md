@@ -1,9 +1,3 @@
-```eval_rst
-.. meta::
-   :title: Testing a domain on DDoSx | UKFast Documentation 
-   :description: A guide for testing your domain on  DDoSx before enabling DNS
-```
-
 # Testing your domain on  DDoSx
 
 Before using ddosx it is strongly recommended that you test your web site first. This will 
@@ -70,3 +64,10 @@ and enter `your DDoSx ip` `example.org www.example.org` at the bottom of the fil
 > Note: You may need to run ipconfig /flushdns after making this changed before browsing the website
 
 > Note: If you currently have a AAAA record for your domain or subdomains you will also need to put the IPv6 address into your `/private/etc/hosts` file to ensure your IPv6 connection goes through ddosx as well.
+
+```eval_rst
+.. title:: Testing a domain on DDoSx | UKFast Documentation 
+.. meta::
+   :title: Testing a domain on DDoSx | UKFast Documentation 
+   :description: A guide for testing your domain on  DDoSx before enabling DNS
+```
