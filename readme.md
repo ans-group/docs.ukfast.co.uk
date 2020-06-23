@@ -41,23 +41,27 @@ Please note spacing/indents are important so copy this template *
 
 Meta content goes at the bottom of the file
 
+<pre>
 ```eval_rst
   .. title:: Creating an eCloud Flex instance
   .. meta::
     :description: Detailed guidance on creating OpenStack instances on eCloud Flex
     :keywords: openstack, ecloud flex, ukfast, nova, instance, virtual machine, vm
 ```
+</pre>
 
 ##### for `index.rst` files (category index pages, which list the .md pages underneath
 
 Meta content goes at the top of the page otherwise it will fail Travis checks
 
+<pre>
 ```eval_rst
   .. title:: Email | Email hosting 
   .. meta::
     :description: Information regarding a wide range of email related issues
     :keywords: ukfast, email, exim, postfix, mail, dovecot, blocklist, dkim, spf
 ```
+</pre>
 
 (So same as .md files but not included within eval_rst)
 
