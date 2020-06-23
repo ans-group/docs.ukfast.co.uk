@@ -21,7 +21,7 @@ RabbitMQ and erlang can then be installed with the command:
 You need to create the file rabbitmq-env.conf before starting RabbitMQ:
 
 ```bash
-~]# echo "HOSTNAME=localhost" > /etc/rabbitmq/rabbitmq-env.conf
+~]# printf "HOSTNAME=localhost\nNODE_IP_ADDRESS=127.0.0.1\nNODENAME=rabbit@localhost" > /etc/rabbitmq/rabbitmq-env.conf
 ```
 ### Start RabbitMQ
 You can start the RabbitMQ service with the command:
