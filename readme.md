@@ -41,26 +41,23 @@ Please note spacing/indents are important so copy this template *
 
 Meta content goes at the bottom of the file
 
-
-    ```eval_rst
-
-      .. title:: Creating an eCloud Flex instance
-      .. meta::
+```eval_rst
+  .. title:: Creating an eCloud Flex instance
+  .. meta::
     :description: Detailed guidance on creating OpenStack instances on eCloud Flex
-    :keywords: openstack, ecloud flex, ukfast, nova, instance, virtual machine, vm, 
-
-    ```
+    :keywords: openstack, ecloud flex, ukfast, nova, instance, virtual machine, vm
+```
 
 ##### for `index.rst` files (category index pages, which list the .md pages underneath
 
 Meta content goes at the top of the page otherwise it will fail Travis checks
 
-
-      .. title:: Email | Email hosting 
-
-      .. meta::
-         :description: Information regarding a wide range of email related issues
-         :keywords: ukfast, email, exim, postfix, mail, dovecot, blocklist, dkim, spf
+```eval_rst
+  .. title:: Email | Email hosting 
+  .. meta::
+    :description: Information regarding a wide range of email related issues
+    :keywords: ukfast, email, exim, postfix, mail, dovecot, blocklist, dkim, spf
+```
 
 (So same as .md files but not included within eval_rst)
 
@@ -71,7 +68,6 @@ Where relevant please add screenshots to pages as image files (ideally .png).  T
 ### Adding tables
 
 Tables need to be in RST format otherwise they won't display properly when published (it will look fine in Git, but will look horrible when published, trust me). There are free tools that will generate RST for you, [this one](http://www.tablesgenerator.com/text_tables#) is good
-
 
 ## Deploy Locally
 Ensure you have docker and docker-compose installed.
