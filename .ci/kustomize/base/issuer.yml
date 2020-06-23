@@ -1,0 +1,20 @@
+---
+apiVersion: cert-manager.io/v1alpha2
+kind: Issuer
+metadata:
+  name: letsencrypt-prod-safedns
+spec:
+  acme:
+    email: support@ukfast.co.uk
+    privateKeySecretRef:
+      name: letsencrypt-prod
+    server: https://acme-v02.api.letsencrypt.org/directory
+    solvers:
+    - dns01:
+        webhook:
+          solverName: safedns
+          groupName: acme.k8s.ukfast.io
+          config:
+            apiKeySecretRef:
+              name: safedns-api-key
+              key: api_key
