@@ -245,4 +245,3 @@ If you're thinking of backing up MySQL data using this, you may want to read our
     :title: Linux Backups with Duply and eCloud Vault | UKFast Documentation
     :description: Linux Backups with Duply and eCloud Vault
 ```
-
