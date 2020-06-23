@@ -2,10 +2,10 @@
 
 ```eval_rst
 
-  title:: SafeDNS | Adding a SPF record
+  .. title:: SafeDNS | Adding a SPF record
 
-  meta::
-    :description: Adding a Sender Policy Framework (SPF) record to SafeDNS
+  .. meta::
+     :description: Adding a Sender Policy Framework (SPF) record to SafeDNS
 
 ```
 
