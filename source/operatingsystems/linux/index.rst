@@ -12,7 +12,6 @@ Help and guidance with Linux and related technologies
    controlpanels/index
    ftp/index
    magento/index
-   mail/index
    misc/index
    mysql/index
    nginx/index

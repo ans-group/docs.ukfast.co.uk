@@ -1,5 +1,6 @@
 # EXIM mail transfer agent
 
+
 Exim is an open source mail transfer agent. It is most commonly found on Web Host Monitor (WHM) /cPanel servers. You can configure Exim through the command line or through the cPanel itself. The guide below focuses on ways to configure Exim and the various ways you can parse logs.
 
 ## Where are the logs?
@@ -158,7 +159,10 @@ If your needs require specific tweaks or configuration additions, we suggest tha
 
 
 ```eval_rst
+
+  .. title:: Email | Using EXIM on Linux
+
   .. meta::
-     :title: Using EXIM on Linux | UKFast Documentation
      :description: A guide to using the EXIM mail transfer agent on Linux servers
      :keywords: ukfast, linux, mail, email, exim, guide, tutorial, whm, cpanel, mysql
+```

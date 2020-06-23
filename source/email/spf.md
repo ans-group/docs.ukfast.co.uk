@@ -107,8 +107,11 @@ v=spf1 a mx include:spf.mandrillapp.com include:servers.mcsv.net ?all
 ```
 
 ```eval_rst
-.. meta::
-   :title: Sender Policy Framework records | UKFast Documentation
-   :description: Detailed guidance on Sender Policy Framework (SPF) record usage and formats
-   :keywords: spf, sender policy framework, dns, dns records, domains, email, spam
+
+  .. title:: Email | Sender Policy Framework records
+
+  .. meta::
+     :description: Detailed guidance on Sender Policy Framework (SPF) record usage and formats
+     :keywords: spf, sender policy framework, dns, dns records, domains, email, spam
+
 ```

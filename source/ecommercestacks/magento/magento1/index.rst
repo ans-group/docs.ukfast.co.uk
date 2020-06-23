@@ -7,7 +7,7 @@ The UKFast Magento 1 optimised stack has been going since 2008. The core compone
 - **Firewall:** :doc:`Dedicated/Shared Firewall </network/firewalls/index>` 
 - **Web Service:** :doc:`/operatingsystems/linux/nginx/index`
 - **PHP Utilities:** :doc:`/ecommercestacks/magento/magento1/php/index` , :doc:`/operatingsystems/linux/php-fpm/index`, :doc:`/ecommercestacks/magento/magento1/opcache/index`
-- **Mail Services:** :doc:`Postfix </operatingsystems/linux/mail/postfix>`
+- **Mail Services:** :doc:`Postfix </email/postfix>`
 - **SSH/FTP Access:** :doc:`/operatingsystems/linux/ssh/index`, :doc:`/operatingsystems/linux/ftp/setup_vsftpd`
 - **Database services:** :doc:`/operatingsystems/linux/percona/index`, :doc:`/ecommercestacks/magento/magento1/redis/index`
 - **Version Control Utilities:** :doc:`/operatingsystems/linux/git/index` 

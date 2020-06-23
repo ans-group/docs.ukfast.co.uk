@@ -10,7 +10,7 @@ From here we will be configuring hMail’s anti-spam settings, covering them tab
 
 ## General
 
-![hMailServer > Settings > Anti-spam > General](files/antispam/general.png)
+![hMailServer > Settings > Anti-spam > General](hmail/files/antispam/general.png)
 
 - **Spam mark Threshold** is used to determine how high a score an email needs before it is marked as spam. 
 
@@ -33,9 +33,9 @@ From here we will be configuring hMail’s anti-spam settings, covering them tab
 
 ## Spam Tests
 
-![hMailServer > Settings > Anti-spam > Spam Tests](files/antispam/spamtests.png)
+![hMailServer > Settings > Anti-spam > Spam Tests](hmail/files/antispam/spamtests.png)
 
-- **Use SPF** - Default value is "3". This will only trigger when a domain hard-fails an SPF check. As such if you are seeing issues with spam, we would recommend changing this to 5. You can read further about SPF in our [main SPF guide](/operatingsystems/linux/mail/spf.html).
+- **Use SPF** - Default value is "3". This will only trigger when a domain hard-fails an SPF check. As such if you are seeing issues with spam, we would recommend changing this to 5. You can read further about SPF in our [main SPF guide](/email/spf.html).
 
 - **Check host in the HELO Command** - Default value is "2". This will compare the hostname used in the sending mail server's HELO to its rDNS (PTR) record. We would recommend changing this to "3".
 
@@ -52,7 +52,7 @@ From here we will be configuring hMail’s anti-spam settings, covering them tab
 
 ## SpamAssassin
 
-![hMailServer > Settings > Anti-spam > SpamAssassin](files/antispam/spamassassin.png)
+![hMailServer > Settings > Anti-spam > SpamAssassin](hmail/files/antispam/spamassassin.png)
 
 **SpamAssassin** is a popular, third-party mail filter that is updated regularly with additional rules for detecting spam messages. SpamAssassin requires some setup (allow approx. 20 minutes) but we would highly recommend it. An example implementation can be found on the hMailServer forum:
 
@@ -60,7 +60,7 @@ https://www.hmailserver.com/forum/viewtopic.php?t=28133
 
 ## DNS Blocklists
 
-![hMailServer > Settings > Anti-spam > DNS Blocklists](files/antispam/dnsblocklists.png)
+![hMailServer > Settings > Anti-spam > DNS Blocklists](hmail/files/antispam/dnsblocklists.png)
 
 **DNS Blocklists** are lists maintained by different organisations that track IPs' associated mail traffic. When these are enabled it will check domains that email your server to ensure they are not on any blocklists. If the sending IP is blocked, it will reject the message. 
 
@@ -71,13 +71,13 @@ hMail believe enabling this can cut down spam by as much as 15-25% and we would 
 
 ## SURBL Servers
 
-![hMailServer > Settings > Anti-spam > SURBL servers](files/antispam/surbl.png)
+![hMailServer > Settings > Anti-spam > SURBL servers](hmail/files/antispam/surbl.png)
 
 **SURBL servers** work differently to DNS check lists by checking links in the body of the message. This will check incoming emails to see if they contain links to known-malicious websites. 
 
 ## Grey Listing
 
-![hMailServer > Settings > Anti-spam > Greylisting](files/antispam/greylisting.png)
+![hMailServer > Settings > Anti-spam > Greylisting](hmail/files/antispam/greylisting.png)
 
 **Grey Listing** works by _temporarily_ rejecting any mail sent to your server; a correctly configured mail server will almost always attempt to resend a message rejected in this manner, being successful on the second attempt. 
 
@@ -89,7 +89,7 @@ If you do enable this feature we would recommend allowing large mail providers s
 
 ## White Listing
 
-![hMailServer > Settings > Anti-spam > White listing](files/antispam/whitelisting.png)
+![hMailServer > Settings > Anti-spam > White listing](hmail/files/antispam/whitelisting.png)
 
 **White Listing** will allow you to specify domains or individual email addresses to bypass your spam filtering. You can also specify the IP range that is whitelisted for that domain.
 
@@ -97,7 +97,9 @@ For further information on Hmail’s anti-Spam features, please refer to the off
 https://www.hmailserver.com/documentation/v5.3/?page=details_antispam_methods
 
 ```eval_rst
+
+  .. title:: Email | hMailServer - Anti-spam Setup
+
   .. meta::
-     :title: hMailServer - Anti-spam Setup | UKFast Documentation
      :description: A guide to anti-spam configurations in hMailServer
      :keywords: ukfast, windows, hMail, hMailServer, mail, email, spam

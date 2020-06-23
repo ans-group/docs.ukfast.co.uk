@@ -22,7 +22,7 @@ You can set this to start when the server comes online with the following comman
 
 The server is now ready to send emails. You can configure your websites to connect to localhost over port 25 and they will not require any authentication.
 
-Please ensure that you have a valid hostname and rDNS set. See [this guide for details](/operatingsystems/linux/mail/bounces.html)
+Please ensure that you have a valid hostname and rDNS set. See [this guide for details](/email/bounces.html)
 
 ## Where are the logs?
 
@@ -74,7 +74,9 @@ To delete all mail in the mail queue you would use the below command.
 
 
 ```eval_rst
+
+  .. title:: Email | Using Postfix on Linux
+
   .. meta::
-     :title: Using Postfix on Linux | UKFast Documentation
      :description: A guide to installing and using the Postfix mail transfer agent on Linux servers
      :keywords: ukfast, mail, postfix, linux, install, guide, tutorial, server, virtual, queue

@@ -57,7 +57,9 @@ The process can take up to a week, however it is usually completed in under 24 h
 
 
 ```eval_rst
+
+  .. title:: Email | Basics of mail on Linux
+
   .. meta::
-     :title: Basics of mail on Linux | UKFast Documentation
      :description: A guide to the basics of mail on Linux
      :keywords: ukfast, mail, basics, config, dns, spf, mx, blocklist, hotmail, live, microsoft
