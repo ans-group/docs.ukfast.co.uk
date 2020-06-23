@@ -15,3 +15,4 @@ SafeDNS allows you to manage your DNS records, even if you didn't use UKFast as 
    safednsapi
    /domains/domains/dnspropagation
    safedns-plesk/index
+   certbotplugin

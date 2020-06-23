@@ -1,8 +1,15 @@
 # Configuring Automatic Forwarding Rules
 
+```eval_rst
+   .. meta::
+      :title: Shared Exchange | Forwarding Rules | UKFast Documentation
+      :description: Information on how to Configuring Automatic Forwarding Rules in Shared Exchange
+      
+```
+
 On the shared exchange platform, email forwarders are configured using the webmail client.
 
-As such, you'll first need to log into the webmail area, as described in the following article: [Connecting via Webmail](/sharedexchange/webmailconnect.html) via this link <https://client.ukfastexchange.co.uk/owa>
+As such, you'll first need to log into the webmail area, as described in the following article: [Connecting via Webmail](/desktop/sharedexchange/webmailconnect.html) via this link <https://client.ukfastexchange.co.uk/owa>
 
 In the top right hand corner, select `Settings` and then `Options`
 
