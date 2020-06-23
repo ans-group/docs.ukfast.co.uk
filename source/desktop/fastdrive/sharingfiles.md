@@ -1,5 +1,12 @@
 # Sharing files
 
+```eval_rst
+   .. meta::
+      :title: FastDrive | Sharing Files | UKFast Documentation
+      :description: Information on how to share files in FastDrive
+      
+```
+
 In FASTdrive, you can share files and folders so that other people can access them. You can share files and folders with both FASTdrive users and non-FASTdrive users via the sharing feature that is available within FASTdrive.
 
 In order to share a file with someone else, firstly navigate to that file within the FASTdrive web app. In this instance I have delved into my personal folder so that I can share a folder named __TestFolder1__.
@@ -92,6 +99,6 @@ __Always link to the latest version of the file__ - If this option is selected, 
 
 __For more information on how to add contacts to your address books and distribution groups, take a look at the following pages:__
 
-[Distribution Groups](https://docs.ukfast.co.uk/fastdrive/distributiongroups.html)
+[Distribution Groups](/desktop/fastdrive/distributiongroups.html)
 
-[Address Books](https://docs.ukfast.co.uk/fastdrive/addressbooks.html)
+[Address Books](/desktop/fastdrive/addressbooks.html)

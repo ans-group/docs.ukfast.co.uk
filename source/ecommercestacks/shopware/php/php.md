@@ -105,7 +105,7 @@ sed -i 's/;opcache.revalidate_freq=2/opcache.revalidate_freq=5/g' /etc/php.d/*op
 sed -i 's/;opcache.enable_file_override=0/opcache.enable_file_override=1/g' /etc/php.d/*opcache.ini
 ```
 
-You can find more information on OPcache [here](https://docs.ukfast.co.uk/ecommercestacks/shopware/opcache/opcache.html)
+You can find more information on OPcache [here](/ecommercestacks/shopware/opcache/opcache.html)
 
 ### APCu Settings
 Review and then apply the APCu settings (Simply copy and paste the below):
@@ -113,7 +113,7 @@ Review and then apply the APCu settings (Simply copy and paste the below):
 sed -i 's/;apc.shm_size=32M/apc.shm_size=512M/g' /etc/php.d/*apcu.ini
 ```
 
-You can find more information on APCu [here](https://docs.ukfast.co.uk/ecommercestacks/shopware/apcu/apcu.html)
+You can find more information on APCu [here](/ecommercestacks/shopware/apcu/apcu.html)
 
 ### /etc/php.ini Settings
 Review and copy the settings from /root/php_upgrade_backup-$(date +%d_%b_%Y)/php.ini to /etc/php.ini. Alternatively use our standard settings for the php.ini file (You can copy and paste the whole block below into your SSH terminal):

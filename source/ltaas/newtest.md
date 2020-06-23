@@ -1,7 +1,7 @@
 # Create A Test
 
 Creating a test is relatively easy, deciding what to test is less so.
-If you haven't decided what to test yet, go and read [guidance on this](./guidance/what.html),
+If you haven't decided what to test yet, go and read [guidance on this](guidance/what.html),
 since that is a pre-requisite to creating a test.
 If you have decided what to test, then read-on to understand how
 to create a test.

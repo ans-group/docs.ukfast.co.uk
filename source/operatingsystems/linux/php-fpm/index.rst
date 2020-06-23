@@ -5,8 +5,10 @@ PHP-FPM
 A simple and robust FastCGI Process Manager for PHP
 
 .. toctree::
-   
-   php-fpm.md
+   :maxdepth: 2
+
+   php-fpm
+   phpfpmsetup
    
 .. meta::
    :title: PHP-FPM | UKFast Documentation

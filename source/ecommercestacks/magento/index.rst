@@ -10,6 +10,8 @@ Magento is an open-source e-commerce platform written in PHP. Here at UKFast we 
    magento1/index
    magento2/index
    
+You can find out more about our offerings for these stacks here: https://www.ukfast.co.uk/magento-ecommerce-hosting.html
+
 .. meta::
    :title: Magento Optimised Stacks | UKFast Documentation
    :description: guides relating to UKFast Magento Optimised Stacks

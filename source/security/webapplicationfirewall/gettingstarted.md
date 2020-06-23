@@ -20,7 +20,7 @@ Our WAF analysts will work with you to understand what is considered "normal" tr
 
 UKFast will build and implement the WAF based on the ruleset agreed in the planning phase.  At this stage, you will need to point the DNS records of the domains to be protected towards the WAF, rather than towards the servers hosting the applications. (If you manage your DNS through UKFast we may be able to do this for you.)
 
-The WAF will initially be set to operate in a learning mode, which will last 2-4 weeks.  **During this learning phase, the WAF will be monitoring traffic but not blocking anything**.  The purpose of the learning phase is to identify the detailed traffic patterns to your applications, and to systematically understand which traffic should be whitelisted.  UKFast WAF analysts will work with you during this learning phase to whitelist legitimate traffic based on our common understanding of your applications and requirements.
+The WAF will initially be set to operate in a learning mode, which will last 2-4 weeks.  **During this learning phase, the WAF will be monitoring traffic but not blocking anything**.  The purpose of the learning phase is to identify the detailed traffic patterns to your applications, and to systematically understand which traffic should be allowed.  UKFast WAF analysts will work with you during this learning phase to allow legitimate traffic based on our common understanding of your applications and requirements.
 
 ```eval_rst
 .. warning::
@@ -30,7 +30,7 @@ The WAF will initially be set to operate in a learning mode, which will last 2-4
 
 ## Implementation phase
 
-Only once the learning phase is completed and we've agreed between us the specific ruleset for your application, will the WAF be fully switched-on.  At this point, any traffic not specifically whitelisted will be deemed as malicious and blocked.  This will be recorded and available for ongoing analysis.
+Only once the learning phase is completed and we've agreed between us the specific ruleset for your application, will the WAF be fully switched-on.  At this point, any traffic not specifically allowed will be deemed as malicious and denied.  This will be recorded and available for ongoing analysis.
 
 
 ```eval_rst

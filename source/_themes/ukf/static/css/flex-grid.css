@@ -1,0 +1,24 @@
+.grid-parent {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.grid-item {
+    width: 100%;
+    margin: 0 0 20px 0;
+    border: 1px solid #e4e1e1;
+    border-radius: 2px;
+    background: #faf9f9;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.1),0 1px 2px 0 rgba(0,0,0,.06);
+    font-size: 1em;
+}
+
+.grid-item.box.col2 {
+    margin-right: 0px;
+}
+
+
+@media only screen and (min-width: 1200px){
+    .grid-item {width:49%;margin: 0 20px 20px 0;}
+}

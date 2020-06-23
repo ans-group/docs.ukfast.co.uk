@@ -14,3 +14,5 @@ The UKFast dedicated eCommerce team created and support the following optimised 
    
    shopware/index
    woocommerce/index
+   
+You can find out more about our offerings for these stacks here: https://www.ukfast.co.uk/ecommerce-hosting.html

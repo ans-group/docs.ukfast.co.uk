@@ -4,11 +4,11 @@ This section should help with any problems you run in to.
 
 ## I can't connect my domain(s) to the DDoSX<sup>®</sup> network
 
-If you're struggling to connect your domains, first check that you are using [SafeDNS](/Domains/safedns/index.html) to manage your DNS records.  You need to use SafeDNS and point your domains to the UKFast nameservers, which are
+If you're struggling to connect your domains, first check that you are using [SafeDNS](/domains/safedns/index.html) to manage your DNS records.  You need to use SafeDNS and point your domains to the UKFast nameservers, which are
 - ns0.ukfast.co.uk
 - ns1.ukfast.co.uk
 
-You'll find SafeDNS in [MyUKFast](https://my.ukfast.co.uk) - just log in and go to `SafeDNS` under the `Products and Services` menu.  You should also read the full [SafeDNS guide](/Domains/safedns/index.html)
+You'll find SafeDNS in [MyUKFast](https://my.ukfast.co.uk) - just log in and go to `SafeDNS` under the `Products and Services` menu.  You should also read the full [SafeDNS guide](/domains/safedns/index.html)
 
 ## My domain is showing as Not Configured, why is this?
 
@@ -30,7 +30,7 @@ DDoSX is designed to support HTTP and HTTPS web traffic on ports 80 and 443 resp
 
 ## I've removed my domain from the DDoSX<sup>®</sup> network, and now my website is offline.
 
-If you've previously had a domain connected to the DDoSX<sup>®</sup> network and then removed it, make sure to use [SafeDNS](/Domains/safedns/index.html) to point your DNS records directly back to your own server or firewall.  See the section on [Removing a domain from DDoSX<sup>®</sup>](/security/ddos/remove.html) for more details.
+If you've previously had a domain connected to the DDoSX<sup>®</sup> network and then removed it, make sure to use [SafeDNS](/domains/safedns/index.html) to point your DNS records directly back to your own server or firewall.  See the section on [Removing a domain from DDoSX<sup>®</sup>](/security/ddos/remove.html) for more details.
 
 ## My WAF on DDoSX doesn't appear to be blocking any traffic?
 

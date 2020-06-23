@@ -2,7 +2,7 @@
 
 The Web Application Firewall behaves like a DROP-by-default firewall.  Applications are trained based on acceptable input, for example - the symbols `<`, `|` or `..` are not supposed to be part of a URL.
 
-Given the whitelisting design used by UKFast WAFs, we benefit from the ability to prevent against new attack techniques even before a new "signature" is generated, deployed, and enforced - providing zero-day protection by default in many instances.
+Given the permit access design used by UKFast WAFs, we benefit from the ability to prevent against new attack techniques even before a new "signature" is generated, deployed, and enforced - providing zero-day protection by default in many instances.
 
 ## Typical attack vectors a WAF protects you from (based on [OWASP](https://www.owasp.org/index.php/Main_Page) top 10 vulnerabilities):
 
@@ -19,9 +19,9 @@ Given the whitelisting design used by UKFast WAFs, we benefit from the ability t
 
 ## Threat Intelligence
 
-Due to the statistical data UKFast collects and analyses, we are able to identify bad actors and generate IP-based block lists. Data can be gathered by analysing HTTP status codes to find software implementation faults, which allows us to build up a database of blacklist strings to deploy and block known bad traffic as early as possible.
+Due to the statistical data UKFast collects and analyses, we are able to identify bad actors and generate IP-based block lists. Data can be gathered by analysing HTTP status codes to find software implementation faults, which allows us to build up a database of blocklist strings to deploy and block known bad traffic as early as possible.
 
-Here's an example: You may have a PHPMyAdmin interface in public facing environment. This is not recommended, but could be present due to a misconfiguration, or a forgotten "temporary fix". Scanners are looking for targets like this all the time by scanning IP addresses / hostnames continually. While the vast majority of our protection comes in the form of a whitelist, having blacklist signatures reporting information to UKFast provides us with vital intelligence, and allows us to clean up the traffic going through to your webservers.
+Here's an example: You may have a PHPMyAdmin interface in public facing environment. This is not recommended, but could be present due to a misconfiguration, or a forgotten "temporary fix". Scanners are looking for targets like this all the time by scanning IP addresses / hostnames continually. While the vast majority of our protection comes in the form of an allow list, having blocklist signatures reporting information to UKFast provides us with vital intelligence, and allows us to clean up the traffic going through to your webservers.
 
 
 

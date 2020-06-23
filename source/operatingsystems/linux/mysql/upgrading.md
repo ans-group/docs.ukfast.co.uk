@@ -20,7 +20,7 @@ Here, we will run through how to perform both types of upgrades depending on you
 ```eval_rst
 .. warning::
 
-   Before proceeding, please ensure that you have checked that your sites/services are compatible with the upgraded version of MySQL/MariaDB, that you have backed up your databases.
+   Before proceeding, please ensure that you have checked that your sites/services are compatible with the upgraded version of MySQL/MariaDB, and that you have backed up your databases.
 
 ```
 
@@ -115,7 +115,7 @@ Plesk have some additional documentation for upgrading MariaDB from 5.5 to 10.x 
    
 ```
 
-* Log into [WHM](https://docs.ukfast.co.uk/operatingsystems/linux/controlpanels/cpanel.html)
+* Log into [WHM](/operatingsystems/linux/controlpanels/cpanel.html)
 * In the *search bar*, search for `MySQL/MariaDB Upgrade`
 
 ![Search](files/mariadbsearch.PNG)

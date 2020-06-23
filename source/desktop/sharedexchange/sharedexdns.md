@@ -13,8 +13,8 @@ Please allow time for any DNS changes to propagate through the internet, this ma
 
 
 ## If you are not using UKFast's SafeDNS system  
-* If you have any further questions please contact your dedicated account manager or speak with one of our support engineers on 0800 230 0032.
-  You should update your DNS records with your DNS provider, the MX records should be set as:
+
+You should update your DNS records with your DNS provider, the MX records should be set as:
 
 
 ![DNS Records](files/dns/sharedexchangedns.PNG)
@@ -31,4 +31,12 @@ Here is the information you need for the SRV record, in its raw format, should y
 As an optional extra if you would like to add an SPF record to prove the validity of emails leaving the domain, the format of this is as follows:
 `v=spf1 include:_spf.ukfastexchange.co.uk ~all`
 
-Please allow time for any DNS changes to propagate through the internet, this may take up to [24 hours](/Domains/domains/dnspropagation.html). After which you are ready to use your email client to connect to your new mailbox.
+Please allow time for any DNS changes to propagate through the internet, this may take up to [24 hours](/domains/domains/dnspropagation.html). After which you are ready to use your email client to connect to your new mailbox.
+
+* If you have any further questions please contact your dedicated account manager or speak with one of our support engineers on 0800 230 0032.
+
+```eval_rst
+   .. meta::
+      :title: Shared Exchange DNS Setup | UKFast Documentation
+      :description: Guide for users on how to configure DNS records for Shared Exchange
+      :keywords: Shared Exchange, Exchange, Shex, Mail, DNS 

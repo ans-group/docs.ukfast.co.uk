@@ -89,7 +89,7 @@ By that logic, if you create a file in `/var/www/vhosts/mywebsite.com/httpdocs` 
 
    If you haven't yet set up any php handler, then the above config won't start. Most people will be interested in having their website serve php, so you should carry on following the php-fpm guide:
 
-   :doc:`/operatingsystems/linux/php/phpfpmsetup`
+   :doc:`/operatingsystems/linux/php-fpm/phpfpmsetup`
 
    If you are just looking to serve static html, you'll have to comment out the upstream and php sections on the above nginx config.
 ```
@@ -123,7 +123,7 @@ As mentioned above, the nginx config in this article is more geared towards php-
 
 The following documents carry on the setup for those particular elements:
 
-[PHP-FPM Setup](/linux/php/phpfpmsetup.html)
+[PHP-FPM Setup](/linux/php-fpm/phpfpmsetup.html)
 
 [MySQL Installation](/linux/mysql/installation.html)
 

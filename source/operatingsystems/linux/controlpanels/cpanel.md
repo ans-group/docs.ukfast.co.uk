@@ -19,7 +19,7 @@ We have a number of guides on getting started with WHM/cPanel. See below:
 * [Creating A New cPanel Account](/operatingsystems/linux/controlpanels/cpanel_add_account.html)
 * [Adding An FTP Account](/operatingsystems/linux/controlpanels/cpanel_ftp_account.html)
 
-[All WHM/cPanel Documentation](https://docs.ukfast.co.uk/operatingsystems/linux/controlpanels/)
+[All WHM/cPanel Documentation](/operatingsystems/linux/controlpanels/)
 
 ## Further Documentation
 

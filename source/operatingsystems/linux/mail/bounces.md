@@ -28,11 +28,11 @@ In the `rDNS` field, enter the hostname you chose earlier and press `Update`.
 Your new hostname will be reflected instantly, but it will take time for the reverse-DNS to propagate across the internet - up to 48 hours - so give it time before checking everything is in place.
 
 In a similar vein, it's also recommended you set up an SPF record for your domain. This is covered in more in-depth in
-[Configuring SPF Records](/Domains/safedns/spf.html)
+[Configuring SPF Records](/domains/safedns/spf.html)
 
 ## Further guidance
 
-Please read our [documentation on email blacklists](/operatingsystems/linux/mail/blacklists.html) as well as the [basics of email](/operatingsystems/linux/mail/mailconfig.html) to ensure you get everything set up properly to begin with.  
+Please read our [documentation on email blocklists](/operatingsystems/linux/mail/blocklists.html) as well as the [basics of email](/operatingsystems/linux/mail/mailconfig.html) to ensure you get everything set up properly to begin with.  
 
 
 ```eval_rst

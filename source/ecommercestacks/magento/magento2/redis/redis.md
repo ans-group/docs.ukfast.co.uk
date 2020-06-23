@@ -32,7 +32,7 @@ php bin/magento setup:config:set --page-cache=redis --page-cache-redis-server=12
 ```
 
 ### Redis Service
-You can find more information on the Redis service [here](https://docs.ukfast.co.uk/operatingsystems/linux/redis/redis.html)
+You can find more information on the Redis service [here](/operatingsystems/linux/redis/redis.html)
 
 ```eval_rst
   .. meta::

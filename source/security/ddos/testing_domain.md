@@ -1,4 +1,4 @@
-# Testing your domain on  DDoSx
+# Testing your domain on DDoSx
 
 Before using ddosx it is strongly recommended that you test your web site first. This will 
 help to find issues that might have affected your users if you went live with DDoSx straight away. 

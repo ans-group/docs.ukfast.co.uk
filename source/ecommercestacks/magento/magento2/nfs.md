@@ -56,7 +56,7 @@ You can symlink files/folders from your document root to the NFS mount point.
 ~]# ln -s /var/www/vhosts/magentodomain.com/htdocs/pub/media /nfsshare/media
 ```
 
-You can find more information on the NFS service [here](https://docs.ukfast.co.uk/operatingsystems/linux/nfs/nfs.html)
+You can find more information on the NFS service [here](/operatingsystems/linux/nfs/nfs.html)
 
 ```eval_rst
   .. meta::

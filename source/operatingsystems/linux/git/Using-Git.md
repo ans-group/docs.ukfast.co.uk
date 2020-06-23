@@ -11,7 +11,7 @@ git config --global user.name "Support"
 git config --global user.email support@ukfast.co.uk
 ```
 
-### Cloning repo's
+### Cloning a repo
 
 To start using a public repository, you can clone a repo to your local machine using either `https` or `ssh`. To get the full path navigate to the repo in github or gitlab.
 
@@ -28,8 +28,8 @@ git clone ssh://user-name@github.com/path/to/repo.git
 Once you have made a change to the source code in your repos directory, use the `git add` command
 
 ```bash
-git add .           # add's all changed files
-git add filename    # add's only specified file
+git add .           # adds all changed files
+git add filename    # adds only specified file
 git add *           # wildcard, used for *.txt
 ```
 
