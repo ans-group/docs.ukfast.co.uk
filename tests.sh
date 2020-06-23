@@ -13,7 +13,7 @@ for f in $file_names; do
     *.md )
     
     #check for new meta title
-    newtitle=$(grep '  \.\. title:' $f >> /dev/null 2>&1; echo $?)
+    newtitle=$(grep '\.\. title:' $f >> /dev/null 2>&1; echo $?)
     if [[ "$newtitle" != "0" ]]; then
       echo "$f : FAIL Does not contain meta title new see readme"
       fail=1
@@ -24,6 +24,9 @@ for f in $file_names; do
     fi
 
     title_size=$(grep '\.\. title:' $f | cut -d ':' -f2 | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//' | wc -m)
+    if [[ "$title_size" == "1" ]]; then
+      echo "$f : WARNING Meta title not specified"
+    fi
     #Meta title should exclude | UKFast Documentation
     if [[ "$title_size" -gt "43" ]]; then
       echo "$f : WARNING Meta title is $title_size - Max is 42 chars"
