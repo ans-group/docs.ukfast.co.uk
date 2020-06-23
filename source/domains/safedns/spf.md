@@ -2,8 +2,9 @@
 
 ```eval_rst
 
+.. title:: SafeDNS | Adding a SPF record
+
    .. meta::
-      :title: SafeDNS | Adding a SPF record | UKFast Documentation
       :description: Adding a Sender Policy Framework (SPF) record to SafeDNS
 
 ```
