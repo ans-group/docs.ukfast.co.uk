@@ -7,7 +7,7 @@ In 2015 we created our Magento 2 optimised stack. The core components of this st
 - **Firewall**: :doc:`Dedicated/Shared Firewall </network/firewalls/index>` 
 - **Web Service**: :doc:`/operatingsystems/linux/nginx/index`
 - **PHP Utilities**: :doc:`/ecommercestacks/magento/magento2/php/index`, :doc:`/operatingsystems/linux/php-fpm/index`, :doc:`/ecommercestacks/magento/magento2/opcache/index`, :doc:`/ecommercestacks/magento/magento2/composer/index`
-- **Mail Services**: :doc:`Postfix </operatingsystems/linux/mail/postfix>`
+- **Mail Services**: :doc:`Postfix </email/postfix>`
 - **SSH/FTP Access**: :doc:`/operatingsystems/linux/ssh/index`, :doc:`/operatingsystems/linux/ftp/setup_vsftpd`
 - **HTTP Caching Utilities**: :doc:`/ecommercestacks/magento/magento2/varnish/index`
 - **Database services**: :doc:`/operatingsystems/linux/percona/index`, :doc:`/operatingsystems/linux/elasticsearch/index`, :doc:`/ecommercestacks/magento/magento2/redis/index`

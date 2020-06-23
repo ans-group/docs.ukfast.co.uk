@@ -9,7 +9,6 @@ Windows
    commonissues/index
    exchange/index
    ftp/index
-   hmail/index
    iis/index
    mssql/index
    networking/index

@@ -32,7 +32,7 @@ In a similar vein, it's also recommended you set up an SPF record for your domai
 
 ## Further guidance
 
-Please read our [documentation on email blocklists](/operatingsystems/linux/mail/blocklists.html) as well as the [basics of email](/operatingsystems/linux/mail/mailconfig.html) to ensure you get everything set up properly to begin with.  
+Please read our [documentation on email blocklists](/email/blocklists.html) as well as the [basics of email](/email/mailconfig.html) to ensure you get everything set up properly to begin with.  
 
 
 ```eval_rst

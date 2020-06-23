@@ -1,11 +1,12 @@
+.. title:: Email hosting 
+
 .. meta::
-   :title: Email hosting | UKFast Documentation
    :description: Information regarding a wide range of email related issues
    :keywords: ukfast, email, exim, postfix, mail, dovecot, blocklist, dkim, spf
 
-====
-Mail
-====
+=====
+Email
+=====
 
 Email is a complex and deep subject, but these guides should help cover the basics and help clarify some of the more in-depth and complex aspects of email.
 
@@ -16,7 +17,8 @@ Email is a complex and deep subject, but these guides should help cover the basi
    bounces
    blocklists
    exim
-   postfix
+   hmail-antispam-setup
+   postfix  
    dkim
    spf
    mailtester
