@@ -20,6 +20,7 @@
 * **Wildcard** – an asterisk * symbol that denotes ‘any’ value.
 
 ```eval_rst
+  .. title:: UKFast Backup Glossary  | UKFast Documentation
   .. meta::
      :title: UKFast Backup Glossary  | UKFast Documentation
      :description: General glossary of terms for backup

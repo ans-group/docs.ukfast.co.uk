@@ -59,6 +59,7 @@ To use this you then need to add the following to your .htaccess file.
 
 
 ```eval_rst
+  .. title:: Information and guidance about htaccess | UKFast Documentation
   .. meta::
      :title: Information and guidance about htaccess | UKFast Documentation
      :description:  Information and guidance on locking down htaccess on Linux

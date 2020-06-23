@@ -222,6 +222,7 @@ We would recommend adding this to the shell folder and configuring a cron to run
 You can find more information on the Redis service [here](/operatingsystems/linux/redis/redis.html)
 
 ```eval_rst
+  .. title:: {title goes here}
   .. meta::
      :title: Magento 1 IP Restrict File/Folder | UKFast Documentation
      :description: A guide to IP restrict a file or folder within Nginx

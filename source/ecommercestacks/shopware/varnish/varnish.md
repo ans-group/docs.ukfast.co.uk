@@ -212,6 +212,7 @@ If SSL is set to offloading like the above example you need to uncomment the fol
 This tells Shopware that although the connection is on port 80 -> 8080 it should be treated as a secure connection due to the header x_forwarded_proto containing https. 
 
 ```eval_rst
+  .. title:: Shopware Varnish | UKFast Documentation
   .. meta::
      :title: Shopware Varnish | UKFast Documentation
      :description: A guide using Varnish with Shopware

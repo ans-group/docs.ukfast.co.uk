@@ -59,6 +59,7 @@ Clear All Tasks  | Clears out the extension’s task queue.
 ```
 
 ```eval_rst
+  .. title:: {title goes here}
   .. meta::
      :title: Interface Guide - Plesk SafeDNS Extension | UKFast Documentation
      :description: Interface Guide for UKFast SafeDNS Plesk Extension

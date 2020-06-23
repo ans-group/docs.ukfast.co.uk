@@ -151,6 +151,7 @@ redis-cli -h 127.0.0.1 -p 6379 monitor
 ```
 
 ```eval_rst
+  .. title:: Redis | UKFast Documentation
   .. meta::
      :title: Redis | UKFast Documentation
      :description: A guide to using Redis

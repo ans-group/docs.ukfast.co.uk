@@ -18,6 +18,7 @@ On Linux and Macs the file is located in /etc/hosts - it is in exaclty the same 
 You can test your hosts file is working by running a ping against the domain in question.
 
 ```eval_rst
+  .. title:: Testing websites on Windows | UKFast Documentation
   .. meta::
      :title: Testing websites on Windows | UKFast Documentation
      :description: Information on testing websites on Windows by modifying the hosts file

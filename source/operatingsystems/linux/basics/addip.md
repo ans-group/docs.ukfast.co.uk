@@ -67,6 +67,7 @@ Again, the interface can be brough up with ifup, as so:
 ```
 
 ```eval_rst
+  .. title:: Adding an IP Address | UKFast Documentation
   .. meta::
      :title: Adding an IP Address | UKFast Documentation
      :description:  A guide on how to add an IP address in CentOS or Ubuntu

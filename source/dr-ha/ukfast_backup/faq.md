@@ -16,6 +16,7 @@ Additional quota can be purchased by contacting your Account Manager or through 
 Navigate to your server backup control panel within MyUKFast and select `Purchase Additional Quota >` at the top of the page. This will take you to a screen where you can select the amount of additional quota you require (up to a maximum of 300GB) and allow you to complete the purchase online.
 
 ```eval_rst
+  .. title:: UKFast Backup frequently asked questions | UKFast Documentation
   .. meta::
      :title: UKFast Backup frequently asked questions | UKFast Documentation
      :description: Managing backup schedule, inclusions and exclusions

@@ -29,6 +29,7 @@ The key to having a lower TTFB with Magento is to optimise Magento to reduce the
 - Optimise static content (Reduce image sizes, minify js/css)
 
 ```eval_rst
+  .. title:: Magento Time To First Byte | UKFast Documentation
   .. meta::
      :title: Magento Time To First Byte | UKFast Documentation
      :description: A guide to investigate time to first byte

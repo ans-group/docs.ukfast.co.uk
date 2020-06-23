@@ -78,6 +78,7 @@ To enable UKFast to provide a more granular level for restores of database clust
 All full backups for Virtual Machines are performed on a weekly basis with daily incremental backups taken daily except for the day the full backup is taken.
 
 ```eval_rst
+  .. title:: UKFast backup build documentation | UKFast Documentation
   .. meta::
       :title: UKFast backup build documentation | UKFast Documentation
       :description: Build documentation for UKFast Backups

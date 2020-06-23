@@ -56,6 +56,7 @@ This write speed test creates the file /nfsshare/testfile with NFS being mounted
 ```
 
 ```eval_rst
+  .. title:: NFS | UKFast Documentation
   .. meta::
      :title: NFS | UKFast Documentation
      :description: A guide to using NFS

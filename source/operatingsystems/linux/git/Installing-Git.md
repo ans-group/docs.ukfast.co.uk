@@ -74,6 +74,7 @@ git config --global user.email support@ukfast.co.uk
 ```
 
  ```eval_rst
+  .. title:: Installing Git | UKFast Documentation
   .. meta::
      :title: Installing Git | UKFast Documentation
      :description: Guide to install git multiple operating systems

@@ -25,6 +25,7 @@ For the final section, "Mail Routing Settings", choose the automatic configurati
 You've now added an account to WHM. You can now login, [using the guide here!](/operatingsystems/linux/controlpanels/cpanel_connect.html#connecting-to-cpanel)
 
 ```eval_rst
+  .. title:: Creating A cPanel Account | UKFast Documentation
   .. meta::
      :title: Creating A cPanel Account | UKFast Documentation
      :description: Creating a new cPanel account in WHM

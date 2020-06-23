@@ -148,6 +148,7 @@ systemctl enable php-fpm
 ```
 
 ```eval_rst
+  .. title:: Magento PHP | UKFast Documentation
   .. meta::
      :title: Magento PHP | UKFast Documentation
      :description: A guide to using PHP on our Magento optimised stack

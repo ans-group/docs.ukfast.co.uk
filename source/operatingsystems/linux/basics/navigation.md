@@ -123,6 +123,7 @@ To open a file in `vi` is the same as `nano` simply type `vi {filename}`, howeve
 `i`. Once in input mode you can edit text as you need to, to return to command mode hit `esc`. In command mode you can issue `:wq` to save your edits and exit the file.
 
 ```eval_rst
+  .. title:: Navigating the Linux operating system | UKFast Documentation
   .. meta::
      :title: Navigating the Linux operating system | UKFast Documentation
      :description: A guide on how to navigate through linux

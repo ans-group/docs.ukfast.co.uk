@@ -38,6 +38,7 @@ If you do find yourself in this situation, you can always send your server down 
 ```
 
 ```eval_rst
+  .. title:: Rebooting your Linux server | UKFast Documentation
   .. meta::
      :title: Rebooting your Linux server | UKFast Documentation
      :description: A guide to rebooting a linux server

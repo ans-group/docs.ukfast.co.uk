@@ -34,6 +34,7 @@ Our interface also allows you to add subnet ranges. If you are not familiar with
 ```
 
 ```eval_rst
+  .. title:: Secure your shared firewall | UKFast Documentation
   .. meta::
      :title: Secure your shared firewall | UKFast Documentation
      :description: How to lock down and secure your UKFast shared firewall

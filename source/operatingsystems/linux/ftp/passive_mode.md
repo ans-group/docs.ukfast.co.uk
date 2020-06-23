@@ -124,6 +124,7 @@ If you are a UKFast customer and you're not sure about how to open ports or mana
 If you use any software firewalls, such as CSF, Plesk Firewall, IPtables, or firewalld, you'll need to make sure your passive port range is not blocked there either.
 
 ```eval_rst
+  .. title:: FTP Passive Configuration | UKFast Documentation
   .. meta::
      :title: FTP Passive Configuration | UKFast Documentation
      :description: A guide on how to set up FTP passive mode on your server

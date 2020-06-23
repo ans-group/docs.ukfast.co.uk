@@ -29,6 +29,7 @@ The installation progress will be displayed in the next window, and will be upda
 * Once this step has finished, IIS will be installed.
 
 ```eval_rst
+  .. title:: Installing IIS on the Windows Server OS | UKFast Documentation
   .. meta::
      :title: Installing IIS on the Windows Server OS | UKFast Documentation
      :description: A guide to installing IIS on Windows Server

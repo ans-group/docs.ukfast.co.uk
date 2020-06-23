@@ -19,6 +19,7 @@ At this stage you are required to re-enter your password and select `Delete Back
 Backups will show `Pending Deletion` in the backup log whilst this process takes place.
 
 ```eval_rst
+  .. title:: Deleting Backups  | UKFast Documentation
   .. meta::
      :title: Deleting Backups  | UKFast Documentation
      :description: Deleting backups using MyUKFast with UKFast Backup

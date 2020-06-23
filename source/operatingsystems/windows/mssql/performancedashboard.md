@@ -29,6 +29,7 @@ The Performance Dashboard report will generate, and once complete should be pres
 * You can navigate the performance dashboard to review different pieces of information, generally, any information which is underlined, can be selected to provide further details specifically related to that title.
 
 ```eval_rst
+  .. title:: Microsoft SQL Server performance dashboard | UKFast Documentation
   .. meta::
      :title: Microsoft SQL Server performance dashboard | UKFast Documentation
      :description: A guide to the Microsoft SQL Server performance dashboard

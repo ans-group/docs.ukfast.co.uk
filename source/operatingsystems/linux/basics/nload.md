@@ -92,6 +92,7 @@ nload -u g ## GBit/s
 ```
 
 ```eval_rst
+  .. title:: Monitoring current network usage with nload | UKFast Documentation
   .. meta::
      :title: Monitoring current network usage with nload | UKFast Documentation
      :description:  A guide on how to monitor current network usage with nload

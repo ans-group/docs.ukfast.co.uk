@@ -55,6 +55,7 @@ Once this has completed, whatever options you've chosen will take effect.
 
 
 ```eval_rst
+  .. title:: Changing Windows Updates Options | UKFast Documentation
   .. meta::
      :title: Changing Windows Updates Options | UKFast Documentation
      :description: Information and Instructions about Windows Updates installation options

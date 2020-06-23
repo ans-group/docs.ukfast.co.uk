@@ -43,6 +43,7 @@ If there are no errors in the configuration test proceed to reload the Nginx ser
 ```
 
 ```eval_rst
+  .. title:: Magento 1 Adding Domain(s) To The Stack | UKFast Documentation
   .. meta::
      :title: Magento 1 Adding Domain(s) To The Stack | UKFast Documentation
      :description: A guide to adding domains to the Magento optimised stack

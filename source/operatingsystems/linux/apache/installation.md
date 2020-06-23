@@ -122,6 +122,7 @@ The following documents carry on the setup for those particular elements:
 
 
 ```eval_rst
+  .. title:: Installation and Configuration of Apache | UKFast Documentation
   .. meta::
      :title: Installation and Configuration of Apache | UKFast Documentation
      :description:  Guidance to help you get up and running with Apache

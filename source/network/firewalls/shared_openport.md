@@ -15,6 +15,7 @@ The firewall looks at traffic in both directions. "Incoming" refers to connectio
 There are also 2 sections. TCP (Transmission Control Protocol) and UDP (User Datagram Protocol). If you are unsure which you use for your application, you are probably using TCP! The vast majority of common tasks use TCP so unless you are hosting a specialist service like VOIP, streaming hosting your own DNS, you're probably using TCP. The one common UDP port we open is 123 which is for Network Time Protocol (NTP).
 
 ```eval_rst
+  .. title:: Managing your shared firewall | UKFast Documentation
   .. meta::
      :title: Managing your shared firewall | UKFast Documentation
      :description: How to manage your UKFast shared firewall configuration

@@ -40,6 +40,7 @@ You will now be presented with the URL rewrite module as below, over to the righ
 [How to Write URL Rewrite Rules](https://www.iis.net/learn/extensions/url-rewrite-module/creating-rewrite-rules-for-the-url-rewrite-module)
 
 ```eval_rst
+  .. title:: The IIS URL Rewrite module | UKFast Documentation
   .. meta::
      :title: The IIS URL Rewrite module | UKFast Documentation
      :description: A guide to installing and using the IIS URL rewrite module on Windows Server

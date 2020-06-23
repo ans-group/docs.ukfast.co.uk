@@ -14,6 +14,7 @@
 ![Exchange Logical Structure](Files/architecture/Logical.png)
 
 ```eval_rst
+  .. title:: Microsoft Exchange 2013 Multi-Server Environment | UKFast Documentation
   .. meta::
      :title: Microsoft Exchange 2013 Multi-Server Environment | UKFast Documentation
      :description: Designing a high availability Microsoft Exchange 2013 Multi-Server environment

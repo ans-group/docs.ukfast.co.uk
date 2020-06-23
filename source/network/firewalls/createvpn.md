@@ -12,6 +12,7 @@ Please [raise a ticket within MyUKFast](https://my.ukfast.co.uk/pss/add.php). A 
 
 
 ```eval_rst
+  .. title:: Setting up a VPN with a firewall | UKFast Documentation
   .. meta::
      :title: Setting up a VPN with a firewall | UKFast Documentation
      :description: How to set up a VPN with a UKFast dedicated firewall

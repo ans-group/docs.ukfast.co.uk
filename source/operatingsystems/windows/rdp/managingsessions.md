@@ -17,6 +17,7 @@ You will now be able to view a list of currently connected users as below, right
 * Remote Control - Allows you to share a remote desktop session with this user. The user will be prompted to accept your request before sharing begins.
 
 ```eval_rst
+  .. title:: Managing Remote Desktop sessions | UKFast Documentation
   .. meta::
      :title: Managing Remote Desktop sessions | UKFast Documentation
      :description: A guide on managing Remote Desktop sessions and connections on Windows

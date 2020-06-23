@@ -71,6 +71,7 @@ You will now be presented with a window titled "Customize settings for each type
 ![Enable/Disable](files/firewall/firewallenabledisable.PNG)
 
 ```eval_rst
+  .. title:: Using Windows Firewall | UKFast Documentation
   .. meta::
      :title: Using Windows Firewall | UKFast Documentation
      :description: An in-depth guide to using Windows Firewall

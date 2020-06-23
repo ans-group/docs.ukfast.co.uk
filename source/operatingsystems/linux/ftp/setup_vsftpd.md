@@ -64,6 +64,7 @@ allow_writeable_chroot=YES
 Note, this configuration was tested on CentOS 7.
 
 ```eval_rst
+  .. title:: VSFTPD
   .. meta::
      :title: VSFTPD
      :description: A guide on what vsftpd is and how to set up an account 

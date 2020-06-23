@@ -24,6 +24,7 @@ Your UKFast Webcelerators are configured with a single virtual IP on port 80 poi
 The full Webcelerator configuration guide is available [here](https://docs.ukfast.co.uk/webcel/)
 
 ```eval_rst
+  .. title:: Default Configuration for UKFast Appliances | UKFast Documentation
   .. meta::
       :title: Default Configuration for UKFast Appliances | UKFast Documentation
       :description: Default Configuration for UKFast Appliances.

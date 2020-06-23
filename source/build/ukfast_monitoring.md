@@ -41,6 +41,7 @@ More information about Capacity Threshold Monitoring can be found [here](ctm.md)
 More information about specific application monitoring can be found [here](app_monitoring.md).
 
 ```eval_rst
+  .. title:: UKFast Monitoring Default Configuration | UKFast Documentation
   .. meta::
       :title: UKFast Monitoring Default Configuration | UKFast Documentation
       :description: Default Configuration for UKFast Monitoring

@@ -24,6 +24,7 @@ The last box is for "Quota". This determines how much bandwidth the FTP account 
 Now you can click "Create".
 
 ```eval_rst
+  .. title:: Creating An FTP Account In cPanel | UKFast Documentation
   .. meta::
      :title: Creating An FTP Account In cPanel | UKFast Documentation
      :description: Creating an FTP Account in cPanel

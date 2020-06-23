@@ -97,6 +97,7 @@ chmod 660 /var/www/vhosts/mage.ukast.co.uk/htdocs/includes/config.php
 Now the permissions for the site should be correct. However, if you are unsure about any of the above then please do not hesitate to get in touch with UKFast support and we can assist you further.
 
 ```eval_rst
+  .. title:: Magento 1 Permissions guide | UKFast Documentation
   .. meta::
      :title: Magento 1 Permissions guide | UKFast Documentation
      :description: A guide to ensure you are running secure permissions on your Magento 1 application files

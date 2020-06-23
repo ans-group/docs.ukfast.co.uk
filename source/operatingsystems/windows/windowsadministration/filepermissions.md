@@ -63,6 +63,7 @@ To Create Permissions based on user groups
 Your permissions will now be applied.
 
 ```eval_rst
+  .. title:: Creating file permissions | UKFast Documentation
   .. meta::
      :title: Creating file permissions | UKFast Documentation
      :description: Guidance on creating appropriate file permissions in Windows

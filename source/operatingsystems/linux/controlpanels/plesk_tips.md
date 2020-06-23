@@ -38,6 +38,7 @@ However all versions will let your check your email users passwords manually to 
 ``
 
 ```eval_rst
+  .. title:: Plesk FAQs | UKFast Documentation
   .. meta::
      :title: Plesk FAQs | UKFast Documentation
      :description: Plesk control panel FAQs and tips on Linux servers

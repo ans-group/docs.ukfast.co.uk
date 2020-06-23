@@ -53,6 +53,7 @@ Once you have connected you should see something similar to the following messag
 - To modify FileZilla Server settings you will need to goto `Edit > Settings`
 
 ```eval_rst
+  .. title:: Installing FileZilla Server for Windows | UKFast Documentation
   .. meta::
      :title: Installing FileZilla Server for Windows | UKFast Documentation
      :description: Guidance on installing the FileZilla Server for Windows

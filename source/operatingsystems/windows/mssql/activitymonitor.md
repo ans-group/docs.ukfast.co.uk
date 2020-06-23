@@ -23,6 +23,7 @@ You will now be presented with the SQL Server Activity Monitor which will provid
 ![Activity Monitor](Images/activitymonitor/activitymonitor.PNG)
 
 ```eval_rst
+  .. title:: Microsoft SQL Server Activity Monitor | UKFast Documentation
   .. meta::
      :title: Microsoft SQL Server Activity Monitor | UKFast Documentation
      :description: Viewing the Microsoft SQL Server activity monitor

@@ -150,6 +150,7 @@ The Update and Security Category contains the following important sections
 ![Windows Defender](files/settingsapp/update/windowsdefender.PNG)
 
 ```eval_rst
+  .. title:: Settings in Windows Server 2016 | UKFast Documentation
   .. meta::
      :title: Settings in Windows Server 2016 | UKFast Documentation
      :description: An in-depth guide to using Settings in Windows Server 2016

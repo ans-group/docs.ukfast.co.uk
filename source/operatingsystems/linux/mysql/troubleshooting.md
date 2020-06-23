@@ -149,6 +149,7 @@ Percona offer [Configuration Wizard](https://tools.percona.com/wizard), which al
 
 
 ```eval_rst
+  .. title:: MySQL Tuning | UKFast Documentation
   .. meta::
      :title: MySQL Tuning | UKFast Documentation
      :description: A guide to the basics of tuning MySQL for web servers

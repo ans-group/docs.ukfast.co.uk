@@ -18,6 +18,7 @@ You can set the SCL on your Exchange server mailboxes using the below command
 These values should be adjusted to your preference before running the command although the values using in our demonstration are a good starting point.
 
 ```eval_rst
+  .. title:: Spam Confidence Level | UKFast Documentation
   .. meta::
      :title: Spam Confidence Level | UKFast Documentation
      :description: Information on Spam Confidence Level (SCL) for Microsoft Exchange

@@ -42,6 +42,7 @@ This window denotes how frequently your maintenance plan will run. please config
 [Maintenance Plans in MSSQL](https://msdn.microsoft.com/en-gb/library/hh710041.aspx)
 
 ```eval_rst
+  .. title:: Microsoft SQL Server maintenance planning | UKFast Documentation
   .. meta::
      :title: Microsoft SQL Server maintenance planning | UKFast Documentation
      :description: A guide to creating a Microsoft SQL Server maintenance plan

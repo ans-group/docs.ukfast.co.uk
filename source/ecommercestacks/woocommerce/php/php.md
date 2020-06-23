@@ -146,6 +146,7 @@ systemctl enable php-fpm
 ```
 
 ```eval_rst
+  .. title:: WooCommerce PHP | UKFast Documentation
   .. meta::
      :title: WooCommerce PHP | UKFast Documentation
      :description: A guide to using PHP on our WooCommerce optimised stack

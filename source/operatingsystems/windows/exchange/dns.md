@@ -29,6 +29,7 @@ This `SPF` record ensures your users look to your `SPF` settings for their own. 
 The alternative would be to ask them to update their settings every time there is a change to the servers in the solution. This is cleaner.
 
 ```eval_rst
+  .. title:: DNS settings for Microsoft Exchange | UKFast Documentation
   .. meta::
      :title: DNS settings for Microsoft Exchange | UKFast Documentation
      :description: Information and guidance on DNS settings for Microsoft Exchange

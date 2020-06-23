@@ -58,6 +58,7 @@ You will be returned to the Disk Management console, where you will see that Par
 The additional space is now usable.
 
 ```eval_rst
+  .. title:: Windows Disk Management | UKFast Documentation
   .. meta::
      :title: Windows Disk Management | UKFast Documentation
      :description: Information on managing disks in Windows

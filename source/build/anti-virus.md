@@ -26,6 +26,7 @@ Below you will find a list of common questions related to Anti-Virus:
 - No, by default local firewalls are disabled and no other AV tools are installed or used by UKFast. 
 
 ```eval_rst
+  .. title:: UKFast anti-virus build documentation | UKFast Documentation
   .. meta::
       :title: UKFast anti-virus build documentation | UKFast Documentation
       :description: Build documentation for UKFast anti-virus

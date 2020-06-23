@@ -35,6 +35,7 @@ You will now be presented with a summary pane as below, please review the detail
 * You have now finished the process for creating a Domain User, this process can be repeated for each user that you require.
 
 ```eval_rst
+  .. title:: Creating a user in Active Directory | UKFast Documentation
   .. meta::
      :title: Creating a user in Active Directory | UKFast Documentation
      :description: A guide to creating a new user in Windows Active Directory

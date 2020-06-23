@@ -269,6 +269,7 @@ To resize an `ext` filesystem, run the following - noting the format of `/dev/ma
 Then confirm that the disk shows the correct size in `df -h`.
 
 ```eval_rst
+  .. title:: Extending LVM disk partition on Linux | UKFast Documentation
   .. meta::
      :title: Extending LVM disk partition on Linux | UKFast Documentation
      :description: A guide to extending an LVM disk partition on linux 

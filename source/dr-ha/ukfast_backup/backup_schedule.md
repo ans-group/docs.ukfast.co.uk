@@ -39,6 +39,7 @@ It is also possible to backup specific files from across the whole volume, for i
 **Save** saves the current editable options on the screen.
 
 ```eval_rst
+  .. title:: UKFast Backup schedules  | UKFast Documentation
   .. meta::
      :title: UKFast Backup schedules  | UKFast Documentation
      :description: Managing backup schedule, inclusions and exclusions

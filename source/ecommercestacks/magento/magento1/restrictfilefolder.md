@@ -117,6 +117,7 @@ If there are no errors in the configuration test proceed to reload the Nginx ser
 ```
 
 ```eval_rst
+  .. title:: Magento 1 Restrict File/Folder | UKFast Documentation
   .. meta::
      :title: Magento 1 Restrict File/Folder | UKFast Documentation
      :description: A guide to restrict a file or folder within Nginx

@@ -21,6 +21,7 @@ The credentials will be saved on the server in the /root/ directory similar to:
 ```
 
 ```eval_rst
+  .. title:: WooCommerce Adding Domain(s) To The Stack | UKFast Documentation
   .. meta::
      :title: WooCommerce Adding Domain(s) To The Stack | UKFast Documentation
      :description: A guide to adding domains to the WooCommerce optimised stack

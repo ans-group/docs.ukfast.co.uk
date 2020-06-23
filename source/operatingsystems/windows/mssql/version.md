@@ -40,6 +40,7 @@ In this example I have a patch installed:
 * 13.00.1711.0	2015.130.1711.0	3179258 Processing a partition causes data loss on other partitions after the database is restored in SQL Server 2016 (1200)	August 17, 2016
 
 ```eval_rst
+  .. title:: Which Microsoft SQL Server version am I on? | UKFast Documentation
   .. meta::
      :title: Which Microsoft SQL Server version am I on? | UKFast Documentation
      :description: How to find which version of Microsoft SQL Server you're running

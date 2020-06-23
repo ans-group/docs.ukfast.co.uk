@@ -38,6 +38,7 @@ You can enable rabbitmq-server on boot after installing it with this command:
 
 
 ```eval_rst
+  .. title:: Magento RabbitMQ | UKFast Documentation
   .. meta::
      :title: Magento RabbitMQ | UKFast Documentation
      :description: A guide to using RabbitMQ on our Magento optimised stacks

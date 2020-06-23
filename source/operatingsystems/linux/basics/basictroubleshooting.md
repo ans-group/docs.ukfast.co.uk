@@ -32,6 +32,7 @@ percentages to show usage. Load Average is representative of the queue of instru
 There are several variations on the `top` utility however those are not covered in this section.
 
 ```eval_rst
+  .. title:: Basic troubleshooting for Linux | UKFast Documentation
   .. meta::
      :title: Basic troubleshooting for Linux | UKFast Documentation
      :description:  A guide to troubleshooting basic issues for Linux

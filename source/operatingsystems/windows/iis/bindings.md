@@ -30,6 +30,7 @@ Once you have created all of the bindings which you require for your site, you w
 * Your bindings are now configured, and are ready to handle traffic once the relevant DNS records are in place.
 
 ```eval_rst
+  .. title:: Creating bindings in IIS | UKFast Documentation
   .. meta::
      :title: Creating bindings in IIS | UKFast Documentation
      :description: A guide to creating bindings in IIS

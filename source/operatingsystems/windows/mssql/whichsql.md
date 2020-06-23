@@ -13,6 +13,7 @@ Full Details on the different versions and their feature sets, can be found by v
 [MSSQL Versions](https://www.microsoft.com/en-gb/cloud-platform/sql-server-editions)
 
 ```eval_rst
+  .. title:: Which version of Microsoft SQL Server do I need? | UKFast Documentation
   .. meta::
      :title: Which version of Microsoft SQL Server do I need? | UKFast Documentation
      :description: Guidance on which is the best version of Microsoft SQL Server for your requirements

@@ -61,6 +61,7 @@ If running the Magento 2 CLI please ensure you're logged in as the PHP-FPM confi
 ```
 
 ```eval_rst
+  .. title:: Magento 2 Adding Domain(s) To The Stack | UKFast Documentation
   .. meta::
      :title: Magento 2 Adding Domain(s) To The Stack | UKFast Documentation
      :description: A guide to adding domains to the Magento optimised stack
