@@ -64,6 +64,6 @@ You can then use other online tools [here](http://dkimcore.org/tools/) or [here]
   .. title:: Email | DomainKeys Identified Mail (DKIM)
 
   .. meta::
-     :title: DKIM records | UKFast Documentation
+     :title: DKIM records
      :description: How to set up DKIM on your WHM/cPanel or Plesk server
      :keywords: email, dkim, whm, plesk
