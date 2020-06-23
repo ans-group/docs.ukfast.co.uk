@@ -55,12 +55,10 @@ Meta content goes at the bottom of the file
 Meta content goes at the top of the page otherwise it will fail Travis checks
 
 <pre>
-```eval_rst
   .. title:: Email | Email hosting 
   .. meta::
     :description: Information regarding a wide range of email related issues
     :keywords: ukfast, email, exim, postfix, mail, dovecot, blocklist, dkim, spf
-```
 </pre>
 
 (So same as .md files but not included within eval_rst)
