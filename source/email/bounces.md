@@ -36,7 +36,10 @@ Please read our [documentation on email blocklists](/email/blocklists.html) as w
 
 
 ```eval_rst
+
+.. title:: Legitimate mail being blocked
+
   .. meta::
-     :title: Legitimate mail being blocked | UKFast Documentation
+
      :description: Information on legitimate mail being blocked on linux
      :keywords: ukfast, mail, bounces, blocked, legitimate, dns, spf, ip, address, rdns

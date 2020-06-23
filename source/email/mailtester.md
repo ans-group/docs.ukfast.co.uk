@@ -57,7 +57,9 @@ The fourth section evaluates how well formatted your email is. This includes:
 The last section of mail-tester checks whether your mesage contains any links, and if they're broken. Links are considered to be broken when opening one gives an error code and doesn't load the content originally intended to be found there.
 
 ```eval_rst
+
+.. title:: Email | Using mail-tester.com
+
 .. meta::
-     :title: Using mail-tester.com | UKFast Documentation
      :description: A guide to using mail-tester and understanding the results
      :keywords: ukfast, mail, email, guide, tutorial, mail-tester, mailtester, 

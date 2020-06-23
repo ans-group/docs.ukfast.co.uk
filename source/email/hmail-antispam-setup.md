@@ -97,7 +97,9 @@ For further information on Hmail’s anti-Spam features, please refer to the off
 https://www.hmailserver.com/documentation/v5.3/?page=details_antispam_methods
 
 ```eval_rst
+
+.. title:: Emali | hMailServer - Anti-spam Setup
+
   .. meta::
-     :title: hMailServer - Anti-spam Setup | UKFast Documentation
      :description: A guide to anti-spam configurations in hMailServer
      :keywords: ukfast, windows, hMail, hMailServer, mail, email, spam

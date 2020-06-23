@@ -26,7 +26,9 @@ Google provides [some useful guidance on mail](https://support.google.com/mail/a
 
 
 ```eval_rst
+
+.. title:: Email | Block Listing
+
   .. meta::
-     :title: Email block listing | UKFast Documentation
      :description: How to check if your IP is listed and steps to take
      :keywords: ukfast, mail, basics, config, dns, spf, mx, blocklist, hotmail, live, google, gmail
