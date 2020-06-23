@@ -98,7 +98,7 @@ https://www.hmailserver.com/documentation/v5.3/?page=details_antispam_methods
 
 ```eval_rst
 
-.. title:: Emali | hMailServer - Anti-spam Setup
+  .. title:: Email | hMailServer - Anti-spam Setup
 
   .. meta::
      :description: A guide to anti-spam configurations in hMailServer

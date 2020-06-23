@@ -1,5 +1,18 @@
 # Legitimate Mail Being Blocked
 
+
+
+```eval_rst
+
+  .. title:: Email | Legitimate mail being blocked
+
+  .. meta::
+     :title: Email | Legitimate mail being blocked | UKF Docs
+     :description: Information on legitimate mail being blocked on linux
+     :keywords: ukfast, mail, bounces, blocked, legitimate, dns, spf, ip, address, rdns
+```
+
+
 If you find that legitimate mail you send is being blocked, in many cases this is attributable to a lack of [FCrDNS](http://en.wikipedia.org/wiki/Forward-confirmed_reverse_DNS). Without this set up, a lot of remote mail servers will likely see mail sent from your server as spam.
 
 Setting up FCrDNS in a standards-compliant way is fairly easy, with two main steps:
@@ -34,12 +47,3 @@ In a similar vein, it's also recommended you set up an SPF record for your domai
 
 Please read our [documentation on email blocklists](/email/blocklists.html) as well as the [basics of email](/email/mailconfig.html) to ensure you get everything set up properly to begin with.  
 
-
-```eval_rst
-
-.. title:: Legitimate mail being blocked
-
-  .. meta::
-
-     :description: Information on legitimate mail being blocked on linux
-     :keywords: ukfast, mail, bounces, blocked, legitimate, dns, spf, ip, address, rdns

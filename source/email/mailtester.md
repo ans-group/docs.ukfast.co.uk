@@ -58,8 +58,8 @@ The last section of mail-tester checks whether your mesage contains any links, a
 
 ```eval_rst
 
-.. title:: Email | Using mail-tester.com
+  .. title:: Email | Using mail-tester.com
 
-.. meta::
+  .. meta::
      :description: A guide to using mail-tester and understanding the results
      :keywords: ukfast, mail, email, guide, tutorial, mail-tester, mailtester, 

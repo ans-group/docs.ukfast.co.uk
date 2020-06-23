@@ -58,7 +58,7 @@ The process can take up to a week, however it is usually completed in under 24 h
 
 ```eval_rst
 
-.. title:: Email | Basics of mail on Linux
+  .. title:: Email | Basics of mail on Linux
 
   .. meta::
      :description: A guide to the basics of mail on Linux

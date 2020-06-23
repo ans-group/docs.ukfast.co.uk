@@ -27,7 +27,7 @@ Google provides [some useful guidance on mail](https://support.google.com/mail/a
 
 ```eval_rst
 
-.. title:: Email | Block Listing
+  .. title:: Email | Block Listing
 
   .. meta::
      :description: How to check if your IP is listed and steps to take

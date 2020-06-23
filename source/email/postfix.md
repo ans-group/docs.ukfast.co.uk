@@ -75,7 +75,7 @@ To delete all mail in the mail queue you would use the below command.
 
 ```eval_rst
 
-.. title:: Email | Using Postfix on Linux
+  .. title:: Email | Using Postfix on Linux
 
   .. meta::
      :description: A guide to installing and using the Postfix mail transfer agent on Linux servers
