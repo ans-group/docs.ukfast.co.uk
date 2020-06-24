@@ -1,5 +1,12 @@
 # Getting started
 
+```eval_rst
+   .. title:: Webcelerator | Getting Started
+   .. meta::
+      :title: Webcelerator | Getting Started | UKFast Documentation
+      :description: Getting started with a UKFast Webcelerator
+```
+
 Once your Webcelerator is ready, you will receive a virtual IP address (VIP) from our launch team (also known as a floating IP). If you have more than one Webcelerator, these VIPs will keep traffic moving through the active Webcelerator, even if one is offline. Web traffic hitting your VIP will pass through the cache before being sent through the firewall, onto the backend web server to request any missing assets.
 
 Note: you can have multiple VIPs that each point to a different set of backend web servers *(e.g. VIP1 -> Web server1 & Web server2, VIP2 -> Web server2 & Web server3, etc)*

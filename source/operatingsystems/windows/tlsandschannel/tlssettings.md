@@ -45,8 +45,10 @@ Setting the above policy setting in Windows Server 2012 R2 will modify the follo
 
 `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Cryptography\Configuration\SSL\0010002`
 
- ```eval_rst
+```eval_rst
+   .. title:: Windows TLS Configuration
    .. meta::
       :title: Windows TLS Configuration | UKFast Documentation
       :description: TLS and Schannel configuration
       :keywords: SSL, TLS, ukfast, Schannel, IIS, security, windows
+```

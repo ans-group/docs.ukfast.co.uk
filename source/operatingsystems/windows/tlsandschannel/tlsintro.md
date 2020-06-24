@@ -25,8 +25,10 @@ For a more comprehensive overview of Transport Layer Security, consider checking
 
 We will now look at some [TLS considerations for Windows Web Servers](/operatingsystems/windows/tlsandschannel/webserverrecommendations).
 
- ```eval_rst
+```eval_rst
+   .. title:: TLS protocols and SChannel
    .. meta::
       :title: TLS protocols and SChannel | UKFast Documentation
       :description: Introduction to TLS protocols and cipher suites
       :keywords: SSL, TLS, ukfast, Schannel, IIS 
+```

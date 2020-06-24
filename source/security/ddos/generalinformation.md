@@ -41,12 +41,10 @@ A CNAME record links a domain to the A name record of another domain for ease of
 
 In order to connect your domain to the DDoSX network you must first verify that this is your domain. To do this follow the on screen instructions. Once this process has been completed and the verification has been confirmed you will proceed to the configure tab within DDoSX. To then complete the set up of your domain on DDoSX read our [documentation here](/security/ddos/gettingstarted). 
 
-
-
-
 ```eval_rst
-.. meta::
-     :title: DDoSX and CDN from UKFast | UKFast Documentation
-     :description: General information on UKFast's global DDoSX network with CDN and WAF
-     :keywords: ddos, ddos protection, anti-ddos, cdn, content delivery, content delivery network, ukfast, ddosx, web application firewall, waf
+   .. title:: DDoSX and CDN from UKFast
+   .. meta::
+      :title: DDoSX and CDN from UKFast | UKFast Documentation
+      :description: General information on UKFast's global DDoSX network with CDN and WAF
+      :keywords: ddos, ddos protection, anti-ddos, cdn, content delivery, content delivery network, ukfast, ddosx, web application firewall, waf
 ```

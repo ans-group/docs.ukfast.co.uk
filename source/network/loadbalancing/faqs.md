@@ -58,3 +58,10 @@ Then restart NGiNX to put it live:
 ```bash
   service nginx restart
 ```
+
+```eval_rst
+   .. title:: Load Balancing | Frequently Asked Questions
+   .. meta::
+      :title: Load Balancing | Frequently Asked Questions | UKFast Documentation
+      :description: Information and guidance on using the CDN on DDoSX
+```

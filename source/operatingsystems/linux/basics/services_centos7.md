@@ -95,3 +95,10 @@ You can check the list of services by using the following command.
 You can also use the guide below for a quick conversion from SysVinit to systemd
 
 [Conversion list](https://fedoraproject.org/wiki/SysVinit_to_Systemd_Cheatsheet)
+
+```eval_rst
+   .. title:: Service Management on CentOS 7
+   .. meta::
+      :title: Service Management on CentOS 7 | UKFast Documentation
+      :description: Information on how to manage services on CentOS 7
+```

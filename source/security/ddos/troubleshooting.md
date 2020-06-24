@@ -42,8 +42,9 @@ It can take time to configure your [WAF settings](/security/ddos/wafsettings) co
 
 
 ```eval_rst
-.. meta::
-     :title: Troubleshooting DDoSX, WAF and CDN | UKFast Documentation
-     :description: Help with common problems when using DDoSX, WAF and CDN from UKFast
-     :keywords: ddos, ddos protection, anti-ddos, cdn, content delivery, content delivery network, troubleshooting, faqs, ports, offline, waf, web application firewall
+   .. title:: Troubleshooting DDoSX, WAF and CDN
+   .. meta::
+      :title: Troubleshooting DDoSX, WAF and CDN | UKFast Documentation
+      :description: Help with common problems when using DDoSX, WAF and CDN from UKFast
+      :keywords: ddos, ddos protection, anti-ddos, cdn, content delivery, content delivery network, troubleshooting, faqs, ports, offline, waf, web application firewall
 ```

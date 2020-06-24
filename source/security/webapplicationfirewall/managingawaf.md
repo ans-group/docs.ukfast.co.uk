@@ -15,8 +15,9 @@ Please raise a ticket via [MyUKFast](https://my.ukfast.co.uk) to provide us deta
 
 
 ```eval_rst
-.. meta::
-     :title: Managing a hardware-based WAF | UKFast Documentation
-     :description: General information on managing a UKFast hardware-based Web Application Firewall
-     :keywords: ukfast, ddosx, web application firewall, waf, owasp, owasp top 10
+   .. title:: Managing a hardware-based WAF
+   .. meta::
+      :title: Managing a hardware-based WAF | UKFast Documentation
+      :description: General information on managing a UKFast hardware-based Web Application Firewall
+      :keywords: ukfast, ddosx, web application firewall, waf, owasp, owasp top 10
 ```

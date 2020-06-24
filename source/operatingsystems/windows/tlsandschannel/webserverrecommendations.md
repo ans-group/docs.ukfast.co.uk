@@ -133,8 +133,10 @@ If HTTPS traffic to your Web server is terminated at one of these edge devices, 
 
 The next thing to look at is [how .NET Framework applications interact with Schannel](/operatingsystems/windows/tlsandschannel/dotnetsettings).
 
- ```eval_rst
+```eval_rst
+   .. title:: Web Server Recommendations
    .. meta::
       :title: Web Server Recommendations | UKFast Documentation
       :description: Security considerations for IIS Web servers
       :keywords: SSL, TLS, ukfast, Schannel, IIS, security, windows
+```

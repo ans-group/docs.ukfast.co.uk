@@ -34,8 +34,9 @@ Only once the learning phase is completed and we've agreed between us the specif
 
 
 ```eval_rst
-.. meta::
-     :title: Getting started with a hardware-based WAF | UKFast Documentation
-     :description: Help with setting up a hardware-based Web Application Firewall from UKFast
-     :keywords: ukfast, ddosx, web application firewall, waf, owasp, owasp top 10
+   .. title:: Getting started with a hardware-based WAF
+   .. meta::
+      :title: Getting started with a hardware-based WAF | UKFast Documentation
+      :description: Help with setting up a hardware-based Web Application Firewall from UKFast
+      :keywords: ukfast, ddosx, web application firewall, waf, owasp, owasp top 10
 ```

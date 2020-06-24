@@ -7,8 +7,6 @@ Once Threat Monitoring agents are installed on your server(s) they will be autom
 
 ![hwo-it-works](files/hwo-it-works.png)
 
-
-
 </div>
 
 ## Threat Detection, Attack Protection and log file collation
@@ -114,8 +112,9 @@ To minimize the threat of an attack on computer infrastructure, a security basel
 
 
 ```eval_rst
-.. meta::
-     :title: How Threat Monitoring works | UKFast Documentation
-     :description: Guidance relating to UKFast's Threat Monitoring solution
-     :keywords: threat monitoring, alerts, security, compliance, rules, rulesets, ukfast, hosting, file integrity monitoring, rootkit, detection, vulnerability scan, scans, hids, intrusion detection
-
+   .. title:: How Threat Monitoring Works
+   .. meta::
+      :title: How Threat Monitoring Works | UKFast Documentation
+      :description: Guidance relating to UKFast's Threat Monitoring solution
+      :keywords: threat monitoring, alerts, security, compliance, rules, rulesets, ukfast, hosting, file integrity monitoring, rootkit, detection, vulnerability scan, scans, hids, intrusion detection
+```
