@@ -31,7 +31,7 @@ Using a caching layer will temporarily store data in memory, meaning future requ
 
 To take this to the next level, pairing these plugins with an in-memory datastore like `redis` or `memcached` can be very powerful. Feel free to contact support to discuss installing an in-memory cache on your server.
 
-For clients running WordPress on Windows, take a look at [IIS tuning](https://docs.ukfast.co.uk/operatingsystems/windows/iis/tuning.html).
+For clients running WordPress on Windows, take a look at [IIS tuning](/operatingsystems/windows/iis/tuning).
 
 Installing `php-opache` on the server will improve PHP's performance by storing precompiled bytecode in memory. Windows Servers can also look at [Wincache](https://www.php.net/wincache).
 
