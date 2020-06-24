@@ -107,8 +107,9 @@ You can find lots of information and further user guides over at the [Openstack 
 If you need any further assistance, you can contact our UKFast Support team by [raising a ticket](https://my.ukfast.co.uk/pss/create) or by calling the [dedicated support line](https://www.ukfast.co.uk/contact.html).
 
 ```eval_rst
-.. meta::
-   :title: Deploying a Kubernetes cluster using Magnum
-   :description: How to use eCloud Flex Magnum to deploy a kubernetes cluster
-   :keywords: ecloud, flex, kubernetes, magnum, docker, containers, deployment, cluster, templates
+   .. title:: Deploying a Kubernetes cluster using Magnum
+   .. meta::
+      :title: Deploying a Kubernetes cluster using Magnum | UKFast Documentation
+      :description: How to use eCloud Flex Magnum to deploy a kubernetes cluster
+      :keywords: ecloud, flex, kubernetes, magnum, docker, containers, deployment, cluster, templates
 ```

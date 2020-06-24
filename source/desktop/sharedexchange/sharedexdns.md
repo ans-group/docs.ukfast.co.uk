@@ -34,6 +34,7 @@ Please allow time for any DNS changes to propagate through the internet, this ma
 * If you have any further questions please contact your dedicated account manager or speak with one of our support engineers on 0800 230 0032.
 
 ```eval_rst
+   .. title:: Shared Exchange DNS Setup
    .. meta::
       :title: Shared Exchange DNS Setup | UKFast Documentation
       :description: Guide for users on how to configure DNS records for Shared Exchange

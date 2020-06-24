@@ -47,8 +47,9 @@ resource "openstack_compute_instance_v2" "test-instance" {
 You can find the full configuration reference, resource types and further details [here](https://www.terraform.io/docs/providers/openstack/).
 
 ```eval_rst
-.. meta::
-   :title: Using eCloud Flex as a Terraform Provider
-   :description: How to use eCloud Flex as a terraform provider
-   :keywords: ecloud, flex, terraform, openstack, IaC, provider, integration
+   .. title:: Using eCloud Flex as a Terraform Provider
+   .. meta::
+      :title: Using eCloud Flex as a Terraform Provider | UKFast Documentation
+      :description: How to use eCloud Flex as a terraform provider
+      :keywords: ecloud, flex, terraform, openstack, IaC, provider, integration
 ```

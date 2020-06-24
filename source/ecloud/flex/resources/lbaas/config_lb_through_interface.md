@@ -57,8 +57,9 @@ Regardless of which method is chosen to select a Floating IP address, clicking t
 For more information about removing a load balancer in eCloud Flex, check out our documentation [here](/ecloud/flex/resources/lbaas/deleting_lb_horizon).
 
 ```eval_rst
-.. meta::
-    :title: Creating an eCloud Flex Load Balancer using Horizon
-    :description: Detailed guidance on establishing a load balancing instance on eCloud Flex using the Horizon dashboard
-    :keywords: ecloud, flex, load balancers, lbaas, listener, pools, member pool,
+   .. title:: Creating an eCloud Flex Load Balancer using Horizon
+   .. meta::
+      :title: Creating an eCloud Flex Load Balancer using Horizon | UKFast Documentation
+      :description: Detailed guidance on establishing a load balancing instance on eCloud Flex using the Horizon dashboard
+      :keywords: ecloud, flex, load balancers, lbaas, listener, pools, member pool,
 ```
