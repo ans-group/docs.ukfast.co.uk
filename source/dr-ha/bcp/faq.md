@@ -4,9 +4,9 @@ Some of the most commonly asked questions by clients when receiving their first 
 
 ## Tips
 
-- Before going live, read the documentation provided here, [attempt a failover](management.html) of your services, make sure you're confident with how you interact with the cluster and have an understanding of the architecture. This will save you time when you come to perform maintenance on your servers or application.
+- Before going live, read the documentation provided here, [attempt a failover](management) of your services, make sure you're confident with how you interact with the cluster and have an understanding of the architecture. This will save you time when you come to perform maintenance on your servers or application.
 
-- Test thoroughly while you're not actively using this cluster; make sure your application works properly, make use of a [hosts file](/operatingsystems/windows/commonissues/testingwebsites.html) to simulate the live site prior to changing your DNS over.
+- Test thoroughly while you're not actively using this cluster; make sure your application works properly, make use of a [hosts file](/operatingsystems/windows/commonissues/testingwebsites) to simulate the live site prior to changing your DNS over.
 
 - This is written several times in this documentation, but as it causes frequent issues: **do not use `service` or `systemctl` when managing clustered services** - this doesn't matter for services outside of the cluster (`vsftpd` for example), but might cause failover on a service managed by PCS.
 
@@ -32,7 +32,7 @@ If you have a solution to which more than one of the above is true, you should u
 
 For volumes using DRBD to replicate between nodes, the mount point will only appear on the active node.
 
-**[Read more →](drbd.html)**
+**[Read more →](drbd)**
 
 ***
 
@@ -42,7 +42,7 @@ Clustered services do not always use the `systemd` script shipped with the packa
 
 However, the use of a `service` or `systemctl` command on a clustered service is discouraged, and should be managed through `pcs` instead.
 
-**[Read more →](management.html)**
+**[Read more →](management)**
 
 ***
 

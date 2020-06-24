@@ -4,7 +4,7 @@ In order to recover from failure and file-level locks when performing a failover
 
 For example: If you attempted to move `g_web` between nodes, but a process was holding one of the files in `/var/www/vhosts` open, the passive node could send a STONITH command to reboot the active node and forcibly takeover it's resource.
 
-This allows the resource to come back online without manual intervention, and helps prevent the situation where the cluster becomes [split brain](splitbrain.html).
+This allows the resource to come back online without manual intervention, and helps prevent the situation where the cluster becomes [split brain](splitbrain).
 
 ## Common causes of accidental fencing
 

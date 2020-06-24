@@ -57,7 +57,7 @@ and then reload it.
 
 Fully featured examples of this and other apache functionality can be found on the following page:
 
-[Sample vhosts](/linux/apache/examplevhosts.html)
+[Sample vhosts](/linux/apache/examplevhosts)
 
 ```eval_rst
   .. title:: Using SSLs with Apache

@@ -2,7 +2,7 @@
 
 When creating Linux servers on the eCloud Flex platform, you will need to provide an SSH key in order to access the instance successfully. This page will take you through the steps to generate an SSH key pair in PuTTY, but you can also [generate an SSH key from the Linux command line](/operatingsystems/linux/ssh/keys.html#generating-keys), and then import this key into your eCloud Flex Dashboard.
 
-For Windows instances, please follow the steps to [retrieve your password](/ecloud/flex/general/passwordretrieval.html) instead.
+For Windows instances, please follow the steps to [retrieve your password](/ecloud/flex/general/passwordretrieval) instead.
 
 ## PuTTY Key Creation
 

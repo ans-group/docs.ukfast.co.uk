@@ -4,7 +4,7 @@ To set up HTTPS termination on your eCloud Flex load balancer you will need to u
 
 ## Environment Configuration
 
-If you don't already have an eCloud Flex load balancer set up that you wish to add HTTPS termination to, please follow the [guide here](/ecloud/flex/resources/lbaas/config_lb_through_interface.html) to create one.  You'll then need to install these Python packages, we recommend using `pip` with the command below:
+If you don't already have an eCloud Flex load balancer set up that you wish to add HTTPS termination to, please follow the [guide here](/ecloud/flex/resources/lbaas/config_lb_through_interface) to create one.  You'll then need to install these Python packages, we recommend using `pip` with the command below:
 
 `pip install python-neutronclient python-barbicanclient`
 
@@ -103,7 +103,7 @@ If any errors are encountered during this stage, it is likely due to the format 
 
 ## Create the HTTPS Terminated Listener
 
-Using your `Container href` noted from the previous steps, you will now need to create a HTTPS Terminated Listener on your Load Balancer. If you do not already have a Load Balancer, you will need to [create one](/ecloud/flex/resources/lbaas/config_lb_through_interface.html) before proceeding.
+Using your `Container href` noted from the previous steps, you will now need to create a HTTPS Terminated Listener on your Load Balancer. If you do not already have a Load Balancer, you will need to [create one](/ecloud/flex/resources/lbaas/config_lb_through_interface) before proceeding.
 
 Creating the HTTPS Terminated Listener will require you to substitute two parameters in the following command.
 

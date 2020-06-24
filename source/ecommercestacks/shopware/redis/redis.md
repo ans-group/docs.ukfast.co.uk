@@ -44,7 +44,7 @@ You can use Redis for sessions by adding to the config.php file:
 You may need to change the IP address and you can change the port to run backend sessions and frontend sessions on different instances.
 
 ### Redis Service
-You can find more information on the Redis service [here](/operatingsystems/linux/redis/redis.html)
+You can find more information on the Redis service [here](/operatingsystems/linux/redis/redis)
 
 ```eval_rst
   .. title:: Shopware Redis

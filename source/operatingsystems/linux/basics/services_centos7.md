@@ -1,6 +1,6 @@
 # Service Management on CentOS 7
 
-CentOS 7 uses systemd for service management. Systemd is an alternative to older systems such as SysVinit which was used by [CentOS 6](/linux/basics/services_centos6.html).
+CentOS 7 uses systemd for service management. Systemd is an alternative to older systems such as SysVinit which was used by [CentOS 6](/linux/basics/services_centos6).
 
 Here are a few changes that you need to be aware of.
 

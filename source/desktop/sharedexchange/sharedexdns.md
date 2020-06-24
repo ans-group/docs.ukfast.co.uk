@@ -31,7 +31,7 @@ Here is the information you need for the SRV record, in its raw format, should y
 As an optional extra if you would like to add an SPF record to prove the validity of emails leaving the domain, the format of this is as follows:
 `v=spf1 include:_spf.ukfastexchange.co.uk ~all`
 
-Please allow time for any DNS changes to propagate through the internet, this may take up to [24 hours](/domains/domains/dnspropagation.html). After which you are ready to use your email client to connect to your new mailbox.
+Please allow time for any DNS changes to propagate through the internet, this may take up to [24 hours](/domains/domains/dnspropagation). After which you are ready to use your email client to connect to your new mailbox.
 
 * If you have any further questions please contact your dedicated account manager or speak with one of our support engineers on 0800 230 0032.
 

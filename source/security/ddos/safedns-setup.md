@@ -105,7 +105,7 @@ You now have the option to configure and additional DDoSX<sup>®</sup> features 
 
 The configuration of CDN and WAF can be quite complex, so each has its own documentation.
 
-[CDN Documentation](/network/cdn/cachingrules.html)
+[CDN Documentation](/network/cdn/cachingrules)
 
 [WAF Documentation](/security/ddos/wafsettings)
 
@@ -138,7 +138,7 @@ On Linux and macOS you can open and edit the `hosts` file in a terminal window u
 
 Once you've added all the domains you need to test to your `hosts` file, save the changes. Then open a web browser and try browsing to your domain.  Your local `hosts` file will route the request directly to the DDoSX<sup>®</sup> IP address so you'll be able to see exactly how your site will perform when you change your DNS records.
 
-If you're happy with how your site performs, you can switch the DNS Routing for your domain to "DDoSX<sup>®</sup>".  Note that it may take [up to 48 hours](/domains/domains/dnspropagation.html) for DNS changes to propagate across the internet (as with any such changes), and before your domain is fully protected.
+If you're happy with how your site performs, you can switch the DNS Routing for your domain to "DDoSX<sup>®</sup>".  Note that it may take [up to 48 hours](/domains/domains/dnspropagation) for DNS changes to propagate across the internet (as with any such changes), and before your domain is fully protected.
 
 Once DNS propagation had concluded, your domain will be fully set up with DDoSX<sup>®</sup> protection.
 

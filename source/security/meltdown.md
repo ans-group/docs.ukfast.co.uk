@@ -23,7 +23,7 @@ Windows Server is patched using the following security updates:
 These security updates can be applied manually, or will be applied during your next update.
 
 You can visit our Windows specific page for further patching steps here
-[Protecting against Meltdown and Spectre in Windows](/operatingsystems/windows/windowsadministration/meltdownspectrepatch.html)
+[Protecting against Meltdown and Spectre in Windows](/operatingsystems/windows/windowsadministration/meltdownspectrepatch)
 
 ### Linux
 

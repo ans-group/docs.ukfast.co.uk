@@ -35,7 +35,7 @@ From here we will be configuring hMail’s anti-spam settings, covering them tab
 
 ![hMailServer > Settings > Anti-spam > Spam Tests](hmail/files/antispam/spamtests.png)
 
-- **Use SPF** - Default value is "3". This will only trigger when a domain hard-fails an SPF check. As such if you are seeing issues with spam, we would recommend changing this to 5. You can read further about SPF in our [main SPF guide](/email/spf.html).
+- **Use SPF** - Default value is "3". This will only trigger when a domain hard-fails an SPF check. As such if you are seeing issues with spam, we would recommend changing this to 5. You can read further about SPF in our [main SPF guide](/email/spf).
 
 - **Check host in the HELO Command** - Default value is "2". This will compare the hostname used in the sending mail server's HELO to its rDNS (PTR) record. We would recommend changing this to "3".
 

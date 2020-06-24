@@ -1,6 +1,6 @@
 # Managing a Web Application Firewall in-life (hardware-based)
 
-This page relates to hardware-based WAFs only.  Please [see here](/security/ddos/wafsettings.html) for guidance on managing a WAF on DDoSX.
+This page relates to hardware-based WAFs only.  Please [see here](/security/ddos/wafsettings) for guidance on managing a WAF on DDoSX.
 
 Once your WAF has been through the learning phase and is fully operational, our analysts will monitor traffic patterns and identify any changes needed to the configuration and rulesets.
 

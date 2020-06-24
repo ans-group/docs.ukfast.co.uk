@@ -99,6 +99,6 @@ __Always link to the latest version of the file__ - If this option is selected, 
 
 __For more information on how to add contacts to your address books and distribution groups, take a look at the following pages:__
 
-[Distribution Groups](/desktop/fastdrive/distributiongroups.html)
+[Distribution Groups](/desktop/fastdrive/distributiongroups)
 
-[Address Books](/desktop/fastdrive/addressbooks.html)
+[Address Books](/desktop/fastdrive/addressbooks)

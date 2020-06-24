@@ -2,7 +2,7 @@
 
 This guide will provide a general overview of Sender Policy Framework records (SPF), what they do, and how to create a suitable record for your purpose.
 
-Once you have a suitable SPF record, please refer to this [guide on how to add your record to SafeDNS](/domains/safedns/spf.html).
+Once you have a suitable SPF record, please refer to this [guide on how to add your record to SafeDNS](/domains/safedns/spf).
 
 ## General overview
 

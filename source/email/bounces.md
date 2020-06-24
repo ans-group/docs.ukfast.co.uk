@@ -41,9 +41,9 @@ In the `rDNS` field, enter the hostname you chose earlier and press `Update`.
 Your new hostname will be reflected instantly, but it will take time for the reverse-DNS to propagate across the internet - up to 48 hours - so give it time before checking everything is in place.
 
 In a similar vein, it's also recommended you set up an SPF record for your domain. This is covered in more in-depth in
-[Configuring SPF Records](/domains/safedns/spf.html)
+[Configuring SPF Records](/domains/safedns/spf)
 
 ## Further guidance
 
-Please read our [documentation on email blocklists](/email/blocklists.html) as well as the [basics of email](/email/mailconfig.html) to ensure you get everything set up properly to begin with.  
+Please read our [documentation on email blocklists](/email/blocklists) as well as the [basics of email](/email/mailconfig) to ensure you get everything set up properly to begin with.  
 

@@ -27,7 +27,7 @@ location /info.php {
   }
  ```
  
-You need to edit replacemebackend with the PHP-FPM configuration pool name (This should be defined at the top of your Nginx configuration file). You also need to add info to the .php file allow list, we have a guide for this [here](/operatingsystems/linux/magento/magento2/nginxphpfileallowlist.html)
+You need to edit replacemebackend with the PHP-FPM configuration pool name (This should be defined at the top of your Nginx configuration file). You also need to add info to the .php file allow list, we have a guide for this [here](/operatingsystems/linux/magento/magento2/nginxphpfileallowlist)
 
 ### Text / XML
 

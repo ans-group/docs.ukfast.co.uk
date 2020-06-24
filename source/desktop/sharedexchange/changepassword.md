@@ -7,7 +7,7 @@
       
 ```
 
-To change your password, you'll first need to log into the webmail client, as described in the following article: [Connecting via Webmail](/desktop/sharedexchange/webmailconnect.html)
+To change your password, you'll first need to log into the webmail client, as described in the following article: [Connecting via Webmail](/desktop/sharedexchange/webmailconnect)
 
 <https://client.ukfastexchange.co.uk/owa>
 

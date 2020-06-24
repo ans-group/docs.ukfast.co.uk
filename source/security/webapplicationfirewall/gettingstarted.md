@@ -1,6 +1,6 @@
 # Getting started with a Web Application Firewall (hardware-based)
 
-This page relates to hardware-based WAFs only.  Please [see here](/security/ddos/gettingstarted.html) for guidance on getting started with WAF on DDoSX.
+This page relates to hardware-based WAFs only.  Please [see here](/security/ddos/gettingstarted) for guidance on getting started with WAF on DDoSX.
 
 If you would like to implement a hardware-based WAF then it's important to understand the phases you will need to go through.  UKFast will work with you at each stage.
 

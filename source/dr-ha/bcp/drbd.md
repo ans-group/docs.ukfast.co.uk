@@ -15,7 +15,7 @@ Generally, there are two DRBD volumes in each cluster:
 
  We connect DRBD to 10GBPS ports wherever possible, and otherwise make use of direct 10GBPS crossover cables to facilitate real-time replication between the member nodes. You'll see this listed as `p1p1` or `p1p2` when looking at the NICs connected to your server.
 
- DRBD is active / passive by nature, so only one node can be "primary" for the volume at a time - and therefore only one node can have the volume mounted at a time. If more than one node considers itself "primary", the cluster has likely become [split brain](/dr-ha/bcp/splitbrain.html).
+ DRBD is active / passive by nature, so only one node can be "primary" for the volume at a time - and therefore only one node can have the volume mounted at a time. If more than one node considers itself "primary", the cluster has likely become [split brain](/dr-ha/bcp/splitbrain).
 
  Given the above, don't be alarmed if `/var/www/vhosts` or `/var/lib/mysql` looks to be "missing" from one of your nodes, it is probably mounted elsewhere in the cluster.
 

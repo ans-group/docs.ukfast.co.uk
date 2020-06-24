@@ -114,7 +114,7 @@ Providing your apache configuration is correct, you should now be able to browse
 
 Select your language and hit continue.
 
-If you don't see the above screen, you're probably missing one of [Wordpress's dependencies](https://wordpress.org/about/requirements/).  If you haven't installed the php-mysql module, this is likely where you'll start to see issues. Check this guide on [installing PHP modules](/operatingsystems/linux/php/moduleinstallation.html) for further guidance.
+If you don't see the above screen, you're probably missing one of [Wordpress's dependencies](https://wordpress.org/about/requirements/).  If you haven't installed the php-mysql module, this is likely where you'll start to see issues. Check this guide on [installing PHP modules](/operatingsystems/linux/php/moduleinstallation) for further guidance.
 
 The next page should just be letting you know that you're going to need your database credentials, but we've already covered that.
 

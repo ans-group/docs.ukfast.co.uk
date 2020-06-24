@@ -17,4 +17,4 @@ Additionally, if the service handles payments or credit card information then yo
 
 We recommend keeping up-to-date with the PCI Security Standards for any upcoming changes to the PCI-DSS specification. The most recent revisions and news regarding payment card industry standards can be found from the PCI Security Standards website. An link to the external site is provided [here](https://www.pcisecuritystandards.org)
 
-Next, we will look at some [TLS and Schannel settings relating to Windows Web Servers](/operatingsystems/windows/tlsandschannel/webserverrecommendations.html)
+Next, we will look at some [TLS and Schannel settings relating to Windows Web Servers](/operatingsystems/windows/tlsandschannel/webserverrecommendations)

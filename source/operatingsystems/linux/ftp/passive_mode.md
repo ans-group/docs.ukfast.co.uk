@@ -41,7 +41,7 @@ For more information please do check out the [official cPanel guide](https://doc
   /usr/local/cpanel/scripts/setupftpserver pure-ftpd --force
 ```
 
-- On your firewall, allow inbound connections on the passive port range you selected (in our example 40000 to 40100).  If necessary please read our [guide on opening firewall ports](/network/firewalls/openport.html).
+- On your firewall, allow inbound connections on the passive port range you selected (in our example 40000 to 40100).  If necessary please read our [guide on opening firewall ports](/network/firewalls/openport).
 
 
 ### ProFTPd
@@ -62,7 +62,7 @@ For more information please do check out the [official cPanel guide](https://doc
   /usr/local/cpanel/scripts/setupftpserver proftpd --force
 ```
 
-- On your firewall, allow inbound connections on the passive port range you selected (in our example 40000 to 40100).  If necessary please read our [guide on opening firewall ports](/network/firewalls/openport.html).
+- On your firewall, allow inbound connections on the passive port range you selected (in our example 40000 to 40100).  If necessary please read our [guide on opening firewall ports](/network/firewalls/openport).
 
 
 ## Plesk servers
@@ -83,7 +83,7 @@ PassivePorts 40000 40100
 ```console
 systemctl restart xinetd
 ```
-- On your firewall, allow inbound connections on the passive port range you selected (in our example 40000 to 40100).  If necessary please read our [guide on opening firewall ports](/network/firewalls/openport.html).
+- On your firewall, allow inbound connections on the passive port range you selected (in our example 40000 to 40100).  If necessary please read our [guide on opening firewall ports](/network/firewalls/openport).
 
 
 #### Plesk 12.5 and older:
@@ -99,7 +99,7 @@ PassivePorts 40000 40100
 systemctl restart xinetd
 ```
 
-- On your firewall, allow inbound connections on the passive port range you selected (in our example 40000 to 40100).  If necessary please read our [guide on opening firewall ports](/network/firewalls/openport.html).
+- On your firewall, allow inbound connections on the passive port range you selected (in our example 40000 to 40100).  If necessary please read our [guide on opening firewall ports](/network/firewalls/openport).
 
 
 ### Unroutable Address on Plesk

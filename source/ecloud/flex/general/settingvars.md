@@ -93,7 +93,7 @@ Either log out and back in, or type `source ~/.os.rc` to essentially run the fil
 
 From here on out, you should be good. You'll be prompted for your OpenStack password whenever you open a shell session, and once you've provided it you're able to authenticate with your project. The next section of our documenation details how to install the openstack client so you're able to manipulate resources in your project, you can see more information about this below:
 
-[Installing the Openstack Command Line Client](/ecloud/flex/general/openstackcli.html)
+[Installing the Openstack Command Line Client](/ecloud/flex/general/openstackcli)
 
 ```eval_rst
 .. meta::
