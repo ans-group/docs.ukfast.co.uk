@@ -19,14 +19,14 @@ We have a number of guides for our Magento 1 optimised stack:
    :maxdepth: 1
 
    permissionguide
-   wpinsubdir.md
-   restrictfilefolder.md
+   wpinsubdir
+   restrictfilefolder
    magentoinsubdir.md
    redis/index
    adddomain.md
-   ../restrictwebsite.md
-   ../magentottfb.md
-   ../dbtriggers.md
+   ../restrictwebsite
+   ../magentottfb
+   ../dbtriggers
    opcache/index
    php/index
    multiphp/index

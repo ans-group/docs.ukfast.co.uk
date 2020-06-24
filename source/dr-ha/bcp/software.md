@@ -54,5 +54,6 @@ Notwithstanding, your service might not be compatible with the options listed ab
 .. note::
    It is important that you ensure any configuration required for additional software (clustered or otherwise) is replicated between nodes. Otherwise, you risk having your site go offline in the event of a failover as a result of mismatched configuration between nodes or service startup failure.
 
-   `More information about Unison <unison.html>`_
+   - :doc:`/dr-ha/bcp/unison`
+
 ```

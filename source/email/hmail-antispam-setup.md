@@ -44,8 +44,8 @@ From here we will be configuring hMail’s anti-spam settings, covering them tab
 - **Verify DKIM-Signature header** - Default value is "5". If the relevant sending domain has a DKIM DNS record, hMail will check to make sure the message's DKIM signature matches. If it does not, the check will fail. We recommend leaving this at the default value.
 
 ```eval_rst
-   .. note::
-      If no DKIM signature is included in the message's headers, this check will not be executed.
+.. note::
+   If no DKIM signature is included in the message's headers, this check will not be executed.
 ```
 
 ## SpamAssassin

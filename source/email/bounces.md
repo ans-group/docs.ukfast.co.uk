@@ -1,11 +1,7 @@
 # Legitimate Mail Being Blocked
 
-
-
 ```eval_rst
-
   .. title:: Email | Legitimate mail being blocked
-
   .. meta::
      :title: Email | Legitimate mail being blocked
      :description: Information on legitimate mail being blocked on linux
@@ -26,7 +22,7 @@ How you set your hostname varies from operating system to operating system, and 
 
 ```eval_rst
 .. note::
-  We recommend you set the hostname to something like 'mail.yourdomain.com'. This is a fairly standards-compliant choice and it's highly likely you already have a 'mail.yourdomain.com' record for your domain.
+   We recommend you set the hostname to something like ``mail.yourdomain.com``. This is a fairly standards-compliant choice and it's highly likely you already have a 'mail.yourdomain.com' record for your domain.
 ```
 
 Reverse-DNS is a system which lets you define what hostname an IP address resolves to. Your server will have an IP address and, by default, will reverse-resolve to `ip.ip.ip.ip.srvlist.ukfast.net`. It's important to set you hostname to something that does not contain an IP address, as the default does.

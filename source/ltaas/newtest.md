@@ -10,9 +10,7 @@ First head over to the "Create a Test" page. You can get there from the domains 
 
 ```eval_rst
 .. note::
-
    If you clicked "Create a new test" from the domain screen, you'll have the domain auto-selected and won't be able to change it.
-
 ```
 
 The first step is to fill in the `Test Name`. This will be visible in the test table, so be descriptive if you plan on running tests regularly so you know what has run and when.
@@ -39,9 +37,9 @@ The test settings section will allow you to configure the behaviour of the test.
 ![Test Settings Full Overview](files/test-settings-full.png)
 
 ```eval_rst
-   .. note::
-      We recommend starting with the **Incline** test type to initially determine capacity. From there **Smash** can help determine general configuration issues. Once you've weeded out general issues, the **Step Up** over a reasonable amount of time can be
-      used to catch traffic variability issues.
+.. note::
+   We recommend starting with the **Incline** test type to initially determine capacity. From there **Smash** can help determine general configuration issues. Once you've weeded out general issues, the **Step Up** over a reasonable amount of time can be
+   used to catch traffic variability issues.
 ```
 
 Each test type alows you to input the maximum amount of users you want to test with. We recommend you review any analytics tools you may have to determine a good starting point. Ensure that you don't over-extend too early and immediately bringing your site offline. The maximum amount of users is **2000**. Test duration does allow hours, however most people only test for a couple of minutes. It's good to keep test short to iterate your settings and reduce impact of tests. If you want to test scaling during a test, then you may want to consider a longer test to account for scaling.
@@ -57,8 +55,8 @@ If you want to quickly run a test, just select the `Run now` option and then cli
 If you'd like to run a test at a different time, for example out of business hours, then you have the option to do that. Tick the `Schedule` option and fill in the two fields. It will ask for a date and a time.
 
 ```eval_rst
-   .. note::
-      The schedule system will likely not execute at the exact time entered, but will execute at a time very close to it. This is to ensure resources aren't execessive at common time schedules.
+.. note::
+   The schedule system will likely not execute at the exact time entered, but will execute at a time very close to it. This is to ensure resources aren't execessive at common time schedules.
 ```
 
 Lastly, both Run Now and Schedule offer the ability to `Repeat` the test. This is a good feature if you regularly develop your site and want more confidence in your solutions ability to cope with the traffic levels you expect, both at a software and hardware level. All you need to do is tick the Repeat option and enter a quantity and a frequency. For example, entering a quantity of 7 and a Frequency of Days, would mean the test runs every 7 days. You could achieve the same by entering a quantity of 1 and a Frequency of weeks.

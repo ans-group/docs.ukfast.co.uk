@@ -55,7 +55,7 @@ plesk bin admin --set-admin-password -passwd "**********"
 
 ```eval_rst
 .. note::
-   Bear in mind you are resetting your password using a shell command, so we recommend avoiding using special characters like & or $ which the shell might try to interpret! If you want to have these characters in your password you can always change it again in the Plesk panel once you're able to log in.
+   Bear in mind you are resetting your password using a shell command, so we recommend avoiding using special characters like ``&`` or ``$`` which the shell might try to interpret! If you want to have these characters in your password you can always change it again in the Plesk panel once you're able to log in.
 ```
 
 Should you be unable to establish a connection to your server via SSH, please do not hesitate to get in touch with our support team for assistance.
@@ -66,3 +66,4 @@ Should you be unable to establish a connection to your server via SSH, please do
      :title: Retrieving your Plesk Admin password | UKFast Documentation
      :description: A guide to retrieving your Plesk password on Linux servers
      :keywords: ukfast, plesk, password, get, retrieve, cloud, server, shadow
+```

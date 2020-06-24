@@ -18,12 +18,12 @@ and enter `your DDoSx ip` `example.org www.example.org` at the bottom of the fil
 
 ```eval_rst
 .. note::
-   If you currently have AAAA record for your domain or subdomains you will also need to put the DDoSx IPv6 address into your `/etc/hosts` file as well as your IPv4 address to ensure your IPv6 connection goes through ddosx as well.
+   If you currently have AAAA record for your domain or subdomains you will also need to put the DDoSx IPv6 address into your ``/etc/hosts`` file as well as your IPv4 address to ensure your IPv6 connection goes through ddosx as well.
 ```
 
 ```eval_rst
 .. note::
-   If don't have the sudo command you can also run `su -` first and enter your root password before editing `/etc/hosts` with the `vi` command as per:
+   If don't have the sudo command you can also run ``su -`` first and enter your root password before editing ``/etc/hosts`` with the ``vi`` command as per:
 ```
 
 ```
@@ -58,7 +58,7 @@ and enter `your DDoSx ip` `example.org www.example.org` at the bottom of the fil
 
 ```eval_rst
 .. note::
-   If you currently have a AAAA record for your domain or subdomains you will also need to put the IPv6 address into your `/private/etc/hosts` file to ensure your IPv6 connection goes through ddosx as well.
+   If you currently have a AAAA record for your domain or subdomains you will also need to put the IPv6 address into your ``/private/etc/hosts`` file to ensure your IPv6 connection goes through ddosx as well.
 ```
 
 ### Windows 7/8/10
@@ -72,12 +72,12 @@ and enter `your DDoSx ip` `example.org www.example.org` at the bottom of the fil
 
 ```eval_rst
 .. note::
-   You may need to run `ipconfig /flushdns` after making this changed before browsing the website
+   You may need to run ``ipconfig /flushdns`` after making this changed before browsing the website.
 ```
 
 ```eval_rst
 .. note::
-   If you currently have a AAAA record for your domain or subdomains you will also need to put the IPv6 address into your `/private/etc/hosts` file to ensure your IPv6 connection goes through ddosx as well.
+   If you currently have a AAAA record for your domain or subdomains you will also need to put the IPv6 address into your ``/private/etc/hosts`` file to ensure your IPv6 connection goes through ddosx as well.
 ```
 
 ```eval_rst

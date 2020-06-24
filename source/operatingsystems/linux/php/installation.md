@@ -13,10 +13,10 @@ yum install php php-common php-devel php-pear php-mysql
 This will install php along with the relevant configuration to tie it into Apache (provided apache was installed from the standard repositories).
 
 ```eval_rst
-   .. note::
-      As CentOS/RHEL are long term release style operating systems, you won't get bleeding edge or even recent releases of php from the standard repositories.
+.. note::
+   As CentOS/RHEL are long term release style operating systems, you won't get bleeding edge or even recent releases of php from the standard repositories.
    
-      They will however, have backported security fixes from higher versions to keep it secure. :doc:`/security/vulnerabilityscans`
+   They will however, have backported security fixes from higher versions to keep it secure. :doc:`/security/vulnerabilityscans`
 ```
 
 ## Configuration

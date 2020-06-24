@@ -3,8 +3,9 @@
 This aim of this guide is to take a brand new UKFast loadbalancer and configure it with a relatively standard set of rules. The setup will be one `VIP` listening on both `HTTP` and `HTTPS`, passing traffic back to two servers.
 
 ```eval_rst
-   .. note::
-      All the following steps can be carried out on a UKFast loadbalancer through your MyUKFast area accessible here: https://my.ukfast.co.uk/server/loadbalancers/
+.. note::
+   All the following steps can be carried out on a UKFast loadbalancer through your MyUKFast area accessible here:
+   - :doc:`https://my.ukfast.co.uk/server/loadbalancers/`
 ```
 
 ## Terminology
@@ -203,7 +204,7 @@ Here's a series of screenshots showing my final setup:
 
 ```eval_rst
 .. note::
-  Note the inclusion of a second server group called `liveServersSSL`. This is the `HTTPS` equivalent of `LiveServers` that the `HTTPS VIP` points to.
+  Note the inclusion of a second server group called ``liveServersSSL``. This is the ``HTTPS`` equivalent of ``LiveServers`` that the ``HTTPS VIP`` points to.
 ```
 
 **Virtual IPs**

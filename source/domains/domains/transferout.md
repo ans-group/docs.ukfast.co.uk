@@ -1,15 +1,16 @@
 # Transferring a domain away from UKFast
 
 ```eval_rst
-
+   .. title:: Domain Names | Transferring from UKFast
    .. meta::
       :title: Domain Names | Transfering from UKFast | UKFast Documentation
       :description: How to transfer your domain away from UKFast
+```
 
+```eval_rst
 .. note::
-  This process contains a lot of the same steps as our article on transfering domains into UKFast, just from the inverse perspective:
-
-  :doc:`/domains/domains/transferin`
+   This process contains a lot of the same steps as our article on transfering domains into UKFast, just from the inverse perspective:
+   - :doc:`/domains/domains/transferin`
 ```
 
 ## .uk domains

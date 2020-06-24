@@ -4,7 +4,8 @@ Here are two example configurations using their own vhosts file.
 
 ```eval_rst
 .. note::
-   It's worth noting that these configuration files use the php-fpm setup described in the following document: :doc:`/operatingsystems/linux/apache/phpfpm`
+   It's worth noting that these configuration files use the php-fpm setup described in the following document:
+   - :doc:`/operatingsystems/linux/apache/phpfpm`
 ```
 
 ## First Domain
