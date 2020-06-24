@@ -67,9 +67,8 @@ chown -R  nginx:nginx /var/www/vhosts/mywebsite.com
 ```
 
 ```eval_rst
-   .. note::
-   
-      If you opt for a php-fpm setup later, then you'll likely need to change that user and group to whatever user you specify in your php-fpm configuration
+.. note::
+   If you opt for a php-fpm setup later, then you'll likely need to change that user and group to whatever user you specify in your php-fpm configuration
 ```
 
 You're nearly good to go, the only thing you need now is some content. The nginx directive `index` specifies which file is used as the default index file in a directory, and as you can see from that config, `index.php` and `index.html` were specified.
@@ -77,21 +76,19 @@ You're nearly good to go, the only thing you need now is some content. The nginx
 By that logic, if you create a file in `/var/www/vhosts/mywebsite.com/httpdocs` called `index.html` with some content, then that's what will display on `www.mywebsite.com`
 
 ```eval_rst
-   .. note::
-   
-      Don't forget to chown any website files to nginx:nginx as well
+.. note::
+   Don't forget to chown any website files to ``nginx:nginx`` as well
 ```
 
 ## Start it all up
 
 ```eval_rst
-   .. warning::
+.. warning::
+   If you haven't yet set up any php handler, then the above config won't start. Most people will be interested in having their website serve php, so you should carry on following the php-fpm guide:
 
-      If you haven't yet set up any php handler, then the above config won't start. Most people will be interested in having their website serve php, so you should carry on following the php-fpm guide:
+   - :doc:`/operatingsystems/linux/php-fpm/phpfpmsetup`
 
-      :doc:`/operatingsystems/linux/php-fpm/phpfpmsetup`
-
-      If you are just looking to serve static html, you'll have to comment out the upstream and php sections on the above nginx config.
+   If you are just looking to serve static html, you'll have to comment out the upstream and php sections on the above nginx config.
 ```
 
 Before starting or restarting nginx, it's always advisable to test your new config. Testing can be done with the command `service nginx configtest` and if all is well, it should spit out the following message:
@@ -121,9 +118,8 @@ As mentioned above, the nginx config in this article is more geared towards php-
 
 The following documents carry on the setup for those particular elements:
 
-[PHP-FPM Setup](/operatingsystems/linux/php-fpm/phpfpmsetup)
-
-[MySQL Installation](/operatingsystems/linux/mysql/installation)
+- [PHP-FPM Setup](/operatingsystems/linux/php-fpm/phpfpmsetup)
+- [MySQL Installation](/operatingsystems/linux/mysql/installation)
 
 ```eval_rst
    .. title:: Installation and configuration of Nginx on Linux

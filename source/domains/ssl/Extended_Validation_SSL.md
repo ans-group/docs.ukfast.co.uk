@@ -39,11 +39,11 @@ When purchasing the `Extended Validation SSL` the choice of **DNS**, **File uplo
 Upon purchase, unique `SHA` and `MD5` hashes will be provided. 
 
 ```eval_rst
-..note::
+.. note::
 
    For guidance about the different types of validation please see the following guide
 
-   :doc:`/domains/ssl/validating_your_ssl.html`
+   - :doc:`/domains/ssl/validating_your_ssl.html`
 
 ```
 

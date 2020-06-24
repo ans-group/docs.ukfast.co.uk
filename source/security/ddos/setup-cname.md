@@ -8,7 +8,8 @@ To use DDoSx<sup>®</sup>, CDN and WAF, you need to either have your domains' se
 
 ```eval_rst
 .. warning::
-   This documentation is for setting up DDoSx using an ALIAS, ANAME or CNAME. Documentation on setting up an domain via SafeDNS can be found [here](/security/ddos/setup-safedns).
+   This documentation is for setting up DDoSx using an ALIAS, ANAME or CNAME. Documentation on setting up an domain via SafeDNS can be found in our `Setting up DDoSx, CDN and WAF using SafeDNS`_ documentation.
+.. _setting up ddosx, cdn and waf using safedns: /security/ddos/setup-safedns
 ```
 
 To enable DDoSx<sup>®</sup>, CDN and WAF on your domains, follow these steps:
@@ -25,7 +26,7 @@ To enable DDoSx<sup>®</sup>, CDN and WAF on your domains, follow these steps:
 
 ```eval_rst
 .. warning::
-   DDoSx supports HTTP and HTTPS web traffic on ports 80 and 443 respectively. If you need to route other types of traffic to your UKFast-hosted solution then please contact us before setting up DDoSx<sup>®</sup>.
+   DDoSx supports HTTP and HTTPS web traffic on ports 80 and 443 respectively. If you need to route other types of traffic to your UKFast-hosted solution then please contact us before setting up DDoSx\ :sup:`®`\ .
 ```
 
 ## 1) Prepare your domain
@@ -130,9 +131,8 @@ At this point, you should be able to go back into the `DNS Records` tab and sele
 Finally, click `Apply Changes` and your domain will now be set up on the UKFast DDoSx<sup>®</sup> network, and configured appropriately. (You should allow up to 10 minutes for the changes to be fully applied)
 
 ```eval_rst
-   .. warning::
-      Your domain has not been put live yet, this step only configures the domain within DDoSx. Please continue with the rest of this documentation to test and put your domain live.
-
+.. warning::
+   Your domain has not been put live yet, this step only configures the domain within DDoSx. Please continue with the rest of this documentation to test and put your domain live.
 ```
 
 ## 4) Configure Additional Features
@@ -211,8 +211,8 @@ You may wish to add further configuration on your origin server to work more clo
 ### Block Traffic not from DDoSx<sup>®</sup> (optional but recommended)
 
 ```eval_rst
-   .. warning::
-      Make sure all websites hosted on your origin server are behind DDoSx before applying these firewall rules. As doing so cut off access to any websites not protected by DDoSx<.
+.. warning::
+   Make sure all websites hosted on your origin server are behind DDoSx before applying these firewall rules. As doing so cut off access to any websites not protected by DDoSx<.
 ```
 
 Now that DDoSx<sup>®</sup> is configured for your domain, and requests going to your domain and via common name servers will be routed through DDoSx<sup>®</sup>, however, attackers commonly try to avoid proxies like DDoSx<sup>®</sup> by using custom DNS servers to make the domain resolve to your origin server's IP instead of DDoSx<sup>®</sup>, bypassing the protection it offers. Furthermore, an attacker may still be able to attack your origin server by sending requests to the IP directly, (http://185.234.39.17/ for example).

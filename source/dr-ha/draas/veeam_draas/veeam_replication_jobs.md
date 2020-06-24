@@ -13,11 +13,12 @@ Your retention period is how long restore points are kept for, which you can use
 ```eval_rst
 .. note::
 
-   Retention Period Example
+   **Retention Period Example**
 
    If you have a job that has 7 restore points and runs once an hour, the retention period would be: 
     
    7 x 1 hour = 7 hour retention.
+
 ```
 
 It is important to review each VM individually to decide what RPO they require, and to only set low RPOs on the VMs that need it. A lower RPO means more regular snapshots on the VMs and more storage required to meet longer retention periods, as well as potentially more network bandwidth used and more Veeam resources required to meet the higher concurrent tasks (bigger or more proxy servers). Often VMs such as webservers can afford to have higher RPOs of once a day, as they tend to have fewer data changes.
@@ -31,19 +32,25 @@ Running off the back of the retention periods and data change for VMs is the sto
 ```eval_rst
 .. note::
    
-   Storage Utilisation Example 
+   **Storage Utilisation Example**
 
    Continuing with the previous example where there is a VM with 7 restore points and runs once an hour. Let's say this VM is 1000GB in size and has a data change of 10GB per hour. Each restore point on that VM would be saved as a ~10GB Snapshot on UKFast's Infrastructure and therefore take ~1070GB of your storage quota (this figure could be higher if there has been a lot of additional data written rather than just changes).  
+
 ```
 
 ## Summary
 Once you are happy with all of the factors above you can start configuring your replication jobs in Veeam. If you have a large VMware estate that needs replicating it is worth noting that you will likely not get the schedule and configuration of jobs perfect first time round and will need to tweak them as time goes on.
 
-[Configuring Veeam Replication Jobs](configuring_a_replication_job.md)
+```eval_rst
+.. seealso::
 
+   - :doc:`configuring_a_replication_job`
+
+```
 
 ```eval_rst
    .. meta::
       :title: Veeam Replication Jobs | UKFast Documentation
       :description: A guide to setting up Veeam replication jobs
       :keywords: ukfast, cloud, ecloud, public, hosting, infrastructure, vmware, draas, veeam, connect, dr, replication, backup, failover
+```

@@ -24,7 +24,7 @@ c:\> easy_install pip
 
 ```eval_rst
 .. note::
-   Ensure that the C:\Python27\Scripts directory is defined in the PATH environment variable, and use the easy_install command from the setuptools package.
+   Ensure that the ``C:\Python27\Scripts`` directory is defined in the ``PATH`` environment variable, and use the ``easy_install`` command from the ``setuptools`` package.
 ```
 
 ### MacOS
@@ -62,7 +62,10 @@ If you'd like to find out more about the Openstack client, you can find more inf
 
 The next section of our documenation details managing the resources in your project, you can see more information about this below:
 
-[Managing Resources](/ecloud/flex/resources/index)
+```eval_rst
+.. seealso:
+   - :doc:`/ecloud/flex/resources/index`
+```
 
 ```eval_rst
    .. title:: Installing the Openstack client

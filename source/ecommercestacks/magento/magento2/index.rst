@@ -21,15 +21,15 @@ We have a number of guides for our Magento 2 optimised stack:
 
    permissionguide
    nginxphpfileallowlist
-   wpinsubdir.md
-   nfs.md
-   filediroutsidepub.md
-   restrictfilefolder.md
-   m2insubdir.md
-   adddomain.md
-   ../restrictwebsite.md
-   ../magentottfb.md
-   ../dbtriggers.md
+   wpinsubdir
+   nfs
+   filediroutsidepub
+   restrictfilefolder
+   m2insubdir
+   adddomain
+   ../restrictwebsite
+   ../magentottfb
+   ../dbtriggers
    rabbitmq/index
    varnish/index
    composer/index

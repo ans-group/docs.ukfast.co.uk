@@ -1,12 +1,5 @@
 # Validating your SSL certificate via File Upload
 
-```eval_rst
-   .. meta::
-      :title: SSL | Validating your SSL Certificate | UKFast Documentation
-      :description: Information on how to validate your SSL Certificate
-
-```
-
 Please note that the following guide has been written with UKFast Linux Servers in mind.
 If you need any assistance with any UKFast Products and Services that are not covered in this guide, please get in touch with our support team.
 
@@ -118,3 +111,4 @@ Otherwise, your certificate parts will be available for install on the SSL page.
      :title: Validating your SSL Certificate (Linux) | UKFast Documentation
      :description: A detailed guide on validating your UKFast SSL Certificate via File Upload on a UKFast Linux Server
      :keywords: ssl, linux, file upload, validation, filezilla, ftp, sftp, cert, upload, cpanel, plesk
+```

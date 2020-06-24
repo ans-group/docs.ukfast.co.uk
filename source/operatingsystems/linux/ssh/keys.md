@@ -4,7 +4,9 @@ A more secure way of accessing a server via SSH than password authentication is 
 
 ```eval_rst
 .. note::
-   The command '~/' is used often here. This is simply a shortcut to the path '/home/user/'
+
+   The command ``~/`` is used often here. This is simply a shortcut to the path ``/home/user/``
+
 ``` 
 
 ## Generating Keys

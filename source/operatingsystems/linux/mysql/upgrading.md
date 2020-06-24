@@ -152,3 +152,4 @@ The selected MySQL version (5.7) is more than one generation newer than the curr
      :title: How to Upgrade MySQL/MariaDB | UKFast Documentation
      :description: A guide for upgrading MySQL/MariaDB on a Linux server
      :keywords: ukfast, linux, mysql, upgrades, backups, server, guide, tutorial
+```

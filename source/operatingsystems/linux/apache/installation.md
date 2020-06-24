@@ -75,7 +75,7 @@ By that logic, if you create a file in `/var/www/vhosts/firstdomain.com/public_h
 
 ```eval_rst
 .. note::
-   Don't forget to chown any website files to apache:apache as well
+   Don't forget to chown any website files to ``apache:apache`` as well
 ```
 
 In this example we've added our vhost configurations into the /etc/httpd/conf.d/vhost.conf. When you have a lot of configuration files, it might be worth adding these into their own .conf files. There will be examples of this at the bottom of this guide.
@@ -127,3 +127,4 @@ The following documents carry on the setup for those particular elements:
      :title: Installation and Configuration of Apache | UKFast Documentation
      :description:  Guidance to help you get up and running with Apache
      :keywords: ukfast, apache, configuration, php, mysql, virtual, vm, server
+```

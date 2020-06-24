@@ -71,7 +71,9 @@ yum groupinstall "Development Tools"
 
 ```eval_rst
 .. note::
-    On Fedora, I have found that the gcc package doesn't get installed using the command above so you have to install it manually using `yum install gcc`.
+
+    On Fedora, I have found that the gcc package doesn't get installed using the command above so you have to install it manually using ``yum install gcc``.
+
 ```
 
 Now that we have all the necessary packages installed, we can compile SoftEther using the following commands.
@@ -357,12 +359,16 @@ ServerCertSet /LOADCERT:/etc/letsencrypt/live/##fqdn.which.points.to.your.server
 
 ```eval_rst
 .. note::
-    SoftEther also comes with a built-in **Dynamic DNS** function, which can assign a unique and permanent hostname for your server. You can use the hostname assigned by this function for creating a SSL Certificate and connecting to your server.
+
+   SoftEther also comes with a built-in ``Dynamic DNS`` function, which can assign a unique and permanent hostname for your server. You can use the hostname assigned by this function for creating a SSL Certificate and connecting to your server.
+
 ```
 
 ```eval_rst
 .. note::
-    If you already have a SSL certificate or you have created one using **openssl**, it can be added to the server using the command **ServerCertSet** as shown above, changing the paths to match where your files are.
+
+   If you already have a SSL certificate or you have created one using ``openssl``, it can be added to the server using the command ``ServerCertSet`` as shown above, changing the paths to match where your files are.
+
 ```
 
 Now that we have created and registered a SSL Certificate for our server, we can enable SSTP function with this command:

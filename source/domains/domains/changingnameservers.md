@@ -8,7 +8,7 @@
 .. note::
     This guide is only for domains that have already been transferred to UKFast. If you're not there yet, you can follow our guide here:
 
-    :doc:`/domains/domains/transferin`
+    - :doc:`/domains/domains/transferin`
 ```
 
 To change nameservers, you'll first need to login to the [MyUKFast Panel](https://my.ukfast.co.uk). Once logged in, navigate to the following location:

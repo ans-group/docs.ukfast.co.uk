@@ -3,10 +3,10 @@
 Magento is a popular e-commerce platform, used by a large number of online shops. As a popular platform, it is often targeted by malicious actors, so it's important to keep your Magento installations secure.
 
 ```eval_rst
-   .. warning::
-      Magento is third party software not provided by UKFast, therefore we cannot be responsible in the event of any security breaches due to the Magento application itself, nor can we provide the in-depth forensics which may required should a breach occur.  
+.. warning::
+   Magento is third party software not provided by UKFast, therefore we cannot be responsible in the event of any security breaches due to the Magento application itself, nor can we provide the in-depth forensics which may required should a breach occur.  
 
-      The advice given here is provided on reasonable endeavours basis, and we recommend you do your own additional research.
+   The advice given here is provided on reasonable endeavours basis, and we recommend you do your own additional research.
 ```
 
 If you plan on using Magento as your e-commerce platform, the following resources should provide all the information you need to stay secure:
