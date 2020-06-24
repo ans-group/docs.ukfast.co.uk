@@ -33,6 +33,7 @@ And in all cases, we would always recommend getting a security expert to review 
 
 
 ```eval_rst
+   .. title:: WordPress Security
    .. meta::
       :title: WordPress Security | UKFast Documentation
       :description: How to prevent the most common WordPress security problems

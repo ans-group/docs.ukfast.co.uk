@@ -34,6 +34,7 @@ We would also recommend running an on-demand virus scan just in case there are f
 And in all cases, we would recommend getting a security expert to review and confirm your site is safe again.
 
 ```eval_rst
+   .. title:: Magento Security
    .. meta::
       :title: Magento Security | UKFast Documentation
       :description: How to prevent the most common Magento security problems

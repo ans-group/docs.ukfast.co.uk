@@ -69,8 +69,9 @@ It is recommended you do this at the hardware firewall level. Please read [our g
 Once you've secured memcached, double check that it is actually secure. Re-run the command outlined in [Checking your security](#checking-your-security), or alternatively contact [UKFast Support](https://my.ukfast.co.uk/pss/) and we can take a look for you.
 
 ```eval_rst
+   .. title:: Open Memcached Exploit
    .. meta::
-      :title: Open memcached exploit | UKFast Documentation
+      :title: Open Memcached Exploit | UKFast Documentation
       :description: Guidance on securing open memcached instances
       :keywords: ukfast, linux, security, vulnerability, memcached, hosting, ddos, udp, reflection, amplification
 ```
