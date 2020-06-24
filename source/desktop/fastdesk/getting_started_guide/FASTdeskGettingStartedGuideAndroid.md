@@ -90,8 +90,8 @@ Begin navigating your desktop following the instructions that were provided with
 You can later set the desktop that has been allocated to you as a "Favorite". This will allow it to appear as soon as you log in.
 
 ```eval_rst
-  .. warning::
-  Whenever you log out of a desktop, do allow at least 3 minutes before attempting to log back in. This is to ensure the session correctly ends before another one is open. If you have not waited long enough, there is a danger of your applications not appearing when you log in. If you do find that this is the case, simply log out, wait at least 3 minutes and log back in again.
+.. warning::
+   Whenever you log out of a desktop, do allow at least 3 minutes before attempting to log back in. This is to ensure the session correctly ends before another one is open. If you have not waited long enough, there is a danger of your applications not appearing when you log in. If you do find that this is the case, simply log out, wait at least 3 minutes and log back in again.
    
 ```
 

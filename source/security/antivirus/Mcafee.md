@@ -8,4 +8,4 @@ Scanning of remote directories is disabled by default, however NFS mounts will b
 
 Scanning schedules can be customised to your requirements, or they can be managed by you directly. If you want to make any changes to how your schedules are managed, please raise a support request.
 
-Default schedules can be seen [here](/schedules).
+Default schedules can be seen [here](schedules).

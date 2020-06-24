@@ -16,7 +16,7 @@ If your domain is connected to the DDoSX<sup>®</sup> network but not yet config
 
 ![manage](files/manage.PNG)
 
-To configure your domain, simply click on the Settings button next to the domain in question, and then `Configure`.  Run through the process as set out in the [Getting Started guide](/security/ddos/gettingstarted)
+To configure your domain, simply click on the Settings button next to the domain in question, and then `Configure`.  Run through the process as set out in the [Getting Started guide](/security/ddos/index)
 
 ## My website does not work as expected over HTTPS
 

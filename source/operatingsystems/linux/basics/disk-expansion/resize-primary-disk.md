@@ -121,13 +121,14 @@ Syncing disks.
 
 If you want the above partition to form part of a Linux LVM, it would be recommended to use the `t` option to change the partition type to `8e`.
 
-Following this, you can use the instructions in [add an additional disk](add-disk.html) to add this disk into an existing LVM, or make whatever more advanced changes you require with this additional partition.
+Following this, you can use the instructions in [add an additional disk](add-disk) to add this disk into an existing LVM, or make whatever more advanced changes you require with this additional partition.
 
 **You may need to reboot your server for the new partition to be available.**
 
 ```eval_rst
-  .. title:: Resizing the primary disk on an eCloud virtual server
-  .. meta::
-     :title: Resizing the primary disk on an eCloud virtual server | UKFast Documentation
-     :description: An advanced-level guide to resizing the primary disk on an eCloud virtual server
-     :keywords: ukfast, ecloud, cloud, disk, drive, resize, primary, server, virtual, linux
+   .. title:: Resizing the primary disk on an eCloud virtual server
+   .. meta::
+      :title: Resizing the primary disk on an eCloud virtual server | UKFast Documentation
+      :description: An advanced-level guide to resizing the primary disk on an eCloud virtual server
+      :keywords: ukfast, ecloud, cloud, disk, drive, resize, primary, server, virtual, linux
+```

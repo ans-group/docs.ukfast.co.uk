@@ -21,10 +21,8 @@ It's a little more difficult to review whether you have the UDP ports open, to d
 If you're unsure, please ask UKFast Support to check your firewall settings for you - just raise a support ticket in [MyUKFast](https://my.ukfast.co.uk/pss/).
 
 ```eval_rst
-.. note::
-
-   You should also consider checking and locking down non-standard ports.
-
+   .. note::
+      You should also consider checking and locking down non-standard ports.
 ```   
 	
 
@@ -64,14 +62,15 @@ You should also verify that memcached is indeed only listening on the localhost 
 #### Allow IPs on your firewall
 
 You can modify your firewall rules to block any IPs which are not listed. This can be done at a software firewall level or on a hardware firewall.
-It is recommended you do this at the hardware firewall level. Please read [our guidance on configuring your firewalls with UKFast](/security/firewalls/)
+It is recommended you do this at the hardware firewall level. Please read [our guidance on configuring your firewalls with UKFast](/network/firewalls/index)
 
 ## Post checks
 
 Once you've secured memcached, double check that it is actually secure. Re-run the command outlined in [Checking your security](#checking-your-security), or alternatively contact [UKFast Support](https://my.ukfast.co.uk/pss/) and we can take a look for you.
 
- ```eval_rst
+```eval_rst
    .. meta::
       :title: Open memcached exploit | UKFast Documentation
       :description: Guidance on securing open memcached instances
       :keywords: ukfast, linux, security, vulnerability, memcached, hosting, ddos, udp, reflection, amplification
+```

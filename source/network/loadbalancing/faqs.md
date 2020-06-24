@@ -8,7 +8,7 @@ Once you've moved behind a loadbalancer, you may notice that some of your analyt
 
 This is down to the nature of the loadbalancer itself. Where visitors used to directly visit your server, they now visit the loadbalancer instead and it's the loadbalancer that makes requests to the backend server. As such, the only IP address you'll see in logs or analytics will likely be that of the loadbalancer.
 
-This obviously isn't too great, but there's an easy fix. Whereas logs and analytics will usually derive the visitor IP from the requests source, they need to be directed to look at the standard `X-Forwarded-For` header instead. This is injected by the loadbalancer automatically, so should already be present (providing you've ticked `HTTP Close` as described in  [Quickstart](/myukfast/loadbalancing/quickstart)
+This obviously isn't too great, but there's an easy fix. Whereas logs and analytics will usually derive the visitor IP from the requests source, they need to be directed to look at the standard `X-Forwarded-For` header instead. This is injected by the loadbalancer automatically, so should already be present.
 
 How this is achieved will depend on what solution you're trying to work with. Here are a few examples:
 

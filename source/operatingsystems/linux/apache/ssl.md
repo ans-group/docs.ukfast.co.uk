@@ -57,7 +57,7 @@ and then reload it.
 
 Fully featured examples of this and other apache functionality can be found on the following page:
 
-[Sample vhosts](/linux/apache/examplevhosts)
+[Sample vhosts](/operatingsystems/linux/apache/examplevhosts)
 
 ```eval_rst
   .. title:: Using SSLs with Apache
@@ -65,3 +65,4 @@ Fully featured examples of this and other apache functionality can be found on t
      :title: Using SSLs with Apache | UKFast Documentation
      :description:  A guide on how to set up mod_ssl to allow Apache to use SSLs
      :keywords: ukfast, ssl, apache, mod_ssl, website, encryption, bash, tls, server, virtual, vm
+```

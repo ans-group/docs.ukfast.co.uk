@@ -19,7 +19,7 @@ We have a number of guides on getting started with WHM/cPanel. See below:
 * [Creating A New cPanel Account](/operatingsystems/linux/controlpanels/cpanel_add_account)
 * [Adding An FTP Account](/operatingsystems/linux/controlpanels/cpanel_ftp_account)
 
-[All WHM/cPanel Documentation](/operatingsystems/linux/controlpanels/)
+[All WHM/cPanel Documentation](/operatingsystems/linux/controlpanels/index)
 
 ## Further Documentation
 
@@ -33,3 +33,4 @@ Due to the frequent updates brought to cPanel, describing individual cPanel issu
      :title: Using cPanel on Linux | UKFast Documentation
      :description: A guide to using the cPanel control panel on Linux servers
      :keywords: ukfast, server, cpanel, cloud, whm, control, panel, virtual
+```

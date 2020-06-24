@@ -16,7 +16,7 @@ Find the agent in your browser's download folder and open it.  Follow the instru
 
 ![download agent](files/windows-install01.png)
 
-Select where to install the FASTcloudbackup agent. By default this will be to C:\Program Files\FASTcloudbackup\ContentStore
+Select where to install the FASTcloudbackup agent. By default this will be to `C:\Program Files\FASTcloudbackup\ContentStore`
 
 ![download agent](files/windows-install02.png)
 
