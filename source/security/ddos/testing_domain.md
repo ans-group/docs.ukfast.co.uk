@@ -81,8 +81,8 @@ and enter `your DDoSx ip` `example.org www.example.org` at the bottom of the fil
 ```
 
 ```eval_rst
-.. title:: Testing a domain on DDoSx | UKFast Documentation 
-.. meta::
-   :title: Testing a domain on DDoSx | UKFast Documentation 
-   :description: A guide for testing your domain on  DDoSx before enabling DNS
+  .. title:: Testing a domain on DDoSx 
+  .. meta::
+    :title: Testing a domain on DDoSx | UKFast Documentation 
+    :description: A guide for testing your domain on  DDoSx before enabling DNS
 ```

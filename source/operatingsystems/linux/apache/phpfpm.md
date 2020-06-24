@@ -35,6 +35,7 @@ Fully featured examples of this and other apache functionality can be found on t
 [Sample Vhosts](/linux/php/examplevhosts.html)
 
 ```eval_rst
+  .. title:: Using Apache with PHP-FPM
   .. meta::
      :title: Using Apache with PHP-FPM | UKFast Documentation
      :description:  A guide to using PHP-FPM with the Apache web server.

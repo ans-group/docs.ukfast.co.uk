@@ -106,6 +106,7 @@ systemctl enable php-fpm
 You should then have your application running under the new version of PHP.
 
 ```eval_rst
+  .. title:: Upgrading your PHP version
   .. meta::
      :title: Upgrading your PHP version | UKFast Documentation
      :description: A guide to changing PHP verions

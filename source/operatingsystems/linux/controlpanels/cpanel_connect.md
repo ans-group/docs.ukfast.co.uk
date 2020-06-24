@@ -36,6 +36,7 @@ Account Information >> List Accounts >> "cP" Button
 
 
 ```eval_rst
+  .. title:: Connecting to WHM or Cpanel
   .. meta::
      :title: Connecting to WHM or Cpanel | UKFast Documentation
      :description: Guide on connecting to a WHM/cPanel server

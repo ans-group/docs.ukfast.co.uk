@@ -132,6 +132,7 @@ Contents:
 ```
 
 ```eval_rst
+  .. title:: Example configurations for Apache
   .. meta::
      :title: Example configurations for Apache | UKFast Documentation
      :description:  Some example configurations for the Apache web server

@@ -161,6 +161,7 @@ To resize an `ext` filesystem, run the following - noting the format of `/dev/ma
 Then confirm that the disk shows the correct size in `df -h`
 
 ```eval_rst
+  .. title:: Resizing an additional disk on an eCloud virtual server
   .. meta::
      :title: Resizing an additional disk on an eCloud virtual server | UKFast Documentation
      :description: An intermediate-level guide to resizing an additional disk on an eCloud virtual server

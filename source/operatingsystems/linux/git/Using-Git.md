@@ -228,6 +228,7 @@ git push origin
 ```
 
  ```eval_rst
+  .. title::  Using Git
   .. meta::
      :title:  Using Git | UKFast Documentation
      :description: An advanced guide on basic git commands

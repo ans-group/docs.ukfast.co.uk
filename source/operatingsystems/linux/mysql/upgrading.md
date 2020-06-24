@@ -147,6 +147,7 @@ The selected MySQL version (5.7) is more than one generation newer than the curr
 ```
 
 ```eval_rst
+  .. title:: How to Upgrade MySQL/MariaDB
   .. meta::
      :title: How to Upgrade MySQL/MariaDB | UKFast Documentation
      :description: A guide for upgrading MySQL/MariaDB on a Linux server

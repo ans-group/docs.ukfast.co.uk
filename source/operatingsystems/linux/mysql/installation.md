@@ -61,6 +61,7 @@ There are many guides on how to 'tune' MySQL on the internet, most of which cont
 While these guides can help with some common issues and configurations, they are no substitute for consulting an experienced DBA who can optimize for your application and solution, especially if your application is not standard off-the-shelf software.
 
 ```eval_rst
+  .. title:: Installing MySQL in Linux
   .. meta::
      :title: Installing MySQL in Linux | UKFast Documentation
      :description: A guide to installing MySQL on Linux

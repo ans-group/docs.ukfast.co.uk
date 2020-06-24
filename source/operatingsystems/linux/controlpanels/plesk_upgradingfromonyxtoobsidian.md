@@ -42,6 +42,7 @@ Once the upgrade of Plesk is complete, you can go back to the homepage and you w
 You have successfully upgraded Plesk from Plesk Onyx to Plesk Obsidian!
 
 ```eval_rst
+  .. title:: Upgrading from Plesk Onyx to Plesk Obsidian
   .. meta::
      :title: Upgrading from Plesk Onyx to Plesk Obsidian
      :description:  A guide on upgrading from Plesk Onyx to Plesk Obsidian

@@ -180,6 +180,7 @@ FLUSH PRIVILEGES;
 The user should now have been added successfully and you should be able to log into this account from your WordPress admin page.
 
 ```eval_rst
+  .. title:: Configuring WordPress on Linux
   .. meta::
      :title: Configuring WordPress on Linux | UKFast Documentation
      :description:  How to configure WordPress and add admin users

@@ -92,6 +92,7 @@ If you don't have automatic updates scheduled on your UKFast servers, here's how
 
 
 ```eval_rst
+  .. title:: Meltdown and Spectre patch for Windows
   .. meta::
      :title: Meltdown and Spectre patch for Windows | UKFast Documentation
      :description: A guide to patching against recent CPU vulnerabilities

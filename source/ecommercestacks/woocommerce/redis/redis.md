@@ -15,6 +15,7 @@ These can be used with any WordPress Redis plugin.
 You can find more information on the Redis service [here](/operatingsystems/linux/redis/redis.html)
 
 ```eval_rst
+  .. title:: WooCommerce Redis
   .. meta::
      :title: WooCommerce Redis | UKFast Documentation
      :description: A guide to using Redis on our WooCommerce optimised stack

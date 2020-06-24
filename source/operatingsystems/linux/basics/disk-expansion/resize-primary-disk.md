@@ -126,6 +126,7 @@ Following this, you can use the instructions in [add an additional disk](add-dis
 **You may need to reboot your server for the new partition to be available.**
 
 ```eval_rst
+  .. title:: Resizing the primary disk on an eCloud virtual server
   .. meta::
      :title: Resizing the primary disk on an eCloud virtual server | UKFast Documentation
      :description: An advanced-level guide to resizing the primary disk on an eCloud virtual server

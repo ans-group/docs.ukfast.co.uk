@@ -35,6 +35,7 @@ As part of your BCP Solution you will receive a Pre-Launch Questionnaire specifi
 +----------------------+--------------+-------------+-------------+
 ```
 ```eval_rst
+  .. title:: UKFast Default BCP Configuration
   .. meta::
       :title: UKFast Default BCP Configuration | UKFast Documentation
       :description: Default Configuration for a BCP Solution.

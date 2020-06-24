@@ -121,6 +121,7 @@ a quantity of 1 and a Frequency of weeks.
 
 
 ```eval_rst
+  .. title:: Creating a new Load Test
   .. meta::
     :title: Creating a new Load Test | UKFast Documentation
     :description: How to create a new load test

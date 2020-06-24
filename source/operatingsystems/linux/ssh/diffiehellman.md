@@ -27,6 +27,7 @@ systemctl restart sshd
 ```
 
 ```eval_rst
+  .. title:: Using SSH Diffie-Hellman
   .. meta::
      :title: Using SSH Diffie-Hellman | UKFast Documentation
      :description: A guide to using SSH Diffie-Hellman

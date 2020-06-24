@@ -124,6 +124,7 @@ A restart of your webserver will be needed to load this new module in before you
 ```
 
 ```eval_rst
+  .. title:: Installing PHP modules on Linux
   .. meta::
      :title: Installing PHP modules on Linux | UKFast Documentation
      :description: A guide to installing PHP modules on Linux

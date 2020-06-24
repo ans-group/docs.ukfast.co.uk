@@ -107,6 +107,7 @@ Once you have your database dump you will need to import this dump into MySQL. T
 ```mysql -u root -p yourdatabase < yourdatabase.sql```
 
 ```eval_rst
+  .. title:: Restoring databases from a MySQL backup file
   .. meta::
      :title: Restoring databases from a MySQL backup file | UKFast Documentation
      :description: A guide to restoring a database from a MySQL backup file
