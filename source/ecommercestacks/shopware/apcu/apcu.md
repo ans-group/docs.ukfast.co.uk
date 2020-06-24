@@ -45,7 +45,7 @@ sed -i 's/;apc.shm_size=32M/apc.shm_size=512M/g' /etc/php.d/*apcu.ini
 ```
 
 ```eval_rst
-  .. title:: Shopware APCu | UKFast Documentation
+  .. title:: Shopware APCu
   .. meta::
      :title: Shopware APCu | UKFast Documentation
      :description: A guide to using APCu on our Shopware optimised stack

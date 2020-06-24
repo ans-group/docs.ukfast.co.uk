@@ -34,7 +34,7 @@ Once the process has completed, you will be presented with the below confirmatio
 
 
 ```eval_rst
-  .. title:: Installing PHP for use in IIS | UKFast Documentation
+  .. title:: Installing PHP for use in IIS
   .. meta::
      :title: Installing PHP for use in IIS | UKFast Documentation
      :description: A guide to installing PHP for use in IIS

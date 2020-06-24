@@ -47,7 +47,7 @@ You may need to change the IP address and you can change the port to run backend
 You can find more information on the Redis service [here](/operatingsystems/linux/redis/redis.html)
 
 ```eval_rst
-  .. title:: Shopware Redis | UKFast Documentation
+  .. title:: Shopware Redis
   .. meta::
      :title: Shopware Redis | UKFast Documentation
      :description: A guide to using Redis on our Shopware optimised stack

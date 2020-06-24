@@ -123,7 +123,7 @@ Using 7.2 in this example, you can define the PHP binary for the Magento crons l
 ```
 
 ```eval_rst
-  .. title:: Magento Multiple PHP Installations | UKFast Documentation
+  .. title:: Magento Multiple PHP Installations
   .. meta::
      :title: Magento Multiple PHP Installations | UKFast Documentation
      :description: A guide to installing and running multiple versions of PHP

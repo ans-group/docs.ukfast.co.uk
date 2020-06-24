@@ -31,7 +31,7 @@ The below configuration applies to the following Linux Servers:
 ```
 
 ```eval_rst
-  .. title:: UKFast server partitions | UKFast Documentation
+  .. title:: UKFast server partitions
   .. meta::
       :title: UKFast server partitions | UKFast Documentation
       :description: UKFast server partitions

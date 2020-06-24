@@ -93,7 +93,7 @@ If you receive the above, this test is successful
 * You can now reconfigure your application to use the IP addresses of the crossover connection to tranfer your data via this link
 
 ```eval_rst
-  .. title:: Using a crossover connection on Windows | UKFast Documentation
+  .. title:: Using a crossover connection on Windows
   .. meta::
      :title: Using a crossover connection on Windows | UKFast Documentation
      :description: An in-depth guide to using a crossover connection on Windows

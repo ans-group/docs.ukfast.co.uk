@@ -20,7 +20,7 @@ If the connection is established, you will receive a response from the remote se
 If however, you are presented with a blank window, this could mean that the connection could not be established correctly, at this point, it is advised to review firewall rules etc to ensure that appropriate access is allowed to and from your target ip.
 
 ```eval_rst
-  .. title:: {title goes here}
+  .. title:: Testing basic connectivity using Telnet
   .. meta::
      :title: Testing basic connectivity using Telnet | UKFast Documentation
      :description: A guide to testing connectivity on Windows using Telnet

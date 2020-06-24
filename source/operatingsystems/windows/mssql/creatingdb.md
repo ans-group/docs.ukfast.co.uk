@@ -25,7 +25,7 @@ A thorough explanation of the options and their functions can be found by visiti
 * Your new database should now be visible in the "Databases" section of the Object explorer.
 
 ```eval_rst
-  .. title:: Creating a new database in Microsoft SQL Server | UKFast Documentation
+  .. title:: Creating a new database in Microsoft SQL Server
   .. meta::
      :title: Creating a new database in Microsoft SQL Server | UKFast Documentation
      :description: A guide to creating a new database in Microsoft SQL Server

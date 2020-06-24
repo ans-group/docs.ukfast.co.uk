@@ -506,8 +506,8 @@ After a few seconds it will connect and show you **Connected** status. You can a
 [pic15]: files/install_softether_vpn_server-15.png
 
 ```eval_rst
-  .. title:: {title goes here}
+  .. title::  How to set up a Multi-Protocol VPN Server using SoftEther
   .. meta::
-     :title: How to set up a Multi-Protocol VPN Server using SoftEther | UKFast Documentation
+     :title:  How to set up a Multi-Protocol VPN Server using SoftEther | UKFast Documentation
      :description: A guide to setting up a VPN server using SoftEther
      :keywords: ukfast, vpn, softether, multi, protocol, server, security

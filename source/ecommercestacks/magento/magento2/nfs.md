@@ -59,7 +59,7 @@ You can symlink files/folders from your document root to the NFS mount point.
 You can find more information on the NFS service [here](/operatingsystems/linux/nfs/nfs.html)
 
 ```eval_rst
-  .. title:: Magento2 NFS | UKFast Documentation
+  .. title:: Magento2 NFS
   .. meta::
      :title: Magento2 NFS | UKFast Documentation
      :description: A guide to using NFS on our Magento2 optimised stack

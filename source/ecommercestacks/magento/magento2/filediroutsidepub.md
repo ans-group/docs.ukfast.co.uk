@@ -71,7 +71,7 @@ You should now be able to access sitemap.xml without any issues:
 ```
 
 ```eval_rst
-  .. title:: Magento 2 File/Directory Outside /pub | UKFast Documentation
+  .. title:: Magento 2 File/Directory Outside /pub
   .. meta::
      :title: Magento 2 File/Directory Outside /pub | UKFast Documentation
      :description: A guide to adding Files/Directories to run outside /pub in Nginx

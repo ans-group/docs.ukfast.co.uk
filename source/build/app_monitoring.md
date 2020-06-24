@@ -19,7 +19,7 @@ As part of your solution, we will add Application specific monitoring. Depending
 ```
 
 ```eval_rst
-  .. title:: UKFast application monitoring documentation | UKFast Documentation
+  .. title:: UKFast application monitoring documentation
   .. meta::
       :title: UKFast application monitoring documentation | UKFast Documentation
       :description: Monitoring documentation for UKFast application

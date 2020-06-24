@@ -26,7 +26,7 @@ If this does not work,you will need the following:
 * Restart Outlook and you should see the folder
 
 ```eval_rst
-  .. title:: Missing inbox in Microsoft Exchange | UKFast Documentation
+  .. title:: Missing inbox in Microsoft Exchange
   .. meta::
      :title: Missing inbox in Microsoft Exchange | UKFast Documentation
      :description: Guidance on resolving a missing inbox or other folders in Microsoft Exchange

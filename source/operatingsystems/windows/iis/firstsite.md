@@ -39,7 +39,7 @@ Once you are happy that the details are correct, please select "Ok". You will no
 
 
 ```eval_rst
-  .. title:: Setting up your first website in IIS | UKFast Documentation
+  .. title:: Setting up your first website in IIS
   .. meta::
      :title: Setting up your first website in IIS | UKFast Documentation
      :description: A guide to setting up a website in IIS

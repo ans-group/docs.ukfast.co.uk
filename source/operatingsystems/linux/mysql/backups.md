@@ -142,7 +142,7 @@ mariabackup --prepare --target-dir=/path/to/backup/
 ```
 
 ```eval_rst
-  .. title:: How to Backup MySQL/MariaDB Databases  | UKFast Documentation
+  .. title:: How to Backup MySQL/MariaDB Databases 
   .. meta::
      :title: How to Backup MySQL/MariaDB Databases  | UKFast Documentation
      :description: A guide for taking consistent database backups on a Linux server

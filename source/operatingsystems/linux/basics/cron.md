@@ -39,7 +39,7 @@ Would run the script at one minute past midnight.
 There are [several](http://crontab.guru/) [online](http://www.openjs.com/scripts/jslibrary/demos/crontab.php) [utilites](http://www.cronmaker.com/) that will generate the cronjob for you and most control panels will also have a user friendly interface for the system.
 
 ```eval_rst
-  .. title:: Setting cron jobs on Linux | UKFast Documentation
+  .. title:: Setting cron jobs on Linux
   .. meta::
      :title: Setting cron jobs on Linux | UKFast Documentation
      :description:  A guide on how to set up cron jobs on Linux

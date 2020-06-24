@@ -79,7 +79,7 @@ If there are no errors in the configuration test proceed to reload the Nginx ser
 ```
 
 ```eval_rst
-  .. title:: Magento Restrict Website | UKFast Documentation
+  .. title:: Magento Restrict Website
   .. meta::
      :title: Magento Restrict Website | UKFast Documentation
      :description: A guide to restrict access to a website

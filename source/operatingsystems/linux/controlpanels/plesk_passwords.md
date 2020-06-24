@@ -61,7 +61,7 @@ plesk bin admin --set-admin-password -passwd "**********"
 Should you be unable to establish a connection to your server via SSH, please do not hesitate to get in touch with our support team for assistance.
 
 ```eval_rst
-  .. title:: Retrieving your Plesk Admin password | UKFast Documentation
+  .. title:: Retrieving your Plesk Admin password
   .. meta::
      :title: Retrieving your Plesk Admin password | UKFast Documentation
      :description: A guide to retrieving your Plesk password on Linux servers

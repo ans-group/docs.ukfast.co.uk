@@ -97,7 +97,7 @@ You can also delete IP groups by clicking the `bin` icon next to the group.  You
 Please note all changes made are only stored locally.  When you have made all your desired changes please click `Apply Changes` to send the config change to the firewall at which point they will take effect.
 
 ```eval_rst
-  .. title:: Managing your dedicated firewall | UKFast Documentation
+  .. title:: Managing your dedicated firewall
   .. meta::
      :title: Managing your dedicated firewall | UKFast Documentation
      :description: How to manage your dedicated UKFast firewalls

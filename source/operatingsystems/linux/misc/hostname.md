@@ -53,7 +53,7 @@ Once you have completed this, it is recommended to also set the hosts file.
 [//]: # (TODO: Create hosts article to cover general usage including on windows and mac)
 
 ```eval_rst
-  .. title:: Hostnames in Linux | UKFast Documentation
+  .. title:: Hostnames in Linux
   .. meta::
      :title: Hostnames in Linux | UKFast Documentation
      :description: Information on setting, viewing and using hostnames in the Linux OS

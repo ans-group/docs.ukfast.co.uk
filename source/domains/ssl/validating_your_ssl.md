@@ -113,7 +113,7 @@ Once it has, if you have selected an Engineer Install along with your SSL. This 
 Otherwise, your certificate parts will be available for install on the SSL page.
 
 ```eval_rst
-  .. title:: {title goes here}
+  .. title:: Validating your SSL Certificate (Linux)
   .. meta::
      :title: Validating your SSL Certificate (Linux) | UKFast Documentation
      :description: A detailed guide on validating your UKFast SSL Certificate via File Upload on a UKFast Linux Server

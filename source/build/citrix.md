@@ -33,7 +33,7 @@ Below outlines how the proposed configuration will be configured for the Citrix 
    UKFast are not responsible for configuring users, Group Policies or RDS Collection Groups. This is the responsibility of the client to administer, although UKFast Support is on-hand if any guidance is required.
 ```
 ```eval_rst
-  .. title:: UKFast Citrix build documentation | UKFast Documentation
+  .. title:: UKFast Citrix build documentation
   .. meta::
       :title: UKFast Citrix build documentation | UKFast Documentation
       :description: Build documentation for UKFast Citrix

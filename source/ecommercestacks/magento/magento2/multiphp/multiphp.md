@@ -127,7 +127,7 @@ Using 7.2 in this example:
 ```
 
 ```eval_rst
-  .. title:: Magento 2 Multiple PHP Installations | UKFast Documentation
+  .. title:: Magento 2 Multiple PHP Installations
   .. meta::
      :title: Magento 2 Multiple PHP Installations | UKFast Documentation
      :description: A guide to installing and running multiple versions of PHP

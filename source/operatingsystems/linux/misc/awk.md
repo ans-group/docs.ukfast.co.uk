@@ -13,7 +13,7 @@ This can be used in conjunction with other commands and more complex commands ca
 ```
 
 ```eval_rst
-  .. title:: Using the AWK command in Linux | UKFast Documentation
+  .. title:: Using the AWK command in Linux
   .. meta::
      :title: Using the AWK command in Linux | UKFast Documentation
      :description: A guide on using the AWK command in Linux

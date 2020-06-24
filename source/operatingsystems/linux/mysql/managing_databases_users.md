@@ -55,7 +55,7 @@ Use the commands below.
 For a guide on a more common CLI commands, please do check out our [MySQL Command Line Basics](/operatingsystems/linux/mysql/mysql_cli_basics.html) guide.
 
 ```eval_rst
-  .. title:: Managing MySQL database users | UKFast Documentation
+  .. title:: Managing MySQL database users
   .. meta::
      :title: Managing MySQL database users | UKFast Documentation
      :description: A guide to managing MySQL database users

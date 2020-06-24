@@ -288,7 +288,7 @@ This will tell you additional information, such as what packages it depends on, 
 ```
 
 ```eval_rst
-  .. title:: Package Management Functions | UKFast Documentation
+  .. title:: Package Management Functions
   .. meta::
      :title: Managing packages in Linux | UKFast Documentation
      :description: A guide to adding and managing packages in Linux

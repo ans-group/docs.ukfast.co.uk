@@ -125,7 +125,7 @@ It is possible to add the `*` on the end of the `rm -Rf` command; however, we wo
 ```
 
 ```eval_rst
-  .. title:: Manipulating files in Linux | UKFast Documentation
+  .. title:: Manipulating files in Linux
   .. meta::
      :title: Manipulating files in Linux | UKFast Documentation
      :description:  A guide to manipulating files on the Linux OS

@@ -74,7 +74,7 @@ The OPcache GUI [https://github.com/amnuts/opcache-gui](https://github.com/amnut
 You can then browse www.shopwaredomain.com/opcache-gui. We recommend password/ip redirection for this URI, we have guides on how to do this [here](/operatingsystems/linux/magento/magento2/restrictfilefolder.html)
 
 ```eval_rst
-  .. title:: Shopware Opcache | UKFast Documentation
+  .. title:: Shopware Opcache
   .. meta::
      :title: Shopware Opcache | UKFast Documentation
      :description: A guide to using Opcache on our Shopware optimised stack

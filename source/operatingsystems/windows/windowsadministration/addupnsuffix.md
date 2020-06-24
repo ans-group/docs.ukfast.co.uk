@@ -34,7 +34,7 @@ In the "User Logon name:" field, select the drop down arrow to the right hand si
 * The process of adding your new UPN Suffix is now complete, you can repeat the above steps should you wish to add any further UPN Suffix's.
 
 ```eval_rst
-  .. title:: The UPN suffix in Active Directory | UKFast Documentation
+  .. title:: The UPN suffix in Active Directory
   .. meta::
      :title: The UPN suffix in Active Directory | UKFast Documentation
      :description: A guide to adding a UPN Suffix in Active Directory in Windows

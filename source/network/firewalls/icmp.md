@@ -16,7 +16,7 @@ Unfortunately, if your solution is behind a shared firewall, we will not be able
 
 
 ```eval_rst
-  .. title:: Enabling ICMP for UKFast servers | UKFast Documentation
+  .. title:: Enabling ICMP for UKFast servers
   .. meta::
      :title: Enabling ICMP for UKFast servers | UKFast Documentation
      :description: ICMP on UKFast shared and dedicated firewalls

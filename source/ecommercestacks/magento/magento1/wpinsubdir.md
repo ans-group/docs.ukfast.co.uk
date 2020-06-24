@@ -65,7 +65,7 @@ If there are no errors in the configuration test proceed to reload the Nginx ser
 ```
 
 ```eval_rst
-  .. title:: Magento 1 Wordpress in a Sub Directory | UKFast Documentation
+  .. title:: Magento 1 Wordpress in a Sub Directory
   .. meta::
      :title: Magento 1 Wordpress in a Sub Directory | UKFast Documentation
      :description: A guide to adding Wordpress Nginx configuration when running Wordpress in a sub directory

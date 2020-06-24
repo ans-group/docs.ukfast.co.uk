@@ -73,7 +73,7 @@ Please find below the UKFast Default Software installed as part of your solution
 ```
 
 ```eval_rst
-  .. title:: UKFast software build documentation | UKFast Documentation
+  .. title:: UKFast software build documentation
   .. meta::
       :title: UKFast software build documentation | UKFast Documentation
       :description: Build documentation for UKFast software

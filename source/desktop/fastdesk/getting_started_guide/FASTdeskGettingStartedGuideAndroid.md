@@ -98,8 +98,8 @@ You can later set the desktop that has been allocated to you as a "Favorite". Th
 
 **_This instruction guide should assist you in getting logged in for the first time. If you have any questions or still require assistance, please contact the FastDesk support team on 0800 923 0617_**.
 
-   ```eval_rst
-  .. title:: {title goes here}
+```eval_rst
+  .. title:: FastDesk Getting Started Guide: Android
   .. meta::
      :title: FastDesk Getting Started Guide: Android | UKFast Documentation
      :description: Guide for users on how to get setup on FastDesk using an Android Device

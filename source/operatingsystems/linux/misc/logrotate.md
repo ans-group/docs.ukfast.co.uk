@@ -36,7 +36,7 @@ Magento log files:
 ```
 
 ```eval_rst
-  .. title:: Log rotations in Linux | UKFast Documentation
+  .. title:: Log rotations in Linux
   .. meta::
      :title: Log rotations in Linux | UKFast Documentation
      :description: How to manage log rotations in the Linux OS

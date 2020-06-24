@@ -25,7 +25,7 @@ If there is an issue which is not clear based on the failure notification, then 
 ```
 
 ```eval_rst
-  .. title:: Info - Plesk SafeDNS Extension | UKFast Documentation
+  .. title:: Info - Plesk SafeDNS Extension
   .. meta::
      :title: Info - Plesk SafeDNS Extension | UKFast Documentation
      :description: General info on UKFast SafeDNS Plesk Extension

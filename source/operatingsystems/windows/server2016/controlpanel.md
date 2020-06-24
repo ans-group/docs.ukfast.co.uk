@@ -15,7 +15,7 @@ From the menu, please select "Control Panel", you will now be presented with the
   If you are not familiar with the settings app, please follow our overview which aims to provide you with an introduction to it.
 
 ```eval_rst
-  .. title:: Control Panel in Windows Server 2016 | UKFast Documentation
+  .. title:: Control Panel in Windows Server 2016
   .. meta::
      :title: Control Panel in Windows Server 2016 | UKFast Documentation
      :description: A guide to accessing and using the Control Panel in Windows Server 2016

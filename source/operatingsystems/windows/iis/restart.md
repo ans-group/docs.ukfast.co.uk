@@ -26,7 +26,7 @@ Once the process has completed, you will be given access to your command prompt 
 * IIS has now been restarted.
 
 ```eval_rst
-  .. title:: Resetting IIS | UKFast Documentation
+  .. title:: Resetting IIS
   .. meta::
      :title: Resetting IIS | UKFast Documentation
      :description: A guide to resetting IIS in Windows Server

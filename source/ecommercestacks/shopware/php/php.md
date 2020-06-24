@@ -155,7 +155,7 @@ systemctl enable php-fpm
 ```
 
 ```eval_rst
-  .. title:: Shopware PHP | UKFast Documentation
+  .. title:: Shopware PHP
   .. meta::
      :title: Shopware PHP | UKFast Documentation
      :description: A guide to using PHP on our Shopware optimised stack

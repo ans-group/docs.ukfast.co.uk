@@ -22,7 +22,7 @@ You will now be presented with the new user context box, you will need to enter 
 * Once you have entered the required information, click ok. and your new user has now been created.
 
 ```eval_rst
-  .. title:: Creating a new user in a workgroup | UKFast Documentation
+  .. title:: Creating a new user in a workgroup
   .. meta::
      :title: Creating a new user in a workgroup | UKFast Documentation
      :description: A guide for creating a new user account on your Windows Server

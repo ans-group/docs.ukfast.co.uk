@@ -20,7 +20,7 @@ Repeat the above process to create another binding, but this time for a second s
 
 
 ```eval_rst
-  .. title:: Configuring host headers in IIS | UKFast Documentation
+  .. title:: Configuring host headers in IIS
   .. meta::
      :title: Configuring host headers in IIS | UKFast Documentation
      :description: A guide to configuring host headers in IIS

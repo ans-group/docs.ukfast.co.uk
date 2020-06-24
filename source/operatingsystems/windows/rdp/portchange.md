@@ -52,7 +52,7 @@ Right click on Remote Desktop Services and select "Restart" from the context men
 
 
 ```eval_rst
-  .. title:: Changing the Remote Desktop port on Windows | UKFast Documentation
+  .. title:: Changing the Remote Desktop port on Windows
   .. meta::
      :title: Changing the Remote Desktop port on Windows | UKFast Documentation
      :description: A guide to changing the Remote Desktop port on Windows

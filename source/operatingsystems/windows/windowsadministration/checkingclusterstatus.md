@@ -36,7 +36,7 @@ Select "Move" from the resultant context menu, then select the desired node whic
 * please note that During failover, any active connections to the server will be disconnected for a short period whilst these services stop on one host and start on another.
 
 ```eval_rst
-  .. title:: Checking cluster status in Windows | UKFast Documentation
+  .. title:: Checking cluster status in Windows
   .. meta::
      :title: Checking cluster status in Windows | UKFast Documentation
      :description: Instructions on how to check the status of a Windows cluster

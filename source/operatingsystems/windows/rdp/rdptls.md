@@ -70,7 +70,7 @@ You should now be able to see your new Client key as below
 * The keys to disable TLS 1.0 from the server side and also to refuse client connections using TLS 1.0 are now set. In order for the keys to take effect, your server must now be restarted.
 
 ```eval_rst
-  .. title:: Disabling TLS 1.0 for Remote Desktop | UKFast Documentation
+  .. title:: Disabling TLS 1.0 for Remote Desktop
   .. meta::
      :title: Disabling TLS 1.0 for Remote Desktop | UKFast Documentation
      :description: Instructions on how to disable TLS 1.0 for Remote Desktop on Windows

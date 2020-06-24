@@ -28,7 +28,7 @@ Due to the frequent updates brought to cPanel, describing individual cPanel issu
 [cPanel Official Documentation](https://documentation.cpanel.net)
 
 ```eval_rst
-  .. title:: Using cPanel on Linux | UKFast Documentation
+  .. title:: Using cPanel on Linux
   .. meta::
      :title: Using cPanel on Linux | UKFast Documentation
      :description: A guide to using the cPanel control panel on Linux servers

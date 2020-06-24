@@ -31,7 +31,7 @@ Other ports may be required to internally between VLANs as part of the configura
    Depending on your solution design & complexity, firewall rules can be viewed & configured in MyUKFast.
 ```
 ```eval_rst
-  .. title:: UKFast Enterprise Firewall Default Configuration | UKFast Documentation
+  .. title:: UKFast Enterprise Firewall Default Configuration
   .. meta::
       :title: UKFast Enterprise Firewall Default Configuration | UKFast Documentation
       :description: Default Configuration for UKFast Enterprise Firewalls

@@ -29,7 +29,7 @@ SSL Certificates come in various forms, which provide the different features tha
 
 
 ```eval_rst
-  .. title:: SSL | Types of SSL Available from UKFast | UKFast Documentation
+  .. title:: SSL | Types of SSL Available from UKFast
   .. meta::
      :title: Different types of SSLs available at UKFast | UKFast Documentation
      :description: Information on the different types of SSLs that are available for purchase at UKFast

@@ -60,7 +60,7 @@ Fully featured examples of this and other apache functionality can be found on t
 [Sample vhosts](/linux/apache/examplevhosts.html)
 
 ```eval_rst
-  .. title:: Using SSLs with Apache | UKFast Documentation
+  .. title:: Using SSLs with Apache
   .. meta::
      :title: Using SSLs with Apache | UKFast Documentation
      :description:  A guide on how to set up mod_ssl to allow Apache to use SSLs

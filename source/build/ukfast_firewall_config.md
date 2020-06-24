@@ -57,7 +57,7 @@ If you have multiple VLANs as part of your solutions other ports may be required
    Depending on your solution design & complexity, firewall rules can be viewed & configured in MyUKFast.
 ```
 ```eval_rst
-  .. title:: UKFast Firewall Default Configuration | UKFast Documentation
+  .. title:: UKFast Firewall Default Configuration
   .. meta::
       :title: UKFast Firewall Default Configuration | UKFast Documentation
       :description: Default Configuration for UKFast Firewalls

@@ -39,7 +39,7 @@ Your solution will be configured with a single VLAN which will contain all of yo
 Each VLAN will be assigned a separate internal subnet, defined by UKFast.
 ```
 ```eval_rst
-  .. title:: UKFast networking build documentation | UKFast Documentation
+  .. title:: UKFast networking build documentation
   .. meta::
       :title: UKFast networking build documentation | UKFast Documentation
       :description: Build documentation for UKFast networking

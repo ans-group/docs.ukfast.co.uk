@@ -35,7 +35,7 @@ By default your MS-SQL database server will be configured with the following set
 ```
 
 ```eval_rst
-  .. title:: UKFast Enterprise MS-SQL database build documentation | UKFast Documentation
+  .. title:: UKFast Enterprise MS-SQL database build documentation
   .. meta::
       :title: UKFast Enterprise MS-SQL database build documentation | UKFast Documentation
       :description: Build documentation for Enterprise MS-SQL database servers

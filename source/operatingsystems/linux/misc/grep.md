@@ -118,7 +118,7 @@ xml
 As you can see this matched two modules.
 
 ```eval_rst
-  .. title:: Using the grep command in Linux | UKFast Documentation
+  .. title:: Using the grep command in Linux
   .. meta::
      :title: Using the grep command in Linux | UKFast Documentation
      :description: A guide to using the grep command to search or filter in the Linux OS
