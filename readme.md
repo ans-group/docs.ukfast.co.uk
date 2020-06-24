@@ -14,7 +14,7 @@ To get started, please visit:
 Please ensure pages and folders are easy to read and sensibly structured. 
 Please keep the page urls lowercase and use hyphens instead of spaces. e.g.
 
-/desktop/fastdesk/getting-started/windows.html
+- /desktop/fastdesk/getting-started/windows.html
 
 
 #### Adding meta content to pages 
@@ -35,7 +35,7 @@ Please note there are character length limitations we must adhere to for the `ti
 
 - `keywords` - (optional) list of relating keywords
 
-##### for `.md` files (normal content pages)
+##### For `.md` files (normal content pages)
 
 Please note spacing/indents are important so copy this template *
 
@@ -50,7 +50,7 @@ Meta content goes at the bottom of the file
 ```
 </pre>
 
-##### for `index.rst` files (category index pages, which list the .md pages underneath
+##### For `index.rst` files (category index pages, which list the .md pages underneath
 
 Meta content goes at the top of the page otherwise it will fail Travis checks
 
@@ -81,6 +81,43 @@ CNAME         portal     64cf9871a5b0ca045an96udtf9a63687c180f47df6.user.ddosx.c
 ===========   ========   =========================================================
 ```
 </pre>
+
+### Adding into `eval_rst` blocks
+
+ReStructuredText (rst) uses quite different syntax than Markdown. Here are a few examples of how to use it
+
+#### Hyperlinks
+
+The easiest form to add them is like this:
+
+<pre>
+:doc:`/ecloud/flex/general/openstackcli`
+</pre>
+
+This will make a hyperlinks using the title of the page `/ecloud/flex/general/openstackcli` as the text.
+
+#### Adding Notes, Info, Warning, etc.
+
+These must be done using RST, and the format is like this:
+<pre>
+```eval_rst
+.. note::
+
+   Sectigo also provide an online EV click-through as an alternative. This is available on request.
+
+```
+</pre>
+See `/domains/ssl/Extended_Validation_SSL` as an example
+
+#### Adding the Registered Trademark ®
+
+Adding this:
+<pre>
+DDoSx\ :sup:`®`\
+</pre>
+
+Renders like this: DDoSx<sup>®</sup>
+
 
 ## Deploy Locally
 Ensure you have docker and docker-compose installed.

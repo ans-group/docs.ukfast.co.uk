@@ -41,9 +41,9 @@ Upon purchase, unique `SHA` and `MD5` hashes will be provided.
 ```eval_rst
 .. note::
 
-   For guidance about the different types of validation please see the following guide
+   For guidance about the different types of validation please see the following guide:
 
-   - :doc:`/domains/ssl/validating_your_ssl.html`
+   - :doc:`/domains/ssl/validating_your_ssl`
 
 ```
 
