@@ -18,7 +18,7 @@ Automatic updates for themes and plugins are disabled by default but can be [ena
 In addition to updating the application software, making sure that the server is running the latest software is also important for both security and performance reasons. This includes the Operating System, Apache/NGINX/IIS, MySQL/MariaDB/MSSQL and PHP. 
 
 ```eval_rst
-.. seealso::..If the website is running PHP5.X and your application supports PHP7.X, it may be worthwhile upgrading as PHP7.X is generally more performant.
+.. seealso::.. If the website is running PHP5.X and your application supports PHP7.X, it may be worthwhile upgrading as PHP7.X is generally more performant.
 ```
 
 ## Load
