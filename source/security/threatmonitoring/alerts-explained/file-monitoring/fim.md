@@ -1,5 +1,3 @@
-
-
  # File Changes
 
 File Integrity Monitoring alerts can be found in the 'Alerts' section of your MyUKFast area. Critical File Changes are also sent as an email alert to the selected contacts. Both of these alert types will contain important information regarding the event.
@@ -65,9 +63,9 @@ By default, File Integrity Monitoring scans run every 12 hours and will alert wh
  ```
  
 ```eval_rst
-.. title:: File Monitoring
-.. meta::
-   :title: File Monitoring | UKFast Documentation
-   :description: Our Threat Monitoring ruleset explained
-   :keywords: threat monitoring, alerts, security, compliance, rules, rulesets, ukfast, hosting, file integrity monitoring, rootkit, detection, vulnerability scan, scans, hids, intrusion detection, set up
+   .. title:: File Monitoring
+   .. meta::
+      :title: File Monitoring | UKFast Documentation
+      :description: Our Threat Monitoring ruleset explained
+      :keywords: threat monitoring, alerts, security, compliance, rules, rulesets, ukfast, hosting, file integrity monitoring, rootkit, detection, vulnerability scan, scans, hids, intrusion detection, set up
 ```

@@ -1,8 +1,9 @@
 # Transferring a domain to UKFast
 
 ```eval_rst
+   .. title:: Domain Names | Transferring to UKFast
    .. meta::
-      :title: Domain Names | Transfering to UKFast | UKFast Documentation
+      :title: Domain Names | Transferring to UKFast | UKFast Documentation
       :description: How to transfer your domain to UKFast
 ```
 

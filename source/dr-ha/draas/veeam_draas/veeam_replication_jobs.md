@@ -49,6 +49,7 @@ Once you are happy with all of the factors above you can start configuring your 
 ```
 
 ```eval_rst
+   .. title:: Veeam Replication Jobs
    .. meta::
       :title: Veeam Replication Jobs | UKFast Documentation
       :description: A guide to setting up Veeam replication jobs
