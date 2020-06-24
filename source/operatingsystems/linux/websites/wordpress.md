@@ -6,11 +6,10 @@ WordPress is an incredibly popular blogging platform that's increasingly being u
 .. seealso::
    If you're currently looking at a blank server, you'll first need to follow these prerequisite guides:
 
-   :doc:`/operatingsystems/linux/apache/installation`
+   - :doc:`/operatingsystems/linux/apache/installation`
+   - :doc:`/operatingsystems/linux/php/installation`
+   - :doc:`/operatingsystems/linux/mysql/installation`
 
-   :doc:`/operatingsystems/linux/php/installation`
-
-   :doc:`/operatingsystems/linux/mysql/installation`
 ```
 
 ```eval_rst

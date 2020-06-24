@@ -4,8 +4,9 @@ As WordPress is a popular Content Management System (CMS), and as such we regula
 
 ```eval_rst
 .. seealso::
-   If you haven't yet installed WordPress please follow the prerequisite guide `Wordpress Install`_
-.. _Wordpress Install: /websites/wordpress
+
+   If you haven't yet installed WordPress please follow the prerequisite guide :doc:`/operatingsystems/linux/websites/wordpress`
+
 ```
 
 An essential metric to any website is the page load time. It's a well-known fact that users want to consume data fast and will typically leave a website after just three seconds if the website fails to load. Googles SEO rankings also prefer speedier websites and so it's even more important to consider what can be done to optimize website performance.
