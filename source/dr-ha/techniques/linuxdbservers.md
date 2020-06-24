@@ -1,8 +1,9 @@
 # Linux Database Servers
 
 ```eval_rst
+   .. title:: DR | Linux Database Server Backups
    .. meta::
-      :title: DR | Linux Database Server Backup | UKFast Documentation
+      :title: DR | Linux Database Server Backups | UKFast Documentation
       :description: Information on how to backup your Linux Database servers
 ```  
 

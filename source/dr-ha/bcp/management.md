@@ -1,5 +1,12 @@
 # Managing your cluster
 
+```eval_rst
+   .. title:: BCP | Managing Your Cluster
+   .. meta::
+      :title: BCP | Managing Your Cluster | UKFast Documentation
+      :description: Information on how to manage your BCP cluster
+```
+
 When moving from a standard Linux server with a LAMP stack (for example), there are a number of differences in how you manage the server and its services. Further to this, consideration to the cluster architecture should be given before adding new services or applications onto your nodes.
 
 We utilize of the RedHat clustering suite, which uses Pacemaker (`pcs`) as the cluster manager.

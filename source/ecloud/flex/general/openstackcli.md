@@ -65,8 +65,9 @@ The next section of our documenation details managing the resources in your proj
 [Managing Resources](/ecloud/flex/resources)
 
 ```eval_rst
-.. meta::
-     :title: Installing the Openstack client | UKFast Documentation
-     :description: Details how to install the openstack command line client
-     :keywords: openstack, ecloud, flex, ukfast, nova, swift, cinder, glance, keystone, heat, hosting, cloud, api, cli
+   .. title:: Installing the Openstack client
+   .. meta::
+      :title: Installing the Openstack client | UKFast Documentation
+      :description: Details how to install the openstack command line client
+      :keywords: openstack, ecloud, flex, ukfast, nova, swift, cinder, glance, keystone, heat, hosting, cloud, api, cli
 ```

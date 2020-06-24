@@ -96,8 +96,9 @@ From here on out, you should be good. You'll be prompted for your OpenStack pass
 [Installing the Openstack Command Line Client](/ecloud/flex/general/openstackcli)
 
 ```eval_rst
-.. meta::
-     :title: Setting Environment Variables for eCloud Flex
-     :description: Details how to set necessary environment variables to connect to eCloud Flex
-     :keywords: openstack, ecloud, flex, ukfast, nova, swift, cinder, glance, keystone, heat, hosting, cloud, api, variables
+   .. title:: Setting Environment Variables for eCloud Flex
+   .. meta::
+      :title: Setting Environment Variables for eCloud Flex | UKFast Documentation
+      :description: Details how to set necessary environment variables to connect to eCloud Flex
+      :keywords: openstack, ecloud, flex, ukfast, nova, swift, cinder, glance, keystone, heat, hosting, cloud, api, variables
 ```

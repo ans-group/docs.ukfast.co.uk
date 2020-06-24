@@ -1,12 +1,10 @@
 # Introduction to BCP
 
-
 ```eval_rst
-
+   .. title:: DR HA | Introduction to BCP
    .. meta::
       :title: DR HA | Introduction to BCP | UKFast Documentation
       :description: Introduction to the Business Continuity Platform from UKFast
-
 ```
 
 Our Business Continuity Platform (also known as "BCP" or "clusters") are a highly-available configuration of RedHat or CentOS servers making use of several technologies to allow for failover in the event of an issue on one node, along with the balancing of services across more than one server.

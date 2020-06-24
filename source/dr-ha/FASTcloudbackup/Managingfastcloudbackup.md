@@ -2,12 +2,11 @@
 
 
 ```eval_rst
+   .. title:: FastCloudBackup | Managing Your Account
    .. meta::
       :title: FastCloudBackup | Managing Your Account | UKFast Documentation
       :description: Information on how to manage your FastCloudBackup account
-      
 ```
-
 
 This section describes various admin tasks you may need to undertake from time to time.
 

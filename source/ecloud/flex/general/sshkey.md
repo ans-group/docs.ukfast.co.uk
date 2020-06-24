@@ -42,8 +42,9 @@ Either login to the instance as root user, or prefix all commands with `sudo`:
 If you run into any problems on this, please raise a support ticket via [MyUKFast](https://my.ukfast.co.uk/pss/create), or call support directly on 0800 230 0032.
 
 ```eval_rst
-.. meta::
-     :title: Adding a public SSH key to Linux server | UKFast Documentation
-     :description: Guide for configuring access keys for the UKFast Support team
-     :keywords: openstack, ecloud, flex, ukfast, hosting, support, access, keys, request
+   .. title:: Adding a public SSH key to Linux server
+   .. meta::
+      :title: Adding a public SSH key to Linux server | UKFast Documentation
+      :description: Guide for configuring access keys for the UKFast Support team
+      :keywords: openstack, ecloud, flex, ukfast, hosting, support, access, keys, request
 ```

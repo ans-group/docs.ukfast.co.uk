@@ -1,7 +1,5 @@
 # Shared Exchange DNS Setup
 
-
-
 ## If you are using UKFast's SafeDNS system
 
 The DNS records can be created automatically by opening Shared Exchange area within MyUKFast, selecting the domain name. If you do not have pre-existing DNS records click on the “Add Exchange DNS” button, which is shown in the red box below. This will add the DNS records automatically
@@ -40,3 +38,4 @@ Please allow time for any DNS changes to propagate through the internet, this ma
       :title: Shared Exchange DNS Setup | UKFast Documentation
       :description: Guide for users on how to configure DNS records for Shared Exchange
       :keywords: Shared Exchange, Exchange, Shex, Mail, DNS 
+```

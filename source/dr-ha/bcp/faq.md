@@ -1,5 +1,12 @@
 # Frequently asked questions
 
+```eval_rst
+   .. title:: BCP | Frequently Asked Questions
+   .. meta::
+      :title: BCP | Frequently Asked Questions | UKFast Documentation
+      :description: Frequently asked questions on the UKFast Business Continuity Platform
+```
+
 Some of the most commonly asked questions by clients when receiving their first cluster, and a couple of recommendations for getting started quickly with BCP.
 
 ## Tips

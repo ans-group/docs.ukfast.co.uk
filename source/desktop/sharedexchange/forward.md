@@ -1,10 +1,10 @@
 # Configuring Automatic Forwarding Rules
 
 ```eval_rst
-   .. meta::
-      :title: Shared Exchange | Forwarding Rules | UKFast Documentation
-      :description: Information on how to Configuring Automatic Forwarding Rules in Shared Exchange
-      
+  .. title:: Shared Exchange | Forwarding Rules
+  .. meta::
+    :title: Shared Exchange | Forwarding Rules | UKFast Documentation
+    :description: Information on how to Configuring Automatic Forwarding Rules in Shared Exchange
 ```
 
 On the shared exchange platform, email forwarders are configured using the webmail client.

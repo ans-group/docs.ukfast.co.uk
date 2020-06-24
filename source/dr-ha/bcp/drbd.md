@@ -1,6 +1,7 @@
 # Distributed Replicated Block Device (DRBD)
 
 ```eval_rst
+   .. title:: Distributed Replicated Block Device (DRBD)
    .. meta::
       :title: Distributed Replicated Block Device (DRBD) | UKFast Documentation
       :description: Information on how to manage your FastCloudBackup account

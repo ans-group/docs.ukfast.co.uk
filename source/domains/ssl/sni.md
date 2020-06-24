@@ -1,10 +1,10 @@
 # Using Server Name Indication (SNI) with SSL certificates
 
 ```eval_rst
+  .. title:: SSL | Using SNI with SSL certificates
    .. meta::
       :title: SSL | Using SNI with SSL certificates | UKFast Documentation
       :description: Information on Using Server Name Indication (SNI) with SSL certificates
-
 ```
 
 Server Name Indication (SNI) technology can be used to present multiple SSL certificates on the same IP address and TCP port number.  This represents a more efficient use of scarce IPv4 addresses and is our recommended way of configuring SSL certificates.  SNI has been supported by all the major web browsers for several years.

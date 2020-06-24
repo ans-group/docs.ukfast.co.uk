@@ -196,8 +196,9 @@ The following playbook ties together some of the above functionality to show a r
 ```
 
 ```eval_rst
-.. meta::
-   :title: Using eCloud Flex with Ansible
-   :description: How to use eCloud Flex with Ansible
-   :keywords: ecloud, flex, openstack, ansible, redhat, automation, deployment, configuration, webserver
+   .. title:: Using eCloud Flex with Ansible
+   .. meta::
+      :title: Using eCloud Flex with Ansible | UKFast Documentation
+      :description: How to use eCloud Flex with Ansible
+      :keywords: ecloud, flex, openstack, ansible, redhat, automation, deployment, configuration, webserver
 ```

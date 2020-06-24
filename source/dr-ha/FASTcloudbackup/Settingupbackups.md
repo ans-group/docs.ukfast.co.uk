@@ -1,6 +1,7 @@
 # Setting up backups
 
 ```eval_rst
+  .. title:: FastCloudBackup | Setting up Backups
    .. meta::
       :title: FastCloudBackup | Setting up Backups | UKFast Documentation
       :description: Information on how to manage your FastCloudBackup account

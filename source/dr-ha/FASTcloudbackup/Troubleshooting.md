@@ -1,5 +1,12 @@
 # Troubleshooting
 
+```eval_rst
+   .. title:: FastCloudBackup | Troubleshooting
+   .. meta::
+      :title: FastCloudBackup | Troubleshooting | UKFast Documentation
+      :description: Information on how to troubleshoot issues with FastCloudBackup
+```
+
 This section contains help relating to problems you may run in to.
 
 ## Add New Computer button doesn't work

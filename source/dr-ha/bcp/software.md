@@ -1,5 +1,12 @@
 # Installing, updating, and configuring software
 
+```eval_rst
+   .. title:: BCP | Installing, Updating, and Configuring Software
+   .. meta::
+      :title: BCP | Installing, Updating, and Configuring Software | UKFast Documentation
+      :description: How to install, update and configure software for BCP platforms
+```
+
 The only information replicated between the cluster is that stored in clustered volumes [DRBD](drbd), NFS, or SAN storage), and that which is copied over via [Unison](unison).
 
 When it comes to software installed on the cluster, this is not replicated between the two.

@@ -1,10 +1,10 @@
 # Sharing files
 
 ```eval_rst
-   .. meta::
-      :title: FastDrive | Sharing Files | UKFast Documentation
-      :description: Information on how to share files in FastDrive
-      
+  .. title:: FastDrive | Sharing Files
+  .. meta::
+    :title: FastDrive | Sharing Files | UKFast Documentation
+    :description: Information on how to share files in FastDrive    
 ```
 
 In FASTdrive, you can share files and folders so that other people can access them. You can share files and folders with both FASTdrive users and non-FASTdrive users via the sharing feature that is available within FASTdrive.

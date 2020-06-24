@@ -1,6 +1,7 @@
 # Restoring files and folders from a backup
 
 ```eval_rst
+   .. title:: FastCloudBackup | Restoring Files
    .. meta::
       :title: FastCloudBackup | Restoring Files | UKFast Documentation
       :description: Information on how to restore files from your FastCloudBackup account

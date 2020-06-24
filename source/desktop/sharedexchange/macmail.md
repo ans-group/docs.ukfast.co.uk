@@ -1,6 +1,7 @@
 # How to Connect to Your Shared Exchange Mailbox Using the Mail app for Mac
 
 ```eval_rst
+  .. title:: Shared Exchange | Connect using Mac Mail
    .. meta::
       :title: Shared Exchange | Connect using Mac Mail | UKFast Documentation
       :description: Information on How to Connect to Your Shared Exchange Mailbox Using the Mail app for Mac
