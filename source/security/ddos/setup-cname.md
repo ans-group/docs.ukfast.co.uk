@@ -8,7 +8,7 @@ To use DDoSx<sup>®</sup>, CDN and WAF, you need to either have your domains' se
 
 ```eval_rst
   .. warning::
-    This documentation is for setting up DDoSx using an ALIAS, ANAME or CNAME. Documentation on setting up an domain via SafeDNS can be found in our** [Setting up DDoSx, CDN and WAF using SafeDNS](/security/ddos/setup-safedns) documentation.
+     This documentation is for setting up DDoSx using an ALIAS, ANAME or CNAME. Documentation on setting up an domain via SafeDNS can be found in our** [Setting up DDoSx, CDN and WAF using SafeDNS](/security/ddos/setup-safedns) documentation.
 ```
 
 To enable DDoSx<sup>®</sup>, CDN and WAF on your domains, follow these steps:
@@ -24,8 +24,8 @@ To enable DDoSx<sup>®</sup>, CDN and WAF on your domains, follow these steps:
 **[5. Test Domain and Put Live](#test-domain-and-put-live)** your domain(s) work properly before putting them live
 
 ```eval_rst
-  .. warning::
-  DDoSx supports HTTP and HTTPS web traffic on ports 80 and 443 respectively. If you need to route other types of traffic to your UKFast-hosted solution then please contact us before setting up DDoSx<sup>®</sup>.
+   .. warning::
+      DDoSx supports HTTP and HTTPS web traffic on ports 80 and 443 respectively. If you need to route other types of traffic to your UKFast-hosted solution then please contact us before setting up DDoSx<sup>®</sup>.
 ```
 
 ## 1) Prepare your domain
@@ -36,6 +36,7 @@ Before setting up a external domain in DDoSx<sup>®</sup>, double-check that you
 
 Some DNS providers that allow these records include:
 
+```eval_rst
 ==============   =================
 DNS Provider     Record Type(s)
 ==============   =================
@@ -43,6 +44,7 @@ DNS Made Easy    ANAME
 CloudFlare       Flattened CNAME
 FastHosts        ALIAS
 ==============   =================
+```
 
 On the other hand, if you ONLY wish to place subdomains that are not used in MX records etc behind DDoSx<sup>®</sup>, then using a normal CNAME should work fine. 
 
@@ -75,11 +77,13 @@ Once the transaction has completed, you will be asked to verify that you own thi
 - Select the DNS verification method
 - Create a TXT record with your current DNS provider for the root of your domain, setting the value of the TXT record to the value provided on the verify domain page. An `@` symbol or blank value is commonly used when specifying the root domain. For example:
 
+```eval_rst
 ===========   ========   ========================================================================================
 Record Type   Hostname   Value
 ===========   ========   ========================================================================================
 TXT           @          ddosx-site-verification=245b62a2878fc30hd6altya37f00fe29e09c0f1f7d9d43a72f07fns06af8e2be
 ===========   ========   ========================================================================================
+```
 
 - Once the TXT record has been created, allow some time for the DNS changes to propagate, this normally take no longer than 5 minutes but can take up to 48 hours.
 - Use the `Verify` button on the Domain verification page to check if the record has been applied successfully. If DDoSx<sup>®</sup> finds the correct TXT record, your domain will be verified. Be sure to leave this record applied to your DNS as DDoSx<sup>®</sup> may periodically check that you still have control over domain.
@@ -127,7 +131,7 @@ Finally, click `Apply Changes` and your domain will now be set up on the UKFast 
 
 ```eval_rst
    .. warning::
-   Your domain has not been put live yet, this step only configures the domain within DDoSx. Please continue with the rest of this documentation to test and put your domain live.
+      Your domain has not been put live yet, this step only configures the domain within DDoSx. Please continue with the rest of this documentation to test and put your domain live.
 
 ```
 
@@ -149,22 +153,22 @@ Alternatively, you can skip the configuration of additional features for now and
 
 Once you've connected your domain to the DDoSx<sup>®</sup> network and configured your DNS records, you may wish to test that your website or application will work correctly before changing your live DNS.  This can be done by modifying your local `hosts` file to look for the DDoSx<sup>®</sup> "DNS CNAME Record" address for your domain, which can found at the top of the `DNS Records` page in DDoSx<sup>®</sup> for each domain.
 
-![serverpreview](files/ddosx_cname_record.PNG)
+![serverpreview](files/ddosx_cname_record.png)
 
 Locate the `hosts` file on your computer.  On Windows, you'll find it in **C:\Windows\System32\drivers\etc**.  
 
 Open the `hosts` file using Notepad or another plain text editor (you may need administrator rights to make changes), and insert a line for each domain you wish to test, that includes the domain and the CNAME Value from DDoSx<sup>®</sup>; for example:
 
- ```
+```
 64cf9871a5b0ca045an96udtf9a63687c180f47df6.user.ddosx.com mydomain.co.uk
 64cf9871a5b0ca045an96udtf9a63687c180f47df6.user.ddosx.com  www.mydomain.co.uk
 64cf9871a5b0ca045an96udtf9a63687c180f47df6.user.ddosx.com blog.mydomain.co.uk
- ```
+```
 On Linux and macOS you can open and edit the `hosts` file in a terminal window using a command such as
 
- ```
+```
  sudo nano /private/etc/hosts
- ```
+```
 
 [This article](https://www.howtogeek.com/howto/27350/beginner-geek-how-to-edit-your-hosts-file/) contains more detailed instructions on modifying the `hosts` file on macOS, Linux, and different versions of Windows.
 
@@ -180,19 +184,23 @@ To create these records, you will need to log into to your current DNS provider 
 
 Next, if you're setting up your root domain, create either an ALIAS or ANAME record and set the hostname to your root domain. This is commonly done by setting the `hostname` to an `@` symbol or a blank value. Then set the value/target of this record to your unique DDoSx<sup>®</sup> DNS CNAME Record value. For example:
 
+```eval_rst
 ===========   ========   =========================================================
 Record Type   Hostname   Target
 ===========   ========   =========================================================
 ALIAS         @          64cf9871a5b0ca045an96udtf9a63687c180f47df6.user.ddosx.com
 ===========   ========   =========================================================
+```
 
 If you're setting up a non-root domain like `portal.example.com` that is not used in MX records etc, you can instead create a simple CNAME record, following the same process as above, but setting the record type to CNAME. An ALAIS or ANAME would also work too. For example:
 
+```eval_rst
 ===========   ========   =========================================================
 Record Type   Hostname   Target
 ===========   ========   =========================================================
 CNAME         portal     64cf9871a5b0ca045an96udtf9a63687c180f47df6.user.ddosx.com
 ===========   ========   =========================================================
+```
 
 Once your DNS changes have been applied and DNS propagation has concluded, your domain will be fully set up with DDoSx<sup>®</sup> protection.
 
@@ -203,8 +211,8 @@ You may wish to add further configuration on your origin server to work more clo
 ### Block Traffic not from DDoSx<sup>®</sup> (optional but recommended)
 
 ```eval_rst
-  .. warning::
-  Make sure all websites hosted on your origin server are behind DDoSx before applying these firewall rules. As doing so cut off access to any websites not protected by DDoSx<.
+   .. warning::
+      Make sure all websites hosted on your origin server are behind DDoSx before applying these firewall rules. As doing so cut off access to any websites not protected by DDoSx<.
 ```
 
 Now that DDoSx<sup>®</sup> is configured for your domain, and requests going to your domain and via common name servers will be routed through DDoSx<sup>®</sup>, however, attackers commonly try to avoid proxies like DDoSx<sup>®</sup> by using custom DNS servers to make the domain resolve to your origin server's IP instead of DDoSx<sup>®</sup>, bypassing the protection it offers. Furthermore, an attacker may still be able to attack your origin server by sending requests to the IP directly, (http://185.234.39.17/ for example).
@@ -252,19 +260,19 @@ Here's how to do this for NGiNX and Apache:
 For NGiNX, insert this code into one of the `http` or `server` blocks in your configuration. This requires the [realip](https://nginx.org/en/docs/http/ngx_http_realip_module.html) module be compiled into nginx. You can confirm if this is already there with `nginx -V 2>&1 | grep -o realip`. If this outputs `realip`, you're good to go.
 
 ```
-  set_real_ip_from 185.156.64.0/24;
-  set_real_ip_from 23.170.128.0/24;
-  set_real_ip_from 192.166.44.0/24;
-  set_real_ip_from 78.24.88.0/24;
-  set_real_ip_from 195.69.102.0/24;
-  set_real_ip_from 2a02:21a8:1::/48;
-  set_real_ip_from 2a02:21a8:2::/48;
-  set_real_ip_from 2a02:21a8::/48;
-  set_real_ip_from 2a09:ba00:4::/48;
-  set_real_ip_from 2a09:b600:5::/48;
-  set_real_ip_from 2a09:b200:6::/48;
-  real_ip_header X-Forwarded-For;
-  real_ip_recursive on;
+set_real_ip_from 185.156.64.0/24;
+set_real_ip_from 23.170.128.0/24;
+set_real_ip_from 192.166.44.0/24;
+set_real_ip_from 78.24.88.0/24;
+set_real_ip_from 195.69.102.0/24;
+set_real_ip_from 2a02:21a8:1::/48;
+set_real_ip_from 2a02:21a8:2::/48;
+set_real_ip_from 2a02:21a8::/48;
+set_real_ip_from 2a09:ba00:4::/48;
+set_real_ip_from 2a09:b600:5::/48;
+set_real_ip_from 2a09:b200:6::/48;
+real_ip_header X-Forwarded-For;
+real_ip_recursive on;
 ```
 
 Once you have added these into your configuration, test and reload your NGiNX configuration (e.g. `nginx -t && systemctl reload nginx`) to make the changes live.

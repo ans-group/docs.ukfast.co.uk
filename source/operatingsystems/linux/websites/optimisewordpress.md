@@ -3,8 +3,9 @@
 As WordPress is a popular Content Management System (CMS), and as such we regularly receive requests to ensure WordPress installations are running optimally. In this article we will discuss what could be implemented to enhance the websites performance and improve load times.
 
 ```eval_rst
-.. seealso::.. If you haven't yet installed WordPress please follow this prerequisite guide:
-[Wordpress Install](/websites/wordpress)
+   .. seealso::
+      If you haven't yet installed WordPress please follow this prerequisite guide:
+      [Wordpress Install](/websites/wordpress)
 ```
 
 An essential metric to any website is the page load time. It's a well-known fact that users want to consume data fast and will typically leave a website after just three seconds if the website fails to load. Googles SEO rankings also prefer speedier websites and so it's even more important to consider what can be done to optimize website performance.
@@ -18,7 +19,8 @@ Automatic updates for themes and plugins are disabled by default but can be [ena
 In addition to updating the application software, making sure that the server is running the latest software is also important for both security and performance reasons. This includes the Operating System, Apache/NGINX/IIS, MySQL/MariaDB/MSSQL and PHP. 
 
 ```eval_rst
-.. seealso::.. If the website is running PHP5.X and your application supports PHP7.X, it may be worthwhile upgrading as PHP7.X is generally more performant.
+   .. seealso::
+      If the website is running PHP5.X and your application supports PHP7.X, it may be worthwhile upgrading as PHP7.X is generally more performant.
 ```
 
 ## Load
@@ -36,7 +38,8 @@ For clients running WordPress on Windows, take a look at [IIS tuning](/operating
 Installing `php-opache` on the server will improve PHP's performance by storing precompiled bytecode in memory. Windows Servers can also look at [Wincache](https://www.php.net/wincache).
 
 ```eval_rst
-.. seealso::.. Speak with our specialist team on 0800 953 0645 to discuss a solution to caching using a Webcelerator and/or DDOSX CDN
+   .. seealso::
+      Speak with our specialist team on 0800 953 0645 to discuss a solution to caching using a Webcelerator and/or DDoSx CDN
 ```
 
 ## Themes & Plugins
@@ -74,13 +77,13 @@ To prevent memory leaks or unresponsive/idle worker processes within the applica
 
 ## Database Tuning
 
-WordPress on [MSSQL](https://docs.ukfast.co.uk/operatingsystems/windows/mssql/performancedashboard.html) 
-
-Wordpress on [MySQL/MariaDB](https://docs.ukfast.co.uk/operatingsystems/linux/mysql/troubleshooting.html)
+- WordPress on [MSSQL](https://docs.ukfast.co.uk/operatingsystems/windows/mssql/performancedashboard.html) 
+- Wordpress on [MySQL/MariaDB](https://docs.ukfast.co.uk/operatingsystems/linux/mysql/troubleshooting.html)
 
 ```eval_rst
-  .. title:: Optimise your Wordpress installation
-  .. meta::
-     :title: Optimise your Wordpress installation | UKFast Documentation
-     :description: An article that discusses all the ways to improve you wordpress installation and servers performance.
-     :keywords: ukfast, windows, iis, web, site, guide, wordpress, linux, performance, seo, rankings, apache, nginx, faster
+   .. title:: Optimise your Wordpress installation
+   .. meta::
+      :title: Optimise your Wordpress installation | UKFast Documentation
+      :description: An article that discusses all the ways to improve you wordpress installation and servers performance.
+      :keywords: ukfast, windows, iis, web, site, guide, wordpress, linux, performance, seo, rankings, apache, nginx, faster
+```

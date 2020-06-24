@@ -45,7 +45,7 @@ From here we will be configuring hMail’s anti-spam settings, covering them tab
 
 ```eval_rst
    .. note::
-   If no DKIM signature is included in the message's headers, this check will not be executed.
+      If no DKIM signature is included in the message's headers, this check will not be executed.
 ```
 
 ## SpamAssassin

@@ -62,7 +62,7 @@ If you'd like to find out more about the Openstack client, you can find more inf
 
 The next section of our documenation details managing the resources in your project, you can see more information about this below:
 
-[Managing Resources](/ecloud/flex/resources)
+[Managing Resources](/ecloud/flex/resources/index)
 
 ```eval_rst
    .. title:: Installing the Openstack client

@@ -32,7 +32,7 @@ The `/var/run/php-fcgi-domaincom.sock` section needs to be the socket configured
 
 Fully featured examples of this and other apache functionality can be found on the following page:
 
-[Sample Vhosts](/linux/php/examplevhosts)
+[Sample Vhosts](/operatingsystems/linux/apache/examplevhosts)
 
 ```eval_rst
   .. title:: Using Apache with PHP-FPM
@@ -40,3 +40,4 @@ Fully featured examples of this and other apache functionality can be found on t
      :title: Using Apache with PHP-FPM | UKFast Documentation
      :description:  A guide to using PHP-FPM with the Apache web server.
      :keywords: ukfast, apache, php-fpm, server, linux, server, web, virtual, vm
+```

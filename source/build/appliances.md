@@ -21,11 +21,12 @@ Your [hardware based WAFs](/security/webapplicationfirewall/whatisawaf) are conf
 
 Your UKFast Webcelerators are configured with a single virtual IP on port 80 pointing to the Web Application virtual IP, if you do not have Web Application firewalls this will point to your or your load balancer IP.
 
-The full Webcelerator configuration guide is available [here](/webcel/)
+The full Webcelerator configuration guide is available [here](/webcel/index)
 
 ```eval_rst
-  .. title:: Default Configuration for UKFast Appliances
-  .. meta::
+   .. title:: Default Configuration for UKFast Appliances
+   .. meta::
       :title: Default Configuration for UKFast Appliances | UKFast Documentation
       :description: Default Configuration for UKFast Appliances.
       :keywords: ukfast, hosting, load balancing, load, web acceleration, webceleration, webcelerator, waf, web application firewall, layer7 firewall
+```

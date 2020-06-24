@@ -15,7 +15,7 @@ There is an button on the Computers page labelled `Add New Computer`.
 
 ![computer](files/computer.PNG)
 
-You should not use this to add new computers or servers to be backed up - instead follow the instructions shown on [Setting up the FASTcloudbackup agent](InstallingtheFASTcloudbackupagent) - this will guide you through installing the agent so you can run and manage backups.
+You should not use this to add new computers or servers to be backed up - instead follow the instructions shown on [Setting up the FASTcloudbackup agent](Installingthefastcloudbackupagent) - this will guide you through installing the agent so you can run and manage backups.
 
 ## Problems browsing file structure
 
@@ -97,6 +97,6 @@ You may see an option within the web console to Sync data between two computers 
 
 ## Why doesn't the Migration Assistant work?
 
-When installing the FASTcloudbackup agent, a Migration Assistant will also be added to your computer or server.  However you should not use this to complete the installation or setup process.  Simply follow the instructions in [Setting up the FASTcloudbackup agent](InstallingtheFASTcloudbackupagent).
+When installing the FASTcloudbackup agent, a Migration Assistant will also be added to your computer or server.  However you should not use this to complete the installation or setup process.  Simply follow the instructions in [Setting up the FASTcloudbackup agent](Installingthefastcloudbackupagent).
 
 ![migration_assistant](files/migration_assistant.png)

@@ -16,7 +16,7 @@ Find the agent in your browser's download folder and open it.  Follow the instru
 
 ![download agent](files/windows-install01.png)
 
-Select where to install the FASTcloudbackup agent. By default this will be to C:\Program Files\FASTcloudbackup\ContentStore
+Select where to install the FASTcloudbackup agent. By default this will be to `C:\Program Files\FASTcloudbackup\ContentStore`
 
 ![download agent](files/windows-install02.png)
 
@@ -86,3 +86,10 @@ Once you've installed the agent on your computer or server, you can check it's b
 If you no longer wish to backup a particular computer or server then you can remove the FASTcloudbackup agent using your computer/server's usual uninstall process.  Note that you will no longer be able to see this computer or server in the FASTcloudbackup web console, or view/download/restore files previously backed up, so make sure to retrieve any files you need before removing the agent.
 
 Once you've removed the agent from your computer or server, you will no longer be charged the monthly per device fee, and the amount of data you had backed up will no longer count towards your storage quota.
+
+```eval_rst
+   .. title:: FASTcloudbackup | Installing The Agent
+   .. meta::
+      :title: FASTcloudbackup | Installing The Agent | UKFast Documentation
+      :description: Information on installing the FASTcloudbackup agent
+```

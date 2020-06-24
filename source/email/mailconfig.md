@@ -36,7 +36,7 @@ From a mail client you would use the A record you have set up to connect, so in 
 
 If you wanted to use an external service provider to send mail also, you would need to add the IP range of that mail service, usually they will provide a single DNS record or IP range for you to include. It is recommended that you consult your service provider's documentation for this purpose, as it will differ by provider.
 
-You will also need to setup a hostname for the server which matches the reverse DNS. In our example this would be `mail.ukfast.co.uk`. You can learn how to change your hostname [here](../misc/hostname.html).
+You will also need to setup a hostname for the server which matches the reverse DNS. In our example this would be `mail.ukfast.co.uk`. You can learn how to change your hostname [here](/operatingsystems/linux/misc/hostname).
 
 ### Sending mail to Microsoft/Hotmail/Office365
 
@@ -57,9 +57,8 @@ The process can take up to a week, however it is usually completed in under 24 h
 
 
 ```eval_rst
-
-  .. title:: Email | Basics of mail on Linux
-
-  .. meta::
-     :description: A guide to the basics of mail on Linux
-     :keywords: ukfast, mail, basics, config, dns, spf, mx, blocklist, hotmail, live, microsoft
+   .. title:: Email | Basics of mail on Linux
+   .. meta::
+      :description: A guide to the basics of mail on Linux
+      :keywords: ukfast, mail, basics, config, dns, spf, mx, blocklist, hotmail, live, microsoft
+```
