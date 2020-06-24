@@ -7,8 +7,8 @@ CDN and WAF are optional additional DDoSx<sup>®</sup> features, and as a result
 To use DDoSx<sup>®</sup>, CDN and WAF, you need to either have your domains' setup on UKFast SafeDNS and ensure its name servers pointing to the UKFast name servers or create an ANAME/ALIAS record with your current DNS provider to point to DDoSx<sup>®</sup> using a provided CNAME.
 
 ```eval_rst
-  .. warning::
-     This documentation is for setting up DDoSx using an ALIAS, ANAME or CNAME. Documentation on setting up an domain via SafeDNS can be found in our** [Setting up DDoSx, CDN and WAF using SafeDNS](/security/ddos/setup-safedns) documentation.
+.. warning::
+   This documentation is for setting up DDoSx using an ALIAS, ANAME or CNAME. Documentation on setting up an domain via SafeDNS can be found [here](/security/ddos/setup-safedns).
 ```
 
 To enable DDoSx<sup>®</sup>, CDN and WAF on your domains, follow these steps:
@@ -24,8 +24,8 @@ To enable DDoSx<sup>®</sup>, CDN and WAF on your domains, follow these steps:
 **[5. Test Domain and Put Live](#test-domain-and-put-live)** your domain(s) work properly before putting them live
 
 ```eval_rst
-   .. warning::
-      DDoSx supports HTTP and HTTPS web traffic on ports 80 and 443 respectively. If you need to route other types of traffic to your UKFast-hosted solution then please contact us before setting up DDoSx<sup>®</sup>.
+.. warning::
+   DDoSx supports HTTP and HTTPS web traffic on ports 80 and 443 respectively. If you need to route other types of traffic to your UKFast-hosted solution then please contact us before setting up DDoSx<sup>®</sup>.
 ```
 
 ## 1) Prepare your domain
