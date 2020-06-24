@@ -4,7 +4,7 @@ To set up HTTPS termination on your eCloud Flex load balancer you will need to u
 
 ## Environment Configuration
 
-If you don't already have an eCloud Flex load balancer set up that you wish to add HTTPS termination to, please follow the [guide here](/ecloud/flex/resources/lbaas/config_lb_through_interface.html) to create one.  You'll then need to install these Python packages, we recommend using `pip` with the command below:
+If you don't already have an eCloud Flex load balancer set up that you wish to add HTTPS termination to, please follow the [guide here](/ecloud/flex/resources/lbaas/config_lb_through_interface) to create one.  You'll then need to install these Python packages, we recommend using `pip` with the command below:
 
 `pip install python-neutronclient python-barbicanclient`
 
@@ -103,7 +103,7 @@ If any errors are encountered during this stage, it is likely due to the format 
 
 ## Create the HTTPS Terminated Listener
 
-Using your `Container href` noted from the previous steps, you will now need to create a HTTPS Terminated Listener on your Load Balancer. If you do not already have a Load Balancer, you will need to [create one](/ecloud/flex/resources/lbaas/config_lb_through_interface.html) before proceeding.
+Using your `Container href` noted from the previous steps, you will now need to create a HTTPS Terminated Listener on your Load Balancer. If you do not already have a Load Balancer, you will need to [create one](/ecloud/flex/resources/lbaas/config_lb_through_interface) before proceeding.
 
 Creating the HTTPS Terminated Listener will require you to substitute two parameters in the following command.
 
@@ -117,8 +117,9 @@ neutron lbaas-listener-create --name https-terminated-lb-listener  --loadbalance
 With this completed successfully, you should now see a further output after **Created a new listener**. Also if you now browse to your [eCloud Flex dashboard](https://api.openstack.ecloud.co.uk/project/ngloadbalancersv2) and to the Load Balancer in question, a further listener should now be available to create a pool of members. Please note that the SSL certificates stored in this process will not be visible through the dashboard, however upon testing this you will find the certificate is successfully in use.
 
 ```eval_rst
-.. meta::
-    :title: Creating a Load Balancer with HTTPS Terminated Listener
-    :description: Detailed guidance on establishing HTTPS Termination using an eCloud Flex Load Balancer
-    :keywords: ecloud, flex, load balancers, lbaas, listener, pools, member pool, ssl, tls, https termination, https
+   .. title:: Creating a Load Balancer with HTTPS Terminated Listener
+   .. meta::
+      :title: Creating a Load Balancer with HTTPS Terminated Listener | UKFast Documentation
+      :description: Detailed guidance on establishing HTTPS Termination using an eCloud Flex Load Balancer
+      :keywords: ecloud, flex, load balancers, lbaas, listener, pools, member pool, ssl, tls, https termination, https
 ```

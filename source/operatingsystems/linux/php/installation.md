@@ -51,7 +51,7 @@ It's likely that you'll need more modules than the basic ones described above, e
 
 To install other modules, such as `php-mysql` or `php-mcrypt` the following guide should help:
 
-[Installing PHP Modules](/linux/php/moduleinstallation.html)
+[Installing PHP Modules](/linux/php/moduleinstallation)
 
 ```eval_rst
   .. title:: Installing PHP on Linux

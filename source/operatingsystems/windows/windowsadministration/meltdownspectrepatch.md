@@ -1,6 +1,6 @@
 # Protecting against Meltdown and Spectre in Windows
 
-Microsoft have released a security patch to provide protection against the [Meltdown and Spectre vulnerabilities](/security/meltdown.html) that affect a large number of CPU chipsets.
+Microsoft have released a security patch to provide protection against the [Meltdown and Spectre vulnerabilities](/security/meltdown) that affect a large number of CPU chipsets.
 
 These updates will be pushed out through the regular Windows Update channels once further testing has been undertaken. If you would like to manually install the patch, you can perform the steps below:
 

@@ -14,7 +14,7 @@ DDoSX<sup>®</sup>, our DDoS protection service, is designed to detect and filte
 
 ## Where does DDoSX<sup>®</sup> sit in my IT stack?
 
-DDoSX<sup>®</sup> is a network-based solution which sits in front of your UKFast-hosted environment.  By re-pointing the DNS records of the domains you wish to protect to UKFast using [SafeDNS](/domains/safedns/index.html), we can broadcast your IP address(es) across our global DDoSX<sup>®</sup> network.  All traffic destined for your domains will then be routed via this network, enabling us to filter out malicious traffic as described above.
+DDoSX<sup>®</sup> is a network-based solution which sits in front of your UKFast-hosted environment.  By re-pointing the DNS records of the domains you wish to protect to UKFast using [SafeDNS](/domains/safedns/index), we can broadcast your IP address(es) across our global DDoSX<sup>®</sup> network.  All traffic destined for your domains will then be routed via this network, enabling us to filter out malicious traffic as described above.
 
 ## What type of traffic and applications does DDoSX support?
 
@@ -26,7 +26,7 @@ Web Application Firewall (WAF) on DDoSX uses a global network to protect your on
 
 ## How does WAF on DDoSX work?
 
-WAF on DDoSX is an example of a cloud-based WAF, designed to be more efficient via scalability. By using a WAF on the UKFast DDoSX global network, you benefit from a much greater capacity, which makes attack prevention more effective.  WAF on DDoSX is designed to protect you from the [OWASP top 10 vulnerabilities](/security/webapplicationfirewall/attacks.html)  
+WAF on DDoSX is an example of a cloud-based WAF, designed to be more efficient via scalability. By using a WAF on the UKFast DDoSX global network, you benefit from a much greater capacity, which makes attack prevention more effective.  WAF on DDoSX is designed to protect you from the [OWASP top 10 vulnerabilities](/security/webapplicationfirewall/attacks)  
 
 ## How do I set up a CNAME?
 
@@ -39,14 +39,12 @@ A CNAME record links a domain to the A name record of another domain for ease of
 3. Type the domain you would like to protect in the domain box.
 4. A message will pop up to add a CNAME record. Click Connect.
 
-In order to connect your domain to the DDoSX network you must first verify that this is your domain. To do this follow the on screen instructions. Once this process has been completed and the verification has been confirmed you will proceed to the configure tab within DDoSX. To then complete the set up of your domain on DDoSX read our [documentation here](/security/ddos/gettingstarted.html). 
-
-
-
+In order to connect your domain to the DDoSX network you must first verify that this is your domain. To do this follow the on screen instructions. Once this process has been completed and the verification has been confirmed you will proceed to the configure tab within DDoSX. To then complete the set up of your domain on DDoSX read our [documentation here](/security/ddos/gettingstarted). 
 
 ```eval_rst
-.. meta::
-     :title: DDoSX and CDN from UKFast | UKFast Documentation
-     :description: General information on UKFast's global DDoSX network with CDN and WAF
-     :keywords: ddos, ddos protection, anti-ddos, cdn, content delivery, content delivery network, ukfast, ddosx, web application firewall, waf
+   .. title:: DDoSX and CDN from UKFast
+   .. meta::
+      :title: DDoSX and CDN from UKFast | UKFast Documentation
+      :description: General information on UKFast's global DDoSX network with CDN and WAF
+      :keywords: ddos, ddos protection, anti-ddos, cdn, content delivery, content delivery network, ukfast, ddosx, web application firewall, waf
 ```

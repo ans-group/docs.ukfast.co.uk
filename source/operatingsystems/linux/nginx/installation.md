@@ -123,9 +123,9 @@ As mentioned above, the nginx config in this article is more geared towards php-
 
 The following documents carry on the setup for those particular elements:
 
-[PHP-FPM Setup](/linux/php-fpm/phpfpmsetup.html)
+[PHP-FPM Setup](/linux/php-fpm/phpfpmsetup)
 
-[MySQL Installation](/linux/mysql/installation.html)
+[MySQL Installation](/linux/mysql/installation)
 
 ```eval_rst
   .. title:: Installation and configuration of Nginx on Linux

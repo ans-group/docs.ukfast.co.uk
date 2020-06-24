@@ -1,6 +1,13 @@
 # Installing, updating, and configuring software
 
-The only information replicated between the cluster is that stored in clustered volumes [DRBD](drbd.html), NFS, or SAN storage), and that which is copied over via [Unison](unison.html).
+```eval_rst
+   .. title:: BCP | Installing, Updating, and Configuring Software
+   .. meta::
+      :title: BCP | Installing, Updating, and Configuring Software | UKFast Documentation
+      :description: How to install, update and configure software for BCP platforms
+```
+
+The only information replicated between the cluster is that stored in clustered volumes [DRBD](drbd), NFS, or SAN storage), and that which is copied over via [Unison](unison).
 
 When it comes to software installed on the cluster, this is not replicated between the two.
 
@@ -35,9 +42,9 @@ As already mentioned, it is best to consult with support before adding new clust
 
 Some methods of adding services into the cluster:
 
-- Add a new resource to the end of the `g_web` (for example) resource group so that the service starts with the web service each time. Then storing the files for this additional service in the related [clustered volume](drbd.html), or copy them over with [Unison](unison.html).
+- Add a new resource to the end of the `g_web` (for example) resource group so that the service starts with the web service each time. Then storing the files for this additional service in the related [clustered volume](drbd), or copy them over with [Unison](unison).
 
-- Add a new resource group for this service, with either a new external VIP or an internal-only VIP running over the MySQL crossover cable, and copy the data between nodes using [Unison](unison.html). Then add resource constraints to prefer services run together or prefer to run on opposite nodes.
+- Add a new resource group for this service, with either a new external VIP or an internal-only VIP running over the MySQL crossover cable, and copy the data between nodes using [Unison](unison). Then add resource constraints to prefer services run together or prefer to run on opposite nodes.
 
 - Run the service standalone on both servers, and have the application look at localhost (127.0.0.1) when connecting to the service. This usually works for caching services like Redis - so the cache would need rebuilding in the event of a failover.
 

@@ -21,7 +21,7 @@ provider "openstack" {
 }
 ```
 
-The username and password are the same credentials that you would use to authenticate with the [Horizon dashboard](https://api.openstack.ecloud.co.uk/auth/login/). The tenant name variable is the name of your project within Openstack. The easiest way to find this, would be to download your [Openstack RC file](https://api.openstack.ecloud.co.uk/project/api_access/openrc/) and view the enviroment variables required to authenticate with Openstack. We already have some [documentation](/ecloud/flex/general/settingvars.html) that details how to go through this. You'll need to use the value of the `OS_PROJECT_NAME` variable for your tenant name.
+The username and password are the same credentials that you would use to authenticate with the [Horizon dashboard](https://api.openstack.ecloud.co.uk/auth/login/). The tenant name variable is the name of your project within Openstack. The easiest way to find this, would be to download your [Openstack RC file](https://api.openstack.ecloud.co.uk/project/api_access/openrc/) and view the enviroment variables required to authenticate with Openstack. We already have some [documentation](/ecloud/flex/general/settingvars) that details how to go through this. You'll need to use the value of the `OS_PROJECT_NAME` variable for your tenant name.
 
 After you've added eCloud Flex as a provider, you can then use resource blocks to perform tasks in your project. The below example spins up a simple instance in your project.
 
@@ -47,8 +47,9 @@ resource "openstack_compute_instance_v2" "test-instance" {
 You can find the full configuration reference, resource types and further details [here](https://www.terraform.io/docs/providers/openstack/).
 
 ```eval_rst
-.. meta::
-   :title: Using eCloud Flex as a Terraform Provider
-   :description: How to use eCloud Flex as a terraform provider
-   :keywords: ecloud, flex, terraform, openstack, IaC, provider, integration
+   .. title:: Using eCloud Flex as a Terraform Provider
+   .. meta::
+      :title: Using eCloud Flex as a Terraform Provider | UKFast Documentation
+      :description: How to use eCloud Flex as a terraform provider
+      :keywords: ecloud, flex, terraform, openstack, IaC, provider, integration
 ```

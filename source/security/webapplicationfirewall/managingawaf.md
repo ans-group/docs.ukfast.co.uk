@@ -1,6 +1,6 @@
 # Managing a Web Application Firewall in-life (hardware-based)
 
-This page relates to hardware-based WAFs only.  Please [see here](/security/ddos/wafsettings.html) for guidance on managing a WAF on DDoSX.
+This page relates to hardware-based WAFs only.  Please [see here](/security/ddos/wafsettings) for guidance on managing a WAF on DDoSX.
 
 Once your WAF has been through the learning phase and is fully operational, our analysts will monitor traffic patterns and identify any changes needed to the configuration and rulesets.
 
@@ -15,8 +15,9 @@ Please raise a ticket via [MyUKFast](https://my.ukfast.co.uk) to provide us deta
 
 
 ```eval_rst
-.. meta::
-     :title: Managing a hardware-based WAF | UKFast Documentation
-     :description: General information on managing a UKFast hardware-based Web Application Firewall
-     :keywords: ukfast, ddosx, web application firewall, waf, owasp, owasp top 10
+   .. title:: Managing a hardware-based WAF
+   .. meta::
+      :title: Managing a hardware-based WAF | UKFast Documentation
+      :description: General information on managing a UKFast hardware-based Web Application Firewall
+      :keywords: ukfast, ddosx, web application firewall, waf, owasp, owasp top 10
 ```

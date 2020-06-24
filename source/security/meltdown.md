@@ -23,7 +23,7 @@ Windows Server is patched using the following security updates:
 These security updates can be applied manually, or will be applied during your next update.
 
 You can visit our Windows specific page for further patching steps here
-[Protecting against Meltdown and Spectre in Windows](/operatingsystems/windows/windowsadministration/meltdownspectrepatch.html)
+[Protecting against Meltdown and Spectre in Windows](/operatingsystems/windows/windowsadministration/meltdownspectrepatch)
 
 ### Linux
 
@@ -112,8 +112,10 @@ As with CentOS, a reboot is needed to use this new kernel:
  reboot
 ```
 
- ```eval_rst
+```eval_rst
+   .. title:: Meltdown and Spectre
    .. meta::
       :title: Meltdown and Spectre | UKFast Documentation
       :description: Detailed guidance on identifying and patching the Meltdown vulnerability on Linux
       :keywords: ukfast, linux, security, vulnerability, meltdown, spectre, hosting
+```

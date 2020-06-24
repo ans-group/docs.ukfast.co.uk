@@ -11,12 +11,13 @@ A WAF operates by following specially built rules and rulesets. Starting from a 
 
 However, every web application can be different and have specific methods of inputting data. Given this, it is possible for some legitimate traffic to get caught by the WAF filter and dropped.  To mitigate this risk on an ongoing basis, UKFast has a dedicated analyst team who will work with you to advise on ruleset updates and tweaks for your WAF.  Often this team will spot problems and correct them before it becomes apparent to customers, however if you do believe your WAF is not functioning optimally then please contact support, raise a ticket via [MyUKFast](https://my.ukfast.co.uk) or call your UKFast account manager.
 
-Further information relating to WAF on DDoSX can be found [here](/security/ddos/wafsettings.html)
+Further information relating to WAF on DDoSX can be found [here](/security/ddos/wafsettings)
 
 
 ```eval_rst
-.. meta::
-     :title: What is a Web Application Firewall? | UKFast Documentation
-     :description: General information on Web Application Firewalls and how they work
-     :keywords: ukfast, ddosx, web application firewall, waf, owasp, owasp top 10
+   .. title:: What is a Web Application Firewall?
+   .. meta::
+      :title: What is a Web Application Firewall? | UKFast Documentation
+      :description: General information on Web Application Firewalls and how they work
+      :keywords: ukfast, ddosx, web application firewall, waf, owasp, owasp top 10
 ```

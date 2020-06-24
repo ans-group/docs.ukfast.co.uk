@@ -50,7 +50,7 @@ The web service (Nginx) configuration file has an allow list for .php files to p
 location ~ (index|get|static|report|404|503|health_check)\.php$ {
 ```
 
-Please refer to this guide: [Magento 2 .php File Allow list](/ecommercestacks/magento/magento2/nginxphpfileallowlist.html)
+Please refer to this guide: [Magento 2 .php File Allow list](/ecommercestacks/magento/magento2/nginxphpfileallowlist)
 
 ## Magento 2 CLI
 

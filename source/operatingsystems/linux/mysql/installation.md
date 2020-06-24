@@ -56,7 +56,7 @@ The MySQL configuration file is usually located in the following location:
   /etc/my.cnf
 ```
 
-There are many guides on how to 'tune' MySQL on the internet, most of which contain conflicting, misleading or even damaging information. Any guide that claims to have 'the best' `my.cnf` layout should be treated with suspicion. For a guide on a few of the more common steps, please do check out our [MySQL Troubleshooting and Tuning](/operatingsystems/linux/mysql/troubleshooting.html) guide.
+There are many guides on how to 'tune' MySQL on the internet, most of which contain conflicting, misleading or even damaging information. Any guide that claims to have 'the best' `my.cnf` layout should be treated with suspicion. For a guide on a few of the more common steps, please do check out our [MySQL Troubleshooting and Tuning](/operatingsystems/linux/mysql/troubleshooting) guide.
 
 While these guides can help with some common issues and configurations, they are no substitute for consulting an experienced DBA who can optimize for your application and solution, especially if your application is not standard off-the-shelf software.
 

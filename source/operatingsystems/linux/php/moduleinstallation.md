@@ -1,6 +1,6 @@
 # Installing PHP modules
 
-The default installation of php as described in [Installing PHP](/linux/php/installation.html) will install the following php modules:
+The default installation of php as described in [Installing PHP](/linux/php/installation) will install the following php modules:
 
 ```console
 

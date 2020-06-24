@@ -7,8 +7,6 @@ Once Threat Monitoring agents are installed on your server(s) they will be autom
 
 ![hwo-it-works](files/hwo-it-works.png)
 
-
-
 </div>
 
 ## Threat Detection, Attack Protection and log file collation
@@ -85,7 +83,7 @@ Expanding further into a detected item, we can see exactly what this vulnerabili
 
 ## File Integrity Monitoring (FIM)
 
-As part of your setup of Threat Monitoring, you can provide UKFast with a list of core system files and directories for which you wish to have [alerts raised](/security/threatmonitoring/alerts.html) if any changes are made. This is known as File Integrity Monitoring (FIM). A common use of FIM is to ensure payment gateways or redirect pages are not manipulated to divert customer payments elsewhere.
+As part of your setup of Threat Monitoring, you can provide UKFast with a list of core system files and directories for which you wish to have [alerts raised](/security/threatmonitoring/alerts) if any changes are made. This is known as File Integrity Monitoring (FIM). A common use of FIM is to ensure payment gateways or redirect pages are not manipulated to divert customer payments elsewhere.
 
 FIM works by taking a hash of each file or utilizing audit processes such as 'AuditD' in Linux and the 'Microsoft Windows audit system', any changes to these files are alerted with the time, date, process and user who made the changes.
 
@@ -114,8 +112,9 @@ To minimize the threat of an attack on computer infrastructure, a security basel
 
 
 ```eval_rst
-.. meta::
-     :title: How Threat Monitoring works | UKFast Documentation
-     :description: Guidance relating to UKFast's Threat Monitoring solution
-     :keywords: threat monitoring, alerts, security, compliance, rules, rulesets, ukfast, hosting, file integrity monitoring, rootkit, detection, vulnerability scan, scans, hids, intrusion detection
-
+   .. title:: How Threat Monitoring Works
+   .. meta::
+      :title: How Threat Monitoring Works | UKFast Documentation
+      :description: Guidance relating to UKFast's Threat Monitoring solution
+      :keywords: threat monitoring, alerts, security, compliance, rules, rulesets, ukfast, hosting, file integrity monitoring, rootkit, detection, vulnerability scan, scans, hids, intrusion detection
+```
