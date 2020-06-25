@@ -1,4 +1,4 @@
-# eCloud Public delete VM
+# Delete VM
 
 If you need to delete the VM this can be actioned in [MyUKFast](https://my.ukfast.co.uk/ecloud-public) using the delete option to the right of the VM entry as shown below.
 

@@ -1,4 +1,4 @@
-# eCloud Public Reinstall OS
+# Reinstall OS
 
 You can reinstall the originally selected OS of the virtual machine at any point by selecting the VM from the [MyUKFast VM list](https://my.ukfast.co.uk/ecloud-public) then the reinstall OS button shown below:
 

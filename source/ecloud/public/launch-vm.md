@@ -1,4 +1,4 @@
-# eCloud Public New VM
+# Launch VM
 
 A new eCloud public VM can be easily launched through [MyUKFast](https://my.ukfast.co.uk/ecloud-public) by selecting launch VM. This will present the below configuration page in which you can specify the VM specification:
 

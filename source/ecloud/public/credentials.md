@@ -1,4 +1,4 @@
-# eCloud Public VM credentials
+# Credentials
 
 Once launched you can find credentials to your eCloud public VM by selecting the VM from the list in [MyUKFast](https://my.ukfast.co.uk/ecloud-public). At the bottom of this page a section as shown below will be present.
 
