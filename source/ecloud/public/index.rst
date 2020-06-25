@@ -7,19 +7,18 @@ eCloud Public is a public cloud hosting platform based on VMware.
 .. toctree::
    :maxdepth: 1
 
-   apis
-   newvm
+   api
+   launch-vm
    editcpu
    editmem
    editdisks
-   /operatingsystems/linux/basics/disk-expansion/index
    deletevm
-   powerCycleVM
-   creds
+   vm-power-cycle
+   credentials
    console
-   /network/firewalls/index
-   reinstallOS
+   reinstall-os
    marketplace 
+   /network/firewalls/index
 
 .. meta::
    :title: eCloud Public 
