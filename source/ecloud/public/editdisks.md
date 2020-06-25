@@ -1,4 +1,4 @@
-# eCloud Public Edit Disk
+# Disk
 
 If additional disk space is needed for the VM this can be added in [MyUKFast](https://my.ukfast.co.uk/ecloud-public) using the HDD slider.
 

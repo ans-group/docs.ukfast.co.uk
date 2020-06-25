@@ -1,4 +1,4 @@
-# eCloud Public APIs
+# API
 
 The eCloud API allows you to programmatically control your eCloud Public virtual machines, and integrate this into your own applications and systems.
 

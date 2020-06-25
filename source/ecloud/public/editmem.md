@@ -1,4 +1,4 @@
-# eCloud Public Edit Memory
+# Memory
 
 If resource contention on memory is noticed and additional resource is required this can be easily scaled within [MyUKFast](https://my.ukfast.co.uk/ecloud-public) by selecting the VM in question which will open the below VM configuration page.
 
