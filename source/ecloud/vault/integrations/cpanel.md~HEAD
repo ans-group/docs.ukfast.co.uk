@@ -1,12 +1,5 @@
 # Configuring cPanel Backups using the S3 Interface
 
-```eval_rst
-   .. meta::
-      :title: eCloud Vault | Configuring cPanel Backups | UKFast Documentation
-      :description: Information on how configuring cPanel Backups using eCloud Vault and the S3 Interface
-
-```
-
 [cPanel & WHM Release 74](https://documentation.cpanel.net/display/74Docs/74+Release+Notes#id-74ReleaseNotes-NewS3%E2%84%A2CompatibledestinationtypeinWHM'sBackupConfigurationinterface) brings various features to the panel, including the ability to backup your websites and configurations directly through an S3 interface. With eCloud Vault, you can configure your cPanel backups to send your data directly to your Vault. It's easy to configure, manages your backup retention for you, and saves disk space on your system.
 
 ## How to configure
@@ -56,8 +49,8 @@ For more information about cPanel Backup features and configuration options, ple
 For more information about eCloud Vault's features and pricing, please go to our [product page](https://www.ukfast.co.uk/ecloud-vault.html).
 
 ```eval_rst
-   .. title:: Configuring cPanel backups with eCloud Vault
-   .. meta::
-      :description: How-to guide for configuring cPanel backups with s3 interface (eCloud Vault)
-      :keywords: eCloud, Vault, eCloud Vault, cPanel, cPanel Backups, integration, s3 backups
+.. meta::
+   :title: Configuring cPanel backups with eCloud Vault | UKFast Documentation
+   :description: How-to guide for configuring cPanel backups with s3 interface (eCloud Vault)
+   :keywords: eCloud, Vault, eCloud Vault, cPanel, cPanel Backups, integration, s3 backups
 ```
