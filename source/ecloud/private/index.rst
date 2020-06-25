@@ -7,11 +7,11 @@ eCloud Private is a VMware-based cloud platform from UKFast.  The information in
 .. toctree::
    :maxdepth: 1
 
-   CloningAndTemplatingVMs
+   cloning-and-templating-vms
    /operatingsystems/linux/basics/disk-expansion/index
 
 .. title:: eCloud Private
 
 .. meta::
-   :description: Help with your eCloud Hybrid and eCloud Private resources
-   :keywords: ukfast, cloud, ecloud, hybrid, private, hosting, infrastructure, vmware
+   :description: Help with your eCloud Private resources
+   :keywords: ukfast, cloud, ecloud, private, hosting, infrastructure, vmware
