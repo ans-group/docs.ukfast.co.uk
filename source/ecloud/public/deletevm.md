@@ -15,3 +15,4 @@ After which you will then be asked for some quick feedback about your experience
    :title: eCloud Public APIs | UKFast Documentation
    :description: Programatic control of your eCloud Public resources
    :keywords: ukfast, cloud, ecloud, public, hosting, infrastructure, vmware, delete
+```

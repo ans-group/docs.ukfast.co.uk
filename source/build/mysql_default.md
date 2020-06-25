@@ -1,6 +1,7 @@
 # Database Server Default Configuration
 
-## MySQL/Percona/MariaDB Database
+By default your MySQL/Percona/MariaDB database server will be configured with the following settings:
+
 ```eval_rst
 +--------------------------------+-------------------------+
 | Database Setting               | Default                 |
@@ -16,6 +17,7 @@
 ```
 
 ```eval_rst
+  .. title:: UKFast MySQL database build documentation
   .. meta::
       :title: UKFast MySQL database build documentation | UKFast Documentation
       :description: Build documentation for MySQL database servers

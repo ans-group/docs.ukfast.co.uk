@@ -7,7 +7,7 @@ The UKFast Shopware optimised stack was created in 2017. The core components of 
 - **Firewall**: :doc:`Dedicated/Shared Firewall </network/firewalls/index>` 
 - **Web Service**: :doc:`/operatingsystems/linux/nginx/index`
 - **PHP Utilities**: :doc:`/ecommercestacks/shopware/php/index` , :doc:`/operatingsystems/linux/php-fpm/index`, :doc:`/ecommercestacks/shopware/opcache/index`, :doc:`/ecommercestacks/shopware/apcu/index`
-- **Mail Services**: :doc:`Postfix </operatingsystems/linux/mail/postfix>`
+- **Mail Services**: :doc:`Postfix </email/postfix>`
 - **SSH/FTP Access**: :doc:`/operatingsystems/linux/ssh/index`, :doc:`/operatingsystems/linux/ftp/setup_vsftpd`
 - **Database services**: :doc:`/operatingsystems/linux/percona/index`, :doc:`/ecommercestacks/shopware/redis/index`,  :doc:`/operatingsystems/linux/elasticsearch/index`
 - **HTTP Caching Utilities**: :doc:`/ecommercestacks/shopware/varnish/index`

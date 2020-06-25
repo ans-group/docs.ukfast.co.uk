@@ -1,6 +1,6 @@
 # Changing common service ports
 
-Most attacks are automated, utilising specially crafted scripts that crawl the internet looking for servers to attack. These scripts aim to find as many servers as possible and attack as many servers as possible in an attempt to find an insecure server that it can exploit. An effective way to prevent an attack from most of these scripts is to change the port that services like SSH and FTP use. This will stop all but the most advanced scripts. This can be a useful solution where IP Whitelisting or a VPN is not an option.
+Most attacks are automated, utilising specially crafted scripts that crawl the internet looking for servers to attack. These scripts aim to find as many servers as possible and attack as many servers as possible in an attempt to find an insecure server that it can exploit. An effective way to prevent an attack from most of these scripts is to change the port that services like SSH and FTP use. This will stop all but the most advanced scripts. This can be a useful solution where IP Allow listing or a VPN is not an option.
 
 Please note that changing service ports will not stop all brute force and exploit attacks, more advanced attackers and scripts utilise tools like Nmap, which can easily identify the ports for services, even when they have been changed from the defaults.
 

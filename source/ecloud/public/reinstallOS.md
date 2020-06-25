@@ -15,3 +15,4 @@ This will then re-run our automation to present a fresh install of the operating
    :title: eCloud Public APIs | UKFast Documentation
    :description: Programatic control of your eCloud Public resources
    :keywords: ukfast, cloud, ecloud, public, hosting, infrastructure, vmware, reinstall, OS
+```

@@ -23,6 +23,7 @@ Now Select "OK" and the restore process will start, once completed a prompt will
 * The Restore process is now complete.
 
 ```eval_rst
+  .. title:: Restoring a Microsoft SQL Server database from backup
   .. meta::
      :title: Restoring a Microsoft SQL Server database from backup | UKFast Documentation
      :description: How to restore a Microsoft SQL Server database from a backup

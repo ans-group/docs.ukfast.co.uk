@@ -7,24 +7,26 @@ This document provides information about the default configuration - please use 
 ## Load Balancers
 Your UKFast load balancers are configured with a single virtual IP on port 80 load balancing your web servers in a round robin fashion, for example WEB-01 and WEB-02 with an equal weighting of 1:1. 
 
-More information around load balancing can be found [here](https://docs.ukfast.co.uk/network/loadbalancing/index.html)
+More information around load balancing can be found [here](/network/loadbalancing/index)
 
 ## Web Application Firewalls
 
 UKFast offers both hardware based WAF and Network based WAF, running on our global DDOSX® network.
 
-Information on how to configure WAF on DDoSX® can be found [here](https://docs.ukfast.co.uk/security/ddos/wafsettings.html)
+Information on how to configure WAF on DDoSX® can be found [here](/security/ddos/wafsettings)
 
-Your [hardware based WAFs](https://docs.ukfast.co.uk/security/webapplicationfirewall/whatisawaf.html) are configured with a single virtual IP on port 80 pointing to the load balancer virtual IP. 
+Your [hardware based WAFs](/security/webapplicationfirewall/whatisawaf) are configured with a single virtual IP on port 80 pointing to the load balancer virtual IP. 
 
 ## Webcelerators
 
 Your UKFast Webcelerators are configured with a single virtual IP on port 80 pointing to the Web Application virtual IP, if you do not have Web Application firewalls this will point to your or your load balancer IP.
 
-The full Webcelerator configuration guide is available [here](https://docs.ukfast.co.uk/webcel/)
+The full Webcelerator configuration guide is available [here](/webcel/index)
 
 ```eval_rst
-  .. meta::
+   .. title:: Default Configuration for UKFast Appliances
+   .. meta::
       :title: Default Configuration for UKFast Appliances | UKFast Documentation
       :description: Default Configuration for UKFast Appliances.
       :keywords: ukfast, hosting, load balancing, load, web acceleration, webceleration, webcelerator, waf, web application firewall, layer7 firewall
+```

@@ -88,7 +88,9 @@ def get_meta(text):
     keywords = []
 
     try:
-        title = re.search(':title: (.*)\\b', text).group(1)
+        title = re.search('.. title: (.*)\\b', text).group(1)
+        if not title: 
+            title = re.search(':title: (.*)\\b', text).group(1)
         description = re.search(':description: (.*)\\b', text).group(1)
         keywords = re.search(':keywords: (.*)\\b', text).group(1).split(',')
     except:

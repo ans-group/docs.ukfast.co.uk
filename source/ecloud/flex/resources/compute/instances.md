@@ -2,13 +2,12 @@
 
 ```eval_rst
 .. warning::
-  As with most of our Flex guides, we're going to assume that you've followed our guide on setting environment variables and installing the openstackclient:
+   As with most of our Flex guides, we're going to assume that you've followed our guide on setting environment variables and installing the openstackclient:
 
-  :doc:`/cloud/flex/general/settingvars`  
-  
-  :doc:`/cloud/flex/general/openstackcli`
-
-  If you're not using this method of authentication, you may need to specify additional flags/options in the commands used in this article.
+   - :doc:`/ecloud/flex/general/settingvars`
+   - :doc:`/ecloud/flex/general/openstackcli`
+   
+   If you're not using this method of authentication, you may need to specify additional flags/options in the commands used in this article.
 ```
 
 ## Installation
@@ -16,41 +15,41 @@
 The bundle of OpenStack management tools can all be found in `pip`, a package manager for python, so we'll first need to install that, along with a few dependencies that you'll be needing:
 
 ```bash
-  yum install python-pip python-devel gcc
-  apt install python-pip python-devel gcc
+yum install python-pip python-devel gcc
+apt install python-pip python-devel gcc
 ```
 
 Now we're ready to install the whole suite of OpenStack cli tools:
 
 ```bash
-  pip install python-openstackclient
+pip install python-openstackclient
 ```
 
-We have a full page of documentation that details how to do this for various operating systems [here](/cloud/flex/general/openstackcli.html).
+We have a full page of documentation that details how to do this for various operating systems [here](/ecloud/flex/general/openstackcli).
 
 ## List instances
 
 Starting with one of the more basic commands, we've got the following one to list all the instances you currently have. Running `openstack server list` will get you some output along these lines:
 
 ```console
-  [root@workstation ~]# openstack server list
-  +--------------------------------------+--------------------------+-----------+------------+-------------+----------------------------------+
-  | ID                                   | Name                     | Status    | Task State | Power State | Networks                         |
-  +--------------------------------------+--------------------------+-----------+------------+-------------+----------------------------------+
-  | c9911fee-7245-404c-a631-2d9b29f47395 | jump                     | active    | -          | running     | stnd=192.168.0.36, 46.37.172.05  |
-  | 5b2af436-e80d-4a29-aaaa-7a71250dfeef | ansible master           | ACTIVE    | -          | Running     | stnd=192.168.0.69, 46.37.172.04  |
-  | 69b1b7b7-77eb-4296-ba57-aa47890d146a | ansible slave-3          | ACTIVE    | -          | Running     | stnd=192.168.0.44, 46.37.172.03  |
-  | ac23d068-5b6d-4d4d-9615-b96be462c1b0 | ansible slave-4          | ACTIVE    | -          | Running     | stnd=192.168.0.15, 46.37.189.02  |
-  | 3b14dd96-7f05-4e57-ae9b-562e8d634691 | hosts                    | ACTIVE    | -          | Running     | stnd=192.168.0.50                |
-  | 04f961c5-8421-4198-9473-22b2289b89f0 | hubot                    | ACTIVE    | -          | Running     | stnd=192.168.0.68                |
-  | 47b55049-168a-4885-b8cd-ba431534022d | jamestest                | SUSPENDED | -          | Shutdown    | stnd=192.168.0.18                |
-  | df49a869-338b-441e-9e72-42ca4e51d242 | magento                  | SHUTOFF   | -          | Shutdown    | stnd=192.168.0.54                |
-  | 37ad0fc1-c01e-4c6b-804d-594d1bc20660 | rota                     | ACTIVE    | -          | Running     | stnd=192.168.0.24, 46.37.172.01  |
-  | 1bcf6b49-6f9b-4561-acda-fce135f646de | servera                  | ACTIVE    | -          | Running     | stnd=192.168.0.52                |
-  | 2a48ad36-84fd-4d12-b911-69f280d27588 | serverb                  | ACTIVE    | -          | Running     | stnd=192.168.0.53                |
-  | 3a86a28c-6338-4ce4-a79f-a6b28f1b0ffb | tower                    | ACTIVE    | -          | Running     | stnd=192.168.0.55                |
-  | a51c5773-722c-40b0-8a96-379701ea3698 | training                 | ACTIVE    | -          | Running     | stnd=192.168.0.34                |
-  +--------------------------------------+--------------------------+-----------+------------+-------------+----------------------------------+
+[root@workstation ~]# openstack server list
++--------------------------------------+--------------------------+-----------+------------+-------------+----------------------------------+
+| ID                                   | Name                     | Status    | Task State | Power State | Networks                         |
++--------------------------------------+--------------------------+-----------+------------+-------------+----------------------------------+
+| c9911fee-7245-404c-a631-2d9b29f47395 | jump                     | active    | -          | running     | stnd=192.168.0.36, 46.37.172.05  |
+| 5b2af436-e80d-4a29-aaaa-7a71250dfeef | ansible master           | ACTIVE    | -          | Running     | stnd=192.168.0.69, 46.37.172.04  |
+| 69b1b7b7-77eb-4296-ba57-aa47890d146a | ansible slave-3          | ACTIVE    | -          | Running     | stnd=192.168.0.44, 46.37.172.03  |
+| ac23d068-5b6d-4d4d-9615-b96be462c1b0 | ansible slave-4          | ACTIVE    | -          | Running     | stnd=192.168.0.15, 46.37.189.02  |
+| 3b14dd96-7f05-4e57-ae9b-562e8d634691 | hosts                    | ACTIVE    | -          | Running     | stnd=192.168.0.50                |
+| 04f961c5-8421-4198-9473-22b2289b89f0 | hubot                    | ACTIVE    | -          | Running     | stnd=192.168.0.68                |
+| 47b55049-168a-4885-b8cd-ba431534022d | jamestest                | SUSPENDED | -          | Shutdown    | stnd=192.168.0.18                |
+| df49a869-338b-441e-9e72-42ca4e51d242 | magento                  | SHUTOFF   | -          | Shutdown    | stnd=192.168.0.54                |
+| 37ad0fc1-c01e-4c6b-804d-594d1bc20660 | rota                     | ACTIVE    | -          | Running     | stnd=192.168.0.24, 46.37.172.01  |
+| 1bcf6b49-6f9b-4561-acda-fce135f646de | servera                  | ACTIVE    | -          | Running     | stnd=192.168.0.52                |
+| 2a48ad36-84fd-4d12-b911-69f280d27588 | serverb                  | ACTIVE    | -          | Running     | stnd=192.168.0.53                |
+| 3a86a28c-6338-4ce4-a79f-a6b28f1b0ffb | tower                    | ACTIVE    | -          | Running     | stnd=192.168.0.55                |
+| a51c5773-722c-40b0-8a96-379701ea3698 | training                 | ACTIVE    | -          | Running     | stnd=192.168.0.34                |
++--------------------------------------+--------------------------+-----------+------------+-------------+----------------------------------+
 ```
 
 One of the main reasons you may be running this command is to get access to the `uuid` used as the `ID` for each instance. Whilst most commands will accept the name of the instance as an argument, using the `ID` can be much less ambiguous when two instances have similar names and will help avoid some unwanted deletions in the future.
@@ -103,7 +102,7 @@ The first section `openstack server create` is relatively self explanatory, we'r
 +--------------------------------------+----------------------------------------+-------------+
 ```
 
-Your output to this command may very well be different, names may have been updated and the UUIDs have been changed in our examples on this page, so don't rely on the above content! Please refer to our other documentation for more information about [managing images](/cloud/flex/resources/storage/managing-images.html).
+Your output to this command may very well be different, names may have been updated and the UUIDs have been changed in our examples on this page, so don't rely on the above content! Please refer to our other documentation for more information about [managing images](/ecloud/flex/resources/storage/managing-images).
 
 The final part of that command is `--flavor`. American spelling aside, (it doesn't accept `--flavour` as an alias sadly, we've tried) `flavor` is the OpenStack parlance for 'size of instance', so it's the setting that controls how much RAM and CPU allocation you're giving the instance, along with which tier (IO/mem/std). We're back to the `openstack server` command for this one, with `openstack flavor list`:
 
@@ -119,7 +118,7 @@ The final part of that command is `--flavor`. American spelling aside, (it doesn
 +--------------------------------------+----------------+-------+------+-----------+-------+-----------+
 ```
 
-We are also able to view the available networks in our project. Every project in eCloud Flex is deployed with a pre-built network and router, so you should be able to plug in your default network. We have more information about networking in eCloud Flex [here](/cloud/flex/resources/network/).
+We are also able to view the available networks in our project. Every project in eCloud Flex is deployed with a pre-built network and router, so you should be able to plug in your default network. We have more information about networking in eCloud Flex [here](/ecloud/flex/resources/index).
 
 ```console
 [root@workstation ~]# openstack network list
@@ -133,17 +132,18 @@ We are also able to view the available networks in our project. Every project in
 With all that information, we're now in a better place to understand the command from earlier:
 
 ```bash
-openstack server create --key-name development \
-                        --image "Ubuntu 18.04" \
-                        --flavor UKF2-small-1x1 \
-                        --network local \
-                        test-instance
+openstack server create \
+    --key-name development \
+    --image "Ubuntu 18.04" \
+    --flavor UKF2-small-1x1 \
+    --network local \
+    test-instance
 ```
 
 ...and the output we receive from it:
 
 ```console
-  [root@workstation ~]# openstack server create --key-name development --image "Ubuntu 18.04" --flavor UKF2-small-1x1 --network local test-instance
+[root@workstation ~]# openstack server create --key-name development --image "Ubuntu 18.04" --flavor UKF2-small-1x1 --network local test-instance
 +-----------------------------+-------------------------------------------------------+
 | Field                       | Value                                                 |
 +-----------------------------+-------------------------------------------------------+
@@ -188,7 +188,7 @@ Switching back to `openstack server list` again, we can check that the instance 
 So it turns out that the section on creating instances is quite big, but thankfully this one is a lot simpler. Using the `delete` argument and a name or ID, we can quickly delete instances like this:
 
 ```bash
-  openstack server delete f1713d4d-eef1-4042-bd3e-cdc33c99ccfa
+openstack server delete f1713d4d-eef1-4042-bd3e-cdc33c99ccfa
 ```
 
 If you want to delete a few at a time, just append their UUIDs onto the command:
@@ -198,8 +198,9 @@ openstack server delete f1713d4d-eef1-4042-bd3e-cdc33c99ccfa 4659bffc-923f-41b3-
 ```
 
 ```eval_rst
-.. meta::
-     :title: Controlling server actions on eCloud Flex | UKFast Documentation
-     :description: How to use the openstack CLI to manage server actions
-     :keywords: openstack, ecloud, flex, ukfast, hosting, nova, openstack, openstackclient, openstack cli, instnace
+   .. title:: Controlling server actions on eCloud Flex
+   .. meta::
+      :title: Controlling server actions on eCloud Flex | UKFast Documentation
+      :description: How to use the openstack CLI to manage server actions
+      :keywords: openstack, ecloud, flex, ukfast, hosting, nova, openstack, openstackclient, openstack cli, instnace
 ```

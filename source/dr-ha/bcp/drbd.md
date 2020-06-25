@@ -1,5 +1,12 @@
 # Distributed Replicated Block Device (DRBD)
 
+```eval_rst
+   .. title:: Distributed Replicated Block Device (DRBD)
+   .. meta::
+      :title: Distributed Replicated Block Device (DRBD) | UKFast Documentation
+      :description: Information on how to manage your FastCloudBackup account
+```     
+
 DRBD is utilised in our physical BCP solutions to replicate data at block level between two or more servers. While not wholly comparable, you could think of it as resembling RAID1 being performed over the network on two volumes.
 
 Generally, there are two DRBD volumes in each cluster:
@@ -9,7 +16,7 @@ Generally, there are two DRBD volumes in each cluster:
 
  We connect DRBD to 10GBPS ports wherever possible, and otherwise make use of direct 10GBPS crossover cables to facilitate real-time replication between the member nodes. You'll see this listed as `p1p1` or `p1p2` when looking at the NICs connected to your server.
 
- DRBD is active / passive by nature, so only one node can be "primary" for the volume at a time - and therefore only one node can have the volume mounted at a time. If more than one node considers itself "primary", the cluster has likely become [split brain](splitbrain.html).
+ DRBD is active / passive by nature, so only one node can be "primary" for the volume at a time - and therefore only one node can have the volume mounted at a time. If more than one node considers itself "primary", the cluster has likely become [split brain](/dr-ha/bcp/splitbrain).
 
  Given the above, don't be alarmed if `/var/www/vhosts` or `/var/lib/mysql` looks to be "missing" from one of your nodes, it is probably mounted elsewhere in the cluster.
 

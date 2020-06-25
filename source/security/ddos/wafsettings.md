@@ -37,7 +37,7 @@ With each paranoia mode increase, the Core Rule Set (CRS) enables additional rul
 
 Once you have set your paranoia mode you can now decide which rules you would like to have turned on or off. The table below outlines each of the rulesets and what these mean.
 
-- **IP REPUTATION:** A check is performed to see if the IP has already been blacklisted from previous requests, then a GeoIP lookup is performed, to determine if the IP resolves to a database of high risk countries. Following this it is checked again on IP Reputation.  The scoring becomes gradually more severe the higher the paranoia level.
+- **IP REPUTATION:** A check is performed to see if the IP has already been blocked from previous requests, then a GeoIP lookup is performed, to determine if the IP resolves to a database of high risk countries. Following this it is checked again on IP Reputation.  The scoring becomes gradually more severe the higher the paranoia level.
 
 - **METHOD ENFORCEMENT:** Enforces a hard list of methods, the allowed method types are as follows: GET, HEAD, POST, OPTIONS.
 
@@ -78,21 +78,21 @@ You can choose which rulesets to switch on or off for each of your domains, usin
 
 ![wafrulesets](files/wafrulesets.PNG)
 
-## Whitelist Rules
+## Allow list Rules
 
-Before switching your WAF mode to On and starting to block traffic to your application, you may wish to create whitelist rules to allow particular traffic through which you know be legitimate.  
+Before switching your WAF mode to On and starting to block traffic to your application, you may wish to create allow list rules to allow particular traffic through which you know be legitimate.  
 
-An example of this would be allowing traffic from your own office network to bypass the rules enforced by the WAF.  A whitelist rule to accommodate this situation would look like this:
+An example of this would be allowing traffic from your own office network to bypass the rules enforced by the WAF.  A allow list rule to accommodate this situation would look like this:
 
 `SecRule REQUEST_URI "@beginsWith /admin" "chain, id:1, phase:1, t:none, nolog, pass, ctl:ruleEngine=DetectionOnly" SecRule REMOTE_ADDR "@ipMatch 8.8.8.8" "t:none"`
 
 In simple terms this rule states - *any request made to the URI `/admin` by user with IP address `8.8.8.8` can be ignored and only log when a rule would be triggered.*
 
-This rule in it's raw format may be off-putting, but you can add whitelist rules simply in the `Whitelist` section, by clicking `Add Rule` - see screenshot below.
+This rule in it's raw format may be off-putting, but you can add allow list rules simply in the `Allow list` section, by clicking `Add Rule` - see screenshot below.
 
-![wafwhitelist](files/wafwhitelist.PNG)
+![wafallowlist](files/wafallowlist.png)
 
-To create your whitelist rule simply add:
+To create your allow list rule simply add:
 - URI (e.g. `admin`)
 - IP address (e.g. `8.8.8.8`)
 
@@ -104,12 +104,12 @@ You can build a rule like this yourself, by looking at the WAF Logs within [MyUK
 
 For instance, using the "office network" example above - you know that traffic from your workplace originates from IP address 8.8.8.8 and that you need to use the /admin area of your site, but you are running into a large number of errors to this URI from your office location.  You can gather from this information that these will be false positives, and will impact your productivity if not addressed.
 
-It is important to think carefully when applying whitelists, as the more you implement the less secure your site will become. You should always endeavour to balance security and accessibility - a task that requires a detailed knowledge of your website, application and end users (both internal to your company, as well as external).
+It is important to think carefully when applying allow lists, as the more you implement the less secure your site will become. You should always endeavour to balance security and accessibility - a task that requires a detailed knowledge of your website, application and end users (both internal to your company, as well as external).
 
-## Advanced Whitelist
+## Advanced Allow list
 
-Advanced Whitelisting allows you to combat false positives more flexibly by whitelisting genuine traffic to your site based on the rules you create. Following the steps below will allow you to build rules to your specification.
-To start navigate to your DDoSX dashboard and select WAF. Here you will find the Advanced Whitelist section. Select Add Rule. 
+Advanced Allow listing allows you to combat false positives more flexibly by permitting genuine traffic to your site based on the rules you create. Following the steps below will allow you to build rules to your specification.
+To start navigate to your DDoSX dashboard and select WAF. Here you will find the Advanced Allow list section. Select Add Rule. 
 
 ![files_AddWAFrule](files/files_AddWAFrule.png)
 

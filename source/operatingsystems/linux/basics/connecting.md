@@ -23,7 +23,7 @@ As before, your user name is root, and your password is the one provided to you 
 
 Once logged in, this will provide you with a command line to execute your various commands.
 
-For further advice on what to do once you've connected in this fashion, you could refer to our other documentation in the [linux basics](/linux/basics/) range. Alternatively, there are a multitude of resources out there on the internet.
+For further advice on what to do once you've connected in this fashion, you could refer to our other documentation in the [linux basics](/operatingsystems/linux/basics/index) range. Alternatively, there are a multitude of resources out there on the internet.
 
 However, whilst using your server like this offers you the most powerful way of maintaining your setup, it also provides you with the most powerful way to destroy your setup.
 
@@ -41,9 +41,10 @@ Tell PuTTY where the private key is located on your computer by clicking “Brow
 Now click “Open” and the session should open using the private key as authentication.
 
 
-  ```eval_rst
-  .. meta::
-     :title: Connecting to your server via SSH | UKFast Documentation
-     :description: Guidance on connecting to Linux using SSH 
-     :keywords: ukfast, ssh, key, private key, putty, ssh client, linux, server
-  ```
+```eval_rst
+   .. title:: Connecting to your server via SSH
+   .. meta::
+      :title: Connecting to your server via SSH | UKFast Documentation
+      :description: Guidance on connecting to Linux using SSH 
+      :keywords: ukfast, ssh, key, private key, putty, ssh client, linux, server
+```

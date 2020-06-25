@@ -35,6 +35,7 @@ For an explanation of the different roles and their functions, please visit the 
 ![New User](Images/createuser/uservisible.PNG)
 
 ```eval_rst
+  .. title:: Creating a Microsoft SQL Server database user
   .. meta::
      :title: Creating a Microsoft SQL Server database user | UKFast Documentation
      :description: A guide to creating a Microsoft SQL Server database user

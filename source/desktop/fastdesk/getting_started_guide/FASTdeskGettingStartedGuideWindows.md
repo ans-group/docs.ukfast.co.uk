@@ -1,7 +1,6 @@
-# Getting Started with FASTdesk: Windows PC Edition
+# Launch FastDesk on a Windows Device
 
-
-FASTdesk®  is UKFast’s Desktop as a Service (DaaS) solution, which allows users and organisations to work more effectively and securely by giving access to files, applications and desktop items remotely via an internet connection. All desktop settings and files are stored remotely in the cloud, providing cross-device compatibility and eliminating the risk of data loss by removing the risk of unauthorised access. This DaaS solution allows users to work in the same way they would with a traditional local desktop, but increase the flexibility with which they do so regardless of the endpoint device hardware, operating system or form factor.
+FastDesk®  is UKFast’s Desktop as a Service (DaaS) solution, which allows users and organisations to work more effectively and securely by giving access to files, applications and desktop items remotely via an internet connection. All desktop settings and files are stored remotely in the cloud, providing cross-device compatibility and eliminating the risk of data loss by removing the risk of unauthorised access. This DaaS solution allows users to work in the same way they would with a traditional local desktop, but increase the flexibility with which they do so regardless of the endpoint device hardware, operating system or form factor.
 
 ```eval_rst
 .. note::
@@ -12,10 +11,10 @@ FASTdesk®  is UKFast’s Desktop as a Service (DaaS) solution, which allows use
 
 ## Pre-Installation information
 
-This guide provides step by step instructions on installing and accessing FASTdesk on your Windows PC device. Day-to-day, there are two available methods to access FASTdesk on your Windows PC. These methods consist of the [web portal](https://www.fastdesk.co.uk/) and the Citrix Workspace Application. Whilst this guide will help you install the Citrix Workspace Application in order to access FASTdesk for the first time, we highly recommend using the web portal to access FASTdesk on a day-to-day basis. Both the Citrix Workspace application and web portal gives you:
+This guide provides step by step instructions on installing and accessing FastDesk on your Windows PC device. Day-to-day, there are two available methods to access FastDesk on your Windows PC. These methods consist of the [web portal](https://www.fastdesk.co.uk/) and the Citrix Workspace Application. Whilst this guide will help you install the Citrix Workspace Application in order to access FastDesk for the first time, we highly recommend using the web portal to access FASTdesk on a day-to-day basis. Both the Citrix Workspace application and web portal gives you:
 
-- Instant access to your FASTdesk environment in an easy-to-use, all-in-one interface.
-- Ability to use the FASTdesk on domain and non-domain joined PCs and thin clients. 
+- Instant access to your FastDesk environment in an easy-to-use, all-in-one interface.
+- Ability to use the FastDesk on domain and non-domain joined PCs and thin clients. 
 - Full integration with the Citrix Content Collaboration (Also known as ShareFile) which gives you the ability to upload and download files all in one place.
 
 To install the Citrix Workspace Application on the local machine, there is a minimum memory requirement of 1GB RAM. In addition, two pre-requisites must be installed. They are:
@@ -51,20 +50,20 @@ Follow the installation dialog box to finish with the installation of the worksp
 
 ![Image 4: Installing Citrix Workspace](files/Installing_app.PNG "Image 4: Installing Citrix Workspace Dialog box")
 
-## Step 2 - Logging into the FASTdesk Portal
+## Step 2 - Logging into the FastDesk Web Portal
 
 Once the "Citrix Workspace" application is installed, open your web browser and navigate to the Following URL `“https://www.fastdesk.co.uk”`. On this step, it is vital that you enter the full URL including the `"www"`. Alternatively, you can click this [link here](https://www.fastdesk.co.uk) to take you to the website. In terms of browsers, the web portal is compatible with the latest versions of Google Chrome, Mozilla Firefox, Microsoft Edge and Internet Explorer.
 
-![Image 5: FASTdesk URL](files/Url.png "Image 5: FASTdesk URL")
+![Image 5: FastDesk URL](files/Url.png "Image 5: FastDesk URL")
 
-Once here, you will see the FASTdesk branding and a log in page with a man on a sofa (Refer to **image 6** below). 
+Once here, you will see the FastDesk branding and a log in page with a man on a sofa (Refer to **image 6** below). 
 
 
-![Image 6 FASTdesk Landing Page](files/Welcome_screen.png "Image 6: FASTdesk Landing Page")
+![Image 6 FastDesk Landing Page](files/Welcome_screen.png "Image 6: FastDesk Landing Page")
 
 Go ahead and enter the username and password credentials that were provided to you by the FASTdesk team. Upon entering your credentials, you will be asked to change your password (See **image 7**). 
 
-![Image 7 FASTdesk Password Reset](files/resetpassword.png "Image 7: FASTdesk Password Reset Page")
+![Image 7 FastDesk Password Reset](files/resetpassword.png "Image 7: FastDesk Password Reset Page")
 
 ```eval_rst
 .. note::
@@ -73,15 +72,15 @@ Go ahead and enter the username and password credentials that were provided to y
    
 ```
 
-## Step 3 - Launching a desktop from the Portal
+## Step 3 - Launching a desktop from the Web Portal
 
-Once you have logged into FASTdesk, you will be presented with the Applications and hosted Desktops that have been allocated to you (Refer to **image 8**). 
+Once you have logged into FastDesk, you will be presented with the applications and hosted desktops that have been allocated to you (Refer to **image 8**). 
 
-![Image 8 FASTdesk Logged in Landing Page](files/HomeScreen.PNG "Image 8: FASTdesk Logged in Landing Page")
+![Image 8 FastDesk Web Portal Landing Page](files/HomeScreen.PNG "Image 8: FastDesk Web Portal Landing Page")
 
 You can navigate between Desktops and Apps via the icons found at the top of the screen. The icons found at the top of the screen also gives you the ability to search as well as open settings. Simply click Desktops to navigate to this category (Refer to **image 9**).
 
-![Image 9 FASTdesk Desktops Page](files/storefront.png "Image 9: FASTdesk Desktops Page")
+![Image 9 FastDesk Desktops Page](files/storefront.png "Image 9: FASTdesk Desktops Page")
 
 Once in the desktops categories, you can open the desktop that has been allocated to you by just clicking the monitor of the desktop or by clicking the downward arrow which will give you three options of "Open", "Add To Favorites" and "Restart". You can also choose to "Add To Favourites", which pins your desktop to the Favourites category. From here you can also click "open" (Refer to **image 9**).
 
@@ -100,7 +99,7 @@ Once fully launched, your desktop should appear as it is in **image 12**.
 
 ## Workspace Application Log in setup (Optional)
 
-Although it is recommended you access FASTdesk through the URL, you can also access your desktop through the Citrix Workspace Launcher. If you prefer to login directly to the Citrix Workspace app, you can do so. Simply click your windows start menu button and search for "Citrix Workspace Application". After launching the Citrix Workspace app, you will be asked to add an account. See **image 13**
+Although it is recommended you access FastDesk through the URL, you can also access your desktop through the Citrix Workspace Launcher. If you prefer to login directly to the Citrix Workspace app, you can do so. Simply click your windows start menu button and search for "Citrix Workspace Application". After launching the Citrix Workspace app, you will be asked to add an account. See **image 13**
 
 ![Image 13 Add an account](files/addaccountworkspace.png "Image 13: Add an account")
 
@@ -116,10 +115,10 @@ Simply type the following URL `"https://www.fastdesk.co.uk"` and click Add. Alte
    
 ```
 
-**_This instruction guide should assist you getting logged in for the first time. If you have any questions or still require assistance, please contact the FASTdesk support team on 0800 923 0617_**.
+**_This instruction guide should assist you in getting logged in for the first time. If you have any questions or still require assistance, please contact the FastDesk support team on 0800 923 0617_**.
 
  ```eval_rst
    .. meta::
-      :title: FASTdesk Getting Started Guide Windows PC Edition | UKFast Documentation
+      :title: FastDesk Getting Started Guide Windows PC Edition | UKFast Documentation
       :description: Guide for users on how to get setup on FASTdesk using a Windows PC 
-      :keywords: FASTdesk, Citrix, ukfast, VDI, Citrix Receiver, Windows, Workspace Application 
+      :keywords: FastDesk, Citrix, ukfast, VDI, Citrix Receiver, Windows, Workspace Application 

@@ -27,14 +27,15 @@ As part of your BCP Solution you will receive a Pre-Launch Questionnaire specifi
 +----------------------+--------------+-------------+-------------+
 | Recommended Versions | No Magento   | Magento 1   | Magento 2   |
 +======================+==============+=============+=============+
-| PHP                  | 7.3          | 5.6         | 7.2         |
+| PHP                  | 7.3          | 7.2         | 7.2         |
 +----------------------+--------------+-------------+-------------+
-| DB                   | MariaDB 10.3 | Percona 5.6 | Percona 5.7 |
+| DB                   | MariaDB 10.4 | Percona 5.6 | Percona 5.7 |
 +----------------------+--------------+-------------+-------------+
 | Web Server           | nginx        | nginx       | nginx       |
 +----------------------+--------------+-------------+-------------+
 ```
 ```eval_rst
+  .. title:: UKFast Default BCP Configuration
   .. meta::
       :title: UKFast Default BCP Configuration | UKFast Documentation
       :description: Default Configuration for a BCP Solution.

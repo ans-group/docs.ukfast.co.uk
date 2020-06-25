@@ -13,3 +13,4 @@ From here you have options to perform a soft reboot of the VM along with a full 
    :title: eCloud Public APIs | UKFast Documentation
    :description: Programatic control of your eCloud Public resources
    :keywords: ukfast, cloud, ecloud, public, hosting, infrastructure, vmware, powercycle, reboot
+```

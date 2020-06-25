@@ -35,6 +35,7 @@ By default single role Linux Servers will have the following updates configured:
 - No, I do not wish for this server to automatically apply updates.
 
 ```eval_rst
+  .. title:: UKFast Enterprise Updates Default Configuration
   .. meta::
       :title: UKFast Enterprise Updates Default Configuration | UKFast Documentation
       :description: Default Configuration for UKFast Enterprise Updates

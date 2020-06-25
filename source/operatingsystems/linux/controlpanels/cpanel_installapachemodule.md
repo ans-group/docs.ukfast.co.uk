@@ -47,6 +47,7 @@ Once the process has finished, click the "Done" button to close your EasyApache4
 Using this guide, you have successfully installed an Apache Module using EasyApache4!
 
 ```eval_rst
+  .. title:: Installing an Apache Module via EasyApache4
   .. meta::
      :title: Installing an Apache Module via EasyApache4
      :description:  A guide to installing an Apache Module via EasyApache4

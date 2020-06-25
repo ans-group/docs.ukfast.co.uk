@@ -347,6 +347,7 @@ If SSL is set to offloading like the above example you need to uncomment the fol
 This tells Magento that although the connection is on port 80 -> 8080 it should be treated as a secure connection due to the header x_forwarded_proto containing https. 
 
 ```eval_rst
+  .. title:: Magento 2 Varnish
   .. meta::
      :title: Magento 2 Varnish | UKFast Documentation
      :description: A guide using Varnish with Magento 2

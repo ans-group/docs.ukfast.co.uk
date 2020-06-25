@@ -4,19 +4,19 @@
 
 Service Monitoring can be customised using your online Pre-Launch Questionnaire on a per server basis. The following service monitoring will be added across all servers in the solution by default:
 ```eval_rst
-+------------+---------+
-| Monitoring | Default |
-+============+=========+
-| Ping       | Enabled |
-+------------+---------+
-| SMTP       | Enabled |
-+------------+---------+
-| POP        | Enabled |
-+------------+---------+
-| HTTP       | Enabled |
-+------------+---------+
-| FTP        | Enabled |
-+------------+---------+
++------------+----------+
+| Monitoring | Default  |
++============+==========+
+| Ping       | Enabled  |
++------------+----------+
+| SMTP       | Disabled |
++------------+----------+
+| POP        | Disabled |
++------------+----------+
+| HTTP       | Disabled |
++------------+----------+
+| FTP        | Disabled |
++------------+----------+
 ```
 ```eval_rst
 .. seealso::
@@ -41,6 +41,7 @@ More information about Capacity Threshold Monitoring can be found [here](ctm.md)
 More information about specific application monitoring can be found [here](app_monitoring.md).
 
 ```eval_rst
+  .. title:: UKFast Monitoring Default Configuration
   .. meta::
       :title: UKFast Monitoring Default Configuration | UKFast Documentation
       :description: Default Configuration for UKFast Monitoring

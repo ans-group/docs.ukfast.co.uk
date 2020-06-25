@@ -42,6 +42,7 @@ This will look the same as the live monitoring but will start from the start of 
 
 
 ```eval_rst
+  .. title:: Monitoring performance with atop
   .. meta::
      :title: Monitoring performance with atop | UKFast Documentation
      :description:  A guide on how to monitor server performance with atop 
