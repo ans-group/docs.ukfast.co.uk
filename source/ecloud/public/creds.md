@@ -7,8 +7,8 @@ Once launched you can find credentials to your eCloud public VM by selecting the
 After entering your MyUKFast password and selecting unlock credentials a list of all users UKFast has on record will be presented.
 
 ```eval_rst
-.. meta::
-   :title: eCloud Public APIs | UKFast Documentation
-   :description: Programatic control of your eCloud Public resources
-   :keywords: ukfast, cloud, ecloud, public, hosting, infrastructure, vmware, credentials, login, users
+   .. title:: eCloud Public credentials | UKFast Documentation
+   .. meta::
+      :description: Programatic control of your eCloud Public resources
+      :keywords: ukfast, cloud, ecloud, public, hosting, infrastructure, vmware, credentials, login, users
 ```
