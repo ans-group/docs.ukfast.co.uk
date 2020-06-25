@@ -5,7 +5,7 @@ From the [MyUKFast VM list page](https://my.ukfast.co.uk/ecloud-public) a consol
  ![consoleButton](files/consoleButton.png)
 
 ```eval_rst
-   .. title:: eCloud Public console | UKFast Documentation
+   .. title:: eCloud Public console
    .. meta::
       :description: Programatic control of your eCloud Public resources
       :keywords: ukfast, cloud, ecloud, public, hosting, infrastructure, vmware, powercycle, reboot

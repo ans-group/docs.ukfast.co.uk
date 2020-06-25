@@ -11,7 +11,7 @@ Within this screen you can drag the memory slider to increase or decrease the me
 **Please note that services within the OS such as MySQL may require a restart to recognise the new memory.** 
 
 ```eval_rst
-   .. title:: eCloud Public edit memory | UKFast Documentation
+   .. title:: eCloud Public edit memory 
    .. meta::
       :description: Programatic control of your eCloud Public resources
       :keywords: ukfast, cloud, ecloud, public, hosting, infrastructure, vmware, memory

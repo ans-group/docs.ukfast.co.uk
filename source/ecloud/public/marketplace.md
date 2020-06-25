@@ -15,7 +15,7 @@ Once the specification is set you can then select to create appliance.
 From here this will be visible in your eCloud public [VM list](https://my.ukfast.co.uk/ecloud-public), once the build is finished this will have the stack documented in the marketplace template installed.
 
 ```eval_rst
-   .. title:: eCloud Public VM marketplace | UKFast Documentation
+   .. title:: eCloud Public VM marketplace 
    .. meta::
       :description: Programatic control of your eCloud Public resources
       :keywords: ukfast, cloud, ecloud, public, hosting, infrastructure, vmware, marketplace
