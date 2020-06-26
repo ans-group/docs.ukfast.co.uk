@@ -71,7 +71,8 @@ def prettify(text):
                 safe = False
                 break
         if safe:
-            output += line.replace('\n', '')
+            output += " ".join(line.split())
+            # output += line.replace('\n', ' ')
 
     return output
 
