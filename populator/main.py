@@ -125,8 +125,7 @@ def approximate_meta(text):
             if not title:
                 title = ''.join(ch for ch in line if ch.isalnum() or ch == ' ')
                 continue
-            if not description and line.startswith('#') is False and line.startswith('..') is False and line.startswith(
-                    '``') is False:
+            if not description and not line.startswith('#') and not line.startswith('..') and not line.startswith('``'):
                 description = line
                 break
 
