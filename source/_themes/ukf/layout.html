@@ -374,6 +374,16 @@
 		<div id ="content-container" class="space-left push-off">
 			<div class="document-body">
 				<div id="main-menu-container">
+			
+					<ul id="breadcrumb">
+						<li><a href="/">Home</a> &gt;</li>
+						{%- for parent in parents %}
+						<li><a href="{{ parent.link|e }}">{{ parent.title }}</a>{{ reldelim1 }} &gt;</li>
+						{%- endfor %}
+						<li>{{ title }}</li>
+						
+					</ul>
+				
 					{% block body %} {% endblock %}
 				</div>
 			</div>
