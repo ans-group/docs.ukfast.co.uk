@@ -9,23 +9,63 @@ from elasticsearch import Elasticsearch
 import shutil
 import sys
 import time
-import json
 
-logging.basicConfig(
-    level=logging.DEBUG,
-    format='%(asctime)s | %(levelname)-10s | %(filename)-20s  | %(funcName)-30s | %(lineno)-5d | %(message)s')
-logging.getLogger("elasticsearch").setLevel(logging.WARNING)
-logging.getLogger("urllib3").setLevel(logging.WARNING)
-
+directory = './'
 file_type = '.md'
-remove_regex = [r'.. (.*?)::']
-remove_list = ['eval_rst', ':doc:', '`', '\\ :sup:', ' | UKFast Documentation']
+remove_list = [r'.. (.*?)::']
+another_list = ['eval_rst', ':doc:', '`',
+                '\\ :sup:', ' | UKFast Documentation']
 meta_words = [':title:', ':description:', ':keywords:']
+
 hostname = 'elasticsearch'
 host = 'http://' + hostname + ':9200'
 
-index_name = os.getenv('ESINDEX', 'documentation')
-source_dir = os.getenv('SOURCEDIR', 'source')
+
+class Colour:
+    RED = '\033[91m'
+    GREEN = '\033[92m'
+    YELLOW = '\033[93m'
+    BLUE = '\033[94m'
+    PURPLE = '\033[95m'
+    LIGHT_BLUE = '\033[96m'
+    WHITE = '\033[97m'
+    BOLD = '\033[1m'
+    UNDERLINE = '\033[4m'
+    ENDC = '\033[0m'
+
+
+def setup_logging():
+    logging.basicConfig(
+        # filename='log',
+        # filemode='w+',
+        level=logging.INFO,
+        format='%(asctime)s | %(levelname)-10s | %(name)-20s | %(filename)-20s  | %(funcName)-30s | %(lineno)-5d | %(message)s'
+        # format='%(asctime)s | %(message)s'
+    )
+
+    logging.addLevelName(logging.CRITICAL, "\033[1;91;43m{}\033[0m".format(" ******** "))
+
+    logging.addLevelName(logging.INFO, "{}{:10}{}".format(
+        Colour.BLUE,
+        logging.getLevelName(logging.INFO),
+        Colour.ENDC)
+    )
+
+    logging.addLevelName(logging.WARNING, "{}{:10}{}".format(
+        Colour.YELLOW,
+        logging.getLevelName(logging.WARNING),
+        Colour.ENDC)
+    )
+
+    logging.addLevelName(logging.ERROR, "{}{:10}{}".format(
+        Colour.RED,
+        logging.getLevelName(logging.ERROR),
+        Colour.ENDC)
+    )
+
+    logging.getLogger("sqlalchemy").setLevel(logging.WARNING)
+    logging.getLogger("requests").setLevel(logging.WARNING)
+    logging.getLogger("urllib3").setLevel(logging.WARNING)
 
 
 def check_elasticsearch_alive(host):
@@ -41,9 +81,9 @@ def check_elasticsearch_alive(host):
 def sanitise(text):
     try:
         plain_text = text
-        for remove in remove_regex:
-            plain_text = re.sub(remove, '', plain_text)
         for remove in remove_list:
+            plain_text = re.sub(remove, '', plain_text)
+        for remove in another_list:
             plain_text = plain_text.replace(remove, '')
     except:
         pass
@@ -71,7 +111,7 @@ def prettify(text):
                 safe = False
                 break
         if safe:
-            output += line + '  \n'
+            output += line
 
     return output
 
@@ -88,10 +128,8 @@ def get_meta(text):
     keywords = []
 
     try:
-        title = re.search('.. title: (.*)\\b', text).group(1)
-        if not title: 
-            title = re.search(':title: (.*)\\b', text).group(1)
-        description = re.search(':description: (.*)\\b', text).group(1)
+        title = re.search(':title: (.*)\\b', text).group(1).strip()
+        description = re.search(':description: (.*)\\b', text).group(1).strip()
         keywords = re.search(':keywords: (.*)\\b', text).group(1).split(',')
     except:
         pass
@@ -101,7 +139,7 @@ def get_meta(text):
 
 def approximate_meta(text):
     """
-    Takes the first and second non-blank lines as the title and description.
+    Takes the fist and second non-blank lines as the title and description.
     Only called on files that don't have the meta info at the bottom.
     """
     lines = text.split('\n')
@@ -126,68 +164,51 @@ def list_md_files_in_dir(dir_):
     Useful if you've cloned the docs repo.
     """
     file_paths = []
-    exclusions = []
-
-    try:
-        with open('../source/exclusions.json', 'r') as file:
-            data = json.load(file)
-            exclusions = data['search']
-    except:
-        logging.warning('Failed to parse exclusions.')
-
     try:
         for root, _, files in os.walk(dir_):
             for file in files:
                 if file.endswith(file_type):
-                    
-                    exclude = False
-                    for exclusion in exclusions:
-                        file_path = os.path.join(root, file)
-                        if exclusion.replace('*', '') in file_path:
-                            exclude = True
-                            break
-
-                    if not exclude:
-                        file_paths.append(file_path)
-                    else:
-                        logging.info('File \'{}\' excluded due to exclusion match \'{}\''.format(
-                            file_path, exclusion))
+                    file_paths.append(os.path.join(root, file))
     except:
         logging.exception('')
     return file_paths
 
 
-def format_markdown_text(text, file):
+def format_markdown_text(text):
     """
     Input a doc.md file and it'll spit out the title, description, keywords (perhaps), and the content.
     """
     output = prettify(text)
     title, desc, keywords = get_meta(text)
-    missing_metadata = False
 
     if not title or not desc:
         title, desc = approximate_meta(text)
-        logging.warning('Missing proper meta tags in {}'.format(file))
-        missing_metadata = True
-    else:
-        logging.info('Found meta data for {}'.format(file))
+        print('Missing proper meta tags...')
+
+    # print('title: {}'.format(title))
+    # print('desc: {}'.format(desc))
+    # print('keys: {}'.format(keywords))
+    # print('body: {}'.format(output))
+    # print('\n')
 
     return {
         'title': title,
         'description': desc,
         'keywords': ' '.join(keywords),
         'content': output
-    }, missing_metadata
+    }
 
 
 if __name__ == '__main__':
-    logging.info('Waiting for the elasticsearch to become responsive at {}...'.format(hostname))
+    setup_logging()
+    logging.info('waiting for es at {}'.format(hostname))
 
     while True:
         if check_elasticsearch_alive(host):
             break
         time.sleep(3)
 
+    index = 'documentation'
     es = None
 
     while True:
@@ -199,28 +220,23 @@ if __name__ == '__main__':
             logging.exception('sleeping')
             time.sleep(5)
 
-    if es.indices.exists(index=index_name):
-        logging.warning('Elasticsearch index \'{}\' already exists. Attempting to delete...'.format(index_name))
-        es.indices.delete(index=index_name, ignore=[400, 404])
-
     # Create the documentation index and set the 'boost' levels for the columns.
     # Essentially lets us prioritse columns in searches.
-    # Could do with converting this to python.
     request_body = """
     {
         "mappings": {
             "properties": {
-              "title": {
-                "type": "text",
-                "boost": 10
-              },
               "keywords": {
                 "type": "text",
-                "boost": 5
+                "boost": 4
+              },
+              "title": {
+                "type": "text",
+                "boost": 3
               },
               "description": {
                 "type": "text",
-                "boost": 3
+                "boost": 2
               },
               "content": {
                 "type": "text",
@@ -231,27 +247,16 @@ if __name__ == '__main__':
     }
     """
 
-    es.indices.create(index=index_name, body=request_body)
+    es.indices.create(index=index, body=request_body)
 
     logging.info('Populating elasticsearch...')
 
-    missing_meta = []
-
-    files = list_md_files_in_dir(source_dir)
-
-    for file in files:
+    target = 'source'
+    logging.info(list_md_files_in_dir(target))
+    for file in list_md_files_in_dir(target):
         logging.info('Processing {}...'.format(file))
-
-        output, missing_metadata = format_markdown_text(open(file, 'r').read(), file)
-        if missing_metadata:
-            missing_meta.append(file)
-
-        output['url'] = file.replace(source_dir, '').replace('.md', '.html')
-        es.index(index=index_name, body=output)
-
-    logging.info('Total documents missing meta tags {}/{}:'.format(len(missing_meta), len(files)))
-
-    for file in missing_meta: 
-        logging.warning(file)
+        output = format_markdown_text(open(file, 'r').read())
+        output['url'] = '/' + file.replace(target, '').replace('.md', '.html')
+        res = es.index(index=index, body=output)
 
     logging.info('Done!')
