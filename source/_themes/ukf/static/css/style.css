@@ -83,20 +83,34 @@ h2 a {
     background-color: #fff;
     box-shadow: 0 1px 3px 0 rgba(0,0,0,.1),0 1px 2px 0 rgba(0,0,0,.06);
     border-radius: .25rem;
-    padding: 2em 2.5em
+    padding: 1em 2em 2.5em
 }
 
 #sidebar-container {
     position: relative;
     width:220px;
-    float:left
+    float:left;
+    margin-top:15px
 }
 
 #content-container {
     width: auto;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 25px;
+    margin-right: 25px;
 }
+
+#breadcrumb {
+    list-style: none;
+    margin: 0px 0 15px;
+    display: block;
+    overflow: hidden;
+}
+
+#breadcrumb li {
+    float: left;
+    margin-right: 5px;
+}
+  
 
 @media only screen and (min-width: 991px){
     #content-container {margin-left: 250px;}
