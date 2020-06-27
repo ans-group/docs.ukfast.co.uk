@@ -88,7 +88,7 @@ def get_meta(text):
     keywords = []
 
     try:
-        title = re.search('.. title: (.*)\\b', text).group(1).strip()
+        title = re.search('.. title:: (.*)\\b', text).group(1).strip()
     except:
         pass
 
@@ -258,7 +258,7 @@ if __name__ == '__main__':
         if missing_metadata:
             missing_meta.append(file)
 
-        output['url'] = file.replace(source_dir, '').replace('.md', '.html')
+        output['url'] = file.replace('.md', '.html')
         es.index(index=index_name, body=output)
 
     logging.info('Total documents missing meta tags {}/{}:'.format(len(missing_meta), len(files)))
