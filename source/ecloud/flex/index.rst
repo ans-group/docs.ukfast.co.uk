@@ -16,7 +16,7 @@ General Information
 .. toctree::
    :maxdepth: 1
 
-   general/index
+   General Information <general/index>
 
 ----------------------------------------
 Managing Resources
@@ -25,10 +25,10 @@ Managing Resources
 .. toctree::
    :maxdepth: 1
 
-   resources/index
-   resources/compute/index
-   resources/network/index
-   resources/storage/index
+   Managing Resources <resources/index>
+   Compute <resources/compute/index>
+   Network <resources/network/index>
+   Storage <resources/storage/index>
    resources/lbaas/index
    resources/orchestration/index
    
