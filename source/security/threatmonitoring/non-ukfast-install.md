@@ -102,7 +102,7 @@ Finally, run the provided command to complete your install. Upon completion, you
 
 An example MyUKFast configuration setup is shown below.
 
-![configuration-and-install](files/setup-instructions-and-names.png)
+![configuration-and-install](files/setup-instructions-and-name.png)
 
 If you do encounter any issues during installation, please get in contact with UKFast support.
 
