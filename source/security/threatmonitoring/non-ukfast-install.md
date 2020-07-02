@@ -1,16 +1,15 @@
 # Installing Threat Monitoring on a non-UKFast server
 
+```eval_rst
+.. warning::
+   This documentation is for setting on a non-UKFast hosted server with Threat Monitoring. Instructions on how to install Threat Monitoring and Response on a UKFast hosted server can be found in our [Installing Threat Monitoring on a UKFast hosted server](/security/threat-monitoring/ukfast-hosted-install) documentation.
+```
+
 Threat Monitoring can also be installed on servers that are not hosted with UKFast, allowing you to secure and protect all parts of your IT infrastructure via one centralised threat defence platform.
 
 To begin, log into MyUKFast and visit the Threat Monitoring new agent configuration page https://my.ukfast.co.uk/threat-monitoring/configuration then select `Non UKFast` from the `Hosting Type` drop-down option.
 
 ![setup-type](files/setup-type.png)
-
-
-```eval_rst
-.. warning::
-   This documentation is for setting on a non-UKFast hosted server with Threat Monitoring. Instructions on how to install Threat Monitoring and Response on a UKFast hosted server can be found in our [Installing Threat Monitoring on a UKFast hosted server](/security/threat-monitoring/ukfast-hosted-install) documentation.
-```
 
 
 To install UKFast Threat Monitoring on a non-UKFast hosted server, follow these steps:
