@@ -64,7 +64,7 @@ Ncat: 0 bytes sent, 0 bytes received in 0.02 seconds.
 
 ## 3) Configure and install
 
-Next, select the operating system type of the target server via the provided  `Operating System` drop-down, as shown below. Please operating systems now shown are not supported on non-ukfast Threat Monitoring installs.
+Next, select the operating system type of the target server via the provided  `Operating System` drop-down as shown below. Please note operating systems that are not shown are not supported on non-ukfast Threat Monitoring installs.
 
 ![select-os](files/setup-centos.png)
 
