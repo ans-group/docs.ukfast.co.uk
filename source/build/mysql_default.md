@@ -17,6 +17,7 @@ By default your MySQL/Percona/MariaDB database server will be configured with th
 ```
 
 ```eval_rst
+  .. title:: UKFast MySQL database build documentation
   .. meta::
       :title: UKFast MySQL database build documentation | UKFast Documentation
       :description: Build documentation for MySQL database servers

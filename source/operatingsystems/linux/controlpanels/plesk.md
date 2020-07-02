@@ -34,6 +34,7 @@ In addition to the above, you can also connect to your panel though the MyUKFast
 If you encounter any issues connecting to your Plesk Control Panel using the instructions above, please do not hesitate to get in touch with our support team.
 
 ```eval_rst
+  .. title:: Connecting to your Plesk Control Panel
   .. meta::
      :title: Connecting to your Plesk Control Panel | UKFast Documentation
      :description: A guide for getting into your Plesk Control Panel

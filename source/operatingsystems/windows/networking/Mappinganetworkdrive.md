@@ -21,6 +21,7 @@ You should now be presented with the shared drive in "This-PC" or "My Computer",
 ![Mounted](files/networkdrive/mounted.PNG)
 
 ```eval_rst
+  .. title:: Mapping a network drive  on Windows| UKFast Documentation
   .. meta::
      :title: Mapping a network drive  on Windows| UKFast Documentation
      :description: A simple guide to mapping a network drive on Windows

@@ -2,7 +2,7 @@
 Disk expansion (eCloud)
 =======================
 
-This guide covers the process of expanding the size of your disks on our eCloud Public, Hybrid, and Private platforms.
+This guide covers the process of expanding the size of your disks on our eCloud Public and Private platforms.
 
 In MyUKFast, you will be presented with options to alter your allocation of storage to a virtual machine (VM):
 

@@ -34,7 +34,7 @@ After the call, the engineer will send you across our Threat Monitoring question
 * Scheduled Malware scans
 * Rootkit scanning
 * Types of control panels installed
-* IP addresses to be whitelisted from active response
+* IP addresses to be allowed from active response
 * Custom File Integrity Monitoring locations
 
 ## Configuration Phase

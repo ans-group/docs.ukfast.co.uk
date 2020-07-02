@@ -75,6 +75,7 @@
 ```
 
 ```eval_rst
+  .. title:: UKFast web build documentation
   .. meta::
       :title: UKFast web build documentation | UKFast Documentation
       :description: Build documentation for web servers

@@ -1,5 +1,12 @@
 # Troubleshooting
 
+```eval_rst
+   .. title:: FastCloudBackup | Troubleshooting
+   .. meta::
+      :title: FastCloudBackup | Troubleshooting | UKFast Documentation
+      :description: Information on how to troubleshoot issues with FastCloudBackup
+```
+
 This section contains help relating to problems you may run in to.
 
 ## Add New Computer button doesn't work
@@ -8,7 +15,7 @@ There is an button on the Computers page labelled `Add New Computer`.
 
 ![computer](files/computer.PNG)
 
-You should not use this to add new computers or servers to be backed up - instead follow the instructions shown on [Setting up the FASTcloudbackup agent](InstallingtheFASTcloudbackupagent.html) - this will guide you through installing the agent so you can run and manage backups.
+You should not use this to add new computers or servers to be backed up - instead follow the instructions shown on [Setting up the FASTcloudbackup agent](Installingthefastcloudbackupagent) - this will guide you through installing the agent so you can run and manage backups.
 
 ## Problems browsing file structure
 
@@ -56,7 +63,7 @@ The first time a computer or server is backed up, a full backup of all selected 
 
 The speed of your network connectivity will also affect the time a backup takes to run.
 
-You can set up an alert so you are notified if a single backup job exceeds 24 hours - see [Alerts](alerts.html) for details.
+You can set up an alert so you are notified if a single backup job exceeds 24 hours - see [Alerts](alerts) for details.
 
 You can "kill" a backup job at any point through the [FASTcloudbackup web console](https://fcb.ukfast.co.uk).  When a backup job is in progress, click `Kill` in the Schedules area to stop the backup from running.
 
@@ -90,6 +97,6 @@ You may see an option within the web console to Sync data between two computers 
 
 ## Why doesn't the Migration Assistant work?
 
-When installing the FASTcloudbackup agent, a Migration Assistant will also be added to your computer or server.  However you should not use this to complete the installation or setup process.  Simply follow the instructions in [Setting up the FASTcloudbackup agent](InstallingtheFASTcloudbackupagent.html).
+When installing the FASTcloudbackup agent, a Migration Assistant will also be added to your computer or server.  However you should not use this to complete the installation or setup process.  Simply follow the instructions in [Setting up the FASTcloudbackup agent](Installingthefastcloudbackupagent).
 
 ![migration_assistant](files/migration_assistant.png)

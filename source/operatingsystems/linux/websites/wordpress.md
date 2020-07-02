@@ -6,11 +6,10 @@ WordPress is an incredibly popular blogging platform that's increasingly being u
 .. seealso::
    If you're currently looking at a blank server, you'll first need to follow these prerequisite guides:
 
-   :doc:`/operatingsystems/linux/apache/installation`
+   - :doc:`/operatingsystems/linux/apache/installation`
+   - :doc:`/operatingsystems/linux/php/installation`
+   - :doc:`/operatingsystems/linux/mysql/installation`
 
-   :doc:`/operatingsystems/linux/php/installation`
-
-   :doc:`/operatingsystems/linux/mysql/installation`
 ```
 
 ```eval_rst
@@ -114,7 +113,7 @@ Providing your apache configuration is correct, you should now be able to browse
 
 Select your language and hit continue.
 
-If you don't see the above screen, you're probably missing one of [Wordpress's dependencies](https://wordpress.org/about/requirements/).  If you haven't installed the php-mysql module, this is likely where you'll start to see issues. Check this guide on [installing PHP modules](/operatingsystems/linux/php/moduleinstallation.html) for further guidance.
+If you don't see the above screen, you're probably missing one of [Wordpress's dependencies](https://wordpress.org/about/requirements/).  If you haven't installed the php-mysql module, this is likely where you'll start to see issues. Check this guide on [installing PHP modules](/operatingsystems/linux/php/moduleinstallation) for further guidance.
 
 The next page should just be letting you know that you're going to need your database credentials, but we've already covered that.
 
@@ -180,6 +179,7 @@ FLUSH PRIVILEGES;
 The user should now have been added successfully and you should be able to log into this account from your WordPress admin page.
 
 ```eval_rst
+  .. title:: Configuring WordPress on Linux
   .. meta::
      :title: Configuring WordPress on Linux | UKFast Documentation
      :description:  How to configure WordPress and add admin users

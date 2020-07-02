@@ -137,6 +137,7 @@ A domain's access and error logs directory- `/var/www/vhosts/system/domain.com/l
 PHP-FPM logs, replacing $$ for PHP version - `/var/log/plesk-php$$-fpm/error.log`
 
 ```eval_rst
+  .. title:: Linux Log Files
   .. meta::
      :title: Linux Log Files | UKFast Documentation
      :description: Guidance on where to find important Linux logs

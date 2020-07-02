@@ -60,6 +60,7 @@ You can now remove the flag from "/etc/my.cnf", and restart MySQL:
 
 
 ```eval_rst
+  .. title:: MySQL command line basics
   .. meta::
      :title: MySQL command line basics | UKFast Documentation
      :description: A basic guide to using the MySQL command line in Linux

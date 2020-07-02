@@ -42,7 +42,9 @@ One large factor of how many concurrent tasks will run at any one time is how yo
 ```
 
 ```eval_rst
+   .. title:: Client Veeam Infrastructure
    .. meta::
       :title: Client Veeam Infrastructure | UKFast Documentation
       :description: Client infrastructure required to connect to UKFast Veeam Cloud Connect
       :keywords: ukfast, cloud, ecloud, public, hosting, infrastructure, vmware, draas, veeam, connect, dr, replication, backup
+```

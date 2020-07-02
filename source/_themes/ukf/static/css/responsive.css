@@ -45,7 +45,7 @@
     }
 
     .submenu {
-        background-color: #f32837;
+        background-color: #e65743;
     }
 
     #wrap .twitter-typeahead {
@@ -170,7 +170,7 @@
  */
 @media (min-width: 768px) and (max-width: 991px) {
     .header-transparent .main-header {
-        background-color: #f32837;
+        background-color: #e65743;
     }
 
     .search-form {
@@ -267,7 +267,7 @@
     display: none;
 }
 #modal .menu > li {
-    background: #f32837;
+    background: #e65743;
     border-bottom: 2px solid #aaabac;
 }
 #modal .menu > li > a {

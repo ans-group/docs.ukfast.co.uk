@@ -14,6 +14,7 @@ If your servers are behind UKFast shared firewalls, we will not support the crea
 
 
 ```eval_rst
+  .. title:: Supported VPNs
   .. meta::
      :title: Supported VPNs | UKFast Documentation
      :description: What kind of VPNs are supported on UKFast firewalls?

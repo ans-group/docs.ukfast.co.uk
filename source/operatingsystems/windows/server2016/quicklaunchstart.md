@@ -67,6 +67,7 @@ To remove the Tile Pad, you simply need to unpin all of the tiles from the pad, 
 ![Start menu Reduced](files/editingquicklaunch/startmenureduced.PNG)
 
 ```eval_rst
+  .. title:: Start Menu in Windows Server 2016
   .. meta::
      :title: Start Menu in Windows Server 2016 | UKFast Documentation
      :description: A guide to customising the Start Menu tile pad in Windows Server 2016
