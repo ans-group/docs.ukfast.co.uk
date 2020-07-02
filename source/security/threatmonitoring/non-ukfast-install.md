@@ -47,7 +47,7 @@ Before configuring your agent, verify that that the target server has the correc
 | 185.234.39.17 | 443 | TCP | UKFast API servers |
 | 178.238.133.128 | 443 | TCP | Threat Monitoring ingest servers|
 
-Communication can be tested on a Linux system using a utility like `netcat`, an example command to verify communication is shown below. Please note the `netcat` command may be mapped to the `nc` command instead.
+Communication can be tested on a Linux system using a utility like `netcat`, an example command to verify communication is shown below. Please note the `netcat` command may be mapped to the `nc` command instead on some linux distributions.
 
 **Command**
 
