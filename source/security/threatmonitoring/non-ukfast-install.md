@@ -70,15 +70,37 @@ Next, select the operating system type of the target server via the provided  `O
 
 Upon selecting your OS, the needed commands will be shown to you. These commands will need to be run via the command line via a terminal like SSH on your server. 
 
-The provided commands will attempt to escalate to the privileged root user (`sudo -i`). If your current user is not able to escalate it's permissions to the root user or not able to run the `sudo` command, please re-try from a different account with the correct permissions. Alternatively, you may run the commands using the root user directly.
+The provided commands will attempt to escalate to the privileged root user. 
 
-When you have root access, please continue with the next 2 commands. These commands will install our UKFast Defensive Security yum or apt package repository onto your server and then install our Threat Monitoring package and its dependencies.
+`sudo -i`
+
+If your current user is not able to escalate it's permissions to the root user or is not able to run the `sudo` command, please re-try from a different account with the correct permissions. Alternatively, you may run the commands using the root user directly.
+
+When you have root access, please continue to install our UKFast Defensive Security yum or apt package repository onto your server and then install our Threat Monitoring package and its dependencies via the commands shown on your MyUKFast page. An example for a CentOS 7 installation is shown below.
+
+```
+[root@my-server ~]$ rpm --import https://repo.thmon.ukfast.co.uk/key/UKFDEFSEC-GPG-KEY && \
+cat > /etc/yum.repos.d/ukfast-defensive-security.repo <<\EOF
+[ukfast_defensive_security]
+gpgcheck=1
+pgkey=https://repo.thmon.ukfast.co.uk/key/UKFDEFSEC-GPG-KEY
+enabled=1
+name=UKFast Defensive Security repository
+baseurl=https://repo.thmon.ukfast.co.uk/yum/rhel-centos-6
+EOF
+```
+
+```
+[root@my-server ~]$ yum install threat-monitoring -y
+```
 
 Once the package has been installed successfully, you need to perform 1 final step to link your server up to our Threat Monitoring infrastructure. 
 
-Before we do that, you have the option of setting a custom friendly name for this server that will later be shown in any Threat Monitoring dashboards when referring to this server. You can either specify this optional manually using the `-name=NAME_HERE` flag or by entering your desired server in the `Name` text box provided in the MyUKfast installation page. Updating this text box will automatically update the commands that we need to run next.
+Before we do that, you have the option of setting a custom friendly that will later be shown in any Threat Monitoring dashboards when referring to this server. You can either specify this optional manually using the `-name=NAME_HERE` flag, or by entering your desired server in the `Name` text box provided on the MyUKfast installation page. Updating this text box will automatically update the commands that we need to run next.
 
-Finally, run the provided command to complete your install. Upon completion, you should see a success message reading, `Success! Your Threat Monitoring Agent is now configured and working`. An example setup is shown below.
+Finally, run the provided command to complete your install. Upon completion, you should see a success message reading, `Success! Your Threat Monitoring Agent is now configured and working`. 
+
+An example MyUKFast configuration setup is shown below.
 
 ![configuration-and-install](files/setup-instructions-and-names.png)
 
