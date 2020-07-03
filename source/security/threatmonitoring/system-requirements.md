@@ -8,14 +8,23 @@ If you have any questions reguarding the below, or would like further informatio
 
 Please refer to the below combatability matrix before installing threat monitoring onto a server to understand what hardware is required.
 
-| Hardware | Requirement |
-|------|------|
-| System Architecture | x86 |
-| CPU Cores | 2 (Dual-core) or more |
-| CPU Speed | 1Ghz or more |
-| Memory (RAM) | 2GB or more |
-| Free disk space | 8GB or more |
-| Disk Speed | 600 IOPS or more |
+```eval_rst
++---------------------+-----------------------+
+|       Hardware      |      Requirement      |
++=====================+=======================+
+| System Architecture | x86                   |
++---------------------+-----------------------+
+| CPU Cores           | 2 (Dual-core) or more |
++---------------------+-----------------------+
+| CPU Speed           | 1Ghz or more          |
++---------------------+-----------------------+
+| Memory (RAM)        | 2GB or more           |
++---------------------+-----------------------+
+| Free disk space     | 8GB or more           |
++---------------------+-----------------------+
+| Disk Speed          | 600 IOPS or more      |
++---------------------+-----------------------+
+```
 
 **Virtual Servers**
 
@@ -31,15 +40,25 @@ If you don't know your virtual server's virtulisation type, please contact your 
 
 `dmidecode -s system-product-name`
 
+```eval_rst
++---------------------+-----------+
 | Virtualization Type | Supported |
-|------|------|
-| KVM | Yes |
-| vmware | Yes |
-| hyperv | Yes |
-| xen | **No** |
-| openvz | **No** |
-| LXC/LXD | **No** |
-| AWS | **No** |
++=====================+===========+
+| KVM                 | Yes       |
++---------------------+-----------+
+| vmware              | Yes       |
++---------------------+-----------+
+| hyperv              | Yes       |
++---------------------+-----------+
+| xen                 | No        |
++---------------------+-----------+
+| openvz              | No        |
++---------------------+-----------+
+| LXC/LXD             | No        |
++---------------------+-----------+
+| AWS                 | No        |
++---------------------+-----------+
+```
 
 Please note Threat Monitoring does **not** support cloud services such as Amazon AWS, Microsoft Azure or Google Cloud.
 
@@ -49,22 +68,39 @@ Please refer to the below combatability matrix before installing threat monitroi
 
 Threat Monitoring Core is required, any other modules are optional, but highly reccomended for full protection.
 
-| Operating System    | UKFast Hosted | Non-UKFast Hosted |      | Core | NIDS Module | 
-|---------------------|---------------|-------------------|------|------|-------------|
-| Centos 6            | Yes           | Yes               |      | Yes  | **No**      |
-| Centos 7            | Yes           | Yes               |      | Yes  | Yes         |
-| Centos 8            | Yes           | Yes               |      | Yes  | Yes         |
-| RHEL 6              | Yes           | Yes               |      | Yes  | Yes         |
-| RHEL 7              | Yes           | Yes               |      | Yes  | Yes         |
-| RHEL 8              | Yes           | Yes               |      | Yes  | Yes         |
-| Ubuntu 16.04        | Yes           | Yes               |      | Yes  | Yes         |
-| Ubuntu 18.04        | Yes           | Yes               |      | Yes  | Yes         |
-| Ubuntu 20.04        | Yes           | Yes               |      | Yes  | Yes         |
-| Debian 8            | Yes           | Yes               |      | Yes  | Yes         |
-| Debian 9            | Yes           | Yes               |      | Yes  | Yes         |
-| Windows Server 2012 | Yes           | **No**            |      | Yes  | **No**      |
-| Windows Server 2016 | Yes           | **No**            |      | Yes  | **No**      |
-| Windows Server 2019 | Yes           | **No**            |      | Yes  | **No**      | 
+```eval_rst
++---------------------+---------------+-------------------+--+------+-------------+
+|   Operating System  | UKFast Hosted | Non-UKFast Hosted |  | Core | NIDS Module |
++=====================+===============+===================+==+======+=============+
+| Centos 6            | Yes           | Yes               |  | Yes  | No          |
++---------------------+---------------+-------------------+--+------+-------------+
+| Centos 7            | Yes           | Yes               |  | Yes  | Yes         |
++---------------------+---------------+-------------------+--+------+-------------+
+| Centos 8            | Yes           | Yes               |  | Yes  | Yes         |
++---------------------+---------------+-------------------+--+------+-------------+
+| RHEL 6              | Yes           | Yes               |  | Yes  | Yes         |
++---------------------+---------------+-------------------+--+------+-------------+
+| RHEL 7              | Yes           | Yes               |  | Yes  | Yes         |
++---------------------+---------------+-------------------+--+------+-------------+
+| RHEL 8              | Yes           | Yes               |  | Yes  | Yes         |
++---------------------+---------------+-------------------+--+------+-------------+
+| Ubuntu 16.04        | Yes           | Yes               |  | Yes  | Yes         |
++---------------------+---------------+-------------------+--+------+-------------+
+| Ubuntu 18.04        | Yes           | Yes               |  | Yes  | Yes         |
++---------------------+---------------+-------------------+--+------+-------------+
+| Ubuntu 20.04        | Yes           | Yes               |  | Yes  | Yes         |
++---------------------+---------------+-------------------+--+------+-------------+
+| Debian 8            | Yes           | Yes               |  | Yes  | Yes         |
++---------------------+---------------+-------------------+--+------+-------------+
+| Debian 9            | Yes           | Yes               |  | Yes  | Yes         |
++---------------------+---------------+-------------------+--+------+-------------+
+| Windows Server 2012 | Yes           | No                |  | Yes  | No          |
++---------------------+---------------+-------------------+--+------+-------------+
+| Windows Server 2016 | Yes           | No                |  | Yes  | No          |
++---------------------+---------------+-------------------+--+------+-------------+
+| Windows Server 2019 | Yes           | No                |  | Yes  | No          |
++---------------------+---------------+-------------------+--+------+-------------+
+```
 
 **Any operating systems not mentioned above are not supported.**
 
