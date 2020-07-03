@@ -20,6 +20,9 @@ To install UKFast Threat Monitoring on a non-UKFast hosted server, follow these 
 
 **[3. Configure and install](#configure-and-install)** threat monitoring onto your server.
 
+**[4. Setup email contacts](#setup-email-contacts)** to receive email alerts. 
+
+
 
 ```eval_rst
 .. warning::
@@ -105,6 +108,18 @@ An example MyUKFast configuration setup is shown below.
 ![configuration-and-install](files/setup-instructions-and-name.png)
 
 If you do encounter any issues during installation, please get in contact with UKFast support.
+
+## 4) Setup email contacts
+
+To receive email alerts for suspicious events, you will need to configure email alerts via MyUKFast. To do this, go to the "Alerts Manager" section under "My Account", as shown below.
+
+![setup-type](files/setup-alerts-manager.png)
+
+On the Alerts Manager page, select the "Server" tab. On here you will see a table of contacts and the types of alerts they have been configured to receive. 
+
+To set a contact to receive Threat Monitoring alerts, press the letter icon next to their name under the Threat Monitoring column and then press the "Save Changes" button, an example is shown below.
+
+![setup-type](files/setup-contacts.png)
 
 
 ```eval_rst
