@@ -2,7 +2,7 @@
 
 ```eval_rst
 .. warning::
-   This documentation is for setting on a UKFast hosted server with Threat Monitoring. Instructions on how to install Threat Monitoring and Response on a non-UKFast hosted server can be found in our :doc:`/security/threat-monitoring/non-ukfast-install` documentation.
+   This documentation is for setting on a UKFast hosted server with Threat Monitoring. Instructions on how to install Threat Monitoring and Response on a non-UKFast hosted server can be found in our :doc:`non-ukfast-install` documentation.
 ```
 
 Threat Monitoring and Threat Response can be installed on servers that are hosted with UKFast, allowing you to secure and protect all parts of your UKFast hosted IT infrastructure via one centralised threat defence platform.
