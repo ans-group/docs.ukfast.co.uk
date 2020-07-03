@@ -1,31 +1,18 @@
 # Installing Threat Monitoring on a non-UKFast server
 
 ```eval_rst
-.. warning::
+.. note::
    This documentation is for setting on a non-UKFast hosted server with Threat Monitoring. Instructions on how to install Threat Monitoring and Response on a UKFast hosted server can be found in our :doc:`ukfast-hosted-install` documentation.
 ```
 
 Threat Monitoring can also be installed on servers that are not hosted with UKFast, allowing you to secure and protect all parts of your IT infrastructure via one centralised threat defence platform.
 
-To begin, log into MyUKFast and visit the Threat Monitoring new agent configuration page https://my.ukfast.co.uk/threat-monitoring/configuration then select `Non UKFast` from the `Hosting Type` drop-down option.
+To begin, log into MyUKFast and visit the [Threat Monitoring new agent configuration page](https://my.ukfast.co.uk/threat-monitoring/configuration) then select `Non UKFast` from the `Hosting Type` drop-down option.
 
 ![setup-type](files/setup-type.png)
 
-
-To install UKFast Threat Monitoring on a non-UKFast hosted server, follow these steps:
-
-**[1. Add an API token](#add-api-token)** to link your servers to Threat Monitoring
-
-**[2. Setup firewall](#setup-firewall)** your firewall to allow communication
-
-**[3. Configure and install](#configure-and-install)** threat monitoring onto your server.
-
-**[4. Setup email contacts](#setup-email-contacts)** to receive email alerts. 
-
-
-
 ```eval_rst
-.. warning::
+.. note::
    Threat Monitoring only supports a specific set of operating systems and configurations. Please make sure your server meets the minimum required specification and required requirements as defined in our :doc:`/security/threat-monitoring/system-requirements` documentation.
 ```
 
@@ -35,7 +22,7 @@ Firstly, generate or use an existing UKFast API application token. This applicat
 
 ![input-api-token](files/setup-apikey-example.png)
 
-If you don't have an existing API application token, or would like to generate a new application token, you can generate one by pressing the blue `Generate Application Token` button provided, as shown below. The generated token will be entered into the text box for you. Furthermore, application tokens can be managed via https://my.ukfast.co.uk/applications/index.php
+If you don't have an existing API application token, or would like to generate a new application token, you can generate one by pressing the blue `Generate Application Token` button provided, as shown below. The generated token will be entered into the text box for you. Furthermore, application tokens can be managed via the [API applications page](https://my.ukfast.co.uk/applications/index.php).
 
 ![generate-api-token](files/setup-apikey.png)
 
@@ -52,7 +39,9 @@ Communication can be tested on a Linux system using a utility like `netcat`, an 
 
 **Command**
 
-`netcat -z -v 185.234.39.17 443`
+```
+netcat -z -v 185.234.39.17 443
+```
 
 **Success Response**
 
@@ -73,7 +62,9 @@ Upon selecting your OS, the needed commands will be shown to you. These commands
 
 The provided commands will attempt to escalate to the privileged root user. 
 
-`sudo -i`
+```
+sudo -i
+```
 
 If your current user is not able to escalate it's permissions to the root user or is not able to run the `sudo` command, please re-try from a different account with the correct permissions. Alternatively, you may run the commands using the root user directly.
 
@@ -105,15 +96,15 @@ An example MyUKFast configuration setup is shown below.
 
 ![configuration-and-install](files/setup-instructions-and-name.png)
 
-If you do encounter any issues during installation, please get in contact with UKFast support.
+If you do encounter any issues during installation, please [raise a support request](https://my.ukfast.co.uk/pss/create).
 
 ## 4) Setup email contacts
 
-To receive email alerts for suspicious events, you will need to configure email alerts via MyUKFast. To do this, go to the "Alerts Manager" section under "My Account", as shown below.
+To receive email alerts for suspicious events, you will need to configure email alerts via MyUKFast. To do this, go to the [Alerts Manager section](https://my.ukfast.co.uk/alerts-manager/index.php) under "My Account", as shown below.
 
 ![setup-type](files/setup-alerts-manager.png)
 
-On the Alerts Manager page, select the "Server" tab. On here you will see a table of contacts and the types of alerts they have been configured to receive. 
+On the "Server " tab, you will see a table of contacts and the types of alerts they have been configured to receive. 
 
 To set a contact to receive Threat Monitoring alerts, press the letter icon next to their name under the Threat Monitoring column and then press the "Save Changes" button, an example is shown below.
 
@@ -121,7 +112,7 @@ To set a contact to receive Threat Monitoring alerts, press the letter icon next
 
 
 ```eval_rst
-   .. title:: Installing Threat Monitoring on a non-UKFast server
+   .. title:: Installing on a non-UKFast server
    .. meta::
         :title: Installing Threat Monitoring on a non-UKFast server
         :description: Guidance on installing UKFast's Threat Monitoring on a non-UKFast server
