@@ -2,7 +2,7 @@
 
 ```eval_rst
 .. warning::
-   This documentation is for setting on a non-UKFast hosted server with Threat Monitoring. Instructions on how to install Threat Monitoring and Response on a UKFast hosted server can be found in our [Installing Threat Monitoring on a UKFast hosted server](/security/threat-monitoring/ukfast-hosted-install) documentation.
+   This documentation is for setting on a non-UKFast hosted server with Threat Monitoring. Instructions on how to install Threat Monitoring and Response on a UKFast hosted server can be found in our :doc:`/security/threat-monitoring/ukfast-hosted-install` documentation.
 ```
 
 Threat Monitoring can also be installed on servers that are not hosted with UKFast, allowing you to secure and protect all parts of your IT infrastructure via one centralised threat defence platform.
@@ -26,7 +26,7 @@ To install UKFast Threat Monitoring on a non-UKFast hosted server, follow these 
 
 ```eval_rst
 .. warning::
-   Threat Monitoring only supports a specific set of operating systems and configurations. Please make sure your server meets the minimum required specification and required requirements as defined in our [System Requirements](/security/threat-monitoring/system-requirements) documentation.
+   Threat Monitoring only supports a specific set of operating systems and configurations. Please make sure your server meets the minimum required specification and required requirements as defined in our :doc:`/security/threat-monitoring/system-requirements` documentation.
 ```
 
 ## 1) Add an API token
