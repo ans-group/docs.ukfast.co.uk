@@ -15,10 +15,10 @@ Threat Response is an additional service which provides managed support by our i
    :maxdepth: 1
    
    getting-started
-   ukfast-hosted-install
-   non-ukfast-install
+   Installing on a UKFast hosted server <ukfast-hosted-install>
+   Installing on a nion-UKFast hosted server <non-ukfast-install>
    system-requirements
-   how-it-works
+   How does it work? <how-it-works>
    thmon-for-pci-dss
    general-information
    alerts
