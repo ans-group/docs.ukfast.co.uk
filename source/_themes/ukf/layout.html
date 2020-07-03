@@ -389,6 +389,12 @@
 					</ul>
 				
 					{% block body %} {% endblock %}
+
+					
+					{%- if next -%}
+					<p>Next Article > <a title="{{ next.title|striptags|e }}" href="{{ next.link|e }}" />{{ next.title|striptags|e }}</a></p>
+					{%- endif -%}
+
 				</div>
 			</div>
 		</div>

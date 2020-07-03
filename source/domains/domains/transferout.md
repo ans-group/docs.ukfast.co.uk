@@ -1,7 +1,7 @@
-# Transferring a domain away from UKFast
+# Transferring a Domain away from UKFast
 
 ```eval_rst
-   .. title:: Domain Names | Transferring from UKFast
+   .. title:: Transferring a Domain away from UKFast
    .. meta::
       :title: Domain Names | Transfering from UKFast | UKFast Documentation
       :description: How to transfer your domain away from UKFast
