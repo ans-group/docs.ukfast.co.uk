@@ -45,7 +45,7 @@ Please note Threat Monitoring does **not** support cloud services such as Amazon
 
 ### Operating System combatability matrix
 
-Please refer to the below combatability matrix before installing threat monitroing onto a server to understand which Threat Monitoring modules may be installed. Any operating systems not mentioned below are not supported.
+Please refer to the below combatability matrix before installing threat monitroing onto a server to understand which Threat Monitoring modules may be installed onto a target server. 
 
 Threat Monitoring Core is required, any other modules are optional, but highly reccomended for full protection.
 
@@ -65,6 +65,8 @@ Threat Monitoring Core is required, any other modules are optional, but highly r
 | Windows Server 2012 | Yes           | **No**            |      | Yes  | **No**      |
 | Windows Server 2016 | Yes           | **No**            |      | Yes  | **No**      |
 | Windows Server 2019 | Yes           | **No**            |      | Yes  | **No**      | 
+
+**Any operating systems not mentioned above are not supported.**
 
 
 ```eval_rst
