@@ -30,10 +30,15 @@ If you don't have an existing API application token, or would like to generate a
 
 Before configuring your agent, verify that that the target server has the correct firewall ports open to communicate outbound to both the UKFast API servers and the Threat Monitoring ingest servers, the required details are shown below.
 
-| Destination IP | Destination Port | Protocol | Description |
-|-----|-----|-----|-----|
-| 185.234.39.17 | 443 | TCP | UKFast API servers |
-| 178.238.133.128 | 443 | TCP | Threat Monitoring ingest servers|
+```eval_rst
++-----------------+------------------+----------+----------------------------------+
+|  Destination IP | Destination Port | Protocol |            Description           |
++=================+==================+==========+==================================+
+| 185.234.39.17   | 443              | TCP      | UKFast API servers               |
++-----------------+------------------+----------+----------------------------------+
+| 178.238.133.128 | 443              | TCP      | Threat Monitoring ingest servers |
++-----------------+------------------+----------+----------------------------------+
+```
 
 Communication can be tested on a Linux system using a utility like `netcat`, an example command to verify communication is shown below. Please note the `netcat` command may be mapped to the `nc` command instead on some linux distributions.
 
