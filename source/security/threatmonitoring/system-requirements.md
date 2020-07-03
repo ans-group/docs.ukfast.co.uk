@@ -62,9 +62,9 @@ Threat Monitoring Core is required, any other modules are optional, but highly r
 | Ubuntu 20.04        | Yes           | Yes               |      | Yes  | Yes         |
 | Debian 8            | Yes           | Yes               |      | Yes  | Yes         |
 | Debian 9            | Yes           | Yes               |      | Yes  | Yes         |
-| Windows Server 2012 | Yes           | No                |      | Yes  | **No**      |
-| Windows Server 2016 | Yes           | No                |      | Yes  | **No**      |
-| Windows Server 2019 | Yes           | No                |      | Yes  | **No**      | 
+| Windows Server 2012 | Yes           | **No**            |      | Yes  | **No**      |
+| Windows Server 2016 | Yes           | **No**            |      | Yes  | **No**      |
+| Windows Server 2019 | Yes           | **No**            |      | Yes  | **No**      | 
 
 
 ```eval_rst
