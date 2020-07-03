@@ -11,11 +11,7 @@ You can view your credit balance logging into MyUKFast, navigating to the Threat
 
 ![credits-remaining](files/setup-banner.png)
 
-Once credits have been assigned to your account, you can complete the instalation process via MyUKFast. Documentation for both a UKFast hosted and non-UKFast hosted servers can be found here:
-
-* :doc:`ukfast-hosted-install`
-* :doc:`non-ukfast-install`
-
+Once credits have been assigned to your account, you can complete the instalation process via MyUKFast. We have documentation availible for both :doc:`UKFast hosted servers<ukfast-hosted-install>` and :doc:`Non-UKFast hosted servers<non-ukfast-install>`.
 
 ### Setup and Walkthrough
 
