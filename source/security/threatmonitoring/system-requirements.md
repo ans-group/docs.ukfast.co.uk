@@ -1,12 +1,12 @@
 # System Requirements
 
-To ensure the best possible experience, Threat Monitoring may only be installed on systems that meet or exceed the below system requirements. Theese requirements may be subject to change as Threat Monitroing improves.
+To ensure the best possible experience, Threat Monitoring may only be installed on systems that meet or exceed the below system requirements. These requirements may be subject to change as Threat Monitoring improves.
 
-If you have any questions reguarding the below, or would like further information reguarding a custom installation, please contact UKFast support.
+If you have any questions regarding the below or would like further information regarding a custom installation, please [contact UKFast support](https://my.ukfast.co.uk/pss/create).
 
 ### Hardware requirements
 
-Please refer to the below combatability matrix before installing threat monitoring onto a server to understand what hardware is required.
+Please refer to the below compatibility matrix before installing threat monitoring onto a server to understand what hardware is required.
 
 ```eval_rst
 +---------------------+-----------------------+
@@ -26,15 +26,15 @@ Please refer to the below combatability matrix before installing threat monitori
 +---------------------+-----------------------+
 ```
 
-**Virtual Servers**
+### Virtual Servers
 
-Threat Monitroing may also be installed onto virtual servers. 
+Threat Monitoring may also be installed onto virtual servers. 
 
-OS Container based servers and applications containers (Such as docker) are not currently supported. 
+OS Container-based servers and applications containers (Such as docker) are not currently supported. 
 
-Please refer to the below combatability matrix before installing threat monitoring onto a virtual server to understand what virtualization types are supported. Any virtualization not mentioned below are not supported.
+Please refer to the below compatibility matrix before installing threat monitoring onto a virtual server to understand what virtualization types are supported. Any virtualization not mentioned below are not supported.
 
-If you don't know your virtual server's virtulisation type, please contact your hosting provider for more information. Additionally, the below commands may be able to show you your system's virtulisation type on a Linux system.
+If you don't know your virtual server's virtualisation type, please contact your hosting provider for more information. Additionally, the below commands may be able to show you your system's virtualisation type on a Linux system.
 
 `hostnamectl status`
 
@@ -62,11 +62,11 @@ If you don't know your virtual server's virtulisation type, please contact your 
 
 Please note Threat Monitoring does **not** support cloud services such as Amazon AWS, Microsoft Azure or Google Cloud.
 
-### Operating System combatability matrix
+### Operating System compatibility matrix
 
-Please refer to the below combatability matrix before installing threat monitroing onto a server to understand which Threat Monitoring modules may be installed onto a target server. 
+Please refer to the below compatibility matrix before installing threat monitoring onto a server to understand which Threat Monitoring modules may be installed onto a target server. 
 
-Threat Monitoring Core is required, any other modules are optional, but highly reccomended for full protection.
+Threat Monitoring Core is required, any other modules are optional but highly recommended for full protection.
 
 ```eval_rst
 +---------------------+---------------+-------------------+--+------+-------------+
