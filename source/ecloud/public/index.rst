@@ -12,7 +12,7 @@ eCloud Public is a public cloud hosting platform based on VMware.
    editcpu
    editmem
    editdisks
-   deletevm
+   delete-vm
    vm-power-cycle
    credentials
    console

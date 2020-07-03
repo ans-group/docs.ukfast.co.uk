@@ -1,4 +1,4 @@
-# Transferring a domain to UKFast
+# Transferring a Domain to UKFast
 
 ```eval_rst
    .. title:: Domain Names | Transferring to UKFast
