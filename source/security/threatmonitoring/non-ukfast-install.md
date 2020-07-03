@@ -1,4 +1,4 @@
-# Installing Threat Monitoring on a non-UKFast server
+# Installing on a non-UKFast server
 
 ```eval_rst
 .. warning::
