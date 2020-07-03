@@ -13,7 +13,7 @@ To begin, log into MyUKFast and visit the [Threat Monitoring new agent configura
 
 ```eval_rst
 .. note::
-   Threat Monitoring only supports a specific set of operating systems and configurations. Please make sure your server meets the minimum required specification and required requirements as defined in our :doc:`/security/threat-monitoring/system-requirements` documentation.
+   Threat Monitoring only supports a specific set of operating systems and configurations. Please make sure your server meets the minimum required specification and required requirements as defined in our :doc:`system-requirements` documentation.
 ```
 
 ## 1) Add an API token
