@@ -49,22 +49,22 @@ Please refer to the below combatability matrix before installing threat monitroi
 
 Threat Monitoring Core is required, any other modules are optional, but highly reccomended for full protection.
 
-| Operating System | Core | NIDS Module | 
-|------|------|------|
-| Centos 6 | Yes | **No** |
-| Centos 7 | Yes | Yes |
-| Centos 8 | Yes | Yes |
-| RHEL 6 | Yes | **No** |
-| RHEL 7 | Yes | Yes |
-| RHEL 8 | Yes | Yes |
-| Ubuntu 16.04 | Yes | Yes |
-| Ubuntu 18.04 | Yes | Yes |
-| Ubuntu 20.04 | Yes | Yes |
-| Debian 8 | Yes | Yes |
-| Debian 9 | Yes | Yes |
-| Windows Server 2012 | Yes | **No** |
-| Windows Server 2016 | Yes | **No** |
-| Windows Server 2019 | Yes | **No** |
+| Operating System    | UKFast Hosted | Non-UKFast Hosted |      | Core | NIDS Module | 
+|---------------------|---------------|-------------------|------|------|-------------|
+| Centos 6            | Yes           | Yes               |      | Yes  | **No**      |
+| Centos 7            | Yes           | Yes               |      | Yes  | Yes         |
+| Centos 8            | Yes           | Yes               |      | Yes  | Yes         |
+| RHEL 6              | Yes           | Yes               |      | Yes  | Yes         |
+| RHEL 7              | Yes           | Yes               |      | Yes  | Yes         |
+| RHEL 8              | Yes           | Yes               |      | Yes  | Yes         |
+| Ubuntu 16.04        | Yes           | Yes               |      | Yes  | Yes         |
+| Ubuntu 18.04        | Yes           | Yes               |      | Yes  | Yes         |
+| Ubuntu 20.04        | Yes           | Yes               |      | Yes  | Yes         |
+| Debian 8            | Yes           | Yes               |      | Yes  | Yes         |
+| Debian 9            | Yes           | Yes               |      | Yes  | Yes         |
+| Windows Server 2012 | Yes           | No                |      | Yes  | **No**      |
+| Windows Server 2016 | Yes           | No                |      | Yes  | **No**      |
+| Windows Server 2019 | Yes           | No                |      | Yes  | **No**      | 
 
 
 ```eval_rst
