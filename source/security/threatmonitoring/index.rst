@@ -14,13 +14,13 @@ Threat Response is an additional service which provides managed support by our i
 .. toctree::
    :maxdepth: 1
    
+   general-information
+   How does it work? <how-it-works>
+   system-requirements
    getting-started
    Installing on a UKFast hosted server <ukfast-hosted-install>
    Installing on a non-UKFast hosted server <non-ukfast-install>
-   system-requirements
-   How does it work? <how-it-works>
    pci-dss
-   general-information
    alerts
    attack-ruleset/index
    alerts-explained/index
