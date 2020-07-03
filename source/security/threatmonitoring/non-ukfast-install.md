@@ -26,9 +26,7 @@ To install UKFast Threat Monitoring on a non-UKFast hosted server, follow these 
 
 ```eval_rst
 .. warning::
-
    Threat Monitoring only supports a specific set of operating systems and configurations. Please make sure your server meets the minimum required specification and required requirements as defined in our [System Requirements](/security/threat-monitoring/system-requirements) documentation.
-
 ```
 
 ## 1) Add an API token
@@ -123,6 +121,7 @@ To set a contact to receive Threat Monitoring alerts, press the letter icon next
 
 
 ```eval_rst
+   .. title:: Installing Threat Monitoring on a non-UKFast server
    .. meta::
         :title: Installing Threat Monitoring on a non-UKFast server
         :description: Guidance on installing UKFast's Threat Monitoring on a non-UKFast server
