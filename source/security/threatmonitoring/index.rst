@@ -19,7 +19,7 @@ Threat Response is an additional service which provides managed support by our i
    Installing on a non-UKFast hosted server <non-ukfast-install>
    system-requirements
    How does it work? <how-it-works>
-   thmon-for-pci-dss
+   pci-dss
    general-information
    alerts
    attack-ruleset/index
