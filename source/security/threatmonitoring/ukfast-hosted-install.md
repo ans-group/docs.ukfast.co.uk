@@ -80,5 +80,3 @@ To set a contact to receive Threat Monitoring alerts, press the letter icon next
      :title: Installing Threat Monitoring on a non-UKFast server | UKFast Documentation
      :description: Guidance on installing UKFast's Threat Monitoring on a non-UKFast server
      :keywords: threat monitoring, alerts, security, compliance, rules, rulesets, ukfast, hosting, file integrity monitoring, rootkit, detection, vulnerability scan, scans, hids, intrusion detection, set up
-
-```eval_rst
