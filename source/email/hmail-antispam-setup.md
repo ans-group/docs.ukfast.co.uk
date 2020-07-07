@@ -56,11 +56,11 @@ From here we will be configuring hMail’s anti-spam settings, covering them tab
 
 - <https://www.hmailserver.com/forum/viewtopic.php?t=28133>
 
-## DNS Blocklists
+## DNS denylist
 
 ![hMailServer > Settings > Anti-spam > DNS Blocklists](files/hmail-antispam-dnsblocklists.png)
 
-**DNS Blocklists** are lists maintained by different organisations that track IPs' associated mail traffic. When these are enabled it will check domains that email your server to ensure they are not on any blocklists. If the sending IP is blocked, it will reject the message. 
+**DNS denylist** are lists maintained by different organisations that track IPs' associated mail traffic. When these are enabled it will check domains that email your server to ensure they are not on any denylist. If the sending IP is blocked, it will reject the message. 
 
 hMail believe enabling this can cut down spam by as much as 15-25% and we would recommend enabling the default lists:
 
