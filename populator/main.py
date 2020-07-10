@@ -258,7 +258,7 @@ if __name__ == '__main__':
         if missing_metadata:
             missing_meta.append(file)
 
-        output['url'] = file.replace('.md', '.html')
+        output['url'] = re.sub(r'^source/','/',file.replace('.md', '.html'))
         es.index(index=index_name, body=output)
 
     logging.info('Total documents missing meta tags {}/{}:'.format(len(missing_meta), len(files)))
