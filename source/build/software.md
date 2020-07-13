@@ -77,7 +77,7 @@ By default virtual machines are built with the specified operating system **only
 ```
 
 ```eval_rst
-   .. title:: UKFast software build documentation | UKFast Documentation
+   .. title:: UKFast software build documentation
    .. meta::
       :description: Build documentation for UKFast software
       :keywords: ukfast, hosting, software, server, virtual
