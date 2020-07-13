@@ -99,9 +99,10 @@ You can also view grants for an individual user using the command below.
   1 row in set (0.00 sec)
 ```
 
-For more tips on managing users and databases, please do check out our [Managing Databases and Users](/operatingsystems/linux/mysql/managing_databases_users.html) guide.
+For more tips on managing users and databases, please do check out our [Managing Databases and Users](/operatingsystems/linux/mysql/managing_databases_users) guide.
 
 ```eval_rst
+  .. title:: MySQL command line basics
   .. meta::
      :title: MySQL command line basics | UKFast Documentation
      :description: A basic guide to using the MySQL command line in Linux

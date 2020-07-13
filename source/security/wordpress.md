@@ -17,7 +17,7 @@ The best way to address security problems is to make sure you've taken all the s
 - Find and use a good [security plugin](https://wordpress.org/plugins/tags/security/).
 - Keep up-to-date backups of your site's files and database.
 
-If you require additional security beyond the recommendations of WordPress, you could consider a [Web Application Firewall](/security/webapplicationfirewall/) from UKFast.
+If you require additional security beyond the recommendations of WordPress, you could consider a [Web Application Firewall](/security/webapplicationfirewall/index) from UKFast.
 
 ### My WordPress site was hacked, what now?
 
@@ -27,13 +27,15 @@ Be aware that restoring from a backup might remove the malicious code, but it wo
 
 WordPress maintain [their own in-depth security guide](https://codex.wordpress.org/FAQ_My_site_was_hacked) with suggestions and recommended plugins which is worth a read should you find your site compromised.
 
-We would also recommend running an on-demand virus scan just in case there's further issues beyond the compromised site. For Linux-based products we recommend [McAfee](/security/antivirus/), or alternatively the open source [ClamAV](www.clamav.net).
+We would also recommend running an on-demand virus scan just in case there's further issues beyond the compromised site. For Linux-based products we recommend [McAfee](/security/antivirus/index), or alternatively the open source [ClamAV](https://www.clamav.net).
 
 And in all cases, we would always recommend getting a security expert to review and confirm your site is safe again.
 
 
 ```eval_rst
+   .. title:: WordPress Security
    .. meta::
       :title: WordPress Security | UKFast Documentation
       :description: How to prevent the most common WordPress security problems
       :keywords:  ukfast, hosting, wp, wordpress, clamscan, security
+```

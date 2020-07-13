@@ -1,5 +1,12 @@
 # Linux Database Servers
 
+```eval_rst
+   .. title:: DR | Linux Database Server Backups
+   .. meta::
+      :title: DR | Linux Database Server Backups | UKFast Documentation
+      :description: Information on how to backup your Linux Database servers
+```  
+
 Database servers tend to keep a lot of things in memory, so seeing as we're taking file level backups you've got quite a high chance of taking inconsistent/corrupt backups.
 
 To get around this it's sensible to try and get a consistent dump of your databases written to disk before your backups run. This has the added bonus of being easily compressible, saving you space in your backup quota in the long run.
@@ -61,7 +68,7 @@ Once this is installed, you can create a full backup of your data directory by e
 
 As with most things on linux, the best way to automate one of the above is to use `cron`.
 
-Our guide on cron can be found [here](/linux/basics/cron.html), but as an example, here are both the methods laid out as cron jobs that would run at 10pm each night:
+Our guide on cron can be found [here](/operatingsystems/linux/basics/cron), but as an example, here are both the methods laid out as cron jobs that would run at 10pm each night:
 
 ```bash
    0 22 * * * mysqldump -uroot -pMySuperLongPassword --all-databases > /var/dumps/alldb-`date`.sql

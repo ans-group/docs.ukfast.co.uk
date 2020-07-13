@@ -42,15 +42,15 @@ If there are no errors in the configuration test proceed to reload the Nginx ser
  ~]$ nginx -s reload
 ```
 
-## Nginx .php File Whitelist 
+## Nginx .php File Allow list 
 
-The web service (Nginx) configuration file has a whitelist for .php files to pass to php-fpm. If you want to access a .php file not in the dedault list:
+The web service (Nginx) configuration file has an allow list for .php files to pass to php-fpm. If you want to access a .php file not in the default list:
 
 ```bash
 location ~ (index|get|static|report|404|503|health_check)\.php$ {
 ```
 
-Please refer to this guide: [Magento 2 .php File Whitelist](/operatingsystems/linux/magento/magento2/nginxphpfilewhitelist.html)
+Please refer to this guide: [Magento 2 .php File Allow list](/ecommercestacks/magento/magento2/nginxphpfileallowlist)
 
 ## Magento 2 CLI
 
@@ -61,6 +61,7 @@ If running the Magento 2 CLI please ensure you're logged in as the PHP-FPM confi
 ```
 
 ```eval_rst
+  .. title:: Magento 2 Adding Domain(s) To The Stack
   .. meta::
      :title: Magento 2 Adding Domain(s) To The Stack | UKFast Documentation
      :description: A guide to adding domains to the Magento optimised stack

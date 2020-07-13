@@ -1,4 +1,4 @@
-# The security scan 
+# The Security Scan
 
 Your first encounter with TLS/SSL may come when a security scan or PCI-DSS compliance scan is run against one of your websites. These scans can help reveal security issues to be addressed and are considered good practice, and even almost mandatory for Internet facing services. A security scan can very quickly analyse a website or server against known vulnerabilities and list these vulnerabilities in the form of a report. This report can then be used to make the site or server more secure.  
 
@@ -17,4 +17,11 @@ Additionally, if the service handles payments or credit card information then yo
 
 We recommend keeping up-to-date with the PCI Security Standards for any upcoming changes to the PCI-DSS specification. The most recent revisions and news regarding payment card industry standards can be found from the PCI Security Standards website. An link to the external site is provided [here](https://www.pcisecuritystandards.org)
 
-Next, we will look at some [TLS and Schannel settings relating to Windows Web Servers](/operatingsystems/windows/tlsandschannel/webserverrecommendations.html)
+Next, we will look at some [TLS and Schannel settings relating to Windows Web Servers](/operatingsystems/windows/tlsandschannel/webserverrecommendations)
+
+```eval_rst
+   .. title:: Windows | The Security Scan
+   .. meta::
+      :title: Windows | The Security Scan | UKFast Documentation
+      :description: Information and guidance on Windows security scans
+```

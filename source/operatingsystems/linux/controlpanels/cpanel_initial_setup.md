@@ -10,9 +10,10 @@ Unless you're using custom nameservers, you can use our SafeDNS nameservers here
 
 ![Initial Setup Page](files/whm_initial_setup.JPG)
 
-You're now ready to start using WHM/cPanel. [See our guide on adding accounts here!](/operatingsystems/linux/controlpanels/cpanel_add_account.html)
+You're now ready to start using WHM/cPanel. [See our guide on adding accounts here!](/operatingsystems/linux/controlpanels/cpanel_add_account)
 
 ```eval_rst
+  .. title:: WHM Initial Setup
   .. meta::
      :title: WHM Initial Setup | UKFast Documentation
      :description: WHM initial setup page

@@ -39,6 +39,7 @@ When you go back to the home page you will see that there is no longer any alert
 You have successfully applied system updates on your Plesk server!
 
 ```eval_rst
+  .. title:: Applying system updates on your Plesk Server
   .. meta::
      :title: Applying system updates on your Plesk Server
      :description:  A guide on applying system updates on your Plesk Server

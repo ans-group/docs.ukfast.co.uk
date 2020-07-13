@@ -48,6 +48,7 @@ Before amending your DNS to point to your new server, you can test your websites
 You can view more information on that [here](https://my.ukfast.co.uk/safedns/index.php)
 
 ```eval_rst
+  .. title:: Performing a cPanel to Plesk Migration
   .. meta::
      :title: Performing a cPanel to Plesk Migration
      :description:  A guide to performing a cPanel to Plesk Migration

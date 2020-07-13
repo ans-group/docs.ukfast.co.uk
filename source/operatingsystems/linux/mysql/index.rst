@@ -12,6 +12,7 @@ Installation & Administration
    managing_databases_users
    mysql_cli_basics
    reset_root_password
+   mysql_remote
 
 ------------------
 Backups & Restores

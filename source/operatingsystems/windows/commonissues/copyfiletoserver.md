@@ -172,6 +172,7 @@ Once you have entered the details as demonstrated above, please select Quickconn
   If you are unable to move files in a particular direction, Please review your permissions for that file and its directory on your FileZilla server, if you are unsure how to do this, please review the steps above on setting permissions.
 
 ```eval_rst
+  .. title:: Transferring Files to/from a Server
   .. meta::
      :title: Transferring Files to/from a Server | UKFast Documentation
      :description:  A guide with common errors with uploading files via ftp and remote desktop

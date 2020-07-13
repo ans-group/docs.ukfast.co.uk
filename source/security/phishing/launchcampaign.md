@@ -95,7 +95,7 @@ You'll now be able to see your newly created group on your 'Groups' page. This c
 
 With your users added and groups created, you can now launch your first phishing campaign!
 
-***Before you continue, please make sure you have added a whitelist/exemption rule in your email spam filter for emails coming from your email servers 178.238.132.248 and 185.207.111.242. This will prevent these emails from being blocked by your spam filter.***
+***Before you continue, please make sure you have added a allow/exemption rule in your email spam filter for emails coming from your email servers 178.238.132.248 and 185.207.111.242. This will prevent these emails from being blocked by your spam filter.***
 
 Under the 'Campaigns' section, you can see a list of your previous campaigns. To start a new campaign, click the blue 'Create Campaign' button.
 

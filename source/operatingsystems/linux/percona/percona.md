@@ -140,6 +140,7 @@ As a rule of thumb, if you add those numbers and round up to the nearest GB, tha
 
 
 ```eval_rst
+  .. title:: Percona
   .. meta::
      :title: Percona | UKFast Documentation
      :description: A guide to using Percona

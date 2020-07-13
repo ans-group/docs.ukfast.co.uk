@@ -44,12 +44,12 @@ Note that rules will be applied **in priority order**, based on the order you ad
 
 ### Country Access
 
-You can also manage access to your domain based on the country that requests originate from.  Country filtering is based on either a "blacklist" or "whitelist" approach:
+You can also manage access to your domain based on the country that requests originate from.  Country filtering is based on either a "blocklist" or "allow list" approach:
 
 ![add_country_filter](files/add_country_filter.png)
 
-- **Blacklist approach** - set the Default Access to `Allow All` using the slider, then specify individual countries which you wish to block, or "blacklist"
-- **Whitelist approach** - set Default Access to `Block All` using the slider, then specify individual countries which you wish to allow, or "whitelist"
+- **Blocklist approach** - set the Default Access to `Allow All` using the slider, then specify individual countries which you wish to block, or "blocklist"
+- **Allow list approach** - set Default Access to `Block All` using the slider, then specify individual countries which you wish to allow, or "allow list"
 
 The country access rules you specify will work in conjunction with your IP access rules; this is how you can build rulesets such as - *block all access from country X, but allow access from a specific IP address even though it is within country X*.
 

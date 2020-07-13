@@ -1,6 +1,13 @@
 # Unison file-level replication
 
-In order to keep configuration files and credentials synchronized between all nodes in the cluster, we run a regular [cron job](/operatingsystems/linux/basics/cron.html) to check on the files specified in the Unison configuration.
+```eval_rst
+   .. title:: BCP | Unison File-Level Replication
+   .. meta::
+      :title: BCP | Unison File-Level Replication | UKFast Documentation
+      :description: Information abotu Unison file-level replication on BCP platforms
+```
+
+In order to keep configuration files and credentials synchronized between all nodes in the cluster, we run a regular [cron job](/operatingsystems/linux/basics/cron) to check on the files specified in the Unison configuration.
 
 ## Configuring Unison
 
@@ -38,7 +45,7 @@ To add more files into Unison, add another `path =` line to the file, using a fu
 
 Directories are denoted by the trailing `/` at the end of the path, and will be recursively copied.
 
-Once this file has been saved, it will take effect from the next run of the [cron job](/operatingsystems/linux/basics/cron.html), which should be configured similar to the following as the `root` user:
+Once this file has been saved, it will take effect from the next run of the [cron job](/operatingsystems/linux/basics/cron), which should be configured similar to the following as the `root` user:
 
 ```
 * * * * * /usr/bin/file_sync.sh
