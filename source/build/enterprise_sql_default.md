@@ -58,7 +58,7 @@ Indiviual service accounts are created for each standalone SQL server or cluster
 ```
 
 ```eval_rst
-   .. title:: UKFast Enterprise MS-SQL database build documentation | UKFast Documentation
+   .. title:: UKFast Enterprise MS-SQL database build documentation
    .. meta::
       :description: Build documentation for Enterprise MS-SQL database servers
       :keywords: ukfast, hosting, database, server, virtual, mssql
