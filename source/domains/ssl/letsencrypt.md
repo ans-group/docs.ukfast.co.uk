@@ -287,7 +287,7 @@ If using our `SafeDNS` service, we have an installable plugin that allows you to
 ```
 
 ### Installation
-If not installed already, then you will need to [ssh](operatingsystems/linux/basics/connecting) onto the server as **root** and run the following command
+If not installed already, then you will need to [ssh](/operatingsystems/linux/basics/connecting) onto the server as **root** and run the following command
 ```
 /usr/local/cpanel/scripts/install_lets_encrypt_autossl_provider
 ```
