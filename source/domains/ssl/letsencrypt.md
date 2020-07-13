@@ -71,7 +71,7 @@ More information on these limits are at the following link;
 
 [Let's Encrypt Rate Limits](https://letsencrypt.org/docs/rate-limits/)
 
-# Linux
+## Linux
 
 For Linux servers, the `certbot` tool is currently the most popular tool for issuing **`Let's Encrypt`** certificates in a hassle free way. Here, we will show you how to install `certbot` on **CentOS** & **Ubuntu** servers, but this will be available on most Linux distributions.
 
@@ -363,7 +363,7 @@ You can also secure your `Plesk` Panel and mail services using `Let's Encrypt` b
 ![plesk_letsencrypt_services](files/plesk_letsencrypt_services.PNG)
 
 
-# Windows
+## Windows
 
 `Windows` operating systems have a number of `ACME` clients available - here are a couple that clients have found to be simple to use and feature rich
 
