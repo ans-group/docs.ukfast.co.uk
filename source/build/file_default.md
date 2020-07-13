@@ -15,7 +15,8 @@ Network File System (NFS) is a file transfer protocol that gives a client machin
 ```
 
 ```eval_rst
-  .. meta::
-      :title: UKFast file server build documentation | UKFast Documentation
+   .. title:: UKFast file server build documentation | UKFast Documentation
+   .. meta::
       :description: Build documentation for file servers
       :keywords: ukfast, hosting, nfs, server, virtual
+```
