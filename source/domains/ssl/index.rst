@@ -3,7 +3,7 @@ SSL Certificates
 ================
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
 
    buying
    validating_your_ssl
@@ -11,3 +11,4 @@ SSL Certificates
    self_signed_certificates
    sni
    Extended_Validation_SSL
+   letsencrypt
