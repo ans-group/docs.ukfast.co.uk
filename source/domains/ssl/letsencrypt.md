@@ -63,6 +63,14 @@ If using an API, such as our [SafeDNS API](https://developers.ukfast.io/document
 
 `TLS-ALPN-01` challenges are currently **not** supported by `certbot`. This type of challenge uses `https` validation via `TLS`, but requires for the server to be using the `ALPN` protocol. As this is not very common currently, we would recommend you use  `HTTP-01` or `DNS-01` as your challenge method.
 
+## Rate Limits
+
+`Let's Encrypt` has rate limits in-built to prevent abuse of the system. This may affect how and when you issue your certificates.
+
+More information on these limits are at the following link;
+
+[Let's Encrypt Rate Limits](https://letsencrypt.org/docs/rate-limits/)
+
 # Linux
 
 For Linux servers, the `certbot` tool is currently the most popular tool for issuing **`Let's Encrypt`** certificates in a hassle free way. Here, we will show you how to install `certbot` on **CentOS** & **Ubuntu** servers, but this will be available on most Linux distributions.
@@ -395,15 +403,6 @@ For a complete guide on how to install and use this client, please see the follo
 
 For `Powershell` users, we recommend using [`Post-ACME`](https://github.com/rmbolger/Posh-ACME) for your `Let's Encrypt` needs. This offers a feature set similar to `certbot`, and can be incorporated into environments that use APIs for DNS Challenges and automated certificate renewal.
 
-A limitation of this is that it does require a more advanced level of user to implement. Though a [**HTTP-01**](https://github.com/rmbolger/Posh-ACME/wiki/How-To-Self-Host-HTTP-Challenges) challenge method exists, we would strongly recommend using a DNS Plugin for this with your chosen DNS provider. Please see the list of [**Available Posh-ACME DNS Plugins**](https://github.com/rmbolger/Posh-ACME/blob/master/Tutorial.md#dns-plugins) for more information
-
-```
-```eval_rst
-.. note:
-  UKFast do not currently offer a DNS Plugin for use with Posh-ACME
-
-```
-
 ### Installation
 
 ```eval_rst
@@ -436,13 +435,24 @@ Import-Module Posh-ACME
 To issue a certificate for your chosen domain, run the following command, adjusting as per your specific requirements.
 
 ```
-New-PACertificate yourdomain.com -AcceptTOS -DnsPlugin <yourDNSprovider> -PluginArgs $yourDNSpluginParams
+New-PACertificate yourdomain.com -AcceptTOS  -Contact admin@yourdomain.com
 ```
+
+This will default to using the **Manual** plugin, and prompt you to create a **TXT** record for the `DNS-01` challenge. Please be aware of your chosen DNS provider's DNS propagation time.
+
+### Using a DNS Plugin
+
+Please see the list of [**Available Posh-ACME DNS Plugins**](https://github.com/rmbolger/Posh-ACME/blob/master/Tutorial.md#dns-plugins) for a full list of available DNS Plugins for use with this software.
 
 As an example, to use this with Route53, please see the following usage guide, which falls outside the scope of this article.
 
 [Route53 Posh-ACME Guide](https://github.com/rmbolger/Posh-ACME/blob/master/Posh-ACME/DnsPlugins/Route53-Readme.md)
 
+```eval_rst
+.. note:
+  UKFast do not currently offer a DNS Plugin for use with Posh-ACME
+
+```
 
 
 ```eval_rst
