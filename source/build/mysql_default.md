@@ -17,7 +17,8 @@ MySQL is a popular open source relational database management system which is mo
 ```
 
 ```eval_rst
-  .. meta::
-      :title: UKFast MySQL database build documentation | UKFast Documentation
+   .. title:: UKFast MySQL database build documentation | UKFast Documentation
+   .. meta::
       :description: Build documentation for MySQL database servers
       :keywords: ukfast, hosting, database, server, virtual, mssql
+```
