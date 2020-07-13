@@ -3,12 +3,12 @@ SSL Certificates
 ================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
-   buying
-   validating_your_ssl
-   types
-   self_signed_certificates
-   sni
-   Extended_Validation_SSL
-   letsencrypt
+   Purchasing and Renewing <buying>
+   Validating your Certificate <validating_your_ssl>
+   UKFast SSL Types <types>
+   Self Signed Certificates <self_signed_certificates>
+   Using Server Name Indication (SNI) <sni>
+   Extended Validation Certificates <Extended_Validation_SSL>
+   LetsEncrypt <letsencrypt>
