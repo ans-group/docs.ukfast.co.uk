@@ -36,7 +36,7 @@ This needs to be accessible over port **80** and cannot include a redirect to an
 
 It is easy to automate, which is why tools like `certbot` and `AutoSSL` among others are available to make use of this technology.
 
-A limitation of this challenge is you cannot request [**wildcard certificates**](/domains/ssl/types.html).
+A limitation of this challenge is you cannot request [**wildcard certificates**](/domains/ssl/types).
 
 If you have multiple web servers, you have to make sure the file is available on all of them.
 
@@ -50,7 +50,7 @@ If you have multiple web servers, you have to make sure the file is available on
 
 The `DNS-01` challenge method requires you to add a [**TXT**](https://en.wikipedia.org/wiki/TXT_record) record to prove domain ownership.
 
-This can be useful if your service is not accessible over port **80**, or if you have multiple webservers to cover. This challenge method also allows for you to issue [**wildcard certificates**](/domains/ssl/types.html), along with [**CNAME challenge delegation**](https://www.eff.org/deeplinks/2018/02/technical-deep-dive-securing-automation-acme-dns-challenge-validation) 
+This can be useful if your service is not accessible over port **80**, or if you have multiple webservers to cover. This challenge method also allows for you to issue [**wildcard certificates**](/domains/ssl/types), along with [**CNAME challenge delegation**](https://www.eff.org/deeplinks/2018/02/technical-deep-dive-securing-automation-acme-dns-challenge-validation) 
 
 If using an API, such as our [SafeDNS API](https://developers.ukfast.io/documentation/safedns), this is quick and easy to add and to automate.
 
@@ -275,7 +275,7 @@ There after you can use the same methods to install a certificate as previously 
 
 If using our `SafeDNS` service, we have an installable plugin that allows you to use our [SafeDNS API](https://developers.ukfast.io/documentation/safedns) to automate DNS-01 validation with `certbot`. 
 
-[SafeDNS Certbot Plugin](/domains/safedns/certbotplugin.html)
+[SafeDNS Certbot Plugin](/domains/safedns/certbotplugin)
 
 ## cPanel
 
@@ -287,7 +287,7 @@ If using our `SafeDNS` service, we have an installable plugin that allows you to
 ```
 
 ### Installation
-If not installed already, then you will need to [ssh](operatingsystems/linux/basics/connecting.html) onto the server as **root** and run the following command
+If not installed already, then you will need to [ssh](operatingsystems/linux/basics/connecting) onto the server as **root** and run the following command
 ```
 /usr/local/cpanel/scripts/install_lets_encrypt_autossl_provider
 ```
