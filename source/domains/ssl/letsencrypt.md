@@ -1,8 +1,16 @@
 # Securing your sites with Let's Encrypt
 
-`Let's Encrypt` is a **Certificate Authority (CA)** and is the leading supplier of free, simple and secure SSL certificates. It runs on the notion that obtaining an SSL certificate for your website should require minimal human interaction, with the goal of creating a more secure Web.
+`Let's Encrypt` is a **Certificate Authority (CA)** and is a leading supplier of free, simple and secure SSL certificates. It runs on the notion that obtaining an SSL certificate for your website should require minimal human interaction, with the goal of creating a more secure Web.
 
 Over a billion certificates have already been issued using `Let's Encrypt`.
+
+```eval_rst
+.. note::
+  UKFast Support do not offer Let's Encrypt certificate installation, but are happy to assist with ACME client installation and can offer advice on how to achieve your goals.
+
+  Alternatively, UKFast  do offer Sectigo certificate purchase & installation. For more information on this, please contact your Account Manager or raise a support query with our support team.
+
+```
 
 ## How it works
 
@@ -12,7 +20,7 @@ There a few distinct types of domain validation available, so you will need to f
 
 ```eval_rst
 .. warning::
-  Currently, if your sites/services  DDoSX/Webcel/WAF you will currently not be able to use Let's Encrypt certificates
+  Currently, if your sites/services  DDoSX/Webcel/WAF you will not be able to use Let's Encrypt certificates
 ```
 
 ## Types of challenges
@@ -24,7 +32,7 @@ There a few distinct types of domain validation available, so you will need to f
 ```
 <docroot>/.well-known/acme-challenge/<youruniquetoken>
 ```
-This needs to be accessible over port **80** and cannot include a redirect to an IP address. This can validate up to 10 redirects deep, and does not care about HTTPS validation (eg. self-signed certificates along the way). 
+This needs to be accessible over port **80** and cannot include a redirect to an IP address. This can validate up to 10 redirects deep, and does not care about *HTTPS validation* so will allow for self-signed certificates along the way.
 
 It is easy to automate, which is why tools like `certbot` and `AutoSSL` among others are available to make use of this technology.
 
@@ -66,34 +74,35 @@ For Linux servers, the `certbot` tool is currently the most popular tool for iss
   These plugins will amend your virtual host configurations, but may interfere with any application rewrite rules you already have in place. Always ensure you have backed up vital configuration files before use.
 
 ```
+For alternative `ACME` clients/libraries/projects, `Let's Encrypt` have an extensive list at the following [link](https://letsencrypt.org/docs/client-options/).
 
 ## CentOS
 ### Apache
 
 #### Installation
 
-You will need to have the **Epel** repository (or repo) enabled to install certbot. If not installed, run the following;
+You will need to have the **Epel** repository (or repo) enabled to install `certbot`. If not installed, run the following;
 ```
 yum install epel-release
 ```
-Next, install the following package from this repo. This will pull in additional packages automatically, such as mod_ssl if not already installed
+Next, install the following `apache` `certbot` plugin from this repo. This will pull in additional packages automatically, such as `mod_ssl` if not already installed
 ```
 yum install certbot-apache --enablerepo=epel
 ```
 #### Issuing a certificate
 
-As root (or using sudo if a sudo user), you can specify multiple domains/subdomains using the following syntax.
+As **root** (or using **sudo** if a sudo user), you can specify multiple domains/subdomains using the following syntax.
 ```
 certbot --apache -d yourdomain.com -d www.youdomain.com
 ```
-You can secure up to 100 domains using -d in the one command.
+You can secure up to **100** domains using `-d` in the one command.
 
 ```eval_rst
 .. note::
   If issuing a multidomain certificate, please note that if you remove one of the domains on it you will have to reissue the entire certificate. As this could prove problematic upon renewal, we would instead recommend issuing a certificate per domain.
 ```
 
-The installation plugin will then ask you a few questions before proceding with the installation (agreeing to terms of service, challenge method etc.). It will also ask if you want to add a redirect to https. If you select 'yes'. It will amend your apache vhost with a permanent redirect.
+You will be prompted by a few questions before it procedes with the installation (agreeing to terms of service, challenge method etc.). It will also ask if you want to add a redirect to https. If you select 'yes'. It will amend your apache vhost with a permanent redirect.
 
 
 ### Nginx
@@ -109,11 +118,11 @@ yum install certbot-nginx --enablerepo=epel
 
 #### Issuing a certificate
 
-As root (or using sudo if a sudo user), you can specify multiple domains/subdomains using the following syntax.
+As **root** (or **using** sudo if a sudo user), you can specify multiple domains/subdomains using the following syntax.
 ```
 certbot --nginx -d yourdomain.com -d www.youdomain.com
 ```
-You can secure up to 100 domains using -d in the one command.
+You can secure up to **100** domains using `-d` in the one command.
 
 ```eval_rst
 .. note::
@@ -262,8 +271,6 @@ If using our `SafeDNS` service, we have an installable plugin that allows you to
 
 ## cPanel
 
-### Overview
-
 **cPanel/WHM** offers a feature called `AutoSSL` that integrates with both `LetsEncrypt` and their default provider (`Sectigo`). This allows you to install and automatically renew certificates for your domains. It should also cover your `cPanel` services, such as *mail*, *hostname* and *ftp*.
 
 ```eval_rst
@@ -272,12 +279,12 @@ If using our `SafeDNS` service, we have an installable plugin that allows you to
 ```
 
 ### Installation
-If not installed already, then you will need to ssh onto the server as root and run the following command
+If not installed already, then you will need to [ssh](operatingsystems/linux/basics/connecting.html) onto the server as **root** and run the following command
 ```
 /usr/local/cpanel/scripts/install_lets_encrypt_autossl_provider
 ```
 
-Next, open WHM and search for 'Manage AutoSSL'.
+Next, open `WHM` and search for **Manage AutoSSL**.
 
 ![cpanel_autossl_search](files/cpanel_autossl_search.PNG)
 
@@ -296,7 +303,7 @@ Select this provider, and after agreeing to the terms of service this will be av
 
 Once you have selected `Let's Encrypt` as a provider, it's time to generate certificates for your domains.
 
-In the `AutoSSL` section of `WHM`, click on the Manage Users tab. Here you will have both global and per account options for enabling/disabling AutoSSL.
+In the `AutoSSL` section of `WHM`, click on the **Manage Users** tab. Here you will have both global and per account options for enabling/disabling AutoSSL.
 
 ![cpanel_autossl_manageusers](files/cpanel_autossl_manageusers.PNG)
 
@@ -312,9 +319,6 @@ If you are having issues with generating a certificate, the first place you shou
 This should highlight any Let’s Encrypt challenge issues you may have. Beyond this, you can raise a support ticket and we can help identify the underlying issues with you.
 
 ## Plesk
-https://www.plesk.com/extensions/letsencrypt/
-
-### Overview
 
 `Plesk` offers `Let's Encrypt` as an extension and makes it easy to obtain a certificate for your website.
 
@@ -346,23 +350,105 @@ For **existing domains**, you can select your domain (or mutliple domains) withi
 
 Once enabled, certificates will be automatically renewed close to the expiration date of the SSL
 
-You can also secure your `Plesk` Panel and mail services using Let's Encrypt by selecting this in the SSL/TLS Certificates section of 'Tools & Settings'
+You can also secure your `Plesk` Panel and mail services using `Let's Encrypt` by selecting this in the **SSL/TLS Certificates** section of **Tools & Settings**
 
 ![plesk_letsencrypt_services](files/plesk_letsencrypt_services.PNG)
 
 
+# Windows
 
-## Troubleshooting
+`Windows` operating systems have a number of `ACME` clients available - here are a couple that clients have found to be simple to use and feature rich
+
+## Certify the Web
+
+[`Certify the Web`](https://certifytheweb.com/) is one of the most popular `Let's Encrypt` services available on `Windows` currently. This offers features such as;
+
+* Automatic renewal
+* `IIS` Integration
+* Option to integrate alternative ACME certificate authorities
+
+One downside to this product is that it does only offer a few certificates for free before requiring you to purchase an upgrade key.
+
+For a complete guide on how to install this client and start issuing `Let's Encrypt` certificates, please see the following guide;
+
+[Certify the Web - Docs](https://docs.certifytheweb.com/docs/intro)
+
+```eval_rst
+.. note:
+  If you require assistance with installing this product, please raise a UKFast Support query via your https://my.ukfast.co.uk client portal.
+
+```
+## Win-ACME
+
+[`Win-ACME`](https://www.win-acme.com/) is a popular command line alternative for issuing and maintaining `Let's Encrypt` certificates. This offers the following features;
+
+* `IIS` Integration
+* A simple command line interface
+* Support for alternative web servers, such as `Apache`
+* Automatical renewal via an intergrated scheduled task
+
+For a complete guide on how to install and use this client, please see the following official documentation
+
+[Win-ACME - Docs](https://www.win-acme.com/manual/getting-started)
+
+## Posh-ACME
+
+For `Powershell` users, we recommend using [`Post-ACME`](https://github.com/rmbolger/Posh-ACME) for your `Let's Encrypt` needs. This offers a feature set similar to `certbot`, and can be incorporated into environments that use APIs for DNS Challenges and automated certificate renewal.
+
+A limitation of this is that it does require a more advanced level of user to implement. Though a [**HTTP-01**](https://github.com/rmbolger/Posh-ACME/wiki/How-To-Self-Host-HTTP-Challenges) challenge method exists, we would strongly recommend using a DNS Plugin for this with your chosen DNS provider. Please see the list of [**Available Posh-ACME DNS Plugins**](https://github.com/rmbolger/Posh-ACME/blob/master/Tutorial.md#dns-plugins) for more information
+
+```
+```eval_rst
+.. note:
+  UKFast do not currently offer a DNS Plugin for use with Posh-ACME
+
+```
+
+### Installation
+
+```eval_rst
+.. note:
+  If you require assistance with installing this product, please raise a UKFast Support query via your https://my.ukfast.co.uk client portal.
+
+```
+
+To install this client, first open your `Powershell` terminal and run the following, replacing *youruser* for the system user in question.
+
+```
+Install-Module -Name Posh-ACME -Scope youruser
+```
+
+If you have elevated privileges and wish for this to be available for all system users, use the following syntax
+
+```
+Install-Module -Name Posh-ACME -Scope AllUsers
+```
+
+Once installed, you will need to **import** the module
+
+```
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser -Force
+Import-Module Posh-ACME
+```
+
+### Issuing a certificate
+
+To issue a certificate for your chosen domain, run the following command, adjusting as per your specific requirements.
+
+```
+New-PACertificate yourdomain.com -AcceptTOS -DnsPlugin <yourDNSprovider> -PluginArgs $yourDNSpluginParams
+```
+
+As an example, to use this with Route53, please see the following usage guide, which falls outside the scope of this article.
+
+[Route53 Posh-ACME Guide](https://github.com/rmbolger/Posh-ACME/blob/master/Posh-ACME/DnsPlugins/Route53-Readme.md)
 
 
-Windows
-https://certbot.eff.org/lets-encrypt/windows-other
-https://weblog.west-wind.com/posts/2016/feb/22/using-lets-encrypt-with-iis-on-windows
-Overview
-Installation
-Getting a certificate
-Renewing a certificate
-Troubleshooting
 
-
-
+```eval_rst
+  .. title:: Securing your sites with Let's Encrypt
+  .. meta::
+     :title: Securing your sites with Let's Encrypt | UKFast Documentation
+     :description: A guide for Securing your sites with Let's Encrypt
+     :keywords: ukfast, ssl, secure, security, linux, windows, apache, nginx, windows, powershell, iis, server, guide, tutorial
+```
