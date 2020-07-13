@@ -87,7 +87,7 @@ PHP: Hypertext Preprocessor (PHP) is one of most popular open source scripting l
 ```
 
 ```eval_rst
-   .. title:: UKFast web build documentation | UKFast Documentation
+   .. title:: UKFast web build documentation
    .. meta::
       :description: Build documentation for web servers
       :keywords: ukfast, hosting, web, server, virtual
