@@ -117,7 +117,11 @@ Now you have successfully imported the database, cleanup the second instance usi
 
 ## Import a database dump
 
+<<<<<<< HEAD
 Now you have a .sql file you can follow :doc:`/operatingsystems/linux/mysql/import_database` for more information.
+=======
+Now you have a .sql file you can follow [import your database guide](/operatingsystems/linux/mysql/import_database) for more information.
+>>>>>>> e490c932b0339a9e79ad3c00a0aae61f87e17155
 
 
 ```eval_rst
