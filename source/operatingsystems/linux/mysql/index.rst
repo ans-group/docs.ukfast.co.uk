@@ -9,6 +9,7 @@ Installation & Administration
    :maxdepth: 1
 
    installation
+   migrate_your_databases
    managing_databases_users
    mysql_cli_basics
    reset_root_password
@@ -22,6 +23,7 @@ Backups & Restores
 
    backups
    restore_your_databases
+   import_database
 
 ----------------------------------
 Upgrades, Tuning & Troubleshooting
