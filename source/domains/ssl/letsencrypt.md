@@ -401,7 +401,7 @@ For a complete guide on how to install and use this client, please see the follo
 
 ## Posh-ACME
 
-For `Powershell` users, we recommend using [`Post-ACME`](https://github.com/rmbolger/Posh-ACME) for your `Let's Encrypt` needs. This offers a feature set similar to `certbot`, and can be incorporated into environments that use APIs for DNS Challenges and automated certificate renewal.
+For `Powershell` users, we recommend using [`Posh-ACME`](https://github.com/rmbolger/Posh-ACME) for your `Let's Encrypt` needs. This offers a feature set similar to `certbot`, and can be incorporated into environments that use APIs for DNS Challenges and automated certificate renewal.
 
 ### Installation
 
