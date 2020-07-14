@@ -25,7 +25,7 @@ There a few distinct types of domain validation available, so you will need to f
 
 ## Types of challenges
 
-### `HTTP-01` 
+### HTTP-01
 
 `HTTP-01` validation is the most common type of SSL challenge method. This involves using an `ACME` client to communicate with `Let's Encrypt` by placing a file containing a unique token in the following directory on your website
 
@@ -34,7 +34,7 @@ There a few distinct types of domain validation available, so you will need to f
 ```
 This needs to be accessible over port **80** and cannot include a redirect to an IP address. This can validate up to 10 redirects deep, and does not care about *HTTPS validation* so will allow for self-signed certificates along the way.
 
-It is easy to automate, which is why tools like `certbot` and `AutoSSL` among others are available to make use of this technology.
+It is also easy to automate, which is why tools like `certbot` and `AutoSSL` among others are available to make use of this technology.
 
 A limitation of this challenge is you cannot request [**wildcard certificates**](/domains/ssl/types).
 
@@ -46,7 +46,7 @@ If you have multiple web servers, you have to make sure the file is available on
 
 ```
 
-### `DNS-01`
+### DNS-01
 
 The `DNS-01` challenge method requires you to add a [**TXT**](https://en.wikipedia.org/wiki/TXT_record) record to prove domain ownership.
 
@@ -59,7 +59,7 @@ If using an API, such as our [SafeDNS API](https://developers.ukfast.io/document
   You should always factor in **DNS propagation** when using this challenge method, 
 ```
 
-### `TLS-ALPN-01`
+### TLS-ALPN-01
 
 `TLS-ALPN-01` challenges are currently **not** supported by `certbot`. This type of challenge uses `https` validation via `TLS`, but requires for the server to be using the `ALPN` protocol. As this is not very common currently, we would recommend you use  `HTTP-01` or `DNS-01` as your challenge method.
 
@@ -82,7 +82,9 @@ For Linux servers, the `certbot` tool is currently the most popular tool for iss
   These plugins will amend your virtual host configurations, but may interfere with any application rewrite rules you already have in place. Always ensure you have backed up vital configuration files before use.
 
 ```
-For alternative `ACME` clients/libraries/projects, `Let's Encrypt` have an extensive list at the following [link](https://letsencrypt.org/docs/client-options/).
+For alternative `ACME` clients/libraries/projects, `Let's Encrypt` have an extensive list at the following link;
+
+[Let's Encrypt client options](https://letsencrypt.org/docs/client-options/)
 
 ## CentOS
 ### Apache
