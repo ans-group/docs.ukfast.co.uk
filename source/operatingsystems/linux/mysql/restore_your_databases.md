@@ -117,8 +117,7 @@ Now you have successfully imported the database, cleanup the second instance usi
 
 ## Import a database dump
 
-Now you have a .sql file you can follow :doc:`/operatingsystems/linux/mysql/import_database` for more information.
-
+Now you have a .sql file you can follow [import your database guide](/operatingsystems/linux/mysql/import_database) for more information.
 
 ```eval_rst
   .. title:: Restoring databases from a MySQL backup file
