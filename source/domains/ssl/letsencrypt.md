@@ -1,4 +1,4 @@
-# Securing your sites with Let's Encrypt
+# How to Secure Your Sites with Let's Encrypt
 
 `Let's Encrypt` is a **Certificate Authority (CA)** and is a leading supplier of free, simple and secure SSL certificates. It runs on the notion that obtaining an SSL certificate for your website should require minimal human interaction, with the goal of creating a more secure Web.
 
@@ -456,9 +456,9 @@ As an example, to use this with Route53, please see the following usage guide, w
 
 
 ```eval_rst
-  .. title:: SSL | Securing your sites with Let's Encrypt
+  .. title:: SSL | How to secure your sites with Let's Encrypt
   .. meta::
-     :title: SSL | Securing your sites with Let's Encrypt | UKFast Documentation
+     :title: SSL | How to secure your sites with Let's Encrypt | UKFast Documentation
      :description: How to secure your sites with Let's Encrypt
      :keywords: ukfast, ssl, letsencrypt, let's encrypt, secure, security, linux, windows, apache, nginx, windows, powershell, iis, server, guide, tutorial
 ```
