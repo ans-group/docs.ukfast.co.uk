@@ -1,12 +1,22 @@
-# Adding An Account In WHM
+# Adding an Account in WHM
 
-Once you've got your WHM server setup, you're going to want to add an account.  
+Once you've got your WHM server setup, you're going to want to add an **account**. In WHM, an **account** can be thought of as a catch-all term for a domain and associated resources. When you add an **account**, this creates;
+
+* A `Virtual Host` for your domain.
+* A `User`, for ftp/sftp/ssh administration
+* A `Control Panel` for your domain, allowing for per user site administration (*email, subdomains, PHP settings etc.*)
 
 On the homepage of WHM, you will see a section called "Manage Your Accounts", and a "Create a New Account" button below that:
 
 ![Create a New Account Button](files/whm_homepage.JPG)
 
 This will present you with a page to fill in information regarding the account that you're adding. The top section is "Domain Information". Fill in the relevant information for the account you're adding:
+
+```eval_rst
+.. warning::
+  Avoid adding a domain that is the same as the hostname of the server, as this will break many WHM services.
+  
+```
 
 ![Domain Information](files/account_creation_domain_info.JPG)
 
@@ -25,8 +35,8 @@ For the final section, "Mail Routing Settings", choose the automatic configurati
 You've now added an account to WHM. You can now login, [using the guide here!](/operatingsystems/linux/controlpanels/cpanel_connect.html#connecting-to-cpanel)
 
 ```eval_rst
-  .. title:: Creating A cPanel Account
+  .. title:: Creating a cPanel Account
   .. meta::
-     :title: Creating A cPanel Account | UKFast Documentation
-     :description: Creating a new cPanel account in WHM
-     :keywords: ukfast, cpanel, whm, control, panel, tutorial, cloud, server, guide, virtual
+     :title: Creating a cPanel Account | UKFast Documentation
+     :description: Creating a cPanel Account in WHM
+     :keywords: ukfast, cpanel, whm, domain, account, control, panel, tutorial, cloud, server, guide, virtual
