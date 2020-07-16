@@ -456,9 +456,9 @@ As an example, to use this with Route53, please see the following usage guide, w
 
 
 ```eval_rst
-  .. title:: Securing your sites with Let's Encrypt
+  .. title:: SSL | Securing your sites with Let's Encrypt
   .. meta::
-     :title: Securing your sites with Let's Encrypt | UKFast Documentation
-     :description: A guide for Securing your sites with Let's Encrypt
-     :keywords: ukfast, ssl, secure, security, linux, windows, apache, nginx, windows, powershell, iis, server, guide, tutorial
+     :title: SSL | Securing your sites with Let's Encrypt | UKFast Documentation
+     :description: How to secure your sites with Let's Encrypt
+     :keywords: ukfast, ssl, letsencrypt, let's encrypt, secure, security, linux, windows, apache, nginx, windows, powershell, iis, server, guide, tutorial
 ```
