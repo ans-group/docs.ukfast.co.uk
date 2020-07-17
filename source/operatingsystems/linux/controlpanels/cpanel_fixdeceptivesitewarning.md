@@ -53,3 +53,12 @@ https://server.exampledomain.com:2087/
 You will also need to update the server’s rDNS in MyUKFast to match the new hostname, otherwise you may experience issues sending email from the server. You can use the following guide for this:
 
 [Configuring Reverse DNS Records](/domains/rdns.html)
+
+
+```eval_rst
+  .. title:: Fixing Deceptive Site warning on WHM Login
+  .. meta::
+     :title: Fixing Deceptive Site warning on WHM Login
+     :description:  A guide on how to fix WHM showing a deceptive site warning
+     :keywords: ukfast, cpanel, whm, control, panel, fix, warning, deceptive, login
+
