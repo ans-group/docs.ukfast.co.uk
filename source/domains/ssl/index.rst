@@ -12,3 +12,4 @@ SSL Certificates
    Using Server Name Indication (SNI) <sni>
    Extended Validation Certificates <Extended_Validation_SSL>
    Let's Encrypt <letsencrypt>
+   Installing SSL's on a Panelled Server <panel_install>
