@@ -7,7 +7,7 @@ MyUKFast is the client portal where you can accesses products, billing and compa
 .. toctree::
    :maxdepth: 1
    
-managing_contacts
-account_manager
+managing-contacts
+account-manager
 accounts
-my_company_details
+my-company-details
