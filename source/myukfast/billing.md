@@ -1,9 +1,9 @@
-# Accounts
+# Billing
 
 ```eval_rst
    .. title:: MyUKFast | Accounts
    .. meta::
-      :title: MyUKFast | Managing Contacts and Permissions in MyUKFast | UKFast Documentation
+      :title: MyUKFast | Billing Section of MyUKFast | UKFast Documentation
       :description: How to perform various Accounts related activities in MyUKFast
       :keywords: ukfast, accounts, invoice, invoice query, credit note, billing, payment method, payment, commission, remittance, refund, VAT
 ```
