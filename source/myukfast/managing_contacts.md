@@ -3,7 +3,7 @@
 ```eval_rst
    .. title:: MyUKFast | Managing Contacts and Permissions
    .. meta::
-      :title: MyUKFast | Managing Contacts and Permissions | UKFast Documentation
+      :title: MyUKFast | Managing Contacts and Permissions in MyUKFast | UKFast Documentation
       :description: How to manage authorised contacts in MyUKFast
       :keywords: ukfast, account manager, service manager, primary contact, new contact, permission
 ```
