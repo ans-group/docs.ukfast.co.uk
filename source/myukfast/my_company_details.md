@@ -3,7 +3,7 @@
 ```eval_rst
    .. title:: MyUKFast | My Company
    .. meta::
-      :title: MyUKFast | Contacting my Account Manager | UKFast Documentation
+      :title: MyUKFast | My Company Details | UKFast Documentation
       :description: Page providing information about changing your company details inside MyUKFast
       :keywords: ukfast, company name, company address, my company, VAT number
 ```
