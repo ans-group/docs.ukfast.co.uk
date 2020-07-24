@@ -11,7 +11,7 @@
 ## Company Address Details
 When you move office or change mailing address, you can edit your address in the [My Company](https://my.ukfast.co.uk/account/view-edit.php) section of MyUKFast. When you are logged in to MyUKFast, you can access this page by navigating to **My Account >> Company Details**
  
-Within this page, it is also possible to change the **Primary Contact* (select from drop down menu) and choose between **Paperless** and **Postal** Invoicing.
+Within this page, it is also possible to change the **Primary Contact* (select from drop down menu).
 
 ## Company change of detail request
 
