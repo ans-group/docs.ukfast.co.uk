@@ -3,7 +3,7 @@
 ```eval_rst
    .. title:: MyUKFast | Accounts
    .. meta::
-      :title: MyUKFast | Managing Contacts and Permissions | UKFast Documentation
+      :title: MyUKFast | Managing Contacts and Permissions in MyUKFast | UKFast Documentation
       :description: How to perform various Accounts related activities in MyUKFast
       :keywords: ukfast, accounts, invoice, invoice query, credit note, billing, payment method, payment, commission, remittance, refund, VAT
 ```
@@ -19,7 +19,7 @@ To view the relevant information, once you are logged into MyUKFast, navigate to
 4. [Managed stored credit/debit cards](https://my.ukfast.co.uk/billing/cards/index.php) - **Billing > Credit/Debit Cards**
 5. [Invoice Queries](https://my.ukfast.co.uk/billing/invoice-queries) - **Billing > Invoice Queries > Raise Invoice Query** (top right hand corner of the page)
 
-If you have any questions relating to billing or have an account query please call our Accounts team on **0845 458 3535** or email accounts@ukfast.co.uk.
+If you have any questions relating to billing or have an account query please call our Accounts team on **0845 458 3535** or Raise an invoice qury as shown above.
 
 For all written enquiries, please address Accounts Department, UKFast, UKFast Campus, Birley Fields, Manchester, England, M15 5QJ
 
