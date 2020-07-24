@@ -1,7 +1,7 @@
-# Billing
+# Guide to Billing section of MyUKFast
 
 ```eval_rst
-   .. title:: MyUKFast | Billing Section of MyUKFast including invoices, recurring costs, how to pay, managing credit/ debit cards and invoice queries
+   .. title:: Invoices, payments, billing in MyUKFast
    .. meta::
       :title: MyUKFast | Billing Section of MyUKFast | UKFast Documentation
       :description: How to perform various Accounts related activities in MyUKFast
