@@ -14,3 +14,4 @@ Help with monitoring your UKFast-hosted infrastructure, and managing usage effec
    checkdiskspace
    /operatingsystems/windows/windowsadministration/resmon
    dpack/index
+   installnewrelic
