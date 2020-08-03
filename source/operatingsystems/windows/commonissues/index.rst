@@ -14,3 +14,4 @@ Common Issues
    wbem
    iefiledownload
    windowsupdates
+   locked processes
