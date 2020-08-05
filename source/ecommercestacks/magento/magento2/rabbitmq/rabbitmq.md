@@ -20,9 +20,12 @@ yum install rabbitmq-server erlang --enablerepo=rabbitmq_erlang,rabbitmq_rabbitm
 #### rabbitmq-env.conf
 You need to create the file rabbitmq-env.conf before starting RabbitMQ:
 
+*For external access replace 127.0.0.1 with the servers IP address
+
 ```bash
 printf "HOSTNAME=localhost\nNODE_IP_ADDRESS=127.0.0.1\nNODENAME=rabbit@localhost" > /etc/rabbitmq/rabbitmq-env.conf
 ```
+
 ### Start RabbitMQ
 You can start the RabbitMQ service with the command:
 ```bash
@@ -44,6 +47,8 @@ chown -R rabbitmq:rabbitmq /var/lib/rabbitmq/
 ```
 
 ##### Create user
+Replace rmqadminuser with your chosen username and rmqadminuserpassword with your desired password.
+
 ```bash
 rabbitmqctl add_user rmqadminuser rmqadminuserpassword
 rabbitmqctl set_user_tags rmqadminuser administrator
