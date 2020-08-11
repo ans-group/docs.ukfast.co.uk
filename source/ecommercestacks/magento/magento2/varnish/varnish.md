@@ -1,23 +1,6 @@
 # Varnish
 
 ### Install Varnish
-#### Version 4.1
-Varnish 4.1 is available from the varnishcache_varnish41 repository, this repository can be installed with the following command:
-```bash
-~]# curl -s https://packagecloud.io/install/repositories/varnishcache/varnish41/script.rpm.sh | sudo bash
-```
-
-Varnish 4.1 can then be installed with the command:
-```bash
-~]# yum install varnish --disablerepo='*' --enablerepo='varnishcache_varnish41,epel'
-```
-##### Start On Boot
-You can enable Varnish on boot after installing it with this command:
-
-```bash
-~]# systemctl enable varnish
-```
-
 #### Version 5.2
 Varnish 5.2 is available from the varnishcache_varnish52 repository, this repository can be installed with the following command:
 ```bash
@@ -27,6 +10,24 @@ Varnish 5.2 is available from the varnishcache_varnish52 repository, this reposi
 Varnish 5.2 can then be installed with the command:
 ```bash
 ~]# yum install varnish --disablerepo='*' --enablerepo='varnishcache_varnish52,epel'
+```
+
+##### Start On Boot
+You can enable Varnish on boot after installing it with this command:
+
+```bash
+~]# systemctl enable varnish
+```
+
+#### Version 6.3
+Varnish 6.3 is available from the varnishcache_varnish63 repository, this repository can be installed with the following command:
+```bash
+~]# curl -s https://packagecloud.io/install/repositories/varnishcache/varnish63/script.rpm.sh | sudo bash
+```
+
+Varnish 6.3 can then be installed with the command:
+```bash
+~]# yum install varnish --disablerepo='*' --enablerepo='varnishcache_varnish63,epel'
 ```
 
 ##### Start On Boot
