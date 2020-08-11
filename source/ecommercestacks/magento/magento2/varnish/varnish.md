@@ -20,12 +20,12 @@ You can enable Varnish on boot after installing it with this command:
 ```
 
 #### Version 6.3
-Varnish 4.1 is available from the varnishcache_varnish41 repository, this repository can be installed with the following command:
+Varnish 6.3 is available from the varnishcache_varnish63 repository, this repository can be installed with the following command:
 ```bash
 ~]# curl -s https://packagecloud.io/install/repositories/varnishcache/varnish63/script.rpm.sh | sudo bash
 ```
 
-Varnish 4.1 can then be installed with the command:
+Varnish 6.3 can then be installed with the command:
 ```bash
 ~]# yum install varnish --disablerepo='*' --enablerepo='varnishcache_varnish63,epel'
 ```
