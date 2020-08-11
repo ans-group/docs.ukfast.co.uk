@@ -7,6 +7,7 @@ To add a domain to your Magento 2 optimised stack please provide us with the fol
 - If this a multi-store domain? If so please provide the main website domain name
 - Will wordpress run within the same document root? If so please provide the path (wp, wordpress and blog for example)
 - Is this domain for UAT/Staging or is it going to be used for live traffic
+- What PHP version is required?
 
 We will then setup the following for you:
 
