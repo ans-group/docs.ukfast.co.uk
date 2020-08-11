@@ -79,6 +79,7 @@ The elasticsearch service will need a restart after this change.
 
 
  ```eval_rst
+.. title:: Elasticsearch
 .. meta::
    :title: Elasticsearch | UKFast Documentation
    :description: guides relating to using Elasticsearch
