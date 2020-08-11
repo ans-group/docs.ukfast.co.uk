@@ -77,10 +77,9 @@ network.host: 10.0.0.17
 
 The elasticsearch service will need a restart after this change.
 
-
- ```eval_rst
-.. title:: Elasticsearch
-.. meta::
-   :title: Elasticsearch | UKFast Documentation
-   :description: guides relating to using Elasticsearch
-   :keywords: ukfast, Magento, Magento2, Shopware, optimised, stack, Elasticsearch, eCommerce
+```eval_rst
+  .. title:: Elasticsearch
+  .. meta::
+     :title: Elasticsearch | UKFast Documentation
+     :description: guides relating to using Elasticsearch
+     :keywords: ukfast, Magento, Magento2, Shopware, optimised, stack, Elasticsearch, eCommerce
