@@ -5,13 +5,13 @@
 You first need to install Java which is required by Elasticsearch
 
 ```bash
-~]# yum install java
+yum install java
 ```
 #### Elasticsearch Repository Setup
 Create a file called elasticsearch.repo in the /etc/yum.repos.d/ directory and include the below. If you wish for ElasticSearch v7 then replace all instances of '6' with 7.
 
 ```bash
-~]# vim /etc/yum.repos.d/elasticsearch.repo
+vim /etc/yum.repos.d/elasticsearch.repo
 
 [elasticsearch-6.x]
 name=Elasticsearch repository for 6.x packages
@@ -25,7 +25,7 @@ type=rpm-md
 
 ##### Install Elasticsearch
 ```bash
-~]# yum install elasticsearch 
+yum install elasticsearch 
 ```
 
 ###### Start On Boot
@@ -46,7 +46,7 @@ systemctl start elasticsearch
 Run the following curl command on the server to test Elasticsearch is running:
 
 ```bash
-~]# curl -X GET "127.0.0.1:9200/?pretty"
+curl -X GET "127.0.0.1:9200/?pretty"
 {
   "name" : "5qXM9wk",
   "cluster_name" : "elasticsearch",
@@ -70,7 +70,7 @@ Run the following curl command on the server to test Elasticsearch is running:
 In order to changfe the listen IP address for elasticsearch you need to configure network.host in /etc/elasticsearch/elasticsearch.yml
 
 ```bash
-~]# vim /etc/elasticsearch/elasticsearch.yml
+vim /etc/elasticsearch/elasticsearch.yml
 
 network.host: 10.0.0.17
 ```
