@@ -23,7 +23,7 @@ The credentials will be saved on the server in the /root/ directory similar to:
 ```
 ## Multistore
 
-You can edit the Nginx configuratin file (/etc/nginx/conf.d/exampledomain.co.uk.conf) to configure the MAGE_RUN_CODE and MAGE_RUN_TYPE variables for this domain by uncommenting the following lines:
+You can edit the Nginx configuration file (/etc/nginx/conf.d/exampledomain.co.uk.conf) to configure the MAGE_RUN_CODE and MAGE_RUN_TYPE variables for this domain by uncommenting the following lines:
 
 #fastcgi_param  MAGE_RUN_CODE default;<br>
 #fastcgi_param  MAGE_RUN_TYPE store;
