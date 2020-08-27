@@ -2,7 +2,7 @@
 
 In this article we will discuss how to install the New Relic PHP agent on a CentOS Server. New Relic is a third party developer tool that can provide indepth application monitoring which can be used to identify problem areas in the application, commonly performance related.
 
-New Relic also offers a 30 day [free trail](https://newrelic.com/signup/?trial=browser) for new users to take advantage of that doesn't require using credit card info.
+New Relic also offers a 30 day [free trial](https://newrelic.com/signup/?trial=browser) for new users to take advantage of that doesn't require using credit card info.
 
 ## Prerequsites 
 
