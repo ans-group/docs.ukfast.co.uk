@@ -34,6 +34,16 @@ New Relic offers a [free tier account](https://newrelic.com/signup/) with "100 G
  $ newrelic-install install
  ```
 
+```eval_rst
+.. note::
+If the server has a panel or the PHP is otherwise not installed in the default location, you may wish to specify the PHP location by using a similar command to the below:
+```
+```bash
+$ NR_INSTALL_PHPLIST=/opt/cpanel/ea-php56/root/usr/bin:/opt/cpanel/ea-php71/root/usr/bin:/opt/cpanel/ea-php70/root/usr/bin:/opt/cpanel/ea-php73/root/usr/bin; export NR_INSTALL_PHPLIST
+$ newrelic-install install
+```
+
+
 This is where you will need the **APM license Key** and the installer will first ask you for it:
 
 ```bash
