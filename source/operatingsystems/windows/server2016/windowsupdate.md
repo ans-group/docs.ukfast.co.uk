@@ -29,6 +29,7 @@ To Disable Auto Restart for updates
 ![Reboot Task Permissions](files/windowsupdate/rebootfileperms.PNG)
 
 ```eval_rst
+  .. title:: Automatic updates in Windows Server 2016
   .. meta::
      :title: Automatic updates in Windows Server 2016 | UKFast Documentation
      :description: Information on the automatic updates feature in Windows Server 2016

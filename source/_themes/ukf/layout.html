@@ -1,0 +1,496 @@
+{%- macro script(script_files) %}
+    {%- for scriptfile in script_files %}
+    <script type="text/javascript" src="{{ pathto(scriptfile, 1) }}"></script>
+    {%- endfor %}
+{%- endmacro %}
+
+{%- macro css(css_files) %}
+    {%- for cssfile in css_files %}
+    <link rel="stylesheet" href="{{ pathto(cssfile, 1) }}" type="text/css" />
+    {%- endfor %}
+{%- endmacro %}
+
+{# The files that make these builds are defined in Makefile #}
+{%- set css_files = ['_static/css/app.css'] -%}
+{%- set script_files = ['_static/app.js'] -%}
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-85544024-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+    <meta http-equiv="Content-Type" content="text/html; charset={{ encoding }}" />
+    {{ metatags }}
+    <title>{{ title|striptags|e }}{{ titlesuffix }} | UKFast Documentation</title>
+    <link href="{{ pathto('_static/favicon.png', 1) }}" type="image/png" rel="icon" />
+
+    {{ css(css_files) }}
+    {{ script(script_files) }}
+
+    {% for lang in languages %}
+        {%- if lang != language -%}
+            {%- if has_lang(lang, pagename) -%}
+            <link rel="alternate" hreflang="{{ lang }}" href="{{ lang_link(lang, pagename) }}" />
+            {%- endif -%}
+        {%- endif -%}
+    {% endfor %}
+
+    <link rel="search" type="application/opensearchdescription+xml" title="Search within {{ docstitle }}" href="{{ pathto('_static/opensearchdescription-book-3-x.xml', 1) }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+{%- block linktags %}
+    {%- if hasdoc('about') %}
+    <link rel="author" title="{{ _('About these documents') }}" href="{{ pathto('about') }}" />
+    {%- endif %}
+    {%- if hasdoc('genindex') %}
+    <link rel="index" title="{{ _('Index') }}" href="{{ pathto('genindex') }}" />
+    {%- endif %}
+    {%- if hasdoc('search') %}
+    <link rel="search" title="{{ _('Search') }}" href="{{ pathto('search') }}" />
+    {%- endif %}
+    {%- if hasdoc('copyright') %}
+    <link rel="copyright" title="{{ _('Copyright') }}" href="{{ pathto('copyright') }}" />
+    {%- endif %}
+    <link rel="top" title="{{ docstitle|e }}" href="{{ pathto('index') }}" />
+    {%- if parents %}
+    <link rel="up" title="{{ parents[-1].title|striptags|e }}" href="{{ parents[-1].link|e }}" />
+	{%- endif %}
+    {%- if next %}
+    <link rel="next" title="{{ next.title|striptags|e }}" href="{{ next.link|e }}" />
+    {%- endif %}
+    {%- if prev %}
+    <link rel="prev" title="{{ prev.title|striptags|e }}" href="{{ prev.link|e }}" />
+    {%- endif %}
+{%- endblock %}
+
+    <script type="text/javascript">
+    window.lang = "{{ language }}";
+    </script>
+  </head>
+  <body>
+
+{%- block header %}
+{# Outer wrapper for pushing the footer to the bottom #}
+<div id="container">
+	{# Red Mega Menu #}
+	<header class="nav-down">
+		<div class="container-fluid hidden-xs hidden-sm">
+			<div class="row">
+				<div class="col-sm-3 col-md-3">
+					<a class="logo" href="https://docs.ukfast.co.uk/">
+						<img src="{{ pathto('_static/ukfast-logo.png', 1) }}" alt="UKFast"  width="224px" height="50px"/>
+					</a>
+				</div>
+
+				<div class="col-sm-9 col-md-9">
+					<nav class="navbar-right" style="display: none;">
+						<!--<ul class="menu">
+							<li>
+								<a href="#"><i class="fa fa-menu fa-chevron-down"></i>Help & Support</a>
+								<div class="megamenu full">
+									<div class="row">
+										<div class="col-12 pl30">
+											<ul class="megamenu-list">
+												{% include 'menu/help.html' %}
+											</ul>
+										</div>
+									</div>
+								</div>
+							</li>
+						</ul>-->
+					</nav>
+				</div>
+			</div>
+		</div>
+
+		{# Mobile responsive header #}
+		<div class="container-fluid hidden-md hidden-lg">
+			<div class="row">
+				<div class="col-sm-6 col-xs-6">
+					<a class="logo" href="https://docs.ukfast.co.uk/">
+						<img src="{{ pathto('_static/ukfast-logo.png', 1) }}" alt="UKFast" />
+					</a>
+				</div>
+
+				<div class="col-sm-6 col-xs-6">
+					<div class="navbar-right">
+						<button id="btn-menu" class="btn-menu" data-toggle="modal" data-target="#modal">
+							<i class="fa fa-bars toggle-modal"></i>
+						</button>
+					</div>
+					<div id="wrap">
+						<form class="search" action="{{ pathto('search') }}" method="get">
+							<input name="q" type="search" placeholder="What are you looking for?">
+							<input id="search_submit" value="{{ _('Search') }}" type="submit">
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		{# Grey site bar #}
+		<section id="nav-cook" class="hidden-xs hidden-sm">
+			<div class="container-fluid ">
+				<div class="row ">
+					<div class="col-md-12 back-book">
+						<div class="col-md-3 text-center t-cook-nav p0 hidden-sm hidden-xs">
+							<h2>
+								<a href="{{ pathto(master_doc) }}">
+									<span class="glyph_range icon-submenu fa fa-book"></span>
+									UKFast <strong>Documentation</strong>
+								</a>
+							</h2>
+						</div>
+
+						<div class="col-md-6 hidden-sm">
+							<form class="search" action="{{ pathto('search') }}" method="get">
+								<input type="hidden" name="check_keywords" value="yes" />
+								<input type="hidden" name="area" value="default" />
+
+								<div class="col-md-11 p0">
+									<input class="form-control form-cook" autocomplete="off" type="search" name="q" size="18" placeholder='Documentation Search' />
+								</div>
+								<div class="col-md-1 p0 search-cook">
+									<button type="submit">
+										<span class="glyph_range icon-submenu fa fa-search"></span>
+									</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</header>
+	{# Responsive grey bar navigation. This is outside of header so it scrolls with the page. #}
+	<section class="nav-btn visible-sm visible-xs">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 col-xs-12 text-center">
+					<button id="btn-toc" class="btn btn-b btn-nav" data-toggle="modal" data-target="#modal"><strong>Table of Contents</strong></button>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	{# modal used in mobile responsive views #}
+	<div id="modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modal-header">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+					<h4 class="modal-title-cookbook" id="modal-header">{# header text injected via js #}</h4>
+				</div>
+				<div class="modal-body">{# body is injected via js #}</div>
+			</div>
+		</div>
+	</div>
+{% endblock -%}
+
+{%- block content %}
+<div class="container-fluid page-container">
+
+  {%- if 'index' in pagename and pagename != 'index' -%}
+      <div id="improve-slideout">
+  		<i class="fa fa-pencil icon-improve"></i>
+		<a href="https://github.com/ukfast/docs.ukfast.co.uk/edit/master/source/{{ pagename }}.rst" target="_blank">
+  			<div id="improve-slideout-inner"><h6>Improve This Doc <i class="fa fa-github git-improve"></i></h6></div>
+  		</a>
+  	</div>
+      {%- elif pagename != 'search' and pagename != 'index' -%}
+        <div id="improve-slideout">
+        <i class="fa fa-pencil icon-improve"></i>
+        <a href="https://github.com/ukfast/docs.ukfast.co.uk/edit/master/source/{{ pagename }}.md" target="_blank">
+          <div id="improve-slideout-inner"><h6>Improve This Doc <i class="fa fa-github git-improve"></i></h6></div>
+        </a>
+        </div>
+  {%- endif -%}
+
+
+<div class="row">
+
+	{# toctree contains the site nav - we'll use to extract the navigation title for the final breadcrumb - can't find another way! #}
+	{% set theTocTree = toctree() | replace("</a>", ";") | replace(" href=\"", "></a>") | striptags | replace("\">", "%") %}
+    {% set theTocTree = theTocTree.split(";") %}
+
+	{## Grid layout on root index only ##}
+  {%- if pagename == 'index' -%}
+
+  <div id="main-menu-container" class="container">
+  <h1 id="welcome-to-the-ukfast-documentation-centre">Welcome to the UKFast Documentation Centre</h1>
+  <p>For help with UKFast products and services, and guidance with common hosting technology.</p>
+
+  <div class="grid-container grid-parent">
+	<div class="grid-item box">
+		<i class="fa fa-cloud"></i>
+		<h2><a href="/ecloud/">Cloud Technology</a></h2>
+		<ul>
+			<li><a href="/ecloud/flex/index.html">eCloud Flex</a></li>
+			<li><a href="/ecloud/vault/index.html">eCloud Vault</a></li>
+			<li><a href="/ecloud/public/index.html">eCloud Public</a></li>
+			<li><a href="/ecloud/private/index.html">eCloud Private</a></li>
+		</ul>
+	</div>
+	<div class="grid-item box col2">
+		<i class="fa fa-desktop"></i>
+		<h2><a href="/desktop/">Desktop and office solutions</a></h2>
+		<ul>
+			<li><a href="/desktop/fastdesk/index.html">FastDesk</a></li>
+			<li><a href="/desktop/fastdrive/index.html">FASTdrive</a></li>
+			<li><a href="/desktop/sharedexchange/index.html">Shared Exchange</a></li>
+		</ul>
+	</div>
+	<div class="grid-item box">
+		<i class="fa fa-map-signs"></i>
+		<h2><a href="/domains/">Domains and DNS management</a></h2>
+		<ul>
+			<li><a href="/domains/domains/index.html">Domain Name Management</a></li>
+			<li><a href="/domains/safedns/index.html">SafeDNS</a></li>
+			<li><a href="/domains/ssl/index.html">SSL Certificates</a></li>
+			<li><a href="/domains/rdns.html">Reverse DNS Records</a></li>
+		</ul>
+	</div>
+	<div class="grid-item box col2">
+		<i class="fa fa-hdd-o"></i>
+		<h2><a href="/dr-ha/">Backup and High Availability</a></h2>
+		<ul>
+			<li><a href="/dr-ha/ukfast_backup/index.html">UKFast Backup</a></li>
+			<li><a href="/dr-ha/techniques/index.html">Backup Techniques</a></li>
+			<li><a href="/dr-ha/terms/index.html">General backup guidance</a></li>
+			<li><a href="/dr-ha/FASTcloudbackup/index.html">FASTcloudbackup</a></li>
+			<li><a href="/dr-ha/bcp/index.html">Business Continuity Platform</a></li>
+			<li><a href="/dr-ha/draas/index.html">Disaster Recovery as a Service</a></li>
+		</ul>
+	</div>
+	<div class="grid-item box">
+		<i class="fa fa-envelope-o"></i>
+		<h2><a href="/email/">Email</a></h2>
+		<ul>
+			<li><a href="/email/mailconfig.html">Basic Email Config</a></li>
+			<li><a href="/desktop/sharedexchange/index.html">Shared Exchange</a></li>
+			<li><a href="/email/bounces.html">Legitimate Mail Being Blocked/Bouncing</a></li>
+			<li><a href="/email/dkim.html">DomainKeys Identified Mail (DKIM)</a></li>
+			<li><a href="/email/spf.html">Sender Policy Framework (SPF) records</a></li>
+			<li><a href="/email/postfix.html">Postfix mail transfer agent</a></li>
+			<li><a href="/email/hmail-antispam-setup.html">hMailServer - Anti-spam Setup</a></li>
+		</ul>
+	</div>
+	<div class="grid-item box col2">
+		<i class="fa fa-shield"></i>
+		<h2><a href="/security/">Security</a></h2>
+		<ul>
+			<li><a href="/security/ddos/index.html">DDoSX<sup>®</sup></a></li>
+			<li><a href="/security/webapplicationfirewall/index.html">Web Application Firewall</a></li>
+			<li><a href="/security/threatmonitoring/index.html">Threat Monitoring and Threat Response</a></li>
+			<li><a href="/security/antivirus/index.html">McAfee Antivirus</a></li>
+			<li><a href="/security/vulnerabilityscans.html">Vulnerability Scans</a></li>
+			<li><a href="/security/magento.html">Magento Security</a></li>
+			<li><a href="/security/wordpress.html">WordPress Security</a></li>
+			<li><a href="/security/cryptolocker.html">Cryptolocker</a></li>
+			<li><a href="/security/dirtycow.html">Dirty COW</a></li>
+		</ul>
+	</div>
+	<div class="grid-item box">
+		<i class="fa fa-shopping-cart"></i>
+		<h2><a href="/dr-ha/">eCommerce Stacks</a></h2>
+		<ul>
+			<li><a href="/ecommercestacks/magento/magento1/index.html">Magento 1</a></li>
+			<li><a href="/ecommercestacks/magento/magento2/index.html">Magento 2</a></li>
+			<li><a href="/ecommercestacks/shopware/index.html">Shopware</a></li>
+			<li><a href="/ecommercestacks/woocommerce/index.html">WooCommerce</a></li>
+		</ul>
+	</div>
+	
+	<div class="grid-item box col2">
+		<i class="fa fa-heartbeat"></i>
+		<h2><a href="/monitoring/">Monitoring and usage management</a></h2>
+		<ul>
+			<li><a href="/monitoring/proprotection.html">PROProtection report</a></li>
+			<li><a href="/monitoring/monitoring/index.html">Capacity Threshold Monitoring</a></li>
+			<li><a href="/monitoring/memoryusage.html">Memory usage</a></li>
+			<li><a href="/monitoring/bandwidth.html">Bandwidth usage</a></li>
+			<li><a href="/monitoring/checkdiskspace.html">Disk space</a></li>
+			<li><a href="/monitoring/dpack/index.html">Using DPACK to monitor server/virtual machine performance</a></li>
+		</ul>
+	</div>
+	<div class="grid-item box">
+		<i class="fa fa-sitemap"></i>
+		<h2><a href="/network/">Networking</a></h2>
+		<ul>
+			<li><a href="/network/cdn/index.html">Content Delivery Network</a></li>
+			<li><a href="/network/colo/index.html">Colocation</a></li>
+			<li><a href="/network/firewalls/index.html">Firewalls</a></li>
+			<li><a href="/network/loadbalancing/index.html">Loadbalancing</a></li>
+			<li><a href="/network/policy/index.html">Policy</a></li>
+		</ul>
+	</div>
+	<div class="grid-item box col2">
+		<i class="fa fa-laptop"></i>
+		<h2><a href="/operatingsystems/">Operating Systems</a></h2>
+		<ul>
+			<li><a href="/operatingsystems/linux/index.html">Linux</a></li>
+			<li><a href="/operatingsystems/vmware-esxi/index.html">VMware</a></li>
+			<li><a href="/operatingsystems/windows/index.html">Windows</a></li>
+		</ul>
+	</div>
+	<div class="grid-item box">
+	
+		<i class="fa fa-line-chart"></i>
+		<h2><a href="/ltaas/">Load Testing</a></h2>
+	
+	</div>
+	<div class="grid-item box col2">
+		<i class="fa fa-rocket"></i>
+		<h2><a href="webcel/">Webcelerator</a></h2>
+	</div>
+    
+  </div>
+</div>
+    {%- else -%}
+	<a id="back-to-contents" href="#page-contents"><i class="fa fa-arrow-circle-up icon-improve" title="Back to Contents"></i></a>
+
+
+		{# TOC sidebar #}
+		<div id ="sidebar-container" class=" pull-off hidden-xs hidden-sm" lang="{{ language }}">
+			{%- for sidebartemplate in sidebars %}
+			<aside class="sidebar">
+				<div class="row">
+					{%- include sidebartemplate %}
+				</div>
+			</aside>
+			{%- endfor %}
+		</div>
+
+		<div id ="content-container" class="space-left push-off">
+			<div class="document-body">
+				<div id="main-menu-container">
+			
+					<ul id="breadcrumb">
+						<li><a href="/">Home</a> &gt;</li>
+						{%- for parent in parents -%}
+						<li><a href="{{ parent.link|e }}">{{ parent.title }}</a> &gt;</li>
+						{%- endfor -%}
+						{%- for element in theTocTree -%}
+							{%- set el = element.split("%") %}
+							{%- set url = el[0] | trim | safe %}{% set BreadCrumbTitle = el[1] | trim | safe -%}
+							{%- if url == '#' -%}<li>{{ BreadCrumbTitle }}</li>
+							{%- endif %}
+						{%- endfor %}
+					</ul>
+				
+					{% block body %} {% endblock %}
+
+					
+					{%- if next -%}
+					<p>Next Article > <a title="{{ next.title|striptags|e }}" href="{{ next.link|e }}" />{{ next.title|striptags|e }}</a></p>
+					{%- endif -%}
+
+				</div>
+			</div>
+		</div>
+
+		{%- endif -%}
+
+	</div>
+</div>
+{% endblock -%}
+
+{%- block footer %}
+<section id="socials" class="back-3">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12 social-footer text-center ">
+				<a href="https://twitter.com/UKFast" data-toggle="tooltip" title="Twitter"><i class="fa icon-social fa-twitter"></i></a>
+				<a href="https://www.facebook.com/UKFast.co.uk" data-toggle="tooltip" title="Facebook"><i class="fa icon-social fa-facebook"></i></a>
+				<a href="https://www.youtube.com/user/UKFast" data-toggle="tooltip" title="Youtube"><i class="fa icon-social fa-youtube-play"></i></a>
+				<a href="https://www.linkedin.com/company/ukfast-ukfast-net-limited-" data-toggle="tooltip" title="LinkedIn"><i class="fa icon-social fa-linkedin"></i></a>
+				<a href="https://www.ukfast.co.uk/press-releases/feed.rss" data-toggle="tooltip" title="RSS"><i class="fa icon-social fa-rss"></i></a>
+			</div>
+		</div>
+	</div>
+</section>
+
+<footer id="footer" class="footer-wrapper">
+	<div class="container">
+
+		<div class="row col-p30">
+
+
+			<div class="col-sm-12 col-md-12">
+				<div class="col-md-3 col-sm-6 useful-links">
+					<ul class="footer-menu">
+						{% include 'menu/useful-links.html' %}
+					</ul>
+				</div>
+
+				<div class="col-md-3 col-sm-6">
+					<ul class="footer-menu">
+						{% include 'menu/useful-links-cont.html' %}
+					</ul>
+				</div>
+
+				<div class="col-md-3 col-sm-6">
+					<ul class="footer-menu">
+						{% include 'menu/getting-in-touch.html' %}
+					</ul>
+				</div>
+
+				<div class="col-md-3 col-sm-6">
+					<ul class="footer-menu">
+						{% include 'menu/help.html' %}
+					</ul>
+				</div>
+			</div>
+		</div>
+
+        <div class="accreditations clearfix row">
+        	<ul>
+        	    <li class="dell" title="Dell Hosting Partner">Dell</li>
+        	    <li class="redhat" title="Redhat Hosting Partner">Redhat</li>
+        	    <li class="vmware" title="VMWare Enterprise Service Provider">VMWare</li>
+        	    <li class="microsoft" title="Microsoft Gold Certified Partner">Microsoft</li>
+        	    <li class="cisco" title="CISCO Powered">Cisco</li>
+        	    <li class="par" title="3Par Serving Information">3Par</li>
+        	    <li class="lpi" title="LPI Approved Training Partner">LPI</li>
+        	    <li class="pci" title="PCI Security Standards Council">PCI Security Standards Council</li>
+        	    <li class="isoqar" title="ISOQAR Compliant">ISOQAR</li>
+        	    <li class="bsi" title="BSI Carbon Neutral Certified">BSI</li>
+        	</ul>
+        	</div>
+
+		<div class="row">
+			<div class="col-md-12 text-center mt30">
+				<p class="copyright">
+					© UKFast.Net Ltd 1999 - <script>document.write(new Date().getFullYear())</script> UK's Best Dedicated Server Web Hosting | <a href="https://www.ukfast.co.uk/terms.html?tab=privacypolicy&#setupoption">Privacy Policy</a> | <a href="https://www.ukfast.co.uk/support.html">Support</a> | <a href="https://www.ukfast.co.uk/corporate-guidance.html">Corporate Guidance</a> | <a href="https://www.ukfast.co.uk/sitemap.html">Sitemap</a><br>UKFast.Net Limited, Registered in England, Company Registration Number 03845616, Registered Office: UKFast Campus, Birley Fields, Manchester, England, M15 5QJ
+				</p>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<div id="inline-search-results"></div>
+
+{# End of div[id=wrapper] #}
+</div>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-296510-48', 'auto');
+  ga('send', 'pageview');
+</script>
+{% endblock -%}
+  </body>
+</html>

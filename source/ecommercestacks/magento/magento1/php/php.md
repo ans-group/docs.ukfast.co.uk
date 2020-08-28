@@ -106,7 +106,7 @@ sed -i 's/;opcache.load_comments=1/opcache.load_comments=0/g' /etc/php.d/*opcach
 sed -i 's/;opcache.enable_file_override=0/opcache.enable_file_override=1/g' /etc/php.d/*opcache.ini
 ```
 
-You can find more information on OPcache [here](https://docs.ukfast.co.uk/ecommercestacks/magento/magento1/opcache/opcache.html#stack-opcache-settings)
+You can find more information on OPcache [here](/ecommercestacks/magento/magento1/opcache/opcache.html#stack-opcache-settings)
 
 ### /etc/php.ini Settings
 Review and copy the settings from /root/php_upgrade_backup-$(date +%d_%b_%Y)/php.ini to /etc/php.ini. Alternatively use our standard settings for the php.ini file (You can copy and paste the whole block below into your SSH terminal):
@@ -148,6 +148,7 @@ systemctl enable php-fpm
 ```
 
 ```eval_rst
+  .. title:: Magento PHP
   .. meta::
      :title: Magento PHP | UKFast Documentation
      :description: A guide to using PHP on our Magento optimised stack

@@ -1,0 +1,11 @@
+{
+    "search": [
+        "*_themes*",
+        "security/phishing/*",
+        "build/*"
+    ],
+    "build": [
+        "*_themes*",
+        "security/phishing/*"
+    ]
+}

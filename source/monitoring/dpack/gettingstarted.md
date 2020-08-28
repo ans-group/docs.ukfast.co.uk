@@ -12,11 +12,13 @@ Running a Live Optics capture will allow you and UKFast to measure a wide variet
 * Network Throughout
 * Hard Page Faults per Second.
 
-A Live Optics can be run on any [Windows](/monitoring/dpack/windows.html) or [Linux](/monitoring/dpack/linux.html) based operating system.
+A Live Optics can be run on any [Windows](/monitoring/dpack/windows) or [Linux](/monitoring/dpack/linux) based operating system.
 
 
 ```eval_rst
+   .. title:: Using Live Optics To Monitor Your Server
    .. meta::
-      :title: Using Live Optics to monitor your server| UKFast Documentation
+      :title: Using Live Optics To Monitor Your Server | UKFast Documentation
       :description: How to run a Live Optics check with UKFast
       :keywords: ukfast, liveoptics, live, optics, windows, server, monitoring, cloud, hosting
+```

@@ -35,8 +35,9 @@ Simply define the REDISINSTANCE number and the desired REDISPORT before running 
 ```bash
 ~]# cat > /tmp/redis-add.sh
 #!/bin/bash
+########## First run creates Redis2 and second run creates redis3
 
-if [[ ! -f /etc/redis.conf ]]
+if [[ -f /etc/redis.conf ]]
         then
                 echo "File /etc/redis.conf not found, please review"
                 exit 1
@@ -45,7 +46,7 @@ fi
 REDISINSTANCE="3"
 REDISPORT="6382"
 
-if [[ -f /etc/redis${REDISINSTANCE}.conf ]]
+if [[ ! -f /etc/redis${REDISINSTANCE}.conf ]]
         then
                 echo "File /etc/redis${REDISINSTANCE}.conf already exists, please review"
                 exit 1
@@ -150,6 +151,7 @@ redis-cli -h 127.0.0.1 -p 6379 monitor
 ```
 
 ```eval_rst
+  .. title:: Redis
   .. meta::
      :title: Redis | UKFast Documentation
      :description: A guide to using Redis

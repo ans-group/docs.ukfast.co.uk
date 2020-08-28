@@ -1,7 +1,7 @@
 # Composer
 
 ### Install Composer
-Composer can be installed from the epel yum repostiroy with the following command:
+Composer can be installed from the epel yum repository with the following command:
 
 ```bash
 ~]# yum install composer --enablerepo=epel
@@ -26,6 +26,7 @@ Composer version 1.8.6 2019-06-11 15:03:05
 ```
 
 ```eval_rst
+  .. title:: Magento Composer
   .. meta::
      :title: Magento Composer | UKFast Documentation
      :description: A guide to using Composer on our Magento2 optimised stack

@@ -335,7 +335,7 @@ Set-Cookie: SERVERID=web001; path=/
 
 As you can see, we got the 301 response first and then the original 200 response when we ended up at www.ukfast.co.uk.
 
-You may want to test a site against an IP before its DNS record has been changed. You could do this by [creating a hosts file entry](https://docs.ukfast.co.uk/operatingsystems/windows/commonissues/testingwebsites.html) or you can amend a header on your curl command with the -H flag. Here is a test against the domain testdomain.com - we don't own this. Here is the response:
+You may want to test a site against an IP before its DNS record has been changed. You could do this by [creating a hosts file entry](/operatingsystems/windows/commonissues/testingwebsites) or you can amend a header on your curl command with the -H flag. Here is a test against the domain testdomain.com - we don't own this. Here is the response:
 
 ```console
 [root@c7 ~]# curl testdomain.com
@@ -364,6 +364,7 @@ Here is the same test without inserting the Host header:
 As you can see, this gave us a different response. The reason for this is that there are multiple sites on 46.37.172.196 - using the -H flag and inserting a Host header allowed us to be more specific about what site we were requesting.
 
 ```eval_rst
+  .. title:: Network diagnostic tools on Linux
   .. meta::
      :title: Network diagnostic tools on Linux | UKFast Documentation
      :description: A guide to using network diagnostic tools in the Linux OS

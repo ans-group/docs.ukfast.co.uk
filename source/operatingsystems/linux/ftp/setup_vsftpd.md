@@ -29,21 +29,6 @@ Now that you have added a user, you will want to change the attributes of that u
 ```bash
   usermod -s /sbin/nologin guest
 ```
-If you wish to alter a user so that they can use SSH, you can do so with the below command:
-
-```bash
-  usermod -s /bin/bash guest
-```
-
-If you wish to set a home directory for the user, you can do so with:
-```bash
-  usermod -d /path/to/location guest
-```
-
-If you would like to remove a user:
-```bash
-  userdel guest
-```
 
 Note, this can also be achieved by editing the `/etc/passwd` file.
 
@@ -79,6 +64,7 @@ allow_writeable_chroot=YES
 Note, this configuration was tested on CentOS 7.
 
 ```eval_rst
+  .. title:: VSFTPD
   .. meta::
      :title: VSFTPD
      :description: A guide on what vsftpd is and how to set up an account 

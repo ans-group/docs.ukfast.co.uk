@@ -1,23 +1,6 @@
 # Varnish
 
 ### Install Varnish
-#### Version 4.1
-Varnish 4.1 is available from the varnishcache_varnish41 repository, this repository can be installed with the following command:
-```bash
-~]# curl -s https://packagecloud.io/install/repositories/varnishcache/varnish41/script.rpm.sh | sudo bash
-```
-
-Varnish 4.1 can then be installed with the command:
-```bash
-~]# yum install varnish --disablerepo='*' --enablerepo='varnishcache_varnish41,epel'
-```
-##### Start On Boot
-You can enable Varnish on boot after installing it with this command:
-
-```bash
-~]# systemctl enable varnish
-```
-
 #### Version 5.2
 Varnish 5.2 is available from the varnishcache_varnish52 repository, this repository can be installed with the following command:
 ```bash
@@ -34,6 +17,41 @@ You can enable Varnish on boot after installing it with this command:
 
 ```bash
 ~]# systemctl enable varnish
+```
+
+#### Version 6.3
+Varnish 6.3 is available from the varnishcache_varnish63 repository, this repository can be installed with the following command:
+```bash
+~]# curl -s https://packagecloud.io/install/repositories/varnishcache/varnish63/script.rpm.sh | sudo bash
+```
+
+Varnish 6.3 can then be installed with the command:
+```bash
+~]# yum install varnish --disablerepo='*' --enablerepo='varnishcache_varnish63,epel'
+```
+
+##### Start On Boot
+You can enable Varnish on boot after installing it with this command:
+
+```bash
+~]# systemctl enable varnish
+```
+
+### Version Check
+
+You can see the version of Varnish installed with the following command:
+```bash
+~]# varnishd -V
+varnishd (varnish-4.1.11 revision 61367ed17d08a9ef80a2d42dc84caef79cdeee7a)
+Copyright (c) 2006 Verdens Gang AS
+Copyright (c) 2006-2019 Varnish Software AS
+```
+
+### DAEMON_OPTS
+DAEMON_OPTS can be defined in the /etc/varnish/varnish.params file. Here is an example that we use:
+
+```bash
+DAEMON_OPTS=" -p http_req_hdr_len=12000 -p http_resp_hdr_len=12000 -p thread_pool_min=100 -p thread_pool_max=3000 -p timeout_linger=0.1 -p pipe_timeout=600"
 ```
 
 ### Memory Limit
@@ -102,6 +120,25 @@ You can now copy the file /var/www/vhosts/exmapledomain.com/htdocs/var/varnish.v
 ~]# mv /etc/varnish/default.vcl /etc/varnish/default.vcl.backup
 ~]# cp /var/www/vhosts/exmapledomain.com/htdocs/var/varnish.vcl /etc/varnish/default.vcl
 ```
+### Set Varnish for FPC in Magento2
+- Log in to the Magento2 Admin as an administrator.
+- Click STORES > Settings > Configuration > ADVANCED > System > Full Page Cache.
+- From the Caching Application list, click Varnish Caching.
+
+You can also set this via the Magento2 CLI
+
+```bash
+php bin/magento config:set system/full_page_cache/caching_application 2
+```
+
+To check this has been set correctly:
+
+```bash
+php bin/magento config:show system/full_page_cache/caching_application
+```
+
+With the expected outcome being 2.
+
 ### Health Check
 The Magento genereated VCL has the following healthcheck:
 ```bash
@@ -148,15 +185,6 @@ Static files are not cached by default in the Magento generated VCL. This is due
   #unset req.http.Cookie;
 ```
 The Varnish service needs to be reloaded in order for this to take effect.
-
-### Version Check
-You can see the version of Varnish installed with the following command:
-```bash
-~]# varnishd -V
-varnishd (varnish-4.1.11 revision 61367ed17d08a9ef80a2d42dc84caef79cdeee7a)
-Copyright (c) 2006 Verdens Gang AS
-Copyright (c) 2006-2019 Varnish Software AS
-```
 
 ### HIT/MISS Headers
 To test the caching of URLs in Varnish while Magento 2 is in producion mode you can add HIT/MISS headers to the VCL. Edit the vcl_deliver section in /etc/varnish/default.vcl and add the following:
@@ -320,6 +348,7 @@ If SSL is set to offloading like the above example you need to uncomment the fol
 This tells Magento that although the connection is on port 80 -> 8080 it should be treated as a secure connection due to the header x_forwarded_proto containing https. 
 
 ```eval_rst
+  .. title:: Magento 2 Varnish
   .. meta::
      :title: Magento 2 Varnish | UKFast Documentation
      :description: A guide using Varnish with Magento 2

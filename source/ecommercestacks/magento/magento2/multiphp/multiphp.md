@@ -29,14 +29,6 @@ yum install --disablerepo='*' --enablerepo=base,remi,epel,updates php73-php php7
 yum install --disablerepo='*' --enablerepo=base,remi,epel,updates php74-php php74-php-pecl-mcrypt php74-php-pdo php74-php-mysqlnd php74-php-opcache php74-php-xml php74-php-gd php74-php-devel php74-php-mysql php74-php-intl php74-php-mbstring php74-php-bcmath php74-php-json php74-php-iconv php74-php-pecl-redis php74-php-fpm php74-php-zip php74-php-soap php74-php-sodium libsodium
 ```
 
-### Update Additional PHP Version
-
-Update example:
-
-```bash
-yum update --disablerepo='*' --enablerepo=base,remi,epel,updates 'php73-*'
-```
-
 ### Apply Magento 2 PHP optimizations
 Simply copy and paste the below:
 ```bash
@@ -111,7 +103,10 @@ upstream examplecombackend {
     server unix:/var/run/php-fpm-examplecom72.sock;
 }
 ```
-
+Following this you will need to test the nginx configuration and reload the service:
+```bash
+nginx -t && nginx -s reload
+```
 ### Checking Running PHP Installations
 You can find out which PHP-FPM versions are running on the server with the following command:
 ```bash
@@ -137,6 +132,7 @@ Using 7.2 in this example:
 ```
 
 ```eval_rst
+  .. title:: Magento 2 Multiple PHP Installations
   .. meta::
      :title: Magento 2 Multiple PHP Installations | UKFast Documentation
      :description: A guide to installing and running multiple versions of PHP

@@ -15,6 +15,7 @@ If you wish to view more information about a notification, simply select it, and
 ![Further info](files/actioncentre/actioncentrenotification.PNG)
 
 ```eval_rst
+  .. title:: Action Centre in Windows Server 2016
   .. meta::
      :title: Action Centre in Windows Server 2016 | UKFast Documentation
      :description: Information on the new Action Centre in Windows Server 2016

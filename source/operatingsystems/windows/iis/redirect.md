@@ -26,6 +26,7 @@ When you have entered the new destination URL, continue to configure the behavio
 * Once you have configured all of the redirect options to your requirements, please select "Apply" from the Actions pane to the right hand side of the window to apply your redirect.
 
 ```eval_rst
+  .. title:: Configuring a redirect in IIS
   .. meta::
      :title: Configuring a redirect in IIS | UKFast Documentation
      :description: A guide to configuring a redirect in IIS

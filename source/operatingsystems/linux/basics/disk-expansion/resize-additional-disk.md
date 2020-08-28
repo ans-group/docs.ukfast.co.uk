@@ -4,7 +4,7 @@ This guide covers the process for getting Linux to recognize that one of the non
 
 ```eval_rst
 .. note::
-   This article is for intermediate-level Linux administrators. If you're not comfortable with Linux and want to increase the amount of disk space assigned, the `add a new disk <add-disk.html>`_ method might be better for you.
+   This article is for intermediate-level Linux administrators. If you're not comfortable with Linux and want to increase the amount of disk space assigned, the :doc:`/operatingsystems/linux/basics/disk-expansion/add-disk` method might be better for you.
 ```
 
 Once you've resized one of the disks in MyUKFast on a virtual machine (VM), we can proceed to check which underlying volume this has altered. In most cases the mapping is similar to `Disk 1` in MyUKFast matching with `sda`, and so on.
@@ -161,6 +161,7 @@ To resize an `ext` filesystem, run the following - noting the format of `/dev/ma
 Then confirm that the disk shows the correct size in `df -h`
 
 ```eval_rst
+  .. title:: Resizing an additional disk on an eCloud virtual server
   .. meta::
      :title: Resizing an additional disk on an eCloud virtual server | UKFast Documentation
      :description: An intermediate-level guide to resizing an additional disk on an eCloud virtual server

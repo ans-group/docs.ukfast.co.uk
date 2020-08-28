@@ -21,6 +21,7 @@ If you wish to access the logs directly rather than through the MSSQL Management
 * The majority of the files stored in this directory can be viewed by using a standard text editor such as notepad
 
 ```eval_rst
+  .. title:: Reviewing Microsoft SQL Server Error Logs
   .. meta::
      :title: Reviewing Microsoft SQL Server Error Logs | UKFast Documentation
      :description: A guide to reviewing Microsoft SQL Server error logs

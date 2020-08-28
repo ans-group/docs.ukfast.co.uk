@@ -115,7 +115,7 @@ Plesk have some additional documentation for upgrading MariaDB from 5.5 to 10.x 
    
 ```
 
-* Log into [WHM](https://docs.ukfast.co.uk/operatingsystems/linux/controlpanels/cpanel.html)
+* Log into [WHM](/operatingsystems/linux/controlpanels/cpanel)
 * In the *search bar*, search for `MySQL/MariaDB Upgrade`
 
 ![Search](files/mariadbsearch.PNG)
@@ -147,7 +147,9 @@ The selected MySQL version (5.7) is more than one generation newer than the curr
 ```
 
 ```eval_rst
+  .. title:: How to Upgrade MySQL/MariaDB
   .. meta::
      :title: How to Upgrade MySQL/MariaDB | UKFast Documentation
      :description: A guide for upgrading MySQL/MariaDB on a Linux server
      :keywords: ukfast, linux, mysql, upgrades, backups, server, guide, tutorial
+```

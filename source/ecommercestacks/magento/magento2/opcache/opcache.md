@@ -71,11 +71,12 @@ The OPcache GUI [https://github.com/amnuts/opcache-gui](https://github.com/amnut
 ~]# chown -R magentouser: opcache-gui
 ```
 
-You can then browse www.magentodomain.com/opcache-gui. We recommend password/ip redirection for this URI, we have guides on how to do this [here](https://docs.ukfast.co.uk/operatingsystems/linux/magento/magento2/restrictfilefolder.html)
+You can then browse www.magentodomain.com/opcache-gui. We recommend password/ip redirection for this URI, we have guides on how to do this [here](/ecommercestacks/magento/magento2/restrictfilefolder)
 
 ```eval_rst
+  .. title:: Magento2 Opcache
   .. meta::
      :title: Magento2 Opcache | UKFast Documentation
      :description: A guide to using Opcache on our Magento2 optimised stack
      :keywords: ukfast, linux, install, centos, cloud, server, virtual, Magento, Opcache, eCommerce
-
+```

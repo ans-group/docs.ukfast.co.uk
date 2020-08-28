@@ -7,6 +7,7 @@ To add a domain to your Magento optimised stack please provide us with the follo
 - If this a multi-store domain? If so please provide the main website domain name
 - Will wordpress run within the same document root? If so please provide the path (wp, wordpress and blog for example)
 - Is this domain for UAT/Staging or is it going to be used for live traffic
+- What PHP version is required?
 
 We will then setup the following for you:
 
@@ -23,7 +24,7 @@ The credentials will be saved on the server in the /root/ directory similar to:
 ```
 ## Multistore
 
-You can edit the Nginx configuratin file (/etc/nginx/conf.d/exampledomain.co.uk.conf) to configure the MAGE_RUN_CODE and MAGE_RUN_TYPE variables for this domain by uncommenting the following lines:
+You can edit the Nginx configuration file (/etc/nginx/conf.d/exampledomain.co.uk.conf) to configure the MAGE_RUN_CODE and MAGE_RUN_TYPE variables for this domain by uncommenting the following lines:
 
 #fastcgi_param  MAGE_RUN_CODE default;<br>
 #fastcgi_param  MAGE_RUN_TYPE store;
@@ -43,6 +44,7 @@ If there are no errors in the configuration test proceed to reload the Nginx ser
 ```
 
 ```eval_rst
+  .. title:: Magento 1 Adding Domain(s) To The Stack
   .. meta::
      :title: Magento 1 Adding Domain(s) To The Stack | UKFast Documentation
      :description: A guide to adding domains to the Magento optimised stack
