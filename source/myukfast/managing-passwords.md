@@ -4,7 +4,7 @@ There are several passwords which control access to different parts of your solu
 
 ## Server Passwords
 
-Passwords to access your server via SSH, FTP, MySQL and any panel product you may have installed can all be located by going to the **Server** or **eCloud** tab and then selecting the server's IP address from the list presented to you.
+Passwords to access your server via SSH, FTP, MySQL and any panel product you may have installed can all be located by going to the **Server** or **eCloud** tab within [MyUKFast](https://www.my.ukfast.co.uk) and then selecting the server's IP address from the list presented to you.
 
 You will then need to scroll down to the **Unlock Credentials** button at the very bottom of the page and once you've entered in your MyUKFast password these other passwords will be displayed to you.
 
@@ -14,7 +14,7 @@ There are two types of passwords linked to your UKFast account itself, these are
 
 The **MyUKFast Account password** is used to gain access to MyUKFast and to server credentials whereas the **Telephone Security password** is used to verify the identity of anyone calling in to speak to our support team.
 
-There are multiple ways to change your **MyUKFast account password** through MyUKFast
+There are multiple ways to change your **MyUKFast account password** through [MyUKFast](https://www.my.ukfast.co.uk)
 
 1. Select **My Account > Change Password** from the left hand side option bar
 
@@ -24,7 +24,7 @@ There are multiple ways to change your **MyUKFast account password** through MyU
 
 If you have forgotten your MyUKFast password altogether you can simply click on the **Forgot your username or password?** links at the login page or call in to our support line on 0800 230 0032 and we are able to email out a password reset link to your contact email address.
 
-Similarly there are multiple ways to change the **Telephone Security password** through MyUKFast
+Similarly there are multiple ways to change the **Telephone Security password** through [MyUKFast](https://www.my.ukfast.co.uk)
 
 1. Hover over your name on the top right of the screen and select **Change Telephone Password**
 
