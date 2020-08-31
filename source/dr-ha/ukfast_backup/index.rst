@@ -8,7 +8,7 @@ UKFast Backup protects your files and folders with seven-day retention on flexib
    :maxdepth: 1
 
    getting_started
-   backup_schedule
+   backup_schedule_and_exclusions
    delete_backup
    restoring_files
    faq
