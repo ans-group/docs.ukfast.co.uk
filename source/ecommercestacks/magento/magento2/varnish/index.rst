@@ -6,8 +6,8 @@ Varnish is recommended for Full Page Caching with Magento2. Website performance 
 
 Traffic flow on a single server with Varnish is typically:
 
-- Port 80 (Varnish) -> Port 8080 (:doc:`/operatingsystems/linux/nginx/index`) -> :doc:`/operatingsystems/linux/php-fpm/index`
-- Port 443 (:doc:`/operatingsystems/linux/nginx/index`) - Port 80 (Varnish) -> Port 8080 (:doc:`/operatingsystems/linux/nginx/index`) -> :doc:`/operatingsystems/linux/php-fpm/index`
+- Port 80 (:doc:`/ecommercestacks/magento/magento2/varnish/index`) -> Port 8080 (:doc:`/operatingsystems/linux/nginx/index`) -> :doc:`/operatingsystems/linux/php-fpm/index`
+- Port 443 (:doc:`/operatingsystems/linux/nginx/index`) - Port 80 (:doc:`/ecommercestacks/magento/magento2/varnish/index`) -> Port 8080 (:doc:`/operatingsystems/linux/nginx/index`) -> :doc:`/operatingsystems/linux/php-fpm/index`
 
 .. toctree::
    
