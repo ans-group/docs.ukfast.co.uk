@@ -1,12 +1,5 @@
 # Managing Contacts and Permissions in MyUKFast
 
-```eval_rst
-   .. title:: MyUKFast | Managing Contacts and Permissions
-   .. meta::
-      :title: MyUKFast | Managing Contacts and Permissions in MyUKFast | UKFast Documentation
-      :description: How to manage authorised contacts in MyUKFast
-      :keywords: ukfast, account manager, service manager, primary contact, new contact, permission
-```
 
 ## Primary Contact
 The Primary Contact in any UKFast account has overall ownership and control of the contacts list and user permission levels.
@@ -17,6 +10,11 @@ If the existing Primary Contact has left the company, please contact your Accoun
 
 ## Review existing contacts
 The Primary Contact in any UKFast account has overall ownership and control of the contacts list and user permission levels. To review and manage existing contacts on your account, go to the [Contacts](https://my.ukfast.co.uk/account/list-contacts.php) section of MyUKFast.
+
+The Primary Contact can control the level of access a contact has by clicking on their name in the [Contacts](https://my.ukfast.co.uk/account/list-contacts.php) section and the clicking on **Access and Security**.
+
+On this page a contact can be limited to only being able to log in to [MyUKFast](https://www.my.ukfast.co.uk) from certain IP addresses and can have an pre-set **Access Profile** selected or a customised one set up to fine tune the type of access this contact has.
+
 
 ## Add new contacts
 The Primary Contact can add new contacts by following these simple steps:
@@ -52,3 +50,12 @@ The configurable Alerts are broadly split into 2 categories, "General" and "Serv
    - Threat Monitoring
 
 If you have any questions about which alerts are the most appropriate for your contacts to receive, please contact [your Account Manager](myukfast/account_manager).
+
+```eval_rst
+   .. title:: MyUKFast | Managing Contacts and Permissions
+   .. meta::
+      :title: MyUKFast | Managing Contacts and Permissions in MyUKFast | UKFast Documentation
+      :description: How to manage authorised contacts in MyUKFast
+      :keywords: ukfast, account manager, service manager, primary contact, new contact, permission
+```
+
