@@ -29,7 +29,7 @@ Shared Firewall: [https://docs.ukfast.co.uk/network/firewalls/shared\_lockdown.h
 ## Troubleshooting connectivity to your MSSQL Server
 
 To check if your able to communicate both outbound from your network over the required MSSQL port. The following Powershell cmdlet can be utilised (Please note the TcpTestSucceeded indicates if the port is accessible);
-```
+```powershell
 Test-Netconnection {RemoteServerAddress} -port {MSSQLPORT}
 ```
 Example;
