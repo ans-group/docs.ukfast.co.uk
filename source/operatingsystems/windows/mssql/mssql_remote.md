@@ -16,7 +16,7 @@ To check the port in which the SQL Server is configured to listen on, You would 
   - Open Start > Microsoft SQL Server {Version} > SQL Server {Version} Configuration Manager
 - Expand SQL Server Network Configuration > Click Protocols for MSSQLSERVER > Right click "TCP/IP" > Properties > IP Addresses > Scroll down until you see your internal server IP and check "TCP port"
 ```
-![](RackMultipart20200903-4-hfi8z6_html_a79046e720aa7af0.png)
+![Instance options](Images/mssql_remote/sql_configuration_manager.PNG)
 
 **Opening the MSSQL Ports on your Firewall**
 
@@ -34,15 +34,16 @@ Test-Netconnection {RemoteServerAddress} -port {MSSQLPORT}
 ```
 Example;
 
-![](RackMultipart20200903-4-hfi8z6_html_7ad87013a00a679d.png)
+![Instance options](Images/mssql_remote/tnc.png)
 
 To further test connectivity to your instance, The following method can be used;
 
 On your remote client > Go to start > Notepad.exe > File > Save As;
 
 Filename: ConnectionTest.udl
+Save As type: All Files (\*.\*)
 
-![](RackMultipart20200903-4-hfi8z6_html_596f6c58e125f6c4.gif) Save As type: All Files (\*.\*)
+![Instance options](Images/mssql_remote/udl_test.png)
 
 Open the UDL File and enter the following information;
 
@@ -55,7 +56,7 @@ Open the UDL File and enter the following information;
 
 The latest SSMS client can be downloaded here: [https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver15](https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver15)
 
-![](RackMultipart20200903-4-hfi8z6_html_e811dd084b2967be.png)
+![Instance options](Images/mssql_remote/ssms.png)
 
 In order to connect to the Instance, you will need to enter the correct connection details in to the "Connect to Server" pane as has been demonstrated above.
 
