@@ -16,4 +16,4 @@ MSSQL
    restoringdb
    activitymonitor
    performancedashboard
-   mssql_remote.md
+   mssql_remote
