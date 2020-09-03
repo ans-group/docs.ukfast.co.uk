@@ -61,3 +61,11 @@ The latest SSMS client can be downloaded here: [https://docs.microsoft.com/en-us
 In order to connect to the Instance, you will need to enter the correct connection details in to the "Connect to Server" pane as has been demonstrated above.
 
 Please note that Windows Authentication may not be enabled on your Instance, if this is the case, you will need to use the "SA" Credentials to authenticate instead. in order to do this, you simply need to select the arrow next to the "Authentication" field, and select "SQL Server Authentication" then enter your SA credentials in the user name and password fields below.
+
+```eval_rst
+  .. title:: Setup Remote Access to MSSQL
+  .. meta::
+    :title: Setup Remote Access to MSSQL | UKFast Documentation
+    :description: How to access an MSSQL instance between a client device and a MSSQL server
+    :keywords: ukfast, mssql, windows, db, sql, remote, connection
+```
