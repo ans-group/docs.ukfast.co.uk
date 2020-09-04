@@ -1,4 +1,4 @@
-## Checking Inbound/Outbound server connectivity
+# Checking Inbound/Outbound server connectivity
 
 What is covered within this guide?
 ```
