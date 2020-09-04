@@ -1,4 +1,4 @@
-## Checking Inbound/Outbound server connectivity
+# Checking Inbound/Outbound server connectivity
 
 What is covered within this guide?
 ```
@@ -6,7 +6,7 @@ What is covered within this guide?
 - Testing inbound connectivity to your server
 - Troubleshooting inbound connectivity issues
 ```
-# Testing Outbound connectivity from your server
+## Testing Outbound connectivity from your server
 
 To test general outbound connectivity from your server over a specific port. The following Powershell command is extremely useful;
 ```
@@ -40,7 +40,7 @@ Paired with the hostname "portquiz.net", which is a service in which is publicly
 ```
 Test-Netconnection portquiz.net -port 80
 ```
-# Testing inbound connectivity to your server
+## Testing inbound connectivity to your server
 
 The above Powershell command is also quite powerful when testing inbound connectivity to your server. As this helps determine as to whether or not your source device is able to communicate over the required ports.
 
@@ -87,7 +87,7 @@ Here is an example of a Windows firewall configuration which is not enabled
 
 It is worth noting that, Typically Windows Firewall does not need to be enabled as ideally ports and traffic should be filtered via your UKFast firewall. This essentially reduced the load on the server as the server does not need to analyse and permit/reject traffic.
 
-**Troubleshooting inbound connectivity issues**
+## Troubleshooting inbound connectivity issues
 
 There are a wide variety of methods and tools in which you are able to troubleshoot network connectivity issues. Here are a few examples;
 
