@@ -44,8 +44,7 @@ No renewals were attempted.
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 ``` 
 
-
-## Certbot timer methods
+## Certbot Timer Method
 
 The `certbot` package comes with a **timer** service that you can leave to run and automatically update your certificates. This is a systemd service, and can be enabled with the following;
 
@@ -59,7 +58,6 @@ Created symlink from /etc/systemd/system/timers.target.wants/certbot-renew.timer
    Active: active (waiting) since Thu 2020-07-09 08:56:24 BST; 12s ago
 
 ```
-
 
 # Revoking SSL Certificates with Certbot
 To revoke a LetsEncrypt certificate, use the following command
