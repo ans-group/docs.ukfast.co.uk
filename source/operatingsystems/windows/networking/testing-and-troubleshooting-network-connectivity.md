@@ -132,3 +132,10 @@ To stop the listener run;
 
 PS C:\Users\Administrator> $Listener.Stop();
 ```
+
+```eval_rst
+  .. title:: Troubleshooting inbound and outbound connectivity on Windows
+  .. meta::
+     :title: Troubleshooting inbound and outbound connectivity on Windows | UKFast Documentation
+     :description: An in-depth guide on troubleshooting network connectivity issues on Windows
+     :keywords: ukfast, network, tcp, connection, configure, tutorial, guide, server, cloud, powershell, firewall, ports
