@@ -72,6 +72,7 @@ UDP [::]:3389 \*:\* 320
 Dependent upon on whether or not your server resides behind a dedicated or shared firewall, The following documentation will guide you through securely opening ports on your firewall;
 
 Dedicated Firewall: [https://docs.ukfast.co.uk/network/firewalls/dedi\_lockdown.html](https://docs.ukfast.co.uk/network/firewalls/dedi_lockdown.html)
+
 Shared Firewall: [https://docs.ukfast.co.uk/network/firewalls/shared\_lockdown.html](https://docs.ukfast.co.uk/network/firewalls/shared_lockdown.html)
 
 **How to check if Windows firewall is enabled**
