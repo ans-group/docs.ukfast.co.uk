@@ -83,7 +83,7 @@ Open the control panel > System and Security > Windows Defender Firewall.
 
 Here is an example of a Windows firewall configuration which is not enabled
 
-![windows-firewall](files/connectivity-testing/windows-firewall.PNG)
+![windows-firewall](files/connectivity-testing/windows-firewall.png)
 
 It is worth noting that, Typically Windows Firewall does not need to be enabled as ideally ports and traffic should be filtered via your UKFast firewall. This essentially reduced the load on the server as the server does not need to analyse and permit/reject traffic.
 
@@ -97,7 +97,7 @@ Wireshark can be used to monitor and capture traffic on a specific network inter
 ```
 tcp.port == 3389
 ```
-![windows-firewall](files/connectivity-testing/wireshark.PNG)
+![windows-wireshark](files/connectivity-testing/wireshark.png)
 
 Wireshark is free to use and can be downloaded here; [https://www.wireshark.org/download.html](https://www.wireshark.org/download.html)
 
