@@ -10,6 +10,8 @@ To access your server credentials, browse to the Server or eCloud tab within MyU
 
 You will then need to scroll down to the Unlock Credentials button at the very bottom of the page. Enter your MyUKFast password and your server credentials will be displayed to you.
 
+![Unlock Credentials](files/unlockcreds.PNG)
+
 ## Account Passwords
 
 There are two types of passwords linked to your UKFast account; your MyUKFast account password and your Telephone Security password.
@@ -30,7 +32,11 @@ Similarly there are multiple ways to change the **Telephone Security password** 
 
 * Hover over your name on the top right of the screen and select **Change Telephone Password**
 
+![The upper right hand menu](files/upperright.png)
+
 * Select **My Account > Contacts** then click on the name of the contact whose password you wish to change then proceed to the **Access and Security** tab at the top of the next page. Under the heading **Telephone Support** you should see a hashed out password, this can be replaced and saved over to update this to a password of your liking.
+
+![Access and Security](files/accessandsecurity.png)
 
 Unfortunately, we are unable to reset your Telephone Support password on your behalf due to it being our primary means of verifying your identity. 
 However, if you're having issues following this guide then we can help you through doing it over the phone.
