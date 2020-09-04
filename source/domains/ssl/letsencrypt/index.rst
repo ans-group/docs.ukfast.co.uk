@@ -13,22 +13,12 @@ Over a billion certificates have already been issued using **Let's Encrypt**.
 
 .. toctree::
    :maxdepth: 1
-   How Let's Encrypt Works <letsencrypt_how>
-
-.. toctree::
-   :maxdepth: 1
-    
+   
+   How Let's Encrypt Works <letsencrypt_how>  
    Nginx on CentOS with Certbot <letsencrypt_centos_nginx>
    Apache on CentOS with Certbot <letsencrypt_centos_apache>
    Apache/Nginx on Ubuntu with Certbot <letsencrypt_ubuntu>
    Auto-Renewing & Revoking Certificates with Certbot <letsencrypt_autorenew_revoke>
-   
-.. toctree::
-   :maxdepth: 1
-   
    Let's Encrypt in Plesk <letsencrypt_plesk>
    Let's Encrypt in cPanel/WHM <letsencrypt_cpanel>
-     
-.. toctree::
-   :maxdepth: 1
    Using Let's Encrypt on Windows <letsencrypt_windows>
