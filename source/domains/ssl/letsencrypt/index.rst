@@ -32,8 +32,3 @@ Over a billion certificates have already been issued using **Let's Encrypt**.
 .. toctree::
    :maxdepth: 1
    Using Let's Encrypt on Windows <letsencrypt_windows>
- 
- .. meta::
-   :title: SSL | Let's Encrypt | UKFast Documentation
-   :description: How to secure your sites with Let's Encrypt
-   :keywords: ukfast, ssl, certbot, nginx, apache, letsencrypt, let's encrypt, renew, revoke, issue, secure, security, linux, windows, server, guide, tutorial
