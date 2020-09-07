@@ -1,4 +1,4 @@
-# Install New Relic On CentOS
+# How to install and configure New Relic PHP Agent on CentOS 7
 
 In this article we will discuss how to install the New Relic PHP agent on a CentOS Server. New Relic is a third party developer tool that can provide indepth application monitoring which can be used to identify problem areas in the application, commonly performance related.
 
@@ -37,7 +37,7 @@ New Relic offers a [free tier account](https://newrelic.com/signup/) with "100 G
  $ newrelic-install install
  ```
 
-### Installation on a Panel
+### Installation on a server that is controlled by a panel (such as cPanel or Plesk)
 
 If the server has a panel or the PHP is otherwise not installed in the default location, you may wish to specify the PHP location by running the following to begin the installation:
 
