@@ -18,6 +18,8 @@ There are two types of passwords linked to your UKFast account; your MyUKFast ac
 
 The **MyUKFast Account password** is used to gain access to MyUKFast and to server credentials whereas the **Telephone Security password** is used to verify the identity of anyone calling in to speak to our support team.
 
+### MyUKFast Account Password
+
 There are multiple ways to change your **MyUKFast account password** through [MyUKFast](my.ukfast.co.uk)
 
 * Select **My Account > Change Password** from the left hand side option bar
@@ -27,6 +29,8 @@ There are multiple ways to change your **MyUKFast account password** through [My
 * Select **My Account > Contacts** then click on the name of the contact whose password you wish to change then proceed to the **Access and Security** tab at the top of the next page. Under the heading **MyUKFast Login** you can select to have a new password automatically generated or to enter a new password yourself. You can only do this for another persons account if you are the primary contact on that account. 
 
 If you have forgotten your MyUKFast password altogether you can simply click on the **Forgot your username or password?** links at the login page or call in to our support line on **0800 230 0032** and we are able to email out a password reset link to your contact email address.
+
+### Telephone Security Password
 
 Similarly there are multiple ways to change the **Telephone Security password** through [MyUKFast](my.ukfast.co.uk)
 
@@ -38,9 +42,12 @@ Similarly there are multiple ways to change the **Telephone Security password** 
 
 ![Access and Security](files/accessandsecurity.png)
 
-Unfortunately, we are unable to reset your Telephone Support password on your behalf due to it being our primary means of verifying your identity. 
-However, if you're having issues following this guide then we can help you through doing it over the phone.
+```eval_rst
+.. warning::
 
+  Unfortunately, we are unable to reset your Telephone Support password on your behalf due to it being our primary means of verifying your identity. However, if you're having issues following this guide then we can help you through doing it over the phone.
+  
+```
 
 ```eval_rst
    .. title:: MyUKFast | Managing Passwords
