@@ -1,4 +1,4 @@
-# Install New Relic
+# Install New Relic On CentOS
 
 In this article we will discuss how to install the New Relic PHP agent on a CentOS Server. New Relic is a third party developer tool that can provide indepth application monitoring which can be used to identify problem areas in the application, commonly performance related.
 
@@ -28,21 +28,36 @@ New Relic offers a [free tier account](https://newrelic.com/signup/) with "100 G
  $ yum install newrelic-php5
  ```
 
- 4. Run the following command to begin in the install:
+4. Installing New Relic:
+### Installation on a server with a single instance of PHP
+
+ Run the following command to begin in the installation:
 
  ```bash
  $ newrelic-install install
  ```
 
-```eval_rst
-.. note::
-If the server has a panel or the PHP is otherwise not installed in the default location, you may wish to specify the PHP location by using a similar command to the below:
-```
+### Installation on a Panel
+
+If the server has a panel or the PHP is otherwise not installed in the default location, you may wish to specify the PHP location by running the following to begin the installation:
+
+cPanel Example:
+
 ```bash
 $ NR_INSTALL_PHPLIST=/opt/cpanel/ea-php56/root/usr/bin:/opt/cpanel/ea-php71/root/usr/bin:/opt/cpanel/ea-php70/root/usr/bin:/opt/cpanel/ea-php73/root/usr/bin; export NR_INSTALL_PHPLIST
 $ newrelic-install install
 ```
 
+Plesk Example:
+
+```bash
+$ NR_INSTALL_PHPLIST=/opt/plesk/php/7.1/bin:/opt/plesk/php/7.2/bin:/opt/plesk/php/7.3/bin/; export NR_INSTALL_PHPLIST
+$ newrelic-install install
+```
+
+Please ensure that for either of the above examples that you remember to change the paths to suit you enviroment. If you are on cPanel and are running PHP 7.4, you will need to also include the path to the 7.4 using the same format as the above line.
+
+### The New Relic Agent Installer:
 
 This is where you will need the **APM license Key** and the installer will first ask you for it:
 
