@@ -51,7 +51,7 @@ $ newrelic-install install
 Plesk Example:
 
 ```bash
-$ NR_INSTALL_PHPLIST=/opt/plesk/php/7.1/bin:/opt/plesk/php/7.2/bin:/opt/plesk/php/7.3/bin/; export NR_INSTALL_PHPLIST
+$ NR_INSTALL_PHPLIST=/opt/plesk/php/7.1/bin:/opt/plesk/php/7.2/bin:/opt/plesk/php/7.3/bin; export NR_INSTALL_PHPLIST
 $ newrelic-install install
 ```
 
