@@ -1,12 +1,6 @@
 # Guide to Billing section of MyUKFast
 
-```eval_rst
-   .. title:: Invoices, payments, billing in MyUKFast
-   .. meta::
-      :title: MyUKFast | Billing Section of MyUKFast | UKFast Documentation
-      :description: How to perform various Accounts related activities in MyUKFast
-      :keywords: ukfast, accounts, invoice, invoice query, credit note, billing, payment method, payment, commission, remittance, refund, VAT
-```
+
 
 ## Billing
 UKFast provides all information that you should require relating to invoicing, recurring and payments within MyUKFast, with a number of specific pages available within the [Billing](https://my.ukfast.co.uk/billing/accountsview.php) section of MyUKFast.
@@ -25,3 +19,11 @@ For all written enquiries, please address Accounts Department, UKFast, UKFast Ca
 
 ## Contract Queries
 For any queries specifically relating to your UKFast contract, please [contact your Account Manager](myukfast/account-manager).
+
+```eval_rst
+   .. title:: Invoices, payments, billing in MyUKFast
+   .. meta::
+      :title: MyUKFast | Billing Section of MyUKFast | UKFast Documentation
+      :description: How to perform various Accounts related activities in MyUKFast
+      :keywords: ukfast, accounts, invoice, invoice query, credit note, billing, payment method, payment, commission, remittance, refund, VAT
+```
