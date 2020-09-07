@@ -39,23 +39,23 @@ New Relic offers a [free tier account](https://newrelic.com/signup/) with "100 G
 
 ### Installation on a server that is controlled by a panel (such as cPanel or Plesk)
 
-If the server has a panel or the PHP is otherwise not installed in the default location, you may wish to specify the PHP location by running the following to begin the installation:
+If the server has a control panel, or the PHP binary is installed to an alternate location (eg. /opt), then you will need to specify the PHP path with the following commands prior to installation:
 
-cPanel Example:
+#### cPanel Example
 
 ```bash
 $ NR_INSTALL_PHPLIST=/opt/cpanel/ea-php56/root/usr/bin:/opt/cpanel/ea-php71/root/usr/bin:/opt/cpanel/ea-php70/root/usr/bin:/opt/cpanel/ea-php73/root/usr/bin; export NR_INSTALL_PHPLIST
 $ newrelic-install install
 ```
 
-Plesk Example:
+#### Plesk Example
 
 ```bash
 $ NR_INSTALL_PHPLIST=/opt/plesk/php/7.1/bin:/opt/plesk/php/7.2/bin:/opt/plesk/php/7.3/bin; export NR_INSTALL_PHPLIST
 $ newrelic-install install
 ```
 
-Please ensure that for either of the above examples that you remember to change the paths to suit you enviroment. If you are on cPanel and are running PHP 7.4, you will need to also include the path to the 7.4 using the same format as the above line.
+Please ensure that for either of the above examples that you remember to change PHP paths to suit your enviroment. For example, if you are on cPanel and using PHP 7.4, you will need to include the path to the PHP 7.4 binary using the same format as the provided example.
 
 ### The New Relic Agent Installer:
 
@@ -72,16 +72,17 @@ New Relic PHP Agent Installation (interactive mode)
 
 - For `Apache` servers:
 ```bash
- $ service httpd restart
+ $ systemctl restart httpd
 ```
-- For `Nginx` servers:
+- If running `php-fpm`:
 ```bash
-$ service nginx restart
+$ systemctl restart php-fpm
 ```
-- For `php-fpm` servers:
-```bash
-$ service php-fpm restart
-```
+
+```eval_rst
+.. note::
+  For Plesk/cPanel, you should confirm that you are restarting the correct web service - often, you can restart services within the control panel itself in Service Management/Manager
+ ```
 
 Now once New Relic has captured enough traffic, log back into your New Relic account and data should appear in the APM tab.
 
