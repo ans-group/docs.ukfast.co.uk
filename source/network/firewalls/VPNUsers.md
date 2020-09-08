@@ -7,7 +7,7 @@ add a user, remove a user, change passwords and/or group-policy for a user all v
 
 Once on the VPN tab, click the "Details" button in the "Remote Access" section.  You will then see an option to "Add New User" near the top of the page.  
 
-![VPN Users Tab](files/editor2_users_list_ra.png)
+![VPN Users Tab](files/editor2_users_list_ra.PNG)
 
 Click this and you will be presented
 with this screen:
