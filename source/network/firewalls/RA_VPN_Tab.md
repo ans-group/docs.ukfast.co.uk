@@ -42,7 +42,7 @@ If there are no users configured on the firewall and the device is using local a
 
 ![Existing RA VPN](files/add_users_ra.PNG)
 
-If there are users configured the page will list usernames on the firewall and their connection status.
+If there are users configured, this page will list usernames on the firewall and their connection status.
 
 ![User List](files/editor2_users_list_ra.PNG)
 
