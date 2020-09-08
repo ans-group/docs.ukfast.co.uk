@@ -269,7 +269,7 @@ if (resp.status == 750) {
 
 Varnish will need a reload for this to take effect.
 ```bash
-varnishd -C -f /etc/varnish/default.vcl && service varnish reload
+varnishd -C -f /etc/varnish/default.vcl && systemctl reload varnish
 ```
 
 ### Purge Cache
