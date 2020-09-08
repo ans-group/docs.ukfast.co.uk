@@ -21,7 +21,11 @@ Please note, the change is not made to the firewall until you click "Apply Chang
 
 ## Editing an existing User
 
-To edit an existing user click the user name in the list of users on the VPN Users tab.  This will give a page to make changes to passwords and/or group-policy.  Make the changes and click "Update User".
+To edit an existing user click the user name in the list of users on the VPN Users tab.  This will give a page to make changes to passwords and/or group-policy.
+
+![Edit User](files/editor2_edit_user_ra.PNG)
+
+Make the changes and click "Update User".
 
 Please note, the change is not made to the firewall until you click "Apply Changes".
 
