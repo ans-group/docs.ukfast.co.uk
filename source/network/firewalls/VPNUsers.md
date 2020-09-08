@@ -3,11 +3,13 @@
 If you have an AnyConnect VPN setup on your dedicated firewal you can edit the user configuration via the online editor.  You can 
 add a user, remove a user, change passwords and/or group-policy for a user all via the MyUKFast VPN Users tab.
 
-![VPN Users Tab](files/UserTab.png)
-
 ## Add a New User
 
-Once on the VPN Users tab you will see an option to "Add New User" near the top of the page.  Click this and you will be presented
+Once on the VPN tab, click the "Details" button in the "Remote Access" section.  You will then see an option to "Add New User" near the top of the page.  
+
+![VPN Users Tab](files/editor2_users_list_ra.png)
+
+Click this and you will be presented
 with this screen:
 
 ![New User](files/NewUser.PNG)
