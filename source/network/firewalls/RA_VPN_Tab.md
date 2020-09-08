@@ -4,7 +4,7 @@
 
 If there is no configured AnyConnect VPN on the firewall the below screen will be displayed allowing you to setup a new VPN via the editor
 
-![VPN Dashboard](files/editor2_configure_new_ra.PNG)
+![New RA VPN](files/editor2_configure_new_ra.PNG)
 
 ### Required Elements:
 
@@ -38,7 +38,7 @@ Once you have filled in all the required elements, click "Configure" and wait fo
 
 ## Existing AnyConnect VPN
 
-
+![Existing RA VPN](files/editor2_add_users_ra.PNG)
 
 ```eval_rst
   .. meta::
