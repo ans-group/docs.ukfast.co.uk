@@ -12,7 +12,7 @@ Once on the VPN tab, click the "Details" button in the "Remote Access" section. 
 Click this and you will be presented
 with this screen:
 
-![New User](files/NewUser.PNG)
+![New User](files/editor2_new_user_ra.PNG)
 
 Fill in the fields given and select the group-policy you would like applying to the new user (there may only be one in the list).  Then 
 click add user.
