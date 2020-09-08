@@ -7,11 +7,15 @@ The VPN dashboard shows the current connection numbers for VPNs on your firewall
 ## Remote Access
 
 These are the client-to-site VPN connections using the Cisco AnyConnect client.  If you have Remote Access VPNs setup on your dedicated firewal you can edit some elements of their setup via the online editor.  
-You can add a user, remove a user, change passwords and/or group-policy for an AnyConnect VPN user all via the MyUKFast VPN tab and clicking on the "Details" link in the "Remote Access" section.  If you don't have one configured you can setup a new AnyConnect VPN via the editor by clicking on the "Details" link in the "Remote Access" section.
+You can add a user, remove a user, change passwords and/or group-policy for an AnyConnect VPN user all via the MyUKFast VPN tab and clicking on the "Details" link in the "Remote Access" section.  
+
+If you don't have one configured you can setup a new AnyConnect VPN via the editor by clicking on the "Details" link in the "Remote Access" section.
 
 ## Site to Site
 
-These are the VPNs setup between two IPSec capable devices. If you have VPNs setup on your device you can edit some elements of their setup via the online editor.  You can check the status and rekey live site-to-site VPN connections by clicking on the "Details" link in the "Site To Site" section.  From this screen you can also click "edit" and from this screen you can change the peer IP and/or pre-shared key in use on the VPN.
+These are the VPNs setup between two IPSec capable devices. If you have VPNs setup on your device you can edit some elements of their setup via the online editor.  You can check the status and rekey live site-to-site VPN connections by clicking on the "Details" link in the "Site To Site" section.  
+
+From this screen you can also click "edit" and you can then change the peer IP and/or pre-shared key in use on the VPN.
 
 Please note, the change is not made to the firewall until you click "Apply Changes".
 
