@@ -239,7 +239,7 @@ if (req.url ~ "^/.well-known/") {
 This needs to go under the vcl_recv section of the VCL. Varnish will need a reload for this to take efect.
 
 ### HTTP -> HTTPS Redirect
-To configure Varnish to perform the HTTP to HTTPS redirect add the following:
+To configure Varnish to perform the HTTP to HTTPS redirect add the following under the vcl_recv section of /etc/varnish/default.vcl:
 
 All domains:
 ```bash
@@ -257,7 +257,7 @@ if (req.http.host ~ "exampledomain.com" && req.http.X-Forwarded-Proto !~ "https"
     }
 ```
 
-Under the vcl_recv section of /etc/varnish/default.vcl and:
+ and then add the below under the vcl_synth section:
 
 ```bash
 if (resp.status == 750) {
@@ -267,7 +267,10 @@ if (resp.status == 750) {
     }
 ```
 
-Under vcl_synth. Varnish will need a reload for this to take efect.
+Varnish will need a reload for this to take effect.
+```bash
+varnishd -C -f /etc/varnish/default.vcl && service varnish reload
+```
 
 ### Purge Cache
 Magento purges Varnish hosts after you configure Varnish hosts using the magento setup:config:set command (Ensure you run the Magento 2 CLI as the local system user defined in PHP-FPM and not root). Once configured when you clean, flush, or refresh the Magento cache, Varnish purges as well. 
