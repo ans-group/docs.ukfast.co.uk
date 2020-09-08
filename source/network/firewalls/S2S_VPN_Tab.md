@@ -1,0 +1,28 @@
+# Site To Site VPN Dashboard
+
+On the VPN tab of the editor, click the "Details" button on the "Site To Site" Section.
+
+![Site To Site Dashboard](files/editor2_s2s_dash.PNG)
+
+This screen displays information about the currently configured site-to-site VPNs on your firewall.  There is also the option to create a site-to-site VPN by clicking the "Add New" button
+at the top of the page.
+
+## Existing Connections
+
+You can see the peer IP and connection status for VPNs configured on the firewall.  If the VPN is connected you can force a termination of the tunnel by clicking the "Rekey Connection" button.  If you click
+the "Edit" button you are then given the option to change the Peer IP and/or Pre-shared key in use on the tunnel.
+
+![Edit Peer IP](files/editor2_change_peer_ip.PNG)
+
+Enter the peer IP and PSK into the boxes provided and click "update". If you would like to keep using the same pre-shared key for the new peer then leave the PSK box blank. 
+
+Please note, the change is not made to the firewall until you click "Apply Changes".
+
+## Creating a New Site To SIte VPN
+
+```eval_rst
+  .. meta::
+     :title: Remote Access VPN Administration | UKFast Documentation
+     :description: Remote Access VPN Dashboard
+     :keywords: ukfast, firewall, vpn, setup, remove access, AnyConnect, users
+```
