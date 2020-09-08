@@ -38,7 +38,13 @@ Once you have filled in all the required elements, click "Configure" and wait fo
 
 ## Existing AnyConnect VPN
 
+If there are no users configured on the firewall and the device is using local authentication for VPN users you will see the option to add a user.
+
 ![Existing RA VPN](files/add_users_ra.PNG)
+
+If there are users configured the page will list usernames on the firewall and their connection status.
+
+![User List](files/editor2_users_list_ra.PNG)
 
 ```eval_rst
   .. meta::
