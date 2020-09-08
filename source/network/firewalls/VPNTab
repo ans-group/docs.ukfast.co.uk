@@ -2,6 +2,8 @@
 
 The VPN dashboard shows the current connection numbers for VPNs on your firewall and provides the access to the more detailed views of the two different types of VPNs that are available to you.
 
+![VPN Dashboard](files/editor2_vpn_dashboard.PNG)
+
 ## Remote Access
 
 These are the client-to-site VPN connections using the Cisco AnyConnect client.  If you have Remote Access VPNs setup on your dedicated firewal you can edit some elements of their setup via the online editor.  
