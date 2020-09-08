@@ -38,7 +38,7 @@ Once you have filled in all the required elements, click "Configure" and wait fo
 
 ## Existing AnyConnect VPN
 
-![Existing RA VPN](files/editor2_add_users_ra.PNG)
+![Existing RA VPN](files/add_users_ra.PNG)
 
 ```eval_rst
   .. meta::
