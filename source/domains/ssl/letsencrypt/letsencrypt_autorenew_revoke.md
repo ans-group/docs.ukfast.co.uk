@@ -1,5 +1,5 @@
 #  Auto-Renewing SSL Certificates with Certbot
-Due to the short lifespan of `Let's Encrypt certificates, it introduces the risk of your certificates expiring at an inopportune time. Therefore you should look towards scheduling in **automatic renewal**.
+Due to the short lifespan of `Let's Encrypt` certificates, it introduces the risk of your certificates expiring at an inopportune time. Therefore, you should look towards scheduling in **automatic renewal**.
 
 There are two methods to achieve this: With a scheduled task (a cron job) or using an additional utility that comes with certbot.
 ## Cron Method
