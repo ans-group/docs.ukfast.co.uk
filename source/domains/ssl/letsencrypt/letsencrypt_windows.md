@@ -85,7 +85,7 @@ As an example, to use this with Route53, please see the following usage guide, w
 
 ```eval_rst
 .. note:
-  UKFast do not currently offer a DNS Plugin for use with Posh-ACME, but this project is open for contributions.
+  UKFast do not currently offer a DNS Plugin for use with Posh-ACME, but are open to contributions that integrate with the SafeDNS API. More information on this is available in the [UKFast Developer Centre](https://developers.ukfast.io/documentation/safedns)
 
 ```
 
