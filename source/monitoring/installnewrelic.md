@@ -154,5 +154,5 @@ Check back in the php agent log, and you should see that it has successfully sta
   .. meta::
      :title: How to Install and Configure New Relic on CentOS 7 | UKFast Documentation
      :description: How to Install and Configure New Relic on CentOS 7
-     :keywords: linux, monitoring, newrelic, new relic, apm, tracing, performance
+     :keywords: performance, newrelic, new relic, php, linux, apm, monitoring
 ```
