@@ -18,7 +18,37 @@ Enter the peer IP and PSK into the boxes provided and click "update". If you wou
 
 Please note, the change is not made to the firewall until you click "Apply Changes".
 
-## Creating a New Site To SIte VPN
+## Creating a New Site To Site VPN
+
+If you click the "Add New" button at the top of the page you can configure a new site-to-site VPN on your firewall.
+
+![New S2S VPN](files/editor2_config_new_s2s.PNG)
+
+### Required Elements:
+
+#### Name
+
+Each VPN needs to have a unique name.  This name is administrative and will be used to reference the VPN.
+
+#### Peer IP
+
+This is the public IP or the remote IPSec device where the VPN will be terminating
+
+#### PSK
+
+This is the pre-shared key that will be used on both ends of the VPN to authenticate the tunnel at establishment
+
+#### Zones To Be Accessed
+
+Please select which zones on your firewall you would like to be able to access over the VPN.  This can be further restricted to individual servers by editing the access lists later
+
+#### Remote Subnets
+
+Please enter the remote subnets (encryption domains) that will be accessed over the VPN.
+
+#### IKE Version (IKEv2 is recommended)
+
+Select the IKE version to be used on the VPN.  This setting needs to match at both ends of the VPN as the version are not interoperable.
 
 ```eval_rst
   .. meta::
