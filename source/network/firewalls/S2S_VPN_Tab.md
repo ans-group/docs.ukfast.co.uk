@@ -50,6 +50,23 @@ Please enter the remote subnets (encryption domains) that will be accessed over 
 
 Select the IKE version to be used on the VPN.  This setting needs to match at both ends of the VPN as the version are not interoperable.
 
+When these fields are completed please click "Next"
+
+### IKEv1 Options
+
+#### Phase 1
+
+#### Phase 2
+
+### IKEv2 Options
+
+#### Phase 1
+
+#### Phase 2
+
+
+
+
 ```eval_rst
   .. meta::
      :title: Remote Access VPN Administration | UKFast Documentation
