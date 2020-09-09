@@ -7,3 +7,4 @@ Active Directory
    adcreateuser
    adcreategroup
    adgrouppolicy
+   resetpassword
