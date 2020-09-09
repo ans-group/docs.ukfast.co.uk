@@ -56,11 +56,11 @@ When these fields are completed please click "Next"
 
 #### Phase 1
 
-![New S2S VPN](files/editor2_ikev1_p1.PNG)
+![New S2S VPN](files/editor2_ikev1_p1.png)
 
 #### Phase 2
 
-![New S2S VPN](files/editor2_ikev1_p2.PNG)
+![New S2S VPN](files/editor2_ikev1_p2.png)
 
 ### IKEv2 Options
 
