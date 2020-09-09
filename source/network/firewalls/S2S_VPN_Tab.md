@@ -56,19 +56,29 @@ When these fields are completed please click "Next"
 
 #### Phase 1
 
-![New S2S VPN](files/editor2_ikev1_p1.png)
+![New S2S VPN v1P1](files/editor2_ikev1_p1.png)
+
+Select the required encryption, dh group and hashing for phase 1.  This will need to match the settings on the remote end.
 
 #### Phase 2
 
-![New S2S VPN](files/editor2_ikev1_p2.png)
+![New S2S VPN v1P2](files/editor2_ikev1_p2.png)
+
+Select the required encryption, dh group and hashing for phase 2.  This will need to match the settings on the remote end.
 
 ### IKEv2 Options
 
 #### Phase 1
 
+![New S2S VPN v2P1](files/editor2_ikev2_p1.png)
+
+Select the required encryption, dh group and hashing and prf value for phase 1.  This will need to match the settings on the remote end.
+
 #### Phase 2
 
+![New S2S VPN v2P2](files/editor2_ikev2_p2.png)
 
+Select the required encryption, dh group and hashing for phase 2.  This will need to match the settings on the remote end.
 
 
 ```eval_rst
