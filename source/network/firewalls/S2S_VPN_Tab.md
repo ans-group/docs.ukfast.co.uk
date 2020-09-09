@@ -66,6 +66,8 @@ Select the required encryption, dh group and hashing for phase 1.  This will nee
 
 Select the required encryption, dh group and hashing for phase 2.  This will need to match the settings on the remote end.
 
+The next screen will be a an overview of the VPN settings you have chosen, to send the config to the firewall click "Configure VPN"
+
 ### IKEv2 Options
 
 #### Phase 1
@@ -79,6 +81,8 @@ Select the required encryption, dh group and hashing and prf value for phase 1. 
 ![New S2S VPN v2P2](files/editor2_ikev2_p2.png)
 
 Select the required encryption, dh group and hashing for phase 2.  This will need to match the settings on the remote end.
+
+The next screen will be a an overview of the VPN settings you have chosen, to send the config to the firewall click "Configure VPN"
 
 
 ```eval_rst
