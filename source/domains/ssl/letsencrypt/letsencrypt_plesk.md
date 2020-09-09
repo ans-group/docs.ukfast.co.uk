@@ -14,11 +14,11 @@ Once installed, it will appear within each domain's configuration page.
 
 ## Issuing a certificate
 
-For **new domains**, you can include `Let's Encrypt `functionality when creating the domain itself by ticking the *Secure the domain with Let's Encrypt* option
+For **new domains**, you can include `Let's Encrypt` functionality when creating the domain itself by ticking the *Secure the domain with Let's Encrypt* option
 
 ![plesk_letsencrypt_newdomain](files/plesk_letsencrypt_newdomain.PNG)
 
-For **existing domains**, you can select your domain (or mutliple domains) within the `Let's Encrypt `extension itself. Here it provides a few options for what you would like to cover, such as 'www' and wildcard subdomains.
+For **existing domains**, you can select your domain (or mutliple domains) within the `Let's Encrypt` extension itself. Here it provides a few options for what you would like to cover, such as 'www' and wildcard subdomains.
 
 ```eval_rst
 .. warning::
@@ -28,7 +28,7 @@ For **existing domains**, you can select your domain (or mutliple domains) withi
 
 ![plesk_letsencrypt_existingdomain](files/plesk_letsencrypt_existingdomain.PNG)
 
-Once enabled, certificates will be automatically renewed close to the expiration date of the SSL
+Once enabled, certificates will be automatically renewed close to the expiration date of the SSL.
 
 You can also secure your `Plesk` Panel and mail services using `Let's Encrypt` by selecting this in the **SSL/TLS Certificates** section of **Tools & Settings**
 

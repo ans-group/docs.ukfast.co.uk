@@ -6,7 +6,7 @@ There a few distinct types of domain validation available, so you will need to f
 
 ```eval_rst
 .. warning::
-  Currently, if your sites/services  DDoSX/Webcel/WAF you will not be able to use Let's Encrypt certificates
+  If your sites/services use our DDoSX/Webcel/WAF services you will not be able to use Let's Encrypt certificates currently.
 ```
 
 ## Types of challenges
