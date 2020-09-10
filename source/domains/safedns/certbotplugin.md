@@ -1,5 +1,12 @@
 # SafeDNS Authenticator plugin for Certbot
 
+```eval_rst
+.. title: Certbot SafeDNS Plugin
+.. meta::
+   :description: Guidance on using the Certbot SafeDNS to generate certificates.
+   :keywords: certbot, safedns, plugin, certificates, https
+```
+
 ## Prerequisites
 
 To use this Certbot authenticator, you'll need to:
@@ -131,7 +138,6 @@ You can also check the log certbot file, available at `/var/log/letsencrypt/lets
 ```eval_rst
 .. title: Certbot SafeDNS Plugin
 .. meta::
-   :title: Certbot SafeDNS Plugin
    :description: Guidance on using the Certbot SafeDNS to generate certificates.
    :keywords: certbot, safedns, plugin, certificates, https
 ```
