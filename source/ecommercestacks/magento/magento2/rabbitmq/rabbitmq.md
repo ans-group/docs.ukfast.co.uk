@@ -40,7 +40,6 @@ systemctl enable rabbitmq-server
 ```
 
 #### Enable and use the RabbitMQ management console
-##### Enable management console
 ```bash
 rabbitmq-plugins enable rabbitmq_management
 chown -R rabbitmq:rabbitmq /var/lib/rabbitmq/
