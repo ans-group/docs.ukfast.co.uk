@@ -1,83 +1,132 @@
 # SafeDNS Authenticator plugin for Certbot
 
+## Prerequisites
+
+To use this Certbot authenticator, you'll need to:
+
+* To have `python3` and `pip` installed on your server
+* To have an API key with permissions on the SafeDNS API
+
+You can obtain the API key from your MyUKFast [account page](https://my.ukfast.co.uk/applications/index.php).  
+See also the [SafeDNS API](https://developers.ukfast.io/documentation/safedns) documentation.
+
+It's also assumed you'll running all commands as the `root` user.
+
+## Setup and configuration
+
+* Make sure we have the latest version of `certbot-dns-safedns` installed.
+```bash
+pip3 install --upgrade certbot-dns-safedns
+```
+
+* Create a Certbot config file and a credentials for Certbot to use:
+```bash
+mkdir ~/.config/letsencrypt/
+```
+
+```bash
+cat > ~/.config/letsencrypt/cli.ini <<EOF
+authenticator = dns_safedns
+email = admin+certbot-alerts@mydomain.com
+no-eff-email = true
+agree-tos = true
+EOF
+chmod 600 ~/.config/letsencrypt/cli.ini
+```
+
+```bash
+cat > ~/.config/letsencrypt/dns_safedns_credentials.ini <<EOF
+dns_safedns_auth_token = YourAPIKeyGoesHere
+dns_safedns_propagation_seconds = 15
+EOF
+chmod 600 ~/.config/letsencrypt/dns_safedns_credentials.ini
+```
 ```eval_rst
-
-   .. meta::
-      :title: SafeDNS | Authenticator plugin for Certbot | UKFast Documentation
-      :description: SafeDNS Authenticator plugin for Certbot
-
+.. note::
+   You will need to update ``admin+certbot-alerts@mydomain.com`` and ``YourAPIKeyGoesHere`` in the example above (at the least) to values relevant to your environment
 ```
 
-## Setup
+```eval_rst
+.. warning::
+   You should protect these API credentials as you would the password to your MyUKFast account. Users who can read this file can use these credentials to issue arbitrary API calls on your behalf. Users who can cause Certbot to run using these credentials can complete a ``dns-01`` challenge to acquire new certificates or revoke existing certificates for associated domains, even if those domains aren't being managed by this server.
+```
+
+```eval_rst
+.. note::
+   Certbot will emit a warning if it detects that the credentials file can be accessed by other users on your system. The warning reads "Unsafe permissions on credentials configuration file", followed by the path to the credentials file. This warning will be emitted each time Certbot uses the credentials file, including for renewal, and cannot be silenced except by addressing the issue (e.g., by using a command like ``chmod 600`` to restrict access to the file).
+```
+
+* We should now be able to test it works, using the Lets Encrypt staging environment:
 
 ```bash
-apt install certbot python3-pip
-pip3 install certbot-dns-safedns
+/usr/local/bin/certbot certonly \
+  --dns_safedns-credentials ~/.config/letsencrypt/dns_safedns_credentials.ini \
+  -d server1.ukfast.co.uk -d server2.ukfast.co.uk -d server3.ukfast.co.uk \
+  --server https://acme-staging-v02.api.letsencrypt.org/directory
 ```
 
-## Execution
+```eval_rst
+.. note::
+   I have used requested 3 domains on my certificate here, `server1.ukfast.co.uk`, `server2.ukfast.co.uk` and `server3.ukfast.co.uk`. You'll want to replace these with your choice of domains. You need to have the zone in your SafeDNS account already. In my case this zone name is `ukfast.co.uk`.
+```
+
+* You should now see an output like this:
+ ```none
+Saving debug log to /var/log/letsencrypt/letsencrypt.log
+Plugins selected: Authenticator dns_safedns, Installer None
+Obtaining a new certificate
+Performing the following challenges:
+dns-01 challenge for server1.ukfast.co.uk
+dns-01 challenge for server2.ukfast.co.uk
+dns-01 challenge for server3.ukfast.co.uk
+Waiting 30 seconds for DNS changes to propagate
+Waiting for verification...
+Cleaning up challenges
+
+IMPORTANT NOTES:
+ - Congratulations! Your certificate and chain have been saved at:
+   /etc/letsencrypt/live/server1.ukfast.co.uk/fullchain.pem
+   Your key file has been saved at:
+   /etc/letsencrypt/live/server1.ukfast.co.uk/privkey.pem
+   Your cert will expire on 2020-12-09. To obtain a new or tweaked
+   version of this certificate in the future, simply run certbot
+   again. To non-interactively renew *all* of your certificates, run
+   "certbot renew"
+ - If you like Certbot, please consider supporting our work by:
+
+   Donating to ISRG / Let's Encrypt:   https://letsencrypt.org/donate
+   Donating to EFF:                    https://eff.org/donate-le
+```
+
+* This has worked, so we can now switch to use the production Lets Encrypt servers instead. First we delete the staging certificate.
 
 ```bash
-certbot certonly --authenticator certbot-dns-safedns:dns_safedns
+/usr/local/bin/certbot delete --cert-name server1.ukfast.co.uk
 ```
 
-> **Warning**: certbot might tell you that it doesn't have permissions to write to its log file. However, if you run certbot as sudo, you won't have access to the safedns plugin if you didn't install the plugin as sudo.
-
-This will result in the following error from certbot:
+* Then request again but excluding the `--server` option
 
 ```bash
-Could not choose appropriate plugin: The requested dns_safedns plugin does not appear to be installed
+/usr/local/bin/certbot certonly \
+  --dns_safedns-credentials ~/.config/letsencrypt/dns_safedns_credentials.ini \
+  -d server1.ukfast.co.uk -d server2.ukfast.co.uk -d server3.ukfast.co.uk
 ```
 
-To get around this just do:
+### Known issues
 
-```bash
-sudo pip3 install certbot-dns-safedns
-sudo certbot certonly --authenticator certbot-dns-safedns:dns_safedns
-```
-
-If you get any python cryptography errors, such as:
+If you get any Python cryptography errors, such as:
 
 ```bash
 ContextualVersionConflict: ...
 ```
 
-just make sure to upgrade your pyopenssl.
+Try upgrading your version of `pyopenssl`, like this:
 
 ```bash
 sudo pip install --upgrade pyopenssl
 ```
 
-### Credentials and Config Options
-
-Use of this plugin requires a configuration file containing SafeDNS API credentials, obtained from your MyUKFast [account page](https://my.ukfast.co.uk/applications/index.php). See also the [SafeDNS API](https://developers.ukfast.io/documentation/safedns) documentation.
-
-An example ``credentials.ini`` file:
-
-```ini
-certbot_dns_safedns:dns_safedns_auth_token = 0123456789abcdef0123456789abcdef01234567
-certbot_dns_safedns:dns_safedns_propagation_seconds = 20
-```
-
-The path to this file can be provided interactively or using the `--certbot-dns-safedns:dns_safedns-credentials` command-line argument. Certbot records the path to this file for use during renewal, but does not store the file's contents.
-
-> **CAUTION:** You should protect these API credentials as you would the password to your MyUKFast account. Users who can read this file can use these credentials to issue arbitrary API calls on your behalf. Users who can cause Certbot to run using these credentials can complete a ``dns-01`` challenge to acquire new certificates or revoke existing certificates for associated domains, even if those domains aren't being managed by this server.
-
-Certbot will emit a warning if it detects that the credentials file can be accessed by other users on your system. The warning reads "Unsafe permissions on credentials configuration file", followed by the path to the credentials file. This warning will be emitted each time Certbot uses the credentials file, including for renewal, and cannot be silenced except by addressing the issue (e.g., by using a command like `chmod 600` to restrict access to the file).
-
-### Examples
-
-To acquire a single certificate for both `example.com` and `*.example.com`, waiting 900 seconds for DNS propagation:
-
-```bash
-certbot certonly \
-  --authenticator certbot-dns-safedns:dns_safedns \
-  --certbot-dns-safedns:dns_safedns-credentials ~/.secrets/certbot/safedns.ini \
-  --certbot-dns-safedns:dns_safedns-propagation-seconds 900 \
-  --server https://acme-v02.api.letsencrypt.org/directory \
-  -d 'example.com' \
-  -d '*.example.com'
-```
+You can also check the log certbot file, available at `/var/log/letsencrypt/letsencrypt.log`
 
 ```eval_rst
 .. meta::
