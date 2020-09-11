@@ -2,7 +2,7 @@
 Let's Encrypt
 ============================
 
-**Let's Encrypt** is a **Certificate Authority (CA)** and is a leading supplier of free, simple and secure SSL certificates. It runs on the notion that obtaining an SSL certificate for your website should require minimal human interaction, with the goal of creating a more secure Web.
+**Let's Encrypt** is a **Certificate Authority (CA)** and a leading supplier of free, simple and secure SSL certificates. It runs on the notion that obtaining an SSL certificate for your website should require minimal human interaction, with the goal of creating a more secure Web.
 
 Over a billion certificates have already been issued using **Let's Encrypt**.
 

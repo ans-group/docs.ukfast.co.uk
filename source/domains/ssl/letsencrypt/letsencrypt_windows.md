@@ -48,7 +48,7 @@ For `Powershell` users, we recommend using [`Posh-ACME`](https://github.com/rmbo
 
 To install this client, first open your `Powershell` terminal and run the following, replacing *youruser* for the system user in question.
 
-```
+```powershell
 Install-Module -Name Posh-ACME -Scope youruser
 ```
 
@@ -60,7 +60,7 @@ Install-Module -Name Posh-ACME -Scope AllUsers
 
 Once installed, you will need to **import** the module
 
-```
+```powershell
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser -Force
 Import-Module Posh-ACME
 ```
@@ -69,7 +69,7 @@ Import-Module Posh-ACME
 
 To issue a certificate for your chosen domain, run the following command, adjusting as per your specific requirements.
 
-```
+```powershell
 New-PACertificate yourdomain.com -AcceptTOS  -Contact admin@yourdomain.com
 ```
 
@@ -85,7 +85,7 @@ As an example, to use this with Route53, please see the following usage guide, w
 
 ```eval_rst
 .. note:
-  UKFast do not currently offer a DNS Plugin for use with Posh-ACME
+  UKFast do not currently offer a DNS Plugin for use with Posh-ACME, but are open to contributions that integrate with the SafeDNS API. More information on this is available in the [UKFast Developer Centre](https://developers.ukfast.io/documentation/safedns)
 
 ```
 
