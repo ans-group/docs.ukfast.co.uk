@@ -44,6 +44,7 @@ UKFast VPNs on dedicated firewalls
    
    VPNTab
    RA_VPN_Tab
+   S2S_VPN_Tab
    createvpn
    VPNUsers
    vpn2fa
