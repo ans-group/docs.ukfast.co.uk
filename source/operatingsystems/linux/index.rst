@@ -25,3 +25,4 @@ Help and guidance with Linux and related technologies
    git/index
    redis/index
    elasticsearch/index
+   mongodb/index
