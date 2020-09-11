@@ -35,6 +35,14 @@ mongodump --db=yourdb
 ``` note:: Commvault does not currently offer plugin/agent for MongoDB specifically, so this would only be backed up in a File Level backup.
 ```
 
+## Exporting from a Remote Host
+
+You can use the `mongodump` utility to connect to a remote instance using the below syntax.
+
+```bash
+mongodump --host="mongodb.yourdomain.com:27017" <your other dump requirements>
+```
+
 ## Restoring a MongoDB Database
 
 ``` warning:: If requesting a database restore from UKFast Support, please provide the directory for your database dumps. Without this, only /var/lib/mongodb would be restored.
@@ -62,6 +70,13 @@ mongoimport --db yourdb --file /path/to/database/dump.json
 ```
 If using `JSON v1.0`, you should use the above with the addition of the `--legacy` flag.
 
+## Restoring to a Remote Host
+
+You can use the `mongorestore` utility to connect to a remote instance using the below syntax.
+
+```bash
+mongorestore --host="mongodb.yourdomain.com:27017" <your other import requirements>
+```
 
 
 ```eval_rst
