@@ -9,14 +9,17 @@ If you would like to set these up manually please find our guide here, or contac
 
 Please allow time for any DNS changes to propagate through the internet, this may take up to 24 hours. Once complete, you are ready to use your email client to connect to your new mailbox.
 
-
-## If you are not using UKFast's SafeDNS system  
+## If you are not using UKFast's SafeDNS system
 
 You should update your DNS records with your DNS provider, the MX records should be set as:
 
-
-![DNS Records](files/dns/sharedexchangedns.PNG)
-
+| **Mail Exchanger** | **Priority** |
+| -------------- | -------- |
+| `hub1.ukfastexchange.co.uk` | `10` |
+| `hub2.ukfastexchange.co.uk` | `10` |
+| `hub3.ukfastexchange.co.uk` | `10` |
+| `hub4.ukfastexchange.co.uk` | `10` |
+| `client.ukfastexchange.co.uk` | `20` |
 
 Next, you should add an SRV record to the domain to allow for auto-discovery. This allows your Exchange ready client, such as Outlook, to find all the settings it needs to connect to our shared Exchange platform.
 
@@ -33,10 +36,10 @@ Please allow time for any DNS changes to propagate through the internet, this ma
 
 * If you have any further questions please contact your dedicated account manager or speak with one of our support engineers on 0800 230 0032.
 
-```eval_rst
+``` eval_rst
    .. title:: Shared Exchange DNS Setup
    .. meta::
       :title: Shared Exchange DNS Setup | UKFast Documentation
       :description: Guide for users on how to configure DNS records for Shared Exchange
-      :keywords: Shared Exchange, Exchange, Shex, Mail, DNS 
+      :keywords: Shared Exchange, Exchange, Shex, Mail, DNS
 ```
