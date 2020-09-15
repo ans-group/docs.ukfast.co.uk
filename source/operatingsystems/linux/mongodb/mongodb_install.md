@@ -2,7 +2,7 @@
 
 `MongoDB 4.4` is the latest stable release, so in this tutorial we will add the `MongoDB` package repository for 4.4.
 
-```  :note As package versions do change, please adjust the repository version accordingly as to your requirements
+``` note:: As package versions do change, please adjust the repository version accordingly as to your requirements.
 ```
 
 ```bash
