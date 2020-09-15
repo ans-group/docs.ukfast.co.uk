@@ -9,4 +9,5 @@ MongoDB is a popular open-source NoSQL database service that is used by many mod
    
    mongodb_install
    mongodb_secure
+   mongodb_admin
    mongodb_backup_restore
