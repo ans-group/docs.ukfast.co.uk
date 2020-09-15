@@ -1,4 +1,4 @@
-# How to Backup & Restore a MongoDB Database
+# How to Back Up & Restore a MongoDB Database
 
 ## File Formats
 
@@ -80,9 +80,9 @@ mongorestore --host="mongodb.yourdomain.com:27017" <your other import requiremen
 
 
 ```eval_rst
-  .. title:: MongoDB | How to Backup & Restore a MongoDB Database
+  .. title:: MongoDB | How to Back Up & Restore a MongoDB Database
   .. meta::
-     :title: How to Backup & Restore a MongoDB Database | UKFast Documentation
-     :description: How to Backup & Restore a MongoDB Database
-     :keywords: mongodb, backup, restore, howto, guide, tutorial
+     :title: How to Back Up & Restore a MongoDB Database | UKFast Documentation
+     :description: How to Back Up & Restore a MongoDB Database
+     :keywords: mongodb, backup, back up, restore, howto, guide, tutorial
 ```
