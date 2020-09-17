@@ -5,7 +5,7 @@ FastDesk®  is UKFast’s Desktop as a Service (DaaS) solution, which allows use
 ```eval_rst
 .. note::
 
-   Compatible with Windows 7, 8.1, 10 (32-bit and 64-bit editions). Also compatible with Windows Thin PC as well as Windows Server 2008 (R2, 64-bit), 2012 (R2, Standard, and, Datacenter editions)
+   Compatible with Windows 8.1, 10 and Windows Thin PC. It is also compatible with Windows Server 2019, 2016, and 2012 (R2, Standard, and, Datacenter editions)
    
 ```
 
