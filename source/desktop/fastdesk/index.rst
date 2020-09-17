@@ -6,13 +6,16 @@ FastDesk is our desktop as a service (DaaS) solution, based on our award-winning
 
 For more information about FastDesk, and how it can help increase the flexibility in the way users work, please visit the various links below. 
 
-- `What is FASTdesk? <https://www.ukfast.co.uk/fastdesk.html>`_
+- `What is FastDesk? <https://www.ukfast.co.uk/fastdesk.html>`_
  
-- `Where is FASTdesk? <https://www.ukfast.co.uk/our-datacentres.html/>`_
+- `Where is FastDesk? <https://www.ukfast.co.uk/our-datacentres.html/>`_
  
-- `What compliance certifications does FASTdesk meet? <https://www.ukfast.co.uk/certifications.html>`_
+- `Where can I find FastDesk's IT Security Compliance Certifications? <https://www.ukfast.co.uk/certifications.html>`_
  
-- `How can I partner with FASTdesk? <https://www.ukfast.co.uk/partner-programme-reseller-application.html>`_
+- `How can I partner with FastDesk? <https://www.ukfast.co.uk/partner-programme-reseller-application.html>`_
+
+- `How can I check FastDesk's current Network Status? <https://ukfast.network/>`_
+
 
 ------------------------------
 Getting Started Guides 
