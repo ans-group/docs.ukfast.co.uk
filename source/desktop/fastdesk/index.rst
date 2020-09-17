@@ -38,6 +38,7 @@ Further step-by-step tutorials designed to help you make the most out of your de
    :maxdepth: 1
    
    signout
+   updateworkspace
    
 ---------------------
 Additional Resources
