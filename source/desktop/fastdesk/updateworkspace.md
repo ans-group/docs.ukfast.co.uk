@@ -1,36 +1,26 @@
-# Launch FastDesk on a Windows Device
+# How to update Citrix Workspace on a Windows Device
 
-FastDesk®  is UKFast’s Desktop as a Service (DaaS) solution, which allows users and organisations to work more effectively and securely by giving access to files, applications and desktop items remotely via an internet connection. All desktop settings and files are stored remotely in the cloud, providing cross-device compatibility and eliminating the risk of data loss by removing the risk of unauthorised access. This DaaS solution allows users to work in the same way they would with a traditional local desktop, but increase the flexibility with which they do so regardless of the endpoint device hardware, operating system or form factor.
+The Citrix Workspace application acts as a receiver for your desktop and provides you with high-performance access from anywhere around the world via an internet connection. The Citrix Workspace application is made by Citrix and frequently updated by Citrix. With each new update comes an improvement in security, stability and overall performance.  This guide provides a step-by-step guide to updating the Citrix Workspace application.
 
 ```eval_rst
 .. note::
 
-   Compatible with Windows 8.1, 10 and Windows Thin PC. It is also compatible with Windows Server 2019, 2016, and 2012 (R2, Standard, and, Datacenter editions)
+   UKFast recommends that each FastDesk end-user updates their Citrix Workspace application as soon as an update is released.
    
 ```
 
-## Pre-Installation information
+## Step 1 - Uninstalling the Citrix Workspace Application
 
-This guide provides step by step instructions on installing and accessing FastDesk on your Windows PC device. Day-to-day, there are two available methods to access FastDesk on your Windows PC. These methods consist of the [web portal](https://www.fastdesk.co.uk/) and the Citrix Workspace Application. Whilst this guide will help you install the Citrix Workspace Application in order to access FastDesk for the first time, we highly recommend using the web portal to access FASTdesk on a day-to-day basis. Both the Citrix Workspace application and web portal gives you:
-
-- Instant access to your FastDesk environment in an easy-to-use, all-in-one interface.
-- Ability to use the FastDesk on domain and non-domain joined PCs and thin clients. 
-- Full integration with the Citrix Content Collaboration (Also known as ShareFile) which gives you the ability to upload and download files all in one place.
-
-To install the Citrix Workspace Application on the local machine, there is a minimum memory requirement of 1GB RAM. In addition, two pre-requisites must be installed. They are:
-
-- .NET Framework 4.6.2 or later. 
-- Microsoft Visual C++ Redistributable 14.16.27012.6 or later (requires admin access). 
-
-These pre-requisites are normally installed with Windows updates so if your version of Windows is up to date, you should not have to install these. Alternatively, the Citrix Workspace application also attempts to install them during intallation. **(See Step 1)**. If none of these steps result in the installation of the pre-requisites, please visit the Citrix help page at:
-`https://support.citrix.com/article/CTX250044?_ga=2.101236417.1997404425.1578506907-124105596.1573051453`. Alternatively, you can click this [link here](https://support.citrix.com/article/CTX250044?_ga=2.101236417.1997404425.1578506907-124105596.1573051453) to take you to the website.
+To update the Citrix Workspace Application on your local computer, you must first uninstall the older version of the Citrix Workspace Application
 
 
-## Step 1 - Installing the Citrix Workspace Application
 
-From your Windows PC, download and install the latest version of the Citrix Workspace app at this URL:
+
+
+## Step 2 - Re-installing Citrix Workspace Application
+
+rom your Windows PC, download and install the latest version of the Citrix Workspace app at this URL:
 `https://www.citrix.co.uk/downloads/workspace-app/`. Alternatively, you can click this [link here](https://www.citrix.co.uk/downloads/workspace-app/) to take you to the website.
-
 
 As you can see from the **image 1** below, all versions of Workspace are listed. 
 
@@ -50,7 +40,6 @@ Follow the installation dialog box to finish with the installation of the worksp
 
 ![Image 4: Installing Citrix Workspace](files/Installing_app.PNG "Image 4: Installing Citrix Workspace Dialog box")
 
-## Step 2 - Logging into the FastDesk Web Portal
 
 Once the "Citrix Workspace" application is installed, open your web browser and navigate to the Following URL `“https://www.fastdesk.co.uk”`. On this step, it is vital that you enter the full URL including the `"www"`. Alternatively, you can click this [link here](https://www.fastdesk.co.uk) to take you to the website. In terms of browsers, the web portal is compatible with the latest versions of Google Chrome, Mozilla Firefox, Microsoft Edge and Internet Explorer.
 
@@ -71,31 +60,6 @@ Go ahead and enter the username and password credentials that were provided to y
    Your new password must be a minimum of 8 characters in length and contain at least 3 of the following: uppercase letters, lowercase letters, numbers, symbols and special characters e.g “! ” £”. Your password can also not contain the name of your account. For example, if your account name is John Smith, a password with the word ‘john’ will not be accepted. Once your password has been reset, it should simply log you in. It may ask you to dectect receiver, if so, simply select the option that allows it to detect the receiver.
    
 ```
-
-## Step 3 - Launching a desktop from the Web Portal
-
-Once you have logged into FastDesk, you will be presented with the applications and hosted desktops that have been allocated to you (Refer to **image 8**). 
-
-![Image 8 FastDesk Web Portal Landing Page](files/HomeScreen.PNG "Image 8: FastDesk Web Portal Landing Page")
-
-You can navigate between Desktops and Apps via the icons found at the top of the screen. The icons found at the top of the screen also gives you the ability to search as well as open settings. Simply click Desktops to navigate to this category (Refer to **image 9**).
-
-![Image 9 FastDesk Desktops Page](files/storefront.png "Image 9: FASTdesk Desktops Page")
-
-Once in the desktops categories, you can open the desktop that has been allocated to you by just clicking the monitor of the desktop or by clicking the downward arrow which will give you three options of "Open", "Add To Favorites" and "Restart". You can also choose to "Add To Favourites", which pins your desktop to the Favourites category. From here you can also click "open" (Refer to **image 9**).
-
-When either the monitor or open button has been clicked, you will get a pop up that asks "Open Citrix Workspace Launcher?" (Refer to **image 10**). Next, allow it to open the Launcher. 
-
-![Image 10 Open Citrix Workspace Launcher?](files/Openlauncher.png "Image 10: Open Citrix Workspace Launcher?")
-
-Upon opening this, your desktop will begin to launch in another window (Refer to image **image 11** included). 
-
-![Image 11 Desktop Launching](files/Openingdesktop.PNG "Image 11: Desktop Launching").
-
-
-Once fully launched, your desktop should appear as it is in **image 12**. 
-
-![Image 12 Fully Loaded Desktop](files/otherwindow.png "Image 12: FASTdesk ready for use")
 
 ## Workspace Application Log in setup (Optional)
 
