@@ -42,8 +42,9 @@ UKFast VPNs on dedicated firewalls
 .. toctree::
    :maxdepth: 1
    
-   supportedvpns
-   createvpn
+   VPNTab
+   RA_VPN_Tab
+   S2S_VPN_Tab
    VPNUsers
    vpn2fa
    vpncapacity
