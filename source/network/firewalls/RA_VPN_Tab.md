@@ -51,8 +51,12 @@ Here you can add/remove/edit users, disconnect specific users from the VPN and b
 Please note that if your VPN users are not authenticated against the firewall's local database the user editing options will not be available but you can still disconnect users
 
 ```eval_rst
+  .. title::  VPN | Remote Access VPN Administration
   .. meta::
      :title: Remote Access VPN Administration | UKFast Documentation
      :description: Remote Access VPN Dashboard
      :keywords: ukfast, firewall, vpn, setup, remove access, AnyConnect, users
 ```
+
+
+
