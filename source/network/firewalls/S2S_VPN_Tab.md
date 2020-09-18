@@ -84,6 +84,10 @@ Select the required encryption, dh group and hashing for phase 2.  This will nee
 
 The next screen will be a an overview of the VPN settings you have chosen, to send the config to the firewall click "Configure VPN"
 
+```eval_rst
+.. note::  
+  If you require assistance with this, simply give the UKFast Support Team a call, or raise a Priority Support Ticket and we’ll be happy to advise/help.
+```
 
 ```eval_rst
   .. title::  VPN | Site-To-Site VPN Administration
