@@ -86,8 +86,9 @@ The next screen will be a an overview of the VPN settings you have chosen, to se
 
 
 ```eval_rst
+  .. title::  VPN | Site-To-Site VPN Administration
   .. meta::
-     :title: Remote Access VPN Administration | UKFast Documentation
-     :description: Remote Access VPN Dashboard
-     :keywords: ukfast, firewall, vpn, setup, remove access, AnyConnect, users
+     :title: Site-To-Site VPN Administration | UKFast Documentation
+     :description: Site-To-Site VPN Administration
+     :keywords: ukfast, firewall, vpn, setup, site-to-site, IPSec
 ```
