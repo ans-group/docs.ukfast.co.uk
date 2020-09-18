@@ -21,6 +21,12 @@ From this screen you can also click "edit" and you can then change the peer IP a
 Please note, the change is not made to the firewall until you click "Apply Changes".
 
 ```eval_rst
+.. note::  
+  If you require assistance with this, simply give the UKFast Support Team a call, or raise a Priority Support Ticket and we’ll be happy to advise/help.
+```
+
+```eval_rst
+  .. title:: VPN | VPN Administration
   .. meta::
      :title: VPN Administration | UKFast Documentation
      :description: The VPN Tab
