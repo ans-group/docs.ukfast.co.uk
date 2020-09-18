@@ -28,13 +28,13 @@ the matching DNS record for the firewall IP.
 
 #### Users' OS
 
-Select the opertaing system that is in use of the end users machines.  This will affect the files that are installed on the firewall to allow access to the VPN.
+Select the operating system that is in use of the end users machines.  This will affect the files that are installed on the firewall to allow access to the VPN.
 
 #### Options
 
 Allow VPN from RDP sessions (default is enabled) - selecting this will allow users who are connecting to the VPN from an RDP sessions to login successfully.
 
-Once you have filled in all the required elements, click "Configure" and wait for the screen to confirm the VPN has been setup.  Please note this can take up to 1 minute to complete.
+Once you have filled in all the required elements, click **Configure** and wait for the screen to confirm the VPN has been setup.  Please note this can take up to 1 minute to complete.
 
 ## Existing AnyConnect VPN
 
@@ -46,7 +46,7 @@ If there are users configured, this page will list usernames on the firewall and
 
 ![User List](files/editor2_users_list_ra.PNG)
 
-Here you can add/remove/edit users, disconnect specific users from the VPN and by clicking the "Add New User" button you can create additional VPN users.
+Here you can add/remove/edit users, disconnect specific users from the VPN and by clicking the **Add New User** button you can create additional VPN users.
 
 Please note that if your VPN users are not authenticated against the firewall's local database the user editing options will not be available but you can still disconnect users.
 
