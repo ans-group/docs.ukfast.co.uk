@@ -5,7 +5,7 @@ add a user, remove a user, change passwords and/or group-policy for a user all v
 
 ## Add a New User
 
-Once on the VPN tab, click the "Details" button in the "Remote Access" section.  You will then see an option to "Add New User" near the top of the page.  
+Once on the VPN tab, click the **Details** button in the **Remote Access** section.  You will then see an option to **Add New User** near the top of the page.  
 
 ![VPN Users Tab](files/editor2_users_list_ra.PNG)
 
@@ -17,7 +17,7 @@ with this screen:
 Fill in the fields given and select the group-policy you would like applying to the new user (there may only be one in the list).  Then 
 click add user.
 
-Please note, the change is not made to the firewall until you click "Apply Changes".
+Please note, the change is not made to the firewall until you click **Apply Changes**.
 
 ## Editing an existing User
 
@@ -25,9 +25,9 @@ To edit an existing user click the user name in the list of users on the VPN Use
 
 ![Edit User](files/editor2_edit_user_ra.PNG)
 
-Make the changes and click "Update User".
+Make the changes and click **Update User**.
 
-Please note, the change is not made to the firewall until you click "Apply Changes".
+Please note, the change is not made to the firewall until you click **Apply Changes**.
 
 
 ```eval_rst
