@@ -48,7 +48,12 @@ If there are users configured, this page will list usernames on the firewall and
 
 Here you can add/remove/edit users, disconnect specific users from the VPN and by clicking the "Add New User" button you can create additional VPN users.
 
-Please note that if your VPN users are not authenticated against the firewall's local database the user editing options will not be available but you can still disconnect users
+Please note that if your VPN users are not authenticated against the firewall's local database the user editing options will not be available but you can still disconnect users.
+
+```eval_rst
+.. note::  
+  If you require assistance with this, simply give the UKFast Support Team a call, or raise a Priority Support Ticket and we’ll be happy to advise/help.
+```
 
 ```eval_rst
   .. title::  VPN | Remote Access VPN Administration
