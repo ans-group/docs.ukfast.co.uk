@@ -29,6 +29,12 @@ Make the changes and click "Update User".
 
 Please note, the change is not made to the firewall until you click "Apply Changes".
 
+
+```eval_rst
+.. note::  
+  If you require assistance with this, simply give the UKFast Support Team a call, or raise a Priority Support Ticket and we’ll be happy to advise/help.
+```
+
 ```eval_rst
   .. title:: VPN | User Administration For AnyConnect VPN
   .. meta::
