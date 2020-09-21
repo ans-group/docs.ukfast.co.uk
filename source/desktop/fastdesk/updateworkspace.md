@@ -1,6 +1,6 @@
 # How to update Citrix Workspace on a Windows Device
 
-The Citrix Workspace application acts as a receiver for your desktop and provides you with high-performance access from anywhere around the world via an internet connection. The Citrix Workspace application is made by Citrix and frequently updated by Citrix. With each new update comes an improvement in security, stability and overall performance.  This guide provides a step-by-step guide to updating the Citrix Workspace application.
+The Citrix Workspace application acts as a receiver for your desktop and provides you with high-performance access from anywhere around the world via an internet connection. The Citrix Workspace application is made by Citrix and is frequently updated by Citrix. With each new update comes an improvement in security, stability and overall performance. This guide provides a step-by-step guide to updating the Citrix Workspace application.
 
 ```eval_rst
 .. note::
@@ -11,10 +11,19 @@ The Citrix Workspace application acts as a receiver for your desktop and provide
 
 ## Step 1 - Uninstalling the Citrix Workspace Application
 
-To update the Citrix Workspace Application on your local computer, you must first uninstall the older version of the Citrix Workspace Application
+To update the Citrix Workspace Application on your local computer, you must first uninstall the older version of the Citrix Workspace Application.
 
+To do this, ensure you are **outside** of your FastDesk session. In the bottom left corner of your deskop, click the Windows icon and type *Control Panel* in the search bar. This will bring up the search bar and you will see *Control Panel* appear as a search result. Click this to open *Control Panel*.  Please refer to **image 1** below for a visual representation. 
 
+![Image 1: Opening Control Panel](files/clickherewindows.PNG "Image 1: Opening Control Panel")
 
+Once Control Panel is open, you will see a list of options as displayed in **imgage 2** below. From here, please select *Uninstall a program*. 
+
+![Image 2: Uninstall a Program](files/controlpanelimage.PNG "Image 2: Uninstall a Program")
+
+This will bring you to the Uninstall or change a program page. From here, find and select *Citrix Workspace* or *Citrix Workspace Application*. Next, click *Uninstall* as highlighted in **image 3**.     
+
+![Image 3: Uninstall Citrix Workspace Application](files/programuninstall2.PNG "Image 3: Uninstall Citrix Workspace Application")
 
 
 ## Step 2 - Re-installing Citrix Workspace Application
