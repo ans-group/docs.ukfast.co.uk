@@ -52,7 +52,7 @@ Please note that if your VPN users are not authenticated against the firewall's 
 
 ## Connecting to the VPN
 
-1. Connect to the firewall hostname in your browser on port 443 using the http:// prefix.  Log in using the credentials created
+1. Connect to the firewall hostname in your browser on port 443 using the https:// prefix.  Log in using the credentials created
 2. You should then be able to download and install the AnyConnect application from the firewall
 3. Open the application and click the small cog wheel in the bottom left hand corner
 4. Select the preferences tab
