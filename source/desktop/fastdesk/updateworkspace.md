@@ -17,7 +17,7 @@ To do this, ensure you are **outside** of your FastDesk session. In the bottom l
 
 ![Image 1: Opening Control Panel](files/clickherewindows2.PNG "Image 1: Opening Control Panel")
 
-Once Control Panel is open, you will see a list of options as displayed in **imgage 2** below. From here, please select *Uninstall a program*. 
+Once Control Panel is open, you will see a list of options as displayed in **image 2** below. From here, please select *Uninstall a program*. 
 
 ![Image 2: Uninstall a Program](files/controlpanelimage2.PNG "Image 2: Uninstall a Program")
 
