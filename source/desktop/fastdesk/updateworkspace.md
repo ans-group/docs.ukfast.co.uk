@@ -25,15 +25,14 @@ This will bring you to the Uninstall or change a program page. From here, find a
 
 ![Image 3: Uninstall Citrix Workspace Application](files/programuninstall2.PNG "Image 3: Uninstall Citrix Workspace Application")
 
+## Step 2 - Downloading the latest version of the Citrix Workspace Application
 
-## Step 2 - Re-installing Citrix Workspace Application
-
-rom your Windows PC, download and install the latest version of the Citrix Workspace app at this URL:
+From your Windows local PC, download and install the latest version of the Citrix Workspace app at this URL:
 `https://www.citrix.co.uk/downloads/workspace-app/`. Alternatively, you can click this [link here](https://www.citrix.co.uk/downloads/workspace-app/) to take you to the website.
 
-As you can see from the **image 1** below, all versions of Workspace are listed. 
+As you can see from the **image 4** below, all versions of Workspace are listed. 
 
-![Image 1: Citrix Website OS options Download Page](files/Website_download.PNG "Image 1: Citrix website OS options download page")
+![Image 4: Citrix Workspace Application download page (Windows)](files/downloadworkspace2.png "Image 4: Citrix Workspace Application download page (Windows)")
 
 Expand the "Workspace app for Windows" section and select the latest version of the "Workspace app for Windows". This takes you to the download link where you can download the application (See **image 2**).
 
@@ -44,6 +43,8 @@ Once the file has downloaded, open the file to begin installation. You might get
 
 ![Image 3: Do you want to run this application?](files/Run_file.PNG "Image 3: Do you want to run this application?")
 
+
+## Step 2 - Re-installing the Citrix Workspace Application
 
 Follow the installation dialog box to finish with the installation of the workspace app ( **Image 4** provides a visual representation).
 
