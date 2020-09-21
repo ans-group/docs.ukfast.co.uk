@@ -74,7 +74,7 @@ chmod 600 ~/.config/letsencrypt/dns_safedns_credentials.ini
 
 ```eval_rst
 .. note::
-   I have used requested 3 domains on my certificate here, `server1.ukfast.co.uk`, `server2.ukfast.co.uk` and `server3.ukfast.co.uk`. You'll want to replace these with your choice of domains. You need to have the zone in your SafeDNS account already. In my case this zone name is `ukfast.co.uk`.
+   I have used requested 3 domains on my certificate here, ``server1.ukfast.co.uk``, ``server2.ukfast.co.uk`` and ``server3.ukfast.co.uk``. You'll want to replace these with your choice of domains. You need to have the zone in your SafeDNS account already. In my case this zone name is `ukfast.co.uk`.
 ```
 
 * You should now see an output like this:
