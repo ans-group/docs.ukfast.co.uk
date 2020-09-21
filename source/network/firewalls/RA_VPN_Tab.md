@@ -50,6 +50,18 @@ Here you can add/remove/edit users, disconnect specific users from the VPN and b
 
 Please note that if your VPN users are not authenticated against the firewall's local database the user editing options will not be available but you can still disconnect users.
 
+## Connecting to the VPN
+
+1. Connect to the firewall hostname in your browser on port 443 using the https:// prefix.  Log in using the credentials created
+2. You should then be able to download and install the AnyConnect application from the firewall
+3. Open the application and click the small cog wheel in the bottom left hand corner
+4. Select the preferences tab
+5. Uncheck the box marked "block connections to untrusted servers".  This will allow you to connect to the firewall even though it is using a "self signed" certificate.  On    first connection you can then accept and import the self-signed certificate so you will not see this warning again.  If you would like CA signed certificate on the firewall      please contact your account manager who can help get this arranged for you
+6. Go back to the main screen of the application and enter your firewall hostname in the box and click connect
+7. You will need to accept the security warning that pops up.  This is related to the certificate mentioned above
+8. You will then be prompted for your username and password configured previously
+9. Once connected you will have full access to your servers on their internal IPs
+
 ```eval_rst
 .. note::  
   If you require assistance with this, simply give the UKFast Support Team a call, or raise a Priority Support Ticket and we’ll be happy to advise/help.
