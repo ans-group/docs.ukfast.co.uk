@@ -28,41 +28,36 @@ This will bring you to the Uninstall or change a program page. From here, find a
 ## Step 2 - Downloading the latest version of the Citrix Workspace Application
 
 From your Windows local PC, download and install the latest version of the Citrix Workspace app at this URL:
-`https://www.citrix.co.uk/downloads/workspace-app/`. Alternatively, you can click this [link here](https://www.citrix.co.uk/downloads/workspace-app/) to take you to the website.
+`https://www.citrix.co.uk/downloads/workspace-app/`. Alternatively, you can click this [link here](https://www.citrix.co.uk/downloads/workspace-app/) to take you to the website. All versions of Workspace should be listed here.
 
-As you can see from the **image 4** below, all versions of Workspace are listed. 
+Expand the "Workspace app for Windows" section and select the latest version of the "Workspace app for Windows". This takes you to the download link where you can download the application (See **image 4**).
 
 ![Image 4: Citrix Workspace Application download page (Windows)](files/downloadworkspace2.png "Image 4: Citrix Workspace Application download page (Windows)")
 
-Expand the "Workspace app for Windows" section and select the latest version of the "Workspace app for Windows". This takes you to the download link where you can download the application (See **image 2**).
+Once the file has downloaded, open the file to begin installation. You might get a security warning asking "Do you want to run this file?". Check that the "Publisher" identifies as "Citrix Systems, Inc." before selecting Run (Refer to **image 5** included).
 
-![Image 2: Citrix Website Windows Download Page](files/Website_download2.PNG "Image 2: Citrix website Windows download page")
-
-
-Once the file has downloaded, open the file to begin installation. You might get a security warning asking "Do you want to run this file?". Check that the "Publisher" identifies as "Citrix Systems, Inc." before selecting Run (Refer to **image 3** included).
-
-![Image 3: Do you want to run this application?](files/Run_file.PNG "Image 3: Do you want to run this application?")
+![Image 5: Do you want to run this application?](files/Run_file.PNG "Image 5: Do you want to run this application?")
 
 
-## Step 2 - Re-installing the Citrix Workspace Application
+## Step 3 - Re-installing the Citrix Workspace Application
 
-Follow the installation dialog box to finish with the installation of the workspace app ( **Image 4** provides a visual representation).
+Follow the installation dialog box to finish with the installation of the workspace app ( **Image 6** provides a visual representation).
 
-![Image 4: Installing Citrix Workspace](files/Installing_app.PNG "Image 4: Installing Citrix Workspace Dialog box")
+![Image 6: Installing Citrix Workspace](files/Installing_app.PNG "Image 6: Installing Citrix Workspace Dialog box")
 
 
 Once the "Citrix Workspace" application is installed, open your web browser and navigate to the Following URL `“https://www.fastdesk.co.uk”`. On this step, it is vital that you enter the full URL including the `"www"`. Alternatively, you can click this [link here](https://www.fastdesk.co.uk) to take you to the website. In terms of browsers, the web portal is compatible with the latest versions of Google Chrome, Mozilla Firefox, Microsoft Edge and Internet Explorer.
 
-![Image 5: FastDesk URL](files/Url.png "Image 5: FastDesk URL")
+![Image 7: FastDesk URL](files/Url.png "Image 7: FastDesk URL")
 
-Once here, you will see the FastDesk branding and a log in page with a man on a sofa (Refer to **image 6** below). 
+Once here, you will see the FastDesk branding and a log in page with a man on a sofa (Refer to **image 8** below). 
 
 
-![Image 6 FastDesk Landing Page](files/Welcome_screen.png "Image 6: FastDesk Landing Page")
+![Image 8 FastDesk Landing Page](files/Welcome_screen.png "Image 8: FastDesk Landing Page")
 
-Go ahead and enter the username and password credentials that were provided to you by the FASTdesk team. Upon entering your credentials, you will be asked to change your password (See **image 7**). 
+Go ahead and enter the username and password credentials that were provided to you by the FASTdesk team. Upon entering your credentials, you will be asked to change your password (See **image 9**). 
 
-![Image 7 FastDesk Password Reset](files/resetpassword.png "Image 7: FastDesk Password Reset Page")
+![Image 9 FastDesk Password Reset](files/resetpassword.png "Image 9: FastDesk Password Reset Page")
 
 ```eval_rst
 .. note::
@@ -73,13 +68,13 @@ Go ahead and enter the username and password credentials that were provided to y
 
 ## Workspace Application Log in setup (Optional)
 
-Although it is recommended you access FastDesk through the URL, you can also access your desktop through the Citrix Workspace Launcher. If you prefer to login directly to the Citrix Workspace app, you can do so. Simply click your windows start menu button and search for "Citrix Workspace Application". After launching the Citrix Workspace app, you will be asked to add an account. See **image 13**
+Although it is recommended you access FastDesk through the URL, you can also access your desktop through the Citrix Workspace Launcher. If you prefer to login directly to the Citrix Workspace app, you can do so. Simply click your windows start menu button and search for "Citrix Workspace Application". After launching the Citrix Workspace app, you will be asked to add an account. See **image 10**
 
-![Image 13 Add an account](files/addaccountworkspace.png "Image 13: Add an account")
+![Image 10 Add an account](files/addaccountworkspace.png "Image 10: Add an account")
 
-Simply type the following URL `"https://www.fastdesk.co.uk"` and click Add. Alternatively, enter the URL that has been provided to you by the FASTdesk team if you have a private fastdesk. You will then be prompted to enter your username and password into the application. See **image 14.**
+Simply type the following URL `"https://www.fastdesk.co.uk"` and click Add. Alternatively, enter the URL that has been provided to you by the FASTdesk team if you have a private fastdesk. You will then be prompted to enter your username and password into the application. See **image 11.**
 
-![Image 14 Enter credentials](files/entercredsapp.PNG "Image 14: Enter Credentials")
+![Image 11 Enter credentials](files/entercredsapp.PNG "Image 11: Enter Credentials")
 
 
 ```eval_rst
