@@ -27,7 +27,7 @@ The image above identifies the four front-end aspects that can be custom branded
 
 The image below identifies the three front-end aspects that can be custom branded once a user has logged in and reaches the Storefront.
 
-![Image 2 Log-in page Custom branding](files/4custombrand2.png "Image 2: Log-in page Custom Branding")
+![Image 2 Log-in page Custom branding](files/7custombrand2.png "Image 2: Storefront Custom Branding")
 
 5. The logo displayed on the Storefront can be custom branded. This can be changed to any logo you would like. Most clients make sure this logo matches the one on the login page. UKFast require image dimensions to be 340px x 80px.
 
