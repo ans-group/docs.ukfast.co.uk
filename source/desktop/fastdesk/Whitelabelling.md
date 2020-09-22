@@ -8,7 +8,7 @@ Custom-Branding allows you to impress your clients with out-of-the-box, enterpri
 
 The image above identifies the four front-end aspects that can be custom branded when a user reaches the login page.
 
-1. The domain name of the webpage that users access in order to login can be custom branded. Instead of logging in via the "www.fastdesk.co.uk" webpage, clients can use their own domain name. This domain can be anything of your choosing and it often relates to the company using the FastDesk environment. The most common domains used are “desktop.companyname.co.uk” or “vdi.companyname.co.uk”. 
+1. The domain name of the webpage that users access in order to login can be custom branded. Instead of logging in via the "www.fastdesk.co.uk" webpage, clients can use their own domain name. This domain can be anything of your choosing and it often relates to the company using the FastDesk environment. The most common domains used are “desktop.companyname.co.uk” or “vdi.companyname.co.uk”. Once the domain has been purchased, you will also need to buy an SSL for your new domain to ensure that that your FastDesk environment is secure. You can purchase SSLs from UKFast within your [MyUKFast Control Panel](https://my.ukfast.co.uk/login) (https://my.ukfast.co.uk/login). Once logged in, you can use the navigation menu to find SSL certificates. From here, you can buy a certificate. The FastDesk team will require the SSL in a .pfx format alongside the password (This can be put in a ticket to us). This will then be implemented. Next, you need to configure the DNS for the domain. You can do this from your DNS zone which is where you purchased the domain. We will provide you with the IP Address to point the domain too. You will need to create an A record for this.
 
 ```eval_rst
 .. note::
@@ -16,9 +16,6 @@ The image above identifies the four front-end aspects that can be custom branded
   You can purchase the domain from any reputable domain seller, please note that you will need access to control the DNS zone for the domain.
    
 ```
-  Once the domain has been purchased, you will also need to buy an SSL for your new domain to ensure that that your FastDesk environment is secure. You can purchase SSLs from UKFast within your [MyUKFast Control Panel](https://my.ukfast.co.uk/login) (https://my.ukfast.co.uk/login). Once logged in, you can use the navigation menu to find SSL certificates. From here, you can buy a certificate. The FastDesk team will require the SSL in a .pfx format alongside the password (This can be put in a ticket to us). This will then be implemented.
-
-  Next, you need to configure the DNS for the domain. You can do this from your DNS zone which is where you purchased the domain. We will provide you with the IP Address to point the domain too. You will need to create an A record for this.
 
 2. The background on the on login page can be custom branded. This can be changed to any background image you would like. UKFast require the dimension of the image that will be provided by the client to be 1920px x 1080px.
 
