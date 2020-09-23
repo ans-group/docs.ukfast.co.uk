@@ -2,22 +2,13 @@
 FastDrive
 =========
 
-Enterprise-class file storage and sharing, based on eCloud Vault and Citrix ShareFile.
+Built solely for business use, FastDrive combines Citrix® Files and UKFast's own cloud storage platform. Take control of business-critical data with centralised storage and encrypted file sharing between colleagues and clients. Access your virtual data room from anywhere, on any device.
 
 .. toctree::
    :maxdepth: 1
 
-   loggingin
-   dashboard
    uploadingfiles
-   downloadingfiles
    creatingfolderswithinFASTdrive
-   deletingfilesandfolders
-   drivemapper
-   addinganemployeemanually
-   addinganemployeefromexcel
-   addingclients
-   browsingandmanagingemployees
    resettingpasswords
    distributiongroups
    accessingpreviousversionsofyourfiles
@@ -26,6 +17,4 @@ Enterprise-class file storage and sharing, based on eCloud Vault and Citrix Shar
    browsingforfiles
    sharingfiles
    addressbooks
-   singlesignon
    techinformation
-   updatesharefiletools
