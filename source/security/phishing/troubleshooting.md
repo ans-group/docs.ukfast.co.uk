@@ -4,7 +4,7 @@
 
 If you're not receiving emails send from UKFast PHaaS, it's most likely being blocked by your email filter.
 
-Please double check that the email you have entered in MyUKFast is correct. Then, confirm with your IT department that emails from our email servers (178.238.132.248 185.207.111.242) have been whitelisted, preventing them from being blocked by your email filters.
+Please double check that the email you have entered in MyUKFast is correct. Then, confirm with your IT department that emails from our email servers (178.238.132.248 185.207.111.242) have been allowed, preventing them from being blocked by your email filters.
 
 If you'd like to send a test email to one email address before starting a campaign, please raise a support request with UKFast, detailing the email address you'd like to send the test email to and what email template you'd like to use.
 
@@ -12,7 +12,7 @@ If you'd like to send a test email to one email address before starting a campai
 
 If emails are being marked as SPAM, please raise a support request with UKFast who will be happy to help. We may ask you to forward the email as an attachment to us so that we may inspect the email headers and make changes to our campaign templates to prevent them from being marked as spam.
 
-In addition, please double-check that the email you have entered in MyUKFast is correct. Then, confirm with your IT department that emails from our email servers (178.238.132.248 185.207.111.242) have been whitelisted, preventing them from being blocked by your email filters.
+In addition, please double-check that the email you have entered in MyUKFast is correct. Then, confirm with your IT department that emails from our email servers (178.238.132.248 185.207.111.242) have been allowed, preventing them from being blocked by your email filters.
 
 If you'd like to send a test email to one email address before starting a campaign, please raise a support request with UKFast, detailing the email address you'd like to send the test email to and what email template you'd like to use.
 
@@ -20,7 +20,7 @@ If you'd like to send a test email to one email address before starting a campai
 
 If links in our phishing emails are not working, please double-check that your campaign has not expired by logging into MyUKFast. If the campaign status is set to anything other than "In Progress", the email links will not work.
 
-If you have checked the above and email links are still not working, please contact your IT department and ask them if there are any blocklists in place to prevent you from accessing that link. They may need to add a whitelist rule to allow access.
+If you have checked the above and email links are still not working, please contact your IT department and ask them if there are any blocklists in place to prevent you from accessing that link. They may need to add an allow rule to permit access.
 
 If you'd like to send a test email to one email address before starting a campaign, please raise a support request with UKFast, detailing the email address you'd like to send the test email to and what email template you'd like to use.
 

@@ -38,6 +38,7 @@ The PHP-FPM configuration pool for your domain is located in /etc/php-fpm.d/
 ```
 
 ```eval_rst
+  .. title:: PHP-FPM
   .. meta::
      :title: PHP-FPM | UKFast Documentation
      :description: A guide to using PHP-FPM

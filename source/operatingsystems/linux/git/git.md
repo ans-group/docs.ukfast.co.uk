@@ -40,11 +40,12 @@ Host github.com
 This block needs to be added at the top of the file.
 
 #### Firewall
-You need to ensure the firewall for the server allows port 22 outbound. This can be done through the MyUKFast portal, you can find more information on this [here](/network/firewalls/)
+You need to ensure the firewall for the server allows port 22 outbound. This can be done through the MyUKFast portal, you can find more information on this [here](/network/firewalls/index)
 
 ```eval_rst
-  .. meta::
-     :title: Git | UKFast Documentation
-     :description: A guide to using Git
-     :keywords: ukfast, linux, install, centos, cloud, server, virtual, git, eCommerce
-
+   .. title:: Git
+   .. meta::
+      :title: Git | UKFast Documentation
+      :description: A guide to using Git
+      :keywords: ukfast, linux, install, centos, cloud, server, virtual, git, eCommerce
+```

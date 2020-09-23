@@ -4,7 +4,8 @@ This aim of this guide is to take a brand new UKFast loadbalancer and configure 
 
 ```eval_rst
 .. note::
-  All the following steps can be carried out on a UKFast loadbalancer through your MyUKFast area accessible here: https://my.ukfast.co.uk/server/loadbalancers/
+   All the following steps can be carried out on a UKFast loadbalancer through your MyUKFast area accessible here:
+   - :doc:`https://my.ukfast.co.uk/server/loadbalancers/`
 ```
 
 ## Terminology
@@ -26,7 +27,7 @@ Here's a brief rundown of some of the terms that will be used throughout this gu
 * `Passthrough` - A listener with a protocol of `HTTPS` is said to be operating in passthrough, as traffic is sent directly to the backend server on port `443` without any   decryption.
 
 
-* `Offloaded` - If the `HTTPS Offloaded` service is used then `HTTPS` traffic on the loadbalancer is decrypted before being sent to the backend servers on port `80`. This has the benefit of allowing layer 7 actions to be carried out on the traffic. See  [Defining Access Rules](/myukfast/loadbalancing/accessrules.html)
+* `Offloaded` - If the `HTTPS Offloaded` service is used then `HTTPS` traffic on the loadbalancer is decrypted before being sent to the backend servers on port `80`. This has the benefit of allowing layer 7 actions to be carried out on the traffic.
 
 ## Configuring your first server group
 
@@ -58,7 +59,7 @@ Here's a breakdown of the fields:
 
 * `Service`
 
-  The protocol being handled by the backend servers. In the vast majority of cases, you just need to use `HTTP` if you're dealing with `HTTP` traffic and `HTTPS` if you're dealing with `HTTPS`, the only exception to this is if you're employing SSL offloading, but this will be covered in [SSL Passthrough vs Offloading](/myukfast/loadbalancing/passthroughoffload.html). `TCP` should be used for traffic that isn't `HTTP` or `HTTPS`.
+  The protocol being handled by the backend servers. In the vast majority of cases, you just need to use `HTTP` if you're dealing with `HTTP` traffic and `HTTPS` if you're dealing with `HTTPS`, the only exception to this is if you're employing SSL offloading. `TCP` should be used for traffic that isn't `HTTP` or `HTTPS`.
 
 **Advanced Options** - These options are not mandatory and can safely be left as their defaults unless you're comfortable with changing them.
 
@@ -203,7 +204,7 @@ Here's a series of screenshots showing my final setup:
 
 ```eval_rst
 .. note::
-  Note the inclusion of a second server group called `liveServersSSL`. This is the `HTTPS` equivalent of `LiveServers` that the `HTTPS VIP` points to.
+  Note the inclusion of a second server group called ``liveServersSSL``. This is the ``HTTPS`` equivalent of ``LiveServers`` that the ``HTTPS VIP`` points to.
 ```
 
 **Virtual IPs**
@@ -226,3 +227,10 @@ Click `Reload Load Balancer Config` to push it up to the loadbalancer and put it
 ## Going Forward
 
 This has been a rundown of the basic functionality of the UKFast loadbalancers, but there's far more you can do with them! The other guides in the loadbalancer category will discuss topics such as setting up SSL offloading and using access control lists to divert visitors to different locations based on various layer 7 quantifiers.
+
+```eval_rst
+   .. title:: Load Balancing | Quick Start
+   .. meta::
+      :title: Load Balancing | Quick Start | UKFast Documentation
+      :description: Information and guidance on using the CDN on DDoSX
+```

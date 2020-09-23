@@ -25,7 +25,7 @@ To find out how to identify how up to date your tool is, use the instructions be
 ## Citrix Files for Mobile Apps
 
 ```eval_rst
-=+--------------------------+-------------------------------------+---------------------------------------------------------------------+
++--------------------------+-------------------------------------+---------------------------------------------------------------------+
 | Mobile Apps              | Minimum OS Version                  | App Download Location                                               | 
 +==========================+=====================================+=====================================================================+
 | Citrix files for Android | Android 5 and later                 | https://play.google.com/store/apps/details?id=com.citrix.sharefile  |

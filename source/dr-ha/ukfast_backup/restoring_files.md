@@ -19,6 +19,7 @@ Using the file browser, navigate to the file or folder you would like to restore
 **Restore Exclusions** allow you to exclude files or folders from a restore which is particularly useful when restoring a backup that has many redundant files scattered across. In this example any file name with an extension of `.bin` or `.tmp` would be excluded from the restore.
 
 ```eval_rst
+  .. title:: Restoring files with UKFast Backup
   .. meta::
      :title: Restoring files with UKFast Backup | UKFast Documentation
      :description: Restoring files with UKFast Backup through MyUKFast

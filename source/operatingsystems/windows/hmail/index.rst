@@ -1,7 +1,0 @@
-===
-hMail
-===
-
-.. toctree::
-   
-   antispamsetup

@@ -1,6 +1,6 @@
 # Database Server Default Configuration
 
-By default your MySQL/Percona/MariaDB database server will be configured with the following settings:
+MySQL is a popular open source relational database management system which is most commonly used for a web database, Percona and MariaDB are forks of the original MySQL repository and offer slighty different feature sets, below are the default settings/components installed for MySQL/Percona/MariaDB at point of deployment:
 
 ```eval_rst
 +--------------------------------+-------------------------+
@@ -17,7 +17,8 @@ By default your MySQL/Percona/MariaDB database server will be configured with th
 ```
 
 ```eval_rst
-  .. meta::
-      :title: UKFast MySQL database build documentation | UKFast Documentation
+   .. title:: UKFast MySQL database build documentation
+   .. meta::
       :description: Build documentation for MySQL database servers
       :keywords: ukfast, hosting, database, server, virtual, mssql
+```

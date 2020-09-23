@@ -34,12 +34,12 @@ To password restrict your website following configuration options for Nginx:
     deny all;
  ```
  
- ### Password with IP Whitelist
+ ### Password with IP Allow list
  
 To password restrict the website whilst allowing certain IP address(s) access to the website without password restrictions you can use the following configuration options for Nginx:
  
   ```bash
-# PASSWORD RESTRICTED WITH IP WHITELIST WEBSITE 
+# PASSWORD RESTRICTED WITH IP ALLOW LIST WEBSITE 
     satisfy any;
     allow 192.168.0.13; # Office IP Address
     allow 192.168.0.51; # Warehouse IP Address
@@ -50,7 +50,7 @@ To password restrict the website whilst allowing certain IP address(s) access to
  
 ### Password and IP Restriction 
  
-The most secure method is to restrict the website to a whitelist of IP addresses and then have password restriction for the whitelist. You can achieve this with the following configuration options in Nginx:
+The most secure method is to restrict the website to an allowed list of IP addresses and then have password restriction for the allow list. You can achieve this with the following configuration options in Nginx:
  
   ```bash
 # PASSWORD AND IP RESTRICTED WEBSITE
@@ -79,6 +79,7 @@ If there are no errors in the configuration test proceed to reload the Nginx ser
 ```
 
 ```eval_rst
+  .. title:: Magento Restrict Website
   .. meta::
      :title: Magento Restrict Website | UKFast Documentation
      :description: A guide to restrict access to a website

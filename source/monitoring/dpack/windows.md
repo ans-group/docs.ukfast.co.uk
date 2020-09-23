@@ -35,6 +35,7 @@
 ![Win-DPACK-Capture](files/Windows/liveopticsrunning.png)
 
 ```eval_rst
+  .. title:: Using Live Optics on Microsoft Windows
   .. meta::
      :title: Using Live Optics on Microsoft Windows | UKFast Documentation
      :description: How to run a Live Optics check on a Windows server

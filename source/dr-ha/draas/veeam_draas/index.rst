@@ -1,5 +1,5 @@
 ===============
-Veeam DRaaS
+Veeam
 ===============
 
 .. toctree::

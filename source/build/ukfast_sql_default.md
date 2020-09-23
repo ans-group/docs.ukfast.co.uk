@@ -21,6 +21,7 @@ By default your MS-SQL database server will be configured with the following set
 ```
 
 ```eval_rst
+  .. title:: UKFast MS-SQL database build documentation
   .. meta::
       :title: UKFast MS-SQL database build documentation | UKFast Documentation
       :description: Build documentation for MS-SQL database servers

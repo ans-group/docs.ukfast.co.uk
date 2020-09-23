@@ -9,6 +9,7 @@ For example if you were to copy a configuration to use for a new site and wanted
 ```
 
 ```eval_rst
+  .. title:: Using the SED command in Linux
   .. meta::
      :title: Using the SED command in Linux | UKFast Documentation
      :description: Information and guidance on using the SED command to edit text files in Linux

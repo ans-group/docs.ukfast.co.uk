@@ -32,6 +32,7 @@ cPanel/WHM
    cpanel_installapachemodule
    cpanel_installphpversion
    cpanel_installphpextension
+   cpanel_fixdeceptivesitewarning
 
 ------------------------
 Migrations

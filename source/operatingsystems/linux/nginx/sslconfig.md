@@ -111,6 +111,7 @@ Now it's just a matter of testing your configuration and then restarting nginx t
 ```
 
 ```eval_rst
+  .. title:: Adding an SSL certificate in Nginx
   .. meta::
      :title: Adding an SSL certificate in Nginx | UKFast Documentation
      :description: A guide to adding an SSL certificate to Nginx on Linux

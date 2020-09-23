@@ -1,23 +1,6 @@
 # Varnish
 
 ### Install Varnish
-#### Version 4.1
-Varnish 4.1 is available from the varnishcache_varnish41 repository, this repository can be installed with the following command:
-```bash
-~]# curl -s https://packagecloud.io/install/repositories/varnishcache/varnish41/script.rpm.sh | sudo bash
-```
-
-Varnish 4.1 can then be installed with the command:
-```bash
-~]# yum install varnish --disablerepo='*' --enablerepo='varnishcache_varnish41,epel'
-```
-##### Start On Boot
-You can enable Varnish on boot after installing it with this command:
-
-```bash
-~]# systemctl enable varnish
-```
-
 #### Version 5.2
 Varnish 5.2 is available from the varnishcache_varnish52 repository, this repository can be installed with the following command:
 ```bash
@@ -27,6 +10,24 @@ Varnish 5.2 is available from the varnishcache_varnish52 repository, this reposi
 Varnish 5.2 can then be installed with the command:
 ```bash
 ~]# yum install varnish --disablerepo='*' --enablerepo='varnishcache_varnish52,epel'
+```
+
+##### Start On Boot
+You can enable Varnish on boot after installing it with this command:
+
+```bash
+~]# systemctl enable varnish
+```
+
+#### Version 6.3
+Varnish 6.3 is available from the varnishcache_varnish63 repository, this repository can be installed with the following command:
+```bash
+~]# curl -s https://packagecloud.io/install/repositories/varnishcache/varnish63/script.rpm.sh | sudo bash
+```
+
+Varnish 6.3 can then be installed with the command:
+```bash
+~]# yum install varnish --disablerepo='*' --enablerepo='varnishcache_varnish63,epel'
 ```
 
 ##### Start On Boot
@@ -238,7 +239,7 @@ if (req.url ~ "^/.well-known/") {
 This needs to go under the vcl_recv section of the VCL. Varnish will need a reload for this to take efect.
 
 ### HTTP -> HTTPS Redirect
-To configure Varnish to perform the HTTP to HTTPS redirect add the following:
+To configure Varnish to perform the HTTP to HTTPS redirect add the following under the vcl_recv section of /etc/varnish/default.vcl:
 
 All domains:
 ```bash
@@ -256,7 +257,7 @@ if (req.http.host ~ "exampledomain.com" && req.http.X-Forwarded-Proto !~ "https"
     }
 ```
 
-Under the vcl_recv section of /etc/varnish/default.vcl and:
+ and then add the below under the vcl_synth section:
 
 ```bash
 if (resp.status == 750) {
@@ -266,7 +267,10 @@ if (resp.status == 750) {
     }
 ```
 
-Under vcl_synth. Varnish will need a reload for this to take efect.
+Varnish will need a reload for this to take effect.
+```bash
+varnishd -C -f /etc/varnish/default.vcl && systemctl reload varnish
+```
 
 ### Purge Cache
 Magento purges Varnish hosts after you configure Varnish hosts using the magento setup:config:set command (Ensure you run the Magento 2 CLI as the local system user defined in PHP-FPM and not root). Once configured when you clean, flush, or refresh the Magento cache, Varnish purges as well. 
@@ -347,6 +351,7 @@ If SSL is set to offloading like the above example you need to uncomment the fol
 This tells Magento that although the connection is on port 80 -> 8080 it should be treated as a secure connection due to the header x_forwarded_proto containing https. 
 
 ```eval_rst
+  .. title:: Magento 2 Varnish
   .. meta::
      :title: Magento 2 Varnish | UKFast Documentation
      :description: A guide using Varnish with Magento 2

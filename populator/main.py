@@ -71,7 +71,7 @@ def prettify(text):
                 safe = False
                 break
         if safe:
-            output += line + '  \n'
+            output += line + ' '
 
     return output
 
@@ -88,8 +88,22 @@ def get_meta(text):
     keywords = []
 
     try:
-        title = re.search(':title: (.*)\\b', text).group(1)
-        description = re.search(':description: (.*)\\b', text).group(1)
+        title = re.search('.. title:: (.*)\\b', text).group(1).strip()
+    except:
+        pass
+
+    try:
+        if not title:
+            title = re.search(':title: (.*)\\b', text).group(1).strip()
+    except:
+        pass
+
+    try:
+        description = re.search(':description: (.*)\\b', text).group(1).strip()
+    except:
+        pass
+
+    try:
         keywords = re.search(':keywords: (.*)\\b', text).group(1).split(',')
     except:
         pass
@@ -111,8 +125,7 @@ def approximate_meta(text):
             if not title:
                 title = ''.join(ch for ch in line if ch.isalnum() or ch == ' ')
                 continue
-            if not description and line.startswith('#') is False and line.startswith('..') is False and line.startswith(
-                    '``') is False:
+            if not description and not line.startswith('#') and not line.startswith('..') and not line.startswith('``'):
                 description = line
                 break
 
@@ -137,7 +150,7 @@ def list_md_files_in_dir(dir_):
         for root, _, files in os.walk(dir_):
             for file in files:
                 if file.endswith(file_type):
-                    
+
                     exclude = False
                     for exclusion in exclusions:
                         file_path = os.path.join(root, file)
@@ -161,6 +174,7 @@ def format_markdown_text(text, file):
     """
     output = prettify(text)
     title, desc, keywords = get_meta(text)
+    logging.info('Found the following title, desc for {}:\n{}\n{}'.format(file, title, desc))
     missing_metadata = False
 
     if not title or not desc:
@@ -244,12 +258,12 @@ if __name__ == '__main__':
         if missing_metadata:
             missing_meta.append(file)
 
-        output['url'] = file.replace(source_dir, '').replace('.md', '.html')
+        output['url'] = re.sub(r'^source/','/',file.replace('.md', '.html'))
         es.index(index=index_name, body=output)
 
     logging.info('Total documents missing meta tags {}/{}:'.format(len(missing_meta), len(files)))
 
-    for file in missing_meta: 
+    for file in missing_meta:
         logging.warning(file)
 
     logging.info('Done!')

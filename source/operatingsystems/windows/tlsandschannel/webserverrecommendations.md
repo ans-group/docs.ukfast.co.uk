@@ -127,14 +127,16 @@ _Windows Server 2008 has very limited support for newer and more secure cipher s
 ---
 
 ## Loadbalancer, WAF, and Webcelerator solutions
-In order for a device, such as a load balancer, to inspect HTTPS Web traffic, it must be able to decrypt any packets between the client's browser and the backend web server. The same applies to a Webcelerator - If the Webcel cannot decrypt the traffic then it will be unable to cache any static content for future requests. This means that either SSL Offloading or Secure Origin Pull should be used and the TLS connection terminated at the device. More information on this is provided [here](/webcel/generalinformation.html)
+In order for a device, such as a load balancer, to inspect HTTPS Web traffic, it must be able to decrypt any packets between the client's browser and the backend web server. The same applies to a Webcelerator - If the Webcel cannot decrypt the traffic then it will be unable to cache any static content for future requests. This means that either SSL Offloading or Secure Origin Pull should be used and the TLS connection terminated at the device. More information on this is provided [here](/webcel/generalinformation)
 
 If HTTPS traffic to your Web server is terminated at one of these edge devices, then you can get in touch with our Support Team to adjust the supported TLS protocols and cipher suites per your requirements.
 
-The next thing to look at is [how .NET Framework applications interact with Schannel](/operatingsystems/windows/tlsandschannel/dotnetsettings.html).
+The next thing to look at is [how .NET Framework applications interact with Schannel](/operatingsystems/windows/tlsandschannel/dotnetsettings).
 
- ```eval_rst
+```eval_rst
+   .. title:: Web Server Recommendations
    .. meta::
       :title: Web Server Recommendations | UKFast Documentation
       :description: Security considerations for IIS Web servers
       :keywords: SSL, TLS, ukfast, Schannel, IIS, security, windows
+```

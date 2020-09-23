@@ -1,10 +1,17 @@
 # Fencing / STONITH
 
+```eval_rst
+   .. title:: BCP | Fencing
+   .. meta::
+      :title: BCP | Fencing | UKFast Documentation
+      :description: Information about what fencing is and common accidental causes
+```
+
 In order to recover from failure and file-level locks when performing a failover, the cluster is able to send a STONITH ("Shoot The Other Node In The Head") command to a problem node and force a reboot.
 
 For example: If you attempted to move `g_web` between nodes, but a process was holding one of the files in `/var/www/vhosts` open, the passive node could send a STONITH command to reboot the active node and forcibly takeover it's resource.
 
-This allows the resource to come back online without manual intervention, and helps prevent the situation where the cluster becomes [split brain](splitbrain.html).
+This allows the resource to come back online without manual intervention, and helps prevent the situation where the cluster becomes [split brain](splitbrain).
 
 ## Common causes of accidental fencing
 

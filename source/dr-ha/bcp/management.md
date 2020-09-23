@@ -1,8 +1,15 @@
 # Managing your cluster
 
+```eval_rst
+   .. title:: BCP | Managing Your Cluster
+   .. meta::
+      :title: BCP | Managing Your Cluster | UKFast Documentation
+      :description: Information on how to manage your BCP cluster
+```
+
 When moving from a standard Linux server with a LAMP stack (for example), there are a number of differences in how you manage the server and its services. Further to this, consideration to the cluster architecture should be given before adding new services or applications onto your nodes.
 
-We utilize of the RedHat clustering suite, which uses Pacemaker (`pcs`) as the cluster manager.
+We utilize the RedHat clustering suite, which uses Pacemaker (`pcs`) as the cluster manager.
 
 ```eval_rst
 .. seealso::
@@ -14,7 +21,7 @@ We utilize of the RedHat clustering suite, which uses Pacemaker (`pcs`) as the c
 
 ## Service management
 
-Services which are managed by the cluster should only be started / stopped / restarted by the cluster manager (PCS) - **not through the use of the `service`, `systemctl`, or `/etc/init.d/` commands**. Performing these actions via the aforementioned commands does not inform PCS that the service status was intended to change, and may result in the node being [fenced](fencing.html).
+Services which are managed by the cluster should only be started / stopped / restarted by the cluster manager (PCS) - **not through the use of the `service`, `systemctl`, or `/etc/init.d/` commands**. Performing these actions via the aforementioned commands does not inform PCS that the service status was intended to change, and may result in the node being [fenced](fencing).
 
 For any services which PCS is not aware of, you can continue to use conventional methods of restarting them. If in doubt, it's always best to check with our support team for clarification.
 
@@ -70,7 +77,7 @@ If any services show as failed, you would normally receive information about the
 
 To view more detailed information about the configuration of the individual resources in the group, use the `pcs config show` command.
 
-At the very top of the output, the `acme-webdb-01-stonith` and `acme-webdb-02-stonith` resources are listed and running on the opposing node to their name. These are used to send [fence](fencing.html) commands to recover a node from failure.
+At the very top of the output, the `acme-webdb-01-stonith` and `acme-webdb-02-stonith` resources are listed and running on the opposing node to their name. These are used to send [fence](fencing) commands to recover a node from failure.
 
 If you think that the output from `pcs status` is inaccurate, you can run `pcs resource cleanup` to re-check the status of all the resources in the cluster - or `pcs resource cleanup r_mysql_int_ip` (for example) to re-check an individual resource.
 
