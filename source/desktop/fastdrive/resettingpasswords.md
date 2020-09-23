@@ -20,7 +20,7 @@ Once verification is complete, you will be prompted with the confirmation screen
 
 ![Image 4 Reset Password](files/email.png "Image 4: Reset Password ")
 
-This confirms that an email has been sent to the user. This email will be sent from `share-support@ukfast.co.uk` and will contain a password reset link.  Please proceed with the steps instructed. 
+This confirms that an email has been sent to the user. This email will be sent from `sharefile-support@ukfast.co.uk` and will contain a password reset link.  Please proceed with the steps instructed. 
 
 If the user does not receive an email, please contact UKFast support.
 
