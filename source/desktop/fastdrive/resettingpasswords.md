@@ -1,4 +1,34 @@
-# Resetting FASTdrive passwords
+# How to Reset a FastDrive Password
+
+If you have forgotten your FastDrive password, you have the ability to be reset your own password. To do this:
+
+* Open an internet browser and input your companies FastDrive domain this should look like `companydomain.sharefile.eu` if you are unsure on how to access your domain or have any further issues at this stage please contact our support team (`0800 923 0617`).
+
+* Once you have entered your domain you will be prompted with a log in page similar to the one shown below:  
+
+![image](fastdrive/loginpage.PNG)
+
+* Please enter the email address associated with the account that cannot be accessed and select `Forgotten Password?`.
+
+![image](fastdrive/forgotpassword.PNG)
+
+* You will then be asked to verify that you are not a robot. Please proceed with the capcha form if prompted.
+
+![image](fastdrive/capcha.PNG)
+
+* Once the above has been completed and verified, the user will be prompted with the confirmation screen below:
+
+![image](fastdrive/email.PNG)
+
+This confirms that an email has been sent to the user. This email will be sent from share-support@ukfast.co.uk and will contain a password reset link.  Please proceed with the steps. 
+
+If the user does not receive an email, please contact UKFast support.
+```eval_rst
+.. title:: FastDrive | How to Reset a FastDrive Password
+.. meta::
+:title: How to Reset a FastDrive Password | UKFast Documentation
+:description: How to Reset a FastDrive Password
+:keywords: fastdrive, password, reset, citrix, guide, tutorial
 
 ## Resetting employee user passwords as the Admin user
 
