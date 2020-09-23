@@ -1,4 +1,4 @@
-# .htaccess
+# Information and guidance about .htaccess
 
 The .htaccess file is used by Apache to allow configuration changes to be made per vhost without having to access the main Apache configuration files. You can have a .htaccess file in any folder of your web files but the minimum is usually to have one in your document root. Here are some .htaccess configuration examples.
 
@@ -63,4 +63,4 @@ To use this you then need to add the following to your .htaccess file.
   .. meta::
      :title: Information and guidance about htaccess | UKFast Documentation
      :description:  Information and guidance on locking down htaccess on Linux
-     :keywords: ukfast, linux, htaccess, apache, server, virtual, vm, lockdown, IP, site
+     :keywords: ukfast, linux, htaccess, apache, server, virtual, vm, lockdown, IP, site, xmlrpc, access, apache
