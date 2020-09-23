@@ -6,19 +6,19 @@ Open your internet browser and browse to your company's FastDrive domain. This s
 
 Once you have entered your FastDrive domain, you will be prompted with a login page similar to the one shown in the image below 
 
-![image](fastdrive/loginpage.PNG)
+![Image 1 FastDrive Login Page](files/loginpage.png "Image 1: FastDrive Login Page")
 
 Please enter the email address of the account that cannot be accessed. From here, click `Forgotten Password?`.
 
-![image](fastdrive/forgotpassword.PNG)
+![Image 2 Forgot Password](files/forgotpassword.png "Image 2: Forgot Password")
 
 You will then be asked to verify that you are not a robot. Please proceed with the captcha form if prompted.
 
-![image](fastdrive/capcha.PNG)
+![Image 3 Human verification](files/capcha.png "Image 3: Human verification")
 
 Once verification is complete, you will be prompted with the confirmation screen as displayed below:
 
-![image](fastdrive/email.PNG)
+![Image 4 Reset Password](files/email.png "Image 4: Reset Password ")
 
 This confirms that an email has been sent to the user. This email will be sent from `share-support@ukfast.co.uk` and will contain a password reset link.  Please proceed with the steps instructed. 
 
