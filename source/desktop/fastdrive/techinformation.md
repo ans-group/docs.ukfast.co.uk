@@ -92,3 +92,12 @@ FASTdrive is a secure self-managed platform. Each customer will be provided with
 * Mobile Device Security including: File Self-Destruct, External Application Interaction, Encryption, Remote Wipe.
 
 UKFast Data Centres are ISO 27001 certified, PCI-compliant and secured up to UK government IL4 standards, which ensures your solution is protected by exceptional levels of both physical and virtual security at all times.
+
+ ```eval_rst
+   .. title:: FastDrive | Technical information about the FastDrive product
+   .. meta::
+      :title: FastDrive Guide: Technical Information | UKFast Documentation
+      :description: Technical information about the FastDrive product
+      :keywords: FastDesk, Citrix, ukfast, VDI, Citrix Receiver, Windows, Workspace Application, Desktop
+ ```
+
