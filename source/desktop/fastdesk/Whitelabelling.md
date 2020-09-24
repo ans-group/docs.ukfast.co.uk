@@ -38,8 +38,13 @@ The image below identifies the three front-end aspects that can be custom brande
 **_If you have any questions or still require assistance, please contact the FastDesk support team on 0800 923 0617_**.
 
  ```eval_rst
+   .. title:: FastDesk | Custom-Branding
    .. meta::
-      :title: FastDesk White Labelling | UKFast Documentation
+      :title: FastDesk Custom-Branding | UKFast Documentation
       :description: Guide for users on how to white label and customise their FastDesk experience
-      :keywords: FastDesk, Citrix, ukfast, VDI, Whitelabelling, Workspace Application 
+      :keywords: FastDesk, Citrix, ukfast, VDI, Whitelabelling, Workspace Application, custom, branding, custom-branding
 
+  ```
+  
+  
+  
