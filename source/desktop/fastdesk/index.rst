@@ -52,7 +52,7 @@ Find additional resources that will allow you to enhance or customise your FastD
 .. toctree::
    :maxdepth: 1
    
-   Whitelabelling
+   whitelabelling
    
 .. meta::
    :title: FastDesk - hosted desktops | UKFast Documentation
