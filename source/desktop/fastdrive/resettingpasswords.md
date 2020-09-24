@@ -26,10 +26,8 @@ If the user does not receive an email, please contact UKFast support.
 
 **_This instruction guide should assist you in resetting your FastDrive password. If you have any questions or still require assistance, please contact the FastDesk support team on 0800 923 0617_**.
 
-```eval_rst
-.. title:: FastDrive | How to Reset a FastDrive Password
-.. meta::
-:title: How to Reset a FastDrive Password | UKFast Documentation
-:description: How to Reset a FastDrive Password
-:keywords: fastdrive, password, reset, citrix, guide, tutorial
-
+ ```eval_rst
+   .. meta::
+      :title: How to Reset a FastDrive Password | UKFast Documentation
+      :description: Guide for users on how to reset their FastDrive Password
+      :keywords: fastdrive, password, reset, citrix, guide, tutorial, citrixfiles
