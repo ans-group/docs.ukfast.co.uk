@@ -86,11 +86,10 @@ Simply type the following URL `"https://www.fastdesk.co.uk"` and click Add. Alte
 
 **_This instruction guide should assist you in getting logged in for the first time. If you have any questions or still require assistance, please contact the FastDesk support team on 0800 923 0617_**.
 
- ```eval_rst
- .. title:: FastDesk | Updating Citrix Workspace
-   .. meta::
+  ```eval_rst
+      .. title:: FastDesk | Updating Citrix Workspace
+      .. meta::
       :title: Guide to updating the Citrix Workspace Application | UKFast Documentation
       :description: Guide for users on how to update their Citrix Workspace Application
-      :keywords: FastDesk, Citrix, ukfast, VDI, Citrix Receiver, Windows, Workspace Application 
-      
- ```
+      :keywords: FastDesk, Citrix, ukfast, VDI, Citrix Receiver, Windows, Workspace Application
+      ```  
