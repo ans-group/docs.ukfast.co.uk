@@ -36,9 +36,11 @@ As illustrated in **image 2**, clicking on the icon (outlined in orange) will br
 
 **_This instruction guide should assist you in learning how to effectively sign out of your FastDesk session. If you have any questions or still require assistance, please contact the FastDesk support team on 0800 923 0617_**.
 
- ```eval_rst
-   .. meta::
-      :title: FastDesk Guide: Signing out | UKFast Documentation
+    
+      ```eval_rst
+      .. title:: FastDesk Guide: Signing out | UKFast Documentation
+      .. meta::
+      :title: FastDesk Guide: Signing out effectively | UKFast Documentation
       :description: Guide for users on how to effectively sign out of the FastDesk Desktop session
-      :keywords: FastDesk, Citrix, ukfast, VDI, Citrix Receiver, Windows, Workspace Application, Desktop 
-
+      :keywords: FastDesk, Citrix, ukfast, VDI, Citrix Receiver, Windows, Workspace Application, Desktop
+      ```
