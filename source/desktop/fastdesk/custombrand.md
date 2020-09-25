@@ -1,6 +1,6 @@
 # Custom-Branding
 
-Custom-Branding allows you to impress your clients with out-of-the-box, enterprise-level technology, branded from your own portfolio. Offer UKFast's Desktop-as-a-Service solution as your own, build your brand and expand your business offerings. Custom-Branding will enable you to customise your FastDesk environment without the cost of a Private FastDesk. You will be able to add your own branding to a custom domain.
+**Custom-Branding** allows you to impress your clients with out-of-the-box, enterprise-level technology, branded from your own portfolio. Offer UKFast's Desktop-as-a-Service solution as your own, build your brand and expand your business offerings. **Custom-Branding** will enable you to customise your FastDesk environment without the cost of a Private FastDesk. You will be able to add your own branding to a custom domain.
 
 ## What can be Custom-Branded? 
 
