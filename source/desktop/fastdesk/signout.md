@@ -27,15 +27,20 @@ Once clicked, the start menu should open. You'll find three icons just above the
 
 As illustrated in **image 2**, clicking on the icon (outlined in orange) will bring out a menu. Select the "Sign out" option (outlined in blue) and this will begin to fully sign out your FastDesk desktop. 
 
+
 ```eval_rst
-.. note::
+.. warning::
 
    Please be aware, it takes a few minutes for FastDesk to completely sign out in the background. This extends to even when the window has been closed. Please leave at least 3 minutes after clicking the "Sign out" button before attempting to log back on.
    
 ```
 
-**_This instruction guide should assist you in learning how to effectively sign out of your FastDesk session. If you have any questions or still require assistance, please contact the FastDesk support team on 0800 923 0617_**.
+```eval_rst
+.. note::
 
+   This instruction guide should assist you in learning how to effectively sign out of your FastDesk session. If you have any questions or still require assistance, please contact the FastDesk support team on 0800 923 0617.
+   
+```
     
       ```eval_rst
       .. title:: FastDesk Guide: Signing out | UKFast Documentation
