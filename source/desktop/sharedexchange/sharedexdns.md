@@ -2,7 +2,8 @@
 
 ## If you are using UKFast's SafeDNS system
 
-The DNS records can be created automatically by opening Shared Exchange area within MyUKFast, selecting the domain name. If you do not have pre-existing DNS records click on the “Add Exchange DNS” button, which is shown in the red box below. This will add the DNS records automatically
+The DNS records can be created automatically by opening Shared Exchange area within MyUKFast, selecting the domain name. If you do not have pre-existing DNS records click on the “Add Exchange DNS” button, which is shown in the red box below. This will add the DNS records automatically:
+
 ![ShexDNS](files/dns/dnsshexc.PNG)
 
 If you would like to set these up manually please find our guide here, or contact the support team. Details can be found in your MyUKFast support portal.
@@ -13,13 +14,21 @@ Please allow time for any DNS changes to propagate through the internet, this ma
 
 You should update your DNS records with your DNS provider, the MX records should be set as:
 
-| **Mail Exchanger** | **Priority** |
-| -------------- | -------- |
-| `hub1.ukfastexchange.co.uk` | `10` |
-| `hub2.ukfastexchange.co.uk` | `10` |
-| `hub3.ukfastexchange.co.uk` | `10` |
-| `hub4.ukfastexchange.co.uk` | `10` |
-| `client.ukfastexchange.co.uk` | `20` |
+```eval_rst
++-------------------------------+----------+
+| Mail Exchanger                | Priority |
++===============================+==========+
+| hub1.ukfastexchange.co.uk     | 10       |
++-------------------------------+----------+
+| hub2.ukfastexchange.co.uk     | 10       |
++-------------------------------+----------+
+| hub3.ukfastexchange.co.uk     | 10       |
++-------------------------------+----------+
+| hub4.ukfastexchange.co.uk     | 10       |
++-------------------------------+----------+
+| client.ukfastexchange.co.uk   | 20       |
++-------------------------------+----------+
+```
 
 Next, you should add an SRV record to the domain to allow for auto-discovery. This allows your Exchange ready client, such as Outlook, to find all the settings it needs to connect to our shared Exchange platform.
 
