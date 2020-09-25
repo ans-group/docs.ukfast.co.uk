@@ -35,8 +35,12 @@ The image below identifies the three front-end aspects that can be custom brande
 
 7. Once inside FastDesk, the desktop background can be also be custom branded. UKFast require the dimension of the image that will be provided by the client to be 1920px x 1080px.
 
-**_If you have any questions or still require assistance, please contact the FastDesk support team on 0800 923 0617_**.
+```eval_rst
+.. note::
 
+  If you have any questions or still require assistance, please contact the FastDesk support team on 0800 923 0617.
+   
+```
  
    ```eval_rst
       .. title:: FastDesk | Custom-Branding
