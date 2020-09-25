@@ -29,35 +29,7 @@ In security systems, hashes are used to ensure that transmitted messages have no
 
 __Metadata__
 
-Customer files are never processed, stored or transferred to the ShareFile SaaS application tier. Instead we store metadata (defined as data which describes other data). The metadata attributes that ShareFile stores in the SaaS application tier's database servers are as follows:
-
-
-User Info:
-First Name
-Last Name
-User Login (Email Address)
-Company Name (Optional)
-Password Hash
-Security Question
-Security Answer
-Access Control Lists (ACL)
-
-File Info:
-File Name
-File Description
-File Location
-File Size
-File Hash
-File Creation Date
-Email Notification
-Access Control Lists (ACL)
-IP Address from which file was uploaded
-
-Other:
-Account Subdomains on ShareFile.com/eu
-Audit & Reporting
-
-Citrix uses SSAE 16 Type II accredited or ISO 27001 certified Data Centres to host the SaaS application and metadata. All files are stored in SSAE 16 Type II (SOC1), SOC2 and ISO 27001 accredited Data Centres with high availability and durability ratings.
+Customer files are never processed, stored or transferred to the ShareFile SaaS application tier. Instead we store metadata (defined as data which describes other data). Citrix uses SSAE 16 Type II accredited or ISO 27001 certified Data Centres to host the SaaS application and metadata. All files are stored in SSAE 16 Type II (SOC1), SOC2 and ISO 27001 accredited Data Centres with high availability and durability ratings.
 
 
 ## StorageZone Tier
@@ -120,3 +92,12 @@ FASTdrive is a secure self-managed platform. Each customer will be provided with
 * Mobile Device Security including: File Self-Destruct, External Application Interaction, Encryption, Remote Wipe.
 
 UKFast Data Centres are ISO 27001 certified, PCI-compliant and secured up to UK government IL4 standards, which ensures your solution is protected by exceptional levels of both physical and virtual security at all times.
+
+ ```eval_rst
+   .. title:: FastDrive | Technical information about the FastDrive product
+   .. meta::
+      :title: FastDrive Guide: Technical Information | UKFast Documentation
+      :description: Technical information about the FastDrive product
+      :keywords: FastDesk, Citrix, ukfast, VDI, Citrix Receiver, Windows, Workspace Application, Desktop
+ ```
+
