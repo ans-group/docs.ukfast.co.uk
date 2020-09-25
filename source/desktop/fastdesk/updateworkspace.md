@@ -1,6 +1,6 @@
 # How to update Citrix Workspace on a Windows Device
 
-The Citrix Workspace application acts as a receiver for your desktop and provides you with high-performance access from anywhere around the world via an internet connection. The Citrix Workspace application is made by Citrix and is frequently updated by Citrix. With each new update comes an improvement in security, stability and overall performance. This guide provides a step-by-step guide to updating the Citrix Workspace application.
+The **Citrix Workspace** application acts as a receiver for your desktop and provides you with high-performance access from anywhere around the world via an internet connection. The **Citrix Workspace** application is made by Citrix and is frequently updated by Citrix. With each new update comes an improvement in security, stability and overall performance. This guide provides a step-by-step guide to updating the **Citrix Workspace** application.
 
 ```eval_rst
 .. note::
@@ -11,7 +11,7 @@ The Citrix Workspace application acts as a receiver for your desktop and provide
 
 ## Step 1 - Uninstalling the Citrix Workspace Application
 
-To update the Citrix Workspace Application on your local computer, you must first uninstall the older version of the Citrix Workspace Application.
+To update the **Citrix Workspace** Application on your local computer, you must first uninstall the older version of the **Citrix Workspace** Application.
 
 To do this, ensure you are **outside** of your FastDesk session. In the bottom left corner of your deskop, click the Windows icon and type `Control Panel` in the search bar. This will bring up the search bar and you will see `Control Panel` appear as a search result. Click this to open *Control Panel*.  Please refer to **image** below for a visual representation. 
 
@@ -27,7 +27,7 @@ This will bring you to the Uninstall or change a program page. From here, find a
 
 ## Step 2 - Downloading the latest version of the Citrix Workspace Application
 
-From your Windows local PC, download and install the latest version of the Citrix Workspace app at this URL:
+From your Windows local PC, download and install the latest version of the **Citrix Workspace** application at this URL:
 `https://www.citrix.co.uk/downloads/workspace-app/`. Alternatively, you can click this [link here](https://www.citrix.co.uk/downloads/workspace-app/) to take you to the website. All versions of Workspace should be listed here.
 
 Expand the `Workspace app for Windows` section and select the latest version of the "Workspace app for Windows". This takes you to the download link where you can download the application (See **image** below).
@@ -46,7 +46,7 @@ Follow the installation dialog box to finish with the installation of the worksp
 ![Image 6: Installing Citrix Workspace](files/Installing_app.PNG "Image 6: Installing Citrix Workspace Dialog box")
 
 
-Once the "Citrix Workspace" application is installed, open your web browser and navigate to the Following URL `“https://www.fastdesk.co.uk”`. On this step, it is vital that you enter the full URL including the `"www"`. Alternatively, you can click this [link here](https://www.fastdesk.co.uk) to take you to the website. In terms of browsers, the web portal is compatible with the latest versions of Google Chrome, Mozilla Firefox, Microsoft Edge and Internet Explorer.
+Once the **Citrix Workspace** application is installed, open your web browser and navigate to the Following URL `“https://www.fastdesk.co.uk”`. On this step, it is vital that you enter the full URL including the `"www"`. Alternatively, you can click this [link here](https://www.fastdesk.co.uk) to take you to the website. In terms of browsers, the web portal is compatible with the latest versions of Google Chrome, Mozilla Firefox, Microsoft Edge and Internet Explorer.
 
 ![Image 7: FastDesk URL](files/Url.png "Image 7: FastDesk URL")
 
@@ -68,7 +68,7 @@ Go ahead and enter the username and password credentials that were provided to y
 
 ## Workspace Application Log in setup (Optional)
 
-Although it is recommended you access FastDesk through the URL, you can also access your desktop through the Citrix Workspace Launcher. If you prefer to login directly to the Citrix Workspace app, you can do so. Simply click your windows start menu button and search for "Citrix Workspace Application". After launching the Citrix Workspace app, you will be asked to add an account. See **image** below.
+Although it is recommended you access FastDesk through the URL, you can also access your desktop through the **Citrix Workspace** Launcher. If you prefer to login directly to the **Citrix Workspace** application, you can do so. Simply click your windows start menu button and search for "Citrix Workspace Application". After launching the **Citrix Workspace** application, you will be asked to add an account. See **image** below.
 
 ![Image 10 Add an account](files/addaccountworkspace.png "Image 10: Add an account")
 
@@ -84,8 +84,12 @@ Simply type the following URL `"https://www.fastdesk.co.uk"` and click Add. Alte
    
 ```
 
-**_This instruction guide should assist you in getting logged in for the first time. If you have any questions or still require assistance, please contact the FastDesk support team on 0800 923 0617_**.
+```eval_rst
+.. note::
 
+   This instruction guide should assist you in getting logged in for the first time. If you have any questions or still require assistance, please contact the FastDesk support team on 0800 923 0617
+   
+```
   ```eval_rst
       .. title:: FastDesk | Updating Citrix Workspace
       .. meta::
