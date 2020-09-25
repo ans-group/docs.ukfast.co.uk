@@ -21,7 +21,7 @@ The image above identifies the four front-end aspects that can be custom branded
 
 2. The background on the on login page can be custom branded. This can be changed to any background image you would like. UKFast require the dimension of the image that will be provided by the client to be 1920px x 1080px.
 
-3. The logo displayed on the on login page can be custom branded. This can be changed to any logo you would like. UKFast require the dimension of the image that will be provided by the client to be 340px x 80px.
+3. The logo displayed on the login page can be custom branded. This can be changed to any logo you would like. UKFast require the dimension of the image that will be provided by the client to be 340px x 80px.
 
 4. The text and phone number displayed on the login page can also be custom branded. You may change this to a number which directly goes the person/team that would act as a first point of contact. To do this, we would simply require what you would like this text to be.
 
