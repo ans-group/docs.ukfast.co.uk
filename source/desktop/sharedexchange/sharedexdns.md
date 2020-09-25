@@ -27,8 +27,7 @@ Here is the information you need for the SRV record, in its raw format, should y
 
 `_autodiscover._tcp.DOMAIN.COM. 0 0 443 client.ukfastexchange.co.uk`
 
-```
-(Please note: you must change “DOMAIN.COM” with your own domain name)
+``` note:: you must change “DOMAIN.COM” with your own domain name)
 ```
 
 As an optional extra if you would like to add an SPF record to prove the validity of emails leaving the domain, the format of this is as follows:
