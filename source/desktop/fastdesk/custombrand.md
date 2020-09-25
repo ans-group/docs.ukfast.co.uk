@@ -15,7 +15,7 @@ The image above identifies the four front-end aspects that can be custom branded
 ```eval_rst
 .. note::
 
-  You can purchase the domain from any reputable domain seller, please note that you will need access to control the DNS zone for the domain.
+  You can purchase the domain from any reputable domain seller. However, please note that you will need access to control the DNS zone for the domain.
    
 ```
 
