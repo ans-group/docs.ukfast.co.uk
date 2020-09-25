@@ -32,9 +32,6 @@ To export a single database, `cd` to a directory path of your choosing, and run 
 mongodump --db=yourdb
 ```
 
-``` note:: Commvault does not currently offer plugin/agent for MongoDB specifically, so this would only be backed up in a File Level backup.
-```
-
 ## Exporting from a Remote Host
 
 You can use the `mongodump` utility to connect to a remote instance using the below syntax.

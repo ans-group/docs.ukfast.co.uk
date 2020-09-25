@@ -18,6 +18,11 @@ cp /etc/php.ini /root/php_upgrade_backup-$(date +%d_%b_%Y)/
 ### Remi Repository
 We use the remi yum repository for PHP. You can install the remi repository with the command:
 
+#### CentOS 8
+```bash
+dnf install https://rpms.remirepo.net/enterprise/remi-release-8.rpm
+```
+
 #### CentOS 7
 ```bash
 wget http://rpms.remirepo.net/enterprise/remi-release-7.rpm && rpm -Uvh remi-release-7.rpm && rm -f remi-release-7.rpm
