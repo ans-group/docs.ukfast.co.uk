@@ -1,15 +1,11 @@
 # How to effectively end your FastDesk Desktop session 
 
-## What is disconnecting and when should I do it?
+```eval_rst
+.. warning::
 
-Disconnecting your FastDesk Desktop is a convenient way of leaving your session on standby. Disconnecting leaves everything running on your desktop so you can connect in later (Perhaps from a different device) and still find your apps and files open as you left them. 
-
-Whenever you disconnect, your session is still active in the background, and therefore, you will not benefit from some of the changes or policies that are applied to your FastDesk whilst your session is in its current state.  You can opt to disconnect your FastDesk session if you are leaving your desktop for a short period. For anything longer than a couple of hours, we would recommend completely signing out. 
-
-## How do I disconnect?
-
-You can disconnect by simply closing your Citrix Workspace Window or web browser session. Alternatively, you can also disconnect by clicking the disconnect button in the start menu (Refer to **image 1** in sign out section. ).
-
+   Please be aware, it takes a few minutes for FastDesk to completely sign out in the background. This extends to even when the window has been closed. Please leave at least 3 minutes after clicking the "Sign out" button before attempting to log back on.
+   
+```
 
 ## What is signing out and when should I do it?
 
@@ -27,13 +23,16 @@ Once clicked, the start menu should open. You'll find three icons just above the
 
 As illustrated in **image 2**, clicking on the icon (outlined in orange) will bring out a menu. Select the "Sign out" option (outlined in blue) and this will begin to fully sign out your FastDesk desktop. 
 
+## What is disconnecting and when should I do it?
 
-```eval_rst
-.. warning::
+Disconnecting your FastDesk Desktop is a convenient way of leaving your session on standby. Disconnecting leaves everything running on your desktop so you can connect in later (Perhaps from a different device) and still find your apps and files open as you left them. 
 
-   Please be aware, it takes a few minutes for FastDesk to completely sign out in the background. This extends to even when the window has been closed. Please leave at least 3 minutes after clicking the "Sign out" button before attempting to log back on.
-   
-```
+Whenever you disconnect, your session is still active in the background, and therefore, you will not benefit from some of the changes or policies that are applied to your FastDesk whilst your session is in its current state.  You can opt to disconnect your FastDesk session if you are leaving your desktop for a short period. For anything longer than a couple of hours, we would recommend completely signing out. 
+
+## How do I disconnect?
+
+You can disconnect by simply closing your Citrix Workspace Window or web browser session. Alternatively, you can also disconnect by clicking the disconnect button in the start menu (Refer to **image 1** in sign out section. ).
+
 
 ```eval_rst
 .. note::
@@ -42,10 +41,10 @@ As illustrated in **image 2**, clicking on the icon (outlined in orange) will br
    
 ```
     
-      ```eval_rst
-      .. title:: FastDesk Guide: Signing out | UKFast Documentation
-      .. meta::
-      :title: FastDesk Guide: Signing out effectively | UKFast Documentation
-      :description: Guide for users on how to effectively sign out of the FastDesk Desktop session
-      :keywords: FastDesk, Citrix, ukfast, VDI, Citrix Receiver, Windows, Workspace Application, Desktop
-      ```
+```eval_rst
+  .. title:: FastDesk Guide: Signing out | UKFast Documentation
+  .. meta::
+     :title: FastDesk Guide: Signing out effectively | UKFast Documentation
+     :description: Guide for users on how to effectively sign out of the FastDesk Desktop session
+     :keywords: FastDesk, Citrix, ukfast, VDI, Citrix Receiver, Windows, Workspace Application, Desktop
+```
