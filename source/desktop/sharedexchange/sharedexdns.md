@@ -18,15 +18,15 @@ You should update your DNS records with your DNS provider, the MX records should
 +-------------------------------+----------+
 | Mail Exchanger                | Priority |
 +===============================+==========+
-| hub1.ukfastexchange.co.uk     | 10       |
+| hub1.ukfastexchange.co.uk     | 20       |
 +-------------------------------+----------+
-| hub2.ukfastexchange.co.uk     | 10       |
+| hub2.ukfastexchange.co.uk     | 20       |
 +-------------------------------+----------+
-| hub3.ukfastexchange.co.uk     | 10       |
+| hub3.ukfastexchange.co.uk     | 20       |
 +-------------------------------+----------+
-| hub4.ukfastexchange.co.uk     | 10       |
+| hub4.ukfastexchange.co.uk     | 20       |
 +-------------------------------+----------+
-| client.ukfastexchange.co.uk   | 20       |
+| client.ukfastexchange.co.uk   | 10       |
 +-------------------------------+----------+
 ```
 
