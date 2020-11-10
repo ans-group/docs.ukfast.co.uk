@@ -112,16 +112,16 @@ Check the data is owned by `mysql:mysql`, and then start up your database servic
 This backup service supports **Data-at-Rest Encryption** and **InnoDB Page Compression**.
 ### Installation
 * **Install the repo**
+```eval_rst
+.. note::
+
+   You will need to match the exact version of your MariaDB server or it will not backup.
+```
 ```bash
 [root@ ~]# curl -sS https://downloads.mariadb.com/MariaDB/mariadb_repo_setup | bash -s -- --mariadb-server-version=10.2
 [info] Repository file successfully written to /etc/yum.repos.d/mariadb.repo.
 [info] Adding trusted package signing keys...
 [info] Successfully added trusted package signing keys.
-```
-```eval_rst
-.. note::
-
-   You will need to match the exact version of your MariaDB server or it will not backup.
 ```
 * **Install mariabackup**
 ```bash
