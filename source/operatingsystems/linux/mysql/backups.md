@@ -113,19 +113,19 @@ This backup service supports **Data-at-Rest Encryption** and **InnoDB Page Compr
 ### Installation
 * **Install the repo**
 ```bash
-[root@ ~]# curl -sS https://downloads.mariadb.com/MariaDB/mariadb_repo_setup | bash
+[root@ ~]# curl -sS https://downloads.mariadb.com/MariaDB/mariadb_repo_setup | bash -s -- --mariadb-server-version=10.2
 [info] Repository file successfully written to /etc/yum.repos.d/mariadb.repo.
 [info] Adding trusted package signing keys...
 [info] Successfully added trusted package signing keys.
 ```
-* **Install mariabackup**
 ```eval_rst
 .. note::
 
    You will need to match the exact version of your MariaDB server or it will not backup.
 ```
+* **Install mariabackup**
 ```bash
-yum install MariaDB-Backup-10.3*
+yum install MariaDB-backup*
 ```
 ### Full Backup
 * **Create the backup**
