@@ -57,6 +57,7 @@ Below are the different facets that make up a UKFast solution, click on the link
       <h2>DR and HA</h2>
       <ul>
           <li><a href="bcp.html">Business Continuity Platform</a></li>
+          <li><a href="https://docs.ukfast.co.uk/dr-ha/draas/index.html">DRaaS</a></li>
       </ul>
   </div>  
   <div class='docs-flex-item'>
