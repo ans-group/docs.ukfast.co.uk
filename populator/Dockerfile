@@ -1,5 +1,5 @@
 FROM python:3.7-slim
-ADD ./populator/main.py /
+ADD ./populator /
 ADD ./source /source
-RUN pip install elasticsearch requests markdown html2text bs4
+RUN pip install -r requirements.txt
 CMD ["python", "-u", "main.py"]
