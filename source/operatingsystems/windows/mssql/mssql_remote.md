@@ -1,6 +1,6 @@
 # Connecting to MSSQL Instance remotely
 
-In order to connect to a MSSQL instance from a remote source, The following is required;
+In order to connect to a MSSQL instance from a remote source, The following is required:
 ```
 - Check the port in which MSSQL is currently listening on (This is typically TCP port 1433)
 - Outbound connectivity from the originating source to the destination server over the MSSQL port
@@ -9,7 +9,7 @@ In order to connect to a MSSQL instance from a remote source, The following is r
 ```
 ## How to check your servers MSSQL port
 
-To check the port in which the SQL Server is configured to listen on, You would need to;
+To check the port in which the SQL Server is configured to listen on, You would need to:
 ```
 - Establish an RDP connection to the MSSQL server
 - Open MSSQL Server Configuration manager
@@ -20,7 +20,7 @@ To check the port in which the SQL Server is configured to listen on, You would 
 
 ## Opening the MSSQL Ports on your Firewall
 
-Dependent upon on whether or not your server resides behind a dedicated or shared firewall, The following documentation will guide you through securely opening the MSSQL ports;
+Dependent upon on whether or not your server resides behind a dedicated or shared firewall, The following documentation will guide you through securely opening the MSSQL ports:
 
 Dedicated Firewall: [https://docs.ukfast.co.uk/network/firewalls/dedi\_lockdown.html](https://docs.ukfast.co.uk/network/firewalls/dedi_lockdown.html)
 
@@ -28,24 +28,24 @@ Shared Firewall: [https://docs.ukfast.co.uk/network/firewalls/shared\_lockdown.h
 
 ## Troubleshooting connectivity to your MSSQL Server
 
-To check if your able to communicate both outbound from your network over the required MSSQL port. The following Powershell cmdlet can be utilised (Please note the TcpTestSucceeded indicates if the port is accessible);
+To check if your able to communicate both outbound from your network over the required MSSQL port. The following Powershell cmdlet can be utilised (Please note the TcpTestSucceeded indicates if the port is accessible):
 ```powershell
 Test-Netconnection {RemoteServerAddress} -port {MSSQLPORT}
 ```
-Example;
+Example:
 
 ![Instance options](Images/mssql_remote/tnc.png)
 
-To further test connectivity to your instance, The following method can be used;
+To further test connectivity to your instance, The following method can be used:
 
-On your remote client > Go to start > Notepad.exe > File > Save As;
+On your remote client > Go to start > Notepad.exe > File > Save As:
 
 Filename: ConnectionTest.udl
 Save As type: All Files (\*.\*)
 
 ![Instance options](Images/mssql_remote/udl_test.png)
 
-Open the UDL File and enter the following information;
+Open the UDL File and enter the following information:
 
 - Server name: Server IP
 - User a specific username…: SQL Server Credentials
