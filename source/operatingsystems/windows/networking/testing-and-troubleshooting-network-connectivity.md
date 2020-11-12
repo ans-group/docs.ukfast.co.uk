@@ -8,11 +8,11 @@ What is covered within this guide?
 ```
 ## Testing Outbound connectivity from your server
 
-To test general outbound connectivity from your server over a specific port. The following Powershell command is extremely useful;
+To test general outbound connectivity from your server over a specific port. The following Powershell command is extremely useful:
 ```
 Test-NetConnection {Hostname/IP} -port {Port}
 ```
-This command provides us with the following information;
+This command provides us with the following information:
 
 The name of the remote computer (If a DNS name has been used)
 The IP of the remote computer
@@ -23,7 +23,7 @@ Whether or not the remote address is accessible via ping
 The Round-Trip Time in MS it took for the ping to complete
 Whether or not the remote address is accessible via the specified port
 
-Example;
+Example:
 ```
 PS C:\Users\Administrator\> Test-NetConnection portquiz.net -port 80
 
@@ -36,7 +36,7 @@ PingSucceeded: True
 PingReplyDetails (RTT): 6 ms
 TcpTestSucceeded: True
 ```
-Paired with the hostname "portquiz.net", which is a service in which is publicly accessible on all ports, we are able to gauge as to whether or not the port is open outbound through the firewall and can help indicate as to whether or not the connection is being blocked on the remote end.
+Another useful thing to note here is that, The service in which we are attempting to connect to here: "portquiz.net", Is service which is publicly accessible on all ports, Meaning that, we are able to gauge as to whether or not a specific port is open outbound through the firewall and helps indicate as to whether or not the connection is being blocked by the Firewall or the remote endpoint
 ```
 Test-Netconnection portquiz.net -port 80
 ```
@@ -44,7 +44,7 @@ Test-Netconnection portquiz.net -port 80
 
 The above Powershell command is also quite powerful when testing inbound connectivity to your server. As this helps determine as to whether or not your source device is able to communicate over the required ports.
 
-Things to note here are;
+Things to note here are:
 ```
 - The server must be listening on the required port, For the connection to be accepted
 - The relevant ports must be open on the firewall
@@ -53,11 +53,11 @@ Things to note here are;
 
 **Checking if a server is listening on a specific port**
 
-The following CMD command can be ran to determine if a server is listening on a specific port;
+The following CMD command can be ran to determine if a server is listening on a specific port:
 
 netstat -ano | find ":PORT"
 
-Example;
+Example:
 ```
 C:\Users\Administrator\>netstat -ano | find ":3389"
 
@@ -67,9 +67,24 @@ TCP [::]:3389 [::]:0 LISTENING 320
 UDP 0.0.0.0:3389 \*:\* 320
 UDP [::]:3389 \*:\* 320
 ```
+
+Alternatively, The following Powershell command can be used here also:
+
+Get-NetTCPConnection -State Listen -localport 3389
+
+Example:
+```
+Get-NetTCPConnection -State Listen -localport 3389
+
+LocalAddress                        LocalPort RemoteAddress                       RemotePort State       AppliedSetting
+------------                        --------- -------------                       ---------- -----       --------------
+::                                  3389      ::                                  0          Listen
+0.0.0.0                             3389      0.0.0.0                             0          Listen
+```
+
 **Checking if the port is open on your firewall**
 
-Dependent upon on whether or not your server resides behind a dedicated or shared firewall, The following documentation will guide you through securely opening ports on your firewall;
+Dependant upon the type of firewall your server resides beind (Dedicates/Shared), The following documentation will guide you through securely opening ports via my.ukfast:
 
 Dedicated Firewall: [https://docs.ukfast.co.uk/network/firewalls/dedi\_lockdown.html](https://docs.ukfast.co.uk/network/firewalls/dedi_lockdown.html)
 
@@ -77,7 +92,7 @@ Shared Firewall: [https://docs.ukfast.co.uk/network/firewalls/shared\_lockdown.h
 
 **How to check if Windows firewall is enabled**
 
-To check if Windows firewall is enabled you must;
+To check if Windows firewall is enabled you must:
 
 Open the control panel > System and Security > Windows Defender Firewall.
 
@@ -89,38 +104,38 @@ It is worth noting that, Typically Windows Firewall does not need to be enabled 
 
 ## Troubleshooting inbound connectivity issues
 
-There are a wide variety of methods and tools in which you are able to troubleshoot network connectivity issues. Here are a few examples;
+There are a wide variety of methods and tools in which you are able to troubleshoot network connectivity issues. Here are a few examples:
 
-**Wireshark** ;
+**Wireshark** :
 
-Wireshark can be used to monitor and capture traffic on a specific network interface. Filters can be applied when monitoring the traffic to help with troubleshooting. For example, The following filter would filter the results for traffic being transmitted over TCP port 3389;
+Wireshark can be used to monitor and capture traffic on a specific network interface. Filters can be applied when monitoring the traffic to help with troubleshooting. For example, The following filter would filter the results for traffic being transmitted over TCP port 3389:
 ```
 tcp.port == 3389
 ```
 ![windows-wireshark](files/connectivity-testing/wireshark.png)
 
-Wireshark is free to use and can be downloaded here; [https://www.wireshark.org/download.html](https://www.wireshark.org/download.html)
+Wireshark is free to use and can be downloaded here: [https://www.wireshark.org/download.html](https://www.wireshark.org/download.html)
 
-**Powershell;**
+**Powershell:**
 
 Powershell can be used to create artificial listeners on Windows, Which assists when testing connectivity to the server over a specific port.
 
-The commands to create a listener on Windows via Powershell is as follows;
-
+The commands to create a listener on Windows via Powershell is as follows:
+```
 $Listener = [System.Net.Sockets.TcpListener]1234;
 $Listener.Start();
-
-The command to stop the listener would be;
-
-$Listener.Stop();
-
-Example;
 ```
-Before running the commands;
+The command to stop the listener would be:
+```
+$Listener.Stop();
+```
+Example:
+```
+Before running the commands:
 
 C:\Users\Administrator\>netstat -ano | find ":1234"
 
-After;
+After:
 
 PS C:\Users\Administrator\> $Listener = [System.Net.Sockets.TcpListener]1234;
 PS C:\Users\Administrator\? $Listener.Start();
@@ -128,7 +143,7 @@ PS C:\Users\Administrator\? $Listener.Start();
 C:\Users\Administrator\>netstat -ano | find ":1234"
 TCP 0.0.0.0:1234 0.0.0.0:0 LISTENING 3180
 
-To stop the listener run;
+To stop the listener run:
 
 PS C:\Users\Administrator> $Listener.Stop();
 ```
