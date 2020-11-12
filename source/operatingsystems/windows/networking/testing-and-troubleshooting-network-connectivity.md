@@ -133,15 +133,18 @@ Example:
 ```
 Before running the commands:
 
-C:\Users\Administrator\>netstat -ano | find ":1234"
+PS C:\Users\Administrator> Get-NetTCPConnection -State Listen -localport 1234
+Get-NetTCPConnection : No matching MSFT_NetTCPConnection objects
 
 After:
 
 PS C:\Users\Administrator\> $Listener = [System.Net.Sockets.TcpListener]1234;
 PS C:\Users\Administrator\? $Listener.Start();
 
-C:\Users\Administrator\>netstat -ano | find ":1234"
-TCP 0.0.0.0:1234 0.0.0.0:0 LISTENING 3180
+Get-NetTCPConnection -State Listen -localport 1234
+LocalAddress                        LocalPort RemoteAddress                       RemotePort State       AppliedSetting
+------------                        --------- -------------                       ---------- -----       --------------
+0.0.0.0                             1234      0.0.0.0                             0          Listen
 
 To stop the listener run:
 
