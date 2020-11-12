@@ -7,8 +7,8 @@ You first need to install Java which is required by Elasticsearch
 ```bash
 yum install java
 ```
-#### Elasticsearch Repository Setup
-Create a file called elasticsearch.repo in the /etc/yum.repos.d/ directory and include the below. If you wish for ElasticSearch v7 then replace all instances of '6' with 7.
+#### Elasticsearch 6.x Repository Setup
+Create a file called elasticsearch.repo in the /etc/yum.repos.d/ directory and include the below.
 
 ```bash
 vim /etc/yum.repos.d/elasticsearch.repo
@@ -22,12 +22,30 @@ enabled=1
 autorefresh=1
 type=rpm-md
 ```
+#### Elasticsearch 7.x Repository Setup
+Create a file called elasticsearch.repo in the /etc/yum.repos.d/ directory and include the below.
 
+```bash
+vim /etc/yum.repos.d/elasticsearch.repo
+
+[elasticsearch-7.x]
+name=Elasticsearch repository for 7.x packages
+baseurl=https://artifacts.elastic.co/packages/7.x/yum
+gpgcheck=1
+gpgkey=https://artifacts.elastic.co/GPG-KEY-elasticsearch
+enabled=1
+autorefresh=1
+type=rpm-md
+```
 ##### Install Elasticsearch
 ```bash
 yum install elasticsearch 
 ```
-
+##### Elasticsearch 7.6.x
+If you require Elasticsearch 7.6 specifically you will need to install with the below command
+```bash
+yum install https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.6.2-x86_64.rpm
+```
 ###### Start On Boot
 Once installed you can configure elasticsearch to start on boot with the command:
 
