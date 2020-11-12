@@ -1,4 +1,4 @@
-## Connecting to MSSQL Instance remotely
+# Connecting to MSSQL Instance remotely
 
 In order to connect to a MSSQL instance from a remote source, The following is required;
 ```
