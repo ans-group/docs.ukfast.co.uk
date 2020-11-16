@@ -65,7 +65,7 @@ App.InlineSearch = (function () {
             var div = $('<div></div>');
             var link = $('<a></a>');
             var url = window.location.origin;
-            link.attr('href', url + item["_source"].url.replace("source", ""));
+            link.attr('href', url + item["_source"].url);
             if (item["_source"].title) {
               link.append('<strong>' + item["_source"].title + '</strong><br />');
             }

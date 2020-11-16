@@ -1,11 +1,13 @@
-# Transferring a domain to UKFast
+# Transferring a Domain to UKFast
 
 ```eval_rst
-
+   .. title:: Domain Names | Transferring to UKFast
    .. meta::
-      :title: Domain Names | Transfering to UKFast | UKFast Documentation
+      :title: Domain Names | Transferring to UKFast | UKFast Documentation
       :description: How to transfer your domain to UKFast
+```
 
+```eval_rst
 .. note::
     Due to the nature of this process, the majority of the steps will have to be carried out with your current registrar. There's no real standardisation to this, so whilst the rough steps you need to carry out will be described, finding how to do it with your existing registrar may need you to contact their support.
 ```

@@ -1,4 +1,4 @@
-# Server Partitions
+# Partitions
 
 Please find below the UKFast Default Partitions configured as part of your solution. 
 
@@ -30,8 +30,13 @@ The below configuration applies to the following Linux Servers:
 +-----------------+---------------------+--------------------------+
 ```
 
+## Virtual Machines
+
+The size of disk allocation to virtual machines can be edited depending on requirements in the Enterprise Launch Questionnaire.
+
 ```eval_rst
-  .. meta::
-      :title: UKFast server partitions | UKFast Documentation
+   .. title:: UKFast server partitions
+   .. meta::
       :description: UKFast server partitions
       :keywords: ukfast, hosting, partitions, server, virtual
+```

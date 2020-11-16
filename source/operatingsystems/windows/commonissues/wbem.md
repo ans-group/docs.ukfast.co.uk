@@ -36,6 +36,7 @@ Once all of the required files have finished moving to their new directory, retu
   If you experience issues, please navigate back to wbem, and copy the contents of "reposold" back in to the wbem folder.
 
 ```eval_rst
+  .. title:: Cleaning the WBEM Repository
   .. meta::
      :title: Cleaning the WBEM Repository | UKFast Documentation
      :description: Instructions and information on cleaning the WBEM Repository on Windows

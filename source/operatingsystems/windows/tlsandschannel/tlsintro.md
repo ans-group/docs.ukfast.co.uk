@@ -23,10 +23,12 @@ TLS 1.2 is currently the industry standard for secure communication, with TLS 1.
 
 For a more comprehensive overview of Transport Layer Security, consider checking the the Wikipedia page [here](https://en.wikipedia.org/wiki/Transport_Layer_Security).
 
-We will now look at some [TLS considerations for Windows Web Servers](/operatingsystems/windows/tlsandschannel/webserverrecommendations.html).
+We will now look at some [TLS considerations for Windows Web Servers](/operatingsystems/windows/tlsandschannel/webserverrecommendations).
 
- ```eval_rst
+```eval_rst
+   .. title:: TLS protocols and SChannel
    .. meta::
       :title: TLS protocols and SChannel | UKFast Documentation
       :description: Introduction to TLS protocols and cipher suites
       :keywords: SSL, TLS, ukfast, Schannel, IIS 
+```

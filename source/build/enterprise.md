@@ -82,6 +82,7 @@ Below are the different facets that make up a UKFast Enterprise solution, click 
 </div>
 
 ```eval_rst
+  .. title:: UKFast Default Configuration
   .. meta::
       :title: UKFast Default Configuration | UKFast Documentation
       :description: Default Configuration for UKFast Enterprise

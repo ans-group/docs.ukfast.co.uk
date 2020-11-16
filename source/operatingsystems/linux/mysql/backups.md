@@ -44,7 +44,7 @@ For MyISAM tables, this will prevent writes to the database during the dump.
 ```eval_rst
 .. warning::
 
-   Please note that **MyISAM** tables will lock during a database dump by default
+   Please note that ``MyISAM`` tables will lock during a database dump by default
 
 ```
    
@@ -71,7 +71,9 @@ find /root/mysqldumps/ -type f -name "*.sql.gz" -mtime +7 -delete
 ```eval_rst
 .. note::
 
-   More information on the `mysqldump` command can be found in the official documentation - https://dev.mysql.com/doc/refman/8.0/en/mysqldump.html
+   More information on the ``mysqldump`` command can be found in the official documentation:
+
+   - https://dev.mysql.com/doc/refman/8.0/en/mysqldump.html
 
 ```
 
@@ -110,20 +112,20 @@ Check the data is owned by `mysql:mysql`, and then start up your database servic
 This backup service supports **Data-at-Rest Encryption** and **InnoDB Page Compression**.
 ### Installation
 * **Install the repo**
-```bash
-[root@ ~]# curl -sS https://downloads.mariadb.com/MariaDB/mariadb_repo_setup | bash
-[info] Repository file successfully written to /etc/yum.repos.d/mariadb.repo.
-[info] Adding trusted package signing keys...
-[info] Successfully added trusted package signing keys.
-```
-* **Install mariabackup**
 ```eval_rst
 .. note::
 
    You will need to match the exact version of your MariaDB server or it will not backup.
 ```
 ```bash
-yum install MariaDB-Backup-10.3*
+[root@ ~]# curl -sS https://downloads.mariadb.com/MariaDB/mariadb_repo_setup | bash -s -- --mariadb-server-version=10.2
+[info] Repository file successfully written to /etc/yum.repos.d/mariadb.repo.
+[info] Adding trusted package signing keys...
+[info] Successfully added trusted package signing keys.
+```
+* **Install mariabackup**
+```bash
+yum install MariaDB-backup*
 ```
 ### Full Backup
 * **Create the backup**
@@ -138,11 +140,16 @@ mariabackup --prepare --target-dir=/path/to/backup/
 ```eval_rst
 .. note::
 
-   More information on **Mariabackup** can be found in the official MariaDB documentation - (https://mariadb.com/kb/en/mariabackup-overview/
+   More information on **Mariabackup** can be found in the official MariaDB documentation
+   
+   - https://mariadb.com/kb/en/mariabackup-overview
+
 ```
 
 ```eval_rst
+  .. title:: How to Backup MySQL / MariaDB Databases 
   .. meta::
-     :title: How to Backup MySQL/MariaDB Databases  | UKFast Documentation
+     :title: How to Backup MySQL / MariaDB Databases | UKFast Documentation
      :description: A guide for taking consistent database backups on a Linux server
      :keywords: ukfast, linux, mysql, mysqldump, xtrabackup, mariabackup, backups, server, guide, tutorial
+```

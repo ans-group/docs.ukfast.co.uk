@@ -40,9 +40,10 @@ UKFast Backup comes pre-configured with a default backup schedule which includes
   * `[A-Z]:/Windows/Temp`
   * `[A-Z]:/Windows/Installer`
 
-You can create additional rules within the [backup schedule](/dr-ha/ukfast_backup/backup_schedule.html).
+You can create additional rules within the [backup schedule](/dr-ha/ukfast_backup/backup_schedule).
 
 ```eval_rst
+  .. title:: Getting started with UKFast Backup
   .. meta::
      :title: Getting started with UKFast Backup | UKFast Documentation
      :description: Managing UKFast Backup through MyUKFast

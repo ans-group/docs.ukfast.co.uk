@@ -5,6 +5,7 @@ When configuring your FASTdrive account you will be given the option by your Acc
 If no subdomain is specified we will default to your company name, for example https://yourcompany.sharefile.eu/. Once deployed you do have the ability to add up to 2 additional sub domains for access via a number of URLs. 
 
 ```eval_rst
+  .. title:: UKFast FastDrive build documentation
   .. meta::
       :title: UKFast FastDrive build documentation | UKFast Documentation
       :description: Build documentation for UKFast FastDrive

@@ -5,9 +5,9 @@ Before making any changes, please check the Microsoft documentation on supported
 
 The protocols that can be supported will entirely depend on your operating system version. 
 Please also check:
-* [Security Recommendations for Internet facing Web Servers](/operatingsystems/windows/tlsandschannel/webserverrecommendations.html) 
-* [Windows Server Software TLS Support](/operatingsystems/windows/tlsandschannel/softwareconsiderations.html)
-* [.NET Framework TLS considerations](/operatingsystems/windows/tlsandschannel/dotnetsettings.html)
+* [Security Recommendations for Internet facing Web Servers](/operatingsystems/windows/tlsandschannel/webserverrecommendations) 
+* [Windows Server Software TLS Support](/operatingsystems/windows/tlsandschannel/softwareconsiderations)
+* [.NET Framework TLS considerations](/operatingsystems/windows/tlsandschannel/dotnetsettings)
 
 Microsoft list all the supported cipher suites for each operating system version. The external link is provided below: 
 
@@ -45,8 +45,10 @@ Setting the above policy setting in Windows Server 2012 R2 will modify the follo
 
 `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Cryptography\Configuration\SSL\0010002`
 
- ```eval_rst
+```eval_rst
+   .. title:: Windows TLS Configuration
    .. meta::
       :title: Windows TLS Configuration | UKFast Documentation
       :description: TLS and Schannel configuration
       :keywords: SSL, TLS, ukfast, Schannel, IIS, security, windows
+```

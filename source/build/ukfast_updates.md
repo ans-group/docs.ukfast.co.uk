@@ -45,6 +45,7 @@ If you wish, you are able to update this to:
 - Yes, I want this server to automatically apply updates.
 
 ```eval_rst
+  .. title:: UKFast Updates Default Configuration
   .. meta::
       :title: UKFast Updates Default Configuration | UKFast Documentation
       :description: Default Configuration for UKFast Updates

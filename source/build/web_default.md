@@ -1,6 +1,9 @@
 # Web Server Default Configuration
 
 ## IIS
+
+Internet Information Services (IIS) is a Microsoft developed web server that runs .NET. IIS is a built in feature of the Windows Operating System and below are the default settings/components installed at point of deployment:
+
 ```eval_rst
 +---------------------------+----------------------------------------------------------------+
 | Web Setting               | Default                                                        |
@@ -24,6 +27,9 @@
 ```
 
 ## NGINX
+
+NGINX is an open source application which is mainly deployed on Linux based operating systems that has a plethora of uses, however in this context we are focussing on the web server aspect, below are the default settings/components installed at point of deployment:
+
 ```eval_rst
 +----------------------+------------------------------------------------------------------------------+
 | Web Setting          | Default                                                                      |
@@ -39,6 +45,9 @@
 ```
 
 ### APACHE
+
+Apache HTTP Server is an open source web server which is mainly deployed on Linux based operating systems, below are the default settings/components installed at point of deployment:
+
 ```eval_rst
 +----------------------+------------------------------------------------------------------------------+
 | Web Setting          | Default                                                                      |
@@ -54,6 +63,9 @@
 ```
 
 ## PHP
+
+PHP: Hypertext Preprocessor (PHP) is one of most popular open source scripting languages that is used to develop websites or web applications, below are the default settings/components installed at point of deployment:
+
 ```eval_rst
 +----------------------------+-----------------------------------------------------------------+
 | Web Setting                | Default                                                         |
@@ -75,7 +87,8 @@
 ```
 
 ```eval_rst
-  .. meta::
-      :title: UKFast web build documentation | UKFast Documentation
+   .. title:: UKFast web build documentation
+   .. meta::
       :description: Build documentation for web servers
       :keywords: ukfast, hosting, web, server, virtual
+```

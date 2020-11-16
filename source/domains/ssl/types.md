@@ -1,6 +1,7 @@
 # Different types of SSL certificates available from UKFast
 
 ```eval_rst
+   .. title:: SSL | Types of SSL Available from UKFast
    .. meta::
       :title: SSL | Types of SSL Available from UKFast | UKFast Documentation
       :description: Information on Types of SSL Available from UKFast
@@ -26,10 +27,3 @@ SSL Certificates come in various forms, which provide the different features tha
 - Symantec Secure Site Pro with EV - This website security solution features Extended Validation (EV), the green address bar, and the Norton Secured Seal.
     
 **Wildcard SSL - A wildcard certificate protects a domain and unlimited sub-domains of that domain**
-
-
-```eval_rst
-  .. meta::
-     :title: Different types of SSLs available at UKFast | UKFast Documentation
-     :description: Information on the different types of SSLs that are available for purchase at UKFast
-     :keywords: ukfast, ssl, security, encryption, domain, website, cloud, hosting

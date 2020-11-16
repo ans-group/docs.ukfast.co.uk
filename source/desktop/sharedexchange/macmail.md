@@ -1,6 +1,7 @@
 # How to Connect to Your Shared Exchange Mailbox Using the Mail app for Mac
 
 ```eval_rst
+  .. title:: Shared Exchange | Connect using Mac Mail
    .. meta::
       :title: Shared Exchange | Connect using Mac Mail | UKFast Documentation
       :description: Information on How to Connect to Your Shared Exchange Mailbox Using the Mail app for Mac
@@ -18,7 +19,7 @@ Open system preferences and select Internet Accounts followed by Exchange accoun
 
  ![Choose Mail Provider](files/sharedexchangemac/mailprovider.PNG)
 
- Give the account a name, and fill out your email address and password. The password has been set on your welcome email. If you do not know what this is, you can reset it by following the instructions [here](/desktop/sharedexchange/changepassword.html)
+ Give the account a name, and fill out your email address and password. The password has been set on your welcome email. If you do not know what this is, you can reset it by following the instructions [here](/desktop/sharedexchange/changepassword)
 
  ![Exchange Details](files/sharedexchangemac/exchangedetails.PNG)
 

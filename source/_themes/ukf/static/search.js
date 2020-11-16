@@ -71,7 +71,7 @@ App.Search = (function () {
     $.each(results, function (index, item) {
       var li = $('<li></li>');
       var link = $('<a></a>');
-      link.attr('href', url + item["_source"].url.replace("source", ""));
+      link.attr('href', url + item["_source"].url);
       if (item["_source"].title) {
         link.append('<strong>' + item["_source"].title + '</strong><br />');
       }

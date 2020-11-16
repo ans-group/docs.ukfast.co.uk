@@ -43,6 +43,7 @@ This can also be set in the welcome tab.
 ```
 
 ```eval_rst
+  .. title:: Setup - Plesk SafeDNS Extension
   .. meta::
      :title: Setup - Plesk SafeDNS Extension | UKFast Documentation
      :description: Setup Guide for UKFast SafeDNS Plesk Extension

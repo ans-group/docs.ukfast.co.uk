@@ -1,12 +1,10 @@
 # Introduction to BCP
 
-
 ```eval_rst
-
+   .. title:: DR HA | Introduction to BCP
    .. meta::
       :title: DR HA | Introduction to BCP | UKFast Documentation
       :description: Introduction to the Business Continuity Platform from UKFast
-
 ```
 
 Our Business Continuity Platform (also known as "BCP" or "clusters") are a highly-available configuration of RedHat or CentOS servers making use of several technologies to allow for failover in the event of an issue on one node, along with the balancing of services across more than one server.
@@ -33,7 +31,7 @@ The red lines in the diagram represent 10GBPS direct connections between the nod
 
 The two virtual IPs ("VIPs") provided are attached to the resource group for the web services and DB services respectively. These VIPs will always be attached to the half of the cluster which is actively running the related service.
 
-As such, the external web VIP *(109.108.11.103 in this example)* would be the address used when updating your [DNS records](/domains/safedns/index.html) to point at the cluster. The MySQL VIP *(109.108.11.104 in this example)* would be used to access MySQL remotely via MySQL Workbench or a similar application.
+As such, the external web VIP *(109.108.11.103 in this example)* would be the address used when updating your [DNS records](/domains/safedns/index) to point at the cluster. The MySQL VIP *(109.108.11.104 in this example)* would be used to access MySQL remotely via MySQL Workbench or a similar application.
 
 When connecting to MySQL from your application hosted on the webserver, you should use the `10.1.0.3` internal-only crossover VIP which is associated to the resource group for the database service, and operates over a 10GBPS NIC. Using the public MySQL VIP *(172.10.62.4 in this example)* would mean that MySQL traffic needs to flow over the switch alongside your visitor traffic and might cause performance issues when under heavy load, as such, using the crossover connection is recommended.
 
@@ -51,7 +49,7 @@ As DRBD is active / passive, you will only be able to access the DRBD device on 
 
 Anecdotally, you can consider DRBD as operating in a similar way to RAID1, except that it synchronizes disks in different servers over the network. That being said, there are differences between RAID1 and DRBD, so it's only comparable on a basic level.
 
-**[Continue reading about DRBD on BCP »](drbd.html)**
+**[Continue reading about DRBD on BCP »](drbd)**
 
 ```eval_rst
 .. seealso::
@@ -64,13 +62,13 @@ Anecdotally, you can consider DRBD as operating in a similar way to RAID1, excep
 
 #### Unison
 
-A package called [Unison](https://www.cis.upenn.edu/~bcpierce/unison/) is used to synchronize configuration between both nodes on a schedule. This runs as a [cron job](/operatingsystems/linux/basics/cron.html) on both nodes every minute. By default it will be set to copy your webserver configuration, database server configuration, SSL certificates, and system users and passwords between the two nodes.
+A package called [Unison](https://www.cis.upenn.edu/~bcpierce/unison/) is used to synchronize configuration between both nodes on a schedule. This runs as a [cron job](/operatingsystems/linux/basics/cron) on both nodes every minute. By default it will be set to copy your webserver configuration, database server configuration, SSL certificates, and system users and passwords between the two nodes.
 
 If you're adding configuration files outside of the standard package locations, you will likely need to modify the Unison settings to add in the new paths.
 
 This should not be used for files which are regularly written to, such as log files, as Unison may run into conflicts it cannot resolve and pause replication.
 
-**[Continue reading about Unison on BCP »](unison.html)**
+**[Continue reading about Unison on BCP »](unison)**
 
 ```eval_rst
 .. seealso::
@@ -99,7 +97,7 @@ Normally this would also be racked over two switches, with the `-01` server of e
 
 Much like in a two node cluster, you will receive a VIP for MySQL, which will follow the MySQL service when it changes nodes. This will have an internal and external address - the internal one should be used in the application hosted on the web servers, and the external used for connecting remotely via MySQL workbench or similar.
 
-Unlike the two node clusters, [load balancers](/network/loadbalancing/index.html) are used in place of a web VIP. As such, you'll receive a VIP for the load balancer which is configured as requested to split load between the web servers, this is the address you should use in your [DNS records](/domains/safedns/index.html) when going live.
+Unlike the two node clusters, [load balancers](/network/loadbalancing/index) are used in place of a web VIP. As such, you'll receive a VIP for the load balancer which is configured as requested to split load between the web servers, this is the address you should use in your [DNS records](/domains/safedns/index) when going live.
 
 ### Replication of data
 
@@ -109,5 +107,5 @@ However, the web servers mount `/var/www/vhosts` via NFS from the export on the 
 
 On four (or more) node solutions, there is more flexibility about how files are replicated. Some clients opt to not have the NFS element mentioned above, and push their code out to each web server individually using `git` and their chosen deployment tool. Alternatively, some clients use NFS for assets only (for example, the `media` directory of Magento), and deploy the rest of their code directly to the web servers.
 
-- **[Information about DRBD on BCP »](drbd.html)**
-- **[Information about Unison on BCP »](unison.html)**
+- **[Information about DRBD on BCP »](drbd)**
+- **[Information about Unison on BCP »](unison)**

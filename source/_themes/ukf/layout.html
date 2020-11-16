@@ -29,7 +29,7 @@
     </script>
     <meta http-equiv="Content-Type" content="text/html; charset={{ encoding }}" />
     {{ metatags }}
-    <title>{{ title|striptags|e }}{{ titlesuffix }}</title>
+    <title>{{ title|striptags|e }}{{ titlesuffix }} | UKFast Documentation</title>
     <link href="{{ pathto('_static/favicon.png', 1) }}" type="image/png" rel="icon" />
 
     {{ css(css_files) }}
@@ -62,7 +62,7 @@
     <link rel="top" title="{{ docstitle|e }}" href="{{ pathto('index') }}" />
     {%- if parents %}
     <link rel="up" title="{{ parents[-1].title|striptags|e }}" href="{{ parents[-1].link|e }}" />
-    {%- endif %}
+	{%- endif %}
     {%- if next %}
     <link rel="next" title="{{ next.title|striptags|e }}" href="{{ next.link|e }}" />
     {%- endif %}
@@ -91,7 +91,7 @@
 				</div>
 
 				<div class="col-sm-9 col-md-9">
-					<nav class="navbar-right">
+					<nav class="navbar-right" style="display: none;">
 						<!--<ul class="menu">
 							<li>
 								<a href="#"><i class="fa fa-menu fa-chevron-down"></i>Help & Support</a>
@@ -219,7 +219,11 @@
 
 <div class="row">
 
-  {## Grid layout on root index only ##}
+	{# toctree contains the site nav - we'll use to extract the navigation title for the final breadcrumb - can't find another way! #}
+	{% set theTocTree = toctree() | replace("</a>", ";") | replace(" href=\"", "></a>") | striptags | replace("\">", "%") %}
+    {% set theTocTree = theTocTree.split(";") %}
+
+	{## Grid layout on root index only ##}
   {%- if pagename == 'index' -%}
 
   <div id="main-menu-container" class="container">
@@ -257,7 +261,6 @@
 		</ul>
 	</div>
 	<div class="grid-item box col2">
-		
 		<i class="fa fa-hdd-o"></i>
 		<h2><a href="/dr-ha/">Backup and High Availability</a></h2>
 		<ul>
@@ -270,6 +273,19 @@
 		</ul>
 	</div>
 	<div class="grid-item box">
+		<i class="fa fa-envelope-o"></i>
+		<h2><a href="/email/">Email</a></h2>
+		<ul>
+			<li><a href="/email/mailconfig.html">Basic Email Config</a></li>
+			<li><a href="/desktop/sharedexchange/index.html">Shared Exchange</a></li>
+			<li><a href="/email/bounces.html">Legitimate Mail Being Blocked/Bouncing</a></li>
+			<li><a href="/email/dkim.html">DomainKeys Identified Mail (DKIM)</a></li>
+			<li><a href="/email/spf.html">Sender Policy Framework (SPF) records</a></li>
+			<li><a href="/email/postfix.html">Postfix mail transfer agent</a></li>
+			<li><a href="/email/hmail-antispam-setup.html">hMailServer - Anti-spam Setup</a></li>
+		</ul>
+	</div>
+	<div class="grid-item box col2">
 		<i class="fa fa-shield"></i>
 		<h2><a href="/security/">Security</a></h2>
 		<ul>
@@ -282,12 +298,19 @@
 			<li><a href="/security/wordpress.html">WordPress Security</a></li>
 			<li><a href="/security/cryptolocker.html">Cryptolocker</a></li>
 			<li><a href="/security/dirtycow.html">Dirty COW</a></li>
-			<!--<li><a href="logjam.html">The Logjam attack</a></li>
-			<li><a href="meltdown.html">Meltdown and Spectre</a></li>
-			<li><a href="memcachedopen.html">Memcached security concerns and reflection/amplification DDoS attacks</a></li>
-			<li><a href="wannacry.html">Wana Decryptor / Wana Decrypt0r 2.0 / WannaCry</a></li>-->
 		</ul>
 	</div>
+	<div class="grid-item box">
+		<i class="fa fa-shopping-cart"></i>
+		<h2><a href="/dr-ha/">eCommerce Stacks</a></h2>
+		<ul>
+			<li><a href="/ecommercestacks/magento/magento1/index.html">Magento 1</a></li>
+			<li><a href="/ecommercestacks/magento/magento2/index.html">Magento 2</a></li>
+			<li><a href="/ecommercestacks/shopware/index.html">Shopware</a></li>
+			<li><a href="/ecommercestacks/woocommerce/index.html">WooCommerce</a></li>
+		</ul>
+	</div>
+	
 	<div class="grid-item box col2">
 		<i class="fa fa-heartbeat"></i>
 		<h2><a href="/monitoring/">Monitoring and usage management</a></h2>
@@ -315,7 +338,8 @@
 		<i class="fa fa-laptop"></i>
 		<h2><a href="/operatingsystems/">Operating Systems</a></h2>
 		<ul>
-			<li><a href="/operatingsystems/linux/in.html">Linux</a></li>
+			<li><a href="/operatingsystems/linux/index.html">Linux</a></li>
+			<li><a href="/operatingsystems/vmware-esxi/index.html">VMware</a></li>
 			<li><a href="/operatingsystems/windows/index.html">Windows</a></li>
 		</ul>
 	</div>
@@ -329,17 +353,7 @@
 		<i class="fa fa-rocket"></i>
 		<h2><a href="webcel/">Webcelerator</a></h2>
 	</div>
-
-        {% set theTocTree = toctree()
-        | replace("</a>", "")
-        | replace(" href=\"", "></a>")
-        | replace("</li>", "</li>;")
-        | striptags
-        | replace("\">", "%") %}
-
-	{% set theTocTree = theTocTree.split(";") %}
-    {% set open = 0 %}
-	
+    
   </div>
 </div>
     {%- else -%}
@@ -360,7 +374,27 @@
 		<div id ="content-container" class="space-left push-off">
 			<div class="document-body">
 				<div id="main-menu-container">
+			
+					<ul id="breadcrumb">
+						<li><a href="/">Home</a> &gt;</li>
+						{%- for parent in parents -%}
+						<li><a href="{{ parent.link|e }}">{{ parent.title }}</a> &gt;</li>
+						{%- endfor -%}
+						{%- for element in theTocTree -%}
+							{%- set el = element.split("%") %}
+							{%- set url = el[0] | trim | safe %}{% set BreadCrumbTitle = el[1] | trim | safe -%}
+							{%- if url == '#' -%}<li>{{ BreadCrumbTitle }}</li>
+							{%- endif %}
+						{%- endfor %}
+					</ul>
+				
 					{% block body %} {% endblock %}
+
+					
+					{%- if next -%}
+					<p>Next Article > <a title="{{ next.title|striptags|e }}" href="{{ next.link|e }}" />{{ next.title|striptags|e }}</a></p>
+					{%- endif -%}
+
 				</div>
 			</div>
 		</div>

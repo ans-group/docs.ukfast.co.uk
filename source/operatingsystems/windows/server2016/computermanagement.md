@@ -12,6 +12,7 @@ Select "Computer management" from the context box and you will now be presented 
 ![Computer management](files/computermanagement/computermanagement.PNG)
 
 ```eval_rst
+  .. title:: Computer Management in Windows Server 2016
   .. meta::
      :title: Computer Management in Windows Server 2016 | UKFast Documentation
      :description: A guide to accessing the Computer Management console in Windows Server 2016

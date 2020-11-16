@@ -29,13 +29,14 @@ In general the first thing you'll want to do is take the site offline so no furt
 
 Then the fastest way to get back online is to restore from backups prior to the incident, whether that's using UKFast-provided backups or your own. Be aware that restoring from a backup might remove the malicious code, but it won't close the vulnerability which allowed your site to be compromised in the first place.
 
-We would also recommend running an on-demand virus scan just in case there are further issues beyond the compromised site. For Linux-based products we recommend [McAfee](/security/antivirus/), or alternatively the open source [ClamAV](https://www.clamav.net).
+We would also recommend running an on-demand virus scan just in case there are further issues beyond the compromised site. For Linux-based products we recommend [McAfee](/security/antivirus/index), or alternatively the open source [ClamAV](https://www.clamav.net).
 
 And in all cases, we would recommend getting a security expert to review and confirm your site is safe again.
 
-
 ```eval_rst
+   .. title:: Magento Security
    .. meta::
       :title: Magento Security | UKFast Documentation
       :description: How to prevent the most common Magento security problems
       :keywords:  ukfast, hosting, magento, mage, clamscan, security, hacking, ecommerce
+```

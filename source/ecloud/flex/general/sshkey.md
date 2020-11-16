@@ -1,6 +1,6 @@
 # Adding a public SSH key to an eCloud Flex instance
 
-If you would like a UKFast support engineer to troubleshoot issues on your eCloud Flex instance, you'll need to add a public SSH key and grant access to `ukfastsupport`.  Once you've [requested an SSH key via MyUKFast](/ecloud/flex/general/supportaccess.html), follow the steps below to add this to your instance.
+If you would like a UKFast support engineer to troubleshoot issues on your eCloud Flex instance, you'll need to add a public SSH key and grant access to `ukfastsupport`.  Once you've [requested an SSH key via MyUKFast](/ecloud/flex/general/supportaccess), follow the steps below to add this to your instance.
 
 Either login to the instance as root user, or prefix all commands with `sudo`:
 
@@ -42,8 +42,9 @@ Either login to the instance as root user, or prefix all commands with `sudo`:
 If you run into any problems on this, please raise a support ticket via [MyUKFast](https://my.ukfast.co.uk/pss/create), or call support directly on 0800 230 0032.
 
 ```eval_rst
-.. meta::
-     :title: Adding a public SSH key to Linux server | UKFast Documentation
-     :description: Guide for configuring access keys for the UKFast Support team
-     :keywords: openstack, ecloud, flex, ukfast, hosting, support, access, keys, request
+   .. title:: Adding a public SSH key to Linux server
+   .. meta::
+      :title: Adding a public SSH key to Linux server | UKFast Documentation
+      :description: Guide for configuring access keys for the UKFast Support team
+      :keywords: openstack, ecloud, flex, ukfast, hosting, support, access, keys, request
 ```

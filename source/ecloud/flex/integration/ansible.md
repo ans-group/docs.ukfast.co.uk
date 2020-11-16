@@ -21,7 +21,7 @@ If you've already got ansible installed, I'd certainly hope you already have pyt
 
 ## Creating instances
 
-If you've followed the guide [here](/ecloud/flex/general/settingvars.html), you should already have all the correct environment variables set, so you won't need a large amount of the authentication based options for the module. You should be able to get away with a fairly lean task that looks like this:
+If you've followed the guide [here](/ecloud/flex/general/settingvars), you should already have all the correct environment variables set, so you won't need a large amount of the authentication based options for the module. You should be able to get away with a fairly lean task that looks like this:
 
 ```yaml
   - name: Create 3 VMs
@@ -196,8 +196,9 @@ The following playbook ties together some of the above functionality to show a r
 ```
 
 ```eval_rst
-.. meta::
-   :title: Using eCloud Flex with Ansible
-   :description: How to use eCloud Flex with Ansible
-   :keywords: ecloud, flex, openstack, ansible, redhat, automation, deployment, configuration, webserver
+   .. title:: Using eCloud Flex with Ansible
+   .. meta::
+      :title: Using eCloud Flex with Ansible | UKFast Documentation
+      :description: How to use eCloud Flex with Ansible
+      :keywords: ecloud, flex, openstack, ansible, redhat, automation, deployment, configuration, webserver
 ```

@@ -14,11 +14,14 @@ Threat Response is an additional service which provides managed support by our i
 .. toctree::
    :maxdepth: 1
    
-   how-it-works
-   thmon-for-pci-dss
    general-information
-   alerts
+   How does it work? <how-it-works>
+   system-requirements
    getting-started
+   Installing on a UKFast hosted server <ukfast-hosted-install>
+   Installing on a non-UKFast hosted server <non-ukfast-install>
+   pci-dss
+   alerts
    attack-ruleset/index
    alerts-explained/index
    alert-remediation-tips/index

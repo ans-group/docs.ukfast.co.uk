@@ -18,6 +18,11 @@ cp /etc/php.ini /root/php_upgrade_backup-$(date +%d_%b_%Y)/
 ### Remi Repository
 We use the remi yum repository for PHP. You can install the remi repository with the command:
 
+#### CentOS 8
+```bash
+dnf install https://rpms.remirepo.net/enterprise/remi-release-8.rpm
+```
+
 #### CentOS 7
 ```bash
 wget http://rpms.remirepo.net/enterprise/remi-release-7.rpm && rpm -Uvh remi-release-7.rpm && rm -f remi-release-7.rpm
@@ -59,6 +64,10 @@ yum install --disablerepo='*' --enablerepo=base,remi-php72,remi,epel,updates php
 yum install --disablerepo='*' --enablerepo=base,remi-php73,remi,epel,updates php php-pecl-mcrypt php-pdo php-mysqlnd php-opcache php-xml php-gd php-devel php-mysql php-intl php-mbstring php-bcmath php-json php-iconv php-pecl-redis php-fpm php-zip php-soap php-sodium libsodium composer
 ```
 
+#### PHP 7.4
+```bash
+yum install --disablerepo='*' --enablerepo=base,remi-php74,remi,epel,updates php php-pecl-mcrypt php-pdo php-mysqlnd php-opcache php-xml php-gd php-devel php-mysql php-intl php-mbstring php-bcmath php-json php-iconv php-pecl-redis php-fpm php-zip php-soap php-sodium libsodium composer
+```
 ### Update PHP
 You can perform an update of PHP with the following command depending on the desired version:
 
@@ -79,6 +88,11 @@ yum update --disablerepo='*' --enablerepo=base,remi-php72,remi,epel,updates 'php
 #### PHP 7.3
 ```bash
 yum update --disablerepo='*' --enablerepo=base,remi-php73,remi,epel,updates 'php-*' 
+```
+
+#### PHP 7.4
+```bash
+yum update --disablerepo='*' --enablerepo=base,remi-php74,remi,epel,updates 'php-*' 
 ```
 
 If any of the following packages are updated as dependences, Nginx will require a restart after updating PHP
@@ -158,6 +172,7 @@ systemctl enable php-fpm
 ```
 
 ```eval_rst
+  .. title:: Magento2 PHP
   .. meta::
      :title: Magento2 PHP | UKFast Documentation
      :description: A guide to using PHP on our Magento2 optimised stack

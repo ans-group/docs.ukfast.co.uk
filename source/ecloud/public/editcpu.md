@@ -8,7 +8,9 @@ Within this screen you can drag the CPU slider to increase or decrease the CPU c
 
 ![rebootWarning](files/rebootWarning.png)
 
-.. meta::
-   :title: eCloud Public APIs | UKFast Documentation
-   :description: Programatic control of your eCloud Public resources
-   :keywords: ukfast, cloud, ecloud, public, hosting, infrastructure, vmware, CPU
+```eval_rst
+   .. title:: eCloud Public edit CPU 
+   .. meta::
+      :description: Programatic control of your eCloud Public resources
+      :keywords: ukfast, cloud, ecloud, public, hosting, infrastructure, vmware, CPU
+```

@@ -12,13 +12,14 @@ If you've already requested an SSH key previously then you can retrieve it by cl
 
 ![retrievessh](../files/retrievessh.png)
 
-Once you have the SSH key, you will need to [follow this guide to add it to your eCloud Flex instance](/ecloud/flex/general/sshkey.html) and grant access to `ukfastsupport`.
+Once you have the SSH key, you will need to [follow this guide to add it to your eCloud Flex instance](/ecloud/flex/general/sshkey) and grant access to `ukfastsupport`.
 
 If you run into any problems on this, please mention it in your support ticket, or call UKFast support directly on 0800 230 0032.
 
 ```eval_rst
-.. meta::
-     :title: How to grant UKFast support access to eCloud Flex
-     :description: Guide for configuring access keys for the UKFast Support team
-     :keywords: openstack, ecloud, flex, ukfast, hosting, support, access, keys, request
+   .. title:: How to grant UKFast support access to eCloud Flex
+   .. meta::
+      :title: How to grant UKFast support access to eCloud Flex | UKFast Documentation
+      :description: Guide for configuring access keys for the UKFast Support team
+      :keywords: openstack, ecloud, flex, ukfast, hosting, support, access, keys, request
 ```

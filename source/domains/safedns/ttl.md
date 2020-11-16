@@ -1,7 +1,7 @@
 # Changing TTL (Time to Live)
 
 ```eval_rst
-
+  .. title:: SafeDNS | Changing TTL on a DNS record
    .. meta::
       :title: SafeDNS | Changing TTL on a DNS record | UKFast Documentation
       :description: Changing TTL on a DNS record within SafeDNS
@@ -18,4 +18,4 @@ Select `Product and Services` > `SafeDNS` > select your domain name > Under the 
 
 Please remember this value is in seconds and that the lowest value is `300` seconds.
 
-Also note that there are a number of different factors that can affect the total propagation time of DNS record changes. Please see ["What factors affect DNS propagation time?"](/domains/domains/dnspropagation.html) for more information.
+Also note that there are a number of different factors that can affect the total propagation time of DNS record changes. Please see ["What factors affect DNS propagation time?"](/domains/domains/dnspropagation) for more information.

@@ -1,5 +1,12 @@
 # Getting started
 
+```eval_rst
+   .. title:: Webcelerator | Getting Started
+   .. meta::
+      :title: Webcelerator | Getting Started | UKFast Documentation
+      :description: Getting started with a UKFast Webcelerator
+```
+
 Once your Webcelerator is ready, you will receive a virtual IP address (VIP) from our launch team (also known as a floating IP). If you have more than one Webcelerator, these VIPs will keep traffic moving through the active Webcelerator, even if one is offline. Web traffic hitting your VIP will pass through the cache before being sent through the firewall, onto the backend web server to request any missing assets.
 
 Note: you can have multiple VIPs that each point to a different set of backend web servers *(e.g. VIP1 -> Web server1 & Web server2, VIP2 -> Web server2 & Web server3, etc)*
@@ -22,4 +29,4 @@ ipconfig /flushdns
 
 Now when browsing to your site via this machine, your request and website will be served through the Webcelerator. At first your cache will be empty, so you're not going to see much performance benefit, but browse around using your browser's developer tools and your response times for static content like images and CSS should dropping. These items are starting to be served from the cache rather than your web servers.
 
-Now you're ready to start the testing phase; ensuring your [SSL is configured correctly](/webcel/ssl.html), and your client IP address handling is present and correct.
+Now you're ready to start the testing phase; ensuring your [SSL is configured correctly](/webcel/ssl), and your client IP address handling is present and correct.
