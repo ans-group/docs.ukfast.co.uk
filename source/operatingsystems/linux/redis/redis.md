@@ -106,6 +106,19 @@ Unless you need to perverse session/cache information we recommend you disable S
 
 #dir /var/lib/redis/
 ```
+
+### Enable asynchronous deletion
+If you wish to enable asynchronous deletion for performance tuning, you can add the below into your redis.conf:
+```bash
+lazyfree-lazy-eviction yes
+lazyfree-lazy-expire yes
+lazyfree-lazy-server-del yes
+replica-lazy-flush yes
+```
+On Redis 6.x or later, you can also add the below:
+```bash
+lazyfree-lazy-user-del yes
+```
 #### Truncate Redis Database
 Remove or truncate any existing dump.rdb files:
 ```bash
