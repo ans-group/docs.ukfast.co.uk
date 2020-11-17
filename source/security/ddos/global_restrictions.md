@@ -1,21 +1,19 @@
 ```eval_rst
 .. meta::
-   :title: Global Restrictions on SafeDNS and DDoSX\ :sup:`®` | UKFast Documentation 
-   :description: Global Restrictions applied on SafeDNS and DDoSX\ :sup:`®` security
+   :title: Global Restrictions on SafeDNS<sup>™</sup> and DDoSX<sup>®</sup> | UKFast Documentation 
+   :description: Global Restrictions applied on SafeDNS<sup>™</sup> and DDoSX<sup>®</sup> security
    :keywords: restrictions, ddosx, safedns, blocked, denied, 403, forbidden
 ```
-## Summary
-This page exists to document global restrictions that are applied to any customers using DDoSX\:sup:`®` and SafeDNS
+# Global Restrictions
 
-### DDoSX
+Documentation of global restrictions that are applied to any customers using DDoSX<sup>®</sup> and SafeDNS<sup>™</sup>
 
-#### User-Agents
-- PetalBot
-
-### SafeDNS
-
-#### IP
-- 39.105.171.83
-- 39.96.129.118
-- 205.198.12.8
-- 116.62.21.155
+## DDoSX<sup>®</sup>
+### User-Agents:
+* PetalBot
+## SafeDNS<sup>™</sup>
+#### IPs:
+* 39.105.171.83
+* 39.96.129.118
+* 205.198.12.8
+* 116.62.21.155
