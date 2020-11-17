@@ -16,11 +16,6 @@ $ sudo vi /etc/hosts
 
 and enter `your DDoSx ip` `example.org www.example.org` at the bottom of the file then save the file. You can now browse example.org and www.example.org and you will view the website as you would through ddosx. 
 
-<<<<<<< HEAD
-> Note: If you currently have AAAA record for your domain or subdomains you will also need to put the DDoSx IPv6 address into your `/etc/hosts` file as well as your IPv4 address to ensure your IPv6 connection goes through ddosx as well.
-
-> Note: If don't have the sudo command you can also run `su -` first and enter your root password before editing `/etc/hosts` with the `vi` command as per:</b>  
-=======
 ```eval_rst
 .. note::
    If you currently have AAAA record for your domain or subdomains you will also need to put the DDoSx IPv6 address into your ``/etc/hosts`` file as well as your IPv4 address to ensure your IPv6 connection goes through ddosx as well.
@@ -30,7 +25,6 @@ and enter `your DDoSx ip` `example.org www.example.org` at the bottom of the fil
 .. note::
    If don't have the sudo command you can also run ``su -`` first and enter your root password before editing ``/etc/hosts`` with the ``vi`` command as per:
 ```
->>>>>>> fd91ead46af663e4bbd83ddd93cd7f4be8fa9bc2
 
 ```
 $ su -
@@ -62,14 +56,10 @@ $ sudo nano /private/etc/hosts
 
 and enter `your DDoSx ip` `example.org www.example.org` at the bottom of the file then save the file. You can now browse example.org and www.example.org and you will view the website as you would through ddosx. 
 
-<<<<<<< HEAD
-> Note: If you currently have a AAAA record for your domain or subdomains you will also need to put the IPv6 address into your `/private/etc/hosts` file to ensure your IPv6 connection goes through ddosx as well.
-=======
 ```eval_rst
 .. note::
    If you currently have a AAAA record for your domain or subdomains you will also need to put the IPv6 address into your ``/private/etc/hosts`` file to ensure your IPv6 connection goes through ddosx as well.
 ```
->>>>>>> fd91ead46af663e4bbd83ddd93cd7f4be8fa9bc2
 
 ### Windows 7/8/10
 
@@ -79,18 +69,6 @@ and enter `your DDoSx ip` `example.org www.example.org` at the bottom of the fil
 * At the bottom right change the file type to All Files
 * Open the file called hosts
 * Edit this file by adding `your DDoSx ip` `example.org www.example.org` and save
-<<<<<<< HEAD
-
-> Note: You may need to run ipconfig /flushdns after making this changed before browsing the website
-
-> Note: If you currently have a AAAA record for your domain or subdomains you will also need to put the IPv6 address into your `/private/etc/hosts` file to ensure your IPv6 connection goes through ddosx as well.
-
-```eval_rst
-.. title:: Testing a domain on DDoSx | UKFast Documentation 
-.. meta::
-   :title: Testing a domain on DDoSx | UKFast Documentation 
-   :description: A guide for testing your domain on  DDoSx before enabling DNS
-=======
 
 ```eval_rst
 .. note::
@@ -107,5 +85,4 @@ and enter `your DDoSx ip` `example.org www.example.org` at the bottom of the fil
   .. meta::
     :title: Testing a domain on DDoSx | UKFast Documentation 
     :description: A guide for testing your domain on  DDoSx before enabling DNS
->>>>>>> fd91ead46af663e4bbd83ddd93cd7f4be8fa9bc2
 ```
