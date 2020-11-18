@@ -1,6 +1,6 @@
 ```eval_rst
-.. meta::
-   :title: Global Restrictions on SafeDNS<sup>™</sup> and DDoSX<sup>®</sup> | UKFast Documentation 
+.. title:: Global Restrictions on SafeDNS<sup>™</sup> and DDoSX<sup>®</sup> | UKFast Documentation 
+.. meta::  
    :description: Global Restrictions applied on SafeDNS<sup>™</sup> and DDoSX<sup>®</sup> security
    :keywords: restrictions, ddosx, safedns, blocked, denied, 403, forbidden
 ```
