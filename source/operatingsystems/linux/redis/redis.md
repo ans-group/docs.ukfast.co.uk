@@ -96,7 +96,7 @@ redis    24645  0.2  0.0 153952  2820 ?        Ssl  15:40   0:00 /usr/bin/redis-
 ```
 
 ### Disable Snapshotting
-Unless you need to perverse session/cache information we recommend you disable Snapshotting to reduce I/O. Comment out everything under SNAPSHOTTING in redis.conf. Typically the following:
+Unless you need to preserve session/cache information we recommend you disable Snapshotting to reduce I/O. Comment out everything under SNAPSHOTTING in redis.conf. Typically the following:
 ```bash
 #save 900 1
 #save 300 10
