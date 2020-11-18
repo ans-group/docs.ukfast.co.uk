@@ -11,7 +11,7 @@ If you have created a new file within your Magento 2 website and you are getting
  HTTP/1.1 404 Not Found
 ```
 
-First ensure the new file is in the pub folder within the document root. All files and folders outside of the pub folder are not publicly accessible. Example pub folder:
+First ensure the new file is in the pub folder or a subfolder within that, inside the document root. All files and folders outside of the pub folder are not publicly accessible. Example pub folder:
 
 ```bash
 /var/www/vhosts/example.com/htdocs/pub/
