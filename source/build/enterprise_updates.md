@@ -1,7 +1,7 @@
 # Updates
 ```eval_rst
 .. seealso::
-   If you require a custom update configuration, please raise with the Solutions Architect who's designing your solution.
+   If you require a custom update configuration, please raise with the Solutions Architect designing your solution.
 ```
 ## Windows Updates
 
