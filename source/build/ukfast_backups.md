@@ -31,8 +31,6 @@ When referring to Database Backups by default we will apply the below configurat
 -	PostgreSQL
 -	Oracle DB 
 -	MySQL Server / MariaDB
--  MongoDB
-
 
 ### Backup Options
 ```eval_rst
