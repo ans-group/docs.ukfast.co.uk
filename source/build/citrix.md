@@ -12,15 +12,15 @@ Below outlines how the proposed configuration will be configured for the Citrix 
 | CTXADC01 / CTXNS | Citrix Netscaler ADC       | Citrix ADC Appliance                   |
 +------------------+----------------------------+----------------------------------------+
 | CTXSF01          | Citrix StoreFront          | Citrix Storefront                      |
-|                  |                            | Citrix Receiver                        |
-|                  |                            | IIS                                    |
+|                  |                            | | Citrix Receiver                      |
+|                  |                            | | IIS                                  |
 +------------------+----------------------------+----------------------------------------+
 | CTXDC01          | Citrix Delivery Controller | Citrix Delivery Controller             |
-|                  | Citrix Studio              | Citrix Studio                          |
-|                  |                            | Citrix Receiver                        |
+|                  | | Citrix Studio            | | Citrix Studio                        |
+|                  |                            | | Citrix Receiver                      |
 +------------------+----------------------------+----------------------------------------+
 | CTXMISC01        | Citrix Licencing           | Citrix Licencing                       |
-|                  | Citrix Database Host       | Citrix Receiver                        |
+|                  | | Citrix Database Host     | | Citrix Receiver                      |
 +------------------+----------------------------+----------------------------------------+
 | CTXXENAPP01      | Citrix XenApp Host         | Purchased Apps (i.e. Microsoft Office) |
 +------------------+----------------------------+----------------------------------------+

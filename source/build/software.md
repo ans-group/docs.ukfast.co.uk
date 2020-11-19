@@ -51,7 +51,7 @@ By default virtual machines are built with the specified operating system **only
 +---------------------+---------------------------------+
 | Software            | Default – Yes / No              |
 +=====================+=================================+
-| Control Panel       | Yes                             |
+| Control Panel       | If purchased this is compulsory |
 +---------------------+---------------------------------+
 | UKFast Backup Agent | If purchased this is compulsory |
 +---------------------+---------------------------------+

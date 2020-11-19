@@ -28,8 +28,6 @@ In order for UKFast to simplify our backup schedule offering without losing the 
 ### Backup Agents
 
 When referring to Database Backups by default we will apply the below configurations to the following Backups Agents: 
--	Microsoft Exchange 
--	Microsoft SharePoint 
 -	Microsoft SQL Server
 -	PostgreSQL
 -	Oracle DB 

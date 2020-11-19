@@ -26,14 +26,11 @@ In order for UKFast to simplify our backup schedule offering without losing the 
 
 ### Backup Agents
 
-When referring to Database Backups by default we will apply the below configurations to the following Backups Agents: 
--	Microsoft Exchange 
--	Microsoft SharePoint 
+When referring to Database Backups by default we will apply the below configurations to the following Backups Agents:  
 -	Microsoft SQL Server
 -	PostgreSQL
 -	Oracle DB 
 -	MySQL Server / MariaDB
-
 
 ### Backup Options
 ```eval_rst
@@ -57,13 +54,6 @@ When referring to Database Backups by default we will apply the below configurat
 To enable UKFast to provide a more granular level for restores of databases, by default: 
 -	Database servers (e.g. MSSQL, MySQL, PostgreSQL) are backed up at the database level.
 -	Database backup times are different to the operating system backup times to limit the impact on performance.
-
-## File and Database Clusters (CommVault Only)
-
-To enable UKFast to provide a more granular level for restores of database clusters, by default:
--	Nodes in the clusters are backed up at different times to limit the impact on performance.
--	Database Clusters have an additional database level backup (again at different times to the nodes).
--	File Server Clusters will have an additional backup set up for the cluster drives. 
 
 ## Virtual Machine Level Backups (CommVault Only)
 

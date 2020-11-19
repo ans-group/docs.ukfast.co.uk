@@ -1,7 +1,7 @@
 # Updates
 ```eval_rst
 .. seealso::
-   Please note that updates can be customised using your Enterprise Launch Questionnaire.
+   If you require a custom update configuration, please raise with the Solutions Architect designing your solution.
 ```
 ## Windows Updates
 
