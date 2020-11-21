@@ -5,7 +5,9 @@ jobs:
   include:
 
   - name: Lint changed files
-    if: branch != master
+    branches:
+      except:
+        - master
     before_install:
     - echo "TRAVIS_PULL_REQUEST is '${TRAVIS_PULL_REQUEST}'"
     install:
@@ -18,10 +20,14 @@ jobs:
     - make build/html/_static/app.js
 
   - name: Start GitLab CI to deploy updated docs
-    if: branch = master
+    branches:
+      only:
+        - master
+    env:
+      GITLAB_PIPELINE_TRIGGER_TOKEN: ${{ secrets.GITLAB_PIPELINE_TRIGGER_TOKEN }}
     script:
     - >
       curl -X POST
-      -F token=${{ secrets.GITLAB_PIPELINE_TRIGGER_TOKEN }}
+      -F token="$GITLAB_PIPELINE_TRIGGER_TOKEN"
       -F ref=master
       https://gitlab.devops.ukfast.co.uk/api/v4/projects/2570/trigger/pipeline
