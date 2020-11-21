@@ -1,13 +1,25 @@
 language: python
 python:
 - '3.8'
-before_install:
-- echo "TRAVIS_PULL_REQUEST is '${TRAVIS_PULL_REQUEST}'"
-install:
-- pip install Sphinx
-- pip install recommonmark
-script:
-- ./tests.sh
-- sphinx-build -n -b html -d build/doctrees source/ build/html
-- make build/html/_static/css/app.css
-- make build/html/_static/app.js
+jobs:
+  include:
+  - name: Lint changed files
+    if: branch != master
+    before_install:
+    - echo "TRAVIS_PULL_REQUEST is '${TRAVIS_PULL_REQUEST}'"
+    install:
+    - pip install Sphinx
+    - pip install recommonmark
+    script:
+    - ./tests.sh
+    - sphinx-build -n -b html -d build/doctrees source/ build/html
+    - make build/html/_static/css/app.css
+    - make build/html/_static/app.js
+  - name: Start GitLab CI to deploy updated docs
+    if: branch = master
+    script:
+    - >
+      curl -X POST \
+        -F token=${{ secrets.GITLAB_PIPELINE_TRIGGER_TOKEN }} \
+        -F ref=master \
+        https://gitlab.devops.ukfast.co.uk/api/v4/projects/2570/trigger/pipeline
