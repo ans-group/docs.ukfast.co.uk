@@ -3,6 +3,7 @@ python:
 - '3.8'
 jobs:
   include:
+
   - name: Lint changed files
     if: branch != master
     before_install:
@@ -15,11 +16,12 @@ jobs:
     - sphinx-build -n -b html -d build/doctrees source/ build/html
     - make build/html/_static/css/app.css
     - make build/html/_static/app.js
+
   - name: Start GitLab CI to deploy updated docs
     if: branch = master
     script:
     - >
-      curl -X POST \
-        -F token=${{ secrets.GITLAB_PIPELINE_TRIGGER_TOKEN }} \
-        -F ref=master \
-        https://gitlab.devops.ukfast.co.uk/api/v4/projects/2570/trigger/pipeline
+      curl -X POST
+      -F token=${{ secrets.GITLAB_PIPELINE_TRIGGER_TOKEN }}
+      -F ref=master
+      https://gitlab.devops.ukfast.co.uk/api/v4/projects/2570/trigger/pipeline
