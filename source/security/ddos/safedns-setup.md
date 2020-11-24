@@ -71,7 +71,7 @@ Once a new domain has been added to DDoSx<sup>®</sup>, you will automatically b
 
 Alternatively, navigate to the main DDoSx<sup>®</sup> page on via the navigation bar on the left, click on the domain you want to configure, and then and click `Configure` tab.
 
-First, use the `Add Record` button to configure your root and subdomains' origin IP address. This will be the IP address that the request is forwarded to after being routed through DoSX<sup>®</sup>. This is usually your web server or load balancer's external IP address. 
+First, use the `Add Record` button to configure your root and subdomains' origin IP address. This will be the IP address that the request is forwarded to after being routed through DDoSX<sup>®</sup>. This is usually your web server or load balancer's external IP address. 
 
 ![configuredomain](files/ddosx_add_record.png)
 
