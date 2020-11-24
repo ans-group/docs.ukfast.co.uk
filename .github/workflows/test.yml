@@ -9,7 +9,7 @@ jobs:
       - name: Install dependencies
         run: python -m pip install --upgrade pip Sphinx recommonmark
       - name: Check changed files
-        run: bash tests.sh
+        run: ls -al; pwd
       - name: Test build Sphinx content
         run: sphinx-build -n -b html -d build/doctrees source/ build/html
       - name: Test compiling CSS
