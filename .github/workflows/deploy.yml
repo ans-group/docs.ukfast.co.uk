@@ -1,0 +1,13 @@
+name: Deploy
+on:
+  push:
+    branches: [ master ]
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Deployment CI
+        run: curl -X POST --connect-timeout 20 -F "ref=master" -F token=$TRIGGER_TOKEN $PROJECT_URL || echo "Failed to trigger pipeline"
+        env:
+          TRIGGER_TOKEN: ${{ secrets.TRIGGER_TOKEN }}
+          PROJECT_URL: ${{ secrets.PROJECT_URL }}
