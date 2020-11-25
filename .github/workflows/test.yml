@@ -10,9 +10,11 @@ jobs:
       - name: Install dependencies
         run: python -m pip install --upgrade pip Sphinx recommonmark
       - name: Check changed files
-        run: ls -al; pwd; bash tests.sh
+        run: tests.sh
       - name: Test build Sphinx content
-        run: sphinx-build -n -b html -d build/doctrees source/ build/html
+        uses: ammaraskar/sphinx-action@0.4
+        with:
+          build-command: sphinx-build -n -b html -d build/doctrees source/ build/html
       - name: Test compiling CSS
         run: make build/html/_static/css/app.css
       - name: Test compiling Javascript
