@@ -11,11 +11,11 @@ jobs:
       - uses: actions/checkout@v2
       - name: Check changed files
         run: tests.sh
-      - name: Test build Sphinx content
-        uses: ammaraskar/sphinx-action@0.4
-        with:
-          build-command: sphinx-build -n -b html -d build/doctrees source/ build/html
-      - name: Test compiling CSS
-        run: make build/html/_static/css/app.css
-      - name: Test compiling Javascript
-        run: make build/html/_static/app.js
+#       - name: Test build Sphinx content
+#         uses: ammaraskar/sphinx-action@0.4
+#         with:
+#           build-command: sphinx-build -n -b html -d build/doctrees source/ build/html
+#       - name: Test compiling CSS
+#         run: make build/html/_static/css/app.css
+#       - name: Test compiling Javascript
+#         run: make build/html/_static/app.js
