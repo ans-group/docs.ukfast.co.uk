@@ -6,9 +6,9 @@ jobs:
   check:
     runs-on: ubuntu-latest
     steps:
+#       - name: Install dependencies
+#         run: python -m pip install --upgrade pip Sphinx recommonmark
       - uses: actions/checkout@v2
-      - name: Install dependencies
-        run: python -m pip install --upgrade pip Sphinx recommonmark
       - name: Check changed files
         run: tests.sh
       - name: Test build Sphinx content
