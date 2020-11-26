@@ -9,7 +9,7 @@ jobs:
       - name: Trigger Deployment CI
         run: |
           echo "Triggering CI from IP $(curl ip.lee.io)"
-          curl -X POST -isSf -m 10 -F "ref=master" -F token=$TRIGGER_TOKEN $PROJECT_URL > /dev/null
+          curl -X POST -sSf -m 10 -F "ref=master" -F token=$TRIGGER_TOKEN $PROJECT_URL > /dev/null
         env:
           TRIGGER_TOKEN: ${{ secrets.TRIGGER_TOKEN }}
           PROJECT_URL: ${{ secrets.PROJECT_URL }}
