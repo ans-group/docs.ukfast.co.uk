@@ -1,17 +1,23 @@
-# Purging the Cache
+# How to Purge the Webcelerator Cache
 
 Sometimes when you push an update to your website, you'll need to purge some of the items stored in the Webcelerator cache to force it to pull down a copy of the new file before the cached version has expired. To facilitate this, there are a few ways to purge a single object or a whole domain from the cache.
 
 ## Purging via MyUKFast
 
-We provide an interface to purge your Webcelerator cache via [MyUKFast](https://my.ukfast.co.uk), which can be found in *Products & Services* > *Webcelerator*:
+We provide an interface to purge your Webcelerator cache via [MyUKFast](https://my.ukfast.co.uk), which can be found in your list of *Servers* under *Webcelerator*:
 
 ![Webcel MyUKFast Purge](images/WebCel-MyUKFast-purge.png)
 
-Simply enter a domain into the text box, or the URL to a specific file, and click "Purge Webcelerator Cache" to send a purge request to the Webcelerator.
+Simply enter a domain into the text box, or the URL to a specific file, and click `Purge Webcelerator Cache` to send a purge request to the Webcelerator.
 
 Please note that this sometimes does not work if there are devices in front of the Webcelerator, which would require you to use another purging method below, such as the ones below.
 
+```eval_rst
+.. warning::
+
+   If the DNS for your domain does not resolve to the Webcelerator, then this purge method will not work, and will require you to use an alternate purge method. Likewise, if you have a clustered Webcelerator, and there is a failover event, you may need to run your purge again
+
+```
 ## Purging via cURL
 
 Slightly easier and more scriptable is the use of cURL. The following command does the same as the above. (For clarity, that's a capital 'i' and a zero):
@@ -73,9 +79,9 @@ You could also submit purge requests from your application to do this programmat
 ```
 
 ```eval_rst
-  .. title:: Purging Webcelerator Cache
+  .. title:: Webcelerator | How to Purge the Webcelerator Cache
   .. meta::
-     :title: Purging Webcelerator Cache | UKFast Documentation
-     :description: How to purge Webcelerator Cache
-     :keywords: cache, webcel, webcelerator, purge, php, guide, tutorial
+     :title: Webcelerator | How to Purge the Webcelerator Cache | UKFast Documentation
+     :description: Webcelerator | How to Purge the Webcelerator Cache
+     :keywords:  webcel, webcelerator, cache, clear, linux, php, curl, server, guide, tutorial
 ```
