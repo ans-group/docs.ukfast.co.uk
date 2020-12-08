@@ -1,9 +1,13 @@
 # Default Configuration for Backups
 
+With data protection being a critical business necessity, it's imperative you have a backup solution to mitigate business risks, guarantee compliance, reduce costs and help improve the overall success of your business. Backup is essentially a snapshot or picture of the state of your data before it disappeared or was destroyed, with the data being periodically overwritten as it changes.
+
 In order for UKFast to simplify our backup schedule offering without losing the ability to tailor the configuration to your solution, we have predefined backup options available for you to select from. Please note that:
+
 - The retention for Shared eCloud Backups is 28 days.
 - The default retention for Dedicated eCloud Backup solutions is 28 days.
 - The time backups run at is stipulated by UKFast in an overnight window, unless otherwise specified.
+
 ```eval_rst
 .. seealso::
    To make changes to the backup window, frequency or retention of any of your backup policies post launch, along with adding any backup excultions to specific folders, files or file types please use the Priority Support System in the MyUKFast portal.
@@ -20,6 +24,7 @@ In order for UKFast to simplify our backup schedule offering without losing the 
 | File Level - Option 2           | Daily       | n/a                |
 +---------------------------------+-------------+--------------------+
 ```
+
 - Physical and virtual machines have a full backup taken once a week by default.
 - Physical and virtual machines have incremental backups taken every day (except for the day the full backup is taken).
 
@@ -81,3 +86,4 @@ All full backups for Virtual Machines are performed on a weekly basis with daily
       :title: UKFast Enterprise backup build documentation | UKFast Documentation
       :description: Build documenation for UKFast Enterprise Backups
       :keywords: ukfast, hosting, backup, server, virtual, enterprise
+```
