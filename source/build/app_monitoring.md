@@ -1,6 +1,6 @@
 # Application Monitoring
 
-As part of your solution, we will add Application specific monitoring. Depending on the application and configuration of your solution will depend on whether this is applicable.
+For increased peace of mind, application based monitoring is enabled as standard to ensure alerts are generated proactively in the event of application failure, even if the server remains online. Depending on the application and configuration of your solution will depend on whether this is applicable. 
 
 ```eval_rst
 +--------------------------+--------------------------------------------------------------------------------------------------------------------+
