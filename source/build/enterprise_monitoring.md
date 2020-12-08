@@ -34,9 +34,13 @@ The following service monitoring will be added across all servers in the solutio
 
 ## Capacity Threshold Monitoring
 
+Capacity Threshold Monitoring allows you to track every aspect of your dedicated server or virtual machine, from bandwidth consumption to disk utilisation.  
+
 More information about Capacity Threshold Monitoring can be found [here](ctm.md).
 
 ## Specific Application Monitoring
+
+Monitoring can be enabled for specific applications, such as MSSQL to ensure you're alerted the moment a problem has occured.
 
 More information about specific application monitoring can be found [here](app_monitoring.md).
 
