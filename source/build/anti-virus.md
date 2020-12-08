@@ -3,7 +3,7 @@
 ## McAfee Anti-Virus
 ```eval_rst
 .. seealso::
-   All Physical and Virtual Machines as part of your solution will come with McAfee Anti-Virus installed, this comes as part of your PROprotection package.
+   All Physical and Virtual Machines included within your solution will come with McAfee Anti-Virus installed. This is designed to detect and destroy computer viruses to ensure the efficient operation of your solution and comes as part of your PROprotection package. UKFast’s PROprotection package provides not only Anti-virus protection but also combines key technical advancements from our Research and Development team and industry leading brands, with the highest levels of service and support.  
 ```
 Below you will find a list of common questions related to Anti-Virus: 
 
