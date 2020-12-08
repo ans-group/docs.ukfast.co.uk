@@ -1,5 +1,7 @@
 # FastDrive
 
+FastDrive is UKFast’s cloud file sharing solution. Built solely for business use, FastDrive combines Citrix® ShareFile and UKFast’s own cloud storage platform. FastDrive enables you to take control of business-critical data, with centralised storage and encrypted file sharing between colleagues and clients. Access your virtual data room from anywhere, on any device. 
+
 ```eval_rst
 .. seealso::
   Once FastDrive has been ordered, you'll need to provide the following: a custom subdomain, full name of users, email addresses and whether you'd like to custom brand (whitelabel) the user interface.
