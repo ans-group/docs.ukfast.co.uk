@@ -1,6 +1,7 @@
 # Recommended Configuration for BCP (Business Continuity Platform)
 
-As part of your BCP Solution you will receive a Pre-Launch Questionnaire specific to your solution. Due to the complexity of the BCP solution UKFast doesn't offer default configurations, below are our recommended configurations if you are unsure on the configuration required for your business needs.
+UKFast's Linux clustering solution, BCP (Business Continuity Platform) ensures high-availability and minimal downtime for your Linux servers. As part of your BCP Solution you will receive a Pre-Launch Questionnaire specific to your solution. Due to the complexity of the BCP solution UKFast doesn't offer default configurations, below are our recommended configurations if you are unsure on the configuration required for your business needs. 
+
 ```eval_rst
 .. seealso::
    Please contact your Account Manager to ensure you receive a copy of the BCP Pre-Launch Questionnaire.
@@ -40,3 +41,4 @@ As part of your BCP Solution you will receive a Pre-Launch Questionnaire specifi
       :title: UKFast Default BCP Configuration | UKFast Documentation
       :description: Default Configuration for a BCP Solution.
       :keywords: ukfast, hosting, server, linux, bcp, business continuity platform
+```
