@@ -1,5 +1,7 @@
 # Database Server Default Configuration
 
+UKFast will setup Microsoft SQL Server with a default configuration that conforms to Microsoft best practices.
+
 By default your MS-SQL database server will be configured with the following settings:
 
 ```eval_rst
