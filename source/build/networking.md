@@ -2,6 +2,8 @@
 
 ## VPN Connections
 
+A virtual private network (VPN) provides a tunnel between two separate networks to allow for encrypted communication to take place over the public internet.
+
 ```eval_rst
 .. seealso::
    Depending on the firewall you have purchased will depend on the number of available VPN connections for each device.
