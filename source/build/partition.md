@@ -1,5 +1,7 @@
 # Partitions
 
+A disk partition is a section of the hard drive that is separated from other segments. Partitions enables you to divide a physical disk into logical sections, which inturn gives you greater control of storage within your solution.
+
 Please find below the UKFast Default Partitions configured as part of your solution.
 
 ## Windows Server
