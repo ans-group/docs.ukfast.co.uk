@@ -7,7 +7,7 @@
 ```
 
 
-Upon registration request .ltd.uk (Private Limited Companies)/.plc.uk (Public Limited Companies)/net.uk (Internet Service Providers' infrastructure) domains are manually checked by Nominet to ensure they meet their strict <a href="http://www.nominet.org.uk/uk-domain-names/registering-uk-domain/choosing-domain-name/rules">domain name requirements</a>.
+Upon registration request .ltd.uk (Private Limited Companies)/.plc.uk (Public Limited Companies)/net.uk (Internet Service Providers' infrastructure) domains are manually checked by Nominet to ensure they meet their strict [domain name requirements](http://www.nominet.org.uk/uk-domain-names/registering-uk-domain/choosing-domain-name/rules).
 
 
 As the process is manual it may take a little extra time; especially if you made the request in the evening or at the weekend.
