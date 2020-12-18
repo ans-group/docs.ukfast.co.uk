@@ -7,7 +7,7 @@
 ```
 
 
-UKFast [(name servers)](https://my.ukfast.co.uk/faq/view/1266.html) are:
+UKFast :doc:`name servers</domains/domains/faqs/what-is-a-name-server>` are:
 
 
 ns0.ukfast.net

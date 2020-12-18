@@ -34,7 +34,7 @@ How this is done depends entirely on the control panel offered by your registrar
 Once the name servers are in place and the information has been transmitted, it's time to add the relevant records to your DNS zone. Depending on what services you offer you will need different records, but in our example below we're going to assume simple web services and e-mail.
 
 
-Let's start with the web services. First we need to create an 'A' record for out domain, and also the 'www' sub-domain. We've already written a handy guide on [how to add sub-domains and 'A' records to your domain](https://my.ukfast.co.uk/faq/view/1053.html), so please consult this guide and when you're done, then pop back here to read on. Now that you're an expert on adding 'A' records to your domain, let's list the information you need and the records you need to create:
+Let's start with the web services. First we need to create an 'A' record for out domain, and also the 'www' sub-domain. We've already written a handy guide on :doc:`how to add sub-domains and 'A' records to your domain</domains/safedns/addarecord>`, so please consult this guide and when you're done, then pop back here to read on. Now that you're an expert on adding 'A' records to your domain, let's list the information you need and the records you need to create:
 
 
 1. The IP address of your server. This can be found under the Services > Dedicated Servers tab in MyUKFast. (If you don't have a dedicated server, select the relevant solution; for example, 'Cloud')

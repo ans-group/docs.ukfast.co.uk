@@ -7,7 +7,7 @@
 ```
 
 
-[(Nominet)](https://my.ukfast.co.uk/faq/view/1260.html) have special requirements that a .ltd.uk (limited) domain must meet before they will register it. As an overview you can only register a .ltd.uk domain if:
+:doc:`Nominet</domains/domains/faqs/who-are-nominet>` have special requirements that a .ltd.uk (limited) domain must meet before they will register it. As an overview you can only register a .ltd.uk domain if:
 
 <ul>
 <li>The registrant is a limited company and has limited or Ltd in their company name</li>
