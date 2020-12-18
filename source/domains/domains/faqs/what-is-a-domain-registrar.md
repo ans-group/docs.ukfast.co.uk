@@ -7,7 +7,7 @@
 ```
 
 
-A domain registrar is a company that offers [(domain name)](https://my.ukfast.co.uk/faq/view/1251.html) registration, often on behalf of others. For example, GoDaddy.com is one of the most famous (and biggest) registrars.
+A domain registrar is a company that offers :doc:`domain name</domains/domains/faqs/what-is-a-domain-name>` registration, often on behalf of others. For example, GoDaddy.com is one of the most famous (and biggest) registrars.
 
 
 If you buy a domain name through one registrar you can switch to another; which you might do because of competitive pricing, features, or a problem with the registrar.

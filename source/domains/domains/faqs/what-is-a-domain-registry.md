@@ -7,7 +7,7 @@
 ```
 
 
-A domain registry holds a database of domain names, and information that goes with them, like who owns it and when it expires. Each registry maintains different TLDs, for example, Nominet looks after .uk [(domain names)](https://my.ukfast.co.uk/faq/view/1251.html) and DENIC does the same for .de in Germany.
+A domain registry holds a database of domain names, and information that goes with them, like who owns it and when it expires. Each registry maintains different TLDs, for example, Nominet looks after .uk :doc:`domain names</domains/domains/faqs/what-is-a-domain-name>` and DENIC does the same for .de in Germany.
 
 
 Some registries sell domain names directly (like SWITCH in Switzerland) but many use authorised resellers (or registrars) who you buy and register domain names through.

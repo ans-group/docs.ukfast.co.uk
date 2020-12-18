@@ -7,7 +7,7 @@
 ```
 
 
-gTLDs (or generic top-level domain names) are the most common kind of top-level [(domain names)](https://my.ukfast.co.uk/faq/view/1252.html), and the ones we're most used to seeing. They function as part of the internet system we use to help us map and remember a website's numerical IP addresses - also called the Domain Name System (DNS). gTLDs have three or more characters and follow the &lsquo;dot' part of the address e.g. .com, .org etc.
+gTLDs (or generic top-level domain names) are the most common kind of top-level :doc:`domain names</domains/domains/faqs/what-is-a-domain-name>`, and the ones we're most used to seeing. They function as part of the internet system we use to help us map and remember a website's numerical IP addresses - also called the Domain Name System (DNS). gTLDs have three or more characters and follow the &lsquo;dot' part of the address e.g. .com, .org etc.
 
 
 We use gTLDs essentially because they allow us to gather more information about the site that we're visiting; for example, they can give us information about the business, what it does and its location.
