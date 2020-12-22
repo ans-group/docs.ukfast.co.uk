@@ -7,7 +7,7 @@
 ```
 
 
-Before the release of the new gTLDs, [(ICANN)](https://my.ukfast.co.uk/faq/view/1256.html) began to tidy up the domain registration rules, as previously lots of inaccurate information was causing problems.
+Before the release of the new gTLDs, :doc:`ICANN</domains/domains/faqs/who-are-icann>` began to tidy up the domain registration rules, as previously lots of inaccurate information was causing problems.
 
 
 The new rules boil down to:

@@ -1,9 +1,9 @@
-# What does it mean if my domain is ""suspended"?
+# What does it mean if my domain is "suspended"?
 
 ```eval_rst
-   .. title:: Domain Name FAQ What does it mean if my domain is ""suspended""?"
+   .. title:: Domain Name FAQ What does it mean if my domain is "suspended"?
    .. meta::
-       :description: Domain Name FAQ What does it mean if my domain is ""suspended""?"
+       :description: Domain Name FAQ What does it mean if my domain is "suspended"?
 ```
 
 

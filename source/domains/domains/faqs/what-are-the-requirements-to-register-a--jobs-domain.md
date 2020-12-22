@@ -10,7 +10,7 @@
 Before you can register a .JOBS domain, there are certain requirements that need to be fulfilled:
 
 
-The [(registrant)](https://my.ukfast.co.uk/faq/view/1257.html) must be a corporation or organisation, individuals are not permitted to register a .JOBS domain
+The :doc:`registrant</domains/domains/faqs/what-is-a-domain-registrant>` must be a corporation or organisation, individuals are not permitted to register a .JOBS domain
 
 
 The domain name must be the legal or commonly known business name of the company registering the domain.

@@ -7,7 +7,7 @@
 ```
 
 
-An Internet Provider Security (IPS) tag - also known as a registrar tag, domain tag, Nominet provider tag, or IPS key - is a unique code issued by Nominet to every UK [(registrar)](https://my.ukfast.co.uk/faq/view/1259.html). Every .uk domain is assigned one to identify which registrar has control of that domain.
+An Internet Provider Security (IPS) tag - also known as a registrar tag, domain tag, Nominet provider tag, or IPS key - is a unique code issued by Nominet to every UK :doc:`registrar</domains/domains/faqs/what-is-a-domain-registrar>`. Every .uk domain is assigned one to identify which registrar has control of that domain.
 
 
 IPS tags are a single sequence of numbers and/or letters that are capitalised e.g. UKFast's tag is UKFAST.

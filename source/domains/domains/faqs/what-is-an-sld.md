@@ -7,7 +7,7 @@
 ```
 
 
-A Second Level Domain (SLD) is the part of the address that comes directly before the [(Top Level Domain)](https://my.ukfast.co.uk/faq/view/1252.html) (TLD), and usually provides more information on the organisation that registered the domain.
+A Second Level Domain (SLD) is the part of the address that comes directly before the :doc:`Top Level Domain (TLD)</domains/domains/faqs/what-is-a-tld>`, and usually provides more information on the organisation that registered the domain.
 
 
 In many cases the SLD is the middle bit of a domain that goes between &lsquo;www.' and the domain name extension (for example, .com, .org) at the end of the address. For example, in [www.ukfast.co.uk](http://www.ukfast.co.uk), &lsquo;ukfast' is the SLD.

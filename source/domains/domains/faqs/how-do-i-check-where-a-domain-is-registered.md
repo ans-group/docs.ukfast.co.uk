@@ -7,7 +7,7 @@
 ```
 
 
-You can use a whois lookup service such as <a href=""http://who.is"">http://who.is</a>
+You can use a whois lookup service such as [http://who.is](http://who.is)
 
 
 .

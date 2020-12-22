@@ -7,7 +7,7 @@
 ```
 
 
-Nominet is an internet [(registry)](https://my.ukfast.co.uk/faq/view/1254.html) company in the UK. It manages the .uk domain space, and from 2014 will run .cymru and .wales too.
+Nominet is an internet :doc:`registry</domains/domains/faqs/what-is-a-domain-registry>` company in the UK. It manages the .uk domain space, and from 2014 will run .cymru and .wales too.
 
 
 Registering and renewing these domains are done through one of the many registrars (like UKFast) that work with Nominet.
