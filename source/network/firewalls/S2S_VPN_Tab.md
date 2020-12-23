@@ -14,7 +14,7 @@ the **Edit** button you are then given the option to change the Peer IP and/or P
 
 ![Edit Peer IP](files/editor2_change_peer_ip.PNG)
 
-Enter the peer IP and PSK into the boxes provided and click **update**. If you would like to keep using the same pre-shared key for the new peer then leave the PSK box blank. 
+Enter the peer IP and PSK into the boxes provided and click **update**. 
 
 Please note, the change is not made to the firewall until you click **Apply Changes**.
 
