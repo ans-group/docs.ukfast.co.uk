@@ -21,7 +21,7 @@ jobs:
       - name: Check files using markdownlint
         uses: actionshub/markdownlint@main
         with:
-          args: ${{ steps.changed_files.outputs.all }}
+          path: source
 
       - name: Render docs to HTML
         uses: ammaraskar/sphinx-action@master
