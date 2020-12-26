@@ -98,7 +98,7 @@ populate-index: $(SPHINX_DEPENDENCIES)
 	php source/_themes/ukf/scripts/populate_search_index.php $* $(ES_HOST)
 
 build/html/_static:
-	mkdir -p build/html/_static
+	mkdir -p build/html/_static/css
 
 CSS_FILES = source/_themes/ukf/static/css/bootstrap.min.css \
   source/_themes/ukf/static/css/font-awesome.min.css \
