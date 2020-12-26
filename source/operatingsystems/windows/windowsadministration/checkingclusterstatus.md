@@ -28,7 +28,7 @@ The central pane will now display information on all of the available nodes with
 * If you have followed the above guide to view the cluster service status, then you will already be viewing the required location which you will need for this section of the guide.
   If not, please follow the above section of this guide before proceeding with this section.
 
-Please select "Roles" from the left hand pane of the failover cluster manager, from the central view, right click the role which corresponds to the clustered service which you wish to failover, 
+Please select "Roles" from the left hand pane of the failover cluster manager, from the central view, right click the role which corresponds to the clustered service which you wish to failover,
 Select "Move" from the resultant context menu, then select the desired node which you would like to move the service to, alternatively, select "Best Possible Node". as below
 
 ![FCM Failover](Images/clusterstatus/movingnode.png)

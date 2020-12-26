@@ -35,7 +35,7 @@ One of the most common forms of attack is a brute force attack. As its name sugg
 
 A simple brute force attack will try many commonly used usernames and password combinations. For example, the user name admin or administrator coupled with passwords like password, admin or change.
 
-We also see more sophisticated brute force attacks that can detect what service they are trying to gain access to, and then try common user name and password combinations for that service, or even try the default credentials for that service. For example, an SSH or PHPMyAdmin Brute Force attack will usually try the username root, as this the most common user name used by default. Another example could be the administrator for Windows RDP 
+We also see more sophisticated brute force attacks that can detect what service they are trying to gain access to, and then try common user name and password combinations for that service, or even try the default credentials for that service. For example, an SSH or PHPMyAdmin Brute Force attack will usually try the username root, as this the most common user name used by default. Another example could be the administrator for Windows RDP
 
 *How can I prevent a brute force attack?*
 

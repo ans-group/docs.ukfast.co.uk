@@ -71,7 +71,7 @@ pipe_timeout is set to 60 seconds by default. This can cause time out issues whe
 Within the DAEMON_OPTS sections in the file /etc/varnish/varnish.params. You need to restart Varnish for this setting to take effect.
 
 ### Header Size
-If you have this error message in Nginx: 
+If you have this error message in Nginx:
 
 ```bash
 [error] 110200#110200: *102122 upstream sent too big header while reading response header from upstream
@@ -273,7 +273,7 @@ varnishd -C -f /etc/varnish/default.vcl && systemctl reload varnish
 ```
 
 ### Purge Cache
-Magento purges Varnish hosts after you configure Varnish hosts using the magento setup:config:set command (Ensure you run the Magento 2 CLI as the local system user defined in PHP-FPM and not root). Once configured when you clean, flush, or refresh the Magento cache, Varnish purges as well. 
+Magento purges Varnish hosts after you configure Varnish hosts using the magento setup:config:set command (Ensure you run the Magento 2 CLI as the local system user defined in PHP-FPM and not root). Once configured when you clean, flush, or refresh the Magento cache, Varnish purges as well.
 
 ```bash
 ~]$ php bin/magento setup:config:set --http-cache-hosts=10.0.0.17
@@ -299,7 +299,7 @@ If the DNS for your domain does not point to Varnish you can use the IP address 
 ```bash
 curl -I0 -X PURGE http://158.228.105.80 -H "Host: www.exampledomain.com" -H "X-Magento-Tags-Pattern: *"
 ```
- 
+
 ### SSL Termination
 Varnish does not support SSL-encrypted traffic, therefore we use Nginx for SSL termination. You need to remove the 443 listen from the server block in the Nginx vhosts configuration file and then add a new server block for 443. Example block:
 
@@ -338,17 +338,17 @@ If SSL is set to offloading like the above example you need to uncomment the fol
  # Enable for SSL offloading
   set $my_https off;
   set $my_port 80;
-  
+
   if ($http_x_forwarded_proto = https) {
     set $my_https on;
     set $my_port 443;
   }
-  
+
   fastcgi_param HTTPS $my_https; # Uncomment the below for SSL offloading
   fastcgi_param SERVER_PORT $my_port; # Uncomment the below for SSL offloading
 ```
 
-This tells Magento that although the connection is on port 80 -> 8080 it should be treated as a secure connection due to the header x_forwarded_proto containing https. 
+This tells Magento that although the connection is on port 80 -> 8080 it should be treated as a secure connection due to the header x_forwarded_proto containing https.
 
 ```eval_rst
   .. title:: Magento 2 Varnish

@@ -22,7 +22,7 @@ mongodump
 This will automatically create a `/dump` folder in that location. Alternatively, specify a folder path with the following command.
 ```bash
 mongodump --out /your/file/path
-``` 
+```
 
 ## Exporting a single database
 

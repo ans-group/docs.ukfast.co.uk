@@ -11,7 +11,7 @@ the latency of the request. `Latency` refers to the round trip time of when the
 request is sent, to when the content is returned back. The TTFB (Time To First Byte)
 is a metric used by search engines to calculate how high to put you up on their
 results pages, so having a low latency is good *but* it is **not** the be all
-and end all. 
+and end all.
 
 This document isn't intended to go over SEO in depth or be up to date with current
 SEO practice, however it's pretty well understood that a low latency will rank you
@@ -22,12 +22,12 @@ toning things back. This is a bad thing for you if you want to rank high, since
 only sites with high capacity can rank highly on important keywords.
 
 The main thing to take from this is that a low latency is good, but consistency
-in latency should take priority first. Low latency tends to require hardware 
+in latency should take priority first. Low latency tends to require hardware
 upgrades and performance fixes for the application, whereas consistency requires
 a thorough review of all the systems, that is why search engines will rank that
 high. Don't neglect the TTFB however, since that is directly connected to capacity
 and search engines such as goole make it very clear they expect quick responses.
-You can review specific user experience issues with 
+You can review specific user experience issues with
 [Google PageSpeed](https://developers.google.com/speed/pagespeed/insights/), which
 will provide you with useful information in a few different areas.
 

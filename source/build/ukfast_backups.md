@@ -1,6 +1,6 @@
 # Default Configuration for Backups
 
-In order for UKFast to simplify our backup schedule offering without losing the ability to tailor the configuration to your solution, we have predefined backup options available for you to select from. Please note that: 
+In order for UKFast to simplify our backup schedule offering without losing the ability to tailor the configuration to your solution, we have predefined backup options available for you to select from. Please note that:
 - The default retention for dedicated CommVault is 7 days.
 - The time backups run at is stipulated by UKFast in an overnight window, unless otherwise specified.
 ```eval_rst
@@ -26,10 +26,10 @@ In order for UKFast to simplify our backup schedule offering without losing the 
 
 ### Backup Agents
 
-When referring to Database Backups by default we will apply the below configurations to the following Backups Agents:  
+When referring to Database Backups by default we will apply the below configurations to the following Backups Agents:
 -	Microsoft SQL Server
 -	PostgreSQL
--	Oracle DB 
+-	Oracle DB
 -	MySQL Server / MariaDB
 
 ### Backup Options
@@ -51,7 +51,7 @@ When referring to Database Backups by default we will apply the below configurat
 
 ## Standalone Database Backups (CommVault Only)
 
-To enable UKFast to provide a more granular level for restores of databases, by default: 
+To enable UKFast to provide a more granular level for restores of databases, by default:
 -	Database servers (e.g. MSSQL, MySQL, PostgreSQL) are backed up at the database level.
 -	Database backup times are different to the operating system backup times to limit the impact on performance.
 

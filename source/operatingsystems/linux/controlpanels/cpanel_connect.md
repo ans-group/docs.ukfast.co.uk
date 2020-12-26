@@ -5,8 +5,8 @@ There are 2 components to a cPanel server. There's WHM, which is the interface t
 ## Connecting to WHM
 
 ### Via MyUKFast Link
-First, log in to your MyUKFast area, and navigate to the server page.  
-  
+First, log in to your MyUKFast area, and navigate to the server page.
+
 In the top section of the page, you will see the "External Login" button. This will take you straight to the login page for WHM:
 
 ![cPanel MyUKFast Login](files/cpanel_external_login.png)

@@ -92,7 +92,7 @@ pecl install memcache
 ```eval_rst
    .. note::
       Using pecl will often need you to install a few dependencies.
-   
+
       Which ones will depend on what's installed on your system already, but in the above example on a CentOS minimal install, I had to install ``gcc``, ``make`` and ``zlib-devel``
 ```
 

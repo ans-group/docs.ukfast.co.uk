@@ -7,7 +7,7 @@ Redirection is helpful in the following situations:
 * Your content is not located on the Web server.
 * You have changed the name of a virtual directory and you want users to be able to access files from the old URL.
 
-To configure a Redirect in IIS, please follow the below instructions. 
+To configure a Redirect in IIS, please follow the below instructions.
 
 
 Launch IIS Manager on your server by selecting server manager, then selecting tools and Internet Information Services Manager. Once you have opened the IIS Manager, select your site in the "Connections list" and select the "HTTP Redirect" Module which should be located in the central field of IIS Manager as below

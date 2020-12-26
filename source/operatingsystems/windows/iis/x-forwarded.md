@@ -48,7 +48,7 @@ You will be presented with the log definition window, please enter Client Source
 From the resulting "Select Logging Fields" window, please tick the ClientSourceIP ID from the list as below, and then select OK and select Apply from the Actions pane.
 
 ![Select Log Def](files/xforwardfor/iis7.png)
- 
+
 Select "Return To Advanced Logging" from the actions pane.
 
 * To fully apply the advanced logging rules, you will need to carryout an IIS Reset from an administrative command prompt, if you are unsure how to do this, please follow our guide in the IIS section.

@@ -4,7 +4,7 @@
 
 ## Installation
 
-Within `Plesk`, you can install this via the **Plesk Extensions** utility. 
+Within `Plesk`, you can install this via the **Plesk Extensions** utility.
 
 Simply search within their extension store for `Let's Encrypt` and click **Get it Free** to install.
 
@@ -22,7 +22,7 @@ For **existing domains**, you can select your domain (or mutliple domains) withi
 
 ```eval_rst
 .. warning::
-  
+
   Wildcard certificates can only be issued if your DNS is managed by Plesk itself. This is because it only offers DNS validation and not HTTP.
 ```
 

@@ -14,7 +14,7 @@ the **Edit** button you are then given the option to change the Peer IP and/or P
 
 ![Edit Peer IP](files/editor2_change_peer_ip.PNG)
 
-Enter the peer IP and PSK into the boxes provided and click **update**. 
+Enter the peer IP and PSK into the boxes provided and click **update**.
 
 Please note, the change is not made to the firewall until you click **Apply Changes**.
 
@@ -85,7 +85,7 @@ Select the required encryption, dh group and hashing for phase 2.  This will nee
 The next screen will be an overview of the VPN settings you have chosen, to send the config to the firewall click **Configure VPN**
 
 ```eval_rst
-.. note::  
+.. note::
   If you require assistance with this, simply give the UKFast Support Team a call, or raise a Priority Support Ticket and we’ll be happy to advise/help.
 ```
 

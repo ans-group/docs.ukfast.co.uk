@@ -47,7 +47,7 @@ The fourth section evaluates how well formatted your email is. This includes:
 
 * What percentage of your message is text - a lack of special characters and punctuation may suggest an email looks more like spam.
 
-* Whether it includes images - image-based emails make it more difficult for spam filters to determine whether or not the content is malicious. 
+* Whether it includes images - image-based emails make it more difficult for spam filters to determine whether or not the content is malicious.
 
 * Malicious code - including potentially dangerous elemnts such as javascript may be seen as a security risk and cause an email to be marked as spam. Using shortened URLs will also decrease the overall score, as they may be used to conceal the actual destination.
 
@@ -62,4 +62,4 @@ The last section of mail-tester checks whether your mesage contains any links, a
 
   .. meta::
      :description: A guide to using mail-tester and understanding the results
-     :keywords: ukfast, mail, email, guide, tutorial, mail-tester, mailtester, 
+     :keywords: ukfast, mail, email, guide, tutorial, mail-tester, mailtester,

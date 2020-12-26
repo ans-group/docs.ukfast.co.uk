@@ -11,7 +11,7 @@ From here you will be prompted for your MyUKFast password as below:
 This will then re-run our automation to present a fresh install of the operating system.
 
 ```eval_rst
-   .. title:: eCloud Public reinstall OS 
+   .. title:: eCloud Public reinstall OS
    .. meta::
       :description: Programatic control of your eCloud Public resources
       :keywords: ukfast, cloud, ecloud, public, hosting, infrastructure, vmware, reinstall, OS

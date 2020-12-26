@@ -38,7 +38,7 @@ To add rules based on an IP address or range, click `+Add Rule`; you'll see an a
 - If you want to apply a rule to your domain overall (also known as a global rule), leave the URI field blank
 - If you want to apply the rule to a specific URI then enter this into the URI field (enter the part after the `/` - for example `admin`)
 - Enter the Origin IP address or range you wish to filter on.  To filter on **all** IP addresses (for example if you wish to deny requests from all IPs) enter `*` into the Origin IP Address / Range field
-- Then choose Allow or Deny using the slider.  
+- Then choose Allow or Deny using the slider.
 
 Note that rules will be applied **in priority order**, based on the order you add them.  Our recommendation is to place your "Allow" rules first, and then your "Deny" rules, as rules are checked in sequence until there is a match.  If you wish to change the order in which rules are applied you will need to delete and re-add them as appropriate.
 
@@ -53,7 +53,7 @@ You can also manage access to your domain based on the country that requests ori
 
 The country access rules you specify will work in conjunction with your IP access rules; this is how you can build rulesets such as - *block all access from country X, but allow access from a specific IP address even though it is within country X*.
 
-Once you've specified all your IP access and Country access rules, click `Apply Changes` at the bottom of the screen.  
+Once you've specified all your IP access and Country access rules, click `Apply Changes` at the bottom of the screen.
 
 ![acl_rules](files/acl_rules.png)
 

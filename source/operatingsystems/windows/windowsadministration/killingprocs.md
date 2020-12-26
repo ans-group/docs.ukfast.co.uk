@@ -1,6 +1,6 @@
 # How to Forcibly end a process in Windows
 
-* In some instances applications and processes can become unresponsive and require manual intervention to forcibly end the process. 
+* In some instances applications and processes can become unresponsive and require manual intervention to forcibly end the process.
 
 In order to forcibly end a process, you have two methods available to you
 
@@ -29,8 +29,8 @@ In the command prompt, type `tasklist` and press enter, this will display a list
 
 ![Tasklist](Images/forceendtask/tasklist.png)
 
-Now in the command line, type either taskkill /f /im "process name" and press enter to end a process by its name or taskkill /f /PID "number of pid" and press enter to end a process by its PID | 
-For example (By Name) `taskkill /f /im chrome.exe` as below or (By PID) `taskkill /f /PID 15896` 
+Now in the command line, type either taskkill /f /im "process name" and press enter to end a process by its name or taskkill /f /PID "number of pid" and press enter to end a process by its PID |
+For example (By Name) `taskkill /f /im chrome.exe` as below or (By PID) `taskkill /f /PID 15896`
 
 ![Task kill](Images/forceendtask/taskkill.png)
 

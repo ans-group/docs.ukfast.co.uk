@@ -81,7 +81,7 @@ If there is a specific device(s) that needs to be monitored, you can specify thi
 nload devices device1 device2
 ```
 
-In addition, the metrics in which the data is displayed can be customised - the default is adaptive to the amount of bandwidth being used but it can be forced with one of the subsequent variations:   
+In addition, the metrics in which the data is displayed can be customised - the default is adaptive to the amount of bandwidth being used but it can be forced with one of the subsequent variations:
 ```bash
 nload -u K ## KByte/s
 nload -u k ## KBit/s

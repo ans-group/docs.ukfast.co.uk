@@ -5,7 +5,7 @@ Where UKFast appliances are deployed as virtual machines and configured in an ac
 This document provides information about the default configuration - please use the Priority Support System in the MyUKFast portal after launch to make advanced configuration changes (e.g. to get SSL offloading set up).
 
 ## Load Balancers
-Your UKFast load balancers are configured with a single virtual IP on port 80 load balancing your web servers in a round robin fashion, for example WEB-01 and WEB-02 with an equal weighting of 1:1. 
+Your UKFast load balancers are configured with a single virtual IP on port 80 load balancing your web servers in a round robin fashion, for example WEB-01 and WEB-02 with an equal weighting of 1:1.
 
 More information around load balancing can be found [here](/network/loadbalancing/index)
 
@@ -15,7 +15,7 @@ UKFast offers both hardware based WAF and Network based WAF, running on our glob
 
 Information on how to configure WAF on DDoSX® can be found [here](/security/ddos/wafsettings)
 
-Your [hardware based WAFs](/security/webapplicationfirewall/whatisawaf) are configured with a single virtual IP on port 80 pointing to the load balancer virtual IP. 
+Your [hardware based WAFs](/security/webapplicationfirewall/whatisawaf) are configured with a single virtual IP on port 80 pointing to the load balancer virtual IP.
 
 ## Webcelerators
 

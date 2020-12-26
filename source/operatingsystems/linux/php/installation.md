@@ -15,7 +15,7 @@ This will install php along with the relevant configuration to tie it into Apach
 ```eval_rst
 .. note::
    As CentOS/RHEL are long term release style operating systems, you won't get bleeding edge or even recent releases of php from the standard repositories.
-   
+
    They will however, have backported security fixes from higher versions to keep it secure. :doc:`/security/vulnerabilityscans`
 ```
 

@@ -12,7 +12,7 @@ Run the FileZilla server installer file as below:
 
 - You will be presented with the current FileZilla server license agreements that you can view prior to installing the application.
 - You will need to agree to the license terms in order to install FileZilla Server.
-  
+
 Once you click the `I Agree` button a `Choose Components` window will be displayed.
 
 ![FTP install Components](files/ftpinstall_components.PNG)

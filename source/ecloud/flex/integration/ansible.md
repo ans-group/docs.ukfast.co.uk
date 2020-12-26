@@ -30,7 +30,7 @@ If you've followed the guide [here](/ecloud/flex/general/settingvars), you shoul
       name: ansibletest
       image: CentOS7_2016-01
       flavor: UKF1-io-1x2
-      key_name: ansibletest  
+      key_name: ansibletest
 ```
 
 ## Working with freshly created instances
@@ -44,7 +44,7 @@ Adding `register` to that task, we can capture a lot of information about the fr
       name: ansibletest
       image: CentOS7_2016-01
       flavor: UKF1-io-1x2
-      key_name: ansibletest  
+      key_name: ansibletest
     register: instance
 
   - name: Add OS instance to inventory

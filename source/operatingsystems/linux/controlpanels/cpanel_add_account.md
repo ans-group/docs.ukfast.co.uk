@@ -15,7 +15,7 @@ This will present you with a page to fill in information regarding the account t
 ```eval_rst
 .. warning::
   Avoid adding a domain that is the same as the hostname of the server, as this will break many WHM services.
-  
+
 ```
 
 ![Domain Information](files/account_creation_domain_info.JPG)

@@ -22,24 +22,24 @@ To password restrict your website following configuration options for Nginx:
     auth_basic "Restricted";
     auth_basic_user_file /etc/nginx/conf.d/.htpasswd;
  ```
- 
+
  ### IP Restriction
- 
+
  To IP restrict your website use the following configuration options for Nginx:
- 
+
  ```bash
-# IP RESTRICTED WEBSITE 
+# IP RESTRICTED WEBSITE
     allow 192.168.0.13; # Office IP Address
     allow 192.168.0.51; # Warehouse IP Address
     deny all;
  ```
- 
+
  ### Password with IP Allow list
- 
+
 To password restrict the website whilst allowing certain IP address(s) access to the website without password restrictions you can use the following configuration options for Nginx:
- 
+
   ```bash
-# PASSWORD RESTRICTED WITH IP ALLOW LIST WEBSITE 
+# PASSWORD RESTRICTED WITH IP ALLOW LIST WEBSITE
     satisfy any;
     allow 192.168.0.13; # Office IP Address
     allow 192.168.0.51; # Warehouse IP Address
@@ -47,11 +47,11 @@ To password restrict the website whilst allowing certain IP address(s) access to
     auth_basic "Restricted";
     auth_basic_user_file /etc/nginx/conf.d/.htpasswd;
  ```
- 
-### Password and IP Restriction 
- 
+
+### Password and IP Restriction
+
 The most secure method is to restrict the website to an allowed list of IP addresses and then have password restriction for the allow list. You can achieve this with the following configuration options in Nginx:
- 
+
   ```bash
 # PASSWORD AND IP RESTRICTED WEBSITE
     satisfy all;
@@ -61,9 +61,9 @@ The most secure method is to restrict the website to an allowed list of IP addre
     auth_basic "Restricted";
     auth_basic_user_file /etc/nginx/conf.d/.htpasswd;
  ```
- 
+
 These configuration options need to be placed within the server block of your Nginx configuration file.
- 
+
 To implement this change you need to reload the Nginx service. First perform a configuration test with the following command:
 
 ```bash

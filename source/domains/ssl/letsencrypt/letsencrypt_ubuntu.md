@@ -8,7 +8,7 @@ First, install the **software-properties-common** package, if you don't already 
 apt install software-properties-common
 ```
 
-Next, install the repo, update the apt database and install the module for your chosen web service. 
+Next, install the repo, update the apt database and install the module for your chosen web service.
 
 For `apache`
 

@@ -7,7 +7,7 @@ The UKFast SafeDNS Plesk extension provides the ability to manage the SafeDNS Zo
 It will synchronise the DNS Zones from Plesk with SafeDNS.
 It does not replace or modify Plesk’s internal DNS, so if you have specific domains which use an external DNS Service, you’re free to continue using that service.
 
-When a task is run, logs are generated in the following directory. 
+When a task is run, logs are generated in the following directory.
 If there is an issue which is not clear based on the failure notification, then check these logs:
 ```console
  /var/log/plesk/ext-plesk-safedns/

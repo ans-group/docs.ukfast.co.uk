@@ -1,12 +1,12 @@
 # Testing your domain on DDoSx
 
-Before using ddosx it is strongly recommended that you test your web site first. This will 
-help to find issues that might have affected your users if you went live with DDoSx straight away. 
+Before using ddosx it is strongly recommended that you test your web site first. This will
+help to find issues that might have affected your users if you went live with DDoSx straight away.
 
 ### Linux
 
-Edit the file `/etc/hosts` to include your domain and subdomains and point these to the IP that has been assigned 
-to your protected domain.  
+Edit the file `/etc/hosts` to include your domain and subdomains and point these to the IP that has been assigned
+to your protected domain.
 
 Firstly open up the Terminal and then edit the file using your file editor of choice
 
@@ -14,7 +14,7 @@ Firstly open up the Terminal and then edit the file using your file editor of ch
 $ sudo vi /etc/hosts
 ```
 
-and enter `your DDoSx ip` `example.org www.example.org` at the bottom of the file then save the file. You can now browse example.org and www.example.org and you will view the website as you would through ddosx. 
+and enter `your DDoSx ip` `example.org www.example.org` at the bottom of the file then save the file. You can now browse example.org and www.example.org and you will view the website as you would through ddosx.
 
 ```eval_rst
 .. note::
@@ -32,7 +32,7 @@ Password: ********
 # vi /etc/hosts
 ```
 
-Alternatively if you don't have root access you can use the `curl` command for example:  
+Alternatively if you don't have root access you can use the `curl` command for example:
 
 IPv4:
 ```
@@ -54,7 +54,7 @@ You need to open up the Terminal app and then run the command
 $ sudo nano /private/etc/hosts
 ```
 
-and enter `your DDoSx ip` `example.org www.example.org` at the bottom of the file then save the file. You can now browse example.org and www.example.org and you will view the website as you would through ddosx. 
+and enter `your DDoSx ip` `example.org www.example.org` at the bottom of the file then save the file. You can now browse example.org and www.example.org and you will view the website as you would through ddosx.
 
 ```eval_rst
 .. note::
@@ -81,8 +81,8 @@ and enter `your DDoSx ip` `example.org www.example.org` at the bottom of the fil
 ```
 
 ```eval_rst
-  .. title:: Testing a domain on DDoSx 
+  .. title:: Testing a domain on DDoSx
   .. meta::
-    :title: Testing a domain on DDoSx | UKFast Documentation 
+    :title: Testing a domain on DDoSx | UKFast Documentation
     :description: A guide for testing your domain on  DDoSx before enabling DNS
 ```

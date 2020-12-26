@@ -15,8 +15,8 @@ Your retention period is how long restore points are kept for, which you can use
 
    **Retention Period Example**
 
-   If you have a job that has 7 restore points and runs once an hour, the retention period would be: 
-    
+   If you have a job that has 7 restore points and runs once an hour, the retention period would be:
+
    7 x 1 hour = 7 hour retention.
 
 ```
@@ -26,15 +26,15 @@ It is important to review each VM individually to decide what RPO they require, 
 ### VM Sizes and Data Change
 The size of VMs and how much data change occurs on them is important to take into consideration when deciding which VMs are grouped together in replication jobs. If you were to group together multiple large VMs with a high amount of data change, they will attempt to run simultaneously and could utilise all of your Veeam resources. This would likely cause other replications to sit idle, potentially missing their RPO. These large VMs should be split out so they don't all run at once, while many smaller VMs can be put into the same job due to each replication finishing quickly.
 
-## Storage Utilisation 
+## Storage Utilisation
 Running off the back of the retention periods and data change for VMs is the storage required at UKFast for replication jobs. The more restore points and the longer retention you have, coupled with the amount of data change, the more storage you will use out of your UKFast Cloud Connect quota.
 
 ```eval_rst
 .. note::
-   
+
    **Storage Utilisation Example**
 
-   Continuing with the previous example where there is a VM with 7 restore points and runs once an hour. Let's say this VM is 1000GB in size and has a data change of 10GB per hour. Each restore point on that VM would be saved as a ~10GB Snapshot on UKFast's Infrastructure and therefore take ~1070GB of your storage quota (this figure could be higher if there has been a lot of additional data written rather than just changes).  
+   Continuing with the previous example where there is a VM with 7 restore points and runs once an hour. Let's say this VM is 1000GB in size and has a data change of 10GB per hour. Each restore point on that VM would be saved as a ~10GB Snapshot on UKFast's Infrastructure and therefore take ~1070GB of your storage quota (this figure could be higher if there has been a lot of additional data written rather than just changes).
 
 ```
 

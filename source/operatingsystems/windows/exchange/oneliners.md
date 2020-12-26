@@ -49,7 +49,7 @@ List the size of a mailbox and the number of messages::
   $array += $object
 
   }
-  $array | export-csv C:\contoso.com.csv -notypeinformation  
+  $array | export-csv C:\contoso.com.csv -notypeinformation
 ```
 
 ```eval_rst

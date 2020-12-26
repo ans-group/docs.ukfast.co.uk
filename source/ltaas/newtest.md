@@ -19,7 +19,7 @@ Next select the `protocol`. If you're not sure what the protocol is, in your bro
 
 The next field is `Domain`. Drop down from the list. If you have a few domains here, select the one you wish to test. If you have just the one, your selection is much easier.
 
-The last field on the details form is the `path`. Putting the path as / will mean the traffic will likely be hitting your homepage. If you have an alternative homepage and wished to test that, you could enter /home, if /home was your homepage. A good rule of thumb to use is to enter whatever is in your browsers url bar (minus the protocol and domain).  
+The last field on the details form is the `path`. Putting the path as / will mean the traffic will likely be hitting your homepage. If you have an alternative homepage and wished to test that, you could enter /home, if /home was your homepage. A good rule of thumb to use is to enter whatever is in your browsers url bar (minus the protocol and domain).
 
 ## Test Settings
 

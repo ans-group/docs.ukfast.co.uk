@@ -42,7 +42,7 @@ The following certs are not due for renewal yet:
   /etc/letsencrypt/live/shop.yourdomain.com/fullchain.pem expires on 2020-10-05 (skipped)
 No renewals were attempted.
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-``` 
+```
 
 ## Certbot Timer Method
 

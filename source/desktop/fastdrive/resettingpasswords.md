@@ -4,7 +4,7 @@ If you have forgotten your **FastDrive** password, you have the ability to be re
 
 Open your internet browser and browse to your company's **FastDrive** domain. This should look like `companydomain.sharefile.eu`. If you are unsure of how to access your domain, please contact the primary contact on your account with UKFast.
 
-Once you have entered your **FastDrive** domain, you will be prompted with a login page similar to the one shown in the image below 
+Once you have entered your **FastDrive** domain, you will be prompted with a login page similar to the one shown in the image below
 
 ![Image 1 FastDrive Login Page](files/loginpage.png "Image 1: FastDrive Login Page")
 
@@ -20,7 +20,7 @@ Once verification is complete, you will be prompted with the confirmation screen
 
 ![Image 4 Reset Password](files/email.png "Image 4: Reset Password ")
 
-This confirms that an email has been sent to the user. This email will be sent from `sharefile-support@ukfast.co.uk` and will contain a password reset link.  Please proceed with the steps instructed. 
+This confirms that an email has been sent to the user. This email will be sent from `sharefile-support@ukfast.co.uk` and will contain a password reset link.  Please proceed with the steps instructed.
 
 If the user does not receive an email, please contact UKFast support.
 
@@ -28,14 +28,14 @@ If the user does not receive an email, please contact UKFast support.
 .. note::
 
   This instruction guide should assist you in resetting your FastDrive password. If you have any questions or still require assistance, please contact the FastDesk support team on 0800 923 0617.
-   
+
 ```
-  
+
 ```eval_rst
   .. title:: FastDrive | How to Reset your FastDrive Password
   .. meta::
      :title: How to Reset a FastDrive Password | UKFast Documentation
      :description: Guide for users on how to reset their FastDrive Password
      :keywords: fastdrive, password, reset, citrix, guide, tutorial, citrixfiles
-```  
- 
+```
+

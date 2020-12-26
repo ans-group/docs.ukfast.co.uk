@@ -15,9 +15,9 @@ An excellent tool that can be used to understand the website's performance is [G
 ## Up To Date Software
 It's important to keep on top of updating WordPress and its plugins to minimize risk from unpatched vulnerabilities, and updates may also include performance enhancements.
 
-Automatic updates for themes and plugins are disabled by default but can be [enabled in the wp-config.php file](https://wordpress.org/support/article/configuring-automatic-background-updates/). This may not always be the preferred solution as the new versions could contain breaking changes that may impact the website. Available updates are visible through the WordPress admin panel and can be updated manually as they are released. 
+Automatic updates for themes and plugins are disabled by default but can be [enabled in the wp-config.php file](https://wordpress.org/support/article/configuring-automatic-background-updates/). This may not always be the preferred solution as the new versions could contain breaking changes that may impact the website. Available updates are visible through the WordPress admin panel and can be updated manually as they are released.
 
-In addition to updating the application software, making sure that the server is running the latest software is also important for both security and performance reasons. This includes the Operating System, Apache/NGINX/IIS, MySQL/MariaDB/MSSQL and PHP. 
+In addition to updating the application software, making sure that the server is running the latest software is also important for both security and performance reasons. This includes the Operating System, Apache/NGINX/IIS, MySQL/MariaDB/MSSQL and PHP.
 
 ```eval_rst
 .. seealso::
@@ -25,7 +25,7 @@ In addition to updating the application software, making sure that the server is
 ```
 
 ## Load
-Server load is a major factor in the systems ability to handle requests quickly. `Load average` represents how many processes are queued waiting for compute resources, the higher the load average the slower the website will likely perform. 
+Server load is a major factor in the systems ability to handle requests quickly. `Load average` represents how many processes are queued waiting for compute resources, the higher the load average the slower the website will likely perform.
 
 Identifying and blocking malicious traffic from accessing the server will reduce its impact on the servers load. WordPress [brute force attacks](https://wordpress.org/support/article/brute-force-attacks/) are typical in the industry and are easily mitigated by using a [.htpasswd](https://wordpress.org/support/article/brute-force-attacks/#password-protect-wp-login-php) or a security plugin like [All In One](https://wordpress.org/plugins/all-in-one-wp-security-and-firewall/).
 
@@ -47,7 +47,7 @@ Installing `php-opache` on the server will improve PHP's performance by storing 
 It's fair to say that minimal, lightweight themes out-perform more complex graphic-heavy themes. It's recommended that before choosing a WordPress theme, you first consider the impact it will have on the sites performance. A solid indicator of the quality are the:
 * `Ratings`
 * `Reviews`
-* `Documentation` 
+* `Documentation`
 * `Support` options provided
 
 When talking about the homepage, it's ideal to avoid heavy content both in terms of CPU time and in download time. The homepage is best kept minimal and ideally most (if not all) of the content being static files served via cache.
@@ -62,9 +62,9 @@ Images that haven't been optimized cause slower page load times, so it is recomm
 
 - Use the correct file formats: `JPG/PNG/GIF`.
 - Remove/crop white space around the images and instead use `CSS` for padding.
-- Save images in the desired size to reduce the file size. 
+- Save images in the desired size to reduce the file size.
 
-"Lossless compression" is a method of compressing the size of a file without sacrificing image quality. This can be done using a plugin like [smush](https://en-gb.wordpress.org/plugins/wp-smushit/) (if suitable) or per image using an online [resizing tool](https://tinypng.com/). 
+"Lossless compression" is a method of compressing the size of a file without sacrificing image quality. This can be done using a plugin like [smush](https://en-gb.wordpress.org/plugins/wp-smushit/) (if suitable) or per image using an online [resizing tool](https://tinypng.com/).
 
 ## Minify CSS & JavaScript
 Minification is the action of removing white space and unnecessary characters from a file to reduce the total size of that file. When CSS and JavaScript are minified the page load time is decreased as the CSS and JS files are smaller.
@@ -72,13 +72,13 @@ Minification is the action of removing white space and unnecessary characters fr
 ## Defer JavaScript
 By default, `JavaScript` blocks DOM render which delays the time it takes the browser to display the page. Some `JavaScript` execution is not necessary for the initial render and can be deferred to execute after the page has loaded. Also see [Parser Blocking vs. Asynchronous JavaScript](https://developers.google.com/web/fundamentals/performance/critical-rendering-path/adding-interactivity-with-javascript#parser_blocking_versus_asynchronous_javascript) for details on loading JS asynchronously.
 
-## Windows Application Pool 
+## Windows Application Pool
 
-To prevent memory leaks or unresponsive/idle worker processes within the application causing performance issues, its recommended to setup nightly [recycling](https://docs.microsoft.com/en-us/iis/configuration/system.applicationhost/applicationpools/add/recycling/) in the IIS application pool. In additional to `recycling`, requests to the application pool can be limited using the `Queue Length` parameter in the application pool settings. To prevent high demand causing degraded website performance there is an algorithm that can suggest the optimal queue length  `( Available memory in MB x number of processors x 10 ) / ( total number of application pools )`. 
+To prevent memory leaks or unresponsive/idle worker processes within the application causing performance issues, its recommended to setup nightly [recycling](https://docs.microsoft.com/en-us/iis/configuration/system.applicationhost/applicationpools/add/recycling/) in the IIS application pool. In additional to `recycling`, requests to the application pool can be limited using the `Queue Length` parameter in the application pool settings. To prevent high demand causing degraded website performance there is an algorithm that can suggest the optimal queue length  `( Available memory in MB x number of processors x 10 ) / ( total number of application pools )`.
 
 ## Database Tuning
 
-- WordPress on [MSSQL](https://docs.ukfast.co.uk/operatingsystems/windows/mssql/performancedashboard.html) 
+- WordPress on [MSSQL](https://docs.ukfast.co.uk/operatingsystems/windows/mssql/performancedashboard.html)
 - Wordpress on [MySQL/MariaDB](https://docs.ukfast.co.uk/operatingsystems/linux/mysql/troubleshooting.html)
 
 ```eval_rst

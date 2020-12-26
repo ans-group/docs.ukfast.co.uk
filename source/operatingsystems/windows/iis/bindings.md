@@ -1,7 +1,7 @@
 # Creating Bindings
 
 * Please note, before creating bindings, you will first need to create a site within IIS, if you are unsure on how to do this, please review our guide "Setting Up your First Site in IIS"
- 
+
 
 To create Bindings for your new site, you will need to carry out the below steps
 
@@ -13,7 +13,7 @@ Select your site, and then select the "bindings button over to the right hand si
 
 ![bindings menu](files/bindings/bindings.PNG)
 
-Select the "Add" button from the available options, you will now be presented with the "Add Site Binding" context box as below. Within this box, please select the type of traffic which you would like the binding to handle, i.e http or https, 
+Select the "Add" button from the available options, you will now be presented with the "Add Site Binding" context box as below. Within this box, please select the type of traffic which you would like the binding to handle, i.e http or https,
 select the ip address and port which you would like the binding to listen for traffic on, and then enter your site's host name, for example dev.contoso.com.
 Once you are happy that all of the content is correct, please select the "Ok" button to apply your binding.
 

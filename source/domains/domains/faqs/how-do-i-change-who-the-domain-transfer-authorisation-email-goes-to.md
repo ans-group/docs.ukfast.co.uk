@@ -7,7 +7,7 @@
 ```
 In most cases, the admin contact for the domain will receive the transfer authorisation email.
 
-For some domains that do not have an admin contact, it will go to the domain owner/registrant. 
+For some domains that do not have an admin contact, it will go to the domain owner/registrant.
 
 If your domain is managed by UKFast you can [change the admin contact in MyUKFast](https://my.ukfast.co.uk/domains/index.php) by selecting the domain in Domains and editing the contact information.
 

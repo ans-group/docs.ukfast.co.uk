@@ -1,7 +1,7 @@
 # Adding a UPN Suffix In Active Directory
 
-How to add an alternative UPN suffix (User Principle Name Suffix),the typical reason for making this change, is to allow users to login with an alternate domain name. 
- 
+How to add an alternative UPN suffix (User Principle Name Suffix),the typical reason for making this change, is to allow users to login with an alternate domain name.
+
 In order to add a UPN Suffix to your domain, please follow the below guide.
 
 Log in to your domain controller using your domain administrator credentials, once logged in, select start and select "Active directory Domains and Trusts" as demonstrated below

@@ -8,7 +8,7 @@
 
 ```
 
-EV SSL certificates provide the highest level of trust, giving customers greater confidence that they are conducting business through a trusted websites. To be approved for the extended validation SSL certificate, there are first several steps and prerequisites that need to be completed. 
+EV SSL certificates provide the highest level of trust, giving customers greater confidence that they are conducting business through a trusted websites. To be approved for the extended validation SSL certificate, there are first several steps and prerequisites that need to be completed.
 
 ### Prerequisite's
 
@@ -37,7 +37,7 @@ Once the EV docs have been submitted for review, complete the **Domain Control V
 
 When purchasing the `Extended Validation SSL` the choice of **DNS**, **File upload** or **email validation** will have been selected for the **DCV** method.
 
-Upon purchase, unique `SHA` and `MD5` hashes will be provided. 
+Upon purchase, unique `SHA` and `MD5` hashes will be provided.
 
 ```eval_rst
 .. note::
@@ -59,7 +59,7 @@ In order to complete the organization validation you will need to register the c
 
 ### Call Back
 
-**Sectigo** will arrange a call back to the *listed approver* provided on the `EV` docs and confirm details regarding the information submitted on the `EV` docs. 
+**Sectigo** will arrange a call back to the *listed approver* provided on the `EV` docs and confirm details regarding the information submitted on the `EV` docs.
 
 When successful, they will move onto the final stage.
 

@@ -9,11 +9,11 @@ If you host your own solution and wish to configure a crossover connection, plea
 
 
  <H3>Prerequisites</H3>
- 
+
  1. Ensure you have an available NiC on both servers
  2. Connect both servers using a crossover cable
  3. Ensure you have administrator priviledges available to you
- 
+
 
 ## Configuration
 
@@ -52,7 +52,7 @@ Navigate to the Control panel as done for Server 1, select "Network and Sharing 
 ![2016 network connections](files/crossover/2016net2.png)
 
 Again, right click on the second adapter and select Properties, within the resulting NiC properties window, select "Internet Protocol Version 4 (IPv4) from the list, and select the "Properties" button.
- 
+
 The IPv4 properties will now be displayed, again as with server 1, you will now see a section relating to the IP address and a section relating to the DNS address as below.
 
 ![2016 IPv4 properties](files/crossover/2016v4propentry.png)
@@ -73,7 +73,7 @@ To test the connection, you can carry out a simple reachability test from each m
 ### Server 1
 
 * Select start, type "cmd" and select the resulting cmd.exe icon, this will will open a command prompt
-* In the command prompt, type `ping 10.0.0.24` and press enter 
+* In the command prompt, type `ping 10.0.0.24` and press enter
 * The command prompt should now display 4 ping responses with each line stating `Reply from 10.0.0.24: bytes=32 time=1ms TTL=128` as below
 
 ![Ping1](files/crossover/2012ping.png)

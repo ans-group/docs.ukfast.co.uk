@@ -1,8 +1,8 @@
 # Magento 1 in a Sub Directory
 
-If you have Magento 1 in a sub directory within your document root you will need to edit your domain's Nginx configuration (Example: /etc/nginx/conf.d/example.com.conf). 
+If you have Magento 1 in a sub directory within your document root you will need to edit your domain's Nginx configuration (Example: /etc/nginx/conf.d/example.com.conf).
 
-For this example we have Magento 1 in the sub directory /var/www/vhosts/example.com/htdocs/shop/. You need to replace the instance of replacemebackend with the PHP-FPM configuration pool name (This should be defined at the top of your Nginx configuration file) 
+For this example we have Magento 1 in the sub directory /var/www/vhosts/example.com/htdocs/shop/. You need to replace the instance of replacemebackend with the PHP-FPM configuration pool name (This should be defined at the top of your Nginx configuration file)
 
 ```bash
 location ~ ^/shop/ {

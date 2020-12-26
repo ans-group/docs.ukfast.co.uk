@@ -32,7 +32,7 @@ To enable DDoSx<sup>®</sup>, CDN and WAF on your domains, follow these steps:
 
 ## 1) Prepare your domain
 
-The first step to setting up DDoSx via an ALIAS, ANAME or CNAME is to prepare and check your domain before enabling DDoSx<sup>®</sup> protection. 
+The first step to setting up DDoSx via an ALIAS, ANAME or CNAME is to prepare and check your domain before enabling DDoSx<sup>®</sup> protection.
 
 Before setting up a external domain in DDoSx<sup>®</sup>, double-check that your current DNS provider allow the creation of either an ALIAS, ANAME or flattened CNAME record if you wish to put your root domain (like ukfast.co.uk) behind DDoSx<sup>®</sup>.
 
@@ -48,7 +48,7 @@ FastHosts        ALIAS
 ==============   =================
 ```
 
-On the other hand, if you ONLY wish to place subdomains that are not used in MX records etc behind DDoSx<sup>®</sup>, then using a normal CNAME should work fine. 
+On the other hand, if you ONLY wish to place subdomains that are not used in MX records etc behind DDoSx<sup>®</sup>, then using a normal CNAME should work fine.
 
 ## 2) Connect and verify your domain
 
@@ -94,19 +94,19 @@ TXT           @          ddosx-site-verification=245b62a2878fc30hd6altya37f00fe2
 
 - Select the `File Upload` verification method
 - Press the `Download File` button to download the verification file to your local machine
-- Using FTP or a web GUI for example, upload the downloaded verification file to the root of your website. This is commonly inside a `www` or `public_html` folder. 
+- Using FTP or a web GUI for example, upload the downloaded verification file to the root of your website. This is commonly inside a `www` or `public_html` folder.
 - Once uploaded, the file should be accessible by navigating to your domain followed by the name of the file. For example https://non-safedns-domain.co.uk/e9e0a272db6b707e81a88ac4baed776367d15dbd.txt
 - Once the file has been uploaded and working, press the `Verify` button on the domain verification page. If DDoSx<sup>®</sup> finds the correct verification file, your domain will be verified. Be sure to leave this file on your server as DDoSx<sup>®</sup> may periodically check that you still have control over domain.
 
 ## 3) Configure Domain
 
-Once a new domain has been added to DDoSx<sup>®</sup>, you will automatically be taken to the configuration page for that domain. 
+Once a new domain has been added to DDoSx<sup>®</sup>, you will automatically be taken to the configuration page for that domain.
 
 **Setting up Records**
 
 Alternatively, navigate to the main DDoSx<sup>®</sup> page on via the navigation bar on the left, click on the domain you want to configure, and then and click `Configure` tab.
 
-First, use the `Add Record` button to configure your root and subdomains' origin IP address. This will be the IP address that the request is forwarded to after being routed through DoSX<sup>®</sup>. This is usually your web server or load balancer's external IP address. 
+First, use the `Add Record` button to configure your root and subdomains' origin IP address. This will be the IP address that the request is forwarded to after being routed through DoSX<sup>®</sup>. This is usually your web server or load balancer's external IP address.
 
 ![configuredomain](files/ddosx_add_record.png)
 
@@ -116,7 +116,7 @@ The origin IP address of any of your subdomains (Including your root domain) can
 
 **Adding SSL Certificates**
 
-Before pressing the `Apply Changes` button, we can add any required SSL certificates to our domains. 
+Before pressing the `Apply Changes` button, we can add any required SSL certificates to our domains.
 
 To add an SSL certificate, click the `SSL` Tab. Any existing SSL certificates or SSL certificates purchased through UKFast for this domain should show up here.
 
@@ -138,7 +138,7 @@ Finally, click `Apply Changes` and your domain will now be set up on the UKFast 
 
 ## 4) Configure Additional Features
 
-You now have the option to configure and additional DDoSx<sup>®</sup> features such as CDN and WAF before testing and putting your domain live. 
+You now have the option to configure and additional DDoSx<sup>®</sup> features such as CDN and WAF before testing and putting your domain live.
 
 The configuration of CDN and WAF can be quite complex, so each has its own documentation.
 
@@ -156,7 +156,7 @@ Once you've connected your domain to the DDoSx<sup>®</sup> network and configur
 
 ![serverpreview](files/ddosx_cname_record.png)
 
-Locate the `hosts` file on your computer.  On Windows, you'll find it in **C:\Windows\System32\drivers\etc**.  
+Locate the `hosts` file on your computer.  On Windows, you'll find it in **C:\Windows\System32\drivers\etc**.
 
 Open the `hosts` file using Notepad or another plain text editor (you may need administrator rights to make changes), and insert a line for each domain you wish to test, that includes the domain and the CNAME Value from DDoSx<sup>®</sup>; for example:
 
@@ -181,7 +181,7 @@ If you're happy with how your site performs, you can make the required DNS chang
 
 The process to change DNS record varies between providers, so we do recommended following your DNS providers documentation should you need assistance creating ALIAS, ANAME or CNAME records.
 
-To create these records, you will need to log into to your current DNS provider and delete and existing A, AAAA, ALIAS ANAME or CNAME records for the domain or sub domain you want to route through DDoSx<sup>®</sup>. Feel free to take a backup of your DNS configuration of your prover supports it. A screenshot may also be useful. 
+To create these records, you will need to log into to your current DNS provider and delete and existing A, AAAA, ALIAS ANAME or CNAME records for the domain or sub domain you want to route through DDoSx<sup>®</sup>. Feel free to take a backup of your DNS configuration of your prover supports it. A screenshot may also be useful.
 
 Next, if you're setting up your root domain, create either an ALIAS or ANAME record and set the hostname to your root domain. This is commonly done by setting the `hostname` to an `@` symbol or a blank value. Then set the value/target of this record to your unique DDoSx<sup>®</sup> DNS CNAME Record value. For example:
 
@@ -312,7 +312,7 @@ For Apache 2.2 you will need to use [mod_rpaf](https://github.com/gnif/mod_rpaf)
 **haproxy**
 
 If you have haproxy in front of your webservers, you'll probably want to set the
-X-Forwarded-For header on here. The easiest way to do this is to disable the 
+X-Forwarded-For header on here. The easiest way to do this is to disable the
 `forwardfor` option to prevent haproxy setting the header automatically and instead
 set the header manually in each backend.
 

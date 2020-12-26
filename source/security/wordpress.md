@@ -4,7 +4,7 @@ WordPress is a very common Content Management System (CMS), used by many website
 
 ```eval_rst
 .. warning::
-   WordPress is third party software not provided by UKFast, therefore we cannot be responsible in the event of any security breaches due to the WordPress application itself, nor can we provide the in-depth forensics which may required should a breach occur.  
+   WordPress is third party software not provided by UKFast, therefore we cannot be responsible in the event of any security breaches due to the WordPress application itself, nor can we provide the in-depth forensics which may required should a breach occur.
 
    The advice given here is provided on reasonable endeavours basis, and we recommend you do your own additional research.
 ```

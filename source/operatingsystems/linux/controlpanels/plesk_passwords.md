@@ -2,7 +2,7 @@
 
 You can get your Plesk Admin Password via your MyUKFast Area as the Primary Contact on your Account.
 Head to your Server's dedicated information page within MyUKFast and scroll down to the bottom.
-As shown in the screenshot below, you will see a "Server Credentials" section where you can enter your MyUKFast Password to reveal the credentials we have on record for you server. 
+As shown in the screenshot below, you will see a "Server Credentials" section where you can enter your MyUKFast Password to reveal the credentials we have on record for you server.
 
 ![Server Credentials](files/servercredentials.PNG)
 

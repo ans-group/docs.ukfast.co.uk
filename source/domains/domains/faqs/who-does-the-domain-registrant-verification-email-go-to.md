@@ -12,8 +12,8 @@ The domain registrant verification email goes to the person who wishes to regist
 To change who will receive these emails, simply go to MyUKFast, change the registrant details and resend the email.
 
 
- 
 
 
- 
+
+
 

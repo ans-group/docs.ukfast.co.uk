@@ -205,8 +205,8 @@ We need to grow the LV over the new free space - for most people this will be th
 ```bash
 [root@ssh ~]# lvs
   LV   VG     Attr       LSize    Pool Origin Data%  Meta%  Move Log Cpy%Sync Convert
-  root eCloud -wi-ao----   18.53g                                                    
-  swap eCloud -wi-ao---- 1000.00m                                                    
+  root eCloud -wi-ao----   18.53g
+  swap eCloud -wi-ao---- 1000.00m
 [root@ssh ~]#
 ```
 
@@ -224,8 +224,8 @@ Confirm that this has resized the LV as expected:
 ```bash
 root@ssh ~]# lvs
   LV   VG     Attr       LSize    Pool Origin Data%  Meta%  Move Log Cpy%Sync Convert
-  root eCloud -wi-ao----   23.53g                                                    
-  swap eCloud -wi-ao---- 1000.00m                                                    
+  root eCloud -wi-ao----   23.53g
+  swap eCloud -wi-ao---- 1000.00m
 [root@ssh ~]#
 ```
 
@@ -272,5 +272,5 @@ Then confirm that the disk shows the correct size in `df -h`.
   .. title:: Extending LVM disk partition on Linux
   .. meta::
      :title: Extending LVM disk partition on Linux | UKFast Documentation
-     :description: A guide to extending an LVM disk partition on linux 
+     :description: A guide to extending an LVM disk partition on linux
      :keywords: ukfast, linux, extension, disk, server, virtual, vm, hard, drive

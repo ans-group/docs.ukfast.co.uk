@@ -1,6 +1,6 @@
 ## Application Monitoring
 
-As part of your solution, we will add Application specific monitoring. Depending on the application and configuration of your solution will depend on whether this is applicable. 
+As part of your solution, we will add Application specific monitoring. Depending on the application and configuration of your solution will depend on whether this is applicable.
 
 ```eval_rst
 +--------------------------+--------------------------------------------------------------------------------------------------------------------+

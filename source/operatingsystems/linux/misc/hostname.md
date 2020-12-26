@@ -7,11 +7,11 @@ The hostname of a server is intended to provide a human readable name. Many serv
 Most systems allow you to just type:
 
     $ hostname
-    
+
 However this may not be available in your operating system. In Centos 7 you are able to use the hostname command and:
 
     $ hostnamectl status
-    
+
 ## What Hostname Should I Choose?
 
 You must choose a suitable hostname for your server. If the server is only going to be used internally it may make sense just to give it a name based on its main service, for example a webserver could be named WEB. Generally people append a number on this in case they ever add extra server. If you are using a panel, you should opt for a FQDN, for example "mail.ukfast.co.uk" or "server.ukfast.co.uk" - This is due to the types of services which run on panels. Here is the requirements for setting a hostname in cPanel:
@@ -29,7 +29,7 @@ It also notes the following:
 - Only use lowercase letters in hostnames.
 
 
-    
+
 ## Setting a New Hostname [SSH]
 
 Different operating systems use different locations to set the hostname, if the following doesn't work it would be best to consult your individual operating systems documentation, however this should work for most.
@@ -45,7 +45,7 @@ Where <new-hostname> is the hostname you would like to use. This change is only 
 Type the following on systems with the hostnamectl binary:
 
     $ hostnamectl set-hostname <new-hostname>
-    
+
 The next step is to check the changes were successful, this can be done by going back to the "View the Current Hostname" section.
 
 Once you have completed this, it is recommended to also set the hosts file.

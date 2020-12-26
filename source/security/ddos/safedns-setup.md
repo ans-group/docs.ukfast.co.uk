@@ -32,9 +32,9 @@ To enable DDoSx<sup>®</sup>, CDN and WAF on your domains, follow these steps:
 
 ## 1) Prepare your domain
 
-The first step to setting up DDoSx<sup>®</sup> via SafeDNS is to prepare and check your domain before enabling DDoSx<sup>®</sup> protection. 
+The first step to setting up DDoSx<sup>®</sup> via SafeDNS is to prepare and check your domain before enabling DDoSx<sup>®</sup> protection.
 
-Before setting up a SafeDNS domain in DDoSx<sup>®</sup>, double-check that your domain is set up correctly and working as expected through SafeDNS. Documentation on how to setup SafeDNS can be found in our [SafeDNS Documentation](/domains/safedns/index) should you assistance. 
+Before setting up a SafeDNS domain in DDoSx<sup>®</sup>, double-check that your domain is set up correctly and working as expected through SafeDNS. Documentation on how to setup SafeDNS can be found in our [SafeDNS Documentation](/domains/safedns/index) should you assistance.
 
 You must move all records associated with the domains (including sub-domains) you wish to protect, including SMTP, MX, mail etc to SafeDNS.
 
@@ -65,13 +65,13 @@ The name server change may take up to 48 hours to propagate across the world. A 
 
 ## 3) Configure Domain
 
-Once a new domain has been added to DDoSx<sup>®</sup>, you will automatically be taken to the configuration page for that domain. 
+Once a new domain has been added to DDoSx<sup>®</sup>, you will automatically be taken to the configuration page for that domain.
 
 **Setting up Records**
 
 Alternatively, navigate to the main DDoSx<sup>®</sup> page on via the navigation bar on the left, click on the domain you want to configure, and then and click `Configure` tab.
 
-First, use the `Add Record` button to configure your root and subdomains' origin IP address. This will be the IP address that the request is forwarded to after being routed through DDoSX<sup>®</sup>. This is usually your web server or load balancer's external IP address. 
+First, use the `Add Record` button to configure your root and subdomains' origin IP address. This will be the IP address that the request is forwarded to after being routed through DDoSX<sup>®</sup>. This is usually your web server or load balancer's external IP address.
 
 ![configuredomain](files/ddosx_add_record.png)
 
@@ -81,7 +81,7 @@ The origin IP address of any of your subdomains (Including your root domain) can
 
 **Adding SSL Certificates**
 
-Before pressing the `Apply Changes` button, we can add any required SSL certificates to our domains. 
+Before pressing the `Apply Changes` button, we can add any required SSL certificates to our domains.
 
 To add an SSL certificate, click the `SSL` Tab. Any existing SSL certificates or SSL certificates purchased through UKFast for this domain should show up here.
 
@@ -101,7 +101,7 @@ Finally, click `Apply Changes` and your domain will now be set up on the UKFast 
 
 ## 4) Configure Additional Features
 
-You now have the option to configure and additional DDoSx<sup>®</sup> features such as CDN and WAF before testing and putting your domain live. 
+You now have the option to configure and additional DDoSx<sup>®</sup> features such as CDN and WAF before testing and putting your domain live.
 
 The configuration of CDN and WAF can be quite complex, so each has its own documentation.
 
@@ -119,7 +119,7 @@ You will see that initially your DNS Routing is shown as "Server", as per below.
 
 ![serverpreview](files/serverpreview.PNG)
 
-Locate the `hosts` file on your computer.  On Windows, you'll find it in **C:\Windows\System32\drivers\etc**.  
+Locate the `hosts` file on your computer.  On Windows, you'll find it in **C:\Windows\System32\drivers\etc**.
 
 Open the `hosts` file using Notepad or another plain text editor (you may need administrator rights to make changes), and insert a line for each domain you wish to test, that includes the domain and the Assigned IPv4 address from DDoSx<sup>®</sup>; for example:
 
@@ -251,7 +251,7 @@ For Apache 2.2 you will need to use [mod_rpaf](https://github.com/gnif/mod_rpaf)
 **haproxy**
 
 If you have haproxy in front of your webservers, you'll probably want to set the
-X-Forwarded-For header on here. The easiest way to do this is to disable the 
+X-Forwarded-For header on here. The easiest way to do this is to disable the
 `forwardfor` option to prevent haproxy setting the header automatically and instead
 set the header manually in each backend.
 

@@ -1,10 +1,10 @@
 # PROProtection report
 
-A PROProtection report gives a consolidated view of various usage and performance metrics related to your UKFast-hosted servers.  
+A PROProtection report gives a consolidated view of various usage and performance metrics related to your UKFast-hosted servers.
 
 Follow these steps to run a PROProtection report:
 
-1. Login to [MyUKFast](https://my.ukfast.co.uk) and go to `Dedicated Servers` in the `Products and Services` menu.  
+1. Login to [MyUKFast](https://my.ukfast.co.uk) and go to `Dedicated Servers` in the `Products and Services` menu.
 2. Go to the section called `Reports`.
 3. Click the `Generate` button next to the PROProtection option
 4. Complete the details requested, including filename, metrics and information to be included, and report timeframe.

@@ -4,10 +4,10 @@
 
 ### Veeam Backup & Replication Server (VBR Server)
 
-The Veeam Backup & Replication Server is the central component in your Veeam installation. This holds all of the configuration data and manages any jobs that you run. It is run from a Windows server and backed by SQL, which can run on the same server as a SQL Express instance in small installations or can be split out on to a dedicated server for larger installations. 
+The Veeam Backup & Replication Server is the central component in your Veeam installation. This holds all of the configuration data and manages any jobs that you run. It is run from a Windows server and backed by SQL, which can run on the same server as a SQL Express instance in small installations or can be split out on to a dedicated server for larger installations.
 
 
-### Veeam Proxy Server 
+### Veeam Proxy Server
 
 A proxy server handles data between your physical & virtual infrastructure during backups to your Veeam repositories. The proxy servers will also handle the data during a replication to a UKFast Cloud Connect Environment. In very small environments this can be installed on the VBR Server, but it is recommended to split this service out on to its own dedicated Windows Server/s.
 
@@ -17,7 +17,7 @@ A proxy server handles data between your physical & virtual infrastructure durin
 An NEA Appliance is a small Linux appliance, which is automatically launched by Veeam when you initially connect to a UKFast Cloud Connect environment. This is used to create the Layer 2 connection between sites during a partial failover. You will have one NEA Appliance for every internal Network/VLAN that you replicate to UKFast.
 
 
-## Environment Sizing 
+## Environment Sizing
 
 Veeam has a good document that gives information regarding the sizing of each of the Veeam components and it's strongly recommended that you pay close attention to this to ensure your jobs run optimally. Failure to do so means RPOs will likely be missed and data could be lost during a DR Scenario. This document can be accessed here:  [Veeam Sizing Summary](https://www.veeambp.com/appendix_a_sizing)
 

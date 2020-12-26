@@ -33,7 +33,7 @@ Adding Threat Monitoring to a server will consume a Threat Monitoring credit. Yo
 
 ## 2) Configure and install
 
-Once your chosen server(s) are selected, they will appear towards the bottom of the page in an "Install On" section. 
+Once your chosen server(s) are selected, they will appear towards the bottom of the page in an "Install On" section.
 
 You can remove a server from the "Install On" list via the red bin icon.
 
@@ -57,7 +57,7 @@ To receive email alerts for suspicious events, you will need to configure email 
 
 ![setup-type](files/setup-alerts-manager.png)
 
-On the "Server " tab, you will see a table of contacts and the types of alerts they have been configured to receive. 
+On the "Server " tab, you will see a table of contacts and the types of alerts they have been configured to receive.
 
 To set a contact to receive Threat Monitoring alerts, press the letter icon next to their name under the Threat Monitoring column and then press the "Save Changes" button, an example is shown below.
 

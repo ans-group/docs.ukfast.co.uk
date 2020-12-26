@@ -1,12 +1,12 @@
 # Restoring databases from a file based MySQL Backup
 
-This article will provide the steps need to restore a database using a physical file path when a .sql file is not available. 
+This article will provide the steps need to restore a database using a physical file path when a .sql file is not available.
 
 For this guide, the file path is `/home/restore/var/lib/mysql`.
 
 Using the given path, you will create a second instance of MySQL. This second instance of MySQL will be used to dump out copy of the database and create a .sql file which you can then import.
 
-## Create A Second Instance 
+## Create A Second Instance
 
 First edit the `/etc/my.cnf` file to include a new block called `[mysql1]` for the second instance. Here is an example of what a basic `my.cnf` looks like.
 
@@ -32,7 +32,7 @@ Using a text editor, add the following `[mysql1]` block to the end of the `/etc/
   [mysqld1]
   datadir=/home/restore/var/lib/mysql
   socket=/var/lib/mysql/mysqld1.sock
-  pid-file=/var/lib/mysql/mysqld1.pid  
+  pid-file=/var/lib/mysql/mysqld1.pid
   port=23306
   user=mysql
 ```
@@ -60,7 +60,7 @@ If it is not running, use the log file `/var/lib/mysql/mysqld_multi.log` to debu
 ```eval_rst
 .. warning::
 
-   Always ensure you have enough disk space available before creating a database dump 
+   Always ensure you have enough disk space available before creating a database dump
 ```
 
 Check that the database you require is in the second instance of MySQL and contains the tables you are expecting:
@@ -95,7 +95,7 @@ Check that the database you require is in the second instance of MySQL and conta
   1 row in set (0.00 sec)
 ```
 
-Provided the data is as expected, back into SSH and dump out the individual database:  
+Provided the data is as expected, back into SSH and dump out the individual database:
 
 ```bash
   $ mysqldump -S /var/lib/mysql/mysqld1.sock -u root -p example_db > example_db.sql

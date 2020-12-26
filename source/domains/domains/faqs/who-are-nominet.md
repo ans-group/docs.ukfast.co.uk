@@ -19,5 +19,5 @@ Nominet will sometimes contact the registrant directly should there be a problem
 Registrar changes can also be done via Nominet if a registrar is unable or unwilling to assist, but a fee is charged.
 
 
- 
+
 

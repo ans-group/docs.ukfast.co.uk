@@ -47,7 +47,7 @@ As per PCI-DSS requirements, all collected logs are securely stored on our Threa
 
 Operating system and application vulnerabilities are often the primary cause of a breach of a business's infrastructure. Delivered as part of the UKFast Threat Monitoring service are on-demand vulnerability scans, which detect any components that require patching or updating and configurations that need changing to ensure security. Detected items are also highlighted with a severity score allowing you to tailor your remediation efforts to the most critical threats.
 
-Internal and external vulnerability scans can be conducted through MyUKFast. Once completed, a detailed online report will be generated, clearly defining any vulnerabilities found. A report can also be generated, containing the top vulnerabilities found in that scan. 
+Internal and external vulnerability scans can be conducted through MyUKFast. Once completed, a detailed online report will be generated, clearly defining any vulnerabilities found. A report can also be generated, containing the top vulnerabilities found in that scan.
 
 For continued vulnerability monitoring, scheduled scans can be created to regularly scan and detect new vulnerabilities on your solution, ensuring that your infrastructure is always safe and secure.
 

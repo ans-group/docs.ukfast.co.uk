@@ -2,7 +2,7 @@
 
 **Custom-Branding** allows you to impress your clients with out-of-the-box, enterprise-level technology, branded from your own portfolio. Offer UKFast's Desktop-as-a-Service solution as your own, build your brand and expand your business offerings. **Custom-Branding** will enable you to customise your FastDesk environment without the cost of a Private FastDesk. You will be able to add your own branding to a custom domain.
 
-## What can be Custom-Branded? 
+## What can be Custom-Branded?
 
 ![Image 1 Log-in page Custom branding](files/4custombrand2.png "Image 1: Log-in page Custom Branding")
 
@@ -16,7 +16,7 @@ The image above identifies the four front-end aspects that can be custom branded
 .. note::
 
   You can purchase the domain from any reputable domain seller. However, please note that you will need access to control the DNS zone for the domain.
-   
+
 ```
 
 2. The background on the on login page can be custom branded. This can be changed to any background image you would like. UKFast require the dimension of the image that will be provided by the client to be 1920px x 1080px.
@@ -39,7 +39,7 @@ The image below identifies the three front-end aspects that can be custom brande
 .. note::
 
   If you have any questions or still require assistance, please contact the FastDesk support team on 0800 923 0617.
-   
+
 ```
 ```eval_rst
   .. title:: FastDesk | Custom-Branding

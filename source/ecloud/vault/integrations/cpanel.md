@@ -43,7 +43,7 @@
     +----------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
     ```
 
-5. Once these values have been filled with your unique access and secret keys, select 'Save and Validate Destination'. 
+5. Once these values have been filled with your unique access and secret keys, select 'Save and Validate Destination'.
 
 6. Ensure that you receive a success message:
 

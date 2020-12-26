@@ -1,6 +1,6 @@
 # Microsoft SQL Performance Dashboard
 
-In order to view the MSSQL Performance Dashboard, please follow the below steps.(Please note, this guide assumes that you already have MSSQL Management studio installed, and that you are connected to your database, 
+In order to view the MSSQL Performance Dashboard, please follow the below steps.(Please note, this guide assumes that you already have MSSQL Management studio installed, and that you are connected to your database,
 if this is not the case, and you are unsure of how to go about this, please follow our respective guides on those subjects)
 
 The Performance Dashboard is a Custom Report which is written by Microsoft specifically for use with Microsoft SQL to advise on performance improvements and best practice changes that could be made to your the databases.

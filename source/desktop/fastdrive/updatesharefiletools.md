@@ -10,7 +10,7 @@ To find out how to identify how up to date your tool is, use the instructions be
 
 ```eval_rst
 +--------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------+------------------------------------------------+
-| Tool                     | Finding Out Current Version                                                                                                                                             | Minimum Required Version | Guide to installing the latest version         | 
+| Tool                     | Finding Out Current Version                                                                                                                                             | Minimum Required Version | Guide to installing the latest version         |
 +==========================+=========================================================================================================================================================================+==========================+================================================+
 | Citrix files for Windows | Left click on the ShareFile logo in the System Tray to open the Dashboard. Select ‘Help’ from the dashboard. The version number appears at the top of the ‘Help’ page.  | 4.x and later            | https://support.citrix.com/article/CTX228273   |
 +--------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------+------------------------------------------------+
@@ -26,21 +26,21 @@ To find out how to identify how up to date your tool is, use the instructions be
 
 ```eval_rst
 +--------------------------+-------------------------------------+---------------------------------------------------------------------+
-| Mobile Apps              | Minimum OS Version                  | App Download Location                                               | 
+| Mobile Apps              | Minimum OS Version                  | App Download Location                                               |
 +==========================+=====================================+=====================================================================+
 | Citrix files for Android | Android 5 and later                 | https://play.google.com/store/apps/details?id=com.citrix.sharefile  |
 +--------------------------+-------------------------------------+---------------------------------------------------------------------+
-| Citrix files for iOS     | iOS 10 and later                    | https://apps.apple.com/us/app/citrix-sharefile/id434391375          | 
+| Citrix files for iOS     | iOS 10 and later                    | https://apps.apple.com/us/app/citrix-sharefile/id434391375          |
 +--------------------------+-------------------------------------+---------------------------------------------------------------------+
 
 ```
 
 **_This instruction guide should assist you in getting logged in for the first time. If you have any questions or still require assistance, please contact the FastDesk support team on 0800 923 0617_**
- 
+
 
 ```eval_rst
 .. meta::
     :title: Upgrade to newer ShareFile tools | UKFast Documentation
-    :description: Detailed guidance on upgrading ShareFile tools to the latest version 
+    :description: Detailed guidance on upgrading ShareFile tools to the latest version
     :keywords: FastDrive, ShareFile, Update, Citrix, Outlook, Windows, macOS, TLS
 ```

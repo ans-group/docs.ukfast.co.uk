@@ -6,7 +6,7 @@ Once you have a suitable SPF record, please refer to this [guide on how to add y
 
 ## General overview
 
-Sender Policy Framework records (SPF) are designed to prevent spammers from spoofing email from your domain by providing you with a means of stating which servers are authorised to send email on behalf of your domain. 
+Sender Policy Framework records (SPF) are designed to prevent spammers from spoofing email from your domain by providing you with a means of stating which servers are authorised to send email on behalf of your domain.
 Most mail servers will check for an SPF record when filtering for spam and typically will choose to reject delivery of a message if the SPF check fails. As such, it's important to note that SPF records will not prevent people from _sending_ spoofed messages but instead provide a mechanism by which receiving mail servers can choose not to deliver them.
 SPF records are also valuable in increasing the deliverability of legitimate mail sent from your domain. A message that passes an SPF check is less likely to be labelled as spam by mail servers employing spam filtering technology.
 

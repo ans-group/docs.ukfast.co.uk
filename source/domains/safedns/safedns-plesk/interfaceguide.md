@@ -40,7 +40,7 @@ In Tasks & Config , you have the following options:
 ```eval_rst
 ================ ====================================================================================================================
 Button           Function
-================ ====================================================================================================================                                                                                                        
+================ ====================================================================================================================
 Set API Key      Open a form for API Key to be inputted. When a Key is saved, It will be tested to confirm it is valid.
 
 Sync All         This will synchronise all enabled zones to SafeDNS.

@@ -72,7 +72,7 @@ mysql> GRANT ALL PRIVILEGES ON `databasename\_%`.* TO 'databaseuser'@'172.18.68.
 mysql> set global log_warnings = 0;
 ```
 
-To make this change permanent add to /etc/my.cnf under [mysqld]: 
+To make this change permanent add to /etc/my.cnf under [mysqld]:
 
 log_warnings = 0
 

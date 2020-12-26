@@ -1,6 +1,6 @@
 # Configuring user permissions
 
-From the users list within the computer management console, Right click on the user you wish to configure permissions for and select Properties 
+From the users list within the computer management console, Right click on the user you wish to configure permissions for and select Properties
 
 ![computer management](Files/Permissions/computermanagementuserscontextmenu.png)
 

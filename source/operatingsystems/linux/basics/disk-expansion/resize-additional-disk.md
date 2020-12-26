@@ -116,8 +116,8 @@ Confirm that this has resized the logical volume (LV) as expected:
 ```bash
 root@ssh ~]# lvs
   LV   VG     Attr       LSize    Pool Origin Data%  Meta%  Move Log Cpy%Sync Convert
-  root eCloud -wi-ao----   23.53g                                                    
-  swap eCloud -wi-ao---- 1000.00m                                                    
+  root eCloud -wi-ao----   23.53g
+  swap eCloud -wi-ao---- 1000.00m
 [root@ssh ~]#
 ```
 

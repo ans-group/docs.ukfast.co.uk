@@ -2,11 +2,11 @@
 
 
 
-The remote desktop port may be changed for security reasons. You may notice the event with ID 4625 in the security logs, 
+The remote desktop port may be changed for security reasons. You may notice the event with ID 4625 in the security logs,
 which is a failed login for a generic username, such as administrator. If you notice a large volume of these entries in the security log, this may be indicative of a brute force attack to the remote desktop service on your server.
 One of the ways to mitigate this, is to change the listening port from the default port of 3389
 
-* An important part of this process is to ensure that the new port is first opened on the firewall, 
+* An important part of this process is to ensure that the new port is first opened on the firewall,
   if it is not open, you will not be able to connect via RDP once the change has been made.
 
 In order to change the RDP Port, you will first need to access the registry editor, please select start, and type regedit, select the regedit application from the list as below
@@ -16,7 +16,7 @@ In order to change the RDP Port, you will first need to access the registry edit
 You will now be presented with the Registry Editor as below, Navigate through the Hive until you reach the RDP-Tcp node, this node is located in the following registry path
 
 `HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\TerminalServer\WinStations\`
- 
+
 ![Regedit1](files/rdp_portchange/regedit1.PNG)
 
 Now select the RDP-Tcp node, and you will see a number of registry keys in the centre field, scroll through these keys until you find "PortNumber", right click the PortNumber key, and select modify.
@@ -30,11 +30,11 @@ Select the radio button next to "Decimal" in the base section, then in the "Valu
 
 Select the Server Manager, this can be done by either selecting the Server Manager Icon on the Taskbar, or by selecting start, and selecting Server manager from the list of available applications.
 
-Select "Tools", then select "Computer Management" as below 
+Select "Tools", then select "Computer Management" as below
 
 ![Server Manager](files/rdp_portchange/smcomputermanagement.PNG)
 
-You will now be presented with the computer management console, select "Services and Applications" and then select the Services option. 
+You will now be presented with the computer management console, select "Services and Applications" and then select the Services option.
 The centre view will now be populated with the Services which run on your Server, scroll down the list and select "Remote Desktop Services" as below
 
 ![RDS](files/rdp_portchange/rds.PNG)

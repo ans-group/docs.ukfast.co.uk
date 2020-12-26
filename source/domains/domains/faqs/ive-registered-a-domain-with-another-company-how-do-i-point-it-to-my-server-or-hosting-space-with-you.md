@@ -58,7 +58,7 @@ Next you need to add the e-mail services. This will require three things:
 3. An 'MX' record which tells other e-mail services how-to get in touch with your server when trying to deliver mail
 
 
-To add an 'A' record just repeat the steps above, but now we're adding something new: an :doc:`'MX' record</domains/safedns/recordtypes>`. 
+To add an 'A' record just repeat the steps above, but now we're adding something new: an :doc:`'MX' record</domains/safedns/recordtypes>`.
 
 
 Once you've completed the last stage, your domain is ready to go and will be serving up the basic services of web-sites and e-mail.

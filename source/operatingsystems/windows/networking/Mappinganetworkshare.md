@@ -12,7 +12,7 @@ The next window, will ask you Where you want to create this location, select "Ch
 
 ![Choose Custom](files/networkshare/choosecustom.PNG)
 
-The next page asks you to specify the location, in the "internet or network address" box as below, please enter the address and path of your share, for example 
+The next page asks you to specify the location, in the "internet or network address" box as below, please enter the address and path of your share, for example
 `\\server1\remoteshare` and select next.
 
 ![Add location](files/networkshare/specifylocation.PNG)
@@ -27,5 +27,5 @@ The final pane, will confirm that you have created the location, select finish a
   .. title:: How to map a network share
   .. meta::
      :title: How to map a network share | UKFast Documentation
-     :description: A guide to mapping a network share on Windows 
+     :description: A guide to mapping a network share on Windows
      :keywords: ukfast, windows, network, share, mapping, drive, cloud, server

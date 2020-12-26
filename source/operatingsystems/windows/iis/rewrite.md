@@ -20,14 +20,14 @@ Once you have selected the Accept box, please select the install button, the ins
 
 ## Accessing the URL rewrite module
 
-* To Access the URL rewrite module, please follow the below guide (This guide assumes that you have completed the installation steps above, if not, please do so before attempting this stage) 
+* To Access the URL rewrite module, please follow the below guide (This guide assumes that you have completed the installation steps above, if not, please do so before attempting this stage)
 
 Select server manager, you can do this by selecting start and then selecting server manager from the list of available applications, or by selecting the server manager taskbar shortcut.
 Once the server manager has opened, please select tools, and select "Internet Information Services (IIS)" from the resulting menu as below
 
 ![Server Manager](files/rewrite/servermanager.PNG)
 
-You will now be presented with the IIS window, pop out the server instance, and then pop out the Sites option from the connections pane, 
+You will now be presented with the IIS window, pop out the server instance, and then pop out the Sites option from the connections pane,
 Select the site which you wish to configure URL rewrites for, once you have done so, locate the URL rewrite module in the central feature view, right click on it as below and select open feature from the resulting context menu.
 
 ![Rewrite module selected](files/rewrite/moduleselected.PNG)

@@ -4,7 +4,7 @@
   .. title:: FastDrive | Sharing Files
   .. meta::
     :title: FastDrive | Sharing Files | UKFast Documentation
-    :description: Information on how to share files in FastDrive    
+    :description: Information on how to share files in FastDrive
 ```
 
 In FASTdrive, you can share files and folders so that other people can access them. You can share files and folders with both FASTdrive users and non-FASTdrive users via the sharing feature that is available within FASTdrive.
@@ -49,7 +49,7 @@ Below this, you will be able to see an icon named __Edit Message Options__
 
 ![Image219](files/Image219.png)
 
-As you can see below, various options can be edited for your purpose. 
+As you can see below, various options can be edited for your purpose.
 
 ![Image220](files/Image220.png)
 

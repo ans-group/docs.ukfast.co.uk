@@ -1,8 +1,8 @@
 # Wordpress in a Sub Directory
 
-If you have Wordpress in a sub directory within your Magento 1 document root you will need to edit your domains Nginx configuration (Example: /etc/nginx/conf.d/example.com.conf). 
+If you have Wordpress in a sub directory within your Magento 1 document root you will need to edit your domains Nginx configuration (Example: /etc/nginx/conf.d/example.com.conf).
 
-For this example we have Wordpress in the sub directory /var/www/vhosts/example.com/htdocs/wp/. You need to replace the two instances of replacemebackend with the PHP-FPM configuration pool name (This should be defined at the top of your Nginx configuration file) 
+For this example we have Wordpress in the sub directory /var/www/vhosts/example.com/htdocs/wp/. You need to replace the two instances of replacemebackend with the PHP-FPM configuration pool name (This should be defined at the top of your Nginx configuration file)
 
 ```bash
 location ~ ^/wp/ {

@@ -1,6 +1,6 @@
 # VM Power Cycle
 
-In the event that you need to reboot or power on or off a VM this can be actioned through [MyUKFast](https://my.ukfast.co.uk/ecloud-public), by selecting the VM and navigating to the reboot tab along the top. This will display the following. 
+In the event that you need to reboot or power on or off a VM this can be actioned through [MyUKFast](https://my.ukfast.co.uk/ecloud-public), by selecting the VM and navigating to the reboot tab along the top. This will display the following.
 
 ![vmReboot](files/vmReboot.png)
 
@@ -9,7 +9,7 @@ From here you have options to perform a soft reboot of the VM along with a full 
 ![consoleButton](/ecloud/files/consoleButton.png)
 
 ```eval_rst
-   .. title:: eCloud Public VM power cycle 
+   .. title:: eCloud Public VM power cycle
    .. meta::
       :description: Programatic control of your eCloud Public resources
       :keywords: ukfast, cloud, ecloud, public, hosting, infrastructure, vmware, powercycle, reboot

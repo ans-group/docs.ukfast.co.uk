@@ -45,7 +45,7 @@ The update syntax for yum is similar to the install syntax:
 
 ```console
    yum update $PACKAGE_NAME
-```   
+```
 
 If it's just one package that needs to be updated then the above syntax is fine, for example:
 
@@ -81,7 +81,7 @@ An example of this, including a snippet of the output, is as follows:
 
 ```console
    yum search php
-   
+
    ...
    =============================== N/S matched: php ===============================
    php.x86_64 : PHP scripting language for creating dynamic web sites
@@ -92,7 +92,7 @@ An example of this, including a snippet of the output, is as follows:
 ```
 
 If the package exists on your system, you can pull additional information on it, including what version of the package is available to you.
- 
+
 ```eval_rst
 .. note::
 
@@ -114,7 +114,7 @@ Here is an example, including a snippet of the output, without colour highlights
 
 ```console
    yum info php70w
-   
+
    ...
    Installed Packages
    Name        : **php70w**
@@ -147,7 +147,7 @@ ID     | Command line             | Date and time    | Action(s)      | Altered
      4 | groupinstall development | 2017-10-24 09:20 | I, U           |  109 EE
      3 | install vim-enhanced     | 2017-10-24 09:19 | Install        |   33 EE
      2 | -y remove bind-libs bind | 2017-08-01 17:24 | Erase          |   35 E<
-     1 |                          | 2017-08-01 17:23 | Install        |  178 > 
+     1 |                          | 2017-08-01 17:23 | Install        |  178 >
 history list
 ```
 
@@ -269,7 +269,7 @@ Here is an example, and a snippet of the output:
    aptitude show linux-image-amd64
 
    ...
-   Package: linux-image-amd64               
+   Package: linux-image-amd64
    State: installed
    Automatically installed: no
    Version: 3.16+63

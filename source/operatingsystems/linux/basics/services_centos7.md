@@ -58,37 +58,37 @@ You can check the list of services by using the following command.
 
 ```console
 [root@centos ~]# systemctl list-unit-files --type=service
-UNIT FILE                                   STATE   
+UNIT FILE                                   STATE
 acpid.service                               enabled
 arp-ethers.service                          disabled
 auditd.service                              enabled
 autovt@.service                             disabled
 blk-availability.service                    disabled
-brandbot.service                            static  
+brandbot.service                            static
 cloud-config.service                        enabled
 cloud-final.service                         enabled
 cloud-init-local.service                    enabled
 cloud-init.service                          enabled
 console-getty.service                       disabled
 console-shell.service                       disabled
-container-getty@.service                    static  
+container-getty@.service                    static
 cpupower.service                            disabled
 crond.service                               enabled
-dbus-org.freedesktop.hostname1.service      static  
-dbus-org.freedesktop.locale1.service        static  
-dbus-org.freedesktop.login1.service         static  
-dbus-org.freedesktop.machine1.service       static  
+dbus-org.freedesktop.hostname1.service      static
+dbus-org.freedesktop.locale1.service        static
+dbus-org.freedesktop.login1.service         static
+dbus-org.freedesktop.machine1.service       static
 dbus-org.freedesktop.network1.service       invalid
 dbus-org.freedesktop.NetworkManager.service enabled
 dbus-org.freedesktop.nm-dispatcher.service  enabled
-dbus-org.freedesktop.timedate1.service      static  
-dbus.service                                static  
+dbus-org.freedesktop.timedate1.service      static
+dbus.service                                static
 debug-shell.service                         disabled
 dnsmasq.service                             disabled
 docker.service                              enabled
 dovecot.service                             enabled
-dracut-cmdline.service                      static  
-dracut-initqueue.service                    static  
+dracut-cmdline.service                      static
+dracut-initqueue.service                    static
 ```
 
 

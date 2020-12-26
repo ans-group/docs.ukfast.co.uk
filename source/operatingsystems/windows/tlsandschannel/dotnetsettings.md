@@ -3,9 +3,9 @@
 Windows Schannel will also handle the client-side TLS negotiation and cipher suite selection for any applications using the .NET Framework. The version of .NET that your application is targeted for will dictate which protocols are supported.
 
 
-.NET applications will usually be the "client" in the TLS handshake. A good example of this would be a 3rd party payment gateway. 
+.NET applications will usually be the "client" in the TLS handshake. A good example of this would be a 3rd party payment gateway.
 
-1. When a user visits a website, their device will be the "TLS client", and the webserver will be the "TLS server". A TLS connection will be established between these endpoints. 
+1. When a user visits a website, their device will be the "TLS client", and the webserver will be the "TLS server". A TLS connection will be established between these endpoints.
 
 2. If the webserver then connects to a payment gateway when the user makes a payment, the webserver must initiate another TLS connection from the webserver to the payment gateway API. For this part of the process, the webserver will act as the "TLS client", and the payment gateway will be the "TLS Server".
 
@@ -14,9 +14,9 @@ Windows Schannel will also handle the client-side TLS negotiation and cipher sui
 ### .NET Framework Versions
 There are a few caveats to keep in mind when dealing with .NET Framework versions:
 
-* Any changes made to Schannel protocols and ciphers, through registry or group policy, will also apply to applications using the .NET Framework. For example, if client-side TLS 1.0 is disabled in the registry then no .NET applications will be able to negotiate TLS 1.0 connections. 
+* Any changes made to Schannel protocols and ciphers, through registry or group policy, will also apply to applications using the .NET Framework. For example, if client-side TLS 1.0 is disabled in the registry then no .NET applications will be able to negotiate TLS 1.0 connections.
 
-* Application developers can explicitly specify through code which security protocols to use, providing that the security provider (Schannel) supports it. This is not considered good practice for production applications, but can be used in testing. Microsoft recommend that applications should always let the .NET Framework decide which protocols to use. 
+* Application developers can explicitly specify through code which security protocols to use, providing that the security provider (Schannel) supports it. This is not considered good practice for production applications, but can be used in testing. Microsoft recommend that applications should always let the .NET Framework decide which protocols to use.
 
 * Applications compiled for .NET Framework 4.6 and higher will use the following security protocols by default:
 
@@ -30,7 +30,7 @@ There are a few caveats to keep in mind when dealing with .NET Framework version
     - TLS 1.0
     - SSL 3
 
-* Applications compiled for .NET Framework 2 to 3.5 will use the following security protocols by default. Administrators can install an update and set a registry value to override this (detailed below): 
+* Applications compiled for .NET Framework 2 to 3.5 will use the following security protocols by default. Administrators can install an update and set a registry value to override this (detailed below):
 
     - TLS 1.0
     - SSL 3

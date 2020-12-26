@@ -1,6 +1,6 @@
 ```eval_rst
 .. meta::
-   :title: IP ranges on DDoSX\ :sup:`®` | UKFast Documentation 
+   :title: IP ranges on DDoSX\ :sup:`®` | UKFast Documentation
    :description: A list of IPv4 and IPv6 ranges used by the DDoSX\ :sup:`®` network
 ```
 
@@ -8,7 +8,7 @@
 
 For some applications you may want to know the IP Ranges that are used on the DDoSX<sup>®</sup> platform (e.g. such as for defining a trusted list of IPs to accept X-Forwarded-For header from.)
 
-## IPv4: 
+## IPv4:
 ### Unicast Range:
 * 185.156.64.0/24
 * 23.170.128.0/24

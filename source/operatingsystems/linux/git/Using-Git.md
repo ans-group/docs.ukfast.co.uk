@@ -100,7 +100,7 @@ git branch newbranch
 git checkout newbranch
 ```
 
-You can then push the new branch to the repo instead of to the master branch  
+You can then push the new branch to the repo instead of to the master branch 
 
 ```bash
 git push origin newbranch

@@ -1,6 +1,6 @@
 # The New Settings App
 
-  In Windows Server 2016, the way in which you configure options for windows has changed dramatically. 
+  In Windows Server 2016, the way in which you configure options for windows has changed dramatically.
   In previous versions of Windows, the vast majority of basic changes to system options were made in the control panel, however in Windows Server 2016, these changes are now mostly made in the Settings App
 
 * If you are not yet familiar with Windows Server 2016, please use the below overview to familiarise yourself with the Settings App

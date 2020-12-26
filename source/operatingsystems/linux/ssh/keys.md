@@ -7,11 +7,11 @@ A more secure way of accessing a server via SSH than password authentication is 
 
    The command ``~/`` is used often here. This is simply a shortcut to the path ``/home/user/``
 
-``` 
+```
 
 ## Generating Keys
 
-The command `ssh-keygen` will generate a pair of public and private keys for your user. You should see a prompt similar to the below. A passphrase is not necessary, but if entered you will have to enter this passphrase when logging into a remote server using this public key. 
+The command `ssh-keygen` will generate a pair of public and private keys for your user. You should see a prompt similar to the below. A passphrase is not necessary, but if entered you will have to enter this passphrase when logging into a remote server using this public key.
 
 ```console
 $ ssh-keygen

@@ -1,7 +1,7 @@
 # Automatic Updates in Windows Server 2016
 
 
-In Windows server 2016, windows updates are partially controlled by a new update orchestrator service aswell as by the windows update service. 
+In Windows server 2016, windows updates are partially controlled by a new update orchestrator service aswell as by the windows update service.
 The orchestrator service uses a series of scheduled tasks to check for new updates being installed by windows updates, and schedules a reboot at any time outside of the 12 hour “active hours” window if the service detects that an update has been installed. The orchestrator provides no control over the day, or specific time within the 12 hour window at present.
 
 There is no official resolution at the time of writing, beyond controlling update release via WSUS, once the update is released however, a random reboot will occur when the update has been installed.
@@ -23,7 +23,7 @@ To Disable Auto Restart for updates
 ![Update Orchestrator Tasks](files/windowsupdate/reboottask1.PNG)
 
 * Open Explorer by selecting the Folder icon from the task bar, and navigate to C:\Windows\System32\Tasks\Microsoft\Windows\UpdateOrchestrator
-* Right click On the reboot file, and select "Properties", you will now be presented with the "Reboot Properties" window, select the "Security" tab, and select the Edit button. 
+* Right click On the reboot file, and select "Properties", you will now be presented with the "Reboot Properties" window, select the "Security" tab, and select the Edit button.
 * Set file security to Deny for all types of access for SYSTEM, LOCAL SERVICE, NETWORK SERVICE. you can do this by selecting each of the mentioned users in turn, and selecting the Deny box for "Full Control" as below (This prevents Windows from re-enabling the task)
 
 ![Reboot Task Permissions](files/windowsupdate/rebootfileperms.PNG)

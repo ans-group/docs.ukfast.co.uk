@@ -15,5 +15,5 @@ Registrants will be sent a WDRP email 120 days before a domain's expiry date. If
 
 In order to update your contact information in the WHOIS database, you will need to contact your registrar (or your reseller if you registered your domain name through a reseller).
 
-Should the reminder email bounce then the domain registrant validation process will be triggered and if not verified within 15 days the domain name will be suspended. 
+Should the reminder email bounce then the domain registrant validation process will be triggered and if not verified within 15 days the domain name will be suspended.
 

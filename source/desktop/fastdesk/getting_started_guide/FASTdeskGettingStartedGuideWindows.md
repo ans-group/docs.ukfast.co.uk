@@ -6,7 +6,7 @@ FastDesk®  is UKFast’s Desktop as a Service (DaaS) solution, which allows use
 .. note::
 
    Compatible with Windows 7, 8.1, 10 (32-bit and 64-bit editions). Also compatible with Windows Thin PC as well as Windows Server 2008 (R2, 64-bit), 2012 (R2, Standard, and, Datacenter editions)
-   
+
 ```
 
 ## Pre-Installation information
@@ -14,13 +14,13 @@ FastDesk®  is UKFast’s Desktop as a Service (DaaS) solution, which allows use
 This guide provides step by step instructions on installing and accessing FastDesk on your Windows PC device. Day-to-day, there are two available methods to access FastDesk on your Windows PC. These methods consist of the [web portal](https://www.fastdesk.co.uk/) and the Citrix Workspace Application. Whilst this guide will help you install the Citrix Workspace Application in order to access FastDesk for the first time, we highly recommend using the web portal to access FASTdesk on a day-to-day basis. Both the Citrix Workspace application and web portal gives you:
 
 - Instant access to your FastDesk environment in an easy-to-use, all-in-one interface.
-- Ability to use the FastDesk on domain and non-domain joined PCs and thin clients. 
+- Ability to use the FastDesk on domain and non-domain joined PCs and thin clients.
 - Full integration with the Citrix Content Collaboration (Also known as ShareFile) which gives you the ability to upload and download files all in one place.
 
 To install the Citrix Workspace Application on the local machine, there is a minimum memory requirement of 1GB RAM. In addition, two pre-requisites must be installed. They are:
 
-- .NET Framework 4.6.2 or later. 
-- Microsoft Visual C++ Redistributable 14.16.27012.6 or later (requires admin access). 
+- .NET Framework 4.6.2 or later.
+- Microsoft Visual C++ Redistributable 14.16.27012.6 or later (requires admin access).
 
 These pre-requisites are normally installed with Windows updates so if your version of Windows is up to date, you should not have to install these. Alternatively, the Citrix Workspace application also attempts to install them during intallation. **(See Step 1)**. If none of these steps result in the installation of the pre-requisites, please visit the Citrix help page at:
 `https://support.citrix.com/article/CTX250044?_ga=2.101236417.1997404425.1578506907-124105596.1573051453`. Alternatively, you can click this [link here](https://support.citrix.com/article/CTX250044?_ga=2.101236417.1997404425.1578506907-124105596.1573051453) to take you to the website.
@@ -32,7 +32,7 @@ From your Windows PC, download and install the latest version of the Citrix Work
 `https://www.citrix.co.uk/downloads/workspace-app/`. Alternatively, you can click this [link here](https://www.citrix.co.uk/downloads/workspace-app/) to take you to the website.
 
 
-As you can see from the **image 1** below, all versions of Workspace are listed. 
+As you can see from the **image 1** below, all versions of Workspace are listed.
 
 ![Image 1: Citrix Website OS options Download Page](files/Website_download.PNG "Image 1: Citrix website OS options download page")
 
@@ -56,12 +56,12 @@ Once the "Citrix Workspace" application is installed, open your web browser and 
 
 ![Image 5: FastDesk URL](files/Url.png "Image 5: FastDesk URL")
 
-Once here, you will see the FastDesk branding and a log in page with a man on a sofa (Refer to **image 6** below). 
+Once here, you will see the FastDesk branding and a log in page with a man on a sofa (Refer to **image 6** below).
 
 
 ![Image 6 FastDesk Landing Page](files/Welcome_screen.png "Image 6: FastDesk Landing Page")
 
-Go ahead and enter the username and password credentials that were provided to you by the FASTdesk team. Upon entering your credentials, you will be asked to change your password (See **image 7**). 
+Go ahead and enter the username and password credentials that were provided to you by the FASTdesk team. Upon entering your credentials, you will be asked to change your password (See **image 7**).
 
 ![Image 7 FastDesk Password Reset](files/resetpassword.png "Image 7: FastDesk Password Reset Page")
 
@@ -69,12 +69,12 @@ Go ahead and enter the username and password credentials that were provided to y
 .. note::
 
    Your new password must be a minimum of 8 characters in length and contain at least 3 of the following: uppercase letters, lowercase letters, numbers, symbols and special characters e.g “! ” £”. Your password can also not contain the name of your account. For example, if your account name is John Smith, a password with the word ‘john’ will not be accepted. Once your password has been reset, it should simply log you in. It may ask you to dectect receiver, if so, simply select the option that allows it to detect the receiver.
-   
+
 ```
 
 ## Step 3 - Launching a desktop from the Web Portal
 
-Once you have logged into FastDesk, you will be presented with the applications and hosted desktops that have been allocated to you (Refer to **image 8**). 
+Once you have logged into FastDesk, you will be presented with the applications and hosted desktops that have been allocated to you (Refer to **image 8**).
 
 ![Image 8 FastDesk Web Portal Landing Page](files/HomeScreen.PNG "Image 8: FastDesk Web Portal Landing Page")
 
@@ -84,16 +84,16 @@ You can navigate between Desktops and Apps via the icons found at the top of the
 
 Once in the desktops categories, you can open the desktop that has been allocated to you by just clicking the monitor of the desktop or by clicking the downward arrow which will give you three options of "Open", "Add To Favorites" and "Restart". You can also choose to "Add To Favourites", which pins your desktop to the Favourites category. From here you can also click "open" (Refer to **image 9**).
 
-When either the monitor or open button has been clicked, you will get a pop up that asks "Open Citrix Workspace Launcher?" (Refer to **image 10**). Next, allow it to open the Launcher. 
+When either the monitor or open button has been clicked, you will get a pop up that asks "Open Citrix Workspace Launcher?" (Refer to **image 10**). Next, allow it to open the Launcher.
 
 ![Image 10 Open Citrix Workspace Launcher?](files/Openlauncher.png "Image 10: Open Citrix Workspace Launcher?")
 
-Upon opening this, your desktop will begin to launch in another window (Refer to image **image 11** included). 
+Upon opening this, your desktop will begin to launch in another window (Refer to image **image 11** included).
 
 ![Image 11 Desktop Launching](files/Openingdesktop.PNG "Image 11: Desktop Launching").
 
 
-Once fully launched, your desktop should appear as it is in **image 12**. 
+Once fully launched, your desktop should appear as it is in **image 12**.
 
 ![Image 12 Fully Loaded Desktop](files/otherwindow.png "Image 12: FASTdesk ready for use")
 
@@ -112,7 +112,7 @@ Simply type the following URL `"https://www.fastdesk.co.uk"` and click Add. Alte
 .. warning::
 
    Whenever you log out of a desktop, do allow at least 3 minutes before attempting to log back in. This is to ensure the session correctly ends before another one is open. If you have not waited long enough, there is a danger of your applications not appearing when you log in. If you do find that this is the case, simply log out, wait at least 3 minutes and log back in again.
-   
+
 ```
 
 **_This instruction guide should assist you in getting logged in for the first time. If you have any questions or still require assistance, please contact the FastDesk support team on 0800 923 0617_**.
@@ -120,5 +120,5 @@ Simply type the following URL `"https://www.fastdesk.co.uk"` and click Add. Alte
  ```eval_rst
    .. meta::
       :title: FastDesk Getting Started Guide Windows PC Edition | UKFast Documentation
-      :description: Guide for users on how to get setup on FASTdesk using a Windows PC 
-      :keywords: FastDesk, Citrix, ukfast, VDI, Citrix Receiver, Windows, Workspace Application 
+      :description: Guide for users on how to get setup on FASTdesk using a Windows PC
+      :keywords: FastDesk, Citrix, ukfast, VDI, Citrix Receiver, Windows, Workspace Application

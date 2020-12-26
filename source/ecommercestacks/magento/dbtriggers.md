@@ -19,7 +19,7 @@ Replace DBNAME with the database name in question:
 
 Review the file above and look for the DEFINER:
 
-```bash 
+```bash
 ~]# cat /tmp/DBNAME_triggers_export.sql | grep DEFINER
 /*!50003 CREATE*/ /*!50017 DEFINER=`username`@`localhost`*/
 ```

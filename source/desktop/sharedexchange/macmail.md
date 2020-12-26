@@ -5,7 +5,7 @@
    .. meta::
       :title: Shared Exchange | Connect using Mac Mail | UKFast Documentation
       :description: Information on How to Connect to Your Shared Exchange Mailbox Using the Mail app for Mac
-      
+
 ```
 
 The easiest way to configure any email client is to correctly configure the autodiscover DNS record. With autodiscover configured, takes away the inconvenience of being required to know all of the mail server settings all that is needed is the username and password, the rest is automatic. To configure autodiscover, please review our guide on Shared Exchange DNS Setup.

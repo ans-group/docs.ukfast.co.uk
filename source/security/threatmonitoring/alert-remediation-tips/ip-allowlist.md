@@ -41,7 +41,7 @@ Follow the steps below to implement this, in the example shown we implement IP b
 14.    Set the ‘Service’ to TCP or UDP as required, most services like SSH and FTP require TCP.
 15.    Give this port group a name
 16.    Give the port group a description if necessary
-17.    Set ‘Port Type’ to ‘Port Number’ 
+17.    Set ‘Port Type’ to ‘Port Number’
 18.    Enter the port you wish to secure in both boxes.
 19.    Enter a note for these ports if needed.
 20.    Press ‘Create group’ to save this port group.

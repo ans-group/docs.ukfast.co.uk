@@ -1,6 +1,6 @@
 # Default Configuration for Backups
 
-In order for UKFast to simplify our backup schedule offering without losing the ability to tailor the configuration to your solution, we have predefined backup options available for you to select from. Please note that: 
+In order for UKFast to simplify our backup schedule offering without losing the ability to tailor the configuration to your solution, we have predefined backup options available for you to select from. Please note that:
 - The retention for Shared eCloud Backups is 28 days.
 - The default retention for Dedicated eCloud Backup solutions is 28 days.
 - The time backups run at is stipulated by UKFast in an overnight window, unless otherwise specified.
@@ -27,10 +27,10 @@ In order for UKFast to simplify our backup schedule offering without losing the 
 
 ### Backup Agents
 
-When referring to Database Backups by default we will apply the below configurations to the following Backups Agents: 
+When referring to Database Backups by default we will apply the below configurations to the following Backups Agents:
 -	Microsoft SQL Server
 -	PostgreSQL
--	Oracle DB 
+-	Oracle DB
 -	MySQL Server / MariaDB
 
 ### Backup Options
@@ -52,7 +52,7 @@ When referring to Database Backups by default we will apply the below configurat
 
 ## Standalone Database Backups
 
-To enable UKFast to provide a more granular level for restores of databases, by default: 
+To enable UKFast to provide a more granular level for restores of databases, by default:
 -	Database servers (e.g. MSSQL, MySQL, PostgreSQL) are backed up at the database level.
 -	Database backup times are different to the operating system backup times to limit the impact on performance.
 
@@ -61,7 +61,7 @@ To enable UKFast to provide a more granular level for restores of databases, by 
 To enable UKFast to provide a more granular level for restores of database clusters, by default:
 -	Nodes in the clusters are backed up at different times to limit the impact on performance.
 -	Database Clusters have an additional database level backup (again at different times to the nodes).
--	File Server Clusters will have an additional backup set up for the cluster drives. 
+-	File Server Clusters will have an additional backup set up for the cluster drives.
 
 ## Virtual Machine Level Backups
 

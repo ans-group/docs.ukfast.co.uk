@@ -1,12 +1,12 @@
 # Installing Git
 
-## Linux 
+## Linux
 
 ### Centos/RHEL
 
 
 ```bash
-sudo yum install git 
+sudo yum install git
 ```
 
 Configure your Git username and email using the following commands:
@@ -21,7 +21,7 @@ git config --global user.email support@ukfast.co.uk
 
 
 ```bash
-sudo apt-get install git 
+sudo apt-get install git
 ```
 
 Configure your Git username and email using the following commands:
@@ -30,7 +30,7 @@ Configure your Git username and email using the following commands:
 git config --global user.name "Support"
 git config --global user.email support@ukfast.co.uk
 ```
-## Windows 
+## Windows
 
 
   1. Download the latest installer for Windows https://git-for-windows.github.io/
@@ -43,14 +43,14 @@ git config --global user.name "Support"
 git config --global user.email support@ukfast.co.uk
 ```
 
-## Mac 
+## Mac
 
 
-### Homebrew 
+### Homebrew
 
 
 ```bash
-brew install git 
+brew install git
 ```
 
 Configure your Git username and email using the following commands:
@@ -60,7 +60,7 @@ git config --global user.name "Support"
 git config --global user.email support@ukfast.co.uk
 ```
 
-### Mac installer 
+### Mac installer
 
 
 1. Download the latest installer for Mac here https://sourceforge.net/projects/git-osx-installer/files/

@@ -7,18 +7,18 @@ FastDesk®  is UKFast’s Desktop as a Service (DaaS) solution, which allows use
 .. note::
 
     Compatible with MacOS Catalina, MacOS Mojave and MacOS High Sierra.
-   
+
 ```
 
 ## Pre-Installation information
 
 
-This guide provides step by step instructions on installing and accessing FastDesk on your Apple MacOS device. Day-to-day, there are two available methods to access FastDesk on your  Apple MacOS device. These methods consist of the [web portal](https://www.fastdesk.co.uk/) and the Citrix Workspace Application. Whilst this guide will help you install the Citrix Workspace Application in order to access FastDesk for the first time, we highly recommend using the web portal to access FASTdesk on a day-to-day basis. 
+This guide provides step by step instructions on installing and accessing FastDesk on your Apple MacOS device. Day-to-day, there are two available methods to access FastDesk on your  Apple MacOS device. These methods consist of the [web portal](https://www.fastdesk.co.uk/) and the Citrix Workspace Application. Whilst this guide will help you install the Citrix Workspace Application in order to access FastDesk for the first time, we highly recommend using the web portal to access FASTdesk on a day-to-day basis.
 
 Both the Citrix Workspace application and web portal gives you:
 
 - Instant access to your FastDesk environment in an easy-to-use, all-in-one interface.
-- Ability to use the FastDesk on domain and non-domain joined PCs and thin clients. 
+- Ability to use the FastDesk on domain and non-domain joined PCs and thin clients.
 - Full integration with the Citrix Content Collaboration (Also known as ShareFile) which gives you the ability to upload and download files all in one place.
 
 ## Step 1 -  Installing the Citrix Workspace Application
@@ -26,7 +26,7 @@ Both the Citrix Workspace application and web portal gives you:
 From your macOS device, download and install the latest version of the Citrix Workspace app at this URL:
 `https://www.citrix.co.uk/downloads/workspace-app/`. Alternatively, you can click this [link here](https://www.citrix.co.uk/downloads/workspace-app/) to take you to the website.
 
-As you can see from the **image 1** below, all versions of Workspace are listed. 
+As you can see from the **image 1** below, all versions of Workspace are listed.
 
 ![Image 1: Citrix Website OS options Download Page](files/Downloads_Webpage.PNG "Image 1: Citrix website OS options download page")
 
@@ -34,7 +34,7 @@ Expand the "Workspace app for Mac" section and select the latest version of the 
 
 ![Image 2: Citrix Website macOS Download Page](files/Url_download.PNG "Image 2: Citrix website macOS download page")
 
-Once the file has downloaded, open the file to begin installation and select Install "Citrix Workspace app" if prompted. For the Citrix Workspace Application to install on the local machine, there is a minimum storage requirement of 286MB. 
+Once the file has downloaded, open the file to begin installation and select Install "Citrix Workspace app" if prompted. For the Citrix Workspace Application to install on the local machine, there is a minimum storage requirement of 286MB.
 
 Next, the "Citrix Workspace Installer" will open (Refer to the image included). Select continue to begin installation and continue again to agree to the Citrix terms of service. The next page dialog screen displays the storage space required and gives you the ability to change the install location of your Citrix Workspace app. In most cases, this will stay the same and you can simply select install. At this point, it might prompt you again for your local machines' password. Enter this if required and wait for the installation to finish. Once the installation has finished, it will take you to the Add Account page dialog box. On this screen, do not tick "Add Account" and simply select "Finish installation" (See **image 3** below).
 
@@ -50,7 +50,7 @@ Once here, you will see the FastDesk landing and log in page with a man on the s
 ![Image 4: macOS FastDesk web URL page](files/loggininurl.PNG "Image 4: macOS FastDesk web URL page")
 
 
-Go ahead and enter the username and password credentials that were provided to you by the FASTdesk team. Upon entering your credentials, you will be asked to change your password (See **image 5** below). 
+Go ahead and enter the username and password credentials that were provided to you by the FASTdesk team. Upon entering your credentials, you will be asked to change your password (See **image 5** below).
 
 ![Image 5: macOS FastDesk reset password](files/reset_password.PNG "Image 5: macOS FastDesk reset password")
 
@@ -58,12 +58,12 @@ Go ahead and enter the username and password credentials that were provided to y
 .. note::
 
    Your new password must be a minimum of 8 characters in length and contain at least 3 of the following: uppercase letters, lowercase letters, numbers, symbols and special characters e.g “! ” £”. Your password can also not contain the name of your account. For example, if your account name is John Smith, a password with the word ‘john’ will not be accepted. Once your password has been reset, it should simply log you in. It may ask you to dectect receiver, if so, simply select the option that allows it to detect the receiver.
-   
+
 ```
 
 ## Step 3 - Launching a desktop from the Portal
 
-Once you have logged into the FastDesk portal, you will be presented with a blank page with some instructions (Refer to **image 6** below). 
+Once you have logged into the FastDesk portal, you will be presented with a blank page with some instructions (Refer to **image 6** below).
 
 ![Image 6 FastDesk Logged in Landing Page](files/HomeScreen.PNG "Image 6: FastDesk Logged in Landing Page")
 
@@ -75,16 +75,16 @@ Once in the desktops categories, you can open the desktop that has been allocate
 
 ![Image 8 FastDesk Desktops Page](files/storefront.png "Image 8: FastDesk Desktops Page")
 
-When either the monitor or open button has been clicked, you will get a pop up that asks "Open Citrix Workspace Launcher?" (Refer to **image 9** below). Next, allow it to open the Launcher. 
+When either the monitor or open button has been clicked, you will get a pop up that asks "Open Citrix Workspace Launcher?" (Refer to **image 9** below). Next, allow it to open the Launcher.
 
 ![Image 9 Open Citrix Workspace Launcher?](files/Open_launcher.PNG "Image 9: Open Citrix Workspace Launcher?")
 
 
-Upon opening this, your desktop will begin to launch in another window (Refer to image **image 10** below included). 
+Upon opening this, your desktop will begin to launch in another window (Refer to image **image 10** below included).
 
 ![Image 10 Desktop Launching](files/Openingdesktop.PNG "Image 10: Desktop Launching")
 
-Once fully launched, your desktop should appear as it is in **image 11** below. 
+Once fully launched, your desktop should appear as it is in **image 11** below.
 
 ![Image 11 FastDesk ready for use](files/Fullscreen.png "Image 11: FASTdesk ready for use")
 
@@ -95,7 +95,7 @@ Although it is recommended you access FastDesk through the URL, you can also acc
 
 ![Image 12 Add an account](files/Enter_Store_URL.PNG "Image 12: Add an account")
 
-Simply type the following URL `"https://www.fastdesk.co.uk"` and click Add. You will then be prompted to enter your username and password into the application. See **image 13**. 
+Simply type the following URL `"https://www.fastdesk.co.uk"` and click Add. You will then be prompted to enter your username and password into the application. See **image 13**.
 
 ![Image 13 Enter credentials](files/workspace_log_in2.PNG "Image 13: Enter Credentials")
 
@@ -105,7 +105,7 @@ Go ahead and enter the username and password credentials that were provided to y
 .. warning::
 
    Whenever you log out of a desktop, do allow at least 3 minutes before attempting to log back in. This is to ensure the session correctly ends before another one is open. If you have not waited long enough, there is a danger of your applications not appearing when you log in. If you do find that this is the case, simply log out, wait at least 3 minutes and log back in again.
-   
+
 ```
 
 **_This instruction guide should assist you in getting logged in for the first time. If you have any questions or still require assistance, please contact the FastDesk support team on 0800 923 0617._**
@@ -114,5 +114,5 @@ Go ahead and enter the username and password credentials that were provided to y
    .. meta::
       :title: FastDesk Getting Started Guide: Apple macOS | UKFast Documentation
       :description: Guide for users on how to get setup on FastDesk using a macOS device
-      :keywords: FastDesk, Citrix, ukfast, VDI, Citrix Receiver, macOS, Workspace Application 
+      :keywords: FastDesk, Citrix, ukfast, VDI, Citrix Receiver, macOS, Workspace Application
 

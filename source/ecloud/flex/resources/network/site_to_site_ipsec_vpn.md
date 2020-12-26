@@ -2,7 +2,7 @@
 
 ## Site-To-Site VPN To A Cisco ASA Firewall
 
-In this guide we will use `python-neutronclient` and `python-openstackclient` to orchestrate setting up a site-to-site VPN between eCloud Flex and a Cisco ASA firewall.  
+In this guide we will use `python-neutronclient` and `python-openstackclient` to orchestrate setting up a site-to-site VPN between eCloud Flex and a Cisco ASA firewall.
 Prerequisites
 
 * Python 2.7+

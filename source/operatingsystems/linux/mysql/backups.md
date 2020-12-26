@@ -6,7 +6,7 @@ Ensuring your databases are safely and consistently backed up is vital.
 
 ## mysqldump
 
-By far the most commonly used tool, `mysqldump` can be invoked on the command line. This method is easily configurable, but does *not* take a **hot copy** of the database. 
+By far the most commonly used tool, `mysqldump` can be invoked on the command line. This method is easily configurable, but does *not* take a **hot copy** of the database.
 
 ```eval_rst
 .. warning::
@@ -47,7 +47,7 @@ For MyISAM tables, this will prevent writes to the database during the dump.
    Please note that ``MyISAM`` tables will lock during a database dump by default
 
 ```
-   
+
 ### Multiple Databases
 ```bash
 mysqldump --all-databases > all_databases.sql
@@ -78,7 +78,7 @@ find /root/mysqldumps/ -type f -name "*.sql.gz" -mtime +7 -delete
 ```
 
 ## Percona Xtrabackup
-`Percona Xtrabackup` 
+`Percona Xtrabackup`
 ### Compatibility
 `Xtrabackup` can back up **InnoDB**, **XtraDB** & **MyISAM** tables from the following packages
 * MySQL (*5.1, 5.5, 5.6, 5.7 & 8.0*)
@@ -141,13 +141,13 @@ mariabackup --prepare --target-dir=/path/to/backup/
 .. note::
 
    More information on **Mariabackup** can be found in the official MariaDB documentation
-   
+
    - https://mariadb.com/kb/en/mariabackup-overview
 
 ```
 
 ```eval_rst
-  .. title:: How to Backup MySQL / MariaDB Databases 
+  .. title:: How to Backup MySQL / MariaDB Databases
   .. meta::
      :title: How to Backup MySQL / MariaDB Databases | UKFast Documentation
      :description: A guide for taking consistent database backups on a Linux server
