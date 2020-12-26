@@ -1,6 +1,6 @@
-## Postfix
+# Postfix
 
-### Postfix Multiple misuses of SMTP service (bad sequence of commands).
+## Postfix Multiple misuses of SMTP service (bad sequence of commands).
 
 Multiple Misuse of SMTP Service is a feature where some Postfix commands are being used in unsupported configurations and return ```503 Bad Sequence of Commands```. This can be caused by servers sending multiple commands out at a time or messing up the ordering of the commands.
 
@@ -44,7 +44,7 @@ This does not mean that you are being attacked. It is more likely because blockl
 First, you should make sure that all devices on your network are not infected. After you've determined your network is clean and that no unauthorized traffic is going out, you may need to request that your IP address be removed from the relevant list. Each list will have guidance on how how to do this for their service.
 
 ```eval_rst
-   .. title: Postfix Rules Explained
+   .. title:: Postfix Rules Explained
    .. meta::
       :title: Postfix Rules Explained | UKFast Documentation
       :description: Our Threat Monitoring ruleset explained

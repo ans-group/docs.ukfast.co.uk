@@ -1,4 +1,4 @@
-
+# Common Attacks
 ## Shellshock attack detected
 
 *What is a Shellshock attack?*
@@ -62,7 +62,7 @@ If the viruses/malware was not removed by your scanner, you need to jump into ac
 If the viruses/malware has been removed by your scanner, its recommended to immediately run another virus/malware scan to try and detect any missed infections. Then, consult with your developers and UKFast support to secure your server in the future.
 
 ```eval_rst
-   .. title: Common Attacks
+   .. title:: Common Attacks
    .. meta::
       :title: Common Attacks | UKFast Documentation
       :description: Our Threat Monitoring ruleset explained
