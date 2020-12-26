@@ -63,9 +63,9 @@ Now you are ready to go - deploy a new eCloud Flex instance and it will be given
 If you have any existing eCloud Flex instances you want to add IPv6 to, and you're not using SLAAC, you will need to detach and re-attach the network interface of the instance and then configure DHCP inside the instance.
 
 ```eval_rst
-.. title: eCloud Flex | Using IPv6 on eCloud Flex
-.. meta::
-   :title: eCloud Flex | Using IPv6 on eCloud Flex | UKFast Documentation
-   :description: How to enable and use IPv6 on eCloud Flex - Linux and Windows
-   :metadata: flex, ecloud, hosting, openstack, ipv6, networks, networking
+   .. title: eCloud Flex | Using IPv6 on eCloud Flex
+   .. meta::
+      :title: eCloud Flex | Using IPv6 on eCloud Flex | UKFast Documentation
+      :description: How to enable and use IPv6 on eCloud Flex - Linux and Windows
+      :metadata: flex, ecloud, hosting, openstack, ipv6, networks, networking
 ```

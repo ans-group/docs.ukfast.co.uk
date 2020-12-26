@@ -17,7 +17,9 @@ For example, Alice is on public WiFi and is logging into the electricity company
 * Other websites use Number used Once (Nonce) and Message Authentication Codes (MAC) which are verified against each other. This increases the security of the sessions because an attacker replaying a session ID cannot forge the nonce or MAC.
 
 ```eval_rst
-.. meta::
-     :title: SELinux Rules Explained | UKFast Documentation
-     :description: Our Threat Monitoring ruleset explained
-     :keywords: threat monitoring, alerts, security, compliance, rules, rulesets, ukfast, hosting, file integrity monitoring, rootkit, detection, vulnerability scan, scans, hids, intrustion detection, set up
+   .. title: SELinux Rules Explained
+   .. meta::
+      :title: SELinux Rules Explained | UKFast Documentation
+      :description: Our Threat Monitoring ruleset explained
+      :keywords: threat monitoring, alerts, security, compliance, rules, rulesets, ukfast, hosting, file integrity monitoring, rootkit, detection, vulnerability scan, scans, hids, intrustion detection, set up
+```

@@ -35,9 +35,9 @@ You must remove every instance of the previous resource before removing the next
 If you are still having problems removing your Load Balancer after following this guide, please contact our UKFast Support team by [raising a ticket](https://my.ukfast.co.uk/pss/create) or by calling the [dedicated support line](https://www.ukfast.co.uk/contact.html).
 
 ```eval_rst
-.. title: Deleting a Load Balancer in the Horizon Dashboard
-.. meta::
-   :title: Deleting a Load Balancer in the Horizon Dashboard
-   :description: A guide detailing how to remove load balancers using the Horizon dashboard
-   :keywords: ecloud, flex, cloud, load balancers, lbaas, neutron, horizon, guide, delete, load, balancer
+   .. title: Deleting a Load Balancer in the Horizon Dashboard
+   .. meta::
+      :title: Deleting a Load Balancer in the Horizon Dashboard
+      :description: A guide detailing how to remove load balancers using the Horizon dashboard
+      :keywords: ecloud, flex, cloud, load balancers, lbaas, neutron, horizon, guide, delete, load, balancer
 ```

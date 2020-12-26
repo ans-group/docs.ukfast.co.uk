@@ -150,9 +150,9 @@ Choose the “IP address” you want this rule to apply to.
 
 
 ```eval_rst
-.. title: Web Application Firewall settings on DDoSX
-.. meta::
-     :title: Web Application Firewall settings on DDoSX | UKFast Documentation
-     :description: Help with setting up the Web Application Firewall feature on DDoSX
-     :keywords: ddos, ddos protection, anti-ddos, ukfast, ddosx, web application firewall, waf
+   .. title: Web Application Firewall settings on DDoSX
+   .. meta::
+      :title: Web Application Firewall settings on DDoSX | UKFast Documentation
+      :description: Help with setting up the Web Application Firewall feature on DDoSX
+      :keywords: ddos, ddos protection, anti-ddos, ukfast, ddosx, web application firewall, waf
 ```

@@ -134,9 +134,9 @@ openstack image delete <imageid>
 If you would like to learn more about managing images in eCloud Flex, please refer to the [Openstack documentation](https://docs.openstack.org/glance/pike/user/index.html).
 
 ```eval_rst
-.. title: Managing Images in eCloud Flex
-.. meta::
-   :title: Managing Images in eCloud Flex | UKFast Documentation
-   :description: A guide detailing how to manage images in eCloud Flex.
-   :keywords: ecloud, flex, storage, hosting, cloud, vm, volumes, images, snapshots, sysadmin
+   .. title: Managing Images in eCloud Flex
+   .. meta::
+      :title: Managing Images in eCloud Flex | UKFast Documentation
+      :description: A guide detailing how to manage images in eCloud Flex.
+      :keywords: ecloud, flex, storage, hosting, cloud, vm, volumes, images, snapshots, sysadmin
 ```
