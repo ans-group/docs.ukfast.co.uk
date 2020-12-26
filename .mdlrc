@@ -1,1 +1,1 @@
-rules "MD009"
+rules "MD002", "MD009"
