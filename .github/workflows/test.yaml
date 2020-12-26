@@ -1,0 +1,32 @@
+name: Check files
+on:
+  pull_request:
+    branches: [ main ]
+  push:
+    branches: [ main ]
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out source files
+        uses: actions/checkout@v2
+      
+      - name: Get a list of changed files
+        uses: jitterbit/get-changed-files@v1
+        id: changed_files
+      
+      - name: Run initial tests
+        run: ./tests.sh ${{ steps.changed_files.outputs.all }}
+      
+      - name: Render docs to HTML
+        uses: ammaraskar/sphinx-action@master
+        with:
+          pre-build-command: python -m pip install recommonmark
+          docs-folder: "source/"
+          build-command: "sphinx-build -n -d build/doctrees . build/html"
+
+      - name: Add in compiled CSS and Javascript
+        run: |
+          make build/html/_static/css/app.css
+          make build/html/_static/app.js
+
