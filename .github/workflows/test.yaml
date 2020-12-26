@@ -1,9 +1,9 @@
 name: Check files
 on:
   pull_request:
-    branches: [ main ]
+    branches: [ master, main ]
   push:
-    branches: [ main ]
+    branches: [ master, main ]
 jobs:
   check:
     runs-on: ubuntu-latest
