@@ -1,4 +1,3 @@
-
 # Web Application Specific Attacks
 
 Many attacks are targeted to exploit a known vulnerability in a specific web application like Word Press, Magneto or Joomla. These attacks have a higher likelihood of being successful, as they tend to specifically exploit known weaknesses in these applications. UKFast Threat Monitoring can detect common attacks and block the source IP address via a host-based firewall.
@@ -225,7 +224,9 @@ Should a high-level attack be detected, Threat Monitoring will block the source 
 
 
 ```eval_rst
-.. meta::
-     :title: Web Application Attacks | UKFast Documentation
-     :description: Guidance relating to UKFast's Threat Monitoring and Threat Response solutions
-     :keywords: threat monitoring, security, compliance, ukfast, hosting, file integrity monitoring, rootkit, detection, vulnerability scan, scans, hids, intrusion detection, threat response
+   .. title: Web Application Attacks
+   .. meta::
+      :title: Web Application Attacks | UKFast Documentation
+      :description: Guidance relating to UKFast's Threat Monitoring and Threat Response solutions
+      :keywords: threat monitoring, security, compliance, ukfast, hosting, file integrity monitoring, rootkit, detection, vulnerability scan, scans, hids, intrusion detection, threat response
+```

@@ -125,9 +125,9 @@ As with CentOS, a reboot is needed to use this new kernel:
 ```
 
 ```eval_rst
-.. title: Patching the DirtyCOW vulnerability 
-.. meta::
-     :title: Patching the DirtyCOW vulnerability | UKFast Documentation
-     :description: Guidance on patching the DirtyCOW vulnerability
-     :keywords: vulnerability, dirtycow, patching, security, dss, pci, security
+   .. title: Patching the DirtyCOW vulnerability 
+   .. meta::
+      :title: Patching the DirtyCOW vulnerability | UKFast Documentation
+      :description: Guidance on patching the DirtyCOW vulnerability
+      :keywords: vulnerability, dirtycow, patching, security, dss, pci, security
 ```

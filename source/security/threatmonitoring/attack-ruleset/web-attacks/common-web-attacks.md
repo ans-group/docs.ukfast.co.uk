@@ -1,4 +1,3 @@
-
 # Common Web Attacks
 
 Web attacks are perhaps one of the most common attacks on Internet-facing systems, and they're only becoming more of a danger. UKFast's Threat Monitoring has a range of rules dedicated to detecting and blocking common web-based attacks and malicious connection attempts.
@@ -303,8 +302,9 @@ Taking more of a passive approach, this rule does not necessarily detect that an
 
 
 ```eval_rst
-.. meta::
-     :title: Web Attacks | UKFast Documentation
-     :description: Guidance relating to UKFast's Threat Monitoring and Threat Response solutions
-     :keywords: threat monitoring, security, compliance, ukfast, hosting, file integrity monitoring, rootkit, detection, vulnerability scan, scans, hids, intrusion detection, threat response
-
+   .. title: Web Attacks
+   .. meta::
+      :title: Web Attacks | UKFast Documentation
+      :description: Guidance relating to UKFast's Threat Monitoring and Threat Response solutions
+      :keywords: threat monitoring, security, compliance, ukfast, hosting, file integrity monitoring, rootkit, detection, vulnerability scan, scans, hids, intrusion detection, threat response
+```
