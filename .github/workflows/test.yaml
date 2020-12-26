@@ -17,7 +17,12 @@ jobs:
       
       - name: Run initial tests
         run: ./tests.sh ${{ steps.changed_files.outputs.all }}
-      
+
+      - name: Check files using markdownlint
+        uses: actionshub/markdownlint@main
+        with:
+          args: ${{ steps.changed_files.outputs.all }}
+
       - name: Render docs to HTML
         uses: ammaraskar/sphinx-action@master
         with:
@@ -29,4 +34,3 @@ jobs:
         run: |
           make build/html/_static/css/app.css
           make build/html/_static/app.js
-
