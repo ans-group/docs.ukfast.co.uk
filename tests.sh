@@ -3,6 +3,8 @@
 # This script will do a simple check for meta information in changed *.md files
 
 file_names="$@"
+changed_files=$(echo $file_names | wc -w)
+echo -e "\nChecking ${changed_files} changed files"
 
 for f in $file_names; do
 
@@ -11,7 +13,6 @@ for f in $file_names; do
     continue
   fi
 
-  echo -e "\nChecking changed file ${f}"
   case $f in
     *.md )
       #check for new meta title
