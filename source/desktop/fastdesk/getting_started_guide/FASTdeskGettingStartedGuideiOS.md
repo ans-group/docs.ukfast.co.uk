@@ -76,9 +76,10 @@ Once selected, it should begin to launch your desktop. Once this has booted, you
 **_This instruction guide should assist you in getting logged in for the first time. If you have any questions or still require assistance, please contact the FastDesk support team on 0800 923 0617_**.
 
 
- ```eval_rst
+```eval_rst
+   .. title: FastDesk Getting Started Guide: Apple iOS
    .. meta::
       :title: FastDesk Getting Started Guide: Apple iOS | UKFast Documentation
       :description: Guide for users on how to get setup on FastDesk using an iOS
       :keywords: FastDesk, Citrix, ukfast, VDI, Citrix Receiver
-
+```

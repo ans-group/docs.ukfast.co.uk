@@ -111,8 +111,9 @@ Go ahead and enter the username and password credentials that were provided to y
 **_This instruction guide should assist you in getting logged in for the first time. If you have any questions or still require assistance, please contact the FastDesk support team on 0800 923 0617._**
 
  ```eval_rst
+   .. title: FastDesk Getting Started Guide: Apple macOS
    .. meta::
       :title: FastDesk Getting Started Guide: Apple macOS | UKFast Documentation
       :description: Guide for users on how to get setup on FastDesk using a macOS device
       :keywords: FastDesk, Citrix, ukfast, VDI, Citrix Receiver, macOS, Workspace Application
-
+```

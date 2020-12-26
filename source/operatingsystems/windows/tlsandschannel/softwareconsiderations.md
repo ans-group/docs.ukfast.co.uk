@@ -34,8 +34,10 @@ More information on this can be found at the external link [here](https://suppor
 
 The only way to migrate away from using the WID, is to configure the RDS deployment to use the connection broker in High Availability mode. This requires using a dedicated SQL Server to hold the Connection Broker information instead.
 
- ```eval_rst
+```eval_rst
+   .. title: TLS Support for Windows Software
    .. meta::
       :title: TLS Support for Windows Software | UKFast Documentation
       :description: Considerations for TLS support of various applications
       :keywords: SSL, TLS, ukfast, Schannel, RDS, RDP, MSSQL, Exchange, windows
+```

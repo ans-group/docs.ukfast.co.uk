@@ -33,3 +33,11 @@ I have selected one of the files above and I have the option to either delete th
 In this instance I have restored the file and as you can see there are now 6 previous versions of the file (including the current version). The version which I restored is the version saved at 11.25am.
 
 ![Image151](files/Image151.png)
+
+```eval_rst
+   .. title: FASTdrive Accessing previous versions of your files
+   .. meta::
+      :title: FASTdrive Accessing previous versions of your files | UKFast Documentation
+      :description: Guide for accessing older versions of your files
+      :keywords: FastDrive, Citrix, ukfast
+```
