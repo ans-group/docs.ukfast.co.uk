@@ -1,6 +1,6 @@
-# Import A Database 
+# Import A Database
 
-This article will give information on how to import a database file via the CLI, phpMyAdmin and MySQL Workbench. It will also dicuss prerequsites that will help the import go smoothly. 
+This article will give information on how to import a database file via the CLI, phpMyAdmin and MySQL Workbench. It will also dicuss prerequsites that will help the import go smoothly.
 
 ## Before The Import
 ```eval_rst
@@ -31,10 +31,10 @@ Now when you run the grep again, there should be no returned values:
   $ egrep "^USE|^CREATE DATABASE" example_db.sql
 ```
 
-Once you have confirmed that there are no USE and CREATE statements in your .sql file you are now ready to import the contents of the file into the database. 
+Once you have confirmed that there are no USE and CREATE statements in your .sql file you are now ready to import the contents of the file into the database.
 
 
-## MySQL CLI 
+## MySQL CLI
 
 If the database you wish to import does not already exist, you will need to create it before the import:
 
@@ -52,11 +52,11 @@ To import the database, run the following command:
 
 ## phpMyAdmin
 
-1. Log in to the `phpMyAdmin` console.  
+1. Log in to the `phpMyAdmin` console.
 
-2. On the left-had side, select the database you wish to import data into.  
+2. On the left-had side, select the database you wish to import data into.
 
-3. Select the `Import` tab.  
+3. Select the `Import` tab.
 
 4. Select `Browse` under `File to import` and select the .sql you wish to import.
 
@@ -70,13 +70,13 @@ To import the database, run the following command:
 ## MySQL Workbench
 
 
-1. Log in to the `MySQL Workbench` console and and connect to the database.  
+1. Log in to the `MySQL Workbench` console and and connect to the database.
 
 2. On the left-had side, under Management select  `Data Import/Restore`.
 
 3. Select the `Data Import` tab.
 
-4. Select the option “Import from Self-Contained File” and browse to the .sql file you wish to import. 
+4. Select the option “Import from Self-Contained File” and browse to the .sql file you wish to import.
 
 5. Select an existing database or the option to choose a new database to import into.
 

@@ -4,7 +4,7 @@
 
 To connect to the `MongoDB` shell, simply type `mongo` as a sudo user.
 
-```bash	
+```bash
 [root@~]# mongo
 MongoDB shell version v4.4.1
 connecting to: mongodb://127.0.0.1:27017/?compressors=disabled&gssapiServiceName=mongodb
@@ -12,7 +12,7 @@ Implicit session: session { "id" : UUID("2d22b941-8fbf-4fe3-99ed-a52678e22097") 
 MongoDB server version: 4.4.1
 ---
 ...
-> 
+>
 ```
 
 To exit the shell, type `exit`

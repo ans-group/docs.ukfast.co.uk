@@ -112,12 +112,12 @@ To specify secure cyphers for these virtual hosts, we can add the latest cyphers
 
 ```
 server {
-    
+
     server_name my.website.com;
     listen 443 ssl http2;
 
         ssl_protocols TLSv1.3;# Requires nginx >= 1.13.0 else use TLSv1.2
-        ssl_prefer_server_ciphers on; 
+        ssl_prefer_server_ciphers on;
         ssl_dhparam /etc/nginx/dhparam.pem; # openssl dhparam -out /etc/nginx/dhparam.pem 4096
         ssl_ciphers ECDHE-RSA-AES256-GCM-SHA512:DHE-RSA-AES256-GCM-SHA512:ECDHE-RSA-AES256-GCM-SHA384:DHE-RSA-AES256-GCM-SHA384:ECDHE-RSA-AES256-SHA384;
         ssl_ecdh_curve secp384r1; # Requires nginx >= 1.1.0
@@ -127,7 +127,7 @@ server {
         ssl_stapling on; # Requires nginx >= 1.3.7
         ssl_stapling_verify on; # Requires nginx => 1.3.7
         resolver $DNS-IP-1 $DNS-IP-2 valid=300s;
-        resolver_timeout 5s; 
+        resolver_timeout 5s;
         add_header Strict-Transport-Security "max-age=63072000; includeSubDomains; preload";
         add_header X-Frame-Options DENY;
         add_header X-Content-Type-Options nosniff;

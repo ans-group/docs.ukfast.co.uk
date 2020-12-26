@@ -28,9 +28,9 @@ Please refer to the below compatibility matrix before installing threat monitori
 
 ### Virtual Servers
 
-Threat Monitoring may also be installed onto virtual servers. 
+Threat Monitoring may also be installed onto virtual servers.
 
-OS Container-based servers and applications containers (Such as docker) are not currently supported. 
+OS Container-based servers and applications containers (Such as docker) are not currently supported.
 
 Please refer to the below compatibility matrix before installing threat monitoring onto a virtual server to understand what virtualization types are supported. Any virtualization not mentioned below are not supported.
 
@@ -64,7 +64,7 @@ Please note Threat Monitoring does **not** support cloud services such as Amazon
 
 ### Operating System compatibility matrix
 
-Please refer to the below compatibility matrix before installing threat monitoring onto a server to understand which Threat Monitoring modules may be installed onto a target server. 
+Please refer to the below compatibility matrix before installing threat monitoring onto a server to understand which Threat Monitoring modules may be installed onto a target server.
 
 Threat Monitoring Core is required, any other modules are optional but highly recommended for full protection.
 

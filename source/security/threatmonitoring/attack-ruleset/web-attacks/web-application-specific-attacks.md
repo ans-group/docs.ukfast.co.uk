@@ -16,7 +16,7 @@ Triggered when the URL request contains any of the flowing patterns:
 URL Contains: ```login.php```
 
 Regex:  ```"POST /\S+.php/login.php?cPath=```
- 
+
 **Severity**
 
 Threat Monitoring will classify this attack as a high, triggering the source IP address to be blocked using the below methods. As this attack is not severe, an alert will not be sent out via email, however, these attacks will still show up in dashboards in your MyUKFast.

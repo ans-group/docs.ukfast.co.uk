@@ -22,7 +22,7 @@ If your eCloud Flex account does not currently have IPv6, you can enable it by f
 
 6. On the next tab you customise any settings. You must select an option in the IPv6 Address Configuration Mode drop-down menu (such as SLAAC or DHCPv6).  Click `Create`
 
-7. Once created, you will be given a public IPv6 /64 prefix, which will appear in your Networks list, as shown below.  
+7. Once created, you will be given a public IPv6 /64 prefix, which will appear in your Networks list, as shown below.
 
     ![newsubnet](../../files/newsubnet.PNG)
 

@@ -56,15 +56,15 @@ Our Magnum deployment supports all of the engines that Magnum supports (Docker S
             k8s-template
     ```
 
-    `--image` parameter is the same image that we created in step 1.  
+    `--image` parameter is the same image that we created in step 1.
 
-    `--keypair` parameter is the keypair that will be used to spin up the instances in your project.  
+    `--keypair` parameter is the keypair that will be used to spin up the instances in your project.
 
-    `--external-network` asks for the ID for the external network, and in the case of eCloud Flex, this will be the `vlan2803` network.  
+    `--external-network` asks for the ID for the external network, and in the case of eCloud Flex, this will be the `vlan2803` network.
 
-    `--flavor` and `--master-flavor` requires the flavor ID for your `minion` and `master` instances.  
+    `--flavor` and `--master-flavor` requires the flavor ID for your `minion` and `master` instances.
 
-    `--docker-volume-size` asks for the size (in GB) to create the volume which will be attached to your instances. 20GB is sufficient for testing.  
+    `--docker-volume-size` asks for the size (in GB) to create the volume which will be attached to your instances. 20GB is sufficient for testing.
 
     The remaining flags just specify details about the engine and network drivers, followed by the name of the new template.
 
@@ -79,8 +79,8 @@ Our Magnum deployment supports all of the engines that Magnum supports (Docker S
                                  test-cluster
     ```
 
-    `--cluster-template` needs the name / ID of the template that we created in the previous step.  
-    `--node-count` and `--master-count` is the number of master / minion instances that you'd like to create.  
+    `--cluster-template` needs the name / ID of the template that we created in the previous step.
+    `--node-count` and `--master-count` is the number of master / minion instances that you'd like to create.
     The final argument is the name of the cluster.
 
 4. Watch the deployment

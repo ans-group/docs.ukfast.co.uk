@@ -26,16 +26,16 @@ As a sudo user, use `yum` to install `mongodb-org`. This will pull in a few diff
 [root@ ~]# yum install mongodb-org
 ...
 Installing:
- mongodb-org                  
+ mongodb-org
 Installing for dependencies:
- mongodb-org-mongos           
- mongodb-org-server           
- mongodb-org-shell            
+ mongodb-org-mongos
+ mongodb-org-server
+ mongodb-org-shell
  mongodb-org-tools
 ```
 
 ## Starting the Service
- 
+
 Set this to start on boot and start the service with the systemd `--enable now` flag
 
 ```bash
@@ -48,7 +48,7 @@ Jul 05 11:43:32 server.novalocal systemd[1]: Started MongoDB Database Server.
 
 Test this is running by entering the `mongo` shell.
 
-```bash	
+```bash
 [root@~]# mongo
 MongoDB shell version v4.4.1
 connecting to: mongodb://127.0.0.1:27017/?compressors=disabled&gssapiServiceName=mongodb
@@ -56,7 +56,7 @@ Implicit session: session { "id" : UUID("2d22b941-8fbf-4fe3-99ed-a52678e22097") 
 MongoDB server version: 4.4.1
 ---
 ...
-> 
+>
 ```
 
 Next, you should create an **admin** user to administrate your MongoDB service and secure the installation.

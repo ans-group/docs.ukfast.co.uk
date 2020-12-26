@@ -51,7 +51,7 @@ Once you have set your paranoia mode you can now decide which rules you would li
 
 - **APPLICATION ATTACK RFI (Remote File Inclusion):** Inspecting the arguments for possible attack methods for remote file inclusion, this includes looking for PHP such as "include()", URLs containing an IP address, data ends with question marks (?) and RFI host that does not match its local host value.
 
-- **APPLICATION ATTACK RCE (Remote Code Execution):** This ruleset detects either Unix-based, or Windows-based shell command injections such as `foo.jpg;uname -a` for example, this ruleset is also case-sensitive to prevent false positives. Efforts have been made to detect common evasion techniques such as 'l'"s".  
+- **APPLICATION ATTACK RCE (Remote Code Execution):** This ruleset detects either Unix-based, or Windows-based shell command injections such as `foo.jpg;uname -a` for example, this ruleset is also case-sensitive to prevent false positives. Efforts have been made to detect common evasion techniques such as 'l'"s".
 
 - **APPLICATION ATTACK PHP:** Looks to identify the injection, or upload of PHP code by inspecting cookies and arguments for "<?" "<?php" opening tags, and file paths or names ending in .php. In addition it looks for the inspection of or detection of PHP configuration files in common locations, and the detection of use of PHP variables/functions from a database of common / known items.
 
@@ -65,7 +65,7 @@ Rules which attempt to detect the use of SQL keywords to inject commands into th
 - **DATA LEAKAGES:** Analysis of the response from the server to look for potential data leakage, such as directory listings and server status codes.
 
 - **DATA LEAKAGE SQL:**
-Analyses the response body from the server looking for potential leakage of SQL information, such as error warnings compiled from a list of common errors found sending a false or prohibited SQL query to a database.  
+Analyses the response body from the server looking for potential leakage of SQL information, such as error warnings compiled from a list of common errors found sending a false or prohibited SQL query to a database.
 
 - **DATA LEAKAGE JAVA:** Analyses the response body from the server looking at potential leakage of Java error warnings / messages when an invalid or prohibited Java query has been sent to the server.  This is to prevent giving the attacker information about applications that you are running on the backend that is not wanted.
 
@@ -80,7 +80,7 @@ You can choose which rulesets to switch on or off for each of your domains, usin
 
 ## Allow list Rules
 
-Before switching your WAF mode to On and starting to block traffic to your application, you may wish to create allow list rules to allow particular traffic through which you know be legitimate.  
+Before switching your WAF mode to On and starting to block traffic to your application, you may wish to create allow list rules to allow particular traffic through which you know be legitimate.
 
 An example of this would be allowing traffic from your own office network to bypass the rules enforced by the WAF.  A allow list rule to accommodate this situation would look like this:
 
@@ -98,7 +98,7 @@ To create your allow list rule simply add:
 
 You can build a rule like this yourself, by looking at the WAF Logs within [MyUKFast](https://my.ukfast.co.uk) for your domain, in order to determine:
 
-- Where are violations coming from?  
+- Where are violations coming from?
 - What parts of your website are being attacked?
 - Are WAF rules being triggered by users you know to be legitimate?
 
@@ -109,7 +109,7 @@ It is important to think carefully when applying allow lists, as the more you im
 ## Advanced Allow list
 
 Advanced Allow listing allows you to combat false positives more flexibly by permitting genuine traffic to your site based on the rules you create. Following the steps below will allow you to build rules to your specification.
-To start navigate to your DDoSX dashboard and select WAF. Here you will find the Advanced Allow list section. Select Add Rule. 
+To start navigate to your DDoSX dashboard and select WAF. Here you will find the Advanced Allow list section. Select Add Rule.
 
 ![files_AddWAFrule](files/files_AddWAFrule.png)
 
@@ -119,12 +119,12 @@ Choose the “Section” you want to allow, the below list are the variables ava
 ![files_awstep1](files/files_awstep1.jpg)
 
 - ARGS GET AND POST – allow all arguments
-- MATCHED_VARS – allow all or some of the variables 
+- MATCHED_VARS – allow all or some of the variables
 - REMOTE_HOST – allow all or some of the hostnames
-- REQUEST_BODY – allow all or some of the request body 
-- REQUEST_COOKIES – allow all or some cookies 
+- REQUEST_BODY – allow all or some of the request body
+- REQUEST_COOKIES – allow all or some cookies
 - REQUEST_HEADERS – allow all or some headers
-- REQUEST_URI – full request URL 
+- REQUEST_URI – full request URL
 
 **Step 2:**
 Choose the “Modifier” you want to implement from the below;
@@ -144,7 +144,7 @@ eg. "/admin" or "test string" – this is a free type box.
 
 **Step 4: Optional**
 
-Choose the “IP address” you want this rule to apply to. 
+Choose the “IP address” you want this rule to apply to.
 
 ![files_awstep4](files/files_awstep4.jpg)
 

@@ -43,7 +43,7 @@ If there are no errors in the configuration test proceed to reload the Nginx ser
  ~]$ nginx -s reload
 ```
 
-## Nginx .php File Allow list 
+## Nginx .php File Allow list
 
 The web service (Nginx) configuration file has an allow list for .php files to pass to php-fpm. If you want to access a .php file not in the default list:
 

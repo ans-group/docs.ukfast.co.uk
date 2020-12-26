@@ -5,7 +5,7 @@
    .. meta::
       :title: FastCloudBackup | Restoring Files | UKFast Documentation
       :description: Information on how to restore files from your FastCloudBackup account
-      
+
 ```
 
 Restoring from a backup is a simple process.  Find the files and/or folders you wish to restore as described in the [Managing Files and Folders](/dr-ha/FASTcloudbackup/Managingfilesandfolders) section.  Select the files or folders and click `Restore` at the top of the page.

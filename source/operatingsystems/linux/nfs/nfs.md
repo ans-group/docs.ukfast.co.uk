@@ -3,7 +3,7 @@
 ### Install NFS
 You can install NFS with the following command:
 ```bash
-~]# yum install nfs-utils nfs-utils-lib 
+~]# yum install nfs-utils nfs-utils-lib
 ```
 
 ### Distributed Files/Folders

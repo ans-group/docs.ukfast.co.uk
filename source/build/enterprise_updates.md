@@ -8,12 +8,12 @@
 Any File or SQL Clusters in the solution will have the following Group Policy configuration:
 - Auto Download and notify for install.
 
-These updates will be then coordinated with yourselves to fail-over services and install/reboot (if required). 
+These updates will be then coordinated with yourselves to fail-over services and install/reboot (if required).
 
 All other single role Windows Servers will have the following Group Policy Configuration:
 - Auto download and schedule the install.
 
-These will be applied in one of the following 2 groups with times and days stipulated by UKFast to take in account redundancy of roles across VMs. 
+These will be applied in one of the following 2 groups with times and days stipulated by UKFast to take in account redundancy of roles across VMs.
 
 ### Example Updates Schedule
 ```eval_rst

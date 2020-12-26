@@ -47,7 +47,7 @@ Firstly, you will need to install the Microsoft Remote Desktop app from the app 
 
 ![RDP for IOS](files/connecting_mobiledevices/Microsoftremotedesktop.PNG)
 
-Once the app is installed, Open it to access the Dashboard, from the Dashboard, you will need to select the + symbol in the top right hand corner of the app, this will present the "Add New" window. as below 
+Once the app is installed, Open it to access the Dashboard, from the Dashboard, you will need to select the + symbol in the top right hand corner of the app, this will present the "Add New" window. as below
 
 ![RDP IOS Add New](files/connecting_mobiledevices/addnewconnection.PNG)
 

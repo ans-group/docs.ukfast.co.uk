@@ -6,7 +6,7 @@
 
    - :doc:`/ecloud/flex/general/settingvars`
    - :doc:`/ecloud/flex/general/openstackcli`
-   
+
    If you're not using this method of authentication, you may need to specify additional flags/options in the commands used in this article.
 ```
 

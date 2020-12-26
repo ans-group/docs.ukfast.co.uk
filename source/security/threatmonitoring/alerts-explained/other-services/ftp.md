@@ -5,23 +5,23 @@
 *What does this rule tell me?*
 
 
-A brute force attack is one of the more common attacks used today. Its a generic term used when an attacker tries different username and password combinations. This kind of attack is most common on FTP and SSH servers. In this case, your FTP server may have experienced a brute force attack. 
+A brute force attack is one of the more common attacks used today. Its a generic term used when an attacker tries different username and password combinations. This kind of attack is most common on FTP and SSH servers. In this case, your FTP server may have experienced a brute force attack.
 
-A false-positive can sometimes fire if a user has forgotten their login details and is repeatedly failing to log in - Please bear this in mind. 
+A false-positive can sometimes fire if a user has forgotten their login details and is repeatedly failing to log in - Please bear this in mind.
 
-Brute Force attacks are usually based on dictionary attacks, where a list of common passwords is used. It can take a few minutes to try hundreds of password combinations. 
+Brute Force attacks are usually based on dictionary attacks, where a list of common passwords is used. It can take a few minutes to try hundreds of password combinations.
 
 What program/service does this rule relate to?
 
 
-FTP Server [File Transfer Protocol] 
+FTP Server [File Transfer Protocol]
 
 *How can I fix this?*
 
 
-The easiest way to protect yourself from brute force attacks is to employ a strong password. A strong password may consist of 15 characters, upper-case, lower-case, symbols and numbers. 
+The easiest way to protect yourself from brute force attacks is to employ a strong password. A strong password may consist of 15 characters, upper-case, lower-case, symbols and numbers.
 
-Restrict access to your login URL. Your login page may be publicly facing, if so, you may want to restrict it to an internal IP address range. 
+Restrict access to your login URL. Your login page may be publicly facing, if so, you may want to restrict it to an internal IP address range.
 
 *Does this mean I am being attacked?*
 

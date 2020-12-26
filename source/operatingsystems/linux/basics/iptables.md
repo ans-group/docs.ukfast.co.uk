@@ -92,7 +92,7 @@ The individual elements of the above commands are explained below
 
 ```bash
   iptables -I OUTPUT -p tcp -s 192.168.0.1 --dport 25 -j DROP
-```  
+```
 
 ```eval_rst
 .. note::

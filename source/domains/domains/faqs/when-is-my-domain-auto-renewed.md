@@ -16,5 +16,5 @@ If payment fails we will inform you and will re-attempt the renewal at the next 
 We also send a reminder that your domains will auto-renew seven days before we attempt to renew them just in case you wish to stop them from auto-renewing.
 
 
- 
+
 

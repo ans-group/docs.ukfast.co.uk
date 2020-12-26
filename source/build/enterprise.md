@@ -18,7 +18,7 @@ Below are the different facets that make up a UKFast Enterprise solution, click 
           <li><a href="web_default.html">Web Server Configuration</a></li>
           <li><a href="file_default.html">File Server Configuration</a></li>
       </ul>
-  </div>  
+  </div>
   <div class='docs-flex-item'>
       <h2>Monitoring</h2>
       <ul>
@@ -39,7 +39,7 @@ Below are the different facets that make up a UKFast Enterprise solution, click 
       <ul>
           <li><a href="enterprise_backups.html">Backup Policy</a></li>
       </ul>
-  </div>  
+  </div>
   <div class='docs-flex-item'>
       <h2>Security</h2>
       <ul>
@@ -52,14 +52,14 @@ Below are the different facets that make up a UKFast Enterprise solution, click 
       <ul>
           <li><a href="enterprise_updates.html">Updates Policy</a></li>
       </ul>
-  </div>  
+  </div>
   <div class='docs-flex-item'>
       <h2>DR and HA</h2>
       <ul>
           <li><a href="bcp.html">Business Continuity Platform</a></li>
           <li><a href="https://docs.ukfast.co.uk/dr-ha/draas/index.html">DRaaS</a></li>
       </ul>
-  </div>  
+  </div>
   <div class='docs-flex-item'>
       <h2>Hosted Desktop</h2>
       <ul>

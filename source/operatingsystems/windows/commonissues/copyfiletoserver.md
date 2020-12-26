@@ -4,7 +4,7 @@ Depending on the size of the file, Windows offers a few different methods of tra
 
 ## Remote Desktop Clipboard:
 
-* For your convenience, Before attempting to establish a remote desktop session with your server, 
+* For your convenience, Before attempting to establish a remote desktop session with your server,
   please carry out the below steps, as they cannot be changed while a session is established.
 
 To configure Remote desktop clipboard, please open the remote desktop connection application,(if you are unsure on how to do this, please see our guide Connecting to a server via remote desktop
@@ -33,7 +33,7 @@ If you're copying a large file or a large number of files you may find FTP meets
 ## FTP (File Transfer Protocol)
 
 ### FTP Server Installation
-    
+
 * Before FTP File tranfer can be used, an FTP Server such as FileZilla Server will need to be installed on your Windows server.
   FileZilla is open source software and is available for free from the link below
 
@@ -103,7 +103,7 @@ Your new account is now protected.
 Re-enter the Users pane, if you are unsure how to do this, use the steps above as a reference.
 
 Once you have navigated back to the users pane, please select "Shared folders" from the left hand "Page" menu. in this pane, you can add the directories which you would like your user to be able to access via FTP.
-To do this, please select "Add" under the "Shared folders" section of the pane, you will now be presented with a file browser pane as below, navigate to your chosen folder and select ok. 
+To do this, please select "Add" under the "Shared folders" section of the pane, you will now be presented with a file browser pane as below, navigate to your chosen folder and select ok.
 * Please note that you can only select single directories in this menu, and you will need to repeat this step for each directory that you wish to grant access to.
 
 ![Add Share](Files/ftpserveranduser/sharedfoldersaddsharetrimmed.png)
@@ -128,7 +128,7 @@ You can grant extra permissions as per your requirements by ticking the appropri
 
 As with the FileZilla Server, the installation of the Filezilla client is fairly simple, but again, has a few steps which need to be highlighted.
 
-Upon beginning the instalation, you will be presented with a licence agreement, select “I Agree”. 
+Upon beginning the instalation, you will be presented with a licence agreement, select “I Agree”.
 
 ![Licence agreement](Files/ftpclient/installationpane1trimmed.png)
 

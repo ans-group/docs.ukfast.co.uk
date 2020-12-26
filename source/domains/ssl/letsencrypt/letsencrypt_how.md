@@ -36,13 +36,13 @@ If you have multiple web servers, you have to make sure the file is available on
 
 The `DNS-01` challenge method requires you to add a [**TXT**](https://en.wikipedia.org/wiki/TXT_record) record to prove domain ownership.
 
-This can be useful if your service is not accessible over port **80**, or if you have multiple webservers to cover. This challenge method also allows for you to issue [**wildcard certificates**](/domains/ssl/types), along with [**CNAME challenge delegation**](https://www.eff.org/deeplinks/2018/02/technical-deep-dive-securing-automation-acme-dns-challenge-validation) 
+This can be useful if your service is not accessible over port **80**, or if you have multiple webservers to cover. This challenge method also allows for you to issue [**wildcard certificates**](/domains/ssl/types), along with [**CNAME challenge delegation**](https://www.eff.org/deeplinks/2018/02/technical-deep-dive-securing-automation-acme-dns-challenge-validation)
 
 If using an API, such as our [SafeDNS API](https://developers.ukfast.io/documentation/safedns), this is quick and easy to add and to automate.
 
 ```eval_rst
 .. note::
-  You should always factor in **DNS propagation** when using this challenge method, 
+  You should always factor in **DNS propagation** when using this challenge method,
 ```
 
 ### TLS-ALPN-01

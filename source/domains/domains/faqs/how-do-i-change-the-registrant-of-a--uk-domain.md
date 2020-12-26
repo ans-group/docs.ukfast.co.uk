@@ -15,4 +15,4 @@ When you have filled in the details, confirmation will be sent to the new regist
 
 If the new registrant accepts the transfer, you will receive an email confirmation when they have completed the process.
 
-You can find more information on [Nominet UK's website](http://www.nic.uk/registrants/maintain/transfer/). 
+You can find more information on [Nominet UK's website](http://www.nic.uk/registrants/maintain/transfer/).

@@ -1,9 +1,9 @@
 # Recommended Configuration for BCP (Business Continuity Platform)
 
-As part of your BCP Solution you will receive a Pre-Launch Questionnaire specific to your solution. Due to the complexity of the BCP solution UKFast doesn't offer default configurations, below are our recommended configurations if you are unsure on the configuration required for your business needs. 
+As part of your BCP Solution you will receive a Pre-Launch Questionnaire specific to your solution. Due to the complexity of the BCP solution UKFast doesn't offer default configurations, below are our recommended configurations if you are unsure on the configuration required for your business needs.
 ```eval_rst
 .. seealso::
-   Please contact your Account Manager to ensure you receive a copy of the BCP Pre-Launch Questionnaire. 
+   Please contact your Account Manager to ensure you receive a copy of the BCP Pre-Launch Questionnaire.
 ```
 ## Disk Space
 

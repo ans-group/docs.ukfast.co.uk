@@ -14,7 +14,7 @@ The Hotfix can be obtained from the link below
 
 ## Windows Server 2012/2012R2 Considerations
 
-Windows server 2012/2012R2 supports TLS 1.1 and TLS 1.2 for remote desktop services out of the box. 
+Windows server 2012/2012R2 supports TLS 1.1 and TLS 1.2 for remote desktop services out of the box.
 Once the you have disabled TLS 1.0, any new connections will automatically be formed with the next version available.
 
 ## Windows Server 2016 Considerations

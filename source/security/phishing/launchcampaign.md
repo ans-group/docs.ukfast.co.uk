@@ -4,7 +4,7 @@ UKFast Phishing campaigns can be easily launched through MyUKFast's 'Phishing' s
 
 # 1) Verifying a domain
 
-When you first access the phishing as a service section of MyUKfast, you'll see a progress banner towards the top of your page. you'll use this to track your progress when launching your first campaign. 
+When you first access the phishing as a service section of MyUKfast, you'll see a progress banner towards the top of your page. you'll use this to track your progress when launching your first campaign.
 
 To begin, press the blue 'click here' link to verify your first domain. This can also be accessed by clicking the 'Domains' link under the phishing section in the navigation bar to the left.
 
@@ -52,7 +52,7 @@ On this page, you can see a list of all the user's can send phishing emails to. 
 ![phaas](files/users2.png)
 
 
-This will open a section where you can add new users. Entering the user's First Name, Last Name, Email address and Position in the text boxes provided and clicking the 'Add' button will add a user. 
+This will open a section where you can add new users. Entering the user's First Name, Last Name, Email address and Position in the text boxes provided and clicking the 'Add' button will add a user.
 
 Alternatively, you can upload a list of users in CSV format. a CSV template can be downloaded by pressing the 'Download CSV Template' link. The completed CSV can then be uploaded by pressing the 'Bulk Import Users' button.
 
@@ -75,7 +75,7 @@ On this page, you can see all your distribution groups of users that can be used
 ![phaas](files/group2.png)
 
 
-This will open a section where you can select users' that you have added in a previous step into your new distribution group. First, be sure to give the group a name using the text box provided. Then, click on a user listed under 'Available Users' on the left to move it to 'Selected Users' on the right. 
+This will open a section where you can select users' that you have added in a previous step into your new distribution group. First, be sure to give the group a name using the text box provided. Then, click on a user listed under 'Available Users' on the left to move it to 'Selected Users' on the right.
 
 The same process can be used to deselect users, clicking a user under 'Selected Users' on the right will select that user. moving it to the left under 'Available Users'
 
@@ -102,7 +102,7 @@ Under the 'Campaigns' section, you can see a list of your previous campaigns. To
 ![phaas](files/campaign1.png)
 
 
-This will open a section where you can create a new campaign. Give the campaign a name, select the campaign template you'd like to you (Clicking a template will show a preview image of the email and landing page), choose a User group to phish and finally select a start and end date to send emails. 
+This will open a section where you can create a new campaign. Give the campaign a name, select the campaign template you'd like to you (Clicking a template will show a preview image of the email and landing page), choose a User group to phish and finally select a start and end date to send emails.
 
 Emails will be sent in batches, evenly spread out between the 'Start' and 'Stop' dates you enter here.
 

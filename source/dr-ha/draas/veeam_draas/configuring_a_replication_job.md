@@ -55,14 +55,14 @@ Here you’ll create your network mappings. When you create a mapping all VMs on
 
 Section to configure WAN accelerators, these are only beneficial to use when you have a network upload speed of lower than 60Mb/s. If you have not purchased a WAN accelerator from UKFast, you only need to complete step 1 ("Source Proxy"). You cannot configure one at your side if it hasn't been enabled on the service provider’s end.
 
-Sizing information for WAN accelerators can be found on Veeam’s website  - [WAN accelerator sizing](https://helpcenter.veeam.com/docs/backup/vsphere/wan_accelerator_sizing.html?ver=100). We generally recommend a starting point of the following:  
+Sizing information for WAN accelerators can be found on Veeam’s website  - [WAN accelerator sizing](https://helpcenter.veeam.com/docs/backup/vsphere/wan_accelerator_sizing.html?ver=100). We generally recommend a starting point of the following:
 * Hard disk size - 10% of total data that requires replicating
 * 4 CPUs
 * 16GB RAM
 
 
 1. **Source proxy** - we would generally recommend this is left as the default "Automatic Selection" unless you have any specific requirements.
-2. **Through built-in WAN accelerators** - if you have purchased a WAN accelerator from UKFast, select this option. 
+2. **Through built-in WAN accelerators** - if you have purchased a WAN accelerator from UKFast, select this option.
     1. **Source WAN accelerator** - select the WAN accelerator at your site to be used for this replication job. It's recommended the WAN accelerator is set up as a separate virtual machine and not installed on the Veeam Backup and Replication Server.
     2. **Target WAN accelerator** - select the WAN accelerator at UKFast’s site to be used for this replication job.
 

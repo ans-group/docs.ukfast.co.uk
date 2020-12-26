@@ -67,6 +67,6 @@ Note, this configuration was tested on CentOS 7.
   .. title:: VSFTPD
   .. meta::
      :title: VSFTPD
-     :description: A guide on what vsftpd is and how to set up an account 
+     :description: A guide on what vsftpd is and how to set up an account
      :keywords: vsftpd, linux, ftp, users, setup, transfer, file, protocol
 ```

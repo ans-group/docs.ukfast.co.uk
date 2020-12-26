@@ -53,7 +53,7 @@ pipe_timeout is set to 60 seconds by default. This can cause time out issues whe
 Within the DAEMON_OPTS sections in the file /etc/varnish/varnish.params. You need to restart Varnish for this setting to take effect.
 
 ### Header Size
-If you have this error message in Nginx: 
+If you have this error message in Nginx:
 
 ```bash
 [error] 110200#110200: *102122 upstream sent too big header while reading response header from upstream
@@ -160,7 +160,7 @@ if (resp.status == 750) {
 ```
 
 Under vcl_synth. Varnish will need a reload for this to take efect.
- 
+
 ### SSL Termination
 Varnish does not support SSL-encrypted traffic, therefore we use Nginx for SSL termination. You need to remove the 443 listen from the server block in the Nginx vhosts configuration file and then add a new server block for 443. Example block:
 
@@ -199,17 +199,17 @@ If SSL is set to offloading like the above example you need to uncomment the fol
  # Enable for SSL offloading
   set $my_https off;
   set $my_port 80;
-  
+
   if ($http_x_forwarded_proto = https) {
     set $my_https on;
     set $my_port 443;
   }
-  
+
   fastcgi_param HTTPS $my_https; # Uncomment the below for SSL offloading
   fastcgi_param SERVER_PORT $my_port; # Uncomment the below for SSL offloading
 ```
 
-This tells Shopware that although the connection is on port 80 -> 8080 it should be treated as a secure connection due to the header x_forwarded_proto containing https. 
+This tells Shopware that although the connection is on port 80 -> 8080 it should be treated as a secure connection due to the header x_forwarded_proto containing https.
 
 ```eval_rst
   .. title:: Shopware Varnish

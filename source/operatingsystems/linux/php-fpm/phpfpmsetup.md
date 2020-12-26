@@ -22,7 +22,7 @@ Using the `enable --now` flag, we can *start* the service and set it to *start o
 
 ## Configuration
 
-### Remote Server 
+### Remote Server
 
 By default, this configuration starts a `PHP-FPM` server listening on *port 9000* that binds to `127.0.0.1` (localhost).
 

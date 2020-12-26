@@ -9,7 +9,7 @@ A full backup takes a full backup of your SQL databases and updates the database
 ## A Transactional Backup
 If your databases are in Full Recovery Model, any changes made to the databases are written to a transactional log. A Transactional backup backs up only this log, to log what changes have been made since the last backup (full or transactional).
 
-Running a transactional backup has a number of advantages. As we are only backing up changes made since the last backup, it is likely the backup completes in a much shorter time than a full backup would take, saving resources on the solution. 
+Running a transactional backup has a number of advantages. As we are only backing up changes made since the last backup, it is likely the backup completes in a much shorter time than a full backup would take, saving resources on the solution.
 
 Also backing up transactional logs adds the ability to be able to do 'Point in time restores', so we can replay the transactional logs up to a point in time, effectively restoring your data as it was to the minute and second.
 

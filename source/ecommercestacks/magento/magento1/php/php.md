@@ -42,19 +42,19 @@ This includes the PHP modules required by Magento:
 
 #### PHP 5.6
 ```bash
-yum install --disablerepo='*' --enablerepo=base,remi-php56,remi,epel,updates php php-pdo php-mysqlnd php-opcache php-xml php-mcrypt php-gd php-devel php-mysql php-intl php-mbstring php-bcmath php-json php-iconv php-pecl-redis php-fpm php-zip php-soap 
+yum install --disablerepo='*' --enablerepo=base,remi-php56,remi,epel,updates php php-pdo php-mysqlnd php-opcache php-xml php-mcrypt php-gd php-devel php-mysql php-intl php-mbstring php-bcmath php-json php-iconv php-pecl-redis php-fpm php-zip php-soap
 ```
 #### PHP 7.0
 ```bash
-yum install --disablerepo='*' --enablerepo=base,remi-php70,remi,epel,updates php php-pdo php-mysqlnd php-opcache php-xml php-mcrypt php-gd php-devel php-mysql php-intl php-mbstring php-bcmath php-json php-iconv php-pecl-redis php-fpm php-zip php-soap 
+yum install --disablerepo='*' --enablerepo=base,remi-php70,remi,epel,updates php php-pdo php-mysqlnd php-opcache php-xml php-mcrypt php-gd php-devel php-mysql php-intl php-mbstring php-bcmath php-json php-iconv php-pecl-redis php-fpm php-zip php-soap
 ```
 #### PHP 7.1
 ```bash
-yum install --disablerepo='*' --enablerepo=base,remi-php71,remi,epel,updates php php-pdo php-mysqlnd php-opcache php-xml php-mcrypt php-gd php-devel php-mysql php-intl php-mbstring php-bcmath php-json php-iconv php-pecl-redis php-fpm php-zip php-soap 
+yum install --disablerepo='*' --enablerepo=base,remi-php71,remi,epel,updates php php-pdo php-mysqlnd php-opcache php-xml php-mcrypt php-gd php-devel php-mysql php-intl php-mbstring php-bcmath php-json php-iconv php-pecl-redis php-fpm php-zip php-soap
 ```
 #### PHP 7.2
 ```bash
-yum install --disablerepo='*' --enablerepo=base,remi-php72,remi,epel,updates php php-pdo php-mysqlnd php-opcache php-xml php-pecl-mcrypt php-gd php-devel php-intl php-mbstring php-bcmath php-json php-iconv php-pecl-redis php-fpm php-zip php-soap 
+yum install --disablerepo='*' --enablerepo=base,remi-php72,remi,epel,updates php php-pdo php-mysqlnd php-opcache php-xml php-pecl-mcrypt php-gd php-devel php-intl php-mbstring php-bcmath php-json php-iconv php-pecl-redis php-fpm php-zip php-soap
 ```
 
 ### Update PHP
@@ -62,29 +62,29 @@ You can perform an update of PHP with the following command depending on the des
 
 #### PHP 5.6
 ```bash
-yum update --disablerepo='*' --enablerepo=base,remi-php56,remi,epel,updates 'php-*' 
+yum update --disablerepo='*' --enablerepo=base,remi-php56,remi,epel,updates 'php-*'
 ```
 
 #### PHP 7.0
 ```bash
-yum update --disablerepo='*' --enablerepo=base,remi-php70,remi,epel,updates 'php-*' 
+yum update --disablerepo='*' --enablerepo=base,remi-php70,remi,epel,updates 'php-*'
 ```
 
 #### PHP 7.1
 ```bash
-yum update --disablerepo='*' --enablerepo=base,remi-php71,remi,epel,updates 'php-*' 
+yum update --disablerepo='*' --enablerepo=base,remi-php71,remi,epel,updates 'php-*'
 ```
 #### PHP 7.2
 ```bash
-yum update --disablerepo='*' --enablerepo=base,remi-php72,remi,epel,updates 'php-*' 
+yum update --disablerepo='*' --enablerepo=base,remi-php72,remi,epel,updates 'php-*'
 ```
 
 If any of the following packages are updated as dependences, Nginx will require a restart after updating PHP
 
 ```bash
-curl 
-nss 
-openssl 
+curl
+nss
+openssl
 libcurl
 ```
 

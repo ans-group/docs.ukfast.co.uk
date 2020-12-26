@@ -20,5 +20,5 @@ For a consolidated view of various usage metrics, including bandwidth, for your 
    .. title:: Monitoring | Bandwidth Usage
    .. meta::
       :title: Monitoring | Bandwidth Usage | UKFast Documentation
-      :description: How to see your bandwidth usage 
+      :description: How to see your bandwidth usage
 ```

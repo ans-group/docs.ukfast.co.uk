@@ -33,7 +33,7 @@ openssl dhparam -out dhparams.pem 2048
 The parameters to change are:
 ```console
 SSLCipherSuite At least add :!EXPORT, if possible use a modern configuration.
-SSLHonorCipherOrder on      
+SSLHonorCipherOrder on
 ```
 
 ## Nginx
@@ -72,7 +72,7 @@ mv moduli.safe /etc/ssh/moduli
 
 ## Testing
 
-There are external web-based testers such as [this one from KeyCDN.com](https://tools.keycdn.com/logjam).  
+There are external web-based testers such as [this one from KeyCDN.com](https://tools.keycdn.com/logjam).
 
 ```eval_rst
 .. warning::

@@ -16,7 +16,7 @@ From the context menu, select "New maintenance plan", You will now be presented 
 ![Name](Images/maintenanceplan/name.png)
 
 You will now be presented with the maintenance plan window as below, on the lower portion of the object explorer, you will see a section named "Toolbox", within the toolbox section, you will see a number of different options
-These are the different maintenance tasks which can be carried out, for this demonstration, please select "Back up Database Task" 
+These are the different maintenance tasks which can be carried out, for this demonstration, please select "Back up Database Task"
 
 ![Toolbox](Images/maintenanceplan/maintplanwindow.png)
 
@@ -33,7 +33,7 @@ Once you have configured the options to your requirements as we have below, plea
 ![Configured](Images/maintenanceplan/configured.png)
 
 You will now be returned to the maintenance plan window, from the "Sub plan" menu at the top of the central field, please select the calendar icon, You will now be presented with the Job Schedule Properties window as below
-This window denotes how frequently your maintenance plan will run. please configure this window to your requirements and select "OK" 
+This window denotes how frequently your maintenance plan will run. please configure this window to your requirements and select "OK"
 
 ![Scheduled](Images/maintenanceplan/schedule.PNG)
 

@@ -10,7 +10,7 @@ If there is no configured AnyConnect VPN on the firewall the below screen will b
 
 #### IP Pool (default 192.168.20.0/24)
 
-This is the IP range that will be allocated out by the firewall to each user as they connect to the VPN.  This range needs to be different than the range in use for local 
+This is the IP range that will be allocated out by the firewall to each user as they connect to the VPN.  This range needs to be different than the range in use for local
 network and that in use on your UKFast servers.
 
 #### Zones To Be Accessed
@@ -63,7 +63,7 @@ Please note that if your VPN users are not authenticated against the firewall's 
 9. Once connected you will have full access to your servers on their internal IPs
 
 ```eval_rst
-.. note::  
+.. note::
   If you require assistance with this, simply give the UKFast Support Team a call, or raise a Priority Support Ticket and we’ll be happy to advise/help.
 ```
 

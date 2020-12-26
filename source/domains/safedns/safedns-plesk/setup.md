@@ -8,7 +8,7 @@ If you install the extension, the “Welcome” tab will guide you through this.
 #### IP Address
 
 The server’s Public IP Address needs to be set in Plesk.
-This can be checked in Tools & Settings > IP Addresses. 
+This can be checked in Tools & Settings > IP Addresses.
 Make sure there is a Public IP set for all the IP’s your Domains will use.
 
 #### Hostname
@@ -22,7 +22,7 @@ The Hostname should also resolve to the server’s Public IP Address, If it does
 
 #### Nameservers
 
-The Nameservers in Plesk’s DNS Template at should be set to: 
+The Nameservers in Plesk’s DNS Template at should be set to:
   - ns0.ukfast.net
   - ns1.ukfast.net
 

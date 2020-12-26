@@ -55,7 +55,7 @@ fastcloudbackup list
   If any services are shown as stopped then run
 ```
 fastcloudbackup restart
-```  
+```
 
 ## Backups taking a long time to run
 

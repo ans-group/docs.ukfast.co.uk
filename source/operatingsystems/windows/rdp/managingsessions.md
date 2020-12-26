@@ -1,6 +1,6 @@
 # Managing Remote Desktop Sessions
 
-* If ever you need to know which users are logged into your server(s) you can view this information using Windows Task Manager. 
+* If ever you need to know which users are logged into your server(s) you can view this information using Windows Task Manager.
 
 To View Currently logged in users, please follow the below steps
 

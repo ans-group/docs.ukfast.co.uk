@@ -4,11 +4,11 @@ In this article we will discuss how to install the `New Relic` PHP agent on a Ce
 
 `New Relic` offers a [free tier account](https://newrelic.com/signup/) with "100 GB/month of free data ingest" for users to take advantage of that doesn't require using credit card info.
 
-## Prerequsites 
+## Prerequsites
 
-- License key 
-  - In order to install `New Relic`, you will need an **APM** [license key.](https://docs.newrelic.com/docs/accounts/install-new-relic/account-setup/license-key) 
-- PHP compatibility 
+- License key
+  - In order to install `New Relic`, you will need an **APM** [license key.](https://docs.newrelic.com/docs/accounts/install-new-relic/account-setup/license-key)
+- PHP compatibility
   - `New Relic` supports popular frameworks and most new versions of PHP `5.3`, `5.4`, `5.5`, `5.6`, `7.0`, `7.1`, `7.2`, `7.3`, `7.4`.
   - More information on the supported frameworks can be found in the [New Relic documentation](https://docs.newrelic.com/docs/agents/php-agent/getting-started/php-agent-compatibility-requirements).
 
@@ -33,7 +33,7 @@ yum install newrelic-php5
 ```bash
 newrelic-install install
 ```
- 
+
 This is will prompt you for your **APM license Key** and detect your installed PHP version.
 
 ```bash
@@ -90,7 +90,7 @@ Please ensure that for either of the above examples that you remember to change 
 
 ## Troubleshooting
 
-If no data appears after 5 minutes make sure that you are generating some traffic to the website. `New Relic` will only display data it captures, if no traffic is hitting the website its possible the website may not hace had any visitors yet. 
+If no data appears after 5 minutes make sure that you are generating some traffic to the website. `New Relic` will only display data it captures, if no traffic is hitting the website its possible the website may not hace had any visitors yet.
 
 If data is still not being produced after generating traffic to the website try the [Diagnostics tool](https://docs.newrelic.com/docs/using-new-relic/cross-product-functions/troubleshooting/new-relic-diagnostics) built by New Relic to identify issues.
 
@@ -110,7 +110,7 @@ Now browse to `example.com/info.php`, if New Relic is installed correctly, you w
 
 ![php-info page](files/newrelic-phpinfo.PNG)
 
-Check that there is a valid license. 
+Check that there is a valid license.
 
 ![php-info licence](files/newrelic-license.PNG)
 

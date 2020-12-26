@@ -7,7 +7,7 @@ To use this Certbot authenticator, you'll need to:
 * To have `python3` and `pip` installed on your server
 * To have an API key with permissions on the SafeDNS API
 
-You can obtain the API key from your MyUKFast [account page](https://my.ukfast.co.uk/applications/index.php).  
+You can obtain the API key from your MyUKFast [account page](https://my.ukfast.co.uk/applications/index.php).
 See also the [SafeDNS API](https://developers.ukfast.io/documentation/safedns) documentation.
 
 It's also assumed you'll running all commands as the `root` user.

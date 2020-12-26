@@ -2,7 +2,7 @@
 
 Terraform is an open-source tool that allows you to code and provision your infrastructure. Terraform have created extensive documentation about their product, and you can learn all about it below:
 
-<https://www.terraform.io/>  
+<https://www.terraform.io/>
 
 <https://www.terraform.io/docs/index.html>
 

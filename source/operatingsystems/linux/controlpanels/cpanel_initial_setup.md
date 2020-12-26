@@ -1,6 +1,6 @@
 # WHM First Time Setup
 
-When you first log in to WHM, you'll be presented with a page, asking for an email address, and 2 nameservers. 
+When you first log in to WHM, you'll be presented with a page, asking for an email address, and 2 nameservers.
 
 The email that you choose here will receive all of the maintenance updates from WHM, such as when there is an issue with the server, so ideally choose an account that is monitored often.
 

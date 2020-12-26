@@ -37,7 +37,7 @@ The basic walkthrough for manually installing the patch is provided below:
 
 Once the patch has been applied and the updates have been installed, you will need to add two registry keys to enable the mitigations on the server. This is per the [Microsoft documentation](https://support.microsoft.com/en-us/help/4072698/windows-server-guidance-to-protect-against-the-speculative-execution-s).
 
-Open a `CMD Prompt` as Administrator and run the following two commands, one after another. This will add the relevant registry keys to enable the Mitigation.  Always backup the registry before making changes.  If you are a UKFast customer and are not comfortable making these changes, please seek assistance from our support team by raising a support request in [MyUKFast](https://my.ukfast.co.uk/pss/add.php). 
+Open a `CMD Prompt` as Administrator and run the following two commands, one after another. This will add the relevant registry keys to enable the Mitigation.  Always backup the registry before making changes.  If you are a UKFast customer and are not comfortable making these changes, please seek assistance from our support team by raising a support request in [MyUKFast](https://my.ukfast.co.uk/pss/add.php).
 
 ```
 reg add "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management" /v FeatureSettingsOverride /t REG_DWORD /d 0 /f
@@ -50,7 +50,7 @@ For further information, please refer to the [Microsoft documentation](https://s
 
 ## Automatic installation
 
-Once testing has been completed, this security patch will be deployed automatically for any UKFast customers who follow our automatic update schedule and have a compatible anti-virus, as per the Microsoft patch requirements. The patch will be pushed out through the standard Windows Update system. 
+Once testing has been completed, this security patch will be deployed automatically for any UKFast customers who follow our automatic update schedule and have a compatible anti-virus, as per the Microsoft patch requirements. The patch will be pushed out through the standard Windows Update system.
 
 If your anti-virus version is not compatible with the patch, then the update will **not** be made available through Windows Update. Please contact your anti-virus vendor for further information.  If you use McAfee then [this article](https://kc.mcafee.com/corporate/index?page=content&id=KB90167) may help.
 

@@ -39,7 +39,7 @@ In the `AutoSSL` section of `WHM`, click on the **Manage Users** tab. Here you w
 Once enabled, certificates will be automatically renewed close to the expiration date of the SSL
 
 ## Troubleshooting
- 
+
 If you are having issues with generating a certificate, the first place you should check is the **logs** tab in `AutoSSL`
 
 

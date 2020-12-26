@@ -2,7 +2,7 @@
 
 This guide explains the different failover types within Veeam and how to perform each of them.
 
-If you are currently in a DR situation and need to perform a failover, please navigate to this section of the document 
+If you are currently in a DR situation and need to perform a failover, please navigate to this section of the document
  [Performing Full Failovers](#Performing-Full-Failovers-In-the-event-of-an-emergency)
 
 
@@ -42,7 +42,7 @@ You also have the option to call UKFast support, should you have any issues doin
 
 ![Disable Full Failover](files/veeam_failovers/veeamfailovers_disablefailover.png)
 
-### Test Failover While Production is Still Online 
+### Test Failover While Production is Still Online
 
 The most likely reason you would do this is to simulate a real DR situation and bring your VMs online at UKFast since you have the ability to do this without affecting your live VMs. The VMs will be powered up on UKFast’s infrastucture and the NEA Appliance will configure the NATs specified in the Failover Plan. Production will not be able to communicate with DR, but you should be able to access your VMs by the NATs you configured with the external IPs.
 
@@ -64,7 +64,7 @@ When you right click you have three options to select, **Start**, **Start to** a
 
 
 #### Start To
-This is the exact same process as **Start** above; however, you can choose to bring up all VMs using the closest restore point before your chosen time and date. 
+This is the exact same process as **Start** above; however, you can choose to bring up all VMs using the closest restore point before your chosen time and date.
 
 
 #### Test

@@ -77,7 +77,7 @@ This will give a combined bit of output as it stops and then starts the service:
 Stopping httpd:                                            [  OK  ]
 Starting httpd:                                            [  OK  ]
 [root@94 ~]#
-```   
+```
 
 ## Checking the status of services
 

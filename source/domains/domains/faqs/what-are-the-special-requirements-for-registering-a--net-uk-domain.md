@@ -16,5 +16,5 @@ Registrants must be Internet Service Providers and the domain name must be the s
 Nominet perform many checks that must be passed before the registration of these domains can complete. The full list of rules are on [Nominet's site](http://www.nominet.org.uk/uk-domain-names/registering-uk-domain/choosing-domain-name/rules).
 
 
- 
+
 

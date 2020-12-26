@@ -63,9 +63,9 @@ Next, select the operating system type of the target server via the provided  `O
 
 ![select-os](files/setup-centos.png)
 
-Upon selecting your OS, the needed commands will be shown to you. These commands will need to be run via the command line via a terminal like SSH on your server. 
+Upon selecting your OS, the needed commands will be shown to you. These commands will need to be run via the command line via a terminal like SSH on your server.
 
-The provided commands will attempt to escalate to the privileged root user. 
+The provided commands will attempt to escalate to the privileged root user.
 
 ```
 sudo -i
@@ -91,11 +91,11 @@ EOF
 [root@my-server ~]$ yum install threat-monitoring -y
 ```
 
-Once the package has been installed successfully, you need to perform 1 final step to link your server up to our Threat Monitoring infrastructure. 
+Once the package has been installed successfully, you need to perform 1 final step to link your server up to our Threat Monitoring infrastructure.
 
 Before we do that, you have the option of setting a custom friendly that will later be shown in any Threat Monitoring dashboards when referring to this server. You can either specify this optional manually using the `-name=NAME_HERE` flag, or by entering your desired server in the `Name` text box provided on the MyUKfast installation page. Updating this text box will automatically update the commands that we need to run next.
 
-Finally, run the provided command to complete your install. Upon completion, you should see a success message reading, `Success! Your Threat Monitoring Agent is now configured and working`. 
+Finally, run the provided command to complete your install. Upon completion, you should see a success message reading, `Success! Your Threat Monitoring Agent is now configured and working`.
 
 An example MyUKFast configuration setup is shown below.
 
@@ -109,7 +109,7 @@ To receive email alerts for suspicious events, you will need to configure email 
 
 ![setup-type](files/setup-alerts-manager.png)
 
-On the "Server " tab, you will see a table of contacts and the types of alerts they have been configured to receive. 
+On the "Server " tab, you will see a table of contacts and the types of alerts they have been configured to receive.
 
 To set a contact to receive Threat Monitoring alerts, press the letter icon next to their name under the Threat Monitoring column and then press the "Save Changes" button, an example is shown below.
 

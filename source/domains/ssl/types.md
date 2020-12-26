@@ -25,5 +25,5 @@ SSL Certificates come in various forms, which provide the different features tha
 - Extended Validation (EV) SSL - This certificate provides a visual trust indicator by turning the HTTPS address bar green - a feature exclusive to EV SSLs that indicates the site is verified and secure.
 - Extended Validation SGC SSL - the addition of SGC technology to an EV certificate upgrades older browsers so they can connect at full 128- or 256-bit encryption levels.  This means you can convert more sales by protecting customers using these older browsers. As with the regular EV SSL certificate, a visual trust indicator is provided by turning the HTTPS address bar green.
 - Symantec Secure Site Pro with EV - This website security solution features Extended Validation (EV), the green address bar, and the Norton Secured Seal.
-    
+
 **Wildcard SSL - A wildcard certificate protects a domain and unlimited sub-domains of that domain**

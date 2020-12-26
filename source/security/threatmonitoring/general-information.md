@@ -43,7 +43,7 @@ Any many more...
 
 ### How will I be alerted?
 
-Threat Monitoring alerts can be easily viewed in the form on an email, sent directly from our real-time alerting system. These alerts will contain a brief description of the attack/alert, the agent (your server) IP address and the full log event detailing the attacks. 
+Threat Monitoring alerts can be easily viewed in the form on an email, sent directly from our real-time alerting system. These alerts will contain a brief description of the attack/alert, the agent (your server) IP address and the full log event detailing the attacks.
 
 You can also view a breakdown report of live threat events in your MyUKFast Threat Monitoring dashboard.
 

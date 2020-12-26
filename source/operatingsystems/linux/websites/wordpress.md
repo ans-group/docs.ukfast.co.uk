@@ -59,7 +59,7 @@ Enter mysql by typing `mysql` at the command line. This should leave you confron
 
 ```console
 
-   [root@asfdasdf ~]# mysql  
+   [root@asfdasdf ~]# mysql
    Welcome to the MySQL monitor.  Commands end with ; or \g.
    Your MySQL connection id is 2
    Server version: 5.1.73 Source distribution

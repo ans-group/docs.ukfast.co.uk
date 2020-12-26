@@ -18,5 +18,5 @@
 For the full rules see [Nominet's site](http://www.nominet.org.uk/uk-domain-names/registering-uk-domain/choosing-domain-name/rules).
 
 
- 
+
 

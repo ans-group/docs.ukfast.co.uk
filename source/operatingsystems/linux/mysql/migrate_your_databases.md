@@ -7,13 +7,13 @@ In this article, we discuss how to successfully migrate a MySQL/MariaDB database
 * Ensure there is enough free space for the size of the database on both servers.
     * To find out the size of each database use the following query:
     ```sql
-        SELECT table_schema AS "Database", 
-        ROUND(SUM(data_length + index_length) / 1024 / 1024, 2) AS "Size (MB)" 
-        FROM information_schema.TABLES 
+        SELECT table_schema AS "Database",
+        ROUND(SUM(data_length + index_length) / 1024 / 1024, 2) AS "Size (MB)"
+        FROM information_schema.TABLES
         GROUP BY table_schema;
     ```
 
-### Create a database dump 
+### Create a database dump
 
 On the current databases server, run the relative commands via `SSH`. Depending on how large the database(s) is, it may take a short while to complete.
 
@@ -101,8 +101,8 @@ To import the database, run the following command:
 For multiple databases :
 
 ```bash
-    $ for i in $(ls /root/mysqldumps);     
-    do mysql -e "CREATE DATABASE $i" && mysql -u root -p $i < /root/mysqldumps/$i;     
+    $ for i in $(ls /root/mysqldumps);
+    do mysql -e "CREATE DATABASE $i" && mysql -u root -p $i < /root/mysqldumps/$i;
     done
 ```
 

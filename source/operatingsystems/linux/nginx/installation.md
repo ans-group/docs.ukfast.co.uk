@@ -108,7 +108,7 @@ Or if it's already running, you can restart it:
 
 ```console
 service nginx restart
-```  
+```
 
 ## Going forward
 

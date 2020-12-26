@@ -14,7 +14,7 @@ after the protocol `http(s)://` and before the first `/` following the protocol.
 ![URL bar with domain](files/urlbar.png)
 
 In this screenshot, the URL contains `https://www.ukfast.co.uk/cloud-hosting.html`,
-so if we remove the protocol (https in this case), we're left with 
+so if we remove the protocol (https in this case), we're left with
 `www.ukfast.co.uk/cloud-hosting.html`. However this is still not our domain as we still
 have a document in there (Everything following and including the `/`). If we remove
 the document from the URL we're left with `www.ukfast.co.uk`.
@@ -33,7 +33,7 @@ The easiest method of the two is `DNS Record`, however it does take a little lon
 the DNS will require time to propagate, it may take even longer if you make a mistake.
 
 ### DNS verification
- 
+
 This method requires you to have access to change DNS records for the
 domain. UKFast support cannot create the records on your behalf, but we can advise
 you if you're struggling to get the correct record, create a ticket and ask for assistance.

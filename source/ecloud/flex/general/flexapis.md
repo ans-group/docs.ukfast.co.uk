@@ -1,6 +1,6 @@
 # Working with eCloud Flex APIs
 
-eCloud Flex provides access to the full range of OpenStack APIs, which is the most powerful way to take advantage of the capability available.  
+eCloud Flex provides access to the full range of OpenStack APIs, which is the most powerful way to take advantage of the capability available.
 
 There is a wealth of documentation and guidance available on the various OpenStack websites, including
 

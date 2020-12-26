@@ -22,7 +22,7 @@ Sometimes the more advanced firewall features are disabled by default. If you se
 Our dedicated firewalls allow much finer control, as well as advanced features like VPNs, and the ability to allow ICMP traffic. You can also have more advanced setups, including redundant pairs of firewalls.
 
 ```eval_rst
-  .. title:: Accessing your firewall 
+  .. title:: Accessing your firewall
   .. meta::
      :title: Accessing your firewall  | UKFast Documentation
      :description: How to access your UKFast firewall configuration

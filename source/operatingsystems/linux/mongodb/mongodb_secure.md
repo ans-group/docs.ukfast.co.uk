@@ -4,7 +4,7 @@
 
 ## Creating an Admin User
 
-To start, you will need to enable access control on your `MongoDB` instance. 
+To start, you will need to enable access control on your `MongoDB` instance.
 
 * Ensure your `MongoDB` is not currently running
 ```bash

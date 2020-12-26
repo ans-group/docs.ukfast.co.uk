@@ -6,7 +6,7 @@ By default, File Integrity Monitoring scans run every 12 hours and will alert wh
 
  To combat this, realtime monitoring can be configured, utilising 'Aduitd' on Linux systems and Windows Auditing. When realtime FIM is configured, changes to these files are reported within 30 seconds. Additionally, extra data such as what user changed the file, what the effective user was (for example root if sudo was used), the process name that changed the file, and what exactly what changed is provided in the alert.
 
- With this additional information, a File Change Alert can easily be recognised as suspicious or as a false positive. The needed action can then be taken quickly by either yourself or by the Threat Response Team when coupled with our Threat Response service for active alert investigation. 
+ With this additional information, a File Change Alert can easily be recognised as suspicious or as a false positive. The needed action can then be taken quickly by either yourself or by the Threat Response Team when coupled with our Threat Response service for active alert investigation.
 
  Information on the important aspects of a File Integrity Monitoring alert are detailed below:
 
@@ -48,7 +48,7 @@ By default, File Integrity Monitoring scans run every 12 hours and will alert wh
 
  **Change Data**
 
- Finally, when real-time monitoring is configured, information on what exactly has changed in the file is also passed. Please note that although this does have a generous character limit, if an entire code block is added to a file, for example, this information may not be passed due to the size limitations. 
+ Finally, when real-time monitoring is configured, information on what exactly has changed in the file is also passed. Please note that although this does have a generous character limit, if an entire code block is added to a file, for example, this information may not be passed due to the size limitations.
 
  This section follows the common output format of the 'diff' command. As a result '<' will indicate what has been removed and '>' will indicate what has been added.
 
@@ -61,7 +61,7 @@ By default, File Integrity Monitoring scans run every 12 hours and will alert wh
  ---
  > john.doe:!!$6$bf/M8HsySGWIiT33a397b7b69cxgMzu3oDF40415bmV33a397b7b69covwAZUxjxJYjv0mQ94Isz3ajfmm6kSEDGu/dQEMjCxOOHVj/:15576::99739:1:::
  ```
- 
+
 ```eval_rst
    .. title:: File Monitoring
    .. meta::

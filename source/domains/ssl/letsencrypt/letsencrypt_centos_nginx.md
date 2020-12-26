@@ -58,7 +58,7 @@ By default, this will append your nginx configuration file for the chosen domain
 
 If you wish to amend this yourself, you should chose the 'certonly' option, and manually specify the new certificates in your domain's nginx configuration file.
 ```
-certbot certonly 
+certbot certonly
 
 ```
 ##  Additional options

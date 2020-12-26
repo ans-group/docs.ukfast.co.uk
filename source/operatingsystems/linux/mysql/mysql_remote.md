@@ -1,11 +1,11 @@
 ## Remote database server
-This article discusses how to setup a remote database server and allow access from a seperate Web Server(s). This assumes that you have a split role solution with a separate server that performs the web role and a dedicated server that performs the database roles. 
+This article discusses how to setup a remote database server and allow access from a seperate Web Server(s). This assumes that you have a split role solution with a separate server that performs the web role and a dedicated server that performs the database roles.
 
 ```eval_rst
 .. note::
 
    For split role solutions, we recommend to have a dedicated Firewall to avoid bandwidth constraints between your web and database servers. Please use the internal IP address to connect between servers when a dedicated firewall is in place.
-   
+
 ```
 
 ### Confirm Connection between Servers
@@ -58,7 +58,7 @@ Check the user is created:
     5 rows in set (0.00 sec)
 ```
 
-### Access Database 
+### Access Database
 
 Now we have confirmed that the servers can communicate over the MySQL port and have created a user with access from all hosts, we will now test the remote connection. From the web server attempt to log in while passing the hosts flag. You will need the MySQL/MariaDB client installed on the webserver in order to run the following from SSH:
 
@@ -132,7 +132,7 @@ Update the following values and restart the web service:
     ),
 ```
 
-PHP: 
+PHP:
 
 ```php
     <?php

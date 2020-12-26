@@ -38,7 +38,7 @@ even detect MySQL queries and external API calls which may be slowing things dow
 With the above in mind, we'd recommend you target pages which execute code that
 interacts with other services, where possible. Some pages which require
 authentication (eg. checkout page) are not possible to test without a custom user
-journey written. If that's of interest please speak to your account manager 
+journey written. If that's of interest please speak to your account manager
 regarding a custom user journey. The following pages are good to look for:
 
 - Pages with complex MySQL queries

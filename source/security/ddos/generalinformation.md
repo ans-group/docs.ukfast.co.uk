@@ -26,7 +26,7 @@ Web Application Firewall (WAF) on DDoSx uses a global network to protect your on
 
 ## How does WAF on DDoSx work?
 
-WAF on DDoSx is an example of a cloud-based WAF, designed to be more efficient via scalability. By using a WAF on the UKFast DDoSx global network, you benefit from a much greater capacity, which makes attack prevention more effective.  WAF on DDoSx is designed to protect you from the [OWASP top 10 vulnerabilities](/security/webapplicationfirewall/attacks)  
+WAF on DDoSx is an example of a cloud-based WAF, designed to be more efficient via scalability. By using a WAF on the UKFast DDoSx global network, you benefit from a much greater capacity, which makes attack prevention more effective.  WAF on DDoSx is designed to protect you from the [OWASP top 10 vulnerabilities](/security/webapplicationfirewall/attacks)
 
 ## How do I set up a CNAME?
 
@@ -39,7 +39,7 @@ A CNAME record links a domain to the A name record of another domain for ease of
 3. Type the domain you would like to protect in the domain box.
 4. A message will pop up to add a CNAME record. Click Connect.
 
-In order to connect your domain to the DDoSx network you must first verify that this is your domain. To do this follow the on screen instructions. Once this process has been completed and the verification has been confirmed you will proceed to the configure tab within DDoSx. To then complete the set up of your domain on DDoSx read our [documentation here](/security/ddos/index). 
+In order to connect your domain to the DDoSx network you must first verify that this is your domain. To do this follow the on screen instructions. Once this process has been completed and the verification has been confirmed you will proceed to the configure tab within DDoSx. To then complete the set up of your domain on DDoSx read our [documentation here](/security/ddos/index).
 
 ```eval_rst
    .. title:: DDoSx and CDN from UKFast

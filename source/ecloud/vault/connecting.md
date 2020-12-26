@@ -44,7 +44,7 @@ As noted in the configuration for version 1.6.1 or above, you will need to add `
 Once you have the configuration in place, you can start to use `s3cmd` to view and change your buckets and files. Some example usage:
 
 * List your buckets: `s3cmd ls`
-* Create a new bucket: `s3cmd mb s3://bucketname` 
+* Create a new bucket: `s3cmd mb s3://bucketname`
 * List the contents of a bucket: `s3cmd ls s3://bucketname/`
 * List the contents of a 'directory' (known as 'prefix'): `s3cmd ls s3://bucketname/path/` (note trailing slash)
 * Upload a file to a bucket: `s3cmd put myfile.txt s3://bucketname/path/myfile.txt`

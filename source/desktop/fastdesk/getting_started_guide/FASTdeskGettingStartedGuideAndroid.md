@@ -6,21 +6,21 @@ FastDesk® is UKFast’s Desktop as a Service (DaaS) solution, which allows user
 .. note::
 
     Compatible with Nougat (Android 7.x), Oreo (Android 8.x), Pie (Android 9.x) and Android Q (Android 10.x). For the most optimum experience, we recommend updating your Android device to the latest Android Software.
-   
+
 ```
 
 ## Pre-Installation information
 
 This guide provides step by step instructions on installing and accessing FastDesk on your Android device through the Citrix Workspace application. It is possible to access FastDesk through the web portal on your Android device, however, it is recommended FastDesk is accessed specifically through the Citrix Workspace Application. The Citrix Workspace application gives you:
 
-- Instant access to your FastDesk environment in an easy-to-use, all-in-one interface. 
-- The Workspace application also fully integrated with the Citrix Content Collaboration (Also known as ShareFile) which gives you ability to upload and download files all within the one application. 
+- Instant access to your FastDesk environment in an easy-to-use, all-in-one interface.
+- The Workspace application also fully integrated with the Citrix Content Collaboration (Also known as ShareFile) which gives you ability to upload and download files all within the one application.
 
 If you currently use the older Citrix Receiver for Android, Citrix Workspace will replace this. If your Android device has insufficient storage, it is possible to install the Citrix Workspace App for Android on an external SD card and mount it on the local device (For more information on this, please contact the FASTdesk Team).
- 
+
 ## Step 1 - Installing the Citrix Workspace Application
 
-To begin with, on your Android device, navigate to and open the Google Play store. Once complete, use the application search bar to look for “Citrix Workspace”. When found, please refer to **_image 1 included below_** to ensure it is the correct application. Once confirmed, proceed to install the application by tapping the green install button. 
+To begin with, on your Android device, navigate to and open the Google Play store. Once complete, use the application search bar to look for “Citrix Workspace”. When found, please refer to **_image 1 included below_** to ensure it is the correct application. Once confirmed, proceed to install the application by tapping the green install button.
 
 ![Image 1: Google Play Store download page](files/Downloads_page.png "Image 1: Google Play Store download page")
 
@@ -33,7 +33,7 @@ Once the "Citrix Workspace" application is installed, proceed to open it (Refer 
 
 ![Image 3: Citrix Workspace application is installed](files/appstore.png "Image 3: Citrix Workspace application is installed")
 
-After launching Citrix Workspace for the first time, you will receive four notifications from your phone asking to "Allow Workspace to access photos, media and other files on your device?" Please select "Allow" for the set-up to continue(Refer to **_image 4 below_**). 
+After launching Citrix Workspace for the first time, you will receive four notifications from your phone asking to "Allow Workspace to access photos, media and other files on your device?" Please select "Allow" for the set-up to continue(Refer to **_image 4 below_**).
 
 ![Image 4: Citrix Workspace asking for read permissions.](files/permisions1.png "Image 4: Citrix Workspace asking for read permissions.")
 
@@ -45,7 +45,7 @@ If you get a prompt to save the URL, the option is yours as to whether you want 
 
 ![Image 6: Save FastDesk URL](files/firstlogin.png "Image 6: Save FastDesk URL")
 
-You will then be prompted to enter your username and password into the application. Go ahead and enter the username and password credentials that were provided to you by the FastDesk team (See **_Image 7 below_**). 
+You will then be prompted to enter your username and password into the application. Go ahead and enter the username and password credentials that were provided to you by the FastDesk team (See **_Image 7 below_**).
 
 ![Image 7: Enter your credentials](files/entercreds.png "Image 7: Enter your credentials")
 
@@ -57,15 +57,15 @@ You will then be prompted to enter your username and password into the applicati
 ```
 
 ## Step 3 - Launching a desktop from the Portal
-When you first log in, you will notice there is nothing to click except the menu button in the left top corner of the screen and the search button in the top right corner of the screen(refer to **_image 8_** below). 
+When you first log in, you will notice there is nothing to click except the menu button in the left top corner of the screen and the search button in the top right corner of the screen(refer to **_image 8_** below).
 
 ![Image 8: When you first log-in](files/mainscreen.png "Image 8: When you first log-in")
 
-Select the menu button and there is a list of options (Home, Apps, and Desktops). Refer to **_image 9_ below** for a visual representation. The "Home" section in the menu contains hosted desktops you have tagged as your favourites whilst the "Apps" section presents you with specific applications that have been made available to you. In most cases, you will not use this section. The "Refresh" options will reset your connection to the application whilst the "Settings" section presents you with the settings you can customise including the ability for you to manage your accounts. 
+Select the menu button and there is a list of options (Home, Apps, and Desktops). Refer to **_image 9_ below** for a visual representation. The "Home" section in the menu contains hosted desktops you have tagged as your favourites whilst the "Apps" section presents you with specific applications that have been made available to you. In most cases, you will not use this section. The "Refresh" options will reset your connection to the application whilst the "Settings" section presents you with the settings you can customise including the ability for you to manage your accounts.
 
 ![Image 9: Citrix Workspace Menu Bar](files/Workspacemain.png "Image 9: Citrix Workspace Menu Bar")
 
-Select Desktops by clicking on the text "Desktops". This should present you with the desktops that have been allocated to you. In the case of **_image 10_** below, this is the client Desktop Demo.)  
+Select Desktops by clicking on the text "Desktops". This should present you with the desktops that have been allocated to you. In the case of **_image 10_** below, this is the client Desktop Demo.)
 
 ![Image 10: Desktop(s) that have been allocated to you](files/clientdesktop.png "Image 10: Desktop(s) that have been allocated to you")
 
@@ -92,7 +92,7 @@ You can later set the desktop that has been allocated to you as a "Favorite". Th
 ```eval_rst
 .. warning::
    Whenever you log out of a desktop, do allow at least 3 minutes before attempting to log back in. This is to ensure the session correctly ends before another one is open. If you have not waited long enough, there is a danger of your applications not appearing when you log in. If you do find that this is the case, simply log out, wait at least 3 minutes and log back in again.
-   
+
 ```
 
 **_This instruction guide should assist you in getting logged in for the first time. If you have any questions or still require assistance, please contact the FastDesk support team on 0800 923 0617_**.
@@ -102,5 +102,5 @@ You can later set the desktop that has been allocated to you as a "Favorite". Th
   .. meta::
      :title: FastDesk Getting Started Guide: Android | UKFast Documentation
      :description: Guide for users on how to get setup on FastDesk using an Android Device
-     :keywords: FastDesk, Citrix, ukfast, VDI, Citrix Receiver 
+     :keywords: FastDesk, Citrix, ukfast, VDI, Citrix Receiver
 ```

@@ -8,12 +8,12 @@ You will need to open up and connect into Microsoft SQL Server Management Studio
 
 Then Click on New Query and paste the below query which will then present a results window supplying the relevant information:-
 
-![SQL Studio Manager Query](Images/checkversion/ssms_Version2.PNG)  
+![SQL Studio Manager Query](Images/checkversion/ssms_Version2.PNG)
 
 ```SQL
 USE master
 GO
- 
+
 SELECT @@version AS Version,
           SERVERPROPERTY('Edition') As Edition,
           SERVERPROPERTY('ProductVersion') AS Product,

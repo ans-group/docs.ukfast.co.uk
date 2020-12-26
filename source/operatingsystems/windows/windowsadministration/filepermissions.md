@@ -3,7 +3,7 @@
 Creating the Correct file permissions for your data is Crucial to prevent unauthorised access, and/or data loss via intentional deletion or compromise.
 A common way for Current Cryptolock malware to gain access to your data, is via file permissions which have been configured incorrectly using the "Everyone" Principle, it is advised that you do not use this as it does leave your server vulnerable
 
-* When configuring permissions, to ensure that your data is as secure as possible, it is considered best practice to apply the Principle of least priviledge, 
+* When configuring permissions, to ensure that your data is as secure as possible, it is considered best practice to apply the Principle of least priviledge,
 
 
 For this guide, consider that you have a folder which contains sensitive files and you only want specific users to be able to access the files, in order to prevent access to those files, you have 2 options available to you
@@ -23,12 +23,12 @@ You will now be presented with the file or folder properties, select the "Securi
 
 ![Security](Images/permissions/security.png)
 
-The security tab will display current security rules for this file or directory, selecting each user or group in the list, will display the corresponding permissions. 
+The security tab will display current security rules for this file or directory, selecting each user or group in the list, will display the corresponding permissions.
 Please select Add and you will be presented with a the "Select Users, Computers, Service Accounts, or Groups" pane, as below
 
 ![Add](Images/permissions/add.PNG)
 
-In this pane, please type the appropriate user account, in this case "administrator" and select OK. 
+In this pane, please type the appropriate user account, in this case "administrator" and select OK.
 You will now be returned to the permissions pane, where you will be able to see your newly added user in the list, Select the administrator entry, and then tick the deny box for the full control permission in the bottom section of the window as below
 Notice that this fills all other boxes thus denying any form of access to the file, select ok.
 

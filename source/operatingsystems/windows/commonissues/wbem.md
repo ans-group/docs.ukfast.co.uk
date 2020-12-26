@@ -22,8 +22,8 @@ Once the process has been completed, you will receive a notification in the comm
 
 ![Complete](Files/wbem/stopped.PNG)
 
-Now navigate to the wbem directory which is located in C:\Windows\System32\wbem, and right click in any blank space, select "New" and select "Folder", 
-Name this folder something intuitive such as reposold as below 
+Now navigate to the wbem directory which is located in C:\Windows\System32\wbem, and right click in any blank space, select "New" and select "Folder",
+Name this folder something intuitive such as reposold as below
 and move any folder named repository followed by a number (For example respository001)in to the new folder which you have just created.
 
 ![Moverepos](Files/wbem/moverepos.PNG)

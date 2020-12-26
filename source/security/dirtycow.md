@@ -1,12 +1,12 @@
-# Dirty COW 
+# Dirty COW
 
 Dirty COW, or CVE-2016-5195 to use it's less sensationalist name, is a privilege escalation vulnerability in Linux from October 2016.
 
 The obligatory branded vulnerability website can be found [here](https://dirtycow.ninja/), replete with logo, proof of concept and more detail on the underlying issue.
 
-Describing what the vulnerability is, what it does and how it came about is better left to the above link, this page is aimed at people wanting to patch their way to safety. 
+Describing what the vulnerability is, what it does and how it came about is better left to the above link, this page is aimed at people wanting to patch their way to safety.
 
-The good news is that by the time you're reading this, all the major linux distributions will have patches available for their various kernels, so it's simply a matter or running an update through your package manager and restarting your server. 
+The good news is that by the time you're reading this, all the major linux distributions will have patches available for their various kernels, so it's simply a matter or running an update through your package manager and restarting your server.
 
 First things first though, let's check if you're actually vulnerable.
 

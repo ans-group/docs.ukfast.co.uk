@@ -18,7 +18,7 @@ TLS1.0 and TLS1.1 traffic is generated primarily by users of older web browsers,
 
 ## The implications of TLS1.0 and TLS1.1 now being disabled on DDoSX<sup>®</sup>
 
-If you are using the DDoSX network, whether it's for DDoS protection alone, or the additional Content Delivery Network (CDN) and Web Application Firewall (WAF), then your end users will be unable to connect to your websites and applications via TLS1.0 and TLS1.1.  This will impact people with older web browsers on their computers or mobile devices.  
+If you are using the DDoSX network, whether it's for DDoS protection alone, or the additional Content Delivery Network (CDN) and Web Application Firewall (WAF), then your end users will be unable to connect to your websites and applications via TLS1.0 and TLS1.1.  This will impact people with older web browsers on their computers or mobile devices.
 
 You may wish inform your end users with incompatible browsers or devices that they will no longer be able to access your websites or applications until they upgrade to a newer web browser.  It's highly likely these people will experience problems accessing many different websites over the next few months, as websites begin to comply with the mandate to disable early TLS protocols, and so whilst inconvenient it will not come as a surprise to your users.
 

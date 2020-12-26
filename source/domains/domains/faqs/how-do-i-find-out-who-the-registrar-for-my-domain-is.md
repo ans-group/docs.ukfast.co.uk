@@ -6,7 +6,7 @@
       :description: Domain Name FAQ How do I find out who the registrar for my domain is?
 ```
 
-To find out the registrar for a .uk domain you can use our [WHOIS look up tool](https://my.ukfast.co.uk/domains/tools/) the tag will identify your registrar. 
+To find out the registrar for a .uk domain you can use our [WHOIS look up tool](https://my.ukfast.co.uk/domains/tools/) the tag will identify your registrar.
 
 If you are unsure of your registrar's tag, you can look it up in [Nominet's list of registrars](http://www.nominet.org.uk/uk-domain-names/registering-uk-domain/choosing-registrar/list-registrars).
 

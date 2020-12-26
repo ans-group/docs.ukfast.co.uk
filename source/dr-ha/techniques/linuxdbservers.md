@@ -5,7 +5,7 @@
    .. meta::
       :title: DR | Linux Database Server Backups | UKFast Documentation
       :description: Information on how to backup your Linux Database servers
-```  
+```
 
 Database servers tend to keep a lot of things in memory, so seeing as we're taking file level backups you've got quite a high chance of taking inconsistent/corrupt backups.
 
@@ -45,7 +45,7 @@ XtraBackup is a product from Percona, made to allow 'hot' backups of your databa
 
 Installing it will require the percona repo on CentOS:
 
-```console   
+```console
    [percona]
    name = CentOS $releasever - Percona
    baseurl=http://repo.percona.com/centos/$releasever/os/$basearch/
@@ -80,7 +80,7 @@ Our guide on cron can be found [here](/operatingsystems/linux/basics/cron), but 
 Those cron jobs can be added to your standard crontab, accessible via the command `crontab -e` or `crontab -u someuser -e`.
 
 ```eval_rst
-.. note::   
+.. note::
    Note that in the above mysqldump cron job, the command `date` is backticked into the command to create a different dump file/directory for each day to ensure that they don't overwrite the previous days dump.
 
    If this method is used, it will require manual intervention occasionally to go in and clear out old dump files to free up space.

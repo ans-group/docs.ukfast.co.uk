@@ -83,7 +83,7 @@ yum install --enablerepo=remi-php71,remi,epel php php-pdo php-mysqlnd php-opcach
 
 #### Reinstate old settings
 
-Now we've removed and reinstalled a new version, we need to copy our previous settings into the new PHP version. We can use the backup we took earlier (/root/php_upgrade_backup/php.ini) to see all our previous values and copy those to the new php.ini using the editor of your choice:  
+Now we've removed and reinstalled a new version, we need to copy our previous settings into the new PHP version. We can use the backup we took earlier (/root/php_upgrade_backup/php.ini) to see all our previous values and copy those to the new php.ini using the editor of your choice:
 
 If we have custom pools set up in PHP-FPM, then we probably want to stop the default pool running, which we can do by blanking the default www.conf file:
 ```bash

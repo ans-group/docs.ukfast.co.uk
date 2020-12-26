@@ -1,6 +1,6 @@
 # File/Directory Outside /pub
 
-If you have a file/directory you want to be accessible but is outside of the Magento 2 pub directory you need to edit your domains Nginx configuration (Example: /etc/nginx/conf.d/example.com.conf). 
+If you have a file/directory you want to be accessible but is outside of the Magento 2 pub directory you need to edit your domains Nginx configuration (Example: /etc/nginx/conf.d/example.com.conf).
 
 ### PHP Files
 
@@ -26,7 +26,7 @@ location /info.php {
     }
   }
  ```
- 
+
 You need to edit replacemebackend with the PHP-FPM configuration pool name (This should be defined at the top of your Nginx configuration file). You also need to add info to the .php file allow list, we have a guide for this [here](/ecommercestacks/magento/magento2/nginxphpfileallowlist)
 
 ### Text / XML

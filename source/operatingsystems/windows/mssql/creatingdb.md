@@ -1,7 +1,7 @@
 # Creating a new database in Microsoft SQL Server
 
 
-In order to create a new database, please follow the below steps.(Please note, this guide assumes that you already have MSSQL Management studio installed, and that you are connected to your database, 
+In order to create a new database, please follow the below steps.(Please note, this guide assumes that you already have MSSQL Management studio installed, and that you are connected to your database,
 if this is not the case, and you are unsure of how to go about this, please follow our respective guides on those subjects)
 
 From MSSQL Management Studio, please select "Databases" from the object explorer and right click, and select "New Database" as below

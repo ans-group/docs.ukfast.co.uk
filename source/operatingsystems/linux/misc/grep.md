@@ -1,6 +1,6 @@
 # The grep command
 
-The grep command's main use is to search through files or filter output. 
+The grep command's main use is to search through files or filter output.
 
 As per other commands, it's best demonstrating its use with examples. Here is the contents of the file test.txt which we are going to use:
 

@@ -7,8 +7,8 @@
 
 By default single role Windows Servers will have the following Group Policy Configuration:
 
-- Automatically download and install all updates 
-- This will be scheduled for Friday at 8am. 
+- Automatically download and install all updates
+- This will be scheduled for Friday at 8am.
 
 You are also able to configure Windows Updates with the following options:
 
@@ -40,7 +40,7 @@ By default single role Linux Servers will have the following updates configured:
 
 - No, I do not wish for this server to automatically apply updates.
 
-If you wish, you are able to update this to: 
+If you wish, you are able to update this to:
 
 - Yes, I want this server to automatically apply updates.
 

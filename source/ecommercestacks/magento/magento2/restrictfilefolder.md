@@ -2,7 +2,7 @@
 
 This guide is to show you how you can restrict a file or folder within your document root using Nginx.
 
-We highly recommend restricting the Magento 2 admin URI so will use this as an example (mageadmin). 
+We highly recommend restricting the Magento 2 admin URI so will use this as an example (mageadmin).
 
 ## htpasswd File ##
 
@@ -21,7 +21,7 @@ Adding password for user adminusername
 To password restrict your admin URI use the following configuration options for Nginx:
 
 ```bash
-# IP RESTRICTED URI 
+# IP RESTRICTED URI
 location ~* ^/(index\.php/mageadmin|mageadmin) {
     index index.php;
     try_files $uri $uri/ /index.php?$args;
@@ -34,13 +34,13 @@ location ~* ^/(index\.php/mageadmin|mageadmin) {
     }
   }
  ```
- 
+
  ## IP Restriction ##
- 
+
  To IP restrict your admin URI use the following configuration options for Nginx:
- 
+
  ```bash
-# IP RESTRICTED URI 
+# IP RESTRICTED URI
 location ~* ^/(index\.php/mageadmin|mageadmin) {
     index index.php;
     try_files $uri $uri/ /index.php?$args;
@@ -54,13 +54,13 @@ location ~* ^/(index\.php/mageadmin|mageadmin) {
     }
   }
  ```
- 
+
  ## Password with IP Allow list ##
- 
+
 To password restrict the URI whilst allowing certain IP address(s) access to the URI without password restrictions you can use the following configuration options for Nginx:
 
  ```bash
-# IP RESTRICTED URI 
+# IP RESTRICTED URI
 location ~* ^/(index\.php/mageadmin|mageadmin) {
     index index.php;
     try_files $uri $uri/ /index.php?$args;
@@ -79,11 +79,11 @@ location ~* ^/(index\.php/mageadmin|mageadmin) {
  ```
 
 ## Password and IP Restriction ##
- 
+
 The most secure method is to restrict the admin URI to an allowed list of IP addresses and then have password restriction for the allow list. You can achieve this with the following configuration options in Nginx:
- 
+
  ```bash
-# IP RESTRICTED URI 
+# IP RESTRICTED URI
 location ~* ^/(index\.php/mageadmin|mageadmin) {
     index index.php;
     try_files $uri $uri/ /index.php?$args;
@@ -100,9 +100,9 @@ location ~* ^/(index\.php/mageadmin|mageadmin) {
     }
   }
  ```
- 
+
 These location blocks need to be placed within the server block of your Nginx configuration file. You need to edit replacemebackend with the PHP-FPM configuration pool name (This should be defined at the top of your Nginx configuration file).
- 
+
 To implement this change you need to reload the Nginx service. First perform a configuration test with the following command:
 
 ```bash

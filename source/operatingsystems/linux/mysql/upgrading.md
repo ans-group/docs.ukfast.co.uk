@@ -30,7 +30,7 @@ Here, we will run through how to perform both types of upgrades depending on you
 .. note::
 
    Plesk supports versions 5.1 through to 5.7, but will drop support for older versions in due course. Therefore it is in your best interest to upgrade to 5.7 or equivalent.
-   
+
 ```
 
 Upgrading between MySQL versions can be straightforward, but you do have to upgrade incrementally
@@ -41,7 +41,7 @@ In this example, we will upgrade from *5.1* to *5.5* to show you the first step 
 .. warning::
 
    We would encourage you to put your website into maintenance mode to ensure database consistency and to prevent false alerts.
-   
+
 ```
 
 * First, dump out your MySQL databases (ensuring you have enough room first). Verify that the dump is of expected size before proceeding.
@@ -99,7 +99,7 @@ mysql_upgrade
 .. note::
 
    Be sure to test your website functionality after each change.
-   
+
 ```
 
 Plesk have some additional documentation for upgrading MariaDB from 5.5 to 10.x at the following link
@@ -112,7 +112,7 @@ Plesk have some additional documentation for upgrading MariaDB from 5.5 to 10.x 
 .. warning::
 
    WHM does not offer a downgrade option, so any rollback would require a full server restore to revert this change.
-   
+
 ```
 
 * Log into [WHM](/operatingsystems/linux/controlpanels/cpanel)
@@ -131,7 +131,7 @@ The selected MySQL version (5.7) is more than one generation newer than the curr
 * There are two options for the type of upgrade;
   * *`Unattended`* will automatically upgrade the packages and run `mysql_upgrade` *post-installation*. **This is the recommended option.**
   * *`Interactive`* will prompt you every step of the way.
-  
+
 ![Options](files/mariadbupgrade.PNG)
 
 * Click `Continue`, and the upgrade will complete automatically.
@@ -143,7 +143,7 @@ The selected MySQL version (5.7) is more than one generation newer than the curr
 .. note::
 
    Be sure to test your website functionality after this change
-   
+
 ```
 
 ```eval_rst

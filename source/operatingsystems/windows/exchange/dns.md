@@ -4,7 +4,7 @@ Exchange users should have the following records set up via DNS
 
 * MX
   * domain.com MX 10 cas1.contoso.com
-  * domain.com MX 10 cas2.contoso.com  
+  * domain.com MX 10 cas2.contoso.com
   * domain.com MX 20 email.contoso.com
 
 Priority 10 on the `MX` records for cas1 and cas2 will ensure they use DNS round robin to connect, if that fails, it will hit your load balancer for mail.

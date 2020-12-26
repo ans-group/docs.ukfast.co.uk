@@ -1,6 +1,6 @@
 # Restoring an MSSQL Database from backup
 
-In order to Restore a database to your MSSQL Instance, please follow the below steps.(Please note, this guide assumes that you already have MSSQL Management studio installed, and that you are connected to your database, 
+In order to Restore a database to your MSSQL Instance, please follow the below steps.(Please note, this guide assumes that you already have MSSQL Management studio installed, and that you are connected to your database,
 if this is not the case, and you are unsure of how to go about this, please follow our respective guides on those subjects)
 
 To Restore a copy of your database from a pre made backup, firstly right click anywhere on or within the databases menu in object explorer to the left hand side of the Microsoft SQL management studio, and select Restore Database from the resulting context box as below

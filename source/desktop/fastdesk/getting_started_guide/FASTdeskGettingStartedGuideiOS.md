@@ -1,21 +1,21 @@
 
  # Launch FastDesk on a iOS Device
- 
+
 FastDesk®  is UKFast’s Desktop as a Service (DaaS) solution, which allows users and organisations to work more effectively and securely by giving access to files, applications, and desktop items remotely via an internet connection. All desktop settings and files are stored remotely in the cloud, providing cross-device compatibility and eliminating the risk of data loss by removing the risk of unauthorised access. This DaaS solution allows users to work in the same way they would with a traditional local desktop, but increase the flexibility with which they do so regardless of the endpoint device hardware, operating system or form factor.
 
  ```eval_rst
 .. note::
 
    Compatible with iPhone 7x models, iPhone 8x models and only iPhone X model. All iPad models (including iPad Pro) are supported except for iPad 1 and iPad 2. For the most optimum experience, we recommend updating your iOS device to the latest iOS release.
-   
+
 ```
 
 ## Pre-Installation information
 
 This guide provides step by step instructions on installing and accessing FastDesk on your Apple iOS devices through the Citrix Workspace application. It is possible to access FastDesk through the web portal on your iOS device, however, it is recommended FastDesk is accessed specifically through the Citrix Workspace Application. If you currently use the older Citrix Receiver for iOS, Citrix Workspace will replace this. The Citrix Workspace application gives you:
 
-- Instant access to your FastDesk environment in an easy-to-use, all-in-one interface. 
-- Full integration with the Citrix Content Collaboration (Also known as ShareFile) which gives you ability to upload and download files all within the one application. 
+- Instant access to your FastDesk environment in an easy-to-use, all-in-one interface.
+- Full integration with the Citrix Content Collaboration (Also known as ShareFile) which gives you ability to upload and download files all within the one application.
 
 ## Step 1 - Installing the Citrix Workspace Application
 
@@ -31,7 +31,7 @@ Once the "Citrix Workspace" application is installed, it will appear within your
 ![Image 2: Citrix Workspace App installed](files/onceinstalledios.png "Image 2: Citrix Workspace App installed")
 
 
-Proceed to open it. After launching Citrix Workspace for the first time, it will bring you to the landing page like in **_image 3 below_**. 
+Proceed to open it. After launching Citrix Workspace for the first time, it will bring you to the landing page like in **_image 3 below_**.
 
 
 ![Image 3: Citrix Workspace App Landing Page](files/openedonceios.png "Image 3: Citrix Workspace App Landing Page")
@@ -41,7 +41,7 @@ Continue to select "Get Started".  You will then be prompted to enter a company 
 
 ![Image 4: Server URL entered on Workspace App](files/enteredURLios.png "Image 4: Server URL entered on Workspace App")
 
-You will then be prompted to enter your username and password into the application. Go ahead and enter the username and password credentials that were provided to you by the FastDesk team (See **_image 5 below_**). 
+You will then be prompted to enter your username and password into the application. Go ahead and enter the username and password credentials that were provided to you by the FastDesk team (See **_image 5 below_**).
 
 ![Image 5: Workspace App Credentials Page](files/entercredsios.png "Image 5: Workspace App Credentials Page")
 
@@ -49,12 +49,12 @@ You will then be prompted to enter your username and password into the applicati
 .. note::
 
    Your new password must be a minimum of 8 characters in length and contain at least 3 of the following: uppercase letters, lowercase letters, numbers, symbols and special characters e.g “! ” £”. Your password can also not contain the name of your account. For example, if your account name is John Smith, a password with the word ‘john’ will not be accepted. Once your password has been reset, it should simply log you in. It may ask you to dectect receiver, if so, simply select the option that allows it to detect the receiver.
-   
+
 ```
 
 ## Step 3 - Launching a desktop through the Citrix Workspace Application
 
-Once logged in, you will notice that towards the bottom of the page, there are three different sections named "Favorites", "Apps" and "Settings".  When you initially log in, you are shown the "Apps" section by default (See **_image 6 below_**). 
+Once logged in, you will notice that towards the bottom of the page, there are three different sections named "Favorites", "Apps" and "Settings".  When you initially log in, you are shown the "Apps" section by default (See **_image 6 below_**).
 
 ![Image 6: Workspace App Logged in Homepage](files/cwahomepageios.png "Image 6: Workspace App Logged in Homepage")
 
@@ -70,7 +70,7 @@ Once selected, it should begin to launch your desktop. Once this has booted, you
 .. warning::
 
    Whenever you log out of a desktop, do allow at least 3 minutes before attempting to log back in. This is to ensure the session correctly ends before another one is open. If you have not waited long enough, there is a danger of your applications not appearing when you log in. If you do find that this is the case, simply log out, wait at least 3 minutes and log back in again.
-   
+
 ```
 
 **_This instruction guide should assist you in getting logged in for the first time. If you have any questions or still require assistance, please contact the FastDesk support team on 0800 923 0617_**.
@@ -80,5 +80,5 @@ Once selected, it should begin to launch your desktop. Once this has booted, you
    .. meta::
       :title: FastDesk Getting Started Guide: Apple iOS | UKFast Documentation
       :description: Guide for users on how to get setup on FastDesk using an iOS
-      :keywords: FastDesk, Citrix, ukfast, VDI, Citrix Receiver 
+      :keywords: FastDesk, Citrix, ukfast, VDI, Citrix Receiver
 

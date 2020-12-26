@@ -33,7 +33,7 @@ For more information please do check out the [official cPanel guide](https://doc
   PassivePortRange: 40000 40100
 ```
 
-- If your server is behind a firewall and you are seeing unroutable address errors, add the following line, replacing 123.123.123.123 with your server's public IP:  
+- If your server is behind a firewall and you are seeing unroutable address errors, add the following line, replacing 123.123.123.123 with your server's public IP:
 
 ```console
   ForcePassiveIP: 123.123.123.123
@@ -57,7 +57,7 @@ For more information please do check out the [official cPanel guide](https://doc
 PassivePorts: 40000 40100
 ```
 
-- If your server is behind a firewall and you are seeing unroutable address errors, add the following line, replacing 123.123.123.123 with your server's public IP:  
+- If your server is behind a firewall and you are seeing unroutable address errors, add the following line, replacing 123.123.123.123 with your server's public IP:
 
 ```console
 MasqueradeAddress: 123.123.123.123

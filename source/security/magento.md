@@ -4,7 +4,7 @@ Magento is a popular e-commerce platform, used by a large number of online shops
 
 ```eval_rst
 .. warning::
-   Magento is third party software not provided by UKFast, therefore we cannot be responsible in the event of any security breaches due to the Magento application itself, nor can we provide the in-depth forensics which may required should a breach occur.  
+   Magento is third party software not provided by UKFast, therefore we cannot be responsible in the event of any security breaches due to the Magento application itself, nor can we provide the in-depth forensics which may required should a breach occur.
 
    The advice given here is provided on reasonable endeavours basis, and we recommend you do your own additional research.
 ```

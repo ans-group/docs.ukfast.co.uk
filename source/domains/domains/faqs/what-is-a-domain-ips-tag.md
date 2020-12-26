@@ -22,11 +22,11 @@ All registrars which host .uk domains must have an IPS tag. You can search for a
 If you want to transfer from one registrar to another, your original registrar would need to change the tag to that of your new one.
 
 
- 
 
 
- 
 
 
- 
+
+
+
 
