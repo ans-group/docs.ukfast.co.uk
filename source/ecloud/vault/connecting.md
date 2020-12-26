@@ -54,6 +54,7 @@ Once you have the configuration in place, you can start to use `s3cmd` to view a
 * Remove a bucket and all files in it (danger!): `s3cmd rb --recursive s3://bucketname`
 
 ```eval_rst
+.. title: Connecting to eCloud Vault
 .. meta::
    :title: Connecting to eCloud Vault | UKFast Documentation
    :description: Detailed information on connecting to eCloud Vault object storage from UKFast

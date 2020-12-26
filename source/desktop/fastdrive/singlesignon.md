@@ -58,4 +58,10 @@ Selecting 'Help' will lead you to the UKFast documentation page, specifically th
 
 ![ssoimage10](files/ssoimage10.PNG)
 
-
+```eval_rst
+   .. title: FASTdrive Single Sign On
+   .. meta::
+      :title: FASTdrive Single Sign On | UKFast Documentation
+      :description: Guide for using single sign-on with FASTdrive
+      :keywords: FastDrive, Citrix, ukfast, sso
+```
