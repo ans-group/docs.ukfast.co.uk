@@ -95,19 +95,19 @@ As mentioned previously, there should be a patch available for your kernel versi
 `yum` is the package manager at play here, so you can update the kernel with the following command:
 
 ```bash
- yum update kernel
+yum update kernel
 ```
 
 Alternatively, if you'd like to update all packages on your server, you can use:
 
 ```bash
- yum update
+yum update
 ```
 
 After this has completed, you'll need to reboot your server to load the new kernel:
 
 ```bash
- reboot
+reboot
 ```
 
 #### Ubuntu/Debian
@@ -115,17 +115,17 @@ After this has completed, you'll need to reboot your server to load the new kern
 With Debian based systems, your package manager is `aptitude`, but we'll use `apt-get` here. Run the following to upgrade your packages:
 
 ```bash
- apt-get update && apt-get dist-upgrade
+apt-get update && apt-get dist-upgrade
 ```
 
 As with CentOS, a reboot is needed to use this new kernel:
 
 ```bash
- reboot
+reboot
 ```
 
 ```eval_rst
-   .. title: Patching the DirtyCOW vulnerability 
+   .. title: Patching the DirtyCOW vulnerability
    .. meta::
       :title: Patching the DirtyCOW vulnerability | UKFast Documentation
       :description: Guidance on patching the DirtyCOW vulnerability

@@ -13,6 +13,6 @@ This is done by using clever algorithms that generate digital signatures from bl
    .. title: Deduplicated Backups
    .. meta::
       :title: Deduplicated Backups | UKFast Documentation
-      :description: Information about deduplication offered by backups software 
+      :description: Information about deduplication offered by backups software
       :keywords: Backups, dedup, commvault, dpm
 ```
