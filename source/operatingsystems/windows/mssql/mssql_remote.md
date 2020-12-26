@@ -1,3 +1,4 @@
+# MSSQL Remote Access
 ## Connecting to MSSQL Instance remotely
 
 In order to connect to a MSSQL instance from a remote source, The following is required;
@@ -10,12 +11,12 @@ In order to connect to a MSSQL instance from a remote source, The following is r
 ## How to check your servers MSSQL port
 
 To check the port in which the SQL Server is configured to listen on, You would need to;
-```
-- Establish an RDP connection to the MSSQL server
-- Open MSSQL Server Configuration manager
-  - Open Start > Microsoft SQL Server {Version} > SQL Server {Version} Configuration Manager
-- Expand SQL Server Network Configuration > Click Protocols for MSSQLSERVER > Right click "TCP/IP" > Properties > IP Addresses > Scroll down until you see your internal server IP and check "TCP port"
-```
+
+* Establish an RDP connection to the MSSQL server
+* Open MSSQL Server Configuration manager
+  * Open Start > Microsoft SQL Server {Version} > SQL Server {Version} Configuration Manager
+* Expand SQL Server Network Configuration > Click Protocols for MSSQLSERVER > Right click "TCP/IP" > Properties > IP Addresses > Scroll down until you see your internal server IP and check "TCP port"
+
 ![Instance options](Images/mssql_remote/sql_configuration_manager.PNG)
 
 ## Opening the MSSQL Ports on your Firewall
@@ -29,10 +30,12 @@ Shared Firewall: [https://docs.ukfast.co.uk/network/firewalls/shared\_lockdown.h
 ## Troubleshooting connectivity to your MSSQL Server
 
 To check if your able to communicate both outbound from your network over the required MSSQL port. The following Powershell cmdlet can be utilised (Please note the TcpTestSucceeded indicates if the port is accessible);
+
 ```powershell
 Test-Netconnection {RemoteServerAddress} -port {MSSQLPORT}
 ```
-Example;
+
+### Example
 
 ![Instance options](Images/mssql_remote/tnc.png)
 

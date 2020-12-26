@@ -1,3 +1,4 @@
+# MySQL Remote Access
 ## Remote database server
 This article discusses how to setup a remote database server and allow access from a seperate Web Server(s). This assumes that you have a split role solution with a separate server that performs the web role and a dedicated server that performs the database roles.
 
@@ -153,7 +154,7 @@ PHP:
 ```
 
 ```eval_rst
-  .. title::  Set up remote access to MySQL
+  .. title:: Set up remote access to MySQL
   .. meta::
      :title: Set up remote access to MySQl | UKFast Documentation
      :description: Set up remote access to MySQL between a split role web server and database server, ensuring the application is aware of the new changes.
