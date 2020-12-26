@@ -49,7 +49,7 @@ The configurable Alerts are broadly split into 2 categories, "General" and "Serv
    - Server Incident
    - Threat Monitoring
 
-If you have any questions about which alerts are the most appropriate for your contacts to receive, please contact [your Account Manager](myukfast/account_manager).
+If you have any questions about which alerts are the most appropriate for your contacts to receive, please contact [your Account Manager](account-manager).
 
 ```eval_rst
    .. title:: MyUKFast | Managing Contacts and Permissions

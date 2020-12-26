@@ -4,7 +4,7 @@ There are several passwords which control access to different parts of your solu
 
 ## Server Passwords
 
-Passwords to access your server via SSH, RDP, FTP, MySQL and any panel product you may have installed can all be located by going to the **Server** or **eCloud** tab within [MyUKFast](my.ukfast.co.uk) 
+Passwords to access your server via SSH, RDP, FTP, MySQL and any panel product you may have installed can all be located by going to the **Server** or **eCloud** tab within [MyUKFast](https://my.ukfast.co.uk) 
 
 To access your server credentials, browse to the Server or eCloud tab within MyUKFast and select your server's IP address from the list presented to you.
 
@@ -20,7 +20,7 @@ The **MyUKFast Account password** is used to gain access to MyUKFast and to serv
 
 ### MyUKFast Account Password
 
-There are multiple ways to change your **MyUKFast account password** through [MyUKFast](my.ukfast.co.uk)
+There are multiple ways to change your **MyUKFast account password** through [MyUKFast](https://my.ukfast.co.uk)
 
 * Select **My Account > Change Password** from the left hand side option bar
 
@@ -32,7 +32,7 @@ If you have forgotten your MyUKFast password altogether you can simply click on 
 
 ### Telephone Security Password
 
-Similarly there are multiple ways to change the **Telephone Security password** through [MyUKFast](my.ukfast.co.uk)
+Similarly there are multiple ways to change the **Telephone Security password** through [MyUKFast](https://my.ukfast.co.uk)
 
 * Hover over your name on the top right of the screen and select **Change Telephone Password**
 
