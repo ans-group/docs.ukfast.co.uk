@@ -1,1 +1,1 @@
-style '.mdl.rb'
+rules "MD009"
