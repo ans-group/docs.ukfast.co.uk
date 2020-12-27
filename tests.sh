@@ -27,13 +27,7 @@ for f in $file_names; do
       #check for new meta title
       newtitle=$(grep '  \.\. title:: ' $f >> /dev/null 2>&1; echo $?)
       if [[ "$newtitle" != "0" ]]; then
-        print_fail "$f : FAIL Does not contain .. title:: <title>. See readme"
-        fail=1
-      fi
-
-      malformed_rst_data=$(grep -e '\.\. [a-z]*: ' $f 2> /dev/null; echo $?)
-      if [[ "$malformed_rst_data" != "0" ]]; then
-        print_fail "$f : FAIL Colon missing in eval_rst variable. The format should be .. <key>:: <value>"
+        print_fail "$f : FAIL Does not contain .. title:: <title>. See readme.md"
         fail=1
       fi
 
