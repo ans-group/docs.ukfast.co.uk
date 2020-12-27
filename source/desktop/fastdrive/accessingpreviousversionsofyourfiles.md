@@ -35,7 +35,7 @@ In this instance I have restored the file and as you can see there are now 6 pre
 ![Image151](files/Image151.png)
 
 ```eval_rst
-   .. title: FASTdrive Accessing previous versions of your files
+   .. title:: FASTdrive Accessing previous versions of your files
    .. meta::
       :title: FASTdrive Accessing previous versions of your files | UKFast Documentation
       :description: Guide for accessing older versions of your files

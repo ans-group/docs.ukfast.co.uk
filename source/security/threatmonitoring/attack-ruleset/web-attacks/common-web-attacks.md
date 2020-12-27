@@ -299,10 +299,8 @@ Taking more of a passive approach, this rule does not necessarily detect that an
 
 ---
 
-
-
 ```eval_rst
-   .. title: Web Attacks
+   .. title:: Web Attacks
    .. meta::
       :title: Web Attacks | UKFast Documentation
       :description: Guidance relating to UKFast's Threat Monitoring and Threat Response solutions

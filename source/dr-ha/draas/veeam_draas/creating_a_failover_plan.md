@@ -52,7 +52,7 @@ You can use the same External IP multiple times for the same or different VMs pr
 ![Create Veeam Failover Plan - Public IP Addresses](files/createfailoverplan/createfailoverplan_publicipaddresses.png)
 
 ```eval_rst
-   .. title: Creating a Veeam Failover Plan
+   .. title:: Creating a Veeam Failover Plan
    .. meta::
       :title: Creating a Veeam Failover Plan | UKFast Documentation
       :description: How to create a Failover Plan in Veeam

@@ -60,7 +60,7 @@ Follow the steps below to implement this, in the example shown we implement IP b
 31.    Press the ‘Save Changes’ button to apply your configuration.
 
 ```eval_rst
-   .. title: IP Allow Listing
+   .. title:: IP Allow Listing
    .. meta::
       :title: IP Allow Listing | UKFast Documentation
       :description: Useful threat remediation and prevention tips

@@ -25,7 +25,7 @@ For some applications you may want to know the IP Ranges that are used on the DD
 * `2a02:21a8::/48`
 
 ```eval_rst
-   .. title: IP ranges on DDoSX®
+   .. title:: IP ranges on DDoSX®
    .. meta::
       :title: IP ranges on DDoSX® | UKFast Documentation
       :description: A list of IPv4 and IPv6 ranges used by the DDoSX® network

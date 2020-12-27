@@ -35,7 +35,7 @@ To identify the current API version your eCloud Flex solution is based upon, log
 * [Networking APIs](https://developer.openstack.org/api-ref/networking/) (includes load balancing, firewalls, security groups and more)
 
 ```eval_rst
-   .. title: Working with eCloud Flex APIs
+   .. title:: Working with eCloud Flex APIs
    .. meta::
       :title: Working with eCloud Flex APIs | UKFast Documentation
       :description: Links to the main OpenStack documentation for running your eCloud Flex solution

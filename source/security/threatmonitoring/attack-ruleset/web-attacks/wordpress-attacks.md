@@ -63,7 +63,7 @@ Should a high-level attack be detected, Threat Monitoring will block the source 
 
 
 ```eval_rst
-   .. title: WordPress Rules
+   .. title:: WordPress Rules
    .. meta::
       :title: WordPress Rules | UKFast Documentation
       :description: Guidance relating to UKFast's Threat Monitoring and Threat Response solutions

@@ -89,7 +89,7 @@ There are external web-based testers such as [this one from KeyCDN.com](https://
 
 
 ```eval_rst
-   .. title: Logjam attack
+   .. title:: Logjam attack
    .. meta::
       :title: Logjam attack | UKFast Documentation
       :description: How to prevent Logjam attacks based on weak Diffie-Hellman key exchange

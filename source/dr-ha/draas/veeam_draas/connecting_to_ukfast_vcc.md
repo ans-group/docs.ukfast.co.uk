@@ -35,7 +35,7 @@
    6. **Summary** - Give all of the settings one final check before clicking **Finish**
 
 ```eval_rst
-   .. title: Connecting to UKFast Veeam Cloud Connect
+   .. title:: Connecting to UKFast Veeam Cloud Connect
    .. meta::
       :title: Connecting to UKFast Veeam Cloud Connect | UKFast Documentation
       :description: How to connect to UKFasts Veeam Cloud Connect infrastructure

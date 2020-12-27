@@ -172,7 +172,7 @@ Restart the sshd service.
 `service sshd restart`
 
 ```eval_rst
-   .. title: Setting Secure Ciphers
+   .. title:: Setting Secure Ciphers
    .. meta::
       :title: Setting Secure Ciphers | UKFast Documentation
       :description: Useful threat remediation and prevention tips

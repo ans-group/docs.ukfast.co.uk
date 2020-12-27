@@ -84,7 +84,7 @@ On Windows open PowerShell and type in:
 This will return 'Status OK' if the drive is all good, or an error message. This error message will indicate problems with your hard drive.
 
 ```eval_rst
-   .. title: System Rules Explained
+   .. title:: System Rules Explained
    .. meta::
       :title: System Rules Explained | UKFast Documentation
       :description: Our Threat Monitoring ruleset explained

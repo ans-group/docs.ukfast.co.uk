@@ -60,7 +60,7 @@ Once you've specified all your IP access and Country access rules, click `Apply 
 Your access rules may take a few minutes to propagate out across the DDoSX network.  You can check the the status of your domain by returning to the DDoSX Domains List (click `<Back to Domains list`) - once your changes have been applied you'll see a green tick in the Status column next to the domain in question.
 
 ```eval_rst
-   .. title: Access Control Lists on DDoSX
+   .. title:: Access Control Lists on DDoSX
    .. meta::
       :title: Access Control Lists on DDoSX | UKFast Documentation
       :description: Detailed guidance on setting IP-based and country-based access controls for your domains

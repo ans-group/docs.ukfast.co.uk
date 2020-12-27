@@ -322,7 +322,7 @@ tunnel-group 46.37.188.24 ipsec-attributes
 ```
 
 ```eval_rst
-   .. title: Site-To-Site VPN In eCloud Flex
+   .. title:: Site-To-Site VPN In eCloud Flex
    .. meta::
       :title: Site-To-Site VPN In eCloud Flex | UKFast Documentation
       :description: Detailed guidance on setting up a site-to-site VPN between eCloud Flex and various endpoints
