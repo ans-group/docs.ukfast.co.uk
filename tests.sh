@@ -23,15 +23,22 @@ for f in $file_names; do
 
   case $f in
     *.md )
+
       #check for new meta title
-      newtitle=$(grep '  \.\. title:' $f >> /dev/null 2>&1; echo $?)
+      newtitle=$(grep '  \.\. title:: ' $f >> /dev/null 2>&1; echo $?)
       if [[ "$newtitle" != "0" ]]; then
-        print_fail "$f : FAIL Does not contain meta title new see readme"
+        print_fail "$f : FAIL Does not contain .. title:: <title>. See readme"
+        fail=1
+      fi
+
+      malformed_rst_data=$(grep -e '\.\. [a-z]*: ' $f 2> /dev/null; echo $?)
+      if [[ "$malformed_rst_data" != "0" ]]; then
+        print_fail "$f : FAIL Colon missing in eval_rst variable. The format should be .. <key>:: <value>"
         fail=1
       fi
 
       if [[ "$f" =~ [A-Z] ]]; then
-        print_warn "$f : WARNING filepath is not lowercase"
+        print_warn "$f : WARNING Filepath is not lowercase"
       fi
 
       title_size=$(grep '\.\. title:' $f | cut -d ':' -f2 | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//' | wc -m)
