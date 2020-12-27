@@ -45,7 +45,7 @@ Or you can add them directly to the `applicationHost.config` as custom log field
 When an HTTPS request is processed, the SSL/TLS information will be written to the log file as a hexadecimal value. You can then use the Microsoft documentation for [Protocols](https://docs.microsoft.com/en-gb/windows/desktop/api/schannel/ns-schannel-_secpkgcontext_connectioninfo) and [Ciphers](https://docs.microsoft.com/en-gb/windows/desktop/SecCrypto/alg-id) in order to map the hex values to human-readable names.
 
 ```eval_rst
-.. note:: 
+.. note::
   Since the log can only be written to after the TLS handshake is successful, you will not be able log HTTPS requests which fail TLS negotiation due to protocol or cipher mismatch. This means that TLS logging is not suitable for troubleshooting purposes. However, it can be used to provide insight into which protocols are being negotiated when users visit the site.
 ```
 
