@@ -31,7 +31,7 @@ MySQL can receive a shutdown message mainly from its server through its daemon. 
 Usually, this command is intentionally issued to the MySQL server. If it is not, then you should check that you have nothing automated which is attempting to restart the service. If there is, disable it for the time being. If there is not, take a look at the recent logins with the Linux command `last`. This may give you more insight into who may have stopped the MySQL server.
 
 ```eval_rst
-   .. title: MySQL Rules Explained
+   .. title:: MySQL Rules Explained
    .. meta::
       :title: MySQL Rules Explained | UKFast Documentation
       :description: Our Threat Monitoring ruleset explained

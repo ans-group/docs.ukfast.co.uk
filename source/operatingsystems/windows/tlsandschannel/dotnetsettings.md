@@ -47,7 +47,7 @@ There are a few caveats to keep in mind when dealing with .NET Framework version
 Microsoft provide an excellent article on their TLS best practices, which can be found at the external link [here](https://docs.microsoft.com/en-us/dotnet/framework/network-programming/tls).
 
 ```eval_rst
-   .. title: .NET Framework TLS Settings
+   .. title:: .NET Framework TLS Settings
    .. meta::
       :title: .NET Framework TLS Settings | UKFast Documentation
       :description: Considerations for .Net Framework applications

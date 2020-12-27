@@ -12,7 +12,7 @@ Follow these steps to run a PROProtection report:
 6. Click `Generate Report`.  The report may take a little while to generate, depending on how many servers you have in your account.  You will receive an email when your report is ready to view and download as a .pdf
 
 ```eval_rst
-   .. title: UKFast PROProtection reports
+   .. title:: UKFast PROProtection reports
    .. meta::
       :title: UKFast PROProtection reports | UKFast Documentation
       :description: A guide on how to set of UKFast PROProtection reports

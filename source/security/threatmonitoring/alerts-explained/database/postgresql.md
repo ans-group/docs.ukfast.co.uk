@@ -22,7 +22,7 @@ PostgreSQL can receive a shutdown message mainly from its server through its dae
 Checking that no automated scripts try to restart the PostgreSQL service is paramount to this. If you are sure that nothing is trying to shut down the service, then checking the system logs to work out what ran the command to shut down the PostgreSQL service is recommended.
 
 ```eval_rst
-   .. title: PostgreSQL rules Explained
+   .. title:: PostgreSQL rules Explained
    .. meta::
       :title: PostgreSQL rules Explained | UKFast Documentation
       :description: Our Threat Monitoring ruleset explained

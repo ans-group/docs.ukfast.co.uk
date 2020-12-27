@@ -51,7 +51,7 @@ You can also view a breakdown report of live threat events in your MyUKFast Thre
 Threat Response is an additional service which provides managed support by our in-house security team, pro-actively looking into all your alerts and applying and remediation as needed. With Threat Response, all your Threat Monitoring alerts will be sent directly to our dedicated team of security experts.
 
 ```eval_rst
-   .. title: Threat Monitoring and Threat Response
+   .. title:: Threat Monitoring and Threat Response
    .. meta::
       :title: Threat Monitoring and Threat Response | UKFast Documentation
       :description: Guidance relating to UKFast's Threat Monitoring and Threat Response solutions

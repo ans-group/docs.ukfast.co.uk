@@ -24,7 +24,7 @@ From time to time you may want to perform your own backup of your databases, wit
 To do this, you can run a Full Copy-Only backup, which takes a full backup of your database without modifying the backup time and transactional logs.
 
 ```eval_rst
-   .. title: Microsoft SQL Backups
+   .. title:: Microsoft SQL Backups
    .. meta::
       :title: Microsoft SQL Backups | UKFast Documentation
       :description: Guide for managing Microsoft SQL (MSSQL) backups

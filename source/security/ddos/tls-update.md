@@ -25,7 +25,7 @@ You may wish inform your end users with incompatible browsers or devices that th
 If you need further help with this matter please either contact [your UKFast Account Manager](https://my.ukfast.co.uk/account/your-account-manager.php) or [raise a support ticket via MyUKFast](https://my.ukfast.co.uk/pss/add.php).
 
 ```eval_rst
-   .. title: Disabling early TLS protocols on DDoSX
+   .. title:: Disabling early TLS protocols on DDoSX
    .. meta::
       :title: Disabling early TLS protocols on DDoSX | UKFast Documentation
       :description: Guidance on UKFast's approach to disabling TLS1.0 and TLS1.1 on DDoSX for PCI DSS compliance

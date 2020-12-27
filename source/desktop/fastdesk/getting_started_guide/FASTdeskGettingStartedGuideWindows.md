@@ -118,7 +118,7 @@ Simply type the following URL `"https://www.fastdesk.co.uk"` and click Add. Alte
 **_This instruction guide should assist you in getting logged in for the first time. If you have any questions or still require assistance, please contact the FastDesk support team on 0800 923 0617_**.
 
  ```eval_rst
-   .. title: FastDesk Getting Started Guide Windows PC Edition
+   .. title:: FastDesk Getting Started Guide Windows PC Edition
    .. meta::
       :title: FastDesk Getting Started Guide Windows PC Edition | UKFast Documentation
       :description: Guide for users on how to get setup on FASTdesk using a Windows PC

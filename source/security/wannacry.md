@@ -156,7 +156,7 @@ Please don't hesitate to contact our support professionals who can provide assis
 * Telephone 0800 230 0032
 
 ```eval_rst
-   .. title: Patching the WannaCry vulnerability
+   .. title:: Patching the WannaCry vulnerability
    .. meta::
       :title: Patching the WannaCry vulnerability | UKFast Documentation
       :description: Information on patching the WannaCry vulnerability

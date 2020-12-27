@@ -13,7 +13,7 @@ This begins a quiesce operation against the VM to commit any data waiting to be 
 Once the backup has completed, a consolidation process is started to move any of the writes to the temporary delta file back into the virtual disks of the VM.
 
 ```eval_rst
-   .. title: VM-level backups
+   .. title:: VM-level backups
    .. meta::
       :title: VM-level backups | UKFast Documentation
       :description: Info about VM Level backups and how they work

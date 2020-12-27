@@ -125,7 +125,7 @@ reboot
 ```
 
 ```eval_rst
-   .. title: Patching the DirtyCOW vulnerability
+   .. title:: Patching the DirtyCOW vulnerability
    .. meta::
       :title: Patching the DirtyCOW vulnerability | UKFast Documentation
       :description: Guidance on patching the DirtyCOW vulnerability

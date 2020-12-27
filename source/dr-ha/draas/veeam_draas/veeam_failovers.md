@@ -106,7 +106,7 @@ Your VMs in production should now be able to communicate with the VMs you have f
 ![Veeam Partial Failover - Failover Back to Production](files/veeam_failovers/veeamfailovers_partialfailover_failback.png)
 
 ```eval_rst
-   .. title: Veeam Failovers
+   .. title:: Veeam Failovers
    .. meta::
       :title: Veeam Failovers | UKFast Documentation
       :description: Information regarding types of failovers and how to initiate them

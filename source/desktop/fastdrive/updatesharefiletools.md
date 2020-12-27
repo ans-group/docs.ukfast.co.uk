@@ -39,7 +39,7 @@ To find out how to identify how up to date your tool is, use the instructions be
 
 
 ```eval_rst
-   .. title: Upgrade to newer ShareFile tools
+   .. title:: Upgrade to newer ShareFile tools
    .. meta::
       :title: Upgrade to newer ShareFile tools | UKFast Documentation
       :description: Detailed guidance on upgrading ShareFile tools to the latest version
