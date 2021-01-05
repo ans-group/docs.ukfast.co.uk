@@ -6,6 +6,10 @@ UKFast's Linux clustering solution, BCP (Business Continuity Platform) ensures h
 .. seealso::
    Please contact your Account Manager to ensure you receive a copy of the BCP Pre-Launch Questionnaire.
 ```
+## Two Node Web/DB BCP Example Diagram
+
+<img src="files/2-Node-BCP.png" width="400">
+
 ## Disk Space
 
 ```eval_rst
