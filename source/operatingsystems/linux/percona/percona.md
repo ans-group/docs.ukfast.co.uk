@@ -27,11 +27,46 @@ yum update Percona-Server-server-57
 ```
 
 #### Major Version Update
-If you are updating MySQL by a major version run the command:
+If you are updating MySQL from 5.6 to 5.7 run the command:
 ```bash
 mysql_upgrade
 ```
-
+#### 5.7 -> 8.0 Update
+If you are updating to version 8.x you will need to follow the steps detailed below. We are using an update from Percona 5.7.29-32 as an example.
+Dump all databases incase of corruption:
+```bash
+mysqldump --all-databases > alldatabases.sql
+```
+Check what Percona versions are installed:
+```bash
+rpm –qa | grep –i percona
+```
+Remove these versions:
+```bash
+yum remove Percona-Server-server-57-5.7.29-32.1.el7.x86_64 Percona-Server-client-57-5.7.29-32.1.el7.x86_64 Percona-Server-shared-57-5.7.29-32.1.el7.x86_64 Percona-Server-shared-compat-57-5.7.29-32.1.el7.x86_64
+```
+Add the below to /etc/my.cnf underneath the "[mysql]" section:
+```bash
+default-authentication-plugin=mysql_native_password
+```
+Comment out the "query_cache" variables in that same file by adding a hash to the start of each line:
+```bash
+#query_cache_size = 128M
+#query_cache_limit = 8M
+#query_cache_type = 1
+```
+Set up the repository ready to install the updated version:
+```bash
+percona-release setup ps80
+```
+Install the new version:
+```bash
+yum install percona-server-server percona-toolkit
+```
+Start the new version:
+```bash
+systemctl enable --now mysqld
+```
 ### Enable On Boot
 ```bash
 systemctl enable mysqld
