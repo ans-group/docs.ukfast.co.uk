@@ -16,4 +16,4 @@ Select `Product and Services` > `SafeDNS` > select your domain name > Under the 
 
 Please remember this value is in seconds and that the lowest recommended value is `300` seconds.
 
-Also note that there are a number of different factors that can affect the total propagation time of DNS record changes. Please see ["What factors affect DNS propagation time?"](/domains/domains/dnspropagation) for more information.
+Also note that there are a number of different factors that can affect the total propagation time of DNS record changes. Please see [&#8220;What factors affect DNS propagation time?&#8221;](/domains/domains/dnspropagation) for more information.
