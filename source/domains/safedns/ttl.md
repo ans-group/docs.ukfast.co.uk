@@ -8,7 +8,7 @@
 
 ```
 
-The Time to Live (TTL) value of your domain is set in seconds, this is the amount of time other DNS servers are told they are allowed to cache your records for before rechecking with an authoritative server (though they don't all honour this). The default time is 86400 seconds, which is 24 hours. This isn't an issue most of the time, but if you ever want to change the IP on one of your records, a 24 hour delay may be unacceptable.
+The Time to Live (TTL) value of your domain is set in seconds, this is the amount of time other DNS servers are told they are allowed to cache your records for before rechecking with an authoritative server (though they don&apos;t all honour this). The default time is 86400 seconds, which is 24 hours. This isn&apos;t an issue most of the time, but if you ever want to change the IP on one of your records, a 24 hour delay may be unacceptable.
 
 You can modify the TTL value for records in the following location:
 
