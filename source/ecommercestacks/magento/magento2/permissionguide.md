@@ -5,13 +5,13 @@ This guide is intended to show best practices for Magento 2 permissions. Ensurin
 ```eval_rst
 .. seealso::
    Note:
-     The following is for UKFast Magento 2 optimized stacks, which uses NGiNX - this guide is for NGiNX only.
+     The following is for UKFast Magento 2 optimized stacks, which uses NGINX - this guide is for NGINX only.
      If your configuration is bespoke or does not use our native stack we would recommend proceeding with caution.
 
      In the case that you have any queries please consult UKFast support.
 ```
 
-First, we need to establish the root directory for your Magento 2 instance. Typically this can be viewed in the NGiNX configuration file located under:
+First, we need to establish the root directory for your Magento 2 instance. Typically this can be viewed in the NGINX configuration file located under:
 `/etc/nginx/conf.d/`
 
 ```bash
@@ -21,7 +21,7 @@ grep root /etc/nginx/conf.d/mage.ukast.co.uk.conf
 
 Next, we need to verify which user and group should be used. This is important as if the domain is a Magento multi-store, typically the owner and group would be the same for each virtual host as the document root is shared.
 
-In this case, PHP-FPM is utilized - this is configured as an upstream within NGiNX -
+In this case, PHP-FPM is utilized - this is configured as an upstream within NGINX -
 
 ```bash
 grep ".sock;" /etc/nginx/conf.d/mage.ukast.co.uk.conf
@@ -52,7 +52,7 @@ If this needs to be restored, the acl file can be used to restore the original p
 setfacl --restore=/var/www/vhosts/mage.ukast.co.uk/mage.ukast.co.uk-$(date +"%Y%m%d").acl
 ```
 
-If not already added, you can add NGiNX to the group used by PHP-FPM - here is the command to do so - this only needs to be performed once
+If not already added, you can add NGINX to the group used by PHP-FPM - here is the command to do so - this only needs to be performed once
 
 ```bash
 usermod -a -G mage.ukast.co.uk nginx
