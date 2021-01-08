@@ -38,7 +38,7 @@ for f in $file_names; do
       fi
 
       badchars='‘’“”'
-      badchars_test=$(grep '[${badchars}]' $f > /dev/null 2>&1; echo $?)
+      badchars_test=$(grep $'\u2019\|\u2018\|\u201C\|\u201D' $f > /dev/null 2>&1; echo $?)
       if [[ "$badchars_test" == "0" ]]; then
         log fail $f "Invalid characters used. Avoid using any of these: ${badchars}"
         fail=1
