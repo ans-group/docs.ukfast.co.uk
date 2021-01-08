@@ -20,7 +20,7 @@ provider "openstack" {
 }
 ```
 
-The `user_name` and `password` are the same credentials that you would use to authenticate with the [Horizon dashboard](https://api.openstack.ecloud.co.uk/auth/login/). The `tenant_name` variable is the name of your project within eCloud Flex. The easiest way to find this, would be to download your [Openstack RC file](https://api.openstack.ecloud.co.uk/project/api_access/openrc/) and view the enviroment variables required to authenticate with OpenStack. We already have [some documentation](/ecloud/flex/general/settingvars) that details how to go through this. You'll need to use the value of the `OS_PROJECT_NAME` variable for your `tenant_name`.
+The `user_name` and `password` are the same credentials that you would use to authenticate with the [Horizon dashboard](https://api.openstack.ecloud.co.uk/auth/login/). The `tenant_name` variable is the name of your project within eCloud Flex. The easiest way to find this, would be to download your [Openstack RC file](https://api.openstack.ecloud.co.uk/project/api_access/openrc/) and view the enviroment variables required to authenticate with eCloud Flex. We already have [some documentation](/ecloud/flex/general/settingvars) that details how to go through this. You'll need to use the value of the `OS_PROJECT_NAME` variable for your `tenant_name`.
 
 After you've added the eCloud Flex provider block, you can then use resource blocks to create other resources in your project. The below example spins up a simple instance in your project called `test-instance`.
 
