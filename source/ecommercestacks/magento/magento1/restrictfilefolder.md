@@ -1,12 +1,12 @@
 # Restrict File/Folder (URI)
 
-This guide is to show you how you can Password and or IP restrict a file or folder within your document root using NGiNX.
+This guide is to show you how you can Password and or IP restrict a file or folder within your document root using NGINX.
 
-We highly recommend restricting the Magento 1 admin URI so will use this as an example (mageadmin).
+We highly recommend restricting the Magento 1 admin URI so will use this as an example (`mageadmin`).
 
 ## htpasswd File
 
-For password restriction you need to generate a username and password before configuring NGiNX. You can do this with the following command:
+For password restriction you need to generate a username and password before configuring NGINX. You can do this with the following command:
 
 ```bash
  ~]$ htpasswd -c /etc/nginx/conf.d/.htpasswd adminusername
@@ -18,7 +18,7 @@ Adding password for user adminusername
 
 ## Password Restriction
 
-To password restrict your admin URI use the following configuration options for NGiNX:
+To password restrict your admin URI use the following configuration options for NGINX:
 
 ```bash
 # PASSWORD RESTRICTED URI
@@ -37,7 +37,7 @@ location ~* ^/(index\.php/mageadmin|mageadmin) {
 
 ## IP Restriction
 
-To IP restrict your admin URI use the following configuration options for NGiNX:
+To IP restrict your admin URI use the following configuration options for NGINX:
 
 ```bash
 # IP RESTRICTED URI
@@ -57,7 +57,7 @@ location ~* ^/(index\.php/mageadmin|mageadmin) {
 
 ## Password with IP Allow list
 
-To password restrict the URI whilst allowing certain IP address(s) access to the URI without password restrictions you can use the following configuration options for NGiNX:
+To password restrict the URI whilst allowing certain IP address(s) access to the URI without password restrictions you can use the following configuration options for NGINX:
 
 ```bash
 # PASSWORD RESTRICTED WITH IP ALLOW LIST URI
@@ -80,7 +80,7 @@ location ~* ^/(index\.php/mageadmin|mageadmin) {
 
 ## Password and IP Restriction
 
-The most secure method is to restrict the admin URI to an allowed list of IP addresses and then have password restriction for the allow list. You can achieve this with the following configuration options in NGiNX:
+The most secure method is to restrict the admin URI to an allowed list of IP addresses and then have password restriction for the allow list. You can achieve this with the following configuration options in NGINX:
 
 ```bash
 # PASSWORD AND IP RESTRICTED URI
@@ -101,7 +101,7 @@ location ~* ^/(index\.php/mageadmin|mageadmin) {
 }
 ```
 
-These location blocks need to be placed within the server block of your NGiNX configuration file. You need to edit replacemebackend with the PHP-FPM configuration pool name (This should be defined at the top of your NGiNX configuration file).
+These location blocks need to be placed within the server block of your NGINX configuration file. You need to edit replacemebackend with the PHP-FPM configuration pool name (This should be defined at the top of your NGINX configuration file).
 
 To implement this change you need to reload the NGiNX service. First perform a configuration test with the following command:
 
@@ -111,7 +111,7 @@ nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
 nginx: configuration file /etc/nginx/nginx.conf test is successful
 ```
 
-If there are no errors in the configuration test proceed to reload the NGiNX service with the following command:
+If there are no errors in the configuration test proceed to reload the NGINX service with the following command:
 
 ```bash
  ~]$ nginx -s reload
