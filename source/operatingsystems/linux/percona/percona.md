@@ -47,11 +47,11 @@ rpm –qa | grep –i percona
 yum remove Percona-Server-server-57-5.7.29-32.1.el7.x86_64 Percona-Server-client-57-5.7.29-32.1.el7.x86_64 Percona-Server-shared-57-5.7.29-32.1.el7.x86_64 Percona-Server-shared-compat-57-5.7.29-32.1.el7.x86_64
 ```
 * Add the below to `/etc/my.cnf` underneath the `[mysql]` section:
-```bash
+```ini
 default-authentication-plugin=mysql_native_password
 ```
 * Comment out the `query_cache` variables in that same file by adding a hash to the start of each line:
-```bash
+```ini
 #query_cache_size = 128M
 #query_cache_limit = 8M
 #query_cache_type = 1
@@ -78,7 +78,7 @@ systemctl enable mysqld
 systemctl start mysqld
 ```
 
-### Increase max_connections
+### Increase `max_connections`
 You can edit the writeable variable `max_connections` like so:
 ```sql
 set global max_connections = 400;
@@ -88,7 +88,7 @@ To make the change permanent you need to change the value in `/etc/my.cnf`
 
 ### `~/.my.cnf` (User-specific options)
 You can create the file `.my.cnf` in the home directory of your desired user to configure and save MySQL command options:
-```bash
+```ini
 [client]
 host=IP.IP.IP.IP
 user=username
@@ -110,7 +110,9 @@ mysql> set global log_warnings = 0;
 
 To make this change permanent add to `/etc/my.cnf` under `[mysqld]`:
 
+```ini
 log_warnings = 0
+```
 
 ### Display Current User
 ```sql
