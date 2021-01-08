@@ -47,7 +47,7 @@ Remove these versions:
 ```bash
 yum remove Percona-Server-server-57-5.7.29-32.1.el7.x86_64 Percona-Server-client-57-5.7.29-32.1.el7.x86_64 Percona-Server-shared-57-5.7.29-32.1.el7.x86_64 Percona-Server-shared-compat-57-5.7.29-32.1.el7.x86_64
 ```
-Add the below to /etc/my.cnf underneath the [mysql] section: 
+Add the below to /etc/my.cnf underneath the [mysql] section:
 ```bash
 default-authentication-plugin=mysql_native_password
 ```
