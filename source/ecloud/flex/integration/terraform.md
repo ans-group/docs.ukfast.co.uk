@@ -2,17 +2,16 @@
 
 Terraform is an open-source tool that allows you to code and provision your infrastructure. Terraform have created extensive documentation about their product, and you can learn all about it below:
 
-<https://www.terraform.io/>
+* <https://www.terraform.io/>
+* <https://www.terraform.io/docs/index.html>
 
-<https://www.terraform.io/docs/index.html>
+## Connecting your eCloud Flex project
 
-## Connecting your Openstack project
+A provider in Terraform manages API interactions with external resources, like eCloud Flex, and exposes all the relevant data sources available for you to use.
 
-A provider in Terraform manages API interactions with external resources (eg. eCloud Flex) and exposes all the relevant data sources available for you to use.
+In order to define a provider, you need to create a `provider block`. As eCloud Flex is build on top of OpenStack, we set the provider to `openstack`.
 
-In order to define a provider, you need to create a `provider block`.
-
-```yaml
+```hcl
 provider "openstack" {
   user_name   = "<username>"
   tenant_name = "<tenant-name>"
@@ -21,11 +20,11 @@ provider "openstack" {
 }
 ```
 
-The username and password are the same credentials that you would use to authenticate with the [Horizon dashboard](https://api.openstack.ecloud.co.uk/auth/login/). The tenant name variable is the name of your project within Openstack. The easiest way to find this, would be to download your [Openstack RC file](https://api.openstack.ecloud.co.uk/project/api_access/openrc/) and view the enviroment variables required to authenticate with Openstack. We already have some [documentation](/ecloud/flex/general/settingvars) that details how to go through this. You'll need to use the value of the `OS_PROJECT_NAME` variable for your tenant name.
+The `user_name` and `password` are the same credentials that you would use to authenticate with the [Horizon dashboard](https://api.openstack.ecloud.co.uk/auth/login/). The `tenant_name` variable is the name of your project within eCloud Flex. The easiest way to find this, would be to download your [Openstack RC file](https://api.openstack.ecloud.co.uk/project/api_access/openrc/) and view the enviroment variables required to authenticate with OpenStack. We already have [some documentation](/ecloud/flex/general/settingvars) that details how to go through this. You'll need to use the value of the `OS_PROJECT_NAME` variable for your `tenant_name`.
 
-After you've added eCloud Flex as a provider, you can then use resource blocks to perform tasks in your project. The below example spins up a simple instance in your project.
+After you've added the eCloud Flex provider block, you can then use resource blocks to create other resources in your project. The below example spins up a simple instance in your project called `test-instance`.
 
-```yaml
+```hcl
 resource "openstack_compute_instance_v2" "test-instance" {
   name            = "test-instance"
   image_id        = "6f526ede-0b07-4e7f-be83-84f474ebcd2e"
