@@ -32,38 +32,39 @@ If you are updating MySQL from 5.6 to 5.7 run the command:
 mysql_upgrade
 ```
 #### 5.7 -> 8.0 Update
-If you are updating to version 8.x you will need to follow the steps detailed below. We are using an update from Percona 5.7.29-32 as an example.
-Dump all databases incase of corruption:
+If you are updating to version 8.x you will need to follow the steps detailed below. We are using an update from Percona `5.7.29-32` as an example.
+
+* Dump all databases incase of corruption:
 ```bash
 mysqldump --all-databases > alldatabases.sql
 ```
-Check what Percona versions are installed:
+* Check what Percona versions are installed:
 ```bash
 rpm –qa | grep –i percona
 ```
-Remove these versions:
+* Remove these versions:
 ```bash
 yum remove Percona-Server-server-57-5.7.29-32.1.el7.x86_64 Percona-Server-client-57-5.7.29-32.1.el7.x86_64 Percona-Server-shared-57-5.7.29-32.1.el7.x86_64 Percona-Server-shared-compat-57-5.7.29-32.1.el7.x86_64
 ```
-Add the below to /etc/my.cnf underneath the [mysql] section:
+* Add the below to `/etc/my.cnf` underneath the `[mysql]` section:
 ```bash
 default-authentication-plugin=mysql_native_password
 ```
-Comment out the query_cache variables in that same file by adding a hash to the start of each line:
+* Comment out the `query_cache` variables in that same file by adding a hash to the start of each line:
 ```bash
 #query_cache_size = 128M
 #query_cache_limit = 8M
 #query_cache_type = 1
 ```
-Set up the repository ready to install the updated version:
+* Set up the repository ready to install the updated version:
 ```bash
 percona-release setup ps80
 ```
-Install the new version:
+* Install the new version:
 ```bash
 yum install percona-server-server percona-toolkit
 ```
-Start the new version:
+* Start the new version:
 ```bash
 systemctl enable --now mysqld
 ```
@@ -78,15 +79,15 @@ systemctl start mysqld
 ```
 
 ### Increase max_connections
-You can edit the writeable variable max_connections like so:
+You can edit the writeable variable `max_connections` like so:
 ```sql
 set global max_connections = 400;
 ```
 
-To make the change permanent you need to change the value in /etc/my.cnf
+To make the change permanent you need to change the value in `/etc/my.cnf`
 
-### ~/.my.cnf (User-specific options)
-You can create the file .my.cnf in the home directory of your desired user to configure and save MySQL cmd options:
+### `~/.my.cnf` (User-specific options)
+You can create the file `.my.cnf` in the home directory of your desired user to configure and save MySQL command options:
 ```bash
 [client]
 host=IP.IP.IP.IP
@@ -94,10 +95,10 @@ user=username
 password=password
 ```
 
-Now when running the mysql command the values in the file .my.cnf will be used.
+Now when running the `mysql` command the values in the file `.my.cnf` will be used.
 
 ### Wildcard Grants
-This is an example of a wildcard grant to databasename*
+This is an example of a wildcard grant to `databasename`
 ```bash
 mysql> GRANT ALL PRIVILEGES ON `databasename\_%`.* TO 'databaseuser'@'172.18.68.%';
 ```
@@ -107,7 +108,7 @@ mysql> GRANT ALL PRIVILEGES ON `databasename\_%`.* TO 'databaseuser'@'172.18.68.
 mysql> set global log_warnings = 0;
 ```
 
-To make this change permanent add to /etc/my.cnf under [mysqld]:
+To make this change permanent add to `/etc/my.cnf` under `[mysqld]`:
 
 log_warnings = 0
 
@@ -117,7 +118,7 @@ mysql> select CURRENT_USER();
 ```
 
 ### Database Sizes
-You can list the sizes in MB for all databases with the command:
+You can list the sizes in megabytes for all databases with the command:
 ```sql
 mysql> SELECT table_schema "DB", Round(Sum(data_length + index_length) / 1024 / 1024, 1) "MB" FROM information_schema.tables GROUP BY table_schema;
 +-----------------------------+--------+
@@ -137,7 +138,7 @@ mysql> SELECT table_schema "DB", Round(Sum(data_length + index_length) / 1024 / 
 ### Table Sizes In DB
 You can view the table sizes within a database with the command:
 
-Replace DBNAME with the database name you want to see the table sizes for:
+Replace `DBNAME` with the database name you want to see the table sizes for:
 ```sql
 mysql> SELECT table_name AS "Table", round(((data_length + index_length) / 1024 / 1024), 2) as SIZE FROM information_schema.TABLES WHERE table_schema = "DBNAME" order by SIZE;
 +---------------------------------------------------------+---------+
@@ -159,10 +160,10 @@ wget mysqltuner.pl -O mysqltuner.pl
 perl mysqltuner.pl
 ```
 
-### innodb_buffer_pool_instances
-This variable was only introduced in MySQL 5.5.4, so if you are using an older version, ignore this section. Otherwise, this should be set to 1 per GB of innodb_buffer_pool_size. Please refer to the external [MySQL documentation](https://dev.mysql.com/doc/refman/5.6/en/innodb-multiple-buffer-pools.html) for more information.
+### `innodb_buffer_pool_instances`
+This variable was only introduced in MySQL 5.5.4, so if you are using an older version, ignore this section. Otherwise, this should be set to 1 per GB of `innodb_buffer_pool_size`. Please refer to the external [MySQL documentation](https://dev.mysql.com/doc/refman/5.6/en/innodb-multiple-buffer-pools.html) for more information.
 
-### innodb_buffer_pool_size
+### `innodb_buffer_pool_size`
 
 In an ideal world, this should be slightly larger than the total amount of data you store in InnoDB tables. That means your server can hold the entire dataset in memory, and helps avoid slow disk IO when reading data. In the real world, that's not always possible. You may not have enough RAM, or you don't want to take memory away from your other applications and risk making your server unstable.
 
@@ -180,4 +181,4 @@ As a rule of thumb, if you add those numbers and round up to the nearest GB, tha
      :title: Percona | UKFast Documentation
      :description: A guide to using Percona
      :keywords: ukfast, linux, install, centos, cloud, server, virtual, Magento, Magento2, Shopware, Percona, eCommerce
-
+```
