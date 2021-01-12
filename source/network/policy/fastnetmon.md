@@ -14,8 +14,11 @@ If multiple bans keep occurring over time, it is wise to assume that this is a t
 
 If targeted attack, if is safe to assume that work has been undertaken before the initiation of the attack, this means that IP addresses will have been noted. 
 
-It is unlikely that the attack is domain based and actually targeted at the backend IP addresses of the servers, meaning that we need to assume that any DNS records such as A, MX, TXT etc that are associated with an IP address have also been taken note off. 
+```eval_rst
+.. warning::
+  It is unlikely that the attack is domain based and actually targeted at the backend IP addresses of the servers, meaning that we need to assume that any DNS records such as A, MX, TXT etc that are associated with an IP address have also been taken note off. 
 
+```
 From here on out, it is recommended that all of the domains on the affected server are put behind a **DDoS protection platform** such as our own DDoSX platform
 
 Putting the domains behind DDoSX will masquerade the real IP address of the backend server and will only show the attacker the IP address of the anti DDoS platform.
@@ -61,5 +64,5 @@ If you continue to use the previously attacked IP address for hosting email, it 
   .. meta::
      :title: Network Protection with FastNetMon | UKFast Documentation
      :description: Network Protection with FastNetMon
-     :keywords: ssl, certbot, renew, autorenew, revoke, letsencrypt, let's encrypt, secure, security, linux, server, guide, tutorial
+     :keywords: fastnetmon, banning, ban, Ban, traffic, guide, fast, net, mon, security, firewall, attack, flood, ddos, ddosx, IP, ip, address, Address, protection, DDoS, DDoSX, fastnet mon, cloudflare, block, 
 ```
