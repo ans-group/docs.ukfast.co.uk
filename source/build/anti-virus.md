@@ -1,6 +1,6 @@
 # McAfee Anti-Virus
 
-<img src="files/McAfee.png" width="400">
+![](files/McAfee.png =400x)
 
 ```eval_rst
 .. seealso::
