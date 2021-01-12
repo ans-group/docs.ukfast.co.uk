@@ -22,18 +22,19 @@ Putting the domains behind DDoSX will masquerade the real IP address of the back
 Because the attacker will most likely have the backend IP addresses, the backend IP addresses will also have to change to new ones otherwise the attack will be routed around the Anti DDoS platform and hit the backend directly. 
 
 ## Changing IP addresses
-There are 2 ways this can be achieved, an additional IP address can be added to your server which may incur an additional cost, this will have to be approved by an Account Manager prior to this work, and then you can migrate the sites to the new IP address, this will need an update of your A records within your DNS platform. 
-https://docs.ukfast.co.uk/domains/safedns/addarecord.html
+There are 2 ways this can be achieved, 
+
+ - An additional IP address can be added to your server which may incur an additional cost, this will have to be approved by an Account Manager prior to this work, and then you can migrate the sites to the new IP address, this will need an update of your A records within your DNS platform. 
 
 Once complete, the removal of the attacked IP address can then be removed. 
 
-The alternative would be to perform a full IP swap of the server once everything has been put behind an Anti DDoS Platform, depending on your setup, this may require configuration changes to your application
+ - The alternative would be to perform a full IP swap of the server once everything has been put behind an Anti DDoS Platform, depending on your setup, this may require configuration changes to your application
 
 Speak to an UKFast engineer for further advice on which option would be best for your solution. 
 
 Please note, any changes to DNS may incur a small amount of downtime while DNS records are updated. 
 
-Additional Steps
+## Additional Steps
 Once the sites are running via the new platform, it is strongly advised that all web traffic (port 80 and 443) be locked down within your MyUKFast firewall to only accept connections from the IP addresses from the Anti DDoS platform, to prevent any other web traffic going direct to the backend
 Ensure that no other DNS records such as MX, SPF, TXT records point or are associated with this new IP address, if this is, then exposed then the new IP address may then be targeted once again. 
 
@@ -44,15 +45,13 @@ If you are hosting mail, to which means that you need IP based MX records, we re
 
 If you continue to use the previously attacked IP address for hosting email, it may well be the case that the IP for the mail gets blocked during an attack (since this is/was the one being targeted) but the sites will stay online. This means that no mail will be received while an attack is taking place. 
 
-To summarise: 
-Put all domains behind an anti DDoS platform (all domains not just one or two) as this hides the sites IP address association  
+## To summarise: 
+ - Put all domains behind an anti DDoS platform (all domains not just one or two) as this hides the sites IP address association  
+ - Add or change IP address of the server and migrate all sites over to new IP, this creates a new domain to IP association the attackers will not be aware of
+ - Lock down [web]port[s] 80 and 443 within UKFast firewall to anti DDoS platform IP addresses – 
 
-Add or change IP address of the server and migrate all sites over to new IP, this creates a new domain to IP association the attackers will not be aware of
+[DDoSX IP range](https://docs.ukfast.co.uk/security/ddos/ips.html)
 
-Lock down [web]port[s] 80 and 443 within UKFast firewall to anti DDoS platform IP addresses – 
-
-Please see the below for the DDoSX IP range
-https://docs.ukfast.co.uk/security/ddos/ips.html
 
 ``` warning:: Never expose the new IP address: treat this like a password that you wouldn't expose.
 ```
