@@ -8,7 +8,7 @@ UKFast's Linux clustering solution, BCP (Business Continuity Platform) ensures h
 ```
 ## Two Node Web/DB BCP Example Diagram
 
-![](files/2-Node-BCP.png =400x)
+<img src="files/2-Node-BCP.png" width="400">
 
 ## Disk Space
 

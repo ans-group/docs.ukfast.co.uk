@@ -7,7 +7,7 @@ This page provides information about the default configuration - please use the 
 ## Load Balancers
 Increasing capacity and reliability of your applications, UKFast load balancers are configured with a single virtual IP on port 80 load balancing your web servers in a round robin fashion, for example `WEB-01` and `WEB-02` with an equal weighting of 1:1.
 
-![](files/LoadBalancing.png =400x)
+<img src="files/LoadBalancing.png" width="400">
 
 More information around load balancing can be found [here](/network/loadbalancing/index)
 
@@ -15,7 +15,7 @@ More information around load balancing can be found [here](/network/loadbalancin
 
 A web application firewall (WAF) is designed to ensure your data and applications are protected by blocking suspicious activity, providing comprehensive security for critical applications. UKFast offers both hardware based WAF and Network based WAF, running on our global DDoSX® network.
 
-![](files/WAF.png =300x)
+<img src="files/WAF.png" width="300">
 
 Information on how to configure WAF on DDoSX® can be found [here](/security/ddos/wafsettings)
 
@@ -27,7 +27,7 @@ With UKFast's Webcelerator your website visitors can enjoy an unaffected visit, 
 
 Your UKFast Webcelerators are configured with a single virtual IP on port 80/443 pointing to the Web Application Firewall's virtual IP, if you do not have a Web Application firewall this will point to your load balancer VIP or primary server IP.
 
-![](files/Webcel.png =400x)
+<img src="files/Webcel.png" width="400">
 
 The full Webcelerator configuration guide is available [here](/webcel/index)
 
