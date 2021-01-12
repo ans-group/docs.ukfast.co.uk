@@ -1,7 +1,7 @@
 # Remote Desktop Services
 
 ### What is Remote Desktop Services (RDS)?
-RDS also known as Terminal Services allows end users to connect and access servers or computers remotely as long as a network connection is established on both sides. This gives people the ability to access applications or data that otherwise would require a physical presence such as a workplace or datacentre. 
+RDS also known as Terminal Services allows end users to connect and access servers or computers remotely as long as a network connection is established on both sides. This gives people the ability to access applications or data that otherwise would require a physical presence such as a workplace or datacentre.
 
 ### What is an RDS Farm?
 RDS can be used in a simple setup between one source and remote device (How we are all currently working remotely), but it can be expanded on by configuring an RDS Farm which is designed to provide many users with a virtual desktop without having a 1:1 hardware map.
@@ -31,7 +31,7 @@ Below outlines how the proposed configuration will be configured for the RDS Far
 
 ```eval_rst
 .. warning::
-   UKFast are not responsible for configuring users, Group Policies or RDS Collection Groups. This is the responsibility of the client to administer,although UKFast’s award-winning client support is available 24/7/365 should any guidance be required.
+   UKFast are not responsible for configuring users, Group Policies or RDS Collection Groups. This is the responsibility of the client to administer,although UKFast's award-winning client support is available 24/7/365 should any guidance be required.
 ```
 
 ```eval_rst
