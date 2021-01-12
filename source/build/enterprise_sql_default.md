@@ -34,7 +34,7 @@ SQL server prefers 64KB NTFS allocation unit size as data is loaded in blocks re
 
 Whenever SQL Server needs to allocate space for certain operations like creating/restoring a database or growing data/log files, SQL Server first fills the space it needs with zeros. In many cases, writing zeros across the disk space before using that space is unnecessary.
 
-Instant file initialization (IFI) allows SQL Server to skip the zero-writing step and begin using the allocated space immediately for data files. It doesn’t impact growths of transaction log files, those still need all the zeroes.
+Instant file initialization (IFI) allows SQL Server to skip the zero-writing step and begin using the allocated space immediately for data files. It doesn't impact growths of transaction log files, those still need all the zeroes.
 
 ## Service Accounts
 
