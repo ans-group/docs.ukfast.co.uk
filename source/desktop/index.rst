@@ -1,5 +1,5 @@
 ============================
-Desktop and office solutions
+Desktop and Office Solutions
 ============================
 
 UKFast offers a number of office and desktop productivity solutions.
