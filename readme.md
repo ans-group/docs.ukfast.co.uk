@@ -133,15 +133,36 @@ Your pull request will fail the automated Travis checks without this meta conten
 
 Most content is simple markdown, but some features require ReStructuredText (rst) which uses quite different syntax than Markdown that need to be inside `eval_rst` blocks. Here are a few examples of how to add more types of content.
 
-### Screenshots
+### Images / screenshots
 
 Where relevant please add screenshots to pages as image files (ideally .png).  This is especially useful when describing how to complete a task in MyUKFast.  If appropriate please blur out any sensitive information such as account names or IP addresses.  Most image editors will allow you to add a blurred box over the image - this looks a lot neater than using a "black marker pen" style, like @simon.saffidine once tried to get away with.
 
-Example image, the text preceeding becomes the Alt text
+Given the following structure:
 
 ```
-![Domain transfer page](files/transfer1.png)
+.
+├── document.md
+├── files
+│   ├── image.png
 ```
+
+We can include `image.png` in `document.md` using markdown as below (with `someimage` becoming the alt text):
+
+```
+![someimage](files/image.png)
+```
+
+Or using reStructuredText (to control height/width) as below:
+
+<pre>
+```eval_rst
+
+.. image:: files/image.png
+   :width: 400
+```
+</pre>
+
+Example image, the text preceeding becomes the Alt text
 
 ### Tables
 
