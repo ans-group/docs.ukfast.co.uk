@@ -190,7 +190,7 @@ For internal site links the easiest form to add them is like this:
 
 This will make a hyperlinks using the title of the page `/ecloud/flex/general/openstackcli` as the text.
 
-If you wish to use text other than the heading for the section that you’re linking to, use the following format:
+If you wish to use text other than the heading for the section that you're linking to, use the following format:
 
 ```
 :doc:`Custom Text</ecloud/flex/general/openstackcli>` 
