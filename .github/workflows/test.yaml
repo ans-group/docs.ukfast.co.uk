@@ -1,20 +1,28 @@
 name: Check files
-on:
-  pull_request:
-    branches: [ master, main ]
-  push:
-    branches: [ master, main ]
+on: [pull_request, push]
 jobs:
   check:
     runs-on: ubuntu-latest
     steps:
       - name: Check out source files
         uses: actions/checkout@v2
-      
+
       - name: Get a list of changed files
         uses: jitterbit/get-changed-files@v1
         id: changed_files
-      
+
+      - name: Filter changed files by extension
+        run: |
+          EXTENSIONS="md rst"
+          for FILE in $FILES; do
+            for EXT in $EXTENSIONS; do
+              if [[ ${FILE##*.} == $EXT ]]; then
+                SCAN_FILES="$SCAN_FILES $FILE"; continue
+              fi
+            done
+          done
+          echo "scan_files=$SCAN_FILES" >> $GITHUB_ENV
+
       - name: Run initial tests
         run: ./tests.sh ${{ steps.changed_files.outputs.all }}
 
@@ -22,6 +30,12 @@ jobs:
         uses: actionshub/markdownlint@main
         with:
           path: source
+
+      - name: Spellcheck
+        uses: miff2000/spellcheck-github-actions@test-github-actions-under-miff2000
+        with:
+          task_name: Markdown
+          source_files: ${{ env.scan_files }}
 
       - name: Render docs to HTML
         uses: ammaraskar/sphinx-action@master
