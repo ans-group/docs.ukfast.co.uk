@@ -1,4 +1,7 @@
 # Updates
+
+To make sure your solution is patched and updated to the latest version, UKFast will configure the following update policy:
+
 ```eval_rst
 .. seealso::
    Please note that updates can be customised using your online Pre-Launch Questionnaire.
