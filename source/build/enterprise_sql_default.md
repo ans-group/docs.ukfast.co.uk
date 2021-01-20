@@ -26,6 +26,11 @@ By default your MS-SQL database server will be configured with the following set
 +-----------------------------------+------------------------------------------------------------------------+
 ```
 
+## What additional features can be enabled?
+All features outlined below can be selected via the Enterprise Launch Questionnaire (ELQ) if you require them.
+
+Full-text and Semantic Extraction for Search, Data Quality Services, Polybase Query Service for External Data, Analysis Services, Reporting Services, Data Quality Client, Client Tools Connectivity, Integration Services, Client Tools Backwards Compatibility, Client Tools SDK, Documentation Components, Distributed Replay Controller, Distributed Replay Client, SQL Client Connectivity SDK, Master Data Services.
+
 ## Unit Allocation Size
 
 SQL server prefers 64KB NTFS allocation unit size as data is loaded in blocks referred to as extents (64KB in size), made up out of 8 x 8KB pages. Any volume containing client databases (.MDF/.NDF files) and TempDB should be provisioned with a 64KB unit allocation size. This does not apply to any volumes containing just log (.LDF) files. Volumes containing both can use 64KB allocation.
