@@ -29,7 +29,21 @@ By default your MS-SQL database server will be configured with the following set
 ## What additional features can be enabled?
 All features outlined below can be selected via the Enterprise Launch Questionnaire (ELQ) if you require them.
 
-Full-text and Semantic Extraction for Search, Data Quality Services, Polybase Query Service for External Data, Analysis Services, Reporting Services, Data Quality Client, Client Tools Connectivity, Integration Services, Client Tools Backwards Compatibility, Client Tools SDK, Documentation Components, Distributed Replay Controller, Distributed Replay Client, SQL Client Connectivity SDK, Master Data Services.
+- Full-text and Semantic Extraction for Search
+- Data Quality Services
+- Polybase Query Service for External Data
+- Analysis Services
+- Reporting Services
+- Data Quality Client
+- Client Tools Connectivity
+- Integration Services
+- Client Tools Backwards Compatibility
+- Client Tools SDK
+- Documentation Components
+- Distributed Replay Controller
+- Distributed Replay Client
+- SQL Client Connectivity SDK
+- Master Data Services
 
 ## Unit Allocation Size
 
@@ -59,6 +73,7 @@ Indiviual service accounts are created for each standalone SQL server or cluster
 | Size         | 100GB | 30GB | 10GB                |
 +--------------+-------+------+---------------------+
 ```
+
 ```eval_rst
 .. seealso::
    DB data files (.MDF/.NDF files), Logs (.LDF) and system databases (TempDB) ideally should be segregated across different drives and sized accordingly.
