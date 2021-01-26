@@ -50,7 +50,7 @@ If you are hosting mail, to which means that you need IP based MX records, we re
 
 If you continue to use the previously attacked IP address for hosting email, it may well be the case that the IP for the mail gets blocked during an attack (since this is/was the one being targeted) but the sites will stay online. This means that no mail will be received while an attack is taking place. 
 
-## To summarise: 
+## To Summarise: 
  - Put all domains behind an anti DDoS platform (all domains not just one or two) as this hides the sites IP address association  
  - Add or change IP address of the server and migrate all sites over to new IP, this creates a new domain to IP association the attackers will not be aware of
  - Lock down [web]port[s] 80 and 443 within UKFast firewall to anti DDoS platform IP addresses – 
