@@ -5,7 +5,7 @@ UKFast utilizes a service called `FastNetMon` (FNM) to analyse traffic entering 
 
 This action is taken to prevent either our entire network or just a segment of it from being taken offline by an attack. 
 
-- If a threshold is met and the systems believe there to be a targeted attack, the targeted IP address will be temporarily blocked, while the block is in place, networking is suspended to protect the network and the client’s 
+- If a threshold is met and the systems believe there to be a targeted attack, the targeted IP address will be temporarily blocked, while the block is in place, networking is suspended to protect the network and other clients 
 
 - The bans will be automatically lifted after approximately 30 minutes, should the attack continue, this will then be reinstated 
 
