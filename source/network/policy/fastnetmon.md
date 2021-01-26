@@ -21,9 +21,9 @@ If targeted attack, if is safe to assume that work has been undertaken before th
   It is unlikely that the attack is domain based and actually targeted at the backend IP addresses of the servers, meaning that we need to assume that any DNS records such as A, MX, TXT etc that are associated with an IP address have also been taken note off. 
 
 ```
-From here on out, it is recommended that all of the domains on the affected server are put behind a DDoS protection platform such as our own **DDoSX** platform
+From here on out, it is recommended that all of the domains on the affected server are put behind a DDoS protection platform such as our own `DDoSX` platform
 
-Putting the domains behind **DDoSX** will masquerade the real IP address of the backend server and will only show the attacker the IP address of the anti DDoS platform.
+Putting the domains behind `DDoSX` will masquerade the real IP address of the backend server and will only show the attacker the IP address of the anti DDoS platform.
 Because the attacker will most likely have the backend IP addresses, the backend IP addresses will also have to change to new ones otherwise the attack will be routed around the Anti DDoS platform and hit the backend directly. 
 
 ## Changing IP addresses
