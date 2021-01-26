@@ -1,13 +1,15 @@
 # FastNetMon
 
 ##  What is a FastNetMon Ban? 
-`FastNetMon` is a tool to allow for real time black holing of IP addresses by systems that collect traffic/ netflow data directly from our routers.
+UKFast utilizes a service called `FastNetMon` (FNM) to analyse traffic entering our network to determine whether it is legitimate. FNM is configured to automatically make decisions based on the nature of the inbound traffic and can “ban” an IP.  
+
+This action is taken to prevent either our entire network or just a segment of it from being taken offline by an attack. 
 
 - If a threshold is met and the systems believe there to be a targeted attack, the targeted IP address will be temporarily blocked, while the block is in place, networking is suspended to protect the network and the client’s 
 
 - The bans will be automatically lifted after approximately 30 minutes, should the attack continue, this will then be reinstated 
 
-This data is logged by UKFast and further information can be provided should this be needed [on the nature of the attack and its vectors] 
+This data is logged by UKFast and further information (on the nature of the attack and its vectors) can be provided should this be needed  
 
 ## What to do after multiple bans?
 If multiple bans keep occurring over time, it is wise to assume that this is a targeted attack (DoS or DDoS) and appropriate actions should be taken to prevent this happening again. 
@@ -19,9 +21,9 @@ If targeted attack, if is safe to assume that work has been undertaken before th
   It is unlikely that the attack is domain based and actually targeted at the backend IP addresses of the servers, meaning that we need to assume that any DNS records such as A, MX, TXT etc that are associated with an IP address have also been taken note off. 
 
 ```
-From here on out, it is recommended that all of the domains on the affected server are put behind a **DDoS protection platform** such as our own DDoSX platform
+From here on out, it is recommended that all of the domains on the affected server are put behind a DDoS protection platform such as our own **DDoSX** platform
 
-Putting the domains behind DDoSX will masquerade the real IP address of the backend server and will only show the attacker the IP address of the anti DDoS platform.
+Putting the domains behind **DDoSX** will masquerade the real IP address of the backend server and will only show the attacker the IP address of the anti DDoS platform.
 Because the attacker will most likely have the backend IP addresses, the backend IP addresses will also have to change to new ones otherwise the attack will be routed around the Anti DDoS platform and hit the backend directly. 
 
 ## Changing IP addresses
@@ -64,5 +66,5 @@ If you continue to use the previously attacked IP address for hosting email, it 
   .. meta::
      :title: Network Protection with FastNetMon | UKFast Documentation
      :description: Network Protection with FastNetMon
-     :keywords: fastnetmon, banning, ban, Ban, traffic, guide, fast, net, mon, security, firewall, attack, flood, ddos, ddosx, IP, ip, address, Address, protection, DDoS, DDoSX, fastnet mon, cloudflare, block, 
+     :keywords: fastnetmon, banning, ban, Ban, traffic, guide, fast, net, mon, security, firewall, attack, flood, ddos, ddosx, IP, ip, address, Address, protection, DDoS, DDoSX, fastnet mon, cloudflare, block, FNM
 ```
