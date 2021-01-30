@@ -1,5 +1,5 @@
 =====
-Nginx
+NGINX
 =====
 
 .. toctree::

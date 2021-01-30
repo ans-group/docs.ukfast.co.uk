@@ -7,7 +7,7 @@
 ```
 
 
-WHOIS (pronounced &lsquo;who is') is a service anyone can use to lookup information about a domain name; including who it's registered to, when it was registered and its expiry date.
+WHOIS (pronounced 'who is') is a service anyone can use to lookup information about a domain name; including who it's registered to, when it was registered and its expiry date.
 
 
 WHOIS queries the relevant registry database for a requested domain name and will tell you who the current registrar for the domain name is, and the name servers the domain point to.

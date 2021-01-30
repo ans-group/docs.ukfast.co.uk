@@ -93,7 +93,7 @@ EOF
 
 Once the package has been installed successfully, you need to perform 1 final step to link your server up to our Threat Monitoring infrastructure.
 
-Before we do that, you have the option of setting a custom friendly that will later be shown in any Threat Monitoring dashboards when referring to this server. You can either specify this optional manually using the `-name=NAME_HERE` flag, or by entering your desired server in the `Name` text box provided on the MyUKfast installation page. Updating this text box will automatically update the commands that we need to run next.
+Before we do that, you have the option of setting a custom friendly that will later be shown in any Threat Monitoring dashboards when referring to this server. You can either specify this optional manually using the `-name=NAME_HERE` flag, or by entering your desired server in the `Name` text box provided on the MyUKFast installation page. Updating this text box will automatically update the commands that we need to run next.
 
 Finally, run the provided command to complete your install. Upon completion, you should see a success message reading, `Success! Your Threat Monitoring Agent is now configured and working`.
 

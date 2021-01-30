@@ -5,7 +5,8 @@ You might need to create FTP accounts in cPanel, so that you and/or your develop
 In order to do this, start by logging into the cPanel account that you want to create the FTP account for. [You can find our guide on this here!](/operatingsystems/linux/controlpanels/cpanel_connect)
 
 Now, navigate to:
-```
+
+```none
 Files >> FTP Accounts
 ```
 
@@ -29,3 +30,4 @@ Now you can click "Create".
      :title: Creating An FTP Account In cPanel | UKFast Documentation
      :description: Creating an FTP Account in cPanel
      :keywords: ukfast, cpanel, whm, control, panel, ftp, cloud, server, guide, virtual
+```

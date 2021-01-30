@@ -1,6 +1,6 @@
 # Connecting to a Microsoft SQL Server Instance
 
-* In order to connect to a Micrsoft SQL Server instance, you will first need to ensure that you have a version of MSSQL Management Studio installed on your workstation, if you do not currently have a version installed, you can obtain one for free from the following link
+* In order to connect to a Microsoft SQL Server instance, you will first need to ensure that you have a version of MSSQL Management Studio installed on your workstation, if you do not currently have a version installed, you can obtain one for free from the following link
 
 [Microsoft SQL Server Management Studio](https://msdn.microsoft.com/en-us/library/mt238290.aspx)
 

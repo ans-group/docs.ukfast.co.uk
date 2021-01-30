@@ -1,6 +1,6 @@
-# TLS/SSL protocols and the SChannel SSP
+# TLS/SSL protocols and the Schannel SSP
 
-On Windows systems, all TLS/SSL negotiation is handled by the Microsoft Secure Channel, or _SChannel_ provider native to Windows. The Schannel provider is a Microsoft proprietary system which differs from alternatives such as OpenSSL in a number of ways. You can find a basic comparison at the external link [here](https://en.wikipedia.org/wiki/Comparison_of_TLS_implementations).
+On Windows systems, all TLS/SSL negotiation is handled by the Microsoft Secure Channel, or _Schannel_ provider native to Windows. The Schannel provider is a Microsoft proprietary system which differs from alternatives such as OpenSSL in a number of ways. You can find a basic comparison at the external link [here](https://en.wikipedia.org/wiki/Comparison_of_TLS_implementations).
 
 The following information aims to provide a basic understanding of cipher suites, TLS and SSL protocols, and best practices in web-facing environments. The idea being that you then apply these insights to your server or solution, providing a secure environment for your users.
 
@@ -26,9 +26,9 @@ For a more comprehensive overview of Transport Layer Security, consider checking
 We will now look at some [TLS considerations for Windows Web Servers](/operatingsystems/windows/tlsandschannel/webserverrecommendations).
 
 ```eval_rst
-   .. title:: TLS protocols and SChannel
+   .. title:: TLS protocols and Schannel
    .. meta::
-      :title: TLS protocols and SChannel | UKFast Documentation
+      :title: TLS protocols and Schannel | UKFast Documentation
       :description: Introduction to TLS protocols and cipher suites
       :keywords: SSL, TLS, ukfast, Schannel, IIS
 ```

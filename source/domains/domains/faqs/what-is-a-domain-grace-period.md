@@ -7,11 +7,11 @@
 ```
 
 
-For non-.uk domains, your domain will stop resolving as soon as it expires. Furthermore, the name servers will be updated and your domain will redirect to a parking page approximately 1-3 days after expiry. Your domain simultaneously enters a grace period for the first 40 days after expiry, in which you may renew the domain at the standard price and the original name servers will be subsequently restored. After the 40-day grace period, your domain enters a redemption period of an additional 30 days, where the domain can be renewed for a higher cost. When this period is over, the domain cannot be renewed and will eventually become available for registration to anyone else at some point after that.
+For non-`.uk` domains, your domain will stop resolving as soon as it expires. Furthermore, the name servers will be updated and your domain will redirect to a parking page approximately 1-3 days after expiry. Your domain simultaneously enters a grace period for the first 40 days after expiry, in which you may renew the domain at the standard price and the original name servers will be subsequently restored. After the 40-day grace period, your domain enters a redemption period of an additional 30 days, where the domain can be renewed for a higher cost. When this period is over, the domain cannot be renewed and will eventually become available for registration to anyone else at some point after that.
 
 
 
-For .uk domains the process is slightly different:
+For `.uk` domains the process is slightly different:
 
 
 

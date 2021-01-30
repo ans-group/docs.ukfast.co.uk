@@ -12,7 +12,7 @@ With this in place, you can let enough users through for your site to remain fas
 
 The queue system intercepts the request for site, and sends new users through to a waiting page:
 
-![WebCel Queue Hosting Page](files/webcel-queue-holding-page.png)
+![Webcel Queue Hosting Page](files/webcel-queue-holding-page.png)
 
 These users then poll for their new position every 5 seconds via an AJAX call, which will update the position on the page.
 

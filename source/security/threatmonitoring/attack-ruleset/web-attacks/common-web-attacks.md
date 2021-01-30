@@ -6,7 +6,7 @@ Web attacks are perhaps one of the most common attacks on Internet-facing system
 
 **What is this attack**
 
-Making malicious connections to your database, SQL  attacks are designed to utilize your web applications to run arbitrary SQL queries against your database. As these queries are run by your web application, they can bypass existing security controls and NAC. SQL Injections can take advantage of many different attack vectors, one of the most common is web queries as they tend to sit close to other services and have privileged access to databases.
+Making malicious connections to your database, SQL  attacks are designed to utilise your web applications to run arbitrary SQL queries against your database. As these queries are run by your web application, they can bypass existing security controls and NAC. SQL Injections can take advantage of many different attack vectors, one of the most common is web queries as they tend to sit close to other services and have privileged access to databases.
 
 **Signatures detected**
 
@@ -45,7 +45,7 @@ Attackers will commonly try SQL injections on your site, the best ways to preven
 
 **What is this attack**
 
-XSS  (Cross Site Scripting) attacks are similar to SQL injections but instead, XSS attacks utilize JavaScript runs on a user's machine to execute an attack. Through an XSS exploit, an attacker could place malicious JavaScript code on your website that would be run by every use that visits the web pages affected the attacker's malicious code. This code could steal information or even corrupt what data is sent to the user, allowing the attacker to gain an advantage.
+XSS  (Cross Site Scripting) attacks are similar to SQL injections but instead, XSS attacks utilise JavaScript runs on a user's machine to execute an attack. Through an XSS exploit, an attacker could place malicious JavaScript code on your website that would be run by every use that visits the web pages affected the attacker's malicious code. This code could steal information or even corrupt what data is sent to the user, allowing the attacker to gain an advantage.
 
 **Signatures detected**
 
@@ -109,7 +109,7 @@ Many vulnerability scanners will run a non-malicious shellshock attack against a
 
 Another common web attack is a directory traversal attack, an exploit that attempts to access files on your server not imminently accessible through a web interface. This attack takes advantage of insecure file permissions and web requests that have not been sanitized. This exploit could allow an attacker to view the '/etc/passwd' file of your server for example, or access directories contain sensitive information like payment gateway details or credentials.
 
-Directory traversal attacks can be detected by monitoring for web requests that seem to be navigating up to parent directories. For example, if our website is located at /var/www/html, an attacker could utilize this attack to access our /etc/passwd files with https://website.com/../../../../etc/passwd.
+Directory traversal attacks can be detected by monitoring for web requests that seem to be navigating up to parent directories. For example, if our website is located at /var/www/html, an attacker could utilise this attack to access our /etc/passwd files with https://website.com/../../../../etc/passwd.
 
 **Signatures detected**
 

@@ -7,8 +7,7 @@ Firstly, please obtain the Microsoft Web Platform Installer if you do not curren
 
 [Microsoft Web Platform Installer](https://www.microsoft.com/web/downloads/platform.aspx)
 
-Once this has been downloaded, please open the file. you will now be presented with the web platform installer,please select products from the menu on the top banner, then select Frameworks from the left hand side of the window
-You will now be shown a list of available IIS modules including php as below.
+Once this has been downloaded, please open the file. you will now be presented with the web platform installer, please select products from the menu on the top banner, then select Frameworks from the left hand side of the window. You will now be shown a list of available IIS modules including PHP as below.
 
 ![Web Platform Installer](files/phpinstall/frameworkselection.PNG)
 
@@ -22,7 +21,7 @@ You will be provided with a list of pre-requisites for your version of PHP, sele
 
 The installation process will now begin and you will be presented with the below progress window
 
-![Install](files/phpinstall/instalation.PNG)
+![Install](files/phpinstall/installation.PNG)
 
 Once the process has completed, you will be presented with the below confirmation screen, please select "Finish" to complete the installation.
 
@@ -39,3 +38,4 @@ Once the process has completed, you will be presented with the below confirmatio
      :title: Installing PHP for use in IIS | UKFast Documentation
      :description: A guide to installing PHP for use in IIS
      :keywords: ukfast, windows, iis, php, install, guide, tutorial, server, net, microsoft
+```

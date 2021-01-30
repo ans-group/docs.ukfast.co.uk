@@ -2,7 +2,7 @@
 
 ## Connecting to the Shell
 
-To connect to the `MongoDB` shell, simply type `mongo` as a sudo user.
+To connect to the `MongoDB` shell, simply type `mongo` as a `sudo` user.
 
 ```bash
 [root@~]# mongo
@@ -20,18 +20,23 @@ To exit the shell, type `exit`
 ## Connecting with Authentication
 
 To connect to the `MongoDB` shell with a specific user, use the following syntax
+
 ```bash
 [root@~]# mongo -u YOURUSER -p --authenticationDatabase admin
 ```
 
 ## Creating a database
+
 If a database does not exist, MongoDB will automatically create the database when you try to use it.
-```
+
+```bash
 > use authors
 switched to db authors
 ```
+
 Though the database doesn't officially exist until you insert data, as below.
-```
+
+```bash
 > show dbs
 admin    0.000GB
 config   0.000GB
@@ -49,11 +54,14 @@ local   0.000GB
 
 ## Enabling Remote Access
 
-``` warning:: Always ensure that the bind address for MongoDB is restricted on your firewall.
+```eval_rst
+.. warning:: Always ensure that the bind address for MongoDB is restricted on your firewall.
 ```
+
 To connect to `MongoDB` from a remote location, you will need to ensure that the bind address is amended to your required IP Address.
 
-* As a sudo user, edit the `MongoDB` configuration file to specify the bind address. In this example, we are binding this to `12.34.56.78`.
+* As a `sudo` user, edit the `MongoDB` configuration file to specify the bind address. In this example, we are binding this to `12.34.56.78`.
+
 ```bash
 [root@ ~]# vi /etc/mongod.conf
 # network interfaces
@@ -64,20 +72,25 @@ net:
 ```
 
 * Restart the service
+
 ```bash
 [root@]# systemctl restart mongod
 ```
 
-``` note:: You may also need to ensure that port 27017 is open to your required location on your software firewall. This falls outside the scope of this tutorial.
+```eval_rst
+.. note:: You may also need to ensure that port 27017 is open to your required location on your software firewall. This falls outside the scope of this tutorial.
 ```
 
 ## Changing the Assigned Port
 
-``` warning:: Always ensure that the assigned port for MongoDB is restricted on your firewall.
+```eval_rst
+.. warning:: Always ensure that the assigned port for MongoDB is restricted on your firewall.
 ```
-To change the `MongoDB` to something non-standard, away from `27017`, you will need to edit your `MongoDB` configuration file;
 
-* As a sudo user, edit the `MongoDB` configuration file to specify your new port number.
+To change the `MongoDB` to something non-standard, away from `27017`, you will need to edit your `MongoDB` configuration file:
+
+* As a `sudo` user, edit the `MongoDB` configuration file to specify your new port number.
+
 ```bash
 [root@ ~]# vi /etc/mongod.conf
 # network interfaces
@@ -85,18 +98,23 @@ net:
 #  port: 27017
   port: 27018
 ```
+
 * Restart the service
+
 ```bash
 [root@]# systemctl restart mongod
 ```
 
-``` note:: You may also need to ensure that port 27017 is open to your required location on your software firewall. This falls outside the scope of this tutorial.
+```eval_rst
+.. note:: You may also need to ensure that port ``27017`` is open to your required location on your software firewall. This falls outside the scope of this tutorial.
 ```
+
 ## Troubleshooting
 
 ### Error Logging
 
 `MongoDB` logs to the following file upon startup and shutdown, and so is a good place to start when diagnosing startup errors.
+
 ```bash
 /var/log/mongodb/mongod.log
 ```
@@ -104,14 +122,17 @@ net:
 ### Permissions
 
 Typically, file ownership and permissions can trip up a MongoDB installation. Be sure to check that the `MongoDB` data directory is owned by the `mongod` user.
+
 ```bash
 [root@ ~]# stat /var/lib/mongo
-  File: ‘/var/lib/mongo’
+  File: '/var/lib/mongo'
   Size: 4096            Blocks: 8          IO Block: 4096   directory
 Device: fd02h/64770d    Inode: 669         Links: 4
 Access: (0755/drwxr-xr-x)  Uid: (  977/  mongod)   Gid: (  971/  mongod
 ```
-If this is not owned by the `mongod` user, you can correct this with the following command as a sudo user.
+
+If this is not owned by the `mongod` user, you can correct this with the following command as a `sudo` user.
+
 ```bash
 [root@ ~]# chown -R mongod: /var/lib/mongo
 ```

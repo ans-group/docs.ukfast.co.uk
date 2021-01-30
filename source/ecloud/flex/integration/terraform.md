@@ -11,7 +11,7 @@ A provider in Terraform manages API interactions with external resources, like e
 
 In order to define a provider, you need to create a `provider block`. As eCloud Flex is build on top of OpenStack, we set the provider to `openstack`.
 
-```hcl
+```terraform
 provider "openstack" {
   user_name   = "<username>"
   tenant_name = "<tenant-name>"
@@ -20,11 +20,11 @@ provider "openstack" {
 }
 ```
 
-The `user_name` and `password` are the same credentials that you would use to authenticate with the [Horizon dashboard](https://api.openstack.ecloud.co.uk/auth/login/). The `tenant_name` variable is the name of your project within eCloud Flex. The easiest way to find this, would be to download your [Openstack RC file](https://api.openstack.ecloud.co.uk/project/api_access/openrc/) and view the enviroment variables required to authenticate with eCloud Flex. We already have [some documentation](/ecloud/flex/general/settingvars) that details how to go through this. You'll need to use the value of the `OS_PROJECT_NAME` variable for your `tenant_name`.
+The `user_name` and `password` are the same credentials that you would use to authenticate with the [Horizon dashboard](https://api.openstack.ecloud.co.uk/auth/login/). The `tenant_name` variable is the name of your project within eCloud Flex. The easiest way to find this, would be to download your [OpenStack RC file](https://api.openstack.ecloud.co.uk/project/api_access/openrc/) and view the environment variables required to authenticate with eCloud Flex. We already have [some documentation](/ecloud/flex/general/settingvars) that details how to go through this. You'll need to use the value of the `OS_PROJECT_NAME` variable for your `tenant_name`.
 
 After you've added the eCloud Flex provider block, you can then use resource blocks to create other resources in your project. The below example spins up a simple instance in your project called `test-instance`.
 
-```hcl
+```terraform
 resource "openstack_compute_instance_v2" "test-instance" {
   name            = "test-instance"
   image_id        = "6f526ede-0b07-4e7f-be83-84f474ebcd2e"

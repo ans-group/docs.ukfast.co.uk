@@ -4,7 +4,7 @@ UKFast Phishing campaigns can be easily launched through MyUKFast's 'Phishing' s
 
 # 1) Verifying a domain
 
-When you first access the phishing as a service section of MyUKfast, you'll see a progress banner towards the top of your page. you'll use this to track your progress when launching your first campaign.
+When you first access the phishing as a service section of MyUKFast, you'll see a progress banner towards the top of your page. you'll use this to track your progress when launching your first campaign.
 
 To begin, press the blue 'click here' link to verify your first domain. This can also be accessed by clicking the 'Domains' link under the phishing section in the navigation bar to the left.
 
@@ -118,7 +118,7 @@ Once created, you'll be taken to the campaigns section where you can see all of 
    .. title:: Phishing as a Service
    .. meta::
       :title: Phishing as a Service | UKFast Documentation
-      :description: Guidance on Phsihing solutions from UKFast
+      :description: Guidance on Phishing solutions from UKFast
       :keywords: security, email, phishing, alerts, blocking, hacking, ransomware, protection
 ```
 

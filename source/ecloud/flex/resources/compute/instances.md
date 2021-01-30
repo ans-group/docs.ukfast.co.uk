@@ -2,7 +2,7 @@
 
 ```eval_rst
 .. warning::
-   As with most of our Flex guides, we're going to assume that you've followed our guide on setting environment variables and installing the openstackclient:
+   As with most of our Flex guides, we're going to assume that you've followed our guide on setting environment variables and installing the ``openstackclient``:
 
    - :doc:`/ecloud/flex/general/settingvars`
    - :doc:`/ecloud/flex/general/openstackcli`
@@ -19,7 +19,7 @@ yum install python-pip python-devel gcc
 apt install python-pip python-devel gcc
 ```
 
-Now we're ready to install the whole suite of OpenStack cli tools:
+Now we're ready to install the whole suite of OpenStack CLI tools:
 
 ```bash
 pip install python-openstackclient
@@ -56,7 +56,7 @@ One of the main reasons you may be running this command is to get access to the 
 
 ## Create instances
 
-The syntax for creating new instances via the `openstack` cli tool is as follows:
+The syntax for creating new instances via the `openstack` CLI tool is as follows:
 
 ```bash
 openstack server create --key-name development \
@@ -104,7 +104,7 @@ The first section `openstack server create` is relatively self explanatory, we'r
 
 Your output to this command may very well be different, names may have been updated and the UUIDs have been changed in our examples on this page, so don't rely on the above content! Please refer to our other documentation for more information about [managing images](/ecloud/flex/resources/storage/managing-images).
 
-The final part of that command is `--flavor`. American spelling aside, (it doesn't accept `--flavour` as an alias sadly, we've tried) `flavor` is the OpenStack parlance for 'size of instance', so it's the setting that controls how much RAM and CPU allocation you're giving the instance, along with which tier (IO/mem/std). We're back to the `openstack server` command for this one, with `openstack flavor list`:
+The final part of that command is `--flavor`. American spelling aside, (it doesn't accept `--flavour` as an alias sadly, we've tried) `flavor` is the OpenStack parlance for 'size of instance'. It's the setting that controls how much RAM and CPU allocation you're giving the instance, along with which tier (i.e. `io`/`mem`/`std` of instance). We're back to the `openstack server` command for this one, with `openstack flavor list`:
 
 ```console
 [root@workstation ~]# openstack flavor list
@@ -202,5 +202,5 @@ openstack server delete f1713d4d-eef1-4042-bd3e-cdc33c99ccfa 4659bffc-923f-41b3-
    .. meta::
       :title: Controlling server actions on eCloud Flex | UKFast Documentation
       :description: How to use the openstack CLI to manage server actions
-      :keywords: openstack, ecloud, flex, ukfast, hosting, nova, openstack, openstackclient, openstack cli, instnace
+      :keywords: openstack, ecloud, flex, ukfast, hosting, nova, openstackclient, openstack cli, instnace
 ```

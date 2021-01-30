@@ -12,7 +12,7 @@ You will now be presented with the Active Directory Users and Computers Window a
 
 ![Users and Computers](files/newuser/usersandcomputersopen.PNG)
 
-In the left hand section of the window, you will see your domain, in this example "contoso.domain", please pop out the menu by selecting the pop out arrow, and you will be presented with a number of extra folders, from the extra folders, please select "Users" as below.
+In the left hand section of the window, you will see your domain, in this example `contoso.domain`, please pop out the menu by selecting the pop out arrow, and you will be presented with a number of extra folders, from the extra folders, please select "Users" as below.
 
 ![Users](files/newuser/users.PNG)
 
@@ -40,3 +40,4 @@ You will now be presented with a summary pane as below, please review the detail
      :title: Creating a user in Active Directory | UKFast Documentation
      :description: A guide to creating a new user in Windows Active Directory
      :keywords: ukfast, windows, active directory, active, directory, server, vm, user, ad, virtual
+```

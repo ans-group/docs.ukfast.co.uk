@@ -1,10 +1,10 @@
 # Creating Appropriate permissions
 
-Creating the Correct file permissions for your data is Crucial to prevent unauthorised access, and/or data loss via intentional deletion or compromise.
-A common way for Current Cryptolock malware to gain access to your data, is via file permissions which have been configured incorrectly using the "Everyone" Principle, it is advised that you do not use this as it does leave your server vulnerable
+Creating the Correct file permissions for your data is Crucial to prevent unauthorised access, and / or data loss via intentional deletion or compromise.
 
-* When configuring permissions, to ensure that your data is as secure as possible, it is considered best practice to apply the Principle of least priviledge,
+A common way for current CryptoLocker malware to gain access to your data, is via file permissions which have been configured incorrectly using the "Everyone" Principle, it is advised that you do not use this as it does leave your server vulnerable
 
+* When configuring permissions, to ensure that your data is as secure as possible, it is considered best practice to apply the Principle of least privilege,
 
 For this guide, consider that you have a folder which contains sensitive files and you only want specific users to be able to access the files, in order to prevent access to those files, you have 2 options available to you
 
@@ -28,23 +28,23 @@ Please select Add and you will be presented with a the "Select Users, Computers,
 
 ![Add](Images/permissions/add.PNG)
 
-In this pane, please type the appropriate user account, in this case "administrator" and select OK.
-You will now be returned to the permissions pane, where you will be able to see your newly added user in the list, Select the administrator entry, and then tick the deny box for the full control permission in the bottom section of the window as below
-Notice that this fills all other boxes thus denying any form of access to the file, select ok.
+In this pane, please type the appropriate user account, in this case `administrator` and select OK.
+You will now be returned to the permissions pane, where you will be able to see your newly added user in the list, Select the `administrator` entry, and then tick the deny box for the full control permission in the bottom section of the window as below
+Notice that this fills all other boxes thus denying any form of access to the file, select OK.
 
 ![Added](Images/permissions/added.png)
 
-You will now be returned to the security pane where you will be able to see the administrator entry and the deny permission for your folder as below, select ok to apply the permission.
+You will now be returned to the security pane where you will be able to see the `administrator` entry and the deny permission for your folder as below, select OK to apply the permission.
 
 ![Administrator](Images/permissions/administrator.png)
 
-Now that the permission has been added, the Mobius account should be able to access the file, however the administrator account will be denied access as below
+Now that the permission has been added, the `Mobius` account should be able to access the file, however the `administrator` account will be denied access as below
 
-* Access as user Mobius 1
+* Access as user `Mobius 1`
 
 ![User = Mobius 1](Images/permissions/asmobiusdatavisible.png)
 
-* Access as user administrator
+* Access as user `administrator`
 
 ![User = administrator](Images/permissions/asadminaccessdenied.png)
 
@@ -68,3 +68,4 @@ Your permissions will now be applied.
      :title: Creating file permissions | UKFast Documentation
      :description: Guidance on creating appropriate file permissions in Windows
      :keywords: ukfast, windows, file, permissions, appropriate, change, cloud, server, guide, tutorial
+```

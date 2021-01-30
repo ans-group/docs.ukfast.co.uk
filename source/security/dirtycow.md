@@ -12,11 +12,11 @@ First things first though, let's check if you're actually vulnerable.
 
 ## Checking vulnerability
 
-### CentOS/RedHat
+### CentOS/Red Hat
 
-RedHat have provided a handy script for checking if you're vulnerable or not. Carry out the following steps which logged into your server over SSH to check.
+Red Hat have provided a handy script for checking if you're vulnerable or not. Carry out the following steps which logged into your server over SSH to check.
 
-First, download the script from RedHat using `wget`:
+First, download the script from Red Hat using `wget`:
 
 ```bash
  wget https://access.redhat.com/sites/default/files/rh-cve-2016-5195_1.sh
@@ -40,7 +40,7 @@ If vulnerable, you should follow the next section to patch and fix the vulnerabi
 
 ### Debian/Ubuntu
 
-If you're on a Debian or Ubuntu based distribution, the redhat script won't work, but you can find your kernel version with the following version:
+If you're on a Debian or Ubuntu based distribution, the Red Hat script won't work, but you can find your kernel version with the following version:
 
 
 ```bash
@@ -90,7 +90,7 @@ Once your servers are back online, you're good to go.
 
 As mentioned previously, there should be a patch available for your kernel version through your standard package manager now.
 
-#### CentOS/RedHat
+#### CentOS/Red Hat
 
 `yum` is the package manager at play here, so you can update the kernel with the following command:
 

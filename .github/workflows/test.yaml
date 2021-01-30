@@ -13,8 +13,8 @@ jobs:
 
       - name: Filter changed files by extension
         run: |
-          EXTENSIONS="md rst"
-          for FILE in $FILES; do
+          EXTENSIONS="md"
+          for FILE in ${{ steps.changed_files.outputs.all }}; do
             for EXT in $EXTENSIONS; do
               if [[ ${FILE##*.} == $EXT ]]; then
                 SCAN_FILES="$SCAN_FILES $FILE"; continue
@@ -32,7 +32,7 @@ jobs:
           path: source
 
       - name: Spellcheck
-        uses: miff2000/spellcheck-github-actions@test-github-actions-under-miff2000
+        uses: rojopolis/spellcheck-github-actions@0.10.0
         with:
           task_name: Markdown
           source_files: ${{ env.scan_files }}

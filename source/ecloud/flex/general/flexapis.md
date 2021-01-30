@@ -4,12 +4,12 @@ eCloud Flex provides access to the full range of OpenStack APIs, which is the mo
 
 There is a wealth of documentation and guidance available on the various OpenStack websites, including
 
-* [OpenStack.org](https://www.openstack.org/)
+* [OpenStack](https://www.openstack.org/)
 * [Developer resources](https://developer.openstack.org/)
 
 ## Documentation for key OpenStack projects
 
-The full set of OpenStack documentation including SDKs, Installation Guides and User Guides can be found on the [docs.openstack website](https://docs.openstack.org/newton/).
+The full set of OpenStack documentation including SDKs, Installation Guides and User Guides can be found on the [OpenStack Docs website](https://docs.openstack.org/newton/).
 
 * [Compute](https://docs.openstack.org/nova/newton/)
 * [Object Storage](https://docs.openstack.org/swift/newton/)

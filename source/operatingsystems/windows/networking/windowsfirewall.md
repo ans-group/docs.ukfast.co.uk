@@ -64,9 +64,9 @@ In order to enable or disable windows firewall, please follow the simple steps b
 
 ![Windows Firewall](files/firewall/firewallbasic.png)
 
-Select "Turn Windows Firewall on or off" from the left hand menu (Please note, your user account will need administrator priviledges to do so)
+Select "Turn Windows Firewall on or off" from the left hand menu (Please note, your user account will need administrator privileges to do so)
 
-You will now be presented with a window titled "Customize settings for each type of network" as below, please select the appropriate setting which suits your needs
+You will now be presented with a window titled "Customise settings for each type of network" as below, please select the appropriate setting which suits your needs
 
 ![Enable/Disable](files/firewall/firewallenabledisable.PNG)
 
@@ -76,3 +76,4 @@ You will now be presented with a window titled "Customize settings for each type
      :title: Using Windows Firewall | UKFast Documentation
      :description: An in-depth guide to using Windows Firewall
      :keywords: ukfast, windows, firewall, security, rules, virus, scanner, server, cloud
+```

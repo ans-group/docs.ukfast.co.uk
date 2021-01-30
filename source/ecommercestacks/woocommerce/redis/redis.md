@@ -12,6 +12,7 @@ redis    24645  0.2  0.0 153952  2820 ?        Ssl  15:40   0:00 /usr/bin/redis-
 These can be used with any WordPress Redis plugin.
 
 ### Redis Service
+
 You can find more information on the Redis service [here](/operatingsystems/linux/redis/redis)
 
 ```eval_rst
@@ -20,4 +21,4 @@ You can find more information on the Redis service [here](/operatingsystems/linu
      :title: WooCommerce Redis | UKFast Documentation
      :description: A guide to using Redis on our WooCommerce optimised stack
      :keywords: ukfast, linux, install, centos, cloud, server, virtual, WooCommerce, Redis, eCommerce
-
+```

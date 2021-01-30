@@ -1,10 +1,11 @@
-# whois
+# `whois`
 
 To see information on a domain such as who owns the domain and it's name servers you can use the `whois` command. To use this command you will simply need to type `whois` followed by the domain you are requesting this information on. An example command and output is below.
 
 ```bash
   whois ukfast.co.uk
 ```
+
 ```console
     Domain name:
         ukfast.co.uk
@@ -44,9 +45,11 @@ To see information on a domain such as who owns the domain and it's name servers
         ns0.ukfast.co.uk          81.201.128.134
         ns1.ukfast.co.uk          81.201.143.134
 ```
+
 ```eval_rst
   .. title:: Using the WHOIS command in Linux
   .. meta::
      :title: Using the WHOIS command in Linux
      :description: A guide to use the WHOIS command to find information about a website
      :keywords: ukfast, linux, server, whois, website, find, registra, virtual, vm
+```

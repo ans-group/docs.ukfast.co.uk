@@ -12,7 +12,7 @@ You will now be presented with the Add Roles and Features Wizard as below, the f
 
 ![Add Roles and Features Before you Begin](Files/rolesandfeatures/beforeyoubegin.PNG)
 
-The next page asks you to select the installation type, this provides you with the option to select a Role or Feature Based installation, or a Remote Desktop Services installation, in this instace, the default option of "Role-Based or feature-based Installation" is the suitable option, with this selected, please select next.
+The next page asks you to select the installation type, this provides you with the option to select a Role or Feature Based installation, or a Remote Desktop Services installation, in this instance, the default option of "Role-Based or feature-based Installation" is the suitable option, with this selected, please select next.
 
 ![Select installation type](Files/rolesandfeatures/selectinstllationtype.PNG)
 

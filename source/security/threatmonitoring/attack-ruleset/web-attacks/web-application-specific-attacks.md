@@ -2,9 +2,7 @@
 
 Many attacks are targeted to exploit a known vulnerability in a specific web application like Word Press, Magneto or Joomla. These attacks have a higher likelihood of being successful, as they tend to specifically exploit known weaknesses in these applications. UKFast Threat Monitoring can detect common attacks and block the source IP address via a host-based firewall.
 
-
-## osCOmmerce login.php bypass
-
+## osCommerce login bypass
 
 **Signatures detected**
 
@@ -12,9 +10,9 @@ Triggered when the URL request contains any of the flowing patterns:
 
 *Patterns are separated by a |*
 
-URL Contains: ```login.php```
+URL Contains: `login.php`
 
-Regex:  ```"POST /\S+.php/login.php?cPath=```
+Regex:  `POST /\S+.php/login.php?cPath=`
 
 **Severity**
 
@@ -32,9 +30,9 @@ Triggered when the URL request contains any of the flowing patterns:
 
 *Patterns are separated by a |*
 
-URL Contains: ```login.php```
+URL Contains: `login.php`
 
-Regex: ```/admin/\w+.php/login.php```
+Regex: `/admin/\w+.php/login.php`
 
 **Severity**
 
@@ -52,9 +50,9 @@ Triggered when the URL request contains any of the flowing patterns:
 
 *Patterns are separated by a |*
 
-URL Contains: ```uploadify.php```
+URL Contains: `uploadify.php`
 
-Regex: ```"GET /\S+/uploadify.php?src=http://\S+.php```
+Regex: `GET /\S+/uploadify.php?src=http://\S+.php`
 
 **Severity**
 
@@ -72,9 +70,9 @@ Triggered when the URL request contains any of the flowing patterns:
 
 *Patterns are separated by a |*
 
-URL Contains: ```delete.php```
+URL Contains: `delete.php`
 
-Regex: ```"GET \S+/delete.php?board_skin_path=http://\S+.php```
+Regex: `GET \S+/delete.php?board_skin_path=http://\S+.php`
 
 **Severity**
 
@@ -92,9 +90,9 @@ Triggered when the URL request contains any of the flowing patterns:
 
 *Patterns are separated by a |*
 
-URL Contains: ```shell.php```
+URL Contains: `shell.php`
 
-Regex: ```GET \S+/shell.php?cmd=```
+Regex: `GET \S+/shell.php?cmd=`
 
 **Severity**
 
@@ -104,7 +102,7 @@ Threat Monitoring will classify this attack as a high, triggering the source IP 
 
 Should a high-level attack be detected, Threat Monitoring will block the source IP address using a host-based firewall, IPTables (Linux) or Windows firewall for 30 minutes.
 
-## PhpMyAdmin Setup Scans
+## PHPMyAdmin Setup Scans
 
 **Signatures detected**
 
@@ -112,7 +110,7 @@ Triggered when the URL request contains any of the flowing patterns:
 
 *Patterns are separated by a |*
 
-URL Contains: ```phpMyAdmin/scripts/setup.php```
+URL Contains: `phpMyAdmin/scripts/setup.php`
 
 **Severity**
 
@@ -130,7 +128,7 @@ Triggered when the URL request contains any of the flowing patterns:
 
 *Patterns are separated by a |*
 
-URL Contains: ```.swp$ | .bak$ | /.htaccess | /server-status | /.ssh | /.history | /wallet.dat```
+URL Contains: `.swp$ | .bak$ | /.htaccess | /server-status | /.ssh | /.history | /wallet.dat`
 
 **Severity**
 
@@ -148,11 +146,11 @@ Triggered when the URL request contains any of the flowing patterns:
 
 *Patterns are separated by a |*
 
-Request Type: ```POST```
+Request Type: `POST`
 
-Frequency: ```16```
+Frequency: `16`
 
-Time frame: ```20```
+Time frame: `20`
 
 **Severity**
 
@@ -170,9 +168,9 @@ Triggered when the URL request contains any of the flowing patterns:
 
 *Patterns are separated by a |*
 
-URL Contains: ```%00```
+URL Contains: `%00`
 
-Regex: ```"GET /\S+.php?\S+%00```
+Regex: `"GET /\S+.php?\S+%00`
 
 **Severity**
 
@@ -190,9 +188,9 @@ Triggered when the URL request contains any of the flowing patterns:
 
 *Patterns are separated by a |*
 
-URL Contains: ```thumb.php | timthumb.php```
+URL Contains: `thumb.php | timthumb.php`
 
-Regex: ```"GET \S+thumb.php?src=\S+.php```
+Regex: `GET \S+thumb.php?src=\S+.php`
 
 **Severity**
 
@@ -210,9 +208,9 @@ Triggered when the URL request contains any of the flowing patterns:
 
 *Patterns are separated by a |*
 
-Regex: ```"GET /\S+cart.php?\S+templatefile=../```
+Regex: `GET /\S+cart.php?\S+templatefile=../`
 
-URL Contains: ```DECLARE%20@S%20CHAR|%20AS%20CHAR```
+URL Contains: `DECLARE%20@S%20CHAR|%20AS%20CHAR`
 
 **Severity**
 
@@ -221,7 +219,6 @@ Threat Monitoring will classify this attack as a high, triggering the source IP 
 **Remediation and Blocking**
 
 Should a high-level attack be detected, Threat Monitoring will block the source IP address using a host-based firewall, IPTables (Linux) or Windows firewall for 30 minutes.
-
 
 ```eval_rst
    .. title:: Web Application Attacks

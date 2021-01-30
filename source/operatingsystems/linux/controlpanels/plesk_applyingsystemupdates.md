@@ -44,3 +44,4 @@ You have successfully applied system updates on your Plesk server!
      :title: Applying system updates on your Plesk Server
      :description:  A guide on applying system updates on your Plesk Server
      :keywords: ukfast, packages, upgrade, move, website, update, plesk
+```

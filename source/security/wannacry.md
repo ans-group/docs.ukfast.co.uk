@@ -2,7 +2,7 @@
 
 ## How is this malware distributed?
 
-Wana Decrypt0r 2.0 ransomware is spreading via an exploit named ‘EternalBlue' allegedly discovered by the NSA which was then leaked online by a group of hackers known as ‘The Shadow Brokers'. Since its initial detection this malware has caused serious issues for the UK National Health Service, Telefonica, Chinese Universities and the Russian Interior Ministry.
+Wana Decrypt0r 2.0 ransomware is spreading via an exploit named 'EternalBlue' allegedly discovered by the NSA which was then leaked online by a group of hackers known as 'The Shadow Brokers'. Since its initial detection this malware has caused serious issues for the UK National Health Service, Telefonica, Chinese Universities and the Russian Interior Ministry.
 
 The exploit works by gaining access to a remote system via the SMBv1 (Server Message Block) protocol which
 can be exploited via the following ports.
@@ -52,7 +52,7 @@ Once the ransomware is present on the operating system, the malware will perform
 
 *cwwnhwhlz52maqm7.onion*
 
-Once connected, the malware will execute a command to attempt to modify permissions on all available file system folders the malware resides within to provide ‘Everyone' full access;
+Once connected, the malware will execute a command to attempt to modify permissions on all available file system folders the malware resides within to provide 'Everyone' full access;
 
 *icacls . /grant Everyone:F /T /C /Q*
 

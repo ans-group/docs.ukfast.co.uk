@@ -29,7 +29,7 @@ The possible statuses of an eCloud Flex instance are listed below.  For a full e
 
 ## Managing the status of your eCloud Flex instance
 
-If you don't want to be billed for an instance, then make sure to either delete or shelve it - to do this go to the [Instances page in the eCloud Flex control panel](https://api.openstack.ecloud.co.uk/project/instances/), and click the Actions drop-down menu on the righthand side of the table.  Choose either Delete Instance or Shelve Instance.
+If you don't want to be billed for an instance, then make sure to either delete or shelve it - to do this go to the [Instances page in the eCloud Flex control panel](https://api.openstack.ecloud.co.uk/project/instances/), and click the Actions drop-down menu on the right-hand side of the table.  Choose either Delete Instance or Shelve Instance.
 
 ![flexshutdownmenu](../files/flexshutdownmenu.PNG)
 
@@ -45,13 +45,14 @@ There are many potential reasons to pause, suspend or shut off an instance, as l
 
 Shelving an instance essentially means taking a snapshot of the disk, which is stored for retrieval so you can easily un-shelve it at a later point.  Importantly, once an instance has been shelved it is no longer consuming compute resources, and so you will not get billed for the instance.  There may be additional charges for storage of the snapshot as follows; see the [eCloud Pricing page in MyUKFast](https://my.ukfast.co.uk/ecloud-flex/16029/pricing.php#section-storage) for details:
 
-* if the instance was originally booted from an image, storage of the snapshop will be billed at the same rate as Block Storage Snapshots
+* if the instance was originally booted from an image, storage of the snapshot will be billed at the same rate as Block Storage Snapshots
 * if the instance was originally booted from a volume, there will be no additional charges given you are already paying for the Block Storage volume separately
 
-To un-shelve an instance and start using it again, click the Actions drop-down menu and then Unshelve Instance.  After a few seconds the instance will be available for use (and become billable again).
+To un-shelve an instance and start using it again, click the `Actions` drop-down menu and then `Unshelve Instance`.  After a few seconds the instance will be available for use (and become billable again).
 
 ```eval_rst
-.. meta::
+   .. title:: Statuses of eCloud Flex instances
+   .. meta::
      :title: Statuses of eCloud Flex instances | UKFast Documentation
      :description: Guidance on which eCloud Flex instance statuses are billable
      :keywords: openstack, ecloud, flex, ukfast, hosting, billing

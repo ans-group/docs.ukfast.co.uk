@@ -4,15 +4,15 @@ By default, the policy set for Windows servers is to install Windows Updates eac
 
 This policy can be changed to suit your needs. For example, you may wish for this to take place during the night, when there will be less of an impact to business. We'll detail how to change this below.
 
-* Log into your Windows server via Remote Desktop (RDP). Once you're logged in, click Start, and type "gpedit.msc". This will bring up the Local Group Policy Editor.
+* Log into your Windows server via Remote Desktop (RDP). Once you're logged in, click Start, and type `gpedit.msc`. This will bring up the Local Group Policy Editor.
 
 * From here, navigate to the following path:
 
-Computer Configuration\Administrative Templates\Windows Components\Windows Update
+`Computer Configuration\Administrative Templates\Windows Components\Windows Update`
 
 * Then, click on the following option:
 
-"Configure Automatic Updates"
+`Configure Automatic Updates`
 
 You should then be able to see a window similar to the below image:
 
@@ -38,21 +38,16 @@ This is the option we configure by default. This will handle the download and in
 
 5 - Allow local admin to choose setting
 
-If your server is joined to an Active Directory domain, this allows the local administrator of the server to control how Windows Updates are downloaded/installed.
-
-
-
+If your server is joined to an Active Directory domain, this allows the local administrator of the server to control how Windows Updates are downloaded and/or installed.
 
 * Finally, once you've made your changes, you can ensure these are updated by doing the following:
 
 
-* Click Start -> Type cmd.exe -> Right Click -> "Run as Administrator" -> Accept the UAC Prompt -> type "gpupdate /force".
+* Click Start -> Type `cmd.exe` -> Right click -> Select `Run as Administrator` -> Accept the UAC Prompt -> Type `gpupdate /force`.
 
 ![ForceGroupPolicyUpdate](Files/windowsupdates/ForceGroupPolicyUpdate.PNG)
 
 Once this has completed, whatever options you've chosen will take effect.
-
-
 
 ```eval_rst
   .. title:: Changing Windows Updates Options
@@ -60,3 +55,4 @@ Once this has completed, whatever options you've chosen will take effect.
      :title: Changing Windows Updates Options | UKFast Documentation
      :description: Information and Instructions about Windows Updates installation options
      :keywords: ukfast, windows, updates, change, date, time, update, group, policy
+```

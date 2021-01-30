@@ -1,9 +1,8 @@
 # Service Management on CentOS 7
 
-CentOS 7 uses systemd for service management. Systemd is an alternative to older systems such as SysVinit which was used by [CentOS 6](/operatingsystems/linux/basics/services_centos6).
+CentOS 7 uses `systemd` for service management. `systemd` is an alternative to older systems such as `SysVinit` which was used by [CentOS 6](/operatingsystems/linux/basics/services_centos6).
 
 Here are a few changes that you need to be aware of.
-
 
 ## Check status of services
 
@@ -34,10 +33,9 @@ Aug 07 03:38:31 centos systemd[1]: Reloaded The Apache HTTP Server.
 Hint: Some lines were ellipsized, use -l to show in full.
 ```
 
-
 ## Restart your services
 
-In this example, you will restart, stop and start the HTTPD services.
+In this example, you will restart, stop and start the `httpd` services.
 
 ```bash
 systemctl restart httpd
@@ -48,9 +46,8 @@ systemctl stop httpd
 ```
 
 ```bash
-systemctl stop httpd
+systemctl start httpd
 ```
-
 
 ## Check list of all services enabled or disabled on boot
 
@@ -92,7 +89,7 @@ dracut-initqueue.service                    static
 ```
 
 
-You can also use the guide below for a quick conversion from SysVinit to systemd
+You can also use the guide below for a quick conversion from `SysVinit` to `systemd`
 
 [Conversion list](https://fedoraproject.org/wiki/SysVinit_to_Systemd_Cheatsheet)
 

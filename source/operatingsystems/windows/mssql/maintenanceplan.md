@@ -5,7 +5,7 @@
 
 To configure a maintenance plan, please follow the below steps
 
-Select start, now select Microsoft SQL server management studio from the list of avialable applications. Once the management studio opens, please log in to your database as normal.
+Select start, now select Microsoft SQL server management studio from the list of available applications. Once the management studio opens, please log in to your database as normal.
 
 Once logged in, please pop out the management node within object explorer and right click "Maintenance Plans" as below
 
@@ -37,7 +37,7 @@ This window denotes how frequently your maintenance plan will run. please config
 
 ![Scheduled](Images/maintenanceplan/schedule.PNG)
 
-* Your mainenance plan is now complete, to view a full list of possible tasks which you can carry out with the maintenance plan in MSSQL, please view the following link
+* Your maintenance plan is now complete, to view a full list of possible tasks which you can carry out with the maintenance plan in MSSQL, please view the following link
 
 [Maintenance Plans in MSSQL](https://msdn.microsoft.com/en-gb/library/hh710041.aspx)
 

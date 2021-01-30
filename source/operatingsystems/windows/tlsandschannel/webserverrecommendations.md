@@ -5,17 +5,15 @@ A very popular online tool to determine which TLS protocols and cipher suites ar
 Mozilla also have an excellent page on [Server-Side TLS](
 https://wiki.mozilla.org/Security/Server_Side_TLS).
 
-_Below, we will take a look specifically at Windows Server operating systems. Linux web servers running Apache or Nginx, with OpenSSL as the security provider will be discussed later._
+_Below, we will take a look specifically at Windows Server operating systems. Linux web servers running Apache or NGINX, with OpenSSL as the security provider will be discussed later._
 
-A good place to dive into the specifics of Microsoft's security implementation is the Microsoft Technet blog post on [Demystifying SChannel](https://blogs.technet.microsoft.com/askpfeplat/2017/11/13/demystifying-schannel/)
+A good place to dive into the specifics of Microsoft's security implementation is the Microsoft Technet blog post on [Demystifying Schannel](https://blogs.technet.microsoft.com/askpfeplat/2017/11/13/demystifying-schannel/)
 
 If the Windows web server is connecting directly to the Internet, and does not use a Webcelerator or Loadbalancer to terminate SSL/TLS connections, then please check the following for your relevant operating system.
 
 ### Server-Side Protocol Support
 
 In order to complete a TLS handshake, both parties must support at least one common protocol and cipher suite. When discussing the TLS handshake we will use the terms server-side TLS and client-side TLS.
-
-
 
 **Server-Side TLS** - This will be a service, such as a web server which accepts requests and serves content. Webmasters and server administrators can configure the server settings to dictate which protocols the server will support for the TLS handshake.  The following section discusses this is detail
 
@@ -51,7 +49,7 @@ As the table shows [above](#server-side-protocol-support), TLS 1.0 is still enab
 
 ## Windows Server 2012 R2
 
-In the table shown [above](#server-side-protocol-support), you can see that all protocols except SSLv2 are enabled by default. From these defaults,  we recommend that SSLv3 and TLS 1.0 are disabled, as these are considered cryptographically weaker than the latest TLS versions.
+In the table shown [above](#server-side-protocol-support), you can see that all protocols except <nospell>SSLv2</nospell> are enabled by default. From these defaults,  we recommend that <nospell>SSLv3</nospell> and TLS 1.0 are disabled, as these are considered cryptographically weaker than the latest TLS versions.
 
 If Windows Updates are being routinely applied to your Windows Server (and they should be!) then you should have the following Cumulative update installed on 2012 R2 servers already:
 
@@ -80,7 +78,7 @@ Additional information provided [here](https://docs.microsoft.com/en-us/security
 
 ## Windows Server 2008 R2 / 2012
 
-In the table shown [above](#server-side-protocol-support), you can see the default enabled SSL/TLS versions for these operating systems. From these defaults, we recommend that TLS 1.1 and TLS 1.2 are enabled if not already. We also advise that SSLv2, SSLv3 and TLS 1.0 are disabled, as these are considered cryptographically weaker than the latest TLS versions.
+In the table shown [above](#server-side-protocol-support), you can see the default enabled SSL/TLS versions for these operating systems. From these defaults, we recommend that TLS 1.1 and TLS 1.2 are enabled if not already. We also advise that <nospell>SSLv2</nospell>, <nospell>SSLv3</nospell> and TLS 1.0 are disabled, as these are considered cryptographically weaker than the latest TLS versions.
 
 [Security  Advisory 3042058](https://docs.microsoft.com/en-us/security-updates/SecurityAdvisories/2015/3042058) introduced 4 new ciphers suites to Server 2008 R2 and Server 2012. This now means that forward secrecy (PFS) with Authenticated Encryption (AEAD) is available on 2008 R2 and 2012 when using a standard RSA authentication by prioritising these 2 ciphers:
 
@@ -104,30 +102,28 @@ _If you are running a production web server with SSL/TLS being terminated direct
 ### Add RDP support for TLS 1.1 and TLS 1.2 on Server 2008 R2
 On Server 2008 R2, the Remote Desktop Protocol will use TLS 1.0, by default (if negotiated). If you are attempting to disable support for older TLS protocols such as TLS 1.0, you will need to ensure that the following update is applied first to [enable RDP to support TLS 1.1 and TLS 1.2](https://support.microsoft.com/en-gb/help/3080079/update-to-add-rds-support-for-tls-1-1-and-tls-1-2-in-windows-7-or-wind)
 
-
-
 ## Windows Server 2008
-In the table shown [above](#server-side-protocol-support), you can see the default enabled SSL/TLS versions for this operating system. Before you disable insecure protocols (SSL2, SSL3 and TLS1.0), you will need to ensure you have no applications such as old versions of SQL server which requires them.
+In the table shown [above](#server-side-protocol-support), you can see the default enabled SSL/TLS versions for this operating system. Before you disable insecure protocols (<nospell>SSLv2</nospell>, <nospell>SSLv3</nospell> and TLS1.0), you will need to ensure you have no applications such as old versions of SQL server which requires them.
 
 Due to the age of this operating system, TLS 1.1 and 1.2 are not supported by default.  Support can be added for TLS1.1 and 1.2 by installing the following Windows update:
 
 [KB4019276](https://support.microsoft.com/en-ca/help/4019276/update-to-add-support-for-tls-1-1-and-tls-1-2-in-windows)
 
-On systems that have a regular update schedule, it is possible that this patch has been supersceded by a more recent update. You can check this by ensuring that the **schannel.dll** file is at least version **6.0.6002.24129** by running the following command from an elevated CMD Prompt:
+On systems that have a regular update schedule, it is possible that this patch has been superseded by a more recent update. You can check this by ensuring that the `schannel.dll` file is at least version `6.0.6002.24129` by running the following command from an elevated Command Prompt:
 
-`wmic datafile where Name="c:\\Windows\\System32\\schannel.dll" get Description,Version`
+```console
+wmic datafile where Name="c:\\Windows\\System32\\schannel.dll" get Description,Version
+```
 
 Once support for TLS 1.2 has been enabled, you will need to install [KB4074621](https://support.microsoft.com/en-gb/help/4074621/add-rds-support-for-tls-1-1-and-tls-1-2-in-windows-server-2008-sp2) to enable the use of TLS1.1 and 1.2 for RDP connections before disabling any of the older suites.
 
-
----
-
-_Windows Server 2008 has very limited support for newer and more secure cipher suites. We strongly advise looking to upgrade your operating system if you are hosting public facing web sites._
-
----
+```eval_rst
+.. note::
+   Windows Server 2008 has very limited support for newer and more secure cipher suites. We strongly advise looking to upgrade your operating system if you are hosting public facing web sites.
+```
 
 ## Loadbalancer, WAF, and Webcelerator solutions
-In order for a device, such as a load balancer, to inspect HTTPS Web traffic, it must be able to decrypt any packets between the client's browser and the backend web server. The same applies to a Webcelerator - If the Webcel cannot decrypt the traffic then it will be unable to cache any static content for future requests. This means that either SSL Offloading or Secure Origin Pull should be used and the TLS connection terminated at the device. More information on this is provided [here](/webcel/generalinformation)
+In order for a device, such as a load balancer, to inspect HTTPS Web traffic, it must be able to decrypt any packets between the client's browser and the backend web server. The same applies to a Webcelerator - If the Webcel cannot decrypt the traffic then it will be unable to cache any static content for future requests. This means that either SSL Offloading or Secure Origin Pull should be used and the TLS connection terminated at the device. More information on this is provided in [our Webcel guide](/webcel/generalinformation)
 
 If HTTPS traffic to your Web server is terminated at one of these edge devices, then you can get in touch with our Support Team to adjust the supported TLS protocols and cipher suites per your requirements.
 

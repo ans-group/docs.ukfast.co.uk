@@ -2,7 +2,7 @@
 
 ### I'm not receiving phishing emails
 
-If you're not receiving emails send from UKFast PHaaS, it's most likely being blocked by your email filter.
+If you're not receiving emails send from UKFast PhaaS, it's most likely being blocked by your email filter.
 
 Please double check that the email you have entered in MyUKFast is correct. Then, confirm with your IT department that emails from our email servers (178.238.132.248 185.207.111.242) have been allowed, preventing them from being blocked by your email filters.
 
@@ -44,8 +44,9 @@ If the above has been checked and the issue still occurs, please raise a support
 
 
 ```eval_rst
-.. meta::
-   :title: Phishing as a Service | UKFast Documentation
-   :description: Guidance on Phsihing solutions from UKFast
-   :keywords: security, email, phishing, alerts, blocking, hacking, ransomware, protection
+   .. title:: Phishing as a Service | Troubleshooting
+   .. meta::
+      :title: Phishing as a Service | UKFast Documentation
+      :description: Guidance on Phishing solutions from UKFast
+      :keywords: security, email, phishing, alerts, blocking, hacking, ransomware, protection
 ```

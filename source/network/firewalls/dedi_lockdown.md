@@ -4,11 +4,11 @@ Your firewall is your first line of defence against malicious actors on the publ
 
 ## Locking down vital services to Admin IPs only
 
-There are often services that you as the server owner will want to control access too. Common examples are SSH, RDP, MySQL, or even your control panels like Plesk or cPanel/WHM. While you and your authorized contacts need to access these, in general the rest of the internet does not. Leaving them open to the world allows attackers to attempt to exploit them.
+There are often services that you as the server owner will want to control access too. Common examples are SSH, RDP, MySQL, or even your control panels like Plesk or cPanel/WHM. While you and your authorised contacts need to access these, in general the rest of the internet does not. Leaving them open to the world allows attackers to attempt to exploit them.
 
-Fortunately, there is an easy way to stop this. If you know the IPs you want to authorize, you can lock down these admin services on your firewall so only your authorized admin IPs are able to see these vital services. Lets say you want only your office IP to be able to access MySQL on your linux servers on port 3306.
+Fortunately, there is an easy way to stop this. If you know the IPs you want to authorise, you can lock down these admin services on your firewall so only your authorised admin IPs are able to see these vital services. Lets say you want only your office IP to be able to access MySQL on your Linux servers on port 3306.
 
-To start, you'll want to create a new IP Group and select "External" and provide a name for the group (eg. Admin):
+To start, you'll want to create a new IP Group and select "External" and provide a name for the group (e.g. "Admin"):
 
 ![New IP Group](files/editor2_ip_groups_admin.PNG)
 

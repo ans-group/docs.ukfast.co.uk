@@ -46,7 +46,7 @@ Below are the different facets that make up a UKFast Enterprise solution, click 
           <li><a href="anti-virus.html">Anti-Virus</a></li>
           <li><a href="ssl_certificates.html">SSL Certificates</a></li>
           <li><a href="ddosx.html">DDoSX</a></li>
-          <li><a href="threatvision.html">ThreatVision</a></li>
+          <li><a href="threatvision.html">Threat Vision</a></li>
       </ul>
   </div>
   <div class='docs-flex-item'>
@@ -77,7 +77,7 @@ Below are the different facets that make up a UKFast Enterprise solution, click 
   <div class='docs-flex-item'>
       <h2>Other</h2>
       <ul>
-          <li><a href="fastdrive.html">FastDrive</a></li>
+          <li><a href="fastdrive.html">FASTdrive</a></li>
       </ul>
   </div>
 </div>

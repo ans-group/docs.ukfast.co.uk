@@ -21,7 +21,7 @@ We can also see that the payload attack was trying to input BASH commands via th
 *How can I remediation this attack?*
 
 
-We can prevent these attacks by ensuring that our web service and BASH is updated to the latest version with the latest security patches to allow the service to recognize the malicious input and drop it before any malicious code can run.
+We can prevent these attacks by ensuring that our web service and BASH is updated to the latest version with the latest security patches to allow the service to recognise the malicious input and drop it before any malicious code can run.
 
 This rule also implements Dynamic Protection IP blocking, meaning that the attacking IP address will be blocked from accessing any content hosted on the server.
 

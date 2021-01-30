@@ -3,7 +3,7 @@
 * Accessing Local Group Policy in Window Server 2016 requires a slightly different method to be used as compared to in previous versions of Windows Server.
   To Access Local Group Policy, please follow the below guide
 
-Select the start menu, and type `MMC`, now select the resultant MMC.EXE as below
+Select the start menu, and type `MMC`, now select the resultant `MMC.EXE` as below
 
 ![MMC search](files/localpolicyeditor/searchmmc.PNG)
 
@@ -15,7 +15,7 @@ The "Add Or remove Snap-ins" window will now be presented, in the left hand side
 
 ![GPOEditor](files/localpolicyeditor/choosesnap.PNG)
 
-You will now be presented with the "Select Group Policy Object" Window, by default this should be prepopulated with "Local Computer", please leave this as it is and select "Finish" as below
+You will now be presented with the "Select Group Policy Object" Window, by default this should be pre-populated with "Local Computer", please leave this as it is and select "Finish" as below
 
 ![Select](files/localpolicyeditor/selectlocalpolicy.PNG)
 
@@ -43,3 +43,4 @@ Choose a location for the Console to be saved to, and give it a name which will 
      :title: Local Group Policy in Windows Server 2016 | UKFast Documentation
      :description: Instructions on accessing Local Group Policy in Windows Server 2016
      :keywords: ukfast, windows, server, local, group, policy, 2016, access, use, tutorial, cloud
+```

@@ -8,7 +8,7 @@ In the past, you would need to remember 2 sets of credentials for both FASTdesk 
 
 ## Web Application
 
-In order to use Single Sign On, you will need to navigate to your ShareFile domain. For example, company.sharefile.eu. This should look something like this on the sign in page:
+In order to use Single Sign On, you will need to navigate to your ShareFile domain. For example, `company.sharefile.eu`. This should look something like this on the sign in page:
 
 ![ssoimage1](files/ssoimage1.PNG)
 
@@ -28,7 +28,7 @@ Once you have set-up Single Sign On on the web application, you will then be abl
 
 ![ssoimage4](files/ssoimage4.png)
 
-You will then be asked to enter the subdomain to your account. This will be the subdomain for the URL you use for ShareFile. For example, if you type in `mycompany.sharefile.eu`, then enter 'mycompany'.
+You will then be asked to enter the subdomain to your account. This will be the subdomain for the URL you use for ShareFile. For example, if you type in `mycompany.sharefile.eu`, then enter `mycompany`.
 
 ![ssoimage5](files/ssoimage5.PNG)
 
@@ -46,7 +46,7 @@ When signing into Single Sign On using the web application, you will see the fol
 
 ![ssoimage7](files/ssoimage7.PNG)
 
-Selecting 'FASTdesk Home' will direct you to daas.ecloud.co.uk. This is where you would normally sign in for FASTdesk when using a browser. Entering your FASTdesk credentials here will lead you to your virtual desktop.
+Selecting 'FASTdesk Home' will direct you to `daas.ecloud.co.uk`. This is where you would normally sign in for FASTdesk when using a browser. Entering your FASTdesk credentials here will lead you to your virtual desktop.
 
 ![ssoimage8](files/ssoimage8.PNG)
 
@@ -63,5 +63,5 @@ Selecting 'Help' will lead you to the UKFast documentation page, specifically th
    .. meta::
       :title: FASTdrive Single Sign On | UKFast Documentation
       :description: Guide for using single sign-on with FASTdrive
-      :keywords: FastDrive, Citrix, ukfast, sso
+      :keywords: FASTdrive, Citrix, ukfast, sso
 ```

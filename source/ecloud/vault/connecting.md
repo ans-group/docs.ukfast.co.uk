@@ -13,20 +13,20 @@ If you aren't familiar with the S3 API specification, [information can be found 
 Your key pair will also allow you to access your eCloud Vault buckets through various S3-enabled third party applications. Though UKFast can't offer support on your configuration or use of these applications (see below), a few options are:
 
 - **[Cyberduck](https://cyberduck.io/)** - Windows, Mac
-- **[s3cmd](http://s3tools.org/s3cmd)** - Windows, Linux and Mac CLI tool (further details below)
+- **[<nospell>s3cmd</nospell>](http://s3tools.org/s3cmd)** - Windows, Linux and Mac CLI tool (further details below)
 - **[Duplicati](http://www.duplicati.com/)** - Windows backup utility
 - **[Expandrive](http://www.expandrive.com/)** - Windows backup utility
 - **[S3Anywhere](https://play.google.com/store/apps/details?id=lysesoft.s3anywhere&hl=en)** - Android s3 client
 
 These applications can typically all be configured by setting the S3 host/address as ``vault.ecloud.co.uk`` and inputting your access and secret keys.
 
-# s3cmd
+# `s3cmd`
 
-While UKFast does not offer support for 3rd-party clients, interally we use `s3cmd` to test functionality and debug issues with eCloud Vault. As such, if you contact UKFast Support with an eCloud Vault issue you may be asked to replicate the problem with `s3cmd`. If you're not used to using command-line applications we appreciate it can be frustrating to use, but it's a useful comparison against other clients.
+While UKFast does not offer support for 3rd-party clients, internally we use `s3cmd` to test functionality and debug issues with eCloud Vault. As such, if you contact UKFast Support with an eCloud Vault issue you may be asked to replicate the problem with `s3cmd`. If you're not used to using command-line applications we appreciate it can be frustrating to use, but it's a useful comparison against other clients.
 
 You must configure `s3cmd` before you use it. To do this, on Linux and MacOS, create a file in your home directory called `.s3cfg` with the following content. On Windows this should be in `C:\Users\[username]\AppData\Roaming\s3cmd.ini`.
 
-```
+```ini
 [default]
 access_key = YOUR_ACCESS_KEY
 secret_key = YOUR_SECRET_KEY
@@ -35,7 +35,7 @@ host_bucket = %(bucket)s.vault.ecloud.co.uk
 human_readable_sizes = True
 use_https = True
 
-# If your s3cmd version is 1.6.1 or greater, you should add the following line
+# If your `s3cmd` version is 1.6.1 or greater, you should add the following line
 signature_v2 = True
 ```
 

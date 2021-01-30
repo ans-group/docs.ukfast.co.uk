@@ -1,6 +1,6 @@
 # Resize an additional disk *(intermediate)*
 
-This guide covers the process for getting Linux to recognize that one of the non-primary disks (not `/dev/sda`) has changed size, and to make that new space available for use.
+This guide covers the process for getting Linux to recognise that one of the non-primary disks (not `/dev/sda`) has changed size, and to make that new space available for use.
 
 ```eval_rst
 .. note::
@@ -70,7 +70,7 @@ Here we can see that there is a 5G difference on `/dev/sdb`, which is the disk w
 
 While the operating system (OS) can see the additional space, we've still got to make this usable.
 
-First, you'll need to get LVM to recognize that the physical volume (PV) has changed size:
+First, you'll need to get LVM to recognise that the physical volume (PV) has changed size:
 
 ```bash
 [root@ssh ~]# pvresize /dev/sdb
@@ -166,3 +166,4 @@ Then confirm that the disk shows the correct size in `df -h`
      :title: Resizing an additional disk on an eCloud virtual server | UKFast Documentation
      :description: An intermediate-level guide to resizing an additional disk on an eCloud virtual server
      :keywords: ukfast, linux, ecloud, cloud, server, disk, drive, resize, format, tutorial
+```

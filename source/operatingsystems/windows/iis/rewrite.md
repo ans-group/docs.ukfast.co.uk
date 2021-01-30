@@ -2,7 +2,7 @@
 
 ## Installing the URL rewrite module
 
-The IIS URL Rewrite module is an add-in component for IIS that allows an administrator to create rules which can be used to rewrite a url along with several other functions.
+The IIS URL Rewrite module is an add-in component for IIS that allows an administrator to create rules which can be used to rewrite a URL along with several other functions.
 
 * To Install the URL Rewrite module on your server, please follow the below guide(This guide assumes that you already have IIS installed, if you do not, and are unsure how to do this, please follow our guide "installing IIS")
 
@@ -23,6 +23,7 @@ Once you have selected the Accept box, please select the install button, the ins
 * To Access the URL rewrite module, please follow the below guide (This guide assumes that you have completed the installation steps above, if not, please do so before attempting this stage)
 
 Select server manager, you can do this by selecting start and then selecting server manager from the list of available applications, or by selecting the server manager taskbar shortcut.
+
 Once the server manager has opened, please select tools, and select "Internet Information Services (IIS)" from the resulting menu as below
 
 ![Server Manager](files/rewrite/servermanager.PNG)
@@ -45,3 +46,4 @@ You will now be presented with the URL rewrite module as below, over to the righ
      :title: The IIS URL Rewrite module | UKFast Documentation
      :description: A guide to installing and using the IIS URL rewrite module on Windows Server
      :keywords: ukfast, windows, iis, web, module, rewrite, install, tutorial, guide
+```

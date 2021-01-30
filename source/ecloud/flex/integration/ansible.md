@@ -1,27 +1,27 @@
 # Creating eCloud Flex instances using Ansible
 
-Ansible is an open-source software provisioning, configuration management, and application-deployment tool developed by RedHat, and is generally regarded as one of the leading tools in the DevOps community.
+Ansible is an open-source software provisioning, configuration management, and application-deployment tool developed by Red Hat. It is generally regarded as one of the leading tools in the DevOps community.
 
-Describing the full scope of ansible and it's usage is clearly out of reach of this article, but we will attempt to highlight some of the useful ways in which ansible can be used to automate the creation of your flex-based infrastructure.
+Describing the full scope of Ansible and its usage is clearly out of scope of this article. However, we will attempt to highlight some of the useful ways in which Ansible can be used to automate the creation of your eCloud Flex-based infrastructure.
 
-## The os_server module
+## The `os_server` module
 
 The brunt of the complicated work here will be carried out by the existing `os_server` module, which is fully documented here:
 
 <http://docs.ansible.com/ansible/os_server_module.html>
 
-If you've already got ansible installed, I'd certainly hope you already have python installed, so there's just one prerequisite left to fulfil, a package called `shade` from `pip`, which will need to be installed on the machine you're running your playbooks from. A simple `pip install shade` should be enough to get you up and running, but to rule out a number of common errors, here's the full set of commands I've had to use in the past to get it installed on a blank system:
+If you already have Ansible installed then you should already have Python installed too. So there's just one prerequisite package left to install, a `pip` package called `shade`. This will need to be installed on the machine you're running your playbooks from. A simple `pip install shade` should be enough to get you up and running, but to rule out a number of common errors, here's the full set of commands I've had to use in the past to get it installed on a blank system:
 
 ```bash
-  yum install python-pip openssl-devel make gcc python-devel
-  pip install --upgrade pip
-  pip install --upgrade setuptools
-  pip install shade
+yum install python-pip openssl-devel make gcc python-devel
+pip install --upgrade pip
+pip install --upgrade setuptools
+pip install shade
 ```
 
 ## Creating instances
 
-If you've followed the guide [here](/ecloud/flex/general/settingvars), you should already have all the correct environment variables set, so you won't need a large amount of the authentication based options for the module. You should be able to get away with a fairly lean task that looks like this:
+If you've followed the [Setting Environment Variables for eCloud Flex](/ecloud/flex/general/settingvars) guide, you should already have all the correct environment variables set, so you won't need to specify the otherwise large set of the authentication-based options for the module. You should be able to get away with a fairly lean task that looks like this:
 
 ```yaml
   - name: Create 3 VMs
@@ -35,7 +35,7 @@ If you've followed the guide [here](/ecloud/flex/general/settingvars), you shoul
 
 ## Working with freshly created instances
 
-Adding `register` to that task, we can capture a lot of information about the freshly created instance, which we can then use to add the machine to the in memory inventory, or use as facts in other tasks. For example, here we see the newly created instance being added to inventory:
+By adding `register` to that task, we can capture a lot of information about the freshly created instance. We can then use that information to add the machine to the in-memory inventory, or use them as facts in other tasks. For example, here we see the newly created instance being added to inventory:
 
 ```yaml
   - name: Create 3 VMs
@@ -63,7 +63,7 @@ The above example shows usage of the `private_v4` fact, but there are many other
 
 ## Basic playbook example
 
-The following playbook ties together some of the above functionality to show a relatively trivial example of creating 3 instances and provisioning them as webservers in one task block. A keypair is created locally for examples sake, but could be generated using the `os_keypair` module if desired. Some relatively pointless/inadvisable actions such as creating a user with passwordless sudo access, or adding things to hosts files are carried out so that different elements can be demonstrated.
+The following playbook ties together some of the above functionality to show a relatively trivial example of using a task block to create 3 instances and provision them as web servers. A key pair is created locally for example's sake, but could be generated using the `os_keypair` module if desired. Some relatively pointless / inadvisable actions such as creating a user with password-less sudo access, or adding things to hosts files are carried out so that different elements can be demonstrated.
 
 ```yaml
 ---
@@ -173,7 +173,7 @@ The following playbook ties together some of the above functionality to show a r
       - serverb
       - serverc
 
-  - name: Install apache on webservers
+  - name: Install apache on web servers
     delegate_to: "{{ item }}"
     yum:
       name: httpd
@@ -183,7 +183,7 @@ The following playbook ties together some of the above functionality to show a r
       - serverb
       - serverc
 
-  - name: Start and enable webserver
+  - name: Start and enable web server
     delegate_to: "{{ item }}"
     service:
       name: httpd
@@ -200,5 +200,5 @@ The following playbook ties together some of the above functionality to show a r
    .. meta::
       :title: Using eCloud Flex with Ansible | UKFast Documentation
       :description: How to use eCloud Flex with Ansible
-      :keywords: ecloud, flex, openstack, ansible, redhat, automation, deployment, configuration, webserver
+      :keywords: ecloud, flex, openstack, ansible, red hat, automation, deployment, configuration, web server
 ```

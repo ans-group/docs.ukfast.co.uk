@@ -13,8 +13,8 @@ EasyApache4 is located under the Software category of WHM's administration featu
 
 ![cPanel EA4 Home](files/cpanel_easyapache4home.PNG)
 
-When you are within WHM, click on the blue "Customize" button alongside "Currently Installed Packages" to amend the EasyApache4 Profile currently in use.
-Clicking the "Customize" button on the profile currently in use will redirect you to menu in which you are able to select packages for install/uninstall accordingly.
+When you are within WHM, click on the blue "Customise" button alongside "Currently Installed Packages" to amend the EasyApache4 Profile currently in use.
+Clicking the "Customise" button on the profile currently in use will redirect you to menu in which you are able to select packages for install/uninstall accordingly.
 
 ![cPanel EA4 Apache MPM](files/cpanel_easyapache4apachempm.PNG)
 

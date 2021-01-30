@@ -14,7 +14,7 @@ This does not discount an attacker from triggering this rule. Some investigation
 
 This relates to user management and permissions management. The `sudo` program allows users to act as root when performing actions that directly relate to the system. This allows the users to start and stop services, modify configuration files and access restricted parts of the file system.
 
-This program is also very locked-down to specific individuals. The program needs the authorization to allow a user to use it. This is meant as an administration tool, to allow the root account login to be disabled.
+This program is also very locked-down to specific individuals. The program needs the authorisation to allow a user to use it. This is meant as an administration tool, to allow the root account login to be disabled.
 
 *How can I fix this?*
 
@@ -36,14 +36,14 @@ This tells you that one or more of the drives in RAID array have failed, this is
 *What does this rule relate to?*
 
 
-This can affect everything in your server. Anything which needs to access data on that disk will error out and fail. This is a serious issue. Mostly RAIDs are used to store data, so the operating system of the server is unlikely to be affected by a disk failure.
+This can affect everything in your server. Anything which needs to access data on that disk will error out and fail. This is a serious issue. Data is mostly stored on RAID arrays, so the operating system of the server is unlikely to be affected by a disk failure.
 
 *How can I fix this?*
 
 
 Contact the providers of your server. Make sure your backups are as up to date as they can be, and work with them to get everything back up and running. Keeping an open dialogue with them, so that you are informed of any updates and developments would be good too.
 
-Other than that, there isn't much you can do. Getting the drive replaced, and your RAID array rebuilt is the only solution. If you are using RAID as a redundancy, not a backup, then there may not be a lot of downtimes as your RAID array will fail over.
+Other than that, there isn't much you can do. Getting the drive replaced, and your RAID array rebuilt is the only solution. If you are using RAID for redundancy then there may not be any downtime, as your RAID array should survive a single disk failure.
 
 A good backup solution is also a must in these situations, as if the array does become completely corrupted, then your data is still kept safe, in a backup. Running daily backups is a recommended configuration.
 
@@ -63,23 +63,26 @@ This does not mean that an attack is taking place. This is a hardware alert whic
 
 A replacement hard drive will be necessary to preserve all the data. Migrating data from onto a new drive is the best way to not lose data. Please contact your technical team, or our support staff to help you with this.
 
-**NOTE**: If you are dealing with a RAID array, please seek the advice of our support staff or another experienced IT professional for the best way to replace disks in a RAID array.
+```eval_rst
+.. note::
+   If you are dealing with a RAID array, please seek the advice of our support staff or another experienced IT professional for the best way to replace disks in a RAID array.
+```
 
 
 To find out more about the health of your hard drives on Linux run the command replacing the `<device_id>` with the device you wish to run it against, such as `sda` or `sdb`.
 
-
-`smartctl -a /dev/<device_id>`
-
-
+```xml
+smartctl -a /dev/<device_id>
+```
 On Windows open PowerShell and type in:
 
+```console
+wmic
+```
 
-`wmic`
-
-`diskdrive get status`
-
-
+```console
+diskdrive get status
+```
 
 This will return 'Status OK' if the drive is all good, or an error message. This error message will indicate problems with your hard drive.
 

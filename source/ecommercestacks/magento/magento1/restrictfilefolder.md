@@ -101,9 +101,9 @@ location ~* ^/(index\.php/mageadmin|mageadmin) {
 }
 ```
 
-These location blocks need to be placed within the server block of your NGINX configuration file. You need to edit replacemebackend with the PHP-FPM configuration pool name (This should be defined at the top of your NGINX configuration file).
+These location blocks need to be placed within the server block of your NGINX configuration file. You need to edit `replacemebackend` with the PHP-FPM configuration pool name (This should be defined at the top of your NGINX configuration file).
 
-To implement this change you need to reload the NGiNX service. First perform a configuration test with the following command:
+To implement this change you need to reload the NGINX service. First perform a configuration test with the following command:
 
 ```bash
  ~]$ nginx -t
@@ -121,6 +121,6 @@ If there are no errors in the configuration test proceed to reload the NGINX ser
   .. title:: Magento 1 Restrict File/Folder
   .. meta::
      :title: Magento 1 Restrict File/Folder | UKFast Documentation
-     :description: A guide to restrict a file or folder within NGiNX
+     :description: A guide to restrict a file or folder within NGINX
      :keywords: ukfast, linux, nginx, install, centos, cloud, server, virtual, Magento, security
 ```

@@ -38,13 +38,13 @@ The final step is the pool monitor, which determines which members of the pool a
 
 To complete the process click `Create Load Balancer`.  The load balancer will be provisioned and appear in the dashboard shortly. If the `Create Load Balancer` button remains greyed out, please check you've completed all mandatory fields (identified with an asterisk) in the steps outlined above.
 
-## Assocating a Floating IP with a Load Balancer
+## Associating a Floating IP with a Load Balancer
 
-To enable IPv4 access to your Load Balancer from public networks, a Floating IP address must be added. To check if you have a Floating IP address already associated, and what that address is, open the [Load Balancer dashboard](https://api.openstack.ecloud.co.uk/project/ngloadbalancersv2/) and click on the Load Balancer you are investigating. On the next page, a **Floating IP Address** field will show the Floating IP attached to the Load Balancer if one is available, or show "None" if this has not yet set up.
+To enable <nospell>IPv4</nospell> access to your Load Balancer from public networks, a Floating IP address must be added. To check if you have a Floating IP address already associated, and what that address is, open the [Load Balancer dashboard](https://api.openstack.ecloud.co.uk/project/ngloadbalancersv2/) and click on the Load Balancer you are investigating. On the next page, a **Floating IP Address** field will show the Floating IP attached to the Load Balancer if one is available, or show "None" if this has not yet set up.
 
 ![lbfip](../../files/lbfip.png)
 
-Please note, the IP address displayed towards the top-left of the page is the internal IPv4 address of the Load Balancer, but this IP will not be publicly accessible by others outside of your eCloud Flex network.
+Please note, the IP address displayed towards the top-left of the page is the internal <nospell>IPv4</nospell> address of the Load Balancer, but this IP will not be publicly accessible by others outside of your eCloud Flex network.
 
 To attach a Floating IP, use the drop-down menu next to `Edit` in the top right corner, and select `Associate Floating IP`.
 

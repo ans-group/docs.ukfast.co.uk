@@ -5,14 +5,14 @@ Windows Server uses a tool known as Failover Cluster Manager to create highly-av
 ## Which of my hosts are active?
 
 * To check which node in your cluster is currently active, please follow the below steps.
-(This guide assumes that you have already logged in to your cluster using the cluster ip)
+(This guide assumes that you have already logged in to your cluster using the cluster IP)
 
 Select start, then select "Failover Cluster Manager" from the list of available programs as below
 
 ![FCM](Images/clusterstatus/failoverclustermanager.png)
 
 You will now be presented with the Failover Cluster Manager as below, from this pane, you are able to view information on your cluster, and carry out any administrative tasks.
-From the left hand pane, please select the cluster (This will be the name which you have configured for your cluster, in this example it is name "contosofile.contoso.domain").
+From the left hand pane, please select the cluster (This will be the name which you have configured for your cluster, in this example it is name `contosofile.contoso.domain`).
 Expand the cluster menu, using the pop out arrow to the left of the cluster name, this will present the various options which are available to you.
 
 ![FCM landing page](Images/clusterstatus/failoverclustermanager.png)
@@ -41,3 +41,4 @@ Select "Move" from the resultant context menu, then select the desired node whic
      :title: Checking cluster status in Windows | UKFast Documentation
      :description: Instructions on how to check the status of a Windows cluster
      :keywords: ukfast, windows, cluster, check, status, hsots, server, cloud, virtual, active
+```

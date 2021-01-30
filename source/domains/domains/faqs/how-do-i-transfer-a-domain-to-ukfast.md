@@ -7,9 +7,9 @@
 ```
 
 
-To transfer a .uk domain to UKFast from another registrar you just need to change the IPS tag to UKFAST using your current provider or Nominet; then [import the domain in MyUKFast](https://my.ukfast.co.uk/domains/import.php). The change usually happens within minutes.
+To transfer a `.uk` domain to UKFast from another registrar you just need to change the IPS tag to UKFAST using your current provider or Nominet; then [import the domain in MyUKFast](https://my.ukfast.co.uk/domains/import.php). The change usually happens within minutes.
 
-For a non .uk domain the process is slightly more complicated. First, ensure the domain's administrative contact has a valid email address using our [WHOIS tool](https://my.ukfast.co.uk/domains/tools/); if it's incorrect or out of date, please update the information through your current registrar first.
+For a non `.uk` domain the process is slightly more complicated. First, ensure the domain's administrative contact has a valid email address using our [WHOIS tool](https://my.ukfast.co.uk/domains/tools/); if it's incorrect or out of date, please update the information through your current registrar first.
 
 You will then need an authorisation (EPP) code from your current registrar. Some domains may not require one, but if they do you will need to enter this code from the authorisation email in order for the transfer to proceed.
 

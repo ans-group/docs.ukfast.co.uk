@@ -30,7 +30,7 @@ __Edit the shared address book__ – This will give user's permission to edit th
 
 __Change his/her password__ – This will give the user permission to change their password.
 
-__See the ‘My Settings' link on the top navigation bar__ – This will allow the user to see this button.
+__See the 'My Settings' link on the top navigation bar__ – This will allow the user to see this button.
 
 __Add this user to the shared company address book__ – This will add the user to the shared address book which is seen by all employee users.
 
@@ -39,3 +39,10 @@ __Add this user to my address book__ – This will add the user to your personal
 ![Image68](files/Image68.png)
 
 Once permissions have been set, you will have the option to send out confirmation emails. This lets the new user know that they have been added to FASTdrive.
+
+```eval_rst
+   .. title:: FASTdrive | Adding an employee from an Excel spreadsheet
+   .. meta::
+      :description: Detailed guidance on adding employees using an Excel sheet
+      :keywords: ukfast, fastdrive, excel, administration, user management
+```

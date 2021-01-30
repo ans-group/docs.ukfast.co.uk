@@ -47,7 +47,7 @@
 
 6. Ensure that you receive a success message:
 
->  "Success: The destination “Vault” validated."
+>  "Success: The destination "Vault" validated."
 
 Once you have validated connection to your Vault and tweaked your backup configuration options to your liking, you should be ready to go!
 

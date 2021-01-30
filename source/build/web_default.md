@@ -28,13 +28,13 @@ Internet Information Services (IIS) is a Microsoft developed web server that run
 
 ## NGINX
 
-NGINX is an open source application which is mainly deployed on Linux based operating systems that has a plethora of uses, however in this context we are focussing on the web server aspect, below are the default settings/components installed at point of deployment:
+NGINX is an open source application which is mainly deployed on Linux based operating systems that has a plethora of uses, however in this context we are focusing on the web server aspect, below are the default settings/components installed at point of deployment:
 
 ```eval_rst
 +----------------------+------------------------------------------------------------------------------+
 | Web Setting          | Default                                                                      |
 +======================+==============================================================================+
-| NGiNX Version:       | Latest version from EPEL repository                                          |
+| NGINX Version:       | Latest version from EPEL repository                                          |
 +----------------------+------------------------------------------------------------------------------+
 | Mount Point:         | /var/www/vhosts                                                              |
 +----------------------+------------------------------------------------------------------------------+
@@ -78,7 +78,7 @@ PHP: Hypertext Preprocessor (PHP) is one of most popular open source scripting l
 +----------------------------+-----------------------------------------------------------------+
 | Configuration:             | Separate PHP-FPM processes should be run for each VirtualHost.  |
 |                            |                                                                 |
-|                            | Service should listen on the server’s primary IP address.       |
+|                            | Service should listen on the server's primary IP address.       |
 +----------------------------+-----------------------------------------------------------------+
 | Specific php.ini configs:  | display errors: On                                              |
 |                            |                                                                 |
