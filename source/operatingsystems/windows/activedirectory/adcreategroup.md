@@ -7,7 +7,7 @@ Log in to the Domain controller using administrator credentials, once logged in,
 
 ![AD Users and Computers](files/newgroup/adusersandcomputers.PNG)
 
-You will now be presented with the Active Directory Users and Computers window, on the left hand side of the window, you will see your domain, in this example "contoso.domain", please pop out the menu by selecting the pop out arrow next to the domain.
+You will now be presented with the Active Directory Users and Computers window, on the left hand side of the window, you will see your domain, in this example `contoso.domain`, please pop out the menu by selecting the pop out arrow next to the domain.
 Several more menu items will now be presented, from those new items, right click on the "Users" folder, select "New" and Select "Group" as below
 
 ![New Group](files/newgroup/newgroup.png)
@@ -19,7 +19,9 @@ You will now be presented with the "New Object - Group" window as below, in this
 * With the above fields completed, please select OK and you will now be able to see your new group in the list.
 
 ```eval_rst
+   .. title:: Creating a Group in Active Directory
    .. meta::
      :title: Creating a Group in Active Directory | UKFast Documentation
      :description: A guide to creating a group in Windows Active Directory
      :keywords: ukfast, windows, guide, active, directory, group, virtual, server, admin, management
+```

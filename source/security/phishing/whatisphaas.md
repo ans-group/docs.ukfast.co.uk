@@ -1,8 +1,8 @@
-# What is Phishing as a service (PHaaS)?
+# What is Phishing as a service (PhaaS)?
 
 ![hwo-it-works](files/phishing128.png)
 
-Phishing as a service (PhaaS) from UKfast is our latest addition to our growing range of IT security products. With social engineering attacks and spear phishing attacks on the rise, it's never been more important to ensure your business is protected. UKFast's Phishing as a Service allows you to start a simulated phishing attack against your employees, testing their ability to detect and react to an incoming phishing attack.
+Phishing as a service (PhaaS) from UKFast is our latest addition to our growing range of IT security products. With social engineering attacks and spear phishing attacks on the rise, it's never been more important to ensure your business is protected. UKFast's Phishing as a Service allows you to start a simulated phishing attack against your employees, testing their ability to detect and react to an incoming phishing attack.
 
 PhaaS comes ready to go, with a selection of preconfigured phishing attack templates. Simply upload a list of emails to phishing, and launch a phishing test.
 
@@ -17,8 +17,9 @@ Phishing emails are often disguised as a legitimate email, pretending to origina
 Another common but dangerous type of phishing attack is CEO impersonation, crafted in a similar way to spear-phishing attacks, these emails impersonate a business's CEO, CTO or another authoritative figure in your business. It's common for these attacks to request that the recipient perform a selection of tasks for the 'CEO' or attacker in this case. We commonly see emails from attackers asking the recipient to use the company credit card to buy gift cards for a fake raffle or fundraising event. This could mislead your own employees into supplying the attacker with inside information regarding the business's operations or upcoming products
 
 ```eval_rst
-.. meta::
-   :title: Phishing as a Service | UKFast Documentation
-   :description: Guidance on Phsihing solutions from UKFast
-   :keywords: security, email, phishing, alerts, blocking, hacking, ransomware, protection
+   .. title:: Phishing as a Service | What is PhaaS
+   .. meta::
+      :title: Phishing as a Service | UKFast Documentation
+      :description: Guidance on Phishing solutions from UKFast
+      :keywords: security, email, phishing, alerts, blocking, hacking, ransomware, protection
 ```

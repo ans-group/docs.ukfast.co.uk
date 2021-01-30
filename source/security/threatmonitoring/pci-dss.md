@@ -13,9 +13,9 @@ We support default credential scans for many web applications, local packages, d
 
 ### Control 5: Use and regularly update anti-virus software or programs
 
-Threat Monitoring can integrate closely with common Anti Virus services like McAfee AV and ClamAV to provide real-time alerts on detected items. Additionally, the UKfast Security team can assist in setting up real-time on-access malware scanning and scheduled malware scans for your solution.
+Threat Monitoring can integrate closely with common Anti Virus services like McAfee AV and ClamAV to provide real-time alerts on detected items. Additionally, the UKFast Security team can assist in setting up real-time on-access malware scanning and scheduled malware scans for your solution.
 
-Taking scanning to the next level, Threat Monitoring ties in closely with industry recognised rootkit scanners to detect even the most deceptive malware, including many rootkits, trojans and system backdoors. With the assistance of a UKfast security professional, these scans can be set up to run on a schedule and alerts set up for detection events.
+Taking scanning to the next level, Threat Monitoring ties in closely with industry recognised rootkit scanners to detect even the most deceptive malware, including many rootkits, trojans and system backdoors. With the assistance of a UKFast security professional, these scans can be set up to run on a schedule and alerts set up for detection events.
 
 ### Control 6: Develop and maintain secure systems and applications (Partial)
 
@@ -37,7 +37,7 @@ In accordance with PCI DSS, these logs can be readily accessed for up to 3 month
 
 ### Control 11: Regularly test security systems and processes
 
-Unofficial external and internal vulnerability scans can be run through the Threat Monitoring MyUKfast dashboard, easily providing a way to hunt down server and application vulnerabilities, outdated software and insecure configurations on your infrastructure in preparation for running a vulnerability scan from an approved scanning vendor to achieve PCI compliance. These scans are provided in a report that can be easily used to reference PCI DSS for internal audits, utilising a regularly updated list of industry recognised CVE numbers and scores. (Please note UKFgast is currently not an ASV, and cannot provide official PCI DSS vulnerability scans to achieve compliance, all scans are for test purposes only)
+Unofficial external and internal vulnerability scans can be run through the Threat Monitoring MyUKFast dashboard, easily providing a way to hunt down server and application vulnerabilities, outdated software and insecure configurations on your infrastructure in preparation for running a vulnerability scan from an approved scanning vendor to achieve PCI compliance. These scans are provided in a report that can be easily used to reference PCI DSS for internal audits, utilising a regularly updated list of industry recognised CVE numbers and scores. (Please note UKFgast is currently not an ASV, and cannot provide official PCI DSS vulnerability scans to achieve compliance, all scans are for test purposes only)
 
 The additional product, our Threat Response service allows regular updating and patching to be offloaded to our security engineers,  utilise their expertise to manage regular software updates and applying security pates for items found in vulnerability scans and critical CVEs as they are released.
 

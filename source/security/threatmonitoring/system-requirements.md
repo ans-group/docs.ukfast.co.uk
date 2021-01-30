@@ -30,15 +30,19 @@ Please refer to the below compatibility matrix before installing threat monitori
 
 Threat Monitoring may also be installed onto virtual servers.
 
-OS Container-based servers and applications containers (Such as docker) are not currently supported.
+OS container-based servers and applications containers (such as `Docker`) are not currently supported.
 
 Please refer to the below compatibility matrix before installing threat monitoring onto a virtual server to understand what virtualization types are supported. Any virtualization not mentioned below are not supported.
 
 If you don't know your virtual server's virtualisation type, please contact your hosting provider for more information. Additionally, the below commands may be able to show you your system's virtualisation type on a Linux system.
 
-`hostnamectl status`
+```bash
+hostnamectl status
+```
 
-`dmidecode -s system-product-name`
+```bash
+dmidecode -s system-product-name
+```
 
 ```eval_rst
 +---------------------+-----------+
@@ -72,11 +76,11 @@ Threat Monitoring Core is required, any other modules are optional but highly re
 +---------------------+---------------+-------------------+--+------+-------------+
 |   Operating System  | UKFast Hosted | Non-UKFast Hosted |  | Core | NIDS Module |
 +=====================+===============+===================+==+======+=============+
-| Centos 6            | Yes           | Yes               |  | Yes  | No          |
+| CentOS 6            | Yes           | Yes               |  | Yes  | No          |
 +---------------------+---------------+-------------------+--+------+-------------+
-| Centos 7            | Yes           | Yes               |  | Yes  | Yes         |
+| CentOS 7            | Yes           | Yes               |  | Yes  | Yes         |
 +---------------------+---------------+-------------------+--+------+-------------+
-| Centos 8            | Yes           | Yes               |  | Yes  | Yes         |
+| CentOS 8            | Yes           | Yes               |  | Yes  | Yes         |
 +---------------------+---------------+-------------------+--+------+-------------+
 | RHEL 6              | Yes           | Yes               |  | Yes  | Yes         |
 +---------------------+---------------+-------------------+--+------+-------------+
@@ -111,3 +115,4 @@ Threat Monitoring Core is required, any other modules are optional but highly re
         :title: Threat Monitoring system requirements | UKFast Documentation
         :description: UKFast Threat Monitoring system requirements
         :keywords: threat monitoring, alerts, security, compliance, rules, rulesets, ukfast, hosting, file integrity monitoring, rootkit, detection, vulnerability scan, scans, hids, intrusion detection, set up
+```

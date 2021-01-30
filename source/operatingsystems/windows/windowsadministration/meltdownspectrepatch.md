@@ -14,8 +14,7 @@ The patches for Windows Server 2008 R2, 2012 R2 and 2016 can be downloaded direc
 
 * [Microsoft Server 2008 R2](https://www.catalog.update.microsoft.com/Search.aspx?q=KB4056897)
 
-
-The basic walkthrough for manually installing the patch is provided below:
+The basic walk-through for manually installing the patch is provided below:
 (Screenshots shown are from Windows Server 2012 R2, however the process is similar for Windows Server 2008 R2 and 2016)
 
 * Follow the above link for your specific operating system and click `Download` on the patch relevant to your operating system.
@@ -32,14 +31,13 @@ The basic walkthrough for manually installing the patch is provided below:
 
 ![Server 2012 R2 Install Completion](Images/meltdownpatch/2012r2-installcomplete.png)
 
-
 ## Enable the Registry keys
 
 Once the patch has been applied and the updates have been installed, you will need to add two registry keys to enable the mitigations on the server. This is per the [Microsoft documentation](https://support.microsoft.com/en-us/help/4072698/windows-server-guidance-to-protect-against-the-speculative-execution-s).
 
 Open a `CMD Prompt` as Administrator and run the following two commands, one after another. This will add the relevant registry keys to enable the Mitigation.  Always backup the registry before making changes.  If you are a UKFast customer and are not comfortable making these changes, please seek assistance from our support team by raising a support request in [MyUKFast](https://my.ukfast.co.uk/pss/add.php).
 
-```
+```console
 reg add "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management" /v FeatureSettingsOverride /t REG_DWORD /d 0 /f
 
 reg add "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management" /v FeatureSettingsOverrideMask /t REG_DWORD /d 3 /f
@@ -97,3 +95,4 @@ If you don't have automatic updates scheduled on your UKFast servers, here's how
      :title: Meltdown and Spectre patch for Windows | UKFast Documentation
      :description: A guide to patching against recent CPU vulnerabilities
      :keywords: ukfast, windows, security, updates, meltdown, spectre, cpu, tutorial, guide
+```

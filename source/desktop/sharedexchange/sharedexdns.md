@@ -2,7 +2,7 @@
 
 ## If you are using UKFast's SafeDNS system
 
-The DNS records can be created automatically by opening Shared Exchange area within MyUKFast, selecting the domain name. If you do not have pre-existing DNS records click on the “Add Exchange DNS” button, which is shown in the red box below. This will add the DNS records automatically:
+The DNS records can be created automatically by opening Shared Exchange area within MyUKFast, selecting the domain name. If you do not have pre-existing DNS records click on the "Add Exchange DNS" button, which is shown in the red box below. This will add the DNS records automatically:
 
 ![ShexDNS](files/dns/dnsshexc.PNG)
 
@@ -36,7 +36,7 @@ Here is the information you need for the SRV record, in its raw format, should y
 
 `_autodiscover._tcp.DOMAIN.COM. 0 0 443 client.ukfastexchange.co.uk`
 
-``` note:: you must change “DOMAIN.COM” with your own domain name)
+``` note:: you must change "DOMAIN.COM" with your own domain name)
 ```
 
 As an optional extra if you would like to add an SPF record to prove the validity of emails leaving the domain, the format of this is as follows:

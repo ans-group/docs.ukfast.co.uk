@@ -84,6 +84,6 @@ All full backups for Virtual Machines are performed on a weekly basis with daily
   .. title:: UKFast Enterprise backup build documentation
   .. meta::
       :title: UKFast Enterprise backup build documentation | UKFast Documentation
-      :description: Build documenation for UKFast Enterprise Backups
+      :description: Build documentation for UKFast Enterprise Backups
       :keywords: ukfast, hosting, backup, server, virtual, enterprise
 ```

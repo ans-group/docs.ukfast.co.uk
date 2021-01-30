@@ -2,7 +2,7 @@
 
 ## Installation
 
-By default Ubuntu 14.04 ships with PHP 5.5.9 as the latest available version. If you would like to install PHP7 then you will need to do so using additional software repositories. For this guide we will be using [Ondřej Surý](https://launchpad.net/~ondrej/+archive/ubuntu/php) excellent PPA.
+By default, Ubuntu 14.04 ships with PHP 5.5.9 as the latest available version. If you would like to install PHP 7.x then you will need to do so using additional software repositories. For this guide we will be using [an excellent 3rd party PPA](https://launchpad.net/~ondrej/+archive/ubuntu/php).
 
 First you need to ensure you have the `software-properties-common` package installed:
 
@@ -37,3 +37,4 @@ Configuration files are located in specific directories for the version you inst
      :title: Installing PHP 7 on Ubuntu 14.04 | UKFast Documentation
      :description: A guide to installing and configuring PHP 7 on Ubuntu 14.04
      :keywords: ukfast, php, install, ubuntu, fpm, guide, tutorial, configuration, cloud
+```

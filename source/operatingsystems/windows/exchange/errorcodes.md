@@ -7,7 +7,7 @@
 Essentially, you are trying to send an email to too many people at once
 
 
-You can see the Receive Connector settings by runing the following:
+You can see the Receive Connector settings by running the following:
 
 ```powershell
   Get-ReceiveConnector | ft Name, MessageRateLimit

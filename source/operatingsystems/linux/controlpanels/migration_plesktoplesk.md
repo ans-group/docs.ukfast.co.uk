@@ -6,10 +6,12 @@ A guide on performing a Plesk to Plesk Migration.
 .. note::
    Plesk requires the ability to connect to your other Plesk server via your defined SSH port to complete any migrations
 ```
+
 ```eval_rst
 .. note::
    Plesk Migrations have to be initiated from the destination Plesk server
 ```
+
 To begin your migration, you first need to ensure you are logged into your Plesk Web Interface.
 Once you are logged in, click on the "Tools and Settings" link on the left hand side menu.
 
@@ -47,7 +49,7 @@ When the migration completes, you can go to the "Domains" page linked on the lef
 
 You have successfully performed a Plesk to Plesk Migration!
 
-Before amending your DNS to point to your new server, you can test your websites using a hostfile change
+Before amending your DNS to point to your new server, you can test your websites using a hosts file change
 You can view more information on that [here](https://my.ukfast.co.uk/safedns/index.php)
 
 ```eval_rst
@@ -56,3 +58,4 @@ You can view more information on that [here](https://my.ukfast.co.uk/safedns/ind
      :title: Performing a Plesk to Plesk Migration
      :description:  A guide to performing a cPanel to cPanel Migration
      :keywords: ukfast, migration, move, website, transfer, onyx, obsidian, plesk
+```

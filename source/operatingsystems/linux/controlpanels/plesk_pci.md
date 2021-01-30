@@ -4,15 +4,15 @@ Starting with Plesk 12.5, Plesk created a one line command to apply a set of def
 
 The command to run is as follows:
 
-``#
+```bash
 plesk sbin pci_compliance_resolver {--enable|--disable}
-``
+```
 
-Alternatively, if you have more specific requirements and don't wish to apply Plesk's defaults to your entire server you can build your own using the "plesk sbin sslmng" command. A common use of this would be to address the [Logjam vulnerability](/security/logjam).
+Alternatively, if you have more specific requirements and don't wish to apply Plesk's defaults to your entire server you can build your own using the `plesk sbin sslmng` command. A common use of this would be to address the [Logjam vulnerability](/security/logjam).
 
-``#
+```bash
 plesk sbin sslmng --strong-dh
-``
+```
 
 For further reading and to see exactly what the current recommendations from Plesk are, please do check out the official Plesk pages for your version:
 

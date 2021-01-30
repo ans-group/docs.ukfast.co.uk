@@ -49,7 +49,7 @@ After the migration, you can go to the "List Accounts" page in WHM and you will 
 
 You have successfully performed a Plesk to cPanel Migration!
 
-Before amending your DNS to point to your new server, you can test your websites using a hostfile change
+Before amending your DNS to point to your new server, you can test your websites using a hosts file change
 You can view more information on that [here](https://my.ukfast.co.uk/safedns/index.php)
 
 ```eval_rst

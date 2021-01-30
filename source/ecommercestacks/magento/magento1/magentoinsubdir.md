@@ -1,8 +1,8 @@
 # Magento 1 in a Sub Directory
 
-If you have Magento 1 in a sub directory within your document root you will need to edit your domain's Nginx configuration (Example: /etc/nginx/conf.d/example.com.conf).
+If you have Magento 1 in a sub directory within your document root you will need to edit your domain's NGINX configuration (Example: `/etc/nginx/conf.d/example.com.conf`).
 
-For this example we have Magento 1 in the sub directory /var/www/vhosts/example.com/htdocs/shop/. You need to replace the instance of replacemebackend with the PHP-FPM configuration pool name (This should be defined at the top of your Nginx configuration file)
+For this example we have Magento 1 in the sub directory `/var/www/vhosts/example.com/htdocs/shop/`. You need to replace the instance of `replacemebackend` with the PHP-FPM configuration pool name. This should be defined at the top of your NGINX configuration file
 
 ```bash
 location ~ ^/shop/ {
@@ -32,7 +32,7 @@ location ~ ^/shop/ {
   location @shophandler {rewrite / /shop/index.php; }
 ```
 
-To implement this change you need to reload the Nginx service. First perform a configuration test with the following command:
+To implement this change you need to reload the NGINX service. First perform a configuration test with the following command:
 
 ```bash
  ~]$ nginx -t
@@ -40,7 +40,7 @@ nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
 nginx: configuration file /etc/nginx/nginx.conf test is successful
 ```
 
-If there are no errors in the configuration test proceed to reload the Nginx service with the following command:
+If there are no errors in the configuration test proceed to reload the NGINX service with the following command:
 
 ```bash
  ~]$ nginx -s reload
@@ -50,5 +50,6 @@ If there are no errors in the configuration test proceed to reload the Nginx ser
   .. title:: Magento 1 in a Sub Directory
   .. meta::
      :title: Magento 1 in a Sub Directory | UKFast Documentation
-     :description: A guide to adding Magento 1 Nginx configuration when running in a sub directory
+     :description: A guide to adding Magento 1 NGINX configuration when running in a sub directory
      :keywords: ukfast, linux, permissions, nginx, install, centos, cloud, lamp, server, virtual, Magento
+```

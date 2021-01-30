@@ -1,6 +1,6 @@
 # What to do if your emails get listed
 
-If you think your eamils are listed, you can confirm this by checking on an ip reputation service checker. One example with a range of lists is [MultiRBL](http://multirbl.valli.org/). Another (less comprehensive) ip reputation check can be found at [MXtoolbox](https://mxtoolbox.com/blacklists.aspx). It's quite common to be shown as being listed, for example rbldns.ru has most IPs listed by default. Some lists may also return "Failed" - that's common and may simply mean the request timed out, rather than you being on the listed.
+If you think your emails are listed, you can confirm this by checking on an IP reputation service checker. One example with a range of lists is [MultiRBL](https://multirbl.valli.org/). Another (less comprehensive) IP reputation check can be found at [MXtoolbox](https://mxtoolbox.com/blacklists.aspx). It's quite common to be shown as being listed, for example `rbldns.ru` has most IPs listed by default. Some lists may also return "Failed" - that's common and may simply mean the request timed out, rather than you being on the listed.
 
 ## What to do if you find yourself on a list
 
@@ -12,7 +12,7 @@ Please note that most lists use DNS and have a TTL (Time To Live). This is the n
 
 ## Microsoft, Google and Yahoo
 
-These providers maintain their own private lists, and you cannot check if you are on these lists. However, if you have delivery issues to domains like hotmail, outlook, gmail or yahoo, there's a good chance you may be on one of these private lists. The best way to check is to look in your mail logs for 550 response codes and error messages from these providers. Again, please see our guides on checking logs for [Postfix](/email/postfix) and [Exim](/email/exim) mail servers.
+These providers maintain their own private lists, and you cannot check if you are on these lists. However, if you have delivery issues to domains like Hotmail, Outlook, Gmail or Yahoo, there's a good chance you may be on one of these private lists. The best way to check is to look in your mail logs for 550 response codes and error messages from these providers. Again, please see our guides on checking logs for [Postfix](/email/postfix) and [Exim](/email/exim) mail servers.
 
 ### Microsoft/Hotmail/Office365
 
@@ -26,9 +26,8 @@ Google provides [some useful guidance on mail](https://support.google.com/mail/a
 
 
 ```eval_rst
-
   .. title:: Email | Block Listing
-
   .. meta::
      :description: How to check if your IP is listed and steps to take
      :keywords: ukfast, mail, basics, config, dns, spf, mx, blocklist, hotmail, live, google, gmail
+```

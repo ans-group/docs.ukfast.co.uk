@@ -23,16 +23,16 @@ To move an application from the list to the Tile pad, click and hold on your cho
 
 ## Expanding the Tile Pad
 
-As you can see from the above examples, by default, you can only create 6 extra Tiles before the available room is used. However if you would like to add more Tiles, it is possible to expand the Tile pad, to do so, move your cursor over the right hand edge of the tile pad until the cursor changes to an horizonal double arrow as below
+As you can see from the above examples, by default, you can only create 6 extra Tiles before the available room is used. However if you would like to add more Tiles, it is possible to expand the Tile pad, to do so, move your cursor over the right hand edge of the tile pad until the cursor changes to an horizontal double arrow as below
 
 ![Expand Arrow](files/editingquicklaunch/expandarrow.PNG)
 
-Once the cursor has changed in to the horizonal arrow, click and hold, then move the cursor to the right by around a quarter of the screen's width and you will see that the Tile pad expands as below
+Once the cursor has changed in to the horizontal arrow, click and hold, then move the cursor to the right by around a quarter of the screen's width and you will see that the Tile pad expands as below
 
 ![Expanded Tile Pad](files/editingquicklaunch/expanded.PNG)
 
 ## Naming Sections of the Tile Pad
-As you can see above, a section of tiles moves over to the new Tile space, You can assign a Title to this new section aswell as the original section, to do so, please select the black area just above either block and enter a name as below
+As you can see above, a section of tiles moves over to the new Tile space, You can assign a Title to this new section as well as the original section, to do so, please select the black area just above either block and enter a name as below
 
 ![Named Tile Pad](files/editingquicklaunch/holdtoedit.PNG)
 

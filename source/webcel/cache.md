@@ -4,25 +4,25 @@ Sometimes when you push an update to your website, you'll need to purge some of 
 
 ## Purging via MyUKFast
 
-We provide an interface to purge your Webceletator cache via [MyUKFast](https://my.ukfast.co.uk), which can be found in *Products & Services* > *Webcelerator*:
+We provide an interface to purge your Webcelerator cache via [MyUKFast](https://my.ukfast.co.uk), which can be found in *Products & Services* > *Webcelerator*:
 
-![WebCel MyUKFast Purge](images/WebCel-MyUKFast-purge.png)
+![Webcel MyUKFast Purge](images/WebCel-MyUKFast-purge.png)
 
 Simply enter a domain into the text box, or the URL to a specific file, and click "Purge Webcelerator Cache" to send a purge request to the Webcelerator.
 
-Please note that this somtimes does not work if there are devices in front of the Webcelerator, which would require you to use another purging method below, such as the ones below.
+Please note that this sometimes does not work if there are devices in front of the Webcelerator, which would require you to use another purging method below, such as the ones below.
 
 ## Purging via cURL
 
-Slightly easier and more scriptable is the use of curl. The following command does the same as the above. (For clarity, that's a capital 'i' and a zero):
+Slightly easier and more scriptable is the use of cURL. The following command does the same as the above. (For clarity, that's a capital 'i' and a zero):
 
-```
+```console
 curl -I0 -X PURGE -H "Host: www.example.com" http://198.51.100.200/images/logo.png
 ```
 
 This would return a `200 OK` response code if the purge was successful.
 
-```
+```console
 HTTP/1.1 200 Purged.
 Accept-Ranges: bytes
 Date: Wed, 17 Oct 2012 09:00:47 GMT
@@ -37,7 +37,7 @@ Via: WebCelerate
 
 You can submit purge requests via `telnet` if you so wish:
 
-```
+```console
 [user@server ~]# telnet 198.51.100.200 80
 Trying 198.51.100.200...
 Connected to 198.51.100.200.srvlist.ukfast.net (198.51.100.200)
@@ -70,4 +70,12 @@ You could also submit purge requests from your application to do this programmat
     echo $exception;
   }
 ?>
+```
+
+```eval_rst
+  .. title:: Purging Webcelerator Cache
+  .. meta::
+     :title: Purging Webcelerator Cache | UKFast Documentation
+     :description: How to purge Webcelerator Cache
+     :keywords: cache, webcel, webcelerator, purge, php, guide, tutorial
 ```

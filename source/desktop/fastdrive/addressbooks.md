@@ -1,10 +1,10 @@
 # Address books
 
 ```eval_rst
-  .. title:: FastDrive | Addressbooks
+  .. title:: FASTdrive | Addressbooks
   .. meta::
-    :title: FastDrive | Addressbooks | UKFast Documentation
-    :description: Information on how to use addressbooks in FastDrive
+    :title: FASTdrive | Addressbooks | UKFast Documentation
+    :description: Information on how to use addressbooks in FASTdrive
 ```
 
 There are 2 different address books available in FASTdrive; the __shared address book__ and the __personal address book__. When you are creating an employee account, you will have the option to add the user to one of, or both of these address books.
@@ -17,6 +17,6 @@ If a user is only added to your __personal address book__ it will mean that __on
 
 ![Image222](files/Image222.png)
 
-For the most part, you will be using your address book when you are sharing files with other users. For a detailed walkthrough on how to
+For the most part, you will be using your address book when you are sharing files with other users. For a detailed walk-through on how to
 share files, [click here](/desktop/fastdrive/sharingfiles)
 

@@ -1,14 +1,8 @@
-```eval_rst
-.. meta::
-   :title: SafeDNS | How to use the SafeDNS API | UKFast Documentation
-   :description: Guidance on using the SafeDNS API from UKFast to manage DNS records
-```
-
 # SafeDNS API
 
-The SafeDNS API allows you to manage DNS records through a programatic inteface exposed over `HTTPS`.
+The SafeDNS API allows you to manage DNS records through a programmatic interface exposed over `HTTPS`.
 This in essence allows your developers to integrate your applications into the SafeDNS platform
-and modify DNS records automatically. The documentation can be found [HERE](https://developers.ukfast.io/services/safedns)
+and modify DNS records automatically. The documentation can be found [here](https://developers.ukfast.io/services/safedns)
 
 ```eval_rst
 .. warning::
@@ -20,3 +14,9 @@ and modify DNS records automatically. The documentation can be found [HERE](http
   Please read the documentation carefully, failure to do so may mean your domain's DNS doesn't function in a way you intend. Always test!
 ```
 
+```eval_rst
+   .. title:: SafeDNS | How to use the SafeDNS API
+   .. meta::
+      :title: SafeDNS | How to use the SafeDNS API | UKFast Documentation
+      :description: Guidance on using the SafeDNS API from UKFast to manage DNS records
+```

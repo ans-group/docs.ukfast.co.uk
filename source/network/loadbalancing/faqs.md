@@ -1,6 +1,6 @@
 # Frequently Asked Questions
 
-A page dedicated to some of the more common questions related to our loadblancers.
+A page dedicated to some of the more common questions related to our loadbalancers.
 
 ## Why is all my traffic now coming from one IP?
 
@@ -34,26 +34,26 @@ After that, edit `/etc/httpd/conf.d/mod_rpaf.conf` and put the following content
   RPAFheader X-Forwarded-For
 ```
 
-Replace `1.1.1.1` and `2.2.2.2` with the ip address(es) your loadbalancer is sending traffic from and restart apache to put it all live:
+Replace `1.1.1.1` and `2.2.2.2` with the IP address(es) your loadbalancer is sending traffic from and restart Apache to put it all live:
 
 ```bash
   service httpd restart
 ```
 
-### NGiNX
+### NGINX
 
-The comparable module for NGiNX is called `ngx_http_realip_module`: <http://nginx.org/en/docs/http/ngx_http_realip_module.html>
+The comparable module for NGINX is called `ngx_http_realip_module`: <http://nginx.org/en/docs/http/ngx_http_realip_module.html>
 
-If your install of NGiNX was compiled with `--with-http_realip_module` then you should be able to make use of it like so in your `nginx.conf`:
+If your install of NGINX was compiled with `--with-http_realip_module` then you should be able to make use of it like so in your `nginx.conf`:
 
 ```nginx
   set_real_ip_from 1.1.1.1;
   real_ip_header    X-Forwarded-For;
 ```
 
-As mentioned for apache, `1.1.1.1` should be replaced with the IP address that's now sending all the traffic to your servers.
+As mentioned for Apache, `1.1.1.1` should be replaced with the IP address that's now sending all the traffic to your servers.
 
-Then restart NGiNX to put it live:
+Then restart NGINX to put it live:
 
 ```bash
   service nginx restart

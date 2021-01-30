@@ -1,6 +1,6 @@
 # Package Management Functions
 
-As most UKFast servers are either CentOS/RedHat or Ubuntu/Debian, this article will only cover two of the most popular Linux package managers, `yum` and `apt`.
+As most UKFast servers are either CentOS/Red Hat or Ubuntu/Debian, this article will only cover two of the most popular Linux package managers, `yum` and `apt`.
 
 ## yum
 
@@ -24,7 +24,7 @@ On CentOS, this can itself be installed using yum:
    yum install epel-release
 ```
 
-If you're using official RedHat Enterprise Linux, you will need to download the RPM from the EPEL site and install it manually, as well as enabling packages in the 'optional' RHEL repo. More instructions can be found [here](https://fedoraproject.org/wiki/EPEL)
+If you're using official Red Hat Enterprise Linux, you will need to download the RPM from the EPEL site and install it manually, as well as enabling packages in the 'optional' RHEL repo. More instructions can be found [here](https://fedoraproject.org/wiki/EPEL)
 
 With this installed, we can then install additional utilities on our server that were previously unavailable:
 

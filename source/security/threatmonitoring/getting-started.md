@@ -1,7 +1,7 @@
 
 # Getting Started
 
-Before installing Threat Monitoring, take a look at the [system requirements](https://docs.ukfast.co.uk/security/threatmonitoring/system-requirements.html) for Threat Monitoring to verify that your server(s) are combatible. Once this has been verified, please contact your [account manager](https://my.ukfast.co.uk/account/your-account-manager.php) to purchase Threat Monitroing and Threat Response Credits for your account.
+Before installing Threat Monitoring, take a look at the [system requirements](https://docs.ukfast.co.uk/security/threatmonitoring/system-requirements.html) for Threat Monitoring to verify that your server(s) are compatible. Once this has been verified, please contact your [account manager](https://my.ukfast.co.uk/account/your-account-manager.php) to purchase Threat Monitroing and Threat Response Credits for your account.
 
 More information on the differences between Threat Monitoring and Threat Response can be found in our [general information](https://docs.ukfast.co.uk/security/threatmonitoring/general-information.html) documentation.
 
@@ -11,7 +11,7 @@ You can view your credit balance logging into MyUKFast, navigating to the Threat
 
 ![credits-remaining](files/setup-banner.png)
 
-Once credits have been assigned to your account, you can complete the instalation process via MyUKFast. We have documentation availible for both [UKFast hosted servers](https://docs.ukfast.co.uk/security/threatmonitoring/ukfast-hosted-install.html) and [Non-UKFast hosted servers](https://docs.ukfast.co.uk/security/threatmonitoring/non-ukfast-install.html).
+Once credits have been assigned to your account, you can complete the installation process via MyUKFast. We have documentation available for both [UKFast hosted servers](https://docs.ukfast.co.uk/security/threatmonitoring/ukfast-hosted-install.html) and [Non-UKFast hosted servers](https://docs.ukfast.co.uk/security/threatmonitoring/non-ukfast-install.html).
 
 ### Setup and Walkthrough
 

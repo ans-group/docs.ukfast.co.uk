@@ -78,7 +78,7 @@ Once your servers are back online, you're good to go.
 
 As mentioned previously, there should be a patch available for your kernel version through your standard package manager now.
 
-#### CentOS/RedHat
+#### CentOS/Red Hat
 
 `yum` is the package manager at play here, so you can update the kernel with the following command:
 

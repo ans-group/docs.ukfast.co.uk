@@ -1,6 +1,6 @@
 # Setting up SSH keys
 
-A more secure way of accessing a server via SSH than password authentication is to use SSH keys. Each user on a server can have a public and private key pairing. To gain password-less access to a remote server, simply add your local public key to the authorized_keys file on the remote server you wish to access. This is explained in further detail below.
+A more secure way of accessing a server via SSH than password authentication is to use SSH keys. Each user on a server can have a public and private key pairing. To gain password-less access to a remote server, simply add your local public key to the `authorized_keys` file on the remote server you wish to access. This is explained in further detail below.
 
 ```eval_rst
 .. note::
@@ -50,12 +50,15 @@ root@192.168.0.70's password:
 Number of key(s) added: 1
 ```
 
-Now try logging into the machine, with:   `ssh 'root@1.2.3.4'`
-and check to make sure that only the key(s) you wanted were added.
+Now try logging into the machine, with:
 
+```bash
+ssh 'root@1.2.3.4'
+```
+
+Check to make sure that only the key(s) you wanted were added.
 
 You should now be able to log into the remote server, here `root@1.2.3.4`, without being prompted for a password (unless you added a passphrase to your key).
-
 
 ## Disabling Password Authentication
 
@@ -64,6 +67,7 @@ You may also now wish to disable password authentication on your server. This is
 ```console
 PasswordAuthentication no
 ```
+
 The SSH service will then need restarting using the appropriate command for your distribution. For most systems this can be done with the command `sudo service sshd reload`.
 
 You can also disable password authentication for the root user only, or disable root logins altogether by setting the following in the same file.
@@ -80,7 +84,6 @@ Disables root login completely
 PermitRootLogin no
 ```
 
-
 ## Revoking a Key
 
 To revoke access for a user, simply remove the relevant public key from the file `~/.ssh/authorized_keys`. Keys are appended with a comment `user@host` by default to help you identify them. Any text following the key and a space is treated as a comment, which can be modified. Comments can also be modified on key creation, see `man ssh-keygen` for more details.
@@ -91,3 +94,4 @@ To revoke access for a user, simply remove the relevant public key from the file
      :title: Using SSH keys with Linux | UKFast Documentation
      :description: A guide to using SSH keys with Linux
      :keywords: ukfast, linux, ssh, keys, generation, keys, revoking, security
+```

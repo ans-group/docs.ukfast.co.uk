@@ -1,13 +1,13 @@
-# How do I change the registrant of a .uk domain?
+# How do I change the registrant of a `.uk` domain?
 
 ```eval_rst
-   .. title:: Domain Name FAQ How do I change the registrant of a .uk domain?
+   .. title:: Domain Name FAQ How do I change the registrant of a `.uk` domain?
    .. meta::
-      :description: Domain Name FAQ How do I change the registrant of a .uk domain?
+      :description: Domain Name FAQ How do I change the registrant of a `.uk` domain?
 ```
 
 
-If you want to change the registrant for .uk domains you or the new registrant need to complete a form with Nominet - the internet registry for the .uk domain extensions. To do this you need to log in to your [Nominet Online Services](https://secure.nominet.org.uk/auth/login.html) account and select the 'Registrant Transfer' service.
+If you want to change the registrant for `.uk` domains you or the new registrant need to complete a form with Nominet - the internet registry for the `.uk` domain extensions. To do this you need to log in to your [Nominet Online Services](https://secure.nominet.org.uk/auth/login.html) account and select the 'Registrant Transfer' service.
 
 To change the registrant is £10 plus VAT, which can be paid for by either the existing or new owner.
 

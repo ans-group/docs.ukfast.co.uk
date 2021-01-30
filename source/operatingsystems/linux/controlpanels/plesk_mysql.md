@@ -7,12 +7,13 @@ You are unable to do that on a server using Plesk, however. When you type `mysql
 
 On Plesk Versions newer than 11, you can gain access to MySQL by running the following command.
 
-``#
+```bash
 plesk db
-``
+```
+
 Once you run that command, you will be put into the MySQL console which looks like the below:
 
-``#
+```bash
 plesk db
 Reading table information for completion of table and column names
 You can turn off this feature to get a quicker startup with -A
@@ -26,16 +27,16 @@ Copyright (c) 2000, 2018, Oracle, MariaDB Corporation Ab and others.
 Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
 
 MariaDB [psa]>
-``
+```
 
 ## Version <11
 
 On Plesk Versions older than 11, you will be unable to use both `mysql` and `plesk db` to connect to MySQL via the CLI.
 To get into the MySQL Console, run the following command:
 
-``#
+```bash
 mysql -uadmin -p`cat /etc/psa/.psa.shadow`
-``
+```
 
 If you experience any issues with any of the methods above, please do not hesitate to get in touch with our support team.
 Want to gain access via another method such as MySQL Workbench but encountering issues? Please raise a request with our support team who will assist and advise accordingly.
@@ -46,3 +47,4 @@ Want to gain access via another method such as MySQL Workbench but encountering 
      :title: Connecting to MySQL on Plesk via CLI | UKFast Documentation
      :description: A guide to connecting to MySQL on Plesk via CLI
      :keywords: ukfast, plesk, mysql, plesk db, linux, cli, command, mariadb
+````

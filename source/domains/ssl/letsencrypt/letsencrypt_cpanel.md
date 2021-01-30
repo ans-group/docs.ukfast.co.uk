@@ -9,7 +9,8 @@
 
 ## Installation
 If not installed already, then you will need to [ssh](/operatingsystems/linux/basics/connecting) onto the server as **root** and run the following command
-```
+
+```bash
 /usr/local/cpanel/scripts/install_lets_encrypt_autossl_provider
 ```
 
@@ -17,7 +18,7 @@ Next, open `WHM` and search for **Manage AutoSSL**.
 
 ![cpanel_autossl_search](files/cpanel_autossl_search.PNG)
 
-Here, you will have a list of providers, and `Let's Encrypt` will be one of them.
+Here, you will have a list of providers, and Let's Encrypt will be one of them.
 
 ![cpanel_autossl_letsencrypt_enable](files/cpanel_autossl_letsencrypt_enable.PNG)
 
@@ -45,7 +46,7 @@ If you are having issues with generating a certificate, the first place you shou
 
 ![cpanel_autossl_logs](files/cpanel_autossl_logs.PNG)
 
-This should highlight any Let’s Encrypt challenge issues you may have. Beyond this, you can raise a support ticket and we can help identify the underlying issues with you.
+This should highlight any Let's Encrypt challenge issues you may have. Beyond this, you can raise a support ticket and we can help identify the underlying issues with you.
 
 ```eval_rst
   .. title:: cPanel | How to secure your sites with Let's Encrypt

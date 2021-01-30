@@ -4,92 +4,126 @@ Most attacks are automated, utilising specially crafted scripts that crawl the i
 
 Please note that changing service ports will not stop all brute force and exploit attacks, more advanced attackers and scripts utilise tools like Nmap, which can easily identify the ports for services, even when they have been changed from the defaults.
 
-Feel free to follow the below steps to change the port for common services. If you do change your SSH or RDP port, please let UKfast know so we can update our database to ensure we can still provide support.
+Feel free to follow the below steps to change the port for common services. If you do change your SSH or RDP port, please let UKFast know so we can update our database to ensure we can still provide support.
 
-### SSH
+### SSHd
 
-Edit the file /etc/ssh/sshd_config using your prefered file editor.
+* Edit the file `/etc/ssh/sshd_config` using your prefered file editor.
 
-`vi /etc/ssh/sshd_config`
+```bash
+vi /etc/ssh/sshd_config
+```
 
-Edit the following line
+* Edit the following line
 
-`# Port 2020`
+```bash
+# Port 2020
+```
 
-Change it to the below, removing the hash and replacing [PORT] for your new SSH port.
+* Change it to the below, removing the hash and replacing `[PORT]` for your new SSH port.
 
-`Port [PORT]`
+```bash
+Port [PORT]
+```
 
-Save the file.
+* Save the file.
 
-Restart the sshd service with the below command.
+* Restart the `sshd` service with the below command.
 
-`service sshd restart`
+```bash
+service sshd restart
+```
 
-### FTP (ProFTPd)
+### FTP (ProFTPD)
 
-Edit the file `/etc/proftpd.conf` with your preferred text editor.
+* Edit the file `/etc/proftpd.conf` with your preferred text editor.
 
-`vi /etc/proftpd.conf`
+```bash
+vi /etc/proftpd.conf
+```
 
-Find the line `Port`. If it is commented out (prepended with a hash `#`) then remove the comment (hash `#`) and specify your port. If the line does not exist, you can create it by adding it to the bottom of the file.
+* Find the line `Port`. If it is commented out (prepended with a hash `#`) then remove the comment (hash `#`) and specify your port. If the line does not exist, you can create it by adding it to the bottom of the file.
 
-For example:
+  For example:
 
-`Port 321`
+```bash
+Port 321
+```
 
-Save the file.
+* Save the file.
 
-Restart the proftpd service
-`$ /etc/init.d/proftpd restart`
+* Restart the ProFTPD service
 
-### FTP (vsftpd)
+```bash
+/etc/init.d/proftpd restart
+```
 
-Edit the file `/etc/vsftpd.conf` with your perfered text editor. Please note in some distrubutions this file is located at `/etc/vsftpd/vsftpd.conf`.
+### FTP (VSFTPd)
 
-`vi /etc/vsftpd.conf`
+* Edit the file `/etc/vsftpd.conf` with your perfered text editor. Please note in some distrubutions this file is located at `/etc/vsftpd/vsftpd.conf`.
 
-Find the line `listen_port`. If it is commented out (prepended with a hash `#`) then remove the comment (hash `#`) and specify your port. If the line does not exist, you can create it by adding it to the bottom of the file.
+```bash
+vi /etc/vsftpd.conf
+```
 
-For example:
+* Find the line `listen_port`. If it is commented out (prepended with a hash `#`) then remove the comment (hash `#`) and specify your port. If the line does not exist, you can create it by adding it to the bottom of the file.
 
-`listen_port=321`
+  For example:
 
-Save the file.
+```bash
+listen_port=321
+```
 
-Restart the vsftpd service
-`bash$ /etc/init.d/vsftpd restart`
+* Save the file.
 
-### FTP (pure-ftpd/CPanel)
+* Restart the vsftpd service
 
-Pure-ftpd is commonly used on servers with CPanel, the below steps are for a server with CPanel, but they may apply to servers without Cpanel too, your mileage may vary.
+```bash
+/etc/init.d/vsftpd restart
+```
 
-Edit the file `/etc/chkserv.d/ftpd` with your preferred text editor.
+### FTP (Pure-FTPd/cPanel)
 
-`vi /etc/chkserv.d/ftpd`
+* Pure-FTPd is commonly used on servers with cPanel, the below steps are for a server with cPanel, but they may apply to servers without Cpanel too, your mileage may vary.
 
-This file will contain 1 line, this line is used to sell the server how to start the service. We can edit the port here. You can specify your port by replacing the current port with yours, this should be the number after the first `=` in the file. See below for an example.
+* Edit the file `/etc/chkserv.d/ftpd` with your preferred text editor.
 
-Original:
+```bash
+vi /etc/chkserv.d/ftpd
+```
 
-`service[ftpd]=21,`
+* This file will contain 1 line, this line is used to sell the server how to start the service. We can edit the port here. You can specify your port by replacing the current port with yours, this should be the number after the first `=` in the file. See below for an example.
 
-Modified:
+  Original:
 
-`service[ftpd]=321,`
+```bash
+service[ftpd]=21,
+```
 
-Save the file.
+  Modified:
 
-Restart the pure-ftpd service
+```bash
+service[ftpd]=321,
+```
 
-`/etc/init.d/pure-ftpd restart`
+* Save the file.
 
-Restart the cpanel service
+* Restart the Pure-FTPd service
 
-`/etc/init.d/cpanel restart`
+```bash
+/etc/init.d/pure-ftpd restart
+```
+
+* Restart the cpanel service
+
+```bash
+/etc/init.d/cpanel restart
+```
 
 ```eval_rst
-.. meta::
-     :title: Change service ports | UKFast Documentation
-     :description: Useful threat remediation and prevention tips
-     :keywords: threat monitoring, alerts, security, compliance, rules, rulesets, UKFast, hosting, file integrity monitoring, rootkit, detection, vulnerability scan, scans, hids, intrustion detection, set up
+   .. title:: Change service ports
+   .. meta::
+      :title: Change service ports | UKFast Documentation
+      :description: Useful threat remediation and prevention tips
+      :keywords: threat monitoring, alerts, security, compliance, rules, rulesets, UKFast, hosting, file integrity monitoring, rootkit, detection, vulnerability scan, scans, hids, intrustion detection, set up
+```

@@ -9,9 +9,9 @@ First, you should determine the severity of the vulnerability.
 
 Second, you must determine if the vulnerability can be safely patched without disrupting the functionality of the site or service.
 
-Critical vulnerabilities should always be patched, however, sometimes there is a real business case to leave very minor vulnerabilites untouched (this is fairly common on private networks). An example of this would be a legacy application that requires the use of a certain TLS protocol or cipher in order to connect to a site or service. If you cannot upgrade or re-code the application, then removing these protocols will cause the application to fail TLS negotiation, causing the handshake to be aborted.
+Critical vulnerabilities should always be patched, however, sometimes there is a real business case to leave very minor vulnerabilities untouched (this is fairly common on private networks). An example of this would be a legacy application that requires the use of a certain TLS protocol or cipher in order to connect to a site or service. If you cannot upgrade or re-code the application, then removing these protocols will cause the application to fail TLS negotiation, causing the handshake to be aborted.
 
-However, when it comes to Internet-facing web servers, security is paramount. When your website or application can be accessed from anywhere in the world, you must remain up to date with the latest security advisories and vulnerabilities in order to keep your application and your vistors data safe.
+However, when it comes to Internet-facing web servers, security is paramount. When your website or application can be accessed from anywhere in the world, you must remain up to date with the latest security advisories and vulnerabilities in order to keep your application and your visitor's data safe.
 
 Additionally, if the service handles payments or credit card information then you will want to make sure that you use security protocols and cipher suites that are at least PCI-DSS compliant. This will include ensuring that your application and database can support secure protocols.
 

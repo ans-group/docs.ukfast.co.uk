@@ -12,9 +12,9 @@ Once Threat Monitoring agents are installed on your server(s) they will be autom
 ## Threat Detection, Attack Protection and log file collation
 
 ### Detection
-UKFast's Host-Based Intrusion Detection (HIDS) solution, Threat Monitoring, will monitor numerous aspects of your infrastructure to detect suspicious activity. UKFast provide a full list of log locations to be monitored and event types that are collected as standard. Log locations can be customized for your environment, you can work with a UKFast security analyst to find the optimal configuration for your solution.
+UKFast's Host-Based Intrusion Detection (HIDS) solution, Threat Monitoring, will monitor numerous aspects of your infrastructure to detect suspicious activity. UKFast provide a full list of log locations to be monitored and event types that are collected as standard. Log locations can be customised for your environment, you can work with a UKFast security analyst to find the optimal configuration for your solution.
 
-UKFast have created rule sets which analyse log files from all core technologies such as syslog, MySQL, FTP, Postfix, SSHd, CPanel, MS-auth, Apache, Nginx, PHP and more. These events are parsed through our 2,000+ rules, should a high-level event trigger, an alert will be sent to a nominated email address (or multiple contact addresses) for you to investigate.
+UKFast have created rule sets which analyse log files from all core technologies such as syslog, MySQL, FTP, Postfix, SSHd, cPanel, MS-auth, Apache, NGINX, PHP and more. These events are parsed through our 2,000+ rules, should a high-level event trigger, an alert will be sent to a nominated email address (or multiple contact addresses) for you to investigate.
 
 If you have the additional Threat Response service then the UKFast security team will pro-actively investigate the alert and consult with you with recommended mitigating actions.
 
@@ -108,7 +108,7 @@ Through close integration with industry-leading Anti Virus scanners, such as McA
 
 ## Server Baseline Hardening (available on Linux servers only)
 
-To minimize the threat of an attack on computer infrastructure, a security baseline should be implemented. Our Threat Monitoring solution can scan your servers and compare them to industry-recognized baselines (PCI-DSS, CIS, NIST), to show where security enhancements can be made. Though security vulnerabilities are difficult or even impossible to predict, many of them require multiple conditions to be met at once to be successfully exploited.  Often by changing configuration files and disabling unused services, you can ensure that your infrastructure won't meet these conditions. For Linux servers, we can run baseline scans upon request, providing you with a report of insecure settings that exist on your operating system, along with suggestions on how to improve them.
+To minimise the threat of an attack on computer infrastructure, a security baseline should be implemented. Our Threat Monitoring solution can scan your servers and compare them to industry-recognised baselines (PCI-DSS, CIS, NIST), to show where security enhancements can be made. Though security vulnerabilities are difficult or even impossible to predict, many of them require multiple conditions to be met at once to be successfully exploited.  Often by changing configuration files and disabling unused services, you can ensure that your infrastructure won't meet these conditions. For Linux servers, we can run baseline scans upon request, providing you with a report of insecure settings that exist on your operating system, along with suggestions on how to improve them.
 
 
 ```eval_rst

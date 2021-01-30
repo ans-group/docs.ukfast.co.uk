@@ -4,8 +4,8 @@ While addressing every possible issue with Plesk is outside the scope of this pa
 
 For more full and in depth guides, we recommend checking out the official user guides which are maintained by Plesk:
 
-<https://docs.plesk.com/>
-<https://support.plesk.com/>
+* <https://docs.plesk.com/>
+* <https://support.plesk.com/>
 
 ## Why do I keep getting emails about "green" "yellow" and "red" warnings from my Plesk server?
 
@@ -20,9 +20,10 @@ Yes, you can reset the statistics by following [this guide](https://support.ples
 ## The statistics for traffic and disk space on a domain seem wrong, can I fix it?
 
 Yes, you can recalculate the domain statistics using the following command:
-``#
- plesk sbin statistics --calculate-one --domain-name=example.com
-``
+
+```bash
+plesk sbin statistics --calculate-one --domain-name=example.com
+```
 
 There is a [full guide here](https://docs.plesk.com/en-US/onyx/cli-linux/using-command-line-utilities/statistics-calculating-statistics.78387/).
 
@@ -33,9 +34,10 @@ If you host a lot of accounts on your Plesk server, it's a good idea to ensure y
 Newer versions of Plesk can enforce strong password use, [for full details see here](https://docs.plesk.com/en-US/12.5/administrator-guide/plesk-administration/securing-plesk/setting-up-the-minimum-password-strength.71081/).
 
 However all versions will let your check your email users passwords manually to look for vulnerable accounts:
-``#
+
+```bash
 /usr/local/psa/admin/sbin/mail_auth_view
-``
+```
 
 ```eval_rst
   .. title:: Plesk FAQs
@@ -43,3 +45,4 @@ However all versions will let your check your email users passwords manually to 
      :title: Plesk FAQs | UKFast Documentation
      :description: Plesk control panel FAQs and tips on Linux servers
      :keywords: ukfast, plesk, control, panel, tutorial, cloud, server, guide, virtual
+```

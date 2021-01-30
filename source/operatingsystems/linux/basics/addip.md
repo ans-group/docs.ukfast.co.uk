@@ -13,7 +13,7 @@ The quickest way to add an IP on either CentOS or Ubuntu would be to use the `ip
    ip addr add 10.10.10.10/28 brd + dev eth0
 ```
 
-That example would add an IP of 10.10.10.10 with a netmask of 255.255.255.240 (/28) onto the interface eth0.
+That example would add an IP of `10.10.10.10` with a netmask of `255.255.255.240` (CIDR `/28`) onto the interface `eth0`.
 
 Although there's nothing wrong with that command, the IP won't persist beyond a reboot.
 
@@ -21,14 +21,13 @@ For that, we'll need to add it the respective network configuration file for our
 
 ## CentOS
 
-
 On CentOS 5, 6 and 7, IP addresses are added in files in the following directory:
 
 ```console
    /etc/sysconfig/network-scripts
 ```
 
-Files should be created with the name 'ifcfg-ethX' and have the following content:
+Files should be created with the name `ifcfg-ethX` and have the following content:
 
 ```console
    DEVICE=eth0:1
@@ -38,10 +37,10 @@ Files should be created with the name 'ifcfg-ethX' and have the following conten
    NETMASK=255.255.255.0
 ```
 
-Once you've added the your configuration file, bring the interface up with the ifup command:
+Once you've added the your configuration file, bring the interface up with the `ifup` command:
 
 ```bash
-   ifup eth0:1
+ifup eth0:1
 ```
 
 ## Ubuntu
@@ -60,7 +59,7 @@ Additional IP addresses should be added underneath the existing configuration wi
       netmask 255.255.255.0
 ```
 
-Again, the interface can be brough up with ifup, as so:
+Again, the interface can be brought up with `ifup`, as so:
 
 ```bash
    ifup eth0:1

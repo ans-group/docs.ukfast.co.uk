@@ -1,14 +1,12 @@
-# How to configure X-Forwarded-For (XFF) in IIS
+# How to configure `X-Forwarded-For` (XFF) in IIS
 
-* If your solution makes use of a layer 7 load balancer with multiple web backends, from the webservers all traffic will be logged as being from the load balancer, this can be a problem in several scenarios where you need to identify the source of traffic.
-  The X-Forwarded-For Header can be used to keep the source ip of inbound traffic, and then log the original ip in your logs.
+* If your solution makes use of a Layer-7 Load Balancer with multiple web backends, from the web servers all traffic will be logged as being from the load balancer, this can be a problem in several scenarios where you need to identify the source of traffic. The `X-Forwarded-For` Header can be used to keep the source IP of inbound traffic, and then log the original IP in your logs.
 
-Different Versions of IIS have different proceedures which need to be followed to enable X-Forwarded-For, please follow the appropriate section below.
+Different Versions of IIS have different procedures which need to be followed to enable `X-Forwarded-For`, please follow the appropriate section below.
 
+## `X-Forwarded-For` in IIS 7 & 7.5
 
-## X-Forwarded-For in IIS 7 & 7.5
-
-* In order to utilise X-Forwarded-For in IIS 7 or 7.5, the Advanced Logging module will need to be installed, this can be downloaded from the link below
+* In order to utilise `X-Forwarded-For` in IIS 7 or 7.5, the Advanced Logging module will need to be installed, this can be downloaded from the link below
 
 [IIS Advanced logging](https://www.microsoft.com/en-gb/download/details.aspx?id=7211)
 
@@ -28,12 +26,12 @@ Then select "Edit Logging Fields" again from the actions pane as below
 
 You will now be presented with the Edit Logging Field pane, select "Add Field", and then add the following information
 
-* Field ID = ClientSourceIP
+* Field ID = <nospell>ClientSourceIP</nospell>
 * Category = Default
 * Source type = Request Header
-* Source name = X-Forwarded-For
+* Source name = `X-Forwarded-For`
 
-Once you have entered the above details, please select OK and you should be Returned to the Edit Logging Field pane which should now look like below, please select ok.
+Once you have entered the above details, please select OK and you should be returned to the Edit Logging Field pane which should now look like below, please select OK.
 
 ![Edit Logging Field pane](files/xforwardfor/iis4.png)
 
@@ -45,7 +43,7 @@ You will be presented with the log definition window, please enter Client Source
 
 ![Log Def](files/xforwardfor/iis6.png)
 
-From the resulting "Select Logging Fields" window, please tick the ClientSourceIP ID from the list as below, and then select OK and select Apply from the Actions pane.
+From the resulting "Select Logging Fields" window, please tick the <nospell>ClientSourceIP</nospell> ID from the list as below, and then select OK and select Apply from the Actions pane.
 
 ![Select Log Def](files/xforwardfor/iis7.png)
 
@@ -55,16 +53,16 @@ Select "Return To Advanced Logging" from the actions pane.
 
 With an IIS restart having been completed, your advanced logging function should now be operational, to view the advanced logs, you can do so 2 ways
 
-1. Navigate to C:\inetpub\logs\AdvancedLogs
+1. Navigate to `C:\inetpub\logs\AdvancedLogs`
 2. Select the Advanced logging module in IIS, right click on the "Client Source IP" rule, and select "View Log Files" as below
 
 ![View logs](files/xforwardfor/iis8.png)
 
-## X-Forwarded-For in IIS 8.5 and Above
+## `X-Forwarded-For` in IIS 8.5 and Above
 
 
-* In Older Versions of IIS, the Advanced logging had to be installed to support X-Forwarded-For, in IIS 8.5 this is not the case.
-  To configure X-Forwarded-For in IIS 8.5 or above, please follow the steps below.
+* In Older Versions of IIS, the Advanced logging had to be installed to support `X-Forwarded-For`, in IIS 8.5 this is not the case.
+  To configure `X-Forwarded-For` in IIS 8.5 or above, please follow the steps below.
 
 Launch server manager by selecting start, and selecting server manager from the list of available application, alternatively, select the server manager icon from the taskbar.
 
@@ -110,3 +108,4 @@ Now select "OK" and you will be returned to the "W3C Logging Fields" pane, where
      :title: X-Forwarded-For (XFF) in IIS | UKFast Documentation
      :description: A guide to configuring XFF in IIS on Windows Server
      :keywords: ukfast, windows, xff, forward, configure, tutorial, cloud, guide, web
+```

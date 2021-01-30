@@ -16,12 +16,12 @@ First, we need to establish the root directory for your Magento 2 instance. Typi
 
 ```bash
 grep root /etc/nginx/conf.d/mage.ukast.co.uk.conf
-  root /var/www/vhosts/mage.ukast.co.uk/htdocs;
+root /var/www/vhosts/mage.ukast.co.uk/htdocs;
 ```
 
 Next, we need to verify which user and group should be used. This is important as if the domain is a Magento multi-store, typically the owner and group would be the same for each virtual host as the document root is shared.
 
-In this case, PHP-FPM is utilized - this is configured as an upstream within NGINX -
+In this case, PHP-FPM is utilised - this is configured as an upstream within NGINX -
 
 ```bash
 grep ".sock;" /etc/nginx/conf.d/mage.ukast.co.uk.conf
@@ -46,7 +46,7 @@ Using all the information provided above, we can then input this into the comman
 getfacl -p -R /var/www/vhosts/mage.ukast.co.uk/htdocs > /var/www/vhosts/mage.ukast.co.uk/mage.ukast.co.uk-$(date +"%Y%m%d").acl
 ```
 
-If this needs to be restored, the acl file can be used to restore the original permissions:
+If this needs to be restored, the `.acl` file can be used to restore the original permissions:
 
 ```bash
 setfacl --restore=/var/www/vhosts/mage.ukast.co.uk/mage.ukast.co.uk-$(date +"%Y%m%d").acl

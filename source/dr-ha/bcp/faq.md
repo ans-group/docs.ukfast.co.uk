@@ -17,7 +17,7 @@ Some of the most commonly asked questions by clients when receiving their first 
 
 - This is written several times in this documentation, but as it causes frequent issues: **do not use `service` or `systemctl` when managing clustered services** - this doesn't matter for services outside of the cluster (`vsftpd` for example), but might cause failover on a service managed by PCS.
 
-- Make sure you're not currently inside a clustered volume (eg: `/var/www/vhosts`) before restarting a cluster group. An easy way to check is by running `pwd` or checking the "working directory" output on your FTP client.
+- Make sure you're not currently inside a clustered volume (e.g. `/var/www/vhosts`) before restarting a cluster group. An easy way to check is by running `pwd` or checking the "working directory" output on your FTP client.
 
 ***
 
@@ -31,11 +31,11 @@ Depending on the solution deployed, the answer to this will vary:
 - If you have a solution containing a [Load Balancer](/network/loadbalancing/index), then the VIP associated to the ruleset for this cluster should be used.
 - If you have a [two node cluster with no edge device](generalinformation.html#two-node-active-passive-clusters), then the web VIP should be used.
 
-If you have a solution to which more than one of the above is true, you should use whichever is the highest device in your solution diagram - usually this would be the Webcelerator or DDoS Mitigator.
+If you have a solution to which more than one of the above is true, you should use whichever is the highest device in your solution diagram - usually this would be the Webcelerator or DDoSX.
 
 ***
 
-### I can't see *"/var/www/vhosts"* or *"/var/lib/mysql"* on one of the nodes?
+### I can't see `/var/www/vhosts` or `/var/lib/mysql` on one of the nodes?
 
 For volumes using DRBD to replicate between nodes, the mount point will only appear on the active node.
 
@@ -43,7 +43,7 @@ For volumes using DRBD to replicate between nodes, the mount point will only app
 
 ***
 
-### Running *"service servicename restart"* isn't working?
+### Running `service <service-name> restart` isn't working?
 
 Clustered services do not always use the `systemd` script shipped with the package to start up. In the case of an `ocf:heartbeat:apache` resource (for example), the `httpd` service is started by a direct call to the binary rather than through a service startup.
 
@@ -57,9 +57,9 @@ However, the use of a `service` or `systemctl` command on a clustered service is
 
 This depends on your solution:
 
-- If you have a [two node cluster](generalinformation.html#two-node-active-passive-clusters) without 10GBPS switching, `10.1.0.3` should be used as the host, and the username and password you used when configuring your `GRANT` in MySQL would be used to connect.
+- If you have a [two node cluster](generalinformation.html#two-node-active-passive-clusters) without 10Gbps switching, `10.1.0.3` should be used as the host, and the username and password you used when configuring your `GRANT` in MySQL would be used to connect.
 
-- If you have a [two node cluster](generalinformation.html#two-node-active-passive-clusters) with 10GBPS switching, or a [four or more node cluster](generalinformation.html#four-node-active-active-clusters), the internal version of the VIP for MySQL should be used.
+- If you have a [two node cluster](generalinformation.html#two-node-active-passive-clusters) with 10Gbps switching, or a [four or more node cluster](generalinformation.html#four-node-active-active-clusters), the internal version of the VIP for MySQL should be used.
 
 ***
 

@@ -4,7 +4,7 @@ Specific OS customisation is available via the [eCloud marketplace](https://my.u
 
 ![launchAppliance](files/launchAppliance.png)
 
-From here you will be taken to the below device configuration page where vCPU, RAM, Disk space and other attributes of the VM can be specified. You may also be asked for unqiue information to that template as in the below example a MySQL root password defined.
+From here you will be taken to the below device configuration page where vCPU, RAM, Disk space and other attributes of the VM can be specified. You may also be asked for unique information to that template as in the below example a MySQL root password defined.
 
 ![applianceConfig](files/applianceConfig.png)
 

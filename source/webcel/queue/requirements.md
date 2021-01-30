@@ -1,6 +1,6 @@
 # Implementation requirements
 
-In order to be able to use the Webcelerater queue system, you need to have a live Webcelerator as part of your solution.
+In order to be able to use the Webcelerator queue system, you need to have a live Webcelerator as part of your solution.
 
 You must be using **SSL Offloading or Secure Origin Pull** to be able to make use of the queue system, assuming your site uses HTTPS.
 

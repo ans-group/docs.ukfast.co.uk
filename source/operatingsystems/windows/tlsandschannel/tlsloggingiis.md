@@ -2,7 +2,7 @@
 
 It is possible to enable cipher usage logging as a custom logging option in many popular web platforms. Here we will discuss configuring this in IIS.
 
-This can help an administrator determine the quantity of vistor connections that use legacy protocols and ciphers.
+This can help an administrator determine the quantity of visitor connections that use legacy protocols and ciphers.
 
 ## IIS TLS logging
 

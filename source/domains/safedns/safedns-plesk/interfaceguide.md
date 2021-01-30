@@ -5,7 +5,7 @@
 
 ### Welcome Page
 
-The welcome page will guide you through checking the settings explained in the “Setup” Page.
+The welcome page will guide you through checking the settings explained in the "Setup" Page.
 
 
 ### Manage DNS Zones
@@ -53,7 +53,7 @@ Delete All       This will immediately delete all enabled zones from SafeDNS.
 Delete Domain    | Open a form with a Dropdown to select a Domain.
                  | On Submit,  delete only the selected zone from SafeDNS.
 
-Clear All Tasks  | Clears out the extension’s task queue.
+Clear All Tasks  | Clears out the extension's task queue.
                  | If a task has errored and you cannot run another one, click this button.
 ================ ====================================================================================================================
 ```

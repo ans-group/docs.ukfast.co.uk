@@ -1,4 +1,4 @@
-# I've just registered a .ltd.uk|.plc.uk|.net.uk domain but it's not showing as registered?
+# I've just registered a `.ltd.uk`|`.plc.uk`|`.net.uk` domain but it's not showing as registered?
 
 ```eval_rst
    .. title:: Domain Name FAQ I've just registered a .ltd.uk|.plc.uk|.net.uk domain but it's not showing as registered?
@@ -7,7 +7,7 @@
 ```
 
 
-Upon registration request .ltd.uk (Private Limited Companies)/.plc.uk (Public Limited Companies)/net.uk (Internet Service Providers' infrastructure) domains are manually checked by Nominet to ensure they meet their strict [domain name requirements](http://www.nominet.org.uk/uk-domain-names/registering-uk-domain/choosing-domain-name/rules).
+Upon registration request `.ltd.uk` (Private Limited Companies)/`.plc.uk` (Public Limited Companies)/`net.uk` (Internet Service Providers' infrastructure) domains are manually checked by Nominet to ensure they meet their strict [domain name requirements](http://www.nominet.org.uk/uk-domain-names/registering-uk-domain/choosing-domain-name/rules).
 
 
 As the process is manual it may take a little extra time; especially if you made the request in the evening or at the weekend.

@@ -36,7 +36,7 @@ SSLCipherSuite At least add :!EXPORT, if possible use a modern configuration.
 SSLHonorCipherOrder on
 ```
 
-## Nginx
+## NGINX
 
 The parameters to change are:
 ```console

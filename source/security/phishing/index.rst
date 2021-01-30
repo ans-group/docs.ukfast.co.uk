@@ -1,6 +1,6 @@
 .. meta::
    :title: Phishing as a Service | UKFast Documentation
-   :description: Guidance on Phsihing solutions from UKFast
+   :description: Guidance on Phishing solutions from UKFast
    :keywords: security, email, phishing, alerts, blocking, hacking, ransomware, protection
 
 =====================================

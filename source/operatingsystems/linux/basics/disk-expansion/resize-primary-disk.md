@@ -1,6 +1,6 @@
 # Resize the primary disk *(advanced)*
 
-If you need to resize the primary disk for some reason, you will need to create a new partition to utilise any additional space you assign to it. This is because the disk will have already been partitoned as follows:
+If you need to resize the primary disk for some reason, you will need to create a new partition to utilise any additional space you assign to it. This is because the disk will have already been partitioned as follows:
 
 ```bash
 [root@ssh ~]# fdisk -l /dev/sda
@@ -65,7 +65,7 @@ Now that we have the partition number that we are going to extend, we will use t
 CHANGED: partition=4 start=125829120 old: size=58720256 end=184549376 new: size=104857567,end=230686687
 ```
 
-The output of `fdisk -l` will show the additional space is now present for /dev/sda4
+The output of `fdisk -l` will show the additional space is now present for `/dev/sda4`
 
 Finish off by resizing the physical volume into the newly extended disk
 

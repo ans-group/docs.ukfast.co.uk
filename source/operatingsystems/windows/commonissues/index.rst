@@ -7,7 +7,7 @@ Common Issues
    copyfiletoserver
    createwguser
    creatingnewgroup
-   Configureuserpermissions
+   configureuserpermissions
    installroles
    kb2379016
    testingwebsites

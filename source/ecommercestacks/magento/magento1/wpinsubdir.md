@@ -1,8 +1,8 @@
-# Wordpress in a Sub Directory
+# WordPress in a Subdirectory
 
-If you have Wordpress in a sub directory within your Magento 1 document root you will need to edit your domains Nginx configuration (Example: /etc/nginx/conf.d/example.com.conf).
+If you have WordPress in a sub directory within your Magento 1 document root you will need to edit your domains NGINX configuration (Example: `/etc/nginx/conf.d/example.com.conf`).
 
-For this example we have Wordpress in the sub directory /var/www/vhosts/example.com/htdocs/wp/. You need to replace the two instances of replacemebackend with the PHP-FPM configuration pool name (This should be defined at the top of your Nginx configuration file)
+For this example we have WordPress in the sub directory `/var/www/vhosts/example.com/htdocs/wp/`. You need to replace the two instances of `replacemebackend` with the PHP-FPM configuration pool name. This should be defined at the top of your NGINX configuration file.
 
 ```bash
 location ~ ^/wp/ {
@@ -50,7 +50,7 @@ location ~ ^/wp/ {
   }
 ```
 
-To implement this change you need to reload the Nginx service. First perform a configuration test with the following command:
+To implement this change you need to reload the NGINX service. First perform a configuration test with the following command:
 
 ```bash
  ~]$ nginx -t
@@ -58,15 +58,16 @@ nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
 nginx: configuration file /etc/nginx/nginx.conf test is successful
 ```
 
-If there are no errors in the configuration test proceed to reload the Nginx service with the following command:
+If there are no errors in the configuration test proceed to reload the NGINX service with the following command:
 
 ```bash
  ~]$ nginx -s reload
 ```
 
 ```eval_rst
-  .. title:: Magento 1 Wordpress in a Sub Directory
+  .. title:: Magento 1 WordPress in a Sub Directory
   .. meta::
-     :title: Magento 1 Wordpress in a Sub Directory | UKFast Documentation
-     :description: A guide to adding Wordpress Nginx configuration when running Wordpress in a sub directory
-     :keywords: ukfast, linux, permissions, nginx, install, centos, cloud, lamp, server, virtual, Wordpress, Magento
+     :title: Magento 1 WordPress in a Sub Directory | UKFast Documentation
+     :description: A guide to adding WordPress NGINX configuration when running WordPress in a sub directory
+     :keywords: ukfast, linux, permissions, nginx, install, centos, cloud, lamp, server, virtual, WordPress, Magento
+```

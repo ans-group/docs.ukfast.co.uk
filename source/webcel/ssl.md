@@ -14,7 +14,7 @@ If you have multiple VIPs on your Webcelerator, we can set up more than one of t
 
 ## Diagram of SSL configuration options
 
-<center>![WebCel SSL Comparison](images/WebCel-SSL.png)</center>
+<center>![Webcel SSL Comparison](images/WebCel-SSL.png)</center>
 
 ## Comparison of SSL configuration options
 
@@ -32,18 +32,18 @@ If you have multiple VIPs on your Webcelerator, we can set up more than one of t
       <td>
         <ul>
           <li>SSL certificate is controlled by the backend.</li>
-          <li>No SSL-encrypted content is cached by the WebCel.</li>
-          <li>No additional configuration is required at WebCel level.</li>
-          <li>Redirection loops as a result of implementing the WebCel are unlikely.</li>
+          <li>No SSL-encrypted content is cached by the Webcel.</li>
+          <li>No additional configuration is required at Webcel level.</li>
+          <li>Redirection loops as a result of implementing the Webcel are unlikely.</li>
         </ul>
       </td>
       <td>
         <ul>
           <li>Any traffic sent over HTTPS will not be cached.</li>
-          <li>If all traffic is HTTPS, the WebCel will not cache anything.</li>
+          <li>If all traffic is HTTPS, the Webcel will not cache anything.</li>
           <li>If the backend goes offline, HTTPS traffic will receive a "connection refused" error.</li>
-          <li>We are unable to manipulate or alter the flow of traffic through the WebCel, other than it's destined backend.</li>
-          <li>All requests will appear as being from the WebCel's IP in access logs. We are not able to pass the client IP through to the backend</li>
+          <li>We are unable to manipulate or alter the flow of traffic through the Webcel, other than it's destined backend.</li>
+          <li>All requests will appear as being from the Webcel's IP in access logs. We are not able to pass the client IP through to the backend</li>
         </ul>
       </td>
     </tr>
@@ -53,8 +53,8 @@ If you have multiple VIPs on your Webcelerator, we can set up more than one of t
         <ul>
           <li>HTTPS traffic can be cached and served from cache.</li>
           <li>Slight performance increase on the backend from no longer needing to perform the SSL handshake.</li>
-          <li>Support for more modern SSL technologies (HTTP2, TLSv1.2, etc).</li>
-          <li>Ability to interact with and manipulate HTTPS traffic flowing through the WebCel.</li>
+          <li>Support for more modern SSL technologies (HTTP2, TLS 1.2, etc).</li>
+          <li>Ability to interact with and manipulate HTTPS traffic flowing through the Webcel.</li>
           <li>Client IP will be passed onto the backend with the <code>X-Forwarded-For</code> header.</li>
         </ul>
       </td>
@@ -73,7 +73,7 @@ If you have multiple VIPs on your Webcelerator, we can set up more than one of t
           <li>HTTPS traffic can be cached and served from cache. Plus all of the benefits of offloading.</li>
           <li>Traffic is re-encrypted before leaving the device, so never traverses the network in plain text.</li>
           <li>Traffic is sent to the backend over port 443 in HTTPS, so shouldn't encounter redirection loops.</li>
-          <li>The most "drop-in" configuration for a WebCel with HTTPS and caching in place.</li>
+          <li>The most "drop-in" configuration for a Webcel with HTTPS and caching in place.</li>
         </ul>
       </td>
       <td>
@@ -96,7 +96,7 @@ This allows your backend server to remain in control of the entire SSL handshake
 
 ## SSL Offloading
 
-When using SSL offloading, we decrypt and remove the SSL element of the request when it passes through the WebCel. To do this, we install your SSL certificate onto the Webcelerator and then handle all traffic from therein as HTTP.
+When using SSL offloading, we decrypt and remove the SSL element of the request when it passes through the Webcel. To do this, we install your SSL certificate onto the Webcelerator and then handle all traffic from therein as HTTP.
 
 Once the traffic is decrypted, we can inspect the request to determine whether it should be served from cache or piped to the backend server.
 
@@ -119,9 +119,9 @@ RewriteCond %{HTTP:X-Forwarded-Proto} !https
 RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
 ```
 
-### NGiNX HTTPS redirection fix
+### NGINX HTTPS redirection fix
 
-Some clients have found that adding the following to their NGiNX configuration for a domain fixes issues with redirection loops:
+Some clients have found that adding the following to their NGINX configuration for a domain fixes issues with redirection loops:
 
 ```nginx
 if ($http_x_forwarded_proto = "https") {

@@ -8,7 +8,7 @@ The main question when setting up replication jobs is how to split VMs into diff
 ### RPO (Recovery Point Objective) and Retention periods
 Your RPO is the last point in time that you will be able to failover to. This is defined per replication job by selecting how often replications occur in the 'Schedule' section. Veeam allows you to select from every 15 minutes to once a month; UKFast would generally recommend an RPO of one to four hours for your critical VMs, but needs to be a business decision.
 
-Your retention period is how long restore points are kept for, which you can use to failover to. This is also defined per replication job, but in the 'Job Settings' section by choosing 'Restore Points to Keep'. The max number of replication restore points is 28, due to each of them being stored as a VM snapshot on UKFast’s infrastructure. Each snapshot stores the changes made since the last restore point and therefore has the potential to use a considerable amount of your storage at UKFast, depending on your rate of data change. The retention period is `[number of restore points] x [your schedule frequency]`.
+Your retention period is how long restore points are kept for, which you can use to failover to. This is also defined per replication job, but in the 'Job Settings' section by choosing 'Restore Points to Keep'. The max number of replication restore points is 28, due to each of them being stored as a VM snapshot on UKFast's infrastructure. Each snapshot stores the changes made since the last restore point and therefore has the potential to use a considerable amount of your storage at UKFast, depending on your rate of data change. The retention period is `[number of restore points] x [your schedule frequency]`.
 
 ```eval_rst
 .. note::

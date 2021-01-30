@@ -15,9 +15,9 @@ Over a billion certificates have already been issued using **Let's Encrypt**.
    :maxdepth: 1
    
    How Let's Encrypt Works <letsencrypt_how>  
-   Nginx on CentOS with Certbot <letsencrypt_centos_nginx>
+   NGINX on CentOS with Certbot <letsencrypt_centos_nginx>
    Apache on CentOS with Certbot <letsencrypt_centos_apache>
-   Apache/Nginx on Ubuntu with Certbot <letsencrypt_ubuntu>
+   Apache/NGINX on Ubuntu with Certbot <letsencrypt_ubuntu>
    Auto-Renewing & Revoking Certificates with Certbot <letsencrypt_autorenew_revoke>
    Let's Encrypt in Plesk <letsencrypt_plesk>
    Let's Encrypt in cPanel/WHM <letsencrypt_cpanel>

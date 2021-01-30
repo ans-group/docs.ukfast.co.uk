@@ -2,11 +2,12 @@
 
 `MongoDB 4.4` is the latest stable release, so in this tutorial we will add the `MongoDB` package repository for 4.4.
 
-``` note:: As package versions do change, please adjust the repository version accordingly as to your requirements.
+```eval_rst
+.. note:: As package versions do change, please adjust the repository version accordingly as to your requirements.
 ```
 ## Configuring the Repository
 
-As a sudo user, create a file for the `MongoDB` repository within the `/etc/yum.repos.d` directory, and add the following content.
+As a `sudo` user, create a file for the `MongoDB` repository within the `/etc/yum.repos.d` directory, and add the following content.
 
 ```bash
 [root@ ~]# cat > /etc/yum.repos.d/mongodb.repo
@@ -20,7 +21,7 @@ gpgkey=https://www.mongodb.org/static/pgp/server-4.4.asc
 
 ## Installing the Packages
 
-As a sudo user, use `yum` to install `mongodb-org`. This will pull in a few different packages for administering the `MongoDB` service.
+As a `sudo` user, use `yum` to install `mongodb-org`. This will pull in a few different packages for administering the `MongoDB` service.
 
 ```bash
 [root@ ~]# yum install mongodb-org
@@ -36,7 +37,7 @@ Installing for dependencies:
 
 ## Starting the Service
 
-Set this to start on boot and start the service with the systemd `--enable now` flag
+Set this to start on boot and start the service with the `systemd` `--enable now` flag
 
 ```bash
 [root@ ~]# systemctl enable --now mongod

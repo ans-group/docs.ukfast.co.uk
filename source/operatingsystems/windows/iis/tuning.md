@@ -16,7 +16,7 @@ The compression window provides the option to:
 * `Cache directory`
   * This location is where the compressed static files will be stored.
 * `Per application pool disk space limit (in MB)`
-  * Servers with many application pools and limited disk space should adjust the default value as necessary. For 100 application pools and the default 100MB limit, 10GB can be utilized to store cache the static compressed files.
+  * Servers with many application pools and limited disk space should adjust the default value as necessary. For 100 application pools and the default 100MB limit, 10GB can be utilised to store cache the static compressed files.
 
 Click on `Apply` on the right-hand side to enable compression.
 
@@ -32,7 +32,7 @@ Within `IIS` click on the server name and double-click the `Configuration Editor
 
 This file provided the options available above and some additional parameters
 * `dynamicCompressionEnableCpuUsage="90"`
-  *  CPU utilization is calculated every 30 seconds, when the CPU utilization raises above this value, dynamic compression will be disabled. Reduce this value accordingly.
+  *  CPU utilisation is calculated every 30 seconds, when the CPU utilisation raises above this value, dynamic compression will be disabled. Reduce this value accordingly.
 
 Click on `Apply` on the right-hand side to commit the change.
 
@@ -76,3 +76,4 @@ Click on `OK` to commit the change.
      :title: IIS Tuning | UKFast Documentation
      :description: A guide to Tuning IIS for optimal performance that benefit your application.
      :keywords: ukfast, windows, iis, web, site, guide, performance, compression, caching, application, faster
+```

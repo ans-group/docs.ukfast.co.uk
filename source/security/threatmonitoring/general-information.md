@@ -34,7 +34,7 @@ As Threat Monitoring is installed onto your servers, it can easily detect and pr
 * Malware and Viruses
 * WordPress attacks
 * osCommerce Login Bypass attacks
-* phpMyAdmin Scans
+* PHPMyAdmin Scans
 * POST Bots
 * Website Scraping
 

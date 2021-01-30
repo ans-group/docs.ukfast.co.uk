@@ -1,10 +1,10 @@
 # Managing Images
 
-Openstack Glance is the project that manages images within eCloud Flex. UKFast manage a range of images that are available publicly to our clients so you should be able to get on your feet without having to manage any of your own images, however this documentation details how to view and create your images if you were so inclined.
+OpenStack Glance is the project that manages images within eCloud Flex. UKFast manage a range of images that are available publicly to our clients so you should be able to get on your feet without having to manage any of your own images, however this documentation details how to view and create your images if you were so inclined.
 
 ```eval_rst
 .. warning::
-  As with most of our Flex guides, we're going to assume that you've followed our guide on setting environment variables and installing the openstackclient:
+  As with most of our Flex guides, we're going to assume that you've followed our guide on setting environment variables and installing the ``openstackclient``:
 
   :doc:`/ecloud/flex/general/settingvars`
 
@@ -131,7 +131,7 @@ The command for deleting images in your project is simple as you would expect.
 openstack image delete <imageid>
 ```
 
-If you would like to learn more about managing images in eCloud Flex, please refer to the [Openstack documentation](https://docs.openstack.org/glance/pike/user/index.html).
+If you would like to learn more about managing images in eCloud Flex, please refer to the [OpenStack documentation](https://docs.openstack.org/glance/pike/user/index.html).
 
 ```eval_rst
    .. title:: Managing Images in eCloud Flex

@@ -4,7 +4,7 @@
 
 Once Threat Monitoring has been installed, your server's logs will start to be parsed through our threat detection rule set. These rules interrogate your server's logs, detecting any suspicious activity, ongoing threats and using intelligence from previous events to detect attacks over time.
 
-Our rule set is organized into rule groups, categorizing similar rules together. Through your MyUKFast dashboard, you can compare and contrast these rule groups, building an image of common threat event types, trends and key areas to improve security. Some example groups include:
+Our rule set is organised into rule groups, categorizing similar rules together. Through your MyUKFast dashboard, you can compare and contrast these rule groups, building an image of common threat event types, trends and key areas to improve security. Some example groups include:
 
 * Service groups, such as SSH, FTP and Web Traffic
 * Authentication Failures
@@ -89,8 +89,9 @@ Shown below is an example Threat Monitoring email alert. In the below alert, we 
 
 
 ```eval_rst
-.. meta::
-     :title: Threat Monitoring alerts | UKFast Documentation
-     :description: Guidance relating to alerts raised by UKFast's Threat Monitoring solution
-     :keywords: threat monitoring, alerts, security, compliance, critical, rules, rulesets, ukfast, hosting
-
+   .. title:: Threat Monitoring alerts
+   .. meta::
+      :title: Threat Monitoring alerts | UKFast Documentation
+      :description: Guidance relating to alerts raised by UKFast's Threat Monitoring solution
+      :keywords: threat monitoring, alerts, security, compliance, critical, rules, rulesets, ukfast, hosting
+```

@@ -8,7 +8,8 @@ You first need to install Java which is required by Elasticsearch
 yum install java
 ```
 #### Elasticsearch Repository Setup
-Create a file called elasticsearch.repo in the /etc/yum.repos.d/ directory and include the below.
+
+Create a file called `elasticsearch.repo` in the `/etc/yum.repos.d/` directory and include the below.
 
 ```bash
 vim /etc/yum.repos.d/elasticsearch.repo
@@ -22,7 +23,8 @@ enabled=1
 autorefresh=1
 type=rpm-md
 ```
-If you need to install Elasticsearch 7.x, then copy the below into /etc/yum.repos.d/elasticsearch.repo instead.
+
+If you need to install Elasticsearch `7.x`, then copy the below into `/etc/yum.repos.d/elasticsearch.repo` instead.
 
 ```bash
 vim /etc/yum.repos.d/elasticsearch.repo
@@ -38,17 +40,21 @@ type=rpm-md
 ```
 
 ##### Install Elasticsearch
+
 ```bash
 yum install elasticsearch
 ```
 ##### Elasticsearch 7.6.x
-If you require Elasticsearch 7.6 specifically you will need to install with the below command
+
+If you require Elasticsearch `7.6` specifically you will need to install with the below command
+
 ```bash
 yum install https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.6.2-x86_64.rpm
 ```
 
 ###### Start On Boot
-Once installed you can configure elasticsearch to start on boot with the command:
+
+Once installed you can configure Elasticsearch to start on boot with the command:
 
 ```bash
 systemctl enable elasticsearch
@@ -86,7 +92,7 @@ curl -X GET "127.0.0.1:9200/?pretty"
 ```
 
 ### Bind/Listen IP Address
-In order to change the listen IP address for elasticsearch you need to configure network.host in /etc/elasticsearch/elasticsearch.yml
+In order to change the listen IP address for Elasticsearch you need to configure `network.host` in `/etc/elasticsearch/elasticsearch.yml`
 
 ```bash
 vim /etc/elasticsearch/elasticsearch.yml
@@ -94,10 +100,10 @@ vim /etc/elasticsearch/elasticsearch.yml
 network.host: 10.0.0.17
 ```
 
-The elasticsearch service will need a restart after this change.
+The Elasticsearch service will need a restart after this change.
 
 ### Multiple Magento installations using one Elasticsearch instance
-When you have more than one site using a single instance of Elasticsearch, production and staging environments for example, you will need to bear this in mind when configuring ES in the Magento admin. You need to specify a unique value in the "Elasticsearch Index Prefix" for each installation. This is set in the Magento admin panel when configuring Elasticsearch. If you do not set a unique value, you may face issues, such as the catalog search not working, or products not showing.
+When you have more than one site using a single instance of Elasticsearch, production and staging environments for example, you will need to bear this in mind when configuring Elasticsearch in the Magento admin. You need to specify a unique value in the Elasticsearch `Index Prefix` for each installation. This is set in the Magento admin panel when configuring Elasticsearch. If you do not set a unique value, you may face issues, such as the catalog search not working, or products not showing.
 
 ```eval_rst
   .. title:: Elasticsearch
@@ -105,3 +111,4 @@ When you have more than one site using a single instance of Elasticsearch, produ
      :title: Elasticsearch | UKFast Documentation
      :description: guides relating to using Elasticsearch
      :keywords: ukfast, Magento, Magento2, Shopware, optimised, stack, Elasticsearch, eCommerce
+```

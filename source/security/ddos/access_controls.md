@@ -1,6 +1,6 @@
 # Access Controls
 
-You can use DDoSX to control access to your domains and individual URIs (a URI is the part of a URL after the `/`, for example in yourdomain.com/*admin*, admin is the URI).
+You can use DDoSX to control access to your domains and individual URIs. A URI is the part of a URL after the `/`. For example, in `yourdomain.com/admin`, `admin` is the URI).
 
 DDoSX enables you to deny or allow incoming requests based on two filters:
 
@@ -10,17 +10,17 @@ DDoSX enables you to deny or allow incoming requests based on two filters:
 This combination allows you to build complex rule sets to meet your individual requirements. Examples of typical rules would be:
 
 ```eval_rst
-+----------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------+
-| Example rules                                                                                      | Use Case                                                                                                                                 |
-+====================================================================================================+==========================================================================================================================================+
-| Deny access to your domain from IP address aa.bb.cc.dd                                             | If you've experienced frequent attacks from this IP                                                                                      |
-+----------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------+
-| Only allow access to your admin control panel at yourdomain.com/admin from your office IP range(s) | To prevent access from any other location                                                                                                |
-+----------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------+
-| Block all access to your domain from country X                                                     | If you have no genuine traffic or users in this country and are concerned about malicious threats                                        |
-+----------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------+
-| Block all access to your domain from country X, but allow access from IP address dd.ee.ff.gg       | If you want to block traffic from this country, but have an employee located there who still needs access from their specific IP address |
-+----------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------+
++--------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------+
+| Example rules                                                                                          | Use Case                                                                                                                                 |
++========================================================================================================+==========================================================================================================================================+
+| Deny access to your domain from IP address ``aa.bb.cc.dd``                                             | If you've experienced frequent attacks from this IP                                                                                      |
++--------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------+
+| Only allow access to your admin control panel at ``yourdomain.com/admin`` from your office IP range(s) | To prevent access from any other location                                                                                                |
++--------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------+
+| Block all access to your domain from country X                                                         | If you have no genuine traffic or users in this country and are concerned about malicious threats                                        |
++--------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------+
+| Block all access to your domain from country X, but allow access from IP address ``dd.ee.ff.gg``       | If you want to block traffic from this country, but have an employee located there who still needs access from their specific IP address |
++--------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------+
 ```
 
 ## Setting access controls
@@ -33,7 +33,7 @@ To set access controls, go to the domain in question within the [DDoSX area of M
 
 To add rules based on an IP address or range, click `+Add Rule`; you'll see an area open up as follows:
 
-![add_ip_filter](files/add_ip_filter.png)
+![`add_ip_filter`](files/add_ip_filter.png)
 
 - If you want to apply a rule to your domain overall (also known as a global rule), leave the URI field blank
 - If you want to apply the rule to a specific URI then enter this into the URI field (enter the part after the `/` - for example `admin`)
@@ -46,7 +46,7 @@ Note that rules will be applied **in priority order**, based on the order you ad
 
 You can also manage access to your domain based on the country that requests originate from.  Country filtering is based on either a "blocklist" or "allow list" approach:
 
-![add_country_filter](files/add_country_filter.png)
+![`add_country_filter`](files/add_country_filter.png)
 
 - **Blocklist approach** - set the Default Access to `Allow All` using the slider, then specify individual countries which you wish to block, or "blocklist"
 - **Allow list approach** - set Default Access to `Block All` using the slider, then specify individual countries which you wish to allow, or "allow list"
@@ -64,5 +64,5 @@ Your access rules may take a few minutes to propagate out across the DDoSX netwo
    .. meta::
       :title: Access Control Lists on DDoSX | UKFast Documentation
       :description: Detailed guidance on setting IP-based and country-based access controls for your domains
-      :keywords: ddos, ddosx, access control, access control list, acl, acls, ip blocking, country blocking, filtering
+      :keywords: ddos, ddosx, access control, access control list, acl, acls, IP blocking, country blocking, filtering
 ```

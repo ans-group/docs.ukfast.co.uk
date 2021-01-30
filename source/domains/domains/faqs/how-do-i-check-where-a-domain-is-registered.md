@@ -6,9 +6,4 @@
       :description: Domain Name FAQ How do I check where a domain is registered?
 ```
 
-
-You can use a whois lookup service such as [http://who.is](http://who.is)
-
-
-.
-
+You can use a WHOIS lookup service such as <https://who.is>

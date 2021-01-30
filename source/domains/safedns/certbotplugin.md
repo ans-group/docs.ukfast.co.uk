@@ -19,7 +19,7 @@ It's also assumed you'll running all commands as the `root` user.
 pip3 install --upgrade certbot-dns-safedns
 ```
 
-* Create a Certbot config file and a credentials for Certbot to use:
+* Create a Certbot configuration file and a credentials for Certbot to use:
 ```bash
 mkdir ~/.config/letsencrypt/
 ```
@@ -66,6 +66,7 @@ chmod 600 ~/.config/letsencrypt/cli.ini
   -d server3.ukfast.co.uk \
   --test-cert
 ```
+
 ```eval_rst
 .. note::
    I have used requested 3 domains on my certificate here, ``server1.ukfast.co.uk``, ``*.ukfast.dev`` and ``server3.ukfast.co.uk``. You'll want to replace these with your choice of domains. You need to have the zone in your SafeDNS account already. In my case this zone name is ``ukfast.co.uk`` for ``server`` and ``server3`` and ``ukfast.dev`` for the other.
@@ -130,7 +131,7 @@ Try upgrading your version of `pyopenssl`, like this:
 sudo pip install --upgrade pyopenssl
 ```
 
-You can also check the log certbot file, available at `/var/log/letsencrypt/letsencrypt.log`
+You can also check the Certbot log file, available at `/var/log/letsencrypt/letsencrypt.log`
 
 ```eval_rst
   .. title:: Certbot SafeDNS Plugin

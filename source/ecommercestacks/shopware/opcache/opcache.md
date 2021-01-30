@@ -1,8 +1,9 @@
 # OPcache
 
-OPcache will cache .php and .phtml files within your Shopware application. Therefore you should add flushing OPcache to your deployment process.
+OPcache will cache `.php` and `.phtml` files within your Shopware application. Therefore you should add flushing OPcache to your deployment process.
 
 ### Version Check
+
 You can check the version of OPcache installed with the command:
 
 ```bash
@@ -11,6 +12,7 @@ You can check the version of OPcache installed with the command:
 ```
 
 ### Module Check
+
 You can confirm the module has been loaded:
 
 ```bash
@@ -20,7 +22,8 @@ Zend OPcache
 
 ### Flush OPcache
 #### Service Reload
-You can flush OPcache with a reload of the php-fpm service, always run a configuration test before reloading
+
+You can flush OPcache with a reload of the PHP-FPM service. Always run a configuration test before reloading
 
 ```bash
 ~]# php-fpm -t
@@ -29,6 +32,7 @@ You can flush OPcache with a reload of the php-fpm service, always run a configu
 ```
 
 #### PHP Function
+
 You can also clear OPcache using the PHP function:
 
 ```bash
@@ -38,7 +42,8 @@ You can also clear OPcache using the PHP function:
 ```
 
 ### Stack OPcache settings
-We use the following sed to change the default settings of OPcache on our Shopware stacks:
+
+We use the following `sed` to change the default settings of OPcache on our Shopware stacks:
 
 ```bash
 sed -i 's/opcache.memory_consumption=128/opcache.memory_consumption=512/g' /etc/php.d/*opcache.ini
@@ -63,6 +68,7 @@ opcache.enable_file_override=1
 ```
 
 ### OPcache GUI
+
 The OPcache GUI [https://github.com/amnuts/opcache-gui](https://github.com/amnuts/opcache-gui) is a very handy tool which allows you to flush cache, view the files in cache, memory statistics and lots more. You simply need to download the files to your document root:
 
 ```bash
@@ -71,7 +77,7 @@ The OPcache GUI [https://github.com/amnuts/opcache-gui](https://github.com/amnut
 ~]# chown -R shopwareuser: opcache-gui
 ```
 
-You can then browse www.shopwaredomain.com/opcache-gui. We recommend password/ip redirection for this URI, we have guides on how to do this [here](/ecommercestacks/magento/magento2/restrictfilefolder)
+You can then browse `www.shopwaredomain.com/opcache-gui`. We recommend password / IP redirection for this URI. You can do this following our guide on [restricting file access](/ecommercestacks/magento/magento2/restrictfilefolder)
 
 ```eval_rst
   .. title:: Shopware Opcache

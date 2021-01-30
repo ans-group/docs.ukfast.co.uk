@@ -36,7 +36,7 @@ To identify the label for this disk, check `dmesg` for lines about a new device 
 [13955.161769] sd 2:0:2:0: [sdc] Attached SCSI disk
 ```
 
-In this case, the new disk is labeled `sdc`.
+In this case, the new disk is labelled `sdc`.
 
 You should confirm that this is not already configured as a physical volume in LVM:
 
