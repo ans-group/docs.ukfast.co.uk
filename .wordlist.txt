@@ -325,6 +325,7 @@ PuTTY
 PuTTYGen
 PV
 px
+PySpelling
 QJ
 RabbitMQ
 RADVD
