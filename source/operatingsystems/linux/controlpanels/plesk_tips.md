@@ -15,7 +15,7 @@ Plesk provide a full guide on how to set these values to something more suitable
 
 ## The statistics on Server Health Monitor seem wrong, can I fix it?
 
-Yes, you can reset the statistics by following [this guide](https://support.plesk.com/hc/en-us/articles/213946465-Health-Monitor-displays-empty-statistics).
+Yes, you can reset the statistics by following [this guide](https://support.plesk.com/hc/en-us/articles/360011108979-No-data-is-shown-in-the-charts-of-Advanced-Monitoring).
 
 ## The statistics for traffic and disk space on a domain seem wrong, can I fix it?
 

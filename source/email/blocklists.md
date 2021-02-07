@@ -1,6 +1,6 @@
 # What to do if your emails get listed
 
-If you think your emails are listed, you can confirm this by checking on an IP reputation service checker. One example with a range of lists is [MultiRBL](https://multirbl.valli.org/). Another (less comprehensive) IP reputation check can be found at [MXtoolbox](https://mxtoolbox.com/blacklists.aspx). It's quite common to be shown as being listed, for example `rbldns.ru` has most IPs listed by default. Some lists may also return "Failed" - that's common and may simply mean the request timed out, rather than you being on the listed.
+If you think your emails are listed, you can confirm this by checking on an IP reputation service checker. One example with a range of lists is [MultiRBL](http://multirbl.valli.org/). Another (less comprehensive) IP reputation check can be found at [MXtoolbox](https://mxtoolbox.com/blacklists.aspx). It's quite common to be shown as being listed, for example `rbldns.ru` has most IPs listed by default. Some lists may also return "Failed" - that's common and may simply mean the request timed out, rather than you being on the listed.
 
 ## What to do if you find yourself on a list
 
@@ -18,7 +18,7 @@ These providers maintain their own private lists, and you cannot check if you ar
 
 Microsoft mail servers are a little different to other providers. Their lists are not public so you cannot check if you are listed. You must always get an IP address (or range) permitted to send if you want the mail to end up in the correct mailbox. If you have problems with your mail ending up in spam, or not appearing at all, this is likely the reason.
 
-If you have this issue, read our guide in the [basics of mail](/email/mailconfig.html#sending-to-microsoft-hotmail-office365) section, which should help you address this.
+If you have this issue, read our guide in the [basics of mail](/email/mailconfig.html#sending-mail-to-microsoft-hotmail-office365) section, which should help you address this.
 
 ### Google / Gmail
 

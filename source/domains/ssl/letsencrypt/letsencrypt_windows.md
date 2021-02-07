@@ -77,11 +77,11 @@ This will default to using the **Manual** plugin, and prompt you to create a **T
 
 ### Using a DNS Plugin
 
-Please see the list of [**Available Posh-ACME DNS Plugins**](https://github.com/rmbolger/Posh-ACME/blob/master/Tutorial.md#dns-plugins) for a full list of available DNS Plugins for use with this software.
+Please see the list of [**Available Posh-ACME DNS Plugins**](https://github.com/rmbolger/Posh-ACME/wiki/List-of-Supported-DNS-Providers) for a full list of available DNS Plugins for use with this software.
 
 As an example, to use this with Route53, please see the following usage guide, which falls outside the scope of this article.
 
-[Route53 Posh-ACME Guide](https://github.com/rmbolger/Posh-ACME/blob/master/Posh-ACME/DnsPlugins/Route53-Readme.md)
+[Route53 Posh-ACME Guide](https://github.com/rmbolger/Posh-ACME/blob/main/Posh-ACME/Plugins/Route53-Readme.md)
 
 ```eval_rst
 .. note:

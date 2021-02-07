@@ -13,7 +13,7 @@ The Primary Contact in any UKFast account has overall ownership and control of t
 
 The Primary Contact can control the level of access a contact has by clicking on their name in the [Contacts](https://my.ukfast.co.uk/account/list-contacts.php) section and the clicking on **Access and Security**.
 
-On this page a contact can be limited to only being able to log in to [MyUKFast](https://www.my.ukfast.co.uk) from certain IP addresses and can have an pre-set **Access Profile** selected or a customised one set up to fine tune the type of access this contact has.
+On this page a contact can be limited to only being able to log in to [MyUKFast](https://my.ukfast.co.uk) from certain IP addresses and can have an pre-set **Access Profile** selected or a customised one set up to fine tune the type of access this contact has.
 
 
 ## Add new contacts

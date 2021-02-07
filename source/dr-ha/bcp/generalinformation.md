@@ -68,7 +68,7 @@ This should not be used for files which are regularly written to, such as log fi
    Further reading about Unison for those interested:
 
    - `<https://www.cis.upenn.edu/~bcpierce/unison/>`_
-   - `<https://www.cyberciti.biz/faq/unison-file-synchroniser-tool/>`_
+   - `<https://github.com/bcpierce00/unison>`_
    - `<http://www.linuxjournal.com/content/file-synchronization-unison>`_
 ```
 
