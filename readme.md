@@ -9,6 +9,100 @@ To get started, please visit:
 * [the "how to contribute" guide](https://github.com/ukfast/docs.ukfast.co.uk/blob/master/contribute.md)
 * [the terminology and style guide](https://github.com/ukfast/docs.ukfast.co.uk/blob/master/guide.md)
 
+## Developing locally
+
+There are a number of ways you can develop locally.
+
+You _can_ also use the `docker-compose.dev.yml` Docker Compose file, which will build a full environment, including Elasticsearch and populating it. For making small changes, however, you might find this tedious as you will need to rebuild the containers on every change.
+
+Generally, the easiest way is to run `sphinx-autobuild`, which will give you a live preview of the UKFast Docs site using your local data. This automatically rebuilds any changed docs content.
+
+This does have some drawbacks. Firstly, only content in the `/source` directory is auto-rebuilt, so no theme CSS or JavaScript. They are rendered at at the start, but changes are not detected. Secondly, there is no search functionality possible.
+
+### Using a Docker container
+
+One of the easiest ways is to use a Linux server with Docker installed. Using the command below will start up a container, map in the current directory and set up port forwarding for `8000/tcp`, as defined in `docker-compose.devlocal.yml`.
+
+```bash
+docker-compose -f docker-compose.devlocal.yml up -d
+```
+
+Once the container has started up fully (which can take a few minutes), you should be able to browse to `http://127.0.0.1:8000` and see content. If you want to access the content remotely, replace `127.0.0.1` with the correct IP of your Linux server.
+
+If you need to see the build logs, you can do so with:
+
+```bash
+docker logs sphinx_autobuild
+```
+
+### Using Python
+
+You can install all the dependencies to run Sphinx using the commands in the `Autobuild-Dockerfile` file. Generally, however, you will need to have these packages installed:
+
+* Package Manager | `make`, Python 3.6+
+* PIP | `sphinx-autobuild`, `recommonmark`
+
+Once those are in place, you should be able to start `sphinx-autobuild` like this:
+
+```bash
+sphinx-autobuild \
+   --pre-build "make build/html/_static/css/app.css" \
+   --pre-build "make build/html/_static/app.js" \
+   --host 0.0.0.0 \
+   source build/html
+```
+
+### Testing your content
+
+There are a few commands you can use to check the content is correct:
+
+#### Check for broken links
+
+This will go through the content and make sure there are no broken links within the content.
+
+```console
+make linkcheck
+```
+
+#### Markdown Linting
+
+If you're using Docker for development, you can run this to check whether the content meets the linting requirements:
+
+```bash
+docker run \
+   -v "$PWD:/app" \
+   -w /app \
+   --rm \
+   markdownlint/markdownlint source
+```
+
+#### Spell checking
+
+We are using PySpelling for this. Similarly, if you're using Docker for development, you can run this to check whether the content meets the spell check requirements:
+
+```bash
+docker run \
+   -v "$PWD:/app" \
+   -w /app \
+   --rm \
+   -e INPUT_SOURCE_FILES="source/**/*.md" \
+   -e INPUT_TASK_NAME=Markdown \
+   rojopolis/spellcheck-github-actions:0.10.0
+```
+
+You can change the `$INPUT_SOURCE_FILES` variable to be whatever you want. It will accept a space-separated list of files.
+
+There are __two word lists__ in place which control the spell checking:
+
+1. The first is `.wordlist.txt` which has all of the words we use in UKFast and the IT field in it. You should add more words to this, but only if they are legitimate and correct in terms of upper and lower case.
+1. The second is `.wordlist-workaround.txt` which contains non-words and partial words to work around limitations in PySpelling.
+
+   One example of this is `L2TP`. As `aspell` (which powers PySpelling) splits words first on non-word characters, `L2TP` is seen as two different words, `L` and `TP`. Similarly, word contractions like `UKFast's` will we seen as invalid, as will hyphenated words.
+
+   So, you should add these workarounds to this file, __not__ the `.wordlist.txt` file.
+
+You can also wrap words with the HTML tag `<nospell>`, which will cause PySpelling to ignore the word.
+
 ## Page Construction and Key Elements
 
 ### Naming and Path
@@ -222,6 +316,12 @@ If you wish to use text other than the heading for the section that you're linki
 
 ```rst
 :doc:`Custom Text</ecloud/flex/general/openstackcli>`
+```
+
+You can also use this syntax:
+
+```rst
+`Custom Text</ecloud/flex/general/openstackcli>`_
 ```
 
 ```eval_rst
