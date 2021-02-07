@@ -1,10 +1,10 @@
 # Setting Secure Ciphers
 
-Cyphers and Key Exchange Algorithms are used by many applications to ensure that the connection between the server and the user is adequately secured. As computers become faster and more equipped, they are more capable of breaking older cyphers and encryption algorithms, and as such those cyphers become obsolete. This is why it's important to ensure that we're using that latest and greatest cyphers, where possible.
+Ciphers and Key Exchange Algorithms are used by many applications to ensure that the connection between the server and the user is adequately secured. As computers become faster and more equipped, they are more capable of breaking older ciphers and encryption algorithms, and as such those ciphers become obsolete. This is why it's important to ensure that we're using that latest and greatest ciphers, where possible.
 
-A great list of up-to-date strong cyphers can be found here: <https://syslink.pl/cipherlist/>
+A great list of up-to-date strong ciphers can be found here: <https://syslink.pl/cipherlist/>
 
-Follow the below steps to set secure cyphers for web servers like Apache, NGINX and other services like SSH.
+Follow the below steps to set secure ciphers for web servers like Apache, NGINX and other services like SSH.
 
 ## Web Servers
 
@@ -18,13 +18,13 @@ Make a backup of the Apache config file `/etc/httpd/conf.d/ssl.conf`
 cp /etc/httpd/conf.d/ssl.conf /etc/httpd/conf.d/ssl.conf.backup
 ```
 
-Edit the Apache config file in `/etc/httpd/conf.d/ssl.conf` with your prefered editor.
+Edit the Apache config file in `/etc/httpd/conf.d/ssl.conf` with your preferred editor.
 
 ```bash
 vi /etc/httpd/conf.d/ssl.conf
 ```
 
-Comment any lines that start with any of the following. This will disable your old insecure cyphers:
+Comment any lines that start with any of the following. This will disable your old insecure ciphers:
 
 * `SSLCipherSuite`
 * `SSLProtocol`
@@ -35,7 +35,7 @@ Comment any lines that start with any of the following. This will disable your o
 * `SSLStaplingCache`
 * `SSLSessionTickets`
 
-Next, append the latest cyphers from <https://syslink.pl/cipherlist/> to the bottom of the file. This will enable the more secure cyphers. For example:
+Next, append the latest ciphers from <https://syslink.pl/cipherlist/> to the bottom of the file. This will enable the more secure ciphers. For example:
 
 ```nginx
 SSLCipherSuite EECDH+AESGCM:EDH+AESGCM:AES256+EECDH:AES256+EDH
@@ -74,9 +74,9 @@ service apache2 restart
 
 ### NGINX
 
-In NGINX, we need can specify cyphers to the virtual host you wish to secure. These are commonly `.conf` files found in the directory `/etc/nginx/conf.d`, with one for each of your websites.
+In NGINX, we need can specify ciphers to the virtual host you wish to secure. These are commonly `.conf` files found in the directory `/etc/nginx/conf.d`, with one for each of your websites.
 
-To specify secure cyphers for these virtual hosts, we can add the latest cyphers from <https://syslink.pl/cipherlist/> to our host, as shown below:
+To specify secure ciphers for these virtual hosts, we can add the latest ciphers from <https://syslink.pl/cipherlist/> to our host, as shown below:
 
 ```nginx
 server {
@@ -106,9 +106,9 @@ server {
 
 ## SSH
 
-We can also set secure cyphers for SSH sessions. This will ensure a secure connection is made whenever a server administrator connects to the server via SSH.
+We can also set secure ciphers for SSH sessions. This will ensure a secure connection is made whenever a server administrator connects to the server via SSH.
 
-Follow the below commands to set secure cyphers for SSH.
+Follow the below commands to set secure ciphers for SSH.
 
 Edit the SSH config file `/etc/sshd/sshd_config` with your preferred editor.
 
@@ -116,7 +116,7 @@ Edit the SSH config file `/etc/sshd/sshd_config` with your preferred editor.
 vi /etc/sshd/sshd_config
 ```
 
-Next, append the latest cyphers from <https://syslink.pl/cipherlist/> to the bottom of the file, like shown
+Next, append the latest ciphers from <https://syslink.pl/cipherlist/> to the bottom of the file, like shown
 
 ```nginx
 # Example of overriding settings on a per-user basis
