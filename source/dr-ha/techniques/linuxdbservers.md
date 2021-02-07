@@ -112,4 +112,4 @@ This can then be ran nightly as a cron job as mentioned in the previous section.
 
 ## Next steps
 
-Once you're confident that you have consistent backups using one of the above two methods, you should now be good to follow the :doc:`Setting backup exclusions</dr-ha/ukfast_backup/backup_schedule>` guide to exclude `/var/lib/mysql` (or wherever else you may keep your data directory) from your backup run to save some space.
+Once you're confident that you have consistent backups using one of the above two methods, you should now be good to follow the [Setting backup exclusions](/dr-ha/ukfast_backup/backup_schedule) guide to exclude `/var/lib/mysql` (or wherever else you may keep your data directory) from your backup run to save some space.

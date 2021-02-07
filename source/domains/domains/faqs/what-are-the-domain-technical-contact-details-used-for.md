@@ -7,5 +7,5 @@
 ```
 
 
-When you register a domain name you have to provide technical contact details for :doc:`WHOIS</domains/domains/faqs/what-is-whois>`. This person will receive all technical questions regarding the domain name.
+When you register a domain name you have to provide technical contact details for [WHOIS](/domains/domains/faqs/what-is-whois). This person will receive all technical questions regarding the domain name.
 

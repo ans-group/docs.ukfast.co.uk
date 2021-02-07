@@ -7,6 +7,6 @@
 ```
 
 
-Your domain billing information is one of four types of contact information required by :doc:`WHOIS</domains/domains/faqs/what-is-whois>`
-to go with a domain :doc:`registrant</domains/domains/faqs/what-is-a-domain-registrant>`, administrator, technical and billing); the details will be used for any payment related contact.
+Your domain billing information is one of four types of contact information required by [WHOIS](/domains/domains/faqs/what-is-whois)
+to go with a domain [registrant](/domains/domains/faqs/what-is-a-domain-registrant), administrator, technical and billing); the details will be used for any payment related contact.
 
