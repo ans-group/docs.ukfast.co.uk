@@ -128,7 +128,6 @@ This change should fix that without making changes to the sphinx source or downg
 /* Preformatted text */
 code {
     font-family: "Roboto Mono", "Consolas", "Monaco", monospace;
-    font-size: 1.3rem;
 }
 
 /* lists */
