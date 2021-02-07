@@ -101,7 +101,7 @@ Here's a breakdown of the fields available to you:
 
 * `Server Port`
 
-  The port to which traffic should be sent. In most instances, if you're dealing with `HTTP` traffic then this should be `80` and if it's `HTTPS` then it should be `443`. Again, the only exception to this is if you're using SSL offloading, in which case the backend should be `80` as explained in :doc:`/myukfast/loadbalancing/passthroughoffload`. If you're using the `TCP` option then you should already know what port you're dealing with here.
+  The port to which traffic should be sent. In most instances, if you're dealing with `HTTP` traffic then this should be `80` and if it's `HTTPS` then it should be `443`. Again, the only exception to this is if you're using SSL offloading, in which case the backend should be `80` as explained in </myukfast/loadbalancing/passthroughoffload>. If you're using the `TCP` option then you should already know what port you're dealing with here.
 
 
 * `Weight`
@@ -162,7 +162,7 @@ Once again, here's a breakdown of the fields available to you:
 
 * `Service`
 
-  As mentioned in the terminology section, this is the protocol that a VIP uses. These can be either `HTTP`, `HTTPS`, `HTTPS Offloaded` or `TCP`. SSL offloading is a bit more complex and is explained in here: :doc:`/myukfast/loadbalancing/passthroughoffload`.
+  As mentioned in the terminology section, this is the protocol that a VIP uses. These can be either `HTTP`, `HTTPS`, `HTTPS Offloaded` or `TCP`. SSL offloading is a bit more complex and is explained in here: </myukfast/loadbalancing/passthroughoffload>.
 
 
 * `Default Server Group`
