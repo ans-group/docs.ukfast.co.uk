@@ -43,7 +43,7 @@ There are many potential reasons to pause, suspend or shut off an instance, as l
 
 ## What does "Shelving" an instance mean
 
-Shelving an instance essentially means taking a snapshot of the disk, which is stored for retrieval so you can easily un-shelve it at a later point.  Importantly, once an instance has been shelved it is no longer consuming compute resources, and so you will not get billed for the instance.  There may be additional charges for storage of the snapshot as follows; see the [eCloud Pricing page in MyUKFast](https://my.ukfast.co.uk/ecloud-flex/16029/pricing.php#section-storage) for details:
+Shelving an instance essentially means taking a snapshot of the disk, which is stored for retrieval so you can easily un-shelve it at a later point.  Importantly, once an instance has been shelved it is no longer consuming compute resources, and so you will not get billed for the instance.  There may be additional charges for storage of the snapshot. See the eCloud Pricing page in MyUKFast for details.
 
 * if the instance was originally booted from an image, storage of the snapshot will be billed at the same rate as Block Storage Snapshots
 * if the instance was originally booted from a volume, there will be no additional charges given you are already paying for the Block Storage volume separately

@@ -8,7 +8,7 @@ The second is the most powerful way of accessing eCloud Vault, and the one that 
 
 These keys will allow you to access the API endpoint found here: <http://vault.ecloud.co.uk/>
 
-If you aren't familiar with the S3 API specification, [information can be found here](http://docs.ceph.com/docs/master/radosgw/s3/).
+If you aren't familiar with the S3 API specification, [information can be found here](https://docs.ceph.com/en/latest/radosgw/s3/).
 
 Your key pair will also allow you to access your eCloud Vault buckets through various S3-enabled third party applications. Though UKFast can't offer support on your configuration or use of these applications (see below), a few options are:
 

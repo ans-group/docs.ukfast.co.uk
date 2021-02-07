@@ -8,7 +8,7 @@ Describing the full scope of Ansible and its usage is clearly out of scope of th
 
 The brunt of the complicated work here will be carried out by the existing `os_server` module, which is fully documented here:
 
-<http://docs.ansible.com/ansible/os_server_module.html>
+* <https://docs.ansible.com/ansible/2.9/modules/os_server_module.html>
 
 If you already have Ansible installed then you should already have Python installed too. So there's just one prerequisite package left to install, a `pip` package called `shade`. This will need to be installed on the machine you're running your playbooks from. A simple `pip install shade` should be enough to get you up and running, but to rule out a number of common errors, here's the full set of commands I've had to use in the past to get it installed on a blank system:
 

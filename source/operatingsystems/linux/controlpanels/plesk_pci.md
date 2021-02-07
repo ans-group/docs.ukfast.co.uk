@@ -17,7 +17,8 @@ plesk sbin sslmng --strong-dh
 For further reading and to see exactly what the current recommendations from Plesk are, please do check out the official Plesk pages for your version:
 
 - [Plesk 12.5](https://docs.plesk.com/en-US/12.5/advanced-administration-guide-linux/pci-dss-compliance/tune-plesk-to-meet-pci-dss-on-linux.65871/)
-- [Plesk Onyx](https://docs.plesk.com/en-US/onyx/advanced-administration-guide-linux/pci-dss-compliance/tune-plesk-to-meet-pci-dss-on-linux.65871/)
+- [Plesk Onyx](https://docs.plesk.com/en-US/onyx/administrator-guide/plesk-administration/securing-plesk/pci-dss-compliance/tune-plesk-to-meet-pci-dss-on-linux.78899/)
+- [Plesk Obsidian](https://docs.plesk.com/en-US/obsidian/administrator-guide/plesk-administration/securing-plesk/pci-dss-compliance/tune-plesk-to-meet-pci-dss-on-linux.78899/)
 
 If you need any assistance meeting the requirements of a PCI report, please do contact your account manager and they'll be able to book in one of our experienced PCI team to assist you.
 

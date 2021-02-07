@@ -42,7 +42,7 @@ Or you can add them directly to the `applicationHost.config` as custom log field
 </logFile>
 ```
 
-When an HTTPS request is processed, the SSL/TLS information will be written to the log file as a hexadecimal value. You can then use the Microsoft documentation for [Protocols](https://docs.microsoft.com/en-gb/windows/desktop/api/schannel/ns-schannel-_secpkgcontext_connectioninfo) and [Ciphers](https://docs.microsoft.com/en-gb/windows/desktop/SecCrypto/alg-id) in order to map the hex values to human-readable names.
+When an HTTPS request is processed, the SSL/TLS information will be written to the log file as a hexadecimal value. You can then use the Microsoft documentation for [Protocols](https://docs.microsoft.com/en-us/windows/win32/api/schannel/ns-schannel-secpkgcontext_connectioninfo) and [Ciphers](https://docs.microsoft.com/en-gb/windows/desktop/SecCrypto/alg-id) in order to map the hex values to human-readable names.
 
 ```eval_rst
 .. note::

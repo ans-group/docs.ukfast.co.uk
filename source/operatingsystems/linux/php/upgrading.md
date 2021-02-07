@@ -8,13 +8,10 @@ PHP is still being actively developed, and the developers have chosen not to mai
 
 PHP.net provide a comprehensive list of these deprecated functions between each released version:
 
-* [5.2 > 5.3](http://php.net/manual/en/migration53.deprecated.php)
-* [5.3 > 5.4](http://php.net/manual/en/migration54.deprecated.php)
-* [5.4 > 5.5](http://php.net/manual/en/migration55.deprecated.php)
-* [5.5 > 5.6](http://php.net/manual/en/migration56.deprecated.php)
-* [5.6 > 7.0](http://php.net/manual/en/migration70.deprecated.php)
-* [7.0 > 7.1](http://php.net/manual/en/migration71.deprecated.php)
-* [7.1 > 7.2](http://php.net/manual/en/migration72.deprecated.php)
+* [5.5 > 5.6](https://www.php.net/manual/en/migration56.deprecated.php)
+* [5.6 > 7.0](https://www.php.net/manual/en/migration70.deprecated.php)
+* [7.0 > 7.1](https://www.php.net/manual/en/migration71.deprecated.php)
+* [7.1 > 7.2](https://www.php.net/manual/en/migration72.deprecated.php)
 
 As you can see, there's a fair amount there which may cause your application to break under a new version of PHP. Due to this, we always recommend testing your application under the PHP version of choice before
 
@@ -26,7 +23,7 @@ Making the change to a different PHP interpreter version varies in difficulty de
 
 ### Plesk 12+
 
-From version 12 onwards, Plesk has support for multiple PHP versions built in. Installing different versions is done via the Updates & Upgrades section, and changing between them is done by a dropdown menu in Plesk. This allows you to switch PHP versions quickly and easily. For more information please do take a look at [the official Plesk guide.](https://support.plesk.com/hc/en-us/articles/213949705-Multiple-PHP-Versions-in-Plesk-12-and-higher-Out-of-the-Box)
+From version 12 onwards, Plesk has support for multiple PHP versions built in. Installing different versions is done via the Updates & Upgrades section, and changing between them is done by a dropdown menu in Plesk. This allows you to switch PHP versions quickly and easily. For more information please do take a look at [the official Plesk guide.](https://support.plesk.com/hc/en-us/articles/115000769793-How-to-install-remove-additional-PHP-versions-provided-by-Plesk)
 
 ### WHM/cPanel
 

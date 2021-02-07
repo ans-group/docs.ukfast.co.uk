@@ -42,7 +42,7 @@ WHM Should now automatically update the SSL certificate for the new hostname, bu
 
 If it does not match, then click the corresponding "reset certificate" option.
 
-Once the A record has propagated, you'll now be able to browse the WHM Login, using the server's hostname and port `2087` without any warnings, e.g. <https://server.exampledomain.com:2087/>.
+Once the A record has propagated, you'll now be able to browse the WHM Login, using the server's hostname and port `2087` without any warnings, e.g. `https://server.exampledomain.com:2087/`.
 
 ![WHM Successful SSL ](files/whm_successful_ssl.PNG)
 

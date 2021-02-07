@@ -4,7 +4,7 @@ An Internet Provider Security (IPS) tag, also known as a registrar tag, domain t
 
 ```eval_rst
 .. seealso::
-  Check out `our FAQ on registrars </domains/domains/faqs/what-is-a-domain-registrar>`_ for more info.
+  Check out `our FAQ on registrars </domains/domains/faqs/what-is-a-domain-registrar.html>`_ for more info.
 ```
 
 IPS tags are a single sequence of numbers and/or letters that are capitalised. For example, UKFast's tag is `UKFAST`.

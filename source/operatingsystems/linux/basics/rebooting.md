@@ -22,9 +22,7 @@ init 6
 
 But there's really no reason to be using this method on modern systems above their built in reboot/shutdown commands, you may miss out on some of the self-documenting features implemented by these commands.
 
-In some very niche situations, you may find that the above commands won't reboot your server. This is likely due you hitting a deadlock situation. In-depth explanations of this state are beyond the scope of a basic Linux reboot page, but the following page contains a lot of good information:
-
-* <http://www.makelinux.net/books/lkd2/ch08lev1sec3>
+In some very niche situations, you may find that the above commands won't reboot your server. This is likely due you hitting a deadlock situation. In-depth explanations of this state are beyond the scope of a basic Linux reboot page, but there's a lot of good information in the book [Linux Kernel Development, Second Edition book](https://www.oreilly.com/library/view/linux-kernel-development/9780768696974/) (Chapter 8)
 
 If you do find yourself in this situation, you can always send your server down for an immediate reboot with the following command:
 

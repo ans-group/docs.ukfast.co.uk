@@ -1,11 +1,13 @@
 # Citrix
+
 ```eval_rst
 
 .. image:: files/Citrix-Logo.png
    :width: 400
 ```
 ### What is Citrix?
-Similar to Remote Desktop Services, Citrix allows end users to connect to a remote desktop allowing them access to files/applications their local desktop doesn't have as long as they have an internet connection. As all the remote desktops are in once place, it gives administrators ease of management across their entire user base.
+
+Similar to Remote Desktop Services, Citrix allows end users to connect to a remote desktop allowing them access to files / applications their local desktop doesn't have as long as they have an internet connection. As all the remote desktops are in once place, it gives administrators ease of management across their entire user base.
 
 Below outlines how the proposed configuration will be configured for the Citrix Farm.
 
