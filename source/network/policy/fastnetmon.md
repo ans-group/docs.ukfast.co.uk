@@ -1,6 +1,7 @@
 # FastNetMon
 
 ##  What is a FastNetMon Ban?
+
 UKFast utilises a service called FastNetMon to analyse traffic entering our network to determine whether it is legitimate. FastNetMon is configured to automatically make decisions based on the nature of the inbound traffic and can "ban" an IP.
 
 This action is taken to prevent either our entire network or just a segment of it from being taken offline by an attack.
@@ -18,7 +19,7 @@ If targeted attack, if is safe to assume that work has been undertaken before th
 
 ```eval_rst
 .. warning::
-It is unlikely that the attack is domain based and actually targeted at the backend IP addresses of the servers, meaning that we need to assume that any DNS records such as A, MX, TXT etc that are associated with an IP address have also been taken note off.
+   It is unlikely that the attack is domain based and actually targeted at the backend IP addresses of the servers, meaning that we need to assume that any DNS records such as A, MX, TXT etc that are associated with an IP address have also been taken note off.
 
 ```
 From here on out, it is recommended that all of the domains on the affected server are put behind a DDoS protection platform such as our own DDoSX<sup>®</sup> platform.
@@ -58,7 +59,9 @@ If you continue to use the previously attacked IP address for hosting email, it 
 [DDoSX IP range](https://docs.ukfast.co.uk/security/ddos/ips.html)
 
 
-``` warning:: Never expose the new IP address: treat this like a password that you wouldn't expose.
+```
+.. warning::
+   Never expose the new IP address. Treat this like a password that you wouldn't expose.
 ```
 
 ```eval_rst
@@ -68,4 +71,3 @@ If you continue to use the previously attacked IP address for hosting email, it 
      :description: Network Protection with FastNetMon
      :keywords: fastnetmon, banning, ban, Ban, traffic, guide, fast, net, mon, security, firewall, attack, flood, ddos, ddosx, IP, ip, address, Address, protection, DDoS, DDoSX, FastNetMon, cloudflare, block
 ```
-
