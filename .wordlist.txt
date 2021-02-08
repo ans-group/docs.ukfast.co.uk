@@ -143,6 +143,7 @@ failback
 failover
 failovers
 FastCGI
+FastNetMon
 FASTcloudbackup
 FASTdesk
 FASTdrive
