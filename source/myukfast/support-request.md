@@ -50,7 +50,7 @@ These settings allow you to control who is notified when we reply to your suppor
 
 In the **CC Responses To** box you can enter email addresses separated by a semi-colon of people you wish to be copied in to our replies
 
-The **Reply Security** options allow you to change between responses only being delivered through [MyUKFast](https://www.my.ukfast.co.uk) (though you'll still receive an email notification letting you know there is a reply awaiting you) or through email as well. For increased security we recommend only having ticket replies delivered through [MyUKFast](https://www.my.ukfast.co.uk) as this allows us to encrypt everything.
+The **Reply Security** options allow you to change between responses only being delivered through [MyUKFast](https://my.ukfast.co.uk) (though you'll still receive an email notification letting you know there is a reply awaiting you) or through email as well. For increased security we recommend only having ticket replies delivered through [MyUKFast](https://my.ukfast.co.uk) as this allows us to encrypt everything.
 
 The **Preferred Contact Method** drop down box allows you to let the engineer dealing with your issue know whether you would like to be contacted back on the ticket primarily or called on your default contact number. If you change this from the default ticket response we would recommend that you mention you would like to be called back by the engineer in the request's message section also.
 
