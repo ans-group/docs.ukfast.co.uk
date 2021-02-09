@@ -50,7 +50,7 @@ In the **CC Responses To** box you can enter the email addresses of people you w
 
 The **Reply Security** options allow you to change how we notify you of support Ticket updates.
 
-* If "Replies must be made through MyUKFast" is set, we will send you an email to tell you we have replied, and you will need to log into [MyUKFast](https://my.ukfast.co.uk) to view it.  
+* If "Replies must be made through MyUKFast" is set, we will send you an email to tell you we have replied, and you will need to log into [MyUKFast](https://my.ukfast.co.uk) to view it.
 * If "Replies can be made through MyUKFast or email" is set, we will send you the message content via email, and you will also be able to reply back using email.
 
 For increased security, we recommend only having ticket replies delivered through [MyUKFast](https://my.ukfast.co.uk), as this allows us to keep all communication encrypted.
