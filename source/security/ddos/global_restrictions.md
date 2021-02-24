@@ -5,12 +5,15 @@ Documentation of global restrictions that are applied to any customers using DDo
 ## DDoSX®
 ### User-Agents:
 * PetalBot
+### IPs:
+* 135.148.33.67
 ## SafeDNS™
 #### IPs:
 * 39.105.171.83
 * 39.96.129.118
 * 205.198.12.8
 * 116.62.21.155
+* 135.148.33.67
 
 ## WAF on DDoSX®
 * Forbidden File Extensions
