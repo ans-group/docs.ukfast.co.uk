@@ -35,7 +35,7 @@ Here are step-by-step tutorials designed to help you set up and launch your Fast
 How-to guides
 ---------------------
 
-Further step-by-step tutorials designed to help you make the most out of your desktop.
+Further step-by-step support related tutorials designed to help you self-service.
 
 .. toctree::
    :maxdepth: 1
@@ -43,6 +43,7 @@ Further step-by-step tutorials designed to help you make the most out of your de
    Changepassword
    signout
    updateworkspace
+   runningspeedtest 
    
 ---------------------
 Additional Resources
