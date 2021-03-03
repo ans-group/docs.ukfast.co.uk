@@ -32,7 +32,7 @@ Threat Monitoring may also be installed onto virtual servers.
 
 OS container-based servers and applications containers (such as `Docker`) are not currently supported.
 
-Please refer to the below compatibility matrix before installing threat monitoring onto a virtual server to understand what virtualization types are supported. Any virtualization not mentioned below are not supported.
+Please refer to the below compatibility matrix before installing threat monitoring onto a virtual server to understand what virtualisation types are supported. Any virtualisation not mentioned below are not supported.
 
 If you don't know your virtual server's virtualisation type, please contact your hosting provider for more information. Additionally, the below commands may be able to show you your system's virtualisation type on a Linux system.
 
@@ -46,7 +46,7 @@ dmidecode -s system-product-name
 
 ```eval_rst
 +---------------------+-----------+
-| Virtualization Type | Supported |
+| virtualisation Type | Supported |
 +=====================+===========+
 | KVM                 | Yes       |
 +---------------------+-----------+
@@ -76,19 +76,13 @@ Threat Monitoring Core is required, any other modules are optional but highly re
 +---------------------+---------------+-------------------+--+------+-------------+
 |   Operating System  | UKFast Hosted | Non-UKFast Hosted |  | Core | NIDS Module |
 +=====================+===============+===================+==+======+=============+
-| CentOS 6            | Yes           | Yes               |  | Yes  | No          |
-+---------------------+---------------+-------------------+--+------+-------------+
 | CentOS 7            | Yes           | Yes               |  | Yes  | Yes         |
 +---------------------+---------------+-------------------+--+------+-------------+
 | CentOS 8            | Yes           | Yes               |  | Yes  | Yes         |
 +---------------------+---------------+-------------------+--+------+-------------+
-| RHEL 6              | Yes           | Yes               |  | Yes  | Yes         |
-+---------------------+---------------+-------------------+--+------+-------------+
 | RHEL 7              | Yes           | Yes               |  | Yes  | Yes         |
 +---------------------+---------------+-------------------+--+------+-------------+
 | RHEL 8              | Yes           | Yes               |  | Yes  | Yes         |
-+---------------------+---------------+-------------------+--+------+-------------+
-| Ubuntu 16.04        | Yes           | Yes               |  | Yes  | Yes         |
 +---------------------+---------------+-------------------+--+------+-------------+
 | Ubuntu 18.04        | Yes           | Yes               |  | Yes  | Yes         |
 +---------------------+---------------+-------------------+--+------+-------------+
