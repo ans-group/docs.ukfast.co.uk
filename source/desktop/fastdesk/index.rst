@@ -40,7 +40,7 @@ Further step-by-step tutorials designed to help you make the most out of your de
 .. toctree::
    :maxdepth: 1
    
-   changepassword
+   Changepassword
    signout
    updateworkspace
    
