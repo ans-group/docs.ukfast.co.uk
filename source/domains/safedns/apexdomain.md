@@ -7,5 +7,5 @@
 
 ```
 
-Your domain apex is the secord or third level domain that is provided by your domain registrar. This is the domain that has your NS and SOA records set to.</br>
+Your domain apex is the second or third level domain that is provided by your domain registrar. This is the domain that has your NS and SOA records set to.</br>
 For example: `foo.com` or `example.com`.
