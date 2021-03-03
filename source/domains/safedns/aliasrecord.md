@@ -13,10 +13,14 @@
 > 10.1. CNAME resource records
 >
 <<<<<<< HEAD
+<<<<<<< HEAD
 >   The DNS CNAME ("canonical name") record exists to provide the canonical name associated with an alias name. There may be only one such canonical name for any one alias.
 =======
 >   The DNS CNAME ("canonical name") record exists to provide the canonical name associated with an alias name. There may be only one such canonical name for any one alias.  
 >>>>>>> A little reformatting
+=======
+>   The DNS CNAME ("canonical name") record exists to provide the canonical name associated with an alias name. There may be only one such canonical name for any one alias.
+>>>>>>> Remove trailing spaces
 
 Which means you can't have another record along with a `CNAME` record. For example, this would be an invalid configuration:
 
