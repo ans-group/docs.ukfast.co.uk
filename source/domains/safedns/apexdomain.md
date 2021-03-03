@@ -7,5 +7,17 @@
 
 ```
 
-Your domain apex is the second or third level domain that is provided by your domain registrar. This is the domain that has your NS and SOA records set to.</br>
-For example: `foo.com` or `example.com`.
+Your domain apex is the second (or third, depending on the TLD) level domain that is provided by your domain registrar. This is the domain that has your `NS` and `SOA` records set to.
+
+For example, these are apex domains:
+
+* `ukfast.co.uk`
+* `ukfast.com`
+* `ukfast.io`
+* `ukfast.me.uk`
+
+These are _not_ apex domains:
+
+* `images.ukfast.co.uk`
+* `www.ukfast.co.uk`
+* `webmail.ukfast.com`
