@@ -45,7 +45,12 @@ An `MX` record specifies the servers that deal with incoming email and in which 
 * `Refresh` - The time interval (in seconds) before records should be refreshed. Recommended value - 86400 (24 Hours).
 * `Retry` - The time interval (in seconds) before a failed refresh should be retried. Recommended value - 7200 (2 Hours).
 * `Expire` - The time interval (in seconds) that specifies the upper limit on the time interval that can elapse before the records are no longer valid. Recommended value - up to 2419200 (672 Hours).
-* `TTL` - The number of seconds that this record will be cached on other servers.
+* `TTL` - The number of seconds that this record will be cached on other servers.  
+</br>
+
+* `ALIAS` Record:
+
+`ALIAS` are used to mimic `CNAME` behaviour, but can also be used on your [apex domain](https://docs.ukfast.co.uk/domains/safedns/apexdomain.html) and return the `A` and if configured the `AAAA` records. For more information on why you might use `ALIAS` record over `CNAME` please see this [guide](https://docs.ukfast.co.uk/domains/safedns/aliasrecord.html)
 
 ```eval_rst
    .. title:: SafeDNS | Different types of DNS records
