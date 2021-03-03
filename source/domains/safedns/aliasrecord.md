@@ -3,33 +3,39 @@
    .. title:: SafeDNS | ALIAS Record
    .. meta::
       :title: SafeDNS | ALIAS Record | UKFast Documentation
-      :description: Explanation of the ALIAS Record
+      :description: Explanation of the ALIAS record and its use
 
 ```
 ### Why should you use an `ALIAS` record over a `CNAME` record?
 
-`ALIAS` records are used to overcome a limitation of the `CNAME` record from the [RFC2181](https://tools.ietf.org/html/rfc2181#section-10.1):
-> <sub><sup>There may be only one</sup></sub></br>
-> <sub><sup>such canonical name for any one alias.</sup></sub></br>
+`ALIAS` records are used to overcome a limitation of the `CNAME` record. From the [RFC2181](https://tools.ietf.org/html/rfc2181#section-10.1):
 
-Which means you can't have another record along with a `CNAME` record. For example:
-```
+> 10.1. CNAME resource records
+>
+>   The DNS CNAME ("canonical name") record exists to provide the canonical name associated with an alias name. There may be only one such canonical name for any one alias.  
+
+Which means you can't have another record along with a `CNAME` record. For example, this would be an invalid configuration:
+
+```none
 www.example.org 300 IN CNAME example.org
 www.example.org 300 IN TXT "some text"
 ```
-would be an invalid configuration.
 
-However you can't just remove all records from your [apex domain](https://docs.ukfast.co.uk/domains/safedns/apexdomain.html) when you want to use the `CNAME` record. As this breaks another RFC from the [Zone authority section](https://tools.ietf.org/html/rfc2181#section-6.1):
-> <sub><sup>The authoritative servers for a zone are enumerated in the NS records</sup></sub></br>
-> <sub><sup>for the origin of the zone, which, along with a Start of Authority</sup></sub></br>
-> <sub><sup>(SOA) record are the mandatory records in every zone.</sup></sub></br>
+However you can't just remove all records from your [apex domain](https://docs.ukfast.co.uk/domains/safedns/apexdomain.html) when you want to use the `CNAME` record. This would  break another RFC from the [Zone authority section](https://tools.ietf.org/html/rfc2181#section-6.1):
 
-So you have a mandatory `NS` and `SOA` with your [apex domain](https://docs.ukfast.co.uk/domains/safedns/apex-domain.html), so using a `CNAME` there is an invalid configuration. This is where the `ALIAS` record comes in to help work around this problem.
+> The authoritative servers for a zone are enumerated in the `NS` records for the origin of the zone, which, along with a Start of Authority (`SOA`) record are the mandatory records in every zone.
 
-If you want to use a domain name that been provided by a CDN/DDoS provider on your [apex domain](https://docs.ukfast.co.uk/domains/safedns/apex-domain.html) SafeDNS allows you to set the `ALIAS` record and we will return the address records. For example:
-```
+You have a mandatory `NS` and `SOA` record on your [apex domain](https://docs.ukfast.co.uk/domains/safedns/apex-domain.html), so if using a `CNAME` too there is an invalid configuration. This is where the `ALIAS` record comes in, to help work around this problem.
+
+If you want to use a domain name that been provided by a CDN / DDoS provider on your [apex domain](https://docs.ukfast.co.uk/domains/safedns/apex-domain.html), SafeDNS allows you to set the `ALIAS` record and we will return the address records. For example:
+
+```none
 example.org 300 IN ALIAS example.com
 ```
-When you look up example.org we will return the `A` and if configured the `AAAA` records of example.com.
 
-<b>Note: The `ALIAS` record is not actually officially an RFC, so where possible you should use the `CNAME` record</b>
+In that example, when you look up `example.org`, we will return the `A` and (if configured) the `AAAA` records of `example.com`.
+
+```eval_rst
+.. note::
+  The ``ALIAS`` record is not an official type under the RFC, so where possible you should use the ``CNAME`` record
+```
