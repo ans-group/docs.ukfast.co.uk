@@ -1,4 +1,4 @@
-# Taking Database Backups
+# How to Backup MySQL / MariaDB Databases
 
 Ensuring your databases are safely and consistently backed up is vital.
 
@@ -33,15 +33,16 @@ mysqldump yourdatabase | gzip > yourdatabase.sql.gz
 ```
 
 #### Useful options
-
+* `--host=host_name`, `-h remote_host`
+  * The default host is `localhost`, but you can use this flag to specify a *remote host*.
 * `--single-transaction`
-   Issues a `START TRANSACTION` statement before dumping data, for consistency. Turns off `lock-tables`, and is only useful for InnoDB tables
+  * Issues a `START TRANSACTION` statement before dumping data, for consistency. Turns off `lock-tables`, and is only useful for InnoDB tables
 * `--quick`
-   On by default, forces `mysqldump` to retrieve table rows one at a time and dump straight to `stdout`, instead of buffering to memory.
+  * On by default, forces `mysqldump` to retrieve table rows one at a time and dump straight to `stdout`, instead of buffering to memory.
 * `--events --routines`
-   mysqldump dumps triggers along with tables, as these are part of the table definition. However, stored procedures, views, and events are not, and need extra parameters to be recreated explicitly
+  * mysqldump dumps triggers along with tables, as these are part of the table definition. However, stored procedures, views, and events are not, and need extra parameters to be recreated explicitly
 * `--lock-tables`
-For MyISAM tables, this will prevent writes to the database during the dump.
+  * For MyISAM tables, this will prevent writes to the database during the dump.
 
 ```eval_rst
 .. warning::
@@ -181,9 +182,9 @@ mariabackup --prepare --target-dir=/path/to/backup/
 ```
 
 ```eval_rst
-  .. title:: How to Backup MySQL / MariaDB Databases
+  .. title:: MySQL | How to Backup MySQL / MariaDB Databases
   .. meta::
-     :title: How to Backup MySQL / MariaDB Databases | UKFast Documentation
+     :title: MySQL | How to Backup MySQL / MariaDB Databases | UKFast Documentation
      :description: A guide for taking consistent database backups on a Linux server
      :keywords: ukfast, linux, mysql, mysqldump, xtrabackup, mariabackup, backups, server, guide, tutorial
 ```
