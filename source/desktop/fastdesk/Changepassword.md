@@ -23,9 +23,9 @@ Click on this cog will bring up multiple options as shown in **image 3** below.
 
 ![Image 3 Settings Options](files/Settings_options.PNG "Image 3: Settings Options")
 
-![Image 3 Settings Page](files/Settings_page.PNG "Image 3: Settings page")
+Next, select *“Account Settings”* which will take you to another page as displayed in  **image 4** . 
 
-Next, select *“Account Settings”* which will take you to another page. 
+![Image 4 Settings Page](files/Settings_page.PNG "Image 4: Settings page")
 
 ![Image 4 Cog Options](files/Cog_options.png "Image 4: Cog Options")
 
