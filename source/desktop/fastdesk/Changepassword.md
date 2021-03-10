@@ -27,12 +27,9 @@ Next, select *“Account Settings”* which will take you to another page as dis
 
 ![Image 4 Settings Page](files/Settings_page.PNG "Image 4: Settings page")
 
-![Image 4 Cog Options](files/Cog_options.png "Image 4: Cog Options")
-
 On this page you will find *“Change Password”*. Here you will be able to change your password to something new (**refer to image 5** below). 
 
 ![Image 5 Password Change](files/Password_reset.PNG "Image 5: Password Change")
-
 
 ```eval_rst
 .. warning::
