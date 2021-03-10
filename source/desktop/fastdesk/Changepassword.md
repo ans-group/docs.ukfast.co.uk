@@ -15,21 +15,23 @@ From your local PC, browse via an internet browser to the FastDesk web portal [l
 
 ![Image 1 FastDesk Landing Page](files/Welcome_screen.png "Image 1: FastDesk Landing Page")
 
-Once logged in, you will need to navigate to the top right of the page where you will find the settings cog (**refer to image 2**). 
+Once logged in, you will need to navigate to the top right of the page where you will find the settings cog (**refer to image 2 below**). 
 
-![Image 2 Settings Cog](files/Settings_cog.png "Image 2: Settings Cog")
+![Image 2 Settings Cog](files/Settings_cog.PNG "Image 2: Settings Cog")
 
-Click on this cog will bring up multiple options.
+Click on this cog will bring up multiple options as shown in **image 3** below.
 
-![Image 3 Settings Page](files/Settings_page.png "Image 3: Settings page")
+![Image 3 Settings Options](files/Settings_options.PNG "Image 3: Settings Options")
 
-Next, select *“Account Settings”* which will take you to another page.
+![Image 3 Settings Page](files/Settings_page.PNG "Image 3: Settings page")
+
+Next, select *“Account Settings”* which will take you to another page. 
 
 ![Image 4 Cog Options](files/Cog_options.png "Image 4: Cog Options")
 
-On this page you will find “Change Password”. Here you will be able to change your password to something new. 
+On this page you will find *“Change Password”*. Here you will be able to change your password to something new (**refer to image 5** below). 
 
-![Image 5 Password Change](files/Password_reset.png "Image 5: Password Change")
+![Image 5 Password Change](files/Password_reset.PNG "Image 5: Password Change")
 
 
 ```eval_rst
