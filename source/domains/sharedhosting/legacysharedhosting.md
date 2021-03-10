@@ -29,24 +29,26 @@ To obtain a copy of your **MySQL** database from the shared **MySQL 5** hosting 
 
 ## Legacy Mail Hosting
 
-If you have previously been using the mail hosting service `Zippymail`, then you will need to obtain a backup of any email data you wish to retain.
+If you have previously been using the mail hosting service Zippymail, then you will need to obtain a backup of any email data you wish to retain.
 
 ### Backing up your emails
 
 From your local mail client, you will be able to export your current mail data and import it to your new mail service.
 
 ### Microsoft Outlook
+
 ```eval_rst
 .. note: This is applicable to Outlook for Microsoft 365, Outlook 2019, Outlook 2016, and Outlook 2013
 ```
- - *Select* **File > Open & Export > Import/Export**
- - *Select* **Export to a file**, and then *select* **Next**
- - *Select* **Outlook Data File (`.pst`)**, and *select* **Next**
- - *Select* the **mail folder** you want to back up and *select* **Next**
- - *Choose* a **location** and **name** for your backup file, and then *select* **Finish**
- - If you want to ensure no one has access to your files, *enter* and *confirm* a **password**, and then *select* **OK**.
 
-https://support.microsoft.com/en-us/office/back-up-your-email-e5845b0b-1aeb-424f-924c-aa1c33b18833
+- *Select* **File > Open & Export > Import/Export**
+- *Select* **Export to a file**, and then *select* **Next**
+- *Select* **Outlook Data File (`.pst`)**, and *select* **Next**
+- *Select* the **mail folder** you want to back up and *select* **Next**
+- *Choose* a **location** and **name** for your backup file, and then *select* **Finish**
+- If you want to ensure no one has access to your files, *enter* and *confirm* a **password**, and then *select* **OK**.
+
+<https://support.microsoft.com/en-us/office/back-up-your-email-e5845b0b-1aeb-424f-924c-aa1c33b18833>
 
 ```eval_rst
 .. note: Importing mail data into an alternative mail service falls outside the scope of this article
@@ -54,11 +56,11 @@ https://support.microsoft.com/en-us/office/back-up-your-email-e5845b0b-1aeb-424f
 
 ### Apple Mail
 
-To export your **Apple/Mac Mail** mailboxes, use the following steps
+To export your [Apple Mail](https://en.wikipedia.org/wiki/Apple_Mail) mailboxes, use the following steps
 
 - Open your **Mail App**
-- *Right click* on the **mailbox** you require and *select* **Export Mailbox** from drop down menu. This will export in `MBOX` format
-- For **multiple mailboxes**, use the `CMD` key to select multiple items, and then *right click* and choose **Export Mailbox**.
+- *Right click* on the **mailbox** you require and *select* **Export Mailbox** from drop down menu. This will export in [Mbox](https://en.wikipedia.org/wiki/Mbox) format.
+- For **multiple mailboxes**, use the Command Key (⌘) to select multiple items, and then *right click* and choose **Export Mailbox**.
 
 ```eval_rst
   .. title:: How to Retrieve your Legacy Shared Hosting Data
