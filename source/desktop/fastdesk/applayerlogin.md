@@ -19,11 +19,11 @@ To access the app layer, you will need to log into your database user, this is a
 
 Once you are logged in, please open up the database user desktop as usual. 
 
-![Image 1: Citrix Website OS options Download Page](files/Website_download.PNG "Image 1: Citrix website OS options download page")
+![Image 2: Citrix Website OS options Download Page](files/Website_download.PNG "Image 2: Citrix website OS options download page")
 
 Once the desktop has launched, you should see a remote desktop application shortcut that has been created on the desktop. This will be called `"Application layer Shortcut"`. Alternatively, it may be called the name of the application you are looking to install. 
 
-![Image 1: Citrix Website OS options Download Page](files/Website_download.PNG "Image 1: Citrix website OS options download page")
+![Image 3: Citrix Website OS options Download Page](files/Website_download.PNG "Image 3: Citrix website OS options download page")
 
 If you click on that shortcut you should be prompted to enter a password to login into the application layer. The password needed will be provided to yourself through the ticket system via a ticket that will be raised in regards to your application install or update. If additional information is needed such as a username or IP address of the application layer then they may also be provided in the ticket.
 
@@ -39,6 +39,8 @@ Once the application layer has been launched, it will function as a normal deskt
 ```
 
 Once complete, please sign out of the application layer. Refer to **image **
+
+![Image 4: Citrix Website OS options Download Page](files/Website_download.PNG "Image 4: Citrix website OS options download page")
 
 Once signed out, please inform the FastDesk team that you are ready to push this layer out to users. If you are installing an application for the first time, please state which users you want to have access to the application.
 
