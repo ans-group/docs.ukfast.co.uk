@@ -11,11 +11,11 @@ Next, on your local device (the device you would use to access FastDesk) open up
 
 Next, click “Go”. 
 
-![Image 2 Speed Test GO](files/speed_test.net.PNG "Image 2: Speed Test GO")
+![Image 2 Speed Test GO](files/speed_test.PNG "Image 2: Speed Test GO")
 
 Please let this test run. 
 
-![Image 3 Speed Test Results](files/speedtest_results.net.PNG "Image 3: Speed Test Results")
+![Image 3 Speed Test Results](files/speedtest_results.PNG "Image 3: Speed Test Results")
 
 Once this test has been completed, please screenshot this page and send the results via the support ticket or provide the statistics to a FastDesk Engineer.
 
