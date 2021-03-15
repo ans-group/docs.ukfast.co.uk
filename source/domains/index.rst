@@ -11,3 +11,4 @@ Help with managing your domains, DNS records and SSL certificates.
    safedns/index
    ssl/index
    rdns
+   sharedhosting/index
