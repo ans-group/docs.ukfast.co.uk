@@ -41,6 +41,8 @@ Once the application layer has been launched, it will function as a normal deskt
 Once complete, please sign out of the application layer. Refer to **image **
 
 Once signed out, please inform the FastDesk team that you are ready to push this layer out to users. If you are installing an application for the first time, please state which users you want to have access to the application.
+
+To allow for the updated application to come through on your desktop yourself, and other users looking for the updated application layer will need to sign out of your desktop, wait a few minutes and then sign back in. After doing so the updated or newly installed application will appear on your desktop.
  
 **_This instruction guide should assist you in installing or updating an application layer. If you have any questions or still require assistance, please contact the FastDesk support team on 0800 923 0617_**.
 
