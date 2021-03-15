@@ -122,8 +122,9 @@ creating some annoying spacing.
 https://stackoverflow.com/questions/49700502/inconsistent-line-spacing-in-restructuredtext-document
 This change should fix that without making changes to the sphinx source or downgrading the html renderer to v4.
 */
-.simple > li > p { margin: 0 0 -5px }
-
+.simple > li > p, .simple > li > ul > li > p {
+    margin: 0 0 -5px
+}
 
 /* Preformatted text */
 code {
