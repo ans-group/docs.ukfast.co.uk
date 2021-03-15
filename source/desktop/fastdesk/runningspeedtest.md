@@ -1,56 +1,34 @@
 
-# How to change your FastDesk Password
+# How to run an Internet Speed Test
 
-You have the ability to change your own FastDesk password if you are not already locked out of your account. If you are already locked out then please contact our support team either by emailling support@ukfast.co.uk or by calling 0800 923 0617. If you are not locked out, youu can change your password either through the web portal or via the Citrix Workspace Application. 
+Poor internet connectivity may hinder the performance of your FastDesk desktop. At times, we may ask you to run an internet speed test to rule this out as a possible problem. This guide should walk you through running a speed test.
 
-```eval_rst
-.. note::
+To run an internet speed test, completely sign out of your FastDesk session. For more information on how to do this, please visit our guide on how to properly sign out of your desktop [link here](https://docs.ukfast.co.uk/desktop/fastdesk/signout.html) 
 
-  This guide is specifically on completing this through the FastDesk web portal because UKFast recommends completing this through the Web Portal only.
-   
-```
+Next, on your local device (the device you would use to access FastDesk) open up an internet browser window. E.g. Chrome, Microsoft Edge. Browse to https://www.speedtest.net/ or click this [link here](https://www.speedtest.net/) 
 
-## Change your FastDesk Password through the Web Portal
+![Image 1 Speed Test URL](files/speedtest.net.PNG "Image 1: Speed Test URL")
 
-From your local PC, browse via an internet browser to the FastDesk web portal [link here](https://www.fastdesk.co.uk). Once here, you will see **Image 1** as shown below. Please log in with your FastDesk username and password.
+Next, click “Go”. 
 
-![Image 1 FastDesk Landing Page](files/Welcome_screen.png "Image 1: FastDesk Landing Page")
+![Image 2 Speed Test GO](files/speed_test.net.PNG "Image 2: Speed Test GO")
 
-Once logged in, you will need to navigate to the top right of the page where you will find the settings cog (**refer to image 2**). 
+Please let this test run. 
 
-![Image 2 Settings Cog](files/Settings_cog.png "Image 2: Settings Cog")
+![Image 3 Speed Test Results](files/speedtest_results.net.PNG "Image 3: Speed Test Results")
 
-Click on this cog will bring up multiple options.
-
-![Image 3 Settings Page](files/Settings_page.png "Image 3: Settings page")
-
-Next, select *“Account Settings”* which will take you to another page.
-
-![Image 4 Cog Options](files/Cog_options.png "Image 4: Cog Options")
-
-On this page you will find “Change Password”. Here you will be able to change your password to something new. 
-
-![Image 5 Password Change](files/Password_reset.png "Image 5: Password Change")
-
-
-```eval_rst
-.. warning::
-
-   Your new password must be a minimum of 8 characters in length and contain at least 3 of the following: uppercase letters, lowercase letters, numbers, symbols and special characters e.g “! ” £”. Your password can also not contain the name of your account. For example, if your account name is John Smith, a password with the word ‘john’ will not be accepted.
-   
-```
-Once your password has been changed, it should simply log you in. It may ask you to detect receiver, if so, simply select the option that allows it to detect the receiver.
+Once this test has been completed, please screenshot this page and send the results via the support ticket or provide the statistics to a FastDesk Engineer.
 
 ```eval_rst
 .. note::
 
-   This instruction guide should assist you in changing your FastDesk password. If you have any questions or still require assistance, please contact the FastDesk support team on 0800 923 0617.
+  This guide is aimed at helping you to run a speed test outside of your FastDesk session. If you have any questions or still require assistance, please contact the FastDesk support team on 0800 923 0617.
    
 ```
   ```eval_rst
-      .. title:: FastDesk | Changing FastDesk Password
+      .. title:: FastDesk | Running a speed test
       .. meta::
-      :title: Guide on how to change your FastDesk Paswword | UKFast Documentation
-      :description: Guide for users on how to change their FastDesk Password
-      :keywords: FastDesk, Citrix, ukfast, VDI, Citrix Receiver, Windows, Workspace Application, Password, Change, Reset, Web, Portal
+      :title: Guide on how to run a speed test outside of your FastDesk session | UKFast Documentation
+      :description: Guide for users on how to run an internet speed test
+      :keywords: FastDesk, Endpoint, ukfast, Internet, Citrix Receiver, Windows, Workspace Application, Change, Test, Web, Speed
       ```  
