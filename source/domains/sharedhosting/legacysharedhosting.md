@@ -4,23 +4,26 @@
 
 To obtain your domain content, you will need to use an **FTP client** and your existing **FTP credentials**.
 
-- In your `MyUKFast` client portal, browse to **Domains** and choose **View Domains**
+- In your [MyUKFast](https://my.ukfast.co.uk) client portal, browse to **Domains** and choose **View Domains**
 - Locate and open your hosted domain
 - *Select* the **FTP** tab at the top of the page
 
 ![FTP Tab](files/hosting_ftp1.PNG)
 
-- Here you can obtain the following FTP connection details
-  - **Username/Password**
+- Here you can obtain the following FTP connection details:
+
+  - **Username**
+  - **Password**
   - **Server IP**
 
 ![FTP Tab](files/hosting_ftp_credentials.jpg)
 
 ```eval_rst
 .. note::
-   For assistance with connecting to your website content via FTP, please see the following user guide.
+   Please see our user guide on `connecting to your website via FTP`_ for further assistance.
 
-   - :doc:`/operatingsystems/windows/commonissues/copyfiletoserver.html#connecting-to-your-ftp-server`
+.. _connecting to your website via FTP: /operatingsystems/windows/commonissues/copyfiletoserver.html#connecting-to-your-ftp-server
+
 ```
 
 ## Legacy Database Hosting
@@ -28,7 +31,6 @@ To obtain your domain content, you will need to use an **FTP client** and your e
 To obtain a copy of your **MySQL** database from the shared **MySQL 5** hosting service, please use the following guide, substituting the *host*, *user* and *password* for the connection details in your application.
 
 - [Backing up your MySQL Database](/operatingsystems/linux/mysql/backups.html#useful-options)
-
 
 ## Legacy Mail Hosting
 
