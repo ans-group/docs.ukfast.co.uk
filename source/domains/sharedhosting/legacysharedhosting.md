@@ -13,7 +13,6 @@ To obtain your domain content, you will need to use an **FTP client** and your e
 - Here you can obtain the following FTP connection details
   - **Username/Password**
   - **Server IP**
-  - A password reset, should you require this
 
 ![FTP Tab](files/hosting_ftp_credentials.jpg)
 
