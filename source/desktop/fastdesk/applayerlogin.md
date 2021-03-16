@@ -49,6 +49,7 @@ Once the application layer has been launched, you will see the `Recycle Bin` as 
    Please do not shut down or finalize the application layer. Doing this will make it inaccessible and will require us to open a new application layer for yourself.
    
 ```
+When installing an application, you may be required to enter a data path (some applications only). For this you can use your Database/App/File server. For more information on this, please contact our support team. 
 
 Once complete, please sign out of the application layer.  For more information on how to do this, please visit our guide on how to properly sign out of your desktop [link here](https://docs.ukfast.co.uk/desktop/fastdesk/signout.html) 
 
