@@ -32,7 +32,19 @@ Here are step-by-step tutorials designed to help you set up and launch your Fast
    getting_started_guide/FASTdeskGettingStartedGuideAndroid.md
    
 ---------------------
-How-to guides
+How-to guides (For Admins)
+---------------------
+
+Further step-by-step support related tutorials designed to help you self-service.
+
+.. toctree::
+   :maxdepth: 1
+   
+   runningspeedtest
+   databaselogin
+   
+   ---------------------
+How-to guides (For End-Users)
 ---------------------
 
 Further step-by-step support related tutorials designed to help you self-service.
@@ -43,7 +55,7 @@ Further step-by-step support related tutorials designed to help you self-service
    Changepassword
    signout
    updateworkspace
-   runningspeedtest 
+   
    
 ---------------------
 Additional Resources
