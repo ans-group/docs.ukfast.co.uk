@@ -2,8 +2,6 @@
 
 If you have purchased any additional virtual vachines (VMs) from UKFast(Database Server, Application Server, File Server), you will be provided with an additional user which is called `Database user`. This user is a regular FastDesk user with elevated permissions that allows it to connect to any additional VMs as well as the application layer (For more information on accessing the application layer, please visit our guide [link here](https://docs.ukfast.co.uk/desktop/fastdesk/applayerlogin.html) .
 
-
-
 ## Step 1 - Login as Database User
 
 To access your additional VM, you will need to log into your database user, this is accessed the same way as you would access your desktop when you login. From the FastDesk login page, enter the credentials for the database user (which will have been provided to you through email or ticket when your database machine or entire solution was setup).
@@ -12,7 +10,13 @@ To access your additional VM, you will need to log into your database user, this
 
 Once you are logged in, please open up the database user desktop as usual. 
 
-Once the database user desktop has launched, you should see a remote desktop application (RDP) shortcut that has been created on the desktop. This will be called `"Application layer Shortcut"`. Alternatively, it may be called the name of the application you are looking to install. 
+Once the database user desktop has launched, navigate to the search bar and search for `Remote Desktop Connection`. Open `Remote Desktop Connection`.
+
+![Image 2: Application Layer Shortcut](files/RDPsearch2.PNG "Image 2: Application Layer Shortcut")
+
+Once open, enter the `Host name` or the `IP address` of the database you wish to connect into. 
+
+you should see a remote desktop application (RDP) shortcut that has been created on the desktop. This will be called `"Application layer Shortcut"`. Alternatively, it may be called the name of the application you are looking to install. 
 
 ![Image 2: Application Layer Shortcut](files/applayershortcut2.PNG "Image 2: Application Layer Shortcut")
 
