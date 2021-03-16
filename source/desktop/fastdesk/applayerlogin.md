@@ -18,7 +18,7 @@ If you would like to install an application, you will need to contact the FastDe
 
 To access the app layer, you will need to log into your database user, this is accessed the same way as you would access your desktop when you login. From the FastDesk login page, enter the credentials for the database user (which will have been provided to you through email or ticket when your database machine or entire solution was setup).
 
-![Image 1: FastDesk Log in Page](files/databaseuserlogin.PNG "Image 1: FastDesk Log in Page")
+![Image 1: FastDesk Log in Page](files/Welcome_screen.png "Image 1: FastDesk Log in Page")
 
 ```eval_rst
 .. note::
