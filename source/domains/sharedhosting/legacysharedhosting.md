@@ -16,7 +16,7 @@ To obtain your domain content, you will need to use an **FTP client** and your e
 
 ![FTP Tab](files/hosting_ftp_credentials.jpg)
 
-For assistence with FTP, please see the following user guide.
+For assistance with connecting with FTP, please see the following user guide.
 
 - [Connecting with FTP](/operatingsystems/windows/commonissues/copyfiletoserver.html#connecting-to-your-ftp-server)
 
