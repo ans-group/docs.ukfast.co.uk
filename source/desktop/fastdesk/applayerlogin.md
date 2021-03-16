@@ -41,7 +41,7 @@ If you click on that shortcut you should be prompted to enter a password to logi
 
 Once the application layer has been launched, you will see the `Recycle Bin` as well as a `Shutdown for Finalize` shortcut. You now have elevated admin privileges to install and/or update applications. Please install or update any applications that you have requested be added. Refer to **Image 4** below.
 
-![Image 4: Application Layer Desktop](files/applayerdesktop2.PNG "Image 4: Application Layer Desktop")
+![Image 4: Application Layer Desktop](files/applayerdesktop23.PNG "Image 4: Application Layer Desktop")
 
   ```eval_rst
 .. warning::
@@ -51,8 +51,6 @@ Once the application layer has been launched, you will see the `Recycle Bin` as 
 ```
 
 Once complete, please sign out of the application layer.  For more information on how to do this, please visit our guide on how to properly sign out of your desktop [link here](https://docs.ukfast.co.uk/desktop/fastdesk/signout.html) 
-
-![Image 4: Citrix Website OS options Download Page](files/Website_download.PNG "Image 4: Citrix website OS options download page")
 
 Once signed out, please inform the FastDesk team that you are ready to push this layer out to users. If you are installing an application for the first time, please state which users you want to have access to the application.
 
