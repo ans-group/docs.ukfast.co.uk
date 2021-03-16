@@ -9,7 +9,7 @@ FastDesk desktop sessions are non-persistent which means that upon reboot, they 
    
 ```
 
-## Accessing the Application Layer
+## Step 1 - Accessing the Application Layer
 
 If you would like to install an application, you will need to contact the FastDesk support team to request an app layer to be opened. The FastDesk support team will let you know that the layer has been opened and they will provide you with the details needed to log in. Once the application layer is open, you will be able to connect to and access it so that you may perform your application installations or updates.
 
@@ -27,7 +27,7 @@ Once the desktop has launched, you should see a remote desktop application short
 
 If you click on that shortcut you should be prompted to enter a password to login into the application layer. The password needed will be provided to yourself through the ticket system via a ticket that will be raised in regards to your application install or update. If additional information is needed such as a username or IP address of the application layer then they may also be provided in the ticket.
 
-## Installing or Updating the Application(s)
+## Step 2 - Installing or Updating the Application(s)
 
 Once the application layer has been launched, it will function as a normal desktop, please install or update any applications that you have requested be added. 
 
