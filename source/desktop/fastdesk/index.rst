@@ -41,6 +41,7 @@ Further step-by-step support related tutorials designed to help you self-service
    :maxdepth: 1
    
    runningspeedtest
+   applayerlogin
    databaselogin
    
    ---------------------
@@ -67,6 +68,7 @@ Find additional resources that will allow you to enhance or customise your FastD
    :maxdepth: 1
    
    custombrand
+   
    
 .. meta::
    :title: FastDesk - hosted desktops | UKFast Documentation
