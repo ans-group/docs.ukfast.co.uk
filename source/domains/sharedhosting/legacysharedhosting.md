@@ -45,7 +45,7 @@ From your local mail client, you will be able to export your current mail data a
  - *Select* the **mail folder** you want to back up and *select* **Next**
  - *Choose* a **location** and **name** for your backup file, and then *select* **Finish**
  - If you want to ensure no one has access to your files, *enter* and *confirm* a **password**, and then *select* **OK**.
- 
+
 https://support.microsoft.com/en-us/office/back-up-your-email-e5845b0b-1aeb-424f-924c-aa1c33b18833
 
 ```eval_rst
@@ -58,7 +58,7 @@ To export your **Apple/Mac Mail** mailboxes, use the following steps
 
 - Open your **Mail App**
 - *Right click* on the **mailbox** you require and *select* **Export Mailbox** from drop down menu. This will export in **MBOX** format
-- For **multiple mailboxes**, use the **CMD** key to select multiple items, and then *right click* and choose **Export Mailbox**. 
+- For **multiple mailboxes**, use the **CMD** key to select multiple items, and then *right click* and choose **Export Mailbox**.
 
 ```eval_rst
   .. title:: How to Retrieve your Legacy Shared Hosting Data
