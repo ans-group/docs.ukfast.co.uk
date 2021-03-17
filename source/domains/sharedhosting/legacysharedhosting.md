@@ -19,7 +19,7 @@ To obtain your domain content, you will need to use an **FTP client** and your e
 ```eval_rst
 .. note::
    For assistance with connecting to your website content via FTP, please see the following user guide.
-   
+
    - :doc:`/operatingsystems/windows/commonissues/copyfiletoserver.html#connecting-to-your-ftp-server`
 ```
 
