@@ -4,19 +4,6 @@ FastDesk
 
 FastDesk is our desktop as a service (DaaS) solution, based on our award-winning hosting platform. It combines enterprise-grade infrastructure and hosting with market-leading Citrix desktop-virtualisation technology to provide a seamless all-in-one desktop experience regardless of the endpoint device. Welcome to the Future.
 
-For more information about FastDesk, and how it can help increase the flexibility in the way users work, please visit the various links below. 
-
-- `What is FastDesk? <https://www.ukfast.co.uk/fastdesk.html>`_
- 
-- `Where is FastDesk? <https://www.ukfast.co.uk/our-datacentres.html/>`_
- 
-- `Where can I find FastDesk's IT Security Compliance Certifications? <https://www.ukfast.co.uk/certifications.html>`_
- 
-- `How can I partner with FastDesk? <https://www.ukfast.co.uk/partner-programme-reseller-application.html>`_
-
-- `How can I check FastDesk's current Network Status? <https://ukfast.network/>`_
-
-
 ------------------------------
 Getting Started Guides 
 ------------------------------
@@ -56,8 +43,7 @@ Further step-by-step support related tutorials designed to help you self-service
    Changepassword
    signout
    updateworkspace
-   
-   
+      
 ---------------------
 Additional Resources
 ---------------------
@@ -68,6 +54,21 @@ Find additional resources that will allow you to enhance or customise your FastD
    :maxdepth: 1
    
    custombrand
+   
+ - `What is FastDesk? <https://www.ukfast.co.uk/fastdesk.html>`_  
+  
+  For more information about FastDesk, and how it can help increase the flexibility in the way users work, please visit the various links below. 
+
+- `What is FastDesk? <https://www.ukfast.co.uk/fastdesk.html>`_
+ 
+- `Where is FastDesk? <https://www.ukfast.co.uk/our-datacentres.html/>`_
+ 
+- `Where can I find FastDesk's IT Security Compliance Certifications? <https://www.ukfast.co.uk/certifications.html>`_
+ 
+- `How can I partner with FastDesk? <https://www.ukfast.co.uk/partner-programme-reseller-application.html>`_
+
+- `How can I check FastDesk's current Network Status? <https://ukfast.network/>`_
+   
    
    
 .. meta::
