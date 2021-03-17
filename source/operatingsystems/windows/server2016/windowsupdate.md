@@ -33,5 +33,7 @@ To Disable Auto Restart for updates
   .. meta::
      :title: Automatic updates in Windows Server 2016 | UKFast Documentation
      :description: Information on the automatic updates feature in Windows Server 2016
+[win2k16_disable_autoreboot_winupdate.zip](https://github.com/ukfast/docs.ukfast.co.uk/files/6155104/win2k16_disable_autoreboot_winupdate.zip)
+
      :keywords: ukfast, automatic, windows, updates, 2016, server, tutorial, restart, cloud
 ```
