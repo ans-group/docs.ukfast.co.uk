@@ -29,7 +29,7 @@ To obtain a copy of your **MySQL** database from the shared **MySQL 5** hosting 
 
 ## Legacy Mail Hosting
 
-If you have previously been using the mail hosting service **Zippymail**, then you will need to obtain a backup of any email data you wish to retain.
+If you have previously been using the mail hosting service `Zippymail`, then you will need to obtain a backup of any email data you wish to retain.
 
 ### Backing up your emails
 
@@ -41,7 +41,7 @@ From your local mail client, you will be able to export your current mail data a
 ```
  - *Select* **File > Open & Export > Import/Export**
  - *Select* **Export to a file**, and then *select* **Next**
- - *Select* **Outlook Data File (.pst)**, and *select* **Next**
+ - *Select* **Outlook Data File (`.pst`)**, and *select* **Next**
  - *Select* the **mail folder** you want to back up and *select* **Next**
  - *Choose* a **location** and **name** for your backup file, and then *select* **Finish**
  - If you want to ensure no one has access to your files, *enter* and *confirm* a **password**, and then *select* **OK**.
@@ -57,8 +57,8 @@ https://support.microsoft.com/en-us/office/back-up-your-email-e5845b0b-1aeb-424f
 To export your **Apple/Mac Mail** mailboxes, use the following steps
 
 - Open your **Mail App**
-- *Right click* on the **mailbox** you require and *select* **Export Mailbox** from drop down menu. This will export in **MBOX** format
-- For **multiple mailboxes**, use the **CMD** key to select multiple items, and then *right click* and choose **Export Mailbox**.
+- *Right click* on the **mailbox** you require and *select* **Export Mailbox** from drop down menu. This will export in `MBOX` format
+- For **multiple mailboxes**, use the `CMD` key to select multiple items, and then *right click* and choose **Export Mailbox**.
 
 ```eval_rst
   .. title:: How to Retrieve your Legacy Shared Hosting Data
