@@ -16,9 +16,12 @@ To obtain your domain content, you will need to use an **FTP client** and your e
 
 ![FTP Tab](files/hosting_ftp_credentials.jpg)
 
-For assistance with connecting with FTP, please see the following user guide.
-
-- [Connecting with FTP](/operatingsystems/windows/commonissues/copyfiletoserver.html#connecting-to-your-ftp-server)
+```eval_rst
+.. note::
+   For assistance with connecting to your website content via FTP, please see the following user guide.
+   
+   - :doc:`/operatingsystems/windows/commonissues/copyfiletoserver.html#connecting-to-your-ftp-server`
+```
 
 ## Legacy Database Hosting
 
@@ -38,7 +41,7 @@ From your local mail client, you will be able to export your current mail data a
 ### Microsoft Outlook
 
 ```eval_rst
-.. note: This is applicable to Outlook for Microsoft 365, Outlook 2019, Outlook 2016, and Outlook 2013
+.. note:: This is applicable to Outlook for Microsoft 365, Outlook 2019, Outlook 2016, and Outlook 2013
 ```
 
 - *Select* **File > Open & Export > Import/Export**
@@ -48,10 +51,9 @@ From your local mail client, you will be able to export your current mail data a
 - *Choose* a **location** and **name** for your backup file, and then *select* **Finish**
 - If you want to ensure no one has access to your files, *enter* and *confirm* a **password**, and then *select* **OK**.
 
-<https://support.microsoft.com/en-us/office/back-up-your-email-e5845b0b-1aeb-424f-924c-aa1c33b18833>
 
 ```eval_rst
-.. note: Importing mail data into an alternative mail service falls outside the scope of this article
+.. note:: Importing mail data into an alternative mail service falls outside the scope of this article
 ```
 
 ### Apple Mail
