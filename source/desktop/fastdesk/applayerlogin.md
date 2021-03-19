@@ -23,25 +23,28 @@ To access the app layer, you will need to log into your database user, this is a
 ```eval_rst
 .. note::
 
-  If you do not have a database user, you will have been assigned the correct permissions to access the Application Layer from your regular FastDesk Desktop. Refer to additional content at the bottom of the page on how to access the application layer without a database user.
+  If you do not have a database user, you will have been assigned the correct permissions to access the Application Layer from your regular FastDesk Desktop. Follow the same steps as below but through your personal desktop instead. For specific steps, check out th
    
 ```
-
 Once you are logged in, please open up the database user desktop as usual. 
 
-Once the database user desktop has launched, you should see a remote desktop application (RDP) shortcut that has been created on the desktop. This will be called `"Application layer Shortcut"`. Alternatively, it may be called the name of the application you are looking to install. 
+Next, you will need to open up “Remote Desktop Connection”. Refer to **Image 2** below. To find this, you may need to search for it or find it within the list of applications.
 
-![Image 2: Application Layer Shortcut](files/applayershortcut2.PNG "Image 2: Application Layer Shortcut")
+![Image 2: Remote Desktop Connection Search](files/RDPsearch2.PNG "Image 2: Remote Desktop Connection Search")
 
-If you click on that shortcut you should be prompted to enter a password to login into the application layer. The password needed will be provided to yourself through the ticket system via a ticket that will be raised in regards to your application install or update. If additional information is needed such as a username or IP address of the application layer then they may also be provided in the ticket. Refer to **image 3** below.
+Once this is open, you will need to enter the IP Address which the support engineer has provided in the ticket. Refer to **Image 3** below.
 
-![Image 3: RDP Credentials](files/applayercreds2.PNG "Image 3: RDP Credentials")
+![Image 3: Enter IP address](files/RDP_Enter_IP.PNG "Image 3: Enter IP address")
+
+When you have entered this, you will then be prompted to enter a username and password. The username and password needed will be provided to yourself through the ticket system via a ticket that will be raised in regards to your application install or update. Refer to **image 4** below.
+
+![Image 4: RDP Credentials](files/applayercreds2.PNG "Image 4: RDP Credentials")
 
 ## Step 3 - Installing or Updating the Application(s)
 
-Once the application layer has been launched, you will see the `Recycle Bin` as well as a `Shutdown for Finalize` shortcut. You now have elevated admin privileges to install and/or update applications. Please install or update any applications that you have requested be added. Refer to **Image 4** below.
+Once the application layer has been launched, you will see the `Recycle Bin` as well as a `Shutdown for Finalize` shortcut. You now have elevated admin privileges to install and/or update applications. Please install or update any applications that you have requested be added. Refer to **Image 5** below.
 
-![Image 4: Application Layer Desktop](files/applayerdesktop23.PNG "Image 4: Application Layer Desktop")
+![Image 5: Application Layer Desktop](files/applayerdesktop23.PNG "Image 5: Application Layer Desktop")
 
   ```eval_rst
 .. warning::
@@ -61,13 +64,13 @@ To allow for the updated application to come through on your desktop yourself, a
 
 Following the instructions of Step 1, you should have the credentials for the app layer. To access the app layer, you will need to log as your FastDesk user.
 
-Within your FastDesk session, you will need to open up “Remote Desktop Connection”. Refer to **Image 5** below. To find this, you may need to search for it or find it within the list of applications.
+Within your FastDesk session, you will need to open up “Remote Desktop Connection”. Refer to **Image 6** below. To find this, you may need to search for it or find it within the list of applications.
 
-![Image 5: Remote Desktop Connection Search](files/RDPsearch2.PNG "Image 5: Remote Desktop Connection Search")
+![Image 6: Remote Desktop Connection Search](files/RDPsearch2.PNG "Image 6: Remote Desktop Connection Search")
 
-Once this is open, you will need to enter the IP Address which the support engineer has provided in the ticket. Refer to **Image 6** below.
+Once this is open, you will need to enter the IP Address which the support engineer has provided in the ticket. Refer to **Image 7** below.
 
-![Image 6: Enter IP address](files/RDP_Enter_IP.PNG "Image 6: Enter IP address")
+![Image 7: Enter IP address](files/RDP_Enter_IP.PNG "Image 7: Enter IP address")
 
 When you have entered this, you will then be prompted to enter a username and password. This is where you will need to enter the username and password which has been supplied in the support ticket. 
 
