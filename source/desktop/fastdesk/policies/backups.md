@@ -21,7 +21,9 @@ File level backups are backups that are done at the Operating System level, thro
 
 ## Individual User Data
 
-For individual users, their home drives (appdata, desktop, my documents, downloads e.t.c) are currently file-level meaning the entire VM does not need to be restored and we are able to go back and restore files. The only caveat to this is the size of the folders in question. If the folder/file size is very large, we may recommend completing a VM level restore instead as the File Level restores are much slower. For the user’s home drives, this is currently done using incremental backups at the end of each day between 12am and 4am. A full back up is taken on the 7th day. The backups are then stored for 28 days. 
+For individual users, their home drives (appdata, desktop, my documents, downloads e.t.c) are currently file-level meaning the entire VM does not need to be restored and we are able to go back and restore files. The only caveat to this is the size of the folders in question. If the folder/file size is very large, we may recommend completing a VM level restore instead as the File Level restores are much slower. For the user’s home drives, this is currently done using incremental backups at the end of each day between 12am and 4am. A synthetic full back up is taken on the 7th day. 
+
+Synthetic full backups consolidate the data from the latest full backup or synthetic full backup together with any subsequent incremental backups into one archive file, instead of reading and backing up data directly from the client computer. Since synthetic full backups do not back up data from the client computer, this operation imposes no load on the client computer. The backups are then stored for 28 days. 
 
 ## DB/File/App Server Data
 
