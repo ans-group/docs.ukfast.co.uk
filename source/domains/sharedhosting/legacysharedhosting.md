@@ -36,6 +36,8 @@ Before removing Domain Forwarding from your domain, please ensure you have confi
 - In your [MyUKFast](https://my.ukfast.co.uk) client portal, browse to **Domains** and choose **View Domains**
 - Locate and open your hosted domain.
 - Under **Shared Hosting**, select **Remove forward**
+- Select **Save changes**
+
 ![Editing a Forwarder](files/forwarding_1.jpg)
 
 ## Legacy Database Hosting
