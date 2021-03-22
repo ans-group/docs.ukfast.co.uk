@@ -55,9 +55,9 @@ Find additional resources that will allow you to enhance or customise your FastD
    :maxdepth: 1
    
    custombrand
+   2fa
    
-   
-  
+    
   For more information about FastDesk, and how it can help increase the flexibility in the way users work, please visit the various links below. 
 
 - `What is FastDesk? <https://www.ukfast.co.uk/fastdesk.html>`_
