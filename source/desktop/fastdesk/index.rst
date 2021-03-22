@@ -22,7 +22,7 @@ Here are step-by-step tutorials designed to help you set up and launch your Fast
 How-to guides (For Admins)
 ---------------------
 
-Further step-by-step support related tutorials designed to help you self-service.
+Support materials and guides to help you manage your environment.
 
 .. toctree::
    :maxdepth: 1
