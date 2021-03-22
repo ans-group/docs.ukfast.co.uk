@@ -31,6 +31,7 @@ Further step-by-step support related tutorials designed to help you self-service
    applayerlogin
    databaselogin
    
+   
    ---------------------
 How-to guides (For End-Users)
 ---------------------
@@ -54,6 +55,7 @@ Find additional resources that will allow you to enhance or customise your FastD
    :maxdepth: 1
    
    custombrand
+   backups
    
   
   For more information about FastDesk, and how it can help increase the flexibility in the way users work, please visit the various links below. 
