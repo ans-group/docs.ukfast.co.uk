@@ -27,9 +27,9 @@ Further step-by-step support related tutorials designed to help you self-service
 .. toctree::
    :maxdepth: 1
    
-   runningspeedtest
-   applayerlogin
-   databaselogin
+   howtoguide/runningspeedtest
+   howtoguide/applayerlogin
+   howtoguide/databaselogin
    policies/index
    
 ---------------------
@@ -41,9 +41,9 @@ Further step-by-step support related tutorials designed to help you self-service
 .. toctree::
    :maxdepth: 1
    
-   Changepassword
-   signout
-   updateworkspace
+   howtoguide/Changepassword
+   howtoguide/signout
+   howtoguide/updateworkspace
       
 ---------------------
 Additional Resources
