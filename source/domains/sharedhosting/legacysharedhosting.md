@@ -25,6 +25,18 @@ To obtain your domain content, you will need to use an **FTP client** and your e
 .. _connecting to your website via FTP: /operatingsystems/windows/commonissues/copyfiletoserver.html#connecting-to-your-ftp-server
 
 ```
+## Removing Domain Forwarding
+```eval_rst
+.. warning::
+Before removing Domain Forwarding from your domain, please ensure you have configured a suitable replacement redirect, such as a `CNAME/ALIAS record`_ or an application level redirect.
+
+.. _CNAME/ALIAS record: /domains/safedns/recordtypes.html
+
+```
+- In your [MyUKFast](https://my.ukfast.co.uk) client portal, browse to **Domains** and choose **View Domains**
+- Locate and open your hosted domain.
+- Under **Shared Hosting**, select **Remove forward**
+![Editing a Forwarder](files/forwarding_1.jpg)
 
 ## Legacy Database Hosting
 
