@@ -5,13 +5,15 @@ This page is intended to provide details on the working processes and procedures
 ## Contact FastDesk
 
 ```eval_rst
-+--------------------------+-------------------------------------+---------------------------------------------------------------------+
-| Support Channel          | Contact Number                      | Description                                                         | 
-+==========================+=====================================+=====================================================================+
-| FastDesk Support         | 0800 923 0617                       | Available 08:00-20:00 Monday – Friday. Excluding Bank Holidays      |
-+--------------------------+-------------------------------------+---------------------------------------------------------------------+
-| UKFast Emergency support | 0800 230 0032                       | Available 24/7. Suggested use is for Priority 1 issues outside of core hours. | 
-+--------------------------+-------------------------------------+---------------------------------------------------------------------+
++--------------------------+-------------------------------------+-----------------------------------------------------------------------------------------+
+| Support Channel          | Contact Number                      | Description                                                                             | 
++==========================+=====================================+=========================================================================================+
+| FastDesk Support         | 0800 923 0617                       | Available 08:00-20:00 Monday – Friday. Excluding Bank Holidays                          |
++--------------------------+-------------------------------------+-----------------------------------------------------------------------------------------+
+| UKFast Emergency support | 0800 230 0032                       | Available 24/7. Suggested use is for Priority 1 issues outside of core hours.           | 
++--------------------------+-------------------------------------+-----------------------------------------------------------------------------------------+
+| Email                    | support@ukfast.co.uk                | Available 24/7. Suggested for incident logging or email support and service requests.   | 
++--------------------------+-------------------------------------+-----------------------------------------------------------------------------------------+
 
 ```
 
@@ -39,7 +41,13 @@ If the FastDesk environment was unavailable for 1 user and it was outside of sup
 
 In each case, the ticket will be picked up by UKFast windows or Linux engineers and would be responded to. If an engineer spots infrastructure failure, the internal on call process will be activated in order to restore access to infrastructure.
 
-## Application Support
+## Incident Management
+
+In the event of an Incident, it is important that the correct processes are followed. If there a P1 issue, please initially call the support line. Next, raise the issue to your AM/SM. This ticket would be raised as `“Critical”`. Please remember to check https://ukfast.network/ to ensure your issue has not already been identified as a major incident. If your issue appears on our status page, please ensure you have logged a ticket.
+
+For P2 issues, please raise a ticket initially and call the support line to check on ticket or to submit more information. This ticket would be raised as `“High”`.  For P3 issues, please raise a ticket. This ticket would be classed as `“Normal”`. Applications installs, general queries, etc. would come under this category.
+
+ ## Application Support
 
 UKFast are not responsible for the migration of third-party applications and whilst help and assistance can be provided throughout this process, the application migration should be managed by third parties where possible.
 
