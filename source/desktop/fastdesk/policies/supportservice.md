@@ -43,7 +43,7 @@ In each case, the ticket will be picked up by UKFast windows or Linux engineers 
 
 ## Incident Management
 
-In the event of an Incident, it is important that the correct processes are followed. If there a P1 issue, please initially call the support line. Next, raise the issue to your AM/SM. This ticket would be raised as `“Critical”`. Please remember to check https://ukfast.network/ to ensure your issue has not already been identified as a major incident. If your issue appears on our status page, please ensure you have logged a ticket.
+In the event of an Incident, it is important that the correct processes are followed. If there a P1 issue, please initially call the support line. Next, raise the issue to your AM/SM. This ticket would be raised as `“Critical”`. Please remember to check our [Network Status page](https://ukfast.network/) to ensure your issue has not already been identified as a major incident. If your issue appears on our status page, please ensure you have logged a ticket.
 
 For P2 issues, please raise a ticket initially and call the support line to check on ticket or to submit more information. This ticket would be raised as `“High”`.  For P3 issues, please raise a ticket. This ticket would be classed as `“Normal”`. Applications installs, general queries, etc. would come under this category.
 
