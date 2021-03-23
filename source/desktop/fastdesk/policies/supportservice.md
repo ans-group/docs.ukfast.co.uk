@@ -2,7 +2,7 @@
 
 This page is intended to provide details on the working processes and procedures of the FastDesk support team.
 
-## Contact FastDesk
+## Contact FastDesk Support
 
 ```eval_rst
 +--------------------------+-------------------------------------+-----------------------------------------------------------------------------------------+
