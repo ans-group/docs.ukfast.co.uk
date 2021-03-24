@@ -294,15 +294,15 @@ If you wish to use text other than the heading for the section that you're linki
 
   * For internal links
 
-```markdown
-[text to show](link-to-page)
-```
+  ```markdown
+  [text to show](link-to-page)
+  ```
 
-*  For external links
+  *  For external links
 
-```markdown
-[Go to the domain transfer in page in MyUKFast](https://my.ukfast.co.uk/domains/transfer-in.php).
-```
+  ```markdown
+  [Go to the domain transfer in page in MyUKFast](https://my.ukfast.co.uk/domains/transfer-in.php).
+  ```
 
 * In reStructuredText
 
@@ -323,6 +323,17 @@ You can also use this syntax:
 ```rst
 `Custom Text</ecloud/flex/general/openstackcli>`_
 ```
+
+If you need to link headings (anchors) in other pages, you may need to use this format, which separates the display text away from the hyperlink target:
+
+```rst
+.. note::
+   Please see our user guide on `connecting to your website via FTP`_ for further assistance.
+
+.. _connecting to your website via FTP: /operatingsystems/windows/commonissues/copyfiletoserver.html#connecting-to-your-ftp-server
+```
+
+You'll notice that `connecting to your website via FTP` is used as a reference to associate the two.
 
 ```eval_rst
 .. warning::
