@@ -22,7 +22,7 @@ Here are step-by-step tutorials designed to help you set up and launch your Fast
 FastDesk Handbook
 ---------------------
 
-Details of FastDesk Support Service offerings.
+Details of the FastDesk Support Service offerings.
 
 .. toctree::
    :maxdepth: 2
