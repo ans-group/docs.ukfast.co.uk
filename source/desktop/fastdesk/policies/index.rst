@@ -7,7 +7,7 @@ Information regarding the various aspects of FastDesk
 .. toctree::
    :maxdepth: 1
 
-   support
+   supportservice
    backups
    FAQs
 
