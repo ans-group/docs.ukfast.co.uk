@@ -1,6 +1,6 @@
 # DDoSX® HTTP Request and Response Headers
 
-Documentation of HTTP request and response headers DDoSX® will add to proxied requests.
+Documentation of HTTP request and response headers DDoSX® will add to your requests.
 
 ## Request:
 
@@ -19,12 +19,12 @@ This header will return the country of the connecting IP address in an Alpha-2 I
 ## Response:
 
 ### X-DDoSX-Request-ID
-This header is used for diagnotstic reasons and is useful for our support team and helps by giving us more detailed information about your request to track down potential issues in our logs.
+This header is used for diagnostics reasons and is useful for our support team and helps by giving us more detailed information about your request to track down potential issues in our logs.
 
 
 ```eval_rst
    .. title:: DDoSX® HTTP Request and Response Headers | UKFast Documentation
    .. meta::
-      :description: HTTP request and response headers DDoSX® will add to proxied requests.
+      :description: HTTP request and response headers DDoSX® will add to your requests.
       :keywords: http, ddosx, headers, client ip, geo location, request, response
 ```
