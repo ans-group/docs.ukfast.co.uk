@@ -19,6 +19,17 @@ Here are step-by-step tutorials designed to help you set up and launch your Fast
    getting_started_guide/FASTdeskGettingStartedGuideAndroid.md
    
 ---------------------
+FastDesk Handbook
+---------------------
+
+Details of FastDesk Support Service offerings.
+
+.. toctree::
+   :maxdepth: 2
+   
+   policies/index
+      
+---------------------
 How-to guides (For Admins)
 ---------------------
 
@@ -30,8 +41,7 @@ Support materials and guides to help you manage your environment.
    howtoguide/runningspeedtest
    howtoguide/applayerlogin
    howtoguide/databaselogin
-   policies/index
-   
+     
 ---------------------
 How-to guides (For End-Users)
 ---------------------
