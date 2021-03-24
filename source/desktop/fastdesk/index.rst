@@ -69,7 +69,7 @@ Find additional resources that will allow you to enhance or customise your FastD
     
 For more information about FASTdesk, and how it can help increase the flexibility in the way users work, please visit the various links below.
     
- - `What is FastDesk? <https://www.ukfast.co.uk/fastdesk.html>`_
+- `What is FastDesk? <https://www.ukfast.co.uk/fastdesk.html>`_
  
 - `Where is FastDesk? <https://www.ukfast.co.uk/our-datacentres.html/>`_
  
