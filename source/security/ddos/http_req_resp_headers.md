@@ -14,7 +14,7 @@ This will provide the scheme `http` or `https` that was used when the connection
 This header takes the IP address that hit the DDoSX® node. If this header was set during the original request it will be overwritten. This header is more trustworthy than the `X-Forwarded-For` header as it can't be sent to the origin with a forged IP address.
 
 ### `X-DDoSX-Country-Code`
-This header will return the country of the connecting IP address in an Alpha-2 ISO Code format. You can get help mapping this to the name using https://www.iso.org/obp/ui/.
+This header will return the country of the connecting IP address in an Alpha-2 ISO Code format. You can get help mapping this to the name using [https://www.iso.org/obp/ui/](https://www.iso.org/obp/ui/).
 
 ## Response:
 
