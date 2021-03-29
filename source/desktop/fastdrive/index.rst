@@ -16,5 +16,4 @@ Built solely for business use, FastDrive combines Citrix® Files and UKFast's ow
    recyclebin
    browsingforfiles
    sharingfiles
-   addressbooks
-   techinformation
+      techinformation
