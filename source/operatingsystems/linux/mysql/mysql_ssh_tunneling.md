@@ -16,16 +16,27 @@ SSH Tunnelling leverages an SSH connection to communicate with services on a rem
 
 Below are the parameters you will need to fill in:
 
-| Parameters | Description |
-|-|-|
-| **Connection Name** | A name for the connection that uniquely identifies the connection you're making. |
-| **SSH Hostname** | The IP address of the server you're connecting to, followed by the port. With UKFast installations, the default SSH port is `2020`. For example, `1.2.3.4:2020`. |
-| **SSH Username** | The username you use to SSH onto the server. |
-| **SSH Password / SSH Key File** | This is the SSH password or the SSH key for your server. |
-| **MySQL Hostname** | As we're connecting via an SSH Tunnel, this will likely be `127.0.0.1`. |
-| **MySQL Server Port** | The default for this is `3306`. |
-| **Username** | The MySQL user that you're connecting as. As we're connecting locally, it will need to be a user which has the host set to `localhost`.  |
-| **Password** | The MySQL password for the MySQL user. |
+```eval_rst
++---------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Parameters**                  | **Description**                                                                                                                                                      |
++=================================+======================================================================================================================================================================+
+| **Connection Name**             | A name for the connection that uniquely identifies the connection you're making.                                                                                     |
++---------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **SSH Hostname**                | The IP address of the server you're connecting to, followed by the port. With UKFast installations, the default SSH port is ``2020``. For example, ``1.2.3.4:2020``. |
++---------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **SSH Username**                | The username you use to SSH onto the server.                                                                                                                         |
++---------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **SSH Password / SSH Key File** | This is the SSH password or the SSH key for your server.                                                                                                             |
++---------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **MySQL Hostname**              | As we're connecting via an SSH Tunnel, this will likely be ``127.0.0.1``.                                                                                            |
++---------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **MySQL Server Port**           | The default for this is ``3306``.                                                                                                                                    |
++---------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Username**                    | The MySQL user that you're connecting as. As we're connecting locally, it will need to be a user which has the host set to ``localhost``.                            |
++---------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Password**                    | The MySQL password for the MySQL user.                                                                                                                               |
++---------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+```
 
 ```eval_rst
 .. note::
@@ -44,26 +55,43 @@ While most MySQL clients support SSH tunnelling, some clients do not. Using PuTT
 - If you don't already have PuTTY, you can download it at: <https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html>. Download the 32/64-bit installer (most modern operating systems are 64-bit, so if you're unsure, try this first). Open the downloaded `.exe` and go through the installation steps.
  - Once installed, open **PuTTY**. Below are the values to enter, along with their description.
 
- ### Configuring PuTTY with SSH Tunnelling
+### Configuring PuTTY with SSH Tunnelling
 
- #### Session
- In PuTTY, on the left side, you can see the different categories for values. Start off by selecting **Session**, and fill in the values below:
+#### Session
+In PuTTY, on the left side, you can see the different categories for values. Start off by selecting **Session**, and fill in the values below:
 
- | Value | Description |
-|-|-|
-| **SSH Hostname** | Your SSH username, followed by the IP address of the server you're connecting to. For example, `root@1.2.3.4` |
-| **SSH Port** | The default SSH port for UKFast servers is `2020`, otherwise, try `22`. |
-| **Saved Sessions** | Enter a name to uniquely identify this connection.  |
+![PuTTY Session Screen](files/putty_session_screen.png)
 
- #### Tunnels
- On the left menu, scroll down and select **Tunnels** (under **Connection** > **SSH** > **Tunnels**). This is where we will configure the SSH tunnel.
+```eval_rst
++--------------------+------------------------------------------------------------------------------------------------------------------+
+| Value              | Description                                                                                                      |
++====================+==================================================================================================================+
+| **SSH Hostname**   | Your SSH username, followed by the IP address of the server you're connecting to. For example, ``root@1.2.3.4``. |
++--------------------+------------------------------------------------------------------------------------------------------------------+
+| **SSH Port**       | The default SSH port for UKFast servers is ``2020``. Otherwise, try ``22``.                                      |
++--------------------+------------------------------------------------------------------------------------------------------------------+
+| **Saved Sessions** | Enter a name to uniquely identify this connection.                                                               |
++--------------------+------------------------------------------------------------------------------------------------------------------+
+```
 
- | Value | Description |
-|-|-|
-| **Source Port** | `3306` is the default MySQL port. |
-| **Destination** | `localhost:3306` |
-| **Radio Button: Local** | `Local` forwards a local port to a remote server. |
-| **Radio Button: Auto** | Keep this on `Auto`  |
+#### Tunnels
+On the left menu, scroll down and select **Tunnels** (under **Connection** > **SSH** > **Tunnels**). This is where we will configure the SSH tunnel.
+
+![PuTTY Tunnels Screen](files/putty_tunnels_screen.png)
+
+```eval_rst
++-------------------------+-----------------------------------------------------+
+| Value                   | Description                                         |
++=========================+=====================================================+
+| **Source Port**         | ``3306`` is the default MySQL port.                 |
++-------------------------+-----------------------------------------------------+
+| **Destination**         | ``localhost:3306``.                                 |
++-------------------------+-----------------------------------------------------+
+| **Radio Button: Local** | ``local`` forwards a local port to a remote server. |
++-------------------------+-----------------------------------------------------+
+| **Radio Button: Auto**  | Keep this on ``Auto``.                              |
++-------------------------+-----------------------------------------------------+
+```
 
 Click `Add`.
 

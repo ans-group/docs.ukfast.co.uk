@@ -14,6 +14,7 @@ Installation & Administration
    mysql_cli_basics
    reset_root_password
    mysql_remote
+   mysql_ssh_tunneling
 
 ------------------
 Backups & Restores
@@ -33,7 +34,7 @@ Upgrades, Tuning & Troubleshooting
 
    upgrading
    troubleshooting
-   
+
 .. meta::
   :title: MySQL | UKFast Documentation
   :description: Guides on MySQL Administration and Best Practice
