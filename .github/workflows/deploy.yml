@@ -1,0 +1,15 @@
+name: Deploy
+on:
+  push:
+    branches: [ master, main ]
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Deployment CI
+        run: |
+          echo "Triggering CI from IP $(curl ip.lee.io)"
+          curl -X POST -sSf -m 10 -F "ref=master" -F token=$TRIGGER_TOKEN $PROJECT_URL > /dev/null
+        env:
+          TRIGGER_TOKEN: ${{ secrets.TRIGGER_TOKEN }}
+          PROJECT_URL: ${{ secrets.PROJECT_URL }}

@@ -1,4 +1,4 @@
-## Which version of Microsoft SQL Server do I need?
+# Which version of Microsoft SQL Server do I need?
 
 Microsoft currently offer two different methods of licensing your MSSQL Server: Per user or per Core licensing.
 
@@ -18,3 +18,4 @@ Full Details on the different versions and their feature sets, can be found by v
      :title: Which version of Microsoft SQL Server do I need? | UKFast Documentation
      :description: Guidance on which is the best version of Microsoft SQL Server for your requirements
      :keywords: ukfast, mssql, database, sql, sql server, microsoft, guide, tutorial, cloud
+```

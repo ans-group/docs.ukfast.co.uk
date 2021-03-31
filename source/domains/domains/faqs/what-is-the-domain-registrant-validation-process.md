@@ -13,7 +13,7 @@ Due to new rules introduced by ICANN, all registrant contact details must now be
 When you perform one of the actions above, an email will be sent to the registrant address to validate and confirm that the first name, last name, and email address are all correct.
 
 
-If the details are not confirmed on [(https://approve.domainadmin.com)](https://approve.domainadmin.com) within 15 days, the domain will be suspended and placed on "Client Hold", rendering the domain name inactive.
+If the details are not confirmed on the Domain Admin portal within 15 days, the domain will be suspended and placed on `Client Hold`, rendering the domain name inactive.
 
 
 Reminder emails are resent to the registrant on days five, 10 and 13 within the 15 day validation window.

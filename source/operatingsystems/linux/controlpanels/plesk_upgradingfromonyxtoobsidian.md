@@ -16,7 +16,7 @@ Clicking on that link will open a new window which will take you to your server 
 
 ```eval_rst
 .. note::
-   Unable to access your server on port 8447? Ensure that your firewall is allowing your connection through on that port number. 
+   Unable to access your server on port 8447? Ensure that your firewall is allowing your connection through on that port number.
 ```
 
 ![Plesk Updates or Upgrades](files/plesk_updatesandupgrades.PNG)

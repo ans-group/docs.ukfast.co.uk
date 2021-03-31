@@ -1,5 +1,7 @@
 # Capacity Threshold Monitoring
 
+Capacity Threshold Monitoring allows you to track every aspect of your dedicated server or virtual machine, from bandwidth consumption to disk utilisation, enabling you to configure a range of monitoring checks for your servers. This ensures both you and your UKFast support team will be alerted if a problem occurs.
+
 The following CTM alerts will be configured on your servers, as applicable:
 
 ```eval_rst
@@ -30,3 +32,4 @@ The following CTM alerts will be configured on your servers, as applicable:
       :title: UKFast CTM build documentation | UKFast Documentation
       :description: Build documentation for UKFast CTM
       :keywords: ukfast, hosting, ctm, server, virtual
+```

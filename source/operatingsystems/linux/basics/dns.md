@@ -1,4 +1,4 @@
-# DNS
+# Domain Name Service (DNS)
 
 This guide is only going to show an overview of the commands. To find out more about each command you can run the following:
 
@@ -8,7 +8,7 @@ This guide is only going to show an overview of the commands. To find out more a
 
 ## dig
 
-dig is used to query DNS servers. N.B. dig will query the nameservers defined in the `/etc/resolv.conf` file. If you are running a DNS server on your own server, this command will query that DNS server by default - this may not be what is being seen globally. See how to query an external nameserver further down.
+`dig` is used to query DNS servers. N.B. `dig` will query the nameservers defined in the `/etc/resolv.conf` file. If you are running a DNS server on your own server, this command will query that DNS server by default - this may not be what is being seen globally. See how to query an external nameserver further down.
 
 Here are some examples.
 
@@ -37,7 +37,8 @@ bbc.co.uk.              120     IN      A       212.58.246.78
 ;; WHEN: Thu Aug 11 12:17:19 BST 2016
 ;; MSG SIZE  rcvd: 102
 ```
-This will give you the A record entry for bbc.co.uk.
+
+This will give you the `A` record entry for `bbc.co.uk`.
 
 ```console
 [root@c7 ~]# dig www.bbc.co.uk
@@ -63,7 +64,8 @@ www.bbc.net.uk.         105     IN      A       212.58.244.67
 ;; WHEN: Thu Aug 11 12:36:48 BST 2016
 ;; MSG SIZE  rcvd: 100
 ```
-This will give you the A record entry for www.bbc.co.uk. Most of the time the non-www and www record will be the same but it is always worth checking.
+
+This will give you the `A` record entry for `www.bbc.co.uk`. Most of the time the non-`www` and `www` record will be the same but it is always worth checking.
 
 ```console
 [root@c7 ~]# dig mx bbc.co.uk
@@ -88,14 +90,15 @@ bbc.co.uk.              233     IN      MX      10 cluster1.eu.messagelabs.com.
 ;; WHEN: Thu Aug 11 12:39:13 BST 2016
 ;; MSG SIZE  rcvd: 107
 ```
-This will give you the MX record for bbc.co.uk.
+
+This will give you the `MX` record for `bbc.co.uk`.
 
 ```console
 [root@c7 ~]# dig spf bbc.co.uk +short
 "v=spf1 ip4:212.58.224.0/19 ip4:132.185.0.0/16 ip4:78.136.53.80/28 ip4:78.136.14.192/27 ip4:78.136.19.8/29 ip4:89.234.10.72/29 ip4:89.234.53.236 ip4:212.111.33.181 ip4:78.137.117.8 ip4:84.45.18.216 ip4:46.37.176.74 ip4:194.74.182.201" " ip4:80.169.167.201 +include:sf.sis.bbc.co.uk +include:servers.mcsv.net +include:amazonses.com ?all"
-
 ```
-This example gives the SPF record for bbc.co.uk but also contains the +short flag which will just output the actual record.
+
+This example gives the `SPF` record for `bbc.co.uk` but also contains the `+short` flag which will just output the actual record.
 
 ```console
 [root@c7 ~]# dig bbc.co.uk @8.8.8.8
@@ -122,7 +125,8 @@ bbc.co.uk.              191     IN      A       212.58.246.78
 ;; WHEN: Thu Aug 11 12:45:43 BST 2016
 ;; MSG SIZE  rcvd: 102
 ```
-This queries the A record for bbc.co.uk but specifically queries the nameserver 8.8.8.8
+
+This queries the `A` record for `bbc.co.uk` but specifically queries the nameserver `8.8.8.8`
 
 ```eval_rst
   .. title:: DNS commands in Linux
@@ -130,3 +134,4 @@ This queries the A record for bbc.co.uk but specifically queries the nameserver 
      :title: DNS commands in Linux | UKFast Documentation
      :description:  A guide to the DNS commands in the Linux OS
      :keywords: ukfast, linux, dns, server, command, ttl, ip, address, dig
+```

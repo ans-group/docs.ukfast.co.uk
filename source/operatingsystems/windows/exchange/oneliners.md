@@ -1,4 +1,4 @@
-# Exchange Powershell Quick Commands
+# Exchange PowerShell Quick Commands
 
 List all messages out from a specific domain within a specific time::
 
@@ -28,7 +28,7 @@ List all members of that distribution group::
 Set SCL rating of a domain and reject messages at the threshold::
 
 ```powershell
-  Get-Mailbox -OrganizationalUnit contoso.com | Set-Mailbox -SCLRejectEnabled $true -SCLRejectThreshold 5
+  Get-Mailbox -OrganisationalUnit contoso.com | Set-Mailbox -SCLRejectEnabled $true -SCLRejectThreshold 5
 ```
 
 
@@ -49,12 +49,12 @@ List the size of a mailbox and the number of messages::
   $array += $object
 
   }
-  $array | export-csv C:\contoso.com.csv -notypeinformation  
+  $array | export-csv C:\contoso.com.csv -notypeinformation
 ```
 
 ```eval_rst
-  .. title:: Microsoft Exchange Powershell quick commands
+  .. title:: Microsoft Exchange PowerShell quick commands
   .. meta::
-     :title: Microsoft Exchange Powershell quick commands | UKFast Documentation
-     :description: A list of quick Powershell commands for Microsoft Exchange
+     :title: Microsoft Exchange PowerShell quick commands | UKFast Documentation
+     :description: A list of quick PowerShell commands for Microsoft Exchange
      :keywords: ukfast, windows, exchange, powersell, quick, command, one, liner, output, cloud, server, virtual

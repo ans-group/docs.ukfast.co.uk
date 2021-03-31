@@ -1,6 +1,4 @@
 # Makefile for Sphinx documentation
-#
-#
 
 # You can set these variables from the command line.
 SPHINXOPTS    =
@@ -33,13 +31,13 @@ clean:
 
 html:
 	$(SPHINXBUILD) -b html $(ALLSPHINXOPTS) $(BUILDDIR)/html
-	make build/html/_static/css/app.css
-	make build/html/_static/app.js
+	make $(BUILDDIR)/html/_static/css/app.css
+	make $(BUILDDIR)/html/_static/app.js
 	@echo
 	@echo "Build finished. The HTML pages are in $(BUILDDIR)/html."
 
 livehtml:
-	    sphinx-autobuild -b html $(ALLSPHINXOPTS) $(BUILDDIR)/html
+	sphinx-autobuild -b html $(ALLSPHINXOPTS) $(BUILDDIR)/html
 
 dirhtml:
 	$(SPHINXBUILD) -b dirhtml $(ALLSPHINXOPTS) $(BUILDDIR)/dirhtml
@@ -98,28 +96,28 @@ populate-index: $(SPHINX_DEPENDENCIES)
 	php source/_themes/ukf/scripts/populate_search_index.php $* $(ES_HOST)
 
 build/html/_static:
-	mkdir -p build/html/_static
+	mkdir -p $(BUILDDIR)/html/_static/css
 
 CSS_FILES = source/_themes/ukf/static/css/bootstrap.min.css \
-  source/_themes/ukf/static/css/font-awesome.min.css \
-  source/_themes/ukf/static/css/style.css \
-  source/_themes/ukf/static/css/default.css \
-  source/_themes/ukf/static/css/default.css \
-  source/_themes/ukf/static/css/pygments.css \
-  source/_themes/ukf/static/css/flex-grid.css \
-  source/_themes/ukf/static/css/responsive.css
+	source/_themes/ukf/static/css/font-awesome.min.css \
+	source/_themes/ukf/static/css/style.css \
+	source/_themes/ukf/static/css/default.css \
+	source/_themes/ukf/static/css/default.css \
+	source/_themes/ukf/static/css/pygments.css \
+	source/_themes/ukf/static/css/flex-grid.css \
+	source/_themes/ukf/static/css/responsive.css
 
 build/html/_static/css/app.css: build/html/_static $(CSS_FILES)
-        # echo all dependencies ($$^) into the output ($$@)
+	# echo all dependencies ($$^) into the output ($$@)
 	cat $(CSS_FILES) > $@
 
 JS_FILES = source/_themes/ukf/static/jquery.js \
-  source/_themes/ukf/static/vendor.js \
-  source/_themes/ukf/static/app.js \
-  source/_themes/ukf/static/search.js \
-  source/_themes/ukf/static/underscore-min.1.9.2.js \
-  source/_themes/ukf/static/typeahead.js
+	source/_themes/ukf/static/vendor.js \
+	source/_themes/ukf/static/app.js \
+	source/_themes/ukf/static/search.js \
+	source/_themes/ukf/static/underscore-min.1.9.2.js \
+	source/_themes/ukf/static/typeahead.js
 
 build/html/_static/app.js: build/html/_static $(JS_FILES)
-        # echo all dependencies ($JS_FILES) into the output ($$@)
+	# echo all dependencies ($JS_FILES) into the output ($$@)
 	cat $(JS_FILES) > $@

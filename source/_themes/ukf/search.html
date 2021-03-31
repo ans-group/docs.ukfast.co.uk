@@ -1,11 +1,11 @@
 {% extends "layout.html" %}
 
 {% set title = _('Search') %}
-{% set script_files = script_files + ['_static/search.js'] %}
 
 {% block body %}
   <h1 id="search-documentation">{{ _('Search') }}</h1>
   <div id="fallback" class="admonition warning">
+  <script type="text/javascript" src="_static/search.js"></script>
   <script type="text/javascript">$('#fallback').hide();</script>
   <p>
     {% trans %}Please activate JavaScript to enable the search

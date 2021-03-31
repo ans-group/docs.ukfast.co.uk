@@ -10,7 +10,7 @@ It's best explained through demonstration, so you can head to the following loca
 
 <https://api.openstack.ecloud.co.uk/project/api_access/>
 
-There's a button titled `Download OpenStack RC File v3`, which is the one you're after. Either save it directly onto your computer and then transfer it to whichever machine you're going to be using the tools from, or open it in a notepad and paste it into something called os.rc in a location you'll remember.
+There's a button titled `Download OpenStack RC File v3`, which is the one you're after. Either save it directly onto your computer and then transfer it to whichever machine you're going to be using the tools from, or open it in a notepad and paste it into something called `os.rc` in a location you'll remember.
 
 It should look something like this:
 
@@ -60,7 +60,7 @@ export OS_INTERFACE=public
 export OS_IDENTITY_API_VERSION=3
 ```
 
-On the machine you're going to be running your OpenStack commands on, open up `~/.bash_profile` (adapt as appropriate if you're using an alternate shell) and add `source ~/.os.rc` to it, replacing `~/.os.rc` with wherever you saved the rc file, so that it looks somewhat like this:
+On the machine you're going to be running your OpenStack commands on, open up `~/.bash_profile` (adapt as appropriate if you're using an alternate shell) and add `source ~/.os.rc` to it, replacing `~/.os.rc` with wherever you saved the `.rc` file, so that it looks somewhat like this:
 
 ```bash
   # .bash_profile
@@ -79,7 +79,7 @@ On the machine you're going to be running your OpenStack commands on, open up `~
   export PATH
 ```
 
-Either log out and back in, or type `source ~/.os.rc` to essentially run the file, setting all the necessary environment variables. The first thing you'll notice is that this causes a prompt to appear, asking for your OpenStack password. This is because it's not stored in the rc file by default, it sets it manually each time you log in so that it's not stored in plaintext on the filesystem.
+Either log out and back in, or type `source ~/.os.rc` to essentially run the file, setting all the necessary environment variables. The first thing you'll notice is that this causes a prompt to appear, asking for your OpenStack password. This is because it's not stored in the `.rc` file by default, it sets it manually each time you log in so that it's not stored in plain text on the filesystem.
 
 ```console
   [root@workstation ~]# source ~/.os.rc
@@ -91,9 +91,9 @@ Either log out and back in, or type `source ~/.os.rc` to essentially run the fil
   This won't actually validate the password, so if you put a bad password in at this point it won't flag it up, it'll just stop all the commands from working correctly.
 ```
 
-From here on out, you should be good. You'll be prompted for your OpenStack password whenever you open a shell session, and once you've provided it you're able to authenticate with your project. The next section of our documenation details how to install the openstack client so you're able to manipulate resources in your project, you can see more information about this below:
+From here on out, you should be good. You'll be prompted for your OpenStack password whenever you open a shell session, and once you've provided it you're able to authenticate with your project. The next section of our documentation details how to install the OpenStack client so you're able to manipulate resources in your project, you can see more information about this below:
 
-[Installing the Openstack Command Line Client](/ecloud/flex/general/openstackcli)
+[Installing the OpenStack Command Line Client](/ecloud/flex/general/openstackcli)
 
 ```eval_rst
    .. title:: Setting Environment Variables for eCloud Flex

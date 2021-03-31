@@ -1,4 +1,4 @@
-
+# Common Attacks
 ## Shellshock attack detected
 
 *What is a Shellshock attack?*
@@ -21,7 +21,7 @@ We can also see that the payload attack was trying to input BASH commands via th
 *How can I remediation this attack?*
 
 
-We can prevent these attacks by ensuring that our web service and BASH is updated to the latest version with the latest security patches to allow the service to recognize the malicious input and drop it before any malicious code can run.
+We can prevent these attacks by ensuring that our web service and BASH is updated to the latest version with the latest security patches to allow the service to recognise the malicious input and drop it before any malicious code can run.
 
 This rule also implements Dynamic Protection IP blocking, meaning that the attacking IP address will be blocked from accessing any content hosted on the server.
 
@@ -35,7 +35,7 @@ One of the most common forms of attack is a brute force attack. As its name sugg
 
 A simple brute force attack will try many commonly used usernames and password combinations. For example, the user name admin or administrator coupled with passwords like password, admin or change.
 
-We also see more sophisticated brute force attacks that can detect what service they are trying to gain access to, and then try common user name and password combinations for that service, or even try the default credentials for that service. For example, an SSH or PHPMyAdmin Brute Force attack will usually try the username root, as this the most common user name used by default. Another example could be the administrator for Windows RDP 
+We also see more sophisticated brute force attacks that can detect what service they are trying to gain access to, and then try common user name and password combinations for that service, or even try the default credentials for that service. For example, an SSH or PHPMyAdmin Brute Force attack will usually try the username root, as this the most common user name used by default. Another example could be the administrator for Windows RDP
 
 *How can I prevent a brute force attack?*
 
@@ -62,8 +62,10 @@ If the viruses/malware was not removed by your scanner, you need to jump into ac
 If the viruses/malware has been removed by your scanner, its recommended to immediately run another virus/malware scan to try and detect any missed infections. Then, consult with your developers and UKFast support to secure your server in the future.
 
 ```eval_rst
-.. meta::
-     :title: Common Attacks | UKFast Documentation
-     :description: Our Threat Monitoring ruleset explained
-     :keywords: threat monitoring, alerts, security, compliance, rules, rulesets, ukfast, hosting, file integrity monitoring, rootkit, detection, vulnerability scan, scans, hids, intrusion detection, set up
+   .. title:: Common Attacks
+   .. meta::
+      :title: Common Attacks | UKFast Documentation
+      :description: Our Threat Monitoring ruleset explained
+      :keywords: threat monitoring, alerts, security, compliance, rules, rulesets, ukfast, hosting, file integrity monitoring, rootkit, detection, vulnerability scan, scans, hids, intrusion detection, set up
+```
 

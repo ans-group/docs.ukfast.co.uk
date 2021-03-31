@@ -1,15 +1,15 @@
 # Working with eCloud Flex APIs
 
-eCloud Flex provides access to the full range of OpenStack APIs, which is the most powerful way to take advantage of the capability available.  
+eCloud Flex provides access to the full range of OpenStack APIs, which is the most powerful way to take advantage of the capability available.
 
 There is a wealth of documentation and guidance available on the various OpenStack websites, including
 
-* [OpenStack.org](https://www.openstack.org/)
+* [OpenStack](https://www.openstack.org/)
 * [Developer resources](https://developer.openstack.org/)
 
 ## Documentation for key OpenStack projects
 
-The full set of OpenStack documentation including SDKs, Installation Guides and User Guides can be found on the [docs.openstack website](https://docs.openstack.org/newton/).
+The full set of OpenStack documentation including SDKs, Installation Guides and User Guides can be found on the [OpenStack Docs website](https://docs.openstack.org/newton/).
 
 * [Compute](https://docs.openstack.org/nova/newton/)
 * [Object Storage](https://docs.openstack.org/swift/newton/)
@@ -35,8 +35,9 @@ To identify the current API version your eCloud Flex solution is based upon, log
 * [Networking APIs](https://developer.openstack.org/api-ref/networking/) (includes load balancing, firewalls, security groups and more)
 
 ```eval_rst
-.. meta::
-     :title: Working with eCloud Flex APIs | UKFast Documentation
-     :description: Links to the main OpenStack documentation for running your eCloud Flex solution
-     :keywords: openstack, ecloud, flex, ukfast, nova, swift, cinder, glance, keystone, heat, hosting, cloud, api
+   .. title:: Working with eCloud Flex APIs
+   .. meta::
+      :title: Working with eCloud Flex APIs | UKFast Documentation
+      :description: Links to the main OpenStack documentation for running your eCloud Flex solution
+      :keywords: openstack, ecloud, flex, ukfast, nova, swift, cinder, glance, keystone, heat, hosting, cloud, api
 ```

@@ -7,7 +7,7 @@
 ```
 
 
-If you are transferring a domain into UKFast, the [(IPS tag )](https://my.ukfast.co.uk/faq/view/1258.html)is UKFAST.
+If you are transferring a domain into UKFast, the [IPS tag](/domains/domains/faqs/what-is-a-domain-ips-tag>) is `UKFAST`.
 
 
 Please ensure that you import the domain into your MyUKFast portal, this can found under Services, then Domain Management.

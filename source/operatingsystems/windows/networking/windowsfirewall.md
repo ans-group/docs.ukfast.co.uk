@@ -46,11 +46,11 @@ You will now be returned to the Advanced firewall menu where the list of inbound
 
 ## Enabling and Disabling rules
 
-The process to enable and disable rules in windows firewall is extremely simple, to do so, 
+The process to enable and disable rules in windows firewall is extremely simple, to do so,
 
 * Select start, and then select control panel, once control panel has launched, select windows firewall
 * Now select Advanced settings from the left hand side of the windows firewall pane.
-* You will now be presented with the Advanced firewall options, select the Type of rule that you wish to enable or disable (Inbound rule or outbound rule), 
+* You will now be presented with the Advanced firewall options, select the Type of rule that you wish to enable or disable (Inbound rule or outbound rule),
 * Locate the rule you are looking for in the list, and right click on it
 * Select "Disable Rule" or "Enable Rule" as appropriate from the resulting context menu as below
 
@@ -61,12 +61,12 @@ The process to enable and disable rules in windows firewall is extremely simple,
 In order to enable or disable windows firewall, please follow the simple steps below
 
  Select start, and then control panel, once control panel has launched, select windows firewall, you will now be presented with the windows firewall pane as below
- 
+
 ![Windows Firewall](files/firewall/firewallbasic.png)
 
-Select "Turn Windows Firewall on or off" from the left hand menu (Please note, your user account will need administrator priviledges to do so)
+Select "Turn Windows Firewall on or off" from the left hand menu (Please note, your user account will need administrator privileges to do so)
 
-You will now be presented with a window titled "Customize settings for each type of network" as below, please select the appropriate setting which suits your needs
+You will now be presented with a window titled "Customise settings for each type of network" as below, please select the appropriate setting which suits your needs
 
 ![Enable/Disable](files/firewall/firewallenabledisable.PNG)
 
@@ -76,3 +76,4 @@ You will now be presented with a window titled "Customize settings for each type
      :title: Using Windows Firewall | UKFast Documentation
      :description: An in-depth guide to using Windows Firewall
      :keywords: ukfast, windows, firewall, security, rules, virus, scanner, server, cloud
+```

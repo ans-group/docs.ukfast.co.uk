@@ -1,6 +1,6 @@
 # Installing PHP modules
 
-The default installation of php as described in [Installing PHP](/operatingsystems/linux/php/installation) will install the following php modules:
+The default installation of PHP as described in [Installing PHP](/operatingsystems/linux/php/installation) will install the following PHP modules:
 
 ```console
 [root@websrv ~]# php -m
@@ -50,9 +50,9 @@ That's quite a lot of modules, thanks to `php-common`, but different websites of
 
 ## Package manager method
 
-In the below example, we'll install the soap extension using the systems default package manager, `yum`.
+In the below example, we'll install the `SOAP` extension using the systems default package manager, `yum`.
 
-After using `php -m` as above, we can see that soap is not in the list.
+After using `php -m` as above, we can see that `SOAP` is not in the list.
 
 To install, use the following command:
 
@@ -65,23 +65,24 @@ The format of that command could be changed to install different modules, so you
 ```console
 yum install php-imap
 ```
+
 ```console
 yum install php-snmp
 ```
 
 After you've accepted this, the install will run and you can re-run `php -m` to confirm that the module is now in the list.
 
-A restart of your webserver will be needed to load this new module in before your webserver can access it:
+A restart of your web server will be needed to load this new module in before your web server can access it:
 
 ```console
 service httpd restart
 ```
 
-## Pecl
+## PECL
 
-Some modules may not be available in your standard repositories, but fear not. As long as you have the `php-pear` package installed, you'll have access to `pear` and `pecl`, which are like package managers especially for php.
+Some modules may not be available in your standard repositories, but fear not. As long as you have the `php-pear` package installed, you'll have access to `pear` and `pecl`, which are like package managers especially for PHP.
 
-In this example, we'll be installing the memcache module for php.
+In this example, we'll be installing the Memcached module for PHP.
 
 The command to start it all off is:
 
@@ -92,15 +93,15 @@ pecl install memcache
 ```eval_rst
    .. note::
       Using pecl will often need you to install a few dependencies.
-   
+
       Which ones will depend on what's installed on your system already, but in the above example on a CentOS minimal install, I had to install ``gcc``, ``make`` and ``zlib-devel``
 ```
 
-Pecl installs often ask a few questions during the install process. If you're not too sure what to put, hitting enter will accept the default value.
+PECL installs often ask a few questions during the install process. If you're not too sure what to put, hitting enter will accept the default value.
 
 Once this has finished, you'll have to tell PHP where it can find it's new module, as the text on complete will tell you.
 
-In the memcache example, the following line needs to be added to your php configuration:
+In the Memcached example, the following line needs to be added to your PHP configuration:
 
 ```console
 extension=memcache.so
@@ -127,5 +128,5 @@ service httpd restart
    .. meta::
       :title: Installing PHP modules on Linux | UKFast Documentation
       :description: A guide to installing PHP modules on Linux
-      :keywords: ukfast, linux, php, modules, guide, tutorial, install, file
+      :keywords: ukfast, linux, PHP, modules, guide, tutorial, install, file
 ```

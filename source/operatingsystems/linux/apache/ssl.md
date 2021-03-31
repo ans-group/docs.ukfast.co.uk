@@ -1,12 +1,12 @@
 # SSL Certificates
 
-To allow users to connect to your site over HTTPS you need to install mod_ssl.
+To allow users to connect to your site over HTTPS you need to install `mod\_ssl`.
 
 ```bash
-  yum install mod_ssl
+yum install mod_ssl
 ```
 
-This will add the file `/etc/httpd/conf.d/ssl.conf` . If you're configuring separate vhosts per site (as suggested above), it's best to delete or comment out the contents of this file underneath this section.
+This will add the file `/etc/httpd/conf.d/ssl.conf`. If you're configuring separate vhosts per site (as suggested above), it's best to delete or comment out the contents of this file underneath this section.
 
 ```apacheconf
   ##
@@ -30,32 +30,34 @@ You then need to add the following section to your vhost configuration:
     SSLCertificateKeyFile /etc/pki/tls/private/firstdomain.com.key
 ```
 
-N.B The recommended cipher suites and protocols are constantly changing. This site is useful to generate these.
-
-<https://mozilla.github.io/server-side-tls/ssl-config-generator/>
+```eval_rst
+.. note::
+  The recommended cipher suites and protocols are constantly changing. This site is useful to generate these.
+  - :doc:`Mozilla SSL Config Generator <https://mozilla.github.io/server-side-tls/ssl-config-generator/>
+```
 
 If you have a signed (paid for) certificate, this needs to be added to the `/etc/pki/tls/certs/firstdomain.com.crt` file. Your certificate issuer should have provided you with a CA bundle. This needed to be added underneath your certificate in the same file.
 
-Your private key will need to be added to the `/etc/pki/tls/private/firstdomain.com.key` file. This file should have its permissions change to be 600.
+Your private key will need to be added to the `/etc/pki/tls/private/firstdomain.com.key` file. This file should have its permissions changed to be `600`.
 
 ```bash
-  chmod 600 /etc/pki/tls/private/firstdomain.com.key
+chmod 600 /etc/pki/tls/private/firstdomain.com.key
 ```
 
-so it can only be read and edited by the root user on your server.
+So it can only be read and edited by the `root` user on your server.
 
 You then need to test the configuration.
 ```bash
-  httpd -t
+httpd -t
 ```
 
-and then reload it.
+And then reload it.
 
 ```bash
-  service httpd reload
+service httpd reload
 ```
 
-Fully featured examples of this and other apache functionality can be found on the following page:
+Fully featured examples of this and other Apache functionality can be found on the following page:
 
 [Sample vhosts](/operatingsystems/linux/apache/examplevhosts)
 

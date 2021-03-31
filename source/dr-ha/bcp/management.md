@@ -9,13 +9,13 @@
 
 When moving from a standard Linux server with a LAMP stack (for example), there are a number of differences in how you manage the server and its services. Further to this, consideration to the cluster architecture should be given before adding new services or applications onto your nodes.
 
-We utilize the RedHat clustering suite, which uses Pacemaker (`pcs`) as the cluster manager.
+We utilise the Red Hat clustering suite, which uses Pacemaker (`pcs`) as the cluster manager.
 
 ```eval_rst
 .. seealso::
-   Further reading about PCS on RedHat for those interested:
+   Further reading about PCS on Red Hat for those interested:
 
-   - `RedHat Pacemaker documentation <https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/7/html/High_Availability_Add-On_Administration>`_
+   - `Red Hat Pacemaker documentation <https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/7/html/High_Availability_Add-On_Administration>`_
    - `ClusterLabs Pacemaker documentation <http://clusterlabs.org/doc/>`_
 ```
 
@@ -25,7 +25,7 @@ Services which are managed by the cluster should only be started / stopped / res
 
 For any services which PCS is not aware of, you can continue to use conventional methods of restarting them. If in doubt, it's always best to check with our support team for clarification.
 
-When performing commands on clustered services, it is usually best to run them on the service group (eg: `g_mysql`) rather than an individual resource (eg: `r_mysql_ip`).
+When performing commands on clustered services, it is usually best to run them on the service group (e.g. `g_mysql`) rather than an individual resource (e.g. `r_mysql_ip`).
 
 ### Clustered service status
 
@@ -93,7 +93,7 @@ This will shut down the service on it's active node, and instruct the passive no
 
 ```eval_rst
 .. note::
-   Services are started in-order in PCS, so if you disable a resource in the middle of a group (`r_mysql_ip` for example), it will also stop all the services following it in the list (eg: `r_mysql_int_ip` and `r_mysql` would also stop).
+   Services are started in-order in PCS, so if you disable a resource in the middle of a group (``r_mysql_ip`` for example), it will also stop all the services following it in the list (e.g. ``r_mysql_int_ip`` and ``r_mysql`` would also stop).
 
    Simlarly, if one of the resources in a group fails, the whole group will attempt to recover on the other node or stop.
 ```
@@ -122,13 +122,13 @@ To restart a cluster service, run the following command (swapping `g_mysql` for 
 [root@acme-webdb-01 ~]# pcs resource restart g_mysql
 ```
 
-It is best to restart whole resource groups where possible to prevent unexpected behavior.
+It is best to restart whole resource groups where possible to prevent unexpected behaviour.
 
 ### Moving a cluster service to another node
 
 When performing maintenance for a node, you might want to move the resources running there onto its counterpart. To do that, we will use the `pcs resource move` command, however this has a caveat.
 
-The way PCS "moves" a resource is by creating a `ban` constraint for the node it is running on at the moment. For example, if `g_mysql` was running on `acme-webdb-02` and you issued a move command, PCS would add a constraint which prevents `g_mysql` from starting on `acme-webdb-02` any more.
+The way PCS "moves" a resource is by creating a `ban` constraint for the node it is running on at the moment. For example, if `g_mysql` was running on `acme-webdb-02` and you issued a move command, PCS would add a constraint which prevents `g_mysql` from starting on that node anymore.
 
 When PCS next checks the status of the cluster, it will reconcile the rule that is now being violated (`g_mysql` is running on `acme-webdb-02`, which is is banned from) by stopping the service and starting it on `acme-webdb-01`.
 
@@ -138,19 +138,21 @@ As such, you should perform the following steps:
 
 1. Issue a `pcs resource move` command to add the `ban` constraint:
 
-    ```bash
-    [root@acme-webdb-01 ~]# pcs resource move g_mysql
-    ```
+```bash
+[root@acme-webdb-01 ~]# pcs resource move g_mysql
+```
+
 2. Watch the output of `pcs status` until you've confirmed the group has fully moved over:
 
-    ```bash
-    [root@acme-webdb-01 ~]# watch -n1 "pcs status"
-    ```
+```bash
+[root@acme-webdb-01 ~]# watch -n1 "pcs status"
+```
+
 3. Issue a `pcs resource clear` command to remove the `ban` constraint:
 
-    ```bash
-    [root@acme-webdb-01 ~]# pcs resource clear g_mysql
-    ```
+```bash
+[root@acme-webdb-01 ~]# pcs resource clear g_mysql
+```
 
 This will not move the resource group back over unless a `prefers` or `colocation` constraint is now being violated (which in most cases it would not be); however the resource group is now free to be moved again in the future, or failover as needed.
 

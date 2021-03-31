@@ -6,7 +6,7 @@ From the local users and groups menu within the computer management console, sel
 
 ![computer management groups](Files/Creategroup/computermanagementgroupscontextmenu.png)
 
-To create a new group; Right click the "Groups" folder and select New Group, you will now be presented with the new group window, 
+To create a new group; Right click the "Groups" folder and select New Group, you will now be presented with the new group window,
 
 In the new window you'll be prompted for the following information:
 * Group Name - This is the name your users will connect using

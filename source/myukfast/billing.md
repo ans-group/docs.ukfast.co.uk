@@ -18,7 +18,7 @@ If you have any questions relating to billing or have an account query please ca
 For all written enquiries, please address Accounts Department, UKFast, UKFast Campus, Birley Fields, Manchester, England, M15 5QJ
 
 ## Contract Queries
-For any queries specifically relating to your UKFast contract, please [contact your Account Manager](myukfast/account-manager).
+For any queries specifically relating to your UKFast contract, please [contact your Account Manager](account-manager).
 
 ```eval_rst
    .. title:: Invoices, payments, billing in MyUKFast

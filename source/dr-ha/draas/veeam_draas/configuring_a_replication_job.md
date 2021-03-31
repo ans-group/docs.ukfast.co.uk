@@ -26,14 +26,14 @@ Before configuring your replication job please ensure you have read through this
 
 
 ### Destination
-1. Under "Host or cluster" select **Choose** > **Cloud host** > select the UKFast Service Provider (UKFast’s external DNS name with your login name after in brackets) > Click "OK"
+1. Under "Host or cluster" select **Choose** > **Cloud host** > select the UKFast Service Provider (UKFast's external DNS name with your login name after in brackets) > Click "OK"
 2. Under "Datastore" ensure that your datastore is select. If you have multiple, select the relevant one.
 
 ![Replication Job - Destination](files/createreplicationjob/createreplicationjob_destination.png)
 
 ### Network
 
-Here you’ll create your network mappings. When you create a mapping all VMs on the "source network" at your site will be connected to the "target network" at UKFast. You should have a dedicated target network for each of the source networks which you are replicating VMs from.
+Here you'll create your network mappings. When you create a mapping all VMs on the "source network" at your site will be connected to the "target network" at UKFast. You should have a dedicated target network for each of the source networks which you are replicating VMs from.
 
 
 1. Select "Add" to create a network mapping > select the "source network" and "target network"
@@ -42,8 +42,8 @@ Here you’ll create your network mappings. When you create a mapping all VMs on
 
 ### Job Settings
 1. **Repository for replica metadata** - Select a local repository for replica metadata. You will need on average 128MB of storage for every 1TB replicated, but this could vary.
-2. **Replica name suffix** - This shows up within UKFast’s VMware environment, so we recommend that it is left as the default "_replica"
-3. **Restore points to keep** - This specifies the amount of restore points that will be available when performing a failover; the maximum number possible is 28. The time difference between each restore point is defined by the schedule that is chosen in a later step (i.e. if you choose an hourly replication with seven restore points, you will have seven hours’ worth of restore points, each an hour apart. Depending on the amount of data change between each restore point these have the potential to take up a considerable amount of space, due to them being stored in a VMware snapshot.
+2. **Replica name suffix** - This shows up within UKFast's VMware environment, so we recommend that it is left as the default "_replica"
+3. **Restore points to keep** - This specifies the amount of restore points that will be available when performing a failover; the maximum number possible is 28. The time difference between each restore point is defined by the schedule that is chosen in a later step (i.e. if you choose an hourly replication with seven restore points, you will have seven hours' worth of restore points, each an hour apart. Depending on the amount of data change between each restore point these have the potential to take up a considerable amount of space, due to them being stored in a VMware snapshot.
 
 4. **Advanced**
     1. **Storage optimisation** - This setting needs changing to "WAN Target" to ensure the replication jobs get the best performance when replicating over the internet to UKFast
@@ -53,18 +53,18 @@ Here you’ll create your network mappings. When you create a mapping all VMs on
 
 ### Data Transfer
 
-Section to configure WAN accelerators, these are only beneficial to use when you have a network upload speed of lower than 60Mb/s. If you have not purchased a WAN accelerator from UKFast, you only need to complete step 1 ("Source Proxy"). You cannot configure one at your side if it hasn't been enabled on the service provider’s end.
+Section to configure WAN accelerators, these are only beneficial to use when you have a network upload speed of lower than 60Mb/s. If you have not purchased a WAN accelerator from UKFast, you only need to complete step 1 ("Source Proxy"). You cannot configure one at your side if it hasn't been enabled on the service provider's end.
 
-Sizing information for WAN accelerators can be found on Veeam’s website  - [WAN accelerator sizing](https://helpcenter.veeam.com/docs/backup/vsphere/wan_accelerator_sizing.html?ver=100). We generally recommend a starting point of the following:  
+Sizing information for WAN accelerators can be found on Veeam's website  - [WAN accelerator sizing](https://helpcenter.veeam.com/docs/backup/vsphere/wan_accelerator_sizing.html?ver=100). We generally recommend a starting point of the following:
 * Hard disk size - 10% of total data that requires replicating
 * 4 CPUs
 * 16GB RAM
 
 
 1. **Source proxy** - we would generally recommend this is left as the default "Automatic Selection" unless you have any specific requirements.
-2. **Through built-in WAN accelerators** - if you have purchased a WAN accelerator from UKFast, select this option. 
+2. **Through built-in WAN accelerators** - if you have purchased a WAN accelerator from UKFast, select this option.
     1. **Source WAN accelerator** - select the WAN accelerator at your site to be used for this replication job. It's recommended the WAN accelerator is set up as a separate virtual machine and not installed on the Veeam Backup and Replication Server.
-    2. **Target WAN accelerator** - select the WAN accelerator at UKFast’s site to be used for this replication job.
+    2. **Target WAN accelerator** - select the WAN accelerator at UKFast's site to be used for this replication job.
 
     ![Replication Job - Data Transfer](files/createreplicationjob/createreplicationjob_datatransfer.png)
 
@@ -85,8 +85,9 @@ Sizing information for WAN accelerators can be found on Veeam’s website  - [WA
 
 
 ```eval_rst
+   .. title:: Configuring a replication job
    .. meta::
       :title: Configuring a replication job | UKFast Documentation
       :description: How to configure a replication job to UKFast
       :keywords: ukfast, cloud, ecloud, public, hosting, infrastructure, vmware, draas, veeam, connect, dr, replication, backup
-
+```

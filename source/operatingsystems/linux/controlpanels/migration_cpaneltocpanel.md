@@ -4,7 +4,7 @@ A guide on performing a cPanel to cPanel Migration
 
 ```eval_rst
 .. note::
-   cPanel requires the ability to connect to your other cPanel server via your defined SSH port and port 2087
+   cPanel requires the ability to connect to your other cPanel server via your defined SSH port and port ``2087``
 ```
 
 To begin your migration you first need to ensure you are logged into your WHM panel.
@@ -24,9 +24,9 @@ Now you are within the Transfer Tool section of WHM, fill in the details accordi
 
 ![cPanel Transfer Tool Start](files/cpanel_transfertool1.PNG)
 
-- Remote Server Address: The IP Address of the other server
-- Remote SSH Port: The port SSH is bound to on the other server
-- Root Password: The password for the root user on the other server
+* Remote Server Address: The IP Address of the other server
+* Remote SSH Port: The port SSH is bound to on the other server
+* Root Password: The password for the root user on the other server
 
 ```eval_rst
 .. note::
@@ -54,8 +54,7 @@ After the migration, you can go to the "List Accounts" page in WHM and you will 
 
 You have successfully performed a cPanel to cPanel Migration!
 
-
-Before amending your DNS to point to your new server, you can test your websites using a hostfile change
+Before amending your DNS to point to your new server, you can test your websites using a hosts file change
 You can view more information on that [here](https://my.ukfast.co.uk/safedns/index.php)
 
 ```eval_rst
@@ -64,3 +63,4 @@ You can view more information on that [here](https://my.ukfast.co.uk/safedns/ind
      :title: Performing a cPanel to cPanel Migration
      :description:  A guide to performing a cPanel to cPanel Migration
      :keywords: ukfast, cpanel, migration, move, website, transfer, whm
+```

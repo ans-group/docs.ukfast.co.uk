@@ -1,0 +1,51 @@
+name: Check files
+on: [pull_request, push]
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out source files
+        uses: actions/checkout@v2
+
+      - name: Get a list of changed files
+        uses: jitterbit/get-changed-files@v1
+        id: changed_files
+
+      - name: Filter changed files by extension
+        run: |
+          EXTENSIONS="md"
+          for FILE in ${{ steps.changed_files.outputs.all }}; do
+            for EXT in $EXTENSIONS; do
+              if [[ ${FILE##*.} == $EXT ]]; then
+                SCAN_FILES="$SCAN_FILES $FILE"; continue
+              fi
+            done
+          done
+          echo "scan_files=$SCAN_FILES" >> $GITHUB_ENV
+
+      - name: Run initial tests
+        run: ./tests.sh ${{ steps.changed_files.outputs.all }}
+
+      - name: Check files using markdownlint
+        uses: actionshub/markdownlint@main
+        with:
+          path: source
+
+      - name: Spellcheck
+        if: env.scan_files != ''
+        uses: rojopolis/spellcheck-github-actions@0.10.0
+        with:
+          task_name: Markdown
+          source_files: ${{ env.scan_files }}
+
+      - name: Render docs to HTML
+        uses: ammaraskar/sphinx-action@master
+        with:
+          pre-build-command: python -m pip install recommonmark
+          docs-folder: "source/"
+          build-command: "sphinx-build -n -d build/doctrees . build/html"
+
+      - name: Add in compiled CSS and Javascript
+        run: |
+          make build/html/_static/css/app.css
+          make build/html/_static/app.js

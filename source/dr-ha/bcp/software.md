@@ -15,13 +15,13 @@ As such, if you update the software on `acme-webdb-01`, you will also need to pe
 
 If any new software installed on the server needs to be part of the cluster, consideration will need to be given to how this should be implemented; and is probably best discussed with our support team to make sure the implementation of additional clustered services doesn't impact your service in a failover scenario.
 
-This includes the installation of apache modules, PHP modules, or changing PHP versions.
+This includes the installation of Apache modules, PHP modules, or changing PHP versions.
 
-A good example of additional clustered services is a requirement for a NodeJS application that serves webhooks for your site, and needs to run on the same node as the web service - depending on the reliability and importance of the NodeJS element, you might need to implement this into the cluster differently.
+A good example of additional clustered services is a requirement for a <nospell>Node.js</nospell> application that serves webhooks for your site, and needs to run on the same node as the web service - depending on the reliability and importance of the <nospell>Node.js</nospell> element, you might need to implement this into the cluster differently.
 
 ```eval_rst
 .. warning::
-   **If the software versions between cluster nodes are different, or you haven't synchronized the configuration between nodes, your sites may go offline in the event of a failover.**
+   **If the software versions between cluster nodes are different, or you haven't synchronised the configuration between nodes, your sites may go offline in the event of a failover.**
 
    In these cases, the failover will be successful from PCS' perspective, but your application won't be able to connect to required software / use required PHP modules / use the correct PHP version / etc, so might show errors or not work at all.
 ```

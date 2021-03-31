@@ -14,7 +14,7 @@ Choose one of the above top-level folders and navigate to the document that you'
 
 If you look to the right of the file name and the file upload time, you will see a small blue icon. As you can see, this icon does not appear beside every file. If only one version of a file can be found, the icon will not be shown and you won't be able to view previous versions.
 
-Clicking the blue icon will show you the previous version(s) of this file. In this instance, you can see that there are 5 versions (including the current version). 
+Clicking the blue icon will show you the previous version(s) of this file. In this instance, you can see that there are 5 versions (including the current version).
 
 ![Image148](files/Image148.png)
 
@@ -33,3 +33,11 @@ I have selected one of the files above and I have the option to either delete th
 In this instance I have restored the file and as you can see there are now 6 previous versions of the file (including the current version). The version which I restored is the version saved at 11.25am.
 
 ![Image151](files/Image151.png)
+
+```eval_rst
+   .. title:: FASTdrive Accessing previous versions of your files
+   .. meta::
+      :title: FASTdrive Accessing previous versions of your files | UKFast Documentation
+      :description: Guide for accessing older versions of your files
+      :keywords: FASTdrive, Citrix, ukfast
+```

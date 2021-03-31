@@ -1,8 +1,8 @@
-# .php File allow list
+# `.php` File allow list
 
-The Magento 2 Nginx configuration file has an allow list (List of allowed file names) to be passed to PHP-FPM. This guide is intended to show you how to add a new filename to the allow list.
+The Magento 2 NGINX configuration file has an allow list (List of allowed file names) to be passed to PHP-FPM. This guide is intended to show you how to add a new file to the allow list.
 
-We are going to use testfile.php as the example new php file we are trying to add to the Nginx allow list.
+We are going to use `testfile.php` as the example new PHP file we are trying to add to the NGINX allow list.
 
 If you have created a new file within your Magento 2 website and you are getting a 404 when trying to access the file:
 
@@ -11,13 +11,13 @@ If you have created a new file within your Magento 2 website and you are getting
  HTTP/1.1 404 Not Found
 ```
 
-First ensure the new file is in the pub folder within the document root. All files and folders outside of the pub folder are not publicly accessible. Example pub folder:
+First ensure the new file is in the pub folder or a subdirectory within that, inside the document root. All files and folders outside of the pub folder are not publicly accessible. Example pub folder:
 
 ```bash
 /var/www/vhosts/example.com/htdocs/pub/
 ```
 
-Second, add the new filename to the Nginx domain configuration file:
+Second, add the new filename to the NGINX domain configuration file:
 
 ```bash
 ~]$ vim /etc/nginx/conf.d/example.com.conf
@@ -34,7 +34,7 @@ Second, add the new filename to the Nginx domain configuration file:
   include fastcgi_params;
 }
  ```
-To implement this change you need to reload the Nginx service. First perform a configuration test with the following command:
+To implement this change you need to reload the NGINX service. First perform a configuration test with the following command:
 
 ```bash
  ~]$ nginx -t
@@ -42,7 +42,7 @@ nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
 nginx: configuration file /etc/nginx/nginx.conf test is successful
 ```
 
-If there are no errors in the configuration test proceed to reload the Nginx service with the following command:
+If there are no errors in the configuration test proceed to reload the NGINX service with the following command:
 
 ```bash
  ~]$ nginx -s reload
@@ -59,6 +59,6 @@ You should now be able to access the new file without any issues:
   .. title:: Magento 2 .php File allow list
   .. meta::
      :title: Magento 2 .php File allow list | UKFast Documentation
-     :description: A guide to adding new php filenames to the Nginx allow list
+     :description: A guide to adding new php filenames to the NGINX allow list
      :keywords: ukfast, linux, nginx, install, centos, cloud, server, virtual, eCommerce
-
+```

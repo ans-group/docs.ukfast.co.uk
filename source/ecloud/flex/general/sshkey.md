@@ -12,7 +12,7 @@ Either login to the instance as root user, or prefix all commands with `sudo`:
 
     (For Debian/Ubuntu, replace `wheel` with `sudo`)
 
-2. Switch to the ukfastsupport user:
+2. Switch to the `ukfastsupport` user:
 
     ```bash
     sudo -u ukfastsupport -i
@@ -24,13 +24,13 @@ Either login to the instance as root user, or prefix all commands with `sudo`:
     mkdir /home/ukfastsupport/.ssh
     ```
 
-4. Edit the authorized_keys file:
+4. Edit the `authorized_keys` file:
 
     ```bash
     nano /home/ukfastsupport/.ssh/authorized_keys
     ```
 
-5. Paste the key into the file ensuring that it's entirely on a single line. Save the file with CTRL+O then exit with CTRL+X.
+5. Paste the key into the file ensuring that it's entirely on a single line. Save the file with `CTRL+O` then exit with `CTRL+X`.
 
 6. Ensure the permissions on the files are set correctly - this must be done or SSH will deny access:
 

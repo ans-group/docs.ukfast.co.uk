@@ -172,6 +172,7 @@ def format_markdown_text(text, file):
     """
     Input a doc.md file and it'll spit out the title, description, keywords (perhaps), and the content.
     """
+    logging.info('Formatting text with length: {}'.format(len(text)))
     output = prettify(text)
     title, desc, keywords = get_meta(text)
     logging.info('Found the following title, desc for {}:\n{}\n{}'.format(file, title, desc))
@@ -212,7 +213,8 @@ if __name__ == '__main__':
             time.sleep(5)
 
     if es.indices.exists(index=index_name):
-        logging.warning('Elasticsearch index \'{}\' already exists. Attempting to delete...'.format(index_name))
+        logging.warning(
+            'Elasticsearch index \'{}\' already exists. Attempting to delete...'.format(index_name))
         es.indices.delete(index=index_name, ignore=[400, 404])
 
     # Create the documentation index and set the 'boost' levels for the columns.
@@ -254,11 +256,12 @@ if __name__ == '__main__':
     for file in files:
         logging.info('Processing {}...'.format(file))
 
-        output, missing_metadata = format_markdown_text(open(file, 'r').read(), file)
-        if missing_metadata:
-            missing_meta.append(file)
+        with open(file, 'r') as f:
+            output, missing_metadata = format_markdown_text(f.read(), file)
+            if missing_metadata:
+                missing_meta.append(file)
 
-        output['url'] = re.sub(r'^source/','/',file.replace('.md', '.html'))
+        output['url'] = re.sub(r'^source/', '/', file.replace('.md', '.html'))
         es.index(index=index_name, body=output)
 
     logging.info('Total documents missing meta tags {}/{}:'.format(len(missing_meta), len(files)))

@@ -1,6 +1,6 @@
 # The New Settings App
 
-  In Windows Server 2016, the way in which you configure options for windows has changed dramatically. 
+  In Windows Server 2016, the way in which you configure options for windows has changed dramatically.
   In previous versions of Windows, the vast majority of basic changes to system options were made in the control panel, however in Windows Server 2016, these changes are now mostly made in the Settings App
 
 * If you are not yet familiar with Windows Server 2016, please use the below overview to familiarise yourself with the Settings App
@@ -21,7 +21,7 @@ The System Category contains the following important sections
 
 ![Display](files/settingsapp/system/display.PNG)
 
-* Apps and Features (Used to Modify or Remove an installed application, aswell as add optional features and access Programs and Features)
+* Apps and Features (Used to Modify or Remove an installed application, as well as add optional features and access Programs and Features)
 
 ![apps and features](files/settingsapp/system/appandfeatures.PNG)
 
@@ -37,11 +37,11 @@ The System Category contains the following important sections
 
 ![Storage](files/settingsapp/system/storage.PNG)
 
-* Multitasking (To set Window Snap behavior and choose Virtual desktop identification options)
+* Multitasking (To set Window Snap behaviour and choose Virtual desktop identification options)
 
 ![Multitasking](files/settingsapp/system/multitasking.PNG)
 
-* About (Displays basic information about the Server, allows domain connection, Renaming of the Server, aswell as several other options such as administrative tools, bitlocker settings and device manager.)
+* About (Displays basic information about the Server, allows domain connection, Renaming of the Server, as well as several other options such as administrative tools, BitLocker settings and device manager.)
 
 ![About](files/settingsapp/system/about.PNG)
 
@@ -54,11 +54,11 @@ The Devices category contains the following important sections
 
 ![Printers and scanners](files/settingsapp/devices/printersandscanners.PNG)
 
-* Connected Devices (Displays information about Currently connected Peripheral Devices aswell as providing the option to add a device)
+* Connected Devices (Displays information about Currently connected Peripheral Devices as well as providing the option to add a device)
 
 ![Connected Devices](files/settingsapp/devices/connecteddevices.PNG)
 
-* USB (Provides an option to receive notifications if an issue occurs while connecting usb devices)
+* USB (Provides an option to receive notifications if an issue occurs while connecting USB devices)
 
 ![USB](files/settingsapp/devices/usb.PNG)
 
@@ -70,7 +70,7 @@ The Network & Internet category contains the following important sections.
 
 ![Network Status](files/settingsapp/network/networkstatus.PNG)
 
-* Ethernet (Displays active network connections and displays their ip address, mac address and driver version, aswell as providing access to homegroup, network and sharing center and advanced sharing options)
+* Ethernet (Displays active network connections and displays their IP address, MAC address and driver version, as well as providing access to `homegroup`, Network and Sharing <nospell>center</nospell> and Advanced Sharing options)
 
 ![Ethernet](files/settingsapp/network/ethernetoptions.PNG)
 
@@ -108,7 +108,7 @@ The Accounts category contains the following sections
 
 The Time and Language category contains the following sections
 
-* Date & Time (Provide options to change Time and date settings aswell as to adjust formats and regional settings)
+* Date & Time (Provide options to change Time and date settings as well as to adjust formats and regional settings)
 
 ![Date & time](files/settingsapp/dateandtime/dateandtime.PNG)
 
@@ -135,7 +135,7 @@ The Privacy Category contains several sections which allow you to customise your
 
 The Update and Security Category contains the following important sections
 
-* Windows Update (This section allows you to install available updates, aswell as set Active hours, restart options and update options)
+* Windows Update (This section allows you to install available updates, as well as set Active hours, restart options and update options)
 
 ![Windows Update](files/settingsapp/update/windowsupdate.PNG)
 
@@ -145,7 +145,7 @@ The Update and Security Category contains the following important sections
 
 ![Additional Updates](files/settingsapp/update/additionalupdates.PNG)
 
-* Windows Defender ( Allows you to launch Windows Defender aswell as set protection options and make exclusions)
+* Windows Defender ( Allows you to launch Windows Defender as well as set protection options and make exclusions)
 
 ![Windows Defender](files/settingsapp/update/windowsdefender.PNG)
 
@@ -155,3 +155,4 @@ The Update and Security Category contains the following important sections
      :title: Settings in Windows Server 2016 | UKFast Documentation
      :description: An in-depth guide to using Settings in Windows Server 2016
      :keywords: ukfast, windows, settings, app, new, server, administration, tutorial, guide, 2016
+```

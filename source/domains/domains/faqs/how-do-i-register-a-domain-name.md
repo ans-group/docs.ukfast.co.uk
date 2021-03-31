@@ -57,8 +57,8 @@ Add your chosen option to your basket and it will appear on the right hand side.
 ![Domain registration page 8](http://images.ukfast.co.uk/screenshots/myukfast/domain_names/domainreg8.png)
 
 
- 
 
 
- 
+
+
 

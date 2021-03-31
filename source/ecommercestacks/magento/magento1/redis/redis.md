@@ -1,10 +1,10 @@
 # Redis
 
-Magento 1 has been around for a while now and is one of the most frequently used eCommerce platforms on the Web. This means different techniques for increasing performance have been tested and several have come out as no brainers in terms of their benefit in relation to the effort required to get it up and running.
+Magento 1 has been around for a while now and is one of the most frequently used eCommerce platforms on the Web. This means different techniques for increasing performance have been tested and several have come out as being highly recommended in terms of their benefit in relation to the effort required to get it up and running.
 
 Magento out of the box stores its cache data on the file system, this works OK for small low traffic sites but once your catalog and visitor base grows this can quickly become a bottleneck.
 
-Using Redis for your cache and session data is one of those no brainers that a lot of the community would recommend. Magento supports many different caching mechanisms with the most widely used being APC or Memcached. Redis however has one main advantage over these methods and that is the ability to support tagging. Redis is a high performance scalable key value store that is easy to integrate with the Magento application.
+Using Redis for your cache and session data is one of those changes that a lot of the community would recommend. Magento supports many different caching mechanisms with the most widely used being APC or Memcached. Redis however has one main advantage over these methods and that is the ability to support tagging. Redis is a high performance scalable key value store that is easy to integrate with the Magento application.
 
 Using APC/Memcached if data is edited in the backend of Magento will need to invalidate certain cache data related to this. This data is identified by tags and with these methods not supporting tagging, Magento will need to check through all files in the cache directory to find these entries. With a couple of thousand products which is not out of the norm, this folder can contain thousands of files and hundreds of megabytes of data or more. With Redis, Magento can pass the tag and only data related to that tag will be returned making it a lot more efficient.
 
@@ -19,39 +19,37 @@ redis    16810  0.1  0.1 153952  8284 ?        Ssl  Jul01  48:47 /usr/bin/redis-
 
 This is beneficial for the following reasons;
 
-- Redis maxmemory is configurable per instance meaning certain data can over utilise this and leave insufficient space for other data such as cache. With separate instances this can be configured per instance to allow more flexibility.<br>
-- Statistics are stored globally meaning this would be unhelpful if this encompasses all data.<br>
-- Configurations are usually per instance rather than per database making it inflexible if all data is in the same instance.<br>
-- Redis is single threaded meaning performance peaks when one core is fully utilised. With multiple instances this is less of an issue.
+- Redis `maxmemory` is configurable per instance, meaning certain data can over utilise this and leave insufficient space for other data such as cache. With separate instances this can be configured per instance to allow more flexibility.
+- Statistics are stored globally, meaning this would be unhelpful if this encompasses all data.
+- Configurations are usually per instance, rather than per database, making it inflexible if all data is in the same instance.
+- Redis is single threaded, meaning performance peaks when one core is fully utilised. With multiple instances this is less of an issue.
 
-To integrate Redis with Magento there is two key components, the Redis service running on the server itself and the Redis extension that allows Magento/PHP to communicate correctly with the Redis service.
+To integrate Redis with Magento, there are two key components, the Redis service running on the server itself and the Redis extension that allows Magento/PHP to communicate correctly with the Redis service.
 
 UKFast will install and configure your Redis instances so you can begin enabling this in Magento as soon as you are ready.
 
-The Magento Redis modules for cache and session data were originally community projects from Colin Mollenhour until they were integrated as part of the core code in the following versions;
+The Magento Redis modules for cache and session data were originally community projects from Colin <nospell>Mollenhour</nospell> until they were integrated as part of the core code in the following versions:
 
-Cm_RedisSession<br>
-Magento CE – 1.8.0<br>
-Magento EE – 1.13.1
+- `Cm_RedisSession`
+  - Magento CE – 1.8.0
+  - Magento EE – 1.13.1
 
-Cm_Cache_Backend_Redis<br>
-Magento CE – 1.8.0<br>
-Magento EE – 1.13.1
+- `Cm_Cache_Backend_Redis`
+  - Magento CE – 1.8.0
+  - Magento EE – 1.13.1
 
-The Repositories for these modules can be found here along with installation details for older versions of Magento
+The repositories for these modules can be found here along with installation details for older versions of Magento
 
-Cm_RedisSession - [https://github.com/colinmollenhour/Cm_RedisSession](https://github.com/colinmollenhour/Cm_RedisSession)<br>
-Cm_Cache_Backend_Redis - [https://github.com/colinmollenhour/Cm_Cache_Backend_Redis](https://github.com/colinmollenhour/Cm_Cache_Backend_Redis)
+- `Cm_RedisSession` - [https://github.com/colinmollenhour/Cm_RedisSession](https://github.com/colinmollenhour/Cm_RedisSession)<br>
+- `Cm_Cache_Backend_Redis` - [https://github.com/colinmollenhour/Cm_Cache_Backend_Redis](https://github.com/colinmollenhour/Cm_Cache_Backend_Redis)
 
 ### Using Redis for Session Data
 
-In order to utilise Redis for session data storage you must first enable the Cm_RedisSession module. This is one of the most common mistakes we come across with clients trying to configure Magento sessions with Redis. Since this is not required when configuring the cache it is often overlooked. To enable this open the following file
+In order to utilise Redis for session data storage you must first enable the `Cm_RedisSession` module. This is one of the most common mistakes we come across with clients trying to configure Magento sessions with Redis. Since this is not required when configuring the cache it is often overlooked. To enable this open the file `app/etc/modules/CM_RedisSession.xml`
 
-app/etc/modules/CM_RedisSession.xml
+In this file change the value from `false` to `true` as below:
 
-In this file change the value from “false” to “true” as below;
-
-```bash
+```xml
 <config>
   <modules>
     <Cm_RedisSession>
@@ -62,9 +60,9 @@ In this file change the value from “false” to “true” as below;
 </config>
 ```
 
-Along with this you then need to configure Magento to utilise Redis in your app/etc/local.xml file. Below is an example configuration that can be used;
+Along with this you then need to configure Magento to utilise Redis in your `app/etc/local.xml` file. Below is an example configuration that can be used:
 
-```bash
+```xml
 <!-- example of redis session storage -->
         <session_save>db</session_save>
         <redis_session>
@@ -91,12 +89,12 @@ Along with this you then need to configure Magento to utilise Redis in your app/
 
 If you are carrying out this change on a production website you may wish to migrate your existing session data over to Redis to prevent customers experiencing disruption such as being logged out or having their basket emptied.
 
-Colin Mollenhours repository also provides scripts to enable you to do this.  Depending on whether you was previously using files or database to store sessions you can follow the steps below.
+Colin <nospell>Mollenhours</nospell> repository also provides scripts to enable you to do this.  Depending on whether you was previously using files or database to store sessions you can follow the steps below.
 
 #### Files to Redis
 
 ```bash
-(in Magento document root folder)
+# (in Magento document root folder)
 ~]$ touch maintenance.flag
 ~]$ wget https://raw2.github.com/colinmollenhour/Cm_RedisSession/master/migrateSessions.php
 ~]$ php migrateSessions.php -y
@@ -106,14 +104,14 @@ Colin Mollenhours repository also provides scripts to enable you to do this.  De
 #### Database to Redis
 
 ```bash
-(in Magento document root folder)
+# (in Magento document root folder)
 ~]$ touch maintenance.flag
 ~]$ wget https://raw2.github.com/colinmollenhour/Cm_RedisSession/master/migrateSessions_mysql_redis.php
 ~]$ php migrateSessions_mysql_redis.php -y
 ~]$ rm maintenance.flag
 ```
 
-Once sessions have been Migrated (or before if you don’t mind losing session data) you can test if Magento is now utilising Redis by clearing out your (docroot)/var/session directory (or core_session if db was previously used) and browsing the site then ensuring this directory remains empty. Another way to check is to actually monitor the data in Redis using the following command;
+Once sessions have been migrated (or before, if you don't mind losing session data) you can test if Magento is now utilising Redis by clearing out your `(document root)/var/session` directory (or `core_session` if DB was previously used) and browsing the site, then ensuring this directory remains empty. Another way to check is to actually monitor the data in Redis using the following command;
 
 ```bash
 ~]$ redis-cli -h 127.0.0.1 -p 6379 monitor
@@ -123,9 +121,9 @@ This will show the data being pulled through to the Redis instance.
 
 ### Redis for Cache Data
 
-Utilising Redis for cache data does not require the enabling of a module as above. This can simply be enabled by adding the configuration to your app/etc/local.xml file. See example below
+Utilising Redis for cache data does not require the enabling of a module as above. This can simply be enabled by adding the configuration to your `app/etc/local.xml` file. See example below
 
-```bash
+```xml
 <!-- example of redis cache -->
         <cache>
           <backend>Cm_Cache_Backend_Redis</backend>
@@ -148,22 +146,30 @@ Utilising Redis for cache data does not require the enabling of a module as abov
         </cache>
 ```
 
-For versions of Magento before 1.8.0 (CE) where the Cm_Cache_Backend_Redis module has been installed replace the following line
+For versions of Magento before 1.8.0 (CE) where the `Cm_Cache_Backend_Redis` module has been installed replace the following line
 
-```bash
+```xml
 <backend>CACHE_BACKEND_CLASS_NAME</backend>
-With
+```
+
+with
+
+```xml
 <backend>Cm_Cache_Backend_Redis</backend>
- ```
+```
+
 For Magento (CE) versions 1.8.0 and (EE) 1.13.0 replace the following line
 
-```bash
+```xml
 <backend>CACHE_BACKEND_CLASS_NAME</backend>
-With
+```
+with
+
+```xml
 <backend>Mage_Cache_Backend_Redis</backend>
 ```
 
-Once this has been added you should be able to clear the (document root)/var/cache/ directory and browse to the site and this folder should remain empty. Another way to check as above is to actually monitor the data in Redis using the following command;
+Once this has been added you should be able to clear the `(document root)/var/cache/` directory and browse to the site and this folder should remain empty. Another way to check as above is to actually monitor the data in Redis using the following command;
 
 ```bash
 ~]$ redis-cli -h 127.0.0.1 -p 6380 monitor
@@ -173,9 +179,9 @@ This will show the data being pulled through to the Redis instance.
 
 ### Using Redis for Full Page Cache Data (EE)
 
-As above, the following configuration can be added to the app/etc/local.xml file, again adding the backend class name as above. See example below
+As above, the following configuration can be added to the `app/etc/local.xml` file, again adding the backend class name as above. See example below
 
-```bash
+```xml
 <!-- example of redis Magento Enterprise FPC -->
         <full_page_cache>
           <backend>Cm_Cache_Backend_Redis</backend>
@@ -193,7 +199,7 @@ As above, the following configuration can be added to the app/etc/local.xml file
         </full_page_cache>
 ```
 
-When this is enabled you can clear the (document root)/var/full_page_cache directory and browse to the site and this folder should remain empty. Another way to check as above is to actually monitor the data in Redis using the following command;
+When this is enabled you can clear the `(document root)/var/full_page_cache` directory and browse to the site and this folder should remain empty. Another way to check as above is to actually monitor the data in Redis using the following command;
 
 ```bash
 ~]$ redis-cli -h 127.0.0.1 -p 6381 monitor
@@ -203,9 +209,9 @@ This will show the data being pulled through to the Redis instance.
 
 ### Cleaning out old Cache Tags
 
-It is recommended to clear out old cache tags if the cache is cleared infrequently. This can be done using the garbage collection script provided by Colin Mollenhour. An example of this can be found below
+It is recommended to clear out old cache tags if the cache is cleared infrequently. This can be done using the garbage collection script provided by Colin <nospell>Mollenhour</nospell>. An example of this can be found below
 
-```bash
+```php
 <?php PHP_SAPI == 'cli' or die('<h1>:P</h1>');
 ini_set('memory_limit','1024M');
 set_time_limit(0);
@@ -219,12 +225,13 @@ Mage::app()->getCache()->getBackend()->clean('old');
 We would recommend adding this to the shell folder and configuring a cron to run daily.
 
 ### Redis Service
-You can find more information on the Redis service [here](/operatingsystems/linux/redis/redis)
+
+Here's [more information on the Redis service](/operatingsystems/linux/redis/redis)
 
 ```eval_rst
   .. title:: Magento 1 IP Restrict File/Folder
   .. meta::
      :title: Magento 1 IP Restrict File/Folder | UKFast Documentation
-     :description: A guide to IP restrict a file or folder within Nginx
+     :description: A guide to IP restrict a file or folder within NGINX
      :keywords: ukfast, linux, nginx, install, centos, cloud, server, virtual, Magento, security, eCommerce
-
+```

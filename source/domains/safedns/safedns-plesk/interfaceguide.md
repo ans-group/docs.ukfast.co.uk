@@ -5,7 +5,7 @@
 
 ### Welcome Page
 
-The welcome page will guide you through checking the settings explained in the “Setup” Page.
+The welcome page will guide you through checking the settings explained in the "Setup" Page.
 
 
 ### Manage DNS Zones
@@ -40,7 +40,7 @@ In Tasks & Config , you have the following options:
 ```eval_rst
 ================ ====================================================================================================================
 Button           Function
-================ ====================================================================================================================                                                                                                        
+================ ====================================================================================================================
 Set API Key      Open a form for API Key to be inputted. When a Key is saved, It will be tested to confirm it is valid.
 
 Sync All         This will synchronise all enabled zones to SafeDNS.
@@ -53,7 +53,7 @@ Delete All       This will immediately delete all enabled zones from SafeDNS.
 Delete Domain    | Open a form with a Dropdown to select a Domain.
                  | On Submit,  delete only the selected zone from SafeDNS.
 
-Clear All Tasks  | Clears out the extension’s task queue.
+Clear All Tasks  | Clears out the extension's task queue.
                  | If a task has errored and you cannot run another one, click this button.
 ================ ====================================================================================================================
 ```

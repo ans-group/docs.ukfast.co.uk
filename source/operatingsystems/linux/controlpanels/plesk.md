@@ -1,13 +1,14 @@
 # Connecting to your Plesk Control Panel
 
 The Plesk control panel lets you manage many aspects of your server though an web GUI, taking a lot of the low level work out of setting up sites.
-Plesk allows users to maintain and make use of their Linux server with ease, even if they are not comfortable managing a linux server via a command line interface.
+Plesk allows users to maintain and make use of their Linux server with ease, even if they are not comfortable managing a Linux server via a command line interface.
 
 Plesk runs on port 8443 by default. You can access your Plesk panel via the external IP of the server or via an A record that is pointing that IP Address.
 
 ```console
-  https://xxx.xxx.xxx.xxx:8443
+https://xxx.xxx.xxx.xxx:8443
 ```
+
 ```eval_rst
 .. note::
    The first time you access this, it will likely show a certificate warning that varies depending on which browser you're using.
@@ -39,3 +40,4 @@ If you encounter any issues connecting to your Plesk Control Panel using the ins
      :title: Connecting to your Plesk Control Panel | UKFast Documentation
      :description: A guide for getting into your Plesk Control Panel
      :keywords: ukfast, plesk, control, panel, tutorial, cloud, server, guide, virtual
+```

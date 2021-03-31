@@ -25,11 +25,11 @@ Service Monitoring can be customised using your online Pre-Launch Questionnaire 
 ## Example Additional Monitoring Options
 
 ```eval_rst
-+-------------------------------------+--------------------+-------------+
-| Hostname                            | Port/ Service/ URL | Default     |
-+=====================================+====================+=============+
-| e.g. http://example.com/status.apsx | e.g. URL           | Not enabled |
-+-------------------------------------+--------------------+-------------+
++-----------------------------------------+--------------------+-------------+
+| Hostname                                | Port/ Service/ URL | Default     |
++=========================================+====================+=============+
+| e.g. ``http://example.com/status.apsx`` | e.g. URL           | Not enabled |
++-----------------------------------------+--------------------+-------------+
 ```
 
 ## Capacity Threshold Monitoring

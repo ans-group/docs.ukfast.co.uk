@@ -1,0 +1,13 @@
+beautifulsoup4==4.9.2
+bs4==0.0.1
+certifi==2020.6.20
+chardet==3.0.4
+elasticsearch==7.9.1
+html2text==2020.1.16
+idna==2.10
+importlib-metadata==2.0.0
+markdown==3.2.2
+requests==2.24.0
+soupsieve==2.0.1
+urllib3==1.25.10
+zipp==3.2.0

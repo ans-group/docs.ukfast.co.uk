@@ -1,6 +1,6 @@
-# Connecting to UKFast Veeam Cloud Connect 
- 
-1. Open "Veeam Backup & Replication Console" and connect to your Veeam Backup and Replication Server 
+# Connecting to UKFast Veeam Cloud Connect
+
+1. Open "Veeam Backup & Replication Console" and connect to your Veeam Backup and Replication Server
 
 2. Navigate to **Backup Infrastructure** > **Service Providers**
 
@@ -35,7 +35,9 @@
    6. **Summary** - Give all of the settings one final check before clicking **Finish**
 
 ```eval_rst
+   .. title:: Connecting to UKFast Veeam Cloud Connect
    .. meta::
       :title: Connecting to UKFast Veeam Cloud Connect | UKFast Documentation
       :description: How to connect to UKFasts Veeam Cloud Connect infrastructure
       :keywords: ukfast, cloud, ecloud, public, hosting, infrastructure, vmware, draas, veeam, connect, dr, replication, backup
+```

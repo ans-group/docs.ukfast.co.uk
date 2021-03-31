@@ -3,7 +3,7 @@
 ```eval_rst
    .. title:: MyUKFast | Contacting your Account Manager
    .. meta::
-      :title: MyUKFast | Contacting my Account Manager in MyUKFast | UKFast Documentation
+      :title: MyUKFast | Contacting your Account Manager | UKFast Documentation
       :description: Instructions on how to contact your Account Manager at UKFast
       :keywords: ukfast, account manager, service manager, close account, cancellation, cancel, contract, quote, terminate, notice period, notice, upgrade, downgrade
 ```
@@ -17,7 +17,7 @@ Contacting your Account Manager is very simple and they are available via teleph
  2. Or, when logged into MyUKFast, click **My Account > My Account Manager**
  3. Your Account Manager's email address and direct dial are listed on this page
 
- In addtion, there are alternative contact methods provided:
- 
+ In addition, there are alternative contact methods provided:
+
  4. Send a message directly to your Account Manager from this page
  5. Request a call back at a specific date and time

@@ -5,19 +5,19 @@ FastDesk
 FastDesk is our desktop as a service (DaaS) solution, based on our award-winning hosting platform. It combines enterprise-grade infrastructure and hosting with market-leading Citrix desktop-virtualisation technology to provide a seamless all-in-one desktop experience regardless of the endpoint device. Welcome to the Future.
 
 ------------------------------
-Getting Started Guides 
+Getting Started Guides
 ------------------------------
 
-Here are step-by-step tutorials designed to help you set up and launch your FastDesk desktop. Simply choose your device.   
+Here are step-by-step tutorials designed to help you set up and launch your Fastdesk desktop. Simply choose your device.
 
 .. toctree::
    :maxdepth: 1
-   
-   getting_started_guide/FASTdeskGettingStartedGuideWindows.md
-   getting_started_guide/FASTdeskGettingStartedGuideMacOS.md
-   getting_started_guide/FASTdeskGettingStartedGuideiOS.md
-   getting_started_guide/FASTdeskGettingStartedGuideAndroid.md
-   
+
+   getting_started_guide/fastdesk_getting_started_guide_windows.md
+   getting_started_guide/fastdesk_getting_started_guide_macos.md
+   getting_started_guide/fastdesk_getting_started_guide_ios.md
+   getting_started_guide/fastdesk_getting_started_guide_android.md
+
 ---------------------
 FastDesk Handbook
 ---------------------
@@ -59,7 +59,7 @@ Further step-by-step support related tutorials designed to help you self-service
 Additional Resources
 ---------------------
 
-Find additional resources that will allow you to enhance or customise your FastDesk experience. 
+Find additional resources that will allow you to enhance or customise your FastDesk experience.
 
 .. toctree::
    :maxdepth: 1
@@ -82,6 +82,6 @@ For more information about FASTdesk, and how it can help increase the flexibilit
    
    
 .. meta::
-   :title: FastDesk - hosted desktops | UKFast Documentation
+   :title: FastDesk - Hosted Desktops | UKFast Documentation
    :description: Information relating to FastDesk, a hosted desktop solution from UKFast
    :keywords: ukfast, fastdesk, desktop, hosting, cloud, server, citrix, workspace, daas

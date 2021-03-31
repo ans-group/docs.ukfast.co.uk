@@ -21,7 +21,7 @@ On Windows servers, the default is to change the size of the underlying virtual 
 
 As such, we must first identify which form of disk expansion has been applied to your virtual machine (VM).
 
-Firstly we need to rescan the SCISI hosts:
+Firstly we need to rescan the SCSI hosts:
 
 ```bash
 [root@ssh ~]# for i in /sys/class/scsi_host/host*/scan; do echo "- - -" > $i; done
@@ -133,7 +133,7 @@ We've identified that one of the disks has been resized - `sdb` in this case.
 
 While the operating system (OS) can see the additional space, we've still got to make this usable.
 
-First, you'll need to get LVM to recognize that the PV has changed size:
+First, you'll need to get LVM to recognise that the PV has changed size:
 
 ```bash
 [root@ssh ~]# pvresize /dev/sdb
@@ -177,9 +177,11 @@ Then confirm that it shows up in `pvs`:
 
 So that we can assign the new disk space to the logical volume, we need to first add the physical volume into the volume group:
 
+```bash
 [root@ssh ~]# vgextend eCloud /dev/sdc
   Volume group "eCloud" successfully extended
 [root@ssh ~]#
+```
 
 Then confirm that the VG shows the right total size:
 
@@ -205,8 +207,8 @@ We need to grow the LV over the new free space - for most people this will be th
 ```bash
 [root@ssh ~]# lvs
   LV   VG     Attr       LSize    Pool Origin Data%  Meta%  Move Log Cpy%Sync Convert
-  root eCloud -wi-ao----   18.53g                                                    
-  swap eCloud -wi-ao---- 1000.00m                                                    
+  root eCloud -wi-ao----   18.53g
+  swap eCloud -wi-ao---- 1000.00m
 [root@ssh ~]#
 ```
 
@@ -224,8 +226,8 @@ Confirm that this has resized the LV as expected:
 ```bash
 root@ssh ~]# lvs
   LV   VG     Attr       LSize    Pool Origin Data%  Meta%  Move Log Cpy%Sync Convert
-  root eCloud -wi-ao----   23.53g                                                    
-  swap eCloud -wi-ao---- 1000.00m                                                    
+  root eCloud -wi-ao----   23.53g
+  swap eCloud -wi-ao---- 1000.00m
 [root@ssh ~]#
 ```
 
@@ -272,5 +274,6 @@ Then confirm that the disk shows the correct size in `df -h`.
   .. title:: Extending LVM disk partition on Linux
   .. meta::
      :title: Extending LVM disk partition on Linux | UKFast Documentation
-     :description: A guide to extending an LVM disk partition on linux 
+     :description: A guide to extending an LVM disk partition on linux
      :keywords: ukfast, linux, extension, disk, server, virtual, vm, hard, drive
+```

@@ -52,7 +52,7 @@ h2 {
     font-size: 1.5em;
 }
 h3 {
-    font-size: 1em;
+    font-size: 1.2em;
     font-weight: 400;
 }
 h4 {
@@ -110,25 +110,25 @@ h2 a {
     float: left;
     margin-right: 5px;
 }
-  
+
 
 @media only screen and (min-width: 991px){
     #content-container {margin-left: 250px;}
 }
 
-/* 
+/*
 Sphinx now adds a paragraph to unordered lists,
 creating some annoying spacing.
 https://stackoverflow.com/questions/49700502/inconsistent-line-spacing-in-restructuredtext-document
 This change should fix that without making changes to the sphinx source or downgrading the html renderer to v4.
 */
-.simple > li > p { margin: 0 0 -5px } 
-
+.simple > li > p, .simple > li > ul > li > p {
+    margin: 0 0 -5px
+}
 
 /* Preformatted text */
 code {
     font-family: "Roboto Mono", "Consolas", "Monaco", monospace;
-    font-size: 1.3rem;
 }
 
 /* lists */
@@ -1693,7 +1693,7 @@ header {
 }
 
 .nav-up {
-    top: -76px;fonr
+    top: -76px;
 }
 
 #sub {

@@ -1,11 +1,10 @@
-# Quickstart
+# Quick-start
 
 This aim of this guide is to take a brand new UKFast loadbalancer and configure it with a relatively standard set of rules. The setup will be one `VIP` listening on both `HTTP` and `HTTPS`, passing traffic back to two servers.
 
 ```eval_rst
 .. note::
-   All the following steps can be carried out on a UKFast loadbalancer through your MyUKFast area accessible here:
-   - :doc:`https://my.ukfast.co.uk/server/loadbalancers/`
+   All the following steps can be carried out on a UKFast loadbalancer through your MyUKFast area `accessible here <https://my.ukfast.co.uk/server/loadbalancers/>`_
 ```
 
 ## Terminology
@@ -24,7 +23,7 @@ Here's a brief rundown of some of the terms that will be used throughout this gu
 * `Backend Server` - One or more backends are contained within a server group, determining where traffic is delivered.
 
 
-* `Passthrough` - A listener with a protocol of `HTTPS` is said to be operating in passthrough, as traffic is sent directly to the backend server on port `443` without any   decryption.
+* `Passthrough` - A listener with a protocol of `HTTPS` is said to be operating in passthrough, as traffic is sent directly to the backend server on port `443` without any decryption.
 
 
 * `Offloaded` - If the `HTTPS Offloaded` service is used then `HTTPS` traffic on the loadbalancer is decrypted before being sent to the backend servers on port `80`. This has the benefit of allowing layer 7 actions to be carried out on the traffic.
@@ -53,7 +52,7 @@ Here's a breakdown of the fields:
 * `Loadbalancing Method`
 
   You've got three options here, `Round Robin`, `Least Connections` or `Source IP`. These methods determine how traffic is distributed between your backend servers. Most people should probably stick with `Least Connections` as this method intelligently sends traffic to the backend that has the least connections at any one time.
-  `Round Robin` will blindly send traffic first to server A, then to server B, then to server A etc. This has a slightly lower overhead but can lead to hotspots developing if sticky sessions are in use.
+  `Round Robin` will blindly send traffic first to server A, then to server B, then to server A etc. This has a slightly lower overhead but can lead to hot-spots developing if sticky sessions are in use.
   `Source IP` is quite different. The source IP address of the request is hashed and then this is used to determine which backend server should be used. It ensures that that IP will always end up on the same backend server providing no servers are added or removed from the pool.
 
 
@@ -65,13 +64,11 @@ Here's a breakdown of the fields:
 
 * `Health Check URL`
 
-  Used to specify the health check used in determining if a backend server is healthy or not. Left blank, the default health check will be used, which essentially checks the HTTP status code of the default site on the backend server. If the status is >=200 and <400 it'll be deemed valid for receiving traffic. If the default site isn't suitable for this, or if it doesn't respond in 3 seconds, it'll be better to set up an alternative health check url. If you were to use the example of `example.com/health.php` as your health check URL, then each backend server would be tested in a way best described as `curl -IH'Host: example.com' 1.1.1.1/health.php`, where `1.1.1.1` is the ip of the backend server. `HEAD`/`OPTIONS`/`GET` are different HTTP verbs that you can use when carrying out the health check. If you're not sure which one to pick, stick with `HEAD`.
-
+  Used to specify the health check used in determining if a backend server is healthy or not. Left blank, the default health check will be used, which essentially checks the HTTP status code of the default site on the backend server. If the status is >=200 and <400 it'll be deemed valid for receiving traffic. If the default site isn't suitable for this, or if it doesn't respond in 3 seconds, it'll be better to set up an alternative health check URL. If you were to use the example of `example.com/health.php` as your health check URL, then each backend server would be tested in a way best described as `curl -IH'Host: example.com' 1.1.1.1/health.php`, where `1.1.1.1` is the IP of the backend server. `HEAD`/`OPTIONS`/`GET` are different HTTP verbs that you can use when carrying out the health check. If you're not sure which one to pick, stick with `HEAD`.
 
 * `HTTP Close`
 
-  This option is best left enabled. If disabled, connections will be left open to the backend sever for re-use. Whilst this does have a slightly lower overhead, it does have an impact on any injected headers (such as `X-Forwarded-For` with ssl offloading) as it's only injected on the initial packet in any HTTP transaction.
-
+  This option is best left enabled. If disabled, connections will be left open to the backend sever for re-use. Whilst this does have a slightly lower overhead, it does have an impact on any injected headers (such as `X-Forwarded-For` with SSL offloading) as it's only injected on the initial packet in any HTTP transaction.
 
 * `Server Timeout`
 
@@ -99,12 +96,12 @@ Here's a breakdown of the fields available to you:
 
 * `Server IP`
 
-  The IP of the backend server, where traffic should be sent. If you're adding a UKFast IP into here, it should recommend available servers, though any IPs can be typed into here. If your loadbalancer is behind a dedicated firewall, please note that you should use the internal ip addresses of any backend servers. If you're unsure, please contact support_ for assistance.
+  The IP of the backend server, where traffic should be sent. If you're adding a UKFast IP into here, it should recommend available servers, though any IPs can be typed into here. If your loadbalancer is behind a dedicated firewall, please note that you should use the internal IP addresses of any backend servers. If you're unsure, please contact support_ for assistance.
 
 
 * `Server Port`
 
-  The port to which traffic should be sent. In most instances, if you're dealing with `HTTP` traffic then this should be `80` and if it's `HTTPS` then it should be `443`. Again, the only exception to this is if you're using SSL offloading, in which case the backend should be `80` as explained in :doc:`/myukfast/loadbalancing/passthroughoffload`. If you're using the `TCP` option then you should already know what port you're dealing with here.
+  The port to which traffic should be sent. In most instances, if you're dealing with `HTTP` traffic then this should be `80` and if it's `HTTPS` then it should be `443`. Again, the only exception to this is if you're using SSL offloading, in which case the backend should be `80` as explained in </myukfast/loadbalancing/passthroughoffload>. If you're using the `TCP` option then you should already know what port you're dealing with here.
 
 
 * `Weight`
@@ -165,7 +162,7 @@ Once again, here's a breakdown of the fields available to you:
 
 * `Service`
 
-  As mentioned in the terminology section, this is the protocol that a VIP uses. These can be either `HTTP`, `HTTPS`, `HTTPS Offloaded` or `TCP`. SSL offloading is a bit more complex and is explained in here: :doc:`/myukfast/loadbalancing/passthroughoffload`.
+  As mentioned in the terminology section, this is the protocol that a VIP uses. These can be either `HTTP`, `HTTPS`, `HTTPS Offloaded` or `TCP`. SSL offloading is a bit more complex and is explained in here: </myukfast/loadbalancing/passthroughoffload>.
 
 
 * `Default Server Group`
@@ -191,7 +188,7 @@ Once again, here's a breakdown of the fields available to you:
 
 * `HTTP Close`
 
-  Same functionality as on the server group, this option is best left enabled. If disabled, connections will be left open to the backend sever for re-use. Whilst this does have a slightly lower overhead, it does have an impact on any injected headers (such as `X-Forwarded-For` with ssl offloading) as it's only injected on the initial packet in any HTTP transaction.
+  Same functionality as on the server group, this option is best left enabled. If disabled, connections will be left open to the backend sever for re-use. Whilst this does have a slightly lower overhead, it does have an impact on any injected headers (such as `X-Forwarded-For` with SSL offloading) as it's only injected on the initial packet in any HTTP transaction.
 
 
 Filled in, it should look something like this:

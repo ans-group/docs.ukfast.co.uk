@@ -1,16 +1,16 @@
-# Why can't I change the registrant of a .uk domain in MyUKFast?
+# Why can't I change the registrant of a `.uk` domain in MyUKFast?
 
 ```eval_rst
-   .. title:: Domain Name FAQ Why can't I change the registrant of a .uk domain in MyUKFast?
+   .. title:: Domain Name FAQ Why can't I change the registrant of a `.uk` domain in MyUKFast?
    .. meta::
-      :description: Domain Name FAQ Why can't I change the registrant of a .uk domain in MyUKFast?
+      :description: Domain Name FAQ Why can't I change the registrant of a `.uk` domain in MyUKFast?
 ```
 
 
-To change the registrant of a .uk domain you need to complete the transfer process through Nominet. Please note there will be a fee of £10 VAT.
+To change the registrant of a `.uk` domain you need to complete the transfer process through Nominet. Please note there will be a fee of £10 VAT.
 
 
-To do this, access your [Nominet account](http://www.nominet.org.uk/go/login) and select Your Domains > Registrant Transfer tab. You can then select the domain name(s) you would like to transfer; and confirm the new registrant's email address, and who will pay the transfer fee.
+To do this, access your Nominet account and select Your Domains > Registrant Transfer tab. You can then select the domain name(s) you would like to transfer; and confirm the new registrant's email address, and who will pay the transfer fee.
 
 
 When you have completed the information, a confirmation email will be sent to the new registrant, so it's important to ensure that all contact details are correct and up to date. The new registrant will have five days to agree the transfer.

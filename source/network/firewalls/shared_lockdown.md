@@ -8,11 +8,11 @@ Sometimes the more advanced firewall features are disabled by default. If you se
 
 ## Locking down vital services to Admin IPs only
 
-There are often services that you as the server owner will want to control access too. Common examples are SSH, RDP, MySQL, or even your control panels like Plesk or cPanel/WHM. While you and your authorized contacts need to access these, in general the rest of the internet does not. Leaving them open to the world allows attackers to attempt to exploit them.
+There are often services that you as the server owner will want to control access too. Common examples are SSH, RDP, MySQL, or even your control panels like Plesk or cPanel/WHM. While you and your authorised contacts need to access these, in general the rest of the internet does not. Leaving them open to the world allows attackers to attempt to exploit them.
 
-Fortunately, there is an easy way to stop this. If you know the IPs you want to authorize, you can lock down these admin services on your firewall so only your authorized admin IPs are able to see these vital services.
+Fortunately, there is an easy way to stop this. If you know the IPs you want to authorise, you can lock down these admin services on your firewall so only your authorised admin IPs are able to see these vital services.
 
-To do so, you can add your authorized admin IPs in the Admin Config tab:
+To do so, you can add your authorised admin IPs in the Admin Config tab:
 
 ![Add an admin IP](files/shared_admin_ip.png)
 
@@ -20,7 +20,7 @@ Then in the Admin Port Config tab, you can configure port rules which apply only
 
 ## Blocking an IP
 
-There are some situations where the best solution is to block an IP entirely. On the UkFast shared firewall you can do this under the Block Config tab of your firewall interface. It looks like this:
+There are some situations where the best solution is to block an IP entirely. On the UKFast shared firewall you can do this under the Block Config tab of your firewall interface. It looks like this:
 
 ![Block an IP on shared firewall](files/shared_block_ip.png)
 

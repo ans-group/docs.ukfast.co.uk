@@ -18,7 +18,7 @@ Below are the different facets that make up a UKFast solution, click on the link
           <li><a href="web_default.html">Web Server Configuration</a></li>
           <li><a href="file_default.html">File Server Configuration</a></li>
       </ul>
-  </div>  
+  </div>
   <div class='docs-flex-item'>
       <h2>Monitoring</h2>
       <ul>
@@ -39,12 +39,14 @@ Below are the different facets that make up a UKFast solution, click on the link
       <ul>
           <li><a href="ukfast_backups.html">Backup Policy</a></li>
       </ul>
-  </div>  
+  </div>
   <div class='docs-flex-item'>
       <h2>Security</h2>
       <ul>
           <li><a href="anti-virus.html">Anti-Virus</a></li>
           <li><a href="ssl_certificates.html">SSL Certificates</a></li>
+          <li><a href="ddosx.html">DDoSX</a></li>
+          <li><a href="threatvision.html">Threat Vision</a></li>
       </ul>
   </div>
   <div class='docs-flex-item'>
@@ -52,18 +54,18 @@ Below are the different facets that make up a UKFast solution, click on the link
       <ul>
           <li><a href="ukfast_updates.html">Updates Policy</a></li>
       </ul>
-  </div>  
+  </div>
   <div class='docs-flex-item'>
       <h2>DR and HA</h2>
       <ul>
           <li><a href="bcp.html">Business Continuity Platform</a></li>
+          <li><a href="https://docs.ukfast.co.uk/dr-ha/draas/index.html">DRaaS</a></li>
       </ul>
-  </div>  
+  </div>
   <div class='docs-flex-item'>
       <h2>Hosted Desktop</h2>
       <ul>
           <li><a href="remotedesktop.html">Remote Desktop Services</a></li>
-          <li><a href="citrix.html">Citrix</a></li>
       </ul>
   </div>
   <div class='docs-flex-item'>
@@ -75,8 +77,7 @@ Below are the different facets that make up a UKFast solution, click on the link
   <div class='docs-flex-item'>
       <h2>Other</h2>
       <ul>
-          <li><a href="additional_services.html">DDoSX & Threat Monitoring</a></li>
-          <li><a href="fastdrive.html">FastDrive</a></li>
+          <li><a href="fastdrive.html">FASTdrive</a></li>
       </ul>
   </div>
 </div>

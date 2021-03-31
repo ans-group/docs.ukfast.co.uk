@@ -12,9 +12,9 @@ When increasing the amount of disk space assigned to an eCloud virtual machine (
    Performing this incorrectly may make irreversible changes to your filesystem or cause data loss, so please proceed with care and caution.
 
    Once an extension has been started, it cannot be reverted.
-   
+
    If you're unsure of anything or need some help, please contact UKFast Support, by raising a ticket in MyUKFast or calling 0800 230 0032.
-   
+
 ```
 
 ## Identifying new disk
@@ -36,7 +36,7 @@ To identify the label for this disk, check `dmesg` for lines about a new device 
 [13955.161769] sd 2:0:2:0: [sdc] Attached SCSI disk
 ```
 
-In this case, the new disk is labeled `sdc`.
+In this case, the new disk is labelled `sdc`.
 
 You should confirm that this is not already configured as a physical volume in LVM:
 
@@ -95,8 +95,8 @@ We need to grow the logical volume (LV) over the new free space - for most peopl
 ```bash
 [root@ssh ~]# lvs
   LV   VG     Attr       LSize    Pool Origin Data%  Meta%  Move Log Cpy%Sync Convert
-  root eCloud -wi-ao----   18.53g                                                    
-  swap eCloud -wi-ao---- 1000.00m                                                    
+  root eCloud -wi-ao----   18.53g
+  swap eCloud -wi-ao---- 1000.00m
 [root@ssh ~]#
 ```
 
@@ -125,8 +125,8 @@ Confirm that this has resized the LV as expected:
 ```bash
 root@ssh ~]# lvs
   LV   VG     Attr       LSize    Pool Origin Data%  Meta%  Move Log Cpy%Sync Convert
-  root eCloud -wi-ao----   23.53g                                                    
-  swap eCloud -wi-ao---- 1000.00m                                                    
+  root eCloud -wi-ao----   23.53g
+  swap eCloud -wi-ao---- 1000.00m
 [root@ssh ~]#
 ```
 
@@ -170,8 +170,9 @@ To resize an `ext` filesystem, run the following - noting the format of `/dev/ma
 Then confirm that the disk shows the correct size in `df -h`
 
 ```eval_rst
-.. meta::
-     :title: Adding new disks to an eCloud virtual server | UKFast Documentation
-     :description: A guide on adding a new disk to an eCloud virtual server
-     :keywords: ukfast, linux, ecloud, cloud, disk, drive, virtual, vm, server, tutorial
+   .. title:: Adding new disks to an eCloud virtual server
+   .. meta::
+      :title: Adding new disks to an eCloud virtual server | UKFast Documentation
+      :description: A guide on adding a new disk to an eCloud virtual server
+      :keywords: ukfast, linux, ecloud, cloud, disk, drive, virtual, vm, server, tutorial
 ```

@@ -2,7 +2,7 @@
 
 ## How is this malware distributed?
 
-Wana Decrypt0r 2.0 ransomware is spreading via an exploit named ‘EternalBlue' allegedly discovered by the NSA which was then leaked online by a group of hackers known as ‘The Shadow Brokers'. Since its initial detection this malware has caused serious issues for the UK National Health Service, Telefonica, Chinese Universities and the Russian Interior Ministry.
+Wana Decrypt0r 2.0 ransomware is spreading via an exploit named 'EternalBlue' allegedly discovered by the NSA which was then leaked online by a group of hackers known as 'The Shadow Brokers'. Since its initial detection this malware has caused serious issues for the UK National Health Service, Telefonica, Chinese Universities and the Russian Interior Ministry.
 
 The exploit works by gaining access to a remote system via the SMBv1 (Server Message Block) protocol which
 can be exploited via the following ports.
@@ -31,7 +31,7 @@ Affected Microsoft Operating Systems:
 * Windows 10 x86/x64
 * Windows 2016 x64
 
-UKFast recommend this security patch be applied with immediate effect if not already installed on your Windows platform. Upon installation of the security patch will require a server restart, we advise taking note of any highly available (HA) services and/or clusters when performing restarts. If you are unfamiliar with this process or require some assistance please contact our support team either via [MyUKFast](https://my.ukfast.co.uk/pss/add.php), by emailing [support@ukfast.co.uk](mailto:support@ukfast.co.uk) or by calling 0800 230 0032.  
+UKFast recommend this security patch be applied with immediate effect if not already installed on your Windows platform. Upon installation of the security patch will require a server restart, we advise taking note of any highly available (HA) services and/or clusters when performing restarts. If you are unfamiliar with this process or require some assistance please contact our support team either via [MyUKFast](https://my.ukfast.co.uk/pss/add.php), by emailing [support@ukfast.co.uk](mailto:support@ukfast.co.uk) or by calling 0800 230 0032.
 
 Our support engineers are have been working around the clock since information became available to reduce any impact to our customer base and keep your systems secure and protected.
 
@@ -40,7 +40,7 @@ Our support engineers are have been working around the clock since information b
 
 Wana Decrypt0r utilises an embedded installer which extracts a password protected .zip archive. This archive has a number of randomly named executable files within which are run to execute the Wana Decrypt0r functionality. Once the executables are present on the Windows file system, execution of the start-up tasks utilising the newly extracted .exe's. The ransomware will then utilise the TOR client and TOR network to allow communication between the malware and its command and control to be performed via an encrypted near untraceable network. More information regarding TOR can be found on Wikipedia [here](https://en.wikipedia.org/wiki/Tor_(anonymity_network))
 
-Once the ransomware is present on the operating system, the malware will perform remote connectivity to the following .onion addresses within the TOR network 
+Once the ransomware is present on the operating system, the malware will perform remote connectivity to the following .onion addresses within the TOR network
 
 *gx7ekbenv2riucmf.onion*
 
@@ -52,7 +52,7 @@ Once the ransomware is present on the operating system, the malware will perform
 
 *cwwnhwhlz52maqm7.onion*
 
-Once connected, the malware will execute a command to attempt to modify permissions on all available file system folders the malware resides within to provide ‘Everyone' full access;
+Once connected, the malware will execute a command to attempt to modify permissions on all available file system folders the malware resides within to provide 'Everyone' full access;
 
 *icacls . /grant Everyone:F /T /C /Q*
 
@@ -155,3 +155,10 @@ Please don't hesitate to contact our support professionals who can provide assis
 * Email [support@ukfast.co.uk](mailto:support@ukfast.co.uk)
 * Telephone 0800 230 0032
 
+```eval_rst
+   .. title:: Patching the WannaCry vulnerability
+   .. meta::
+      :title: Patching the WannaCry vulnerability | UKFast Documentation
+      :description: Information on patching the WannaCry vulnerability
+      :keywords: ukfast, security, pci, dss, vulnerability, cryptolock, wannacry
+```

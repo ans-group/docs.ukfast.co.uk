@@ -15,7 +15,7 @@ This will then prompt you for a password, which is the root password sent to you
 
 With Windows, the best way of connecting to SSH is probably via a program called PuTTY, available using the following installer: http://ninite.com/putty/ which automates the install somewhat. It's also always available from [the original PuTTY project site](http://www.chiark.greenend.org.uk/~sgtatham/putty/)
 
-When opened, put your IP in the HostName field, enter the port as `2020` and press Open.
+When opened, put your IP in the `HostName` field, enter the port as `2020` and press Open.
 
 ![Connecting](connecting1.png)
 
@@ -23,7 +23,7 @@ As before, your user name is root, and your password is the one provided to you 
 
 Once logged in, this will provide you with a command line to execute your various commands.
 
-For further advice on what to do once you've connected in this fashion, you could refer to our other documentation in the [linux basics](/operatingsystems/linux/basics/index) range. Alternatively, there are a multitude of resources out there on the internet.
+For further advice on what to do once you've connected in this fashion, you could refer to our other documentation in the [Linux basics](/operatingsystems/linux/basics/index) range. Alternatively, there are a multitude of resources out there on the internet.
 
 However, whilst using your server like this offers you the most powerful way of maintaining your setup, it also provides you with the most powerful way to destroy your setup.
 
@@ -32,19 +32,19 @@ If you have any questions about the command you're about to run, please don't he
 
 ## Connecting using private key
 
-In order to connect using a private key, you will have to set PuTTY to use this before you open a session. To do this, navigate to the “Connection” tab and expand the “SSH” section. Now click on “Auth” and you should be presented with the following page:
+In order to connect using a private key, you will have to set PuTTY to use this before you open a session. To do this, navigate to the "Connection" tab and expand the "SSH" section. Now click on "<nospell>Auth</nospell>" and you should be presented with the following page:
 
 ![Private key](SSH/Images/PuTTY1.png)
 
-Tell PuTTY where the private key is located on your computer by clicking “Browse…” and navigating to the folder where the key is located and opening the file.
+Tell PuTTY where the private key is located on your computer by clicking "Browse…" and navigating to the folder where the key is located and opening the file.
 
-Now click “Open” and the session should open using the private key as authentication.
+Now click "Open" and the session should open using the private key as authentication.
 
 
 ```eval_rst
    .. title:: Connecting to your server via SSH
    .. meta::
       :title: Connecting to your server via SSH | UKFast Documentation
-      :description: Guidance on connecting to Linux using SSH 
+      :description: Guidance on connecting to Linux using SSH
       :keywords: ukfast, ssh, key, private key, putty, ssh client, linux, server
 ```

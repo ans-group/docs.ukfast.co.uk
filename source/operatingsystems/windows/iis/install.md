@@ -14,7 +14,7 @@ Open Server Manager and select manage from the top menu, then select "Add Roles 
 
 Once the above steps have been taken, you will be presented with the Roles selection screen, Scroll down the available choices until you are presented with the "Web Server(IIS)" option, select this option by clicking on the box next to it as below and select next.
 
-![Choose Web Server Role](files/Install/installiis.PNG)   
+![Choose Web Server Role](files/Install/installiis.PNG)
 
 The next page which you will be shown is the Features pane, this allows you to choose additional features and includes to install along side your chosen role/s, you will notice that some options have already been selected here, this is because they are included with the previously chosen role.
 Once you are happy with the choices which you have made, please select next.

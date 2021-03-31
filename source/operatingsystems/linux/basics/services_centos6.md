@@ -1,10 +1,10 @@
 # Service Management on CentOS 6
 
-On a linux server, a service is an application that is capable of running in the background performing some task or other. This guide will detail the SysVinit system and how you can manage services with it.
+On a Linux server, a service is an application that is capable of running in the background performing some task or other. This guide will detail the `SysVinit` system and how you can manage services with it.
 
-To keep in the scope of this tutorial as part of a [linux basics](/operatingsystems/linux/basics/index) series, we'll only be covering two of the most common services you'll come accross when managing a linux web server, `apache` and `MySQL`
+To keep in the scope of this tutorial as part of a [Linux basics](/operatingsystems/linux/basics/index) series, we'll only be covering two of the most common services you'll come across when managing a Linux web server, `Apache` and `MySQL`
 
-Our main tool for interacting with services on linux is fairly straight forward: `service`
+Our main tool for interacting with services on Linux is fairly straight forward: `service`
 
 The syntax for common tasks is fairly self explanatory and takes the following format:
 
@@ -18,7 +18,7 @@ As a broad rule, all service management should be carried out as the `root` user
 
 ## Starting services
 
-The argument to start a service is simply `start`, so using the structure above with the `httpd` (redhat distributions use this name for apache) we get the following command:
+The argument to start a service is simply `start`, so using the structure above with the `httpd` (Red Hat distributions use this name for Apache) we get the following command:
 
 ```bash
 service httpd start
@@ -77,7 +77,7 @@ This will give a combined bit of output as it stops and then starts the service:
 Stopping httpd:                                            [  OK  ]
 Starting httpd:                                            [  OK  ]
 [root@94 ~]#
-```   
+```
 
 ## Checking the status of services
 
@@ -88,7 +88,7 @@ It's sometimes useful to see if a service is running or not, and it may not be i
 httpd (pid  17462) is running...
 ```
 
-Above, we can see that apache is up and running quite happily (or at least the service is)
+Above, we can see that Apache is up and running quite happily (or at least the service is)
 
 ```console
 [root@94 ~]# service mysqld status
@@ -108,9 +108,9 @@ mysqld dead but subsys locked
 
 One of the most important tasks regarding services is making sure they start automatically, as you don't want to have to log in after every reboot and start them manually.
 
-The command for this is `chkconfig` on RedHat/CentOS systems.
+The command for this is `chkconfig` on Red Hat/CentOS systems.
 
-Usage is fairly simple. To start apache at boot, we'd use the following command:
+Usage is fairly simple. To start Red Hat at boot, we'd use the following command:
 
 ```bash
 chkconfig httpd on
@@ -128,7 +128,7 @@ Unlike the `service` command above, `chkconfig` doesn't give any output to the c
 chkconfig --list|grep '3:on'
 ```
 
-This will likely generate quite a lot of output as there are a fair few services that start automatically, but looking down the left hand side you should be able to see that in the following example apache is configured to start at boot but `MySQL` isn't:
+This will likely generate quite a lot of output as there are a fair few services that start automatically, but looking down the left hand side you should be able to see that in the following example Red Hat is configured to start at boot but `MySQL` isn't:
 
 ```console
 [root@94 ~]# chkconfig --list|grep '3:on'

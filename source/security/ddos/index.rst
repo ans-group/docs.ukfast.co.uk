@@ -21,3 +21,5 @@ DDoSX\ :sup:`®` is designed to protect your websites and web applications from 
    troubleshooting
    ips
    tls-update
+   global_restrictions
+   http_req_resp_headers

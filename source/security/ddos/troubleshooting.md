@@ -4,15 +4,16 @@ This section should help with any problems you run in to.
 
 ## I can't connect my domain(s) to the DDoSX<sup>®</sup> network
 
-If you're struggling to connect your domains, first check that you are using [SafeDNS](/domains/safedns/index) to manage your DNS records.  You need to use SafeDNS and point your domains to the UKFast nameservers, which are
-- ns0.ukfast.co.uk
-- ns1.ukfast.co.uk
+If you're struggling to connect your domains, first check that you are using [SafeDNS](/domains/safedns/index) to manage your DNS records.  You need to use SafeDNS and point your domains to the UKFast nameservers, which are:
 
-You'll find SafeDNS in [MyUKFast](https://my.ukfast.co.uk) - just log in and go to `SafeDNS` under the `Products and Services` menu.  You should also read the full [SafeDNS guide](/domains/safedns/index)
+- `ns0.ukfast.co.uk`
+- `ns1.ukfast.co.uk`
+
+You'll find SafeDNS in [MyUKFast](https://my.ukfast.co.uk). Just log in and go to `SafeDNS` under the `Products and Services` menu.  You should also read the full [SafeDNS guide](/domains/safedns/index)
 
 ## My domain is showing as Not Configured, why is this?
 
-If your domain is connected to the DDoSX<sup>®</sup> network but not yet configured, you'll see a red icon in the Status column on the Manage Domains page - see example below
+If your domain is connected to the DDoSX<sup>®</sup> network but not yet configured, you'll see a red icon in the Status column on the Manage Domains page. See example below
 
 ![manage](files/manage.PNG)
 

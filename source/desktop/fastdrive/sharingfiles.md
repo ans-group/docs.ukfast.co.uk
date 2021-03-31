@@ -1,15 +1,15 @@
 # Sharing files
 
 ```eval_rst
-  .. title:: FastDrive | Sharing Files
+  .. title:: FASTdrive | Sharing Files
   .. meta::
-    :title: FastDrive | Sharing Files | UKFast Documentation
-    :description: Information on how to share files in FastDrive    
+    :title: FASTdrive | Sharing Files | UKFast Documentation
+    :description: Information on how to share files in FASTdrive
 ```
 
 In FASTdrive, you can share files and folders so that other people can access them. You can share files and folders with both FASTdrive users and non-FASTdrive users via the sharing feature that is available within FASTdrive.
 
-In order to share a file with someone else, firstly navigate to that file within the FASTdrive web app. In this instance I have delved into my personal folder so that I can share a folder named __TestFolder1__.
+In order to share a file with someone else, firstly navigate to that file within the FASTdrive web app. In this instance I have delved into my personal folder so that I can share a folder named `TestFolder1`.
 
 ![Image213](files/Image213.png)
 
@@ -49,7 +49,7 @@ Below this, you will be able to see an icon named __Edit Message Options__
 
 ![Image219](files/Image219.png)
 
-As you can see below, various options can be edited for your purpose. 
+As you can see below, various options can be edited for your purpose.
 
 ![Image220](files/Image220.png)
 

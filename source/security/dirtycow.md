@@ -1,22 +1,22 @@
-# Dirty COW 
+# Dirty COW
 
 Dirty COW, or CVE-2016-5195 to use it's less sensationalist name, is a privilege escalation vulnerability in Linux from October 2016.
 
 The obligatory branded vulnerability website can be found [here](https://dirtycow.ninja/), replete with logo, proof of concept and more detail on the underlying issue.
 
-Describing what the vulnerability is, what it does and how it came about is better left to the above link, this page is aimed at people wanting to patch their way to safety. 
+Describing what the vulnerability is, what it does and how it came about is better left to the above link, this page is aimed at people wanting to patch their way to safety.
 
-The good news is that by the time you're reading this, all the major linux distributions will have patches available for their various kernels, so it's simply a matter or running an update through your package manager and restarting your server. 
+The good news is that by the time you're reading this, all the major linux distributions will have patches available for their various kernels, so it's simply a matter or running an update through your package manager and restarting your server.
 
 First things first though, let's check if you're actually vulnerable.
 
 ## Checking vulnerability
 
-### CentOS/RedHat
+### CentOS/Red Hat
 
-RedHat have provided a handy script for checking if you're vulnerable or not. Carry out the following steps which logged into your server over SSH to check.
+Red Hat have provided a handy script for checking if you're vulnerable or not. Carry out the following steps which logged into your server over SSH to check.
 
-First, download the script from RedHat using `wget`:
+First, download the script from Red Hat using `wget`:
 
 ```bash
  wget https://access.redhat.com/sites/default/files/rh-cve-2016-5195_1.sh
@@ -40,7 +40,7 @@ If vulnerable, you should follow the next section to patch and fix the vulnerabi
 
 ### Debian/Ubuntu
 
-If you're on a Debian or Ubuntu based distribution, the redhat script won't work, but you can find your kernel version with the following version:
+If you're on a Debian or Ubuntu based distribution, the Red Hat script won't work, but you can find your kernel version with the following version:
 
 
 ```bash
@@ -90,24 +90,24 @@ Once your servers are back online, you're good to go.
 
 As mentioned previously, there should be a patch available for your kernel version through your standard package manager now.
 
-#### CentOS/RedHat
+#### CentOS/Red Hat
 
 `yum` is the package manager at play here, so you can update the kernel with the following command:
 
 ```bash
- yum update kernel
+yum update kernel
 ```
 
 Alternatively, if you'd like to update all packages on your server, you can use:
 
 ```bash
- yum update
+yum update
 ```
 
 After this has completed, you'll need to reboot your server to load the new kernel:
 
 ```bash
- reboot
+reboot
 ```
 
 #### Ubuntu/Debian
@@ -115,13 +115,19 @@ After this has completed, you'll need to reboot your server to load the new kern
 With Debian based systems, your package manager is `aptitude`, but we'll use `apt-get` here. Run the following to upgrade your packages:
 
 ```bash
- apt-get update && apt-get dist-upgrade
+apt-get update && apt-get dist-upgrade
 ```
 
 As with CentOS, a reboot is needed to use this new kernel:
 
 ```bash
- reboot
+reboot
 ```
 
-
+```eval_rst
+   .. title:: Patching the DirtyCOW vulnerability
+   .. meta::
+      :title: Patching the DirtyCOW vulnerability | UKFast Documentation
+      :description: Guidance on patching the DirtyCOW vulnerability
+      :keywords: vulnerability, dirtycow, patching, security, dss, pci, security
+```

@@ -4,42 +4,44 @@ One utility to display the current network usage is `nload`. This can be useful 
 
 ## Installation
 
-You can install `nload` through `yum` on Redhat/CentOS operating systems, with `apt` on Debian based distributions or `dnf` with Fedora . Here are several variations:
+You can install `nload` through `yum` on Red Hat/CentOS operating systems, with `apt` on Debian based distributions or `dnf` with Fedora . Here are several variations:
 
 RHEL & CentOS
 ```bash
-  sudo yum install nload
+sudo yum install nload
 ```
 
 Debian & Ubuntu
 ```bash
-  sudo apt install nload
+sudo apt install nload
 ```
 
 Fedora
 ```bash
-  sudo dnf install nload
+sudo dnf install nload
 ```
 
-The `nload` utility can be installed from the `epel` repository on Redhat/CentOS distributions.
+The `nload` utility can be installed from the `epel` repository on Red Hat/CentOS distributions.
 
 If `epel` is not already installed on the RHEL & CentOS environment, this can be installed with:
 ```bash
-  sudo yum install epel-release
+sudo yum install epel-release
 ```
 
 ## Live network bandwidth monitoring
 
-Nload can be used with the command `nload` via a console or SSH session. This utility has several options that vary the output.
+`nload` can be used via a console or SSH session. This utility has several options that vary the output.
 
 By default this will auto-detect devices and you can switch between devices with the left and right arrow keys.
 
 The device displayed can be seen at the top of the `nload` output - for example:
+
 ```bash
 Device lo [127.0.0.1] (1/2):
 ```
 
-Or to show all devices (supressing traffic graphs), use the command `nload -m` - this will something similiar to this in the standard output:
+Or to show all devices (suppressing traffic graphs), use the command `nload -m` - this will something similar to this in the standard output:
+
 ```bash
 Device eth0 [10.0.0.20] (1/2):
 =============================================================================================================================
@@ -61,11 +63,13 @@ Ttl: 21.72 GByte                                              Ttl: 21.72 GByte
 ```
 
 The default time window is '300' milliseconds between average calculations. It can be set to a custom time window with `nload -a <time>` - for example to update this to 150 milliseconds you would perform the command:
+
 ```bash
 nload -a 150
 ```
 
 Modifying the default display interval is also possible - by default this value is 500 milliseconds. The flag to update the display interval is `-t` and can be used as follows:
+
 ```bash
 nload -t 600
 ```
@@ -77,11 +81,13 @@ nload -t 600
 ```
 
 If there is a specific device(s) that needs to be monitored, you can specify this with the following:
+
 ```bash
 nload devices device1 device2
 ```
 
-In addition, the metrics in which the data is displayed can be customised - the default is adaptive to the amount of bandwidth being used but it can be forced with one of the subsequent variations:   
+In addition, the metrics in which the data is displayed can be customised - the default is adaptive to the amount of bandwidth being used but it can be forced with one of the subsequent variations:
+
 ```bash
 nload -u K ## KByte/s
 nload -u k ## KBit/s
@@ -97,3 +103,4 @@ nload -u g ## GBit/s
      :title: Monitoring current network usage with nload | UKFast Documentation
      :description:  A guide on how to monitor current network usage with nload
      :keywords: ukfast, server, nload, debian, rhel, centos, ubuntu, linux, performance, virtual, vm, activity, historic, monitoring
+```

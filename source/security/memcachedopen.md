@@ -12,9 +12,9 @@ You should check if you have the TCP port open as well your level of authenticat
 have the netcat utility installed:
 
     $ echo  "stats items" | nc <server_ip> 11211
-	
+
 Please note you will need to run this from an external server.
-	
+
 If you see output in the form of "STAT items", you should consider reviewing the security of the memcached instance.
 
 It's a little more difficult to review whether you have the UDP ports open, to do this you'll need to check your firewall settings.
@@ -23,8 +23,8 @@ If you're unsure, please ask UKFast Support to check your firewall settings for 
 ```eval_rst
    .. note::
       You should also consider checking and locking down non-standard ports.
-```   
-	
+```
+
 
 ## Securing memcached
 
@@ -54,11 +54,11 @@ For CentOS derivatives, modify '/etc/sysconfig/memcached' to include '-l 127.0.0
 Don't forget to also restart the memcached service to pick up these changes:
 
     service memcached restart
-	
+
 You should also verify that memcached is indeed only listening on the localhost with this command:
 
     netstat -plunt
-	
+
 #### Allow IPs on your firewall
 
 You can modify your firewall rules to block any IPs which are not listed. This can be done at a software firewall level or on a hardware firewall.

@@ -4,7 +4,7 @@ Specific OS customisation is available via the [eCloud marketplace](https://my.u
 
 ![launchAppliance](files/launchAppliance.png)
 
-From here you will be taken to the below device configuration page where vCPU, RAM, Disk space and other attributes of the VM can be specified. You may also be asked for unqiue information to that template as in the below example a MySQL root password defined.
+From here you will be taken to the below device configuration page where vCPU, RAM, Disk space and other attributes of the VM can be specified. You may also be asked for unique information to that template as in the below example a MySQL root password defined.
 
 ![applianceConfig](files/applianceConfig.png)
 
@@ -15,7 +15,7 @@ Once the specification is set you can then select to create appliance.
 From here this will be visible in your eCloud public [VM list](https://my.ukfast.co.uk/ecloud-public), once the build is finished this will have the stack documented in the marketplace template installed.
 
 ```eval_rst
-   .. title:: eCloud Public VM marketplace 
+   .. title:: eCloud Public VM marketplace
    .. meta::
       :description: Programatic control of your eCloud Public resources
       :keywords: ukfast, cloud, ecloud, public, hosting, infrastructure, vmware, marketplace

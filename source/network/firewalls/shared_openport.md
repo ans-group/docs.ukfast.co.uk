@@ -10,7 +10,7 @@ As you can see, it's fairly simple. By default, all ports are blocked, so only t
 
 ![Add port on shared FW](files/shared_add_port.png)
 
-The firewall looks at traffic in both directions. "Incoming" refers to connections from the internet to your server. "Outgoing" means connections from your server to the internet. This means you can control traffic in either direction independently. For example, you might want to allow SSH outbound from your server, but not allow SSH in from the internet.  
+The firewall looks at traffic in both directions. "Incoming" refers to connections from the internet to your server. "Outgoing" means connections from your server to the internet. This means you can control traffic in either direction independently. For example, you might want to allow SSH outbound from your server, but not allow SSH in from the internet.
 
 There are also 2 sections. TCP (Transmission Control Protocol) and UDP (User Datagram Protocol). If you are unsure which you use for your application, you are probably using TCP! The vast majority of common tasks use TCP so unless you are hosting a specialist service like VOIP, streaming hosting your own DNS, you're probably using TCP. The one common UDP port we open is 123 which is for Network Time Protocol (NTP).
 

@@ -1,6 +1,6 @@
-# Installing the Openstack Command Line Client
+# Installing the OpenStack Command Line Client
 
-This guide details how to install the Openstack command line tool and project-specific modules. The client is currently available on _most_ Linux distributions, Windows and MacOS. Every installation requires Python 2.7 or later.
+This guide details how to install the OpenStack command line tool and project-specific modules. The client is currently available on _most_ Linux distributions, Windows and MacOS. Every installation requires Python 2.7 or later.
 
 ## Installing Pip
 
@@ -33,16 +33,16 @@ c:\> easy_install pip
 # sudo easy_install pip
 ```
 
-## Installing the Openstack client
+## Installing the OpenStack client
 
-Once `python-pip` and other dependencies have been installed, we can use pip to install the Openstack tools. Most tools that you will need to use will be in the default `python-openstackclient` package, however you are also able to install individual project packages (legacy) using the second command (using Glance as an example).
+Once `python-pip` and other dependencies have been installed, we can use pip to install the OpenStack tools. Most tools that you will need to use will be in the default `python-openstackclient` package, however you are also able to install individual project packages (legacy) using the second command (using Glance as an example).
 
 ```bash
 # pip install python-openstackclient
 # pip install python-glanceclient
 ```
 
-We recommend using a Python virtual environment for installing any Python modules, as this keeps all the dependencies together in one place and seperated from the system. You can find information about how to do this [here](https://docs.python.org/3/tutorial/venv.html).
+We recommend using a Python virtual environment for installing any Python modules, as this keeps all the dependencies together in one place and separated from the system. You can find information about how to do this [here](https://docs.python.org/3/tutorial/venv.html).
 
 ## Upgrading / Removing clients
 
@@ -52,15 +52,15 @@ In order to upgrade your pip packages, run the `install` command with the `--upg
 # pip install --upgrade python-openstackclient
 ```
 
-To remove the openstackclient, run the `uninstall` command.
+To remove the OpenStack client, run the `uninstall` command.
 
 ```bash
 # pip uninstall python-openstackclient
 ```
 
-If you'd like to find out more about the Openstack client, you can find more information [here](https://docs.openstack.org/newton/user-guide/common/cli-install-openstack-command-line-clients.html). We also have some documentation about [setting up environment variables](/ecloud/flex/general/settingvars) in order to authenticate with Keystone.
+If you'd like to find out more about the OpenStack client, you can find more information [here](https://docs.openstack.org/newton/user-guide/common/cli-install-openstack-command-line-clients.html). We also have some documentation about [setting up environment variables](/ecloud/flex/general/settingvars) in order to authenticate with Keystone.
 
-The next section of our documenation details managing the resources in your project, you can see more information about this below:
+The next section of our documentation details managing the resources in your project, you can see more information about this below:
 
 ```eval_rst
 .. seealso:
@@ -68,9 +68,9 @@ The next section of our documenation details managing the resources in your proj
 ```
 
 ```eval_rst
-   .. title:: Installing the Openstack client
+   .. title:: Installing the OpenStack client
    .. meta::
-      :title: Installing the Openstack client | UKFast Documentation
-      :description: Details how to install the openstack command line client
+      :title: Installing the OpenStack client | UKFast Documentation
+      :description: Details how to install the OpenStack command line client
       :keywords: openstack, ecloud, flex, ukfast, nova, swift, cinder, glance, keystone, heat, hosting, cloud, api, cli
 ```

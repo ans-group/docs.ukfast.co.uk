@@ -14,7 +14,7 @@ It is most likely that Remote Desktop Protocol, or RDP, will be the primary way 
 
 ### Windows Clients
 
-Presuming you're using Windows, head to one of the following locations to access the `Remote Desktop Connection` utility, which is the defacto standard RDP client.
+Presuming you're using Windows, head to one of the following locations to access the `Remote Desktop Connection` utility, which is the standard RDP client.
 
 On Windows 10:
 
@@ -30,7 +30,7 @@ On previous versions of Windows:
 
 The appearance of the RDP client is the same in all in use, Versions of Microsoft Windows.
 
-Once you have opened the client, you will be presented with the connection panel as below, within this panel, you will need to enter the ip address of the server that you wish to connect to. Once you have enterred the ip address of the server which you wish to connect to, please select connect. You will now be asked to enter a user name and password for the server which you are connecting to, once you have entered the correct details, please confirm to establish the connection.
+Once you have opened the client, you will be presented with the connection panel as below, within this panel, you will need to enter the IP address of the server that you wish to connect to. Once you have entered the IP address of the server which you wish to connect to, please select connect. You will now be asked to enter a user name and password for the server which you are connecting to, once you have entered the correct details, please confirm to establish the connection.
 
 ![RDP Panel](files/connecting_windows/mstscsmall.PNG)
 
@@ -47,11 +47,11 @@ Firstly, you will need to install the Microsoft Remote Desktop app from the app 
 
 ![RDP for IOS](files/connecting_mobiledevices/Microsoftremotedesktop.PNG)
 
-Once the app is installed, Open it to access the Dashboard, from the Dashboard, you will need to select the + symbol in the top right hand corner of the app, this will present the "Add New" window. as below 
+Once the app is installed, Open it to access the Dashboard, from the Dashboard, you will need to select the + symbol in the top right hand corner of the app, this will present the "Add New" window. as below
 
 ![RDP IOS Add New](files/connecting_mobiledevices/addnewconnection.PNG)
 
-The "add new" window will present 3 options to you, for the purposes of this guide, please select Desktop. You will now be presented with a new Desktop configuration panel as below, this panel will ask you for the ip address of the computer which you wish to access, aswell as the user account that you wish to use.
+The "add new" window will present 3 options to you, for the purposes of this guide, please select Desktop. You will now be presented with a new Desktop configuration panel as below, this panel will ask you for the IP address of the computer which you wish to access, as well as the user account that you wish to use.
 
 ![RDP IOS Desktop](files/connecting_mobiledevices/blankdesktopconnection.PNG)
 

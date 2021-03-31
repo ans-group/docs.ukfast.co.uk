@@ -1,5 +1,3 @@
-#FROM python:3.7-slim as builder
-#FROM python:2-alpine as builder
 FROM python:3.8-alpine as builder
 
 RUN pip install Sphinx recommonmark

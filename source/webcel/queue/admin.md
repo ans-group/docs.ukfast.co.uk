@@ -6,7 +6,7 @@ For you to track metrics about the queue system, change the number of users allo
 
 There are two options at the top of the page to allow you to test the queue or access your site:
 
-![WebCel Queue Admin Statistics](files/webcel-queue-skip.png)
+![Webcel Queue Admin Statistics](files/webcel-queue-skip.png)
 
 * **Join queue**: This will open a new tab and put you to the back of the queue of whichever site you browsed to the admin panel via.
 * **Skip queue**: This will open a new tab directly on your live site (whichever one you browsed to the admin panel via), skipping the queue for 12 hours on your browser.
@@ -21,7 +21,7 @@ The panel allows you to view three key metrics about the queue system:
 
 This is updated whenever you refresh the admin page.
 
-![WebCel Queue Admin Statistics](files/webcel-queue-stats.png)
+![Webcel Queue Admin Statistics](files/webcel-queue-stats.png)
 
 You can correlate this data with information from Google Analytics and other sources to make informed choices about the configuration in the "Queue control" section of the panel.
 
@@ -29,7 +29,7 @@ You can correlate this data with information from Google Analytics and other sou
 
 The "Queue control" section of the panel allows you to manage how the queue actually works on your Webcelerator.
 
-![WebCel Queue Admin Control](files/webcel-queue-control.png)
+![Webcel Queue Admin Control](files/webcel-queue-control.png)
 
 The following items can be configured:
 
@@ -47,7 +47,7 @@ Setting the active user target to `0` will cause all requests to be queued, whic
 
 There are a handful of options available to you to customise the queue holding page, which will be applied to all new queued users.
 
-![WebCel Queue Admin Customise](files/webcel-queue-custom.png)
+![Webcel Queue Admin Customise](files/webcel-queue-custom.png)
 
 The following items can be configured:
 
@@ -66,4 +66,3 @@ The following items can be configured:
    :description: How to administer your Webcelerator queue system
    :keywords: ukfast, webcel, webcelerator, queue, webcelerate queue admin, traffic, high load
 ```
-

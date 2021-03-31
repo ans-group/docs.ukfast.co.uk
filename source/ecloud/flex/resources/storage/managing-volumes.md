@@ -2,16 +2,16 @@
 
 ```eval_rst
 .. warning::
-  As with most of our Flex guides, we're going to assume that you've followed our guide on setting environment variables and installing the openstackclient:
+  As with most of our Flex guides, we're going to assume that you've followed our guide on setting environment variables and installing the ``openstackclient``:
 
-  :doc:`/ecloud/flex/general/settingvars`  
-  
+  :doc:`/ecloud/flex/general/settingvars`
+
   :doc:`/ecloud/flex/general/openstackcli`
 
   If you're not using this method of authentication, you may need to specify additional flags/options in the commands used in this article.
 ```
 
-[Volumes](https://wiki.openstack.org/wiki/Cinder) are block storage devices that you attach to instances to enable persistent storage. Volumes can only be attached to one instance at a time, however you are able to detach a volume and attach it to a different instance whenever. You are able to manage your volumes within the [Horizon dashboard](https://api.openstack.ecloud.co.uk/project/volumes/), however this guide will detail how to manage your volumes using the Openstack command line client.
+[Volumes](https://wiki.openstack.org/wiki/Cinder) are block storage devices that you attach to instances to enable persistent storage. Volumes can only be attached to one instance at a time, however you are able to detach a volume and attach it to a different instance whenever. You are able to manage your volumes within the [Horizon dashboard](https://api.openstack.ecloud.co.uk/project/volumes/), however this guide will detail how to manage your volumes using the OpenStack command line client.
 
 ## Viewing Volumes
 
@@ -69,12 +69,12 @@ openstack volume create --size 20 \
                         test-volume
 ```
 
-`--size` flag is the size of the volume in GB.  
-`--type` flag required the _type_ of the volume. Currently in eCloud Flex, we have 3 types of volume:  
+`--size` flag is the size of the volume in GB.
+`--type` flag required the _type_ of the volume. Currently in eCloud Flex, we have 3 types of volume:
 
-* **SATA / Ceph-P1-M5-sata** volumes offer up to 500 IOPS, and are recommended for storage of large files which are accessed infrequently, or for log files
-* **SSD / Ceph-P1-M5-ssd** volumes will perform in excess of 5,000 IOPS, and are recommended for frequently accessed files, databases and web files
-* **PCIe / Ceph-P1-M5-pcie** volumes bring performance of over 50,000 IOPS, and are recommended for high performance databases and applications
+* **`SATA / Ceph-P1-M5-sata`** volumes offer up to 500 IOPS, and are recommended for storage of large files which are accessed infrequently, or for log files
+* **`SSD / Ceph-P1-M5-ssd`** volumes will perform in excess of 5,000 IOPS, and are recommended for frequently accessed files, databases and web files
+* **`PCIe / Ceph-P1-M5-pcie`** volumes bring performance of over 50,000 IOPS, and are recommended for high performance databases and applications
 
 The `--source` flag allows you to create volumes from images, if you specify the image ID.
 
@@ -99,7 +99,7 @@ openstack server remove volume 0579f09b-c1e2-4551-9e8d-8e1997302dd6 \
 
 ## Resizing Volumes
 
-A volume must be in an `available` state in order to be resized (ie. it cannot be attached to an instance). You can use the `openstack volume set <volumeid>` command to do this:
+A volume must be in an `available` state in order to be resized (i.e. it cannot be attached to an instance). You can use the `openstack volume set <volumeid>` command to do this:
 
 ```bash
 openstack volume set 8a5ce311-f5cd-447e-ae19-08a75412c7a5 --size 30
@@ -126,8 +126,9 @@ openstack volume delete 8a5ce311-f5cd-447e-ae19-08a75412c7a5
 If you face any problems with volumes in eCloud Flex, please raise a support ticket via [MyUKFast](https://my.ukfast.co.uk/pss/create), or call support directly on 0800 230 0032.
 
 ```eval_rst
-.. meta::
-   :title: Managing Volumes in eCloud Flex | UKFast Documentation
-   :description: A guide detailing how to manage volumes in eCloud Flex.
-   :keywords: ecloud, flex, storage, hosting, cloud, vm, volumes, images, snapshots, sysadmin
+   .. title:: Managing Volumes in eCloud Flex
+   .. meta::
+      :title: Managing Volumes in eCloud Flex | UKFast Documentation
+      :description: A guide detailing how to manage volumes in eCloud Flex.
+      :keywords: ecloud, flex, storage, hosting, cloud, vm, volumes, images, snapshots, sysadmin
 ```

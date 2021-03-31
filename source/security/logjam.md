@@ -33,10 +33,10 @@ openssl dhparam -out dhparams.pem 2048
 The parameters to change are:
 ```console
 SSLCipherSuite At least add :!EXPORT, if possible use a modern configuration.
-SSLHonorCipherOrder on      
+SSLHonorCipherOrder on
 ```
 
-## Nginx
+## NGINX
 
 The parameters to change are:
 ```console
@@ -72,7 +72,7 @@ mv moduli.safe /etc/ssh/moduli
 
 ## Testing
 
-There are external web-based testers such as [this one from KeyCDN.com](https://tools.keycdn.com/logjam).  
+There are external web-based testers such as [this one from KeyCDN.com](https://tools.keycdn.com/logjam).
 
 ```eval_rst
 .. warning::
@@ -89,7 +89,9 @@ There are external web-based testers such as [this one from KeyCDN.com](https://
 
 
 ```eval_rst
+   .. title:: Logjam attack
    .. meta::
       :title: Logjam attack | UKFast Documentation
       :description: How to prevent Logjam attacks based on weak Diffie-Hellman key exchange
       :keywords:  logjam, SSL, TLS, attack, attacks, log, jam, deffie hellman
+```

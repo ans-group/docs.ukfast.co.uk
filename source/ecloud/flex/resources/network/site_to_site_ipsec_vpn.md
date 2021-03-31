@@ -2,11 +2,12 @@
 
 ## Site-To-Site VPN To A Cisco ASA Firewall
 
-In this guide we will use `python-neutronclient` and `python-openstackclient` to orchestrate setting up a site-to-site VPN between eCloud Flex and a Cisco ASA firewall.  
+In this guide we will use `python-neutronclient` and `python-openstackclient` to orchestrate setting up a site-to-site VPN between eCloud Flex and a Cisco ASA firewall.
+
 Prerequisites
 
 * Python 2.7+
-* A linux server (ideally, although Windows should work also)
+* A Linux server (ideally, although Windows should work also)
 * Your OpenStack credentials
   * Authorisation URL *<https://api.openstack.ecloud.co.uk:5000/v3> by default)*
   * Project Name / ID
@@ -24,7 +25,7 @@ Prerequisites
     * IKE key lifetime *(greater than 60, 86400 by default in UKFast)*
     * Perfect Forward Secrecy details `[ group2 | group5 | group14 ]`
     * IKE Phase 1 negotiation mode `[ main ]`
-  * IPSec Policy
+  * IPsec Policy
     * Authorisation algorithm `[ SHA1 ]`
     * Encapsulation mode `[ tunnel | transport ]`
     * Encryption algorithm `[ 3des | aes-128 | aes-192 | aes-256 ]`
@@ -108,9 +109,9 @@ Created a new ikepolicy:
 
 We can then see a list using `neutron vpn-ikepolicy-list` if need be
 
-### Create the IPSec Policy
+### Create the IPsec Policy
 
-Now create the **VPN IPSec Policy**. I've set `sha1`, `aes-256`, `group2`, etc., very similar to the IKE policy above.
+Now create the **VPN IPsec Policy**. I've set `sha1`, `aes-256`, `group2`, etc., very similar to the IKE policy above.
 
 ```bash
 neutron vpn-ipsecpolicy-create --description "Test VPN IPSEC policy" \
@@ -148,7 +149,7 @@ These can be viewed again using `neutron vpn-ipsecpolicy-list`
 
 ### Get our Router ID and Subnet IDs
 
-Using the `openstack` commandset we can now get the IDs for the router and subnet as follows:
+Using `openstack` commands we can now get the IDs for the router and subnet as follows:
 
 ```console
 [root@ukfastserver ~]# openstack router list
@@ -204,7 +205,7 @@ As before, we can see the list of VPN services using `neutron vpn-service-list`
 
 ### Create the Site-To-Site connection
 
-Now it's time to tie all these policies together in what OpenStack refers to as a **IPSec Site Connection**. I've used the `id` output of the previous commands in place of the `ikepolicy-id`, `ipsecpolicy-id` and `vpnservice-id` values. I've also used the Cisco ASA VPN policy details listed in the prerequisites at the top of this article. Here is how they translate:
+Now it's time to tie all these policies together in what OpenStack refers to as an **IPsec Site Connection**. As you'll notice, I've used the values from the output above in the next command. I've also used the Cisco ASA VPN policy details listed in the prerequisites at the top of this article. Here is how they translate:
 
 * `peer-address` is the **Public IP address or FQDN**
 * `peer-id` is the **VPN Identity**
@@ -257,7 +258,7 @@ Created a new ipsec_site_connection:
 +-------------------+-----------------------------------------------------+
 ```
 
-And you can see those IPSec Site Connections using `neutron ipsec-site-connection-list`
+And you can see those IPsec Site Connections using `neutron ipsec-site-connection-list`
 
 ### Checking the connection came up
 
@@ -322,7 +323,8 @@ tunnel-group 46.37.188.24 ipsec-attributes
 ```
 
 ```eval_rst
-.. meta::
-    :title: Site-To-Site VPN In eCloud Flex | UKFast Documentation
-    :description: Detailed guidance on setting up a site-to-site VPN between eCloud Flex and various endpoints
+   .. title:: Site-To-Site VPN In eCloud Flex
+   .. meta::
+      :title: Site-To-Site VPN In eCloud Flex | UKFast Documentation
+      :description: Detailed guidance on setting up a site-to-site VPN between eCloud Flex and various endpoints
 ```

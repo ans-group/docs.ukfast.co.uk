@@ -1,6 +1,6 @@
 # How to use Let's Encrypt on Windows
 
-`Windows` operating systems have a number of `ACME` clients available - here are a couple that clients have found to be simple to use and feature rich
+`Windows` operating systems have a number of `ACME` clients available. Here are a couple that clients have found to be simple to use and feature rich.
 
 ## Certify the Web
 
@@ -28,7 +28,7 @@ For a complete guide on how to install this client and start issuing `Let's Encr
 * `IIS` Integration
 * A simple command line interface
 * Support for alternative web servers, such as `Apache`
-* Automatical renewal via an intergrated scheduled task
+* Automatic renewal via an integrated scheduled task
 
 For a complete guide on how to install and use this client, please see the following official documentation
 
@@ -36,7 +36,7 @@ For a complete guide on how to install and use this client, please see the follo
 
 ## Posh-ACME
 
-For `Powershell` users, we recommend using [`Posh-ACME`](https://github.com/rmbolger/Posh-ACME) for your `Let's Encrypt` needs. This offers a feature set similar to `certbot`, and can be incorporated into environments that use APIs for DNS Challenges and automated certificate renewal.
+For `PowerShell` users, we recommend using [`Posh-ACME`](https://github.com/rmbolger/Posh-ACME) for your `Let's Encrypt` needs. This offers a feature set similar to `certbot`, and can be incorporated into environments that use APIs for DNS Challenges and automated certificate renewal.
 
 ### Installation
 
@@ -46,7 +46,7 @@ For `Powershell` users, we recommend using [`Posh-ACME`](https://github.com/rmbo
 
 ```
 
-To install this client, first open your `Powershell` terminal and run the following, replacing *youruser* for the system user in question.
+To install this client, first open your `PowerShell` terminal and run the following, replacing `youruser` for the system user in question.
 
 ```powershell
 Install-Module -Name Posh-ACME -Scope youruser
@@ -54,7 +54,7 @@ Install-Module -Name Posh-ACME -Scope youruser
 
 If you have elevated privileges and wish for this to be available for all system users, use the following syntax
 
-```
+```powershell
 Install-Module -Name Posh-ACME -Scope AllUsers
 ```
 
@@ -77,18 +77,17 @@ This will default to using the **Manual** plugin, and prompt you to create a **T
 
 ### Using a DNS Plugin
 
-Please see the list of [**Available Posh-ACME DNS Plugins**](https://github.com/rmbolger/Posh-ACME/blob/master/Tutorial.md#dns-plugins) for a full list of available DNS Plugins for use with this software.
+Please see the list of [**Available Posh-ACME DNS Plugins**](https://github.com/rmbolger/Posh-ACME/wiki/List-of-Supported-DNS-Providers) for a full list of available DNS Plugins for use with this software.
 
 As an example, to use this with Route53, please see the following usage guide, which falls outside the scope of this article.
 
-[Route53 Posh-ACME Guide](https://github.com/rmbolger/Posh-ACME/blob/master/Posh-ACME/DnsPlugins/Route53-Readme.md)
+[Route53 Posh-ACME Guide](https://github.com/rmbolger/Posh-ACME/blob/main/Posh-ACME/Plugins/Route53-Readme.md)
 
 ```eval_rst
 .. note:
   UKFast do not currently offer a DNS Plugin for use with Posh-ACME, but are open to contributions that integrate with the SafeDNS API. More information on this is available in the [UKFast Developer Centre](https://developers.ukfast.io/documentation/safedns)
 
 ```
-
 
 ```eval_rst
   .. title:: SSL | How to use Let's Encrypt on Windows

@@ -1,4 +1,3 @@
-
 # General Information and FAQs
 
 ### What is Threat Monitoring
@@ -35,7 +34,7 @@ As Threat Monitoring is installed onto your servers, it can easily detect and pr
 * Malware and Viruses
 * WordPress attacks
 * osCommerce Login Bypass attacks
-* phpMyAdmin Scans
+* PHPMyAdmin Scans
 * POST Bots
 * Website Scraping
 
@@ -43,7 +42,7 @@ Any many more...
 
 ### How will I be alerted?
 
-Threat Monitoring alerts can be easily viewed in the form on an email, sent directly from our real-time alerting system. These alerts will contain a brief description of the attack/alert, the agent (your server) IP address and the full log event detailing the attacks. 
+Threat Monitoring alerts can be easily viewed in the form on an email, sent directly from our real-time alerting system. These alerts will contain a brief description of the attack/alert, the agent (your server) IP address and the full log event detailing the attacks.
 
 You can also view a breakdown report of live threat events in your MyUKFast Threat Monitoring dashboard.
 
@@ -52,8 +51,9 @@ You can also view a breakdown report of live threat events in your MyUKFast Thre
 Threat Response is an additional service which provides managed support by our in-house security team, pro-actively looking into all your alerts and applying and remediation as needed. With Threat Response, all your Threat Monitoring alerts will be sent directly to our dedicated team of security experts.
 
 ```eval_rst
-.. meta::
-     :title: Threat Monitoring and Threat Response | UKFast Documentation
-     :description: Guidance relating to UKFast's Threat Monitoring and Threat Response solutions
-     :keywords: threat monitoring, security, compliance, ukfast, hosting, file integrity monitoring, rootkit, detection, vulnerability scan, scans, hids, intrusion detection, threat response
-
+   .. title:: Threat Monitoring and Threat Response
+   .. meta::
+      :title: Threat Monitoring and Threat Response | UKFast Documentation
+      :description: Guidance relating to UKFast's Threat Monitoring and Threat Response solutions
+      :keywords: threat monitoring, security, compliance, ukfast, hosting, file integrity monitoring, rootkit, detection, vulnerability scan, scans, hids, intrusion detection, threat response
+```

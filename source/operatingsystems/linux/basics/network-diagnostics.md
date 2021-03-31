@@ -3,15 +3,15 @@
 This guide is only going to show an overview of the commands. To find out more about each command you can run the following:
 
 ```console
-  man [command]
+man [command]
 ```
 
-## netstat
+## `netstat`
 
 This command will show all the TCP and UDP ports listening on the server:
 
 ```console
-  netstat -tunap
+netstat -tunap
 ```
 
 Here's an example of it running.
@@ -62,11 +62,11 @@ udp6       0      0 :::11211                :::*                                
 udp6       0      0 :::48010                :::*                                929/dhclient
 ```
 
-The most important information that can be gleaned from this is whether the socket is listening on all IPs or a specific IP, what port it's listening on and then that last part shows the PID (Process ID) and the service name.
+The most important information that can be gleaned from this is whether the socket is listening on all IPs or a specific IP, what port it's listening on and then that last part shows the Process ID (<nospell>PID</nospell>) and the service name.
 
-## lsof
+## `lsof`
 
-If you just run `lsof`, it will show all the open files on your server. This can be combined with the grep command to search for a specific file. e.g.
+If you just run `lsof`, it will show all the open files on your server. This can be combined with the `grep` command to search for a specific file, e.g.
 
 ```console
 [root@c7 ~]# lsof | grep access.log
@@ -77,9 +77,9 @@ nginx     26721                       nginx    5w      REG                8,2   
 nginx     26722                       nginx    5w      REG                8,2     19160    4942997 /var/log/nginx/access.log
 ```
 
-Will show all the files with access.log in the name.
+Will show all the files with `access.log` in the name.
 
-If you run `lsof -ni:[x]`, this will show whether TCP port x is listening on your server. e.g.
+If you run `lsof -ni:[x]`, this will show whether TCP port `[x]` is listening on your server. e.g.
 
 ```console
 [root@c7 ~]# lsof -ni:80
@@ -95,7 +95,7 @@ nginx   26717 nginx    7u  IPv6 3450219      0t0  TCP *:http (LISTEN)
 nginx   26718 nginx    6u  IPv4 3450218      0t0  TCP *:http (LISTEN)
 ```
 
-This shows that Nginx is listening on port 80. The last part shows it `*:http` so listening on all IPs available on the server.
+This shows that NGINX is listening on port 80. The last part shows it `*:http` so listening on all IPs available on the server.
 
 ```console
 [root@c7 ~]# lsof -ni:6379
@@ -103,11 +103,11 @@ COMMAND    PID  USER   FD   TYPE  DEVICE SIZE/OFF NODE NAME
 redis-ser 8056 redis    4u  IPv4 4640217      0t0  TCP 192.168.0.97:6379 (LISTEN)
 ```
 
-This shows that the Redis service is listening on this port and it's listening on `192.168.0.97:6379` which shows it's bound to a particular IP.
+This shows that the Redis service is listening on this port and it's listening on `192.168.0.97:6379`, which shows it's bound to a particular IP.
 
-## telnet
+## `telnet`
 
-telnet can be used to connect to a remote server via command line but it is useful to check connectivity to local and remote ports. e.g.
+`telnet` can be used to connect to a remote server via command line but it is useful to check connectivity to local and remote ports, e.g.
 
 ```console
 [root@c7 ~]# telnet bbc.co.uk 80
@@ -116,7 +116,7 @@ Connected to bbc.co.uk.
 Escape character is '^]'.
 ```
 
-shows you are able to connect to the BBC site from your server.
+This shows you are able to connect to `bbc.co.uk` from your server.
 
 ```console
 [root@c7 ~]# telnet localhost 25
@@ -126,9 +126,9 @@ Escape character is '^]'.
 220 c7.novalocal ESMTP Postfix
 ```
 
-shows you're able to connect to the mail service on your own server.
+This shows you're able to connect to the mail service on your own server.
 
-You may come across a scenario where you're unable to connect to a specific server. You need to determine whether the connection is being blocked locally or on the remote end. e.g.
+You may come across a scenario where you're unable to connect to a specific server. You need to determine whether the connection is being blocked locally or on the remote end. This is an example of a blocked connection:
 
 ```console
 [root@c7 ~]# telnet bbc.co.uk 3306
@@ -136,7 +136,7 @@ Trying 212.58.244.22...
 telnet: connect to address 212.58.244.22: Connection timed out
 ```
 
-There are specific servers that are set to listen on all ports and have no firewall restrictions in front of them. An example of this is lee.io. e.g.
+There are specific servers that are set to listen on all ports and have no firewall restrictions in front of them. An example of this is `lee.io`. e.g.
 
 ```console
 [root@c7 ~]# telnet lee.io 3306
@@ -146,12 +146,11 @@ Escape character is '^]'.
 Connected Successfully. Enter to quit
 ```
 
-This shows the connection to lee.io over port 3306 was successful. Unless your firewall has specific firewall rules to block outbound access to specific IPs (unlikely as there's usually blanket bans to IPs and then specific IPs allowed rather than the other way round), you can assume that your server is able to connect outbound on port 3306.
+This shows the connection to `lee.io` over port `3306` was successful. Unless your firewall has specific firewall rules to block outbound access to specific IPs (unlikely as there's usually blanket bans to IPs and then specific IPs allowed rather than the other way round), you can assume that your server is able to connect outbound on port `3306`.
 
+## `tcpdump`
 
-## tcpdump
-
-tcpdump allows you to carry out a huge range of tests on your server. One of the most useful is to check activity on your network interface. First you need to check the interfaces on your machine.
+`tcpdump` allows you to carry out a huge range of tests on your server. One of the most useful is to check activity on your network interface. First you need to check the interfaces on your machine.
 
 ```console
 [root@c7 ~]# ip a
@@ -171,7 +170,7 @@ tcpdump allows you to carry out a huge range of tests on your server. One of the
 
 The interface we want to check here is `eth0`. Here are some examples.
 
-```
+```console
 [root@c7 ~]# tcpdump -Alnni eth0
 tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
 listening on eth0, link-type EN10MB (Ethernet), capture size 65535 bytes
@@ -181,7 +180,7 @@ listening on eth0, link-type EN10MB (Ethernet), capture size 65535 bytes
 E.....@.@..K...aQ..4....|IX.".sZP..`....E=...g.k..N`.f...M...rh..E.+h.-.#.....................NA.E.G......F..M....1.[..a.T..2....,@../.d.i.m..{.....!..y....iv...._.....J....        .Gg.v*.....XO.F.o.Ke6.l..D...N.we..U8.....g...Y.q0...~.....A$.16.L63v..'`.)....n....w.b6_..D\............{..R..Xt......X....\.  g..8(A.].O...-..g..=Xb..03.=!...=...g..D..xj.....#...3.^..&).....r]....|E...:A(..7............9:.x$..*.A......5.+S/H..(...4o
 ```
 
-The above shows all activity on interface eth0. This will show you activity on eth0 on port 80
+The above shows all activity on interface `eth0`. This will show you activity on `eth0` on port 80
 
 ```console
 [root@c7 ~]# tcpdump -Alnni eth0 port 80
@@ -189,7 +188,7 @@ tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
 listening on eth0, link-type EN10MB (Ethernet), capture size 65535 bytes
 ```
 
-This will show activity on eth0 going to or coming from 54.65.7.81
+This will show activity on `eth0` going to or coming from `54.65.7.81`
 
 ```console
 [root@c7 ~]# tcpdump -Alnni eth0 host 54.65.7.81
@@ -197,7 +196,7 @@ tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
 listening on eth0, link-type EN10MB (Ethernet), capture size 65535 bytes
 ```
 
-This combines the 2 above examples so shows all traffic on eth0 either coming from or going to 54.65.7.81 on port 80.
+This combines the 2 above examples so shows all traffic on `eth0` either coming from or going to `54.65.7.81` on port 80.
 
 ```console
 [root@c7 ~]# tcpdump -Alnni eth0 port 80 and host 54.65.7.81
@@ -205,11 +204,11 @@ tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
 listening on eth0, link-type EN10MB (Ethernet), capture size 65535 bytes
 ```
 
-## WinDump
+## `WinDump`
 
-The program WinDump can be used on Windows with almost exactly the same syntax as tcpdump. Search Google to find the download page for this program.
+The program `WinDump` can be used on Windows with almost exactly the same syntax as `tcpdump`. Search Google to find the download page for this program.
 
-One difference in the way this works is the selection of an interface. use the -D flag to list the interfaces:
+One difference in the way this works is the selection of an interface. use the `-D` flag to list the interfaces:
 
 ```console
 PS C:\Users\user1\Downloads> .\WinDump.exe -D
@@ -228,9 +227,9 @@ C:\Users\user1\Downloads\WinDump.exe: listening on \Device\NPF_{FE51E730-F862-4E
 10:28:33.130406 IP test.com.3389 > 80.244.179.100.srvlist.ukfast.net.58832: P 357:746(389) ack 1 win 62990
 ```
 
-## curl
+## `curl`
 
-The man page of the curl command begins with an appropriate introduction:
+The man page of the `curl` command begins with an appropriate introduction:
 
 ```console
 DESCRIPTION
@@ -254,7 +253,7 @@ We'll try not to make your head spin but here are some of the most useful comman
 ---
 ```
 
-This performed a GET request against the site www.ukfast.co.uk. As you can see, the site's source code was displayed. Apart from seeing that the a response was retrieved, this isn't especially useful.
+This performed a `GET` request against the site `www.ukfast.co.uk`. As you can see, the site's source code was displayed. Apart from seeing that a response was retrieved, this isn't especially useful.
 
 ```console
 [root@c7 ~]# curl -I www.ukfast.co.uk
@@ -276,7 +275,7 @@ Via: Webcelerate
 Set-Cookie: SERVERID=web002; path=/
 ```
 
-On the above example the -I flag was passed. This changes the request into a HEAD request which just retrieves the headers. As you can see, this gave a 200 OK response. This also showed other information like cookies, expire headers, cache control information etc.
+On the above example the `-I` flag was passed. This changes the request into a `HEAD` request which just retrieves the headers. As you can see, this gave a `200 OK` response. This also showed other information like cookies, expire headers, cache control information, etc.
 
 ```console
 [root@c7 ~]# curl -I ukfast.co.uk
@@ -296,7 +295,7 @@ Set-Cookie: SERVERID=web002; path=/
 Cache-control: private
 ```
 
-As you can see from the above example, we tested ukfast.co.uk - the response from this was a 301 Moved Permenantly redirect and we can see the location of that is http://www.ukfast.co.uk/ - we can add the flag -L which will tell curl to follow the redirect:
+As you can see from the above example, we tested `ukfast.co.uk`. The response from this was a `301 Moved Permanently` redirect, and we can see the location of that is `http://www.ukfast.co.uk/`. We can add the flag `-L` which will tell `curl` to follow the redirect:
 
 ```console
 [root@c7 ~]# curl -IL ukfast.co.uk
@@ -333,9 +332,9 @@ Via: Webcelerate
 Set-Cookie: SERVERID=web001; path=/
 ```
 
-As you can see, we got the 301 response first and then the original 200 response when we ended up at www.ukfast.co.uk.
+As you can see, we got the `301` response first and then the original `200` response when we ended up at `www.ukfast.co.uk`.
 
-You may want to test a site against an IP before its DNS record has been changed. You could do this by [creating a hosts file entry](/operatingsystems/windows/commonissues/testingwebsites) or you can amend a header on your curl command with the -H flag. Here is a test against the domain testdomain.com - we don't own this. Here is the response:
+You may want to test a site against an IP before its DNS record has been changed. You could do this by [creating a hosts file entry](/operatingsystems/windows/commonissues/testingwebsites) or you can amend a header on your `curl` command with the `-H` flag. Here is a test against the domain `testdomain.com` - we don't own this. Here is the response:
 
 ```console
 [root@c7 ~]# curl testdomain.com
@@ -345,14 +344,14 @@ You may want to test a site against an IP before its DNS record has been changed
 ---
 ```
 
-We are now going to test this domain against a server with IP 46.37.172.196 and insert a Host header with the -H flag:
+We are now going to test this domain against a server with IP `46.37.172.196` and insert a Host header with the `-H` flag:
 
 ```console
 [root@c7 ~]# curl 46.37.172.196 -H "Host: testdomain.com"
 new testdomain server
 ```
 
-Here is the same test without inserting the Host header:
+Here is the same test without inserting the `Host` header:
 
 ```console
 [root@c7 ~]# curl 46.37.172.196
@@ -361,7 +360,7 @@ Here is the same test without inserting the Host header:
                 <title>Under Maintenance</title>
 ```
 
-As you can see, this gave us a different response. The reason for this is that there are multiple sites on 46.37.172.196 - using the -H flag and inserting a Host header allowed us to be more specific about what site we were requesting.
+As you can see, this gave us a different response. The reason for this is that there are multiple sites on `46.37.172.196` - using the `-H` flag and inserting a `Host` header allowed us to be more specific about what site we were requesting.
 
 ```eval_rst
   .. title:: Network diagnostic tools on Linux
@@ -369,3 +368,4 @@ As you can see, this gave us a different response. The reason for this is that t
      :title: Network diagnostic tools on Linux | UKFast Documentation
      :description: A guide to using network diagnostic tools in the Linux OS
      :keywords: ukfast, network, diagnostic, netstat, lsof, linux, telnet, ping
+```

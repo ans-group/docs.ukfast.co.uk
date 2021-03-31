@@ -7,7 +7,7 @@ Right click the start button, and select control panel, now select "File Explore
 
 ![Explorer options](files/explorer/fileexploreroptions.PNG)
 
-Within this pane, the first option `Open File Explorer to:` needs to be changed, please select the drop down box which contains quick access, and select "This-PC" from the list as below, and select ok.
+Within this pane, the first option `Open File Explorer to:` needs to be changed, please select the drop down box which contains quick access, and select "This-PC" from the list as below, and select OK.
 
 ![Change Default](files/explorer/selectdefaultpane.PNG)
 
@@ -21,3 +21,4 @@ Now Launch a new instance of File Explorer by selecting the Explorer (Folder) ic
      :title: Default File Explorer location in Windows Server 2016 | UKFast Documentation
      :description: Instructions on how to set "This-PC" as the default File Explorer location in Windows Server 2016
      :keywords: ukfast, file, explorer, change, default, location, windows, tutorial, cloud, server, 2016
+```

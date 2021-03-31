@@ -4,7 +4,7 @@
   .. title:: Shared Exchange | Changing your password
   .. meta::
     :title: Shared Exchange | Changing your password | UKFast Documentation
-    :description: Information on how to change your password in Shared Exchange    
+    :description: Information on how to change your password in Shared Exchange
 ```
 
 To change your password, you'll first need to log into the webmail client, as described in the following article:

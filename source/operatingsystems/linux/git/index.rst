@@ -8,5 +8,5 @@ Git is a free and open source distributed version control system designed to han
    :maxdepth: 1
 
    git
-   Using-Git
-   Installing-Git 
+   using-git
+   installing-git

@@ -1,10 +1,10 @@
 # Setting Secure Ciphers
 
-Cyphers and key exchange algorithms are used by many applications to ensure that the connection between the server and the user is secure, and uses a strong encryption algorithm. As computers become faster and more equipped, older cyphers and encryption algorithm become obsolete, so it's important to ensure that we're using that latest and greatest cyphers where possible.
+Ciphers and Key Exchange Algorithms are used by many applications to ensure that the connection between the server and the user is adequately secured. As computers become faster and more equipped, they are more capable of breaking older ciphers and encryption algorithms, and as such those ciphers become obsolete. This is why it's important to ensure that we're using that latest and greatest ciphers, where possible.
 
-A great list of up-to-date strong cyphers can be found here: https://cipherli.st/
+A great list of up-to-date strong ciphers can be found here: <https://syslink.pl/cipherlist/>
 
-Follow the below steps to set secure cyphers for web servers like Apache, nginx and other services like SSH.
+Follow the below steps to set secure ciphers for web servers like Apache, NGINX and other services like SSH.
 
 ## Web Servers
 
@@ -12,30 +12,32 @@ Follow the below steps to set secure cyphers for web servers like Apache, nginx 
 
 **RHEL/CentOS**
 
-Make a backup of the apache config file /etc/httpd/conf.d.
+Make a backup of the Apache config file `/etc/httpd/conf.d/ssl.conf`
 
-`cp /etc/httpd/conf.d /etc/httpd/conf.d.backup`
-
-Edit the apache config file /etc/httpd/conf.d with your prefered editor.
-
-`vi /etc/httpd/conf.d`
-
-
-
-Comment any lines that start with any of the following, this will disable your old insecure cyphers:
-
-`SSLCipherSuite`
-`SSLProtocol`
-`SSLHonorCipherOrder`
-`Header`
-`SSLCompression`
-`SSLUseStapling`
-`SSLStaplingCache`
-`SSLSessionTickets`
-
-Next, append the latest cyphers from https://cipherli.st/ to the bottom of the file, this will enable secure cyphers, for example.
-
+```bash
+cp /etc/httpd/conf.d/ssl.conf /etc/httpd/conf.d/ssl.conf.backup
 ```
+
+Edit the Apache config file in `/etc/httpd/conf.d/ssl.conf` with your preferred editor.
+
+```bash
+vi /etc/httpd/conf.d/ssl.conf
+```
+
+Comment any lines that start with any of the following. This will disable your old insecure ciphers:
+
+* `SSLCipherSuite`
+* `SSLProtocol`
+* `SSLHonorCipherOrder`
+* `Header`
+* `SSLCompression`
+* `SSLUseStapling`
+* `SSLStaplingCache`
+* `SSLSessionTickets`
+
+Next, append the latest ciphers from <https://syslink.pl/cipherlist/> to the bottom of the file. This will enable the more secure ciphers. For example:
+
+```nginx
 SSLCipherSuite EECDH+AESGCM:EDH+AESGCM:AES256+EECDH:AES256+EDH
 SSLProtocol All -SSLv2 -SSLv3 -TLSv1 -TLSv1.1
 SSLHonorCipherOrder On
@@ -54,70 +56,36 @@ Save the file
 
 Restart the Apache webserver.
 
-`service httpd restart`
+```bash
+service httpd restart
+```
 
 ---
 
 **Debian/Ubuntu**
 
-Make a backup of the apache config file /etc/apache2/conf.d.
+The process is exactly the same as for RHEL/CentOS except that the path to the config file is different. So, follow the steps above but change the path `/etc/httpd/conf.d/ssl.conf` to be `/etc/apache2/mods-available/ssl.conf` instead.
 
-`cp /etc/apache2/conf.d /etc/apache2/conf.d.backup`
+To restart the Apache webserver, use this command:
 
-Edit the apache config file /etc/apache2/conf.d with your prefered editor.
-
-`vi /etc/apache2/conf.d`
-
-Comment any lines that start with any of the following, this will disable your old insecure cyphers:
-
-`SSLCipherSuite`
-`SSLProtocol`
-`SSLHonorCipherOrder`
-`Header`
-`SSLCompression`
-`SSLUseStapling`
-`SSLStaplingCache`
-`SSLSessionTickets`
-
-Next, append the latest cyphers from https://cipherli.st/ to the bottom of the file, this will enable secure cyphers, for example.
-
-
-```
-SSLCipherSuite EECDH+AESGCM:EDH+AESGCM:AES256+EECDH:AES256+EDH
-SSLProtocol All -SSLv2 -SSLv3 -TLSv1 -TLSv1.1
-SSLHonorCipherOrder On
-Header always set Strict-Transport-Security "max-age=63072000; includeSubDomains; preload"
-Header always set X-Frame-Options DENY
-Header always set X-Content-Type-Options nosniff
-# Requires Apache >= 2.4
-SSLCompression off
-SSLUseStapling on
-SSLStaplingCache "shmcb:logs/stapling-cache(150000)"
-# Requires Apache >= 2.4.11
-SSLSessionTickets Off
+```bash
+service apache2 restart
 ```
 
-Save the file
+### NGINX
 
-Restart the Apache webserver.
+In NGINX, we need can specify ciphers to the virtual host you wish to secure. These are commonly `.conf` files found in the directory `/etc/nginx/conf.d`, with one for each of your websites.
 
-`service apache2 restart`
+To specify secure ciphers for these virtual hosts, we can add the latest ciphers from <https://syslink.pl/cipherlist/> to our host, as shown below:
 
-### Nginx
-
-In Nginx, we need can specify cyphers to the virtual host you wish to secure, these are commonly .conf files found in /etc/nginx/conf.d, for each of your websites.
-
-
-To specify secure cyphers for these virtual hosts, we can add the latest cyphers from https://cipherli.st to our host, as shown below:
-
-```
+```nginx
 server {
-    
+
     server_name my.website.com;
     listen 443 ssl http2;
 
         ssl_protocols TLSv1.3;# Requires nginx >= 1.13.0 else use TLSv1.2
-        ssl_prefer_server_ciphers on; 
+        ssl_prefer_server_ciphers on;
         ssl_dhparam /etc/nginx/dhparam.pem; # openssl dhparam -out /etc/nginx/dhparam.pem 4096
         ssl_ciphers ECDHE-RSA-AES256-GCM-SHA512:DHE-RSA-AES256-GCM-SHA512:ECDHE-RSA-AES256-GCM-SHA384:DHE-RSA-AES256-GCM-SHA384:ECDHE-RSA-AES256-SHA384;
         ssl_ecdh_curve secp384r1; # Requires nginx >= 1.1.0
@@ -127,7 +95,7 @@ server {
         ssl_stapling on; # Requires nginx >= 1.3.7
         ssl_stapling_verify on; # Requires nginx => 1.3.7
         resolver $DNS-IP-1 $DNS-IP-2 valid=300s;
-        resolver_timeout 5s; 
+        resolver_timeout 5s;
         add_header Strict-Transport-Security "max-age=63072000; includeSubDomains; preload";
         add_header X-Frame-Options DENY;
         add_header X-Content-Type-Options nosniff;
@@ -136,20 +104,21 @@ server {
 }
 ```
 
-
 ## SSH
 
-We can also set secure cyphers for SSH sessions, this will ensure a secure connection is made whenever a server administrator connects to the server via SSH.
+We can also set secure ciphers for SSH sessions. This will ensure a secure connection is made whenever a server administrator connects to the server via SSH.
 
-Follow the below commands to set secure cyphers for SSH.
+Follow the below commands to set secure ciphers for SSH.
 
 Edit the SSH config file `/etc/sshd/sshd_config` with your preferred editor.
 
-`vi /etc/ssh/sshd_config`
-
-Next, append the latest cyphers from https://cipherli.st to the bottom of the file, like below.
-
+```bash
+vi /etc/sshd/sshd_config
 ```
+
+Next, append the latest ciphers from <https://syslink.pl/cipherlist/> to the bottom of the file, like shown
+
+```nginx
 # Example of overriding settings on a per-user basis
 #Match User anoncvs
 #       X11Forwarding no
@@ -167,17 +136,16 @@ MACs hmac-sha2-512-etm@openssh.com,hmac-sha2-256-etm@openssh.com,umac-128-etm@op
 
 Save the file.
 
-Restart the sshd service.
+Restart the SSH Server service.
 
-`service sshd restart`
+```bash
+service sshd restart
+```
 
 ```eval_rst
-.. meta::
-     :title: Setting Secure Ciphers | UKFast Documentation
-     :description: Useful threat remediation and prevention tips
-     :keywords: threat monitoring, alerts, security, compliance, rules, rulesets, ukfast, hosting, file integrity monitoring, rootkit, detection, vulnerability scan, scans, hids, intrusion detection, set up
-
-
-
-
-
+   .. title:: Setting Secure Ciphers
+   .. meta::
+      :title: Setting Secure Ciphers | UKFast Documentation
+      :description: Useful threat remediation and prevention tips
+      :keywords: threat monitoring, alerts, security, compliance, rules, rulesets, ukfast, hosting, file integrity monitoring, rootkit, detection, vulnerability scan, scans, hids, intrusion detection, set up
+```

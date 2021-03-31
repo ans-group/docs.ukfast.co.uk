@@ -7,7 +7,7 @@
 
 ```
 
-[cPanel & WHM Release 74](https://documentation.cpanel.net/display/74Docs/74+Release+Notes#id-74ReleaseNotes-NewS3%E2%84%A2CompatibledestinationtypeinWHM'sBackupConfigurationinterface) brings various features to the panel, including the ability to backup your websites and configurations directly through an S3 interface. With eCloud Vault, you can configure your cPanel backups to send your data directly to your Vault. It's easy to configure, manages your backup retention for you, and saves disk space on your system.
+[cPanel & WHM Release 74](https://documentation.cpanel.net/display/74Docs/74+Release+Notes#id-74ReleaseNotes-NewS3CompatibledestinationtypeinWHM'sBackupConfigurationinterface) brings various features to the panel, including the ability to backup your websites and configurations directly through an S3 interface. With eCloud Vault, you can configure your cPanel backups to send your data directly to your Vault. It's easy to configure, manages your backup retention for you, and saves disk space on your system.
 
 ## How to configure
 
@@ -43,11 +43,11 @@
     +----------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
     ```
 
-5. Once these values have been filled with your unique access and secret keys, select 'Save and Validate Destination'. 
+5. Once these values have been filled with your unique access and secret keys, select 'Save and Validate Destination'.
 
 6. Ensure that you receive a success message:
 
->  "Success: The destination “Vault” validated."
+>  "Success: The destination "Vault" validated."
 
 Once you have validated connection to your Vault and tweaked your backup configuration options to your liking, you should be ready to go!
 

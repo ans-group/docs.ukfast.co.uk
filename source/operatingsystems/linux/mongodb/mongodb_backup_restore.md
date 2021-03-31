@@ -6,8 +6,8 @@
 
 - **BSON** (Default for data)
 - **JSON** (Default for collection metadata)
-- **CSV** (specify with --type csv)
-- **TSV** (specify with --type tsv)
+- **CSV** (specify with `--type csv`)
+- **TSV** (specify with `--type tsv`)
 
 **BSON** is the recommended database export format.
 
@@ -22,7 +22,7 @@ mongodump
 This will automatically create a `/dump` folder in that location. Alternatively, specify a folder path with the following command.
 ```bash
 mongodump --out /your/file/path
-``` 
+```
 
 ## Exporting a single database
 
@@ -42,15 +42,17 @@ mongodump --host="mongodb.yourdomain.com:27017" <your other dump requirements>
 
 ## Restoring a MongoDB Database
 
-``` warning:: If requesting a database restore from UKFast Support, please provide the directory for your database dumps. Without this, only /var/lib/mongodb would be restored.
+```
+.. warning::
+   If requesting a database restore from UKFast Support, please provide the directory for your database dumps. Without this, only `/var/lib/mongodb` would be restored.
 ```
 
-To restore from a database backup you will need to use the `mongorestore` command. To import a dump, you just need to specify the location of the restore folder, eg.
+To restore from a database backup you will need to use the `mongorestore` command. To import a dump, you just need to specify the location of the restore folder, e.g.
 
 ```bash
 mongorestore dump/
 ```
-This will create the *database* and *collections* specified within the dump data.
+This will create the `database` and `collections` specified within the dump data.
 
 To import a *specific collection* from this dump, you would use the following syntax
 

@@ -1,6 +1,8 @@
 # Partitions
 
-Please find below the UKFast Default Partitions configured as part of your solution. 
+A disk partition is a section of the hard drive that is separated from other segments. Partitions enables you to divide a physical disk into logical sections, which inturn gives you greater control of storage within your solution.
+
+Please find below the UKFast Default Partitions configured as part of your solution.
 
 ## Windows Server
 ```eval_rst
@@ -16,9 +18,9 @@ Please find below the UKFast Default Partitions configured as part of your solut
 ## Linux Server
 
 The below configuration applies to the following Linux Servers:
--	LAMP 
+-	LAMP
 -	Magento
--	Control Panels 
+-	Control Panels
 
 ```eval_rst
 +-----------------+---------------------+--------------------------+

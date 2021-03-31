@@ -4,11 +4,11 @@ Files and folders can easily be deleted from the Web App or in Drive Mapper.
 
 ## Web App
 
-To delete a folder in the web app, left-click the ‘Folders' tab which you can see on the left side menu. You'll see this menu expand into 3 folders; __Personal Folders__, __Shared Folders__, and __Favorites__. Choose the location where the file or folder which you would like to delete is stored.
+To delete a folder in the web app, left-click the 'Folders' tab which you can see on the left side menu. You'll see this menu expand into 3 folders; __Personal Folders__, __Shared Folders__, and __Favourites__. Choose the location where the file or folder which you would like to delete is stored.
 
 ![Image97](files/Image97.png)
 
-Take into account that you will only be able to delete folders in Shared Folders and Favorites where you have permission to do so. For example, you won't be able to delete a folder if you only have __View__ and __Download__ permissions.
+Take into account that you will only be able to delete folders in Shared Folders and Favourites where you have permission to do so. For example, you won't be able to delete a folder if you only have __View__ and __Download__ permissions.
 
 In order to delete the folder(s), you will need to mark the tick box to the left of the folder name as shown below.
 
@@ -34,7 +34,7 @@ You then need to navigate to your mapped drive. In the list of drives on the lef
 
 ![Image102](files/Image102.png)
 
-If you click the above icon, you'll be able to see the 3 top level folders; __Personal Folders__, __Shared Folders__, and __Favorites__.
+If you click the above icon, you'll be able to see the 3 top level folders; __Personal Folders__, __Shared Folders__, and __Favourites__.
 
 ![Image103](files/Image103.png)
 
@@ -63,3 +63,10 @@ You'll then be able to see all of the files which are in the recycle bin. As you
 You can delete this file permanently by marking the check box and clicking __Delete Permanently__. Otherwise, you can restore the file back to the destination that it was deleted from by choosing __Restore__.
 
 ![Image108](files/Image108.png)
+
+```eval_rst
+   .. title:: FASTdrive | Deleting files and folders
+   .. meta::
+      :description: Deleting files and folders
+      :keywords: ukfast, fastdrive, files, folders
+```

@@ -2,7 +2,7 @@
 
 A Failover Plan defines which VMs you want to failover, internal networking at UKFast and your NATs for your external IPs. These should be created immediately after you have configured and run your replications, so they are ready to be used in the event of a DR situation. In the event of an outage you will not be able to create or modify your Failover Plans.
 
-We generally recommend you have one Failover Plan that includes all of your VMs, making it as simple as possible to failover in the event of a DR scenario. That said, some solutions may require multiple plans. You may want to split your business-critical VMs into one Failover Plan, which you can fail over first, and then a second with less critical VMs to  be failed over once the first set are up and running. 
+We generally recommend you have one Failover Plan that includes all of your VMs, making it as simple as possible to failover in the event of a DR scenario. That said, some solutions may require multiple plans. You may want to split your business-critical VMs into one Failover Plan, which you can fail over first, and then a second with less critical VMs to  be failed over once the first set are up and running.
 
 The main thing to be aware of if you decide to use multiple Failover Plans is that you can only use an external IP in one plan (it can be used multiple times in that one plan to create different network mappings).
 
@@ -37,10 +37,10 @@ The main thing to be aware of if you decide to use multiple Failover Plans is th
 
 ### Public IP Addresses
 
-Create the network mappings for the public IP address UKFast has assigned to you. 
+Create the network mappings for the public IP address UKFast has assigned to you.
 
-You can use the same External IP multiple times for the same or different VMs providing you use a different source port. 
- 
+You can use the same External IP multiple times for the same or different VMs providing you use a different source port.
+
 
 1. **Assign public IP addresses to use during full-site failover** - Tick this box if you need to assign public IPs to any VMs.
     * **Add...** - Select this to create a new mapping rule. You have to create each mapping individually, but you can create multiple, one after another, while configuring the Failover Plan. You can also come back at a later date to add/modify/remove them.
@@ -52,7 +52,9 @@ You can use the same External IP multiple times for the same or different VMs pr
 ![Create Veeam Failover Plan - Public IP Addresses](files/createfailoverplan/createfailoverplan_publicipaddresses.png)
 
 ```eval_rst
+   .. title:: Creating a Veeam Failover Plan
    .. meta::
-      :title: Creating a Failover Plan | UKFast Documentation
+      :title: Creating a Veeam Failover Plan | UKFast Documentation
       :description: How to create a Failover Plan in Veeam
       :keywords: ukfast, cloud, ecloud, public, hosting, infrastructure, vmware, draas, veeam, connect, dr, replication, backup, failover
+```

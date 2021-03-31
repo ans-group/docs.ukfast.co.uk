@@ -2,16 +2,20 @@
 
 ### Install Varnish
 #### Version 4.1
-Varnish 4.1 is available from the varnishcache_varnish41 repository, this repository can be installed with the following command:
+
+Varnish 4.1 is available from the `varnishcache_varnish41` repository, this repository can be installed with the following command:
+
 ```bash
 ~]# curl -s https://packagecloud.io/install/repositories/varnishcache/varnish41/script.rpm.sh | sudo bash
 ```
 
 Varnish 4.1 can then be installed with the command:
+
 ```bash
 ~]# yum install varnish --disablerepo='*' --enablerepo='varnishcache_varnish41,epel'
 ```
 ##### Start On Boot
+
 You can enable Varnish on boot after installing it with this command:
 
 ```bash
@@ -19,7 +23,9 @@ You can enable Varnish on boot after installing it with this command:
 ```
 
 #### Version 5.2
-Varnish 5.2 is available from the varnishcache_varnish52 repository, this repository can be installed with the following command:
+
+Varnish 5.2 is available from the `varnishcache_varnish52` repository, this repository can be installed with the following command:
+
 ```bash
 ~]# curl -s https://packagecloud.io/install/repositories/varnishcache/varnish52/script.rpm.sh | sudo bash
 ```
@@ -30,6 +36,7 @@ Varnish 5.2 can then be installed with the command:
 ```
 
 ##### Start On Boot
+
 You can enable Varnish on boot after installing it with this command:
 
 ```bash
@@ -37,63 +44,73 @@ You can enable Varnish on boot after installing it with this command:
 ```
 
 ### Memory Limit
-The default memory limit in Varnish is 256M. You may want to increase this, especially if you are using Varnish for Full Page Cache. You can do this by changing the value under VARNISH_STORAGE in the file /etc/varnish/varnish.params.
+
+The default memory limit in Varnish is 256M. You may want to increase this, especially if you are using Varnish for Full Page Cache. You can do this by changing the value under `VARNISH_STORAGE` in the file `/etc/varnish/varnish.params`.
 
 ```bash
 ~]# grep VARNISH_STORAGE /etc/varnish/varnish.params
 VARNISH_STORAGE="malloc,3G"
 ```
+
 Please note Varnish will need a restart for this change to take effect.
 
 ### Pipe timeout
-pipe_timeout is set to 60 seconds by default. This can cause time out issues when running exports in the Shopware admin interface. You can increase this by adding the option:
 
--p pipe_timeout=600
-
-Within the DAEMON_OPTS sections in the file /etc/varnish/varnish.params. You need to restart Varnish for this setting to take effect.
+`pipe_timeout` is set to 60 seconds by default. This can cause timeout issues when running exports in the Shopware admin interface. You can increase this by adding the option `-p pipe_timeout=600` within the `DAEMON_OPTS` sections in the file `/etc/varnish/varnish.params`. You need to restart Varnish for this setting to take effect.
 
 ### Header Size
-If you have this error message in Nginx: 
+
+If you have this error message in NGINX:
 
 ```bash
 [error] 110200#110200: *102122 upstream sent too big header while reading response header from upstream
 ```
 
-You may need to increase http_resp_hdr_len and http_resp_size. You can do this by adding:
+You may need to increase `http_resp_hdr_len` and `http_resp_size`. You can do this by adding:
 
 ```bash
 -p http_resp_hdr_len=983044 \
 -p http_resp_size=983044 \
 ```
 
-To the DAEMON_OPTS sections in the file /etc/varnish/varnish.params. You need to restart Varnish for this setting to take effect.
+To the `DAEMON_OPTS` sections in the file `/etc/varnish/varnish.params`. You need to restart Varnish for this setting to take effect.
 
 ### Configuration Test
-It's very important to run a configuration test before starting/restarting the Varnish service. You can run a configuration test with the following command:
+
+It's very important to run a configuration test before starting /restarting the Varnish service. You can run a configuration test with the following command:
+
 ```bash
 ~]# varnishd -C -f /etc/varnish/default.vcl
 ```
-A successful output from this command will be the VCL displayed  on the terminal with no error message(s).
+
+A successful output from this command will be the VCL displayed on the terminal with no error message(s).
 
 #### Start Varnish
+
 You can start the Varnish service with the following command:
+
 ```bash
 ~]# systemctl start varnish
 ```
 #### Reload Varnish
+
 You can reload the Varnish service with the following command:
+
 ```bash
 ~]# systemctl reload varnish
 ```
 #### Restart Varnish
+
 You can restart the Varnish service with the following command:
+
 ```bash
 ~]# systemctl restart varnish
 ```
 ### Shopware VCL
-The Shopware VCL can be downloaded [here](https://developers.shopware.com/sysadmins-guide/varnish-setup/#varnish-configuration-(vcl))
 
-Copy the file vcl to /etc/varnish/default.vcl. You may want to back up the default.vcl file:
+Here's a link to download the [Shopware VCL](https://developers.shopware.com/sysadmins-guide/varnish-setup/#varnish-configuration-(vcl))
+
+Copy the file VCL to `/etc/varnish/default.vcl`. You may want to back up the `default.vcl` file, like this:
 
 ```bash
 ~]# mv /etc/varnish/default.vcl /etc/varnish/default.vcl.backup
@@ -101,7 +118,9 @@ Copy the file vcl to /etc/varnish/default.vcl. You may want to back up the defau
 ```
 
 ### Version Check
+
 You can see the version of Varnish installed with the following command:
+
 ```bash
 ~]# varnishd -V
 varnishd (varnish-4.1.11 revision 61367ed17d08a9ef80a2d42dc84caef79cdeee7a)
@@ -110,31 +129,36 @@ Copyright (c) 2006-2019 Varnish Software AS
 ```
 
 ### Exclude Domain From Cache
+
 If you have a domain you wish to exclude from cache you can add the following:
 
-```bash
+```vcl
 if (req.http.host ~ "exampledomain.com") {
     return (pass);
    }
 ```
-This needs to go under the vcl_recv section of the VCL. Varnish will need a reload for this to take efect.
+
+This needs to go under the `vcl_recv` section of the VCL. Varnish will need a reload for this to take effect.
 
 ### Exclude URI From Cache
-You may need to exclude a URI from being cached, like the .well-known folder for example when validating an SSL.
 
-```bash
+You may need to exclude a URI from being cached, like the `.well-known` folder for example when validating an SSL.
+
+```vcl
 if (req.url ~ "^/.well-known/") {
       return (pass);
    }
 ```
 
-This needs to go under the vcl_recv section of the VCL. Varnish will need a reload for this to take efect.
+This needs to go under the `vcl_recv` section of the VCL. Varnish will need a reload for this to take effect.
 
 ### HTTP -> HTTPS Redirect
+
 To configure Varnish to perform the HTTP to HTTPS redirect add the following:
 
 All domains:
-```bash
+
+```vcl
 if (req.http.X-Forwarded-Proto !~ "https") {
         set req.http.location = "https://" + req.http.host + req.url;
         return (synth(750, "Permanently moved"));
@@ -142,16 +166,17 @@ if (req.http.X-Forwarded-Proto !~ "https") {
 ```
 
 Single domain:
-```bash
+
+```vcl
 if (req.http.host ~ "exampledomain.com" && req.http.X-Forwarded-Proto !~ "https") {
         set req.http.location = "https://" + req.http.host + req.url;
         return (synth(750, "Permanently moved"));
     }
 ```
 
-Under the vcl_recv section of /etc/varnish/default.vcl and:
+Under the `vcl_recv` section of `/etc/varnish/default.vcl` and:
 
-```bash
+```vcl
 if (resp.status == 750) {
         set resp.http.location = req.http.location;
         set resp.status = 301;
@@ -159,12 +184,15 @@ if (resp.status == 750) {
     }
 ```
 
-Under vcl_synth. Varnish will need a reload for this to take efect.
- 
-### SSL Termination
-Varnish does not support SSL-encrypted traffic, therefore we use Nginx for SSL termination. You need to remove the 443 listen from the server block in the Nginx vhosts configuration file and then add a new server block for 443. Example block:
+Under `vcl_synth`. Varnish will need a reload for this to take effect.
 
-```bash
+### SSL Termination
+
+Varnish does not support SSL-encrypted traffic, therefore we use NGINX for SSL termination. You need to remove the 443 listen from the server block in the NGINX vhosts configuration file and then add a new server block for 443.
+
+Example block:
+
+```nginx
 server {
   server_name example.domain.com;
   listen 10.0.0.17:443 ssl http2;
@@ -185,7 +213,7 @@ server {
 }
 ```
 
-This block performs an SSL handshake and then sends traffic to port 80 which Varnish should be running on. You then need to ensure Nginx does not listen on port 80 by changing the listen from 80 to 8080:
+This block performs an SSL handshake and then sends traffic to port 80 which Varnish should be running on. You then need to ensure NGINX does not listen on port 80 by changing the listen from 80 to 8080:
 
 ```bash
 server {
@@ -193,23 +221,24 @@ server {
 ```
 
 #### SSL Offloading
-If SSL is set to offloading like the above example you need to uncomment the following from the Nginx vhosts configuration file:
+
+If SSL is set to offloading like the above example you need to uncomment the following from the NGINX vhosts configuration file:
 
 ```bash
  # Enable for SSL offloading
   set $my_https off;
   set $my_port 80;
-  
+
   if ($http_x_forwarded_proto = https) {
     set $my_https on;
     set $my_port 443;
   }
-  
+
   fastcgi_param HTTPS $my_https; # Uncomment the below for SSL offloading
   fastcgi_param SERVER_PORT $my_port; # Uncomment the below for SSL offloading
 ```
 
-This tells Shopware that although the connection is on port 80 -> 8080 it should be treated as a secure connection due to the header x_forwarded_proto containing https. 
+This tells Shopware that although the connection is on port 80 -> 8080 it should be treated as a secure connection due to the header `x_forwarded_proto` containing https.
 
 ```eval_rst
   .. title:: Shopware Varnish
@@ -217,3 +246,4 @@ This tells Shopware that although the connection is on port 80 -> 8080 it should
      :title: Shopware Varnish | UKFast Documentation
      :description: A guide using Varnish with Shopware
      :keywords: ukfast, linux, nginx, install, centos, cloud, server, virtual, Shopware, varnish, eCommerce
+```

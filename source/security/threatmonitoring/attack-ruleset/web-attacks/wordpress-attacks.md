@@ -1,7 +1,6 @@
-
 # WordPress
 
-WordPress is an incredibly powerful website CMS that powers over 40% of websites on the Internet, so its no surprise that it's also one of the most common targets for attackers. WordPress, being more user-orientated and it's the ability to be expanded with plugins is especially susceptible to exploits and Zero-Day attacks. 
+WordPress is an incredibly powerful website CMS that powers over 40% of websites on the Internet, so its no surprise that it's also one of the most common targets for attackers. WordPress, being more user-orientated and it's the ability to be expanded with plugins is especially susceptible to exploits and Zero-Day attacks.
 
 ## Monitor WordPress Activity
 
@@ -53,7 +52,7 @@ Request Type: ```POST```
 URL ```Contains: /wp-comments-post.php```
 
 Regex: ```Googlebot | MSNBot | BingBot```
- 
+
 **Severity**
 
 Threat Monitoring will classify this attack as a high, triggering the source IP address to be blocked using the below methods. As this attack is not severe, an alert will not be sent out via email, however, these attacks will still show up in dashboards in your MyUKFast.
@@ -64,8 +63,9 @@ Should a high-level attack be detected, Threat Monitoring will block the source 
 
 
 ```eval_rst
-.. meta::
-     :title: WordPress Rules | UKFast Documentation
-     :description: Guidance relating to UKFast's Threat Monitoring and Threat Response solutions
-     :keywords: threat monitoring, security, compliance, ukfast, hosting, file integrity monitoring, rootkit, detection, vulnerability scan, scans, hids, intrusion detection, threat response
-
+   .. title:: WordPress Rules
+   .. meta::
+      :title: WordPress Rules | UKFast Documentation
+      :description: Guidance relating to UKFast's Threat Monitoring and Threat Response solutions
+      :keywords: threat monitoring, security, compliance, ukfast, hosting, file integrity monitoring, rootkit, detection, vulnerability scan, scans, hids, intrusion detection, threat response
+```

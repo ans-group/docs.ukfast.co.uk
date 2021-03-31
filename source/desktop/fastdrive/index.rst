@@ -12,8 +12,9 @@ Built solely for business use, FastDrive combines Citrix® Files and UKFast's ow
    resettingpasswords
    distributiongroups
    accessingpreviousversionsofyourfiles
-   addingfolderstoyourfavorites
+   addingfolderstoyourfavourites
    recyclebin
    browsingforfiles
    sharingfiles
-      techinformation
+   addressbooks
+   techinformation

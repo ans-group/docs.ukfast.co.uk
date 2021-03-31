@@ -1,0 +1,42 @@
+matrix:
+- name: Markdown
+  aspell:
+    lang: en
+    d: en_GB
+  dictionary:
+    encoding: utf-8
+    wordlists:
+    - .wordlist.txt
+    - .wordlist-workaround.txt
+  pipeline:
+  - pyspelling.filters.url:
+  - pyspelling.filters.context:
+      context_visible_first: true
+      escapes: '\\[\\`~]'
+      delimiters:
+      # Ignore multiline content between fences (fences can have 3 or more back ticks)
+      - open: '(?s)^(?P<open> *`{3,})\S+$'
+        close: '^(?P=open)$'
+      # Ignore text between inline back ticks
+      - open: '(?P<open>(`|``))+'
+        close: '(?P=open)'
+      # Ignore everything after :keywords:
+      - open: '(:keywords:)+'
+        close: '$'
+      # Ignore pre-, post- prefixes
+      - open: '\W(Pre|pre|Post|post|Un|un)'
+        close: '-'
+      # Ignore 1st, 2nd, 3rd, etc.
+      - open: '\W[0-9]+(?:st|[nr]d|th)'
+        close: '\W'
+      # Ignore bare URLs, surrounded in <>
+      - open: '\W<\w+:\/\/'
+        close: '>\W'
+  - pyspelling.filters.markdown:
+  - pyspelling.filters.html:
+      comments: false
+      ignores:
+      - code
+      - pre
+      - nospell
+  default_encoding: utf-8

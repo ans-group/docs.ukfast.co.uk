@@ -1,13 +1,12 @@
-
 # Common Web Attacks
 
-Web attacks are perhaps one of the most common attacks on Internet-facing systems, and they're only becoming more of a danger. UKFast's Threat Monitoring has a range of rules dedicated to detecting and blocking common web-based attacks and malicious connection attempts. 
+Web attacks are perhaps one of the most common attacks on Internet-facing systems, and they're only becoming more of a danger. UKFast's Threat Monitoring has a range of rules dedicated to detecting and blocking common web-based attacks and malicious connection attempts.
 
 ## SQL Injection
 
 **What is this attack**
 
-Making malicious connections to your database, SQL  attacks are designed to utilize your web applications to run arbitrary SQL queries against your database. As these queries are run by your web application, they can bypass existing security controls and NAC. SQL Injections can take advantage of many different attack vectors, one of the most common is web queries as they tend to sit close to other services and have privileged access to databases.
+Making malicious connections to your database, SQL  attacks are designed to utilise your web applications to run arbitrary SQL queries against your database. As these queries are run by your web application, they can bypass existing security controls and NAC. SQL Injections can take advantage of many different attack vectors, one of the most common is web queries as they tend to sit close to other services and have privileged access to databases.
 
 **Signatures detected**
 
@@ -46,7 +45,7 @@ Attackers will commonly try SQL injections on your site, the best ways to preven
 
 **What is this attack**
 
-XSS  (Cross Site Scripting) attacks are similar to SQL injections but instead, XSS attacks utilize JavaScript runs on a user's machine to execute an attack. Through an XSS exploit, an attacker could place malicious JavaScript code on your website that would be run by every use that visits the web pages affected the attacker's malicious code. This code could steal information or even corrupt what data is sent to the user, allowing the attacker to gain an advantage.
+XSS  (Cross Site Scripting) attacks are similar to SQL injections but instead, XSS attacks utilise JavaScript runs on a user's machine to execute an attack. Through an XSS exploit, an attacker could place malicious JavaScript code on your website that would be run by every use that visits the web pages affected the attacker's malicious code. This code could steal information or even corrupt what data is sent to the user, allowing the attacker to gain an advantage.
 
 **Signatures detected**
 
@@ -98,11 +97,11 @@ Threat Monitoring assignees shellshock attacks level 15 severity.
 
 **Remediation and Blocking**
 
-As this alert is high severity, Threat Monitoring will automatically block the source IP address of any web request that is detected to be attempting a shell shock attack. 
+As this alert is high severity, Threat Monitoring will automatically block the source IP address of any web request that is detected to be attempting a shell shock attack.
 
 To protect against this vulnerability, you should ensure that your system is up-to-date and that preventative measures (like Threat Monitoring) are in place.
 
-Many vulnerability scanners will run a non-malicious shellshock attack against a target system, as a result, false positive alerts may trigger when an ASV's system scans your server. 
+Many vulnerability scanners will run a non-malicious shellshock attack against a target system, as a result, false positive alerts may trigger when an ASV's system scans your server.
 
 ## Directory Traversal
 
@@ -110,7 +109,7 @@ Many vulnerability scanners will run a non-malicious shellshock attack against a
 
 Another common web attack is a directory traversal attack, an exploit that attempts to access files on your server not imminently accessible through a web interface. This attack takes advantage of insecure file permissions and web requests that have not been sanitized. This exploit could allow an attacker to view the '/etc/passwd' file of your server for example, or access directories contain sensitive information like payment gateway details or credentials.
 
-Directory traversal attacks can be detected by monitoring for web requests that seem to be navigating up to parent directories. For example, if our website is located at /var/www/html, an attacker could utilize this attack to access our /etc/passwd files with https://website.com/../../../../etc/passwd.
+Directory traversal attacks can be detected by monitoring for web requests that seem to be navigating up to parent directories. For example, if our website is located at /var/www/html, an attacker could utilise this attack to access our /etc/passwd files with https://website.com/../../../../etc/passwd.
 
 **Signatures detected**
 
@@ -169,7 +168,7 @@ $header = $_GET['https://mysecureserver.com.files/header.php'];
 
 include($header);
 
-``` 
+```
 
 If not properly caught, an attacker could submit a request like this:
 
@@ -203,7 +202,7 @@ To disable the ability to include remote files completely, you can set `allow_ur
 
 **What is this attack**
 
-The Internet is full of bots, both performing tasks that make the Internet run, and sometimes malicious tasks that can cause mayhem. POST requests are types of web requests that can be sent to a server via HTTP and HTTPS and are often used to send data to a web server or API. 
+The Internet is full of bots, both performing tasks that make the Internet run, and sometimes malicious tasks that can cause mayhem. POST requests are types of web requests that can be sent to a server via HTTP and HTTPS and are often used to send data to a web server or API.
 
 **Severity**
 
@@ -222,9 +221,9 @@ Most web-based traffic will be accompanied by a user agent tag. This user agent 
 ```cirru
  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
  ```
- 
- It looks confusing because, well, it is, but that's for another time :P 
- 
+
+ It looks confusing because, well, it is, but that's for another time :P
+
  Malicious programs will often also pass their unique user agent or the more deceptive programs may try to imitate a more common user agent like the above, but accidentally misspell some aspects. Threat Monitoring can detected many of these malicious user agents and block them. See the Remediation and Blocking section below for more information.
 
 **Signatures detected**
@@ -247,7 +246,7 @@ Threat Monitoring will block the IP if a malicious user agent is detected. The I
 ## PHP CGI-bin Vulnerabilities
 
 **What is this attack**
- 
+
 According to PHP's website, "PHP is a widely-used general-purpose scripting language that is especially suited for Web development and can be embedded into HTML." When PHP is used in a CGI-based setup (such as Apache's mod_cgid), the PHP-CGI receives a processed query string parameter as command line arguments which may allow command-line switches, such as '-s', '-d' or '-c' to be passed to the PHP-CGI binary, which can be exploited to disclose source code and obtain arbitrary code execution.
 
 An example of the -s command, allowing an attacker to view the source code of index.php is below:
@@ -279,7 +278,7 @@ Threat Monitoring will block the IP if a malicious user agent is detected. The I
 ## PHP Info Scans
 
 **What is this attack**
- 
+
 A PHP Info file is commonly used during development and testing to show what version of PHP a server is using, and detail and extensions that are installed to add additional functionality. Sometimes, this file is left on server after they are deployed into production environments. Should an attacker gain access to this file, they would be able to see important information reassuring your server's PHP environment and tailor their attack to target your server.
 
 **Signatures detected**
@@ -300,11 +299,10 @@ Taking more of a passive approach, this rule does not necessarily detect that an
 
 ---
 
-
-
 ```eval_rst
-.. meta::
-     :title: Web Attacks | UKFast Documentation
-     :description: Guidance relating to UKFast's Threat Monitoring and Threat Response solutions
-     :keywords: threat monitoring, security, compliance, ukfast, hosting, file integrity monitoring, rootkit, detection, vulnerability scan, scans, hids, intrusion detection, threat response
-
+   .. title:: Web Attacks
+   .. meta::
+      :title: Web Attacks | UKFast Documentation
+      :description: Guidance relating to UKFast's Threat Monitoring and Threat Response solutions
+      :keywords: threat monitoring, security, compliance, ukfast, hosting, file integrity monitoring, rootkit, detection, vulnerability scan, scans, hids, intrusion detection, threat response
+```

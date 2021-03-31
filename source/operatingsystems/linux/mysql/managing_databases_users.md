@@ -24,7 +24,7 @@ Stop MySQL, and start it with the '--skip-grant-tables' option so you can login 
 ```
 
 Run the following query to change the root user password, then exit:
- ```sql  
+ ```sql
   UPDATE mysql.user SET Password = PASSWORD("ChooseAStrongPassword") WHERE User="root" ;
   exit
  ```

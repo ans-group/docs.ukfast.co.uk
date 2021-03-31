@@ -9,14 +9,14 @@
 
 ## Installation
 
-You can install the magnumclient package on your system by running the following:
+You can install the `magnumclient` package on your system by running the following:
 
 ```bash
 sudo yum install python-magnumclient
 sudo apt-get install python-magnumclient
 ```
 
-We have a full page of documentation about installing the openstack clients [here](/ecloud/flex/general/openstackcli).
+We have a full page of documentation about installing the OpenStack clients [here](/ecloud/flex/general/openstackcli).
 
 ### Creating a Kubernetes cluster with Magnum
 
@@ -24,7 +24,7 @@ Our Magnum deployment supports all of the engines that Magnum supports (Docker S
 
 1. Create an image
 
-   Presuming you have already configured the [relevent environment variables](/ecloud/flex/general/settingvars) to authenticate with your project, we now need to download an image to upload as our base image for the template. In this example, we found a Fedora [CoreOS](https://getfedora.org/en/coreos/download/) cloud image (qcow2 format) and uploaded it to our project using the `openstack image` command.
+   Presuming you have already configured the [relevant environment variables](/ecloud/flex/general/settingvars) to authenticate with your project, we now need to download an image to upload as our base image for the template. In this example, we found a Fedora [CoreOS](https://getfedora.org/en/coreos/download/) cloud image (`qcow2` format) and uploaded it to our project using the `openstack image` command.
 
    ```bash
    openstack image create --disk-format=qcow2 \
@@ -34,7 +34,7 @@ Our Magnum deployment supports all of the engines that Magnum supports (Docker S
                           coreos
    ```
 
-   Be sure to make a note of your image ID, as we'll be using this in the next step. We must specify the os_distro property in order for the cluster to build correctly. If you're using Fedora Atomic, the os_distro would be `fedora-atomic`.
+   Be sure to make a note of your image ID, as we'll be using this in the next step. We must specify the `os_distro` property in order for the cluster to build correctly. If you're using Fedora Atomic, the `os_distro` would be `fedora-atomic`.
 
    Please refer to our other documentation for more information about [managing images](/ecloud/flex/resources/storage/managing-images).
 
@@ -56,15 +56,15 @@ Our Magnum deployment supports all of the engines that Magnum supports (Docker S
             k8s-template
     ```
 
-    `--image` parameter is the same image that we created in step 1.  
+    `--image` parameter is the same image that we created in step 1.
 
-    `--keypair` parameter is the keypair that will be used to spin up the instances in your project.  
+    `--keypair` parameter is the keypair that will be used to spin up the instances in your project.
 
-    `--external-network` asks for the ID for the external network, and in the case of eCloud Flex, this will be the `vlan2803` network.  
+    `--external-network` asks for the ID for the external network, and in the case of eCloud Flex, this will be the `vlan2803` network.
 
-    `--flavor` and `--master-flavor` requires the flavor ID for your `minion` and `master` instances.  
+    `--flavor` and `--master-flavor` requires the flavor ID for your `minion` and `master` instances.
 
-    `--docker-volume-size` asks for the size (in GB) to create the volume which will be attached to your instances. 20GB is sufficient for testing.  
+    `--docker-volume-size` asks for the size (in GB) to create the volume which will be attached to your instances. 20GB is sufficient for testing.
 
     The remaining flags just specify details about the engine and network drivers, followed by the name of the new template.
 
@@ -79,8 +79,8 @@ Our Magnum deployment supports all of the engines that Magnum supports (Docker S
                                  test-cluster
     ```
 
-    `--cluster-template` needs the name / ID of the template that we created in the previous step.  
-    `--node-count` and `--master-count` is the number of master / minion instances that you'd like to create.  
+    `--cluster-template` needs the name / ID of the template that we created in the previous step.
+    `--node-count` and `--master-count` is the number of master / minion instances that you'd like to create.
     The final argument is the name of the cluster.
 
 4. Watch the deployment
@@ -102,7 +102,7 @@ Our Magnum deployment supports all of the engines that Magnum supports (Docker S
     openstack coe cluster delete <id>
     ```
 
-You can find lots of information and further user guides over at the [Openstack documentation for Magnum](https://docs.openstack.org/magnum/latest/user/).
+You can find lots of information and further user guides over at the [OpenStack documentation for Magnum](https://docs.openstack.org/magnum/latest/user/).
 
 If you need any further assistance, you can contact our UKFast Support team by [raising a ticket](https://my.ukfast.co.uk/pss/create) or by calling the [dedicated support line](https://www.ukfast.co.uk/contact.html).
 

@@ -10,5 +10,5 @@ SSL Certificates
    UKFast SSL Types <types>
    Self Signed Certificates <self_signed_certificates>
    Using Server Name Indication (SNI) <sni>
-   Extended Validation Certificates <Extended_Validation_SSL>
+   Extended Validation Certificates <extended_validation_ssl>
    letsencrypt/index
