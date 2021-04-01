@@ -1,6 +1,6 @@
 # FastDesk Two-Factor Authentication
 
-UKFast are partnering with Cisco’s Duo Security for 2FA because it is easy to use and integrates well with the FastDesk platform. Cisco’s Duo security protects the FastDesk environment by using a second source of validation, like a phone, to verify a user’s identity before granting access.
+UKFast are partnering with Cisco Duo Security for 2FA because it is easy to use and integrates well with the FastDesk platform. Cisco Duo security protects the FastDesk environment by using a second source of validation, like a phone, to verify a users identity before granting access.
 
 ```eval_rst
 .. note::
