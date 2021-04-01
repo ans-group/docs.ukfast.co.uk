@@ -9,9 +9,9 @@ Next, on your local device (the device you would use to access FastDesk) open up
 
 ![Image 1 Speed Test URL](files/speedtest.net.PNG "Image 1: Speed Test URL")
 
-Next, click “Go”. 
+Next, click `“Go”`. 
 
-![Image 2 Speed Test GO](files/speed_test.PNG "Image 2: Speed Test GO")
+![Image 2 Speed Test Go](files/speed_test.PNG "Image 2: Speed Test Go")
 
 Please let this test run. 
 

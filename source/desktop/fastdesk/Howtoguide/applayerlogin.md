@@ -23,12 +23,12 @@ To access the app layer, you will need to log into your database user, this is a
 ```eval_rst
 .. note::
 
-  If you do not have a database user, you will have been assigned the correct permissions to access the Application Layer from your regular FastDesk Desktop. Follow the same steps as below but through your personal desktop instead. For specific steps, check out th
+  If you do not have a database user, you will have been assigned the correct permissions to access the Application Layer from your regular FastDesk Desktop. Follow the same steps as below but through your personal desktop instead. 
    
 ```
 Once you are logged in, please open up the database user desktop as usual. 
 
-Next, you will need to open up “Remote Desktop Connection”. Refer to **Image 2** below. To find this, you may need to search for it or find it within the list of applications.
+Next, you will need to open up `“Remote Desktop Connection”`. Refer to **Image 2** below. To find this, you may need to search for it or find it within the list of applications.
 
 ![Image 2: Remote Desktop Connection Search](files/RDPsearch2.PNG "Image 2: Remote Desktop Connection Search")
 
@@ -64,7 +64,7 @@ To allow for the updated application to come through on your desktop yourself, a
 
 Following the instructions of Step 1, you should have the credentials for the app layer. To access the app layer, you will need to log as your FastDesk user.
 
-Within your FastDesk session, you will need to open up “Remote Desktop Connection”. Refer to **Image 6** below. To find this, you may need to search for it or find it within the list of applications.
+Within your FastDesk session, you will need to open up `“Remote Desktop Connection”`. Refer to **Image 6** below. To find this, you may need to search for it or find it within the list of applications.
 
 ![Image 6: Remote Desktop Connection Search](files/RDPsearch2.PNG "Image 6: Remote Desktop Connection Search")
 
@@ -78,9 +78,11 @@ Once you have entered the details, you will then be signed into your application
 
 **_This instruction guide should assist you in installing or updating applications on an application layer. If you have any questions or still require assistance, please contact the FastDesk support team on 0800 923 0617_**.
 
-
- ```eval_rst
-   .. meta::
-      :title: Installing or Updating an Application | UKFast Documentation
+```
+  ```eval_rst
+      .. title:: Installing or Updating an Application | UKFast Documentation
+      .. meta::
+      :title: Guide on how to change your FastDesk Paswword | UKFast Documentation
       :description: Guide for users on how to install or update and application 
-      :keywords: FastDesk, Citrix, VDI, Citrix Receiver, Windows, Workspace Application, Application Layer, Database, Installation, Updating, LOB, Line of Business
+      :keywords: FastDesk, Citrix, VDI, Citrix Receiver, Windows, Workspace Application, Application, Layer, Database, Installation, Updating, LOB, Line of Business
+      ```  

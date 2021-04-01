@@ -77,8 +77,10 @@ Once selected, it should begin to launch your desktop. Once this has booted, you
 
 
  ```eval_rst
+   .. title:: FastDesk Getting Started Guide: iOS
    .. meta::
       :title: FastDesk Getting Started Guide: Apple iOS | UKFast Documentation
       :description: Guide for users on how to get setup on FastDesk using an iOS
       :keywords: FastDesk, Citrix, ukfast, VDI, Citrix Receiver 
 ```
+

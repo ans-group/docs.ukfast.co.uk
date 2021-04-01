@@ -40,7 +40,6 @@ You can disconnect by simply closing your Citrix Workspace Window or web browser
    This instruction guide should assist you in learning how to effectively sign out of your FastDesk session. If you have any questions or still require assistance, please contact the FastDesk support team on 0800 923 0617.
    
 ```
-   
 ```eval_rst
   .. title:: FastDesk Guide: Signing out | UKFast Documentation
   .. meta::

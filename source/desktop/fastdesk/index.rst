@@ -51,7 +51,7 @@ Further step-by-step support related tutorials designed to help you self-service
 .. toctree::
    :maxdepth: 1
    
-   howtoguide/Changepassword
+   howtoguide/changepassword
    howtoguide/signout
    howtoguide/updateworkspace
       
@@ -67,7 +67,7 @@ Find additional resources that will allow you to enhance or customise your FastD
    custombrand
    twofa
     
-For more information about FASTdesk, and how it can help increase the flexibility in the way users work, please visit the various links below.
+For more information about FastDesk, and how it can help increase the flexibility in the way users work, please visit the various links below.
     
 - `What is FastDesk? <https://www.ukfast.co.uk/fastdesk.html>`_
  

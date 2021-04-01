@@ -36,15 +36,13 @@ As you can see from the **image 1** below, all versions of Workspace are listed.
 
 ![Image 1: Citrix Website OS options Download Page](files/Website_download.PNG "Image 1: Citrix website OS options download page")
 
-Expand the "Workspace app for Windows" section and select the latest version of the "Workspace app for Windows". This takes you to the download link where you can download the application (See **image 2**).
+Expand the `"Workspace app for Windows"` section and select the latest version of the `"Workspace app for Windows"`. This takes you to the download link where you can download the application (See **image 2**).
 
 ![Image 2: Citrix Website Windows Download Page](files/Website_download2.PNG "Image 2: Citrix website Windows download page")
 
-
-Once the file has downloaded, open the file to begin installation. You might get a security warning asking "Do you want to run this file?". Check that the "Publisher" identifies as "Citrix Systems, Inc." before selecting Run (Refer to **image 3** included).
+Once the file has downloaded, open the file to begin installation. You might get a security warning asking `"Do you want to run this file?"`. Check that the `"Publisher"` identifies as `"Citrix Systems, Inc."` before selecting Run (Refer to **image 3** included).
 
 ![Image 3: Do you want to run this application?](files/Run_file.PNG "Image 3: Do you want to run this application?")
-
 
 Follow the installation dialog box to finish with the installation of the workspace app ( **Image 4** provides a visual representation).
 
@@ -61,7 +59,7 @@ Once here, you will see the FastDesk branding and a log in page with a man on a 
 
 ![Image 6 FastDesk Landing Page](files/Welcome_screen.png "Image 6: FastDesk Landing Page")
 
-Go ahead and enter the username and password credentials that were provided to you by the FASTdesk team. Upon entering your credentials, you will be asked to change your password (See **image 7**). 
+Go ahead and enter the username and password credentials that were provided to you by the FastDesk team. Upon entering your credentials, you will be asked to change your password (See **image 7**). 
 
 ![Image 7 FastDesk Password Reset](files/resetpassword.png "Image 7: FastDesk Password Reset Page")
 
@@ -82,9 +80,9 @@ You can navigate between Desktops and Apps via the icons found at the top of the
 
 ![Image 9 FastDesk Desktops Page](files/storefront.png "Image 9: FASTdesk Desktops Page")
 
-Once in the desktops categories, you can open the desktop that has been allocated to you by just clicking the monitor of the desktop or by clicking the downward arrow which will give you three options of "Open", "Add To Favorites" and "Restart". You can also choose to "Add To Favourites", which pins your desktop to the Favourites category. From here you can also click "open" (Refer to **image 9**).
+Once in the desktops categories, you can open the desktop that has been allocated to you by just clicking the monitor of the desktop or by clicking the downward arrow which will give you three options of `"Open"`, `"Add To Favorites"` and `"Restart"`. You can also choose to `"Add To Favourites"`, which pins your desktop to the Favourites category. From here you can also click `"open"` (Refer to **image 9**).
 
-When either the monitor or open button has been clicked, you will get a pop up that asks "Open Citrix Workspace Launcher?" (Refer to **image 10**). Next, allow it to open the Launcher. 
+When either the monitor or open button has been clicked, you will get a pop up that asks `"Open Citrix Workspace Launcher?"` (Refer to **image 10**). Next, allow it to open the Launcher. 
 
 ![Image 10 Open Citrix Workspace Launcher?](files/Openlauncher.png "Image 10: Open Citrix Workspace Launcher?")
 
@@ -92,18 +90,17 @@ Upon opening this, your desktop will begin to launch in another window (Refer to
 
 ![Image 11 Desktop Launching](files/Openingdesktop.PNG "Image 11: Desktop Launching").
 
-
 Once fully launched, your desktop should appear as it is in **image 12**. 
 
 ![Image 12 Fully Loaded Desktop](files/otherwindow.png "Image 12: FASTdesk ready for use")
 
 ## Workspace Application Log in setup (Optional)
 
-Although it is recommended you access FastDesk through the URL, you can also access your desktop through the Citrix Workspace Launcher. If you prefer to login directly to the Citrix Workspace app, you can do so. Simply click your windows start menu button and search for "Citrix Workspace Application". After launching the Citrix Workspace app, you will be asked to add an account. See **image 13**
+Although it is recommended you access FastDesk through the URL, you can also access your desktop through the Citrix Workspace Launcher. If you prefer to login directly to the Citrix Workspace app, you can do so. Simply click your windows start menu button and search for `"Citrix Workspace Application"`. After launching the Citrix Workspace app, you will be asked to add an account. See **image 13**
 
 ![Image 13 Add an account](files/addaccountworkspace.png "Image 13: Add an account")
 
-Simply type the following URL `"https://www.fastdesk.co.uk"` and click Add. Alternatively, enter the URL that has been provided to you by the FASTdesk team if you have a private fastdesk. You will then be prompted to enter your username and password into the application. See **image 14.**
+Simply type the following URL `"https://www.fastdesk.co.uk"` and click Add. Alternatively, enter the URL that has been provided to you by the FastDesk team if you have a private fastdesk. You will then be prompted to enter your username and password into the application. See **image 14.**
 
 ![Image 14 Enter credentials](files/entercredsapp.PNG "Image 14: Enter Credentials")
 
@@ -118,6 +115,7 @@ Simply type the following URL `"https://www.fastdesk.co.uk"` and click Add. Alte
 **_This instruction guide should assist you in getting logged in for the first time. If you have any questions or still require assistance, please contact the FastDesk support team on 0800 923 0617_**.
 
  ```eval_rst
+    .. title:: FastDesk Getting Started Guide: Windows OS
    .. meta::
       :title: FastDesk Getting Started Guide Windows PC Edition | UKFast Documentation
       :description: Guide for users on how to get setup on FASTdesk using a Windows PC 

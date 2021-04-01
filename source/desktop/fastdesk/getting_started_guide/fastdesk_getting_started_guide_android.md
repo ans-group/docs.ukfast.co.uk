@@ -16,11 +16,11 @@ This guide provides step by step instructions on installing and accessing FastDe
 - Instant access to your FastDesk environment in an easy-to-use, all-in-one interface. 
 - The Workspace application also fully integrated with the Citrix Content Collaboration (Also known as ShareFile) which gives you ability to upload and download files all within the one application. 
 
-If you currently use the older Citrix Receiver for Android, Citrix Workspace will replace this. If your Android device has insufficient storage, it is possible to install the Citrix Workspace App for Android on an external SD card and mount it on the local device (For more information on this, please contact the FASTdesk Team).
+If you currently use the older Citrix Receiver for Android, Citrix Workspace will replace this. If your Android device has insufficient storage, it is possible to install the Citrix Workspace App for Android on an external SD card and mount it on the local device (For more information on this, please contact the FastDesk Team).
  
 ## Step 1 - Installing the Citrix Workspace Application
 
-To begin with, on your Android device, navigate to and open the Google Play store. Once complete, use the application search bar to look for “Citrix Workspace”. When found, please refer to **_image 1 included below_** to ensure it is the correct application. Once confirmed, proceed to install the application by tapping the green install button. 
+To begin with, on your Android device, navigate to and open the Google Play store. Once complete, use the application search bar to look for `“Citrix Workspace”`. When found, please refer to **_image 1 included below_** to ensure it is the correct application. Once confirmed, proceed to install the application by tapping the green install button. 
 
 ![Image 1: Google Play Store download page](files/Downloads_page.png "Image 1: Google Play Store download page")
 
@@ -29,15 +29,15 @@ Once installation begins, your screen will be similar to what is pictured in **_
 ![Image 2: Citrix Workspace application is downloading](files/downloading.png "Image 2: Citrix Workspace application is downloading")
 
 ## Step 2 - Logging into the FastDesk Portal
-Once the "Citrix Workspace" application is installed, proceed to open it (Refer to **_image 3_ below**).
+Once the `"Citrix Workspace"` application is installed, proceed to open it (Refer to **_image 3_ below**).
 
 ![Image 3: Citrix Workspace application is installed](files/appstore.png "Image 3: Citrix Workspace application is installed")
 
-After launching Citrix Workspace for the first time, you will receive four notifications from your phone asking to "Allow Workspace to access photos, media and other files on your device?" Please select "Allow" for the set-up to continue(Refer to **_image 4 below_**). 
+After launching Citrix Workspace for the first time, you will receive four notifications from your phone asking to `"Allow Workspace to access photos, media and other files on your device?"` Please select `"Allow"` for the set-up to continue(Refer to **_image 4 below_**). 
 
 ![Image 4: Citrix Workspace asking for read permissions.](files/permisions1.png "Image 4: Citrix Workspace asking for read permissions.")
 
-Once finished, you will be prompted to enter a company email address or store URL. Simply type the following URL `“https://www.fastdesk.co.uk” and click Continue`. Do make sure you enter the full URL including the `"https://www."`. Please leave the "Add account type as Web Interface" unselected (Refer to **_image 5 below_** included).
+Once finished, you will be prompted to enter a company email address or store URL. Simply type the following URL `“https://www.fastdesk.co.uk”` and click Continue. Do make sure you enter the full URL including the `"https://www."`. Please leave the `"Add account type as Web Interface"` unselected (Refer to **_image 5 below_** included).
 
 ![Image 5: Entering FastDesk Store URL](files/Enterservercreds.png "Image 5: Entering FastDesk Store URL")
 
@@ -61,11 +61,11 @@ When you first log in, you will notice there is nothing to click except the menu
 
 ![Image 8: When you first log-in](files/mainscreen.png "Image 8: When you first log-in")
 
-Select the menu button and there is a list of options (Home, Apps, and Desktops). Refer to **_image 9_ below** for a visual representation. The "Home" section in the menu contains hosted desktops you have tagged as your favourites whilst the "Apps" section presents you with specific applications that have been made available to you. In most cases, you will not use this section. The "Refresh" options will reset your connection to the application whilst the "Settings" section presents you with the settings you can customise including the ability for you to manage your accounts. 
+Select the menu button and there is a list of options (Home, Apps, and Desktops). Refer to **_image 9_ below** for a visual representation. The `"Home"` section in the menu contains hosted desktops you have tagged as your favourites whilst the `"Apps"` section presents you with specific applications that have been made available to you. In most cases, you will not use this section. The `"Refresh"` options will reset your connection to the application whilst the `"Settings"` section presents you with the settings you can customise including the ability for you to manage your accounts. 
 
 ![Image 9: Citrix Workspace Menu Bar](files/Workspacemain.png "Image 9: Citrix Workspace Menu Bar")
 
-Select Desktops by clicking on the text "Desktops". This should present you with the desktops that have been allocated to you. In the case of **_image 10_** below, this is the client Desktop Demo.)  
+Select Desktops by clicking on the text `"Desktops"`. This should present you with the desktops that have been allocated to you. In the case of **_image 10_** below, this is the client Desktop Demo.)  
 
 ![Image 10: Desktop(s) that have been allocated to you](files/clientdesktop.png "Image 10: Desktop(s) that have been allocated to you")
 
@@ -87,7 +87,7 @@ Click anywhere on the screen to close this manual and access the desktop (See **
 
 Begin navigating your desktop following the instructions that were provided with the gestures manual.
 
-You can later set the desktop that has been allocated to you as a "Favorite". This will allow it to appear as soon as you log in.
+You can later set the desktop that has been allocated to you as a `"Favorite"`. This will allow it to appear as soon as you log in.
 
 ```eval_rst
 .. warning::
