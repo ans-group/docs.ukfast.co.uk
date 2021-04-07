@@ -23,18 +23,18 @@ Click on this cog will bring up multiple options as shown in **image 3** below.
 
 ![Image 3 Settings Options](files/Settings_options.PNG "Image 3: Settings Options")
 
-Next, select `“Account Settings”` which will take you to another page as displayed in  **image 4**. 
+Next, select `"Account Settings"` which will take you to another page as displayed in  **image 4**. 
 
 ![Image 4 Settings Page](files/Settings_page.PNG "Image 4: Settings page")
 
-On this page you will find `“Change Password”`. Here you will be able to change your password to something new (**refer to image 5** below). 
+On this page you will find `"Change Password"`. Here you will be able to change your password to something new (**refer to image 5** below). 
 
 ![Image 5 Password Change](files/Password_reset.PNG "Image 5: Password Change")
 
 ```eval_rst
 .. warning::
 
-   Your new password must be a minimum of 8 characters in length and contain at least 3 of the following: uppercase letters, lowercase letters, numbers, symbols and special characters e.g `“! ” £”`. Your password can also not contain the name of your account. For example, if your account name is John Smith, a password with the word `‘john’`will not be accepted.
+   Your new password must be a minimum of 8 characters in length and contain at least 3 of the following: uppercase letters, lowercase letters, numbers, symbols and special characters e.g `"! " £"`. Your password can also not contain the name of your account. For example, if your account name is John Smith, a password with the word `'john'`will not be accepted.
    
 ```
 Once your password has been changed, it should simply log you in. It may ask you to detect receiver, if so, simply select the option that allows it to detect the receiver.
