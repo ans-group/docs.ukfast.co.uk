@@ -37,6 +37,7 @@ Once entered, this will launch your additional VM in a new window.
 
 
  ```eval_rst
+   .. title:: Logging into your database | UKFast Documentation
    .. meta::
       :title: How to log into your Database | UKFast Documentation
       :description: Guide for users on how to install or update and application 
