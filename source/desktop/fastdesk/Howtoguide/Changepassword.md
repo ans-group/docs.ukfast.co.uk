@@ -19,11 +19,11 @@ Once logged in, you will need to navigate to the top right of the page where you
 
 ![Image 2 Settings Cog](files/Settings_cog.PNG "Image 2: Settings Cog")
 
-Click on this cog will bring up multiple options as shown in **image 3** below.
+Click on this cog will bring up multiple options as shown in **image 3** below. 
 
 ![Image 3 Settings Options](files/Settings_options.PNG "Image 3: Settings Options")
 
-Next, select `“Account Settings”` which will take you to another page as displayed in  **image 4** . 
+Next, select `“Account Settings”` which will take you to another page as displayed in  **image 4**. 
 
 ![Image 4 Settings Page](files/Settings_page.PNG "Image 4: Settings page")
 
