@@ -37,7 +37,7 @@ Proceed to open it. After launching Citrix Workspace for the first time, it will
 ![Image 3: Citrix Workspace App Landing Page](files/openedonceios.png "Image 3: Citrix Workspace App Landing Page")
 
 
-Continue to select "Get Started".  You will then be prompted to enter a company email address or store URL. Simply type the following URL `“https://www.fastdesk.co.uk”` and click Continue. Do make sure you enter the full URL including the `"https://www."`. Please use **_image 4 below_** as an example.
+Continue to select "Get Started".  You will then be prompted to enter a company email address or store URL. Simply type the following URL `"https://www.fastdesk.co.uk"` and click Continue. Do make sure you enter the full URL including the `"https://www."`. Please use **_image 4 below_** as an example.
 
 ![Image 4: Server URL entered on Workspace App](files/enteredURLios.png "Image 4: Server URL entered on Workspace App")
 
@@ -48,7 +48,7 @@ You will then be prompted to enter your username and password into the applicati
 ```eval_rst
 .. note::
 
-   Your new password must be a minimum of 8 characters in length and contain at least 3 of the following: uppercase letters, lowercase letters, numbers, symbols and special characters e.g “! ” £”. Your password can also not contain the name of your account. For example, if your account name is John Smith, a password with the word ‘john’ will not be accepted. Once your password has been reset, it should simply log you in. It may ask you to dectect receiver, if so, simply select the option that allows it to detect the receiver.
+   Your new password must be a minimum of 8 characters in length and contain at least 3 of the following: uppercase letters, lowercase letters, numbers, symbols and special characters e.g "! " £". Your password can also not contain the name of your account. For example, if your account name is John Smith, a password with the word ‘john’ will not be accepted. Once your password has been reset, it should simply log you in. It may ask you to dectect receiver, if so, simply select the option that allows it to detect the receiver.
    
 ```
 
@@ -62,7 +62,7 @@ The "Favorites" page contains hosted desktops you have tagged as your favourites
 
 ![Image 7: Opening Client Desktop Demo](files/Openingios.png "Image 7: Opening Client Desktop Demo")
 
-Once selected, it should begin to launch your desktop. Once this has booted, your FASTdesk is ready for you as shown in **_image 8 below_**.
+Once selected, it should begin to launch your desktop. Once this has booted, your FastDesk is ready for you as shown in **_image 8 below_**.
 
 ![Image 8: Client Desktop Demo Fully Loaded](files/loadedios.png "Image 8: Client Desktop Demo Fully Loaded")
 

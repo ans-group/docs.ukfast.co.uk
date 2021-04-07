@@ -20,7 +20,7 @@ If you currently use the older Citrix Receiver for Android, Citrix Workspace wil
  
 ## Step 1 - Installing the Citrix Workspace Application
 
-To begin with, on your Android device, navigate to and open the Google Play store. Once complete, use the application search bar to look for `“Citrix Workspace”`. When found, please refer to **_image 1 included below_** to ensure it is the correct application. Once confirmed, proceed to install the application by tapping the green install button. 
+To begin with, on your Android device, navigate to and open the Google Play store. Once complete, use the application search bar to look for `"Citrix Workspace"`. When found, please refer to **_image 1 included below_** to ensure it is the correct application. Once confirmed, proceed to install the application by tapping the green install button. 
 
 ![Image 1: Google Play Store download page](files/Downloads_page.png "Image 1: Google Play Store download page")
 
@@ -37,7 +37,7 @@ After launching Citrix Workspace for the first time, you will receive four notif
 
 ![Image 4: Citrix Workspace asking for read permissions.](files/permisions1.png "Image 4: Citrix Workspace asking for read permissions.")
 
-Once finished, you will be prompted to enter a company email address or store URL. Simply type the following URL `“https://www.fastdesk.co.uk”` and click Continue. Do make sure you enter the full URL including the `"https://www."`. Please leave the `"Add account type as Web Interface"` unselected (Refer to **_image 5 below_** included).
+Once finished, you will be prompted to enter a company email address or store URL. Simply type the following URL `"https://www.fastdesk.co.uk"` and click Continue. Do make sure you enter the full URL including the `"https://www."`. Please leave the `"Add account type as Web Interface"` unselected (Refer to **_image 5 below_** included).
 
 ![Image 5: Entering FastDesk Store URL](files/Enterservercreds.png "Image 5: Entering FastDesk Store URL")
 
@@ -52,10 +52,9 @@ You will then be prompted to enter your username and password into the applicati
 ```eval_rst
 .. note::
 
-   Once successfully logged in for the first time, you will be asked to change your password. Your password must be a minimum of 8 characters in length and contain at least 3 of the following: uppercase letters, lowercase letters, numbers, symbols and special characters e.g “! ” £”. Your password can also not contain the name of your account. For example, if your account name is John Smith, a password with the word ‘john’ will not be accepted.
+   Once successfully logged in for the first time, you will be asked to change your password. Your password must be a minimum of 8 characters in length and contain at least 3 of the following: uppercase letters, lowercase letters, numbers, symbols and special characters e.g "! " £". Your password can also not contain the name of your account. For example, if your account name is John Smith, a password with the word ‘john’ will not be accepted.
 
 ```
-
 ## Step 3 - Launching a desktop from the Portal
 When you first log in, you will notice there is nothing to click except the menu button in the left top corner of the screen and the search button in the top right corner of the screen(refer to **_image 8_** below). 
 

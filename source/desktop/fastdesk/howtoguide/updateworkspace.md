@@ -46,7 +46,7 @@ Follow the installation dialog box to finish with the installation of the worksp
 ![Image 6: Installing Citrix Workspace](files/Installing_app.PNG "Image 6: Installing Citrix Workspace Dialog box")
 
 
-Once the **Citrix Workspace** application is installed, open your web browser and navigate to the Following URL `“https://www.fastdesk.co.uk”`. On this step, it is vital that you enter the full URL including the `"www"`. Alternatively, you can click this [link here](https://www.fastdesk.co.uk) to take you to the website. In terms of browsers, the web portal is compatible with the latest versions of Google Chrome, Mozilla Firefox, Microsoft Edge and Internet Explorer.
+Once the **Citrix Workspace** application is installed, open your web browser and navigate to the Following URL `"https://www.fastdesk.co.uk"`. On this step, it is vital that you enter the full URL including the `"www"`. Alternatively, you can click this [link here](https://www.fastdesk.co.uk) to take you to the website. In terms of browsers, the web portal is compatible with the latest versions of Google Chrome, Mozilla Firefox, Microsoft Edge and Internet Explorer.
 
 ![Image 7: FastDesk URL](files/Url.png "Image 7: FastDesk URL")
 

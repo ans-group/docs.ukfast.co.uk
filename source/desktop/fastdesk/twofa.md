@@ -21,7 +21,7 @@ Next, Duo will show that the account is now linked and the registration process 
 
 ## General usage 
 
-Day to day, when a user enters their password as normal, they will be asked to select an authentication method. Users simply click “send me a push”. The user will get a notification on their 2FA enabled device. When they open up the notification, they will get an `“Allow” or “Deny”` option. Users will simply select `Allow` and it will log them in as usual.
+Day to day, when a user enters their password as normal, they will be asked to select an authentication method. Users simply click “send me a push”. The user will get a notification on their 2FA enabled device. When they open up the notification, they will get an `"Allow" or "Deny"` option. Users will simply select `Allow` and it will log them in as usual.
 
 
 ## Two-Factor Authentication Administration 
@@ -37,9 +37,9 @@ Please note, the only way a user can request a bypass of Duo is if they are list
    
 ```
   ```eval_rst
-      .. title:: FastDesk | Changing FastDesk Password
+      .. title:: FastDesk | Two-Factor Authentication Administration
       .. meta::
-      :title: Guide on how to change your FastDesk Paswword | UKFast Documentation
-      :description: Guide for users on how to change their FastDesk Password
-      :keywords: FastDesk, Citrix, ukfast, VDI, Citrix Receiver, Windows, Workspace Application, Password, Change, Reset, Web, Portal
+      :title: Two-Factor Authentication | UKFast Documentation
+      :description: Guide on how FastDesk Two-Factor Administration works
+      :keywords: FastDesk, Citrix, ukfast, VDI, Citrix Receiver, Windows, Workspace Application, Password, Change, Reset, Web, Portal, 2FA, Two-Factor
       ```  
