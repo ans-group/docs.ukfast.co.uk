@@ -5,8 +5,8 @@ FastDesk desktop sessions are non-persistent which means that upon reboot, they 
 ```eval_rst
 .. note::
 
-   Your FastDesk profile comes equipped with a HomeDrive which is also persistant storage location. However this alone will not allow applications to persist. 
-   
+   Your FastDesk profile comes equipped with a HomeDrive which is also persistant storage location. However this alone will not allow applications to persist.
+
 ```
 
 ## Step 1 - Request UKFast to open Application Layer
@@ -23,10 +23,10 @@ To access the app layer, you will need to log into your database user, this is a
 ```eval_rst
 .. note::
 
-  If you do not have a database user, you will have been assigned the correct permissions to access the Application Layer from your regular FastDesk Desktop. Follow the same steps as below but through your personal desktop instead. 
-   
+  If you do not have a database user, you will have been assigned the correct permissions to access the Application Layer from your regular FastDesk Desktop. Follow the same steps as below but through your personal desktop instead.
+
 ```
-Once you are logged in, please open up the database user desktop as usual. 
+Once you are logged in, please open up the database user desktop as usual.
 
 Next, you will need to open up `"Remote Desktop Connection"`. Refer to **Image 2** below. To find this, you may need to search for it or find it within the list of applications.
 
@@ -50,16 +50,16 @@ Once the application layer has been launched, you will see the `Recycle Bin` as 
 .. warning::
 
    Please do not shut down or finalize the application layer. Doing this will make it inaccessible and will require us to open a new application layer for yourself.
-   
-```
-When installing an application, you may be required to enter a data path (some applications only). For this you can use your Database/App/File server. For more information on this, please contact our support team. 
 
-Once complete, please sign out of the application layer.  For more information on how to do this, please visit our guide on how to properly sign out of your desktop [link here](https://docs.ukfast.co.uk/desktop/fastdesk/signout.html) 
+```
+When installing an application, you may be required to enter a data path (some applications only). For this you can use your Database/App/File server. For more information on this, please contact our support team.
+
+Once complete, please sign out of the application layer.  For more information on how to do this, please visit our guide on how to properly sign out of your desktop [link here](https://docs.ukfast.co.uk/desktop/fastdesk/signout.html)
 
 Once signed out, please inform the FastDesk team that you are ready to push this layer out to users. If you are installing an application for the first time, please state which users you want to have access to the application.
 
 To allow for the updated application to come through on your desktop yourself, and other users looking for the updated application layer will need to sign out of your desktop, wait a few minutes and then sign back in. After doing so the updated or newly installed application will appear on your desktop.
- 
+
 ## Additional Content - Accessing without a Database user
 
 Following the instructions of Step 1, you should have the credentials for the app layer. To access the app layer, you will need to log as your FastDesk user.
@@ -72,7 +72,7 @@ Once this is open, you will need to enter the IP Address which the support engin
 
 ![Image 7: Enter IP address](files/RDP_Enter_IP.PNG "Image 7: Enter IP address")
 
-When you have entered this, you will then be prompted to enter a username and password. This is where you will need to enter the username and password which has been supplied in the support ticket. 
+When you have entered this, you will then be prompted to enter a username and password. This is where you will need to enter the username and password which has been supplied in the support ticket.
 
 Once you have entered the details, you will then be signed into your application layer. Please go back to Step 3 to finish the tutorial.
 
@@ -83,6 +83,6 @@ Once you have entered the details, you will then be signed into your application
       .. title:: Installing or Updating an Application | UKFast Documentation
       .. meta::
       :title: Guide on how to change your FastDesk Paswword | UKFast Documentation
-      :description: Guide for users on how to install or update and application 
+      :description: Guide for users on how to install or update and application
       :keywords: FastDesk, Citrix, VDI, Citrix Receiver, Windows, Workspace Application, Application, Layer, Database, Installation, Updating, LOB, Line of Business
-      ```  
+      ```

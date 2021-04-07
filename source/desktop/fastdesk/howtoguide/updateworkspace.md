@@ -6,22 +6,22 @@ The **Citrix Workspace** application acts as a receiver for your desktop and pro
 .. note::
 
    UKFast recommends that each FastDesk end-user updates their Citrix Workspace application as soon as an update is released.
-   
+
 ```
 
 ## Step 1 - Uninstalling the Citrix Workspace Application
 
 To update the **Citrix Workspace** Application on your local computer, you must first uninstall the older version of the **Citrix Workspace** Application.
 
-To do this, ensure you are **outside** of your FastDesk session. In the bottom left corner of your deskop, click the Windows icon and type `Control Panel` in the search bar. This will bring up the search bar and you will see `Control Panel` appear as a search result. Click this to open `Control Panel`.  Please refer to **image** below for a visual representation. 
+To do this, ensure you are **outside** of your FastDesk session. In the bottom left corner of your deskop, click the Windows icon and type `Control Panel` in the search bar. This will bring up the search bar and you will see `Control Panel` appear as a search result. Click this to open `Control Panel`.  Please refer to **image** below for a visual representation.
 
 ![Image 1: Opening Control Panel](files/clickherewindows2.png "Image 1: Opening Control Panel")
 
-Once Control Panel is open, you will see a list of options as displayed in **image** below. From here, please select `Uninstall a program`. 
+Once Control Panel is open, you will see a list of options as displayed in **image** below. From here, please select `Uninstall a program`.
 
 ![Image 2: Uninstall a Program](files/controlpanelimage2.png "Image 2: Uninstall a Program")
 
-This will bring you to the Uninstall or change a program page. From here, find and select `Citrix Workspace` or `Citrix Workspace Application`. Next, click `Uninstall` as highlighted in **image** below.     
+This will bring you to the Uninstall or change a program page. From here, find and select `Citrix Workspace` or `Citrix Workspace Application`. Next, click `Uninstall` as highlighted in **image** below.
 
 ![Image 3: Uninstall Citrix Workspace Application](files/programuninstall2.PNG "Image 3: Uninstall Citrix Workspace Application")
 
@@ -50,11 +50,11 @@ Once the **Citrix Workspace** application is installed, open your web browser an
 
 ![Image 7: FastDesk URL](files/Url.png "Image 7: FastDesk URL")
 
-Once here, you will see the FastDesk branding and a log in page with a man on a sofa (Refer to **image** below). 
+Once here, you will see the FastDesk branding and a log in page with a man on a sofa (Refer to **image** below).
 
 ![Image 8 FastDesk Landing Page](files/Welcome_screen.png "Image 8: FastDesk Landing Page")
 
-Go ahead and enter the username and password credentials that were provided to you by the FastDesk team. Upon entering your credentials, you will be asked to change your password (See **image** below). 
+Go ahead and enter the username and password credentials that were provided to you by the FastDesk team. Upon entering your credentials, you will be asked to change your password (See **image** below).
 
 ![Image 9 FastDesk Password Reset](files/resetpassword.png "Image 9: FastDesk Password Reset Page")
 
@@ -62,7 +62,7 @@ Go ahead and enter the username and password credentials that were provided to y
 .. note::
 
    Your new password must be a minimum of 8 characters in length and contain at least 3 of the following: uppercase letters, lowercase letters, numbers, symbols and special characters e.g !£. Your password can also not contain the name of your account. For example, if your account name is John Smith, a password with the word 'john' will not be accepted. Once your password has been reset, it should simply log you in. It may ask you to dectect receiver, if so, simply select the option that allows it to detect the receiver.
-   
+
 ```
 
 ## Workspace Application Log in setup (Optional)
@@ -80,14 +80,14 @@ Simply type the following URL `"https://www.fastdesk.co.uk"` and click Add. Alte
 .. warning::
 
    Whenever you log out of a desktop, do allow at least 3 minutes before attempting to log back in. This is to ensure the session correctly ends before another one is open. If you have not waited long enough, there is a danger of your applications not appearing when you log in. If you do find that this is the case, simply log out, wait at least 3 minutes and log back in again.
-   
+
 ```
 
 ```eval_rst
 .. note::
 
    This instruction guide should assist you in getting logged in for the first time. If you have any questions or still require assistance, please contact the FastDesk support team on 0800 923 0617
-   
+
 ```
   ```eval_rst
       .. title:: FastDesk | Updating Citrix Workspace
@@ -95,4 +95,4 @@ Simply type the following URL `"https://www.fastdesk.co.uk"` and click Add. Alte
       :title: Guide to updating the Citrix Workspace Application | UKFast Documentation
       :description: Guide for users on how to update their Citrix Workspace Application
       :keywords: FastDesk, Citrix, ukfast, VDI, Citrix Receiver, Windows, Workspace Application
-      ```  
+      ```

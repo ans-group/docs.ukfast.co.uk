@@ -8,7 +8,7 @@ To access your additional VM, you will need to log into your database user deskt
 
 ![Image 1: FastDesk Log in Page](files/Welcome_screen.png "Image 1: FastDesk Log in Page")
 
-Once you are logged in, please open up the database user desktop as usual. 
+Once you are logged in, please open up the database user desktop as usual.
 
 ## Step 2 - Log into the Database
 
@@ -16,7 +16,7 @@ Once the database user desktop has launched, navigate to the search bar and sear
 
 ![Image 2: RDP search](files/RDPsearch2.PNG "Image 2: RDP Search")
 
-Once open, enter the `Host name` or the `IP address` of the database you wish to connect into. 
+Once open, enter the `Host name` or the `IP address` of the database you wish to connect into.
 
 ![Image 3: Enter Hostname or IP address in RDP Window](files/RDPcredsin.PNG "Image 3: Enter Hostname or IP address in RDP Window")
 
@@ -24,7 +24,7 @@ Once open, enter the `Host name` or the `IP address` of the database you wish to
 .. note::
 
   The hostname will be your server ID (DAAS ID) followed by the type of server followed by the number. E.g. 1234-DB-001. This should be provided to you in a ticket. Alternatively, you can request the IP address of the VM and use that instead.
-   
+
 ```
 
 Once you have entered the `Host name` or the `IP address` of the database/additional VM you wish to connect into, you will be promted to enter the server name and password. The username and password needed will be provided to you through the ticket system via a ticket that will be raised in regards to your application install or update. Refer to **image 3** below.
@@ -40,6 +40,6 @@ Once entered, this will launch your additional VM in a new window.
    .. title:: Logging into your database | UKFast Documentation
    .. meta::
       :title: How to log into your Database | UKFast Documentation
-      :description: Guide for users on how to install or update and application 
+      :description: Guide for users on how to install or update and application
       :keywords: FastDesk, Citrix, VDI, Citrix Receiver, Windows, Workspace Application, Application Layer, Database, Additional, Updating, LOB, Line of Business
 

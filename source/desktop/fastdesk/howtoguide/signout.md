@@ -4,7 +4,7 @@
 .. warning::
 
    Please be aware, it takes a few minutes for FastDesk to completely sign out in the background. This extends to even when the window has been closed. Please leave at least 3 minutes after clicking the "Sign out" button before attempting to log back on.
-   
+
 ```
 
 ## What is signing out and when should I do it?
@@ -26,9 +26,9 @@ As illustrated in **image 2**, clicking on the icon (outlined in orange) will br
 
 ## What is disconnecting and when should I do it?
 
-Disconnecting your FastDesk Desktop is a convenient way of leaving your session on standby. Disconnecting leaves everything running on your desktop so you can connect in later (Perhaps from a different device) and still find your apps and files open as you left them. 
+Disconnecting your FastDesk Desktop is a convenient way of leaving your session on standby. Disconnecting leaves everything running on your desktop so you can connect in later (Perhaps from a different device) and still find your apps and files open as you left them.
 
-Whenever you disconnect, your session is still active in the background, and therefore, you will not benefit from some of the changes or policies that are applied to your FastDesk whilst your session is in its current state.  You can opt to disconnect your FastDesk session if you are leaving your desktop for a short period. For anything longer than a couple of hours, we would recommend completely signing out. 
+Whenever you disconnect, your session is still active in the background, and therefore, you will not benefit from some of the changes or policies that are applied to your FastDesk whilst your session is in its current state.  You can opt to disconnect your FastDesk session if you are leaving your desktop for a short period. For anything longer than a couple of hours, we would recommend completely signing out.
 
 ## How do I disconnect?
 
@@ -38,7 +38,7 @@ You can disconnect by simply closing your Citrix Workspace Window or web browser
 .. note::
 
    This instruction guide should assist you in learning how to effectively sign out of your FastDesk session. If you have any questions or still require assistance, please contact the FastDesk support team on 0800 923 0617.
-   
+
 ```
 ```eval_rst
   .. title:: FastDesk Guide: Signing out | UKFast Documentation
