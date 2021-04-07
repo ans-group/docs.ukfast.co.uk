@@ -28,7 +28,7 @@ To access the app layer, you will need to log into your database user, this is a
 ```
 Once you are logged in, please open up the database user desktop as usual. 
 
-Next, you will need to open up `“Remote Desktop Connection”`. Refer to **Image 2** below. To find this, you may need to search for it or find it within the list of applications.
+Next, you will need to open up `"Remote Desktop Connection"`. Refer to **Image 2** below. To find this, you may need to search for it or find it within the list of applications.
 
 ![Image 2: Remote Desktop Connection Search](files/RDPsearch2.PNG "Image 2: Remote Desktop Connection Search")
 
