@@ -64,7 +64,7 @@ To allow for the updated application to come through on your desktop yourself, a
 
 Following the instructions of Step 1, you should have the credentials for the app layer. To access the app layer, you will need to log as your FastDesk user.
 
-Within your FastDesk session, you will need to open up `“Remote Desktop Connection”`. Refer to **Image 6** below. To find this, you may need to search for it or find it within the list of applications.
+Within your FastDesk session, you will need to open up `"Remote Desktop Connection"`. Refer to **Image 6** below. To find this, you may need to search for it or find it within the list of applications.
 
 ![Image 6: Remote Desktop Connection Search](files/RDPsearch2.PNG "Image 6: Remote Desktop Connection Search")
 
