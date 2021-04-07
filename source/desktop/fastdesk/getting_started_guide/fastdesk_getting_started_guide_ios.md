@@ -1,7 +1,7 @@
 
  # Launch FastDesk on a iOS Device
  
-FastDesk®  is UKFast’s Desktop as a Service (DaaS) solution, which allows users and organisations to work more effectively and securely by giving access to files, applications, and desktop items remotely via an internet connection. All desktop settings and files are stored remotely in the cloud, providing cross-device compatibility and eliminating the risk of data loss by removing the risk of unauthorised access. This DaaS solution allows users to work in the same way they would with a traditional local desktop, but increase the flexibility with which they do so regardless of the endpoint device hardware, operating system or form factor.
+FastDesk®  is UKFast's Desktop as a Service (DaaS) solution, which allows users and organisations to work more effectively and securely by giving access to files, applications, and desktop items remotely via an internet connection. All desktop settings and files are stored remotely in the cloud, providing cross-device compatibility and eliminating the risk of data loss by removing the risk of unauthorised access. This DaaS solution allows users to work in the same way they would with a traditional local desktop, but increase the flexibility with which they do so regardless of the endpoint device hardware, operating system or form factor.
 
  ```eval_rst
 .. note::
@@ -19,7 +19,7 @@ This guide provides step by step instructions on installing and accessing FastDe
 
 ## Step 1 - Installing the Citrix Workspace Application
 
-On your iOS device, navigate to and open the App Store. Once complete, use the application search bar to look for “Citrix Workspace”. When found, please refer to **_image 1 below_** to ensure it is the correct application. Once confirmed, proceed to install the application.
+On your iOS device, navigate to and open the App Store. Once complete, use the application search bar to look for "Citrix Workspace". When found, please refer to **_image 1 below_** to ensure it is the correct application. Once confirmed, proceed to install the application.
 
 ![Image 1: iOS Store download page](files/Appstoreios.png "Image 1: iOS Store download page")
 
@@ -48,7 +48,7 @@ You will then be prompted to enter your username and password into the applicati
 ```eval_rst
 .. note::
 
-   Your new password must be a minimum of 8 characters in length and contain at least 3 of the following: uppercase letters, lowercase letters, numbers, symbols and special characters e.g "! " £". Your password can also not contain the name of your account. For example, if your account name is John Smith, a password with the word ‘john’ will not be accepted. Once your password has been reset, it should simply log you in. It may ask you to dectect receiver, if so, simply select the option that allows it to detect the receiver.
+   Your new password must be a minimum of 8 characters in length and contain at least 3 of the following: uppercase letters, lowercase letters, numbers, symbols and special characters e.g "! " £". Your password can also not contain the name of your account. For example, if your account name is John Smith, a password with the word 'john' will not be accepted. Once your password has been reset, it should simply log you in. It may ask you to dectect receiver, if so, simply select the option that allows it to detect the receiver.
    
 ```
 
