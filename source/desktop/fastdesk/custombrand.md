@@ -2,7 +2,7 @@
 
 **Custom-Branding** allows you to impress your clients with out-of-the-box, enterprise-level technology, branded from your own portfolio. Offer UKFast's Desktop-as-a-Service solution as your own, build your brand and expand your business offerings. **Custom-Branding** will enable you to customise your FastDesk environment without the cost of a Private FastDesk. You will be able to add your own branding to a custom domain.
 
-## What can be Custom-Branded? 
+## What can be Custom-Branded?
 
 ![Image 1 Log-in page Custom branding](files/4custombrand2.png "Image 1: Log-in page Custom Branding")
 
@@ -39,14 +39,13 @@ The image below identifies the three front-end aspects that can be custom brande
 .. note::
 
   If you have any questions or still require assistance, please contact the FastDesk support team on 0800 923 0617.
-   
+
 ```
- 
+
    ```eval_rst
       .. title:: FastDesk | Custom-Branding
       .. meta::
       :title: FastDesk Custom-Branding | UKFast Documentation
       :description: Guide for users on how to white label and customise their FastDesk experience
       :keywords: FastDesk, Citrix, ukfast, VDI, Whitelabelling, Workspace Application, custom, branding, custom-branding
-      ```  
-  
+      ```

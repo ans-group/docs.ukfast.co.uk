@@ -13,7 +13,7 @@ FastDesk®  is UKFast's Desktop as a Service (DaaS) solution, which allows users
 ## Pre-Installation information
 
 
-This guide provides step by step instructions on installing and accessing FastDesk on your Apple MacOS device. Day-to-day, there are two available methods to access FastDesk on your Apple MacOS device. These methods consist of the [web portal](https://www.fastdesk.co.uk/) and the Citrix Workspace Application. Whilst this guide will help you install the Citrix Workspace Application in order to access FastDesk for the first time, we highly recommend using the web portal to access FastDesk on a day-to-day basis. 
+This guide provides step by step instructions on installing and accessing FastDesk on your Apple MacOS device. Day-to-day, there are two available methods to access FastDesk on your Apple MacOS device. These methods consist of the [web portal](https://www.fastdesk.co.uk/) and the Citrix Workspace Application. Whilst this guide will help you install the Citrix Workspace Application in order to access FastDesk for the first time, we highly recommend using the web portal to access FastDesk on a day-to-day basis.
 
 Both the Citrix Workspace application and web portal gives you:
 
@@ -93,7 +93,7 @@ Although it is recommended you access FastDesk through the URL, you can also acc
 
 ![Image 12 Add an account](files/Enter_Store_URL.PNG "Image 12: Add an account")
 
-Simply type the following URL `"https://www.fastdesk.co.uk"` and click Add. You will then be prompted to enter your username and password into the application. See **image 13**. 
+Simply type the following URL `"https://www.fastdesk.co.uk"` and click Add. You will then be prompted to enter your username and password into the application. See **image 13**.
 
 ![Image 13 Enter credentials](files/workspace_log_in2.PNG "Image 13: Enter Credentials")
 
@@ -103,7 +103,7 @@ Go ahead and enter the username and password credentials that were provided to y
 .. warning::
 
    Whenever you log out of a desktop, do allow at least 3 minutes before attempting to log back in. This is to ensure the session correctly ends before another one is open. If you have not waited long enough, there is a danger of your applications not appearing when you log in. If you do find that this is the case, simply log out, wait at least 3 minutes and log back in again.
-   
+
 ```
 
 **_This instruction guide should assist you in getting logged in for the first time. If you have any questions or still require assistance, please contact the FastDesk support team on 0800 923 0617._**
