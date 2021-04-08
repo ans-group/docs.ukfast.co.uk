@@ -50,7 +50,7 @@ Follow the installation dialog box to finish with the installation of the worksp
 
 ## Step 2 - Logging into the FastDesk Web Portal
 
-Once the "Citrix Workspace" application is installed, open your web browser and navigate to the Following URL <https://www.fastdesk.co.uk>. On this step, it is vital that you enter the full URL including the `"www"`. Alternatively, you can click this [link here](https://www.fastdesk.co.uk) to take you to the website. In terms of browsers, the web portal is compatible with the latest versions of Google Chrome, Mozilla Firefox, Microsoft Edge and Internet Explorer.
+Once the "Citrix Workspace" application is installed, open your web browser and navigate to the Following URL `"https://www.fastdesk.co.uk>"`. On this step, it is vital that you enter the full URL including the `"www"`. Alternatively, you can click this [link here](https://www.fastdesk.co.uk) to take you to the website. In terms of browsers, the web portal is compatible with the latest versions of Google Chrome, Mozilla Firefox, Microsoft Edge and Internet Explorer.
 
 ![Image 5: FastDesk URL](files/Url.png "Image 5: FastDesk URL")
 
@@ -100,7 +100,7 @@ Although it is recommended you access FastDesk through the URL, you can also acc
 
 ![Image 13 Add an account](files/addaccountworkspace.png "Image 13: Add an account")
 
-Simply type the following URL `"https://www.fastdesk.co.uk"` and click Add. Alternatively, enter the URL that has been provided to you by the FastDesk team if you have a private fastdesk. You will then be prompted to enter your username and password into the application. See **image 14.**
+Simply type the following URL `"https://www.fastdesk.co.uk"` and click Add. Alternatively, enter the URL that has been provided to you by the FastDesk team if you have a private FastDesk. You will then be prompted to enter your username and password into the application. See **image 14.**
 
 ![Image 14 Enter credentials](files/entercredsapp.PNG "Image 14: Enter Credentials")
 
