@@ -145,7 +145,7 @@ failovers
 FastCGI
 FastNetMon
 FASTcloudbackup
-FASTdesk
+FastDesk
 FASTdrive
 FCrDNS
 filesystem
