@@ -24,6 +24,7 @@ authenticator
 autodiscover
 AutoSSL
 AWStats
+appdata
 backend
 backends
 backport
@@ -92,6 +93,7 @@ dataset
 datastore
 DBA
 DCV
+DCs
 DDoS
 DDoSX
 decrypt
@@ -133,6 +135,7 @@ El
 Elasticsearch
 ELQ
 Enom
+enroll
 EPEL
 EPP
 ERRP
@@ -262,6 +265,7 @@ MySQL
 mysqldump
 MySQLTuner
 MyUKFast
+natively
 nameserver
 nameservers
 namespace

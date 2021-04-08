@@ -16,7 +16,7 @@ UKFast have twice yearly a penetration test which is conducted by a CHECK & Cres
 
 Inside FastDesk, data is encrypted in transit. We use AES 256 encryption. We also use TLS 1.2 which protects from even more vulnerabilities from being exploited compared to the older ones. The data is not encrypted at rest. This allows to be able to see data. However, we encrypt the data on both the backup server and the host of the VM. The encryption is agent side meaning the backup data is encrypted before transmission and to store the encrypted data on the media. During restore operations, the client(hypervisor) decrypts the data. For more information on backups, please see the backups page.
 
-On a user level, group policies and NTFS in windows can be used to lockdown access to particular applications and files/folders. As default, passwords are set to expire every three months. The password policy is a minimum of 8 characters in length and contain at least 3 of the following: uppercase letters, lowercase letters, numbers, symbols and special characters e.g. ! " £. Two-Factor Authentification is also available as an optional extra.
+On a user level, group policies and NTFS in windows can be used to lock down access to particular applications and files/folders. As default, passwords are set to expire every three months. The password policy is a minimum of 8 characters in length and contain at least 3 of the following: uppercase letters, lowercase letters, numbers, symbols and special characters e.g. ! " £. Two-Factor Authentication is also available as an optional extra.
 
 ```eval_rst
 .. note::

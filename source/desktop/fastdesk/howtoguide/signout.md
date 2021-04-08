@@ -21,7 +21,7 @@ Once clicked, the start menu should open. You'll find three icons just above the
 
 ![Image 2: How to sign out](files/Signout1.PNG "Image 2: How to sign out")
 
-As illustrated in **image 2**, clicking on the icon (outlined in orange) will bring out a menu. Select the "Sign out" option (outlined in blue) and this will begin to fully sign out your FASTdesk desktop.
+As illustrated in **image 2**, clicking on the icon (outlined in orange) will bring out a menu. Select the "Sign out" option (outlined in blue) and this will begin to fully sign out your FastDesk desktop.
 
 
 ## What is disconnecting and when should I do it?
