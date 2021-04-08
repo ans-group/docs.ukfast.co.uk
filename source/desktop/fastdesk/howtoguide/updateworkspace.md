@@ -13,7 +13,7 @@ The **Citrix Workspace** application acts as a receiver for your desktop and pro
 
 To update the **Citrix Workspace** Application on your local computer, you must first uninstall the older version of the **Citrix Workspace** Application.
 
-To do this, ensure you are **outside** of your FastDesk session. In the bottom left corner of your deskop, click the Windows icon and type `Control Panel` in the search bar. This will bring up the search bar and you will see `Control Panel` appear as a search result. Click this to open `Control Panel`.  Please refer to **image** below for a visual representation.
+To do this, ensure you are **outside** of your FastDesk session. In the bottom left corner of your desktop, click the Windows icon and type `Control Panel` in the search bar. This will bring up the search bar and you will see `Control Panel` appear as a search result. Click this to open `Control Panel`.  Please refer to **image** below for a visual representation.
 
 ![Image 1: Opening Control Panel](files/clickherewindows2.png "Image 1: Opening Control Panel")
 

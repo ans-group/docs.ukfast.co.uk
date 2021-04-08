@@ -12,7 +12,7 @@ Please enter the email address of the account that cannot be accessed. From here
 
 ![Image 2 Forgot Password](files/forgotpassword.png "Image 2: Forgot Password")
 
-You will then be asked to verify that you are not a robot. Please proceed with the captcha form if prompted.
+You will then be asked to verify that you are not a robot. Please proceed with the Captcha form if prompted.
 
 ![Image 3 Human verification](files/capcha.png "Image 3: Human verification")
 

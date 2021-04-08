@@ -5,7 +5,7 @@ The **Citrix Workspace** application acts as a receiver for your desktop and pro
 ```eval_rst
 .. note::
 
-   UKFast recommends that each FASTdesk end-user updates their Citrix Workspace application as soon as an update is released.
+   UKFast recommends that each FastDesk end-user updates their Citrix Workspace application as soon as an update is released.
 
 ```
 
@@ -13,7 +13,7 @@ The **Citrix Workspace** application acts as a receiver for your desktop and pro
 
 To update the **Citrix Workspace** Application on your local computer, you must first uninstall the older version of the **Citrix Workspace** Application.
 
-To do this, ensure you are **outside** of your FASTdesk session. In the bottom left corner of your desktop, click the Windows icon and type `Control Panel` in the search bar. This will bring up the search bar and you will see `Control Panel` appear as a search result. Click this to open **Control Panel**.  Please refer to **image** below for a visual representation.
+To do this, ensure you are **outside** of your FastDesk session. In the bottom left corner of your desktop, click the Windows icon and type `Control Panel` in the search bar. This will bring up the search bar and you will see `Control Panel` appear as a search result. Click this to open **Control Panel**.  Please refer to **image** below for a visual representation.
 
 ![Image 1: Opening Control Panel](files/clickherewindows2.png "Image 1: Opening Control Panel")
 
@@ -64,7 +64,7 @@ Go ahead and enter the username and password credentials that were provided to y
 
 ## Workspace Application Log in setup (Optional)
 
-Although it is recommended you access FASTdesk through the URL, you can also access your desktop through the **Citrix Workspace** Launcher. If you prefer to login directly to the **Citrix Workspace** application, you can do so. Simply click your windows start menu button and search for `"Citrix Workspace Application"`. After launching the **Citrix Workspace** application, you will be asked to add an account. See **image** below.
+Although it is recommended you access FastDesk through the URL, you can also access your desktop through the **Citrix Workspace** Launcher. If you prefer to login directly to the **Citrix Workspace** application, you can do so. Simply click your windows start menu button and search for `"Citrix Workspace Application"`. After launching the **Citrix Workspace** application, you will be asked to add an account. See **image** below.
 
 ![Image 10 Add an account](files/addaccountworkspace.png "Image 10: Add an account")
 

@@ -1,6 +1,6 @@
 # How to change your FastDesk Password
 
-You have the ability to change your own FastDesk password if you are not already locked out of your account. If you are already locked out then please contact our support team either by emailling support@ukfast.co.uk or by calling 0800 923 0617. If you are not locked out, you can change your password either through the web portal or via the Citrix Workspace Application.
+You have the ability to change your own FastDesk password if you are not already locked out of your account. If you are already locked out then please contact our support team either by sending an email to support@ukfast.co.uk or by calling 0800 923 0617. If you are not locked out, you can change your password either through the web portal or via the Citrix Workspace Application.
 
 ```eval_rst
 .. note::

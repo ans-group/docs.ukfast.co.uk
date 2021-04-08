@@ -27,7 +27,7 @@ Once open, enter the `Host name` or the `IP address` of the database you wish to
 
 ```
 
-Once you have entered the `Host name` or the `IP address` of the database/additional VM you wish to connect into, you will be promted to enter the server name and password. The username and password needed will be provided to you through the ticket system via a ticket that will be raised in regards to your application install or update. Refer to **image 3** below.
+Once you have entered the `Host name` or the `IP address` of the database/additional VM you wish to connect into, you will be prompted to enter the server name and password. The username and password needed will be provided to you through the ticket system via a ticket that will be raised in regards to your application install or update. Refer to **image 3** below.
 
 ![Image 4: Enter Username and Password](files/applayercreds2.PNG "Image 4: Enter Username and Password")
 

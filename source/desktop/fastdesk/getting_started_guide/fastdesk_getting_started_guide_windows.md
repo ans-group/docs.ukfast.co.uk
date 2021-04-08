@@ -11,7 +11,7 @@ FastDesk®  is UKFast's Desktop as a Service (DaaS) solution, which allows users
 
 ## Pre-Installation information
 
-This guide provides step by step instructions on installing and accessing FastDesk on your Windows PC device. Day-to-day, there are two available methods to access FastDesk on your Windows PC. These methods consist of the [web portal](https://www.fastdesk.co.uk/) and the Citrix Workspace Application. Whilst this guide will help you install the Citrix Workspace Application in order to access FastDesk for the first time, we highly recommend using the web portal to access FASTdesk on a day-to-day basis. Both the Citrix Workspace application and web portal gives you:
+This guide provides step by step instructions on installing and accessing FastDesk on your Windows PC device. Day-to-day, there are two available methods to access FastDesk on your Windows PC. These methods consist of the [web portal](https://www.fastdesk.co.uk/) and the Citrix Workspace Application. Whilst this guide will help you install the Citrix Workspace Application in order to access FastDesk for the first time, we highly recommend using the web portal to access FastDesk on a day-to-day basis. Both the Citrix Workspace application and web portal gives you:
 
 - Instant access to your FastDesk environment in an easy-to-use, all-in-one interface.
 - Ability to use the FastDesk on domain and non-domain joined PCs and thin clients.
@@ -22,7 +22,7 @@ To install the Citrix Workspace Application on the local machine, there is a min
 - .NET Framework 4.6.2 or later.
 - Microsoft Visual C++ Redistributable 14.16.27012.6 or later (requires admin access).
 
-These pre-requisites are normally installed with Windows updates so if your version of Windows is up to date, you should not have to install these. Alternatively, the Citrix Workspace application also attempts to install them during intallation. **(See Step 1)**. If none of these steps result in the installation of the pre-requisites, please visit the Citrix help page at:
+These pre-requisites are normally installed with Windows updates so if your version of Windows is up to date, you should not have to install these. Alternatively, the Citrix Workspace application also attempts to install them during installation. **(See Step 1)**. If none of these steps result in the installation of the pre-requisites, please visit the Citrix help page at:
 `https://support.citrix.com/article/CTX250044?_ga=2.101236417.1997404425.1578506907-124105596.1573051453`. Alternatively, you can click this [link here](https://support.citrix.com/article/CTX250044?_ga=2.101236417.1997404425.1578506907-124105596.1573051453) to take you to the website.
 
 

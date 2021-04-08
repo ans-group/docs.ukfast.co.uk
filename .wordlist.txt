@@ -1,5 +1,6 @@
 AAAA
 actioned
+accreditations
 adapter
 ADFS
 ADMX
@@ -27,6 +28,7 @@ backend
 backends
 backport
 backporting
+bak
 balancer
 balancers
 Barbican
@@ -83,6 +85,7 @@ cURL
 customisable
 CVE
 CVStorage
+cyber
 Cyberduck
 DaaS
 dataset
@@ -146,7 +149,7 @@ FastCGI
 FastNetMon
 FASTcloudbackup
 FastDesk
-FASTdrive
+FastDrive
 FCrDNS
 filesystem
 filesystems
@@ -329,6 +332,7 @@ PV
 px
 PySpelling
 QJ
+quiesce
 RabbitMQ
 RADVD
 RCE
@@ -451,6 +455,7 @@ unpatched
 unroutable
 untick
 unticked
+unselected
 UPN
 upto
 URI
@@ -493,6 +498,7 @@ webmail
 webserver
 webservers
 WebSSL
+webpage
 whitespace
 WHM
 WHOIS
