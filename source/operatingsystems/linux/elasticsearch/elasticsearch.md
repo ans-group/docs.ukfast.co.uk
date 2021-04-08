@@ -102,6 +102,19 @@ network.host: 10.0.0.17
 
 The Elasticsearch service will need a restart after this change.
 
+### Memory Limit/Heap Size
+On recent versions of Elasticsearch, the default memory allocation is 32GB which can cause issues. We recommend that you set to 2GB in `/etc/elasticsearch/jvm.options`
+
+```bash
+vim /etc/elasticsearch/jvm.options
+
+ -Xms2g
+ -Xmx2g
+
+```
+
+The Elasticsearch service will need a restart after this change.
+
 ### Multiple Magento installations using one Elasticsearch instance
 When you have more than one site using a single instance of Elasticsearch, production and staging environments for example, you will need to bear this in mind when configuring Elasticsearch in the Magento admin. You need to specify a unique value in the Elasticsearch `Index Prefix` for each installation. This is set in the Magento admin panel when configuring Elasticsearch. If you do not set a unique value, you may face issues, such as the catalog search not working, or products not showing.
 
