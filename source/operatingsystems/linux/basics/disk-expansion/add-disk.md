@@ -5,15 +5,15 @@ When increasing the amount of disk space assigned to an eCloud virtual machine (
 ```eval_rst
 .. warning::
 
-   Please be aware that this article uses specific examples, such as :code:`sdc` or :code:`/dev/mapper/eCloud-root`.
+  Please be aware that this article uses specific examples, such as `sdc` or `/dev/mapper/eCloud-root`.
 
-   You may have different requirements or configurations in terms of device names and volumes.
+  You may have different requirements or configurations in terms of device names and volumes.
 
-   Performing this incorrectly may make irreversible changes to your filesystem or cause data loss, so please proceed with care and caution.
+  Performing this incorrectly may make irreversible changes to your filesystem or cause data loss, so please proceed with care and caution.
 
-   Once an extension has been started, it cannot be reverted.
+  Once an extension has been started, it cannot be reverted.
 
-   If you're unsure of anything or need some help, please contact UKFast Support, by raising a ticket in MyUKFast or calling 0800 230 0032.
+  If you're unsure of anything or need some help, please contact UKFast Support, by raising a ticket in MyUKFast or calling 0800 230 0032.
 
 ```
 
@@ -104,11 +104,11 @@ We need to grow the logical volume (LV) over the new free space - for most peopl
 
 ```eval_rst
 .. seealso::
-   If you want to create a new partition from this disk - to have :code:`/` and :code:`/home` on separate partitions, for example - you would need to create a new Logical Volume instead of extending the existing one.
+   If you want to create a new partition from this disk - to have `/` and `/home` on separate partitions, for example - you would need to create a new Logical Volume instead of extending the existing one.
 
    This should only be performed by advanced users when absolutely required.
 
-   For most use cases, a large :code:`/` partition will be all that is needed.
+   For most use cases, a large `/` partition will be all that is needed.
 ```
 
 In this instance, we'll be doing the most common extension of `/`. Note the path in this command is `/dev/mapper/VG/LV` from the table above:
