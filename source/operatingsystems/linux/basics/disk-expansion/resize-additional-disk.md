@@ -4,7 +4,7 @@ This guide covers the process for getting Linux to recognise that one of the non
 
 ```eval_rst
 .. note::
-   This article is for intermediate-level Linux administrators. If you're not comfortable with Linux and want to increase the amount of disk space assigned, the :doc:`/operatingsystems/linux/basics/disk-expansion/add-disk` method might be better for you.
+  This article is for intermediate-level Linux administrators. If you're not comfortable with Linux and want to increase the amount of disk space assigned, the :doc:`/operatingsystems/linux/basics/disk-expansion/add-disk` method might be better for you.
 ```
 
 Once you've resized one of the disks in MyUKFast on a virtual machine (VM), we can proceed to check which underlying volume this has altered. In most cases the mapping is similar to `Disk 1` in MyUKFast matching with `sda`, and so on.
@@ -93,11 +93,11 @@ First, you'll need to get LVM to recognise that the physical volume (PV) has cha
 
 ```eval_rst
 .. seealso::
-   If you want to create a new partition from this disk - to have :code:`/` and :code:`/home` on separate partitions, for example - you would need to create a new Logical Volume instead of extending the existing one.
+   If you want to create a new partition from this disk - to have `/` and `/home` on separate partitions, for example - you would need to create a new Logical Volume instead of extending the existing one.
 
    This should only be performed by advanced users when absolutely required.
 
-   For most use cases, a large :code:`/` partition will be all that is needed.
+   For most use cases, a large `/` partition will be all that is needed.
 
    As we've resized an underlying disk, you can only extend or create new volumes in the Volume Group with free space.
 ```
