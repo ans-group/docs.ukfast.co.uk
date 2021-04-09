@@ -24,12 +24,10 @@ authenticator
 autodiscover
 AutoSSL
 AWStats
-appdata
 backend
 backends
 backport
 backporting
-bak
 balancer
 balancers
 Barbican
@@ -135,7 +133,6 @@ El
 Elasticsearch
 ELQ
 Enom
-enroll
 EPEL
 EPP
 ERRP

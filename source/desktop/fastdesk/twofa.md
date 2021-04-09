@@ -13,7 +13,7 @@ UKFast are partnering with Cisco Duo Security for 2FA because it is easy to use 
 
 The registration process is through the web portal (only) and this can be implemented in batches as you wish as opposed to all or nothing.
 
-Once UKFast activate Duo for a user, upon their next log in, they will be asked by Duo to enroll.  To do this, they select if they are using a Mobile Phone or a Tablet. For mobiles, the user enters their phone number and confirm it is the correct phone number.
+Once UKFast activate Duo for a user, upon their next log in, they will be asked by Duo to enrol.  To do this, they select if they are using a Mobile Phone or a Tablet. For mobiles, the user enters their phone number and confirm it is the correct phone number.
 
 Next, they specify if you are using an iPhone or an Android or a Windows Phone. Next, Duo signposts the user to the correct app store where they can download Duo. Once installed, they confirm they have installed Duo on their device. Next, they scan the QR Code on the screen from using the Duo app on their device.
 
