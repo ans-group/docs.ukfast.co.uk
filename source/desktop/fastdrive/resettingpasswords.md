@@ -1,12 +1,12 @@
-# How to reset your FASTdrive Password
+# How to reset your FastDrive Password
 
-If you have forgotten your **FASTdrive** password, you have the ability to be reset your own password. To do this:
+If you have forgotten your **FastDrive** password, you have the ability to be reset your own password. To do this:
 
-Open your internet browser and browse to your company's **FASTdrive** domain. This should look like `companydomain.sharefile.eu`. If you are unsure of how to access your domain, please contact the primary contact on your account with UKFast.
+Open your internet browser and browse to your company's **FastDrive** domain. This should look like `companydomain.sharefile.eu`. If you are unsure of how to access your domain, please contact the primary contact on your account with UKFast.
 
-Once you have entered your **FASTdrive** domain, you will be prompted with a login page similar to the one shown in the image below
+Once you have entered your **FastDrive** domain, you will be prompted with a login page similar to the one shown in the image below
 
-![Image 1 FASTdrive Login Page](files/loginpage.png "Image 1: FASTdrive Login Page")
+![Image 1 FastDrive Login Page](files/loginpage.png "Image 1: FastDrive Login Page")
 
 Please enter the email address of the account that cannot be accessed. From here, click `Forgotten Password?`.
 
@@ -27,15 +27,15 @@ If the user does not receive an email, please contact UKFast support.
 ```eval_rst
 .. note::
 
-  This instruction guide should assist you in resetting your FASTdrive password. If you have any questions or still require assistance, please contact the FASTdesk support team on 0800 923 0617.
+  This instruction guide should assist you in resetting your FastDrive password. If you have any questions or still require assistance, please contact the FastDesk support team on 0800 923 0617.
 
 ```
 
-```eval_rst
-  .. title:: FASTdrive | How to Reset your FASTdrive Password
-  .. meta::
-     :title: How to Reset a FASTdrive Password | UKFast Documentation
-     :description: Guide for users on how to reset their FASTdrive Password
-     :keywords: fastdrive, password, reset, citrix, guide, tutorial, citrixfiles
-```
+  ```eval_rst
+      .. title:: FastDrive | How to Reset your FastDrive Password
+      .. meta::
+      :title: How to Reset a FastDrive Password | UKFast Documentation
+      :description: Guide for users on how to reset their FastDrive Password
+      :keywords: fastdrive, password, reset, citrix, guide, tutorial, citrixfiles
+      ```
 

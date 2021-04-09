@@ -1,5 +1,6 @@
 AAAA
 actioned
+accreditations
 adapter
 ADFS
 ADMX
@@ -83,12 +84,14 @@ cURL
 customisable
 CVE
 CVStorage
+cyber
 Cyberduck
 DaaS
 dataset
 datastore
 DBA
 DCV
+DCs
 DDoS
 DDoSX
 decrypt
@@ -145,8 +148,8 @@ failovers
 FastCGI
 FastNetMon
 FASTcloudbackup
-FASTdesk
-FASTdrive
+FastDesk
+FastDrive
 FCrDNS
 filesystem
 filesystems
@@ -259,6 +262,7 @@ MySQL
 mysqldump
 MySQLTuner
 MyUKFast
+natively
 nameserver
 nameservers
 namespace
@@ -329,6 +333,7 @@ PV
 px
 PySpelling
 QJ
+quiesce
 RabbitMQ
 RADVD
 RCE
@@ -451,6 +456,7 @@ unpatched
 unroutable
 untick
 unticked
+unselected
 UPN
 upto
 URI
@@ -493,6 +499,7 @@ webmail
 webserver
 webservers
 WebSSL
+webpage
 whitespace
 WHM
 WHOIS
