@@ -103,7 +103,7 @@ network.host: 10.0.0.17
 The Elasticsearch service will need a restart after this change.
 
 ### Memory Limit/Heap Size
-As of ElasticSearch version 7, the default memory allocation is no longer 2GB. The service will make assumptions based on total memory and can potentially set the heap size as high as 32GB, which can cause "Out of Memory" issues if left unchanged. We recommend that you set this to 2GB in `/etc/elasticsearch/jvm.options`
+As of Elasticsearch version 7, the default memory allocation is no longer 2GB. The service will make assumptions based on total memory and can potentially set the heap size as high as 32GB, which can cause "Out of Memory" issues if left unchanged. We recommend that you set this to 2GB in `/etc/elasticsearch/jvm.options`
 
 ```bash
 vim /etc/elasticsearch/jvm.options
