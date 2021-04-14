@@ -1,4 +1,4 @@
-# Creating An FTP Account In cPanel
+# How to Create an FTP Account In cPanel
 
 You might need to create FTP accounts in cPanel, so that you and/or your developers can upload and download content from your website.
 
@@ -25,9 +25,9 @@ The last box is for "Quota". This determines how much bandwidth the FTP account 
 Now you can click "Create".
 
 ```eval_rst
-  .. title:: Creating An FTP Account In cPanel
+  .. title:: cPanel | How to Create an FTP Account In cPanel
   .. meta::
-     :title: Creating An FTP Account In cPanel | UKFast Documentation
-     :description: Creating an FTP Account in cPanel
+     :title: How to Create an FTP Account In cPanel | UKFast Documentation
+     :description: How to Create an FTP Account In cPanel
      :keywords: ukfast, cpanel, whm, control, panel, ftp, cloud, server, guide, virtual
 ```
