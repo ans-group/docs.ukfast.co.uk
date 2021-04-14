@@ -1,4 +1,4 @@
-# Connecting to WHM and cPanel
+# How to Log in to WHM and cPanel
 
 There are 2 components to a cPanel server. There's WHM, which is the interface to manage reseller accounts. Then there is cPanel, which is the control panel for each account.
 
@@ -40,9 +40,9 @@ Account Information >> List Accounts >> "cPanel" Button
 ![cPanel Button](files/cpanel_connect_from_whm.JPG)
 
 ```eval_rst
-  .. title:: Connecting to WHM or Cpanel
+  .. title:: cPanel | How to Log in to WHM and cPanel
   .. meta::
-     :title: Connecting to WHM or Cpanel | UKFast Documentation
+     :title: How to Log in to WHM and cPanel | UKFast Documentation
      :description: Guide on connecting to a WHM/cPanel server
      :keywords: ukfast, cpanel, whm, control, panel, tutorial, cloud, server, guide, virtual
 ```
