@@ -1,4 +1,4 @@
-# Installing a PHP Extension via EasyApache4
+# How to Install a PHP Extension with EasyApache4
 
 Before you begin to install a PHP Extension on your WHM/cPanel server, you need to log in to your WHM Panel.
 Installing a PHP Extension requires you to be logged into the WHM panel as opposed to cPanel for a specific domain, this is because access to EasyApache4 is required.
@@ -47,8 +47,9 @@ Once the process has finished, click the "Done" button to close your EasyApache4
 Using this guide, you have successfully installed a PHP extension using EasyApache4!
 
 ```eval_rst
-  .. title:: Installing an Apache Module via EasyApache4
+  .. title:: cPanel | How to Install a PHP Extension with EasyApache4
   .. meta::
-     :title: Installing an Apache Module via EasyApache4
-     :description:  A guide to installing an Apache Module via EasyApache4
-     :keywords: ukfast, php, extension, easy, easyapache, easyapache4, cpanel, install
+     :title: How to Install a PHP Extension with EasyApache4 | UKFast Documentation
+     :description:  A guide for installing a PHP Extension with EasyApache4
+     :keywords: php, extension, cpanel, module, easy, easyapache, easyapache4, cpanel, install``
+```
