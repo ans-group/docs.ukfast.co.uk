@@ -1,4 +1,17 @@
-# How to Retrieve your Legacy Shared Hosting Data
+# How to View and Retrieve your Legacy Shared Hosting Data
+
+## Viewing Shared Hosting Domains
+
+To determine which of your domains use our legacy *web hosting* / *web forwarder* / *email services*, please use the following guide.
+
+- In your `MyUKFast` client portal, browse to **Domains** and choose **View Domains**
+- *Select* the **Advanced Filter** at the top of the Domain Search section
+
+![Domain Filters](files/domain_filters.PNG)
+
+- Here you can filter your domains by those associated with **Shared Hosting** services
+
+![Domain Filters](files/domain_filters_2.PNG)
 
 ## Legacy Web Hosting
 
@@ -81,9 +94,9 @@ To export your [Apple Mail](https://en.wikipedia.org/wiki/Apple_Mail) mailboxes,
 - For **multiple mailboxes**, use the Command Key (⌘) to select multiple items, and then *right click* and choose **Export Mailbox**.
 
 ```eval_rst
-  .. title:: How to Retrieve your Legacy Shared Hosting Data
+  .. title:: How to View and Retrieve your Legacy Shared Hosting Data
   .. meta::
-     :title: How to Retrieve your Legacy Shared Hosting Data | UKFast Documentation
-     :description: How to Retrieve your Legacy Shared Hosting Data
-     :keywords: shared, mail, ftp, legacy, database, howto, guide, tutorial
+     :title: How to View and Retrieve your Legacy Shared Hosting Data | UKFast Documentation
+     :description: How to View and Retrieve your Legacy Shared Hosting Data
+     :keywords: sharedhosting, shared, zippymail, mail, ftp, legacy, database, howto, guide, tutorial
 ```

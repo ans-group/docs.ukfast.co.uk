@@ -33,7 +33,7 @@ You then need to add the following section to your vhost configuration:
 ```eval_rst
 .. note::
   The recommended cipher suites and protocols are constantly changing. This site is useful to generate these.
-  - :doc:`Mozilla SSL Config Generator <https://mozilla.github.io/server-side-tls/ssl-config-generator/>
+  - :doc: Mozilla SSL Config Generator <https://mozilla.github.io/server-side-tls/ssl-config-generator/>
 ```
 
 If you have a signed (paid for) certificate, this needs to be added to the `/etc/pki/tls/certs/firstdomain.com.crt` file. Your certificate issuer should have provided you with a CA bundle. This needed to be added underneath your certificate in the same file.

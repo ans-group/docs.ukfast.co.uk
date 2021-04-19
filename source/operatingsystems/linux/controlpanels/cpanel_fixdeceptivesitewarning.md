@@ -1,4 +1,4 @@
-# Fixing Deceptive Site warning on WHM Login
+# How to Fix the Deceptive Site warning on WHM Login
 
 Google Chrome's latest update is showing a "Deceptive site ahead" Warning on WHM for server using their default `srvlist.ukfast.net` hostname:
 
@@ -52,9 +52,9 @@ You will also need to update the server's rDNS in MyUKFast to match the new host
 
 
 ```eval_rst
-  .. title:: Fixing Deceptive Site warning on WHM Login
+  .. title:: cPanel | How to Fix the Deceptive Site warning on WHM Login
   .. meta::
-     :title: Fixing Deceptive Site warning on WHM Login
+     :title: How to Fix the Deceptive Site warning on WHM Login | UKFast Documentation
      :description:  A guide on how to fix WHM showing a deceptive site warning
      :keywords: ukfast, cpanel, whm, control, panel, fix, warning, deceptive, login
 ```

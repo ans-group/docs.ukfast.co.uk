@@ -14,7 +14,7 @@ Unless you're using custom nameservers, you can use our SafeDNS nameservers here
 You're now ready to start using WHM/cPanel. [See our guide on adding accounts here!](/operatingsystems/linux/controlpanels/cpanel_add_account)
 
 ```eval_rst
-  .. title:: WHM Initial Setup
+  .. title:: cPanel | WHM Initial Setup
   .. meta::
      :title: WHM Initial Setup | UKFast Documentation
      :description: WHM initial setup page

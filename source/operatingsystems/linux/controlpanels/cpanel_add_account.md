@@ -1,4 +1,4 @@
-# Adding an Account in WHM
+# How to Add a New Account in WHM
 
 Once you've got your WHM server setup, you're going to want to add an Account. In WHM, an Account can be thought of as a catch-all term for a domain and associated resources. When you add an Account, this creates:
 
@@ -35,9 +35,9 @@ For the final section, "Mail Routing Settings", choose the automatic configurati
 You've now added an account to WHM. You can now login, [using the guide here!](/operatingsystems/linux/controlpanels/cpanel_connect.html#connecting-to-cpanel)
 
 ```eval_rst
-  .. title:: Creating a cPanel Account
+  .. title:: cPanel | How to Add a New Account in WHM
   .. meta::
-     :title: Creating a cPanel Account | UKFast Documentation
-     :description: Creating a cPanel Account in WHM
+     :title: How to Add a New Account in WHM | UKFast Documentation
+     :description: How to Add a New Account in WHM
      :keywords: ukfast, cpanel, whm, domain, account, control, panel, tutorial, cloud, server, guide, virtual
 ```
