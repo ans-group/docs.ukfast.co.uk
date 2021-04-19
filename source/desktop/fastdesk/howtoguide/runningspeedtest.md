@@ -3,7 +3,7 @@
 
 Poor internet connectivity may hinder the performance of your FastDesk desktop. At times, we may ask you to run an internet speed test to rule this out as a possible problem. This guide should walk you through running a speed test.
 
-To run an internet speed test, completely sign out of your FastDesk session. For more information on how to do this, please visit our guide on how to properly sign out of your desktop [link here](https://docs.ukfast.co.uk/desktop/fastdesk/signout.html)
+To run an internet speed test, completely sign out of your FastDesk session. For more information on how to do this, please visit our guide on how to properly sign out of your desktop [link here](https://docs.ukfast.co.uk/desktop/fastdesk/howtoguide/signout.html)
 
 Next, on your local device (the device you would use to access FastDesk) open up an internet browser window. E.g. Chrome, Microsoft Edge. Browse to https://www.speedtest.net/ or click this [link here](https://www.speedtest.net/)
 
