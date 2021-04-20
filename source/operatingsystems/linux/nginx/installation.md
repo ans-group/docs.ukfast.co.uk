@@ -15,7 +15,7 @@ enabled=1
 ```
 Manually replace `$releasever` with either 5 (for 5.x), 6 (for 6.x), or 7 (for 7.x)depending upon your OS version.
 
-Now we can install Nginx:
+Now we can install NGINX:
 
 ```console
 yum install nginx
