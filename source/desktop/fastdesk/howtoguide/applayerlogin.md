@@ -3,9 +3,9 @@
 FastDesk desktop sessions are non-persistent which means that upon reboot, they revert to the base image template. For example, Overnight. Therefore any applications that you wish to persist longer should be installed on an application layer. An application layer is a virtual machine (VM) that is designed for installing applications. Once applications have been installed, the app layer is powered off and pushed out to users. Applications are then stored as a layer that attaches to your profile upon login. The FastDesk team typically put all of your applications on one application. However, there are instances in which you may have multiple application layers.
 
 ```eval_rst
-.. note::
+.. warning::
 
-   Your FastDesk profile comes equipped with a HomeDrive which is also persistant storage location. However this alone will not allow applications to persist.
+  Your FastDesk profile comes equipped with a HomeDrive which is also a persistant storage location. However this alone will not allow applications to persist.
 
 ```
 
@@ -54,7 +54,7 @@ Once the application layer has been launched, you will see the `Recycle Bin` as 
 ```
 When installing an application, you may be required to enter a data path (some applications only). For this you can use your Database/App/File server. For more information on this, please contact our support team.
 
-Once complete, please sign out of the application layer.  For more information on how to do this, please visit our guide on how to properly sign out of your desktop [link here](https://docs.ukfast.co.uk/desktop/fastdesk/signout.html)
+Once complete, please sign out of the application layer.  For more information on how to do this, please visit our guide on how to properly sign out of your desktop [link here](https://docs.ukfast.co.uk/desktop/fastdesk/howtoguide/signout.html)
 
 Once signed out, please inform the FastDesk team that you are ready to push this layer out to users. If you are installing an application for the first time, please state which users you want to have access to the application.
 

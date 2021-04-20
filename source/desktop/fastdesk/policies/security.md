@@ -1,4 +1,4 @@
-# FastDesk Support Offering
+# FastDesk Security
 
 This page is intended to provide generic and basic details on the FastDesk Security policy.
 
@@ -10,7 +10,7 @@ The FastDesk solution is only ever housed in our government and ISO-certified, u
 
 We have a number of accreditations highlighting our commitment towards keeping data safe. These include but are not restricted to; ISO 27001:2013 Info Security Management, ISO 9001:2008 Quality, ISO 22301 and PCI DSS compliance. You can find the full list of certifications on the [UKFast website](https://www.ukfast.co.uk/certifications.html)
 
-UKFast have twice yearly a penetration test which is conducted by a CHECK & Crest accredited penetration testing company in line with it receiving the Cyber Essentials Plus Certification. For evidence of this please click [Here](https://www.ukfast.co.uk/certifications.html) Alternatively, please visit: https://pdf.ukfast.co.uk/pdf/fastdeskcecert.pdf
+UKFast have twice yearly a penetration test which is conducted by a CHECK & Crest accredited penetration testing company in line with it receiving the Cyber Essentials Plus Certification. For evidence of this please click [Here](https://www.ukfast.co.uk/certifications.html) Alternatively, please visit: `https://pdf.ukfast.co.uk/pdf/fastdeskcecert.pdf`
 
 ## Data Security
 
@@ -23,14 +23,10 @@ On a user level, group policies and NTFS in windows can be used to lock down acc
 
   If you require a deviation from any of polices above or if you need information in more detail, please contact the FastDesk support team on 0800 923 0617.
 
-```
-  ```eval_rst
-      .. title:: FastDesk Security | FastDesk Documentation
-      .. meta::
+ ```eval_rst
+    .. title:: FastDesk Security | FastDesk Documentation
+   .. meta::
       :title: FastDesk Security | UKFast Documentation
       :description: Information on the security of FastDesk
-      :keywords: FastDesk, Citrix, ukfast, VDI, Citrix Receiver, Windows, Workspace Application, File, Change, VM, Web, Portal, Telephone
-      ```
-
-
-
+      :keywords: FastDesk, Citrix, ukfast, VDI, Security, Windows, Workspace Application, Data Center, Accreditations, Physical, Data
+```

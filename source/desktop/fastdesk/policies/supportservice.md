@@ -4,11 +4,12 @@ This page is intended to provide details on the working processes and procedures
 
 ## Contact FastDesk Support
 
+
 ```eval_rst
 +--------------------------+-------------------------------------+-----------------------------------------------------------------------------------------+
 | Support Channel          | Contact Number                      | Description                                                                             |
 +==========================+=====================================+=========================================================================================+
-| FastDesk Support         | 0800 923 0617                       | Available 08:00-20:00 Monday – Friday. Excluding Bank Holidays                          |
+| FastDesk Support         | 0800 923 0617                       | Available 08:00-20:00, Monday – Friday. Excluding Bank Holidays                         |
 +--------------------------+-------------------------------------+-----------------------------------------------------------------------------------------+
 | UKFast Emergency support | 0800 230 0032                       | Available 24/7. Suggested use is for Priority 1 issues outside of core hours.           |
 +--------------------------+-------------------------------------+-----------------------------------------------------------------------------------------+
@@ -25,7 +26,12 @@ At any point whilst waiting, you may press 1 to submit a call back request. If t
 
 If we unable to connect your call after five minutes, you will hear an official announcement with the option to leave a message and request a call back. Again, if this option is selected, you will not lose your place in the queue.
 
-For any users that may require telephone support please ensure that they are listed as a contact within your MyUKFast account. They must have access to telephone support and have already set up their telephone security password as our engineers can only discuss your account with an authorised user.
+```eval_rst
+.. warning::
+
+  For any users that may require telephone support please ensure that they are listed as a contact within your MyUKFast account. They must have access to telephone support and have already set up their telephone security password as our engineers can only discuss your account with an authorised user.
+
+```
 
 ## Service Desk workflow
 
@@ -57,20 +63,17 @@ In the case of well-known applications used by the majority of our customers, UK
 
 If there is an issue in the installation of a third-party application, UKFast will troubleshoot the problem to the extent to which we can rule out the Citrix environment as the source of the problem. If this is the case, the engineers will recommend that you raise a support case with the application developers due to their expertise with the application. UKFast will be cooperative in helping the third-party software developers with what they need to troubleshoot. The Customer is responsible for accepting advice and any consequences for any unsupported applications.
 
-
-
 ```eval_rst
 .. note::
 
   If you require a deviation from any of polices above, please contact the FastDesk support team on 0800 923 0617.
 
 ```
-  ```eval_rst
-      .. title:: Support Offering  | FastDesk Documentation
-      .. meta::
+
+```eval_rst
+   .. title:: Support Offering  | FastDesk Documentation
+   .. meta::
       :title: FastDesk Support Offering | UKFast Documentation
       :description: Information on the Support offering of the FastDesk Product
-      :keywords: FastDesk, Citrix, ukfast, VDI, Citrix Receiver, Windows, Workspace Application, File, Change, VM, Web, Portal, Telephone
-      ```
-
-
+      :keywords: FastDesk, Citrix, ukfast, VDI, Support, Windows, Workspace Application, File, Change, VM, Web, Portal, Telephone
+```
