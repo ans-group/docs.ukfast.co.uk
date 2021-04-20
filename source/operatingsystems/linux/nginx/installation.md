@@ -4,7 +4,7 @@
 
 NGINX probably isn't installed on your server, so we'll first need to get it.
 
-We can install the latest version with `yum`. Firstly, create a file called /etc/yum.repos.d/nginx.repo and add in the below:
+We can install the latest version with `yum`. Firstly, create a file called `/etc/yum.repos.d/nginx.repo` and add in the below:
 
 ```console
 [nginx]
