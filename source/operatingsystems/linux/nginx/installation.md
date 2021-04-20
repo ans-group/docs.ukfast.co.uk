@@ -4,11 +4,18 @@
 
 NGINX probably isn't installed on your server, so we'll first need to get it.
 
-Install the latest version with `yum`, like so:
+We can install the latest version with `yum`. Firstly, create a file called `/etc/yum.repos.d/nginx.repo` and add in the below:
 
 ```console
-http://nginx.org/packages/centos/6/noarch/RPMS/nginx-release-centos-6-0.el6.ngx.noarch.rpm
+[nginx]
+name=nginx repo
+baseurl=https://nginx.org/packages/centos/$releasever/$basearch/
+gpgcheck=0
+enabled=1
 ```
+Manually replace `$releasever` with either 5 (for 5.x), 6 (for 6.x), or 7 (for 7.x)depending upon your OS version.
+
+Now we can install NGINX:
 
 ```console
 yum install nginx
@@ -18,6 +25,10 @@ Most people will want their web server to start on boot, use `chkconfig` to make
 
 ```console
 chkconfig nginx on
+```
+For CentOS 7, use the below:
+```console
+systemctl enable nginx.service
 ```
 
 ## Configure a site
