@@ -33,13 +33,13 @@ systemctl enable nginx.service
 ## Install NGINX on Ubuntu
 
 First we need to install the repo. Run the below commands in an SSH session:
-```
+```console
 echo "deb https://nginx.org/packages/ubuntu/ replaceme nginx" >> /etc/apt/sources.list
 echo "deb-src https://nginx.org/packages/ubuntu/ replaceme nginx" >> /etc/apt/sources.list
 sed -i "s#replaceme#$(cat /etc/os-release | grep UBUNTU_CODENAME | awk -F\= '{print $NF}')#g" /etc/apt/sources.list
 ```
 Then we can install:
-```
+```console
 apt-get update
 apt-get install nginx
 ```
