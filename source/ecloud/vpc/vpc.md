@@ -8,7 +8,7 @@ After you have given the VPC a name and selected a region, you can choose either
 
 # Default Network
 
-During the VPC setup if you selected 'create default networking' you will have 1 network already created within your VPC overview available for you. This will provide you a default network which you can attach instances to. A router will also be created. It is important to note once the VPC has been setup with a default network the network cannot be changed afterwards with more advanced settings. 
+During the VPC setup if you selected 'create default networking' you will have 1 network already created within your VPC overview available for you. This will provide you a default network which you can attach instances to. A router will also be created. It is important to note once the VPC has been setup with a default network the network cannot be changed afterwards with more advanced settings.
 
 Each VPC can have 1 router which the virtual networks will be assigned to. If the router is created automatically with a default network, the polices and throughput can still be modified.
 
