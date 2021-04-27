@@ -1,6 +1,6 @@
 # Installation/Configuration of NGINX
 
-## Install NGINX
+## Install NGINX on CentOS
 
 NGINX probably isn't installed on your server, so we'll first need to get it.
 
@@ -30,7 +30,19 @@ For CentOS 7, use the below:
 ```console
 systemctl enable nginx.service
 ```
+## Install NGINX on Ubuntu
 
+First we need to install the repo. Run the below commands in an SSH session:
+```console
+echo "deb https://nginx.org/packages/ubuntu/ replaceme nginx" >> /etc/apt/sources.list
+echo "deb-src https://nginx.org/packages/ubuntu/ replaceme nginx" >> /etc/apt/sources.list
+sed -i "s#replaceme#$(cat /etc/os-release | grep UBUNTU_CODENAME | awk -F\= '{print $NF}')#g" /etc/apt/sources.list
+```
+Then we can install:
+```console
+apt-get update
+apt-get install nginx
+```
 ## Configure a site
 
 Where in Apache you have `Virtual Hosts` and in IIS you have `bindings`, in NGINX you have `server blocks`. Each block typically configures a site.
