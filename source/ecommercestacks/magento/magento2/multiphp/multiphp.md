@@ -61,7 +61,7 @@ sed -ie "s/zlib.output_compression = Off/zlib.output_compression = On/" /etc/opt
 echo ";Default" | tee /etc/opt/remi/php7?/php-fpm.d/www.conf > /dev/null
 ```
 
-Replace version number, examlpe is 7.2
+Replace version number, example is 7.2
 ```bash
 echo "suhosin.session.cryptua = off" >> /etc/opt/remi/php72/php.ini
 ```
@@ -136,6 +136,8 @@ You can find out which PHP-FPM versions are running on the server with the follo
 ```bash
 ps awux | grep php | grep master
 ```
+
+Example:
 
 ```bash
 ~]# ps awux | grep php | grep master
