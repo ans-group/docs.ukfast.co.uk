@@ -173,7 +173,7 @@ php72 bin/magento cache:status
 
 ### Uninstalling  Additional PHP Version
 
-Example using php 7.3
+Example using PHP 7.3
 
 ```bash
 yum remove --disablerepo='*' --enablerepo=base,remi,epel,updates php73-*
