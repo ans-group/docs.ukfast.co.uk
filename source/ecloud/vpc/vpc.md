@@ -12,8 +12,6 @@ During the VPC setup if you selected 'create default networking' you will have 1
 
 Each VPC can have 1 router which the virtual networks will be assigned to. If the router is created automatically with a default network, the polices and throughput can still be modified.
 
-For more information on networking see the networks doc.
-
 # Deleting a VPC
 
 Before deleting the VPC you will have to delete the instances, network and router. Once these have been deleted you will then be able to delete the VPC.
