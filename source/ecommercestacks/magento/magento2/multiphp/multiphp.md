@@ -2,8 +2,6 @@
 
 ### Install Additional PHP Version
 
-*To remove an additional PHP installation simply replace `install` with `remove` in the commands below.*
-
 #### PHP 7.0
 
 ```bash
@@ -60,8 +58,12 @@ sed -ie "s/;always_populate_raw_post_data = On/always_populate_raw_post_data = -
 sed -ie "s/expose_php = On/expose_php = Off/" /etc/opt/remi/php7?/php.ini
 sed -ie "s/upload_max_filesize = 2M/upload_max_filesize = 8M/" /etc/opt/remi/php7?/php.ini
 sed -ie "s/zlib.output_compression = Off/zlib.output_compression = On/" /etc/opt/remi/php7?/php.ini
-echo "suhosin.session.cryptua = off" >> /etc/opt/remi/php7?/php.ini
-echo ";Default" > /etc/opt/remi/php7?/php-fpm.d/www.conf
+echo ";Default" | tee /etc/opt/remi/php7?/php-fpm.d/www.conf > /dev/null
+```
+
+Replace version number, example is 7.2
+```bash
+echo "suhosin.session.cryptua = off" >> /etc/opt/remi/php72/php.ini
 ```
 
 ### Configure PHP-FPM
@@ -132,6 +134,12 @@ nginx -t && nginx -s reload
 You can find out which PHP-FPM versions are running on the server with the following command:
 
 ```bash
+ps awux | grep php | grep master
+```
+
+Example:
+
+```bash
 ~]# ps awux | grep php | grep master
 root     16718  0.0  0.2 934204 22708 ?        Ss   Jul03   8:39 php-fpm: master process (/etc/php-fpm.conf)
 root     25623  0.1  0.3 519820 31280 ?        Ss   15:00   0:00 php-fpm: master process (/etc/opt/remi/php70/php-fpm.conf)
@@ -141,6 +149,12 @@ root     25761  4.0  0.2 535516 17496 ?        Ss   15:02   0:00 php-fpm: master
 ### Checking Installed PHP Versions
 
 You can review the installed PHP versions with the command:
+
+```bash
+rpm -qa | grep php-common
+```
+
+Example:
 
 ```bash
 ~]# rpm -qa | grep php-common
@@ -154,7 +168,15 @@ php73-php-common-7.3.9-1.el7.remi.x86_64
 Using 7.2 in this example:
 
 ```bash
--bash-4.2$ /opt/remi/php72/root/bin/php bin/magento cache:status
+php72 bin/magento cache:status
+```
+
+### Uninstalling  Additional PHP Version
+
+Example using PHP 7.3
+
+```bash
+yum remove --disablerepo='*' --enablerepo=base,remi,epel,updates php73-*
 ```
 
 ```eval_rst

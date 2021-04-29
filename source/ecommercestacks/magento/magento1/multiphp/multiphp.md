@@ -56,7 +56,7 @@ sed -ie "s/short_open_tag = Off/short_open_tag = On/" /etc/opt/remi/php??/php.in
 sed -ie "s/;always_populate_raw_post_data = On/always_populate_raw_post_data = -1/" /etc/opt/remi/php??/php.ini
 sed -ie "s/expose_php = On/expose_php = Off/" /etc/opt/remi/php??/php.ini
 sed -ie "s/upload_max_filesize = 2M/upload_max_filesize = 8M/" /etc/opt/remi/php??/php.ini
-echo ";Default" > /etc/opt/remi/php??/php-fpm.d/www.conf
+echo ";Default" | tee /etc/opt/remi/php7?/php-fpm.d/www.conf > /dev/null
 ```
 
 ### Configure PHP-FPM
