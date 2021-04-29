@@ -76,13 +76,17 @@ When you have entered this, you will then be prompted to enter a username and pa
 
 Once you have entered the details, you will then be signed into your application layer. Please go back to Step 3 to finish the tutorial.
 
-**_This instruction guide should assist you in installing or updating applications on an application layer. If you have any questions or still require assistance, please contact the FastDesk support team on 0800 923 0617_**.
+```eval_rst
+.. note::
+
+  This instruction guide should assist you in installing or updating applications on an application layer. If you have any questions or still require assistance, please contact the FastDesk support team on 0800 923 0617
 
 ```
-  ```eval_rst
-      .. title:: Installing or Updating an Application | UKFast Documentation
-      .. meta::
-      :title: Guide on how to change your FastDesk Paswword | UKFast Documentation
-      :description: Guide for users on how to install or update and application
+
+```eval_rst
+   .. title::  Installing or Updating an Application | UKFast Documentation
+   .. meta::
+      :title: Guide on how to install or update an Application | UKFast Documentation
+      :description: Guide for users on how to install or update an application
       :keywords: FastDesk, Citrix, VDI, Citrix Receiver, Windows, Workspace Application, Application, Layer, Database, Installation, Updating, LOB, Line of Business
-      ```
+```
