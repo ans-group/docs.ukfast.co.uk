@@ -71,9 +71,9 @@ If there is an issue in the installation of a third-party application, UKFast wi
 ```
 
 ```eval_rst
-   .. title:: Support Offering  | FastDesk Documentation
+   .. title:: FastDesk  | FastDesk Support Offering Documentation
    .. meta::
       :title: FastDesk Support Offering | UKFast Documentation
       :description: Information on the Support offering of the FastDesk Product
-      :keywords: FastDesk, Citrix, ukfast, VDI, Support, Windows, Workspace Application, File, Change, VM, Web, Portal, Telephone
+      :keywords: FastDesk, Citrix, ukfast, VDI, Support, Windows, Workspace Application, File, Change, VM, Web, Portal, Telephone, Incident, Management
 ```

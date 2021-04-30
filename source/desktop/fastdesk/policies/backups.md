@@ -40,7 +40,7 @@ SQL backups will be managed via a maintenance plan, but the onus is on the custo
 ```
 
 ```eval_rst
-   .. title:: Backup Policy | FastDesk Documentation
+   .. title:: Backup Policy | FastDesk: Backup Policies Documentation
    .. meta::
       :title: FastDesk Backup Policies | UKFast Documentation
       :description: Guide on the different FastDesk Backup Policies

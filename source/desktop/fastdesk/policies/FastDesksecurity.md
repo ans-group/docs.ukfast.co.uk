@@ -24,9 +24,9 @@ On a user level, group policies and NTFS in windows can be used to lock down acc
   If you require a deviation from any of polices above or if you need information in more detail, please contact the FastDesk support team on 0800 923 0617.
 
  ```eval_rst
-    .. title:: FastDesk Security | FastDesk Documentation
+    .. title:: FastDesk Security | FastDesk Security Documentation
    .. meta::
       :title: FastDesk Security | UKFast Documentation
-      :description: Information on the security of FastDesk
+      :description: Information surrounding the general security of FastDesk
       :keywords: FastDesk, Citrix, ukfast, VDI, Security, Windows, Workspace Application, Data Center, Accreditations, Physical, Data
 ```

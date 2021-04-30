@@ -87,9 +87,9 @@ Simply type the following URL `"https://www.fastdesk.co.uk"` and click Add. Alte
 ```
 
 ```eval_rst
-  .. title:: FastDesk | Updating Citrix Workspace
+  .. title:: FastDesk | FastDesk: Updating Citrix Workspace 
   .. meta::
      :title: Guide to updating the Citrix Workspace Application | UKFast Documentation
-     :description: Guide for users on how to update their Citrix Workspace Application
+     :description: Guide for users on how to update their Citrix Workspace Application for FastDesk access
      :keywords: FASTdesk, Citrix, ukfast, VDI, Citrix Receiver, Windows, Workspace Application
 ```

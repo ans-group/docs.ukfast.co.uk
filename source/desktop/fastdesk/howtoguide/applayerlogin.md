@@ -84,9 +84,9 @@ Once you have entered the details, you will then be signed into your application
 ```
 
 ```eval_rst
-   .. title::  Installing or Updating an Application | UKFast Documentation
+   .. title::  FastDesk | Installing or Updating an Application
    .. meta::
       :title: Guide on how to install or update an Application | UKFast Documentation
-      :description: Guide for users on how to install or update an application
+      :description: Guide for users on how to install or update an application inside the FastDesk Environment
       :keywords: FastDesk, Citrix, VDI, Citrix Receiver, Windows, Workspace Application, Application, Layer, Database, Installation, Updating, LOB, Line of Business
 ```
