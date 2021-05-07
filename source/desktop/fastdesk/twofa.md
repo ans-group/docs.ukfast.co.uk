@@ -37,9 +37,9 @@ Please note, the only way a user can request a bypass of Duo is if they are list
 
 ```
   ```eval_rst
-      .. title:: FastDesk | Two-Factor Authentication Administration
+      .. title:: FastDesk | FastDesk: Two-Factor Authentication Administration
       .. meta::
-      :title: Two-Factor Authentication | UKFast Documentation
-      :description: Guide on how FastDesk Two-Factor Administration works
+      :title: Two-Factor Authentication Administration | UKFast Documentation
+      :description: Information guide on the process of enabling Two-Factor Authentication on FastDesk
       :keywords: FastDesk, Citrix, ukfast, VDI, Citrix Receiver, Windows, Workspace Application, Password, Change, Reset, Web, Portal, 2FA, Two-Factor
       ```
