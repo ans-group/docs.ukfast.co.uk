@@ -7,7 +7,7 @@ You can install the Percona repository with the command:
 yum install https://repo.percona.com/yum/percona-release-latest.noarch.rpm
 ```
 
-## Install Percona
+## Install Percona on `CentOS`
 
 * **5.6**
 
@@ -19,6 +19,18 @@ yum install Percona-Server-server-56
 
 ```bash
 yum install Percona-Server-server-57
+```
+
+## Install Percona on `Ubuntu`
+```bash
+apt-get install gnupg2
+wget https://repo.percona.com/apt/percona-release_latest.$(lsb_release -sc)_all.deb
+dpkg -i percona-release_latest.$(lsb_release -sc)_all.deb
+apt-get update
+```
+* **8.0**
+ ```bash
+percona-release setup ps80
 ```
 
 ## Updating Percona
