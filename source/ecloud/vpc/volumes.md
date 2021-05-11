@@ -7,7 +7,7 @@ The volume will need an identifying name and a VPC to be assigned to. Select how
 Once the volume has been created you can select the volume tile > click the 'attach' button and select the instance to assign this to from the dropdown menu. The volume will then be available for the instance.
 
 ```eval_rst
-   .. title:: Virtual Private Cloud
+   .. title:: Volumes
    .. meta::
       :title: Virtual Private Cloud | UKFast Documentation
       :description: Creating a Volume
