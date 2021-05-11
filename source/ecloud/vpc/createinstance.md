@@ -37,3 +37,11 @@ Finally give the instance an identifying name and click the 'Create Instance' bu
 Marketplace:
 
 You can quickly launch an instance with ready to go apps on your Virtual Machine. 
+
+```eval_rst
+   .. title:: Create an Instance
+   .. meta::
+      :title: Virtual Private Cloud | UKFast Documentation
+      :description: Creating an Instance
+      :keywords: ecloud, ecloudv2, instance, VPC, Virtual Private Cloud
+```
