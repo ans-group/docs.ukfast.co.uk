@@ -37,9 +37,8 @@ Once entered, this will launch your additional VM in a new window.
 
 
  ```eval_rst
-   .. title:: Logging into your database | UKFast Documentation
+   .. title:: FastDesk | Logging into the FastDesk database
    .. meta::
-      :title: How to log into your Database | UKFast Documentation
-      :description: Guide for users on how to install or update and application
+      :title: How to log into the FastDesk Database | UKFast Documentation
+      :description: Guide for users on how to log into the FastDesk Database Server
       :keywords: FastDesk, Citrix, VDI, Citrix Receiver, Windows, Workspace Application, Application Layer, Database, Additional, Updating, LOB, Line of Business
-
