@@ -19,7 +19,7 @@ Compute - Your compute resources are how many vCPU's and how much RAM will be as
 
 Storage - When adding the storage for a VM this will create a volume. You can also create additional volumes later from the 'volumes' section on the menu and attach these to the instance. Select your required IOPS for the storage volume here as well.
 
-Networking - Which network this instance will be deployed to will depend upon which instance you selected. You will be able to select the VPC's network and router here. 
+Networking - Which network this instance will be deployed to will depend upon which instance you selected. You will be able to select the VPC's network and router here.
 
 A floating IP will assign the instance a dedicated external IP address. The virtual machine will still be able to communicate internally with other devices on the network if this doesn't require a dedicated IP address.
 
