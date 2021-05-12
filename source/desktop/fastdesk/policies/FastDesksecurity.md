@@ -22,6 +22,8 @@ On a user level, group policies and NTFS in windows can be used to lock down acc
 .. note::
 
   If you require a deviation from any of polices above or if you need information in more detail, please contact the FastDesk support team on 0800 923 0617.
+  
+```
 
  ```eval_rst
     .. title:: FastDesk Security | FastDesk Documentation
