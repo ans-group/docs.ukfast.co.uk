@@ -52,7 +52,7 @@ On the other hand, if you ONLY wish to place subdomains that are not used in MX 
 
 ## 2) Connect and verify your domain
 
-- Login to [MyUKFast](https://my.ukfast.co.uk) and head to `DDoSX<sup>®</sup> Protection` in the navigation menu.
+- Login to [MyUKFast](https://my.ukfast.co.uk) and head to `DDoSX® Protection` in the navigation menu.
 
 - Click the red `GET STARTED` button if this is your first domain, or click 'Add additional domain' in the top-right if this is an additional domain.
 
