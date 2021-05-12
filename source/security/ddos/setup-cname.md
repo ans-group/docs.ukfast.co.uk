@@ -52,19 +52,13 @@ On the other hand, if you *only* wish to place subdomains that are not used in `
 
 ## 2) Connect and verify your domain
 
-- Login to [MyUKFast](https://my.ukfast.co.uk) and head to `DDoSX® Protection` in the navigation menu.
-
-- Click the red `GET STARTED` button if this is your first domain, or click 'Add additional domain' in the top-right if this is an additional domain.
-
-- Enter the domain that you want to protect in the 'Domain Name' text box
-
-- As this is an external domain, a message in a blue box should appear informing you that this domain is not in SafeDNS and will need to be setup via DNS changed.
-
-- Select any additional features you'd like to add to this domain such as CDN or WAF by clicking the checkbox next to your chosen features.
-
-- Double-check your domain and selected additional features and then press 'Buy Now'
-
-- Click `Complete Transaction` on the next page to complete the payment process. (You won't have to complete this step if you have already ordered DDoSX<sup>®</sup>, WAF or CDN via your UKFast account manager -  Any existing credits will be consumed first).
+* Login to [MyUKFast](https://my.ukfast.co.uk) and head to `DDoSX® Protection` in the navigation menu.
+* Click the red `GET STARTED` button if this is your first domain, or click 'Add additional domain' in the top-right if this is an additional domain.
+* Enter the domain that you want to protect in the 'Domain Name' text box
+* As this is an external domain, a message in a blue box should appear informing you that this domain is not in SafeDNS and will need to be setup via DNS changed.
+* Select any additional features you'd like to add to this domain such as CDN or WAF by clicking the checkbox next to your chosen features.
+* Double-check your domain and selected additional features and then press 'Buy Now'
+* Click `Complete Transaction` on the next page to complete the payment process. (You won't have to complete this step if you have already ordered DDoSX<sup>®</sup>, WAF or CDN via your UKFast account manager -  Any existing credits will be consumed first).
 
 ![connect](files/ddosx_cname_connect.png)
 
@@ -126,9 +120,7 @@ Enter your SSL's Private Key, Certificate, any CA/Chain certificates (Optional) 
 
 ![addssl](files/ddosx_add_ssl.png)
 
-At this point, you should be able to go back into the `DNS Records` tab and select the SSL you want to apply via the `SSL` dropdown for each record. Only SSLs that are valid for the configured subdomain will show in the dropdown.
-
-For example, an SSL for only `www.ukfast.co.uk` and `ukfast.co.uk` will *not* show in the dropdown for `my.ukfast.co.uk`. Wildcard SSL certificates should show for all applicable subdomains.
+At this point, you should be able to go back into the `DNS Records` tab and select the SSL you want to apply via the `SSL` dropdown for each record. Only SSLs that are valid for the configured subdomain will show in the dropdown. For example, an SSL for only `www.ukfast.co.uk` and `ukfast.co.uk` will *not* show in the dropdown for `my.ukfast.co.uk`. Wildcard SSL certificates should show for all applicable subdomains.
 
 Finally, click `Apply Changes` and your domain will now be set up on the UKFast DDoSX<sup>®</sup> network, and configured appropriately. (You should allow up to 10 minutes for the changes to be fully applied)
 
