@@ -52,7 +52,7 @@ On the other hand, if you *only* wish to place subdomains that are not used in `
 
 ## 2) Connect and verify your domain
 
-* Login to MyUKFast and head to `DDoSX® Protection` in the navigation menu.
+* Login to [MyUKFast](https://my.ukfast.co.uk) and head to `DDoSX® Protection` in the navigation menu.
 * Click the red `GET STARTED` button if this is your first domain, or click 'Add additional domain' in the top-right if this is an additional domain.
 * Enter the domain that you want to protect in the 'Domain Name' text box
 * As this is an external domain, a message in a blue box should appear informing you that this domain is not in SafeDNS and will need to be setup via DNS changed.
