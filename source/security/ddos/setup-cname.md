@@ -181,7 +181,7 @@ If you're happy with how your site performs, you can make the required DNS chang
 
 The process to change DNS record varies between providers, so we do recommended following your DNS providers documentation should you need assistance creating ALIAS, ANAME or CNAME records.
 
-To create these records, you will need to log into to your current DNS provider and delete and existing A, AAAA, ALIAS ANAME or CNAME records for the domain or sub domain you want to route through DDoSX<sup>®</sup>. Feel free to take a backup of your DNS configuration of your prover supports it. A screenshot may also be useful.
+To create these records, you will need to log into to your current DNS provider and delete and existing A, AAAA, ALIAS ANAME or CNAME records for the domain or sub domain you want to route through DDoSX<sup>®</sup>. Feel free to take a backup of your DNS configuration if your provider supports it. A screenshot may also be useful.
 
 Next, if you're setting up your root domain, create either an ALIAS or ANAME record and set the hostname to your root domain. This is commonly done by setting the `hostname` to an `@` symbol or a blank value. Then set the value/target of this record to your unique DDoSX<sup>®</sup> DNS CNAME Record value. For example:
 
