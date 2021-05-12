@@ -48,7 +48,7 @@ FastHosts        ALIAS
 ==============   =================
 ```
 
-On the other hand, if you <u>only</u> wish to place subdomains that are not used in `MX` records etc behind DDoSX<sup>®</sup>, then using a normal `CNAME` should work fine.
+On the other hand, if you *only* wish to place subdomains that are not used in `MX` records etc behind DDoSX<sup>®</sup>, then using a normal `CNAME` should work fine.
 
 ## 2) Connect and verify your domain
 
@@ -126,8 +126,9 @@ Enter your SSL's Private Key, Certificate, any CA/Chain certificates (Optional) 
 
 ![addssl](files/ddosx_add_ssl.png)
 
-At this point, you should be able to go back into the `DNS Records` tab and select the SSL you want to apply via the `SSL` dropdown for each record. Only SSLs that are valid for the configured subdomain will show in the dropdown. For example, an SSL for only `www.ukfast.co.uk` and `ukfast.co.uk` will NOT show in the dropdown for `my.ukfast.co.uk`. Wildcard SSL certificates should show for all applicable subdomains.
+At this point, you should be able to go back into the `DNS Records` tab and select the SSL you want to apply via the `SSL` dropdown for each record. Only SSLs that are valid for the configured subdomain will show in the dropdown.
 
+For example, an SSL for only `www.ukfast.co.uk` and `ukfast.co.uk` will *not* show in the dropdown for `my.ukfast.co.uk`. Wildcard SSL certificates should show for all applicable subdomains.
 
 Finally, click `Apply Changes` and your domain will now be set up on the UKFast DDoSX<sup>®</sup> network, and configured appropriately. (You should allow up to 10 minutes for the changes to be fully applied)
 
@@ -156,7 +157,7 @@ Once you've connected your domain to the DDoSX<sup>®</sup> network and configur
 
 ![serverpreview](files/ddosx_cname_record.png)
 
-Locate the `hosts` file on your computer.  On Windows, you'll find it in **C:\Windows\System32\drivers\etc**.
+Locate the `hosts` file on your computer.  On Windows, you'll find it in `C:\Windows\System32\drivers\etc`.
 
 Open the `hosts` file using Notepad or another plain text editor (you may need administrator rights to make changes), and insert a line for each domain you wish to test, that includes the domain and the CNAME Value from DDoSX<sup>®</sup>; for example:
 
