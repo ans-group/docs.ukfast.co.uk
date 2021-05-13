@@ -11,3 +11,11 @@ Once the router is created you can choose the bandwidth required. Bandwidth can 
 To create the Network click 'Networks' from the menu which will take you to the create a network screen. Give your network an identifying name and slect your VPC. The router you just created for the selected VPC will now also be available. Finally enter a subnet range you wish to use and click 'Create Network'.
 
 Once the Network has been created this will be available to select when launching an instance. 
+
+```eval_rst
+   .. title:: Create a network
+   .. meta::
+      :title: Virtual Private Cloud | UKFast Documentation
+      :description: Creating a Network
+      :keywords: ecloud, ecloudv2, instance, VPC, Virtual Private Cloud, Network
+```
