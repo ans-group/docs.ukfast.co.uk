@@ -32,7 +32,7 @@ To enable DDoSX<sup>®</sup>, CDN and WAF on your domains, follow these steps:
 
 ## 1) Prepare your domain
 
-The first step to setting up DDoSX via an ALIAS, ANAME or CNAME is to prepare and check your domain before enabling DDoSX<sup>®</sup> protection.
+The first step to setting up DDoSX<sup>®</sup> via an ALIAS, ANAME or CNAME is to prepare and check your domain before enabling DDoSX<sup>®</sup> protection.
 
 Before setting up a external domain in DDoSX<sup>®</sup>, double-check that your current DNS provider allow the creation of either an ALIAS, ANAME or flattened CNAME record if you wish to put your root domain (like `ukfast.co.uk`) behind DDoSX<sup>®</sup>.
 
@@ -157,12 +157,12 @@ Once you've connected your domain to the DDoSX<sup>®</sup> network and configur
 
 Locate the `hosts` file on your computer.  On Windows, you'll find it in `C:\Windows\System32\drivers\etc`.
 
-Open the `hosts` file using Notepad or another plain text editor (you may need administrator rights to make changes), and insert a line for each domain you wish to test, that includes the domain and the CNAME Value from DDoSX<sup>®</sup>; for example:
+Open the `hosts` file using Notepad or another plain text editor (you may need administrator rights to make changes), and insert a line for each domain you wish to test, that includes the domain and the IP that your provided CNAME record resolves to. You can find this by going to [`mxtoolbox`](https://mxtoolbox.com/DNSLookup.aspx) or [`kloth.net`](http://www.kloth.net/services/dig.php) and entering your CNAME record and using the IP address from the A record below for example:
 
 ```console
-64cf9871a5b0ca045an96udtf9a63687c180f47df6.user.ddosx.com mydomain.co.uk
-64cf9871a5b0ca045an96udtf9a63687c180f47df6.user.ddosx.com www.mydomain.co.uk
-64cf9871a5b0ca045an96udtf9a63687c180f47df6.user.ddosx.com blog.mydomain.co.uk
+185.181.196.15 mydomain.co.uk
+185.181.196.15 www.mydomain.co.uk
+185.181.196.15 blog.mydomain.co.uk
 ```
 On Linux and macOS you can open and edit the `hosts` file in a terminal window using a command such as
 
