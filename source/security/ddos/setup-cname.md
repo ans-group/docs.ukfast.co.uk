@@ -157,7 +157,7 @@ Once you've connected your domain to the DDoSX<sup>®</sup> network and configur
 
 Locate the `hosts` file on your computer.  On Windows, you'll find it in `C:\Windows\System32\drivers\etc`.
 
-Open the `hosts` file using Notepad or another plain text editor (you may need administrator rights to make changes), and insert a line for each domain you wish to test, that includes the domain and the IP that your provided CNAME record resolves to. You can find this by going to [mxtoolbox](https://mxtoolbox.com/DNSLookup.aspx) or [kloth.net](http://www.kloth.net/services/dig.php) and entering your CNAME record and using the IP address from the A record below for example:
+Open the `hosts` file using Notepad or another plain text editor (you may need administrator rights to make changes), and insert a line for each domain you wish to test, that includes the domain and the IP that your provided CNAME record resolves to. You can find this by going to [`mxtoolbox`](https://mxtoolbox.com/DNSLookup.aspx) or [`kloth.net`](http://www.kloth.net/services/dig.php) and entering your CNAME record and using the IP address from the A record below for example:
 
 ```console
 185.181.196.15 mydomain.co.uk
