@@ -248,6 +248,7 @@ minify
 minifying
 misconfiguration
 mitigations
+Moodle
 mountpoints
 MSSQL
 MTA
