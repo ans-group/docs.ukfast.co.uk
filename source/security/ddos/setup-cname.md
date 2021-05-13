@@ -34,7 +34,7 @@ To enable DDoSX<sup>®</sup>, CDN and WAF on your domains, follow these steps:
 
 The first step to setting up DDoSX via an ALIAS, ANAME or CNAME is to prepare and check your domain before enabling DDoSX<sup>®</sup> protection.
 
-Before setting up a external domain in DDoSX<sup>®</sup>, double-check that your current DNS provider allow the creation of either an ALIAS, ANAME or flattened CNAME record if you wish to put your root domain (like ukfast.co.uk) behind DDoSX<sup>®</sup>.
+Before setting up a external domain in DDoSX<sup>®</sup>, double-check that your current DNS provider allow the creation of either an ALIAS, ANAME or flattened CNAME record if you wish to put your root domain (like `ukfast.co.uk`) behind DDoSX<sup>®</sup>.
 
 Some DNS providers that allow these records include:
 
@@ -48,11 +48,11 @@ FastHosts        ALIAS
 ==============   =================
 ```
 
-On the other hand, if you ONLY wish to place subdomains that are not used in MX records etc behind DDoSX<sup>®</sup>, then using a normal CNAME should work fine.
+On the other hand, if you *only* wish to place subdomains that are not used in MX records etc behind DDoSX<sup>®</sup>, then using a normal CNAME should work fine.
 
 ## 2) Connect and verify your domain
 
-- Login to [MyUKFast](https://my.ukfast.co.uk) and head to `DDoSX<sup>®</sup> Protection` in the navigation menu.
+- Login to [MyUKFast](https://my.ukfast.co.uk) and head to `DDoSX® Protection` in the navigation menu.
 
 - Click the red `GET STARTED` button if this is your first domain, or click 'Add additional domain' in the top-right if this is an additional domain.
 
@@ -95,7 +95,7 @@ TXT           @          ddosx-site-verification=245b62a2878fc30hd6altya37f00fe2
 - Select the `File Upload` verification method
 - Press the `Download File` button to download the verification file to your local machine
 - Using FTP or a web GUI for example, upload the downloaded verification file to the root of your website. This is commonly inside a `www` or `public_html` folder.
-- Once uploaded, the file should be accessible by navigating to your domain followed by the name of the file. For example https://non-safedns-domain.co.uk/e9e0a272db6b707e81a88ac4baed776367d15dbd.txt
+- Once uploaded, the file should be accessible by navigating to your domain followed by the name of the file. For example `https://non-safedns-domain.co.uk/e9e0a272db6b707e81a88ac4baed776367d15dbd.txt`
 - Once the file has been uploaded and working, press the `Verify` button on the domain verification page. If DDoSX<sup>®</sup> finds the correct verification file, your domain will be verified. Be sure to leave this file on your server as DDoSX<sup>®</sup> may periodically check that you still have control over domain.
 
 ## 3) Configure Domain
@@ -126,8 +126,7 @@ Enter your SSL's Private Key, Certificate, any CA/Chain certificates (Optional) 
 
 ![addssl](files/ddosx_add_ssl.png)
 
-At this point, you should be able to go back into the `DNS Records` tab and select the SSL you want to apply via the `SSL` dropdown for each record. Only SSLs that are valid for the configured subdomain will show in the dropdown. For example, an SSL for only `www.ukfast.co.uk` and `ukfast.co.uk` will NOT show in the dropdown for `my.ukfast.co.uk`. Wildcard SSL certificates should show for all applicable subdomains.
-
+At this point, you should be able to go back into the `DNS Records` tab and select the SSL you want to apply via the `SSL` dropdown for each record. Only SSLs that are valid for the configured subdomain will show in the dropdown. For example, an SSL for only `www.ukfast.co.uk` and `ukfast.co.uk` will *not* show in the dropdown for `my.ukfast.co.uk`. Wildcard SSL certificates should show for all applicable subdomains.
 
 Finally, click `Apply Changes` and your domain will now be set up on the UKFast DDoSX<sup>®</sup> network, and configured appropriately. (You should allow up to 10 minutes for the changes to be fully applied)
 
@@ -156,13 +155,13 @@ Once you've connected your domain to the DDoSX<sup>®</sup> network and configur
 
 ![serverpreview](files/ddosx_cname_record.png)
 
-Locate the `hosts` file on your computer.  On Windows, you'll find it in **C:\Windows\System32\drivers\etc**.
+Locate the `hosts` file on your computer.  On Windows, you'll find it in `C:\Windows\System32\drivers\etc`.
 
 Open the `hosts` file using Notepad or another plain text editor (you may need administrator rights to make changes), and insert a line for each domain you wish to test, that includes the domain and the CNAME Value from DDoSX<sup>®</sup>; for example:
 
 ```console
 64cf9871a5b0ca045an96udtf9a63687c180f47df6.user.ddosx.com mydomain.co.uk
-64cf9871a5b0ca045an96udtf9a63687c180f47df6.user.ddosx.com  www.mydomain.co.uk
+64cf9871a5b0ca045an96udtf9a63687c180f47df6.user.ddosx.com www.mydomain.co.uk
 64cf9871a5b0ca045an96udtf9a63687c180f47df6.user.ddosx.com blog.mydomain.co.uk
 ```
 On Linux and macOS you can open and edit the `hosts` file in a terminal window using a command such as
@@ -181,7 +180,7 @@ If you're happy with how your site performs, you can make the required DNS chang
 
 The process to change DNS record varies between providers, so we do recommended following your DNS providers documentation should you need assistance creating ALIAS, ANAME or CNAME records.
 
-To create these records, you will need to log into to your current DNS provider and delete and existing A, AAAA, ALIAS ANAME or CNAME records for the domain or sub domain you want to route through DDoSX<sup>®</sup>. Feel free to take a backup of your DNS configuration of your prover supports it. A screenshot may also be useful.
+To create these records, you will need to log into to your current DNS provider and delete and existing A, AAAA, ALIAS ANAME or CNAME records for the domain or sub domain you want to route through DDoSX<sup>®</sup>. Feel free to take a backup of your DNS configuration if your provider supports it. A screenshot may also be useful.
 
 Next, if you're setting up your root domain, create either an ALIAS or ANAME record and set the hostname to your root domain. This is commonly done by setting the `hostname` to an `@` symbol or a blank value. Then set the value/target of this record to your unique DDoSX<sup>®</sup> DNS CNAME Record value. For example:
 
@@ -216,7 +215,7 @@ You may wish to add further configuration on your origin server to work more clo
    Make sure all websites hosted on your origin server are behind DDoSX before applying these firewall rules. As doing so cut off access to any websites not protected by DDoSX<.
 ```
 
-Now that DDoSX<sup>®</sup> is configured for your domain, and requests going to your domain and via common name servers will be routed through DDoSX<sup>®</sup>, however, attackers commonly try to avoid proxies like DDoSX<sup>®</sup> by using custom DNS servers to make the domain resolve to your origin server's IP instead of DDoSX<sup>®</sup>, bypassing the protection it offers. Furthermore, an attacker may still be able to attack your origin server by sending requests to the IP directly, (http://185.234.39.17/ for example).
+Now that DDoSX<sup>®</sup> is configured for your domain, and requests going to your domain and via common name servers will be routed through DDoSX<sup>®</sup>, however, attackers commonly try to avoid proxies like DDoSX<sup>®</sup> by using custom DNS servers to make the domain resolve to your origin server's IP instead of DDoSX<sup>®</sup>, bypassing the protection it offers. Furthermore, an attacker may still be able to attack your origin server by sending requests to the IP directly, (`http://185.234.39.17/` for example).
 
 To prevent both these evasion methods, you can add firewall rules to only allow traffic on port TCP 443 and TCP 80 from our DDoSX<sup>®</sup> IP ranges mentioned below.
 
@@ -258,7 +257,7 @@ Here's how to do this for NGINX and Apache:
 
 **NGINX**
 
-For NGINX, insert this code into one of the `http` or `server` blocks in your configuration. This requires the [realip](https://nginx.org/en/docs/http/ngx_http_realip_module.html) module be compiled into NGINX. You can confirm if this is already there with `nginx -V 2>&1 | grep -o realip`. If this outputs `realip`, you're good to go.
+For NGINX, insert this code into one of the `http` or `server` blocks in your configuration. This requires the [`realip`](https://nginx.org/en/docs/http/ngx_http_realip_module.html) module be compiled into NGINX. You can confirm if this is already there with `nginx -V 2>&1 | grep -o realip`. If this outputs `realip`, you're good to go.
 
 ```nginx
 set_real_ip_from 185.156.64.0/24;
@@ -280,7 +279,7 @@ Once you have added these into your configuration, test and reload your NGINX co
 
 **Apache**
 
-For Apache 2.4 and above, you will need to use the [mod_remoteip](https://httpd.apache.org/docs/current/mod/mod_remoteip.html) module. This should be compiled into your Apache installation, but you can confirm this by running `httpd -M 2>&1 | grep remoteip` (use `apache2ctl` instead of `httpd` on Debian/Ubuntu), which should output `remoteip_module (shared)`. As long as you have that, you're good to go. Add the following into your `<VirtualHost>` declaration, and then alter any `CustomLog` directives to use the newly defined `LogFormat`.
+For Apache 2.4 and above, you will need to use the [`mod_remoteip`](https://httpd.apache.org/docs/current/mod/mod_remoteip.html) module. This should be compiled into your Apache installation, but you can confirm this by running `httpd -M 2>&1 | grep remoteip` (use `apache2ctl` instead of `httpd` on Debian/Ubuntu), which should output `remoteip_module (shared)`. As long as you have that, you're good to go. Add the following into your `<VirtualHost>` declaration, and then alter any `CustomLog` directives to use the newly defined `LogFormat`.
 
 ```ApacheConf
 <IfModule remoteip_module>
@@ -307,7 +306,7 @@ CustomLog /var/log/httpd/acmecorp.com/access.log ddosx
 
 Test and then reload your Apache configuration (e.g. `httpd -t && systemctl reload httpd`) to make the changes live.
 
-For Apache 2.2 you will need to use [mod_rpaf](https://github.com/gnif/mod_rpaf), the use of which is beyond the scope of this document.
+For Apache 2.2 you will need to use [`mod_rpaf`](https://github.com/gnif/mod_rpaf), the use of which is beyond the scope of this document.
 
 **HAProxy**
 
@@ -316,7 +315,7 @@ If you have HAProxy in front of your webservers, you'll probably want to set the
 `forwardfor` option to prevent HAProxy setting the header automatically and instead
 set the header manually in each backend.
 
-First, comment out your forwardfor option, potentially in the `defaults` section, e.g.
+First, comment out your `forwardfor` option, potentially in the `defaults` section, e.g.
 
 ```console
 defaults
