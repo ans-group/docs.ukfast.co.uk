@@ -1,6 +1,6 @@
 # How to launch an instance
 
-To launch an instance you have two options. Manually configuring an instance which includes configuring your own image, compute, storage and networking or launching a pre-configured instance using the marketplace with options such as docker, moodle and wordpress to quickly launch these applications.
+To launch an instance you have two options. Manually configuring an instance which includes configuring your own image, compute, storage and networking or launching a pre-configured instance using the marketplace with options such as Docker, Moodle and Wordpress to quickly launch these applications.
 
 # Launch instance manually
 
