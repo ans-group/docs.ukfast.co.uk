@@ -9,8 +9,7 @@ eCloud VPC is a VMware-based cloud platform from UKFast.  The information in thi
 
    vpc
 
-.. title:: eCloud VPC
-
 .. meta::
+   :title: eCloud VPC | UKFast Documentation
    :description: Help with your eCloud VPC
    :keywords: ukfast, cloud, ecloud, vpc, hosting, infrastructure, vmware
