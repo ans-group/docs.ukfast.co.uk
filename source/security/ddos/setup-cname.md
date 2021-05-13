@@ -48,17 +48,23 @@ FastHosts        ALIAS
 ==============   =================
 ```
 
-On the other hand, if you *only* wish to place subdomains that are not used in `MX` records etc behind DDoSX<sup>®</sup>, then using a normal `CNAME` should work fine.
+On the other hand, if you *only* wish to place subdomains that are not used in MX records etc behind DDoSX<sup>®</sup>, then using a normal CNAME should work fine.
 
 ## 2) Connect and verify your domain
 
-* Login to [MyUKFast](https://my.ukfast.co.uk) and head to `DDoSX® Protection` in the navigation menu.
-* Click the red `GET STARTED` button if this is your first domain, or click 'Add additional domain' in the top-right if this is an additional domain.
-* Enter the domain that you want to protect in the 'Domain Name' text box
-* As this is an external domain, a message in a blue box should appear informing you that this domain is not in SafeDNS and will need to be setup via DNS changed.
-* Select any additional features you'd like to add to this domain such as CDN or WAF by clicking the checkbox next to your chosen features.
-* Double-check your domain and selected additional features and then press 'Buy Now'
-* Click `Complete Transaction` on the next page to complete the payment process. (You won't have to complete this step if you have already ordered DDoSX<sup>®</sup>, WAF or CDN via your UKFast account manager -  Any existing credits will be consumed first).
+- Login to [MyUKFast](https://my.ukfast.co.uk) and head to `DDoSX® Protection` in the navigation menu.
+
+- Click the red `GET STARTED` button if this is your first domain, or click 'Add additional domain' in the top-right if this is an additional domain.
+
+- Enter the domain that you want to protect in the 'Domain Name' text box
+
+- As this is an external domain, a message in a blue box should appear informing you that this domain is not in SafeDNS and will need to be setup via DNS changed.
+
+- Select any additional features you'd like to add to this domain such as CDN or WAF by clicking the checkbox next to your chosen features.
+
+- Double-check your domain and selected additional features and then press 'Buy Now'
+
+- Click `Complete Transaction` on the next page to complete the payment process. (You won't have to complete this step if you have already ordered DDoSX<sup>®</sup>, WAF or CDN via your UKFast account manager -  Any existing credits will be consumed first).
 
 ![connect](files/ddosx_cname_connect.png)
 
