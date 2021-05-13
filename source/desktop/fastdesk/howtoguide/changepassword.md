@@ -42,13 +42,14 @@ Once your password has been changed, it should simply log you in. It may ask you
 ```eval_rst
 .. note::
 
-   This instruction guide should assist you in changing your FastDesk password. If you have any questions or still require assistance, please contact the FastDesk support team on 0800 923 0617.
+  This instruction guide should assist you in changing your FastDesk password. If you have any questions or still require assistance, please contact the FastDesk support team on 0800 923 0617.
 
 ```
-  ```eval_rst
-      .. title:: FastDesk | Changing FastDesk Password
-      .. meta::
+
+```eval_rst
+   .. title:: FastDesk | Changing FastDesk Password
+   .. meta::
       :title: Guide on how to change your FastDesk Paswword | UKFast Documentation
       :description: Guide for users on how to change their FastDesk Password
       :keywords: FastDesk, Citrix, ukfast, VDI, Citrix Receiver, Windows, Workspace Application, Password, Change, Reset, Web, Portal
-      ```
+```
