@@ -36,7 +36,7 @@ Selecting a floating IP will assign the instance a dedicated external IP address
 
 ### Backups
 
-Decide if you want the instance to be backed up. 
+Decide if you want the instance to be backed up.
 
 ```eval_rst
 .. note::
