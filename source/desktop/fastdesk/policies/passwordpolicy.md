@@ -13,7 +13,7 @@ Users are still able to change their own passwords once logged in as normal. For
 
 UKFast strongly advises that users have passwords that are 8-12 characters long and contains at least 3 of the following: uppercase letters, lowercase letters, numbers, symbols and special characters e.g `“!” £”`.
 
-Please note that passwords are set to expire after 42 days by default. It is acceptable for passwords to never expire if they meet the requirements set out in the policy. Subsequently, UKFast recommends that users should request for their password to never expire once they are happy that they have a strong password. This can be done by raising a ticket via the MyUKFast customer portal or by emailing `support@ukfast.co.uk`. `Two-Factor Authentication` is also available as an extra security control. See 2FA page [Here](https://docs.ukfast.co.uk/desktop/fastdesk/twofa.html) for more information.
+Please note that passwords are set to expire after 42 days by default. It is acceptable for passwords to never expire if they meet the requirements set out in the policy. Subsequently, UKFast recommends that users should request for their password to never expire once they are happy that they have a strong password. This can be done by raising a ticket via the MyUKFast customer portal or by emailing `support@ukfast.co.uk`. `Two-Factor Authentication` is also available as an extra security control. See 2FA page [here](https://docs.ukfast.co.uk/desktop/fastdesk/twofa.html) for more information.
 
 The policy and recommendations are in line with the guidance given by [The National Cyber Security Centre.](https://www.ncsc.gov.uk/collection/passwords/updating-your-approach)
 
