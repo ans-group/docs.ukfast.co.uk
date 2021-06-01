@@ -10,6 +10,7 @@ Information regarding the various aspects of FastDesk
    supportservice
    backups
    FastDesksecurity
+   passwordpolicy
    
 
 
