@@ -9,5 +9,5 @@ importlib-metadata==2.0.0
 markdown==3.2.2
 requests==2.24.0
 soupsieve==2.0.1
-urllib3==1.25.10
+urllib3==1.26.5
 zipp==3.2.0
