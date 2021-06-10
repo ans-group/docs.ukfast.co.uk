@@ -33,6 +33,7 @@ cPanel/WHM
    cpanel_installphpversion
    cpanel_installphpextension
    cpanel_fixdeceptivesitewarning
+   cpanel_phpfpm_bug
 
 ------------------------
 Migrations
