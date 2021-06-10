@@ -43,6 +43,7 @@ To reinstate all domains that were previously using `PHP-FPM` along with their c
 * Create a file named `fix.pl` with your preferred text editor (`vi`, `vim` or `nano`, for example) and populate it with the following contents:
 
 ```
+
 #!/usr/local/cpanel/3rdparty/bin/perl
 use strict;
 use warnings;
@@ -55,19 +56,31 @@ my $json = File::Slurp::slurp ($file);
 my $hr = Cpanel::JSON::Load ($json);
 my $yaml = YAML::Syck::Dump ($hr);
 print $yaml . "\n";
+
 ```
 
 * Make sure the file is executable by running:
+
 ```
+
 chmod +x fix.pl
+
 ```
+
 * Run the following loop:
+
 ```
+
 find /var/cpanel/userdata -type f -iname '*fpm.cache' | while read file; do ./fix.pl ${file} > $(echo ${file} | sed 's/cache/yaml/'); done
+
 ```
+
 * Finally, rebuild all of the `PHP-FPM` configurations:
+
 ```
+
 for i in $(cat /etc/userdomains | awk '{print $2}'); do echo "$i"; /scripts/php_fpm_config --rebuild $i; done
+
 ```
 
 ```eval_rst
