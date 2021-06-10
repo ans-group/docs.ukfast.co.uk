@@ -19,16 +19,14 @@ As of yet, no automatic fix has been pushed out by `cPanel`. However `UKFast` ha
 
 * Log into `WHM`.
 * Navigate to `MultiPHP Manager`..
-* In the bottom section, under `Set PHP Version per Domain`, use the search bar to search for your domain.
+* In the bottom section, use the tab `User Domain Settings`, use the search bar to search for your domain.
 * To the far right of your domain, click the toggle icon to enable `PHP-FPM`.
 
 ## How to re-enable PHP-FPM for all domains
 
 * Log into `WHM`.
 * Navigate to `MultiPHP Manager`.
-* In the bottom section, under `Set PHP Version per Domain`, scroll through your list of domains and click the checkbox to the left of each domain you want to enable `PHP-FPM` on.
-* Click the drop-down menu to the far right of the search bar and next to `PHP-FPM`, then select On.
-* Click Apply to enable PHP-FPM on the selected domains.
+* In the bottom section, within `PHP-FPM` select the button **Enable On All Domains**
 
 ## How to re-enable PHP-FPM & restore custom configurations
 
