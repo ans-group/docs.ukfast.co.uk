@@ -37,7 +37,7 @@ As of yet, no automatic fix has been pushed out by `cPanel`. However `UKFast` ha
 .. _connecting to your server via SSH: /operatingsystems/linux/basics/connecting.html
 ```
 
-To reinstate all domains that were previously using `PHP-FPM` along with their customisations, please see the following steps;
+To reinstate all domains that were previously using `PHP-FPM` along with any custom configuration, please see the following steps;
 
 * Connect to your server via SSH as the `root` user
 * Create a file named `fix.pl` with your preferred text editor (`vi`, `vim` or `nano`, for example) and populate it with the following contents:
