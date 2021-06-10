@@ -74,7 +74,7 @@ for i in $(cat /etc/userdomains | awk '{print $2}'); do echo "$i"; /scripts/php_
 ```eval_rst
 .. note::
    Please contact UKFast support via a Priority Support Ticket for any further assistance with this.
-```  
+```
 
 ```eval_rst
   .. title:: cPanel | PHP-FPM is Disabled after EasyApache Update
