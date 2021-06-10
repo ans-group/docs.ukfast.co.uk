@@ -4,10 +4,8 @@
 
 As of **June 9th 2021**, an `EasyApache` update to `ea-apache24-config-1.0-171` has inadvertently disabled `PHP-FPM` on `cPanel/WHM` servers. The following components of `WHM` have been identified to have been affected.
 
-```
-ea-apache24-config-runtime-1.0-171.172.2.cpanel.noarch
-ea-apache24-config-1.0-171.172.2.cpanel.noarch
-```
+* `ea-apache24-config-runtime-1.0-171.172.2.cpanel.noarch`
+* `ea-apache24-config-1.0-171.172.2.cpanel.noarch`
 
 This has also caused custom `PHP-FPM` configurations to be removed.
 
@@ -39,10 +37,11 @@ As of yet, no automatic fix has been pushed out by `cPanel`. However `UKFast` ha
 .. _connecting to your server via SSH: /operatingsystems/linux/basics/connecting.html
 ```
 
-To reinstate all domains that were previously using `PHP-FPM` along with their customizations, please see the following steps;
+To reinstate all domains that were previously using `PHP-FPM` along with their customisations, please see the following steps;
 
 * Connect to your server via SSH as the `root` user
-* Create a file named `fix.pl` with your preferred text editor (eg. `vi`, `vim` or `nano`) and populate it with the following contents:
+* Create a file named `fix.pl` with your preferred text editor (`vi`, `vim` or `nano`, for example) and populate it with the following contents:
+
 ```
 #!/usr/local/cpanel/3rdparty/bin/perl
 use strict;
