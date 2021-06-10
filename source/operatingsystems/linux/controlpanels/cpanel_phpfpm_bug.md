@@ -4,8 +4,10 @@
 
 As of **June 9th 2021**, an `EasyApache` update to `ea-apache24-config-1.0-171` has inadvertently disabled `PHP-FPM` on `cPanel/WHM` servers. The following components of `WHM` have been identified to have been affected.
 
-* `ea-apache24-config-runtime-1.0-171.172.2.cpanel.noarch`
-* `ea-apache24-config-1.0-171.172.2.cpanel.noarch`
+```console
+ea-apache24-config-runtime-1.0-171.172.2.cpanel.noarch
+ea-apache24-config-1.0-171.172.2.cpanel.noarch
+```
 
 This has also caused custom `PHP-FPM` configurations to be removed.
 
@@ -42,8 +44,7 @@ To reinstate all domains that were previously using `PHP-FPM` along with any cus
 * Connect to your server via SSH as the `root` user
 * Create a file named `fix.pl` with your preferred text editor (`vi`, `vim` or `nano`, for example) and populate it with the following contents:
 
-```
-
+```console
 #!/usr/local/cpanel/3rdparty/bin/perl
 use strict;
 use warnings;
@@ -56,31 +57,24 @@ my $json = File::Slurp::slurp ($file);
 my $hr = Cpanel::JSON::Load ($json);
 my $yaml = YAML::Syck::Dump ($hr);
 print $yaml . "\n";
-
 ```
 
 * Make sure the file is executable by running:
 
-```
-
+```console
 chmod +x fix.pl
-
 ```
 
 * Run the following loop:
 
-```
-
+```console
 find /var/cpanel/userdata -type f -iname '*fpm.cache' | while read file; do ./fix.pl ${file} > $(echo ${file} | sed 's/cache/yaml/'); done
-
 ```
 
 * Finally, rebuild all of the `PHP-FPM` configurations:
 
-```
-
+```console
 for i in $(cat /etc/userdomains | awk '{print $2}'); do echo "$i"; /scripts/php_fpm_config --rebuild $i; done
-
 ```
 
 ```eval_rst
