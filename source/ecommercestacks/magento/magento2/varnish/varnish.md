@@ -2,18 +2,55 @@
 
 ### Install Varnish
 
-#### Version 5.2
+#### Version 6.5
 
-Varnish 5.2 is available from the `varnishcache_varnish52` repository, this repository can be installed with the following command:
+Varnish 6.5 is available from the `varnishcache_varnish65` repository, this repository can be installed with the following command:
 
+##### CentOS
 ```bash
-~]# curl -s https://packagecloud.io/install/repositories/varnishcache/varnish52/script.rpm.sh | sudo bash
+curl -s https://packagecloud.io/install/repositories/varnishcache/varnish65/script.rpm.sh | sudo bash
 ```
 
-Varnish 5.2 can then be installed with the command:
+Varnish 6.5 can then be installed with the command:
 
 ```bash
-~]# yum install varnish --disablerepo='*' --enablerepo='varnishcache_varnish52,epel'
+yum install varnish --disablerepo='*' --enablerepo='varnishcache_varnish65,epel'
+```
+
+##### Ubuntu
+
+```bash
+curl -s https://packagecloud.io/install/repositories/varnishcache/varnish65/script.deb.sh | sudo bash
+```
+
+Varnish 6.5 can then be installed with the command:
+
+```bash
+apt-get install varnish
+```
+
+##### `DAEMON_OPTS`
+
+This is a template to be reviewed and modified to fit your needs:
+
+```bash
+systemctl edit --full varnish
+```
+
+Edit ExecStart:
+
+```bash
+ExecStart=/usr/sbin/varnishd \
+          -a 10.0.0.16:80 \
+          -T 10.0.0.16:6082 \
+          -f /etc/varnish/default.vcl \
+          -s malloc,4G \
+          -p http_req_hdr_len=24000 \
+          -p http_resp_hdr_len=24000 \
+          -p thread_pool_min=100 \
+          -p thread_pool_max=3000 \
+          -p timeout_linger=0.1 \
+          -p pipe_timeout=600
 ```
 
 ##### Start On Boot
@@ -21,29 +58,7 @@ Varnish 5.2 can then be installed with the command:
 You can enable Varnish on boot after installing it with this command:
 
 ```bash
-~]# systemctl enable varnish
-```
-
-#### Version 6.3
-
-Varnish 6.3 is available from the `varnishcache_varnish63` repository, this repository can be installed with the following command:
-
-```bash
-~]# curl -s https://packagecloud.io/install/repositories/varnishcache/varnish63/script.rpm.sh | sudo bash
-```
-
-Varnish 6.3 can then be installed with the command:
-
-```bash
-~]# yum install varnish --disablerepo='*' --enablerepo='varnishcache_varnish63,epel'
-```
-
-##### Start On Boot
-
-You can enable Varnish on boot after installing it with this command:
-
-```bash
-~]# systemctl enable varnish
+systemctl enable varnish
 ```
 
 ### Version Check
@@ -51,50 +66,12 @@ You can enable Varnish on boot after installing it with this command:
 You can see the version of Varnish installed with the following command:
 
 ```bash
-~]# varnishd -V
-varnishd (varnish-4.1.11 revision 61367ed17d08a9ef80a2d42dc84caef79cdeee7a)
+~# varnishd -V
+varnishd (varnish-6.5.1 revision 1dae23376bb5ea7a6b8e9e4b9ed95cdc9469fb64)
 Copyright (c) 2006 Verdens Gang AS
-Copyright (c) 2006-2019 Varnish Software AS
+Copyright (c) 2006-2020 Varnish Software
+
 ```
-
-### `DAEMON_OPTS`
-
-`DAEMON_OPTS` can be defined in the `/etc/varnish/varnish.params` file. Here is an example that we use:
-
-```bash
-DAEMON_OPTS=" -p http_req_hdr_len=12000 -p http_resp_hdr_len=12000 -p thread_pool_min=100 -p thread_pool_max=3000 -p timeout_linger=0.1 -p pipe_timeout=600"
-```
-
-### Memory Limit
-
-The default memory limit in Varnish is 256M. You may want to increase this, especially if you are using Varnish for Full Page Cache. You can do this by changing the value under `VARNISH_STORAGE` in the file `/etc/varnish/varnish.params`.
-
-```bash
-~]# grep VARNISH_STORAGE /etc/varnish/varnish.params
-VARNISH_STORAGE="malloc,3G"
-```
-Please note Varnish will need a restart for this change to take effect.
-
-### Pipe timeout
-
-`pipe_timeout` is set to 60 seconds by default. This can cause time out issues when running exports in the Magento admin interface. You can increase this by adding the option `-p pipe_timeout=600` within the `DAEMON_OPTS` sections in the file `/etc/varnish/varnish.params`. You need to restart Varnish for this setting to take effect.
-
-### Header Size
-
-If you have this error message in NGINX:
-
-```bash
-[error] 110200#110200: *102122 upstream sent too big header while reading response header from upstream
-```
-
-You may need to increase `http_resp_hdr_len` and `http_resp_size`. You can do this by adding:
-
-```bash
--p http_resp_hdr_len=983044 \
--p http_resp_size=983044 \
-```
-
-To the `DAEMON_OPTS` sections in the file `/etc/varnish/varnish.params`. You need to restart Varnish for this setting to take effect.
 
 ### Configuration Test
 
@@ -212,6 +189,15 @@ Static files are not cached by default in the Magento generated VCL. This is due
 ```
 
 The Varnish service needs to be reloaded in order for this to take effect.
+
+### Too many restarts
+Avoid the 'too many restarts' error by adding this configuration option to vcl_recv:
+
+```vcl
+if (req.restarts > 0) {
+        set req.hash_always_miss = true;
+    }
+```
 
 ### HIT/MISS Headers
 
