@@ -75,17 +75,6 @@ You can enable Varnish on boot after installing it with this command:
 systemctl enable varnish
 ```
 
-### Version Check
-
-You can see the version of Varnish installed with the following command:
-
-```bash
-~# varnishd -V
-varnishd (varnish-6.5.1 revision 1dae23376bb5ea7a6b8e9e4b9ed95cdc9469fb64)
-Copyright (c) 2006 Verdens Gang AS
-Copyright (c) 2006-2020 Varnish Software
-
-```
 #### Reload Varnish
 
 You can reload the Varnish service with the following command:
@@ -100,6 +89,18 @@ You can restart the Varnish service with the following command:
 ```bash
 ~]# systemctl restart varnish
 ```
+
+### Version Check
+
+You can see the version of Varnish installed with the following command:
+
+```bash
+~# varnishd -V
+varnishd (varnish-6.5.1 revision 1dae23376bb5ea7a6b8e9e4b9ed95cdc9469fb64)
+Copyright (c) 2006 Verdens Gang AS
+Copyright (c) 2006-2020 Varnish Software
+```
+
 ### Generate VCL
 
 - Log in to the Magento Admin as an administrator.
