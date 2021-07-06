@@ -4,14 +4,12 @@
 
 #### Version 6.5
 
-Varnish 6.5 is available from the `varnishcache_varnish65` repository, this repository can be installed with the following command:
+Varnish 6.5 is available from the `varnishcache_varnish65` repository, you can install this repository and varnish with the following commands:
 
 ##### CentOS
 ```bash
 curl -s https://packagecloud.io/install/repositories/varnishcache/varnish65/script.rpm.sh | sudo bash
 ```
-
-Varnish 6.5 can then be installed with the command:
 
 ```bash
 yum install varnish --disablerepo='*' --enablerepo='varnishcache_varnish65,epel'
@@ -22,8 +20,6 @@ yum install varnish --disablerepo='*' --enablerepo='varnishcache_varnish65,epel'
 ```bash
 curl -s https://packagecloud.io/install/repositories/varnishcache/varnish65/script.deb.sh | sudo bash
 ```
-
-Varnish 6.5 can then be installed with the command:
 
 ```bash
 apt-get install varnish
