@@ -188,7 +188,7 @@ Static files are not cached by default in the Magento generated VCL. This is due
 The Varnish service needs to be reloaded in order for this to take effect.
 
 ### Too many restarts
-Avoid the 'too many restarts' error by adding this configuration option to vcl_recv:
+Avoid the 'too many restarts' error by adding this configuration option to `vcl_recv`:
 
 ```vcl
 if (req.restarts > 0) {
