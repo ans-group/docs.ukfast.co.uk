@@ -33,7 +33,7 @@ This is a template to be reviewed and modified to fit your needs:
 systemctl edit --full varnish
 ```
 
-Edit ExecStart:
+Edit `ExecStart`:
 
 ```bash
 ExecStart=/usr/sbin/varnishd \
