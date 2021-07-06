@@ -49,6 +49,24 @@ ExecStart=/usr/sbin/varnishd \
           -p pipe_timeout=600
 ```
 
+### Configuration Test
+
+It's very important to run a configuration test before starting / restarting the Varnish service. You can run a configuration test with the following command:
+
+```bash
+~]# varnishd -C -f /etc/varnish/default.vcl
+```
+
+A successful output from this command will be the VCL displayed on the terminal with no error message(s).
+
+#### Start Varnish
+
+You can start the Varnish service with the following command:
+
+```bash
+~]# systemctl start varnish
+```
+
 ##### Start On Boot
 
 You can enable Varnish on boot after installing it with this command:
@@ -67,24 +85,6 @@ varnishd (varnish-6.5.1 revision 1dae23376bb5ea7a6b8e9e4b9ed95cdc9469fb64)
 Copyright (c) 2006 Verdens Gang AS
 Copyright (c) 2006-2020 Varnish Software
 
-```
-
-### Configuration Test
-
-It's very important to run a configuration test before starting / restarting the Varnish service. You can run a configuration test with the following command:
-
-```bash
-~]# varnishd -C -f /etc/varnish/default.vcl
-```
-
-A successful output from this command will be the VCL displayed on the terminal with no error message(s).
-
-#### Start Varnish
-
-You can start the Varnish service with the following command:
-
-```bash
-~]# systemctl start varnish
 ```
 #### Reload Varnish
 
