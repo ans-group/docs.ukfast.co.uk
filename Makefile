@@ -102,7 +102,6 @@ CSS_FILES = source/_themes/ukf/static/css/bootstrap.min.css \
 	source/_themes/ukf/static/css/font-awesome.min.css \
 	source/_themes/ukf/static/css/style.css \
 	source/_themes/ukf/static/css/default.css \
-	source/_themes/ukf/static/css/default.css \
 	source/_themes/ukf/static/css/pygments.css \
 	source/_themes/ukf/static/css/flex-grid.css \
 	source/_themes/ukf/static/css/responsive.css
