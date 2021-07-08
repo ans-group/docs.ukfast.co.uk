@@ -1,4 +1,4 @@
-FROM python:3.8-alpine as builder
+FROM python:3.8-alpine3.13 as builder
 
 RUN pip install Sphinx recommonmark
 RUN apk add build-base
