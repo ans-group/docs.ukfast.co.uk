@@ -67,7 +67,7 @@ pending configuration updates to the load balancer. Click the `deployments scree
 [![Targets Listview](files/inactive_target_6_small.png)](files/inactive_target_6.png)
 
 As long as the rest of your configuration is valid, you will see a `Deploy Now` button. Press this and wait for the screen to reload. Your changes have now been deployed to the load balancer and the target server you have edited will
-no longer be recieving traffic.
+no longer be receiving traffic.
 
 [![Deployment Screen](files/inactive_target_7_small.png)](files/inactive_target_7.png)
 
