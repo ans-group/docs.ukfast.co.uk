@@ -4,6 +4,38 @@
 
 ## Replacing an expired SSL certificate
 
+SSL certificates have expiry dates which once reached will start to show security errors to users visiting the 
+website. You can easily replace your load balancers SSL certificates with a new one when they expire within MyUKFast.
+
+Firstly open the affected load balancer within [MyUKFast](https://my.ukfast.co.uk/load-balancers), then click on `Listeners` at the top of the overview screen.
+
+![Listeners Tab](files/expired_ssl_1_small.png)
+
+Click the listener which is affected by the expired SSL, followed by the `SSLs` tab.
+
+![Listeners Overview](files/expired_ssl_2_small.png)
+
+![SSLs Tab](files/expired_ssl_3_small.png)
+
+Press the delete button on the expired SSL certificate and accept the confirmation box which pops up. You can
+now see there are changes ready to deploy, leave this button for now.
+
+![Delete SSL](files/expired_ssl_4_small.png) 
+
+Click the `Create SSL` button in the top right of the screen and fill in the form with your new SSL certificate details. If the certificate has been bought within MyUKFast you can choose `Import UKFast Certificate`, select the certificate and have the details filled in automatically. Once the form is complete, press save.
+
+![Create SSL Button](files/expired_ssl_5_small.png)
+
+![Create SSL Form](files/expired_ssl_6_small.png)
+
+Once you have created the new SSL certificate, you can click the `deployments screen` link at the top of the screen. Press `Deploy Now` and wait for the page to refresh. The old SSL certificate has now been removed from your load balancer and the new one applied
+
+![Create SSL Success](files/expired_ssl_7_small.png)
+
+![Deployment Screen](files/expired_ssl_8_small.png)
+
+## Drain traffic from a particular target server
+
 ## Temporarily remove a target server from behind the load balancer
 
 You may want to remove a target server from the load balancer to stop traffic going to it temporarily. For instance
