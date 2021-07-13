@@ -18,7 +18,7 @@ Click the listener which is affected by the expired SSL, followed by the `SSLs` 
 
 Press the delete button on the expired SSL certificate and accept the confirmation box which pops up. You can now see there are changes ready to deploy, leave this button for now.
 
-![Delete SSL](files/expired_ssl_4_small.png) 
+![Delete SSL](files/expired_ssl_4_small.png)
 
 Click the `Create SSL` button in the top right of the screen and fill in the form with your new SSL certificate details. If the certificate has been bought within MyUKFast you can choose `Import UKFast Certificate`, select the certificate and have the details filled in automatically. Once the form is complete, press save.
 
@@ -38,7 +38,7 @@ Once you have created the new SSL certificate, you can click the `deployments sc
 
 You may want to remove a target server from the load balancer to stop traffic going to it temporarily. For instance to run updates or to be able to restart the server.
 
-This will immediately take the target server out of load. If you're using "Source" as a load balancing method to send users to the same target server each time, this could disrupt their session. You should first drain the server 
+This will immediately take the target server out of load. If you're using "Source" as a load balancing method to send users to the same target server each time, this could disrupt their session. You should first drain the server
 
 Navigate to the load balancer you want to edit in [MyUKFast](https://my.ukfast.co.uk/load-balancers) then click on `Target Groups` at the top of the load balancer screen
 
