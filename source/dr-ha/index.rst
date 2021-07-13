@@ -46,8 +46,8 @@ Documentation relating to our load balancer solutions
 .. toctree::
    :maxdepth: 1
 
-   /network/loadbalancing/index
-   /network/load-balancers-v2/index
+   Classic Load Balancers </network/loadbalancing/index>
+   Load Balanceres </network/load-balancers/index>
 
 
 -----------------

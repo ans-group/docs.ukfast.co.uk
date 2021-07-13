@@ -20,7 +20,7 @@ There's an easy fix. Whereas logs and analytics will usually derive the visitor 
 
 How this is achieved will depend on what solution you're trying to work with. Here are a few examples:
 
-*Apache*
+**Apache**
 
 Apache has an optional module called `mod_rpaf` that handles the transition from source to `X-Forwarded-For`, so with it set up you shouldn't really notice any difference from that point onward.
 
@@ -48,7 +48,7 @@ Replace `1.1.1.1` and `2.2.2.2` with the IP address(es) your loadbalancer is sen
   service httpd restart
 ```
 
-*NGINX*
+**NGINX**
 
 The comparable module for NGINX is called `ngx_http_realip_module`: <http://nginx.org/en/docs/http/ngx_http_realip_module.html>
 
@@ -68,8 +68,8 @@ Then restart NGINX to put it live:
 ```
 
 ```eval_rst
-   .. title:: Load Balancers v2 | Frequently Asked Questions
+   .. title:: Load Balancers | Frequently Asked Questions
    .. meta::
-      :title: Load Balancers v2 | Frequently Asked Questions | UKFast Documentation
-      :description: FAQs about v2 of UKFast load balancers
+      :title: Load Balancers | Frequently Asked Questions | UKFast Documentation
+      :description: FAQs about UKFast load balancers
 ```
