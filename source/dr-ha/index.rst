@@ -47,7 +47,7 @@ Documentation relating to our load balancer solutions
    :maxdepth: 1
 
    Classic Load Balancers </network/loadbalancing/index>
-   Load Balanceres </network/load-balancers/index>
+   Load Balancers </network/load-balancers/index>
 
 
 -----------------

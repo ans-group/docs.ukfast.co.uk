@@ -6,8 +6,9 @@ Here you can find all the information you need to get started with our load bala
 deploy them.
 
 .. toctree::
-   getting-started
    key-terms
+   getting-started
+   deploying-changes
    common-changes
    faqs
    

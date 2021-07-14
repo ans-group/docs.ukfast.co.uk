@@ -8,7 +8,7 @@ This is covered in our [common changes](/network/load-balancers-v2/common-change
 
 ## How do I drain traffic from a particular target server?
 
-This is covered in our [common changes](/network/load-balancers-v2/common-changes.html#drain-traffic-from-a-particular target-server) page.
+This is covered in our [common changes](/network/load-balancers-v2/common-changes.html#drain-traffic-from-a-particular-target-server) page.
 
 ## How can I temporarily take a server out of load to run updates / maintenance?
 
