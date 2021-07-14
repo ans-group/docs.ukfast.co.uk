@@ -34,42 +34,77 @@ Once you have created the new SSL certificate, you can click the `deployments sc
 
 ## Drain traffic from a particular target server
 
+The weight of a target server indicates how much traffic will be sent to that target server. The higher the number, the more traffic will be sent to it in comparison to other target servers.
+
+You can drain a target server to stop any traffic from going to it once the current requests have finished being dealt with. This stops a users request from being interrupted and the user potentially getting an error.
+
+Navigate to the load balancer you want to edit in [MyUKFast](https://my.ukfast.co.uk/load-balancers) then click on `Target Groups` at the top of the load balancer screen
+
+![Target Group Tab](files/inactive_target_1_small.png)
+
+Click the target group which contains the target server which you want to drain.
+
+![Target Group Listview](files/inactive_target_2_small.png)
+
+Click the `Targets` tab at the top of the screen.
+
+![Target Group Overview](files/inactive_target_3_small.png)
+
+Click `Edit` next to the target server you want to remove from load.
+
+![Targets Listview](files/inactive_target_4_small.png)
+
+Change the "Weight" field to `0`, then press save at the bottom of the screen.
+
+![Target Edit Screen](files/drain_target_1_small.png)
+
+Notice that the number next to the weight on the target server you have just edited has changed to `0` and you now have a message about pending configuration updates to the load balancer. Click the `deployments screen` link.
+
+![Targets Listview](files/inactive_target_6_small.png)
+
+As long as the rest of your configuration is valid, you will see a `Deploy Now` button. Press this and wait for the screen to reload. Your changes have now been deployed to the load balancer and the target server you have edited will.
+no longer be receiving traffic.
+
+![Deployment Screen](files/inactive_target_7_small.png)
+
+To allow traffic to be sent to the server again, repeat the above steps but change the "Weight" to 1 or more.
+
 ## Temporarily remove a target server from behind the load balancer
 
 You may want to remove a target server from the load balancer to stop traffic going to it temporarily. For instance to run updates or to be able to restart the server.
 
-This will immediately take the target server out of load. If you're using "Source" as a load balancing method to send users to the same target server each time, this could disrupt their session. You should first drain the server
+This will immediately take the target server out of load. If you're using "Source" as a load balancing method to send users to the same target server each time, this could disrupt their session. You should first [drain the server](#drain-traffic-from-a-particular-target-server).
 
-Navigate to the load balancer you want to edit in [MyUKFast](https://my.ukfast.co.uk/load-balancers) then click on `Target Groups` at the top of the load balancer screen
+Navigate to the load balancer you want to edit in [MyUKFast](https://my.ukfast.co.uk/load-balancers) then click on `Target Groups` at the top of the load balancer screen.
 
-[![Target Group Tab](files/inactive_target_1_small.png)](files/inactive_target_1.png)
+![Target Group Tab](files/inactive_target_1_small.png)
 
-Click the target group which contains the target server which you want to temporarily remove
+Click the target group which contains the target server which you want to temporarily remove.
 
-[![Target Group Listview](files/inactive_target_2_small.png)](files/inactive_target_2.png)
+![Target Group Listview](files/inactive_target_2_small.png)
 
-Click the `Targets` tab at the top of the screen
+Click the `Targets` tab at the top of the screen.
 
-[![Target Group Overview](files/inactive_target_3_small.png)](files/inactive_target_3.png)
+![Target Group Overview](files/inactive_target_3_small.png)
 
 Click `Edit` next to the target server you want to remove from load, notice how it currently says `Active` next to
 the target.
 
-[![Targets Listview](files/inactive_target_4_small.png)](files/inactive_target_4.png)
+![Targets Listview](files/inactive_target_4_small.png)
 
-Uncheck the "Target is Active" box near the bottom of the form, then press save
+Uncheck the "Target is Active" box near the bottom of the form, then press save.
 
-[![Target Edit Screen](files/inactive_target_5_small.png)](files/inactive_target_5.png)
+![Target Edit Screen](files/inactive_target_5_small.png)
 
 Notice that the tag in the target server you have just edited has changed to `Inactive` and you now have a message about
-pending configuration updates to the load balancer. Click the `deployments screen` link
+pending configuration updates to the load balancer. Click the `deployments screen` link.
 
-[![Targets Listview](files/inactive_target_6_small.png)](files/inactive_target_6.png)
+![Targets Listview](files/inactive_target_6_small.png)
 
 As long as the rest of your configuration is valid, you will see a `Deploy Now` button. Press this and wait for the screen to reload. Your changes have now been deployed to the load balancer and the target server you have edited will
 no longer be receiving traffic.
 
-[![Deployment Screen](files/inactive_target_7_small.png)](files/inactive_target_7.png)
+![Deployment Screen](files/inactive_target_7_small.png)
 
 To allow traffic to be sent to the server again, repeat the above steps but check the "Target is Active" box instead.
 
