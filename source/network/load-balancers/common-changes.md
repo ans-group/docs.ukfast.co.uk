@@ -1,8 +1,10 @@
 # Common Changes
 
+This guide will go over some of the common changes you may want to carry out in the day to day administration of your loadbalancer server setup.
+
 ## Adding a new server behind the load balancer
 
-When traffic to your website increases you can add additional servers behind your load balancer to cope with this demand. Adding more servers gives the load balancer more servers to be able to spread the load of your websites across. 
+When traffic to your website increases you can add additional servers behind your load balancer to cope with this demand. Adding more servers gives the load balancer more servers to be able to spread the load of your websites across.
 
 Once you've configured your new server and are happy for it to start receiving requests, follow the below instructions to add it to the pool of target servers your load balancer sends traffic to.
 
