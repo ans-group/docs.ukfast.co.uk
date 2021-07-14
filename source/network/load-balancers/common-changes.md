@@ -2,6 +2,40 @@
 
 ## Adding a new server behind the load balancer
 
+When traffic to your website increases you can add additional servers behind your load balancer to cope with this demand. Adding more servers gives the load balancer more servers to be able to spread the load of your websites across. 
+
+Once you've configured your new server and are happy for it to start receiving requests, follow the below instructions to add it to the pool of target servers your load balancer sends traffic to.
+
+Navigate to the load balancer you want to add the new target server to in [MyUKFast](https://my.ukfast.co.uk/load-balancers) then click on `Target Groups` at the top of the load balancer screen
+
+![Target Group Tab](files/inactive_target_1_small.png)
+
+Click the target group you want to add the target to.
+
+![Target Group Listview](files/inactive_target_2_small.png)
+
+Click the `Targets` tab at the top of the screen.
+
+![Target Group Overview](files/inactive_target_3_small.png)
+
+Click `Create Target` at the top right of the screen.
+
+![Targets Listview](files/create_target_1_small.png)
+
+Fill the form in with the new target servers IP address and port. If it is a UKFast server you will be able to search for and select the server IP when you click the IP field. You can also give the target server an optional name to help you remember which server it is.
+
+If you need to edit setting such as how often to check the health of the target server, whether to check the SSL certificate on the target server or which HTTP version to use this can be done by pressing "Show Advanced Options".
+
+![Target Create Screen](files/create_target_2_small.png)
+
+Notice that the target server you have just added will now appear in the list and you now have a message about pending configuration updates to the load balancer. Click the `deployments screen` link.
+
+![Targets Listview](files/create_target_3_small.png)
+
+As long as the rest of your configuration is valid, you will see a `Deploy Now` button. Press this and wait for the screen to reload. Your changes have now been deployed to the load balancer and the target server you have added will now receive traffic from the load balancer.
+
+![Deployment Screen](files/inactive_target_7_small.png)
+
 ## Replacing an expired SSL certificate
 
 SSL certificates have expiry dates which once reached will start to show security errors to users visiting the website. You can easily replace your load balancers SSL certificates with a new one when they expire within MyUKFast.
