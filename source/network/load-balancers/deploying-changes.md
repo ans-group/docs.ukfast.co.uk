@@ -38,7 +38,7 @@ Once you've fixed all the issues and gone back to the deployments screen it will
 
 ![Configuration error](files/deployment_validation_failed_small.png)
 
-* *Not available for eCloud VPC load balancers unless you have the optional support addon*
+* *Not available for eCloud VPC load balancers unless you have the optional support add-on*
 
 ```eval_rst
    .. title:: Load Balancers | Deploying Changes

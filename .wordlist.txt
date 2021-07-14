@@ -464,6 +464,7 @@ upto
 URI
 URIs
 UUIDs
+validator
 vCenter
 VCL
 vCPU
