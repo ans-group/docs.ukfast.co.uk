@@ -86,9 +86,33 @@ If you need to temporarily stop a server from receiving requests (for instance t
 
 ### Advanced Settings
 
-The more advanced settings have already had sensible defaults applied to them so most people won't need to make any changes. If you do need to make changes to the HTTP version, SSL certificate health checks or how many failed health checks it takes for a target server to be classed as unhealthy you can change these by pressing "Show Advanced Options" at the bottom left of the form.
+The more advanced settings have already had sensible defaults applied to them so most people won't need to make any changes. If you do need to make changes to the HTTP version, SSL certificate health checks or how many failed health checks it takes for a target server to be classed as unhealthy, you can change these by pressing "Show Advanced Options" at the bottom left of the form.
 
 ## Listeners
+
+Once you've created a target group and at least one target, you can add a listener. You can do this by clicking "Add Listener" in the onboarding wizard or by going to the "Listeners" tab from the load balancer overview and clicking "Create Listener".
+
+![Add Listener](files/getting_started_5_small.png)
+
+Fill the form in and then press "Create Listener" at the bottom right of the form.
+
+### Basic Configuration
+
+When creating a new listener you will first need to give it a unique name. The default target group is where traffic from the listeners binds (see next section) will be sent to by default unless you override this behaviour with an access control rule.
+
+### Binds
+
+These are the combinations of Virtual IP and port that this listener will respond to, you can add multiple binds per listener. If you only have one Virtual IP assigned to a load balancer then this will automatically be filled in to the VIP field, otherwise you will get a search box allowing you to select the correct VIP for that bind.
+
+Each listener needs to have at least one bind and can have as many as needed. Click the "Add Bind" button to add a new VIP / Port combination and the red X to delete a bind.
+
+![Binds Input](files/getting_started_6_small.png)
+
+### Additional SSL Settings
+
+You can set this listener to enable HSTS for visitors, this means that the website will always need to have a valid SSL for users to access the website. If your SSL certificate is ever removed or expires, the users browser remembers that there should be an SSL certificate and stops the user accessing the website. **If you are going to enable this setting make sure you have an SSL certificate ready to use.**
+
+You can also enable "Redirect to HTTPS" which similar to HSTS will redirect non HTTPS traffic to HTTPS ensuring the users data is encrypted between their computer and the server. However unlike HSTS this isn't enforced and you can disable this setting if needed in the future.
 
 ## First Deployment
 
