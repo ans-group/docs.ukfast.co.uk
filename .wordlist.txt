@@ -216,6 +216,7 @@ JSON
 Kerberos
 keypair
 Kubernetes
+Laravel
 latencies
 LFI
 LG

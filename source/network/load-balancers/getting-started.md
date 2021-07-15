@@ -74,11 +74,11 @@ Fill the form in and then press "Create Target" at the bottom right of the form.
 
 In this section of the form you are able to give an optional name to the target server to help you recognise it easily in the future. The IP and port fields are both required and tell the load balancer which server and port to send any requests to. If the server is hosted by UKFast you are able to search for the server by  partial name or IP in the IP box and then choose the correct IP. Otherwise copy and paste the IP in from your server provider.
 
-The Weight field is used to specifiy how much traffic each target will receive from the load balancer. For instance if you have two targets both with a weight of `1` then they will receive equal traffic. If target A has a weight of `1` and target B has a weight of `2` then target B will receive twice as much traffic as target A.
+The Weight field is used to specify how much traffic each target will receive from the load balancer. For instance if you have two targets both with a weight of `1` then they will receive equal traffic. If target A has a weight of `1` and target B has a weight of `2` then target B will receive twice as much traffic as target A.
 
 You can set Weight to 0 to "drain" the target. This means that any existing connections will remain open till they close but no new connections will be sent to that target. This is a way to gradually remove a target server from load without disrupting existing users.
 
-### Availibility
+### Availability
 
 You can set a target server to only ever receive requests if all the other targets in that target group are failing their health checks. To do this, change the backup option to `Target only available if all other targets are failing health checks`.
 
