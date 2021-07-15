@@ -2,7 +2,7 @@
 
 Once you have made the changes you want to your configuration, these need to be deployed to the load balancer. Until this is done the load balancer will continue to use the old configuration.
 
-Once any change has been made to the load balancer which needs to be deployed you will see the below blue box at the top of the screen. Clicking `deployments screen` will take you to the page to deploy these changes.
+Once any change has been made to the load balancer which needs to be deployed you will see the below blue box at the top of the screen. Clicking `deployments screen` will take you to the page to deploy these changes. If you are still using the onboarding wizard then this box won't be shown, instead the "Deploy Now" button will activate once you've finished the required steps.
 
 ![Deployment Alert](files/deployment_alert_small.png)
 
@@ -13,7 +13,7 @@ Once on the deployments screen, there are 3 states this screen can be in:
 
 **No changes to deploy**
 
-If no changes are detected between the current configuration deployed to the load balancer and the current configuration within MyUKFast, the deployment screen won't allow you to attempt a deployment. If you believe this is an error you should contact support using the [https://my.ukfast.co.uk/pss/create](Create PSS request) page.
+If no changes are detected between the current configuration deployed to the load balancer and the current configuration within MyUKFast, the deployment screen won't allow you to attempt a deployment. If you believe this is an error you should contact support using the [Create PSS request](https://my.ukfast.co.uk/pss/create) page.
 
 **Ready to deploy**
 
@@ -32,7 +32,7 @@ Some reasons that you're configuration maybe invalid include:
 * Listeners being set to redirect to HTTPS without an SSL certificate to work alongside
 * Listeners being set to redirect to HTTPS without a bind being added on port 443
 
-If you are unsure what the configuration validator is asking you to do, you can always [https://my.ukfast.co.uk/pss/create](create a PSS request) to speak to a member of our support team*.
+If you are unsure what the configuration validator is asking you to do, you can always [create a PSS request](https://my.ukfast.co.uk/pss/create) to speak to a member of our support team*.
 
 Once you've fixed all the issues and gone back to the deployments screen it will change to the "ready to deploy" screen.
 
