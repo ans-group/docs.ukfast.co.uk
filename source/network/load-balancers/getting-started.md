@@ -26,7 +26,7 @@ A load balancer needs configuring with three aspects as a minimum:
 - At least one target within that target group
 - At least one listener
 
-There are also optional aspects which can be configure within a load balancer, for example:
+There are also optional aspects which can be configured within a load balancer, for example:
 - Access IP controls
 - SSL certificates
 - Access control rules
@@ -60,7 +60,7 @@ If you've got a Lumen or Laravel PHP application and want to create a health che
 
 ### Advanced Settings
 
-The other settings on this page are for more advanced control over your load balancer. We've set them to sensible defaults and most people won't need to changed them.
+The other settings on this page are for more advanced control over your load balancer. We've set them to sensible defaults and most people won't need to change them.
 
 ## Targets
 

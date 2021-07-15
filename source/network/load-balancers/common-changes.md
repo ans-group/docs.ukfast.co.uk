@@ -1,6 +1,6 @@
 # Common Changes
 
-This guide will go over some of the common changes you may want to carry out in the day to day administration of your loadbalancer server setup.
+This guide will go over some of the common changes you may want to carry out in the day to day administration of your load balancer server setup.
 
 ## Adding a new server behind the load balancer
 
@@ -86,17 +86,17 @@ Click the `Targets` tab at the top of the screen.
 
 ![Target Group Overview](files/inactive_target_3_small.png)
 
-Click `Edit` next to the target server you want to remove from load.
+Click `Edit` next to the target server you want to drain.
 
-![Targets Listview](files/inactive_target_4_small.png)
+![Targets Listview](files/drain_target_1_small.png)
 
 Change the "Weight" field to `0`, then press save at the bottom of the screen.
 
-![Target Edit Screen](files/drain_target_1_small.png)
+![Target Edit Screen](files/drain_target_2_small.png)
 
-Notice that the number next to the weight on the target server you have just edited has changed to `0` and you now have a message about pending configuration updates to the load balancer. Click the `deployments screen` link.
+Notice that the number next to the weight on the target server you have just edited has changed to `0`, there is a new "Draining" tag and you now have a message about pending configuration updates to the load balancer. Click the `deployments screen` link.
 
-![Targets Listview](files/inactive_target_6_small.png)
+![Targets Listview](files/drain_target_3_small.png)
 
 As long as the rest of your configuration is valid, you will see a `Deploy Now` button. Press this and wait for the screen to reload. Your changes have now been deployed to the load balancer and the target server you have edited will.
 no longer be receiving traffic.

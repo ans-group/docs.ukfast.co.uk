@@ -185,6 +185,7 @@ hostname
 hostnames
 hotfix
 Hotmail
+HSTS
 htaccess
 htpasswd
 https

@@ -25,7 +25,7 @@ If you've made changes since the last deployment and the configuration is valid 
 
 If you've made changes since the last deployment but the configuration isn't valid then you will be told what changes need to make to fix the configuration. Clicking "Fix Now >" next to the problem will take you directly to the screen needed to make the fix.
 
-Some reasons that you're configuration maybe invalid include:
+Some reasons that you're configuration may be invalid include:
 * No target groups created
 * No listeners created
 * No target servers added to a target group
@@ -38,7 +38,7 @@ Once you've fixed all the issues and gone back to the deployments screen it will
 
 ![Configuration error](files/deployment_validation_failed_small.png)
 
-* *Not available for eCloud VPC load balancers unless you have the optional support add-on*
+\* *Not available for eCloud VPC load balancers unless you have the optional support add-on*
 
 ```eval_rst
    .. title:: Load Balancers | Deploying Changes
