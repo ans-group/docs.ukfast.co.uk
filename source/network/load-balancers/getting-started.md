@@ -26,7 +26,7 @@ A load balancer needs configuring with three aspects as a minimum:
 - At least one target within that target group
 - At least one listener
 
-There are also optional aspects which can be configured within a load balancer, for example:
+There are also optional aspects that can be configured within a load balancer, for example:
 - Access IP controls
 - SSL certificates
 - Access control rules
