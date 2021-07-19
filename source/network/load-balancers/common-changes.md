@@ -6,7 +6,7 @@ This guide will go over some of the common changes you may want to carry out in 
 
 As traffic to your website grows, you may wish to increase its capacity by registering additional servers behind your load balancer to spread the extra requests across all available hardware.
 
-Once you've configured your new server and are happy for it to start receiving requests, follow the below instructions to add it to the pool of target servers your load balancer sends traffic to.
+Once you've configured your new server and are happy for it to start receiving requests, follow the instructions below to add it to the target group your load balancer sends traffic to.
 
 Navigate to the load balancer you want to add the new target server to in [MyUKFast](https://my.ukfast.co.uk/load-balancers) then click on `Target Groups` at the top of the load balancer screen
 
