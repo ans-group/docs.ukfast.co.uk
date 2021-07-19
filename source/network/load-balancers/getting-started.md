@@ -52,7 +52,7 @@ There are 3 ways to balance traffic between the target servers, know as the load
 
 ### Monitoring
 
-By default the load balancer will check the default site for each target server to see if it responds with a status code between 200 and 399. If the target server doesn't respond (or responds with a status code outside this range) the target server will be marked as unhealthy and no traffic will be sent to it until it recovers.
+By default, the load balancer will check the default site for each target server to see if it responds with a status code between 200 and 399. If the target server doesn't respond (or responds with a status code outside this range) the target server will be marked as unhealthy and no traffic will be sent to it until it recovers.
 
 You can use the target group configuration screen to manage which URL to hit on a target server as either a HEAD, OPTIONS or GET request if you don't want to use the default site. For example if you have a health check URL which performs additional checks before returning a 200 you could put the host, port and path of this URL into the form.
 
