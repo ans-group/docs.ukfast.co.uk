@@ -17,7 +17,7 @@ If no changes are detected between the current configuration deployed to the loa
 
 **Ready to deploy**
 
-If you've made changes since the last deployment and the configuration is valid then you will get a blue "Deploy Now" button. Clicking this will deploy the configuration you have created in MyUKFast to the load balancer so that your changes start to take affect.
+If you've made changes since the last deployment and the configuration is valid then you will get a blue "Deploy Now" button. Clicking this will deploy the configuration you have created in MyUKFast to the load balancer so that your changes start to take effect.
 
 ![Ready to deploy](files/deployment_validation_passed_small.png)
 
