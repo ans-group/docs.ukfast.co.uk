@@ -24,7 +24,7 @@ Click `Create Target` at the top right of the screen.
 
 ![Targets Listview](files/create_target_1_small.png)
 
-Fill the form in with the new target servers IP address and port. If it is a UKFast server you will be able to search for and select the server IP when you click the IP field. You can also give the target server an optional name to help you remember which server it is.
+Fill the form in with the new target server's IP address and port. If it is a UKFast server you will be able to search for and select the server IP when you click the IP field. You can also give the target server an optional name to help you remember which server it is.
 
 If you need to edit setting such as how often to check the health of the target server, whether to check the SSL certificate on the target server or which HTTP version to use this can be done by pressing "Show Advanced Options".
 
