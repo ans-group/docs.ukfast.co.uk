@@ -1,6 +1,6 @@
 # Common Changes
 
-This guide will go over some of the common changes you may want to carry out in the day to day administration of your load balancer server setup.
+This guide will go over some of the common changes you may want to carry out in the day-to-day administration of your load balancer server setup.
 
 ## Adding a new server behind the load balancer
 
