@@ -18,7 +18,7 @@ This is covered in our [common changes](common-changes.html#temporarily-remove-a
 
 Once you've moved behind a load balancer, you may notice that some of your analytics on your backend servers, along with your logs appear to break. Where you used to see a breakdown of all the visitors to your site, you now just see one persistent visitor. The numbers won't have changed, but the IP address will have.
 
-This is down to the nature of the load balancer itself. Where visitors used to directly visit your server, they now visit the loadbalancer instead and it's the load balancer that makes requests to the backend server. As such, the only IP address you'll see in logs or analytics will likely be that of the load balancer.
+This is down to the nature of the load balancer itself. Where visitors used to directly visit your server, they now visit the load balancer instead and it's the load balancer that makes requests to the backend server. As such, the only IP address you'll see in logs or analytics will likely be that of the load balancer.
 
 There's an easy fix. Whereas logs and analytics will usually derive the visitor IP from the requests source, they need to be directed to look at the standard `X-Forwarded-For` header instead. This is injected by the load balancer automatically, so should already be present.
 
