@@ -47,7 +47,7 @@ Fill the form in and then press "Create Target Group" at the bottom right of the
 
 There are 3 ways to balance traffic between the target servers, know as the load balancing method:
 * **Round Robin:** Sends traffic first to server A, then to server B, then to server A and so on. This has a slightly lower overhead but can lead to hot spots developing if sticky sessions are in use.
-* **Least Connections:** Intelligently sends traffic to the target server that has the least connections at any one time.
+* **Least Connections:** Intelligently sends traffic to the target server that has the least connections when the request is received
 * **Source:** The source IP address of the request is hashed and then this is used to determine which target server should be used. It ensures that the IP will always end up on the same target server providing no servers are added or removed.
 
 ### Monitoring
