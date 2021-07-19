@@ -21,7 +21,7 @@ You can also rename a load balancer to help you remember which load balancer is 
 
 ![Renaming a load balancer](files/getting_started_2_small.png)
 
-A load balancer needs configuring with three aspects as a minimum:
+A load balancer needs at least three resources configuring before the first deployment can be made:
 - At least one target group
 - At least one target within that target group
 - At least one listener
