@@ -112,7 +112,7 @@ Each listener needs to have at least one bind and can have as many as needed. Cl
 
 You can set this listener to enable HSTS for visitors, this means that the website will always need to have a valid SSL for users to access the website. If your SSL certificate is ever removed or expires, the user's browser remembers that there should be an SSL certificate and stops the user from accessing the website. **If you are going to enable this setting make sure you have an SSL certificate ready to use.**
 
-You can also enable "Redirect to HTTPS" which similar to HSTS will redirect non HTTPS traffic to HTTPS ensuring the users data is encrypted between their computer and the server. However unlike HSTS this isn't enforced and you can disable this setting if needed in the future.
+You can also enable "Redirect to HTTPS" which similar to HSTS will redirect non-HTTPS traffic to HTTPS ensuring the user's data is encrypted between their computer and the server. However, unlike HSTS this isn't enforced and you can disable this setting if needed in the future.
 
 ## First Deployment
 
