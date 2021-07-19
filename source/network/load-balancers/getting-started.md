@@ -8,7 +8,7 @@ Clicking on the load balancer will take you to the screens which you use to conf
 
 ![Initial Setup Required](files/getting_started_1_small.png)
 
-From the load balancer overview screen you can work your way through the onboarding wizard. If you already know how to setup a UKFast load balancer, you can skip this wizard and work your way through the screens yourself by clicking "Skip Onboarding Wizard".
+From the load balancer overview screen, you can work your way through the onboarding wizard. If you already know how to set up a UKFast load balancer, you can skip this wizard and work your way through the screens yourself by clicking "Skip Onboarding Wizard".
 
 You can also rename a load balancer to help you remember which load balancer is which if you have multiple in your account. This is done by clicking the pencil icon highlighted in blue on the screenshot below, typing in the new name and clicking the save icon.
 
