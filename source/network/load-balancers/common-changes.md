@@ -72,7 +72,7 @@ Once you have created the new SSL certificate, you can click the `deployments sc
 
 The weight of a target server indicates how much traffic will be sent to that target server. The higher the number, the more traffic will be sent to it in comparison to other target servers.
 
-You can drain a target server to stop any traffic from going to it once the current requests have finished being dealt with. This stops a users request from being interrupted and the user potentially getting an error.
+You can drain a target server to stop any traffic from going to it once the current requests have finished being dealt with. This stops a user's request from being interrupted and the user potentially getting an error.
 
 Navigate to the load balancer you want to edit in [MyUKFast](https://my.ukfast.co.uk/load-balancers) then click on `Target Groups` at the top of the load balancer screen
 
