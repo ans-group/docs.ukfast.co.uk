@@ -40,7 +40,7 @@ As long as the rest of your configuration is valid, you will see a `Deploy Now` 
 
 ## Replacing an expired SSL certificate
 
-SSL certificates have expiry dates which once reached will start to show security errors to users visiting the website. You can easily replace your load balancers SSL certificates with a new one when they expire within MyUKFast.
+SSL certificates have expiry dates which once reached will start to show security errors to users visiting the website. You can easily replace your load balancer's SSL certificates with a new one when they expire within MyUKFast.
 
 Firstly open the affected load balancer within [MyUKFast](https://my.ukfast.co.uk/load-balancers), then click on `Listeners` at the top of the overview screen.
 
