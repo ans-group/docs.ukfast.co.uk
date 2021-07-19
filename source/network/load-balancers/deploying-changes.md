@@ -30,7 +30,7 @@ Some reasons that you're configuration may be invalid include:
 * No listeners created
 * No target servers added to a target group
 * Listeners set to redirect to HTTPS without an SSL certificate also configured
-* Listeners being set to redirect to HTTPS without a bind being added on port 443
+* Listeners set to redirect to HTTPS without a bind configured on port 443
 
 If you are unsure what the configuration validator is asking you to do, you can always [create a PSS request](https://my.ukfast.co.uk/pss/create) to speak to a member of our support team*.
 
