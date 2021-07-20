@@ -1,13 +1,13 @@
 # Volumes
-eCloud Volumes are a storage entity that you can attach to a single instance (shared volumes will allow you to connect to multiple Instances, which is coming in Q3). 
+eCloud Volumes are a storage entity that you can attach to a single instance (shared volumes will allow you to connect to multiple Instances, which is coming in Q3).
 
 ### How our Volumes work
 eCloud Volumes are created on our industry leading SANs from HPE 3Par, in eCloud VPC they are independent resources that can be moved between your instances should you need to.
 
 ### Creating a Volume
-A volume will be created for you when you launch an instance or alternatively you can create one from the volumes area in the control panel or via the APIs/CLI tools. 
+A volume will be created for you when you launch an instance or alternatively you can create one from the volumes area in the control panel or via the APIs/CLI tools.
 
-Once you've created a volume you can then attach this volume to the required instance so you can access it. 
+Once you've created a volume you can then attach this volume to the required instance so you can access it.
 
 ### Deleting a Volume
 

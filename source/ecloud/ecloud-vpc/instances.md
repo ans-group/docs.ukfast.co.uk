@@ -8,7 +8,7 @@ Our instances use either UKFast managed images or you can create private images 
 
 Choose your image, the most commonly used images will be displayed at the top under 'Distributions', set a name for your instance if required and select the VPC you wish the instance to be connected to, this will filter your router & network options).
 
-Set the CPU, memory and disk space for your instance, pricing can be found on the pricing page (note that once storage is created it can only be increased and not shrunk). If you require the instance to be able to route out from your network then select that it requires a floating IP on top of defining which router & network to connect it to. 
+Set the CPU, memory and disk space for your instance, pricing can be found on the pricing page (note that once storage is created it can only be increased and not shrunk). If you require the instance to be able to route out from your network then select that it requires a floating IP on top of defining which router & network to connect it to.
 
 Check over the details and then press the launch instance button, in around a minute the 
 instance should be ready for you use.
@@ -30,16 +30,16 @@ There are a number of power options available for your instance;
 
 ### Instances -> Resize
 
-Here you can change the following items: vCPU & RAM 
+Here you can change the following items: vCPU & RAM
 
 Change with the slider or the entry box on the right for any item you wish to change and then press the resize button, changes to your instance may incur additional charges 
 
-There will be a note when the changes affect the pricing of your instance:  
+There will be a note when the changes affect the pricing of your instance: 
 ![Instances](files/instance-resize.PNG)
 
 Whilst your instances size is changing, a banner will be shown and you will locked from making further changes until the request completes, once the request completes, you will be able to make further actions on your instance.
 ![Instances](files/instance-resize-complete.PNG)
- 
+
 
 ### Instances -> Credentials
 

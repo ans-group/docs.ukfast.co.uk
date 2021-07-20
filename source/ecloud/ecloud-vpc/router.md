@@ -1,9 +1,9 @@
-## VPC  
+# VPC
 An eCloud Virtual Private Cloud (VPC) is a logical collection of resources defined by its networking.
 
 ### How a VPC works
 ## Routers
-Routers are the entry and exit point for your networking within your VPCs, within a VPC you can have multiple routers if you require that can each be configured individually. 
+Routers are the entry and exit point for your networking within your VPCs, within a VPC you can have multiple routers if you require that can each be configured individually.
 
 ### How our Router works
 The routers are connected to the internet at the speed defined in the router properties.  North-South firewalling is applied on the router, this is why the firewall policies are within the router section (if you use MyUKFast to manage your routers)
