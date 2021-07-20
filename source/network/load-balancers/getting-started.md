@@ -31,7 +31,7 @@ There are also optional aspects that can be configured within a load balancer, f
 - SSL certificates
 - Access control rules
 
-For more information on these terms, check out the <nospell>[key terms page](key-terms.html)</nospell>.
+For more information on these terms, check out the [key terms page](key-terms.html).
 
 ## Target Groups
 
@@ -82,7 +82,7 @@ You can set Weight to 0 to "drain" the target. This means that any existing conn
 
 You can set a target server to only ever receive requests if all the other targets in that target group are failing their health checks. To do this, change the backup option to `Target only available if all other targets are failing health checks`.
 
-If you need to temporarily stop a server from receiving requests (for instance to install updates) you can uncheck the "Target is Active" box and deploy changes. This will stop this target from receiving any requests from the load balancer. Any sessions will be closed and (depending on how your application is setup) your users may be logged out. The safest way to do this is to first <nospell>[drain the target](common-changes.html#drain-traffic-from-a-particular-target-server)</nospell> before marking it as inactive.
+If you need to temporarily stop a server from receiving requests (for instance to install updates) you can uncheck the "Target is Active" box and deploy changes. This will stop this target from receiving any requests from the load balancer. Any sessions will be closed and (depending on how your application is setup) your users may be logged out. The safest way to do this is to first [drain the target](common-changes.html#drain-traffic-from-a-particular-target-server) before marking it as inactive.
 
 ### Advanced Settings
 
@@ -116,7 +116,7 @@ You can also enable "Redirect to HTTPS" which similar to HSTS will redirect non-
 
 ## First Deployment
 
-Once you have finished configuring your load balancer, it is time to <nospell>[deploy your changes](deploying-changes.html)</nospell>.
+Once you have finished configuring your load balancer, it is time to [deploy your changes](deploying-changes.html).
 
 ```eval_rst
    .. title:: Load Balancers | Getting Started
