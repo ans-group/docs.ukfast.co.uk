@@ -7,11 +7,11 @@ eCloud Volumes are created on our industry leading SANs from HPE 3Par, in eCloud
 ### Creating a Volume
 A volume will be created for you when you launch an instance or alternatively you can create one from the volumes area in the control panel or via the APIs/CLI tools. 
 
-Once you’ve created a volume you can then attach this volume to the required instance so you can access it. 
+Once you've created a volume you can then attach this volume to the required instance so you can access it. 
 
 ### Deleting a Volume
 
-Volumes that contain the operating system that are attached to an instance are deleted when the instance is deleted - for you, any additional volumes will be unattached. They will incur charges until you delete them so it’s best to check in the volumes section if the volume still exists if you need it or not.
+Volumes that contain the operating system that are attached to an instance are deleted when the instance is deleted - for you, any additional volumes will be unattached. They will incur charges until you delete them so it's best to check in the volumes section if the volume still exists if you need it or not.
 
 
 ```eval_rst
