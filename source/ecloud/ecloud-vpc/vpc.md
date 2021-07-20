@@ -4,7 +4,7 @@ An eCloud Virtual Private Cloud (VPC) is a logical collection of resources defin
 ### How a VPC works
 A VPC is much like a traditional data centre where you can (virtually) create your networking (routers and networks) and then create resources attached to those networks to consume. On creation we add a DHCP server to the VPC and some other minor administrative jobs to get going, there is no charge for a VPC by itself.
 
-You can filter by VPC by selecting the VPC from the left hand menu (set to ‘Show All’ by default.)
+You can filter by VPC by selecting the VPC from the left hand menu (set to 'Show All' by default.)
 
 ### How to create a VPC
 
@@ -21,7 +21,7 @@ Automation is then triggered to configure your VPC in the background (should be 
 
 1.	Creates a router in the default Availability Zone (if there is only one, otherwise you can pick your AZ). *The routers throughput is set to 25Mb/s by default.*  
 2.	Creates a 10.0.0.0/24 CIDR Network  
-3.	Creates default firewall rules (if you selected ‘Create default networking’) to allow common communication ports with your network and further restrict inbound access to your network  
+3.	Creates default firewall rules (if you selected 'Create default networking') to allow common communication ports with your network and further restrict inbound access to your network  
 
 The VPC is then available for you to start adding resources to.  
 ![VPC Listview with card](files/vpc-listview-card-example.PNG)
