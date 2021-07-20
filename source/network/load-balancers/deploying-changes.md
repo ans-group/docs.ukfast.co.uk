@@ -2,7 +2,7 @@
 
 Once you have made the changes you want to your configuration, these need to be deployed to the load balancer. Until this is done the load balancer will continue to use the old configuration.
 
-Once any change has been made to the load balancer which needs to be deployed you will see the below blue box at the top of the screen. Clicking `deployments screen` will take you to the page to deploy these changes. If you are still using the onboarding wizard then this box won't be shown, instead the "Deploy Now" button will activate once you've finished the required steps.
+Once any change has been made to the load balancer which needs to be deployed you will see the below blue box at the top of the screen. Clicking the `deployments screen` link will take you to the page to deploy these changes. If you are still using the onboarding wizard then this box won't be shown, instead, the "Deploy Now" button will activate once you've finished the required steps.
 
 ![Deployment Alert](files/deployment_alert_small.png)
 

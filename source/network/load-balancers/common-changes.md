@@ -62,7 +62,7 @@ Click the `Create SSL` button in the top right of the screen and fill in the for
 
 ![Create SSL Form](files/expired_ssl_6_small.png)
 
-Once you have created the new SSL certificate, you can click the `deployments screen` link at the top of the screen. Press `Deploy Now` and wait for the page to refresh. The old SSL certificate has now been removed from your load balancer and the new one applied
+Once you have created the new SSL certificate, you can click the `deployments screen` link at the top of the screen. Press `Deploy Now` and wait for the page to refresh. The old SSL certificate has now been removed from your load balancer and the new one applied. You may need to clear your cache to see the updated certificate.
 
 ![Create SSL Success](files/expired_ssl_7_small.png)
 

@@ -15,7 +15,7 @@ You can also rename a load balancer to help you remember which load balancer is 
 ```eval_rst
 .. warning::
 
-   The primary IP on this page is not a VIP for you to use, it is the IP of the actual load balancer device. You should set up your virtual IPs when configuring your listeners.
+   The primary IP on this page is not a VIP for you to use, it is the IP of the actual load balancer device. You should set up your virtual IPs when configuring your listeners. Each load balancer comes with one VIP by default but you are able to buy more if needed by speaking to your account manager.
 
 ```
 
@@ -82,7 +82,7 @@ You can set Weight to 0 to "drain" the target. This means that any existing conn
 
 You can set a target server to only ever receive requests if all the other targets in that target group are failing their health checks. To do this, change the backup option to `Target only available if all other targets are failing health checks`.
 
-If you need to temporarily stop a server from receiving requests (for instance to install updates) you can uncheck the "Target is Active" box and deploy changes. This will stop this target from receiving any requests from the load balancer.
+If you need to temporarily stop a server from receiving requests (for instance to install updates) you can uncheck the "Target is Active" box and deploy changes. This will stop this target from receiving any requests from the load balancer. Any sessions will be closed and (depending on how your application is setup) your users may be logged out. The safest way to do this is to first [drain the target](common-changes.html#drain-traffic-from-a-particular-target-server) before marking it as inactive.
 
 ### Advanced Settings
 
