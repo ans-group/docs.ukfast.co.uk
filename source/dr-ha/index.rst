@@ -36,7 +36,19 @@ Documentation relating to our highly-available solutions which are able to recov
    :maxdepth: 1
 
    bcp/index
-   /network/loadbalancing/index
+
+-----------------
+Load Balancing
+-----------------
+
+Documentation relating to our load balancer solutions
+
+.. toctree::
+   :maxdepth: 1
+
+   Classic Load Balancers </network/loadbalancing/index>
+   Load Balancers </network/load-balancers/index>
+
 
 -----------------
 DRaaS

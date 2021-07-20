@@ -189,6 +189,8 @@ hostnames
 hotfix
 Hotmail
 HPE
+HSTS
+
 htaccess
 htpasswd
 https
@@ -220,6 +222,7 @@ JSON
 Kerberos
 keypair
 Kubernetes
+Laravel
 latencies
 LFI
 LG
@@ -289,6 +292,7 @@ Nominet's
 NTFS
 NTLM
 Ok
+onboarding
 onwards
 OPcache
 OpenSRS
@@ -330,6 +334,7 @@ PRF
 ProFTPD
 programmatically
 PROprotection
+Proto
 proxying
 PSK
 PSS
@@ -457,6 +462,7 @@ UKFast
 UKFast's
 uncacheable
 uncached
+uncheck
 uncomment
 uncommenting
 uncompress
@@ -472,6 +478,7 @@ upto
 URI
 URIs
 UUIDs
+validator
 vCenter
 VCL
 vCPU
