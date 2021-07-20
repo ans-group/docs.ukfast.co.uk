@@ -6,7 +6,7 @@ Our instances use either UKFast managed images or you can create private images 
 
 ### Launching an Instance (not from marketplace)
 
-Choose your image, the most commonly used images will be displayed at the top under ‘Distributions’, set a name for your instance if required and select the VPC you wish the instance to be connected to, this will filter your router & network options).
+Choose your image, the most commonly used images will be displayed at the top under 'Distributions', set a name for your instance if required and select the VPC you wish the instance to be connected to, this will filter your router & network options).
 
 Set the CPU, memory and disk space for your instance, pricing can be found on the pricing page (note that once storage is created it can only be increased and not shrunk). If you require the instance to be able to route out from your network then select that it requires a floating IP on top of defining which router & network to connect it to. 
 
@@ -50,7 +50,7 @@ Here you will find the instances credentials, press the eye to show the password
 You can delete your instances like all other resources using the trash can icon or form within the resource itself, note though if there is a floating IP or additional volumes attached these will be detached and still incur charges unless you clear them up also, the volume that the operating system sits on will always be deleted. This is slightly different behaviour to some of the other resources where it will error and prevent you from deleting, although the other resources will eventually do this too.
 
 ### Instance Console
-If you wish to see what your instance is doing via it’s (virtual) console (post launch), you can launch the console for the instance from the Instances list view by clicking the ‘>_ ‘ from the instances card. This will create an hour long session for you, note though after 15 minutes of inactivity the session will be closed.
+If you wish to see what your instance is doing via it's (virtual) console (post launch), you can launch the console for the instance from the Instances list view by clicking the '>_ ' from the instances card. This will create an hour long session for you, note though after 15 minutes of inactivity the session will be closed.
 ![Instances](files/instance-console.PNG)
 
 
