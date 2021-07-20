@@ -10,7 +10,7 @@ Choose your image, the most commonly used images will be displayed at the top un
 
 Set the CPU, memory and disk space for your instance, pricing can be found on the pricing page (note that once storage is created it can only be increased and not shrunk). If you require the instance to be able to route out from your network then select that it requires a floating IP on top of defining which router & network to connect it to.
 
-Check over the details and then press the launch instance button, in around a minute the 
+Check over the details and then press the launch instance button, in around a minute the
 instance should be ready for you use.
 ![Instances](files/instance-create.PNG)
 
@@ -23,7 +23,7 @@ Once your instance has finished building you will notice it now has a volume and
 
  
 ### Power
-There are a number of power options available for your instance; 
+There are a number of power options available for your instance;
 •	Power on, Reset and Power off are all akin to physical operations of a server such as physically pressing the power off button
 •	Restart and Shutdown are operating system level commands and will try to cleanly restart or shutdown your instance 
 ![Instances](files/instance-power.PNG)
@@ -32,9 +32,9 @@ There are a number of power options available for your instance;
 
 Here you can change the following items: vCPU & RAM
 
-Change with the slider or the entry box on the right for any item you wish to change and then press the resize button, changes to your instance may incur additional charges 
+Change with the slider or the entry box on the right for any item you wish to change and then press the resize button, changes to your instance may incur additional charges
 
-There will be a note when the changes affect the pricing of your instance: 
+There will be a note when the changes affect the pricing of your instance:
 ![Instances](files/instance-resize.PNG)
 
 Whilst your instances size is changing, a banner will be shown and you will locked from making further changes until the request completes, once the request completes, you will be able to make further actions on your instance.

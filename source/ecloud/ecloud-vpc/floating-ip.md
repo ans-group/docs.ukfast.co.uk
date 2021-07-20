@@ -12,13 +12,13 @@ There are two ways to add a floating IP to an instance;
 1)	To add an Floating (public) IP address to your VPC, press the Request Floating IP button. You can assign Floating IPs directly to Instances via the instance launch page
 ![Floating IP](files/floating-ip-empty.PNG)
 
-You should see the following banner whilst it deals with the request 
+You should see the following banner whilst it deals with the request
 ![Floating IP](files/floating-ip-requested-banner.PNG)
 
-With the IP then available, but not assigned to anything, remember that any floating IP that is not assigned to a resource will still be charged at the rate for that availability zone 
+With the IP then available, but not assigned to anything, remember that any floating IP that is not assigned to a resource will still be charged at the rate for that availability zone
 ![Floating IP](files/floating-ip-launched.PNG)
 
-When building your instance, you can then select from the available IPs; 
+When building your instance, you can then select from the available IPs;
 ![Floating IP](files/floating-ip-assign-instance.PNG)
 
 ### Delete a Floating IP
