@@ -2,12 +2,12 @@
 
 ### Composer Setup
 
-Download composer Installer 
+Download composer Installer
 
 ```bash
 ~]# wget -O /tmp/composer-installer.php https://getcomposer.org/installer
 ```
-Composer can be then installed with the following commands: 
+Composer can be then installed with the following commands:
 
 #### Composer 1
 
@@ -21,7 +21,7 @@ Composer can be then installed with the following commands:
 ~]# php /tmp/composer-installer.php --version=2.0.1 --filename=composer2 --install-dir=/usr/bin
 ```
 
-Please make sure to update Composer 2 to the latest version: 
+Please make sure to update Composer 2 to the latest version:
 
 ```bash
 ~]# php /usr/bin/composer2 self-update
