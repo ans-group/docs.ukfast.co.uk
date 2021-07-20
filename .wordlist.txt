@@ -1,3 +1,4 @@
+3PAR
 AAAA
 actioned
 accreditations
@@ -52,6 +53,7 @@ Ceph
 Certbot
 chipsets
 CIDR
+CIDRs
 CIM
 Citrix
 Citrix's
@@ -156,6 +158,7 @@ filesystems
 FileZilla
 FIPS
 firewalld
+firewalling
 FPC
 FPM
 FQDN
@@ -185,6 +188,7 @@ hostname
 hostnames
 hotfix
 Hotmail
+HPE
 htaccess
 htpasswd
 https
@@ -221,6 +225,7 @@ LFI
 LG
 lifecycle
 Linux
+linux
 LiveOptics
 loadbalanced
 loadbalancer
@@ -298,6 +303,7 @@ OWASP
 PageRank
 PageSpeed
 passthrough
+PAYG
 PCI
 PCIe
 PECL
@@ -368,6 +374,8 @@ runlevel
 runtime
 SaaS
 SafeDNS
+SAN
+SANs
 SATA
 scalability
 scalable
@@ -380,6 +388,7 @@ scriptable
 SDK
 SDKs
 Sectigo
+selectable
 SELinux
 SEO
 SFTP
@@ -479,6 +488,8 @@ VM
 VMs
 VMware
 VPC
+VPCs
+VPC's
 VPN
 VPNs
 VRSN
