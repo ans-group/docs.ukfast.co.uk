@@ -7,7 +7,6 @@ This is the area where you can monitor and manage your spend on eCloud VPC as we
 .. toctree::
    :maxdepth: 1
 
-
    cost-management
    discount-plans
    

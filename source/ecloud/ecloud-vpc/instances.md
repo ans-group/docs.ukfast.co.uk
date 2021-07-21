@@ -12,13 +12,16 @@ Set the CPU, memory and disk space for your instance, pricing can be found on th
 
 Check over the details and then press the launch instance button, in around a minute the
 instance should be ready for you use.
+
 ![Instances](files/instance-create.png)
 
 Whilst your instance is being built you will see the following banner and the instance will be locked from changes whilst it is being built.
+
 ![Instances](files/instance-building.png)
 
 
 Once your instance has finished building you will notice it now has a volume and NIC associated with it at the bottom of the form.
+
 ![Instances](files/instance-launched.png)
 
  
@@ -26,6 +29,7 @@ Once your instance has finished building you will notice it now has a volume and
 There are a number of power options available for your instance;
 •	Power on, Reset and Power off are all akin to physical operations of a server such as physically pressing the power off button
 •	Restart and Shutdown are operating system level commands and will try to cleanly restart or shutdown your instance 
+
 ![Instances](files/instance-power.png)
 
 ### Instances -> Resize
@@ -35,15 +39,17 @@ Here you can change the following items: vCPU & RAM
 Change with the slider or the entry box on the right for any item you wish to change and then press the resize button, changes to your instance may incur additional charges
 
 There will be a note when the changes affect the pricing of your instance:
+
 ![Instances](files/instance-resize.png)
 
 Whilst your instances size is changing, a banner will be shown and you will locked from making further changes until the request completes, once the request completes, you will be able to make further actions on your instance.
-![Instances](files/instance-resize-complete.png)
 
+![Instances](files/instance-resize-complete.png)
 
 ### Instances -> Credentials
 
 Here you will find the instances credentials, press the eye to show the password.
+
 ![Instances](files/instance-credentials.png)
 
 ### Delete Instances
@@ -51,6 +57,7 @@ You can delete your instances like all other resources using the trash can icon 
 
 ### Instance Console
 If you wish to see what your instance is doing via it's (virtual) console (post launch), you can launch the console for the instance from the Instances list view by clicking the '>_ ' from the instances card. This will create an hour long session for you, note though after 15 minutes of inactivity the session will be closed.
+
 ![Instances](files/instance-console.png)
 
 
