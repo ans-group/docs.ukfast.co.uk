@@ -1,7 +1,6 @@
 # Routers
 An eCloud Virtual Private Cloud (VPC) is a logical collection of resources defined by its networking.
 
-### How a VPC works
 ## Routers
 Routers are the entry and exit point for your networking within your VPCs. Within a VPC you can have multiple routers, if you require, that can each be configured individually.
 
