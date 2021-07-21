@@ -11,7 +11,7 @@ By default the page will load with one VPC, if you are planning to have multiple
 Your spend summary shows the total accumulated spend for the month, the estimation for the month and when your next billing date is (1st of the month). You will be able to cycle through the previous months in an upcoming update.
 Spend is broken down per VPC, this view collates all of your VPCs across all of your estate and is not filtered by region
 
-![Spend Summary](files/spend-summary.PNG)
+![Spend Summary](files/spend-summary.png)
 
 ## Pricing
 If you need to check the price of anything quickly before you purchase you can do so on this page, each regions costs for each resource is defined by the hour and the average for a month also shown (730 hours). Currently all pricing for every region is the same.

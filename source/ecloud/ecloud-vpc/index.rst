@@ -1,6 +1,6 @@
-===============
+==========
 eCloud VPC
-===============
+==========
 
 eCloud VPC is UKFast's cloud hosting platform, rebuilt from the ground  up on the latest enterprise-grade VMware technology. Created to rival the public cloud providers, eCloud VPC has all the benefits of public cloud i.e. flexibility, affordability, plus the security and simplicity of UKFast’s private cloud.   
 
@@ -8,7 +8,7 @@ eCloud VPC is UKFast's cloud hosting platform, rebuilt from the ground  up on th
    :maxdepth: 1
 
    ecloud-vpc
-   navigating-ecloud
+   navigating-ecloud-vpc
    vpc
    router
    networks
