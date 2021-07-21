@@ -6,9 +6,9 @@ eCloud VPC is UKFast's cloud hosting platform, rebuilt from the ground  up on th
 
 This high performance, easy to use and fully scalable solution, makes world-class cloud technology available to all.
 
-====================
+--------------------
 How eCloud VPC works
-====================
+--------------------
 
 Each virtual private cloud you create gives you the ability to define networking and create resources in a traditional public cloud way. Each of the VPCs are segregated at the networking layer so you can create independent pools of resources for your computing needs. eCloud VPC has the options for traditional Pay-As-You-Go or by contracting blocks of PAYG spend at discounted rates using our discount plans, with the ability to create and delete all of the resources via our control panel, APIs or command line tools.
 
