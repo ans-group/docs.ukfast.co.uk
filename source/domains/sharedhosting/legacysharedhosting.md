@@ -41,7 +41,7 @@ To obtain your domain content, you will need to use an **FTP client** and your e
 ## Removing Domain Forwarding
 ```eval_rst
 .. warning::
-Before removing Domain Forwarding from your domain, please ensure you have configured a suitable replacement redirect, such as a `CNAME/ALIAS record`_ or an application level redirect.
+   Before removing Domain Forwarding from your domain, please ensure you have configured a suitable replacement redirect, such as a `CNAME/ALIAS record`_ or an application level redirect.
 
 .. _CNAME/ALIAS record: /domains/safedns/recordtypes.html
 
