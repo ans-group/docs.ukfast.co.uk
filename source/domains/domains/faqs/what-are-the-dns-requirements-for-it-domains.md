@@ -22,7 +22,7 @@ Every domain name registered must have the following requirements pre-configured
 7. Whenever interrogated, the servers must not give the following responses: not responding, not reachable, not running, non-existent   domain, host not found, server failure, query failed.
 8. Indicated nameservers must be authoritative for the domain name.
 
-**IMPORTANT:** You cannot use the nameservers (dns2.nic.it) or (dns3.nic.it)
+**IMPORTANT:** You cannot use the nameservers <nospell>(dns2.nic.it) or (dns3.nic.it)</nospell>
 
 **NOTE:** The domain name and nameserver details are transferred to the zone file within 24 hour, after which time the domain name becomes active.
 
