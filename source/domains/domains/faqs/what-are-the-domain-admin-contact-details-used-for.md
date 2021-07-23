@@ -1,8 +1,9 @@
 # What are the domain ""Admin"" contact details used for?
 
 ```eval_rst
-   .. title::Domain Name FAQ What are the domain ""Admin"" contact details used for?"
+   .. title:: Domain Name FAQ What are the domain ""Admin"" contact details used for?"
    .. meta::
+       :title:: Domain Name FAQ What are the domain ""Admin"" contact details used for?"
        :description: Domain Name FAQ What are the domain ""Admin"" contact details used for?"
 ```
 

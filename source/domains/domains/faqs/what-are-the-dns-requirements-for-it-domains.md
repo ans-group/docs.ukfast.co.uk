@@ -1,8 +1,9 @@
 # What are the DNS requirements for .IT domains?
 
 ```eval_rst
-   .. title::Domain Name FAQ What are the DNS requirements for .IT domains?
+   .. title:: Domain Name FAQ What are the DNS requirements for .IT domains?
    .. meta::
+       :title:: Domain Name FAQ What are the DNS requirements for .IT domains?
        :description: Domain Name FAQ What are the DNS requirements for .IT domains?
 ```
 
