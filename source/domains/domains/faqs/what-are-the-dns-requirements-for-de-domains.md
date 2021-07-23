@@ -1,8 +1,9 @@
 # What are the DNS requirements for .DE Domains
 
 ```eval_rst
-   .. title::Domain Name FAQ What are the DNS requirements for .DE Domains?
+   .. title:: Domain Name FAQ What are the DNS requirements for .DE Domains?
    .. meta::
+       :title:: Domain Name FAQ What are the DNS requirements for .DE Domains?
        :description: Domain Name FAQ What are the DNS requirements for .DE Domains?
 ```
 
