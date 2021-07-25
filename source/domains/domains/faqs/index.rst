@@ -112,3 +112,12 @@ Owner details
    what-do-the-domain-verification-statuses-mean.md
    what-change-will-trigger-the-validation-process-for-an-existing-domain.md
    what-is-a-domain-whois-data-reminder-policy-wdrp-email.md   
+
+DNS Requirements
+----------------
+
+.. toctree::
+   :maxdepth: 1
+
+   what-are-the-dns-requirements-for-de-domains.md
+   what-are-the-dns-requirements-for-it-domains.md
