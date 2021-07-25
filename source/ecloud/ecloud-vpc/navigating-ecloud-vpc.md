@@ -13,21 +13,21 @@ Coming Q3 2021, availability zones will allow resources to be distributed into t
 ## Resource Status'
 All of the resources within eCloud VPC have a status that can be one of the following four states:
 
-![Status Complete](files/status-complete.png)  
+![Status Complete](files/status-complete.png)
 
 The health of the resource is good
 
 
-![Status In Progress](files/status-in-progress.png) 
+![Status In Progress](files/status-in-progress.png)
 
 The resource is currently being created, updated or deleted
 
 
-![Status Failed](files/status-failed.png)  
+![Status Failed](files/status-failed.png)
 
 The resource, for any number of reasons has failed to create, update or delete
 
-![Status Deleted](files/status-deleted.png)  
+![Status Deleted](files/status-deleted.png)
 
 The resource has been successfully deleted and will not show after a refresh.
 
