@@ -9,7 +9,7 @@
 
 To activate a .IT domain you must provide at least two functional nameservers, which can be provided when registering the domain or when activating it.
 
-All DNS zones should be configured beforehand. The IT registry checks the DNS requirements at registration and if that fails, it checks them periodically thereafter. If, after 30 days, the DNS requirements are not met, the IT registry will delete the domain.
+All DNS zones should be configured beforehand. The .IT registry checks the DNS requirements at registration and if that fails, it checks them periodically thereafter. If, after 30 days, the DNS requirements are not met, the .IT registry will delete the domain.
 
 Every domain name registered must have the following requirements pre-configured:
 
@@ -19,11 +19,27 @@ Every domain name registered must have the following requirements pre-configured
 4. The name of the nameserver specified in the SOA cannot be a CNAME.
 5. At least one MX or A record must exist for the domain name.
 6. Where an MX record is listed, it must not have an associated CNAME.
-7. Whenever interrogated, the servers must not give the following responses: not responding, not reachable, not running, non-existent   domain, host not found, server failure, query failed.
-8. Indicated nameservers must be authoritative for the domain name.
+7. Whenever interrogated, the servers must not give the following responses:
+    - not responding
+    - not reachable
+    - not running
+    - non-existent domain
+    - host not found
+    - server failure
+    - query failed
+9. Indicated nameservers must be authoritative for the domain name.
 
-**IMPORTANT:** You cannot use the nameservers <nospell>(dns2.nic.it) or (dns3.nic.it)</nospell>
+```eval_rst
+.. warning::
+   You cannot use the nameservers ``dns2.nic.it`` or ``dns3.nic.it``
+```
 
-**NOTE:** The domain name and nameserver details are transferred to the zone file within 24 hour, after which time the domain name becomes active.
+```eval_rst
+.. note::
+   The domain name and nameserver details are transferred to the zone file within 24 hour, after which time the domain name becomes active.
+```
 
-**NOTE:** Nameserver changes can take up to five days to complete pending validation by the Registry. During that time, the domain's status is pending update, and the old nameservers continue to be displayed.
+```eval_rst
+.. note::
+   Nameserver changes can take up to five days to complete pending validation by the Registry. During that time, the domain's status is pending update, and the old nameservers continue to be displayed.
+```
