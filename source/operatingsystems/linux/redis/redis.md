@@ -25,7 +25,7 @@ rpm -qa | grep redis
 ```
 
 ```console
-redis-5.0.5-1.el7.remi.x86_64
+redis-6.2.4-1.el7.remi.x86_64
 ```
 
 ### Install Multiple Instances
@@ -34,7 +34,7 @@ The following script will install an additional instances of Redis. Simply defin
 
 ```bash
 REDISINSTANCE="3"
-REDISPORT="6382"
+REDISPORT="6381"
 ```
 
 #### Redis Creation Script
@@ -49,35 +49,67 @@ Copy and paste this into the terminal, and then press `ctrl+d`:
 
 ```bash
 #!/bin/bash
-########## First run creates Redis2 and second run creates redis3
-
-if [[ -f /etc/redis.conf ]]
-then
-    echo "File /etc/redis.conf not found, please review"
-    exit 1
-fi
+########## Running this will check for Base instance, and multi instances.
 
 REDISINSTANCE="3"
-REDISPORT="6382"
+REDISPORT="6381"
+OS=$(awk -F= '/^NAME/{print $2}' /etc/os-release | awk -F"\"" '{print $2}' | awk -F" " '{print $1}')
+REDISVERSION=$(redis-server -v | awk -F" " '{print $3}' | awk -F"=" '{print $2}' | awk -F"." '{print $1}')
 
-if [[ ! -f /etc/redis${REDISINSTANCE}.conf ]]
+if [[ $REDISVERSION = "6" ]]
 then
+    if [[ ! -f /etc/redis/redis.conf ]]
+    then
+        echo "File /etc/redis/redis.conf not found, please review"
+        exit 1
+    fi
+    if [[ -f /etc/redis/redis${REDISINSTANCE}.conf ]]
+    then
+    echo "File /etc/redis/redis${REDISINSTANCE}.conf already exists, please review"
+    exit 1
+    fi
+else
+    if [[ ! -f /etc/redis.conf ]]
+    then
+        echo "File /etc/redis.conf not found, please review"
+        exit 1
+    fi
+    if [[ -f /etc/redis${REDISINSTANCE}.conf ]]
+    then
     echo "File /etc/redis${REDISINSTANCE}.conf already exists, please review"
     exit 1
+    fi
 fi
 
-cp -a /etc/redis.conf /etc/redis${REDISINSTANCE}.conf
-mkdir /var/lib/redis${REDISINSTANCE}
-chown -R redis: /var/lib/redis${REDISINSTANCE}
-touch /var/log/redis/redis${REDISINSTANCE}.log
-chown redis: /var/log/redis/redis${REDISINSTANCE}.log
-sed -i "s/redis.pid/redis${REDISINSTANCE}.pid/g" /etc/redis${REDISINSTANCE}.conf
-sed -i "s/redis.log/redis${REDISINSTANCE}.log/g" /etc/redis${REDISINSTANCE}.conf
-sed -i "s#dir /var/lib/redis#dir /var/lib/redis${REDISINSTANCE}#g" /etc/redis${REDISINSTANCE}.conf
-sed -i "s/port 6379/port ${REDISPORT}/g" /etc/redis${REDISINSTANCE}.conf
-sed -i "s/redis.sock/redis${REDISINSTANCE}.sock/g" /etc/redis${REDISINSTANCE}.conf
+if [[ $REDISVERSION = "6" ]]
+then
+    cp -a /etc/redis/redis.conf /etc/redis/redis${REDISINSTANCE}.conf
+    mkdir /var/lib/redis${REDISINSTANCE}
+    chown -R redis: /var/lib/redis${REDISINSTANCE}
+    touch /var/log/redis/redis${REDISINSTANCE}.log
+    chown redis: /var/log/redis/redis${REDISINSTANCE}.log
+    sed -i "s/redis.pid/redis${REDISINSTANCE}.pid/g" /etc/redis/redis${REDISINSTANCE}.conf
+    sed -i "s/redis.log/redis${REDISINSTANCE}.log/g" /etc/redis/redis${REDISINSTANCE}.conf
+    sed -i "s#dir /var/lib/redis#dir /var/lib/redis${REDISINSTANCE}#g" /etc/redis/redis${REDISINSTANCE}.conf
+    sed -i "s/port 6379/port ${REDISPORT}/g" /etc/redis/redis${REDISINSTANCE}.conf
+    sed -i "s/redis.sock/redis${REDISINSTANCE}.sock/g" /etc/redis/redis${REDISINSTANCE}.conf
+fi
 
-if [[ "`grep "release 7" /etc/redhat-release`" =~ "release 7" ]]
+if [[ $REDISVERSION != "6" ]]
+then
+    cp -a /etc/redis.conf /etc/redis${REDISINSTANCE}.conf
+    mkdir /var/lib/redis${REDISINSTANCE}
+    chown -R redis: /var/lib/redis${REDISINSTANCE}
+    touch /var/log/redis/redis${REDISINSTANCE}.log
+    chown redis: /var/log/redis/redis${REDISINSTANCE}.log
+    sed -i "s/redis.pid/redis${REDISINSTANCE}.pid/g" /etc/redis/redis${REDISINSTANCE}.conf
+    sed -i "s/redis.log/redis${REDISINSTANCE}.log/g" /etc/redis/redis${REDISINSTANCE}.conf
+    sed -i "s#dir /var/lib/redis#dir /var/lib/redis${REDISINSTANCE}#g" /etc/redis/redis${REDISINSTANCE}.conf
+    sed -i "s/port 6379/port ${REDISPORT}/g" /etc/redis/redis${REDISINSTANCE}.conf
+    sed -i "s/redis.sock/redis${REDISINSTANCE}.sock/g" /etc/redis/redis${REDISINSTANCE}.conf
+fi 
+
+if [[ $OS = "CentOS" ]]
 then
     cp -a /usr/lib/systemd/system/redis.service /usr/lib/systemd/system/redis${REDISINSTANCE}.service
     sed -i "s/redis.conf/redis${REDISINSTANCE}.conf/g" /usr/lib/systemd/system/redis${REDISINSTANCE}.service
@@ -86,14 +118,16 @@ then
     sed -i "s/SERVICE_NAME=redis/SERVICE_NAME=redis${REDISINSTANCE}/" /usr/libexec/redis${REDISINSTANCE}-shutdown
     sed -i "s/6379/${REDISPORT}/" /usr/libexec/redis${REDISINSTANCE}-shutdown
     systemctl start redis${REDISINSTANCE}.service
+    systemctl enable redis${REDISINSTANCE}.service  
+fi
+
+if [[ $OS = "Ubuntu" ]]
+then
+    cp -a /usr/lib/systemd/system/redis-server.service /usr/lib/systemd/system/redis${REDISINSTANCE}.service
+    sed -i "s/redis.conf/redis${REDISINSTANCE}.conf/g" /usr/lib/systemd/system/redis${REDISINSTANCE}.service
+    sed -i "s/Alias=redis.service/Alias=redis${REDISINSTANCE}.service/g" /usr/lib/systemd/system/redis${REDISINSTANCE}.service
     systemctl enable redis${REDISINSTANCE}.service
-else
-    cp -a /etc/init.d/redis /etc/init.d/redis${REDISINSTANCE}
-    sed -i "s/redis.pid/redis${REDISINSTANCE}.pid/g" /etc/init.d/redis${REDISINSTANCE}
-    sed -i "s/redis.conf/redis${REDISINSTANCE}.conf/g" /etc/init.d/redis${REDISINSTANCE}
-    sed -i "s/redis-shutdown/redis-shutdown redis${REDISINSTANCE}/g" /etc/init.d/redis${REDISINSTANCE}
-    service redis${REDISINSTANCE} start
-    chkconfig redis${REDISINSTANCE} on
+    systemctl start redis${REDISINSTANCE}.service
 fi
 ```
 
