@@ -107,7 +107,7 @@ then
     sed -i "s#dir /var/lib/redis#dir /var/lib/redis${REDISINSTANCE}#g" /etc/redis/redis${REDISINSTANCE}.conf
     sed -i "s/port 6379/port ${REDISPORT}/g" /etc/redis/redis${REDISINSTANCE}.conf
     sed -i "s/redis.sock/redis${REDISINSTANCE}.sock/g" /etc/redis/redis${REDISINSTANCE}.conf
-fi 
+fi
 
 if [[ $OS = "CentOS" ]]
 then
@@ -118,7 +118,7 @@ then
     sed -i "s/SERVICE_NAME=redis/SERVICE_NAME=redis${REDISINSTANCE}/" /usr/libexec/redis${REDISINSTANCE}-shutdown
     sed -i "s/6379/${REDISPORT}/" /usr/libexec/redis${REDISINSTANCE}-shutdown
     systemctl start redis${REDISINSTANCE}.service
-    systemctl enable redis${REDISINSTANCE}.service  
+    systemctl enable redis${REDISINSTANCE}.service
 fi
 
 if [[ $OS = "Ubuntu" ]]
