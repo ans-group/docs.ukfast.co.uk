@@ -1,6 +1,6 @@
 # Network File System (NFS)
 
-## Install NFS on client server 
+## Install NFS on client server
 You can install NFS on a RPM-based server with the following command:
 
 ```bash
