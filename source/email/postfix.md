@@ -22,7 +22,7 @@ chkconfig postfix on
 
 ## Ubuntu installation
 
-The process for installing Postfix on Ubuntu is similar. Use the below commands to acheive this:
+The process for installing Postfix on Ubuntu is similar. Use the below commands to achieve this:
 
 
 ```bash
@@ -35,11 +35,11 @@ Mail name: this should be something like mail.domain.com to help with delivery -
 
 Root and postmaster mail recipient: The username of your primary Linux account.
 
-Other destinations to accept mail for: $myhostname, example.com, mail.domain.com, localhost.domain.com, localhost
+Other destinations to accept mail for: `$myhostname`, example.com, mail.domain.com, localhost.domain.com, localhost
 
 Force synchronous updates on mail queue?: No
 
-Local networks: 127.0.0.0/8 [::ffff:127.0.0.0]/104 [::1]/128
+Local networks: `127.0.0.0/8 [::ffff:127.0.0.0]/104 [::1]/128`
 
 Mailbox size limit: 0
 
