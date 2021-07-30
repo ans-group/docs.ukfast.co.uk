@@ -12,6 +12,7 @@ To add a domain to your Magento 2 optimised stack please provide us with the fol
 We will then setup the following for you:
 
 - NGINX configuration file (`/etc/nginx/conf.d/exampledomain.co.uk.conf`)
+- NGINX Redirect file (` /etc/nginx/redirect/exampledomain.co.uk.redirect.inc`)
 - PHP-FPM configuration file (`/etc/php-fpm.d/exampledomain.co.uk.conf`)
 - Document Root (`/var/www/vhosts/exampledomain.co.uk/htdocs/`)
 - Local System User and password (`exampledomain.co.uk`)
