@@ -6,6 +6,10 @@ Brute forcing is when an attacker submits lots of password attempts in quick suc
 
 It's very common, and not typically a very effective type of attack, but the sheer number of these requests can sometimes contribute to load issues.
 
+### Types of brute forcing
+
+It's  possible for brute forces to occur over any protocol that allows a login and is open over the internet, for example, wordpress sites with an admin page, any other sites that allow logins, SSH, cPanel/Plesk, and FTP.
+
 ### Wordpress 
 
 Wordpress is a common target of these attacks due to it's popularity. On wordpress, there are two files that are typically targeted for brute forcing:
@@ -14,10 +18,6 @@ Wordpress is a common target of these attacks due to it's popularity. On wordpre
 - xmlrpc.php - A protocol used historically with wordpress to enable communication between wordpress and other systems. It's enabled by default, but has largely been superseded by REST API, so in most cases it can be disabled without harm. 
 
 Wordpress have a [great guide](https://wordpress.org/support/article/brute-force-attacks/) on how to mitigate these attacks specifically for this platform.
-
-### Types of brute forcing
-
-It's  possible for brute forces to occur over any protocol that allows a login and is open over the internet, for example, wordpress sites with an admin page, any other sites that allow logins, SSH, cPanel/Plesk, and FTP.
 
 ### How to spot a brute force attack
 
@@ -48,11 +48,9 @@ You can block the IP addresses sending these requests, but this isn't an effecti
 
 - Using our [Threat Vision](https://www.ukfast.co.uk/intrusion-detection-response.html) service
 
-For wordpress or site-level attacks:
+- For server-level services such as SSH and FTP, we'd recommend locking down the ports in your [firewall](https://docs.ukfast.co.uk/network/firewalls/index.html) so that only you can access them
 
-- Locking down wp-login [to select IPs](https://wordpress.org/support/article/brute-force-attacks/#limit-access-to-wp-login-php-by-ip)
-
-- Disabling xmlrpc.php:
+- For wordpress or site-level attacks, we'd recommend locking down wp-login [to select IPs](https://wordpress.org/support/article/brute-force-attacks/#limit-access-to-wp-login-php-by-ip), and disabling xmlrpc.php:
 
 Apache:
 
@@ -71,4 +69,3 @@ return 403;
 }
 ```
 
-For server-level services such as SSH and FTP, we'd recommend locking down the ports in your [firewall](https://docs.ukfast.co.uk/network/firewalls/index.html) so that only you can access them.
