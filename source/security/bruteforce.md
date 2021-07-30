@@ -8,7 +8,7 @@ It's very common, and not typically a very effective type of attack, but the she
 
 ### Types of brute forcing
 
-It's  possible for brute forces to occur over any protocol that allows a login and is open over the internet, for example, wordpress sites with an admin page, any other sites that allow logins, SSH, cPanel/Plesk, and FTP.
+It's  possible for brute forces to occur over any protocol that allows a login and is open over the internet, for example, wordpress sites, any other sites with an admin page, SSH, cPanel/Plesk, and FTP.
 
 ### Wordpress 
 
@@ -36,7 +36,7 @@ Jul 28 18:48:22 78 sshd[19900]: Failed password for root from X.X.X.X port 47894
 
 Both of the above indicate that login attempts are being made, so if there are high quantities it's likely this is brute forcing.
 
-### Protecting against the attacks
+### Protecting against attacks
 
 You can block the IP addresses sending these requests, but this isn't an effective solution in the long-term as the requests are usually automated and will originate from various different IPs. 
 
@@ -48,7 +48,7 @@ You can block the IP addresses sending these requests, but this isn't an effecti
 
 - Using our [Threat Vision](https://www.ukfast.co.uk/intrusion-detection-response.html) service
 
-- For server-level services such as SSH and FTP, we'd recommend locking down the ports in your [firewall](https://docs.ukfast.co.uk/network/firewalls/index.html) so that only you can access them
+- For server-level services such as SSH and FTP, we'd recommend locking down the ports in your [firewall](https://docs.ukfast.co.uk/network/firewalls/index.html) so that only you can access them. This removes the attack vector entirely as they can no longer attempt to login. 
 
 - For wordpress or site-level attacks, we'd recommend locking down wp-login [to select IPs](https://wordpress.org/support/article/brute-force-attacks/#limit-access-to-wp-login-php-by-ip), and disabling xmlrpc.php:
 
