@@ -13,22 +13,23 @@ Coming Q3 2021, availability zones will allow resources to be distributed into t
 ## Resource Status'
 All of the resources within eCloud VPC have a status that can be one of the following four states:
 
+![Status Complete](files/status-complete.png)
 
 The health of the resource is good
 
-![Status Complete](files/status-complete.png)
-
-The resource is currently being created, updated or deleted
 
 ![Status In Progress](files/status-in-progress.png)
 
-The resource, for any number of reasons has failed to create, update or delete
+The resource is currently being created, updated or deleted
+
 
 ![Status Failed](files/status-failed.png)
 
-The resource has been successfully deleted and will not show after a refresh.
+The resource, for any number of reasons has failed to create, update or delete
 
 ![Status Deleted](files/status-deleted.png)
+
+The resource has been successfully deleted and will not show after a refresh.
 
 ## Cards
 Most resources we display are shown as 'cards' on MyUKFast, with their display name in bold on the top-left and then the most relevant information for that resource shown below. In this example of a floating IP it displays its name and then the id, the VPC it belongs to, the actual IP, where it is assigned to and its status. The card can be clicked to view further information and make changes to the resource.
