@@ -78,7 +78,7 @@ Then restart NGINX to put it live:
       :description: FAQs about UKFast load balancers
 ```
 
-### I'm getting a redirect loop when redirecting to HTTPS, how can I fix this?
+## I'm getting a redirect loop when redirecting to HTTPS, how can I fix this?
 
 In some configurations, performing a HTTP->HTTPS redirect from a server behind a load balancer may result in your website experiencing a redirect loop. As the HTTPS connection is terminated at the load balancer, the backend servers only see HTTP connections and continually try to redirect the client to a HTTPS URL.
 
