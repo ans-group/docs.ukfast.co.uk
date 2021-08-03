@@ -42,20 +42,28 @@ The `PHP-FPM` configuration pool for your domain is located in `/etc/php-fpm.d/`
 ```
 ### Enable Core Dumps
 
+Sometimes your application may generate a SIGSEGV error or similar. Within PHP-FPM, all we will see is a 502 error message. Enabling core dumps can help to debug these issues further.
+
 If you need to enable core dumps you can run the below command:
-```echo '/tmp/core-%e.%p' > /proc/sys/kernel/core_pattern echo 0 > /proc/sys/kernel/core_uses_pid ulimit -c unlimited ```
-Then set the `rlimit_core` directive in `/etc/php-fpm.d/domain.conf` to unlimited:
+```bash
+echo '/tmp/core-%e.%p' > /proc/sys/kernel/core_pattern echo 0 > /proc/sys/kernel/core_uses_pid ulimit -c unlimited 
 ```
+
+Then set the `rlimit_core` directive in `/etc/php-fpm.d/domain.conf` to unlimited:
+```bash
 `rlimit_core = unlimited`
 `sysctl fs.suid_dumpable=2`
 ```
-Core dumps should be able to generate now. We will need debug software to read them. (Change the `'php-fpm-5.6.28-1'` section to match your `PHP` version):
+Core dumps should be able to generate now. We will need debug software to read them:
 ```
-`debuginfo-install php-fpm-5.6.28-1.el6.remi.x86_64 --enablerepo=remi-php56,remi,epel`
+`debuginfo-install php-fpm --enablerepo=remi,epel`
+`yum install gdb`
 ```
+
 Then run this to read a file where '2393' is the number at the end of the dump:
 ```
 `gdb -x gdbCommands.txt   /usr/sbin/php-fpm /tmp/coredump-php-fpm.2393`
+`bt`
 ```
 
 ```eval_rst
