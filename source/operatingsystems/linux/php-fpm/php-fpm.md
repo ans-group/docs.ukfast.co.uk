@@ -46,7 +46,7 @@ Sometimes your application may generate a SIGSEGV error or similar. Within PHP-F
 
 If you need to enable core dumps you can run the below command:
 ```bash
-echo '/tmp/core-%e.%p' > /proc/sys/kernel/core_pattern echo 0 > /proc/sys/kernel/core_uses_pid ulimit -c unlimited 
+echo '/tmp/core-%e.%p' > /proc/sys/kernel/core_pattern echo 0 > /proc/sys/kernel/core_uses_pid ulimit -c unlimited
 ```
 
 Then set the `rlimit_core` directive in `/etc/php-fpm.d/domain.conf` to unlimited:
