@@ -99,3 +99,7 @@ if ($http_x_forwarded_proto = "http") {
     return 301 https://$server_name$request_uri;
 }
 ```
+
+## How do I setup SSL passthrough?
+
+To setup SSL passthrough you should create a TCP listener with an IP binding on port 443. You can then point this to your target groups as you would normally.
