@@ -52,7 +52,7 @@ Enabling core dumps can help to debug and find the cause of the `SIGSEGV`.
 
 If you need to enable core dumps you can run the below commands:
 ```bash
-echo '/tmp/core-%e.%p' > /proc/sys/kernel/core_pattern 
+echo '/tmp/core-%e.%p' > /proc/sys/kernel/core_pattern
 echo 0 > /proc/sys/kernel/core_uses_pid
 ulimit -c unlimited
 sysctl fs.suid_dumpable=2
