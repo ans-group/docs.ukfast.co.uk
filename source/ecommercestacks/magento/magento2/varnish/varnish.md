@@ -101,7 +101,29 @@ Copyright (c) 2006 Verdens Gang AS
 Copyright (c) 2006-2020 Varnish Software
 ```
 
-### Generate VCL
+### Varnishlog
+
+The varnishlog command can be used to debug issues. Here are some examples which may assist you:
+
+#### Monitor for Purge requests
+This is very handy to see how frequelently purge requests are being sent to Varnish:
+
+```bash
+varnishlog -g request -q 'ReqMethod eq "PURGE"'
+```
+
+#### Filter varnishlog by IP address
+If you wish to only see your own requests to Varnish you can filter with similar commands to:
+
+```bash
+varnishlog -q "ReqHeader eq 'X-Forwarded-For: ip.ip.ip.ip'"
+
+varnishlog -q "ReqHeader eq 'DDOSX-Connecting-IP: ip.ip.ip.ip'"
+
+varnishlog -q "ReqHeader eq 'X-Real-IP: ip.ip.ip.ip'"
+```
+
+### Generate VCL in Magento2
 
 - Log in to the Magento Admin as an administrator.
 - Click `STORES` > `Settings` > `Configuration` > `ADVANCED` > `System` > `Full Page Cache`.
