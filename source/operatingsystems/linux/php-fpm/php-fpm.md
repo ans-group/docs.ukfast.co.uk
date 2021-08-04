@@ -42,7 +42,7 @@ The `PHP-FPM` configuration pool for your domain is located in `/etc/php-fpm.d/`
 ```
 ### Enable Core Dumps
 
-Sometimes your application may generate a SIGSEGV error or similar. Within PHP-FPM, all we will see is a 502 error message. Enabling core dumps can help to debug these issues further.
+Sometimes your application may generate a `SIGSEGV` error or similar. Within PHP-FPM, all we will see is a 502 error message. Enabling core dumps can help to debug these issues further.
 
 If you need to enable core dumps you can run the below command:
 ```bash
