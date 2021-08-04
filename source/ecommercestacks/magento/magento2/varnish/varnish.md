@@ -1,6 +1,6 @@
 # Varnish
 
-Varnish is recommended for Full Page Caching with Magento2. Website performance is greatly increased when using Varnish. 
+Varnish is recommended for Full Page Caching with Magento2. Website performance is greatly increased when using Varnish.
 
 Traffic flow on a single server with Varnish is typically:
 
