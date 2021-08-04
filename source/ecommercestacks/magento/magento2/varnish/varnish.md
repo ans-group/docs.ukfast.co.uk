@@ -61,7 +61,7 @@ ExecStart=/usr/sbin/varnishd \
 It's very important to run a configuration test before starting / restarting the Varnish service. You can run a configuration test with the following command:
 
 ```bash
-~]# varnishd -C -f /etc/varnish/default.vcl
+varnishd -C -f /etc/varnish/default.vcl
 ```
 
 A successful output from this command will be the VCL displayed on the terminal with no error message(s).
@@ -71,7 +71,7 @@ A successful output from this command will be the VCL displayed on the terminal 
 You can start the Varnish service with the following command:
 
 ```bash
-~]# systemctl start varnish
+systemctl start varnish
 ```
 
 ##### Start On Boot
@@ -87,14 +87,14 @@ systemctl enable varnish
 You can reload the Varnish service with the following command:
 
 ```bash
-~]# systemctl reload varnish
+systemctl reload varnish
 ```
 #### Restart Varnish
 
 You can restart the Varnish service with the following command:
 
 ```bash
-~]# systemctl restart varnish
+systemctl restart varnish
 ```
 
 ### Version Check
@@ -145,8 +145,8 @@ varnishlog -q "ReqHeader eq 'X-Real-IP: ip.ip.ip.ip'"
 You can now copy the file `/var/www/vhosts/exmapledomain.com/htdocs/var/varnish.vcl` to `/etc/varnish/default.vcl`. You may want to back up the `default.vcl` file:
 
 ```bash
-~]# mv /etc/varnish/default.vcl /etc/varnish/default.vcl.backup
-~]# cp /var/www/vhosts/exmapledomain.com/htdocs/var/varnish.vcl /etc/varnish/default.vcl
+mv /etc/varnish/default.vcl /etc/varnish/default.vcl.backup
+cp /var/www/vhosts/exmapledomain.com/htdocs/var/varnish.vcl /etc/varnish/default.vcl
 ```
 ### Set Varnish for FPC in Magento2
 
@@ -259,8 +259,8 @@ Cacheable and uncacheable are terms Magento uses to indicate whether or not a pa
 If pages are not being cached we recommend you search for `cacheable="false"` with the below command:
 
 ```bash
-~]$ cd /var/www/vhosts/domainname.com/htdocs/
-~]$ find vendor app -regextype 'egrep' -type f -regex '.*/layout/.*\.xml' -not -regex '.*(vendor/magento/|/checkout_|/catalogsearch_result_|/dotmailer).*' | xargs grep --color -n -e 'cacheable="false"'
+cd /var/www/vhosts/domainname.com/htdocs/
+find vendor app -regextype 'egrep' -type f -regex '.*/layout/.*\.xml' -not -regex '.*(vendor/magento/|/checkout_|/catalogsearch_result_|/dotmailer).*' | xargs grep --color -n -e 'cacheable="false"'
 ```
 
 ### Exclude Domain From Cache
@@ -329,25 +329,25 @@ varnishd -C -f /etc/varnish/default.vcl && systemctl reload varnish
 Magento purges Varnish hosts after you configure Varnish hosts using the `magento setup:config:set` command. Ensure you run the Magento 2 CLI as the local system user defined in PHP-FPM and not root. Once configured, when you clean, flush, or refresh the Magento cache, Varnish purges as well.
 
 ```bash
-~]$ php bin/magento setup:config:set --http-cache-hosts=10.0.0.17
+php bin/magento setup:config:set --http-cache-hosts=10.0.0.17
 ```
 
 You can also define more hosts if you have multiple web/varnish servers:
 
 ```bash
-~]$ php bin/magento setup:config:set --http-cache-hosts=10.0.0.17,10.0.0.18,10.0.0.19
+php bin/magento setup:config:set --http-cache-hosts=10.0.0.17,10.0.0.18,10.0.0.19
 ```
 
 However you can purge the cache manually with the following command:
 
 ```bash
-~]$ curl -I0 -X PURGE www.exampledomain.com -H "X-Magento-Tags-Pattern: *"
+curl -I0 -X PURGE www.exampledomain.com -H "X-Magento-Tags-Pattern: *"
 ```
 
 Single URI:
 
 ```bash
-~]$ curl -I0 -X PURGE www.exampledomain.com/client.css -H "X-Magento-Tags-Pattern: *"
+curl -I0 -X PURGE www.exampledomain.com/client.css -H "X-Magento-Tags-Pattern: *"
 ```
 
 If the DNS for your domain does not point to Varnish you can use the IP address of your Varnish host:
