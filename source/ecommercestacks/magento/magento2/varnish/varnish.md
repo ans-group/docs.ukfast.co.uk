@@ -107,19 +107,19 @@ Copyright (c) 2006-2020 Varnish Software
 
 The `varnishlog` command can be used to debug issues. Here are some examples which may assist you:
 
-### Monitor for Purge requests
+#### Monitor for Purge requests
 This is very handy to see how frequently purge requests are being sent to Varnish:
 
 ```bash
 varnishlog -g request -q 'ReqMethod eq "PURGE"'
 ```
 
-### Monitor HTTP response code (Example 503)
+#### Monitor HTTP response code (Example 503)
 ```bash
 varnishlog -q 'RespStatus == 503' -g request
 ```
 
-#### Filter `varnishlog` by IP address
+##### Filter `varnishlog` by IP address
 If you wish to only see your own requests to Varnish you can filter with similar commands to:
 
 ```bash
