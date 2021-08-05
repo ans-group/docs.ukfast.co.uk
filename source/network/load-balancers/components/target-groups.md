@@ -27,7 +27,7 @@ There are 3 ways to balance traffic between the target servers, know as the load
 
 The load balancer will wait so long before a request timeouts. In this section, you are able to configure how long this delay is if the default values are not suited to your use.
 
-* **Server Timeout** - The maximum time a target server has to return response headers. 
+* **Server Timeout** - The maximum time a target server has to return response headers.
 * **Connection Timeout** - The maximum time a target server has to accept a connection.
 
 ## Monitoring
@@ -38,7 +38,7 @@ You can use the target group configuration screen to manage which URL to hit on 
 
 If you've got a Lumen or Laravel PHP application and want to create a health check URL for your application, why not take a look at our [Health Check Package](https://github.com/ukfast/laravel-health-check)?
 
-## SSL Settings 
+## SSL Settings
 
 There are various SSL settings you can configure to determine how SSLs will work alongside your target groups:
 * **Enable SSL Communication** - When enabled SSL communications will be used with targets under this group. For targets with a port of 443, this will automatically be enabled.
