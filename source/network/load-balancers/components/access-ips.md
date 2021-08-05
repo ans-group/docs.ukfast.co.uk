@@ -1,6 +1,6 @@
 # Access IPs
 
-You are able to use access IPs on listeners to block certain IPs from accessing your load balancer (block list) or only allow certain IPs to access your load balancer (allow list).
+You can use access IPs on listeners to block certain IPs from accessing your load balancer (block list) or only allow certain IPs to access your load balancer (allow list).
 
 To get started go to the listener you want to change the access IP settings for within the [load balancers section](https://my.ukfast.co.uk/load-balancers) of MyUKFast. Then click the `IP Allow / Block List` tab at the top of the screen.
 

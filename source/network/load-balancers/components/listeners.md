@@ -1,6 +1,6 @@
 # Listeners
 
-Listeners are used to configure the IP, port and traffic routing information for the load balancer.
+Listeners are used to configure the IP, port, and traffic routing information for the load balancer.
 
 To add your listeners, first go to the load balancer you want to add the listener to. Then click `Listeners` on the tabs at the top of the screen, followed by `Create Listener`.
 
@@ -12,7 +12,7 @@ When creating a new listener you will first need to give it a unique name. The d
 
 ### Binds
 
-These are the combinations of Virtual IP and port that this listener will respond to, you can add multiple binds per listener. If you only have one Virtual IP assigned to a load balancer then this will automatically be filled in to the VIP field, otherwise you will get a search box allowing you to select the correct VIP for that bind.
+These are the combinations of Virtual IP and port that this listener will respond to, you can add multiple binds per listener. If you only have one Virtual IP assigned to a load balancer then this will automatically be filled into the VIP field. Otherwise, you will get a search box allowing you to select the correct VIP for that bind.
 
 Each listener needs to have at least one bind and can have as many as needed. Click the "Add Bind" button to add a new VIP / Port combination and the red X to delete a bind.
 
@@ -30,7 +30,7 @@ You can also enable "Redirect to HTTPS" which similar to HSTS will redirect non-
 
 ![Binds Input](../files/listeners_2_small.png)
 
-These settings have already been set to sensible defaults by UKFast, however if you do need to make changes you can access these settings by pressing "Show Advanced Options" at the bottom left of the listener form. These settings aren't shown for TCP listeners.
+These settings have already been set to sensible defaults by UKFast. However, if you do need to make changes you can access these settings by pressing "Show Advanced Options" at the bottom left of the listener form. These settings aren't shown for TCP listeners.
 
 **Minimum TLS Version:**
 

@@ -10,7 +10,7 @@ To get started adding your access control go to either the listener or target gr
 
 Click `Create Access Control`, you will then be presented with the access control form. You can give the access control a name to help you remember what it's for later on.
 
-The conditions for an access control are optional, if none are provided the the access control will always run. You can use this, for example, if you want to always add a header to any request which passes through the load balancer.
+The conditions for an access control are optional, if none are provided the access control will always run. You can use this, for example, if you want to always add a header to any request which passes through the load balancer.
 
 The actions are what will happen if all the conditions are met, you must have at least one action for each access control.
 
@@ -18,7 +18,7 @@ The actions are what will happen if all the conditions are met, you must have at
 
 Some templates require additional information. If this is the case, additional inputs will be added once you've selected that template. For instance, the header matches condition will ask for which header to check and what value to check for as shown in the blue box above.
 
-You can add multiple conditions and actions to a access control by clicking the `Add Condition` and `Add Action` buttons respectively. If you no longer need a specific action or condition you can press `Delete Condition` and `Delete Action` to remove them from the access control. These are highlighted in the red box below.
+You can add multiple conditions and actions to an access control by clicking the `Add Condition` and `Add Action` buttons respectively. If you no longer need a specific action or condition you can press `Delete Condition` and `Delete Action` to remove them from the access control. These are highlighted in the red box below.
 
 ## Available Conditions
 
@@ -31,7 +31,7 @@ You can add multiple conditions and actions to a access control by clicking the 
 * **Block traffic** - Stops the request from reaching the server, the user will get a 403 response.
 * **Redirect traffic** - Enter the full web address for the redirect location. Status codes should normally be 301 for a permanent change or 302 for a temporary redirect.
 * **Use target group** - Will send all requests to the specified target group which must be on the same load balancer.
-* **Set request header** - Adds the specified header with value to the requests going in to the load balancer and being passed on to target servers.
+* **Set request header** - Adds the specified header with value to the requests going into the load balancer and being passed on to target servers.
 * **Set response header** -  Adds the specified header with value to the responses leaving the load balancer from the target servers.
 
 ## Saving and Deploying

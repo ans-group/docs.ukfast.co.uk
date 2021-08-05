@@ -20,7 +20,7 @@ If you can't find the SSL certificate you are looking for, make sure it hasn't e
 
 If you're using an SSL not from UKFast, such as Let's Encrypt or a certificate bought from another provider, you will need to provide the details yourself.
 
-Click `Enter Certificate Manually`, then copy the details you have been given into the appropriate certificate, key and CA bundle fields. CA bundle is an optional field and not all SSL certificates will have one.
+Click `Enter Certificate Manually`, then copy the details you have been given into the appropriate certificate, key, and CA bundle fields. CA bundle is an optional field and not all SSL certificates will have one.
 
 ![Manual SSL](../files/ssls_3_small.png)
 

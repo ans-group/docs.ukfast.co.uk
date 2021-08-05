@@ -10,12 +10,12 @@ Clicking on the load balancer will take you to the screens which you use to conf
 
 From the load balancer overview screen, you can work your way through the onboarding wizard. If you already know how to set up a UKFast load balancer, you can skip this wizard and work your way through the screens yourself by clicking "Skip Onboarding Wizard".
 
-You can also rename a load balancer to help you remember which load balancer is which if you have multiple in your account. This is done by clicking the pencil icon highlighted in blue on the screenshot below, typing in the new name and clicking the save icon.
+You can also rename a load balancer to help you remember which load balancer is which if you have multiple in your account. This is done by clicking the pencil icon (highlighted in blue on the screenshot below) typing in the new name and clicking the save icon.
 
 ```eval_rst
 .. warning::
 
-   The primary IP on this page is not a VIP for you to use, it is the IP of the actual load balancer device. You should set up your virtual IPs when configuring your listeners. Each load balancer comes with one VIP by default but you are able to buy more if needed by speaking to your account manager.
+   The primary IP on this page is not a VIP for you to use, it is the IP of the actual load balancer device. You should set up your virtual IPs when configuring your listeners. Each load balancer comes with one VIP by default but you can buy more if needed by speaking to your account manager.
 
 ```
 
