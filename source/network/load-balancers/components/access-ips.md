@@ -8,13 +8,19 @@ To get started go to the listener you want to change the access IP settings for 
 
 Select either the allow list or block list option using the blue toggle at the top of the screen. You will get a popup box asking you to confirm the change when you press the toggle.
 
+## Adding IPs
+
 You can then add as many IP addresses as you want to the list by using the text box at the bottom of the screen to add an individual IP and then clicking `Add IP`. This input will accept IPv4 and IPv6 addresses as well as IP ranges.
 
 ![Access IPs Inputs](../files/access_ips_2_small.png)
 
+## Removing IPs
+
 To remove an IP from the allow / block list, click the red cross next to the IP address / range you want to remove. You will then need to accept the confirmation popup.
 
 ![Access IPs Inputs](../files/access_ips_3_small.png)
+
+## Deploying
 
 Once you're happy with the access / block list settings, make sure you [deploy your changes](../deploying-changes.html).
 

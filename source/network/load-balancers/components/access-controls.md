@@ -20,10 +20,6 @@ Some templates require additional information. If this is the case, additional i
 
 You can add multiple conditions and actions to a access control by clicking the `Add Condition` and `Add Action` buttons respectively. If you no longer need a specific action or condition you can press `Delete Condition` and `Delete Action` to remove them from the access control. These are highlighted in the red box below.
 
-![Saving Access Controls](../files/access_controls_3_small.png)
-
-Once you've finished an access control, click the `Create Access Control` button shown above to save the new access control. Once you've set up all the access controls you need, make sure you [deploy your changes](../deploying-changes.html).
-
 ## Available Conditions
 
 * **No conditions** - Always true, the actions will be carried out on every request.
@@ -37,6 +33,12 @@ Once you've finished an access control, click the `Create Access Control` button
 * **Use target group** - Will send all requests to the specified target group which must be on the same load balancer.
 * **Set request header** - Adds the specified header with value to the requests going in to the load balancer and being passed on to target servers.
 * **Set response header** -  Adds the specified header with value to the responses leaving the load balancer from the target servers.
+
+## Saving and Deploying
+
+![Saving Access Controls](../files/access_controls_3_small.png)
+
+Once you've finished an access control, click the `Create Access Control` button shown above to save the new access control. Once you've set up all the access controls you need, make sure you [deploy your changes](../deploying-changes.html).
 
 ```eval_rst
    .. title:: Load Balancers | Access Controls
