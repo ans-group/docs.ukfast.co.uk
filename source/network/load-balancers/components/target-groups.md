@@ -2,7 +2,7 @@
 
 Target groups are a collection of target servers that will receive and process requests to the load balancer.
 
-To add your target groups, first go to the load balancer you want to add the target group to. Then click `Target Groups` on the tabs at the top of the screen, followed by `Create Target Group`.
+To add your target groups, first go to the load balancer you want to add the target group too. Then click `Target Groups` on the tabs at the top of the screen, followed by `Create Target Group`.
 
 ![Target Groups Tab](../files/target_groups_1_small.png)
 
