@@ -26,7 +26,7 @@ This is the port on the target that the load balancer will send requests to.
 
 The Weight field is used to specify how much traffic each target will receive from the load balancer. For instance if you have two targets both with a weight of 1 then they will receive equal traffic. If target A has a weight of 1 and target B has a weight of 2 then target B will receive twice as much traffic as target A.
 
-You can set Weight to 0 to “drain” the target. This means that any existing connections will remain open till they close but no new connections will be sent to that target. This is a way to gradually remove a target server from load without disrupting existing users.
+You can set Weight to 0 to "drain" the target. This means that any existing connections will remain open till they close but no new connections will be sent to that target. This is a way to gradually remove a target server from load without disrupting existing users.
 
 ## Target Availability
 
