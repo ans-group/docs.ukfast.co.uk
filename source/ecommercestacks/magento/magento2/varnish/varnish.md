@@ -119,7 +119,7 @@ varnishlog -g request -q 'ReqMethod eq "PURGE"'
 varnishlog -q 'RespStatus == 503' -g request
 ```
 
-##### Filter `varnishlog` by IP address
+#### Filter `varnishlog` by IP address
 If you wish to only see your own requests to Varnish you can filter with similar commands to:
 
 ```bash
