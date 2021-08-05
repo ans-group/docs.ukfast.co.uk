@@ -14,7 +14,7 @@ All target groups need to be given a name that is unique on that load balancer c
 
 You are able to use cookies to ensure that a user will always go to the same target server when making requests to a load balancer. This is useful, for instance, when you could be using the PHP session to keep a user logged in to an application. If the session is not shared between the targets then the user would be logged out if they moved to a different page within the application and the request was served by a different target server.
 
-To enable sticky sessions you should make sure the "Enable Sticky Sessions" option is checked. You can then enable change various options for the cookie which will be saved to the user's device, for instance whether to make the cookie secure and how long it should be saved for.
+To enable sticky sessions you should make sure the "Enable Sticky Sessions" option is checked. You can then change various options for the cookie which will be saved to the user's device, for instance whether to make the cookie secure and how long it should be saved for.
 
 ## Load Balancing Methods
 
