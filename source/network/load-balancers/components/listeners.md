@@ -2,9 +2,9 @@
 
 Listeners are used to configure the IP, port and traffic routing information for the load balancer.
 
-To add your listeners, first go to the load balancer you want to add the certificate to. Then click `Listeners` on the tabs at the top of the screen, followed by `Create Listener`.
+To add your listeners, first go to the load balancer you want to add the listener to. Then click `Listeners` on the tabs at the top of the screen, followed by `Create Listener`.
 
-![Binds Input](../files/listeners_1_small.png)
+![Listener Tabs](../files/listeners_1_small.png)
 
 ### Basic Configuration
 
