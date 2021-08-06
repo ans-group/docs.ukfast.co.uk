@@ -2,7 +2,7 @@
 
 Target groups are a collection of target servers that will receive and process requests to the load balancer.
 
-To add your target groups, first go to the load balancer you want to add the target group too. Then click `Target Groups` on the tabs at the top of the screen, followed by `Create Target Group`.
+To add your target groups, first go to the load balancer you want to add the target group to. Then click `Target Groups` on the tabs at the top of the screen, followed by `Create Target Group`.
 
 ![Target Groups Tab](../files/target_groups_1_small.png)
 
@@ -25,7 +25,7 @@ There are 3 ways to balance traffic between the target servers, know as the load
 
 ## Timeouts
 
-The load balancer will wait so long before a request timeouts. In this section, you are able to configure how long this delay is if the default values are not suited to your use.
+The load balancer will wait so long before a request times out. In this section, you are able to configure how long this delay is if the default values are not suited to your use.
 
 * **Server Timeout** - The maximum time a target server has to return response headers.
 * **Connection Timeout** - The maximum time a target server has to accept a connection.

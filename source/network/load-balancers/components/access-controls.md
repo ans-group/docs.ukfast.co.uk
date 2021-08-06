@@ -34,6 +34,8 @@ You can add multiple conditions and actions to an access control by clicking the
 * **Set request header** - Adds the specified header with value to the requests going into the load balancer and being passed on to target servers.
 * **Set response header** -  Adds the specified header with value to the responses leaving the load balancer from the target servers.
 
+If you are looking for behaviour that's not on this list, speak to your account manager to see if we can add it to our templates list.
+
 ## Saving and Deploying
 
 ![Saving Access Controls](../files/access_controls_3_small.png)
