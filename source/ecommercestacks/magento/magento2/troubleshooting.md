@@ -1,4 +1,4 @@
-# Troubleshooting 
+# Troubleshooting
 
 ### Example of a Good Ticket Format
 
@@ -21,24 +21,24 @@ Dig the domain to find out the origin IP:
 
 Now we have the IP address of the domain(s) we can perform a whois to find out what network that IP address(es) belong to:
 ```bash
- whois ip | grep -i netname 
+ whois ip | grep -i netname
 ```
 ### Atop
 
-Atop is a useful command to review what actions are consuming the most memory, disk or load. 
+Atop is a useful command to review what actions are consuming the most memory, disk or load.
 
-Here are a few commands you can look at to get started. To review realtime data, please use the follow command: 
+Here are a few commands you can look at to get started. To review realtime data, please use the follow command:
 ```bash
 atop -af 1
 ```
 
 To look at data from the past:
 ```bash
-atop -r 
+atop -r
 atop -r /var/log/atop/atop_20210808
 ```
 
-To review transactions consuming the most disk: 
+To review transactions consuming the most disk:
 ```bash
 atop -afd 1
 ```
@@ -48,7 +48,7 @@ To review transactions consuming the most memory:
 atop -afm 1
 ```
 
-To see what services are consuming the most load: 
+To see what services are consuming the most load:
 ```bash
 atop -afp 1
 ```
@@ -68,12 +68,12 @@ Typically we look to review the following logs:
 execption.log <br>
 system.log 
 
-The report location path is below: 
+The report location path is below:
 ```bash
 /var/www/vhosts/example.com/htdocs/var/report
 ```
 
-### PHP-FPM error log location: 
+### PHP-FPM error log location:
 
 Default error logs: /var/log/php-fpm/error.log <br>
 Site error logs: /var/www/vhosts/example.com/logs/example.com-phpfpm-error.log
@@ -103,7 +103,7 @@ Or
 
 ### MySQL error log
 
-You can find the location of the mysql logs using the following command: 
+You can find the location of the mysql logs using the following command:
 
 ~]# mysql -e "SHOW VARIABLES LIKE 'log_error'"
 +---------------+---------------------+
@@ -114,7 +114,7 @@ You can find the location of the mysql logs using the following command:
 
 ### Elasticsearch error log
 
-The typical elasticsearch log location is here: 
+The typical elasticsearch log location is here:
 ```bash
 /var/log/elasticsearch/elasticsearch.log
 ```
@@ -131,13 +131,13 @@ You can check for server errors here:
 
 ### Varnish Logs
 
-Varnish logs are not writeen by default. In order to get the log data you will need to run the following command: 
+Varnish logs are not writeen by default. In order to get the log data you will need to run the following command:
 
 ```bash
 varnishlog >> /tmp/varnishlogoutput.txt
 ```
 
-How to check what is listening on the port: 
+How to check what is listening on the port:
 
 ```bash
 ~]# lsof -i:80
@@ -149,7 +149,7 @@ netstat -l
 
 ```
 
-### Command to check Nginx access logs: 
+### Command to check Nginx access logs:
 
 ```bash
 grep "`date +%d/%b/%Y`" /var/log/nginx/example.com-access.log | awk '{print $1, $5,$6, $7,$9 $11}' | awk -F\" '{print $1,$2,$3}' | awk '{print $1,$3,$4,$5}' | sort | uniq -c | sort -gr | head -n 20
@@ -159,7 +159,7 @@ The most common cause of server slow down is one or more processes consuming a l
 
 There are several variations on the `top` utility however those are not covered in this section.
 
-### Common issues 
+### Common issues
 
 #### Max Children Reached
 
@@ -174,7 +174,7 @@ If the site is displaying a 502 then you might need to test and restart php-fpm:
 php-fpm -t && systemctl php-fpm
 ```
 
-#### Centos Multi Instance 
+#### Centos Multi Instance
 You can check for Max Children using the following command:
 
 grep -iR "max_children" /var/log/php-fpm/error.log
@@ -196,9 +196,9 @@ If the site is displaying a 502 then you might need to test and restart php-fpm:
 php-fpm7.4 -t && systemctl php-fpm
 ```
 
-### Database Deadlocks 
+### Database Deadlocks
 
-You can get the engine status of MySQL using the following command: 
+You can get the engine status of MySQL using the following command:
 
 mysql -e "SHOW ENGINE INNODB STATUS;"
 
@@ -206,7 +206,7 @@ This will identify if there has been a deadlock
 
 ### Varnish 503
 
-You can check the health of the application using the following command: 
+You can check the health of the application using the following command:
 
 ```bash
 ~]# varnishadm backend.list
@@ -215,14 +215,14 @@ Backend name   Admin    Probe    Health
 boot.default   probe    10/10    healthy
 ```
 
-This is the typical configuration for the healthcheck: 
+This is the typical configuration for the healthcheck:
 https://docs.ukfast.co.uk/ecommercestacks/magento/magento2/varnish/varnish.html#health-check
 
-### Permissions 
+### Permissions
 
-Make sure the ownership for the data with the document root is "websiteuser:websiteuser" 
+Make sure the ownership for the data with the document root is "websiteuser:websiteuser"
 
-To change the ownership you can run the following command: 
+To change the ownership you can run the following command:
 
 ```bash
 chown -R websiteuser:websiteuser /var/www/vhosts/sitename.co.uk/htdocs/
