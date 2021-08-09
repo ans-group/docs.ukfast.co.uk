@@ -105,14 +105,12 @@ Or
 
 You can find the location of the mysql logs using the following command: 
 
-```console
 ~]# mysql -e "SHOW VARIABLES LIKE 'log_error'"
 +---------------+---------------------+
 | Variable_name | Value               |
 +---------------+---------------------+
 | log_error     | /var/log/mysqld.log |
 +---------------+---------------------+
-```
 
 ### Elasticsearch error log
 
@@ -165,9 +163,7 @@ There are several variations on the `top` utility however those are not covered 
 #### Centos
 You can check for Max Children using the following command:
 
-```console
 grep -iR "max_children" /var/log/php-fpm/error.log
-```
 
 If the site is displaying a 502 then you might need to test and restart php-fpm:
 
@@ -178,9 +174,7 @@ php-fpm -t && systemctl php-fpm
 #### Centos Multi Instance 
 You can check for Max Children using the following command:
 
-```console
 grep -iR "max_children" /var/log/php-fpm/error.log
-```
 
 If the site is displaying a 502 then you might need to test and restart php-fpm (Example for PHP 7.4):
 
@@ -191,9 +185,7 @@ If the site is displaying a 502 then you might need to test and restart php-fpm 
 #### Ubuntu
 You can check for Max Children using the following command:
 
-```console
 grep -iR "max_children" /var/log/php7.4-fpm.log
-```
 
 If the site is displaying a 502 then you might need to test and restart php-fpm:
 
@@ -205,9 +197,7 @@ php-fpm7.4 -t && systemctl php-fpm
 
 You can get the engine status of MySQL using the following command: 
 
-```console
 mysql -e "SHOW ENGINE INNODB STATUS;"
-```
 
 This will identify if there has been a deadlock
 
