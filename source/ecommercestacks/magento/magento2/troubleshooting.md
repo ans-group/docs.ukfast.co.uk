@@ -105,7 +105,7 @@ Or
 
 You can find the location of the mysql logs using the following command: 
 
-```bash
+```console
 ~]# mysql -e "SHOW VARIABLES LIKE 'log_error'"
 +---------------+---------------------+
 | Variable_name | Value               |
@@ -165,7 +165,7 @@ There are several variations on the `top` utility however those are not covered 
 #### Centos
 You can check for Max Children using the following command:
 
-```bash
+```console
 grep -iR "max_children" /var/log/php-fpm/error.log
 ```
 
@@ -178,7 +178,7 @@ php-fpm -t && systemctl php-fpm
 #### Centos Multi Instance 
 You can check for Max Children using the following command:
 
-```bash
+```console
 grep -iR "max_children" /var/log/php-fpm/error.log
 ```
 
@@ -191,7 +191,7 @@ If the site is displaying a 502 then you might need to test and restart php-fpm 
 #### Ubuntu
 You can check for Max Children using the following command:
 
-```bash
+```console
 grep -iR "max_children" /var/log/php7.4-fpm.log
 ```
 
@@ -205,7 +205,7 @@ php-fpm7.4 -t && systemctl php-fpm
 
 You can get the engine status of MySQL using the following command: 
 
-```bash
+```console
 mysql -e "SHOW ENGINE INNODB STATUS;"
 ```
 
@@ -240,9 +240,9 @@ Further permission advice can be found here:
 https://docs.ukfast.co.uk/ecommercestacks/magento/magento2/permissionguide.html
 
 ```eval_rst
-  .. title:: Troubleshooting
+  .. title:: Magento 2 Troubleshooting
   .. meta::
-     :title: Troubleshooting | UKFast Documentation
+     :title: Magento 2 Troubleshooting | UKFast Documentation
      :description: A guide to troubleshoot errors
      :keywords: ukfast, linux, nginx, install, centos, cloud, server, virtual, Magento, security, eCommerce
 ```
