@@ -15,5 +15,5 @@ You can find out more about our offerings for these stacks here: https://www.ukf
 .. meta::
    :title: Magento Optimised Stacks | UKFast Documentation
    :description: guides relating to UKFast Magento Optimised Stacks
-   :keywords: ukfast, Magento, optimised, stack, eCommerce
+   :keywords: ukfast, Magento, Magento2, optimised, stack, eCommerce
 
