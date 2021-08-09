@@ -48,7 +48,7 @@ To review transactions consuming the most memory:
 atop -afm 1
 ```
 
-To see what service's are consuming the most load: 
+To see what services are consuming the most load: 
 ```bash
 atop -afp 1
 ```
@@ -57,7 +57,7 @@ Now we know what server this is related to we can work on reviewing the logs to 
 
 ### --- Logs ---
 
-When issues occur on a Linux system a helpful message is (sometimes but not exclusively) printed to the application’s error log. Commonly these are found in respective paths below.
+When issues occur on a Linux system a helpful message is (sometimes but not exclusively) printed to the application error log. Commonly these are found in respective paths below.
 
 ### Magento Log Location:
 ```bash
@@ -146,11 +146,14 @@ nginx   14405 nginx   10u  IPv4 44183735      0t0  TCP *:http (LISTEN)
 
 ```bash
 netstat -l
+
 ```
 
 ### Command to check Nginx access logs: 
 
+```bash
 grep "`date +%d/%b/%Y`" /var/log/nginx/example.com-access.log | awk '{print $1, $5,$6, $7,$9 $11}' | awk -F\" '{print $1,$2,$3}' | awk '{print $1,$3,$4,$5}' | sort | uniq -c | sort -gr | head -n 20
+```
 
 The most common cause of server slow down is one or more processes consuming a large amount of the system resources. The easiest way to view the current usage of resources is to use the utility `top`. `top` allows you to view CPU utilisation, Memory usage, Disk activity, Tasks and Load Average. Many of these are quite self explanatory and percentages to show usage. Load Average is representative of the queue of instructions on the CPU, this should ideally remain below 1.
 
