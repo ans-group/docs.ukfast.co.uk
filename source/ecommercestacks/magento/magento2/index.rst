@@ -1,5 +1,5 @@
 =================================================
-Magento 2
+`Magento 2 <https://magento.com/>`_
 =================================================
 
 In 2015 we created our Magento 2 optimised stack. The core components of this stack are:
