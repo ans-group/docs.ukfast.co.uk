@@ -65,7 +65,7 @@ When issues occur on a Linux system a helpful message is (sometimes but not excl
 ```
 Typically we look to review the following logs:
 
-exeception.log <br>
+exception.log <br>
 system.log
 
 The report location path is below:
@@ -78,7 +78,7 @@ The report location path is below:
 Default error logs: /var/log/`php-fpm`/error.log <br>
 Site error logs: /var/www/vhosts/example.com/logs/`example.com-phpfpm-error.log`
 
-Multi instance default error logs: /var/opt/remi/$MUTLIPHPVERSION/log/`php-fpm`/error.log <br>
+Multi instance default error logs: /var/opt/`remi`/`$MUTLIPHPVERSION`/log/`php-fpm`/error.log <br>
 Multi instance site error logs: /var/www/vhosts/example.com/logs/example.com-`phpfpm-error$PHPVERSION`.log
 
 ### `Nginx` log location
@@ -103,7 +103,7 @@ Or
 
 ### MySQL error log
 
-You can find the location of the mysql logs using the following command:
+You can find the location of the `mysql` logs using the following command:
 ```bash
 ~]# mysql -e "SHOW VARIABLES LIKE 'log_error'"
 +---------------+---------------------+
@@ -150,7 +150,7 @@ netstat -l
 
 ```
 
-### Command to check Nginx access logs:
+### Command to check `Nginx` access logs:
 
 ```bash
 grep "`date +%d/%b/%Y`" /var/log/nginx/example.com-access.log | awk '{print $1, $5,$6, $7,$9 $11}' | awk -F\" '{print $1,$2,$3}' | awk '{print $1,$3,$4,$5}' | sort | uniq -c | sort -gr | head -n 20
@@ -171,7 +171,7 @@ You can check for Max Children using the following command:
 grep -iR "max_children" /var/log/php-fpm/error.log
 ```
 
-If the site is displaying a 502 then you might need to test and restart php-fpm:
+If the site is displaying a 502 then you might need to test and restart `php-fpm`:
 
 ```bash
 php-fpm -t && systemctl php-fpm
@@ -182,7 +182,7 @@ You can check for Max Children using the following command:
 ```bash
 grep -iR "max_children" /var/log/php-fpm/error.log
 ```
-If the site is displaying a 502 then you might need to test and restart php-fpm (Example for PHP 7.4):
+If the site is displaying a 502 then you might need to test and restart `php-fpm` (Example for PHP 7.4):
 
 ```bash
 /opt/remi/php74/root/sbin/php-fpm && systemctl status php74-php-fpm
@@ -193,7 +193,7 @@ You can check for Max Children using the following command:
 ```bash
 grep -iR "max_children" /var/log/php7.4-fpm.log
 ```
-If the site is displaying a 502 then you might need to test and restart php-fpm:
+If the site is displaying a 502 then you might need to test and restart `php-fpm`:
 
 ```bash
 php-fpm7.4 -t && systemctl php-fpm
