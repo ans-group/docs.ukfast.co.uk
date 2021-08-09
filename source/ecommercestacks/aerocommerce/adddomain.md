@@ -1,6 +1,6 @@
 # Adding Domain(s) To The Stack
 
-To add a domain to your AeroCommerce optimised stack please provide us with the following information:
+To add a domain to your `AeroCommerce` optimised stack please provide us with the following information:
 
 - Domain name
 - Is this domain for UAT / Staging or is it going to be used for live traffic
