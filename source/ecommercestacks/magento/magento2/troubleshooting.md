@@ -61,12 +61,12 @@ When issues occur on a Linux system a helpful message is (sometimes but not excl
 
 ### Magento Log Location:
 ```bash
-/var/www/vhosts/example.com/htdocs/var/log 
+/var/www/vhosts/example.com/htdocs/var/log
 ```
-Typically we look to review the following logs: 
+Typically we look to review the following logs:
 
 execption.log <br>
-system.log 
+system.log
 
 The report location path is below:
 ```bash
