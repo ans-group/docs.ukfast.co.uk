@@ -238,3 +238,11 @@ chown -R websiteuser:websiteuser /var/www/vhosts/sitename.co.uk/htdocs/
 Further permission advice can be found here:
 
 https://docs.ukfast.co.uk/ecommercestacks/magento/magento2/permissionguide.html
+
+```eval_rst
+  .. title:: Troubleshooting
+  .. meta::
+     :title: Troubleshooting | UKFast Documentation
+     :description: A guide to troubleshoot errors
+     :keywords: ukfast, linux, nginx, install, centos, cloud, server, virtual, Magento, security, eCommerce
+```
