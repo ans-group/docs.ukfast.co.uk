@@ -55,7 +55,7 @@ atop -afp 1
 
 Now we know what server this is related to we can work on reviewing the logs to work out what error is occurring.
 
-### Logs 
+### Logs
 
 When issues occur on a Linux system a helpful message is (sometimes but not exclusively) printed to the application error log. Commonly these are found in respective paths below.
 
