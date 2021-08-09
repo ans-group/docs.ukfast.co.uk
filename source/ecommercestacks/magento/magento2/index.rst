@@ -21,6 +21,7 @@ We have a number of guides for our Magento 2 optimised stack:
 
    permissionguide
    nginxphpfileallowlist
+   multiphp/index
    wpinsubdir
    nfs
    filediroutsidepub
@@ -35,7 +36,6 @@ We have a number of guides for our Magento 2 optimised stack:
    composer/index
    opcache/index
    php/index
-   multiphp/index
    redis/index
    troubleshooting
    

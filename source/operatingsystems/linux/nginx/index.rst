@@ -1,5 +1,5 @@
 =====
-NGINX
+`NGINX <http://nginx.org/>`_
 =====
 
 .. toctree::
