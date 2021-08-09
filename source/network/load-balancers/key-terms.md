@@ -7,6 +7,7 @@ Below is a list of key terms to do with load balancers that you may see througho
 * **Target** - A target is an individual server that receives a request from the load balancer.
 * **Listener** - Listeners are used for your IP, port and traffic routing configuration.
 * **Access Control** - Access controls are used to help with traffic routing and controlling who is able to access your servers.
+* **VIP** - A virtual IP address which has been assigned to the load balancer.
 
 ```eval_rst
    .. title:: Load Balancers | Key Terms
