@@ -8,6 +8,7 @@ Here you can find all the information you need to get started with our load bala
    key-terms
    getting-started
    deploying-changes
+   components/index
    common-changes
    faqs
    

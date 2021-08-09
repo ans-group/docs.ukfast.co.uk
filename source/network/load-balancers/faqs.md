@@ -78,7 +78,7 @@ Then restart NGINX to put it live:
       :description: FAQs about UKFast load balancers
 ```
 
-### I'm getting a redirect loop when redirecting to HTTPS, how can I fix this?
+## I'm getting a redirect loop when redirecting to HTTPS, how can I fix this?
 
 In some configurations, performing a HTTP->HTTPS redirect from a server behind a load balancer may result in your website experiencing a redirect loop. As the HTTPS connection is terminated at the load balancer, the backend servers only see HTTP connections and continually try to redirect the client to a HTTPS URL.
 
@@ -99,3 +99,7 @@ if ($http_x_forwarded_proto = "http") {
     return 301 https://$server_name$request_uri;
 }
 ```
+
+## How do I setup SSL passthrough?
+
+To setup SSL passthrough you should create a TCP listener with an IP binding on port 443. You can then point this to your target groups as you would normally.
