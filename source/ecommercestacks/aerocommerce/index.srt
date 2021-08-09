@@ -2,7 +2,7 @@
 `AeroCommerce <https://www.aerocommerce.com/>`_
 =================================================
 
-AeroCommerce is a feature-rich ecommerce solution with unlimited customisation and extensibility. The core components of our optimised AeroCommerce stack are:
+`AeroCommerce` is a feature-rich ecommerce solution with unlimited customisation and extensibility. The core components of our optimised `AeroCommerce` stack are:
 
 - **Firewall**: :doc:`Dedicated/Shared Firewall </network/firewalls/index>` 
 - **Web Service**: :doc:`/operatingsystems/linux/nginx/index`
@@ -13,7 +13,7 @@ AeroCommerce is a feature-rich ecommerce solution with unlimited customisation a
 - **Version Control Utilities**: :doc:`/operatingsystems/linux/git/index`
 - **File system distribution**: :doc:`/operatingsystems/linux/nfs/index`
 
-We have a number of guides for our AeroCommerce optimised stack:
+We have a number of guides for our `AeroCommerce` optimised stack:
 
 .. toctree::
    :maxdepth: 1
