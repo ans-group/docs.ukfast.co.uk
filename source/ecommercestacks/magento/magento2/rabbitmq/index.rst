@@ -1,5 +1,5 @@
 =================================================
-RabbitMQ
+`RabbitMQ <https://www.rabbitmq.com/>`_
 =================================================
 
 RabbitMQ can be used to publish messages to queue and to define the consumers that receive the messages asynchronously.
