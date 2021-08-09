@@ -19,7 +19,7 @@ Dig the domain to find out the origin IP:
  dig a domain +short
 ```
 
-Now we have the IP address of the domain(s) we can perform a whois to find out what network that IP address(es) belong to:
+Now we have the IP address of the domain(s) we can perform a `whois` to find out what network that IP address(es) belong to:
 ```bash
  whois ip | grep -i netname
 ```
@@ -27,7 +27,7 @@ Now we have the IP address of the domain(s) we can perform a whois to find out w
 
 Atop is a useful command to review what actions are consuming the most memory, disk or load.
 
-Here are a few commands you can look at to get started. To review realtime data, please use the follow command:
+Here are a few commands you can look at to get started. To review `realtime` data, please use the follow command:
 ```bash
 atop -af 1
 ```
@@ -53,9 +53,9 @@ To see what services are consuming the most load:
 atop -afp 1
 ```
 
-Now we know what server this is related to we can work on reviewing the logs to work out what error is occuring.
+Now we know what server this is related to we can work on reviewing the logs to work out what error is occurring.
 
-### --- Logs ---
+### Logs 
 
 When issues occur on a Linux system a helpful message is (sometimes but not exclusively) printed to the application error log. Commonly these are found in respective paths below.
 
@@ -65,7 +65,7 @@ When issues occur on a Linux system a helpful message is (sometimes but not excl
 ```
 Typically we look to review the following logs:
 
-execption.log <br>
+exeception.log <br>
 system.log
 
 The report location path is below:
@@ -75,13 +75,13 @@ The report location path is below:
 
 ### PHP-FPM error log location:
 
-Default error logs: /var/log/php-fpm/error.log <br>
-Site error logs: /var/www/vhosts/example.com/logs/example.com-phpfpm-error.log
+Default error logs: /var/log/`php-fpm`/error.log <br>
+Site error logs: /var/www/vhosts/example.com/logs/`example.com-phpfpm-error.log`
 
-Multi instance default error logs: /var/opt/remi/$MUTLIPHPVERSION/log/php-fpm/error.log <br>
-Multi instance site error logs: /var/www/vhosts/example.com/logs/example.com-phpfpm-error$PHPVERSION.log
+Multi instance default error logs: /var/opt/remi/$MUTLIPHPVERSION/log/`php-fpm`/error.log <br>
+Multi instance site error logs: /var/www/vhosts/example.com/logs/example.com-`phpfpm-error$PHPVERSION`.log
 
-### Nginx log location
+### `Nginx` log location
 
 Site access logs:
 ```bash
@@ -104,17 +104,18 @@ Or
 ### MySQL error log
 
 You can find the location of the mysql logs using the following command:
-
+```bash
 ~]# mysql -e "SHOW VARIABLES LIKE 'log_error'"
 +---------------+---------------------+
 | Variable_name | Value               |
 +---------------+---------------------+
 | log_error     | /var/log/mysqld.log |
 +---------------+---------------------+
+```
 
 ### Elasticsearch error log
 
-The typical elasticsearch log location is here:
+The typical Elasticsearch log location is here:
 ```bash
 /var/log/elasticsearch/elasticsearch.log
 ```
@@ -131,7 +132,7 @@ You can check for server errors here:
 
 ### Varnish Logs
 
-Varnish logs are not writeen by default. In order to get the log data you will need to run the following command:
+Varnish logs are not written by default. In order to get the log data you will need to run the following command:
 
 ```bash
 varnishlog >> /tmp/varnishlogoutput.txt
@@ -163,10 +164,12 @@ There are several variations on the `top` utility however those are not covered 
 
 #### Max Children Reached
 
-#### Centos
+#### `Centos`
 You can check for Max Children using the following command:
 
+```bash
 grep -iR "max_children" /var/log/php-fpm/error.log
+```
 
 If the site is displaying a 502 then you might need to test and restart php-fpm:
 
@@ -174,11 +177,11 @@ If the site is displaying a 502 then you might need to test and restart php-fpm:
 php-fpm -t && systemctl php-fpm
 ```
 
-#### Centos Multi Instance
+#### `Centos` Multi Instance
 You can check for Max Children using the following command:
-
+```bash
 grep -iR "max_children" /var/log/php-fpm/error.log
-
+```
 If the site is displaying a 502 then you might need to test and restart php-fpm (Example for PHP 7.4):
 
 ```bash
@@ -187,9 +190,9 @@ If the site is displaying a 502 then you might need to test and restart php-fpm 
 
 #### Ubuntu
 You can check for Max Children using the following command:
-
+```bash
 grep -iR "max_children" /var/log/php7.4-fpm.log
-
+```
 If the site is displaying a 502 then you might need to test and restart php-fpm:
 
 ```bash
@@ -199,9 +202,9 @@ php-fpm7.4 -t && systemctl php-fpm
 ### Database Deadlocks
 
 You can get the engine status of MySQL using the following command:
-
+```bash
 mysql -e "SHOW ENGINE INNODB STATUS;"
-
+```
 This will identify if there has been a deadlock
 
 ### Varnish 503
@@ -220,7 +223,7 @@ https://docs.ukfast.co.uk/ecommercestacks/magento/magento2/varnish/varnish.html#
 
 ### Permissions
 
-Make sure the ownership for the data with the document root is "websiteuser:websiteuser"
+Make sure the ownership for the data with the document root is `"websiteuser:websiteuser"`
 
 To change the ownership you can run the following command:
 
