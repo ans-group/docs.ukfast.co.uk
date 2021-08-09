@@ -1,5 +1,5 @@
 =================================================
-Magento 1
+`Magento 1 <https://magento.com/>`_
 =================================================
 
 The UKFast Magento 1 optimised stack has been going since 2008. The core components of this stack are:
