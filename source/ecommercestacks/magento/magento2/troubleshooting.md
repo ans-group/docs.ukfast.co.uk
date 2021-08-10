@@ -1,4 +1,4 @@
-# Troubleshooting
+# Magento2 Troubleshooting Guide
 
 ### Example of a Good Ticket Format
 
@@ -6,8 +6,8 @@ When raising a ticket the most important aspect to keep in mind is to be informa
 
 Engineers need to know:
 
-* Domain or IP address of the server.
-* A short description of the issue.
+* Domain or IP address of the server
+* A short description of the issue
 * Any error messages produced when encountering the issue
 * When did the issue start? Has this happened before?
 
@@ -16,16 +16,16 @@ Engineers need to know:
 Dig the domain to find out the origin IP:
 
 ```bash
- dig a domain +short
+dig a example.com +short
 ```
 
 Now we have the IP address of the domain(s) we can perform a `whois` to find out what network that IP address(es) belong to:
 ```bash
- whois ip | grep -i netname
+whois ip | grep -i netname
 ```
 ### Atop
 
-Atop is a useful command to review what actions are consuming the most memory, disk or load.
+Atop is a useful command to review what processes are consuming the most memory, disk or CPU.
 
 Here are a few commands you can look at to get started. To review `realtime` data, please use the follow command:
 ```bash
@@ -34,7 +34,6 @@ atop -af 1
 
 To look at data from the past:
 ```bash
-atop -r
 atop -r /var/log/atop/atop_20210808
 ```
 
@@ -48,18 +47,16 @@ To review transactions consuming the most memory:
 atop -afm 1
 ```
 
-To see what services are consuming the most load:
+To see what services are consuming the most CPU:
 ```bash
 atop -afp 1
 ```
-
-Now we know what server this is related to we can work on reviewing the logs to work out what error is occurring.
 
 ### Logs
 
 When issues occur on a Linux system a helpful message is (sometimes but not exclusively) printed to the application error log. Commonly these are found in respective paths below.
 
-### Magento Log Location:
+#### Magento Log Location:
 ```bash
 /var/www/vhosts/example.com/htdocs/var/log
 ```
@@ -73,7 +70,7 @@ The report location path is below:
 /var/www/vhosts/example.com/htdocs/var/report
 ```
 
-### PHP-FPM error log location:
+#### PHP-FPM error log location:
 
 Default error logs: /var/log/`php-fpm`/error.log <br>
 Site error logs: /var/www/vhosts/example.com/logs/`example.com-phpfpm-error.log`
@@ -81,7 +78,7 @@ Site error logs: /var/www/vhosts/example.com/logs/`example.com-phpfpm-error.log`
 Multi instance default error logs: /var/opt/`remi`/`$MUTLIPHPVERSION`/log/`php-fpm`/error.log <br>
 Multi instance site error logs: /var/www/vhosts/example.com/logs/example.com-`phpfpm-error$PHPVERSION`.log
 
-### `Nginx` log location
+#### `Nginx` log location
 
 Site access logs:
 ```bash
@@ -101,7 +98,7 @@ Or
 /var/log/nginx/example.com-error.log
 ```
 
-### MySQL error log
+#### MySQL error log
 
 You can find the location of the `mysql` logs using the following command:
 ```bash
@@ -113,14 +110,14 @@ You can find the location of the `mysql` logs using the following command:
 +---------------+---------------------+
 ```
 
-### Elasticsearch error log
+#### Elasticsearch error log
 
 The typical Elasticsearch log location is here:
 ```bash
 /var/log/elasticsearch/elasticsearch.log
 ```
 
-### Server Logs
+#### Server Logs
 
 You can check for server errors here:
 
@@ -130,7 +127,7 @@ You can check for server errors here:
 /var/log/dmesg
 ```
 
-### Varnish Logs
+#### Varnish Logs
 
 Varnish logs are not written by default. In order to get the log data you will need to run the following command:
 
