@@ -1,5 +1,5 @@
 =================================================
-Shopware
+`Shopware <https://www.shopware.com/>`_
 =================================================
 
 The UKFast Shopware optimised stack was created in 2017. The core components of this stack are:
