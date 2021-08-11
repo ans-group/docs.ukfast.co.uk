@@ -1,29 +1,68 @@
-# Magento2 Troubleshooting Guide
+# Magento2 Optimised Stack Troubleshooting Guide
 
-### Example of a Good Ticket Format
+This is the typical process we will following when troubleshooting issues on a Magento2 website.
 
-When raising a ticket the most important aspect to keep in mind is to be informative and comprehensive whilst remaining concise.
+## Traffic Flow
 
-Engineers need to know:
+The first step is to perform a traffic flow on the domain in question. This ensures we are working on the correct server(s) that the website is hosted on.
 
-* Domain or IP address of the server
-* A short description of the issue
-* Any error messages produced when encountering the issue
-* When did the issue start? Has this happened before?
+We can do this using the dig command to determine the IP address(s) of the domain:
 
-### Collecting the right information
-
-Dig the domain to find out the origin IP:
-
-```bash
-dig a example.com +short
+```console
+user@server:~$ dig a ukfast.net +short
+185.181.199.249
 ```
 
 Now we have the IP address of the domain(s) we can perform a `whois` to find out what network that IP address(es) belong to:
-```bash
-whois ip | grep -i netname
+```console
+user@server:~$ whois 185.181.199.249 | grep -i netname
+netname:        DDOSX
 ```
-### Atop
+
+If the IP address belongs to a CDN we will need to find out the origin IP address from that CDN. Alternativly if we suspect a server of being the origin IP address we can SSH into that server and review incoming traffic like so:
+
+```console
+root@server:~# lsof -nP -iTCP:80,443 -sTCP:ESTABLISHED
+nginx     18951   nginx   21u  IPv4 2713655406      0t0  TCP 172.22.132.163:443->185.181.199.249:16308 (ESTABLISHED)
+nginx     18952   nginx   21u  IPv4 2713692171      0t0  TCP 172.22.132.163:443->185.181.199.249:18928 (ESTABLISHED)
+nginx     18952   nginx   24u  IPv4 2713692613      0t0  TCP 172.22.132.163:443->185.181.199.249:19653 (ESTABLISHED)
+```
+You may need to run this command a few times to capture incoming traffic. This command will provide the IP addresses `(From the above example: 185.181.199.249)` connected to the server over ports 80 and 443. You can now perform a `whois` on these IP addresses to see which CDN provider they belong to.
+
+You can also check the web services access logs to ensure traffic is going to the server in question. Typcailly the access logs are located in `/var/nginx/log/ukfast.net-access.log`. We can use the `tail` command to monitor the access log and the grep command to filter to our query string:
+
+```console
+root@server:~# tail -f /var/log/nginx/ukfast.net-access.log | grep trafficflow
+```
+
+Submit a request to the website with a qurey string of trafficflow:
+
+```console
+user@server:~$ curl -IL ukfast.net?trafficflow
+```
+
+If you see the request with your `tail -f` command when you know that you're on the correct server.
+
+## Who is logged in and what are they doing?
+The `w` command is an effective tool to see if anyone else is logged into the same server and what they are doing. This command also provides the load of the server and the number of days since the server was rebooted:
+```console
+root@server:~# w
+ 10:56:37 up 777 days,  2:08,  1 user,  load average: 0.01, 0.04, 0.05
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+centos   pts/1    10.0.0.21        09:50    5.00s  0.03s  0.08s sshd: centos [priv]
+```
+
+## Who has been logged in?
+You can also check to see who was logged into the server with the `last` command:
+
+```console
+root@server:~# last -ai | tac | tail
+centos   pts/1        Tue Aug  3 15:19 - 20:28  (05:09)     10.0.0.21
+centos   pts/1        Wed Aug  4 09:29 - 10:04  (00:34)     10.0.0.21
+centos   pts/1        Wed Aug 11 09:50   still logged in    10.0.0.21
+```
+
+## Atop
 
 Atop is a useful command to review what processes are consuming the most memory, disk or CPU.
 
@@ -54,9 +93,17 @@ atop -afp 1
 
 ### Logs
 
-When issues occur on a Linux system a helpful message is (sometimes but not exclusively) printed to the application error log. Commonly these are found in respective paths below.
+When issues occur on a Linux/Ubuntu system a helpful message is (sometimes but not exclusively) printed to the application error log. Commonly these are found in respective paths below.
 
-#### Magento Log Location:
+#### Magento2 Log Location:
+Magento2 will capture errors and store them in files within the report diredtly located:
+
+```bash
+/var/www/vhosts/example.com/htdocs/var/report
+```
+
+If you're having an issue and there is no files genereted in the report directoy then review the `exception.log` and `system.log` files within `var/log`.
+
 ```bash
 /var/www/vhosts/example.com/htdocs/var/log
 ```
@@ -65,10 +112,6 @@ Typically we look to review the following logs:
 exception.log <br>
 system.log
 
-The report location path is below:
-```bash
-/var/www/vhosts/example.com/htdocs/var/report
-```
 
 #### PHP-FPM error log location:
 
@@ -157,7 +200,7 @@ The most common cause of server slow down is one or more processes consuming a l
 
 There are several variations on the `top` utility however those are not covered in this section.
 
-### Common issues
+# Common Magento2 issues
 
 #### Max Children Reached
 
@@ -237,5 +280,5 @@ https://docs.ukfast.co.uk/ecommercestacks/magento/magento2/permissionguide.html
   .. meta::
      :title: Magento 2 Troubleshooting | UKFast Documentation
      :description: A guide to troubleshoot errors
-     :keywords: ukfast, linux, nginx, install, centos, cloud, server, virtual, Magento, security, eCommerce
+     :keywords: ukfast, linux, nginx, install, centos, cloud, server, virtual, Magento2, security, eCommerce
 ```
