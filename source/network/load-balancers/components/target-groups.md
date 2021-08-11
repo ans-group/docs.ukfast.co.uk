@@ -30,6 +30,8 @@ The load balancer will wait so long before a request times out. In this section,
 * **Server Timeout** - The maximum time a target server has to return response headers.
 * **Connection Timeout** - The maximum time a target server has to accept a connection.
 
+More advanced timeout options are available  in [Advanced Options](target-groups.html#advanced-options)
+
 ## Monitoring
 
 By default, the load balancer will check the default site for each target server to see if it responds with a status code between 200 and 399. If the target server doesn't respond (or responds with a status code outside this range) the target server will be marked as unhealthy and no traffic will be sent to it until it recovers.
@@ -45,9 +47,21 @@ There are various SSL settings you can configure to determine how SSLs will work
 * **Enable SSL Verification** - When enabled SSL certificates on targets will be verified before being used to make sure they are valid certificates and in date.
 * **Enable SNI** - When enabled, the SNI handshake will be passed through to your target servers. This does not affect SNI on your listeners, which is always enabled.
 
-## Advanced Settings
+## Advanced Options
 
 The other settings on this page are for more advanced control over your load balancer. We've set them to sensible defaults and most people won't need to change them.
+
+**Send Proxy v2:**
+
+Using the PROXY v2 protocol allows an application to retrieve client information of a user passing through load-balanced infrastructure. This will require additional configuration of your application or web server to use.
+
+**Timeouts:**
+
+These timeout options will be left at the UKFast default setting unless you change them.
+
+* **HTTP Request** - The maximum amount of time to wait for a complete HTTP request from the client.
+* **Check** - Set additional check timeout, but only after a connection has been already established.
+* **Tunnel** - Sets the maximum inactivity time on the client and server-side for tunnels (e.g. WebSockets, CONNECT).
 
 ## Saving and Deploying
 
