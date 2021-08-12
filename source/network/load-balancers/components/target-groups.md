@@ -57,10 +57,10 @@ Using the PROXY v2 protocol allows an application to retrieve client information
 
 **Timeouts:**
 
-These timeout options will be left at the UKFast default setting unless you change them.
+These timeout options will be left at the UKFast default setting unless you change them, except for tunnel which will not be set unless you specify a value.
 
-* **HTTP Request** - The maximum amount of time to wait for a complete HTTP request from the client.
-* **Check** - Set additional check timeout, but only after a connection has been already established.
+* **HTTP Request** - The maximum amount of time to wait for a complete HTTP request from the client. The UKFast default is currently 10 seconds.
+* **Check** - Set additional check timeout, but only after a connection has been already established. The UKFast default is currently 10 seconds.
 * **Tunnel** - Sets the maximum inactivity time on the client and server-side for tunnels (e.g. WebSockets, CONNECT).
 
 ## Saving and Deploying
