@@ -518,6 +518,7 @@ webhooks
 webmail
 webserver
 webservers
+WebSockets
 WebSSL
 webpage
 whitespace

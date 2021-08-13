@@ -36,6 +36,10 @@ These settings have already been set to sensible defaults by UKFast. However, if
 
 Using the slider, you can change the minimum TLS version used by the listener. UKFast recommends v1.2 at this time. v1.0 and v1.1 are now deprecated and don't meet PCI requirements if this is required by your business. v1.3 uses modern ciphers which means older browsers will not be able to connect to your servers.
 
+**Client Timeout:**
+
+Setting this will adjust the maximum amount of time for a client to acknowledge or send data to the load balancer. Leaving this input blank will mean the load balancer uses the current UKFast default value of 60 seconds.
+
 ## Saving and Deploying
 
 Once you've finished filling in the listener form, click `Create Listener` to add the listener to the load balancer. Once you've finished setting up all your listeners, make sure you [deploy your changes](../deploying-changes.html).
