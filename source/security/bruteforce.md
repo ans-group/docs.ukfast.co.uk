@@ -69,3 +69,10 @@ return 403;
 }
 ```
 
+```eval_rst
+   .. title:: Brute Force Attacks
+   .. meta::
+      :description: Basic overview on what brute force attacks are, how to identify and mitigate them 
+      :keywords: ukfast, linux, security, wordpress, brute, force, password, login
+```
+
