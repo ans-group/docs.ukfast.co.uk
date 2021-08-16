@@ -458,13 +458,13 @@ This tells Magento that although the connection is on port 80 -> 8080 it should 
 
 ### Using Varnish to Load Balance
 
-You will have to add this to the top of the varnish configuration file "/etc/varnish/default.vcl":
+You will have to add this to the top of the varnish configuration file `/etc/varnish/default.vcl`:
 ```vcl
 import directors;
 ```
 This will then allow you to use the custom configuration to specify the load balancing.
 
-Next you will need to add this block to the VCL:
+Next you will need to add this block to the `VCL`:
 ```vcl
 sub vcl_init {
    new prod_web = directors.round_robin();
