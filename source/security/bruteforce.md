@@ -71,6 +71,6 @@ location ~* ^/xmlrpc.php$ {
 ```eval_rst
    .. title:: Brute Force Attacks
    .. meta::
-      :description: Basic overview on what brute force attacks are, how to identify and mitigate them 
+      :description: Basic overview on what brute force attacks are, how to identify and mitigate them
       :keywords: ukfast, linux, security, WordPress, brute, force, password, login
 ```
