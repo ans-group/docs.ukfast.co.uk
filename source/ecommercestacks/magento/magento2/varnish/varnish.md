@@ -322,18 +322,27 @@ varnishd -C -f /etc/varnish/default.vcl && systemctl reload varnish
 ### Custom 503 Error page
 To configure a custom Varnish 503 error page you will have to follow these steps.
 
-Upload custom error page here:
-
-```bash
-/etc/varnish/error503.html
-```
-
 You will need to add this under the `vcl_deliver` section:
 
 ```vcl
     if (resp.status == 503) {
         return(restart);
     }
+```
+
+To configure the response you will have to add the below config to the `vcl_backend_response` section:
+
+```vcl
+      if (beresp.status == 503 && bereq.retries < 5 ) {
+       return(retry);
+      }
+```
+#### Custom error page for all sites
+
+Upload custom error page here:
+
+```bash
+/etc/varnish/error503.html
 ```
 
 Then you need to add this under the `vcl_backend_error` section:
@@ -345,14 +354,6 @@ Then you need to add this under the `vcl_backend_error` section:
        }
 ```
 
-To configure the response you will have to add the below config to the `vcl_backend_response` section:
-
-```vcl
-      if (beresp.status == 503 && bereq.retries < 5 ) {
-       return(retry);
-      }
-```
-
 The final change is to the `vcl_synth` section:
 
 ```vcl
@@ -360,6 +361,48 @@ The final change is to the `vcl_synth` section:
         synthetic(std.fileread("/etc/varnish/error503.html"));
         return(deliver);
      }
+```
+
+#### Custom error page for a single site
+
+Upload site error page here:
+
+```bash
+/etc/varnish/maintenance/example.co.uk.html
+```
+
+Then you need to add this under the `vcl_backend_error` section:
+
+```vcl
+      if (beresp.http.host ~ "example.co.uk" && beresp.status == 503 && bereq.retries == 5) {
+          synthetic(std.fileread("/etc/varnish/maintenance/example.co.uk.html"));
+          return(deliver);
+      }
+```
+
+The final change is to the `vcl_synth` section:
+
+```vcl
+      if (req.http.host ~ "example.co.uk" && resp.status == 503) {
+          synthetic(std.fileread("/etc/varnish/maintenance/example.co.uk.html"));
+          return(deliver);
+      }
+```
+
+#### `Vcl_synth` doesn't exist
+
+If the section `vcl_backend_error` or `vcl_synth` does not exist, please create the configuration using the below as an example: 
+
+```vcl
+sub vcl_synth {
+    if (resp.status == 503) {
+     }
+}
+
+sub vcl_backend_error {
+    if (resp.status == 503) {
+     }
+}
 ```
 
 ### Purge Cache
