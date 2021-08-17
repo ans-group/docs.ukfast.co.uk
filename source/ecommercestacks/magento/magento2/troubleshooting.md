@@ -97,10 +97,10 @@ Sort list of processes in order of:
   'C'  - cpu activity
   'M'  - memory consumption
   'D'  - disk activity
-        
+
 Accumulated figures:
   'p'  - total resource consumption per program (i.e. same process name)
-  
+
 Process selections (keys shown in header line):
   '/'  - focus on specific command line string (regular expression)
 ````
