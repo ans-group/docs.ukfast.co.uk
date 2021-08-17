@@ -19,7 +19,7 @@ user@server:~$ whois 185.181.199.249 | grep -i netname
 netname:        DDOSX
 ```
 
-If the IP address belongs to a CDN we will need to find out the origin IP address from that CDN. Alternativly if we suspect a server of being the origin IP address we can SSH into that server and review incoming traffic like so:
+If the IP address belongs to a CDN we will need to find out the origin IP address from that CDN. Alternatively if we suspect a server of being the origin IP address we can SSH into that server and review incoming traffic like so:
 
 ```console
 root@server:~# lsof -nP -iTCP:80,443 -sTCP:ESTABLISHED
@@ -29,13 +29,13 @@ nginx     18952   nginx   24u  IPv4 2713692613      0t0  TCP 172.22.132.163:443-
 ```
 You may need to run this command a few times to capture incoming traffic. This command will provide the IP addresses `(From the above example: 185.181.199.249)` connected to the server over ports 80 and 443. You can now perform a `whois` on these IP addresses to see which CDN provider they belong to.
 
-You can also check the web services access logs to ensure traffic is going to the server in question. Typcailly the access logs are located in `/var/nginx/log/ukfast.net-access.log`. We can use the `tail` command to monitor the access log and the grep command to filter to our query string:
+You can also check the web services access logs to ensure traffic is going to the server in question. Typically the access logs are located in `/var/nginx/log/ukfast.net-access.log`. We can use the `tail` command to monitor the access log and the grep command to filter to our query string:
 
 ```console
 root@server:~# tail -f /var/log/nginx/ukfast.net-access.log | grep trafficflow
 ```
 
-Submit a request to the website with a qurey string of trafficflow:
+Submit a request to the website with a query string of `trafficflow`:
 
 ```console
 user@server:~$ curl -IL ukfast.net?trafficflow
@@ -115,13 +115,13 @@ atop -r /var/log/atop/atop_20210808
 When issues occur on a Linux/Ubuntu system a helpful message is (sometimes but not exclusively) printed to the application error log. Commonly these are found in respective paths below.
 
 #### Magento2 Log Location:
-Magento2 will capture errors and store them in files within the report diredtly located:
+Magento2 will capture errors and store them in files within the report directly located:
 
 ```bash
 /var/www/vhosts/example.com/htdocs/var/report
 ```
 
-If you're having an issue and there is no files genereted in the report directoy then review the `exception.log` and `system.log` files within `var/log`.
+If you're having an issue and there is no files generated in the report directory then review the `exception.log` and `system.log` files within `var/log`.
 
 ```bash
 /var/www/vhosts/example.com/htdocs/var/log
