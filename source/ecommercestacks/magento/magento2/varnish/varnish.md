@@ -319,6 +319,49 @@ Varnish will need a reload for this to take effect.
 varnishd -C -f /etc/varnish/default.vcl && systemctl reload varnish
 ```
 
+### Custom 503 Error page
+To configure a custom Varnish 503 error page you will have to follow these steps.
+
+Upload custom error page here:
+
+```bash
+/etc/varnish/error503.html
+```
+
+You will need to add this under the `vcl_deliver` section:
+
+```vcl
+    if (resp.status == 503) {
+        return(restart);
+    }
+```
+
+Then you need to add this under the `vcl_backend_error` section:
+
+```vcl
+      if (beresp.status == 503 && bereq.retries == 5) {
+          synthetic(std.fileread("/etc/varnish/error503.html"));
+          return(deliver);
+       }
+```
+
+To configure the response you will have to add the below config to the `vcl_backend_response` section:
+
+```vcl
+      if (beresp.status == 503 && bereq.retries < 5 ) {
+       return(retry);
+      }
+```
+
+The final change is to the `vcl_synth` section:
+
+```vcl
+    if (resp.status == 503) {
+        synthetic(std.fileread("/etc/varnish/error503.html"));
+        return(deliver);
+     }
+```
+
 ### Purge Cache
 
 Magento purges Varnish hosts after you configure Varnish hosts using the `magento setup:config:set` command. Ensure you run the Magento 2 CLI as the local system user defined in PHP-FPM and not root. Once configured, when you clean, flush, or refresh the Magento cache, Varnish purges as well.
@@ -412,6 +455,59 @@ If SSL is set to offloading like the above example you need to uncomment the fol
 ```
 
 This tells Magento that although the connection is on port 80 -> 8080 it should be treated as a secure connection due to the header `x_forwarded_proto` containing https.
+
+### Using Varnish to Load Balance
+
+You will have to add this to the top of the varnish configuration file `/etc/varnish/default.vcl`:
+```vcl
+import directors;
+```
+This will then allow you to use the custom configuration to specify the load balancing.
+
+Next you will need to add this block to the `VCL`:
+```vcl
+sub vcl_init {
+   new prod_web = directors.round_robin();
+   lbweb.add_backend(web01);
+   lbweb.add_backend(web02);
+}
+```
+
+You will now have to specify which director to use:
+```vcl
+set req.backend_hint = lbweb.backend();
+```
+
+This configuration will setup a director to manage "Web01" and "Web02":
+
+You will then need to create the backends:
+```vcl
+backend Web01 {
+    .host = "REPLACEME";
+    .port = "8080";
+    .first_byte_timeout = 600s;
+    .probe = {
+        .url = "/health_check.php";
+        .timeout = 2s;
+        .interval = 5s;
+        .window = 10;
+        .threshold = 5;
+   }
+}
+
+backend Web02 {
+    .host = "REPLACEME";
+    .port = "8080";
+    .first_byte_timeout = 600s;
+    .probe = {
+        .url = "/health_check.php";
+        .timeout = 2s;
+        .interval = 5s;
+        .window = 10;
+        .threshold = 5;
+   }
+}
+```
 
 ```eval_rst
   .. title:: Magento 2 Varnish
