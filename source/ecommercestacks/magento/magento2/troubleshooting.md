@@ -62,33 +62,52 @@ centos   pts/1        Wed Aug  4 09:29 - 10:04  (00:34)     10.0.0.21
 centos   pts/1        Wed Aug 11 09:50   still logged in    10.0.0.21
 ```
 
-## Atop
+## Disk Space
+Ensure that the disks are not full with the `df` command:
 
+```console
+root@server:~# df -h
+Filesystem                   Size  Used Avail Use% Mounted on
+devtmpfs                      48G     0   48G   0% /dev
+tmpfs                         48G   54M   48G   1% /dev/shm
+tmpfs                         48G  1.8M   48G   1% /run
+tmpfs                         48G     0   48G   0% /sys/fs/cgroup
+/dev/mapper/vg_main-lv_root   40G   19G   19G  51% /
+/dev/sda1                    976M  143M  767M  16% /boot
+/dev/drbd0                   183G  153G   22G  88% /nfsshare
+tmpfs                        9.5G     0  9.5G   0% /run/user/1000
+```
+
+## Resource Check - [Atop](/operatingsystems/linux/basics/atop.html)
 Atop is a useful command to review what processes are consuming the most memory, disk or CPU.
 
-Here are a few commands you can look at to get started. To review `realtime` data, please use the follow command:
-```bash
-atop -af 1
+To review `realtime` data with a 1 second refresh use the command:
+```console
+root@server:~# atop -af 1
 ```
+Once on the atop screen you can filter and arrange the data, here are some handy examples:
 
-To look at data from the past:
+```console
+Figures shown for active processes:
+  'm'  - memory details
+  'd'  - disk details
+  'c'  - full command line per process
+
+Sort list of processes in order of:
+  'C'  - cpu activity
+  'M'  - memory consumption
+  'D'  - disk activity
+        
+Accumulated figures:
+  'p'  - total resource consumption per program (i.e. same process name)
+  
+Process selections (keys shown in header line):
+  '/'  - focus on specific command line string (regular expression)
+````
+
+To review data from the past:
 ```bash
 atop -r /var/log/atop/atop_20210808
-```
-
-To review transactions consuming the most disk:
-```bash
-atop -afd 1
-```
-
-To review transactions consuming the most memory:
-```bash
-atop -afm 1
-```
-
-To see what services are consuming the most CPU:
-```bash
-atop -afp 1
 ```
 
 ### Logs
