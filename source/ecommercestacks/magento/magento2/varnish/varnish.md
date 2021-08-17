@@ -391,7 +391,7 @@ The final change is to the `vcl_synth` section:
 
 #### `Vcl_synth` doesn't exist
 
-If the section `vcl_backend_error` or `vcl_synth` does not exist, please create the configuration using the below as an example: 
+If the section `vcl_backend_error` or `vcl_synth` does not exist, please create the configuration using the below as an example:
 
 ```vcl
 sub vcl_synth {
