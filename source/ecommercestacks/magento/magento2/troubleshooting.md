@@ -283,7 +283,7 @@ https://docs.ukfast.co.uk/ecommercestacks/magento/magento2/varnish/varnish.html#
 ## Permissions
 Make sure the owner and group of the document root is `"websiteuser:websiteuser"`. You can find the user and group from the PHP-FPM configuration pool file.
 
-### Find files not owned by `"websiteuser"'
+### Find files not owned by `"websiteuser"`
 ```bash
 find /var/www/vhosts/sitename.co.uk/htdocs/ -! -user websiteuser
 ```
