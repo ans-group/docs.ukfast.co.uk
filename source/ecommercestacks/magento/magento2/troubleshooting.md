@@ -221,9 +221,9 @@ There are several variations on the `top` utility however those are not covered 
 
 # Common Magento2 issues
 
-#### Max Children Reached
+## PHP-FPM Max Children Reached
 
-#### `Centos`
+### `Centos`
 You can check for Max Children using the following command:
 
 ```bash
@@ -236,7 +236,7 @@ If the site is displaying a 502 then you might need to test and restart `php-fpm
 php-fpm -t && systemctl php-fpm
 ```
 
-#### `Centos` Multi Instance
+### `Centos` - PHP-FPM Additional Instance
 You can check for Max Children using the following command:
 ```bash
 grep -iR "max_children" /var/log/php-fpm/error.log
@@ -247,7 +247,7 @@ If the site is displaying a 502 then you might need to test and restart `php-fpm
 /opt/remi/php74/root/sbin/php-fpm && systemctl status php74-php-fpm
 ```
 
-#### Ubuntu
+### Ubuntu
 You can check for Max Children using the following command:
 ```bash
 grep -iR "max_children" /var/log/php7.4-fpm.log
@@ -258,7 +258,7 @@ If the site is displaying a 502 then you might need to test and restart `php-fpm
 php-fpm7.4 -t && systemctl php-fpm
 ```
 
-### Database Deadlocks
+## Database Deadlocks
 
 You can get the engine status of MySQL using the following command:
 ```bash
@@ -266,7 +266,7 @@ mysql -e "SHOW ENGINE INNODB STATUS;"
 ```
 This will identify if there has been a deadlock
 
-### Varnish 503
+## Varnish 503
 
 You can check the health of the application using the following command:
 
@@ -280,11 +280,17 @@ boot.default   probe    10/10    healthy
 This is the typical configuration for the healthcheck:
 https://docs.ukfast.co.uk/ecommercestacks/magento/magento2/varnish/varnish.html#health-check
 
-### Permissions
+## Permissions
+Make sure the owner and group of the document root is `"websiteuser:websiteuser"`. You can find the user and group from the PHP-FPM configuration pool file.
 
-Make sure the ownership for the data with the document root is `"websiteuser:websiteuser"`
+### Find files not owned by `"websiteuser"'
+```bash
+find /var/www/vhosts/sitename.co.uk/htdocs/ -! -user websiteuser
+```
 
-To change the ownership you can run the following command:
+If this command returns any output you will need to review the files and or directories and possible change the owner and group.
+
+### To change the ownership you can run the following command:
 
 ```bash
 chown -R websiteuser:websiteuser /var/www/vhosts/sitename.co.uk/htdocs/
@@ -299,5 +305,5 @@ https://docs.ukfast.co.uk/ecommercestacks/magento/magento2/permissionguide.html
   .. meta::
      :title: Magento 2 Troubleshooting | UKFast Documentation
      :description: A guide to troubleshoot errors
-     :keywords: ukfast, linux, nginx, install, centos, cloud, server, virtual, Magento2, security, eCommerce
+     :keywords: ukfast, linux, nginx, varnish, php-fpm, install, centos, ubuntu, cloud, server, virtual, Magento2, security, eCommerce
 ```
