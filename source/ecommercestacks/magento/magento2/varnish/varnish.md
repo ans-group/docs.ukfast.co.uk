@@ -326,17 +326,18 @@ You will need to add this under the `vcl_deliver` section:
 
 ```vcl
     if (resp.status == 503) {
-        return(restart);
+       return(restart);
     }
 ```
 
 To configure the response you will have to add the below config to the `vcl_backend_response` section:
 
 ```vcl
-      if (beresp.status == 503 && bereq.retries < 5 ) {
-       return(retry);
-      }
+    if (beresp.status == 503 && bereq.retries < 5 ) {
+       return(retry);
+    }
 ```
+
 #### Custom error page for all sites
 
 Upload custom error page here:
@@ -345,7 +346,7 @@ Upload custom error page here:
 /etc/varnish/error503.html
 ```
 
-Then you need to add this under the `vcl_backend_error` section:
+Then you need to add this under the `vcl_backend_error` section (You may need to create the sub for `vcl_backend_error`):
 
 ```vcl
       if (beresp.status == 503 && bereq.retries == 5) {
@@ -354,7 +355,7 @@ Then you need to add this under the `vcl_backend_error` section:
        }
 ```
 
-The final change is to the `vcl_synth` section:
+The final change is to the `vcl_synth` section (You may need to create the sub for `vcl_synth`):
 
 ```vcl
     if (resp.status == 503) {
@@ -371,7 +372,7 @@ Upload site error page here:
 /etc/varnish/maintenance/example.co.uk.html
 ```
 
-Then you need to add this under the `vcl_backend_error` section:
+Then you need to add this under the `vcl_backend_error` section (You may need to create the sub for `vcl_backend_error`):
 
 ```vcl
       if (beresp.http.host ~ "example.co.uk" && beresp.status == 503 && bereq.retries == 5) {
@@ -380,29 +381,13 @@ Then you need to add this under the `vcl_backend_error` section:
       }
 ```
 
-The final change is to the `vcl_synth` section:
+The final change is to the `vcl_synth` section (You may need to create the sub for `vcl_synth`):
 
 ```vcl
       if (req.http.host ~ "example.co.uk" && resp.status == 503) {
           synthetic(std.fileread("/etc/varnish/maintenance/example.co.uk.html"));
           return(deliver);
       }
-```
-
-#### `Vcl_synth` doesn't exist
-
-If the section `vcl_backend_error` or `vcl_synth` does not exist, please create the configuration using the below as an example:
-
-```vcl
-sub vcl_synth {
-    if (resp.status == 503) {
-     }
-}
-
-sub vcl_backend_error {
-    if (resp.status == 503) {
-     }
-}
 ```
 
 ### Purge Cache
