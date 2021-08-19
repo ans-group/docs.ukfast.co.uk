@@ -51,6 +51,9 @@ ExecStart=/usr/sbin/varnishd \
           -p pipe_timeout=600
 ```
 
+### Example `VCL`
+You can view an example Magento2 UKFast `VCL` [here](ecommercestacks/magento/magento2/varnish/UKFastVCL.md)
+
 ### Configuration Test
 
 It's very important to run a configuration test before starting / restarting the Varnish service. You can run a configuration test with the following command:
