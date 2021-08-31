@@ -67,7 +67,7 @@ mysqldump --all-databases > alldatabases.sql
 * Check what Percona versions are installed:
 
 ```bash
-rpm –qa | grep –i percona
+rpm -qa | grep –i percona
 ```
 
 * Remove these versions:

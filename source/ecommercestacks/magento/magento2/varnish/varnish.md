@@ -51,6 +51,9 @@ ExecStart=/usr/sbin/varnishd \
           -p pipe_timeout=600
 ```
 
+### Example `VCL`
+You can view an example Magento2 UKFast `VCL` [here](UKFastVCL.md)
+
 ### Configuration Test
 
 It's very important to run a configuration test before starting / restarting the Varnish service. You can run a configuration test with the following command:
@@ -61,7 +64,7 @@ varnishd -C -f /etc/varnish/default.vcl
 
 A successful output from this command will be the VCL displayed on the terminal with no error message(s).
 
-#### Start Varnish
+### Start Varnish
 
 You can start the Varnish service with the following command:
 
@@ -77,14 +80,14 @@ You can enable Varnish on boot after installing it with this command:
 systemctl enable varnish
 ```
 
-#### Reload Varnish
+### Reload Varnish
 
 You can reload the Varnish service with the following command:
 
 ```bash
 systemctl reload varnish
 ```
-#### Restart Varnish
+### Restart Varnish
 
 You can restart the Varnish service with the following command:
 
@@ -319,6 +322,131 @@ Varnish will need a reload for this to take effect.
 varnishd -C -f /etc/varnish/default.vcl && systemctl reload varnish
 ```
 
+### Custom 503 Error page
+To configure a custom Varnish 503 error page you will have to follow these steps.
+
+You will need to add this under the `vcl_deliver` section:
+
+```vcl
+    if (resp.status == 503) {
+       return(restart);
+    }
+```
+
+To configure the response you will have to add the below config to the `vcl_backend_response` section:
+
+```vcl
+    if (beresp.status == 503 && bereq.retries < 5 ) {
+       return(retry);
+    }
+```
+
+#### Custom error page for all sites
+
+Upload custom error page here:
+
+```bash
+/etc/varnish/error503.html
+```
+
+Then you need to add this under the `vcl_backend_error` section (You may need to create the sub for `vcl_backend_error`):
+
+```vcl
+      if (beresp.status == 503 && bereq.retries == 5) {
+          synthetic(std.fileread("/etc/varnish/error503.html"));
+          return(deliver);
+       }
+```
+
+The final change is to the `vcl_synth` section (You may need to create the sub for `vcl_synth`):
+
+```vcl
+    if (resp.status == 503) {
+        synthetic(std.fileread("/etc/varnish/error503.html"));
+        return(deliver);
+     }
+```
+
+#### Custom error page for a single site
+
+Upload site error page here:
+
+```bash
+/etc/varnish/maintenance/example.co.uk.html
+```
+
+Then you need to add this under the `vcl_backend_error` section (You may need to create the sub for `vcl_backend_error`):
+
+```vcl
+      if (beresp.http.host ~ "example.co.uk" && beresp.status == 503 && bereq.retries == 5) {
+          synthetic(std.fileread("/etc/varnish/maintenance/example.co.uk.html"));
+          return(deliver);
+      }
+```
+
+The final change is to the `vcl_synth` section (You may need to create the sub for `vcl_synth`):
+
+```vcl
+      if (req.http.host ~ "example.co.uk" && resp.status == 503) {
+          synthetic(std.fileread("/etc/varnish/maintenance/example.co.uk.html"));
+          return(deliver);
+      }
+```
+
+### Load balancing
+You can define multiple backends in the `Varnish VCL` file (`/etc/varnish/default.vcl`) to load balance traffic between servers.
+
+#### import directors
+You will have to add this to the top of `VCL`:
+```vcl
+import directors;
+```
+
+#### Create/add backends:
+```vcl
+backend Web01 {
+    .host = "REPLACEME";
+    .port = "8080";
+    .first_byte_timeout = 600s;
+    .probe = {
+        .url = "/health_check.php";
+        .timeout = 2s;
+        .interval = 5s;
+        .window = 10;
+        .threshold = 5;
+   }
+}
+
+backend Web02 {
+    .host = "REPLACEME";
+    .port = "8080";
+    .first_byte_timeout = 600s;
+    .probe = {
+        .url = "/health_check.php";
+        .timeout = 2s;
+        .interval = 5s;
+        .window = 10;
+        .threshold = 5;
+   }
+}
+```
+
+#### Directors
+Beneath the backends create the `vcl_init` sub:
+```vcl
+sub vcl_init {
+   new prod_web = directors.round_robin();
+   lbweb.add_backend(web01);
+   lbweb.add_backend(web02);
+}
+```
+
+#### Set Backend
+Within the `vcl_recv` sub you can now specify which director to use:
+```vcl
+set req.backend_hint = lbweb.backend();
+```
+
 ### Purge Cache
 
 Magento purges Varnish hosts after you configure Varnish hosts using the `magento setup:config:set` command. Ensure you run the Magento 2 CLI as the local system user defined in PHP-FPM and not root. Once configured, when you clean, flush, or refresh the Magento cache, Varnish purges as well.
@@ -336,19 +464,19 @@ php bin/magento setup:config:set --http-cache-hosts=10.0.0.17,10.0.0.18,10.0.0.1
 However you can purge the cache manually with the following command:
 
 ```bash
-curl -I0 -X PURGE www.exampledomain.com -H "X-Magento-Tags-Pattern: *"
+curl -I0 -X PURGE www.exampledomain.com -H "X-Magento-Tags-Pattern: .*"
 ```
 
 Single URI:
 
 ```bash
-curl -I0 -X PURGE www.exampledomain.com/client.css -H "X-Magento-Tags-Pattern: *"
+curl -I0 -X PURGE www.exampledomain.com/client.css -H "X-Magento-Tags-Pattern: .*"
 ```
 
 If the DNS for your domain does not point to Varnish you can use the IP address of your Varnish host:
 
 ```bash
-curl -I0 -X PURGE http://158.228.105.80 -H "Host: www.exampledomain.com" -H "X-Magento-Tags-Pattern: *"
+curl -I0 -X PURGE http://158.228.105.80 -H "Host: www.exampledomain.com" -H "X-Magento-Tags-Pattern: .*"
 ```
 
 By default, Varnish will not purge all static assets and will instead only purge PHP. This is due to Varnish only purging the assets with the X-Magento-Tags header. As this header is generated by Magento we need to adjust the `/etc/varnish/default.vcl` file if we want to purge everything including static assets.
@@ -393,7 +521,7 @@ server {
   listen 10.0.0.17:8080;
 ```
 
-#### SSL Offloading
+### SSL Offloading
 
 If SSL is set to offloading like the above example you need to uncomment the following from the NGINX vhosts configuration file:
 
