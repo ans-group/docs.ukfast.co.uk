@@ -194,7 +194,6 @@ echo "suhosin.session.cryptua = off" >> /etc/php.ini
 ```
 ### `/etc/php.d/newrelic.ini` Settings
 
-
 **newrelic.license**
 
 This is a required field - this sets the New Relic license key to use. The key can be found in your New Relic portal.
@@ -203,7 +202,8 @@ This is a required field - this sets the New Relic license key to use. The key c
 
 This config option sets the application name that data is reported under in APM. New Relic recommend that this is changed from the default, as data for all applications with the same name is merged in the portal - making it difficult to filter out site-by-site transactions.
 
-**newrelic.loglevel**                                                                                                                                                                  
+**newrelic.loglevel**
+
 This sets the level of detail of messages sent to the log file. This value can be set to:
 ```bash
 error
