@@ -1,12 +1,12 @@
 # ACME.sh
 
-acme.sh is a simple let’s encrypt client written in Unix shell, compared to it's counter parts such as the popular Certbot it is much more lightweight on the system and has the ability to be customised, as it's shell script the dependencies are minimal any server running bash, sh or zsh is compatible with this script.
+acme.sh is a simple lets encrypt client written in Unix shell, compared to its counter parts such as the popular Certbot it is much more lightweight on the system and has the ability to be customised, as its shell script the dependencies are minimal any server running bash, sh or zsh is compatible with this script.
 
 More details on the project can be seen on the offcial repository [here](https://github.com/acmesh-official/acme.sh).
 
 ## Installation
 
-One of the benifits of acme.sh is that it can be run and installed as any system user however it is recomended to install it as root, it's important to note that acme.sh does not offically work with sudo so the first step to su up to the servers root account.
+One of the benifits of acme.sh is that it can be run and installed as any system user however it is recomended to install it as root, its important to note that acme.sh does not offically work with sudo so the first step to su up to the servers root account.
 
 ```bash
 sudo -i
@@ -42,7 +42,7 @@ The next command the following flags can be adjusted to your preference.
 
 ```eval_rst 
 .. note:: 
-    It's important that the email set for accountemail is a valid address as Let's encrypt will sent reminder emails should a certificate not get renewed. 
+    Its important that the email set for accountemail is a valid address as Lets encrypt will sent reminder emails should a certificate not get renewed. 
 ``` 
 An example of a install command would look something like this.
 
@@ -54,3 +54,11 @@ An example of a install command would look something like this.
 ## Issuing a certificate
 
 ##  Additional options
+
+```eval_rst
+  .. title:: SSL | How to install and use acme.sh
+  .. meta::
+     :title: SSL | How to install and use acme.sh | UKFast Documentation
+     :description: How to install and use acme.sh
+     :keywords: ssl, acme.sh, letsencrypt, let's encrypt, secure, security, linux, server, guide, tutorial
+```
