@@ -49,7 +49,26 @@ An example of a install command would look something like this.
 ```bash
 ./acme.sh --install --home /etc/acmesh --config-home /etc/ssl/data --cert-home /etc/ssl/certs --accountemail "example@example.com"
 ```
+You will likely see this warning when installing the client.
 
+```
+It is recommended to install socat first.
+We use socat for standalone server if you use standalone mode.
+If you don't use standalone mode, just ignore this warning.
+```
+
+This warning only applies if the server you are installing the client on **does not** have a web server (such as nginx) installed.
+
+The install process will create an alias to the client for you as well as setting up a cron job to automate the renewal of certificates for you, once the install is complete there is one final step before we issue certificates, we need to register the Lets encrypt account.
+
+```eval_rst
+.. note::
+    Its important to ensure that the email used here is the same used to configure acme.sh with.
+```
+
+```bash
+/etc/letsencrypt/acme.sh --register-account -m example@example.com
+```
 
 ## Issuing a certificate
 
