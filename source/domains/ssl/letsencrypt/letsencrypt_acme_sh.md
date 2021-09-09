@@ -57,7 +57,7 @@ We use socat for standalone server if you use standalone mode.
 If you don't use standalone mode, just ignore this warning.
 ```
 
-This warning only applies if the server you are installing the client on **does not** have a web server (such as nginx) installed.
+This warning only applies if the server you are installing the client on **does not** have a web server (such as NGINX) installed.
 
 The install process will create an alias to the client for you as well as setting up a cron job to automate the renewal of certificates for you, once the install is complete there is one final step before we issue certificates, we need to register the Lets encrypt account.
 
