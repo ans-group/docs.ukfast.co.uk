@@ -6,7 +6,7 @@ metadata:
     app: app
   name: app
 spec:
-  replicas: 1
+  replicas: 2
   selector:
     matchLabels:
       app: app
@@ -34,6 +34,3 @@ spec:
             port: 80
           initialDelaySeconds: 3
           periodSeconds: 10
-      initContainers:
-      - name: es-populator
-        image: populatorImage
