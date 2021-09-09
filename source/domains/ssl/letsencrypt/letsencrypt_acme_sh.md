@@ -2,23 +2,23 @@
 
 acme.sh is a simple lets encrypt client written in Unix shell, compared to its counter parts such as the popular Certbot it is much more lightweight on the system and has the ability to be customised, as its shell script the dependencies are minimal any server running bash, sh or zsh is compatible with this script.
 
-More details on the project can be seen on the offcial repository [here](https://github.com/acmesh-official/acme.sh).
+More details on the project can be seen on the official repository [here](https://github.com/acmesh-official/acme.sh).
 
 ## Installation
 
-One of the benifits of acme.sh is that it can be run and installed as any system user however it is recomended to install it as root, its important to note that acme.sh does not offically work with sudo so the first step to su up to the servers root account.
+One of the benefits of acme.sh is that it can be run and installed as any system user however it is recommended to install it as root, its important to note that acme.sh does not officially work with sudo so the first step would be to either sign in as root or escalate our privileges with.
 
 ```bash
 sudo -i
 ```
 Most systems come with git pre-installed on them but to ensure it is we can do the following.
 
-For RHEL based systems (e.g. centOS, Alma)
+For RHEL based systems (e.g. Centos, Alma)
 
 ```bash
 yum install git
 ```
-For Debian based systems (e.g. ubuntu)
+For Debian based systems (e.g. Ubuntu)
 
 ```bash
 apt-get install git
@@ -35,8 +35,8 @@ cd acme.sh/
 ```
 The next command the following flags can be adjusted to your preference.
 
-- home | This is where acme.sh will be installed includeing any api plugins.
-- config-home | This is where the configs for certificates will be store (e.g. renewal hooks)
+- home | This is where acme.sh will be installed including any API plugins.
+- config-home | This is where the config files for certificates will be stored (e.g. renewal hooks)
 - cert-home | This is where the certificates themselves will be stored.
 - accountemail | This will be the address renewal messages will be sent.
 
