@@ -13,7 +13,7 @@ sudo -i
 ```
 Most systems come with git pre-installed on them but to ensure it is we can do the following.
 
-For RHEL based systems (e.g. Centos, Alma)
+For RHEL based systems (e.g. CentOS, Alma)
 
 ```bash
 yum install git
