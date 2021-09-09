@@ -24,14 +24,14 @@ For Debian based systems (e.g. ubuntu)
 apt-get install git
 ```
 Now we need to clone the acme.sh repository locally and move into the directory.
-```eval_rst 
-.. note:: 
-    Please note this clone the repo to your currenly working directory, you may choose to clone to /tmp so the repo files will automatically be cleared. 
-``` 
+```eval_rst
+.. note::
+    Please note this clone the repo to your currenly working directory, you may choose to clone to /tmp so the repo files will automatically be cleared.
+```
 
 ```bash
 git clone https://github.com/acmesh-official/acme.sh.git
-cd acme.sh/ 
+cd acme.sh/
 ```
 The next command the following flags can be adjusted to your preference.
 
@@ -40,10 +40,10 @@ The next command the following flags can be adjusted to your preference.
 - cert-home | This is where the certificates themselves will be stored.
 - accountemail | This will be the address renewal messages will be sent.
 
-```eval_rst 
-.. note:: 
-    Its important that the email set for accountemail is a valid address as Lets encrypt will sent reminder emails should a certificate not get renewed. 
-``` 
+```eval_rst
+.. note::
+    Its important that the email set for accountemail is a valid address as Lets encrypt will sent reminder emails should a certificate not get renewed.
+```
 An example of a install command would look something like this.
 
 ```bash
