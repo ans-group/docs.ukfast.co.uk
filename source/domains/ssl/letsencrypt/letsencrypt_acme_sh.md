@@ -59,7 +59,7 @@ If you don't use standalone mode, just ignore this warning.
 
 This warning only applies if the server you are installing the client on **does not** have a web server (such as NGINX) installed.
 
-The install process will create an alias to the client for you as well as setting up a cron job to automate the renewal of certificates for you, once the install is complete there is one final step before we issue certificates, we need to register the Lets encrypt account.
+The install process will create an alias to the client for you as well as setting up a cron job to automate the renewal of certificates for you, once the install is complete there is two final steps before we can issue certificates, first we need to log out and log back in to apply the command alias then we need to register the Lets encrypt account.
 
 ```eval_rst
 .. note::
@@ -67,10 +67,16 @@ The install process will create an alias to the client for you as well as settin
 ```
 
 ```bash
-/etc/letsencrypt/acme.sh --register-account -m example@example.com
+acme.sh --register-account -m example@example.com
 ```
 
 ## Issuing a certificate
+
+There a couple of different options that acme.sh supports for issuing certificates below we will cover the main three webroot, apache and nginx, acme.sh also supports a number of APIs from many different providors more information on these can be seen [here](https://github.com/acmesh-official/acme.sh/wiki/dnsapi).
+
+### Webroot
+
+
 
 ##  Additional options
 
