@@ -410,6 +410,7 @@ snapshotting
 SNDS
 SNI
 SOA
+socat
 SoftEther
 SpamAssassin
 SQLI
