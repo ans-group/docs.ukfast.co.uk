@@ -2,6 +2,7 @@
 AAAA
 actioned
 accreditations
+accountemail
 adapter
 ADFS
 ADMX
@@ -539,3 +540,4 @@ XSS
 XtraBackup
 Yellowdog
 Zippymail
+zsh
