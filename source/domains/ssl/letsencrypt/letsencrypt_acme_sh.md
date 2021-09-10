@@ -76,7 +76,7 @@ There a couple of different options that acme.sh supports for issuing certificat
 
 ### Webroot
 
-Webroot verifcation involves placing a verification file in the the document root of the site, this it then polled by the CA to verify your control over the domain and issue the certificate, normally with paid certificates this is a manual process however acme.sh takes care of this all automatically.
+Webroot verification involves placing a verification file in the the document root of the site, this it then polled by the CA to verify your control over the domain and issue the certificate, normally with paid certificates this is a manual process however acme.sh takes care of this all automatically.
 
 For webroot verification you will need to know the document root of your site, you can usually find this information from your webserver config files, although commonly they found in the /var/www directory.
 
