@@ -72,11 +72,27 @@ acme.sh --register-account -m example@example.com
 
 ## Issuing a certificate
 
-There a couple of different options that acme.sh supports for issuing certificates below we will cover the main three webroot, apache and nginx, acme.sh also supports a number of APIs from many different providors more information on these can be seen [here](https://github.com/acmesh-official/acme.sh/wiki/dnsapi).
+There a couple of different options that acme.sh supports for issuing certificates below we will cover the main three webroot, Apache and NGINX, acme.sh also supports a number of APIs from many different providers more information on these can be seen [here](https://github.com/acmesh-official/acme.sh/wiki/dnsapi).
 
 ### Webroot
 
+Webroot verifcation involves placing a verfication file in the the document root of the site, this it then polled by the CA to verfify your control over the domain and issue the certificate, normally with paid certificates this is a manual process however acme.sh takes care of this all automatically.
 
+For webroot verification you will need to know the document root of your site, you can usally find this information from your webserver config files, although commonly they found in the /var/www directory.
+
+Once we know where the document root is we can begin with issueing certificates.
+
+For securing a standard website with www. and non-www.
+
+```bash
+acme.sh --issue -d example.com -d www.example.com -w /path/to/doc/root
+```
+
+For a single subdomain you can use the following example.
+
+```bash
+acme.sh --issue -d text.example.com -w /path/to/doc/root
+```
 
 ##  Additional options
 
