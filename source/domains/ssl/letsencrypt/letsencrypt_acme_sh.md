@@ -76,22 +76,41 @@ There a couple of different options that acme.sh supports for issuing certificat
 
 ### Webroot
 
-Webroot verifcation involves placing a verfication file in the the document root of the site, this it then polled by the CA to verfify your control over the domain and issue the certificate, normally with paid certificates this is a manual process however acme.sh takes care of this all automatically.
+Webroot verifcation involves placing a verification file in the the document root of the site, this it then polled by the CA to verify your control over the domain and issue the certificate, normally with paid certificates this is a manual process however acme.sh takes care of this all automatically.
 
-For webroot verification you will need to know the document root of your site, you can usally find this information from your webserver config files, although commonly they found in the /var/www directory.
+For webroot verification you will need to know the document root of your site, you can usually find this information from your webserver config files, although commonly they found in the /var/www directory.
 
-Once we know where the document root is we can begin with issueing certificates.
+Once we know where the document root is we can begin with issuing certificates.
 
 For securing a standard website with www. and non-www.
 
+```eval_rst
+.. note::
+    Replace <webserver> with the webserver you are using this will likely be NGINX or Apache this ensures the service is restarted when the certificate is renewed.
+```
+
 ```bash
-acme.sh --issue -d example.com -d www.example.com -w /path/to/doc/root
+acme.sh --issue -d example.com -d www.example.com -w /path/to/doc/root --reloadcmd "systemctl reload <webserver>"
 ```
 
 For a single subdomain you can use the following example.
 
 ```bash
-acme.sh --issue -d text.example.com -w /path/to/doc/root
+acme.sh --issue -d test.example.com -w /path/to/doc/root --reloadcmd "systemctl reload <webserver>"
+```
+### NGINX
+
+acme.sh also has a NGINX mode this will only work if you are currently running NGINX on port 80
+
+```bash
+acme.sh --issue -d example.com -d www.example.com --nginx --reloadcmd "systemctl reload nginx"
+```
+
+### Apache
+acme.sh also has a Apache mode this will only work if you are currently running Apache on port 80
+
+```bash
+acme.sh --issue -d example.com -d www.example.com --apache --reloadcmd "systemctl reload apache"
 ```
 
 ##  Additional options
