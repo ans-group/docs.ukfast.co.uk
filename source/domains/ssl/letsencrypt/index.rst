@@ -15,6 +15,7 @@ Over a billion certificates have already been issued using **Let's Encrypt**.
    :maxdepth: 1
    
    How Let's Encrypt Works <letsencrypt_how>  
+   How to install and use acme.sh <letsencrypt_acme_sh>
    NGINX on CentOS with Certbot <letsencrypt_centos_nginx>
    Apache on CentOS with Certbot <letsencrypt_centos_apache>
    Apache/NGINX on Ubuntu with Certbot <letsencrypt_ubuntu>
