@@ -194,15 +194,15 @@ echo "suhosin.session.cryptua = off" >> /etc/php.ini
 ```
 ### `/etc/php.d/newrelic.ini` Settings
 
-**newrelic.license**
+**`newrelic`.license**
 
 This is a required field - this sets the New Relic license key to use. The key can be found in your New Relic portal.
 
-**newrelic.appname**
+**`newrelic`.`appname`**
 
 This config option sets the application name that data is reported under in APM. New Relic recommend that this is changed from the default, as data for all applications with the same name is merged in the portal - making it difficult to filter out site-by-site transactions.
 
-**newrelic.loglevel**
+**`newrelic`.`loglevel`**
 
 This sets the level of detail of messages sent to the log file. This value can be set to:
 ```bash
@@ -214,7 +214,7 @@ debug
 verbosedebug
 ```
 
-Further information on how to configure the newrelic.ini file can be found in the following New Relic documentation:
+Further information on how to configure the `newrelic.ini` file can be found in the following New Relic documentation:
 https://docs.newrelic.com/docs/agents/php-agent/configuration/php-agent-configuration/
 
 ### PHP-FPM Default Pool
