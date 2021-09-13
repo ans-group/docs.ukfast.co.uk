@@ -1,17 +1,17 @@
 # ACME.sh
 
-acme.sh is a simple lets encrypt client written in Unix shell, compared to its counter parts such as the popular Certbot it is much more lightweight on the system and has the ability to be customised, as its shell script the dependencies are minimal any server running bash, sh or zsh is compatible with this script.
+acme.sh is a simple lets encrypt client written in Unix shell, compared to its counter parts such as the popular Certbot it is much more lightweight on the system and has the ability to be customised, as its a shell script the dependencies are minimal any server running bash, sh or zsh is compatible with this client.
 
 More details on the project can be seen on the official repository [here](https://github.com/acmesh-official/acme.sh).
 
 ## Installation
 
-One of the benefits of acme.sh is that it can be run and installed as any system user however it is recommended to install it as root, its important to note that acme.sh does not officially work with sudo so the first step would be to either sign in as root or escalate our privileges with.
+One of the benefits of acme.sh is that it can be run and installed as any system user however it is recommended to install it as root, its important to note that acme.sh does not officially work with sudo (there is a work around for this, but it is not recommended so the first step would be to either sign in as root or escalate privileges with.
 
 ```bash
 sudo -i
 ```
-Most systems come with git pre-installed on them but to ensure it is we can do the following.
+Most systems come with git pre-installed but to ensure it is installed we can do the following.
 
 For RHEL based systems (e.g. CentOS, Alma)
 
@@ -26,23 +26,23 @@ apt-get install git
 Now we need to clone the acme.sh repository locally and move into the directory.
 ```eval_rst
 .. note::
-    Please note this clone the repo to your currenly working directory, you may choose to clone to /tmp so the repo files will automatically be cleared.
+    Please note this will clone the repo to your current working directory, you may choose to clone to /tmp so the repo files will automatically be cleared.
 ```
 
 ```bash
 git clone https://github.com/acmesh-official/acme.sh.git
 cd acme.sh/
 ```
-The next command the following flags can be adjusted to your preference.
+For next command the following flags can be adjusted to your preference.
 
 - home | This is where acme.sh will be installed including any API plugins.
 - config-home | This is where the config files for certificates will be stored (e.g. renewal hooks)
 - cert-home | This is where the certificates themselves will be stored.
-- accountemail | This will be the address renewal messages will be sent.
+- accountemail | This will be the address renewal messages will be sent to.
 
 ```eval_rst
 .. note::
-    Its important that the email set for accountemail is a valid address as Lets encrypt will sent reminder emails should a certificate not get renewed.
+    Its important that the email set for accountemail is a valid address as Lets encrypt will send reminder emails should a certificate not get renewed which is usually an indication of a problem.
 ```
 An example of a install command would look something like this.
 
@@ -59,7 +59,7 @@ If you don't use standalone mode, just ignore this warning.
 
 This warning only applies if the server you are installing the client on **does not** have a web server (such as NGINX) installed.
 
-The install process will create an alias to the client for you as well as setting up a cron job to automate the renewal of certificates for you, once the install is complete there is two final steps before we can issue certificates, first we need to log out and log back in to apply the command alias then we need to register the Lets encrypt account.
+The install process will create a bash alias for client for you as well as setting up a cron job to automate the renewal of certificates, once the install is complete there is two final steps before we can issue certificates, first we need to log out and log back in to apply the bash alias then we need to register the Lets encrypt account.
 
 ```eval_rst
 .. note::
@@ -74,9 +74,9 @@ acme.sh --register-account -m example@example.com
 
 There a couple of different options that acme.sh supports for issuing certificates below we will cover the main three webroot, Apache and NGINX, acme.sh also supports a number of APIs from many different providers more information on these can be seen [here](https://github.com/acmesh-official/acme.sh/wiki/dnsapi).
 
-### Webroot
+## Webroot
 
-Webroot verification involves placing a verification file in the the document root of the site, this it then polled by the CA to verify your control over the domain and issue the certificate, normally with paid certificates this is a manual process however acme.sh takes care of this all automatically.
+Webroot verification involves placing a verification file in the document root of the site, this it then polled by the CA to verify your control over the domain and issue the certificate, normally with paid certificates this is a manual process however acme.sh takes care of this all automatically.
 
 For webroot verification you will need to know the document root of your site, you can usually find this information from your webserver config files, although commonly they found in the /var/www directory.
 
@@ -98,22 +98,20 @@ For a single subdomain you can use the following example.
 ```bash
 acme.sh --issue -d test.example.com -w /path/to/doc/root --reloadcmd "systemctl reload <webserver>"
 ```
-### NGINX
+## NGINX
 
-acme.sh also has a NGINX mode this will only work if you are currently running NGINX on port 80
+acme.sh also has a NGINX mode this will only work if you are **currently** running NGINX on port 80
 
 ```bash
 acme.sh --issue -d example.com -d www.example.com --nginx --reloadcmd "systemctl reload nginx"
 ```
 
-### Apache
-acme.sh also has a Apache mode this will only work if you are currently running Apache on port 80
+## Apache
+acme.sh also has a Apache mode this will only work if you are **currently** running Apache on port 80
 
 ```bash
 acme.sh --issue -d example.com -d www.example.com --apache --reloadcmd "systemctl reload apache"
 ```
-
-##  Additional options
 
 ```eval_rst
   .. title:: SSL | How to install and use acme.sh
