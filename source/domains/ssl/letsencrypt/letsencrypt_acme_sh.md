@@ -87,6 +87,7 @@ For securing a standard website with www. and non-www.
 ```eval_rst
 .. note::
     Replace <webserver> with the webserver you are using this will likely be NGINX or Apache this ensures the service is restarted when the certificate is renewed.
+    apache's service name also changes depending on the OS it is installed on for Debian (e.g. Ubuntu) systems this is apache2, for RHEL (e.g. Alma) this is httpd.
 ```
 
 ```bash
@@ -102,15 +103,44 @@ acme.sh --issue -d test.example.com -w /path/to/doc/root --reloadcmd "systemctl 
 
 acme.sh also has a NGINX mode this will only work if you are **currently** running NGINX on port 80
 
+For securing a standard website with www. and non-www.
+
 ```bash
 acme.sh --issue -d example.com -d www.example.com --nginx --reloadcmd "systemctl reload nginx"
+```
+For a single subdomain you can use the following example.
+
+```bash
+acme.sh --issue -d test.example.com --nginx --reloadcmd "systemctl reload nginx"
 ```
 
 ## Apache
 acme.sh also has a Apache mode this will only work if you are **currently** running Apache on port 80
 
+For securing a standard website with www. and non-www.
+
+On RHEL based systems (e.g. CentOS, Alma)
+
 ```bash
-acme.sh --issue -d example.com -d www.example.com --apache --reloadcmd "systemctl reload apache"
+acme.sh --issue -d example.com -d www.example.com --apache --reloadcmd "systemctl reload httpd"
+```
+On Debian based systems (e.g. Ubuntu)
+
+```bash
+acme.sh --issue -d example.com -d www.example.com --apache --reloadcmd "systemctl reload apache2"
+```
+For a single subdomain you can use the following example.
+
+On RHEL based systems (e.g. CentOS, Alma)
+
+```bash
+acme.sh --issue -d test.example.com --apache --reloadcmd "systemctl reload httpd"
+```
+
+On Debian based systems (e.g. Ubuntu)
+
+```bash
+acme.sh --issue -d test.example.com --apache --reloadcmd "systemctl reload apache2"
 ```
 
 ```eval_rst
