@@ -37,12 +37,6 @@ sub vcl_recv {
       return (pass);
     }
 
-    # HTTP -> HTTPS
-    if (req.http.X-Forwarded-Proto !~ "https") {
-        set req.http.location = "https://" + req.http.host + req.url;
-        return (synth(750, "Permanently moved"));
-    }
-
     if (req.method == "PURGE") {
         if (client.ip !~ purge) {
             return (synth(405, "Method not allowed"));
@@ -67,6 +61,12 @@ sub vcl_recv {
           ban("obj.http.X-Pool ~ " + req.http.X-Pool);
         }
         return (synth(200, "Purged"));
+    }
+
+    # HTTP -> HTTPS
+    if (req.http.X-Forwarded-Proto !~ "https") {
+        set req.http.location = "https://" + req.http.host + req.url;
+        return (synth(750, "Permanently moved"));
     }
 
     if (req.method != "GET" &&
