@@ -62,7 +62,7 @@ sub vcl_recv {
         }
         return (synth(200, "Purged"));
     }
-    
+
     # HTTP -> HTTPS
     if (req.http.X-Forwarded-Proto !~ "https") {
         set req.http.location = "https://" + req.http.host + req.url;
