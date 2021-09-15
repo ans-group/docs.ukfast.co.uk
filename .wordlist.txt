@@ -2,6 +2,7 @@
 AAAA
 actioned
 accreditations
+accountemail
 adapter
 ADFS
 ADMX
@@ -15,6 +16,7 @@ ANAME
 Ansible
 anycast
 AnyConnect
+Apache
 APCu
 APIs
 APM
@@ -410,6 +412,7 @@ SNDS
 SNI
 SOA
 SoftEther
+socat
 SpamAssassin
 SQLI
 Sri
@@ -515,6 +518,8 @@ Webcelerators
 webhook
 webhooks
 webmail
+webroot
+Webroot
 webserver
 webservers
 WebSockets
@@ -539,3 +544,4 @@ XSS
 XtraBackup
 Yellowdog
 Zippymail
+zsh
