@@ -4,7 +4,7 @@ Though infrequent, sometimes an expired Root CA might cause issues (eg. with ope
 ##  Centos 7
 Backup the trust store
 ```bash
-cp -i /etc/pki/tls/certs/ca-bundle.crt ~/ca-bundle.crt-backup 
+cp -i /etc/pki/tls/certs/ca-bundle.crt ~/ca-bundle.crt-backup
 ```
 Identify the CA certificate
 ```bash
@@ -48,11 +48,11 @@ $ diff ~/ca-bundle.crt-backup /etc/pki/tls/certs/ca-bundle.crt
 < Ob8VZRzI9neWagqNdwvYkQsEjgfbKbYK7p2CNTUQ
 < -----END CERTIFICATE-----
 <
-``` 
-```eval_rst 
+```
+```eval_rst
    .. title:: SSL | Remove CA Certificate from System Trust Store
-   .. meta:: 
-      :title: SSL |  Remove CA Certificate from System Trust Store | UKFast Documentation 
+   .. meta::
+      :title: SSL |  Remove CA Certificate from System Trust Store | UKFast Documentation
       :description: Manually Remove CA Certificates from System Trust Store
       :keywords: ssl, linux, certificate, expired, trust store
-``` 
+```
