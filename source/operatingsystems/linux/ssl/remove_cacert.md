@@ -1,6 +1,6 @@
 # Remove CA Certificate from System Trust Store
-Root Certificate Authority (CA) certificates can and do expire. Typically, alternative CAs are available on the system, and often it is the case that a system package update will remove the older expired certificates (eg. the `ca-certificates` package).
-Though infrequent, sometimes an expired Root CA might cause issues (eg. with OpenSSL 1.0.2x) and needs to be manually removed from your server trust store.
+Root Certificate Authority (CA) certificates can and do expire. Typically, alternative CAs are available on the system, and often it is the case that a system package update will remove the older expired certificates (for example, the `ca-certificates` package).
+Though infrequent, sometimes an expired Root CA might cause issues (for example, OpenSSL 1.0.2x) and needs to be manually removed from your server trust store.
 ##  CentOS 7
 Backup the trust store
 ```bash
