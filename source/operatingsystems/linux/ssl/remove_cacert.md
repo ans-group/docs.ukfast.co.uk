@@ -54,5 +54,5 @@ $ diff ~/ca-bundle.crt-backup /etc/pki/tls/certs/ca-bundle.crt
    .. meta::
       :title: SSL |  Remove CA Certificate from System Trust Store | UKFast Documentation
       :description: Manually Remove CA Certificates from System Trust Store
-      :keywords: ssl, linux, certificate, expired, trust store
+      :keywords: letsencrypt, lets, let's, root, CA, ssl, linux, certificate, expired, trust store
 ```
