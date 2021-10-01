@@ -5,19 +5,14 @@ Though infrequent, sometimes an expired Root CA might cause issues (for example,
 
 ```eval_rst
 .. note::
-   For CentOS7, there is now an updated package that removes this expired certificate: 
-   
-   ``yum install ca-certificates`` 
-   
+   For CentOS7, there is now an updated package that removes this expired certificate:
+   ``yum install ca-certificates``
    You can then check and confirm this is fixed with:
-   
-   ``rpm -q --changelog ca-certificates | grep "DST ROOT CA X3" -B4`` 
-   
+   ``rpm -q --changelog ca-certificates | grep "DST ROOT CA X3" -B4``
    ``* Tue Sep 14 2021 Bob Relyea <rrelyea@redhat.com> - 2021.2.50-72
    - Fix expired certificate.
    -    Removing:
-   -     # Certificate "DST Root CA X3"`` 
-   
+   -     # Certificate "DST Root CA X3"``
 ```
 
 Backup the trust store
