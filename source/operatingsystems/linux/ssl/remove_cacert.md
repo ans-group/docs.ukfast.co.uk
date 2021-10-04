@@ -2,6 +2,19 @@
 Root Certificate Authority (CA) certificates can and do expire. Typically, alternative CAs are available on the system, and often it is the case that a system package update will remove the older expired certificates (for example, the `ca-certificates` package).
 Though infrequent, sometimes an expired Root CA might cause issues (for example, OpenSSL 1.0.2x) and needs to be manually removed from your server trust store.
 ##  CentOS 7
+
+```eval_rst
+.. note::
+   For CentOS7, there is now an updated package that removes this expired certificate:
+   ``yum install ca-certificates``
+   You can then check and confirm this is fixed with:
+   ``rpm -q --changelog ca-certificates | grep "DST ROOT CA X3" -B4``
+   ``* Tue Sep 14 2021 Bob Relyea <rrelyea@redhat.com> - 2021.2.50-72
+   - Fix expired certificate.
+   -    Removing:
+   -     # Certificate "DST Root CA X3"``
+```
+
 Backup the trust store
 ```bash
 cp -i /etc/pki/tls/certs/ca-bundle.crt ~/ca-bundle.crt-backup
