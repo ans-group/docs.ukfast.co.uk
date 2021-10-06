@@ -7,6 +7,9 @@ Git is a free and open source distributed version control system designed to han
 .. toctree::
    :maxdepth: 1
 
-   git
-   using-git
-   installing-git
+   ncdu
+   
+.. meta::
+   :title: Redis | UKFast Documentation
+   :description: guides relating to using Redis on our Shopware optimised stack
+   :keywords: ukfast, Shopware, Magento, Magento2, optimised, stack, Redis, eCommerce
