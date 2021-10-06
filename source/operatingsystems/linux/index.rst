@@ -27,3 +27,4 @@ Help and guidance with Linux and related technologies
    redis/index
    elasticsearch/index
    mongodb/index
+   ncdu/index
