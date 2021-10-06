@@ -1,4 +1,4 @@
-# Ncdu
+# `Ncdu`
 
 ### Install `Ncdu` (CentOS)
 You can install `Ncdu` with the following command:
