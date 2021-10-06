@@ -1,8 +1,8 @@
 =================================================
- `NCDU <https://git-scm.com/>`_
+ `NCDU`_
 =================================================
 
-Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
+Ncdu is a variation of the du command and can be used to recursively scan directories based on the diskspace used.
 
 .. toctree::
    :maxdepth: 1
@@ -10,6 +10,6 @@ Git is a free and open source distributed version control system designed to han
    ncdu
    
 .. meta::
-   :title: Redis | UKFast Documentation
-   :description: guides relating to using Redis on our Shopware optimised stack
-   :keywords: ukfast, Shopware, Magento, Magento2, optimised, stack, Redis, eCommerce
+   :title: Ncdu | UKFast Documentation
+   :description: guides relating to using Ncdu on our Linux servers
+   :keywords: ukfast, Linux, Diskspace, Disk, Ncdu,
