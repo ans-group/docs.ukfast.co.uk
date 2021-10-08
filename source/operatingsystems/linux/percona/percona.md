@@ -76,10 +76,34 @@ rpm -qa | grep –i percona
 yum remove Percona-Server-server-57-5.7.29-32.1.el7.x86_64 Percona-Server-client-57-5.7.29-32.1.el7.x86_64 Percona-Server-shared-57-5.7.29-32.1.el7.x86_64 Percona-Server-shared-compat-57-5.7.29-32.1.el7.x86_64
 ```
 
+* Set up the repository ready to install the updated version:
+
+```bash
+percona-release setup ps80
+```
+
+* Replace the new mysql config with the old one:
+
+
+
+```bash
+yum install percona-server-server percona-toolkit
+```
+
+* Replace the new mysql config with the old one:
+
+```ini
+mv /etc/my.cnf.rpmsave /etc/my.cnf
+```
+
 * Add the below to `/etc/my.cnf` underneath the `[mysql]` section:
 
 ```ini
 default-authentication-plugin=mysql_native_password
+```
+
+Bin logs are enabled by default for Percona 8. To disable this feature please add the below to `/etc/my.cnf` underneath the `[mysql]` section:
+```ini
 skip-log-bin
 ```
 
@@ -89,18 +113,6 @@ skip-log-bin
 #query_cache_size = 128M
 #query_cache_limit = 8M
 #query_cache_type = 1
-```
-
-* Set up the repository ready to install the updated version:
-
-```bash
-percona-release setup ps80
-```
-
-* Install the new version:
-
-```bash
-yum install percona-server-server percona-toolkit
 ```
 
 * Start the new version:
