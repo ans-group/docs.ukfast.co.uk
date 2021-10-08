@@ -4,21 +4,14 @@
 You can install `Ncdu` with the following command:
 
 ```bash
-~]# yum install ncdu
+yum install ncdu
 ```
 
 ### Install `Ncdu` (Ubuntu/Debian)
 You can install `Ncdu` with the following command:
 
 ```bash
-~]# apt install ncdu
-```
-
-#### Updating `Ncdu`
-You can update `Ncdu` with the following command:
-
-```bash
-~]# yum update ncdu
+apt install ncdu
 ```
 
 #### Version Check
