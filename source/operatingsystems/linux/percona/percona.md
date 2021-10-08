@@ -80,6 +80,7 @@ yum remove Percona-Server-server-57-5.7.29-32.1.el7.x86_64 Percona-Server-client
 
 ```ini
 default-authentication-plugin=mysql_native_password
+skip-log-bin
 ```
 
 * Comment out the `query_cache` variables in that same file by adding a hash to the start of each line:
