@@ -201,7 +201,7 @@ Stop the default PHP-FPM pool (`www`) from running with the command:
 echo ";Default file, please don't remove" > /etc/php-fpm.d/www.conf
 ```
 
-### Start PHP-FPM
+### Start `PHP-FPM`
 
 #### Configuration Test
 
@@ -222,7 +222,7 @@ systemctl enable --now php-fpm
 
 ### New Relic
 
-You can enable or disable New Relic per domain be editing the php-fpm configuration file for the given domain:
+You can enable or disable New Relic per domain be editing the `php-fpm` configuration file for the given domain:
 
 ```bash
 php_flag[newrelic.enabled] = off
@@ -234,7 +234,7 @@ You can also set the New Relic APM name:
 php_value[newrelic.appname] = "My App 1"
 ```
 
-Further information on how to configure New Relic with PHP-FPM can be found in the following New Relic documentation:
+Further information on how to configure New Relic with `PHP-FPM` can be found in the following New Relic documentation:
 https://docs.newrelic.com/docs/agents/php-agent/configuration/php-directory-ini-settings/
 
 ```eval_rst
