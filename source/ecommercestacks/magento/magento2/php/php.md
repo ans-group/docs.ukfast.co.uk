@@ -212,50 +212,35 @@ php-fpm -t
 [21-Aug-2019 07:53:29] NOTICE: configuration file /etc/php-fpm.conf test is successful
 ```
 
-#### Start PHP-FPM
+#### Start and Enable On Boot
 
-You can then start the PHP-FPM service with the command
-
-```bash
-systemctl start php-fpm
-```
-
-#### Start On Boot
-
-You can also enable PHP-FPM to start on boot:
+You can start and enable PHP-FPM on boot:
 
 ```bash
-systemctl enable php-fpm
+systemctl enable --now php-fpm
 ```
-### `/etc/php.d/newrelic.ini` Settings
 
-**`newrelic`.license**
+### New Relic
 
-This is a required field - this sets the New Relic license key to use. The key can be found in your New Relic portal.
+You can enable or disable New Relic per domain be editing the php-fpm configruation file for the given domain:
 
-**`newrelic`.`appname`**
-
-This config option sets the application name that data is reported under in APM. New Relic recommend that this is changed from the default, as data for all applications with the same name is merged in the portal - making it difficult to filter out site-by-site transactions.
-
-**`newrelic`.`loglevel`**
-
-This sets the level of detail of messages sent to the log file. This value can be set to:
 ```bash
-error
-warning
-info
-verbose
-debug
-verbosedebug
+php_flag[newrelic.enabled] = off
 ```
 
-Further information on how to configure the `newrelic.ini` file can be found in the following New Relic documentation:
-https://docs.newrelic.com/docs/agents/php-agent/configuration/php-agent-configuration/
+You can also set the New Relic APM name:
+
+```bash
+php_value[newrelic.appname] = "My App 1"
+```
+
+Further information on how to configure New Relic with PHP-FPM can be found in the following New Relic documentation:
+https://docs.newrelic.com/docs/agents/php-agent/configuration/php-directory-ini-settings/
 
 ```eval_rst
   .. title:: Magento2 PHP
   .. meta::
      :title: Magento2 PHP | UKFast Documentation
      :description: A guide to using PHP on our Magento2 optimised stack
-     :keywords: ukfast, linux, install, centos, cloud, server, virtual, Magento, Magento2, PHP, eCommerce
+     :keywords: ukfast, linux, install, centos, cloud, server, virtual, Magento, Magento2, PHP, eCommerce, NewRelic
 ```
