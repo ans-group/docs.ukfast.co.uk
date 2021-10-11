@@ -82,15 +82,13 @@ yum remove Percona-Server-server-57-5.7.29-32.1.el7.x86_64 Percona-Server-client
 percona-release setup ps80
 ```
 
-* Replace the new mysql config with the old one:
-
-
+* Install the new version:
 
 ```bash
 yum install percona-server-server percona-toolkit
 ```
 
-* Replace the new mysql config with the old one:
+* If you would like your old Mysql optimisations applied, please replace the new configuration with the old one:
 
 ```ini
 mv /etc/my.cnf.rpmsave /etc/my.cnf
