@@ -1,11 +1,10 @@
 =================================================
- `NCDU`_
+ Ncdu
 =================================================
 
 Ncdu is a variation of the du command and can be used to recursively scan directories based on the diskspace used.
 
 .. toctree::
-   :maxdepth: 1
 
    ncdu
    
