@@ -214,7 +214,7 @@ php-fpm -t
 
 #### Start and Enable On Boot
 
-You can start and enable PHP-FPM on boot:
+You can start and enable `PHP-FPM` on boot:
 
 ```bash
 systemctl enable --now php-fpm
@@ -222,7 +222,7 @@ systemctl enable --now php-fpm
 
 ### New Relic
 
-You can enable or disable New Relic per domain be editing the php-fpm configruation file for the given domain:
+You can enable or disable New Relic per domain be editing the php-fpm configuration file for the given domain:
 
 ```bash
 php_flag[newrelic.enabled] = off
