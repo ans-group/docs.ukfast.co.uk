@@ -43,7 +43,7 @@ user@server:~$ curl -IL ukfast.net?trafficflow
 
 If you see the request with your `tail -f` command when you know that you're on the correct server.
 
-## Who is logged in and what are they doing?
+## Who is logged into the server and what are they doing?
 The `w` command is an effective tool to see if anyone else is logged into the same server and what they are doing. This command also provides the load of the server and the number of days since the server was rebooted:
 ```console
 root@server:~# w
@@ -52,7 +52,7 @@ USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
 centos   pts/1    10.0.0.21        09:50    5.00s  0.03s  0.08s sshd: centos [priv]
 ```
 
-## Who has been logged in?
+## Who has been logged into the server?
 You can also check to see who was logged into the server with the `last` command:
 
 ```console
