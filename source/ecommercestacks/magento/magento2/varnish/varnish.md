@@ -39,10 +39,10 @@ Edit `ExecStart`:
 
 ```bash
 ExecStart=/usr/sbin/varnishd \
-        -a 10.0.0.16::80 \
+        -a 10.0.0.16:80 \
         -f /etc/varnish/default.vcl \
         -s malloc,4G \
-        -T 10.0.0.16::6082 \
+        -T 10.0.0.16:6082 \
         -p http_req_hdr_len=32768 \
         -p http_req_size=65536 \
         -p http_resp_hdr_len=131072 \
