@@ -225,40 +225,13 @@ There are several variations on the `top` utility however those are not covered 
 
 ## PHP-FPM Max Children Reached
 
-### `Centos`
-You can check for Max Children using the following command:
+Run the following command to check if any php-fpm instance has reached max_children on CentOS or Ubuntu:
 
 ```bash
-grep -iR "max_children" /var/log/php-fpm/error.log
+for m in $(for i in $(ps awux | grep -w "[p]hp-fpm.conf" | awk '{print $NF}' | sed 's/^.//' | sed 's/.$//'); do grep error_log $i; done | awk '{print $NF}'); do grep -H "reached pm.max_children" $m; done
 ```
 
-If the site is displaying a 502 then you might need to test and restart `php-fpm`:
-
-```bash
-php-fpm -t && systemctl php-fpm
-```
-
-### `Centos` - PHP-FPM Additional Instance
-You can check for Max Children using the following command:
-```bash
-grep -iR "max_children" /var/log/php-fpm/error.log
-```
-If the site is displaying a 502 then you might need to test and restart `php-fpm` (Example for PHP 7.4):
-
-```bash
-/opt/remi/php74/root/sbin/php-fpm && systemctl status php74-php-fpm
-```
-
-### Ubuntu
-You can check for Max Children using the following command:
-```bash
-grep -iR "max_children" /var/log/php7.4-fpm.log
-```
-If the site is displaying a 502 then you might need to test and restart `php-fpm`:
-
-```bash
-php-fpm7.4 -t && systemctl php-fpm
-```
+If max_children has been reached reload php-fpm and then review the server resources using atop to define if the max_children value should be changed.
 
 ## Database Deadlocks
 
