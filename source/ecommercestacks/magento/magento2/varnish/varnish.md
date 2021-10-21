@@ -38,7 +38,7 @@ systemctl edit --full varnish
 Edit `ExecStart`:
 
 ```bash
-xecStart=/usr/sbin/varnishd \
+ExecStart=/usr/sbin/varnishd \
         -a 10.0.0.16::80 \
         -f /etc/varnish/default.vcl \
         -s malloc,4G \
