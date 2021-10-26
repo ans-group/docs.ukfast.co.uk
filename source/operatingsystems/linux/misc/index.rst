@@ -13,3 +13,4 @@ Miscellaneous
    sed
    grep
    linuxlogs
+   migrating-centos8-almalinux
