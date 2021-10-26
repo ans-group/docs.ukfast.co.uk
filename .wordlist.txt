@@ -10,6 +10,7 @@ AES
 allowlist
 Alma
 AlmaLinux
+almalinux
 ALPN
 analytics
 Analytics
