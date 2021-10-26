@@ -8,6 +8,8 @@ ADMX
 AEAD
 AES
 allowlist
+Alma
+AlmaLinux
 ALPN
 analytics
 Analytics
@@ -135,6 +137,7 @@ El
 Elasticsearch
 ELQ
 Enom
+EOL
 EPEL
 EPP
 ERRP
