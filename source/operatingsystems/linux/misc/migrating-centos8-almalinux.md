@@ -51,9 +51,10 @@ AlmaLinux release 8.4 (Electric Cheetah)
 ```
 
 ## Additional Information
-[cPanel: CentOS 8 Migration Guide](https://support.cpanel.net/hc/en-us/articles/4404770842263-How-to-convert-from-CentOS-8-to-AlmaLinux-8)
-[Plesk: CentOS 8 Migration Guide](https://support.plesk.com/hc/en-us/articles/213402169-How-to-convert-CentOS-AlmaLinux-to-CloudLinux-on-Plesk-server-)
-[GitHub: AlmaLinux Migration Script](https://github.com/AlmaLinux/almalinux-deploy)
+
+* [cPanel: CentOS 8 Migration Guide](https://support.cpanel.net/hc/en-us/articles/4404770842263-How-to-convert-from-CentOS-8-to-AlmaLinux-8)
+* [Plesk: CentOS 8 Migration Guide](https://support.plesk.com/hc/en-us/articles/213402169-How-to-convert-CentOS-AlmaLinux-to-CloudLinux-on-Plesk-server-)
+* [GitHub: AlmaLinux Migration Script](https://github.com/AlmaLinux/almalinux-deploy)
 
 
 ```eval_rst
