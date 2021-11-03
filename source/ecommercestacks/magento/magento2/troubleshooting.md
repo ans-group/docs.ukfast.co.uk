@@ -84,7 +84,7 @@ If any partition is full or running out of space we recommend using [`Ncdu`](/op
 Atop is a useful command to review what processes are consuming the most memory, disk or CPU.
 
 To review `realtime` data with a 1 second refresh use the command:
-root@server:~# atop -af 1
+root@server:~# atop -`af` 1
 ```
 Once on the atop screen you can filter and arrange the data, here are some handy examples:
 
@@ -222,15 +222,15 @@ There are several variations on the `top` utility however those are not covered 
 
 # Common Magento2 issues
 
-## PHP-FPM Max Children Reached
+## `PHP-FPM` Max Children Reached
 
-Run the following command to check if any php-fpm instance has reached max_children on CentOS or Ubuntu:
+Run the following command to check if any `php-fpm` instance has reached max_children on CentOS or Ubuntu:
 
 ```bash
 for m in $(for i in $(ps awux | grep -w "[p]hp-fpm.conf" | awk '{print $NF}' | sed 's/^.//' | sed 's/.$//'); do grep error_log $i; done | awk '{print $NF}'); do grep -H "reached pm.max_children" $m; done
 ```
 
-If max_children has been reached reload php-fpm and then review the server resources using atop to define if the max_children value should be changed.
+If max_children has been reached reload `php-fpm` and then review the server resources using atop to define if the max_children value should be changed.
 
 ## Database Deadlocks
 
