@@ -78,13 +78,12 @@ tmpfs                         48G     0   48G   0% /sys/fs/cgroup
 tmpfs                        9.5G     0  9.5G   0% /run/user/1000
 ```
 
-If any partition is full or running out of space we recommend using [Ncdu](/operatingsystems/ncdu/index.html) to review the largest files/directories within that partition.
+If any partition is full or running out of space we recommend using [`Ncdu`](/operatingsystems/ncdu/index.html) to review the largest files/directories within that partition.
 
 ## Resource Check - [Atop](/operatingsystems/linux/basics/atop.html)
 Atop is a useful command to review what processes are consuming the most memory, disk or CPU.
 
 To review `realtime` data with a 1 second refresh use the command:
-```console
 root@server:~# atop -af 1
 ```
 Once on the atop screen you can filter and arrange the data, here are some handy examples:
@@ -134,7 +133,7 @@ exception.log <br>
 system.log
 
 
-#### PHP-FPM error log location:
+#### `PHP-FPM` error log location:
 
 Default error logs: /var/log/`php-fpm`/error.log <br>
 Site error logs: /var/www/vhosts/example.com/logs/`example.com-phpfpm-error.log`
