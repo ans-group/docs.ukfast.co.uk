@@ -116,7 +116,7 @@ atop -r /var/log/atop/atop_20210808
 When issues occur on a Linux/Ubuntu system a helpful message is (sometimes but not exclusively) printed to the application error log. Commonly these are found in respective paths below.
 
 #### Magento2 Log Location:
-Magento2 will capture errors and store them in files within the report directly located:
+Magento2 will capture errors and store them in files within the report directly typically located:
 
 ```bash
 /var/www/vhosts/example.com/htdocs/var/report
@@ -127,11 +127,6 @@ If you're having an issue and there is no files generated in the report director
 ```bash
 /var/www/vhosts/example.com/htdocs/var/log
 ```
-Typically we look to review the following logs:
-
-exception.log <br>
-system.log
-
 
 #### `PHP-FPM` error log location:
 
@@ -188,6 +183,7 @@ You can check for server errors here:
 /var/log/messages
 /var/log/crash
 /var/log/dmesg
+/var/log/syslog
 ```
 
 #### Varnish Logs
@@ -195,20 +191,10 @@ You can check for server errors here:
 Varnish logs are not written by default. In order to get the log data you will need to run the following command:
 
 ```bash
-varnishlog >> /tmp/varnishlogoutput.txt
+varnishlog
 ```
 
-How to check what is listening on the port:
-
-```bash
-~]# lsof -i:80
-nginx   14405 nginx   10u  IPv4 44183735      0t0  TCP *:http (LISTEN)
-```
-
-```bash
-netstat -l
-
-```
+You can find more information on `varnishlog` here: https://docs.ukfast.co.uk/ecommercestacks/magento/magento2/varnish/varnish.html#varnishlog
 
 ### Command to check `Nginx` access logs:
 
