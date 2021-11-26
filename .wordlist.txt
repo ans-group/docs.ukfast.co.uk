@@ -2,7 +2,6 @@
 AAAA
 actioned
 accreditations
-accountemail
 adapter
 ADFS
 ADMX
@@ -412,7 +411,6 @@ SNDS
 SNI
 SOA
 SoftEther
-socat
 SpamAssassin
 SQLI
 Sri
