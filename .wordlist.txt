@@ -18,6 +18,7 @@ ANAME
 Ansible
 anycast
 AnyConnect
+Apache
 APCu
 APIs
 APM
@@ -519,6 +520,8 @@ Webcelerators
 webhook
 webhooks
 webmail
+webroot
+Webroot
 webserver
 webservers
 WebSockets
@@ -543,3 +546,4 @@ XSS
 XtraBackup
 Yellowdog
 Zippymail
+zsh
