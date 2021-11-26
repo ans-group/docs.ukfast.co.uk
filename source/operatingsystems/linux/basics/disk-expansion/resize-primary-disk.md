@@ -4,7 +4,16 @@ If you need to resize the primary disk, you will need to grow your partition on 
 
 ```eval_rst
 .. warning::
-   **This article is for those comfortable with Linux administration** If you're not comfortable with Linux and want to increase the amount of disk space assigned to your server, UKFast customers may raise a support ticket.
+  
+  Please be aware that this article uses specific examples, such as `sdc` or `/dev/mapper/eCloud-root`.
+
+  You may have different requirements or configurations in terms of device names and volumes.
+
+  Performing this incorrectly may make irreversible changes to your filesystem or cause data loss, so please proceed with care and caution.
+
+  Once an extension has been started, it cannot be reverted.
+
+  **This article is for those comfortable with Linux administration** If you're not comfortable with Linux and want to increase the amount of disk space assigned to your server, UKFast customers may raise a support ticket.
 ```
 ### Resize the disk in MyUKFast
 
