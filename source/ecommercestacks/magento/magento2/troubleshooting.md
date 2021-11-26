@@ -1,6 +1,6 @@
 # Magento2 Optimised Stack Troubleshooting Guide
 
-This is the typical process we will following when troubleshooting issues on a Magento2 website.
+This is the typical process we will follow when troubleshooting issues on a Magento2 website.
 
 ## Traffic Flow
 
