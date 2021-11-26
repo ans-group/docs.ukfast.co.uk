@@ -4,7 +4,7 @@ If you need to resize the primary disk, you will need to grow your partition on 
 
 ```eval_rst
 .. warning::
-  
+
   Please be aware that this article uses specific examples, such as `sdc` or `/dev/mapper/eCloud-root`.
 
   You may have different requirements or configurations in terms of device names and volumes.
@@ -29,7 +29,7 @@ sda               8:0    0   15G  0 disk
   └─eCloud-swap 253:1    0    1G  0 lvm  [SWAP]
 ```
 
-In this example, we can see that the disk `/dev/sda` is 15G in size. 
+In this example, we can see that the disk `/dev/sda` is 15G in size.
 
 The first step from here is to resize the disk in the MyUKFast portal. This can be done by visiting:
 
