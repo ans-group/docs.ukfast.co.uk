@@ -1,44 +1,49 @@
 # ACME.sh
 
-`acme.sh` is a simple lets encrypt client written in Unix shell, compared to its counter parts such as the popular Certbot it is much more lightweight on the system and has the ability to be customised, as its a shell script the dependencies are minimal any server with `bash`, `sh` or `zsh` is compatible with this client.
+`acme.sh` is a simple Let's Encrypt client written in shell script. Compared to its counterparts, such as the popular Certbot, it is much more lightweight on the system and has the ability to be customised. As it's a shell script, the dependencies are minimal. Any server with `bash`, `sh` or `zsh` is compatible with this client.
 
-More details on the project can be seen on the official repository [here](https://github.com/acmesh-official/acme.sh).
+More details on the project can be seen on the official repository <https://github.com/acmesh-official/acme.sh>.
 
 ## Installation
 
-One of the benefits of `acme.sh` is that it can be run and installed as any system user however it is recommended to install it as root, its important to note that `acme.sh` does not officially work with `sudo`. There is a work around for this, but it is not recommended, so the first step would be to either sign in as `root` or escalate privileges with this command:
+One of the benefits of `acme.sh` is that it can be run and installed as any system user. However, it is recommended to install it as `root`. It's important to note that `acme.sh` does not officially work with `sudo`. There is a work around for this, but it is not recommended, so the first step would be to either sign in as `root` or escalate privileges with this command:
 
 ```bash
 sudo -i
 ```
-Most systems come with `git` pre-installed but to ensure it is installed we can do the following.
 
-For RHEL based systems (e.g. CentOS, Alma)
+Most systems come with `git` pre-installed, but to ensure it is installed, we can do the following:
+
+* For RHEL based systems (e.g. CentOS, Alma):
 
 ```bash
 yum install git
 ```
-For Debian based systems (e.g. Ubuntu)
+
+* For Debian based systems (e.g. Ubuntu):
 
 ```bash
 apt-get install git
 ```
-Now we need to clone the `acme.sh` repository locally and move into the directory.
+
+Now we need to clone the `acme.sh` repository locally and move into the directory:
+
 ```eval_rst
 .. note::
-    Please note this will clone the repo to your current working directory, you may choose to clone to /tmp so the repo files will automatically be cleared.
+    Please note this will clone the repo to your current working directory. You may choose to clone to ``/tmp`` so the repo files will automatically be cleared.
 ```
 
 ```bash
 git clone https://github.com/acmesh-official/acme.sh.git
 cd acme.sh/
 ```
-For next command the following flags can be adjusted to your preference.
 
-- `home` | This is where `acme.sh` will be installed including any API plugins.
-- `config-home` | This is where the config files for certificates will be stored (e.g. renewal hooks)
-- `cert-home` | This is where the certificates themselves will be stored.
-- `accountemail` | This will be the address renewal messages will be sent to.
+For the next command, the following flags can be adjusted to your preference:
+
+- `--home` | This is where `acme.sh` will be installed including any API plugins.
+- `--config-home` | This is where the config files for certificates will be stored (e.g. renewal hooks)
+- `--cert-home` | This is where the certificates themselves will be stored.
+- `--accountemail` | This will be the address renewal messages will be sent to.
 
 ```eval_rst
 .. note::
