@@ -5,7 +5,7 @@ If you need to resize the primary disk, you will need to grow your partition on 
 ```eval_rst
 .. warning::
 
-  Please be aware that this article uses specific examples, such as `sdc` or `/dev/mapper/eCloud-root`.
+  Please be aware that this article uses specific examples, such as :code:`sdc` or :code:`/dev/mapper/eCloud-root`.
 
   You may have different requirements or configurations in terms of device names and volumes.
 
@@ -13,8 +13,9 @@ If you need to resize the primary disk, you will need to grow your partition on 
 
   Once an extension has been started, it cannot be reverted.
 
-  **This article is for those comfortable with Linux administration** If you're not comfortable with Linux and want to increase the amount of disk space assigned to your server, UKFast customers may raise a support ticket.
+  **This article is for those comfortable with Linux administration.** If you're not comfortable with Linux and want to increase the amount of disk space assigned to your server, UKFast customers may raise a support ticket.
 ```
+
 ### Resize the disk in MyUKFast
 
 You may start off with a VM like so:
@@ -82,15 +83,13 @@ sda               8:0    0   20G  0 disk
   ├─eCloud-root 253:0    0 13.5G  0 lvm  /
   └─eCloud-swap 253:1    0    1G  0 lvm  [SWAP]
 ```
-Now we need to resize the physical volume into the newly extended disk
+Now we need to resize the physical volume into the newly extended disk and confirm that this is correct in `pvs`
 
 ```bash
 [root@ssh ~]# pvresize /dev/sda2
   Physical volume "/dev/sda2" changed
   1 physical volume(s) resized or updated / 0 physical volume(s) not resized
 ```
-
-...then confirm that this is correct in `pvs`:
 
 ```bash
 [root@ssh ~]# pvs
@@ -101,12 +100,12 @@ Now we need to resize the physical volume into the newly extended disk
 ## Extending the logical volume onto the increased volume group
 
 ```eval_rst
-.. seealso::
-   If you want to create a new partition from this disk - to have / and /home on separate partitions, for example - you would need to create a new Logical Volume instead of extending the existing one.
+.. note::
+   If you want to create a new partition from this disk (to have :code:`/` and :code:`/home` on separate partitions, for example) you would need to create a new Logical Volume instead of extending the existing one.
 
    This should only be performed by advanced users when absolutely required.
 
-   For most use cases, a large / partition will be all that is needed.
+   For most use cases, a large :code:`/` partition will be all that is needed.
 
    As we've resized an underlying disk, you can only extend or create new volumes in the Volume Group with free space.
 ```
@@ -132,7 +131,7 @@ root@ssh ~]# lvs
 
 ## Resize the filesystem to make the new space available
 
-Now that the disk and LV show the correct sizes, we can go ahead and resize the filesystem. Some servers use the `ext` filesystem type, and others user `xfs` - to identify which yours uses, run the following:
+Now that the disk and LV show the correct sizes, we can go ahead and resize the filesystem. Some servers use the `ext` filesystem type, and others user `xfs`. To identify which yours uses, run the following:
 
 ```bash
 [root@ssh ~]# df -T
@@ -147,7 +146,7 @@ In this example, the server is using `ext4`.
 
 ### Resizing EXT4 filesystems
 
-To resize an `ext4` filesystem, run the following - noting the format of `/dev/mapper/VG-LV` on the device name:
+To resize an `ext4` filesystem, run the following, noting the `/dev/mapper/VG-LV` format of on the device name:
 
 ```bash
 [root@ssh ~]# resize2fs /dev/mapper/eCloud-root
@@ -159,7 +158,7 @@ The filesystem on /dev/mapper/eCloud-root is now 4848640 blocks long.
 
 ### Resizing XFS filesystems
 
-To resize an `xfs` filesystem, run the following - noting the format of `/dev/mapper/VG-LV` on the device name:
+To resize an `xfs` filesystem, run the following, noting the `/dev/mapper/VG-LV` format of on the device name:
 
 ```bash
 [root@ssh ~]# xfs_growfs /dev/mapper/eCloud-root
