@@ -1,34 +1,45 @@
-# Resize the primary disk *(advanced)*
+# Resize the primary disk *(suggested)*
 
-If you need to resize the primary disk for some reason, you will need to create a new partition to utilise any additional space you assign to it. This is because the disk will have already been partitioned as follows:
-
-```bash
-[root@ssh ~]# fdisk -l /dev/sda
-
-Disk /dev/sda: 21.5 GB, 21474836480 bytes, 41943040 sectors
-Units = sectors of 1 * 512 = 512 bytes
-Sector size (logical/physical): 512 bytes / 512 bytes
-I/O size (minimum/optimal): 512 bytes / 512 bytes
-Disk label type: dos
-Disk identifier: 0x00001caf
-
-   Device Boot      Start         End      Blocks   Id  System
-/dev/sda1   *        2048     1026047      512000   83  Linux
-/dev/sda2         1026048    20971519     9972736   8e  Linux LVM
-
-[root@ssh ~]#
-```
-
-Where `sda1` is `/boot`, and `sda2` is the first physical volume in the eCloud Volume Group (VG).
+If you need to resize the primary disk, you will need to grow your partition on the disk and then tell LVM to recognise the new space.
 
 ```eval_rst
 .. warning::
-   **This article is for advanced Linux administrators.** If you're not comfortable with Linux and want to increase the amount of disk space assigned to your server, the `add a new disk <add-disk.html>`_ method is recommended.
+
+  Please be aware that this article uses specific examples, such as :code:`sdc` or :code:`/dev/mapper/eCloud-root`.
+
+  You may have different requirements or configurations in terms of device names and volumes.
+
+  Performing this incorrectly may make irreversible changes to your filesystem or cause data loss, so please proceed with care and caution.
+
+  Once an extension has been started, it cannot be reverted.
+
+  **This article is for those comfortable with Linux administration.** If you're not comfortable with Linux and want to increase the amount of disk space assigned to your server, UKFast customers may raise a support ticket.
 ```
 
+### Resize the disk in MyUKFast
+
+You may start off with a VM like so:
+
+```bash
+[root@ssh ~]# lsblk
+NAME            MAJ:MIN RM  SIZE RO TYPE MOUNTPOINT
+sda               8:0    0   15G  0 disk
+├─sda1            8:1    0  512M  0 part /boot
+└─sda2            8:2    0 14.5G  0 part
+  ├─eCloud-root 253:0    0 13.5G  0 lvm  /
+  └─eCloud-swap 253:1    0    1G  0 lvm  [SWAP]
+```
+
+In this example, we can see that the disk `/dev/sda` is 15G in size.
+
+The first step from here is to resize the disk in the MyUKFast portal. This can be done by visiting:
+
+```bash
+MyUKFast -> eCloud -> Public/Private/Hybrid -> [Click the server]
+```
 ## Rescan the SCSI hosts
 
-Firstly we need to rescan the SCSI hosts to detect changes in disk size.
+Following this, we need to rescan the SCSI hosts to detect changes in disk size.
 
 ```bash
 [root@ssh ~]# for i in /sys/class/scsi_host/host*/scan; do echo "- - -" > $i; done
@@ -37,93 +48,121 @@ Firstly we need to rescan the SCSI hosts to detect changes in disk size.
 
 ## Extend an existing partition
 
-For disks that have been extended using the eCloud control panel, you will use the `growpart` command to extend the last partition.
+Once the disk has been extended using the eCloud control panel, you will use the `growpart` command to extend the last partition.
 
-In the below example we can see that the last device partition number is `/dev/sda4`
+In the below example we can see that the last device partition number is `/dev/sda2`
+
+Note now how the size of `/dev/sda` is now 20G whereas previously this was 15G
 
 ```bash
-[root@ssh ~]# fdisk -l
-
-Disk /dev/sda: 118.1 GB, 118111600640 bytes, 230686720 sectors
-Units = sectors of 1 * 512 = 512 bytes
-Sector size (logical/physical): 512 bytes / 512 bytes
-I/O size (minimum/optimal): 512 bytes / 512 bytes
-Disk label type: dos
-Disk identifier: 0x0009cb29
-
-   Device Boot      Start         End      Blocks   Id  System
-/dev/sda1   *        2048      526335      262144   83  Linux
-/dev/sda2          526336    41943006    20708335+  8e  Linux LVM
-/dev/sda3        41943040   125829119    41943040   83  Linux
-/dev/sda4       125829120   230686686    52428783+  83  Linux
+[root@id116041 ~]# lsblk
+NAME            MAJ:MIN RM  SIZE RO TYPE MOUNTPOINT
+sda               8:0    0   20G  0 disk
+├─sda1            8:1    0  512M  0 part /boot
+└─sda2            8:2    0 14.5G  0 part
+  ├─eCloud-root 253:0    0 13.5G  0 lvm  /
+  └─eCloud-swap 253:1    0    1G  0 lvm  [SWAP]
 ```
+We can see in this example that our LVM drive is on `/dev/sda2` so this is the partition that we need to expand.
 
 Now that we have the partition number that we are going to extend, we will use the following command to grow the size of the last partition
 
 ```bash
-[root@ssh ~]# growpart /dev/sda 4
-CHANGED: partition=4 start=125829120 old: size=58720256 end=184549376 new: size=104857567,end=230686687
+[root@ssh ~]# growpart /dev/sda 2
+CHANGED: partition=2 start=1050624 old: size=30406623 end=31457247 new: size=40892383 end=41943007
 ```
 
-The output of `fdisk -l` will show the additional space is now present for `/dev/sda4`
-
-Finish off by resizing the physical volume into the newly extended disk
+Going back to `lsblk` we can now see the size of the partition has now also changed to around 20G:
 
 ```bash
-root@ssh ~]# pvresize /dev/sda4
-  Physical volume "/dev/sda4" changed
+[root@ssh ~]# lsblk
+NAME            MAJ:MIN RM  SIZE RO TYPE MOUNTPOINT
+sda               8:0    0   20G  0 disk
+├─sda1            8:1    0  512M  0 part /boot
+└─sda2            8:2    0 19.5G  0 part
+  ├─eCloud-root 253:0    0 13.5G  0 lvm  /
+  └─eCloud-swap 253:1    0    1G  0 lvm  [SWAP]
+```
+Now we need to resize the physical volume into the newly extended disk and confirm that this is correct in `pvs`
+
+```bash
+[root@ssh ~]# pvresize /dev/sda2
+  Physical volume "/dev/sda2" changed
   1 physical volume(s) resized or updated / 0 physical volume(s) not resized
 ```
 
-## Create a new partition
+```bash
+[root@ssh ~]# pvs
+  PV         VG     Fmt  Attr PSize   PFree
+  /dev/sda2  eCloud lvm2 a--  <19.50g 5.00g
+```
 
-Alternatively, there is the option to create a new partition on `sda` to use the newly assigned disk space.
+## Extending the logical volume onto the increased volume group
 
 ```eval_rst
 .. note::
-   The below uses a specific example of disk sizes and partition number. Please take care to ensure that your answers to these questions are accurate.
+   If you want to create a new partition from this disk (to have :code:`/` and :code:`/home` on separate partitions, for example) you would need to create a new Logical Volume instead of extending the existing one.
+
+   This should only be performed by advanced users when absolutely required.
+
+   For most use cases, a large :code:`/` partition will be all that is needed.
+
+   As we've resized an underlying disk, you can only extend or create new volumes in the Volume Group with free space.
 ```
 
-Here is an example of creating a new partition:
+In this instance, we'll be doing the most common extension of `/`. Note the path in this command is `/dev/mapper/VG-LV` from the table above:
 
 ```bash
-[root@ssh ~]# fdisk /dev/sda
-Welcome to fdisk (util-linux 2.23.2).
+[root@ssh ~]# lvresize -l +100%FREE /dev/mapper/eCloud-root
+  Size of logical volume eCloud/root changed from <13.50 GiB (3455 extents) to <18.50 GiB (4735 extents).
+  Logical volume eCloud/root successfully resized.
+[root@ssh ~]#
+```
 
-Changes will remain in memory only, until you decide to write them.
-Be careful before using the write command.
+Confirm that this has resized the logical volume (LV) as expected:
 
+```bash
+root@ssh ~]# lvs
+  LV   VG     Attr       LSize   Pool Origin Data%  Meta%  Move Log Cpy%Sync Convert
+  root eCloud -wi-ao---- <18.50g
+  swap eCloud -wi-ao----   1.00g
+[root@ssh ~]#
+```
 
-Command (m for help): n
-Partition type:
-   p   primary (2 primary, 0 extended, 2 free)
-   e   extended
-Select (default p): p
-Partition number (3,4, default 3): 3
-First sector (20971520-41943039, default 20971520):
-Using default value 20971520
-Last sector, +sectors or +size{K,M,G} (20971520-41943039, default 41943039):
-Using default value 41943039
-Partition 3 of type Linux and of size 10 GiB is set
+## Resize the filesystem to make the new space available
 
-Command (m for help): w
-The partition table has been altered!
+Now that the disk and LV show the correct sizes, we can go ahead and resize the filesystem. Some servers use the `ext` filesystem type, and others user `xfs`. To identify which yours uses, run the following:
 
-Calling ioctl() to re-read partition table.
-
-WARNING: Re-reading the partition table failed with error 16: Device or resource busy.
-The kernel still uses the old table. The new table will be used at
-the next reboot or after you run partprobe(8) or kpartx(8)
-Syncing disks.
+```bash
+[root@ssh ~]# df -T
+Filesystem              Type     1K-blocks    Used Available Use% Mounted on
+[...]
+/dev/mapper/eCloud-root ext4      13800600 1378772  11776020  11% /
 
 [root@ssh ~]#
 ```
 
-If you want the above partition to form part of a Linux LVM, it would be recommended to use the `t` option to change the partition type to `8e`.
+In this example, the server is using `ext4`.
 
-Following this, you can use the instructions in [add an additional disk](add-disk) to add this disk into an existing LVM, or make whatever more advanced changes you require with this additional partition.
+### Resizing EXT4 filesystems
 
-**You may need to reboot your server for the new partition to be available.**
+To resize an `ext4` filesystem, run the following, noting the `/dev/mapper/VG-LV` format of on the device name:
+
+```bash
+[root@ssh ~]# resize2fs /dev/mapper/eCloud-root
+resize2fs 1.42.9 (28-Dec-2013)
+Filesystem at /dev/mapper/eCloud-root is mounted on /; on-line resizing required
+old_desc_blocks = 2, new_desc_blocks = 3
+The filesystem on /dev/mapper/eCloud-root is now 4848640 blocks long.
+```
+
+### Resizing XFS filesystems
+
+To resize an `xfs` filesystem, run the following, noting the `/dev/mapper/VG-LV` format of on the device name:
+
+```bash
+[root@ssh ~]# xfs_growfs /dev/mapper/eCloud-root
+```
 
 ```eval_rst
    .. title:: Resizing the primary disk on an eCloud virtual server
