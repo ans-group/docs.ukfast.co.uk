@@ -2,7 +2,7 @@
 
 If you need to resize the primary disk, you will need to grow your partition on the disk and then tell LVM to recognise the new space.
 
-```eval_rst
+```
 .. warning::
 
   Please be aware that this article uses specific examples, such as :code:`sdc` or :code:`/dev/mapper/eCloud-root`.
