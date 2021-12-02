@@ -3,7 +3,7 @@
 If you need to resize the primary disk, you will need to grow your partition on the disk and then tell LVM to recognise the new space.
 
 ```
-.. warning::
+  .. warning::
 
   Please be aware that this article uses specific examples, such as :code:`sdc` or :code:`/dev/mapper/eCloud-root`.
 
@@ -99,8 +99,8 @@ Now we need to resize the physical volume into the newly extended disk and confi
 
 ## Extending the logical volume onto the increased volume group
 
-```eval_rst
-.. note::
+```
+  .. note::
    If you want to create a new partition from this disk (to have :code:`/` and :code:`/home` on separate partitions, for example) you would need to create a new Logical Volume instead of extending the existing one.
 
    This should only be performed by advanced users when absolutely required.
