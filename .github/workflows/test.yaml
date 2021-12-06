@@ -9,6 +9,7 @@ jobs:
 
       - name: Get a list of changed files
         uses: jitterbit/get-changed-files@v1
+        continue-on-error: true
         id: changed_files
 
       - name: Filter changed files by extension
