@@ -1,0 +1,29 @@
+---
+
+name: Teardown UAT environment for this PR
+on:
+  workflow_dispatch: {}
+  pull_request:
+    types:
+      - closed
+
+jobs:
+  teardown:
+    runs-on: ubuntu-latest
+    environment:
+      name: UAT
+    steps:
+      - name: Find the current PR number
+        uses: jwalton/gh-find-current-pr@v1
+        id: findPR
+
+      - name: Setup kubectl
+        uses: azure/setup-kubectl@v1
+
+      - name: Teardown UAT environment for this PR
+        run: |
+          mkdir $HOME/.kube
+          echo -e "${{ secrets.UAT_KUBECONFIG }}" > $HOME/.kube/config
+          kubectl -n docs-uat delete ingresses -l 'app.kubernetes.io/instance=docs-uat-${{ steps.findPR.outputs.pr }}'
+          kubectl -n docs-uat delete services -l 'app.kubernetes.io/instance=docs-uat-${{ steps.findPR.outputs.pr }}'
+          kubectl -n docs-uat delete deployments -l 'app.kubernetes.io/instance=docs-uat-${{ steps.findPR.outputs.pr }}'

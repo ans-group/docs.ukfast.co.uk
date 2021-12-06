@@ -1,0 +1,32 @@
+---
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: app
+spec:
+  template:
+    spec:
+      containers:
+        - image: appImage
+          name: app
+          imagePullPolicy: Always
+          livenessProbe:
+            httpGet:
+              path: /
+              port: 80
+            initialDelaySeconds: 3
+            periodSeconds: 10
+          readinessProbe:
+            httpGet:
+              path: /
+              port: 80
+            initialDelaySeconds: 3
+            periodSeconds: 10
+      initContainers:
+        - name: es-populator
+          image: populatorImage
+          imagePullPolicy: Always
+          env:
+            - name: POPULATOR_ES_HOST
+              value: PLACEHOLDER

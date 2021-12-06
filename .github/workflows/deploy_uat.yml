@@ -1,0 +1,74 @@
+---
+
+name: Build Docker images and deploy to UAT
+on:
+  pull_request:
+    types:
+      - opened
+      - edited
+      - synchronize
+      - reopened
+
+jobs:
+  build_and_deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: UAT
+      url: https://pr-${{ steps.findPR.outputs.pr }}.docsuat.devops.ukfast.co.uk
+    steps:
+      - name: Find the current PR number
+        uses: jwalton/gh-find-current-pr@v1
+        id: findPR
+
+      - name: Set up Docker buildx
+        uses: docker/setup-buildx-action@v1
+
+      - name: Login to GitHub Container Registry
+        uses: docker/login-action@v1
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Build and push app image
+        uses: docker/build-push-action@v2
+        with:
+          push: true
+          tags: ghcr.io/ukfast/docs-app:${{ steps.findPR.outputs.pr }}
+          build-args: |
+            essvc=pr-${{ steps.findPR.outputs.pr }}-elasticsearch
+
+      - name: Build and push populator image
+        uses: docker/build-push-action@v2
+        with:
+          push: true
+          tags: ghcr.io/ukfast/docs-populator:${{ steps.findPR.outputs.pr }}
+          file: populator/Dockerfile
+
+      - name: Checkout the repository
+        uses: actions/checkout@v2
+
+      - name: Setup Kustomize
+        uses: imranismail/setup-kustomize@v1
+
+      - name: Build Kustomizations
+        working-directory: .ci/kustomize
+        run: |
+          sed -i 's/PLACEHOLDER/pr-${{ steps.findPR.outputs.pr }}.docsuat.devops.ukfast.co.uk/g' overlays/uat/app-ingress-patch.yaml
+          sed -i 's/PLACEHOLDER/pr-${{ steps.findPR.outputs.pr }}-elasticsearch/g' overlays/uat/app-deployment.yaml
+          kustomize create --resources overlays/uat
+          kustomize edit set nameprefix pr-${{ steps.findPR.outputs.pr }}-
+          kustomize edit set image appImage=ghcr.io/ukfast/docs-app:${{ steps.findPR.outputs.pr }}
+          kustomize edit set image populatorImage=ghcr.io/ukfast/docs-populator:${{ steps.findPR.outputs.pr }}
+          kustomize edit set namespace docs-uat
+          kustomize edit set label 'app.kubernetes.io/instance:docs-uat-${{ steps.findPR.outputs.pr }}'
+          kustomize build . > ../../manifest.yaml
+
+      - name: Setup kubectl
+        uses: azure/setup-kubectl@v1
+
+      - name: Create resources in Kubernetes
+        run: |
+          mkdir $HOME/.kube
+          echo -e "${{ secrets.UAT_KUBECONFIG }}" > $HOME/.kube/config
+          kubectl apply -f manifest.yaml
