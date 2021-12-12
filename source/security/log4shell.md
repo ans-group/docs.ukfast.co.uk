@@ -4,19 +4,22 @@
 |----------------|----------|----------|
 | CVE-2021-44228 | 10/10    | 12/12/21 |
 
-## Overview 
-On Friday 10th December, Apache announced the discovery of a critical vulnerability in the Log4J logging library for Java, which is used by millions of Java applications and other products and services to log error messages. Log4J is often installed on both Linux and Windows systems either directly, or often as a requirement of another package or system. 
+## Overview
+
+On Friday 10th December, Apache announced the discovery of a critical vulnerability in the Log4J logging library for Java, which is used by millions of Java applications and other products and services to log error messages. Log4J is often installed on both Linux and Windows systems either directly, or often as a requirement of another package or system.
 
 **At 10/10 severity this is comfortably one of the most serious IT vulnerabilities to have been discovered in recent memory.**
 
 The severity of the vulnerability is based on the ease with which this can be exploited – for example, a malformed username will be logged and can contain code which triggers the exploit. An attacker who can control log messages or log message parameters, can execute arbitrary code when message lookup substitution is enabled.
 
 ## Our Response
+
 UKFast are encouraging all clients to validate whether their own applications and environments use Log4J and to upgrade to the latest version where possible, applying the appropriate mitigations where upgrade isn't an option. For our part, UKFast are currently working through all our systems to be absolutely sure we are protected.
 
 Our Security experts are running scans to identify attempts to exploit the vulnerability, and our support teams are looking at not only updating those products and services managed by UKFast but are also looking into the wider scope of affected applications, with a view to better informing our clients the best mitigation methods with systems they manage.
 
 ## Affected Versions
+
 ### Versions: (Log4j 2 requires Java 8 or greater at runtime)
 
 |Version	                |Is it Vulnerable?                                 |
@@ -29,9 +32,11 @@ Our Security experts are running scans to identify attempts to exploit the vulne
 ## Mitigations
 
 ### In releases >=2.10
+
 This behaviour can be mitigated by setting either the system property `log4j2.formatMsgNoLookups` or the environment variable `LOG4J_FORMAT_MSG_NO_LOOKUPS` to true.
 
 ### For releases from 2.0-beta9 to 2.10.0
+
 The mitigation is to remove the **JndiLookup class** from the classpath: `zip -q -d log4j-core-*.jar org/apache/logging/log4j/core/lookup/JndiLookup.class.`
 
 ## Affected Software Information
