@@ -5,7 +5,7 @@
 | CVE-2021-44228 | 10/10    | 12/12/21 |
 
 ## Overview 
-On Friday 10th December, Apache announced the discovery of a critical vulnerability in the LOG4J logging library for Java, which is used by millions of Java applications and other products and services to log error messages. Log4J is often installed on both Linux and Windows systems either directly, or often as a requirement of another package or system. 
+On Friday 10th December, Apache announced the discovery of a critical vulnerability in the Log4J logging library for Java, which is used by millions of Java applications and other products and services to log error messages. Log4J is often installed on both Linux and Windows systems either directly, or often as a requirement of another package or system. 
 
 **At 10/10 severity this is comfortably one of the most serious IT vulnerabilities to have been discovered in recent memory.**
 
@@ -46,7 +46,7 @@ The mitigation is to remove the **JndiLookup class** from the classpath: `zip -q
 | Jenkins   | Jenkins    | Core not Impacted, plugins might be | Identify if plugins are affected using the groovy script in link  | [1](https://www.jenkins.io/blog/2021/12/10/log4j2-rce-CVE-2021-44228/) |
 | Elastic   | Elastic    | Not Affected         | Elasticearch versions 5.0.0+ contain a vulnerable version of Log4j, as well as the Security Manager which mitigates the attack. | [1](https://discuss.elastic.co/t/apache-log4j2-remote-code-execution-rce-vulnerability-cve-2021-44228-esa-2021-31/291476) |
 | Elastic   | Logstash   | Logstash versions 6.8.x and 7.x up to 7.15.2, when configured to run on JDKs below 8u191 and 11.0.1, allow for remote loading of Java classes. | The widespread flag `-Dlog4j2.formatMsgNoLookups=true` does NOT mitigate the vulnerability in Logstash, as Logstash uses Log4j in a way where the flag has no effect. It is therefore necessary to remove the JndiLookup class from the log4j2 core jar, with the following command: `zip -q -d <LOGSTASH_HOME>/logstash-core/lib/jars/log4j-core-2.* org/apache/logging/log4j/core/lookup/JndiLookup.class` | [1](https://discuss.elastic.co/t/apache-log4j2-remote-code-execution-rce-vulnerability-cve-2021-44228-esa-2021-31/291476) |
-| Elastic   | KIbana     | Not Affected         |                                                               | [1](https://discuss.elastic.co/t/apache-log4j2-remote-code-execution-rce-vulnerability-cve-2021-44228-esa-2021-31/291476) |
+| Elastic   | Kibana     | Not Affected         |                                                               | [1](https://discuss.elastic.co/t/apache-log4j2-remote-code-execution-rce-vulnerability-cve-2021-44228-esa-2021-31/291476) |
 | Tomcat    | Version 5  | Not Affected         | Does not include log4j                                        | [1](https://access.redhat.com/solutions/6577191) |
 | Tomcat    | Version 3  | Not Affected         | Disabled                                                      | [1](https://access.redhat.com/solutions/6577191) |
 | Apache    | Solr       | Affected 7.4.0 to 7.7.3, 8.0.0 to 8.11.0     | Upgrade to 8.11.1 or greater          | [1](https://solr.apache.org/security.html#apache-solr-affected-by-apache-log4j-cve-2021-44228) |
@@ -54,7 +54,7 @@ The mitigation is to remove the **JndiLookup class** from the classpath: `zip -q
 | Java      | Log4j      | Affected between 2.0-beta9 to 2.14.1         | Upgrade to 2.15 to use mitigation     | [1](https://logging.apache.org/log4j/2.x/security.html) |
 | Cpanel    | cpanel     | Affected             | Update for cpanel-dovecot-solr released. Those without auto updates will need to action manually | [1](https://forums.cpanel.net/threads/log4j-cve-2021-44228-does-it-affect-cpanel.696249/#post-2890493) |
 | Vmware    | vCentre    |                      | UKFast have actioned network changes to reduce risk to the infrastructure of our eCloud Product | [1](https://kb.vmware.com/s/article/87081?lang=en_US) |
-| Cisco     | ASDM       |                      | Upgrade serivces with ASDM.                                   | [1](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |
+| Cisco     | ASDM       |                      | Upgrade services with ASDM.                                   | [1](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |
 | Unifi     |            |                      | Upgraded to latest candidate fix 6.5.54 see notes for link    | [1](https://community.ui.com/releases/UniFi-Network-Application-6-5-54/d717f241-48bb-4979-8b10-99db36ddabe1) |
 | Jboss     |            |                      |                                                               |         |
 | Microsoft |            |                      |                                                               | [1](https://msrc-blog.microsoft.com/2021/12/11/microsofts-response-to-cve-2021-44228-apache-log4j2/) |
