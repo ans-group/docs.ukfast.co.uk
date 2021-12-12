@@ -58,8 +58,6 @@ The mitigation is to remove the **JndiLookup class** from the classpath: `zip -q
 | Unifi     |            |                      | Upgraded to latest candidate fix 6.5.54 see notes for link    | [1](https://community.ui.com/releases/UniFi-Network-Application-6-5-54/d717f241-48bb-4979-8b10-99db36ddabe1) |
 | Jboss     |            |                      |                                                               |         |
 | Microsoft |            |                      |                                                               | [1](https://msrc-blog.microsoft.com/2021/12/11/microsofts-response-to-cve-2021-44228-apache-log4j2/) |
-<<<<<<< HEAD
-=======
 
 ```eval_rst
    .. title:: Log4Shell - Log4J Vulnerability
@@ -68,4 +66,3 @@ The mitigation is to remove the **JndiLookup class** from the classpath: `zip -q
       :description: Information regarding the Log4j vulnerability with remidiation advice
       :keywords: ukfast, linux, security, vulnerability, log4j, log4shell, java, elasticsearch, tomcat, solr
 ```
->>>>>>> 29399355 (Add metadata)
