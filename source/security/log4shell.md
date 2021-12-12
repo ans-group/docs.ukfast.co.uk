@@ -12,7 +12,7 @@ On Friday 10th December, Apache announced the discovery of a critical vulnerabil
 The severity of the vulnerability is based on the ease with which this can be exploited – for example, a malformed username will be logged and can contain code which triggers the exploit. An attacker who can control log messages or log message parameters, can execute arbitrary code when message lookup substitution is enabled.
 
 ## Our Response
-UKFast are encouraging all clients to validate whether their own applications and environments use Log4J and to upgrade to the latest version where possible, applying the appropriate mitigations where upgrade isn’t an option. For our part, UKFast are currently working through all our systems to be absolutely sure we are protected.
+UKFast are encouraging all clients to validate whether their own applications and environments use Log4J and to upgrade to the latest version where possible, applying the appropriate mitigations where upgrade isn't an option. For our part, UKFast are currently working through all our systems to be absolutely sure we are protected.
 
 Our Security experts are running scans to identify attempts to exploit the vulnerability, and our support teams are looking at not only updating those products and services managed by UKFast but are also looking into the wider scope of affected applications, with a view to better informing our clients the best mitigation methods with systems they manage.
 
