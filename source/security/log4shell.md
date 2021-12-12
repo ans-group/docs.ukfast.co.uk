@@ -53,7 +53,7 @@ The mitigation is to remove the **JndiLookup class** from the classpath: `zip -q
 | Java      | Java       | Java lower than 6u212, 7u202, 8u192 & 11.0.2 | Advised to upgrade Java version above the impacted versions | [1](https://www.veracode.com/blog/security-news/urgent-analysis-and-remediation-guidance-log4j-zero-day-rce-cve-2021-44228) |
 | Java      | Log4j      | Affected between 2.0-beta9 to 2.14.1         | Upgrade to 2.15 to use mitigation     | [1](https://logging.apache.org/log4j/2.x/security.html) |
 | Cpanel    | cpanel     | Affected             | Update for cpanel-dovecot-solr released. Those without auto updates will need to action manually | [1](https://forums.cpanel.net/threads/log4j-cve-2021-44228-does-it-affect-cpanel.696249/#post-2890493) |
-| Vmware    | vCentre    |                      | https://kb.vmware.com/s/article/87081?lang=en_US | We have completed network changes to reduce impact from within eCloud from customers |
+| Vmware    | vCentre    |                      | UKFast have completed network changes to reduce impact from within eCloud to customers | [1](https://kb.vmware.com/s/article/87081?lang=en_US) |
 | Cisco     | ASDM       |                      | Upgrade serivces with ASDM.                                   | [1](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd) |
 | Unifi     |            |                      | Upgraded to latest candidate fix 6.5.54 see notes for link    | [1](https://community.ui.com/releases/UniFi-Network-Application-6-5-54/d717f241-48bb-4979-8b10-99db36ddabe1) |
 | Jboss     |            |                      |                                                               |         |
