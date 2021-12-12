@@ -30,10 +30,10 @@ Our Security experts are running scans to identify attempts to exploit the vulne
 ==========================  ===================================================
 Version	                   Is it Vulnerable?
 ==========================  ===================================================
-Log4J v1.x  	             EOL since 2015. Contains multiple vulnerabilities.
-Log4J 2.0-beta9 to 2.10.0	 Yes - Mitigation available
-Log4J 2.10 + 	             Yes - Mitigation available
-Log4J v2.15.0	             Issue is mitigated in the latest version
+Log4J v1.x                  EOL since 2015. Contains multiple vulnerabilities.
+Log4J 2.0-beta9 to 2.10.0   Yes - Mitigation available
+Log4J 2.10 +                Yes - Mitigation available
+Log4J v2.15.0               Issue is mitigated in the latest version
 ```
 
 ## Mitigations
