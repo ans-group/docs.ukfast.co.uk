@@ -4,7 +4,7 @@ DDoSX<sup>®</sup>, can be setup to protect any domain from DDoS and common Web 
 
 CDN and WAF are optional additional DDoSX<sup>®</sup> features, and as a result, DDoSX must first be enabled on your domain(s) to allow CDN and WAF to be configured.
 
-To use DDoSX<sup>®</sup>, CDN and WAF, you need to either have your domains' setup on UKFast SafeDNS and ensure its name servers pointing to the UKFast name servers or create an ANAME/ALIAS record with your current DNS provider to point to DDoSX<sup>®</sup> using a provided CNAME.
+To use DDoSX<sup>®</sup>, CDN and WAF, you need to either have your domains' setup on `UKFast SafeDNS` and ensure its name servers pointing to the `UKFast` name servers or create an ANAME/ALIAS record with your current DNS provider to point to DDoSX<sup>®</sup> using a provided CNAME.
 
 ```eval_rst
 .. warning::
@@ -38,12 +38,12 @@ Before setting up a SafeDNS domain in DDoSX<sup>®</sup>, double-check that your
 
 You must move all records associated with the domains (including sub-domains) you wish to protect, including SMTP, MX, mail, etc. to SafeDNS.
 
-Once you have done this, point your domains to the UKFast name servers, which are:
+Once you have done this, point your domains to the `UKFast` name servers, which are:
 
 - `ns0.ukfast.net`
 - `ns1.ukfast.net`
 
-You'll need to do this through whichever domain registrar you use to manage your domains (which may not be UKFast). If you don't know who your domain registrar is you can do a 'WHOIS' lookup on websites such as https://whois.icann.org/
+You'll need to do this through whichever domain registrar you use to manage your domains (which may not be `UKFast`). If you don't know who your domain registrar is you can do a 'WHOIS' lookup on websites such as https://whois.icann.org/
 
 The name server change may take up to 48 hours to propagate across the world. A good tool to check this is https://www.whatsmydns.net/
 
@@ -59,7 +59,7 @@ The name server change may take up to 48 hours to propagate across the world. A 
 
 - Double-check your domain and selected additional features and then press 'Buy Now'
 
-- Click `Complete Transaction` on the next page to complete the payment process. (You won't have to complete this step if you have already ordered DDoSX<sup>®</sup>, WAF or CDN via your UKFast account manager -  Any existing credits will be consumed first).
+- Click `Complete Transaction` on the next page to complete the payment process. (You won't have to complete this step if you have already ordered DDoSX<sup>®</sup>, WAF or CDN via your `UKFast` account manager -  Any existing credits will be consumed first).
 
 ![connect](files/ddosx_safedns_connect.png)
 
@@ -92,7 +92,7 @@ The origin IP address of any of your subdomains (Including your root domain) can
 
 Before pressing the `Apply Changes` button, we can add any required SSL certificates to our domains.
 
-To add an SSL certificate, click the `SSL` Tab. Any existing SSL certificates or SSL certificates purchased through UKFast for this domain should show up here.
+To add an SSL certificate, click the `SSL` Tab. Any existing SSL certificates or SSL certificates purchased through `UKFast` for this domain should show up here.
 
 If the required SSL certificate for the domain does not show up in here, we can add it by pressing the `Add SSL` button.
 
