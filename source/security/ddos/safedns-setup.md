@@ -51,7 +51,7 @@ The name server change may take up to 48 hours to propagate across the world. A 
 
 - Login to [MyUKFast](https://my.ukfast.co.uk) and head to `DDoSX Protection` in the navigation menu.
 
-- Click the red `GET STARTED` button if this is your first domain, or click 'Add additional domain' in the top-right if this is an additional domain.
+- Click on `Protect A Domain` button to start adding your domain. 
 
 - Enter the domain that you want to protect in the 'Domain Name' text box
 
@@ -68,6 +68,15 @@ The name server change may take up to 48 hours to propagate across the world. A 
 Once a new domain has been added to DDoSX<sup>®</sup>, you will automatically be taken to the configuration page for that domain.
 
 **Setting up Records**
+
+Click on `Protect an A record` and fill in the details where `Hostname` is the subdomain you wish to protect or you can leave this blank to protect the [apex record](https://docs.ukfast.co.uk/domains/safedns/apexdomain.html). 
+
+Select an `Action` between `Create new DNS record` or `Stage new DNS record`. The first option will add the record on DDoSX and switch the DNS to DDoSX<sup>®</sup>, and the second option will add the record, however the DNS will continue to point to the IP entered in `New IP Address`. 
+For both actions the IP entered in `New IP Address` is the IP where your website is hosted or perhaps a load balancer VIP.
+
+SSL certificate you can either chose `Select SSL Certificate...` to chose an SSL you have in my.ukfast.co.uk. `Add SSL Certificate` gives you the option to grab an external SSL and upload it to DDoSX<sup>®</sup>. Finally if you don't select an SSL certificate you can bring the site live without one just by clicking on `Add DNS Record`
+
+![record](files/protect_record_ddosx.png)
 
 Alternatively, navigate to the main DDoSX<sup>®</sup> page on via the navigation bar on the left, click on the domain you want to configure, and then and click `Configure` tab.
 
@@ -162,10 +171,8 @@ To prevent both these evasion methods, you can add firewall rules to only allow 
 
 ```console
 185.156.64.0/24
-23.170.128.0/24
 192.166.44.0/24
 78.24.88.0/24
-195.69.102.0/24
 185.181.196.0/22
 ```
 
@@ -175,16 +182,12 @@ Example rules for IPTables are below:
 
 ```console
 iptables --append INPUT --protocol tcp --src 185.156.64.0/24 --dport 80 --jump ACCEPT
-iptables --append INPUT --protocol tcp --src 23.170.128.0/24 --dport 80 --jump ACCEPT
 iptables --append INPUT --protocol tcp --src 192.166.44.0/24 --dport 80 --jump ACCEPT
 iptables --append INPUT --protocol tcp --src 78.24.88.0/24 --dport 80 --jump ACCEPT
-iptables --append INPUT --protocol tcp --src 195.69.102.0/24 --dport 80 --jump ACCEPT
 iptables --append INPUT --protocol tcp --src 185.181.196.0/22 --dport 80 --jump ACCEPT
 iptables --append INPUT --protocol tcp --src 185.156.64.0/24 --dport 443 --jump ACCEPT
-iptables --append INPUT --protocol tcp --src 23.170.128.0/24 --dport 443 --jump ACCEPT
 iptables --append INPUT --protocol tcp --src 192.166.44.0/24 --dport 443 --jump ACCEPT
 iptables --append INPUT --protocol tcp --src 78.24.88.0/24 --dport 443 --jump ACCEPT
-iptables --append INPUT --protocol tcp --src 195.69.102.0/24 --dport 443 --jump ACCEPT
 iptables --append INPUT --protocol tcp --src 185.181.196.0/22 --dport 443 --jump ACCEPT
 iptables --append INPUT --protocol tcp --dport 80 --jump DROP
 iptables --append INPUT --protocol tcp --dport 443 --jump DROP
@@ -202,16 +205,11 @@ For NGINX, insert this code into one of the `http` or `server` blocks in your co
 
 ```nginx
 set_real_ip_from 185.156.64.0/24;
-set_real_ip_from 23.170.128.0/24;
 set_real_ip_from 192.166.44.0/24;
 set_real_ip_from 78.24.88.0/24;
-set_real_ip_from 195.69.102.0/24;
 set_real_ip_from 2a02:21a8:1::/48;
-set_real_ip_from 2a02:21a8:2::/48;
-set_real_ip_from 2a02:21a8::/48;
 set_real_ip_from 2a09:ba00:4::/48;
 set_real_ip_from 2a09:b600:5::/48;
-set_real_ip_from 2a09:b200:6::/48;
 real_ip_header X-Forwarded-For;
 real_ip_recursive on;
 ```
@@ -226,16 +224,11 @@ For Apache 2.4 and above, you will need to use the [`mod_remoteip`](https://http
 <IfModule remoteip_module>
     RemoteIPHeader X-Forwarded-For
     RemoteIPTrustedProxy 185.156.64.0/24
-    RemoteIPTrustedProxy 23.170.128.0/24
     RemoteIPTrustedProxy 192.166.44.0/24
     RemoteIPTrustedProxy 78.24.88.0/24
-    RemoteIPTrustedProxy 195.69.102.0/24
     RemoteIPTrustedProxy 2a02:21a8:1::/48
-    RemoteIPTrustedProxy 2a02:21a8:2::/48
-    RemoteIPTrustedProxy 2a02:21a8::/48
     RemoteIPTrustedProxy 2a09:ba00:4::/48
     RemoteIPTrustedProxy 2a09:b600:5::/48
-   RemoteIPTrustedProxy 2a09:b200:6::/48
 </IfModule>
 LogFormat "%a %l %u %t \"%r\" %>s %b \"%{Referer}i\" \"%{User-Agent}i\"" ddosx
 
