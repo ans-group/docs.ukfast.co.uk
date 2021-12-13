@@ -1,5 +1,5 @@
 =================================================
-Composer
+`Composer <https://getcomposer.org/>`_
 =================================================
 
 Magento 2 uses composer to manage Magento components and their dependencies.

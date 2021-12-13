@@ -1,5 +1,5 @@
 =================================================
-WooCommerce
+`WooCommerce <https://woocommerce.com/>`_
 =================================================
 
 WooCommerce is an open-source e-commerce plugin for WordPress. The core components of our optimised WooCommerce stack are:
@@ -22,6 +22,8 @@ We have a number of guides for our WooCommerce optimised stack:
    php/index
    opcache/index
    redis/index
+   
+You can find out more about our offerings for these stacks here: https://www.ukfast.co.uk/ecommerce-hosting.html
    
 .. meta::
    :title: WooCommerce Optimised Stack | UKFast Documentation

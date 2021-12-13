@@ -22,7 +22,9 @@ Help and guidance with Linux and related technologies
    vpn/index
    percona/index
    ssh/index
+   ssl/index
    git/index
    redis/index
    elasticsearch/index
    mongodb/index
+   ncdu/index

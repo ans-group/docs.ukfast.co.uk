@@ -1,19 +1,30 @@
 # Composer
 
-### Install Composer
+### Composer Setup
 
-Composer can be installed from the EPEL YUM repository with the following command:
+Download composer Installer
 
 ```bash
-~]# yum install composer --enablerepo=epel
+~]# wget -O /tmp/composer-installer.php https://getcomposer.org/installer
+```
+Composer can be then installed with the following commands:
+
+#### Composer 1
+
+```bash
+~]# php /tmp/composer-installer.php --version=1.10.20 --filename=composer1 --install-dir=/usr/bin
 ```
 
-#### Updating Composer
-
-Composer can be updated with the following command:
+#### Composer 2
 
 ```bash
-~]# yum update composer --enablerepo=epel
+~]# php /tmp/composer-installer.php --version=2.0.1 --filename=composer2 --install-dir=/usr/bin
+```
+
+Please make sure to update Composer 2 to the latest version:
+
+```bash
+~]# php /usr/bin/composer2 self-update
 ```
 
 #### Version Check
@@ -21,8 +32,13 @@ Composer can be updated with the following command:
 You can check the installed version of Composer with the command:
 
 ```bash
-~]$ composer  -V
-Composer version 1.8.6 2019-06-11 15:03:05
+~]$ composer1  -V
+Composer version 1.10.20 2021-01-27 15:41:06
+```
+
+```bash
+~]$ composer2  -V
+Composer version 2.1.3 2021-06-09 16:31:20
 ```
 
 ```eval_rst

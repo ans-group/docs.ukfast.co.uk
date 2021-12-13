@@ -201,7 +201,7 @@ Stop the default PHP-FPM pool (`www`) from running with the command:
 echo ";Default file, please don't remove" > /etc/php-fpm.d/www.conf
 ```
 
-### Start PHP-FPM
+### Start `PHP-FPM`
 
 #### Configuration Test
 
@@ -212,26 +212,35 @@ php-fpm -t
 [21-Aug-2019 07:53:29] NOTICE: configuration file /etc/php-fpm.conf test is successful
 ```
 
-#### Start PHP-FPM
+#### Start and Enable On Boot
 
-You can then start the PHP-FPM service with the command
-
-```bash
-systemctl start php-fpm
-```
-
-#### Start On Boot
-
-You can also enable PHP-FPM to start on boot:
+You can start and enable `PHP-FPM` on boot:
 
 ```bash
-systemctl enable php-fpm
+systemctl enable --now php-fpm
 ```
+
+### New Relic
+
+You can enable or disable New Relic per domain be editing the `php-fpm` configuration file for the given domain:
+
+```bash
+php_flag[newrelic.enabled] = off
+```
+
+You can also set the New Relic APM name:
+
+```bash
+php_value[newrelic.appname] = "My App 1"
+```
+
+Further information on how to configure New Relic with `PHP-FPM` can be found in the following New Relic documentation:
+https://docs.newrelic.com/docs/agents/php-agent/configuration/php-directory-ini-settings/
 
 ```eval_rst
   .. title:: Magento2 PHP
   .. meta::
      :title: Magento2 PHP | UKFast Documentation
      :description: A guide to using PHP on our Magento2 optimised stack
-     :keywords: ukfast, linux, install, centos, cloud, server, virtual, Magento, Magento2, PHP, eCommerce
+     :keywords: ukfast, linux, install, centos, cloud, server, virtual, Magento, Magento2, PHP, eCommerce, NewRelic
 ```

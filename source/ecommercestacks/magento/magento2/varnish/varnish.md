@@ -1,19 +1,80 @@
 # Varnish
 
+Varnish is recommended for Full Page Caching with Magento2. Website performance is greatly increased when using Varnish.
+
 ### Install Varnish
 
-#### Version 5.2
+#### Version 6.5
 
-Varnish 5.2 is available from the `varnishcache_varnish52` repository, this repository can be installed with the following command:
+Varnish 6.5 is available from the `varnishcache_varnish65` repository, you can install this repository and varnish with the following commands:
 
+##### CentOS
 ```bash
-~]# curl -s https://packagecloud.io/install/repositories/varnishcache/varnish52/script.rpm.sh | sudo bash
+curl -s https://packagecloud.io/install/repositories/varnishcache/varnish65/script.rpm.sh | sudo bash
 ```
 
-Varnish 5.2 can then be installed with the command:
+```bash
+yum install varnish --disablerepo='*' --enablerepo='varnishcache_varnish65,epel'
+```
+
+##### Ubuntu
 
 ```bash
-~]# yum install varnish --disablerepo='*' --enablerepo='varnishcache_varnish52,epel'
+curl -s https://packagecloud.io/install/repositories/varnishcache/varnish65/script.deb.sh | sudo bash
+```
+
+```bash
+apt-get install varnish
+```
+
+##### `DAEMON_OPTS`
+
+This is a template to be reviewed and modified to fit your needs:
+
+```bash
+systemctl edit --full varnish
+```
+
+Edit `ExecStart`:
+
+```bash
+ExecStart=/usr/sbin/varnishd \
+        -a 10.0.0.16:80 \
+        -f /etc/varnish/default.vcl \
+        -s malloc,4G \
+        -T 10.0.0.16:6082 \
+        -p http_req_hdr_len=32768 \
+        -p http_req_size=65536 \
+        -p http_resp_hdr_len=131072 \
+        -p http_resp_size=196608 \
+        -p workspace_backend=280k \
+        -p thread_pool_min=100 \
+        -p thread_pool_max=3000 \
+        -p timeout_linger=0.1 \
+        -p cli_timeout=20 \
+        -p thread_pools=2 \
+        -p pipe_timeout=600
+```
+
+### Example `VCL`
+You can view an example Magento2 UKFast `VCL` [here](UKFastVCL.md)
+
+### Configuration Test
+
+It's very important to run a configuration test before starting / restarting the Varnish service. You can run a configuration test with the following command:
+
+```bash
+varnishd -C -f /etc/varnish/default.vcl
+```
+
+A successful output from this command will be the VCL displayed on the terminal with no error message(s).
+
+### Start Varnish
+
+You can start the Varnish service with the following command:
+
+```bash
+systemctl start varnish
 ```
 
 ##### Start On Boot
@@ -21,29 +82,22 @@ Varnish 5.2 can then be installed with the command:
 You can enable Varnish on boot after installing it with this command:
 
 ```bash
-~]# systemctl enable varnish
+systemctl enable varnish
 ```
 
-#### Version 6.3
+### Reload Varnish
 
-Varnish 6.3 is available from the `varnishcache_varnish63` repository, this repository can be installed with the following command:
+You can reload the Varnish service with the following command:
 
 ```bash
-~]# curl -s https://packagecloud.io/install/repositories/varnishcache/varnish63/script.rpm.sh | sudo bash
+systemctl reload varnish
 ```
+### Restart Varnish
 
-Varnish 6.3 can then be installed with the command:
-
-```bash
-~]# yum install varnish --disablerepo='*' --enablerepo='varnishcache_varnish63,epel'
-```
-
-##### Start On Boot
-
-You can enable Varnish on boot after installing it with this command:
+You can restart the Varnish service with the following command:
 
 ```bash
-~]# systemctl enable varnish
+systemctl restart varnish
 ```
 
 ### Version Check
@@ -51,83 +105,40 @@ You can enable Varnish on boot after installing it with this command:
 You can see the version of Varnish installed with the following command:
 
 ```bash
-~]# varnishd -V
-varnishd (varnish-4.1.11 revision 61367ed17d08a9ef80a2d42dc84caef79cdeee7a)
+~# varnishd -V
+varnishd (varnish-6.5.1 revision 1dae23376bb5ea7a6b8e9e4b9ed95cdc9469fb64)
 Copyright (c) 2006 Verdens Gang AS
-Copyright (c) 2006-2019 Varnish Software AS
+Copyright (c) 2006-2020 Varnish Software
 ```
 
-### `DAEMON_OPTS`
+### `Varnishlog`
 
-`DAEMON_OPTS` can be defined in the `/etc/varnish/varnish.params` file. Here is an example that we use:
+The `varnishlog` command can be used to debug issues. Here are some examples which may assist you:
+
+#### Monitor for Purge requests
+This is very handy to see how frequently purge requests are being sent to Varnish:
 
 ```bash
-DAEMON_OPTS=" -p http_req_hdr_len=12000 -p http_resp_hdr_len=12000 -p thread_pool_min=100 -p thread_pool_max=3000 -p timeout_linger=0.1 -p pipe_timeout=600"
+varnishlog -g request -q 'ReqMethod eq "PURGE"'
 ```
 
-### Memory Limit
+#### Monitor HTTP response code (Example 503)
+```bash
+varnishlog -q 'RespStatus == 503' -g request
+```
 
-The default memory limit in Varnish is 256M. You may want to increase this, especially if you are using Varnish for Full Page Cache. You can do this by changing the value under `VARNISH_STORAGE` in the file `/etc/varnish/varnish.params`.
+#### Filter `varnishlog` by IP address
+If you wish to only see your own requests to Varnish you can filter with similar commands to:
 
 ```bash
-~]# grep VARNISH_STORAGE /etc/varnish/varnish.params
-VARNISH_STORAGE="malloc,3G"
-```
-Please note Varnish will need a restart for this change to take effect.
+varnishlog -q "ReqHeader eq 'X-Forwarded-For: ip.ip.ip.ip'"
 
-### Pipe timeout
+varnishlog -q "ReqHeader eq 'DDOSX-Connecting-IP: ip.ip.ip.ip'"
 
-`pipe_timeout` is set to 60 seconds by default. This can cause time out issues when running exports in the Magento admin interface. You can increase this by adding the option `-p pipe_timeout=600` within the `DAEMON_OPTS` sections in the file `/etc/varnish/varnish.params`. You need to restart Varnish for this setting to take effect.
-
-### Header Size
-
-If you have this error message in NGINX:
-
-```bash
-[error] 110200#110200: *102122 upstream sent too big header while reading response header from upstream
+varnishlog -q "ReqHeader eq 'X-Real-IP: ip.ip.ip.ip'"
 ```
 
-You may need to increase `http_resp_hdr_len` and `http_resp_size`. You can do this by adding:
-
-```bash
--p http_resp_hdr_len=983044 \
--p http_resp_size=983044 \
-```
-
-To the `DAEMON_OPTS` sections in the file `/etc/varnish/varnish.params`. You need to restart Varnish for this setting to take effect.
-
-### Configuration Test
-
-It's very important to run a configuration test before starting / restarting the Varnish service. You can run a configuration test with the following command:
-
-```bash
-~]# varnishd -C -f /etc/varnish/default.vcl
-```
-
-A successful output from this command will be the VCL displayed on the terminal with no error message(s).
-
-#### Start Varnish
-
-You can start the Varnish service with the following command:
-
-```bash
-~]# systemctl start varnish
-```
-#### Reload Varnish
-
-You can reload the Varnish service with the following command:
-
-```bash
-~]# systemctl reload varnish
-```
-#### Restart Varnish
-
-You can restart the Varnish service with the following command:
-
-```bash
-~]# systemctl restart varnish
-```
-### Generate VCL
+### Generate VCL in Magento2
 
 - Log in to the Magento Admin as an administrator.
 - Click `STORES` > `Settings` > `Configuration` > `ADVANCED` > `System` > `Full Page Cache`.
@@ -137,8 +148,8 @@ You can restart the Varnish service with the following command:
 You can now copy the file `/var/www/vhosts/exmapledomain.com/htdocs/var/varnish.vcl` to `/etc/varnish/default.vcl`. You may want to back up the `default.vcl` file:
 
 ```bash
-~]# mv /etc/varnish/default.vcl /etc/varnish/default.vcl.backup
-~]# cp /var/www/vhosts/exmapledomain.com/htdocs/var/varnish.vcl /etc/varnish/default.vcl
+mv /etc/varnish/default.vcl /etc/varnish/default.vcl.backup
+cp /var/www/vhosts/exmapledomain.com/htdocs/var/varnish.vcl /etc/varnish/default.vcl
 ```
 ### Set Varnish for FPC in Magento2
 
@@ -213,6 +224,15 @@ Static files are not cached by default in the Magento generated VCL. This is due
 
 The Varnish service needs to be reloaded in order for this to take effect.
 
+### Too many restarts
+Avoid the 'too many restarts' error by adding this configuration option to `vcl_recv`:
+
+```vcl
+if (req.restarts > 0) {
+        set req.hash_always_miss = true;
+    }
+```
+
 ### HIT/MISS Headers
 
 To test the caching of URLs in Varnish while Magento 2 is in production mode you can add `HIT`/`MISS` headers to the VCL. Edit the `vcl_deliver` section in `/etc/varnish/default.vcl` and add the following:
@@ -242,8 +262,8 @@ Cacheable and uncacheable are terms Magento uses to indicate whether or not a pa
 If pages are not being cached we recommend you search for `cacheable="false"` with the below command:
 
 ```bash
-~]$ cd /var/www/vhosts/domainname.com/htdocs/
-~]$ find vendor app -regextype 'egrep' -type f -regex '.*/layout/.*\.xml' -not -regex '.*(vendor/magento/|/checkout_|/catalogsearch_result_|/dotmailer).*' | xargs grep --color -n -e 'cacheable="false"'
+cd /var/www/vhosts/domainname.com/htdocs/
+find vendor app -regextype 'egrep' -type f -regex '.*/layout/.*\.xml' -not -regex '.*(vendor/magento/|/checkout_|/catalogsearch_result_|/dotmailer).*' | xargs grep --color -n -e 'cacheable="false"'
 ```
 
 ### Exclude Domain From Cache
@@ -307,36 +327,171 @@ Varnish will need a reload for this to take effect.
 varnishd -C -f /etc/varnish/default.vcl && systemctl reload varnish
 ```
 
+### Custom 503 Error page
+To configure a custom Varnish 503 error page you will have to follow these steps.
+
+You will need to add this under the `vcl_deliver` section:
+
+```vcl
+    if (resp.status == 503) {
+       return(restart);
+    }
+```
+
+To configure the response you will have to add the below config to the `vcl_backend_response` section:
+
+```vcl
+    if (beresp.status == 503 && bereq.retries < 5 ) {
+       return(retry);
+    }
+```
+
+#### Custom error page for all sites
+
+Upload custom error page here:
+
+```bash
+/etc/varnish/error503.html
+```
+
+Then you need to add this under the `vcl_backend_error` section (You may need to create the sub for `vcl_backend_error`):
+
+```vcl
+      if (beresp.status == 503 && bereq.retries == 5) {
+          synthetic(std.fileread("/etc/varnish/error503.html"));
+          return(deliver);
+       }
+```
+
+The final change is to the `vcl_synth` section (You may need to create the sub for `vcl_synth`):
+
+```vcl
+    if (resp.status == 503) {
+        synthetic(std.fileread("/etc/varnish/error503.html"));
+        return(deliver);
+     }
+```
+
+#### Custom error page for a single site
+
+Upload site error page here:
+
+```bash
+/etc/varnish/maintenance/example.co.uk.html
+```
+
+Then you need to add this under the `vcl_backend_error` section (You may need to create the sub for `vcl_backend_error`):
+
+```vcl
+      if (beresp.http.host ~ "example.co.uk" && beresp.status == 503 && bereq.retries == 5) {
+          synthetic(std.fileread("/etc/varnish/maintenance/example.co.uk.html"));
+          return(deliver);
+      }
+```
+
+The final change is to the `vcl_synth` section (You may need to create the sub for `vcl_synth`):
+
+```vcl
+      if (req.http.host ~ "example.co.uk" && resp.status == 503) {
+          synthetic(std.fileread("/etc/varnish/maintenance/example.co.uk.html"));
+          return(deliver);
+      }
+```
+
+### Load balancing
+You can define multiple backends in the `Varnish VCL` file (`/etc/varnish/default.vcl`) to load balance traffic between servers.
+
+#### import directors
+You will have to add this to the top of `VCL`:
+```vcl
+import directors;
+```
+
+#### Create/add backends:
+```vcl
+backend Web01 {
+    .host = "REPLACEME";
+    .port = "8080";
+    .first_byte_timeout = 600s;
+    .probe = {
+        .url = "/health_check.php";
+        .timeout = 2s;
+        .interval = 5s;
+        .window = 10;
+        .threshold = 5;
+   }
+}
+
+backend Web02 {
+    .host = "REPLACEME";
+    .port = "8080";
+    .first_byte_timeout = 600s;
+    .probe = {
+        .url = "/health_check.php";
+        .timeout = 2s;
+        .interval = 5s;
+        .window = 10;
+        .threshold = 5;
+   }
+}
+```
+
+#### Directors
+Beneath the backends create the `vcl_init` sub:
+```vcl
+sub vcl_init {
+   new prod_web = directors.round_robin();
+   lbweb.add_backend(web01);
+   lbweb.add_backend(web02);
+}
+```
+
+#### Set Backend
+Within the `vcl_recv` sub you can now specify which director to use:
+```vcl
+set req.backend_hint = lbweb.backend();
+```
+
 ### Purge Cache
 
 Magento purges Varnish hosts after you configure Varnish hosts using the `magento setup:config:set` command. Ensure you run the Magento 2 CLI as the local system user defined in PHP-FPM and not root. Once configured, when you clean, flush, or refresh the Magento cache, Varnish purges as well.
 
 ```bash
-~]$ php bin/magento setup:config:set --http-cache-hosts=10.0.0.17
+php bin/magento setup:config:set --http-cache-hosts=10.0.0.17
 ```
 
 You can also define more hosts if you have multiple web/varnish servers:
 
 ```bash
-~]$ php bin/magento setup:config:set --http-cache-hosts=10.0.0.17,10.0.0.18,10.0.0.19
+php bin/magento setup:config:set --http-cache-hosts=10.0.0.17,10.0.0.18,10.0.0.19
 ```
 
 However you can purge the cache manually with the following command:
 
 ```bash
-~]$ curl -I0 -X PURGE www.exampledomain.com -H "X-Magento-Tags-Pattern: *"
+curl -I0 -X PURGE www.exampledomain.com -H "X-Magento-Tags-Pattern: .*"
 ```
 
 Single URI:
 
 ```bash
-~]$ curl -I0 -X PURGE www.exampledomain.com/client.css -H "X-Magento-Tags-Pattern: *"
+curl -I0 -X PURGE www.exampledomain.com/client.css -H "X-Magento-Tags-Pattern: .*"
 ```
 
 If the DNS for your domain does not point to Varnish you can use the IP address of your Varnish host:
 
 ```bash
-curl -I0 -X PURGE http://158.228.105.80 -H "Host: www.exampledomain.com" -H "X-Magento-Tags-Pattern: *"
+curl -I0 -X PURGE http://158.228.105.80 -H "Host: www.exampledomain.com" -H "X-Magento-Tags-Pattern: .*"
+```
+
+By default, Varnish will not purge all static assets and will instead only purge PHP. This is due to Varnish only purging the assets with the X-Magento-Tags header. As this header is generated by Magento we need to adjust the `/etc/varnish/default.vcl` file if we want to purge everything including static assets.
+
+In the `vcl_recv` section of the VCL and within the purge if statement you can add:
+
+```bash
+if (req.http.X-Magento-Tags-Pattern == ".*") {
+   ban("req.url ~ .*");
+}
 ```
 
 ### SSL Termination
@@ -371,7 +526,7 @@ server {
   listen 10.0.0.17:8080;
 ```
 
-#### SSL Offloading
+### SSL Offloading
 
 If SSL is set to offloading like the above example you need to uncomment the following from the NGINX vhosts configuration file:
 

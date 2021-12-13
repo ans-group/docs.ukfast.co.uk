@@ -12,7 +12,7 @@ UKFast offers a number of cloud hosting platforms, including public cloud (eClou
    public/index
    private/index
    console
-   vpc/index
+   ecloud-vpc/index
 
 .. title:: Cloud hosting from UKFast | UKFast Documentation
 

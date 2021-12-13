@@ -1,5 +1,5 @@
 =================================================
-Percona
+`Percona <https://www.percona.com/>`_
 =================================================
 
 Percona Server for MySQL is a distribution of the MySQL relational database management system created by Percona.

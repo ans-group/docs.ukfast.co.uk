@@ -1,4 +1,4 @@
-# Add a new disk to the server *(recommended approach)*
+# Add a new disk to the server
 
 When increasing the amount of disk space assigned to an eCloud virtual machine (VM), the simplest method is to add a new disk to the VM via [MyUKFast](https://my.ukfast.co.uk), and then add that disk into the Volume Group and Logical Volume for the `/` partition.
 
@@ -111,7 +111,7 @@ We need to grow the logical volume (LV) over the new free space - for most peopl
    For most use cases, a large `/` partition will be all that is needed.
 ```
 
-In this instance, we'll be doing the most common extension of `/`. Note the path in this command is `/dev/mapper/VG/LV` from the table above:
+In this instance, we'll be doing the most common extension of `/`. Note the path in this command is `/dev/mapper/VG-LV` from the table above:
 
 ```bash
 [root@ssh ~]# lvresize -l +100%FREE /dev/mapper/eCloud/root

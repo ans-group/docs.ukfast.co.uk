@@ -1,6 +1,6 @@
-=============
-Loadbalancing
-=============
+======================
+Classic Load Balancers
+======================
 
 .. toctree::
    quickstart

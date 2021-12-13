@@ -64,7 +64,7 @@ opcache.memory_consumption=512
 pcache.interned_strings_buffer=12
 opcache.max_accelerated_files=60000
 opcache.save_comments=1
-opcache.save_comments=1
+opcache.load_comments=1
 opcache.enable_file_override=1
 ```
 
@@ -85,5 +85,5 @@ You can then browse `www.magentodomain.com/opcache-gui`. We recommend password /
   .. meta::
      :title: Magento2 Opcache | UKFast Documentation
      :description: A guide to using Opcache on our Magento2 optimised stack
-     :keywords: ukfast, linux, install, centos, cloud, server, virtual, Magento, Opcache, eCommerce
+     :keywords: ukfast, linux, install, centos, cloud, server, virtual, Magento, Opcache, eCommerce, caching, cache, flush, GUI
 ```

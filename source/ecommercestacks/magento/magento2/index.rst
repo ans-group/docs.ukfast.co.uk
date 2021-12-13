@@ -1,5 +1,5 @@
 =================================================
-Magento 2
+`Magento 2 <https://magento.com/>`_
 =================================================
 
 In 2015 we created our Magento 2 optimised stack. The core components of this stack are:
@@ -21,6 +21,7 @@ We have a number of guides for our Magento 2 optimised stack:
 
    permissionguide
    nginxphpfileallowlist
+   multiphp/index
    wpinsubdir
    nfs
    filediroutsidepub
@@ -35,7 +36,6 @@ We have a number of guides for our Magento 2 optimised stack:
    composer/index
    opcache/index
    php/index
-   multiphp/index
    redis/index
    
 Find out more about our Magento hosting offerings here: https://www.ukfast.co.uk/magento-ecommerce-hosting.html

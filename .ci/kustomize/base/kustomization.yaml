@@ -4,5 +4,6 @@ resources:
 - app-deployment.yaml
 - app-service.yaml
 - app-ingress.yaml
+- app-job.yaml
 - elasticsearch-deployment.yaml
 - elasticsearch-service.yaml

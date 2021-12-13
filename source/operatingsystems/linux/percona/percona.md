@@ -67,27 +67,13 @@ mysqldump --all-databases > alldatabases.sql
 * Check what Percona versions are installed:
 
 ```bash
-rpm –qa | grep –i percona
+rpm -qa | grep –i percona
 ```
 
 * Remove these versions:
 
 ```bash
 yum remove Percona-Server-server-57-5.7.29-32.1.el7.x86_64 Percona-Server-client-57-5.7.29-32.1.el7.x86_64 Percona-Server-shared-57-5.7.29-32.1.el7.x86_64 Percona-Server-shared-compat-57-5.7.29-32.1.el7.x86_64
-```
-
-* Add the below to `/etc/my.cnf` underneath the `[mysql]` section:
-
-```ini
-default-authentication-plugin=mysql_native_password
-```
-
-* Comment out the `query_cache` variables in that same file by adding a hash to the start of each line:
-
-```ini
-#query_cache_size = 128M
-#query_cache_limit = 8M
-#query_cache_type = 1
 ```
 
 * Set up the repository ready to install the updated version:
@@ -100,6 +86,31 @@ percona-release setup ps80
 
 ```bash
 yum install percona-server-server percona-toolkit
+```
+
+* If you would like your old Mysql optimisations applied, please replace the new configuration with the old one:
+
+```ini
+mv /etc/my.cnf.rpmsave /etc/my.cnf
+```
+
+* Add the below to `/etc/my.cnf` underneath the `[mysql]` section:
+
+```ini
+default-authentication-plugin=mysql_native_password
+```
+
+Bin logs are enabled by default for Percona 8. To disable this feature please add the below to `/etc/my.cnf` underneath the `[mysql]` section:
+```ini
+skip-log-bin
+```
+
+* Comment out the `query_cache` variables in that same file by adding a hash to the start of each line:
+
+```ini
+#query_cache_size = 128M
+#query_cache_limit = 8M
+#query_cache_type = 1
 ```
 
 * Start the new version:

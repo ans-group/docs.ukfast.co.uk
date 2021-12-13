@@ -1,10 +1,16 @@
 # Network File System (NFS)
 
-## Install NFS
+## Install NFS on client server
 You can install NFS on a RPM-based server with the following command:
 
 ```bash
 yum install nfs-utils nfs-utils-lib
+```
+
+You can install NFS on an Ubuntu server with the following command:
+
+```bash
+apt install nfs-common
 ```
 
 ## Distributed Files / Folders
