@@ -128,7 +128,7 @@ You will see that initially your DNS Routing is shown as "Server", as per below.
 
 ![serverpreview](files/serverpreview.PNG)
 
-Locate the `hosts` file on your computer.  On Windows, you'll find it in **C:\Windows\System32\drivers\etc**.
+Locate the `hosts` file on your computer.  On Windows, you'll find it in `C:\Windows\System32\drivers\etc`.
 
 Open the `hosts` file using Notepad or another plain text editor (you may need administrator rights to make changes), and insert a line for each domain you wish to test, that includes the domain and the Assigned <nospell>IPv4</nospell> address from DDoSX<sup>®</sup>; for example:
 
