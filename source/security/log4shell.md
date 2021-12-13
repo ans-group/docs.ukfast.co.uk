@@ -48,6 +48,10 @@ This behaviour can be mitigated by setting either the system property `log4j2.fo
 The mitigation is to remove the **JndiLookup class** from the classpath: `zip -q -d log4j-core-*.jar org/apache/logging/log4j/core/lookup/JndiLookup.class.`
 
 ## Affected Software Information
+```eval_rst
+.. note::
+   For a more comprehensive list of affected software, please use the following community driven Github link - https://gist.github.com/SwitHak/b66db3a06c2955a9cb71a8718970c592
+```
 
 ```eval_rst
 +------------+-------------+-------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------+
