@@ -51,7 +51,7 @@ The name server change may take up to 48 hours to propagate across the world. A 
 
 - Login to [MyUKFast](https://my.ukfast.co.uk) and head to `DDoSX Protection` in the navigation menu.
 
-- Click on `Protect A Domain` button to start adding your domain. 
+- Click on `Protect A Domain` button to start adding your domain.
 
 - Enter the domain that you want to protect in the 'Domain Name' text box
 
@@ -69,9 +69,9 @@ Once a new domain has been added to DDoSX<sup>®</sup>, you will automatically b
 
 **Setting up Records**
 
-Click on `Protect an A record` and fill in the details where `Hostname` is the subdomain you wish to protect or you can leave this blank to protect the [apex record](https://docs.ukfast.co.uk/domains/safedns/apexdomain.html). 
+Click on `Protect an A record` and fill in the details where `Hostname` is the subdomain you wish to protect or you can leave this blank to protect the [apex record](https://docs.ukfast.co.uk/domains/safedns/apexdomain.html).
 
-Select an `Action` between `Create new DNS record` or `Stage new DNS record`. The first option will add the record on DDoSX and switch the DNS to DDoSX<sup>®</sup>, and the second option will add the record, however the DNS will continue to point to the IP entered in `New IP Address`. 
+Select an `Action` between `Create new DNS record` or `Stage new DNS record`. The first option will add the record on DDoSX and switch the DNS to DDoSX<sup>®</sup>, and the second option will add the record, however the DNS will continue to point to the IP entered in `New IP Address`.
 For both actions the IP entered in `New IP Address` is the IP where your website is hosted or perhaps a load balancer VIP.
 
 SSL certificate you can either choose `Select SSL Certificate...` to select an SSL you have in https://my.ukfast.co.uk. `Add SSL Certificate` gives you the option to grab an external SSL and upload it to DDoSX<sup>®</sup>. Finally if you don't select an SSL certificate you can bring the site live without one just by clicking on `Add DNS Record`
