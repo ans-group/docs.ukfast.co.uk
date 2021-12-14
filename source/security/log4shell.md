@@ -18,9 +18,9 @@ The severity of the vulnerability is based on the ease with which this can be ex
 
 ## National Cyber Security Centre Guidance
 
-The National Cyber Security Centre (NCSC) have released detection and enhanced mitigation advice at the following link.
+The National Cyber Security Centre have released detection and enhanced mitigation advice at the following link.
 
-* [NCSC Guidance](https://www.ncsc.gov.uk/news/apache-log4j-vulnerability)
+* [National Cyber Security Centre Guidance](https://www.ncsc.gov.uk/news/apache-log4j-vulnerability)
 
 ## UKFast's Response
 
