@@ -58,7 +58,7 @@ The mitigation is to remove the **JndiLookup class** from the classpath: `zip -q
 ## Affected Software Information
 ```eval_rst
 .. note::
-   For a more comprehensive list of affected software, please use the following community driven Github link - https://gist.github.com/SwitHak/b66db3a06c2955a9cb71a8718970c592
+   For a more comprehensive, non-exhaustive, list of affected software, please use the following National Cyber Security Centre link - https://github.com/NCSC-NL/log4shell/tree/main/software
 
    Please note that UKFast are not responsible for external links, and the inclusion of any external URL should not be interpreted as an endorsement of that site, its content, or any product or service it may provide.
 ```
