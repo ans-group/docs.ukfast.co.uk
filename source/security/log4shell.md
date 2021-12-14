@@ -8,6 +8,8 @@ CVE-2021-44228     10/10       12/12/21
 =================  ==========  ==========
 ```
 
+***Last Updated: 14/12/2021 10:51 AM***
+
 ## Overview
 
 On **Friday 10th December**, Apache announced the discovery of a critical vulnerability in the Log4J logging library for Java, which is used by millions of Java applications and other products and services to log error messages. This vulnerability is known as [CVE-2021-44228](https://cve.mitre.org/cgi-bin/cvename.cgi?name=2021-44228) or as *Log4Shell*. Log4J is often installed on both Linux and Windows systems either directly, or often as a requirement of another package or system.
