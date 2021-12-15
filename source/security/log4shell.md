@@ -11,7 +11,7 @@
 
 ```
 
-***Last Updated: 15/12/2021 11:30 AM***
+***Last Updated: 15/12/2021 09:05 PM***
 
 ## Overview
 
@@ -37,6 +37,37 @@ The National Cyber Security Centre have released detection and enhanced mitigati
 UKFast is encouraging all clients to validate whether their own applications and environments use Log4J and to upgrade to the latest version where possible, applying the appropriate mitigations where upgrade isn't an option. For our part, UKFast is currently working through all our systems to be absolutely sure we are protected.
 
 Our Security experts are running scans to identify attempts to exploit the vulnerability. Our support teams are looking at not only updating those products and services managed by UKFast, but are also looking into the wider scope of affected applications, with a view to better informing our clients the best mitigation methods with systems they manage.
+
+## Identification
+
+### Linux Server Scan
+
+Several different methods have been released in identifying vulnerable applications. An easy way to test this is to check whether the JAR/WAR/EAR files on your server contain the vulnerable version of Log4J. This method can produce several false positives as different vendors have different mitigation methods, so it is essential to review the results and the flagged applications with a member of your development team or with the respective vendor to ensure mitigations are put in place. Utilising a tool called log4j2-scan, UKFast has written an easy-to-execute script to scan your server.
+
+Firstly, [login to the server via SSH](/operatingsystems/linux/basics/connecting.html). From here we will now run the script:
+
+```bash
+bash <(curl -s https://software.ukfast.uk/pub/CVE-2021-44228-Scanner.sh)
+```
+
+The script will then ask, "Would you like this script to try to automatically remove JndiLookup.class to mitigate?". This will force remove JndiLookup.class from any JAR/WAR/EAR files found with the vulnerable version of Log4J. We would advise entering `n` on the first run to confirm the results.
+
+The output will be something similar to this:
+
+```bash
+Logpresso CVE-2021-44228 Vulnerability Scanner 1.6.2 (2021-12-16)
+Scanning directory: /
+[*] Found CVE-2021-44228 vulnerability in /usr/share/logstash/vendor/bundle/jruby/2.5.0/gems/logstash-input-tcp-5.2.3-java/vendor/jar-dependencies/org/logstash/inputs/logstash-input-tcp/5.2.3/logstash-input-tcp-5.2.3.jar, log4j 2.9.1
+[*] Found CVE-2021-45046 vulnerability in /usr/share/logstash/logstash-core/lib/jars/log4j-core-2.15.0.jar, log4j 2.15.0
+
+Scanned 51572 directories and 297467 files
+Found 2 vulnerable files
+Found 0 potentially vulnerable files
+Found 0 mitigated files
+Completed in 9.23 seconds
+```
+
+As seen above, the output of this command will display the vulnerable JAR/WAR/EAR path, and a summary of the scan.
 
 ## Affected Versions
 
