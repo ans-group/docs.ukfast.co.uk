@@ -74,7 +74,7 @@ zip -q -d log4j-core-*.jar org/apache/logging/log4j/core/lookup/JndiLookup.class
 ### For releases from 2.0-beta9 to 2.10.0
 
 - The mitigation is to remove the **JndiLookup class** from the classpath
- 
+
 ```bash
 zip -q -d log4j-core-*.jar org/apache/logging/log4j/core/lookup/JndiLookup.class
 ```
