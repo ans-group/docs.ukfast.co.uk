@@ -4,19 +4,22 @@
 =================  ==========  ==========
 Reference          Severity    Date
 =================  ==========  ==========
-CVE-2021-44228     10/10       12/12/21
+CVE-2021-44228     10       12/12/21
+CVE-2021-45046     3.7      14/12/21
 =================  ==========  ==========
 ```
 
-***Last Updated: 14/12/2021 14:11 PM***
+***Last Updated: 15/12/2021 10:00 AM***
 
 ## Overview
 
 On **Friday 10th December**, Apache announced the discovery of a critical vulnerability in the Log4J logging library for Java, which is used by millions of Java applications and other products and services to log error messages. This vulnerability is known as [CVE-2021-44228](https://cve.mitre.org/cgi-bin/cvename.cgi?name=2021-44228) or as *Log4Shell*. Log4J is often installed on both Linux and Windows systems either directly, or often as a requirement of another package or system.
 
-**At 10/10 severity this is comfortably one of the most serious IT vulnerabilities to have been discovered in recent memory.**
+***At 10/10 severity, CVE-2021-44228 is comfortably one of the most serious IT vulnerabilities to have been discovered in recent memory.***
 
 The severity of the vulnerability is based on the ease with which this can be exploited – for example, a malformed username will be logged and can contain code which triggers the exploit. An attacker who can control log messages or log message parameters, can execute arbitrary code when message lookup substitution is enabled.
+
+On **Tuesday 14th December**, a second vulnerability was identified, [CVE-2021-45046](https://cve.mitre.org/cgi-bin/cvename.cgi?name=2021-45046), as the original mitigation was incomplete in certain non-default configurations. In certain conditions, attackers could craft malicious input data using a `JNDI Lookup` pattern resulting in a Denial of Service attack.
 
 ## National Cyber Security Centre Guidance
 
@@ -50,6 +53,10 @@ Log4J v2.15.0               Issue is mitigated in the latest version
 ### In releases >=2.10
 
 This behaviour can be mitigated by setting either the system property `log4j2.formatMsgNoLookups` or the environment variable `LOG4J_FORMAT_MSG_NO_LOOKUPS` to true.
+
+This will not mitigate against the lower impact [CVE-2021-45046](https://cve.mitre.org/cgi-bin/cvename.cgi?name=2021-45046) and the recommended actions are now to update relevant software. The effect of this flaw is susceptibility to potential **Denial of Service** attacks.
+
+Further mitigation can be achieved by removing the **JndiLookup class** from the classpath: `zip -q -d log4j-core-*.jar org/apache/logging/log4j/core/lookup/JndiLookup.class.`
 
 ### For releases from 2.0-beta9 to 2.10.0
 
