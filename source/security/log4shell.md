@@ -52,13 +52,13 @@ bash <(curl -s https://software.ukfast.uk/pub/CVE-2021-44228-Scanner.sh)
 
 The script will then ask, "Would you like this script to try to automatically remove JndiLookup.class to mitigate?". This will force remove JndiLookup.class from any JAR/WAR/EAR files found with the vulnerable version of Log4J. We would advise entering `n` on the first run to confirm the results.
 
-The output will be something similar to this: 
+The output will be something similar to this:
 
 ```bash
 Logpresso CVE-2021-44228 Vulnerability Scanner 1.6.2 (2021-12-16)
 Scanning directory: /
-[*] Found CVE-2021-44228 vulnerability in /usr/share/logstash/vendor/bundle/jruby/2.5.0/gems/logstash-input-tcp-5.2.3-java/vendor/jar-dependencies/org/logstash/inputs/logstash-input-tcp/5.2.3/logstash-input-tcp-5.2.3.jar, log4j 2.9.1 
-[*] Found CVE-2021-45046 vulnerability in /usr/share/logstash/logstash-core/lib/jars/log4j-core-2.15.0.jar, log4j 2.15.0 
+[*] Found CVE-2021-44228 vulnerability in /usr/share/logstash/vendor/bundle/jruby/2.5.0/gems/logstash-input-tcp-5.2.3-java/vendor/jar-dependencies/org/logstash/inputs/logstash-input-tcp/5.2.3/logstash-input-tcp-5.2.3.jar, log4j 2.9.1
+[*] Found CVE-2021-45046 vulnerability in /usr/share/logstash/logstash-core/lib/jars/log4j-core-2.15.0.jar, log4j 2.15.0
 
 Scanned 51572 directories and 297467 files
 Found 2 vulnerable files
