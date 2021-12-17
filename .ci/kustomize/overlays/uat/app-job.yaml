@@ -10,3 +10,7 @@ spec:
       containers:
         - name: es-populator
           image: populatorImage
+          imagePullPolicy: Always
+          env:
+            - name: POPULATOR_ES_HOST
+              value: PLACEHOLDER
