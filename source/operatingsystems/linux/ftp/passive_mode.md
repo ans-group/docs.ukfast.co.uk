@@ -42,7 +42,7 @@ For more information please do check out the [official cPanel guide](https://doc
 - Restart `Pure-FTPd` by running:
 
 ```console
-  /usr/local/cpanel/scripts/setupftpserver Pure-FTPd --force
+  /usr/local/cpanel/scripts/setupftpserver pure-ftpd --force
 ```
 
 - On your firewall, allow inbound connections on the passive port range you selected (in our example `40000` to `40100`).  If necessary please read our [guide on opening firewall ports](/network/firewalls/index).
