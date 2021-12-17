@@ -6,12 +6,12 @@
 +=================+===========+===========+
 | CVE-2021-44228  | 10        | 12/12/21  |
 +-----------------+-----------+-----------+
-| CVE-2021-45046  | 3.7       | 14/12/21  |
+| CVE-2021-45046  | 9         | 14/12/21  |
 +-----------------+-----------+-----------+
 
 ```
 
-***Last Updated: 17/12/2021 15:00 PM***
+***Last Updated: 17/12/2021 17:00 PM***
 
 ## Overview
 
@@ -88,8 +88,8 @@ Log4J v1.x                  EOL since 2015. Contains multiple vulnerabilities.
 Log4J 2.0-beta9 to 2.10.0   Yes - Mitigation available
 Log4J 2.10 +                Yes - Mitigation available
 Log4J v2.15.0               Incomplete mitigation due to CVE-2021-45046, upgrade to v2.16.0
-Log4J v2.16.0               Issue is mitigated in the latest version for Java 8
-Log4J v2.12.2               Issue is mitigated in the latest version for Java 7
+Log4J v2.16.0               No - Issue is mitigated in this version (for Java 8)
+Log4J v2.12.2               No - Issue is mitigated in this version (for Java 7)
 ==========================  ===============================================================
 ```
 
