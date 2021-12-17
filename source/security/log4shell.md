@@ -11,7 +11,7 @@
 
 ```
 
-***Last Updated: 15/12/2021 09:05 PM***
+***Last Updated: 17/12/2021 15:00 PM***
 
 ## Overview
 
@@ -25,6 +25,8 @@ On **Friday 10th December**, Apache announced the discovery of a critical vulner
 The severity of the vulnerability is based on the ease with which this can be exploited – for example, a malformed username will be logged and can contain code which triggers the exploit. An attacker who can control log messages or log message parameters, can execute arbitrary code when message lookup substitution is enabled.
 
 On **Tuesday 14th December**, a second vulnerability was identified, [CVE-2021-45046](https://cve.mitre.org/cgi-bin/cvename.cgi?name=2021-45046), as the original mitigation was incomplete in certain non-default configurations. In certain conditions, attackers could craft malicious input data using a `JNDI Lookup` pattern resulting in a Denial of Service attack.
+
+On **Friday 17th December**, CVE-2021-45046 had its [severity increased](https://logging.apache.org/log4j/2.x/security.html) from 3.7 to 9.0 as additional exploits were found against the v2.15.0 release that was intended to resolve these issues.
 
 ## National Cyber Security Centre Guidance
 
@@ -79,37 +81,30 @@ As seen above, the output of this command will display the vulnerable JAR/WAR/EA
 ```
 
 ```eval_rst
-==========================  ===================================================
+==========================  ===============================================================
 Version                     Is it Vulnerable?
-==========================  ===================================================
+==========================  ===============================================================
 Log4J v1.x                  EOL since 2015. Contains multiple vulnerabilities.
 Log4J 2.0-beta9 to 2.10.0   Yes - Mitigation available
 Log4J 2.10 +                Yes - Mitigation available
-Log4J v2.15.0               Issue is mitigated in the latest version
-==========================  ===================================================
+Log4J v2.15.0               Incomplete mitigation due to CVE-2021-45046, upgrade to v2.16.0
+Log4J v2.16.0               Issue is mitigated in the latest version for Java 8
+Log4J v2.12.2               Issue is mitigated in the latest version for Java 7
+==========================  ===============================================================
 ```
 
 ## Mitigations
 
-### In releases >=2.10
-
-- This behaviour can be mitigated by setting either the system property `log4j2.formatMsgNoLookups` or the environment variable `LOG4J_FORMAT_MSG_NO_LOOKUPS` to **true**.
-
-- This will not mitigate against the lower impact [CVE-2021-45046](https://cve.mitre.org/cgi-bin/cvename.cgi?name=2021-45046) and the recommended actions are now to update relevant software. The effect of this flaw is susceptibility to potential **Denial of Service** attacks.
-
-- Further mitigation can be achieved by removing the **JndiLookup class** from the classpath
+The recommended mitigation is to ensure you are using a patched version of Log4j, which is v2.16.0 or above as of writing. This is likely to be outside of your control if you are relying on software from a vendor. In this case, removing the **JndiLookup class** from the classpath will mitigate this issue fully in older versions of Log4J:
 
 ```bash
 zip -q -d log4j-core-*.jar org/apache/logging/log4j/core/lookup/JndiLookup.class
 ```
 
-### For releases from 2.0-beta9 to 2.10.0
+### Discredited Mitigation Measures
 
-- The mitigation is to remove the **JndiLookup class** from the classpath
+As explained by [the Log4J Apache project](https://logging.apache.org/log4j/2.x/security.html), the original mitigation methods of setting the system property `log4j2.formatMsgNoLookups` or the `LOG4J_FORMAT_MSG_NO_LOOKUPS` environment variable have been discredited. Upgrading log4j or removing the JndiLookup class as described above is the only way to protect fully against these vulnerabilities.
 
-```bash
-zip -q -d log4j-core-*.jar org/apache/logging/log4j/core/lookup/JndiLookup.class
-```
 
 ## Affected Software Information
 ```eval_rst
@@ -176,7 +171,10 @@ zip -q -d log4j-core-*.jar org/apache/logging/log4j/core/lookup/JndiLookup.class
 | Tomcat        |  Version 5            | Not Affected                                                                                                                                     | Does not include log4j                                                                                                                                                                                                                                                                                                                                                                                        | https://access.redhat.com/solutions/6577191                                                                                                                      |
 +---------------+-----------------------+--------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Tomcat        |  Version 3            | Not Affected                                                                                                                                     | Disabled                                                                                                                                                                                                                                                                                                                                                                                                      | https://access.redhat.com/solutions/6577191                                                                                                                      |
-+---------------+-----------------------+--------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++---------------+-----------------------+--------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+- Further mitigation can be achieved by removing the **JndiLookup class** from the classpath
+----------------------------------------------------------------------------------------------------+
 | Unifi         |                       | Affected                                                                                                                                         | Upgraded to latest candidate fix 6.5.54 see notes for link                                                                                                                                                                                                                                                                                                                                                    | https://community.ui.com/releases/UniFi-Network-Application-6-5-54/d717f241-48bb-4979-8b10-99db36ddabe1                                                          |
 +---------------+-----------------------+--------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Vmware        |  vCentre              |                                                                                                                                                  | UKFast have actioned network changes to reduce risk to the infrastructure of our eCloud Product. Recommended work arounds have been applied to all UKFast Infrastructure and Private Customers.                                                                                                                                                                                                               | https://kb.vmware.com/s/article/87081?lang=en_US                                                                                                                 |
