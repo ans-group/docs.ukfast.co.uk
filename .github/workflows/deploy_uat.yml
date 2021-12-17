@@ -51,7 +51,7 @@ jobs:
         working-directory: .ci/kustomize
         run: |
           sed -i 's/PLACEHOLDER/pr-${{ github.event.number }}.docsuat.devops.ukfast.co.uk/g' overlays/uat/app-ingress-patch.yaml
-          sed -i 's/PLACEHOLDER/pr-${{ github.event.number }}-elasticsearch/g' overlays/uat/app-deployment.yaml
+          sed -i 's/PLACEHOLDER/pr-${{ github.event.number }}-elasticsearch/g' overlays/uat/app-job.yaml
           kustomize create --resources overlays/uat
           kustomize edit set nameprefix pr-${{ github.event.number }}-
           kustomize edit set image appImage=ghcr.io/ukfast/docs-app:${{ github.event.number }}

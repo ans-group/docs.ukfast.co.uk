@@ -23,10 +23,3 @@ spec:
               port: 80
             initialDelaySeconds: 3
             periodSeconds: 10
-      initContainers:
-        - name: es-populator
-          image: populatorImage
-          imagePullPolicy: Always
-          env:
-            - name: POPULATOR_ES_HOST
-              value: PLACEHOLDER
