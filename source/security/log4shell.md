@@ -90,10 +90,11 @@ Log4J 2.0-beta9 to 2.14.0   Vulnerable - Partial mitigation available for CVE-20
 Log4J v2.15.0               Incomplete mitigation due to CVE-2021-45046, upgrade to v2.16.0
 Log4J v2.12.2               Vulnerable to CVE-2021-45105. Not vulnerable to CVE-2021-45046 or CVE-2021-42288
 Log4J v2.16.0               Vulnerable to CVE-2021-45105. Not vulnerable to CVE-2021-45046 or CVE-2021-42288
-==========================  ===================================================================================
+==========================  ==================================================================================
 ```
 
 ### Patched Versions
+
 ```eval_rst
 ==========================  ===================================================================================
 Version                     Notes
