@@ -8,10 +8,12 @@
 +-----------------+-----------+-----------+
 | CVE-2021-45046  | 9         | 14/12/21  |
 +-----------------+-----------+-----------+
+| CVE-2021-45105  | 7.5       | 18/12/21  |
++-----------------+-----------+-----------+
 
 ```
 
-***Last Updated: 17/12/2021 17:00 PM***
+***Last Updated: 18/12/2021 14:45 PM***
 
 ## Overview
 
@@ -27,6 +29,8 @@ The severity of the vulnerability is based on the ease with which this can be ex
 On **Tuesday 14th December**, a second vulnerability was identified, [CVE-2021-45046](https://cve.mitre.org/cgi-bin/cvename.cgi?name=2021-45046), as the original mitigation was incomplete in certain non-default configurations. In certain conditions, attackers could craft malicious input data using a `JNDI Lookup` pattern resulting in a Denial of Service attack.
 
 On **Friday 17th December**, CVE-2021-45046 had its [severity increased](https://logging.apache.org/log4j/2.x/security.html) from 3.7 to 9.0 as additional exploits were found against the v2.15.0 release that was intended to resolve these issues.
+
+On **Saturday 18th December**, CVE-2021-45105 was released after a Denial of Service (DOS) attack was found in all v2.xx releases, including the recent v2.16.0 release. Upgrading to v2.17.x is the recommended mitigation action. 
 
 ## National Cyber Security Centre Guidance
 
@@ -73,33 +77,41 @@ As seen above, the output of this command will display the vulnerable JAR/WAR/EA
 
 ## Affected Versions
 
-### Versions
+The Apache project have a [security page](https://logging.apache.org/log4j/2.x/security.html) which contains the latest information.
+
+### Vulnerable Versions
 
 ```eval_rst
-.. note::
-   Log4j 2 requires Java 8 or greater at runtime
+==========================  ==================================================================================
+Version                     Notes
+==========================  ==================================================================================
+Log4J v1.x                  EOL since 2015. Contains multiple vulnerabilities.
+Log4J 2.0-beta9 to 2.14.0   Vulnerable - Partial mitigation available for CVE-2021-45046 and CVE-2021-42288
+Log4J v2.15.0               Incomplete mitigation due to CVE-2021-45046, upgrade to v2.16.0
+Log4J v2.12.2               Vulnerable to CVE-2021-45105. Not vulnerable to CVE-2021-45046 or CVE-2021-42288
+Log4J v2.16.0               Vulnerable to CVE-2021-45105. Not vulnerable to CVE-2021-45046 or CVE-2021-42288
+==========================  ===================================================================================
 ```
 
+### Patched Versions
 ```eval_rst
-==========================  ===============================================================
-Version                     Is it Vulnerable?
-==========================  ===============================================================
-Log4J v1.x                  EOL since 2015. Contains multiple vulnerabilities.
-Log4J 2.0-beta9 to 2.10.0   Yes - Mitigation available
-Log4J 2.10 +                Yes - Mitigation available
-Log4J v2.15.0               Incomplete mitigation due to CVE-2021-45046, upgrade to v2.16.0
-Log4J v2.16.0               No - Issue is mitigated in this version (for Java 8)
-Log4J v2.12.2               No - Issue is mitigated in this version (for Java 7)
-==========================  ===============================================================
+==========================  ===================================================================================
+Version                     Notes
+==========================  ===================================================================================
+Log4J v2.12.3               All CVEs mentioned in this document are mitigated in this version (for Java 7)
+Log4J v2.17.0               All CVEs mentioned in this document are mitigated in this version (for Java 8)
+==========================  ===================================================================================
 ```
 
 ## Mitigations
 
-The recommended mitigation is to ensure you are using a patched version of Log4j, which is v2.16.0 or above as of writing. This is likely to be outside of your control if you are relying on software from a vendor. In this case, removing the **JndiLookup class** from the classpath will mitigate this issue fully in older versions of Log4J:
+The recommended mitigation is to ensure you are using a patched version of Log4j, which is v2.17.0 or above as of writing. This is likely to be outside of your control if you are relying on software from a vendor. In this case, removing the **JndiLookup class** from the classpath will mitigate CVE-2021-45046 and CVE-2021-42288 fully in older versions of Log4J:
 
 ```bash
 zip -q -d log4j-core-*.jar org/apache/logging/log4j/core/lookup/JndiLookup.class
 ```
+
+For mitigation against CVE-2021-45105, see the [Apache project security page](https://logging.apache.org/log4j/2.x/security.html).
 
 ### Discredited Mitigation Measures
 
