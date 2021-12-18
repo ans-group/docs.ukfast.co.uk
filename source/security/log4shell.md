@@ -13,7 +13,7 @@
 
 ```
 
-***Last Updated: 18/12/2021 14:45 PM***
+***Last Updated: 18/12/2021 17:38 PM***
 
 ## Overview
 
@@ -73,6 +73,43 @@ Found 0 mitigated files
 Completed in 9.23 seconds
 ```
 
+As seen above, the output of this command will display the vulnerable JAR/WAR/EAR path, and a summary of the scan.
+
+### Windows Server Scan
+
+Firstly, [login to the server via RDP](/operatingsystems/windows/rdp/connecting.html). Once logged in, download the script on [Github](https://github.com/logpresso/CVE-2021-44228-Scanner/releases/latest). When downloading the logpresso executable, please ensure that it is the win64 zip file. Extract the .exe file to your Desktop.
+
+Open Command Prompt as Administrator and `cd` to the Desktop.
+
+```console
+C:\windows\system32>cd C:\Users\test\Desktop
+
+C:\Users\test\Desktop>
+```
+
+The last stage is to run the executable to scan the server. Please note, the scan runs across the full system directory structure, which may impact performance due to disk IO utilisation.
+
+```console
+log4j2-scan.exe --all-drives
+```
+
+The output will be something similar to this:
+
+```console
+C:\Users\test\Desktop>log4j2-scan.exe --all-drives
+Logpresso CVE-2021-44228 Vulnerability Scanner 1.6.3 (2021-12-16)
+Scanning drives: C:\,D:\
+
+Running scan (20s): scanned 41420 directories, 246150 files, last visit: C:\Windows\servicing\LCU\Package_for_RollupFix~31bf3856ad364e35~amd64~~19041.1348.1.7\amd64_microsoft-windows-help-client_31bf3856ad364e35_10.0.19041.1151_none_e0e8a531e34051a9
+Running scan (30s): scanned 70477 directories, 338232 files, last visit: C:\Windows\System32\DriverStore\FileRepository\c_barcodescanner.inf_amd64_266a07997c075b30
+Running scan (40s): scanned 106185 directories, 411142 files, last visit: C:\Windows\WinSxS\Temp\InFlight\e21ccf73abd5d70114040000203c3005\amd64_microsoft-windows-syncsettings_31bf3856ad364e35_10.0.19041.746_none_696a462e890ee74f\f
+
+Scanned 115116 directories and 436505 files
+Found 0 vulnerable files
+Found 0 potentially vulnerable files
+Found 0 mitigated files
+Completed in 42.07 seconds
+```
 As seen above, the output of this command will display the vulnerable JAR/WAR/EAR path, and a summary of the scan.
 
 ## Affected Versions
