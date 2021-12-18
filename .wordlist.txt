@@ -151,6 +151,7 @@ ESXi
 EtherIP
 EV
 exchanger
+exe
 Exim
 Expandrive
 failback
@@ -178,6 +179,7 @@ Gbps
 GCM
 GDPR
 GeoIP
+Github
 GitLab
 Gmail
 GoDaddy
@@ -248,6 +250,7 @@ loadbalancer
 loadbalancers
 loadbalancing
 localhost
+logpresso
 Logstash
 LTS
 LV
