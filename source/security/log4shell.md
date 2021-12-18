@@ -30,7 +30,7 @@ On **Tuesday 14th December**, a second vulnerability was identified, [CVE-2021-4
 
 On **Friday 17th December**, CVE-2021-45046 had its [severity increased](https://logging.apache.org/log4j/2.x/security.html) from 3.7 to 9.0 as additional exploits were found against the v2.15.0 release that was intended to resolve these issues.
 
-On **Saturday 18th December**, CVE-2021-45105 was released after a Denial of Service (DOS) attack was found in all v2.xx releases, including the recent v2.16.0 release. Upgrading to v2.17.x is the recommended mitigation action. 
+On **Saturday 18th December**, CVE-2021-45105 was released after a Denial of Service (DOS) attack was found in all v2.xx releases, including the recent v2.16.0 release. Upgrading to v2.17.x is the recommended mitigation action.
 
 ## National Cyber Security Centre Guidance
 
