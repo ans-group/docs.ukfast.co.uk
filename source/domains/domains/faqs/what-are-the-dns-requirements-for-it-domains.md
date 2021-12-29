@@ -27,7 +27,7 @@ Every domain name registered must have the following requirements pre-configured
     - host not found
     - server failure
     - query failed
-9. Indicated nameservers must be authoritative for the domain name.
+8. Indicated nameservers must be authoritative for the domain name.
 
 ```eval_rst
 .. warning::
