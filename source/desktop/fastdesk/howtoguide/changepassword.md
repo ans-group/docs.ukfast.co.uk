@@ -34,7 +34,7 @@ On this page you will find `"Change Password"`. Here you will be able to change 
 ```eval_rst
 .. warning::
 
-   Your new password must be a minimum of 8 characters in length and contain at least 3 of the following: uppercase letters, lowercase letters, numbers, symbols and special characters e.g `"! " £"`. Your password can also not contain the name of your account. For example, if your account name is John Smith, a password with the word `'john'`will not be accepted.
+   Your new password must be a minimum of 8 characters in length and contain at least 3 of the following: uppercase letters, lowercase letters, numbers, symbols and special characters e.g ``"! " £"``. Your password can also not contain the name of your account. For example, if your account name is John Smith, a password with the word ``john`` will not be accepted.
 
 ```
 Once your password has been changed, it should simply log you in. It may ask you to detect receiver, if so, simply select the option that allows it to detect the receiver.
