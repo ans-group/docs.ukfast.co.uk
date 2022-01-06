@@ -111,7 +111,7 @@ To review data from the past:
 atop -r /var/log/atop/atop_20210808
 ```
 
-### Logs
+## Logs
 
 When issues occur on a Linux/Ubuntu system a helpful message is (sometimes but not exclusively) printed to the application error log. Commonly these are found in respective paths below.
 
@@ -206,9 +206,9 @@ The most common cause of server slow down is one or more processes consuming a l
 
 There are several variations on the `top` utility however those are not covered in this section.
 
-# Common Magento2 issues
+## Common Magento2 issues
 
-## `PHP-FPM` Max Children Reached
+### `PHP-FPM` Max Children Reached
 
 Run the following command to check if any `php-fpm` instance has reached max_children on CentOS or Ubuntu:
 
@@ -218,7 +218,7 @@ for m in $(for i in $(ps awux | grep -w "[p]hp-fpm.conf" | awk '{print $NF}' | s
 
 If max_children has been reached reload `php-fpm` and then review the server resources using atop to define if the max_children value should be changed.
 
-## Database Deadlocks
+### Database Deadlocks
 
 You can get the engine status of MySQL using the following command:
 ```bash
@@ -226,7 +226,7 @@ mysql -e "SHOW ENGINE INNODB STATUS;"
 ```
 This will identify if there has been a deadlock
 
-## Varnish 503
+### Varnish 503
 
 You can check the health of the application using the following command:
 
@@ -240,17 +240,17 @@ boot.default   probe    10/10    healthy
 This is the typical configuration for the healthcheck:
 https://docs.ukfast.co.uk/ecommercestacks/magento/magento2/varnish/varnish.html#health-check
 
-## Permissions
+### Permissions
 Make sure the owner and group of the document root is `"websiteuser:websiteuser"`. You can find the user and group from the PHP-FPM configuration pool file.
 
-### Find files not owned by `"websiteuser"`
+#### Find files not owned by `"websiteuser"`
 ```bash
 find /var/www/vhosts/sitename.co.uk/htdocs/ -! -user websiteuser
 ```
 
 If this command returns any output you will need to review the files and or directories and possible change the owner and group.
 
-### To change the ownership you can run the following command:
+#### To change the ownership you can run the following command:
 
 ```bash
 chown -R websiteuser:websiteuser /var/www/vhosts/sitename.co.uk/htdocs/
