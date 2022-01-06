@@ -37,6 +37,7 @@ We have a number of guides for our Magento 2 optimised stack:
    opcache/index
    php/index
    redis/index
+   troubleshooting
    
 Find out more about our Magento hosting offerings here: https://www.ukfast.co.uk/magento-ecommerce-hosting.html
    
