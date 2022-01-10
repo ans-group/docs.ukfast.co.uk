@@ -12,7 +12,7 @@ Firstly enable Geo IP on the listener by clicking the toggle at the top of the s
 
 You can toggle the list between an allow and deny using the "List Type" toggle.
 
-* Allow List - Only users in the countries/continents specified will be allowed to access your load balancer 
+* Allow List - Only users in the countries/continents specified will be allowed to access your load balancer
 * Deny List - Any user in a country/continent specified will be blocked from being able to access your load balancer
 
 ## EU Filtering
