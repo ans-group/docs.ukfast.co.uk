@@ -10,5 +10,6 @@ Below are guides on the various components which make up your load balancer conf
    targets
    access-ips
    ssls
+   geo-ip
    access-controls
    
