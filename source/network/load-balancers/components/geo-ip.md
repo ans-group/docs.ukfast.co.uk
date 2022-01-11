@@ -1,6 +1,6 @@
 # Geo IP
 
-You can use the Geo IP settings on listeners to block countries or continents from accessing your load balancer (deny list) or only allow certain countries or continents to access your load balancer (allow list).
+You can use the Geo IP settings on a listener to allow or deny requests from specific countries and continents..
 
 To get started go to the listener you want to change the Geo IP settings for within the [load balancers section](https://my.ukfast.co.uk/load-balancers) of MyUKFast. Then click the `Geo IP Allow/Block List` tab at the top of the screen.
 
