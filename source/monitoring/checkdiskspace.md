@@ -6,7 +6,7 @@ It's quite common to want to check the status of the various partitions/drives o
 df -h
 ```
 
-This will produce output similar to the following:
+This will produce output similar to the following: 
 
 ```console
 [root@mail ~]# df -h
