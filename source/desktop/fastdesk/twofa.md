@@ -19,7 +19,7 @@ Next, they specify if you are using an iPhone or an Android or a Windows Phone. 
 
 Next, Duo will show that the account is now linked and the registration process is complete. Once registration is complete, you will be able to choose the web portal or the Citrix Workspace application as usual.
 
-## General usage
+## General usage 
 
 Day to day, when a user enters their password as normal, they will be asked to select an authentication method. Users simply click "send me a push". The user will get a notification on their 2FA enabled device. When they open up the notification, they will get an `"Allow" or "Deny"` option. Users will simply select `Allow` and it will log them in as usual.
 
