@@ -2,15 +2,13 @@
 
 name: Build Docker images and deploy to UAT
 on:
-  pull_request:
+  pull_request_target:
     types:
-      - opened
-      - edited
-      - synchronize
-      - reopened
+      - labeled
 
 jobs:
   build_and_deploy:
+    if: contains(github.event.pull_request.labels.*.name, 'deploy uat')
     runs-on: ubuntu-latest
     permissions:
       packages: write
@@ -27,8 +25,8 @@ jobs:
         uses: docker/login-action@v1
         with:
           registry: ghcr.io
-          username: ${{ secrets.REGISTRY_USERNAME }}
-          password: ${{ secrets.REGISTRY_PAT }}
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Build and push app image
         uses: docker/build-push-action@v2
