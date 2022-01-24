@@ -18,6 +18,9 @@ jobs:
       name: UAT
       url: https://pr-${{ github.event.number }}.docsuat.devops.ukfast.co.uk
     steps:
+      - name: Checkout the repository
+        uses: actions/checkout@v2
+
       - name: Set up Docker buildx
         uses: docker/setup-buildx-action@v1
 
@@ -31,6 +34,7 @@ jobs:
       - name: Build and push app image
         uses: docker/build-push-action@v2
         with:
+          context: .
           push: true
           tags: ghcr.io/ukfast/docs-app:${{ github.event.number }}
           build-args: |
@@ -39,12 +43,10 @@ jobs:
       - name: Build and push populator image
         uses: docker/build-push-action@v2
         with:
+          context: .
           push: true
           tags: ghcr.io/ukfast/docs-populator:${{ github.event.number }}
           file: populator/Dockerfile
-
-      - name: Checkout the repository
-        uses: actions/checkout@v2
 
       - name: Setup Kustomize
         uses: imranismail/setup-kustomize@v1
