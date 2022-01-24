@@ -20,6 +20,8 @@ jobs:
     steps:
       - name: Checkout the repository
         uses: actions/checkout@v2
+        with:
+          ref: "refs/pull/${{ github.event.number }}/merge"
 
       - name: Set up Docker buildx
         uses: docker/setup-buildx-action@v1
