@@ -17,7 +17,7 @@ You can toggle the list between an allow and deny using the "List Type" toggle.
 
 ## EU Filtering
 
-As well as being able to specify specific countries or continents, you can also add all countries within the EU to the list as a group. For instance, if you only want EU customers to be able to access your website you could have an allow list setup with EU filtering included.
+As well as being able to specify specific countries or continents, you can also add all countries within the EU to the list as a group. For instance, if you only want EU customers to be able to access your website you could have an allow list setup with EU filtering included. Note that the EU list does not include the United Kingdom.
 
 ## Adding Countries/Continents
 
