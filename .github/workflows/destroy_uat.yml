@@ -17,7 +17,7 @@ jobs:
       name: UAT
     steps:
       - name: Setup kubectl
-        uses: azure/setup-kubectl@v1
+        uses: azure/setup-kubectl@v2.0
 
       - name: Teardown UAT environment for this PR
         run: |
