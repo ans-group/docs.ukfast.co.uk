@@ -33,7 +33,7 @@ jobs:
           owner: ukfast
           name: docs-app
           tag: ${{ github.event.number }}
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.REGISTRY_DELETE_PAT }}
 
       - name: Remove the populator container image from the registry
         uses: bots-house/ghcr-delete-image-action@v1.0.0
@@ -41,4 +41,4 @@ jobs:
           owner: ukfast
           name: docs-populator
           tag: ${{ github.event.number }}
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.REGISTRY_DELETE_PAT }}
