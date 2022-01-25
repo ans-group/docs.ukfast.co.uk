@@ -69,8 +69,9 @@ jobs:
       - name: Setup kubectl
         uses: azure/setup-kubectl@v1
 
-      - name: Create resources in Kubernetes
+      - name: Create/Update resources in Kubernetes
         run: |
           mkdir $HOME/.kube
           echo -e "${{ secrets.UAT_KUBECONFIG }}" > $HOME/.kube/config
           kubectl apply -f manifest.yaml
+          for d in $(kubectl -n docs-uat get deployments --no-headers -o custom-columns=":metadata.name" -l 'app.kubernetes.io/instance=docs-uat-${{ github.event.number }}'); do kubectl rollout restart deployments/$d; done;
