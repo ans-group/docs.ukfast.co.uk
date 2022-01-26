@@ -19,7 +19,7 @@
 
 ## Overview
 
-On **Tuesday 25th January 2022**, a local privilege escalation was discovered in the **polkit** component in all major Linux distributions. This toolkit is responsible for organising/controlling how non-privileged processes communicate with privileged ones. A vulnerability was discovered in the *pbexec* command in which a specifically crafted environment variable can be leveraged to excecute arbitrary code, leading to a local privilege escalation.
+On **Tuesday 25th January 2022**, a local privilege escalation was discovered in the **polkit** component in all major Linux distributions. This toolkit is responsible for organising/controlling how non-privileged processes communicate with privileged ones. A vulnerability was discovered in the `pbexec` command in which a specifically crafted environment variable can be leveraged to excecute arbitrary code, leading to a local privilege escalation.
 
 * [Red Hat](https://access.redhat.com/security/cve/CVE-2021-4034)
 * [Ubuntu](https://ubuntu.com/security/CVE-2021-4034)
