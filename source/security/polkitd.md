@@ -1,4 +1,4 @@
-# Polkit Security Vulnerability CVE-2021-4034 
+# Polkit Security Vulnerability CVE-2021-4034
 
 ```eval_rst
 +-----------------+-----------+-----------+
@@ -13,8 +13,8 @@
 
 ```eval_rst
 .. warning::
-  All Linux distributions are releasing patches independently, and as such we will update this document whenever patches are available via the UKFast Public Mirror. 
-  
+  All Linux distributions are releasing patches independently, and as such we will update this document whenever patches are available via the UKFast Public Mirror.
+
 ```
 
 ## Overview
@@ -30,6 +30,12 @@ On **Tuesday 25th January 2022**, a local privilege escalation was discovered in
 Once patches are available, UKFast is encouraging all clients to upgrade **polkit** to the latest version, applying the appropriate mitigations where upgrade isn't an option. For our part, UKFast is currently working through all our systems to be absolutely sure we are protected.
 
 Our support teams are looking at not only updating those products and services managed by UKFast, but are also looking into the wider scope of affected applications, with a view to better informing our clients the best mitigation methods with systems they manage.
+
+## Mitigation
+
+In lieu of a patched version of **polkit**, Redhat have detailed a method of mitigation, linked below.
+
+* [Redhat](https://access.redhat.com/security/cve/CVE-2021-4034)
 
 ## Identification
 
@@ -73,7 +79,7 @@ Alma Linux                  polkit-0.115-13.el8_5.1.x86_64.rpm
 ```
 
 ```eval_rst
-   .. title:: Polkit Security Vulnerability CVE-2021-4034 
+   .. title:: Polkit Security Vulnerability CVE-2021-4034
    .. meta::
       :title: Polkit Security Vulnerability CVE-2021-4034  | UKFast Documentation
       :description: Information on Polkit Security Vulnerability CVE-2021-4034
