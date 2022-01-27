@@ -16,9 +16,9 @@ This revocation only affects certificates issued and validated with the [TLS-ALP
 ```eval_rst
 .. note::
    For a more comprehensive, non-exhaustive, list of affected software, please use the following Let's Encrypt link.
-   
+
    - https://community.letsencrypt.org/t/questions-about-renewing-before-tls-alpn-01-revocations/170449
-   
+
    Please note that UKFast are not responsible for external links, and the inclusion of any external URL should not be interpreted as an endorsement of that site, its content, or any product or service it may provide.
 ```
 
