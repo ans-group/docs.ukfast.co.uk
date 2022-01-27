@@ -23,3 +23,4 @@ Over a billion certificates have already been issued using **Let's Encrypt**.
    Let's Encrypt in Plesk <letsencrypt_plesk>
    Let's Encrypt in cPanel/WHM <letsencrypt_cpanel>
    Using Let's Encrypt on Windows <letsencrypt_windows>
+   Revocation of TLS-ALPN-01 Validated Certificates <letsencrypt_tls_alpn_01>

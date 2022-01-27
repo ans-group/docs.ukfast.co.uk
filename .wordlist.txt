@@ -272,6 +272,7 @@ minified
 minify
 minifying
 misconfiguration
+misissued
 mitigations
 Moodle
 mountpoints
@@ -444,6 +445,7 @@ SSDs
 SSHd
 SSL
 SSLs
+SSLit!
 SSMS
 SSO
 SSP
@@ -470,6 +472,7 @@ timeframes
 TLD
 TLDs
 TLS
+TLS-ALPN-01
 TMCH
 TSV
 TTFB
