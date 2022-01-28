@@ -8,7 +8,7 @@
 +-----------------+-----------+-----------+
 ```
 
-***Last Updated: 26/01/22 1:20 PM***
+***Last Updated: 28/01/22 11:15 AM***
 
 ```eval_rst
 .. warning::
@@ -29,12 +29,6 @@ On **Tuesday 25th January 2022**, a local privilege escalation was discovered in
 Once patches are available, UKFast is encouraging all clients to upgrade **polkit** to the latest version, applying the appropriate mitigations where upgrade isn't an option. For our part, UKFast is currently working through all our systems to be absolutely sure we are protected.
 
 Our support teams are looking at not only updating those products and services managed by UKFast, but are also looking into the wider scope of affected applications, with a view to better informing our clients the best mitigation methods with systems they manage.
-
-## Mitigation
-
-In lieu of a patched version of **polkit**, Red Hat have detailed a method of mitigation, linked below.
-
-* [Red Hat](https://access.redhat.com/security/cve/CVE-2021-4034)
 
 ## Identification
 
@@ -64,9 +58,16 @@ AlmaLinux                   Vulnerable to CVE-2021-4034
 ### Patched Versions
 
 ```eval_rst
+.. note::
+  A reboot is required to apply this patch due to the number of services that rely on this component.
+
+```
+
+```eval_rst
 ==========================  ===================================================================================
 OS                          Patched Version
 ==========================  ===================================================================================
+CentOS 7x                   polkit-0.112-26.el7_9.1.x86_64
 Ubuntu 14.04                policykit-1_0.105-4ubuntu3.14.04.6+esm1
 Ubuntu 16.04                policykit-1_0.105-14.1ubuntu0.5+esm1
 Ubuntu 18.04                policykit-1_0.105-20ubuntu0.18.04.6
@@ -76,6 +77,11 @@ Alma Linux                  polkit-0.115-13.el8_5.1.x86_64.rpm
 ==========================  ===================================================================================
 
 ```
+## Manual Mitigation
+
+In lieu of a patched version of **polkit**, Red Hat have detailed a method of mitigation, linked below.
+
+* [Red Hat](https://access.redhat.com/security/cve/CVE-2021-4034)
 
 ```eval_rst
    .. title:: Polkit Security Vulnerability CVE-2021-4034
