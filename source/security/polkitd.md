@@ -11,7 +11,7 @@
 ***Last Updated: 31/01/22 10:15 AM***
 
 ```eval_rst
-.. tip::
+.. hint::
   Patched packages for Ubuntu and CentOS 7/8 are now available via the UKFast Public Mirrors.
 
 ```
