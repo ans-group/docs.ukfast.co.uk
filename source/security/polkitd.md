@@ -8,11 +8,11 @@
 +-----------------+-----------+-----------+
 ```
 
-***Last Updated: 28/01/22 11:15 AM***
+***Last Updated: 31/01/22 10:15 AM***
 
 ```eval_rst
-.. warning::
-  All Linux distributions are releasing patches independently, and as such we will update this document whenever patches are available via the UKFast Public Mirror.
+.. note::
+  Patched packages for Ubuntu and CentOS 7/8 are now available via the UKFast Public Mirrors.
 
 ```
 
@@ -79,7 +79,7 @@ Alma Linux                  polkit-0.115-13.el8_5.1.x86_64.rpm
 ```
 ## Manual Mitigation
 
-In lieu of a patched version of **polkit**, Red Hat have detailed a method of mitigation, linked below.
+In lieu of a patched version of **polkit**, Red Hat have detailed an alternative method of mitigation, linked below.
 
 * [Red Hat](https://access.redhat.com/security/cve/CVE-2021-4034)
 
