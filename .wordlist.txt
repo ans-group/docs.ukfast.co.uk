@@ -28,6 +28,7 @@ ARPA
 ASA
 ASDM
 authenticator
+authenticators
 autodiscover
 AutoSSL
 AWStats

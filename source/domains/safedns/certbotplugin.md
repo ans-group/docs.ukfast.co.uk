@@ -117,6 +117,20 @@ IMPORTANT NOTES:
   -d server3.ukfast.co.uk
 ```
 
+## Without using the `cli.ini` file
+
+If you prefer to not use the `cli.ini` file, perhaps because you need to use different authenticators side by side, you can be more verbose on the command line and specify the options like this:
+
+```bash
+/usr/local/bin/certbot certonly \
+  -d server1.ukfast.co.uk \
+  -d *.ukfast.dev \
+  -d server3.ukfast.co.uk \
+  --authenticator dns_safedns \
+  --dns_safedns-credentials /root/.config/letsencrypt/dns_safedns.ini \
+  --deploy-hook "/usr/bin/systemctl restart httpd"
+```
+
 ## Known issues
 
 If you get any Python cryptography errors, such as:
