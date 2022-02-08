@@ -17,7 +17,7 @@ jobs:
           EXTENSIONS="md"
           PATH_PREFIX="source"
           for FILE in ${{ steps.changed_files.outputs.all }}; do
-            if [[ $FILE = $PATH_PREFIX* ]] ; do
+            if [[ $FILE = $PATH_PREFIX* ]]; then
               for EXT in $EXTENSIONS; do
                 if [[ ${FILE##*.} == $EXT ]]; then
                   SCAN_FILES="$SCAN_FILES $FILE"; continue
