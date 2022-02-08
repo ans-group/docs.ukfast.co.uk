@@ -15,12 +15,15 @@ jobs:
       - name: Filter changed files by extension
         run: |
           EXTENSIONS="md"
+          PATH_PREFIX="source"
           for FILE in ${{ steps.changed_files.outputs.all }}; do
-            for EXT in $EXTENSIONS; do
-              if [[ ${FILE##*.} == $EXT ]]; then
-                SCAN_FILES="$SCAN_FILES $FILE"; continue
-              fi
-            done
+            if [[ $FILE = $PATH_PREFIX* ]] ; do
+              for EXT in $EXTENSIONS; do
+                if [[ ${FILE##*.} == $EXT ]]; then
+                  SCAN_FILES="$SCAN_FILES $FILE"; continue
+                fi
+              done
+            fi 
           done
           echo "scan_files=$SCAN_FILES" >> $GITHUB_ENV
 
