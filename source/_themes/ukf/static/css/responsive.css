@@ -2,9 +2,8 @@
  * Phone/phablet layout.
  */
 @media (max-width: 767px) {
-    .logo img {
+    .logo svg {
         margin-top: 20px;
-        margin-bottom: 14px;
     }
 
     .navbar-right {

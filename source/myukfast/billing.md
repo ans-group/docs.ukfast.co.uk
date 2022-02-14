@@ -15,7 +15,7 @@ To view the relevant information, once you are logged into MyUKFast, navigate to
 
 If you have any questions relating to billing or have an account query please call our Accounts team on **0845 458 3535** or Raise an invoice query as shown above.
 
-For all written enquiries, please address Accounts Department, UKFast, UKFast Campus, Birley Fields, Manchester, England, M15 5QJ
+For all written enquiries, please address Accounts Department, UKFast, Archway 1, Birley Fields, Manchester, England, M15 5QJ
 
 ## Contract Queries
 For any queries specifically relating to your UKFast contract, please [contact your Account Manager](account-manager).

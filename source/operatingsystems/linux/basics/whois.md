@@ -20,7 +20,7 @@ To see information on a domain such as who owns the domain and it's name servers
         UK Limited Company, (Company number: 3845616)
 
     Registrant's address:
-        UKFast Campus
+        Archway 1
         Birley Fields
         Manchester
         M15 5QJ

@@ -76,7 +76,7 @@ h2 a {
 }
 
 #container {
-    background-color: #f6f5f4
+    background-color: #F1F1F1;
 }
 
 #main-menu-container {
@@ -576,7 +576,7 @@ iframe {
 
 @media (max-width: 767px) {
     .header-wrapper {
-        background-color: #e65743;
+        background-color: #132F3F;
         color: #dadde2;
     }
 
@@ -1620,13 +1620,9 @@ blockquote {
 
 
 .back-book {
-    background-color: #2e2e2e;
+    background-color: #04151F;
     -webkit-transition: all 0.3s linear;
     transition: all 0.3s linear;
-}
-
-.back-book:hover {
-    background-color: #323233;
 }
 
 .back-book h2 {
@@ -1658,10 +1654,9 @@ blockquote {
     padding-right: 5px;
 }
 
-.logo img {
+.logo svg {
     margin-top: 22px;
-    margin-bottom: 20px;
-    width: 210px;
+    height: 50px;
 }
 
 #footer input {
@@ -1689,7 +1684,7 @@ header {
     transition: top 0.2s ease-in-out;
     width: 100%;
     z-index: 99;
-    background: #e65743;
+    background: #132F3F;
 }
 
 .nav-up {
@@ -1848,18 +1843,17 @@ header {
 }
 
 .t-cook-nav h2 {
-    color: #B8B8AE;
     text-align: left;
     padding: 10px 0;
 }
 .t-cook-nav a {
-    color: #B8B8AE;
+    color: white;
 }
 
 /* Search form */
 .form-cook {
     margin-top: 8px;
-    background: #565656;
+    background: #132F3F;
     border-radius: 0;
     height: 30px;
 }
@@ -1924,7 +1918,7 @@ header {
     position: fixed;
     bottom: calc(70% - 44px);
     right: 0;
-    background: #e65743;
+    background: #132F3F;
     padding: 5px 0px 4px;
     z-index: 90; /* Behind header */
 }
@@ -1937,7 +1931,7 @@ header {
     -moz-transition-duration: 0.3s;
     -o-transition-duration: 0.3s;
     transition-duration: 0.3s;
-    background: #e65743;
+    background: #132F3F;
     padding: 5px 0px 4px;
     z-index: 90; /* Behind header */
 }
@@ -1955,7 +1949,7 @@ header {
     -moz-transition-duration: 0.3s;
     -o-transition-duration: 0.3s;
     transition-duration: 0.3s;
-    background: #e65743;
+    background: #132F3F;
     padding: 5px 12px;
     width: 210px;
 }
@@ -2019,12 +2013,17 @@ header {
 .btn-nav {
     width: 100%;
     border-radius: 5px;
-    background-color: #f32837;
+    background-color: #132F3F;
     color: #ffffff;
     font-size: 15px;
     font-weight: 300;
     padding: 15px;
 
+}
+
+#btn-toc:hover {
+    color: white;
+    background-color: #04151F;
 }
 
 .modal-title-cookbook {
