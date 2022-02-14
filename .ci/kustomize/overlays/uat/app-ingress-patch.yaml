@@ -1,0 +1,9 @@
+# The PLACEHOLDER values here will be overwritten by CI/CD
+# to be the actual hostname we want to use for this deployment.
+
+- op: replace
+  path: /spec/rules/0/host
+  value: PLACEHOLDER
+- op: replace
+  path: /spec/tls/0/hosts/0
+  value: PLACEHOLDER

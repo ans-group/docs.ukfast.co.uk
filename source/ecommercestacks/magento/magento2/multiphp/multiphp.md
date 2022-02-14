@@ -59,11 +59,7 @@ sed -ie "s/expose_php = On/expose_php = Off/" /etc/opt/remi/php7?/php.ini
 sed -ie "s/upload_max_filesize = 2M/upload_max_filesize = 8M/" /etc/opt/remi/php7?/php.ini
 sed -ie "s/zlib.output_compression = Off/zlib.output_compression = On/" /etc/opt/remi/php7?/php.ini
 echo ";Default" | tee /etc/opt/remi/php7?/php-fpm.d/www.conf > /dev/null
-```
-
-Replace version number, example is 7.2
-```bash
-echo "suhosin.session.cryptua = off" >> /etc/opt/remi/php72/php.ini
+echo "suhosin.session.cryptua = off" | tee -a /etc/opt/remi/php7?/php.ini > /dev/null
 ```
 
 ### Configure PHP-FPM

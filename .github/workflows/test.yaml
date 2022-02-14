@@ -9,17 +9,21 @@ jobs:
 
       - name: Get a list of changed files
         uses: jitterbit/get-changed-files@v1
+        continue-on-error: true
         id: changed_files
 
       - name: Filter changed files by extension
         run: |
           EXTENSIONS="md"
+          PATH_PREFIX="source"
           for FILE in ${{ steps.changed_files.outputs.all }}; do
-            for EXT in $EXTENSIONS; do
-              if [[ ${FILE##*.} == $EXT ]]; then
-                SCAN_FILES="$SCAN_FILES $FILE"; continue
-              fi
-            done
+            if [[ $FILE = $PATH_PREFIX* ]]; then
+              for EXT in $EXTENSIONS; do
+                if [[ ${FILE##*.} == $EXT ]]; then
+                  SCAN_FILES="$SCAN_FILES $FILE"; continue
+                fi
+              done
+            fi 
           done
           echo "scan_files=$SCAN_FILES" >> $GITHUB_ENV
 
@@ -33,7 +37,7 @@ jobs:
 
       - name: Spellcheck
         if: env.scan_files != ''
-        uses: rojopolis/spellcheck-github-actions@0.10.0
+        uses: rojopolis/spellcheck-github-actions@0.21.1
         with:
           task_name: Markdown
           source_files: ${{ env.scan_files }}

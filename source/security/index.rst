@@ -41,6 +41,8 @@ Guidance relating to specific security threats and cyber-attacks
    meltdown
    memcachedopen
    wannacry
+   log4shell
+   polkitd
    
    
 For guidance relating to UKFast firewalls, please see :doc:`/network/firewalls/index` in the Networking category.

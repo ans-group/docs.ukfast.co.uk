@@ -7,7 +7,7 @@ html2text==2020.1.16
 idna==2.10
 importlib-metadata==2.0.0
 markdown==3.2.2
-requests==2.24.0
+requests==2.26.0
 soupsieve==2.0.1
-urllib3==1.26.5
+urllib3==1.26.6
 zipp==3.2.0

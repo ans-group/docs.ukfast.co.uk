@@ -33,6 +33,15 @@ You can add multiple conditions and actions to an access control by clicking the
 * **Use target group** - Will send all requests to the specified target group which must be on the same load balancer.
 * **Set request header** - Adds the specified header with value to the requests going into the load balancer and being passed on to target servers.
 * **Set response header** -  Adds the specified header with value to the responses leaving the load balancer from the target servers.
+* **Choose header for originating IP** - Allows you to specify the request header name that the originating IP information will be copied in to.
+
+If you are looking for behaviour that's not on this list, speak to your account manager to see if we can add it to our templates list.
+
+## Saving and Deploying
+
+![Saving Access Controls](../files/access_controls_3_small.png)
+
+Once you've finished an access control, click the `Create Access Control` button shown above to save the new access control. Once you've set up all the access controls you need, make sure you [deploy your changes](../deploying-changes.html).
 
 If you are looking for behaviour that's not on this list, speak to your account manager to see if we can add it to our templates list.
 

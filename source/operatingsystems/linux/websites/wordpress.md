@@ -4,21 +4,21 @@ WordPress is an incredibly popular blogging platform that's increasingly being u
 
 ```eval_rst
 .. seealso::
-   If you're currently looking at a blank server, you'll first need to follow these prerequisite guides:
+  If you're currently looking at a blank server, you'll first need to follow these prerequisite guides:
 
-   - :doc:`/operatingsystems/linux/apache/installation`
-   - :doc:`/operatingsystems/linux/php/installation`
-   - :doc:`/operatingsystems/linux/mysql/installation`
+  - :doc:`/operatingsystems/linux/apache/installation`
+  - :doc:`/operatingsystems/linux/php/installation`
+  - :doc:`/operatingsystems/linux/mysql/installation`
 
 ```
 
 ```eval_rst
 .. warning::
-    Whilst WordPress is simple to get up and running with, you should note that it can present a security risk if WordPress, and any plugins and themes you choose to use, are not kept up to date. Due to it's popularity, WordPress is one of the most targetted applications on the internet.
+  Whilst WordPress is simple to get up and running with, you should note that it can present a security risk if WordPress, and any plugins and themes you choose to use, are not kept up to date. Due to it's popularity, WordPress is one of the most targetted applications on the internet.
 
-    Care should be taken when installing any third party plugins or themes, as these con often be the source of a full server compromise. Only install from reputable sources and be very wary of any site that claims to have premium themes for cheap or free, these are often ``backdoor``ed in some way.
+  Care should be taken when installing any third party plugins or themes, as these con often be the source of a full server compromise. Only install from reputable sources and be very wary of any site that claims to have premium themes for cheap or free, these are often backdoor'ed in some way.
 
-    For more information on keeping your WordPress site secure please see :doc:`/security/wordpress`
+  For more information on keeping your WordPress site secure please see :doc:`/security/wordpress`
 ```
 
 ## Installation
@@ -103,8 +103,8 @@ The above series of commands will have created a databases called `wordpress` a 
 The important part to note is `'wordpressuser'@localhost`. This specifies the user `wordpressuser` can only log in from `localhost`, which is pretty good from a security standpoint. If you need access from a remote server, you could run the command again with a different IP or hostname in place of `localhost`.
 
 ```eval_rst
-.. warning::
-   You could also replace ``localhost`` with ``%``, which would allow connections for that user from any IP address, but unless you have a particular reason for this it should probably be considered a security risk.
+  .. warning::
+    You could also replace ``localhost`` with ``\%``, which would allow connections for that user from any IP address, but unless you have a particular reason for this it should probably be considered a security risk.
 ```
 
 ## WordPress Configuration

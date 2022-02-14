@@ -39,16 +39,21 @@ Edit `ExecStart`:
 
 ```bash
 ExecStart=/usr/sbin/varnishd \
-          -a 10.0.0.16:80 \
-          -T 10.0.0.16:6082 \
-          -f /etc/varnish/default.vcl \
-          -s malloc,4G \
-          -p http_req_hdr_len=24000 \
-          -p http_resp_hdr_len=24000 \
-          -p thread_pool_min=100 \
-          -p thread_pool_max=3000 \
-          -p timeout_linger=0.1 \
-          -p pipe_timeout=600
+        -a 10.0.0.16:80 \
+        -f /etc/varnish/default.vcl \
+        -s malloc,4G \
+        -T 10.0.0.16:6082 \
+        -p http_req_hdr_len=32768 \
+        -p http_req_size=65536 \
+        -p http_resp_hdr_len=131072 \
+        -p http_resp_size=196608 \
+        -p workspace_backend=280k \
+        -p thread_pool_min=100 \
+        -p thread_pool_max=3000 \
+        -p timeout_linger=0.1 \
+        -p cli_timeout=20 \
+        -p thread_pools=2 \
+        -p pipe_timeout=600
 ```
 
 ### Example `VCL`

@@ -21,7 +21,10 @@ file_type = '.md'
 remove_regex = [r'.. (.*?)::']
 remove_list = ['eval_rst', ':doc:', '`', '\\ :sup:', ' | UKFast Documentation']
 meta_words = [':title:', ':description:', ':keywords:']
-hostname = 'elasticsearch'
+
+hostname = "elasticsearch"
+if 'POPULATOR_ES_HOST' in os.environ:
+    hostname = os.environ['POPULATOR_ES_HOST']
 host = 'http://' + hostname + ':9200'
 
 index_name = os.getenv('ESINDEX', 'documentation')

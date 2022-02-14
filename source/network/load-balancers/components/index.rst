@@ -1,6 +1,6 @@
-==============
+==========
 Components
-==============
+==========
 
 Below are guides on the various components which make up your load balancer configuration and an explanation of the options they have.
 
@@ -12,4 +12,3 @@ Below are guides on the various components which make up your load balancer conf
    ssls
    geo-ip
    access-controls
-   

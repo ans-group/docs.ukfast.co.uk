@@ -15,10 +15,12 @@ Over a billion certificates have already been issued using **Let's Encrypt**.
    :maxdepth: 1
    
    How Let's Encrypt Works <letsencrypt_how>  
+   How to install and use ``acme.sh`` <letsencrypt_acme_sh>
    NGINX on CentOS with Certbot <letsencrypt_centos_nginx>
    Apache on CentOS with Certbot <letsencrypt_centos_apache>
-   Apache/NGINX on Ubuntu with Certbot <letsencrypt_ubuntu>
+   Apache / NGINX on Ubuntu with Certbot <letsencrypt_ubuntu>
    Auto-Renewing & Revoking Certificates with Certbot <letsencrypt_autorenew_revoke>
    Let's Encrypt in Plesk <letsencrypt_plesk>
    Let's Encrypt in cPanel/WHM <letsencrypt_cpanel>
    Using Let's Encrypt on Windows <letsencrypt_windows>
+   Revocation of TLS-ALPN-01 Validated Certificates <letsencrypt_tls_alpn_01>

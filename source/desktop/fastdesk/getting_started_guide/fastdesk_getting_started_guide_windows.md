@@ -4,9 +4,7 @@ FastDesk®  is UKFast's Desktop as a Service (DaaS) solution, which allows users
 
 ```eval_rst
 .. note::
-
    Compatible with Windows 7, 8.1, 10 (32-bit and 64-bit editions). Also compatible with Windows Thin PC as well as Windows Server 2008 (R2, 64-bit), 2012 (R2, Standard, and, Datacenter editions)
-
 ```
 
 ## Pre-Installation information
@@ -65,9 +63,7 @@ Go ahead and enter the username and password credentials that were provided to y
 
 ```eval_rst
 .. note::
-
    Your new password must be a minimum of 8 characters in length and contain at least 3 of the following: uppercase letters, lowercase letters, numbers, symbols and special characters e.g "! " £". Your password can also not contain the name of your account. For example, if your account name is John Smith, a password with the word 'john' will not be accepted. Once your password has been reset, it should simply log you in. It may ask you to dectect receiver, if so, simply select the option that allows it to detect the receiver.
-
 ```
 
 ## Step 3 - Launching a desktop from the Web Portal
@@ -107,15 +103,13 @@ Simply type the following URL `"https://www.fastdesk.co.uk"` and click Add. Alte
 
 ```eval_rst
 .. warning::
-
    Whenever you log out of a desktop, do allow at least 3 minutes before attempting to log back in. This is to ensure the session correctly ends before another one is open. If you have not waited long enough, there is a danger of your applications not appearing when you log in. If you do find that this is the case, simply log out, wait at least 3 minutes and log back in again.
-
 ```
 
 **_This instruction guide should assist you in getting logged in for the first time. If you have any questions or still require assistance, please contact the FastDesk support team on 0800 923 0617_**.
 
- ```eval_rst
-    .. title:: FastDesk Getting Started Guide: Windows OS
+```eval_rst
+   .. title:: FastDesk Getting Started Guide: Windows OS
    .. meta::
       :title: FastDesk Getting Started Guide Windows PC Edition | UKFast Documentation
       :description: Guide for users on how to get setup on FASTdesk using a Windows PC

@@ -1,0 +1,44 @@
+---
+
+name: Teardown UAT environment for this PR
+on:
+  workflow_dispatch: {}
+  pull_request_target:
+    types:
+      - closed
+
+jobs:
+  teardown:
+    if: contains(github.event.pull_request.labels.*.name, 'deploy uat')
+    runs-on: ubuntu-latest
+    permissions:
+      packages: write
+    environment:
+      name: UAT
+    steps:
+      - name: Setup kubectl
+        uses: azure/setup-kubectl@v2.0
+
+      - name: Teardown UAT environment for this PR
+        run: |
+          mkdir $HOME/.kube
+          echo -e "${{ secrets.UAT_KUBECONFIG }}" > $HOME/.kube/config
+          kubectl -n docs-uat delete ingresses -l 'app.kubernetes.io/instance=docs-uat-${{ github.event.number }}'
+          kubectl -n docs-uat delete services -l 'app.kubernetes.io/instance=docs-uat-${{ github.event.number }}'
+          kubectl -n docs-uat delete deployments -l 'app.kubernetes.io/instance=docs-uat-${{ github.event.number }}'
+
+      - name: Remove the app container image from the registry
+        uses: bots-house/ghcr-delete-image-action@v1.0.1
+        with:
+          owner: ukfast
+          name: docs-app
+          tag: ${{ github.event.number }}
+          token: ${{ secrets.REGISTRY_DELETE_PAT }}
+
+      - name: Remove the populator container image from the registry
+        uses: bots-house/ghcr-delete-image-action@v1.0.1
+        with:
+          owner: ukfast
+          name: docs-populator
+          tag: ${{ github.event.number }}
+          token: ${{ secrets.REGISTRY_DELETE_PAT }}

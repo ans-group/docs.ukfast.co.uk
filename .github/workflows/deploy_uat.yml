@@ -1,0 +1,77 @@
+---
+
+name: Build Docker images and deploy to UAT
+on:
+  pull_request_target:
+    types:
+      - labeled
+
+jobs:
+  build_and_deploy:
+    if: contains(github.event.pull_request.labels.*.name, 'deploy uat')
+    runs-on: ubuntu-latest
+    permissions:
+      packages: write
+      issues: read
+      contents: read
+    environment:
+      name: UAT
+      url: https://pr-${{ github.event.number }}.docsuat.devops.ukfast.co.uk
+    steps:
+      - name: Checkout the repository
+        uses: actions/checkout@v2
+        with:
+          ref: "refs/pull/${{ github.event.number }}/merge"
+
+      - name: Set up Docker buildx
+        uses: docker/setup-buildx-action@v1
+
+      - name: Login to GitHub Container Registry
+        uses: docker/login-action@v1
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Build and push app image
+        uses: docker/build-push-action@v2
+        with:
+          context: .
+          push: true
+          tags: ghcr.io/ukfast/docs-app:${{ github.event.number }}
+          build-args: |
+            essvc=pr-${{ github.event.number }}-elasticsearch
+
+      - name: Build and push populator image
+        uses: docker/build-push-action@v2
+        with:
+          context: .
+          push: true
+          tags: ghcr.io/ukfast/docs-populator:${{ github.event.number }}
+          file: populator/Dockerfile
+
+      - name: Setup Kustomize
+        uses: imranismail/setup-kustomize@v1
+
+      - name: Build Kustomizations
+        working-directory: .ci/kustomize
+        run: |
+          sed -i 's/PLACEHOLDER/pr-${{ github.event.number }}.docsuat.devops.ukfast.co.uk/g' overlays/uat/app-ingress-patch.yaml
+          sed -i 's/PLACEHOLDER/pr-${{ github.event.number }}-elasticsearch/g' overlays/uat/app-job.yaml
+          kustomize create --resources overlays/uat
+          kustomize edit set nameprefix pr-${{ github.event.number }}-
+          kustomize edit set image appImage=ghcr.io/ukfast/docs-app:${{ github.event.number }}
+          kustomize edit set image populatorImage=ghcr.io/ukfast/docs-populator:${{ github.event.number }}
+          kustomize edit set namespace docs-uat
+          kustomize edit set label 'app.kubernetes.io/instance:docs-uat-${{ github.event.number }}'
+          kustomize build . > ../../manifest.yaml
+
+      - name: Setup kubectl
+        uses: azure/setup-kubectl@v2.0
+
+      - name: Create/Update resources in Kubernetes
+        run: |
+          mkdir $HOME/.kube
+          echo -e "${{ secrets.UAT_KUBECONFIG }}" > $HOME/.kube/config
+          kubectl apply -f manifest.yaml
+          for d in $(kubectl -n docs-uat get deployments --no-headers -o custom-columns=":metadata.name" -l 'app.kubernetes.io/instance=docs-uat-${{ github.event.number }}'); do kubectl rollout restart deployments/$d; done;
