@@ -1717,7 +1717,7 @@ header {
     z-index: 99;
 }
 #wrap .tt-input {
-    height: 60px;
+    height: 63.5px;
     font-size: 16px;
     display: inline-block;
     font-weight: 400;
@@ -1739,7 +1739,7 @@ header {
 #wrap .tt-input:focus {
   z-index: 1;
   cursor: text;
-  background-color: #c9111e;
+  background-color: #04151F;
   border-radius: 0;
 }
 #wrap input[type="submit"] {
