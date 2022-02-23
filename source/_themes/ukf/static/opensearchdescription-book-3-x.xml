@@ -2,7 +2,7 @@
 <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
   <ShortName>UKFast Docs</ShortName>
   <Description>Help with UKFast products, services and guidance with common hosting technology</Description>
-	<Image height="16" width="16" type="image/x-icon">https://docs.ukfast.co.uk/_static/favicon.png</Image>  
+	<Image height="16" width="16" type="image/x-icon">https://docs.ukfast.co.uk/_static/favicon.ico</Image>  
   
   <Url type="text/html"
        method="get"
