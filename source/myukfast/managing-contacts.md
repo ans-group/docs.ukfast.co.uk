@@ -37,6 +37,12 @@ The Primary Contact can add new contacts by following these simple steps:
 
 ![Server Credentials](files/server_credentials.PNG)
 
+```eval_rst
+.. note::
+   Please note that Support Teams cannot make this change on behalf of the Primary Contact.
+
+```
+
 ## Configuring Alerts for all contacts
 The [Alerts Manager](https://my.ukfast.co.uk/alerts-manager/index.php) allows the Primary Contact to review and configure alerts for all users in their contact list.
  1. Navigate to the [Contacts section](https://my.ukfast.co.uk/account/add-contact.php), click **My Account > Contacts**
