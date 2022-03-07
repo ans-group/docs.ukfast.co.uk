@@ -44,7 +44,7 @@ You can also clear OPcache using the PHP function:
 
 ### Stack OPcache settings
 
-We use the following `sed` to change the default settings of OPcache on our Magento 1 stacks:
+We use the following `sed` to change the default settings of OPcache on our Magento 2 stacks:
 
 ```bash
 sed -i 's/opcache.memory_consumption=128/opcache.memory_consumption=512/g' /etc/php.d/*opcache.ini
