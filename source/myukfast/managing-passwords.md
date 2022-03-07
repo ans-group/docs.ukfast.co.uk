@@ -6,11 +6,20 @@ There are several passwords which control access to different parts of your solu
 
 Passwords to access your server via SSH, RDP, FTP, MySQL and any panel product you may have installed can all be located by going to the **Server** or **eCloud** tab within [MyUKFast](https://my.ukfast.co.uk)
 
-To access your server credentials, browse to the Server or eCloud tab within MyUKFast and select your server's IP address from the list presented to you.
+To access your **Server Credentials**, browse to the **Server** or **eCloud** tab within MyUKFast and select your server's IP address from the list presented to you.
 
-You will then need to scroll down to the Unlock Credentials button at the very bottom of the page. Enter your MyUKFast password and your server credentials will be displayed to you.
+At the bottom of the page you will find the **Server Credentials** section. Enter your *MyUKFast password*, click **Unlock Credentials** and your server credentials will be displayed to you.
 
 ![Unlock Credentials](files/unlockcreds.PNG)
+
+```eval_rst
+.. tip::
+   If the Server Credentials options does not appear, then the Primary Contact on the account will need to enable your access as detailed in the following guide:
+
+   - :doc:`/myukfast/managing-contacts`
+
+   Please note that Support Teams cannot make this change on behalf of the Primary Contact.
+```
 
 ## Account Passwords
 

@@ -25,6 +25,24 @@ The Primary Contact can add new contacts by following these simple steps:
  4. You are now directed to the **Edit contact** page where you **Manage Subscriptions**, **Configure Alerts** and set **Access and Security Levels**
  5. When making changes to the above sections, ensure you save these changes by clicking **Update Contact** or **Update Security Settings** at the bottom of the relevant page
 
+## Managing Access to Server Credentials
+
+**Server Credentials** are available in MyUKFast for all servers in your account, but explicit access to this for contacts must be granted first.
+
+1. Navigate to the [Contacts section](https://my.ukfast.co.uk/account/add-contact.php), click **My Account > Contacts**.
+2. Click the contact you wish to edit.
+3. Click the **Access and Security** tab.
+4. Scroll down to **Server Credentials** and select **Yes**.
+5. Click **Update Security Settings** to save these changes.
+
+![Server Credentials](files/server_credentials.PNG)
+
+```eval_rst
+.. note::
+   Please note that Support Teams cannot make this change on behalf of the Primary Contact.
+
+```
+
 ## Configuring Alerts for all contacts
 The [Alerts Manager](https://my.ukfast.co.uk/alerts-manager/index.php) allows the Primary Contact to review and configure alerts for all users in their contact list.
  1. Navigate to the [Contacts section](https://my.ukfast.co.uk/account/add-contact.php), click **My Account > Contacts**
