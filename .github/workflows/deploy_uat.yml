@@ -67,7 +67,7 @@ jobs:
           kustomize build . > ../../manifest.yaml
 
       - name: Setup kubectl
-        uses: azure/setup-kubectl@v2.0
+        uses: azure/setup-kubectl@v2.1
 
       - name: Create/Update resources in Kubernetes
         run: |
