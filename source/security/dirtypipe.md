@@ -23,7 +23,7 @@ On Monday 7th March 2022, a flaw was found in the way the "flags" member of the 
 
 ### ANS Response
 
-Patches are currently available for Ubuntu 21.10. ANS is encourages all clients to upgrade thier kernel to the latest version to mitigate this vulnerability.
+Patches are currently available for Ubuntu 21.10. ANS is encourages all clients to upgrade their kernel to the latest version to mitigate this vulnerability.
 
 We have confirmed that we do not deploy Ubuntu 21.10 or any other interim releases for managed services and thus are not impacted by Dirty Cow.
 

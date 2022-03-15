@@ -76,6 +76,7 @@ CommServe
 Commvault
 Comodo
 config
+copy_page_to_iter_pipe
 CoreOS
 cPanel
 CPU
@@ -360,6 +361,7 @@ Proto
 proxying
 PSK
 PSS
+push_pipe
 Pure-FTPd
 PuTTY
 PuTTYGen
