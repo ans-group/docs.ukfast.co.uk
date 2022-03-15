@@ -43,6 +43,7 @@ Guidance relating to specific security threats and cyber-attacks
    wannacry
    log4shell
    polkitd
+   dirtypipe
    
    
 For guidance relating to UKFast firewalls, please see :doc:`/network/firewalls/index` in the Networking category.
