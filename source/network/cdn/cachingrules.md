@@ -16,6 +16,11 @@ There are two types of cache control within CDN, "Respect Origin Cache Control H
 
 On this page you can add "Global" and "Per URI" rules, "Global" rules apply to your entire domain and "Per URI" rules apply to a specified domain extension only.
 
+<h4><b>CLI:</b></h4>
+```bash
+ukfast ddosx domain cdn rule list mydomain.example
+```
+
 ### Global Caching Rules
 - Within the CDN tab of DDoSX, select `Add Rule for Entire Domain`
 
@@ -24,11 +29,21 @@ On this page you can add "Global" and "Per URI" rules, "Global" rules apply to y
 - Select the MIME types that you want CDN to cache (hold `Ctrl` to select multiple for this rule).
 - Define the type of cache control (outlined [above](#types-of-cache-control)).
 
+<h4><b>CLI:</b></h4>
+```bash
+ukfast ddosx domain cdn rule create mydomain.example --cache-control "Origin" --mime-type "font/*" --mime-type "text/javascript" --type "global" --uri "/"
+```
+
 >![connect](files/customcachecontrol.PNG)
 
 - If selecting "Custom", use the drop-down menus to define the amount of time the content should be cached for.
 - Select `Add Rule` to create this rule and repeat for all other rules.
 - Once complete, select `Apply Changes` and your rules will be made active.
+
+<h4><b>CLI:</b></h4>
+```bash
+ukfast ddosx domain cdn rule create mydomain.example --cache-control "Custom" --mime-type "font/*" --mime-type "text/javascript" --type "global" --uri "/" --cache-control-duration 3600s
+```
 
 ### URI Specific Caching Rules
 Following the same process as when adding global caching rules but with control over the domain extension.
@@ -36,6 +51,19 @@ Following the same process as when adding global caching rules but with control 
 ![connect](files/uricacherule.PNG)
 
 For example, adding `/static-content` to the `URI` field will apply the rule to any content hosted within **http://www.example.com/static-content**
+
+<h4><b>CLI:</b></h4>
+```bash
+ukfast ddosx domain cdn rule create mydomain.example --cache-control "Origin" --mime-type "font/*" --mime-type "text/javascript" --type "per-uri" --uri "/static-content"
+ukfast ddosx domain cdn rule create mydomain.example --cache-control "Custom" --mime-type "font/*" --mime-type "text/javascript" --type "per-uri" --uri "/static-content" --cache-control-duration 3600s
+```
+
+Finally, click `Apply Changes` and your Cache rules will now be set up on the UKFast DDoSX<sup>®</sup> network, and configured appropriately. (You should allow up to 10 minutes for the changes to be fully applied)
+
+<h4><b>CLI:</b></h4>
+```bash
+ukfast ddosx domain deploy mydomain.example
+```
 
 ```eval_rst
 .. meta::

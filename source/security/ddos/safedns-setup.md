@@ -63,6 +63,11 @@ The name server change may take up to 48 hours to propagate across the world. A 
 
 ![connect](files/ddosx_safedns_connect.png)
 
+<h4><b>CLI</b></h4>
+```bash
+ukfast ddosx domain create mydomain.example --name "mydomain.example"
+```
+
 ## 3) Configure Domain
 
 Once a new domain has been added to DDoSX<sup>®</sup>, you will automatically be taken to the configuration page for that domain.
@@ -88,6 +93,12 @@ You can add multiple subdomains at once via the `Add Record` button. Once you're
 
 The origin IP address of any of your subdomains (Including your root domain) can be changed by editing the IP in the text box shown under `Origin IP` for the specific record.
 
+<h4><b>CLI</b></h4>
+```bash
+ukfast safedns record list mydomain.example #Use this to retrieve the safedns id
+ukfast ddosx domain record create mydomain.example --name "mydomain.example" --safedns-record-id "123456" --content "1.2.3.4" --type "A"
+```
+
 **Adding SSL Certificates**
 
 Before pressing the `Apply Changes` button, we can add any required SSL certificates to our domains.
@@ -104,9 +115,22 @@ At this point, you should be able to go back into the `DNS Records` tab and sele
 
 Ensure that the `DDoSX Protection` toggle switch is enabled for all the domains you want to enable DDoSX<sup>®</sup> for. This will **NOT** put DDoSX<sup>®</sup> live just yet, toggling this switch will only enable the domain within DDoSX<sup>®</sup>.
 
+<h4><b>CLI</b></h4>
+```bash
+ukfast ddosx ssl create --friendly-name "something to identify the ssl" --key-file "/path/to/priv.key" --certificate-file "/path/to/cert.pem" --ca-bundle-file "/path/to/ca.pem"
+```
+
 ![configuredomain](files/configuredomain.PNG)
 
 Finally, click `Apply Changes` and your domain will now be set up on the UKFast DDoSX<sup>®</sup> network, and configured appropriately. (You should allow up to 10 minutes for the changes to be fully applied)
+
+<h4><b>CLI</b></h4>
+```bash
+ukfast ddosx ssl list #Use this to retrieve the ID of the SSL (all the b's below)
+ukfast ddosx domain record list mydomain.example #Use this to retrieve the ID of the record (all the a's below)
+ukfast ddosx domain record update mydomain.example aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa --ssl-id "bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbbb"
+ukfast ddosx domain deploy mydomain.example
+```
 
 ## 4) Configure Additional Features
 
@@ -151,6 +175,11 @@ Once you've added all the domains you need to test to your `hosts` file, save th
 If you're happy with how your site performs, you can switch the DNS Routing for your domain to "DDoSX<sup>®</sup>".  Note that it may take [up to 48 hours](/domains/domains/dnspropagation) for DNS changes to propagate across the internet (as with any such changes), and before your domain is fully protected.
 
 Once DNS propagation had concluded, your domain will be fully set up with DDoSX<sup>®</sup> protection.
+
+<h4><b>CLI</b></h4>
+```bash
+ukfast ddosx domain dns activate mydomain.example
+```
 
 ## Further Configuration
 

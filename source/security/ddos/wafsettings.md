@@ -4,6 +4,12 @@ Within the WAF tab in the DDoSX section of [MyUKFast](https://my.ukfast.co.uk) y
 
 ![wafsettings](files/wafsettings.PNG)
 
+<h4><b>CLI:</b></h4>
+```bash
+ukfast ddosx domain waf create mydomain.example --mode "DetectionOnly" --paranoia-level "Low"
+ukfast ddosx domain waf show mydomain.example
+```
+
 ## WAF Mode
 
 The different WAF modes available are:
@@ -78,6 +84,13 @@ You can choose which rulesets to switch on or off for each of your domains, usin
 
 ![wafrulesets](files/wafrulesets.PNG)
 
+<h4><b>CLI:</b></h4>
+```bash
+ukfast ddosx domain waf ruleset list mydomain.example
+ukfast ddosx domain waf ruleset update mydomain.example 889a4499-0266-4e02-9c49-dcb431c83c2e --active=false
+ukfast ddosx domain waf ruleset update mydomain.example e36720c5-33e5-4d15-93a5-d440866eb35e --active=true
+```
+
 ## Allow list Rules
 
 Before switching your WAF mode to On and starting to block traffic to your application, you may wish to create allow list rules to allow particular traffic through which you know be legitimate.
@@ -85,7 +98,7 @@ Before switching your WAF mode to On and starting to block traffic to your appli
 An example of this would be allowing traffic from your own office network to bypass the rules enforced by the WAF. A allow list rule to accommodate this situation would look like this:
 
 ```ini
-SecRule REQUEST_URI "@beginsWith /admin" "chain, id:1, phase:1, t:none, nolog, pass, ctl:ruleEngine=DetectionOnly" SecRule REMOTE_ADDR "@ipMatch 8.8.8.8" "t:none"
+SecRule REQUEST_URI "@beginsWith /admin" "chain, id:1, phase:1, t:none, nolog, pass, ctl:ruleEngine=Off" SecRule REMOTE_ADDR "@ipMatch 8.8.8.8" "t:none"
 ```
 
 In simple terms this rule states - *any request made to the URI `/admin` by user with IP address `8.8.8.8` can be ignored and only log when a rule would be triggered.*
@@ -97,6 +110,11 @@ This rule in it's raw format may be off-putting, but you can add allow list rule
 To create your allow list rule simply add:
 - URI (e.g. `admin`)
 - IP address (e.g. `8.8.8.8`)
+
+<h4><b>CLI:</b></h4>
+```bash
+ukfast ddosx domain waf rule create mydomain.example --ip "8.8.8.8" --uri "/admin"
+```
 
 You can build a rule like this yourself, by looking at the WAF Logs within [MyUKFast](https://my.ukfast.co.uk) for your domain, in order to determine:
 
@@ -149,6 +167,18 @@ e.g. `/admin` or `test string`. This is a free type box.
 Choose the `IP address` you want this rule to apply to.
 
 ![files_awstep4](files/files_awstep4.jpg)
+
+<h4><b>CLI:</b></h4>
+```bash
+ukfast ddosx domain waf advancedrule create mydomain.example --section "ARGS" --modifier "contains" --phrase "test" --ip "8.8.8.8"
+```
+
+Finally, click `Apply Changes` and your Waf rules will now be set up on the UKFast DDoSX<sup>®</sup> network, and configured appropriately. (You should allow up to 10 minutes for the changes to be fully applied)
+
+<h4><b>CLI:</b></h4>
+```bash
+ukfast ddosx domain deploy mydomain.example 
+```
 
 ```eval_rst
    .. title:: Web Application Firewall settings on DDoSX

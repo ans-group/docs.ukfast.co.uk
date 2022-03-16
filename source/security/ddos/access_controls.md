@@ -29,6 +29,12 @@ To set access controls, go to the domain in question within the [DDoSX area of M
 
 ![acl](files/acl.png)
 
+<h4><b>CLI:</b></h4>
+```bash
+ukfast ddosx domain acl ip list mydomain.example
+ukfast ddosx domain acl geoip list mydomain.example
+```
+
 ### IP Access
 
 To add rules based on an IP address or range, click `+Add Rule`; you'll see an area open up as follows:
@@ -40,7 +46,14 @@ To add rules based on an IP address or range, click `+Add Rule`; you'll see an a
 - Enter the Origin IP address or range you wish to filter on.  To filter on **all** IP addresses (for example if you wish to deny requests from all IPs) enter `*` into the Origin IP Address / Range field
 - Then choose Allow or Deny using the slider.
 
-Note that rules will be applied **in priority order**, based on the order you add them.  Our recommendation is to place your "Allow" rules first, and then your "Deny" rules, as rules are checked in sequence until there is a match.  If you wish to change the order in which rules are applied you will need to delete and re-add them as appropriate.
+Note that rules will be applied **in a priority order**, based on how specific the rule is. The order from least priority to highest is `Country -> wildcard -> subnet -> single IPs`
+
+<h4><b>CLI:</b></h4>
+```bash
+ukfast ddosx domain acl ip create mydomain.example --ip "*" --uri "test/" --mode "Allow"
+ukfast ddosx domain acl ip create mydomain.example --ip "8.8.8.0/24" --uri "test/" --mode "Deny"
+ukfast ddosx domain acl ip create mydomain.example --ip "8.8.8.8" --uri "test/" --mode "Allow"
+```
 
 ### Country Access
 
@@ -55,9 +68,19 @@ The country access rules you specify will work in conjunction with your IP acces
 
 Once you've specified all your IP access and Country access rules, click `Apply Changes` at the bottom of the screen.
 
+<h4><b>CLI:</b></h4>
+```bash
+ukfast ddosx domain acl geoip mode update mydomain.example --mode "Blacklist" #Blocklist (Allow All and deny configured Countries)
+ukfast ddosx domain acl geoip create mydomain.example --code "GB" #Deny GB and Allow all other
+ukfast ddosx domain deploy mydomain.example
+```
+
+Note that rules will be applied **in a priority order**, based on how specific the rule is. The order from least priority to highest is `Country -> wildcard -> subnet -> single IP`
+
 ![acl_rules](files/acl_rules.png)
 
 Your access rules may take a few minutes to propagate out across the DDoSX network.  You can check the the status of your domain by returning to the DDoSX Domains List (click `<Back to Domains list`) - once your changes have been applied you'll see a green tick in the Status column next to the domain in question.
+
 
 ```eval_rst
    .. title:: Access Control Lists on DDoSX

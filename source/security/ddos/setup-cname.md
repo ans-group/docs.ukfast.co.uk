@@ -45,6 +45,7 @@ DNS Provider     Record Type(s)
 DNS Made Easy    ANAME
 Cloudflare       Flattened CNAME
 FastHosts        ALIAS
+UKFast           ALIAS
 ==============   =================
 ```
 
@@ -70,6 +71,11 @@ On the other hand, if you *only* wish to place subdomains that are not used in M
 
 Once the transaction has completed, you will be asked to verify that you own this domain. You can do this one of two ways, either add a TXT record in your current DNS provider with the provided value, or upload a file to your server that can be accessed via your domain.
 
+<h4><b>CLI</b></h4>
+```bash
+ukfast ddosx domain create mydomain.example --name "mydomain.example"
+```
+
 - Select the verification type you want to use
 
 ![verify](files/ddosx_cname_verify.png)
@@ -90,6 +96,11 @@ TXT           @          ddosx-site-verification=245b62a2878fc30hd6altya37f00fe2
 - Once the TXT record has been created, allow some time for the DNS changes to propagate, this normally take no longer than 5 minutes but can take up to 48 hours.
 - Use the `Verify` button on the Domain verification page to check if the record has been applied successfully. If DDoSX<sup>®</sup> finds the correct TXT record, your domain will be verified. Be sure to leave this record applied to your DNS as DDoSX<sup>®</sup> may periodically check that you still have control over domain.
 
+<h4><b>CLI</b></h4>
+```bash
+ukfast ddosx domain verification dns verify mydomain.example
+```
+
 **Verify via File Upload**
 
 - Select the `File Upload` verification method
@@ -97,6 +108,11 @@ TXT           @          ddosx-site-verification=245b62a2878fc30hd6altya37f00fe2
 - Using FTP or a web GUI for example, upload the downloaded verification file to the root of your website. This is commonly inside a `www` or `public_html` folder.
 - Once uploaded, the file should be accessible by navigating to your domain followed by the name of the file. For example `https://non-safedns-domain.co.uk/e9e0a272db6b707e81a88ac4baed776367d15dbd.txt`
 - Once the file has been uploaded and working, press the `Verify` button on the domain verification page. If DDoSX<sup>®</sup> finds the correct verification file, your domain will be verified. Be sure to leave this file on your server as DDoSX<sup>®</sup> may periodically check that you still have control over domain.
+
+<h4><b>CLI</b></h4>
+```bash
+ukfast ddosx domain verification fileupload verify mydomain.example
+```
 
 ## 3) Configure Domain
 
@@ -114,6 +130,11 @@ You can add multiple subdomains at once via the `Add Record` button. Once you're
 
 The origin IP address of any of your subdomains (Including your root domain) can be changed by editing the IP in the text box shown under `Origin IP` for the specific record.
 
+<h4><b>CLI</b></h4>
+```bash
+ukfast ddosx domain record create mydomain.example --name "mydomain.example" --content "1.2.3.4" --type "A"
+```
+
 **Adding SSL Certificates**
 
 Before pressing the `Apply Changes` button, we can add any required SSL certificates to our domains.
@@ -126,9 +147,22 @@ Enter your SSL's Private Key, Certificate, any CA/Chain certificates (Optional) 
 
 ![addssl](files/ddosx_add_ssl.png)
 
+<h4><b>CLI</b></h4>
+```bash
+ukfast ddosx ssl create --friendly-name "something to identify the ssl" --key-file "/path/to/priv.key" --certificate-file "/path/to/cert.pem" --ca-bundle-file "/path/to/ca.pem"
+```
+
 At this point, you should be able to go back into the `DNS Records` tab and select the SSL you want to apply via the `SSL` dropdown for each record. Only SSLs that are valid for the configured subdomain will show in the dropdown. For example, an SSL for only `www.ukfast.co.uk` and `ukfast.co.uk` will *not* show in the dropdown for `my.ukfast.co.uk`. Wildcard SSL certificates should show for all applicable subdomains.
 
 Finally, click `Apply Changes` and your domain will now be set up on the UKFast DDoSX<sup>®</sup> network, and configured appropriately. (You should allow up to 10 minutes for the changes to be fully applied)
+
+<h4><b>CLI</b></h4>
+```bash
+ukfast ddosx ssl list #Use this to retrieve the ID of the SSL (all the b's below)
+ukfast ddosx domain record list mydomain.example #Use this to retrieve the ID of the record (all the a's below)
+ukfast ddosx domain record update mydomain.example aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa --ssl-id "bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbbb"
+ukfast ddosx deploy mydomain.example
+```
 
 ```eval_rst
 .. warning::
