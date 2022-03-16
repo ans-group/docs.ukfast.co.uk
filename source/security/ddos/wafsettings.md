@@ -55,7 +55,11 @@ Once you have set your paranoia mode you can now decide which rules you would li
 
 - **APPLICATION ATTACK LFI (Local File Inclusion):** A number of rules which analyse the payload for path traversal and other indicators of local file inclusion, decoders to detect binary within the payload as well as attempts to reach restricted files.
 
+<<<<<<< HEAD
 - **APPLICATION ATTACK <nospell>RFI</nospell> (Remote File Inclusion):** Inspecting the arguments for possible attack methods for remote file inclusion, this includes looking for PHP such as `include()`, URLs containing an IP address, data ends with question marks (`?`) and remote file inclusion host that does not match its local host value.
+=======
+- **APPLICATION ATTACK RFI (Remote File Inclusion):** Inspecting the arguments for possible attack methods for remote file inclusion, this includes looking for PHP such as `include()`, URLs containing an IP address, data ends with question marks (`?`) and remote file inclusion host that does not match its local host value.
+>>>>>>> 4439d847 (some spelling changes.)
 
 - **APPLICATION ATTACK RCE (Remote Code Execution):** This ruleset detects either Unix-based, or Windows-based shell command injections such as `foo.jpg;uname -a` for example, this ruleset is also case-sensitive to prevent false positives. Efforts have been made to detect common evasion techniques such as `'l'"s"`.
 
