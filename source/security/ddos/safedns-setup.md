@@ -113,7 +113,7 @@ Enter your SSL's Private Key, Certificate, any CA/Chain certificates (Optional) 
 
 ![addssl](files/ddosx_add_ssl.png)
 
-At this point, you should be able to go back into the `DNS Records` tab and select the SSL you want to apply via the `SSL` dropdown for each record. Only SSLs that are valid for the configured subdomain will show in the dropdown. For example, an SSL for only `www.ukfast.co.uk` and `ukfast.co.uk` will NOT show in the dropdown for `my.ukfast.co.uk`. Wildcard SSL certificates should show for all applicable subdomains.
+At this point, you should be able to go back into the `DNS Records` tab and select the SSL you want to apply via the `SSL` dropdown for each record. Only SSLs that are valid for the configured subdomain will show in the dropdown. For example, an SSL for only <nospell>`www.ukfast.co.uk`</nospell> and <nospell>`ukfast.co.uk`</nospell> will NOT show in the dropdown for <nospell>`my.ukfast.co.uk`</nospell>. Wildcard SSL certificates should show for all applicable subdomains.
 
 Ensure that the `DDoSX Protection` toggle switch is enabled for all the domains you want to enable DDoSX<sup>®</sup> for. This will **NOT** put DDoSX<sup>®</sup> live just yet, toggling this switch will only enable the domain within DDoSX<sup>®</sup>.
 
