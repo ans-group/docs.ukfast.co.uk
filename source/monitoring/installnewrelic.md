@@ -4,6 +4,11 @@ In this article we will discuss how to install the `New Relic` PHP agent on a Ce
 
 `New Relic` offers a [free tier account](https://newrelic.com/signup/) with "100 GB/month of free data ingest" for users to take advantage of that doesn't require using credit card info.
 
+```eval_rst
+.. tip::
+  UKFast/ANS support can assist with the installation of New Relic, but will not log into New Relic on your behalf to assist with any server/application troubleshooting.
+```
+
 ## Prerequisites
 
 - License key
@@ -168,7 +173,7 @@ startup=agent os='Linux' rel='3.10.0-957.12.2.el7.x86_64' mach='x86_64' ver='#1 
 
 ```eval_rst
 .. note::
-  If you require assistance with this, simply give the UKFast Support Team a call, or raise a Priority Support Ticket and we'll be happy to advise/help.
+  If you require assistance with this install, simply give the UKFast Support Team a call, or raise a Priority Support Ticket and we'll be happy to advise/help. As noted, UKFast/ANS will not be able to log into your New Relic account on your behalf.
 ```
 
 ```eval_rst
