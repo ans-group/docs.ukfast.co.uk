@@ -8,6 +8,12 @@ If you want to remove a domain from DDoSX<sup>®</sup> then follow these steps:
 4. Your domain will now be disconnected from the DDoSX<sup>®</sup> network.  You can reconnect your domain at any time until the billing period expires.
 5. You should use [SafeDNS](/domains/safedns/index) to point your domain records back to your own server or firewall, so that traffic to the domain is no longer being routed via the UKFast DDoSX<sup>®</sup> network.
 
+
+<h4><b>CLI:</b></h4>
+```bash
+ukfast ddosx domain delete mydomain.example --summary "example of removing a domain" --description "example of remove a domain for the docs page
+```
+
 ```eval_rst
 .. warning::
 

@@ -37,6 +37,11 @@ If you cannot see the `TXT` Records section you will need to add a new record ty
 
 - Click `Save Records` at the bottom of the page
 
+<h4><b>CLI</b></h4>
+```bash
+ukfast safedns record create example-domain.org --content "\"v=spf1 a mx -all\"" --name "example-domain.org" --type "TXT"
+```
+
 ```eval_rst
 .. warning::
 

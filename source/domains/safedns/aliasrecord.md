@@ -17,8 +17,8 @@
 Which means you can't have another record along with a `CNAME` record. For example, this would be an invalid configuration:
 
 ```none
-www.example.org 300 IN CNAME example.org
-www.example.org 300 IN TXT "some text"
+www.mydomain.example 300 IN CNAME mydomain.example
+www.mydomain.example 300 IN TXT "some text"
 ```
 
 However you can't just remove all records from your [apex domain](https://docs.ukfast.co.uk/domains/safedns/apexdomain.html) when you want to use the `CNAME` record. This would  break another RFC from the [Zone authority section](https://tools.ietf.org/html/rfc2181#section-6.1):
@@ -33,9 +33,14 @@ If you want to use a domain name that been provided by a CDN / DDoS provider on 
 example.org 300 IN ALIAS example.com
 ```
 
-In that example, when you look up `example.org`, we will return the `A` and (if configured) the `AAAA` records of `example.com`.
+In that example, when you look up `mydomain.example`, we will return the `A` and (if configured) the `AAAA` records of `mydomain.example`.
 
 ```eval_rst
 .. note::
   The ``ALIAS`` record is not an official type under the RFC, so where possible you should use the ``CNAME`` record
+```
+
+<h4><b>CLI</b></h4>
+```bash
+ukfast safedns record create mydomain.example --content "mydomain.example.cdn.example.net" --name "mydomain.example" --type "ALIAS"
 ```
