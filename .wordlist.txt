@@ -76,6 +76,7 @@ CommServe
 Commvault
 Comodo
 config
+copy_page_to_iter_pipe
 CoreOS
 cPanel
 CPU
@@ -143,6 +144,7 @@ EEP
 El
 Elasticsearch
 ELQ
+enablement
 Enom
 EOL
 EPEL
@@ -206,6 +208,7 @@ htaccess
 htpasswd
 https
 HTTPS
+hwe
 IANA
 ICANN
 ICANNs
@@ -217,6 +220,7 @@ IKEv
 Imgur
 imposter
 incrementing
+initialization
 InnoDB
 integrations
 interoperable
@@ -227,6 +231,7 @@ IPsec
 IPTables
 ISP
 ISPs
+iter
 javascript
 JBoss
 JCE
@@ -360,6 +365,7 @@ Proto
 proxying
 PSK
 PSS
+push_pipe
 Pure-FTPd
 PuTTY
 PuTTYGen
