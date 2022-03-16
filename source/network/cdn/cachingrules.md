@@ -11,9 +11,9 @@ Cache control rules define the amount of time a file should be cached within the
 
 ## Types of Cache Control
 There are two types of cache control within CDN, "Respect Origin Cache Control Headers" and "Custom"
-- **Respect Origin Cache Control Headers:** cache control headers (CCH) are a feature of HTTP/1.1 and they allow full control of the time each static file on your website will be cached. These headers must be applied to each file that you would like CDN to cache, unless the file is included in a custom rule (below). <br />For guidance on setting cache control headers, view [this guide](https://varvy.com/pagespeed/cache-control.html).
+- **Respect Origin Cache Control Headers:** cache control headers are a feature of HTTP/1.1 and they allow full control of the time each static file on your website will be cached. These headers must be applied to each file that you would like CDN to cache, unless the file is included in a custom rule (below). <br />For guidance on setting cache control headers, view [this guide](https://varvy.com/pagespeed/cache-control.html).
 
-- **Custom:** custom rules will override a file's cache control headers and add a general rule to the files of the specific MIME types you select. This enables the CDN to cache files that don't have any CCH set.
+- **Custom:** custom rules will override a file's cache control headers and add a general rule to the files of the specific MIME types you select. This enables the CDN to cache files that don't have any cache control headers set.
 
 ## Configuring Rules within MyUKFast
 - Login to [MyUKFast](https://my.ukfast.co.uk) and head to `DDoSX` in the `Products and Services` menu.

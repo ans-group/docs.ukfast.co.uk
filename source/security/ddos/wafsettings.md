@@ -29,7 +29,7 @@ The different WAF modes available are:
 
 The Paranoia Mode (also known as Paranoia Level or PL) setting determines the recommended rulesets to be implemented for the protection of your application. You can further manage the granular level of protection provided by toggling rulesets on or off, see [Rule Sets](#rule-sets) section below on this.
 
-With each paranoia mode increase, the Core Rule Set (CRS) enables additional rules to give a higher level of security. However, higher paranoia modes increase the possibility of blocking some legitimate traffic due to false alarms (also known as 'false positives').
+With each paranoia mode increase, the Core Rule Set enables additional rules to give a higher level of security. However, higher paranoia modes increase the possibility of blocking some legitimate traffic due to false alarms (also known as 'false positives').
 
 - **Paranoia Mode - Low (default) / PL1** has most core rules enabled. PL1 is advised for beginners, installations covering many different sites and applications, and for setups with standard security requirements. With PL1 you should rarely face false positives, however if you do please contact UKFast support by raising a ticket in [MyUKFast](https://my.ukfast.co.uk).
 
@@ -49,13 +49,13 @@ Once you have set your paranoia mode you can now decide which rules you would li
 
 - **SCANNER DETECTION:** An analysis is performed of the headers of the incoming request against a list of known malicious `User-Agent`s and a threat score is assigned against the request based on what is found.
 
-- **PROTOCOL ENFORCEMENT:** Validation of the users request line against the format specified found in the HTTP RFC, where the format is `"http:" "//" host [ ":" port ] [ abs_path [ "?" query ]]`. As well as for `CONNECT`, `OPTIONS` and `GET` requests. Please see these articles on [w3.org](http://www.w3.org/Protocols/rfc2616/rfc2616-sec3.html#sec3.2.1) and [Capec](http://capec.mitre.org/data/definitions/272.html) for references.
+- **PROTOCOL ENFORCEMENT:** Validation of the users request line against the format specified found in the HTTP RFC, where the format is `"http:" "//" host [ ":" port ] [ abs_path [ "?" query ]]`. As well as for `CONNECT`, `OPTIONS` and `GET` requests. Please see these articles on [w3.org](http://www.w3.org/Protocols/rfc2616/rfc2616-sec3.html#sec3.2.1) and [Common Attack Pattern Enumeration and Classification](http://capec.mitre.org/data/definitions/272.html) for references.
 
 - **PROTOCOL ATTACK:** Looks to detect the `,` character within the `Content-Length` / `Transfer-Encoding` header values. As well as the `CR`/`LF` character combinations in the HTTP method name. Please see [this article](http://projects.webappsec.org/HTTP-Request-Smuggling) for references.
 
 - **APPLICATION ATTACK LFI (Local File Inclusion):** A number of rules which analyse the payload for path traversal and other indicators of local file inclusion, decoders to detect binary within the payload as well as attempts to reach restricted files.
 
-- **APPLICATION ATTACK RFI (Remote File Inclusion):** Inspecting the arguments for possible attack methods for remote file inclusion, this includes looking for PHP such as `include()`, URLs containing an IP address, data ends with question marks (`?`) and RFI host that does not match its local host value.
+- **APPLICATION ATTACK RFI (Remote File Inclusion):** Inspecting the arguments for possible attack methods for remote file inclusion, this includes looking for PHP such as `include()`, URLs containing an IP address, data ends with question marks (`?`) and remote file inclusion host that does not match its local host value.
 
 - **APPLICATION ATTACK RCE (Remote Code Execution):** This ruleset detects either Unix-based, or Windows-based shell command injections such as `foo.jpg;uname -a` for example, this ruleset is also case-sensitive to prevent false positives. Efforts have been made to detect common evasion techniques such as `'l'"s"`.
 
@@ -154,7 +154,7 @@ Choose the "Modifier" you want to implement from the below;
 - `contains` (regex match) - Returns true if the parameter string is found anywhere in the input. Macro expansion is performed on the parameter string before comparison.
 - `containsWord` (regex match for string) - Returns true if the parameter string (with word boundaries) is found anywhere in the input. Macro expansion is performed on the parameter string before comparison.
 - `beginsWith` (Starts with e.g. `^`) - Returns true if the parameter string is found at the beginning of the input. Macro expansion is performed on the parameter string before comparison.
-- `endsWith` (Engs with e.g. `\$`) - Returns true if the parameter string is found at the end of the input. Macro expansion is performed on the parameter string before comparison.
+- `endsWith` (Ends with e.g. `\$`) - Returns true if the parameter string is found at the end of the input. Macro expansion is performed on the parameter string before comparison.
 
 **Step 3:**
 Choose the `Phrase`. This is what you are looking for in the above match.
@@ -173,7 +173,7 @@ Choose the `IP address` you want this rule to apply to.
 ukfast ddosx domain waf advancedrule create mydomain.example --section "ARGS" --modifier "contains" --phrase "test" --ip "8.8.8.8"
 ```
 
-Finally, click `Apply Changes` and your Waf rules will now be set up on the UKFast DDoSX<sup>®</sup> network, and configured appropriately. (You should allow up to 10 minutes for the changes to be fully applied)
+Finally, click `Apply Changes` and your web application firewall rules will now be set up on the UKFast DDoSX<sup>®</sup> network, and configured appropriately. (You should allow up to 10 minutes for the changes to be fully applied)
 
 <h4><b>CLI:</b></h4>
 ```bash
