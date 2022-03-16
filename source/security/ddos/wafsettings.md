@@ -177,7 +177,7 @@ Finally, click `Apply Changes` and your Waf rules will now be set up on the UKFa
 
 <h4><b>CLI:</b></h4>
 ```bash
-ukfast ddosx domain deploy mydomain.example 
+ukfast ddosx domain deploy mydomain.example
 ```
 
 ```eval_rst
