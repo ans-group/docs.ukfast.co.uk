@@ -40,8 +40,10 @@ You must move all records associated with the domains (including sub-domains) yo
 
 Once you have done this, point your domains to the UKFast name servers, which are:
 
-- `ns0.ukfast.net`
-- `ns1.ukfast.net`
+```bash
+- ns0.ukfast.net
+- ns1.ukfast.net
+```
 
 You'll need to do this through whichever domain registrar you use to manage your domains (which may not be UKFast). If you don't know who your domain registrar is you can do a 'WHOIS' lookup on websites such as https://whois.icann.org/
 

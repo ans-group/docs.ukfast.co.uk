@@ -18,4 +18,3 @@ UKFast's
 Veeam's
 Webcelerator's
 WHM's
-RFI
