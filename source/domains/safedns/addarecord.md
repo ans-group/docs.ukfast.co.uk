@@ -1,7 +1,7 @@
 # Adding an A record to an existing domain
 
 ```eval_rst
-
+   .. title:: SafeDNS | Adding a A Name Record
    .. meta::
       :title: SafeDNS | Adding a A Name Record | UKFast Documentation
       :description: How to add a A Name record in SafeDNS

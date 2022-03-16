@@ -1,3 +1,11 @@
+```eval_rst
+   .. title:: Networking | Managed CDN Rules on DDoSX®
+   .. meta::
+      :title: Networking | Managed CDN Rules on DDoSX® | UKFast Documentation
+      :description: How to Configure your Managed CDN Rules on DDoSX®
+
+```
+
 # Caching Rules
 Cache control rules define the amount of time a file should be cached within the CDN network after the file is requested by the first visitor. This visitor must wait for the content to be delivered through CDN by the origin web server, but CDN will cache the file for subsequent visitors in the same region for the time specified by the caching rules. The longer your files are cached on the CDN network, the more likely it is that they will be available to the next visitor. However, this also means that it will take longer for your content to update across the network when this content is changed.
 
