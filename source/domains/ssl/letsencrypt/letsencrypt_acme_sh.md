@@ -158,5 +158,5 @@ acme.sh --issue -d test.example.com --apache --reloadcmd "systemctl reload apach
   .. meta::
      :title: SSL | How to install and use acme.sh | UKFast Documentation
      :description: How to install and use acme.sh
-     :keywords: ssl, acme.sh, letsencrypt, let's encrypt, secure, security, linux, server, guide, tutorial
+     :keywords: ssl, acme.sh, letsencrypt, let's encrypt, secure, security, linux, server, guide, tutorial, acme, certbot
 ```
