@@ -7,7 +7,7 @@ This article will help you understand how to cancel your UKFast products and ser
 ```eval_rst
 .. tip::
   Before cancelling your account, please consider contacting support on 0161 215 3711 to help you troubleshoot any existing issues you may have. Alternatively you can raise a support ticket via the Priority Support System.
-  
+
 ```
 
 ## Prerequisites
