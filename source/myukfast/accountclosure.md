@@ -31,9 +31,10 @@ In order to begin the process of cancellation or account closure, you will need 
 Contacting your Account Manager is very simple and they are available via *telephone* or *email*.
 
 * You can find all of their contact details on the [**My Account Manager**](https://my.ukfast.co.uk/account/your-account-manager.php) page in MyUKFast.
-* When logged into MyUKFast, click **My Account > My Account Manager**. Their email adddress and direct dial are listed on this page.
+* When logged into MyUKFast, click **My Account > My Account Manager**.
+* Additionally, you can send a message directly to your Account Manager to request a call back at a specific date and time, as below.
 
-Additionally, you can send a message directly to your Account Manager from this page to request a call back at a specific date and time.
+![Account Manager](files/contactingaccountmanager.PNG)
 
 ```eval_rst
    .. title:: How to Cancel and Close your UKFast Account
