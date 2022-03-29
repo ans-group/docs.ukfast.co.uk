@@ -43,7 +43,7 @@ In order to connect your domain to the DDoSX network you must first verify that 
 
 ## Does DDoSX support websockets?
 
-DDoSX unfortunely does not support websockets on the platform, so you are likely to see inconsistent connections or connections that fail if you are routing your traffic through DDoSX.
+DDoSX unfortunately does not support <nospell>websockets</nospell> on the platform, so you are likely to see inconsistent connections or connections that fail if you are routing your traffic through DDoSX.
 
 ```eval_rst
    .. title:: DDoSX and CDN from UKFast
