@@ -13,3 +13,4 @@ MyUKFast is the client portal where you can access products, billing and company
    account-manager
    support-request
    managing-passwords
+   accountclosure
