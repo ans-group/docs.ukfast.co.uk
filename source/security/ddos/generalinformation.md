@@ -16,17 +16,17 @@ DDoSX<sup>®</sup>, our DDoS protection service, is designed to detect and filte
 
 DDoSX<sup>®</sup> is a network-based solution which sits in front of your UKFast-hosted environment.  By re-pointing the DNS records of the domains you wish to protect to UKFast using [SafeDNS](/domains/safedns/index), we can broadcast your IP address(es) across our global DDoSX<sup>®</sup> network.  All traffic destined for your domains will then be routed via this network, enabling us to filter out malicious traffic as described above.
 
-## What type of traffic and applications does DDoSX support?
+## What type of traffic and applications does DDoSX<sup>®</sup> support?
 
-DDoSX supports HTTP and HTTPS web traffic on ports 80 and 443 respectively. If you need to route other types of traffic to your UKFast-hosted solution then please contact us before setting up DDoSX.
+DDoSX<sup>®</sup> supports HTTP and HTTPS web traffic on ports 80 and 443 respectively. If you need to route other types of traffic to your UKFast-hosted solution then please contact us before setting up DDoSX.
 
 ## What is a Web Application Firewall (WAF)?
 
-Web Application Firewall (WAF) on DDoSX uses a global network to protect your online property from suspicious activity, meaning there is no physical hardware and no change to your existing infrastructure.  WAF on DDoSX can be simply provisioned for any domain you wish to add to DDoSX. It is an alternative approach to Web Application Firewall protection compared to a hardware-based WAF, as it allows you to set your own parameters as 'paranoia levels'. WAF on DDoSX also allows you to select the domains you wish to protect, meaning that you only pay for those you want protecting.
+Web Application Firewall (WAF) on DDoSX<sup>®</sup> uses a global network to protect your online property from suspicious activity, meaning there is no physical hardware and no change to your existing infrastructure.  WAF on DDoSX<sup>®</sup> can be simply provisioned for any domain you wish to add to DDoSX. It is an alternative approach to Web Application Firewall protection compared to a hardware-based WAF, as it allows you to set your own parameters as 'paranoia levels'. WAF on DDoSX<sup>®</sup> also allows you to select the domains you wish to protect, meaning that you only pay for those you want protecting.
 
-## How does WAF on DDoSX work?
+## How does WAF on DDoSX<sup>®</sup> work?
 
-WAF on DDoSX is an example of a cloud-based WAF, designed to be more efficient via scalability. By using a WAF on the UKFast DDoSX global network, you benefit from a much greater capacity, which makes attack prevention more effective.  WAF on DDoSX is designed to protect you from the [OWASP top 10 vulnerabilities](/security/webapplicationfirewall/attacks)
+WAF on DDoSX<sup>®</sup> is an example of a cloud-based WAF, designed to be more efficient via scalability. By using a WAF on the UKFast DDoSX<sup>®</sup> global network, you benefit from a much greater capacity, which makes attack prevention more effective.  WAF on DDoSX<sup>®</sup> is designed to protect you from the [OWASP top 10 vulnerabilities](/security/webapplicationfirewall/attacks)
 
 ## How do I set up a CNAME?
 
@@ -34,17 +34,21 @@ In order to protect your root domain, for example `ukfast.co.uk`, you must first
 
 A CNAME record links a domain to the A name record of another domain for ease of redirection.
 
-1. Login to MyUKFast and head to DDoSX Protection in the Products and Services menu.
+1. Login to MyUKFast and head to DDoSX<sup>®</sup> Protection in the Products and Services menu.
 2. Click Connect Now
 3. Type the domain you would like to protect in the domain box.
 4. A message will pop up to add a CNAME record. Click Connect.
 
-In order to connect your domain to the DDoSX network you must first verify that this is your domain. To do this follow the on screen instructions. Once this process has been completed and the verification has been confirmed you will proceed to the configure tab within DDoSX. To then complete the set up of your domain on DDoSX read our [documentation here](/security/ddos/index).
+In order to connect your domain to the DDoSX<sup>®</sup> network you must first verify that this is your domain. To do this follow the on screen instructions. Once this process has been completed and the verification has been confirmed you will proceed to the configure tab within DDoSX. To then complete the set up of your domain on DDoSX<sup>®</sup> read our [documentation here](/security/ddos/index).
+
+## Does DDoSX<sup>®</sup> support <nospell>websockets</nospell>?
+
+DDoSX<sup>®</sup> unfortunately does not support <nospell>websockets</nospell> on the platform, so you are likely to see inconsistent connections or connections that fail if you are routing your traffic through DDoSX.
 
 ```eval_rst
-   .. title:: DDoSX and CDN from UKFast
+   .. title:: DDoSX<sup>®</sup> and CDN from UKFast
    .. meta::
-      :title: DDoSX and CDN from UKFast | UKFast Documentation
-      :description: General information on UKFast's global DDoSX network with CDN and WAF
+      :title: DDoSX<sup>®</sup> and CDN from UKFast | UKFast Documentation
+      :description: General information on UKFast's global DDoSX<sup>®</sup> network with CDN and WAF
       :keywords: ddos, ddos protection, anti-ddos, cdn, content delivery, content delivery network, ukfast, ddosx, web application firewall, waf
 ```
