@@ -41,7 +41,7 @@ A CNAME record links a domain to the A name record of another domain for ease of
 
 In order to connect your domain to the DDoSX network you must first verify that this is your domain. To do this follow the on screen instructions. Once this process has been completed and the verification has been confirmed you will proceed to the configure tab within DDoSX. To then complete the set up of your domain on DDoSX read our [documentation here](/security/ddos/index).
 
-## Does DDoSX support websockets?
+## Does DDoSX support <nospell>websockets</nospell>?
 
 DDoSX unfortunately does not support <nospell>websockets</nospell> on the platform, so you are likely to see inconsistent connections or connections that fail if you are routing your traffic through DDoSX.
 
