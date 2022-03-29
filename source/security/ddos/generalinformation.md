@@ -47,7 +47,7 @@ DDoSX<sup>®</sup> unfortunately does not support <nospell>websockets</nospell> 
 
 ## Does DDoSX support websockets?
 
-DDoSX unfortunely does not support websockets on the platform, so you are likely to see inconsistent connections or connections that fail if you are routing your traffic through DDoSX.
+DDoSX unfortunately does not support <nospell>websockets</nospell> on the platform, so you are likely to see inconsistent connections or connections that fail if you are routing your traffic through DDoSX.
 
 ```eval_rst
    .. title:: DDoSX<sup>®</sup> and CDN from UKFast
