@@ -15,7 +15,7 @@ UKFast Backup can be managed by selecting the server you want to manage within [
 
 ## Default includes and excludes
 
-UKFast Backup comes pre-configured with a default backup schedule which includes all data from mounted disks and excludes certain temporary files and log files including:
+UKFast Backup comes pre-configured with a default backup schedule which includes all data from mounted disks and excludes certain files including:
 
 * Linux includes
   * `/`
@@ -25,8 +25,28 @@ UKFast Backup comes pre-configured with a default backup schedule which includes
   * `/proc`
   * `/sys`
   * `/tmp`
+  * `/.journal`
+  * `/.fsck`
   * `/var/tmp`
-
+  * `/home/*/.trash`
+  * `/home/*/tmp`
+  * `/home/*/logs`
+  * `/home/*/wp-content/updraft`
+  * `/var/www/vhosts/*/wp-content/updraft`
+  * `/usr/local/psa/PMM`
+  * `/home/virtfs`
+  * `/var/McAfee/agent/logs`
+  * `/var/cpanel/modsec/modsec.sqlite`
+  * `/var/lib/clamav/daily.cld`
+  * `/var/crash`
+  * `/var/log/journal`
+  * `/var/log/atop`
+  * `/var/cache`
+  * `/backup`
+  * `/var/lib/psa/dumps`
+  * `/var/cpanel/php/sessions`
+  * `/var/lib/php/session/`
+  * `/var/lib/mysql/*.bin`
 
 * Windows includes
   * `[A-Z]:/`

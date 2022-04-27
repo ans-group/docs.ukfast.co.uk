@@ -25,7 +25,7 @@ Backups are performed daily and retained for 7 days.
 
 Includes and excludes are directories, partial directories or wildcard file names that are explicitly included or excluded from your backup.
 
-[Default includes and excludes](/dr-ha/ukfast_backup/getting_started.html#Default-includes-and-excludes) are setup automatically with your server and more rules can be added via MyUKFast.
+[Default includes and excludes](/dr-ha/ukfast_backup/getting_started.html#Default-includes-and-excludes) are setup automatically with your server and more rules can be added via MyUKFast. If you do not want any of the default exclusions to apply, you can overwrite the default exclusions by setting a custom inclusion. Using custom inclusions will imply that you want all of your backups to be custom and will therefore overwrite the defaults. 
 
 ## User defined includes and excludes
 
