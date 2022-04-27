@@ -11,7 +11,7 @@ To view the relevant information, once you are logged into MyUKFast, navigate to
 2. [View recurring costs](https://my.ukfast.co.uk/billing/recurringcosts.php) - **Billing > Recurring Costs**
 3. [How to pay](https://my.ukfast.co.uk/billing/how-to-pay) - **Billing > How to pay**
 4. [Managed stored credit/debit cards](https://my.ukfast.co.uk/billing/cards/index.php) - **Billing > Credit/Debit Cards**
-5. [Invoice Queries](https://my.ukfast.co.uk/billing/invoice-queries) - **Billing > Invoice Queries > Raise Invoice Query** (top right hand corner of the page)
+5. [Invoice Queries](https://my.ukfast.co.uk/billing/invoice-queries/create) - **Billing > Invoice Queries > Raise Invoice Query** (top right hand corner of the page)
 
 If you have any questions relating to billing or have an account query please call our Accounts team on **0845 458 3535** or Raise an invoice query as shown above.
 
