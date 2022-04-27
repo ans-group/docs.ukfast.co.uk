@@ -10,7 +10,7 @@ Backups are performed daily and retained for 7 days.
 
 ![connect](files/backup_schedule_2.png)
 
-**Number of iterations** is the number of backups that are stored by your retention schedule. For example, retaining 7 iterations of a daily backup is a 7 day retention period. It is not currently possible to change the number of iterations or freqency.
+**Number of iterations** is the number of backups that are stored by your retention schedule. For example, retaining 7 iterations of a daily backup is a 7 day retention period. It is not currently possible to change the number of iterations or frequency.
 
 **Manually Start Backup** schedules the backup to be executed as soon as possible by the server outside of the standard schedule.
 
