@@ -52,6 +52,12 @@ UKFast Backup comes pre-configured with a default backup schedule which includes
   * `/home/*/cache`
   * `/var/www/*/.cache`
   * `/var/www/*/cache`
+  * `/home/*/var/log`
+  * `/var/www/*/var/log`
+  * `/home/*/var/session`
+  * `/var/www/*/var/session`
+  * `/home/*/backup-*`
+
 
 * Windows includes
   * `[A-Z]:/`
