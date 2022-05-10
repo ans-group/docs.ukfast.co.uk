@@ -45,13 +45,19 @@ UKFast Backup comes pre-configured with a default backup schedule which includes
   * `/backup`
   * `/var/lib/psa/dumps`
   * `/var/cpanel/php/sessions`
-  * `/var/lib/php/session/`
+  * `/var/lib/php/session`
   * `/var/lib/mysql/*.bin`
   * `/var/www/vhosts/*/logs`
   * `/home/*/.cache`
   * `/home/*/cache`
   * `/var/www/*/.cache`
   * `/var/www/*/cache`
+  * `/home/*/var/log`
+  * `/var/www/*/var/log`
+  * `/home/*/var/session`
+  * `/var/www/*/var/session`
+  * `/home/*/backup-*`
+
 
 * Windows includes
   * `[A-Z]:/`
