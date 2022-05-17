@@ -104,7 +104,7 @@ if ($http_x_forwarded_proto = "http") {
 
 To setup SSL passthrough you should create a TCP listener with an IP binding on port 443. You can then point this to your target groups as you would normally.
 
-## What is the meaning behind the SERVERID cookie?
+## What is the meaning behind the `SERVERID` cookie?
 
 When you have sticky sessions enabled on your target group, the load balancer will insert a `SERVERID` cookie into the response for the client's browser to send back in future requests. This will be used by the loadbalancer to ensure a session 'sticks' to the same backend server, removing the need for shared session storage on the backend.
 
