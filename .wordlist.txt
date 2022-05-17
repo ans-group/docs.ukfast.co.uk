@@ -42,6 +42,7 @@ Barbican
 BCP
 Birley
 BitLocker
+blake
 blocklist
 blocklists
 BSON
@@ -192,8 +193,10 @@ greylists
 gTLD
 gTLDs
 GTmetrix
+hashlib
 HAProxy
 healthcheck
+hexdigest
 HIDS
 HMAC
 hMailServer
@@ -425,6 +428,7 @@ Sectigo
 selectable
 SELinux
 SEO
+SERVERID
 SFTP
 SGC
 SHA
@@ -446,6 +450,7 @@ SpamAssassin
 SQLI
 Sri
 SRV
+srv
 SSAE
 SSD
 SSDs
@@ -469,6 +474,7 @@ SURBL
 SWITCH
 symlink
 symlinks
+TARGETGROUP
 TCP
 Technet
 TempDB
@@ -511,6 +517,7 @@ UPN
 upto
 URI
 URIs
+utf
 UUIDs
 validator
 vCenter
