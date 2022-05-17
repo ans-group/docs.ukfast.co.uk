@@ -103,3 +103,26 @@ if ($http_x_forwarded_proto = "http") {
 ## How do I setup SSL passthrough?
 
 To setup SSL passthrough you should create a TCP listener with an IP binding on port 443. You can then point this to your target groups as you would normally.
+
+## What is the meaning behind the SERVERID cookie?
+
+When you have sticky sessions enabled on your target group, the load balancer will insert a `SERVERID` cookie into the response for the client's browser to send back in future requests. This will be used by the loadbalancer to ensure a session 'sticks' to the same backend server, removing the need for shared session storage on the backend.
+
+The format of the `SERVERID` cookie follows the format:
+
+```
+srv$INDEX_$TARGETGROUP_$IP
+```
+
+The `$INDEX` value starts at zero and is incremented for each of your target servers. As long as the number and order of target servers stays the same, this will remain consistent.
+
+The `$TARGETGROUP` value is a BLAKE2b hash of the target group name, with a digest size of 2. This will not change as long as your target group name stays the same. You can find out the value of `$TARGETGROUP` ahead of time by passing your target group name through the BLAKE2b hashing algorithm. If you have Python3 available, this can be done as follows, replacing 'Foo Bar' with your value:
+
+```
+$ python3 -c "import hashlib; print(hashlib.blake2b('Foo Bar'.encode('utf-8'), digest_size=2).hexdigest())"
+a54b
+```
+
+The `$IP` value is the last octet of the server's IP address, usually the internal (or RFC1918) address, but this does depend on your individual networking setup.
+
+For example: `srv0_a54b_57`. This would be the first server in your 'Foo Bar' target group, and the IP address of that server would end in `.57`, (e.g. `192.168.1.57`).
