@@ -110,7 +110,7 @@ When you have sticky sessions enabled on your target group, the load balancer wi
 
 The format of the `SERVERID` cookie follows the format:
 
-```
+```none
 srv$INDEX_$TARGETGROUP_$IP
 ```
 
@@ -118,7 +118,7 @@ The `$INDEX` value starts at zero and is incremented for each of your target ser
 
 The `$TARGETGROUP` value is a BLAKE2b hash of the target group name, with a digest size of 2. This will not change as long as your target group name stays the same. You can find out the value of `$TARGETGROUP` ahead of time by passing your target group name through the BLAKE2b hashing algorithm. If you have Python3 available, this can be done as follows, replacing 'Foo Bar' with your value:
 
-```
+```none
 $ python3 -c "import hashlib; print(hashlib.blake2b('Foo Bar'.encode('utf-8'), digest_size=2).hexdigest())"
 a54b
 ```
