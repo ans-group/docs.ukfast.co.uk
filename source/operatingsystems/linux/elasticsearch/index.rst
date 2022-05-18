@@ -11,5 +11,5 @@ Elasticsearch is a search engine based on the Lucene library. It provides a dist
 .. meta::
    :title: Elasticsearch | UKFast Documentation
    :description: guides relating to using Elasticsearch on our Magento2 optimised stack
-   :keywords: ukfast, Magento, Magento2, Shopware, optimised, stack, Elasticsearch, eCommerce
+   :keywords: ukfast, Magento, Magento2, Shopware, optimised, stack, Elasticsearch, eCommerce, elastic, search, elastic-search
 
