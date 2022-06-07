@@ -14,23 +14,22 @@ You will pay static monthly costs for:
 ### Failover Costs
 When you failover, you will pay based on our eCloud Public billing model, pro rata'd hourly.
 
+**Costs do occassionally change, so please get in touch with your Account Manager to receive the latest pricing.**
+
 #### Compute costs
-|                 | Monthly Cost | Hourly Cost |
-|-----------------|--------------|-------------|
-| Per vCPU        | £5.07        | ~£0.0069     |
-| Per 1GB RAM     | £8.62        | ~£0.012      |
-| Windows License | £12          | ~£0.0164    |
+You will pay an hourly fee based on your VM specifications. This is per:
+- 1 x vCPU
+- 1GB RAM
 
 #### Storage Costs
-All customers pay 20p per GB as a static monthly charge for the storage they require in DRaaS, which is the cost for the 600 IOPs tier.
+All customers pay a static monthly charge per GB for the storage they require in DRaaS. This price is based on the 600 IOPs tier.
 
 If a client decides to increase the IOPs tier to 1200 or 2500 on a VM, they will pay the difference in cost pro rata'd hourly when they failover.
 
-|           | Monthly Additional Cost per GB| Hourly Cost (100GB) |
-|-----------|-------------------------|---------------------|
-| 1200 IOPs | £0.10                   | £0.014              |
-| 2500 IOPS | £0.35                   | 0.048               |
-
+```eval_rst
+**Costs used in example may not be correct**
+For example, if the static storage cost paid is 20p per GB a month and the 1200 IOPs tier costs 30p per GB a month. The storage failover cost for VMs set to 1200 IOPs would be 10p per GB a month, pro rata'd down to hourly.
+```
 
 ## DRaaS Private Solutions
 
