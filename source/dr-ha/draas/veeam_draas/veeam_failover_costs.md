@@ -2,7 +2,7 @@
 There are two different types of DRaaS solutions, Public and Private. This will give you a summary of how the DRaaS costs are calculated.
 
 ## DRaaS Public Solutions
-DRaaS Public solutions replicate in to an eCloud Public environment in the given DRaaS region. This means that when you failover your VMs will run on shared hypervisors.
+DRaaS Public solutions replicate in to an eCloud Public environment in the given DRaaS region. This means that when you failover, your VMs will run on shared hypervisors.
 
 In this scenario, there a few parts to the failover costings.
 
@@ -28,7 +28,9 @@ If a client decides to increase the IOPs tier to 1200 or 2500 on a VM, they will
 
 ```eval_rst
 **Costs used in example may not be correct**
-For example, if the static storage cost paid is 20p per GB a month and the 1200 IOPs tier costs 30p per GB a month. The storage failover cost for VMs set to 1200 IOPs would be 10p per GB a month, pro rata'd down to hourly.
+For example, if the static storage cost paid is 20p per GB a month and the 1200 IOPs tier costs 30p per GB a month.
+
+The storage failover cost for VMs set to 1200 IOPs would be 10p per GB a month, pro rata'd down to hourly.
 ```
 
 ## DRaaS Private Solutions
