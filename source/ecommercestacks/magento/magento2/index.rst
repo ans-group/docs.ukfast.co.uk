@@ -19,6 +19,7 @@ We have a number of guides for our Magento 2 optimised stack:
 .. toctree::
    :maxdepth: 1
 
+   troubleshooting/index
    permissionguide
    nginxphpfileallowlist
    multiphp/index
