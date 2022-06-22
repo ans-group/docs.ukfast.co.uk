@@ -20,5 +20,5 @@ spec:
   tls:
   - hosts:
     - REPLACE_ME
-    secretName: wildcard-docsuat-devops-ukfast-co-uk
+    secretName: docsuat-devops-ans-uk-tls
   
