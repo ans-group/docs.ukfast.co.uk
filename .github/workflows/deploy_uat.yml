@@ -16,7 +16,7 @@ jobs:
       contents: read
     environment:
       name: UAT
-      url: https://pr-${{ github.event.number }}.docsuat.devops.ukfast.co.uk
+      url: https://pr-${{ github.event.number }}.docsuat.devops.ans.uk
     steps:
       - name: Checkout the repository
         uses: actions/checkout@v2
@@ -56,7 +56,7 @@ jobs:
       - name: Build Kustomizations
         working-directory: .ci/kustomize
         run: |
-          sed -i 's/PLACEHOLDER/pr-${{ github.event.number }}.docsuat.devops.ukfast.co.uk/g' overlays/uat/app-ingress-patch.yaml
+          sed -i 's/PLACEHOLDER/pr-${{ github.event.number }}.docsuat.devops.ans.uk/g' overlays/uat/app-ingress-patch.yaml
           sed -i 's/PLACEHOLDER/pr-${{ github.event.number }}-elasticsearch/g' overlays/uat/app-job.yaml
           kustomize create --resources overlays/uat
           kustomize edit set nameprefix pr-${{ github.event.number }}-
@@ -72,6 +72,6 @@ jobs:
       - name: Create/Update resources in Kubernetes
         run: |
           mkdir $HOME/.kube
-          echo -e "${{ secrets.UAT_KUBECONFIG }}" > $HOME/.kube/config
+          echo -e "${{ secrets.UAT_KUBECONFIG_ANS }}" > $HOME/.kube/config
           kubectl apply -f manifest.yaml
           for d in $(kubectl -n docs-uat get deployments --no-headers -o custom-columns=":metadata.name" -l 'app.kubernetes.io/instance=docs-uat-${{ github.event.number }}'); do kubectl rollout restart deployments/$d; done;
