@@ -13,3 +13,4 @@ patchesStrategicMerge:
   - app-ingress.yaml
   - app-deployment.yaml
   - app-job.yaml
+  - elasticsearch-deployment.yaml
