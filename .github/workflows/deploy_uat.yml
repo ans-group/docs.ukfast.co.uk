@@ -19,7 +19,7 @@ jobs:
       url: https://pr-${{ github.event.number }}.docsuat.devops.ans.uk
     steps:
       - name: Checkout the repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           ref: "refs/pull/${{ github.event.number }}/merge"
 
