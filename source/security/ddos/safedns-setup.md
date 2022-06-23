@@ -67,7 +67,7 @@ The name server change may take up to 48 hours to propagate across the world. A 
 
 <h4><b>CLI</b></h4>
 ```bash
-ukfast ddosx domain create mydomain.example --name "mydomain.example"
+ans ddosx domain create mydomain.example --name "mydomain.example"
 ```
 
 ## 3) Configure Domain
@@ -97,8 +97,8 @@ The origin IP address of any of your subdomains (Including your root domain) can
 
 <h4><b>CLI</b></h4>
 ```bash
-ukfast safedns record list mydomain.example #Use this to retrieve the safedns id
-ukfast ddosx domain record create mydomain.example --name "mydomain.example" --safedns-record-id "123456" --content "1.2.3.4" --type "A"
+ans safedns record list mydomain.example #Use this to retrieve the safedns id
+ans ddosx domain record create mydomain.example --name "mydomain.example" --safedns-record-id "123456" --content "1.2.3.4" --type "A"
 ```
 
 **Adding SSL Certificates**
@@ -119,7 +119,7 @@ Ensure that the `DDoSX Protection` toggle switch is enabled for all the domains 
 
 <h4><b>CLI</b></h4>
 ```bash
-ukfast ddosx ssl create --friendly-name "something to identify the ssl" --key-file "/path/to/priv.key" --certificate-file "/path/to/cert.pem" --ca-bundle-file "/path/to/ca.pem"
+ans ddosx ssl create --friendly-name "something to identify the ssl" --key-file "/path/to/priv.key" --certificate-file "/path/to/cert.pem" --ca-bundle-file "/path/to/ca.pem"
 ```
 
 ![configuredomain](files/configuredomain.PNG)
@@ -128,10 +128,10 @@ Finally, click `Apply Changes` and your domain will now be set up on the UKFast 
 
 <h4><b>CLI</b></h4>
 ```bash
-ukfast ddosx ssl list #Use this to retrieve the ID of the SSL (all the b's below)
-ukfast ddosx domain record list mydomain.example #Use this to retrieve the ID of the record (all the a's below)
-ukfast ddosx domain record update mydomain.example aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa --ssl-id "bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbbb"
-ukfast ddosx domain deploy mydomain.example
+ans ddosx ssl list #Use this to retrieve the ID of the SSL (all the b's below)
+ans ddosx domain record list mydomain.example #Use this to retrieve the ID of the record (all the a's below)
+ans ddosx domain record update mydomain.example aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa --ssl-id "bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbbb"
+ans ddosx domain deploy mydomain.example
 ```
 
 ## 4) Configure Additional Features
@@ -180,7 +180,7 @@ Once DNS propagation had concluded, your domain will be fully set up with DDoSX<
 
 <h4><b>CLI</b></h4>
 ```bash
-ukfast ddosx domain dns activate mydomain.example
+ans ddosx domain dns activate mydomain.example
 ```
 
 ## Further Configuration

@@ -11,7 +11,7 @@ If you want to remove a domain from DDoSX<sup>®</sup> then follow these steps:
 
 <h4><b>CLI:</b></h4>
 ```bash
-ukfast ddosx domain delete mydomain.example --summary "example of removing a domain" --description "example of remove a domain for the docs page
+ans ddosx domain delete mydomain.example --summary "example of removing a domain" --description "example of remove a domain for the docs page
 ```
 
 ```eval_rst
