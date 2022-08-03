@@ -10,4 +10,4 @@ spec:
       - name: elasticsearch
         env:
         - name: ES_JAVA_OPTS
-          value: "-Dlog4j2.formatMsgNoLookups=true -Xms1g -Xmx1g"
+          value: "-Dlog4j2.formatMsgNoLookups=true -Xms2g -Xmx2g"
