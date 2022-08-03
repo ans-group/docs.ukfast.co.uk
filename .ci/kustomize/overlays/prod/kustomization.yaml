@@ -4,3 +4,4 @@ bases:
   - ../../base
 patchesStrategicMerge:
   - app-deployment.yaml
+  - elasticsearch-deployment.yaml
