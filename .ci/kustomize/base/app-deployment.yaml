@@ -6,7 +6,7 @@ metadata:
     app: app
   name: app
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       app: app
@@ -17,8 +17,6 @@ spec:
       labels:
         app: app
     spec:
-      imagePullSecrets:
-      - name: gitlab-registry-auth
       containers:
       - image: appImage
         name: app
