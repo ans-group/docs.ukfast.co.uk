@@ -72,6 +72,5 @@ jobs:
 
       - name: Create/Update resources in Kubernetes
         run: |
-          mkdir $HOME/.kube
-          echo -e "${{ secrets.PROD_KUBECONFIG_ANS }}" > $HOME/.kube/config
-          kubectl apply -f manifest.yaml
+          echo -e "${{ secrets.PROD_KUBECONFIG_ANS }}" > kubeconfig.yaml
+          kubectl --kubeconfig kubeconfig.yaml apply -f manifest.yaml
