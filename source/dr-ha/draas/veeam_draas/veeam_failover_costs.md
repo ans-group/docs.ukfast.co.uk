@@ -9,12 +9,12 @@ In this scenario, there a few parts to the failover costings.
 ### Recurring costs
 Customers will pay static monthly costs for:
 - Per VM
-- Per GB storage, at the 600 IOPs tier
+- Per GB storage, at the 600 IOPS tier
 
 ### Failover Costs
-When failed over, customers will pay based on our eCloud Public billing model, pro rata'd hourly.
+When failed over, customers will pay based on our eCloud Public billing model, pro-rated hourly.
 
-**Costs do occassionally change, so please get in touch with your Account Manager or Service Manager to receive the latest pricing.**
+**Costs do occasionally change, so please get in touch with your Account Manager or Service Manager to receive the latest pricing.**
 
 #### Compute costs
 Customers will pay an hourly fee based on your VM specifications. This is per:
@@ -22,15 +22,15 @@ Customers will pay an hourly fee based on your VM specifications. This is per:
 - 1GB RAM
 
 #### Storage Costs
-All customers pay a static monthly charge per GB for the storage they require in DRaaS. This price is based on the 600 IOPs tier.
+All customers pay a static monthly charge per GB for the storage they require in DRaaS. This price is based on the 600 IOPS tier.
 
-If a customer decides to increase the IOPs tier to 1200 or 2500 on a VM, they will pay the difference in cost pro rata'd hourly when they failover.
+If a customer decides to increase the IOPS tier to 1200 or 2500 on a VM, they will pay the difference in cost pro-rated hourly when they failover.
 
 ```eval_rst
 **Costs used in example may not be correct**
-For example, if the static storage cost paid is 20p per GB a month and the 1200 IOPs tier costs 30p per GB a month.
+For example, if the static storage cost paid is 20p per GB a month and the 1200 IOP tier costs 30p per GB a month.
 
-The storage failover cost for VMs set to 1200 IOPs would be 10p per GB a month, pro rata'd down to hourly.
+The storage failover cost for VMs set to 1200 IOPS would be 10p per GB a month, pro-rated down to hourly.
 ```
 
 ## DRaaS Private Solutions
