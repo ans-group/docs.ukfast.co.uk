@@ -460,6 +460,7 @@ SSO
 SSP
 SSTP
 sTLD
+STONITH
 StorageZone
 StorageZones
 subdirectories
