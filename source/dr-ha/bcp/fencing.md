@@ -45,7 +45,7 @@ Please follow the instructions below to install the fence agent on your distribu
 
 You can run the following commands to enable the ANS repository and install the fence agent. You will require EPEL on CentOS 7 (`yum install epel-release`).
 
-```
+```shell
 rpm --import https://repo.ans.uk/keys/RPM-GPG-KEY-ans
 curl -sSLo /etc/yum.repos.d/ans-public.repo https://repo.ans.uk/ans-public.repo
 yum install fence-ecloud
@@ -55,7 +55,7 @@ yum install fence-ecloud
 
 On Ubuntu, the following commands will enable the ANS repository and install the fence agent:
 
-```
+```shell
 mkdir -p /etc/apt/keyrings
 curl -sLo /etc/apt/keyrings/ans-public.asc https://repo.ans.uk/keys/RPM-GPG-KEY-ans
 echo "deb [signed-by=/etc/apt/keyrings/ans-public.asc] https://repo.ans.uk/public/debs/ans ubuntu main" | sudo tee /etc/apt/sources.list.d/ans-public.list
@@ -73,7 +73,7 @@ For the purposes of this example, we will assume that you have two nodes called 
 
 You should only need to run these commands on one of your Pacemaker nodes and it will set up STONITH on all of them, however in some circumstances this may not be enough - please speak with ANS support if you are unsure.
 
-```
+```shell
 export $ECLOUD_API_KEY="<YOUR API KEY HERE>"
 pcs stonith create ecloud_stonith fence_ecloud \
     apikey="$ECLOUD_API_KEY" \
@@ -88,6 +88,6 @@ Of importance in the above command is the option `pcmk_host_map` which maps the 
 
 Once you have configured STONITH, you can ask Pacemaker to fence one of your nodes to test that the STONITH configuration is working. Please be aware that this will reboot the target node.
 
-```
+```shell
 pcs stonith fence host2
 ```
