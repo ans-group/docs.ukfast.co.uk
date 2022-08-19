@@ -21,7 +21,7 @@ jobs:
       - name: Teardown UAT environment for this PR
         run: |
           mkdir $HOME/.kube
-          echo -e "${{ secrets.UAT_KUBECONFIG }}" > $HOME/.kube/config
+          echo -e "${{ secrets.UAT_KUBECONFIG_ANS }}" > $HOME/.kube/config
           kubectl -n docs-uat delete ingresses -l 'app.kubernetes.io/instance=docs-uat-${{ github.event.number }}'
           kubectl -n docs-uat delete services -l 'app.kubernetes.io/instance=docs-uat-${{ github.event.number }}'
           kubectl -n docs-uat delete deployments -l 'app.kubernetes.io/instance=docs-uat-${{ github.event.number }}'
