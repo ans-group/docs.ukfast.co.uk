@@ -15,7 +15,7 @@ You can paste <nospell>html</nospell> into both or either of the two custom erro
 
 ### CLI
 
-```
+```bash
 # custom_403_error_page
 ans ddosx domain property update mydomain.example 42ab5f8b-9265-4206-9b62-80c9514a6b75 --value="<html>Hello, world</html>"
 
@@ -23,7 +23,7 @@ ans ddosx domain property update mydomain.example 42ab5f8b-9265-4206-9b62-80c951
 ans ddosx domain property update mydomain.example b092897b-e5d1-4f91-bcb9-7a23138fefd5 --value="<html>Hello, world</html>"
 ```
 
-```
+```bash
 # Output
 ans ddosx domain property list mydomain.example
 +--------------------------------------+-----------------------+---------------------------+
