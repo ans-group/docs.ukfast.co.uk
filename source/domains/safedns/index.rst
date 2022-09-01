@@ -17,3 +17,4 @@ SafeDNS allows you to manage your DNS records, even if you didn't use UKFast as 
    certbotplugin
    aliasrecord
    apexdomain
+   subdomain_delegation
