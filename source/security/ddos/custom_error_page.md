@@ -5,7 +5,7 @@ On occasions DDoSX<sup>®</sup> might report errors with your site such as not b
 The platform in these instances will return an error page for each of the above <nospell>http</nospell> status code responses. However there may be instances where you might want the above DDoSX<sup>®</sup> errors to show a different error page.
 
 ### Adding your custom error page
-Once you are logged into your ans portal and browse to DDoSX<sup>®</sup> Protection > Domain > <nospell>mydomain.example</nospell> > Advanced Properties
+Once you are logged into your [ans portal](https://portal.ans.co.uk) and browse to DDoSX<sup>®</sup> Protection > Domain > <nospell>mydomain.example</nospell> > Advanced Properties
 
 From here you will see the following screen
 
