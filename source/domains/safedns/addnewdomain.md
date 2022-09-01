@@ -47,5 +47,5 @@ You can check what they are currently by running a WHOIS test in the [MyUKFast P
 
 <h4><b>CLI</b></h4>
 ```bash
-ans safedns zone create mydomain.example--name "mydomain.example"
+ans safedns zone create mydomain.example --name "mydomain.example"
 ```
