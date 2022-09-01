@@ -42,5 +42,5 @@ In that example, when you look up `mydomain.example`, we will return the `A` and
 
 <h4><b>CLI</b></h4>
 ```bash
-ukfast safedns record create mydomain.example --content "mydomain.example.cdn.example.net" --name "mydomain.example" --type "ALIAS"
+ans safedns record create mydomain.example --content "mydomain.example.cdn.example.net" --name "mydomain.example" --type "ALIAS"
 ```

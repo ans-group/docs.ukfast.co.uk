@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out source files
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: Get a list of changed files
         uses: jitterbit/get-changed-files@v1
@@ -37,7 +37,7 @@ jobs:
 
       - name: Spellcheck
         if: env.scan_files != ''
-        uses: rojopolis/spellcheck-github-actions@0.21.1
+        uses: rojopolis/spellcheck-github-actions@0.26.0
         with:
           task_name: Markdown
           source_files: ${{ env.scan_files }}

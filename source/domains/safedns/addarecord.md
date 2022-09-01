@@ -26,5 +26,5 @@ Once you're happy you've added the `A` records you want, just click `Save Record
 
 <h4><b>CLI</b></h4>
 ```bash
-ukfast safedns record create mydomain.example --content "0.0.0.0" --name "www.mydomain.example" --type "A"
+ans safedns record create mydomain.example --content "0.0.0.0" --name "www.mydomain.example" --type "A"
 ```

@@ -16,6 +16,8 @@ ALPN
 analytics
 Analytics
 ANAME
+ANS
+ans
 Ansible
 anycast
 AnyConnect
@@ -458,6 +460,7 @@ SSO
 SSP
 SSTP
 sTLD
+STONITH
 StorageZone
 StorageZones
 subdirectories

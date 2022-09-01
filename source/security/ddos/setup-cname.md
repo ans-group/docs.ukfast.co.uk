@@ -73,7 +73,7 @@ Once the transaction has completed, you will be asked to verify that you own thi
 
 <h4><b>CLI</b></h4>
 ```bash
-ukfast ddosx domain create mydomain.example --name "mydomain.example"
+ans ddosx domain create mydomain.example --name "mydomain.example"
 ```
 
 - Select the verification type you want to use
@@ -98,7 +98,7 @@ TXT           @          ddosx-site-verification=245b62a2878fc30hd6altya37f00fe2
 
 <h4><b>CLI</b></h4>
 ```bash
-ukfast ddosx domain verification dns verify mydomain.example
+ans ddosx domain verification dns verify mydomain.example
 ```
 
 **Verify via File Upload**
@@ -111,7 +111,7 @@ ukfast ddosx domain verification dns verify mydomain.example
 
 <h4><b>CLI</b></h4>
 ```bash
-ukfast ddosx domain verification fileupload verify mydomain.example
+ans ddosx domain verification fileupload verify mydomain.example
 ```
 
 ## 3) Configure Domain
@@ -132,7 +132,7 @@ The origin IP address of any of your subdomains (Including your root domain) can
 
 <h4><b>CLI</b></h4>
 ```bash
-ukfast ddosx domain record create mydomain.example --name "mydomain.example" --content "1.2.3.4" --type "A"
+ans ddosx domain record create mydomain.example --name "mydomain.example" --content "1.2.3.4" --type "A"
 ```
 
 **Adding SSL Certificates**
@@ -149,7 +149,7 @@ Enter your SSL's Private Key, Certificate, any CA/Chain certificates (Optional) 
 
 <h4><b>CLI</b></h4>
 ```bash
-ukfast ddosx ssl create --friendly-name "something to identify the ssl" --key-file "/path/to/priv.key" --certificate-file "/path/to/cert.pem" --ca-bundle-file "/path/to/ca.pem"
+ans ddosx ssl create --friendly-name "something to identify the ssl" --key-file "/path/to/priv.key" --certificate-file "/path/to/cert.pem" --ca-bundle-file "/path/to/ca.pem"
 ```
 
 At this point, you should be able to go back into the `DNS Records` tab and select the SSL you want to apply via the `SSL` dropdown for each record. Only SSLs that are valid for the configured subdomain will show in the dropdown. For example, an SSL for only <nospell>`www.ukfast.co.uk`</nospell> and <nospell>`ukfast.co.uk`</nospell> will *not* show in the dropdown for <nospell>`my.ukfast.co.uk`</nospell>. Wildcard SSL certificates should show for all applicable subdomains.
@@ -158,10 +158,10 @@ Finally, click `Apply Changes` and your domain will now be set up on the UKFast 
 
 <h4><b>CLI</b></h4>
 ```bash
-ukfast ddosx ssl list #Use this to retrieve the ID of the SSL (all the b's below)
-ukfast ddosx domain record list mydomain.example #Use this to retrieve the ID of the record (all the a's below)
-ukfast ddosx domain record update mydomain.example aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa --ssl-id "bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbbb"
-ukfast ddosx deploy mydomain.example
+ans ddosx ssl list #Use this to retrieve the ID of the SSL (all the b's below)
+ans ddosx domain record list mydomain.example #Use this to retrieve the ID of the record (all the a's below)
+ans ddosx domain record update mydomain.example aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa --ssl-id "bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbbb"
+ans ddosx deploy mydomain.example
 ```
 
 ```eval_rst

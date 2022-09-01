@@ -6,8 +6,8 @@ Within the WAF tab in the DDoSX section of [MyUKFast](https://my.ukfast.co.uk) y
 
 <h4><b>CLI:</b></h4>
 ```bash
-ukfast ddosx domain waf create mydomain.example --mode "DetectionOnly" --paranoia-level "Low"
-ukfast ddosx domain waf show mydomain.example
+ans ddosx domain waf create mydomain.example --mode "DetectionOnly" --paranoia-level "Low"
+ans ddosx domain waf show mydomain.example
 ```
 
 ## WAF Mode
@@ -86,9 +86,9 @@ You can choose which rulesets to switch on or off for each of your domains, usin
 
 <h4><b>CLI:</b></h4>
 ```bash
-ukfast ddosx domain waf ruleset list mydomain.example
-ukfast ddosx domain waf ruleset update mydomain.example 889a4499-0266-4e02-9c49-dcb431c83c2e --active=false
-ukfast ddosx domain waf ruleset update mydomain.example e36720c5-33e5-4d15-93a5-d440866eb35e --active=true
+ans ddosx domain waf ruleset list mydomain.example
+ans ddosx domain waf ruleset update mydomain.example 889a4499-0266-4e02-9c49-dcb431c83c2e --active=false
+ans ddosx domain waf ruleset update mydomain.example e36720c5-33e5-4d15-93a5-d440866eb35e --active=true
 ```
 
 ## Allow list Rules
@@ -113,7 +113,7 @@ To create your allow list rule simply add:
 
 <h4><b>CLI:</b></h4>
 ```bash
-ukfast ddosx domain waf rule create mydomain.example --ip "8.8.8.8" --uri "/admin"
+ans ddosx domain waf rule create mydomain.example --ip "8.8.8.8" --uri "/admin"
 ```
 
 You can build a rule like this yourself, by looking at the WAF Logs within [MyUKFast](https://my.ukfast.co.uk) for your domain, in order to determine:
@@ -170,14 +170,14 @@ Choose the `IP address` you want this rule to apply to.
 
 <h4><b>CLI:</b></h4>
 ```bash
-ukfast ddosx domain waf advancedrule create mydomain.example --section "ARGS" --modifier "contains" --phrase "test" --ip "8.8.8.8"
+ans ddosx domain waf advancedrule create mydomain.example --section "ARGS" --modifier "contains" --phrase "test" --ip "8.8.8.8"
 ```
 
 Finally, click `Apply Changes` and your web application firewall rules will now be set up on the UKFast DDoSX<sup>®</sup> network, and configured appropriately. (You should allow up to 10 minutes for the changes to be fully applied)
 
 <h4><b>CLI:</b></h4>
 ```bash
-ukfast ddosx domain deploy mydomain.example
+ans ddosx domain deploy mydomain.example
 ```
 
 ```eval_rst

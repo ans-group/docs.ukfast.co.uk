@@ -10,7 +10,7 @@ Backups are performed daily and retained for 7 days.
 
 ![connect](files/backup_schedule_2.png)
 
-**Number of iterations** is the number of backups that are stored by your retention schedule. For example, retaining 7 iterations of a daily backup is a 7 day retention period. It is not currently possible to change the number of iterations or freqency.
+**Number of iterations** is the number of backups that are stored by your retention schedule. For example, retaining 7 iterations of a daily backup is a 7 day retention period. It is not currently possible to change the number of iterations or frequency.
 
 **Manually Start Backup** schedules the backup to be executed as soon as possible by the server outside of the standard schedule.
 
@@ -25,7 +25,7 @@ Backups are performed daily and retained for 7 days.
 
 Includes and excludes are directories, partial directories or wildcard file names that are explicitly included or excluded from your backup.
 
-[Default includes and excludes](/dr-ha/ukfast_backup/getting_started.html#Default-includes-and-excludes) are setup automatically with your server and more rules can be added via MyUKFast.
+[Default includes and excludes](/dr-ha/ukfast_backup/getting_started.html#Default-includes-and-excludes) are setup automatically with your server and more rules can be added via MyUKFast. If you do not want any of the default exclusions to apply, you can overwrite the default exclusions by setting a custom inclusion. Using custom inclusions will imply that you want all of your backups to be custom and will therefore overwrite the defaults.
 
 ## User defined includes and excludes
 

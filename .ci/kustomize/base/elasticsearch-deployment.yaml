@@ -17,10 +17,8 @@ spec:
       labels:
         app: elasticsearch
     spec:
-      imagePullSecrets:
-      - name: gitlab-registry-auth
       containers:
-      - image: docker.elastic.co/elasticsearch/elasticsearch:7.5.2
+      - image: docker.elastic.co/elasticsearch/elasticsearch:7.16.2
         name: elasticsearch
         livenessProbe:
           httpGet:

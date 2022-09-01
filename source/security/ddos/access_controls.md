@@ -31,8 +31,8 @@ To set access controls, go to the domain in question within the [DDoSX area of M
 
 <h4><b>CLI:</b></h4>
 ```bash
-ukfast ddosx domain acl ip list mydomain.example
-ukfast ddosx domain acl geoip list mydomain.example
+ans ddosx domain acl ip list mydomain.example
+ans ddosx domain acl geoip list mydomain.example
 ```
 
 ### IP Access
@@ -50,9 +50,9 @@ Note that rules will be applied **in a priority order**, based on how specific t
 
 <h4><b>CLI:</b></h4>
 ```bash
-ukfast ddosx domain acl ip create mydomain.example --ip "*" --uri "test/" --mode "Allow"
-ukfast ddosx domain acl ip create mydomain.example --ip "8.8.8.0/24" --uri "test/" --mode "Deny"
-ukfast ddosx domain acl ip create mydomain.example --ip "8.8.8.8" --uri "test/" --mode "Allow"
+ans ddosx domain acl ip create mydomain.example --ip "*" --uri "test/" --mode "Allow"
+ans ddosx domain acl ip create mydomain.example --ip "8.8.8.0/24" --uri "test/" --mode "Deny"
+ans ddosx domain acl ip create mydomain.example --ip "8.8.8.8" --uri "test/" --mode "Allow"
 ```
 
 ### Country Access
@@ -70,9 +70,9 @@ Once you've specified all your IP access and Country access rules, click `Apply 
 
 <h4><b>CLI:</b></h4>
 ```bash
-ukfast ddosx domain acl geoip mode update mydomain.example --mode "Blacklist" #Blocklist (Allow All and deny configured Countries)
-ukfast ddosx domain acl geoip create mydomain.example --code "GB" #Deny GB and Allow all other
-ukfast ddosx domain deploy mydomain.example
+ans ddosx domain acl geoip mode update mydomain.example --mode "Blacklist" #Blocklist (Allow All and deny configured Countries)
+ans ddosx domain acl geoip create mydomain.example --code "GB" #Deny GB and Allow all other
+ans ddosx domain deploy mydomain.example
 ```
 
 Note that rules will be applied **in a priority order**, based on how specific the rule is. The order from least priority to highest is `Country -> wildcard -> subnet -> single IP`

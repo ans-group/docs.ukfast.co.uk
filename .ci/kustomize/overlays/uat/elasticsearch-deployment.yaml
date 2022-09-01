@@ -1,0 +1,13 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: elasticsearch
+spec:
+  template:
+    spec:
+      containers:
+      - name: elasticsearch
+        env:
+        - name: ES_JAVA_OPTS
+          value: "-Dlog4j2.formatMsgNoLookups=true -Xms1g -Xmx1g"

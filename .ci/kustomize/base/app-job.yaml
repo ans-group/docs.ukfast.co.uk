@@ -10,3 +10,6 @@ spec:
       containers:
         - name: es-populator
           image: populatorImage
+          env:
+            - name: POPULATOR_ES_HOST
+              value: elasticsearch
