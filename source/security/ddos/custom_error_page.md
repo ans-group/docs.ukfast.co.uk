@@ -40,7 +40,7 @@ ans ddosx domain property list mydomain.example
 ### Known Limitations
 * <nospell>HTML</nospell> files limited to 64KB
 * We will only load the error page for error status codes
-* There is no support for dynamic error codes and the pages need to be static html
+* There is no support for dynamic error codes and the pages need to be static <nospell>html</nospell>
 
 ```eval_rst
    .. title:: Custom Error Pages on DDoSX
