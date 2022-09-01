@@ -11,7 +11,7 @@ From here you will see the following screen
 
 ![DDoSX Advanaced Properties](files/custom_error_page_properties.png)
 
-You can paste <nospell>html</nospell> into both or either of the two custom error page input boxes.
+You can paste <nospell>html</nospell> into both or either of the two custom error page input boxes and click save changes
 
 ### CLI
 
@@ -35,6 +35,11 @@ ans ddosx domain property list mydomain.example
 | b092897b-e5d1-4f91-bcb9-7a23138fefd5 | custom_5xx_error_page | <html>Hello, world</html> |
 ...
 +--------------------------------------+-----------------------+---------------------------+
+```
+
+```bash
+# Deploy
+ans ddosx domain deploy mydomain.example
 ```
 
 ### Known Limitations
