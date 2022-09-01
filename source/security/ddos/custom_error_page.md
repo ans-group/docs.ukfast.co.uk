@@ -2,16 +2,16 @@
 
 On occasions DDoSX<sup>®</sup> might report errors with your site such as not being able to connect to the upstream (502), report an invalid SSL on the origin (502), the upstream takes too long to respond (504), IP or country code blocking (403), WAF blocks (403) or even an internal error on the platform (500).
 
-The platform in these instances will return an error page for each of the above http status code responses. However there may be instances where you might want the above DDoSX<sup>®</sup> errors to show a different error page.
+The platform in these instances will return an error page for each of the above <nospell>http</nospell> status code responses. However there may be instances where you might want the above DDoSX<sup>®</sup> errors to show a different error page.
 
 ### Adding your custom error page
-Once you are logged into your ans portal and browse to DDoSX<sup>®</sup> Protection > Domain > mydomain.example > Advanced Properties
+Once you are logged into your ans portal and browse to DDoSX<sup>®</sup> Protection > Domain > <nospell>mydomain.example</nospell> > Advanced Properties
 
 From here you will see the following screen
 
-![Advanced Whitelist Global Restriction](files/custom_error_page_properties.png)
+![DDoSX Advanaced Properties](files/custom_error_page_properties.png)
 
-You can paste html into both or either of the two custom error page input boxes.
+You can paste <nospell>html</nospell> into both or either of the two custom error page input boxes.
 
 ### CLI
 
