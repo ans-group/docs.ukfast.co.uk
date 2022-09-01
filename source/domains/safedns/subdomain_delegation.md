@@ -6,9 +6,9 @@ Login to the [ans portal](https://portal.ans.co.uk/safedns) and browser to SafeD
 
 ![SafeDNS Zone Page](files/safedns_zone_page.png)
 
-Note your domain `mydomain.example` 
+Note your domain `mydomain.example`
 
-Now click on + Add Record and add a new zone called `sudomain.mydomain.example` This will be your new delegated zone. 
+Now click on + Add Record and add a new zone called `sudomain.mydomain.example` This will be your new delegated zone.
 
 Once this is created you can click on `mydomain.example` and you will see two new records
 
