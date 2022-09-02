@@ -2,7 +2,7 @@
 
 This is a guide for using SafeDNS to setup subdomain delegation. If you do not have access to any of the features please speak to the support team to get them enabled.
 
-Login to the [ans portal](https://portal.ans.co.uk/safedns) and browser to SafeDNS
+Login to the [ANS Portal](https://portal.ans.co.uk/safedns) and browse to SafeDNS.
 
 ![SafeDNS Zone Page](files/safedns_zone_page.png)
 
