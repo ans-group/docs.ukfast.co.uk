@@ -1,4 +1,4 @@
-# Setting up Subdomain delegation
+# Setting up Subdomain delegation in SafeDNS
 
 This is a guide for using SafeDNS to setup subdomain delegation. If you do not have access to any of the features please speak to the support team to get them enabled.
 
@@ -17,7 +17,11 @@ Once this is created you can click on `mydomain.example` and you will see two ne
 You can now manage your zone and records for `subdomain.mydomain.example` in the new zone you just created.</br>
 Now go back to the zone list and manage your new zone `subdomain.mydomain.example` by selecting it.</br>
 
-Any changes you make for `subdomain.mydomain.example` in the `mydomain.example` zone will be ignored. So to manage your new subdomain with an external provider make sure you update the `NS` records in the `subdomain.mydomain.example` zone.
+Any changes you make for `subdomain.mydomain.example` in the `mydomain.example` zone will be ignored. 
+
+# Setting up Subdomain delegration with for an external provider
+To manage your new subdomain with an external provider make sure you add `NS` records in the `mydomain.example` zone for `subdomain.mydomain.example` as above, however you will need to ensure that any new zones for `subdomain.mydomain.example` are removed from SafeDNS otherwise SafeDNS will respond to the external DNS queries. 
+
 
 ```eval_rst
    .. title:: SafeDNS | Setting up subdomain delegation
