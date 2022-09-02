@@ -17,7 +17,7 @@ Once this is created you can click on `mydomain.example` and you will see two ne
 You can now manage your zone and records for `subdomain.mydomain.example` in the new zone you just created.</br>
 Now go back to the zone list and manage your new zone `subdomain.mydomain.example` by selecting it.</br>
 
-Any changes you make for `subdomain.mydomain.example` in the `mydomain.example` zone will be ignored. 
+Any changes you make for `subdomain.mydomain.example` in the `mydomain.example` zone will be ignored.
 
 # Setting up Subdomain delegration with for an external provider
 
