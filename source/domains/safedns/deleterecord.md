@@ -8,7 +8,7 @@
 
 ```
 
-Firstly make sure you are logged into the ANS Portal and navigate to SafeDNS > View Zones and select your domain. Once you have a list of your records you can click on the trashcan next to the record and once you have removed all the records you need to finally click apply changes. 
+Firstly make sure you are logged into the ANS Portal and navigate to SafeDNS > View Zones and select your domain. Once you have a list of your records you can click on the trashcan next to the record and once you have removed all the records you need to finally click apply changes.
 
 ![delete dns record](files/remove_dns_records.png)
 
