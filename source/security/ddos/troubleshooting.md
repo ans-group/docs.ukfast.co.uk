@@ -41,6 +41,9 @@ Make sure you've configured your [WAF settings](/security/ddos/wafsettings) corr
 
 It can take time to configure your [WAF settings](/security/ddos/wafsettings) correctly in order to avoid "false positives", or blocking legitimate requests to your application.  Often this can require a trial-and-error approach to determine the optimal paranoia level and rulesets, that meet your security requirements without preventing legitimate users from accessing your application as needed.  We strongly recommend running your WAF in Detection Only mode for a period of time before switching it on.  This will give you the chance to understand which requests will be blocked, by analysing the log files produced.  Please contact UKFast support by raising a support ticket in [MyUKFast](https://my.ukfast.co.uk) if you need help with this.
 
+## 504 error after 60s despite my timeout being higher
+
+There might be instances were you recieve a 504 on your site after 60s despite your timeout being set higher. This is likely down to the <nospell>`proxy_connect_timeout`</nospell> which is set to 60s and cannot be changed. This likely means DDoSX is being restricted by a firewall or another server restrictions preventing a TCP connection from completing. Please review your origin restrictions to resolve this issue.
 
 ```eval_rst
    .. title:: Troubleshooting DDoSX, WAF and CDN
