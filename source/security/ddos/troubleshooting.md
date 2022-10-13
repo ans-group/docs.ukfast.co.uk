@@ -43,7 +43,7 @@ It can take time to configure your [WAF settings](/security/ddos/wafsettings) co
 
 ## 504 error after 60s despite my timeout being higher
 
-There might be instances were you recieve a 504 on your site after 60s despite your timeout being set higher. This is likely down to the <nospell>`proxy_connect_timeout`</nospell> which is set to 60s and cannot be changed. This likely means DDoSX is being restricted by a firewall or another server restrictions preventing a TCP connection from completing. Please review your origin restrictions to resolve this issue.
+There might be instances were you receive a 504 on your site after 60s despite your timeout being set higher. This is likely down to the <nospell>`proxy_connect_timeout`</nospell> which is set to 60s and cannot be changed. This likely means DDoSX is being restricted by a firewall or another server restrictions preventing a TCP connection from completing. Please review your origin restrictions to resolve this issue.
 
 ```eval_rst
    .. title:: Troubleshooting DDoSX, WAF and CDN
