@@ -43,7 +43,7 @@ The "Remote Networks" are the internal IPs and/or Subnets from the remote site, 
 
 A "Pre-Shared Key (PSK)" needs to be defined, which will need to match the PSK on the remote device.
 
-![VPN Session](files/vpn-vpnsession.png)
+![VPN Session](files/vpn-session.png)
 
 
 ##### Profiles
