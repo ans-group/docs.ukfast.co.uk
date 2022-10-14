@@ -3,21 +3,21 @@
 In eCloud VPC you have the ability to set up Site-to-site IPSec VPN's. These can be used to enable connectivity from external devices or between different eCloud VPC Routers.
 
 
-### How to setup a VPN
+## How to setup a VPN
 
 Select the region you want to create the VPN in using the dropdown on the left hand menu and navigate to the VPNs section.
 
 ![VPN View](files/vpn-vpnview.png)
 
-#### Services
+### Services
 
-A VPN Service has a one-to-one mapping with a Routers in eCloud VPC. This means if you want to have a VPN to two different Routers, you will need to create a separate VPN Service for each of them.
+A VPN Service has a one-to-one mapping with a Router in eCloud VPC. This means if you want to have a VPN to two different Routers, you will need to create a separate VPN Service for each of them.
 
 Select "Create Service", choose a name, select the relevant VPN and Router, then select "Create Service".
 
 ![VPN Service](files/vpn-vpnservice.png)
 
-#### Endpoints
+### Endpoints
 
 A VPN Endpoint is where the IPSec VPN will terminate at the eCloud VPC side. A VPN Endpoint has a One-to-One mapping with a VPN Service, but you can have multiple Endpoints mapped to the same Service.
 
@@ -25,13 +25,13 @@ Select "Create Endpoint", choose a name and select the VPN Service you would lik
 
 ![VPN Endpoint](files/vpn-vpnendpoint.png)
 
-#### Sessions
+### Sessions
 
 A VPN Session will link to the a VPN Service and Endpoint you have created and contain all of the configuration required to set up the VPN tunnel on the eCloud VPC side.
 
 Select "Create Session", choose a name and then select the VPN Service and Endpoint you would like this Session to use.
 
-The Profile Group defines what encryption settings are applied, such as the Ciphers. It is critical that the profile used in eCloud VPC matches the configuration of the remote device or the tunnel will not come up. We have a range of generic profiles which are detailed [here](vpn.md#profiles).
+The Profile Group defines what encryption settings are applied, such as the Ciphers. It is critical that the profile used in eCloud VPC matches the configuration of the remote device or the tunnel will not come up. We have a range of generic profiles which are detailed [here](vpn.md#profile-groups).
 
 The Local IP will automatically be selected, as it is defined in the Endpoint you will have already created.
 
@@ -46,7 +46,7 @@ A "Pre-Shared Key (PSK)" needs to be defined, which will need to match the PSK o
 ![VPN Session](files/vpn-session.png)
 
 
-##### Profiles
+#### Profile Groups
 
 | Profile Name    | Phase 1 - Encryption | Phase 1 - Integrity | Phase 1 - DH Group | Phase 1 - PRF | Phase 1 - SA Lifetime | Phase 2 - Encryption | Phase 2 - Integrity | Phase 2 - SA Lifetime | Phase 2 - PFS |
 |-----------------|----------------------|---------------------|--------------------|---------------|-----------------------|----------------------|---------------------|-----------------------|---------------|
