@@ -1,6 +1,6 @@
 # eCloud VPC VPNs
 
-In eCloud VPC you have the ability to set up Site-to-Site IPSec VPNs. These can be used to enable connectivity from external networking devices or between different eCloud VPC Routers.
+In eCloud VPC you have the ability to set up Site-to-Site IPsec VPNs. These can be used to enable connectivity from external networking devices or between different eCloud VPC Routers.
 
 VPNs can be set up between eCloud VPC Routers which are in the same or different AZ/Region.
 
@@ -23,7 +23,7 @@ To create, select "Create Service", choose a name, select the relevant VPN and R
 
 ### Endpoints
 
-A VPN Endpoint is where the IPSec VPN will terminate at the eCloud VPC side. A VPN Endpoint has a One-to-One mapping with a VPN Service, but you can have multiple Endpoints mapped to the same Service.
+A VPN Endpoint is where the IPsec VPN will terminate at the eCloud VPC side. A VPN Endpoint has a One-to-One mapping with a VPN Service, but you can have multiple Endpoints mapped to the same Service.
 
 A VPN Endpoint is also where the FIP (external IP) is assigned.
 
@@ -73,6 +73,6 @@ There have been a range of VPN Profiles created, which have various levels of en
    .. title:: eCloud VPC VPNs
    .. meta::
       :title: eCloud VPC VPNs | UKFast Documentation
-      :description: Site-to-Site IPSec VPNs in eCloud VPC
-      :keywords: ecloud, ecloud VPC, MyUKFast, VPC, Virtual Private Cloud, VPN, IPSec, IKE
+      :description: Site-to-Site IPsec VPNs in eCloud VPC
+      :keywords: ecloud, ecloud VPC, MyUKFast, VPC, Virtual Private Cloud, VPN, IPsec, IKE
 ```
