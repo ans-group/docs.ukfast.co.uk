@@ -11,7 +11,7 @@ Select the region you want to create the VPN in using the dropdown on the left h
 
 ![VPN View](files/vpn-vpnview.png)
 
-VPN's in eCloud VPC consist of three different parts, a VPN Service, Endpoint and Session. These are explained in more detail in the below sections. 
+VPN's in eCloud VPC consist of three different parts, a VPN Service, Endpoint and Session. These are explained in more detail in the below sections.
 
 ### Services
 
