@@ -1,8 +1,8 @@
-# eCloud VPC VPN's
+# eCloud VPC VPNs
 
-In eCloud VPC you have the ability to set up Site-to-Site IPSec VPN's. These can be used to enable connectivity from external networking devices or between different eCloud VPC Routers.
+In eCloud VPC you have the ability to set up Site-to-Site IPSec VPNs. These can be used to enable connectivity from external networking devices or between different eCloud VPC Routers.
 
-VPN's can be set up between eCloud VPC Routers which are in the same or different AZ/Region.
+VPNs can be set up between eCloud VPC Routers which are in the same or different AZ/Region.
 
 
 ## How to setup a VPN
@@ -11,7 +11,7 @@ Select the region you want to create the VPN in using the dropdown on the left h
 
 ![VPN View](files/vpn-vpnview.png)
 
-VPN's in eCloud VPC consist of three different parts, a VPN Service, Endpoint and Session. These are explained in more detail in the below sections.
+VPNs in eCloud VPC consist of three different parts, a VPN Service, Endpoint and Session. These are explained in more detail in the below sections.
 
 ### Services
 
@@ -33,7 +33,7 @@ To create, select "Create Endpoint", choose a name and select the VPN Service yo
 
 ### Sessions
 
-A VPN Session has to map to a specific VPN Endpoint and the associated Service. This is the object which willl contain all of the configuration required to set up the VPN tunnel on the eCloud VPC side.
+A VPN Session has to map to a specific VPN Endpoint and the associated Service. This is the object which will contain all of the configuration required to set up the VPN tunnel on the eCloud VPC side.
 
 To create, select "Create Session", choose a name and then select the VPN Service and Endpoint you would like this Session to use.
 
@@ -70,9 +70,9 @@ There have been a range of VPN Profiles created, which have various levels of en
 
 
 ```eval_rst
-   .. title:: eCloud VPC VPN's
+   .. title:: eCloud VPC VPNs
    .. meta::
-      :title: eCloud VPC VPN's | UKFast Documentation
-      :description: Site-to-Site IPSEc VPN's in eCloud VPC
+      :title: eCloud VPC VPNs | UKFast Documentation
+      :description: Site-to-Site IPSEc VPNs in eCloud VPC
       :keywords: ecloud, ecloud VPC, MyUKFast, VPC, Virtual Private Cloud, VPN, IPSec, IKE
 ```
