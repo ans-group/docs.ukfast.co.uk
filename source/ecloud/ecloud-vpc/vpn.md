@@ -70,9 +70,9 @@ There have been a range of VPN Profiles created, which have various levels of en
 
 
 ```eval_rst
-   .. title:: Virtual Private Cloud (VPC)
+   .. title:: eCloud VPC VPN's
    .. meta::
-      :title: Virtual Private Cloud (VPC) | UKFast Documentation
-      :description: Virtual Private Cloud (VPC)
-      :keywords: ecloud, ecloud VPC, MyUKFast, VPC, Virtual Private Cloud
+      :title: eCloud VPC VPN's | UKFast Documentation
+      :description: Site-to-Site IPSEc VPN's in eCloud VPC
+      :keywords: ecloud, ecloud VPC, MyUKFast, VPC, Virtual Private Cloud, VPN, IPSec, IKE
 ```
