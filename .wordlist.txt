@@ -171,6 +171,7 @@ FCrDNS
 filesystem
 filesystems
 FileZilla
+FIP
 FIPS
 firewalld
 firewalling
@@ -304,6 +305,7 @@ Nartac
 natively
 NATs
 NEA
+Netgate
 netmask
 NetScaler
 NetScalers
@@ -343,6 +345,7 @@ Perl
 personalisation
 PetalBot
 PFS
+pfSense
 PhaaS
 PHaaS
 PHP
