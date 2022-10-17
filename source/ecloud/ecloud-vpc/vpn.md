@@ -54,16 +54,18 @@ A "Pre-Shared Key (PSK)" needs to be defined, which will need to match the PSK o
 
 #### Profile Groups
 
-| Profile Name    | Phase 1 - Encryption | Phase 1 - Integrity | Phase 1 - DH Group | Phase 1 - PRF | Phase 1 - SA Lifetime | Phase 2 - Encryption | Phase 2 - Integrity | Phase 2 - SA Lifetime | Phase 2 - PFS |
-|-----------------|----------------------|---------------------|--------------------|---------------|-----------------------|----------------------|---------------------|-----------------------|---------------|
-| IKEv1 Weak      | AES-128              | SHA-1               | 2                  | -             | 86400                 | AES-128              | SHA-1               | 28800                 | No            |
-| IKEv1 Medium    | AES-256              | SHA-256             | 5                  | -             | 28800                 | AES-256              | SHA-1               | 3600                  | 5             |
-| IKEv2 Medium    | AES-256              | SHA-256             | 14                 | SHA-256       | 86400                 | AES-256              | SHA-256             | 28800                 | 14            |
-| IKEv2 Strong    | AES-256              | SHA-256             | 19                 | SHA-256       | 28800                 | AES-256              | SHA-256             | 3600                  | 19            |
-| IKEv2 Strongest | AES-256-GCM          | -                   | 21                 | SHA-512       | 28800                 | AES-256-GCM          | -                   | 3600                  | 21            |
-| Cisco - ASA     | AES-256              | SHA512              | 21                 | SHA-512       | 86400                 | AES-256              | SHA-512             | 28800                 | 21            |
-| Cisco - ASA (legacy) | AES-256         | SHA-1               | 5                  | SHA-1         | 86400                 | AES-256              | SHA-1               | 28800                 | 5             |
-| Netgate - pfSense | AES-256            | SHA-256             | 14                 | SHA-256       | 28800                 | AES-128, AES-128-GCM | SHA-256             | 3600                  | 14            |
+There have been a range of VPN Profiles created, which have various levels of encryption settings. Details of these can be seen in the following table. If you need any advise on these, please get in touch with our support team.
+
+| Profile Name        | IKE Version | Phase 1 - Encryption | Phase 1 - Integrity | Phase 1 - DH Group | Phase 1 - PRF | Phase 1 - SA Lifetime | Phase 2 - Encryption | Phase 2 - Integrity | Phase 2 - SA Lifetime | Phase 2 - PFS |
+|---------------------|-------------|----------------------|---------------------|--------------------|---------------|-----------------------|----------------------|---------------------|-----------------------|---------------|
+| IKEv1 Weak          | IKEv1       | AES-128              | SHA-1               | 2                  | -             | 86400                 | AES-128              | SHA-1               | 28800                 | No            |
+| IKEv1 Medium        | IKEv1       | AES-256              | SHA-256             | 5                  | -             | 28800                 | AES-256              | SHA-1               | 3600                  | 5             |
+| IKEv2 Medium        | IKEv2       | AES-256              | SHA-256             | 14                 | SHA-256       | 86400                 | AES-256              | SHA-256             | 28800                 | 14            |
+| IKEv2 Strong        | IKEv2       | AES-256              | SHA-256             | 19                 | SHA-256       | 28800                 | AES-256              | SHA-256             | 3600                  | 19            |
+| IKEv2 Strongest     | IKEv2       | AES-256-GCM          | -                   | 21                 | SHA-512       | 28800                 | AES-256-GCM          | -                   | 3600                  | 21            |
+| Cisco - ASA         | IKEv2       | AES-256              | SHA512              | 21                 | SHA-512       | 86400                 | AES-256              | SHA-512             | 28800                 | 21            |
+| Cisco - ASA (legacy)| IKEv1       | AES-256              | SHA-1               | 5                  | SHA-1         | 86400                 | AES-256              | SHA-1               | 28800                 | 5             |
+| Netgate - pfSense   | IKEv2       | AES-256              | SHA-256             | 14                 | SHA-256       | 28800                 | AES-128, AES-128-GCM | SHA-256             | 3600                  | 14            |
 
 
 
