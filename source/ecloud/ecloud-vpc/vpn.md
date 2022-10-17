@@ -73,6 +73,6 @@ There have been a range of VPN Profiles created, which have various levels of en
    .. title:: eCloud VPC VPNs
    .. meta::
       :title: eCloud VPC VPNs | UKFast Documentation
-      :description: Site-to-Site IPSEc VPNs in eCloud VPC
+      :description: Site-to-Site IPSec VPNs in eCloud VPC
       :keywords: ecloud, ecloud VPC, MyUKFast, VPC, Virtual Private Cloud, VPN, IPSec, IKE
 ```
