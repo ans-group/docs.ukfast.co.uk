@@ -54,7 +54,7 @@ A "Pre-Shared Key (PSK)" needs to be defined, which will need to match the PSK o
 
 #### Profile Groups
 
-There have been a range of VPN Profiles created, which have various levels of encryption settings. Details of these can be seen in the following table. If you need any advise on these, please get in touch with our support team.
+There have been a range of VPN Profiles created, which have various levels of encryption settings. Details of these can be seen in the following table. If you need any advise on which VPN profiles to use, please get in touch with our support team.
 
 | Profile Name        | IKE Version | Phase 1 - Encryption | Phase 1 - Integrity | Phase 1 - DH Group | Phase 1 - PRF | Phase 1 - SA Lifetime | Phase 2 - Encryption | Phase 2 - Integrity | Phase 2 - SA Lifetime | Phase 2 - PFS |
 |---------------------|-------------|----------------------|---------------------|--------------------|---------------|-----------------------|----------------------|---------------------|-----------------------|---------------|
