@@ -39,6 +39,7 @@ The process of uploading to shared folders is exactly the same as uploading to y
 ```eval_rst
    .. title:: FastDrive | Uploading files
    .. meta::
+      :title: FastDrive | Uploading files | UKFast Documentation
       :description: Uploading files
       :keywords: ukfast, fastdrive, files, folders, file management
 ```

@@ -21,10 +21,10 @@ We have a number of accreditations highlighting our commitment towards keeping d
 
 UKFast have twice yearly a penetration test which are conducted by a CHECK & Crest accredited penetration testing company in line with it receiving the Cyber Essentials Plus Certification.
 
- ```eval_rst
-   .. title:: FastDrive | Security information about the FastDrive Solution
-      .. meta::
-      :title: FastDrive Guide: Security Information | UKFast Documentation
+```eval_rst
+   .. title:: FastDrive | FastDrive Security
+   .. meta::
+      :title: FastDrive | FastDrive Security | UKFast Documentation
       :description: Security information about the FastDrive product
       :keywords: FastDrive, Citrix, ukfast, ShareFile, Citrix Files, Data, Storage, Encryption
- ```
+```

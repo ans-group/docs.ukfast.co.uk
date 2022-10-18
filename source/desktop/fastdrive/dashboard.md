@@ -25,3 +25,10 @@ A wide range of video tutorials are available in order to assist you. These tuto
 Alongside these video tutorials are a range of helpful links. These are written articles which provide lots of information on a variety of different matters. These can be seen as an extension to the video tutorials mentioned above.
 
 ![Image212](files/Image212.png)
+
+```eval_rst
+   .. title:: FastDrive | Navigating The Dashboard
+   .. meta::
+      :title: FastDrive | Navigating The Dashboard | UKFast Documentation
+      :description: Detailed guidance on navigating the dashboard in FastDrive
+```

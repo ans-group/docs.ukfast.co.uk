@@ -33,3 +33,12 @@ Once finished, you'll see the following screen. If you click __Launch__, Drive M
 To login to Drive Mapper, use your FastDrive credentials. Take note that only employee users can log in and use Drive Mapper.
 
 ![Image127](files/Image127.png)
+
+
+```eval_rst
+   .. title:: FastDrive | Installing Drive Mapper
+   .. meta::
+      :title: FastDrive | Installing Drive Mapper | UKFast Documentation
+      :description: Installing Drive Mapper for FastDrive
+      :keywords: ukfast, fastdrive, files, folders
+```

@@ -21,3 +21,12 @@ Files can also be downloaded without opening the file preview screen. Instead of
 Above this, you'll be able to see a variety of actions which you can undertake. One of these actions is to __Download__ the file(s) which you have selected. Click this button and the file will download as normal.
 
 ![Image184](files/Image184.png)
+
+
+```eval_rst
+   .. title:: FastDrive | Downloading Files
+   .. meta::
+      :title: FastDrive | Downloading Files | UKFast Documentation
+      :description: Downloading files in FastDrive
+      :keywords: ukfast, fastdrive, files, folders
+```

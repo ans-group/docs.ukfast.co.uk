@@ -37,3 +37,10 @@ Once users have been added, you can see their permissions by clicking __People o
 Below, are the users that have been given permissions and you can see the permissions that they have.
 
 ![Image64](files/Image64.png)
+
+```eval_rst
+   .. title:: FastDrive | Creating Folders
+   .. meta::
+      :title: FastDrive | Creating Folders | UKFast Documentation
+      :description: Detailed guidance on creating folders in FastDrive
+```

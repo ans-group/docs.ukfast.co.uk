@@ -33,3 +33,10 @@ You can also change some of the user's permissions by expanding the __User Acces
 You won't be able to adjust all permissions but you will be able to enable or disable some such as __Manage client users__ and __Create shared distribution groups__.
 
 ![Image80](files/Image80.png)
+
+```eval_rst
+   .. title:: FastDrive | Browsing and Managing Employees
+   .. meta::
+      :title: FastDrive | Browsing and Managing Employees | UKFast Documentation
+      :description: Detailed guidance on browsing and managing employees in FastDrive
+```

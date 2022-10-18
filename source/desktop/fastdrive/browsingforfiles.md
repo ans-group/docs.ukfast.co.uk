@@ -33,8 +33,9 @@ If you have the relevant permissions on your account, you will be able to see ot
 
 
 ```eval_rst
-   .. title:: FastDrive | Browsing for files
+   .. title:: FastDrive | Browsing For Files
    .. meta::
+      :title: FastDrive | Browsing For Files | UKFast Documentation
       :description: Guidance on browsing for files
       :keywords: ukfast, fastdrive, files, browsing
 ```

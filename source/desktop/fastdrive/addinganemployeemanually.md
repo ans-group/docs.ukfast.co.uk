@@ -75,3 +75,10 @@ The user will then be asked to confirm their personal information.
 You will then be asked to reset the password for the account and once you've done this you will be successfully logged in.
 
 ![Image52](files/Image52.png)
+
+```eval_rst
+   .. title:: FastDrive | Adding An Employee Manually
+   .. meta::
+      :title: FastDrive | Adding An Employee Manually | UKFast Documentation
+      :description: Guidance on adding an employee to FastDrive manually
+```
