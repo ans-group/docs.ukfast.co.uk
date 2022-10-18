@@ -105,67 +105,6 @@ There have been a range of VPN Profiles created, which have various levels of en
 ```
 
 ```eval_rst
-.. list-table:: VPN Profile Groups
-  :header-rows: 1
-  :stub-columns: 1
-
-* - Profile Name
-  - Phase 2 - Encryption
-  - Phase 2 - Integrity
-  - Phase 2 - SA Lifetime
-  - Phase 2 - PRS
-  - IKE Version
-* - IKEv1 Weak
-  - AES-128
-  - SHA-1
-  - 28800
-  - No
-  - IKEv1
-* - IKEv1 Medium
-  - AES-256
-  - SHA-1
-  - 3600
-  - 5
-  - IKEv1
-* - IKEv2 Medium
-  - AES-256
-  - SHA-256
-  - 28800
-  - 14
-  - IKEv2
-* - IKEv2 Strong
-  - AES-256
-  - SHA-256
-  - 3600
-  - 19
-  - IKEv2
-* - IKEv2 Strongest
-  - AES-256-GCM
-  - N/A
-  - 3600
-  - 21
-  - IKEv2
-* - Cisco - ASA
-  - AES-256
-  - SHA-512
-  - 28800
-  - 21
-  - IKEv2
-* - Cisco - ASA (legacy)
-  - AES-256
-  - SHA-1
-  - 28800
-  - 5
-  - IKEv1
-* - Netgate - pfSense
-  - AES-128, AES-128-GCM
-  - SHA-256
-  - 3600
-  - 14
-  - IKEv2
-```
-
-```eval_rst
    .. title:: VPNs
    .. meta::
       :title: eCloud VPC VPNs | UKFast Documentation
