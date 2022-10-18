@@ -1,4 +1,4 @@
-# eCloud VPC VPNs
+# VPNs
 
 In eCloud VPC you have the ability to set up Site-to-Site IPsec VPNs (Virtual Private Networks). These can be used to enable connectivity from external networking devices or between different eCloud VPC Routers.
 
