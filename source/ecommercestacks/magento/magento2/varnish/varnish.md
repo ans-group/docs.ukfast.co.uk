@@ -57,7 +57,7 @@ ExecStart=/usr/sbin/varnishd \
 ```
 
 ### Example `VCL`
-You can view an example Magento2 UKFast `VCL` [here](UKFastVCL.md)
+You can view an example Magento2 UKFast `VCL` [here](UKFastVCL)
 
 ### Configuration Test
 

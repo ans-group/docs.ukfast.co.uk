@@ -50,7 +50,7 @@ Our Security experts are running scans to identify attempts to exploit the vulne
 
 Several different methods have been released in identifying vulnerable applications. An easy way to test this is to check whether the JAR/WAR/EAR files on your server contain the vulnerable version of Log4J. This method can produce several false positives as different vendors have different mitigation methods, so it is essential to review the results and the flagged applications with a member of your development team or with the respective vendor to ensure mitigations are put in place. Utilising a tool called log4j2-scan, UKFast has written an easy-to-execute script to scan your server.
 
-Firstly, [login to the server via SSH](/operatingsystems/linux/basics/connecting.html). From here we will now run the script:
+Firstly, [login to the server via SSH](/operatingsystems/linux/basics/connecting). From here we will now run the script:
 
 ```bash
 bash <(curl -s https://software.ukfast.uk/pub/CVE-2021-44228-Scanner.sh)
@@ -77,7 +77,7 @@ As seen above, the output of this command will display the vulnerable JAR/WAR/EA
 
 ### Windows Server Scan
 
-Firstly, [login to the server via RDP](/operatingsystems/windows/rdp/connecting.html). Once logged in, download the script on [Github](https://github.com/logpresso/CVE-2021-44228-Scanner/releases/latest). When downloading the logpresso executable, please ensure that it is the win64 zip file. Extract the .exe file to your Desktop.
+Firstly, [login to the server via RDP](/operatingsystems/windows/rdp/connecting). Once logged in, download the script on [Github](https://github.com/logpresso/CVE-2021-44228-Scanner/releases/latest). When downloading the logpresso executable, please ensure that it is the win64 zip file. Extract the .exe file to your Desktop.
 
 Open Command Prompt as Administrator and `cd` to the Desktop.
 

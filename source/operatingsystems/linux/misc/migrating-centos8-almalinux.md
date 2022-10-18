@@ -12,7 +12,7 @@ On December 31, 2021, CentOS 8 will reach end-of-life, meaning that Red Hat will
 
 ## Downloading the AlmaLinux Migration Script
 
-Firstly, [login to the server via SSH](/operatingsystems/linux/basics/connecting.html). From here, we will be downloading the almalinux-deploy.sh script from the AlmaLinux repo:
+Firstly, [login to the server via SSH](/operatingsystems/linux/basics/connecting). From here, we will be downloading the almalinux-deploy.sh script from the AlmaLinux repo:
 
 
 ```bash
