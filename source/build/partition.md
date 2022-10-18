@@ -1,3 +1,7 @@
+```eval_rst
+:orphan:
+```
+
 # Partitions
 
 A disk partition is a section of the hard drive that is separated from other segments. Partitions enables you to divide a physical disk into logical sections, which inturn gives you greater control of storage within your solution.

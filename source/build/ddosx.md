@@ -1,3 +1,7 @@
+```eval_rst
+:orphan:
+```
+
 # DDoSX® Protection
 
 UKFast's flagship DDoSX service is a cloud-based offering that helps protect a website or web-based application by monitoring traffic between an end user and the application. The primary function is to protect websites from DDoS attacks by proxying all requests to the domain and automatically filtering them before it hits their firewall.

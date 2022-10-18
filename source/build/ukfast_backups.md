@@ -1,3 +1,7 @@
+```eval_rst
+:orphan:
+```
+
 # Default Configuration for Backups
 
 With data protection being a critical business necessity, it's imperative you have a backup solution to mitigate business risks, guarantee compliance, reduce costs and help improve the overall success of your business. Backup is essentially a snapshot or picture of the state of your data before it disappeared or was destroyed, with the data being periodically overwritten as it changes.

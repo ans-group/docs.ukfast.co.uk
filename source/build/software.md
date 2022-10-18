@@ -1,3 +1,7 @@
+```eval_rst
+:orphan:
+```
+
 # Server Software
 
 Please find below the UKFast Default Software installed as part of your solution.
