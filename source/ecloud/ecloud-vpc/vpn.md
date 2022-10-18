@@ -54,6 +54,8 @@ A "Pre-Shared Key (PSK)" needs to be defined, which will need to match the PSK o
 
 #### Profile Groups
 
+##### Phase One Settings
+
 There have been a range of VPN Profiles created, which have various levels of encryption settings. Details of these can be seen in the following table. If you need any advise on which VPN profiles to use, please get in touch with our support team.
 
 ```eval_rst
@@ -78,7 +80,7 @@ There have been a range of VPN Profiles created, which have various levels of en
 +-----------------------+--------------+-----------------------+----------------------+---------------------+----------------+------------------------+
 ```
 
-##### Phase two settings
+##### Phase Two Settings
 
 ```eval_rst
 +-----------------------+-----------------------+----------------------+------------------------+----------------+
