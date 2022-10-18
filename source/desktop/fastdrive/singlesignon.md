@@ -2,9 +2,9 @@
 
 ## How to activate Single Sign On
 
-Single Sign On (SSO) can be used to make it easier to sign into your FASTdrive account.
+Single Sign On (SSO) can be used to make it easier to sign into your FastDrive account.
 
-In the past, you would need to remember 2 sets of credentials for both FASTdesk and FASTdrive. With the use of Single Sign On, you can now sign into FASTdrive using your FASTdesk credentials.
+In the past, you would need to remember 2 sets of credentials for both FastDesk and FastDrive. With the use of Single Sign On, you can now sign into FastDrive using your FastDesk credentials.
 
 ## Web Application
 
@@ -12,13 +12,13 @@ In order to use Single Sign On, you will need to navigate to your ShareFile doma
 
 ![ssoimage1](files/ssoimage1.PNG)
 
-As you can see there are 2 options to log into FASTdrive with. The login on the right hand side of the screen will be the regular way to login to FASTdrive with and will use your FASTdrive credentials. The left hand side is to sign in with Single Sign On. Once you click 'Sign In' on the left hand side, you will be re-directed to the following page:
+As you can see there are 2 options to log into FastDrive with. The login on the right hand side of the screen will be the regular way to login to FastDrive with and will use your FastDrive credentials. The left hand side is to sign in with Single Sign On. Once you click 'Sign In' on the left hand side, you will be re-directed to the following page:
 
 ![ssoimage2](files/ssoimage2.PNG)
 
-Here you will need to login with your FASTdesk credentials as opposed to your FASTdrive credentials.
+Here you will need to login with your FastDesk credentials as opposed to your FastDrive credentials.
 
-You will then be logged into your FASTdrive account onto the 'Dashboard'.
+You will then be logged into your FastDrive account onto the 'Dashboard'.
 
 ![ssoimage3.1](files/ssoimage3.1.PNG)
 
@@ -34,7 +34,7 @@ You will then be asked to enter the subdomain to your account. This will be the 
 
 Once you have typed in the subdomain to your account, click 'Continue'.
 
-You will then be presented with the Single Sign On login screen of which you will need to enter your FASTdesk credentials.
+You will then be presented with the Single Sign On login screen of which you will need to enter your FastDesk credentials.
 
 ![ssoimage6](files/ssoimage6.PNG)
 
@@ -46,7 +46,7 @@ When signing into Single Sign On using the web application, you will see the fol
 
 ![ssoimage7](files/ssoimage7.PNG)
 
-Selecting 'FASTdesk Home' will direct you to `daas.ecloud.co.uk`. This is where you would normally sign in for FASTdesk when using a browser. Entering your FASTdesk credentials here will lead you to your virtual desktop.
+Selecting 'FastDesk Home' will direct you to `daas.ecloud.co.uk`. This is where you would normally sign in for FastDesk when using a browser. Entering your FastDesk credentials here will lead you to your virtual desktop.
 
 ![ssoimage8](files/ssoimage8.PNG)
 
@@ -59,9 +59,9 @@ Selecting 'Help' will lead you to the UKFast documentation page, specifically th
 ![ssoimage10](files/ssoimage10.PNG)
 
 ```eval_rst
-   .. title:: FASTdrive Single Sign On
+   .. title:: FastDrive Single Sign On
    .. meta::
-      :title: FASTdrive Single Sign On | UKFast Documentation
-      :description: Guide for using single sign-on with FASTdrive
-      :keywords: FASTdrive, Citrix, ukfast, sso
+      :title: FastDrive Single Sign On | UKFast Documentation
+      :description: Guide for using single sign-on with FastDrive
+      :keywords: FastDrive, Citrix, ukfast, sso
 ```

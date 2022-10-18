@@ -4,7 +4,7 @@ Instead of adding employee users manually one-by-one, multiple employees can be 
 
 ![Image65](files/Image65.png)
 
-The following screen will then appear which explains how the process is carried out. There is a link to a template spreadsheet which shows how the spreadsheet needs to be structured before being uploaded. The below image also contains instructions on how to export your Outlook contacts if you wish to use some of them in FASTdrive.
+The following screen will then appear which explains how the process is carried out. There is a link to a template spreadsheet which shows how the spreadsheet needs to be structured before being uploaded. The below image also contains instructions on how to export your Outlook contacts if you wish to use some of them in FastDrive.
 
 ![Image66](files/Image66.png)
 
@@ -38,10 +38,10 @@ __Add this user to my address book__ – This will add the user to your personal
 
 ![Image68](files/Image68.png)
 
-Once permissions have been set, you will have the option to send out confirmation emails. This lets the new user know that they have been added to FASTdrive.
+Once permissions have been set, you will have the option to send out confirmation emails. This lets the new user know that they have been added to FastDrive.
 
 ```eval_rst
-   .. title:: FASTdrive | Adding an employee from an Excel spreadsheet
+   .. title:: FastDrive | Adding an employee from an Excel spreadsheet
    .. meta::
       :description: Detailed guidance on adding employees using an Excel sheet
       :keywords: ukfast, fastdrive, excel, administration, user management

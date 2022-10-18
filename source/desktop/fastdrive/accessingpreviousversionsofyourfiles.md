@@ -2,9 +2,9 @@
 
 File versioning is enabled so that you can roll back to the previous 5 versions of a file. This can be very useful if your file corrupts or if you wish to give another user an older version of a file.
 
-Previous versions of files can be accessed via the FASTdrive web app. Here, you'll be able to see the previous 5 versions, when they were saved, and who they were saved by.
+Previous versions of files can be accessed via the FastDrive web app. Here, you'll be able to see the previous 5 versions, when they were saved, and who they were saved by.
 
-Firstly, log into your FASTdrive web app using your user credentials. Once you've logged in, navigate to the folders tab. Here, you'll see 3 different folders that you can navigate to; Personal Folders, Shared Folders, and Favourites.
+Firstly, log into your FastDrive web app using your user credentials. Once you've logged in, navigate to the folders tab. Here, you'll see 3 different folders that you can navigate to; Personal Folders, Shared Folders, and Favourites.
 
 ![Image81](files/Image81.PNG)
 
@@ -35,9 +35,9 @@ In this instance I have restored the file and as you can see there are now 6 pre
 ![Image151](files/Image151.png)
 
 ```eval_rst
-   .. title:: FASTdrive Accessing previous versions of your files
+   .. title:: FastDrive Accessing previous versions of your files
    .. meta::
-      :title: FASTdrive Accessing previous versions of your files | UKFast Documentation
+      :title: FastDrive Accessing previous versions of your files | UKFast Documentation
       :description: Guide for accessing older versions of your files
-      :keywords: FASTdrive, Citrix, ukfast
+      :keywords: FastDrive, Citrix, ukfast
 ```

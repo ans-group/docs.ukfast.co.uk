@@ -37,7 +37,7 @@ You won't always have the correct permissions to upload to some shared folders. 
 The process of uploading to shared folders is exactly the same as uploading to your personal folder. The difference is that other users will be able to see, upload or download files in this folder.
 
 ```eval_rst
-   .. title:: FASTdrive | Uploading files
+   .. title:: FastDrive | Uploading files
    .. meta::
       :description: Uploading files
       :keywords: ukfast, fastdrive, files, folders, file management

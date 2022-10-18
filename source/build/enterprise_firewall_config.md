@@ -8,7 +8,7 @@ Establishing a barrier between trusted and untrusted networks, firewalls, when c
 
 ## Default Firewall Rules
 
-The following rules apply to all servers in the environment. Changes required for specific servers should be listed under the Custom Firewall Rules section of your Enterprise Launch Questionaire.
+The following rules apply to all servers in the environment. Changes required for specific servers should be listed under the Custom Firewall Rules section of your Enterprise Launch Questionnaire.
 
 ### Inbound:
 All ports closed.

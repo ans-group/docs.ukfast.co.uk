@@ -6,7 +6,7 @@ Web attacks are perhaps one of the most common attacks on Internet-facing system
 
 ### What is this attack
 
-Making malicious connections to your database, SQL  attacks are designed to utilise your web applications to run arbitrary SQL queries against your database. As these queries are run by your web application, they can bypass existing security controls and NAC. SQL Injections can take advantage of many different attack vectors, one of the most common is web queries as they tend to sit close to other services and have privileged access to databases.
+Making malicious connections to your database, SQL  attacks are designed to utilise your web applications to run arbitrary SQL queries against your database. As these queries are run by your web application, they can bypass existing security controls and Network Access Control. SQL Injections can take advantage of many different attack vectors, one of the most common is web queries as they tend to sit close to other services and have privileged access to databases.
 
 ### Signatures detected
 
@@ -35,7 +35,7 @@ Additionally, If an XSS attack returns a code 200 (Web Request success), Threat 
 
 Attackers will commonly try SQL injections on your site, the best ways to prevent these attacks from being successful are:
 * Ensure your database is not directly accessible via the Internet
-* Sanitize  your data inputs on any custom built web applications
+* Sanitise your data inputs on any custom built web applications
 * Use high-quality code from trusted sources
 * Always update to the latest web application version
 * Perform regular database audits
@@ -67,7 +67,7 @@ Additionally, If an XSS attack returns a code 200 (Web Request success), Threat 
 
 Attackers will commonly try XSS injections on your site, the best ways to prevent these attacks from being successful are:
 
-* Sanitize  your data inputs on any custom built web applications
+* Sanitise your data inputs on any custom built web applications
 * Use high-quality code from trusted sources
 * Always update to the latest web application version
 * Perform regular code audits
@@ -104,7 +104,7 @@ Many vulnerability scanners will run a non-malicious shellshock attack against a
 
 ### What is this attack
 
-Another common web attack is a directory traversal attack, an exploit that attempts to access files on your server not imminently accessible through a web interface. This attack takes advantage of insecure file permissions and web requests that have not been sanitized. This exploit could allow an attacker to view the `/etc/passwd` file of your server for example, or access directories contain sensitive information like payment gateway details or credentials.
+Another common web attack is a directory traversal attack, an exploit that attempts to access files on your server not imminently accessible through a web interface. This attack takes advantage of insecure file permissions and web requests that have not been sanitised. This exploit could allow an attacker to view the `/etc/passwd` file of your server for example, or access directories contain sensitive information like payment gateway details or credentials.
 
 Directory traversal attacks can be detected by monitoring for web requests that seem to be navigating up to parent directories. For example, if our website is located at `/var/www/html`, an attacker could utilise this attack to access our `/etc/passwd` files with `https://website.com/../../../../etc/passwd`.
 
@@ -130,7 +130,7 @@ Additionally, If a Directory Traversal attack returns a code 200 (Web Request su
 
 ### What is this attack
 
-Requiring little introduction, this type of attack is when an attacker attempts to run commands on your server through malicious or malformed web requests. This can be especially dangerous if your web server does not properly sanitize inputs, or if your web server runs a privileged user.
+Requiring little introduction, this type of attack is when an attacker attempts to run commands on your server through malicious or malformed web requests. This can be especially dangerous if your web server does not properly sanitise inputs, or if your web server runs a privileged user.
 
 For example, PHP naively supports a function to execute a string of text as a command on the host system this function, exec, can very useful when creating legitimate code, but it can also be easily exploited to run malicious code if not protected against or properly managed.
 
@@ -257,7 +257,7 @@ Regex: `?-d | ?-s | ?-a | ?-b | ?-w`
 
 Although dangerous, Threat Monitoring will not immediately block an IP if PHP CGI-bin Vulnerability is detected. This is to prevent more advanced, legitimate web queries from immediately being blocked. If an IP continues to submit PHP CGI-bin Vulnerability requests, the IP will be blocked, see the 'Remediations and blocking' section below
 
-Another way to secure your site against this type of attack is to configure your site to not accept requests starting with a `-` and not containing a `=` through. A rule like the below could be used on apache sites using mod_rewrite:
+Another way to secure your site against this type of attack is to configure your site to not accept requests starting with a `-` and not containing a `=` through. A rule like the below could be used on Apache sites using mod_rewrite:
 
 ```php
          RewriteCond %{QUERY_STRING} ^(%2d|-)[^=]+$ [NC]

@@ -4,7 +4,7 @@
 
 # NFS File Server Default Configuration
 
-Network File System (NFS) is a file transfer protocol that gives a client machine access to a directory/files on a remote server, for example it can be used in conjuction with multiple web servers to allow for a common store for web content, below are the default settings/components installed at point of deployment:
+Network File System (NFS) is a file transfer protocol that gives a client machine access to a directory/files on a remote server, for example it can be used in conjunction with multiple web servers to allow for a common store for web content, below are the default settings/components installed at point of deployment:
 
 ```eval_rst
 +-----------------------------+-----------------------+

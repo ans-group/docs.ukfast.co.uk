@@ -1,6 +1,6 @@
 # Downloading Files
 
-Files can be downloaded from FASTdrive in order to be used locally. Firstly, navigate to the folder where the file that you'd like to download is situated.
+Files can be downloaded from FastDrive in order to be used locally. Firstly, navigate to the folder where the file that you'd like to download is situated.
 
 Once you have found where your file is located, you need to left-click the file name.
 

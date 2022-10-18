@@ -1,6 +1,6 @@
-# Creating Folders in FASTdrive
+# Creating Folders in FastDrive
 
-Primarily, folders are created within the FASTdrive web app. In order to create a folder, navigate to either your __Personal Folders__ or your __Shared Folders__. If you navigate to your __Personal Folders__ you will see the following screen. Of course, if you already have some files here, they will be listed.
+Primarily, folders are created within the FastDrive web app. In order to create a folder, navigate to either your __Personal Folders__ or your __Shared Folders__. If you navigate to your __Personal Folders__ you will see the following screen. Of course, if you already have some files here, they will be listed.
 
 ![Image57](files/Image57.png)
 

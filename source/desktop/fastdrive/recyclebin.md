@@ -1,6 +1,6 @@
-# The FASTdrive recycle bin
+# The FastDrive recycle bin
 
-The FASTdrive recycle bin contains files and folders that have been deleted from your account. Files that have been deleted and therefore
+The FastDrive recycle bin contains files and folders that have been deleted from your account. Files that have been deleted and therefore
 moved to the recycle bin will stay there for a maximum of 45 days. It's not possible to recover a file 45 days after it was originally
 deleted and if you permanently delete a file from the recycle bin before the end of this 45 day period, it cannot be recovered.
 

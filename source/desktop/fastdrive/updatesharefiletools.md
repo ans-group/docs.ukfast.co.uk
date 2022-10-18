@@ -33,12 +33,12 @@ To find out how to identify how up to date your tool is, use the instructions be
 
 ```
 
-**_This instruction guide should assist you in getting logged in for the first time. If you have any questions or still require assistance, please contact the FASTdesk support team on 0800 923 0617_**
+**_This instruction guide should assist you in getting logged in for the first time. If you have any questions or still require assistance, please contact the FastDesk support team on 0800 923 0617_**
 
 ```eval_rst
    .. title:: Upgrade to newer ShareFile tools
    .. meta::
       :title: Upgrade to newer ShareFile tools | UKFast Documentation
       :description: Detailed guidance on upgrading ShareFile tools to the latest version
-      :keywords: FASTdrive, ShareFile, Update, Citrix, Outlook, Windows, macOS, TLS
+      :keywords: FastDrive, ShareFile, Update, Citrix, Outlook, Windows, macOS, TLS
 ```

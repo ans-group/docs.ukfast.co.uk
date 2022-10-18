@@ -19,3 +19,14 @@ Built solely for business use, FastDrive combines Citrix® Files and UKFast's ow
    sharingfiles
    addressbooks
    techinformation
+   addinganemployeefromexcel
+   addinganemployeemanually
+   addingclients
+   browsingandmanagingemployees
+   dashboard
+   deletingfilesandfolders
+   downloadingfiles
+   drivemapper
+   loggingin
+   singlesignon
+   updatesharefiletools

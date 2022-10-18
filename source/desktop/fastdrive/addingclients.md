@@ -14,7 +14,7 @@ Firstly, navigate to the __People__ tab which can be seen on the left-hand side 
 
 ## Step 2
 
-Next, in order to add a client, you need to enter their email address. This will be used in order to sign into FASTdrive as a client user.
+Next, in order to add a client, you need to enter their email address. This will be used in order to sign into FastDrive as a client user.
 
 ![Image71](files/Image71.png)
 

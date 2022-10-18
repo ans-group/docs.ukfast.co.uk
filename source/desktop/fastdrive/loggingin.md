@@ -1,8 +1,8 @@
-# Logging into FASTdrive
+# Logging into FastDrive
 
 ## First-time login
 
-Before you log in for the first time, you will need to navigate to the email account which is associated with your FASTdrive account in order to activate your account.
+Before you log in for the first time, you will need to navigate to the email account which is associated with your FastDrive account in order to activate your account.
 
 You will see an activation email which looks similar to the below:
 
@@ -18,7 +18,7 @@ Once you have run through these steps you will be automatically signed in.
 
 ## Standard login
 
-To login, you need to navigate to your unique FASTdrive URL. This will be sent to you in a ticket along with your FASTdrive admin user credentials.
+To login, you need to navigate to your unique FastDrive URL. This will be sent to you in a ticket along with your FastDrive admin user credentials.
 
 Once you have run through the first time login process, you can login every time by entering your email address and password.
 

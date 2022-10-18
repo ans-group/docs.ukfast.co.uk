@@ -44,13 +44,13 @@ Communication can be tested on a Linux system using a utility like `netcat`, an 
 
 **Command**
 
-```
+```text
 netcat -z -v 185.234.39.17 443
 ```
 
 **Success Response**
 
-```
+```text
 Ncat: Version 7.50 ( https://nmap.org/ncat )
 Ncat: Connected to 185.234.39.17:443.
 Ncat: 0 bytes sent, 0 bytes received in 0.02 seconds.
@@ -67,7 +67,7 @@ Upon selecting your OS, the needed commands will be shown to you. These commands
 
 The provided commands will attempt to escalate to the privileged root user.
 
-```
+```text
 sudo -i
 ```
 
@@ -75,7 +75,7 @@ If your current user is not able to escalate it's permissions to the root user o
 
 When you have root access, please continue to install our UKFast Defensive Security yum or apt package repository onto your server and then install our Threat Monitoring package and its dependencies via the commands shown on your MyUKFast page. An example for a CentOS 7 installation is shown below.
 
-```
+```text
 [root@my-server ~]$ rpm --import https://repo.thmon.ukfast.co.uk/key/UKFDEFSEC-GPG-KEY && \
 cat > /etc/yum.repos.d/ukfast-defensive-security.repo <<\EOF
 [ukfast_defensive_security]
@@ -87,7 +87,7 @@ baseurl=https://repo.thmon.ukfast.co.uk/yum/rhel-centos-6
 EOF
 ```
 
-```
+```text
 [root@my-server ~]$ yum install threat-monitoring -y
 ```
 
@@ -122,3 +122,4 @@ To set a contact to receive Threat Monitoring alerts, press the letter icon next
         :title: Installing Threat Monitoring on a non-UKFast server
         :description: Guidance on installing UKFast's Threat Monitoring on a non-UKFast server
         :keywords: threat monitoring, alerts, security, compliance, rules, rulesets, ukfast, hosting, file integrity monitoring, rootkit, detection, vulnerability scan, scans, hids, intrusion detection, set up
+```

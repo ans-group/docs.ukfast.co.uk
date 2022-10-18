@@ -12,7 +12,7 @@ Firstly, navigate to the __People__ tab which can be seen on the left-hand side 
 
 ## Step 2
 
-Next, you will need to provide the user's email address, which will be used as their username to log into FASTdrive.
+Next, you will need to provide the user's email address, which will be used as their username to log into FastDrive.
 
 ![Image13](files/Image13.png)
 

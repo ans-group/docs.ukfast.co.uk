@@ -1,13 +1,13 @@
 # Address books
 
 ```eval_rst
-  .. title:: FASTdrive | Addressbooks
+  .. title:: FastDrive | Addressbooks
   .. meta::
-    :title: FASTdrive | Addressbooks | UKFast Documentation
-    :description: Information on how to use addressbooks in FASTdrive
+    :title: FastDrive | Addressbooks | UKFast Documentation
+    :description: Information on how to use addressbooks in FastDrive
 ```
 
-There are 2 different address books available in FASTdrive; the __shared address book__ and the __personal address book__. When you are creating an employee account, you will have the option to add the user to one of, or both of these address books.
+There are 2 different address books available in FastDrive; the __shared address book__ and the __personal address book__. When you are creating an employee account, you will have the option to add the user to one of, or both of these address books.
 
 The __shared address book__ contains contacts which are visible to all employee users. The shared address book is useful because it allows your employee users to easily send files and messages to each other. All employee users can add users to the shared address book and you can also add client users here as well as employee users. However, only employee users will be able to see this address book as client users will be prevented from seeing this due to their permission settings.
 
