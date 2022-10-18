@@ -105,7 +105,7 @@ There have been a range of VPN Profiles created, which have various levels of en
 ```
 
 ```eval_rst
-   .. title:: VPNs
+   .. title:: eCloud VPC VPNs
    .. meta::
       :title: eCloud VPC VPNs | UKFast Documentation
       :description: Site-to-Site IPsec VPNs in eCloud VPC
