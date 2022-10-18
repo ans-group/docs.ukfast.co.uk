@@ -170,7 +170,7 @@ This shows the connection to `lee.io` over port `3306` was successful. Unless yo
 
 The interface we want to check here is `eth0`. Here are some examples.
 
-```console
+```text
 [root@c7 ~]# tcpdump -Alnni eth0
 tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
 listening on eth0, link-type EN10MB (Ethernet), capture size 65535 bytes
@@ -249,8 +249,6 @@ We'll try not to make your head spin but here are some of the most useful comman
 <head>
     <meta charset="utf-8" />
     <link rel="shortcut icon" href="/favicon.ico">
----
----
 ```
 
 This performed a `GET` request against the site `www.ukfast.co.uk`. As you can see, the site's source code was displayed. Apart from seeing that a response was retrieved, this isn't especially useful.
@@ -340,8 +338,6 @@ You may want to test a site against an IP before its DNS record has been changed
 [root@c7 ~]# curl testdomain.com
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" data-adblockkey="MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAKrfIMFkSaoTSqKmC+BrghK0CpDHc0MuVzmMHin8LIORhpXbped+iYhSnZurWnEO0zcKcVIrzp026LVc5pMB9bUCAwEAAQ==_k30gkd/zAhhXt9eui+IJt66Wl3Fl7A0MNcpds/Ub3yjgmHPt+tNYiJiutb7b9/liIU+l3dGaeXvBJ+OC21ynAA==">
----
----
 ```
 
 We are now going to test this domain against a server with IP `46.37.172.196` and insert a Host header with the `-H` flag:

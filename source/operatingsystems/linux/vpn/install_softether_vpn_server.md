@@ -211,25 +211,9 @@ Here we will use `vpncmd` to configure our VPN server.
 
 ### Step 5: Generate a Let's Encrypt certificate
 
-Let's Encrypt uses a package called `certbot` which you install on the VPN server, which automates the generation of the private key, the signing and downloading of the certificate. For that to work it requires that the server be accessible from the Let's Encrypt service on specific ports, as shown:
+Check out this link for a guide on using Certbot to automate generating Let's Encrypt certificates: [SafeDNS Authenticator plugin for Certbot](/domains/safedns/certbotplugin)
 
-```eval_rst
-+------------+------+------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+
-|   Plugin   | Auth | Inst |                                                                                                            Notes                                                                                                           |             Challenge            |
-+------------+------+------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+
-|   apache   |   Y  |   Y  |                                                        Automates obtaining and installing a cert with Apache 2.4 on Debian-based distributions with libaugeas0 1.0+.                                                       |         tls-sni-01 (443)         |
-+------------+------+------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+
-|   webroot  |   Y  |   Y  |                                                                     Obtains a cert by writing to the webroot directory of an already running webserver.                                                                    |           http-01 (80)           |
-+------------+------+------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+
-|    nginx   |   Y  |   N  |                                                               Automates obtaining and installing a cert with NGINX. Alpha release shipped with Certbot 0.9.0.                                                              |         tls-sni-01 (443)         |
-+------------+------+------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+
-| standalone |   Y  |   Y  | Uses a "standalone" webserver to obtain a cert. Requires port 80 or 443 to be available. This is useful on systems with no webserver, or when direct integration with the local webserver is not supported or not desired. | http-01 (80) or tls-sni-01 (443) |
-+------------+------+------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+
-|   manual   |   Y  |   N  |                                                                  Helps you obtain a cert by giving you instructions to perform domain validation yourself.                                                                 |    http-01 (80) or dns-01 (53)   |
-+------------+------+------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+
-```
-
-Further reading: <https://certbot.eff.org/docs/using.html>
+Further reading: [https://certbot.eff.org/docs/using.html](https://certbot.eff.org/docs/using.html)
 
 Install the `certbot` package from the EPEL repository as follows:
 
@@ -251,7 +235,7 @@ certbot certonly --standalone-supported-challenges http-01 --standalone -d vpn.m
 
 If `certbot` managed to generate and validate your certificate, then you should receive a message like the following:
 
-```bash
+```text
 IMPORTANT NOTES:
  - Congratulations! Your certificate and chain have been saved at
    /etc/letsencrypt/live/vpn.mydomainname.com/fullchain.pem. Your cert
