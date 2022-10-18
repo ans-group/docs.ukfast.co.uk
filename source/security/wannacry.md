@@ -91,9 +91,9 @@ The above command significantly reduces the available backup set, however if you
 * Enabling software firewall(s) between servers within the same subnet. Windows Firewall can be configured to prevent communication on SMB protocol ports between servers, this can be utilised to reduce risk of malware spread to multiple servers behind a firewall.
 * Disabling the SMB protocol - If you have no requirement for the SMB protocol to be utilised, this can be disabled via registry changes. Disabling SMB requires a server restart, SMB is required for certain server functionality, please contact our support team before proceeding with any changes to live systems.
 * AppLocker implementation (available within Windows Server 2008 R2 and above) - AppLocker can be implemented to allow system administrators to impose restrictions on user access of executables, prevention of user run scripts, denial of user performed software installation/updates and prevention of changes to system `.dll` and `.ocx` files.  Click [here for details](https://technet.microsoft.com/en-us/library/dd759117(v=ws.11).aspx)
-* Hosts file DNS redirection - Wana DeCrypt0r 2.0 is known to retrieve a TOR client via the following address; https://dist.torproject.org/torbrowser/6.5.1/tor-win32-0.2.9.10.zip
+* Hosts file DNS redirection - <nospell>Wana DeCrypt0r</nospell> 2.0 is known to retrieve a TOR client via the following address; https://dist.torproject.org/torbrowser/6.5.1/tor-win32-0.2.9.10.zip
 The TOR `.onion` network is also utilised
-Adding a new HOSTS entry to redirect DNS lookup's to this site and onion network;
+Adding a new HOSTS entry to redirect DNS lookups to this site and onion network;
 
 ```test
 0.0.0.0 dist.torproject.org

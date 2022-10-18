@@ -113,6 +113,7 @@ DDoSX
 decrypt
 decrypted
 decrypting
+Decryptor
 decrypts
 deduplication
 delist
@@ -125,6 +126,12 @@ DevOps
 DHCP
 DHE
 Diffie
+EternalBlue
+Telefonica
+McAfee's
+AppLocker
+executables
+
 DKIM
 DMTF
 DNS
