@@ -1,6 +1,6 @@
 # Navigating the dashboard
 
-The FASTdrive web application dashboard contains your recent files, shortcuts, tutorials, and helpful links all in one place.
+The FastDrive web application dashboard contains your recent files, shortcuts, tutorials, and helpful links all in one place.
 
 ## Recent Files
 
@@ -10,7 +10,7 @@ Files that you have recently accessed will be shown here. Showing the files that
 
 ## Shortcuts
 
-A variety of shortcuts are available on the FASTdrive home screen. These allow you to jump to certain areas of the web application quickly.
+A variety of shortcuts are available on the FastDrive home screen. These allow you to jump to certain areas of the web application quickly.
 
 ![Image210](files/Image210.png)
 
@@ -25,3 +25,10 @@ A wide range of video tutorials are available in order to assist you. These tuto
 Alongside these video tutorials are a range of helpful links. These are written articles which provide lots of information on a variety of different matters. These can be seen as an extension to the video tutorials mentioned above.
 
 ![Image212](files/Image212.png)
+
+```eval_rst
+   .. title:: FastDrive | Navigating The Dashboard
+   .. meta::
+      :title: FastDrive | Navigating The Dashboard | UKFast Documentation
+      :description: Detailed guidance on navigating the dashboard in FastDrive
+```

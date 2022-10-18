@@ -2,7 +2,7 @@
 
 You can use access IPs on listeners to block certain IPs from accessing your load balancer (block list) or only allow certain IPs to access your load balancer (allow list).
 
-To get started go to the listener you want to change the access IP settings for within the [load balancers section](https://my.ukfast.co.uk/load-balancers) of MyUKFast. Then click the `IP Allow / Block List` tab at the top of the screen.
+To get started go to the listener you want to change the access IP settings for within the [load balancers section](https://portal.ans.co.uk/load-balancers) of MyUKFast. Then click the `IP Allow / Block List` tab at the top of the screen.
 
 ![Access IPs Tab](../files/access_ips_1_small.png)
 
@@ -22,7 +22,7 @@ To remove an IP from the allow / block list, click the red cross next to the IP 
 
 ## Deploying
 
-Once you're happy with the access / block list settings, make sure you [deploy your changes](../deploying-changes.html).
+Once you're happy with the access / block list settings, make sure you [deploy your changes](/network/load-balancers/deploying-changes).
 
 ```eval_rst
    .. title:: Load Balancers | Access IPs

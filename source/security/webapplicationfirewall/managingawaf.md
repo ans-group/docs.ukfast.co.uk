@@ -11,7 +11,7 @@ It's important you keep UKFast updated as and when you make any changes to your 
   - changes to domains and where they are hosted
   - changes in how your web applications are hosted. This is of particular importance for attacks such as SQL injections or directory traversal attacks.
 
-Please raise a ticket via [MyUKFast](https://my.ukfast.co.uk) to provide us details of any relevant changes.
+Please raise a ticket via [MyUKFast](https://portal.ans.co.uk) to provide us details of any relevant changes.
 
 
 ```eval_rst

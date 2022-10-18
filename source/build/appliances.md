@@ -1,3 +1,7 @@
+```eval_rst
+:orphan:
+```
+
 # Default Configuration of UKFast Appliances
 
 UKFast has a wide range of bespoke appliances designed to cater for performance, high-availability or security requirements. Where UKFast appliances are deployed as virtual machines and configured in an active/passive configuration, one appliance is hosted on your solution's resources and the other on an appliances hypervisor.

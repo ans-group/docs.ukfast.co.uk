@@ -1,3 +1,7 @@
+```eval_rst
+:orphan:
+```
+
 # Updates
 
 To make sure your solution is patched and updated to the latest version, UKFast will configure the following update policy:

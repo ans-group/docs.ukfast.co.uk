@@ -1,8 +1,12 @@
+```eval_rst
+:orphan:
+```
+
 # SSL Certificates
 
 ```eval_rst
 .. seealso::
-   If you require any SSL Certificates as part of your solution, you can purchase these online via the MyUKFast Portal by going to https://my.ukfast.co.uk/ssl/buy.php
+   If you require any SSL Certificates as part of your solution, you can purchase these online via the MyUKFast Portal by going to https://portal.ans.co.uk/ssl/buy.php
 ```
 
 We offer a range of certificates from Single Domain, Multiple Domain to Wildcard Certificates each ranging from Domain Control Validated to Extended Validated certificates.
@@ -23,7 +27,7 @@ We offer a range of certificates from Single Domain, Multiple Domain to Wildcard
 
 **Wildcard SSL - A wildcard certificate protects a domain and unlimited sub-domains of that domain**
 
-- Wildcard SSL - Secure unlimited subdomains over multiple servers on a single Wildcard SSL. For example: If you own www.yourdomain.com and have several subdomains such as secure.yourdomain.com, mail.yourdomain.com, etc. you can manage them all under one Wildcard SSL.
+- Wildcard SSL - Secure unlimited subdomains over multiple servers on a single Wildcard SSL. For example: If you own `www.yourdomain.com` and have several subdomains such as `secure.yourdomain.com`, `mail.yourdomain.com`, etc., you can manage them all under one Wildcard SSL.
 
 - Enterprise SSL Pro Wildcard - The Enterprise SSL Pro Wildcard certificate is a cost effective and efficient means of securing all subdomains without the need to manage multiple certificates. All the features and compatibility of Enterprise SSL Pro are included.
 

@@ -51,7 +51,7 @@ The name server change may take up to 48 hours to propagate across the world. A 
 
 ## 2) Connect your domain
 
-- Login to [MyUKFast](https://my.ukfast.co.uk) and head to `DDoSX Protection` in the navigation menu.
+- Login to [MyUKFast](https://portal.ans.co.uk) and head to `DDoSX Protection` in the navigation menu.
 
 - Click on `Protect A Domain` button to start adding your domain.
 
@@ -81,7 +81,7 @@ Click on `Protect an A record` and fill in the details where `Hostname` is the s
 Select an `Action` between `Create new DNS record` or `Stage new DNS record`. The first option will add the record on DDoSX and switch the DNS to DDoSX<sup>®</sup>, and the second option will add the record, however the DNS will continue to point to the IP entered in `New IP Address`.
 For both actions the IP entered in `New IP Address` is the IP where your website is hosted or perhaps a load balancer VIP.
 
-SSL certificate you can either choose `Select SSL Certificate...` to select an SSL you have in [MyUKFast](https://my.ukfast.co.uk). `Add SSL Certificate` gives you the option to grab an external SSL and upload it to DDoSX<sup>®</sup>. Finally if you don't select an SSL certificate you can bring the site live without one just by clicking on `Add DNS Record`
+SSL certificate you can either choose `Select SSL Certificate...` to select an SSL you have in [MyUKFast](https://portal.ans.co.uk). `Add SSL Certificate` gives you the option to grab an external SSL and upload it to DDoSX<sup>®</sup>. Finally if you don't select an SSL certificate you can bring the site live without one just by clicking on `Add DNS Record`
 
 ![record](files/protect_record_ddosx.png)
 
@@ -113,7 +113,7 @@ Enter your SSL's Private Key, Certificate, any CA/Chain certificates (Optional) 
 
 ![addssl](files/ddosx_add_ssl.png)
 
-At this point, you should be able to go back into the `DNS Records` tab and select the SSL you want to apply via the `SSL` dropdown for each record. Only SSLs that are valid for the configured subdomain will show in the dropdown. For example, an SSL for only <nospell>`www.ukfast.co.uk`</nospell> and <nospell>`ukfast.co.uk`</nospell> will NOT show in the dropdown for <nospell>`my.ukfast.co.uk`</nospell>. Wildcard SSL certificates should show for all applicable subdomains.
+At this point, you should be able to go back into the `DNS Records` tab and select the SSL you want to apply via the `SSL` dropdown for each record. Only SSLs that are valid for the configured subdomain will show in the dropdown. For example, an SSL for only <nospell>`www.ukfast.co.uk`</nospell> and <nospell>`ukfast.co.uk`</nospell> will NOT show in the dropdown for <nospell>`portal.ans.co.uk`</nospell>. Wildcard SSL certificates should show for all applicable subdomains.
 
 Ensure that the `DDoSX Protection` toggle switch is enabled for all the domains you want to enable DDoSX<sup>®</sup> for. This will **NOT** put DDoSX<sup>®</sup> live just yet, toggling this switch will only enable the domain within DDoSX<sup>®</sup>.
 

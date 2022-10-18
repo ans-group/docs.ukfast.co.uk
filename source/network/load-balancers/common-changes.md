@@ -8,7 +8,7 @@ As traffic to your website grows, you may wish to increase its capacity by regis
 
 Once you've configured your new server and are happy for it to start receiving requests, follow the instructions below to add it to the target group your load balancer sends traffic to.
 
-Navigate to the load balancer you want to add the new target server to in [MyUKFast](https://my.ukfast.co.uk/load-balancers) then click on `Target Groups` at the top of the load balancer screen
+Navigate to the load balancer you want to add the new target server to in [MyUKFast](https://portal.ans.co.uk/load-balancers) then click on `Target Groups` at the top of the load balancer screen
 
 ![Target Group Tab](files/inactive_target_1_small.png)
 
@@ -42,7 +42,7 @@ As long as the rest of your configuration is valid, you will see a `Deploy Now` 
 
 SSL certificates have expiry dates which once reached will start to show security errors to users visiting the website. You can easily replace your load balancer's SSL certificates with a new one when they expire within MyUKFast.
 
-Firstly open the affected load balancer within [MyUKFast](https://my.ukfast.co.uk/load-balancers), then click on `Listeners` at the top of the overview screen.
+Firstly open the affected load balancer within [MyUKFast](https://portal.ans.co.uk/load-balancers), then click on `Listeners` at the top of the overview screen.
 
 ![Listeners Tab](files/expired_ssl_1_small.png)
 
@@ -74,7 +74,7 @@ The weight of a target server indicates how much traffic will be sent to that ta
 
 You can drain a target server to stop any traffic from going to it once the current requests have finished being dealt with. This stops a user's request from being interrupted and the user potentially getting an error.
 
-Navigate to the load balancer you want to edit in [MyUKFast](https://my.ukfast.co.uk/load-balancers) then click on `Target Groups` at the top of the load balancer screen
+Navigate to the load balancer you want to edit in [MyUKFast](https://portal.ans.co.uk/load-balancers) then click on `Target Groups` at the top of the load balancer screen
 
 ![Target Group Tab](files/inactive_target_1_small.png)
 
@@ -111,7 +111,7 @@ You may want to remove a target server from the load balancer to stop traffic go
 
 This will immediately take the target server out of load. If you're using "Source" as a load balancing method to send users to the same target server each time, this could disrupt their session. You should first [drain the server](#drain-traffic-from-a-particular-target-server).
 
-Navigate to the load balancer you want to edit in [MyUKFast](https://my.ukfast.co.uk/load-balancers) then click on `Target Groups` at the top of the load balancer screen.
+Navigate to the load balancer you want to edit in [MyUKFast](https://portal.ans.co.uk/load-balancers) then click on `Target Groups` at the top of the load balancer screen.
 
 ![Target Group Tab](files/inactive_target_1_small.png)
 

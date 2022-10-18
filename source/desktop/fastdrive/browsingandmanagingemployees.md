@@ -1,6 +1,6 @@
 # Browsing and Managing Employees
 
-The admin user can find other employee users on FASTdrive by navigating to the __People__ tab and clicking __Browse Employees__.
+The admin user can find other employee users on FastDrive by navigating to the __People__ tab and clicking __Browse Employees__.
 
 ![Image75](files/Image75.png)
 
@@ -14,7 +14,7 @@ You can manage an employee by clicking the cog icon next to their name. Pressing
 
 ![Image78](files/Image78.png)
 
-In the above view you can see basic data about the user such as their email address which they use to log into FASTdrive and their name. On the right-hand side you can see various user-level actions which you can initiate. Below, these are explained in more detail.
+In the above view you can see basic data about the user such as their email address which they use to log into FastDrive and their name. On the right-hand side you can see various user-level actions which you can initiate. Below, these are explained in more detail.
 
 __Disable User__ – This will disable the user and make the account inactive but will not delete the user. Even when disabled, accounts still use employee licenses.
 
@@ -33,3 +33,10 @@ You can also change some of the user's permissions by expanding the __User Acces
 You won't be able to adjust all permissions but you will be able to enable or disable some such as __Manage client users__ and __Create shared distribution groups__.
 
 ![Image80](files/Image80.png)
+
+```eval_rst
+   .. title:: FastDrive | Browsing and Managing Employees
+   .. meta::
+      :title: FastDrive | Browsing and Managing Employees | UKFast Documentation
+      :description: Detailed guidance on browsing and managing employees in FastDrive
+```

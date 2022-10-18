@@ -2,7 +2,7 @@
 
 To ensure the best possible experience, Threat Monitoring may only be installed on systems that meet or exceed the below system requirements. These requirements may be subject to change as Threat Monitoring improves.
 
-If you have any questions regarding the below or would like further information regarding a custom installation, please [contact UKFast support](https://my.ukfast.co.uk/pss/create).
+If you have any questions regarding the below or would like further information regarding a custom installation, please [contact UKFast support](https://portal.ans.co.uk/pss/create).
 
 ### Hardware requirements
 

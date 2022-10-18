@@ -123,7 +123,7 @@ It's very simple to remove a volume in eCloud Flex, by using the `openstack volu
 openstack volume delete 8a5ce311-f5cd-447e-ae19-08a75412c7a5
 ```
 
-If you face any problems with volumes in eCloud Flex, please raise a support ticket via [MyUKFast](https://my.ukfast.co.uk/pss/create), or call support directly on 0800 230 0032.
+If you face any problems with volumes in eCloud Flex, please raise a support ticket via [MyUKFast](https://portal.ans.co.uk/pss/create), or call support directly on 0800 230 0032.
 
 ```eval_rst
    .. title:: Managing Volumes in eCloud Flex

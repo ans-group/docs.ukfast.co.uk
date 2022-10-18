@@ -2,7 +2,7 @@
 
 You can use the Geo IP settings on a listener to allow or deny requests from specific countries and continents..
 
-To get started go to the listener you want to change the Geo IP settings for within the [load balancers section](https://my.ukfast.co.uk/load-balancers) of MyUKFast. Then click the `Geo IP Allow/Block List` tab at the top of the screen.
+To get started go to the listener you want to change the Geo IP settings for within the [load balancers section](https://portal.ans.co.uk/load-balancers) of MyUKFast. Then click the `Geo IP Allow/Block List` tab at the top of the screen.
 
 ![Geo IP Tab](../files/geo_ip_1.png)
 
@@ -33,7 +33,7 @@ To remove a country or continent from the allow or deny list, click the cross ne
 
 ## Deploying
 
-Once you're happy with the Geo IP settings, click the `Save` button at the bottom of the screen. Then make sure you [deploy your changes](../deploying-changes.html).
+Once you're happy with the Geo IP settings, click the `Save` button at the bottom of the screen. Then make sure you [deploy your changes](/network/load-balancers/deploying-changes).
 
 ```eval_rst
    .. title:: Load Balancers | Geo IP

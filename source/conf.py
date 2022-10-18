@@ -79,8 +79,6 @@ release = '0.1'
 # for source files.
 #exclude_trees = ['source/_themes']
 
-exclude_patterns = []
-
 with open('./exclusions.json', 'r') as file:
     data = json.load(file)
     exclude_patterns = data['build']
@@ -223,3 +221,7 @@ def setup(app):
         'enable_eval_rst': True,
     }, True)
     app.add_transform(AutoStructify)
+
+# nitpick_ignore = [
+#     ('', ''),
+# ]

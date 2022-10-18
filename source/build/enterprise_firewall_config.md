@@ -1,10 +1,14 @@
+```eval_rst
+:orphan:
+```
+
 # Firewall Configuration
 
 Establishing a barrier between trusted and untrusted networks, firewalls, when configured correctly can greatly increase the security of your Solution. UKFast provides a diverse range of firewall options to suit your requirements. Outlined below is the UKFast default firewall rules for both inbound and outbound access.
 
 ## Default Firewall Rules
 
-The following rules apply to all servers in the environment. Changes required for specific servers should be listed under the Custom Firewall Rules section of your Enterprise Launch Questionaire.
+The following rules apply to all servers in the environment. Changes required for specific servers should be listed under the Custom Firewall Rules section of your Enterprise Launch Questionnaire.
 
 ### Inbound:
 All ports closed.

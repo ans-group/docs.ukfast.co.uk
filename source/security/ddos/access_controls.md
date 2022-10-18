@@ -25,7 +25,7 @@ This combination allows you to build complex rule sets to meet your individual r
 
 ## Setting access controls
 
-To set access controls, go to the domain in question within the [DDoSX area of MyUKFast](https://my.ukfast.co.uk/ddosx/) and click on the `Access Control List` tab under `Configure`.  You will see a screen as follows:
+To set access controls, go to the domain in question within the [DDoSX area of MyUKFast](https://portal.ans.co.uk/ddosx/) and click on the `Access Control List` tab under `Configure`.  You will see a screen as follows:
 
 ![acl](files/acl.png)
 

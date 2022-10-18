@@ -2,7 +2,7 @@
 
 SSL two factor authentication (2FA) can be enabled for SSL VPN setups. This can either be based on certificates, or on a third party service called [Duo Security](https://duo.com/). If you choose to use Duo you will need to install the Duo app on your mobile phone.
 
-This may be a chargeable service - please [contact your UKFast account manager](https://my.ukfast.co.uk/account/your-account-manager.php) to discuss this further.
+This may be a chargeable service - please [contact your UKFast account manager](https://portal.ans.co.uk/account/your-account-manager.php) to discuss this further.
 
 ```eval_rst
 .. note::
@@ -11,7 +11,8 @@ This may be a chargeable service - please [contact your UKFast account manager](
 
 
 ```eval_rst
-.. meta::
+   .. title:: Two factor authentication on VPNs
+   .. meta::
      :title: Two factor authentication on VPNs | UKFast Documentation
      :description: Support for two factor authentication (2FA) on UKFast firewalls
      :keywords: ukfast, firewall, vpn, 2fa, two, factor, authentication, duo

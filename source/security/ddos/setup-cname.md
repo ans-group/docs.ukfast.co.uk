@@ -53,7 +53,7 @@ On the other hand, if you *only* wish to place subdomains that are not used in M
 
 ## 2) Connect and verify your domain
 
-- Login to [MyUKFast](https://my.ukfast.co.uk) and head to `DDoSX® Protection` in the navigation menu.
+- Login to [MyUKFast](https://portal.ans.co.uk) and head to `DDoSX® Protection` in the navigation menu.
 
 - Click the red `GET STARTED` button if this is your first domain, or click 'Add additional domain' in the top-right if this is an additional domain.
 
@@ -152,7 +152,7 @@ Enter your SSL's Private Key, Certificate, any CA/Chain certificates (Optional) 
 ans ddosx ssl create --friendly-name "something to identify the ssl" --key-file "/path/to/priv.key" --certificate-file "/path/to/cert.pem" --ca-bundle-file "/path/to/ca.pem"
 ```
 
-At this point, you should be able to go back into the `DNS Records` tab and select the SSL you want to apply via the `SSL` dropdown for each record. Only SSLs that are valid for the configured subdomain will show in the dropdown. For example, an SSL for only <nospell>`www.ukfast.co.uk`</nospell> and <nospell>`ukfast.co.uk`</nospell> will *not* show in the dropdown for <nospell>`my.ukfast.co.uk`</nospell>. Wildcard SSL certificates should show for all applicable subdomains.
+At this point, you should be able to go back into the `DNS Records` tab and select the SSL you want to apply via the `SSL` dropdown for each record. Only SSLs that are valid for the configured subdomain will show in the dropdown. For example, an SSL for only <nospell>`www.ukfast.co.uk`</nospell> and <nospell>`ukfast.co.uk`</nospell> will *not* show in the dropdown for <nospell>`portal.ans.co.uk`</nospell>. Wildcard SSL certificates should show for all applicable subdomains.
 
 Finally, click `Apply Changes` and your domain will now be set up on the UKFast DDoSX<sup>®</sup> network, and configured appropriately. (You should allow up to 10 minutes for the changes to be fully applied)
 

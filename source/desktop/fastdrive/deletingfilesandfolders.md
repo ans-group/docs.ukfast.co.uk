@@ -52,7 +52,7 @@ Once you've pressed __Delete__, you'll see the following information pop up on s
 
 ![Image106](files/Image106.png)
 
-Unfortunately, the FASTdrive recycle bin can't be accessed in Drive Mapper. However, this can be accessed on the Web App.
+Unfortunately, the FastDrive recycle bin can't be accessed in Drive Mapper. However, this can be accessed on the Web App.
 
 To access the recycle bin, open up the folders tab and click __Recycle Bin__ as shown below.
 
@@ -65,8 +65,9 @@ You can delete this file permanently by marking the check box and clicking __Del
 ![Image108](files/Image108.png)
 
 ```eval_rst
-   .. title:: FASTdrive | Deleting files and folders
+   .. title:: FastDrive | Deleting Files And Folders
    .. meta::
+      :title: FastDrive | Deleting Files And Folders | UKFast Documentation
       :description: Deleting files and folders
       :keywords: ukfast, fastdrive, files, folders
 ```

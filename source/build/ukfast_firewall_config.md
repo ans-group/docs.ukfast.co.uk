@@ -1,3 +1,7 @@
+```eval_rst
+:orphan:
+```
+
 # Firewall Configuration
 
 Establishing a barrier between trusted and untrusted networks, firewalls, when configured correctly can greatly increase the security of your system. UKFast provides a diverse range of firewall options to suit your requirements. Outlined below is the UKFast default firewall rules for both inbound and outbound access.
@@ -8,7 +12,7 @@ Please find below the UKFast Default Firewall rules for Inbound and Outbound acc
    Please note: Once your solution has been deployed, we would recommend that you use the MyUKFast Firewall Editor to refine these rules to ensure your solution is a secure as possible, we would stongly recommend restricting the likes of RDP and SSH to specific IP addresses.
 ```
 ## Default Firewall Rules
-The following rules apply to all servers in the environment. Changes required for specific servers should be listed under the Custom Firewall Rules section of your Launch Questionaire.
+The following rules apply to all servers in the environment. Changes required for specific servers should be listed under the Custom Firewall Rules section of your Launch Questionnaire.
 
 ### Inbound:
 ```eval_rst

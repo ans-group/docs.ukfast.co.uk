@@ -69,7 +69,7 @@ If your kernel version is earlier (lower) than the following list, you're vulner
 
 ### UKFast clients
 
-If you're one of our linux clients, you can still follow the non-UKFast section if you'd like, but we've implemented an easier patching process through your MyUKFast client area, [located here](https://my.ukfast.co.uk/server/package-update.php).
+If you're one of our linux clients, you can still follow the non-UKFast section if you'd like, but we've implemented an easier patching process through your MyUKFast client area, [located here](https://portal.ans.co.uk/server/package-update.php).
 
 Once you've followed that link and logged in, you should be confronted with something like this:
 

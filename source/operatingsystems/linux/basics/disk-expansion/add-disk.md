@@ -1,6 +1,6 @@
 # Add a new disk to the server
 
-When increasing the amount of disk space assigned to an eCloud virtual machine (VM), the simplest method is to add a new disk to the VM via [MyUKFast](https://my.ukfast.co.uk), and then add that disk into the Volume Group and Logical Volume for the `/` partition.
+When increasing the amount of disk space assigned to an eCloud virtual machine (VM), the simplest method is to add a new disk to the VM via [MyUKFast](https://portal.ans.co.uk), and then add that disk into the Volume Group and Logical Volume for the `/` partition.
 
 ```eval_rst
 .. warning::

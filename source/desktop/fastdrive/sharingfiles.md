@@ -1,15 +1,8 @@
 # Sharing files
 
-```eval_rst
-  .. title:: FASTdrive | Sharing Files
-  .. meta::
-    :title: FASTdrive | Sharing Files | UKFast Documentation
-    :description: Information on how to share files in FASTdrive
-```
+In FastDrive, you can share files and folders so that other people can access them. You can share files and folders with both FastDrive users and non-FastDrive users via the sharing feature that is available within FastDrive.
 
-In FASTdrive, you can share files and folders so that other people can access them. You can share files and folders with both FASTdrive users and non-FASTdrive users via the sharing feature that is available within FASTdrive.
-
-In order to share a file with someone else, firstly navigate to that file within the FASTdrive web app. In this instance I have delved into my personal folder so that I can share a folder named `TestFolder1`.
+In order to share a file with someone else, firstly navigate to that file within the FastDrive web app. In this instance I have delved into my personal folder so that I can share a folder named `TestFolder1`.
 
 ![Image213](files/Image213.png)
 
@@ -19,9 +12,9 @@ To the left of the folder name, there is a checkbox so that you can select this 
 
 Two options will then appear; __Email with ShareFile__ and __Get a Link__. These are two different ways of sharing files.
 
-__Email with ShareFile__ is more useful when you wish to share files with other FASTdrive users.
+__Email with ShareFile__ is more useful when you wish to share files with other FastDrive users.
 
-__Get a Link__ is more useful when you wish to share files with users that don't have FASTdrive.
+__Get a Link__ is more useful when you wish to share files with users that don't have FastDrive.
 
 ![Image215](files/Image215.png)
 
@@ -57,7 +50,7 @@ __Encrypt Email__ - If this option is selected, the user will be required to log
 
 __Send me a copy of this email__ - If this option is selected, you'll also be emailed the exact same copy of the email that is being sent to your recipient(s) __Note: If _Encrypt Email_ is selected, this option won't be available.__
 
-__Require recipients to log in__ - If this option is selected, the recipients will have to log in with their FASTdrive credentials before they can access any of the files that they have been sent.
+__Require recipients to log in__ - If this option is selected, the recipients will have to log in with their FastDrive credentials before they can access any of the files that they have been sent.
 
 __Allow recipients to:__ - Here, select __Full control__ __Note: If _Encrypt Email_ is selected, this option won't be available.__
 
@@ -77,7 +70,7 @@ If you click __Get a Link__, you can share a file by creating a specific URL lin
 
 As you can see, there is a text box at the top of the screen containing a URL. You can share this link with others so that they can access specific files.
 
-You can choose to add more files to share by hovering over the __Add more__ button. This will allow you to add more files and folders, either from FASTdrive or from your local computer
+You can choose to add more files to share by hovering over the __Add more__ button. This will allow you to add more files and folders, either from FastDrive or from your local computer
 
 ![Image224](files/Image224.png)
 
@@ -102,3 +95,11 @@ __For more information on how to add contacts to your address books and distribu
 [Distribution Groups](/desktop/fastdrive/distributiongroups)
 
 [Address Books](/desktop/fastdrive/addressbooks)
+
+```eval_rst
+  .. title:: FastDrive | Sharing Files
+  .. meta::
+    :title: FastDrive | Sharing Files | UKFast Documentation
+    :description: Information on how to share files in FastDrive
+```
+

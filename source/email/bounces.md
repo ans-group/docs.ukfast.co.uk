@@ -28,7 +28,7 @@ How you set your hostname varies from operating system to operating system, and 
 Reverse-DNS is a system which lets you define what hostname an IP address resolves to. Your server will have an IP address and, by default, will reverse-resolve to `ip.ip.ip.ip.srvlist.ukfast.net`. It's important to set you hostname to something that does not contain an IP address, as the default does.
 
 
-To configure it, log in to [MyUKFast](https://my.ukfast.co.uk) and go to the server in question, where you will see a page like this:
+To configure it, log in to [MyUKFast](https://portal.ans.co.uk) and go to the server in question, where you will see a page like this:
 
 ![Reverse DNS](files/rdns.png)
 

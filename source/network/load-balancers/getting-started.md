@@ -2,7 +2,7 @@
 
 ## Load Balancer Overview
 
-Once your new load balancer has been launched, it will appear in the [load balancers section](https://my.ukfast.co.uk/load-balancers) of your MyUKFast account. Any load balancers which haven't had their initial deployment will be marked with "Initial Setup Required".
+Once your new load balancer has been launched, it will appear in the [load balancers section](https://portal.ans.co.uk/load-balancers) of your MyUKFast account. Any load balancers which haven't had their initial deployment will be marked with "Initial Setup Required".
 
 Clicking on the load balancer will take you to the screens which you use to configure and deploy your new load balancer.
 
@@ -31,7 +31,7 @@ There are also optional aspects that can be configured within a load balancer, f
 - SSL certificates
 - Access control rules
 
-For more information on these terms, check out the [key terms page](key-terms.html).
+For more information on these terms, check out the [key terms page](key-terms).
 
 ## Target Groups
 
@@ -39,7 +39,7 @@ The first step of configuring a load balancer is to add a target group. You can 
 
 ![Add Target Group](files/getting_started_3_small.png)
 
-Fill the form in and then press "Create Target Group" at the bottom right of the form. For more information on target group settings, check the [target groups documentation](components/target-groups.html).
+Fill the form in and then press "Create Target Group" at the bottom right of the form. For more information on target group settings, check the [target groups documentation](components/target-groups).
 
 ## Targets
 
@@ -47,7 +47,7 @@ Once you've created a target group, you can start adding targets to it. Targets 
 
 ![Add Target](files/getting_started_4_small.png)
 
-Fill the form in and then press "Create Target" at the bottom right of the form. For more information on target settings, check the [targets documentation](components/targets.html).
+Fill the form in and then press "Create Target" at the bottom right of the form. For more information on target settings, check the [targets documentation](components/targets).
 
 ## Listeners
 
@@ -55,11 +55,11 @@ Once you've created a target group and at least one target, you can add a listen
 
 ![Add Listener](files/getting_started_5_small.png)
 
-Fill the form in and then press "Create Listener" at the bottom right of the form. For more information on listener settings, check the [listeners documentation](components/listeners.html).
+Fill the form in and then press "Create Listener" at the bottom right of the form. For more information on listener settings, check the [listeners documentation](components/listeners).
 
 ## First Deployment
 
-Once you have finished configuring your load balancer, it is time to [deploy your changes](deploying-changes.html).
+Once you have finished configuring your load balancer, it is time to [deploy your changes](/network/load-balancers/deploying-changes).
 
 ```eval_rst
    .. title:: Load Balancers | Getting Started

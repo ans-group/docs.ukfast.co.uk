@@ -1,3 +1,7 @@
+```eval_rst
+:orphan:
+```
+
 # UKFast Build Documentation
 
 Below are the different facets that make up a UKFast solution, click on the links to find out more information.
@@ -77,7 +81,7 @@ Below are the different facets that make up a UKFast solution, click on the link
   <div class='docs-flex-item'>
       <h2>Other</h2>
       <ul>
-          <li><a href="fastdrive.html">FASTdrive</a></li>
+          <li><a href="fastdrive.html">FastDrive</a></li>
       </ul>
   </div>
 </div>

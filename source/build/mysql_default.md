@@ -1,6 +1,10 @@
+```eval_rst
+:orphan:
+```
+
 # Database Server Default Configuration
 
-MySQL is a popular open source relational database management system which is most commonly used for a web database, Percona and MariaDB are forks of the original MySQL repository and offer slighty different feature sets, below are the default settings/components installed for MySQL/Percona/MariaDB at point of deployment:
+MySQL is a popular open source relational database management system which is most commonly used for a web database, Percona and MariaDB are forks of the original MySQL repository and offer slightly different feature sets, below are the default settings/components installed for MySQL/Percona/MariaDB at point of deployment:
 
 ```eval_rst
 +--------------------------------+-------------------------+

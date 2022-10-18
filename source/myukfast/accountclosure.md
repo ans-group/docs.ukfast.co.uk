@@ -19,18 +19,18 @@ Before closing your UKFast account, there are a few things to consider.
   - [**Deleting eCloud Public v1 VMs**](https://docs.ukfast.co.uk/ecloud/public/delete-vm.html)
   - [**Deleting eCloud VPC instances**](https://docs.ukfast.co.uk/ecloud/ecloud-vpc/instances.html#delete-instances)
   - [**Deleting an eCloud VPC**](https://docs.ukfast.co.uk/ecloud/ecloud-vpc/vpc.html#deleting-your-vpc)
-  - [**Deleting a Shared Exchange domain**](https://my.ukfast.co.uk/shared-exchange/index.php)
+  - [**Deleting a Shared Exchange domain**](https://portal.ans.co.uk/shared-exchange/index.php)
 * Do you have any outstanding bills? You can check this within the [**Billing**](https://docs.ukfast.co.uk/myukfast/billing.html) section of MyUKFast.
 * Have you backed up any existing data you may have on your servers?
   - [**How to backup your MySQL databases**](https://docs.ukfast.co.uk/operatingsystems/linux/mysql/backups.html)
   - [**How to transfer files to and from a server**](https://docs.ukfast.co.uk/operatingsystems/windows/commonissues/copyfiletoserver.html)
 
 ## Closing your account
-In order to begin the process of cancellation or account closure, you will need to contact your [**Account Manager**](https://my.ukfast.co.uk/account/your-account-manager.php).
+In order to begin the process of cancellation or account closure, you will need to contact your [**Account Manager**](https://portal.ans.co.uk/account/your-account-manager.php).
 
 Contacting your **Account Manager** is very simple and they are available via *telephone* or *email*.
 
-* You can find all of their contact details on the [**My Account Manager**](https://my.ukfast.co.uk/account/your-account-manager.php) page in MyUKFast.
+* You can find all of their contact details on the [**My Account Manager**](https://portal.ans.co.uk/account/your-account-manager.php) page in MyUKFast.
 * When logged into MyUKFast, click **My Account > My Account Manager**.
 * Additionally, you can send a message directly to your Account Manager to request a call back at a specific date and time, as below.
 

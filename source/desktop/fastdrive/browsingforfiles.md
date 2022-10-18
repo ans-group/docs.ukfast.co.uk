@@ -2,7 +2,7 @@
 
 You may encounter an issue where you can't find one of your files or folders. This may be because you haven't accessed it for a while and can't remember exactly where it is located.
 
-If this is the case, you can directly search for a file or folder using the search function in the FASTdrive web app.
+If this is the case, you can directly search for a file or folder using the search function in the FastDrive web app.
 
 At the top of every page you will see a small magnifying glass. Clicking this icon will expand the search box.
 
@@ -33,8 +33,9 @@ If you have the relevant permissions on your account, you will be able to see ot
 
 
 ```eval_rst
-   .. title:: FASTdrive | Browsing for files
+   .. title:: FastDrive | Browsing For Files
    .. meta::
+      :title: FastDrive | Browsing For Files | UKFast Documentation
       :description: Guidance on browsing for files
       :keywords: ukfast, fastdrive, files, browsing
 ```

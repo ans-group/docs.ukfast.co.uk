@@ -1,3 +1,7 @@
+```eval_rst
+:orphan:
+```
+
 # Database Server Default Configuration
 
 UKFast will setup Microsoft SQL Server with a default configuration that conforms to Microsoft best practices.

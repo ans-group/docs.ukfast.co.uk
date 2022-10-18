@@ -301,7 +301,7 @@ If you wish to use text other than the heading for the section that you're linki
   *  For external links
 
   ```markdown
-  [Go to the domain transfer in page in MyUKFast](https://my.ukfast.co.uk/domains/transfer-in.php).
+  [Go to the domain transfer in page in MyUKFast](https://portal.ans.co.uk/domains/transfer-in.php).
   ```
 
 * In reStructuredText

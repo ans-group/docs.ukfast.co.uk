@@ -1,12 +1,13 @@
 # What factors affect DNS propagation time?
 
 ```eval_rst
+   .. title:: Domain Names | DNS Propagation
    .. meta::
-      :title: Domain Names | DNS Propagation| UKFast Documentation
+      :title: Domain Names | DNS Propagation | UKFast Documentation
       :description: How to change your domain nameservers with UKFast
 ```
 
-When updating domain name system (DNS) records for your domain there are a number of considerations to make when predicting the amount of time that the settings will take to be propagated across the internet. By default, it will likely take up to 24 hours (sometimes longer) for those updates to propagate across the internet when adding or editing the DNS records for your domain within [SafeDNS<sup>®</sup>](https://my.ukfast.co.uk/safedns/index.php).
+When updating domain name system (DNS) records for your domain there are a number of considerations to make when predicting the amount of time that the settings will take to be propagated across the internet. By default, it will likely take up to 24 hours (sometimes longer) for those updates to propagate across the internet when adding or editing the DNS records for your domain within [SafeDNS<sup>®</sup>](https://portal.ans.co.uk/safedns/index.php).
 
 You can make changes to your SOA records to attempt to speed up the propagation process, however there are a number of other factors outside of our control.
 

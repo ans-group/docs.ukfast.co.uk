@@ -50,7 +50,7 @@ When the migration completes, you can go to the "Domains" page linked on the lef
 You have successfully performed a Plesk to Plesk Migration!
 
 Before amending your DNS to point to your new server, you can test your websites using a hosts file change
-You can view more information on that [here](https://my.ukfast.co.uk/safedns/index.php)
+You can view more information on that [here](https://portal.ans.co.uk/safedns/index.php)
 
 ```eval_rst
   .. title:: Performing a Plesk to Plesk Migration

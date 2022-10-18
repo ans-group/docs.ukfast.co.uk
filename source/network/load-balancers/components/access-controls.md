@@ -4,7 +4,7 @@ Access controls can be added to both the listeners and target groups of your loa
 
 Certain actions and conditions are only available for listeners or target groups not both (for instance the use target group action can only be used with listeners). Only the actions and conditions you can use for that type of access control will be shown within MyUKFast.
 
-To get started adding your access control go to either the listener or target group you want to add an access control to within the [load balancers section](https://my.ukfast.co.uk/load-balancers) of MyUKFast. Then click the `Access Controls` tab at the top of the screen.
+To get started adding your access control go to either the listener or target group you want to add an access control to within the [load balancers section](https://portal.ans.co.uk/load-balancers) of MyUKFast. Then click the `Access Controls` tab at the top of the screen.
 
 ![Access Controls Tab](../files/access_controls_1_small.png)
 
@@ -41,7 +41,7 @@ If you are looking for behaviour that's not on this list, speak to your account 
 
 ![Saving Access Controls](../files/access_controls_3_small.png)
 
-Once you've finished an access control, click the `Create Access Control` button shown above to save the new access control. Once you've set up all the access controls you need, make sure you [deploy your changes](../deploying-changes.html).
+Once you've finished an access control, click the `Create Access Control` button shown above to save the new access control. Once you've set up all the access controls you need, make sure you [deploy your changes](/network/load-balancers/deploying-changes).
 
 If you are looking for behaviour that's not on this list, speak to your account manager to see if we can add it to our templates list.
 
@@ -49,7 +49,7 @@ If you are looking for behaviour that's not on this list, speak to your account 
 
 ![Saving Access Controls](../files/access_controls_3_small.png)
 
-Once you've finished an access control, click the `Create Access Control` button shown above to save the new access control. Once you've set up all the access controls you need, make sure you [deploy your changes](../deploying-changes.html).
+Once you've finished an access control, click the `Create Access Control` button shown above to save the new access control. Once you've set up all the access controls you need, make sure you [deploy your changes](/network/load-balancers/deploying-changes).
 
 ```eval_rst
    .. title:: Load Balancers | Access Controls

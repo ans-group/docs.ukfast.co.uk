@@ -1,5 +1,6 @@
 3PAR
 AAAA
+AbuseIPDB
 accreditations
 ACL
 actioned
@@ -101,6 +102,7 @@ CVStorage
 cyber
 Cyberduck
 DaaS
+datacentre
 dataset
 datastore
 DBA
@@ -111,6 +113,7 @@ DDoSX
 decrypt
 decrypted
 decrypting
+Decryptor
 decrypts
 deduplication
 delist
@@ -123,6 +126,12 @@ DevOps
 DHCP
 DHE
 Diffie
+EternalBlue
+Telefonica
+McAfee's
+AppLocker
+executables
+
 DKIM
 DMTF
 DNS
@@ -167,6 +176,7 @@ FASTcloudbackup
 FastDesk
 FastDrive
 FastNetMon
+FastSSL
 FCrDNS
 filesystem
 filesystems
@@ -274,6 +284,7 @@ Mariabackup
 Mbox
 McAfee
 Memcached
+Memcrashed
 Mesos
 migratable
 minification
@@ -305,6 +316,8 @@ Nartac
 natively
 NATs
 NEA
+NetBIOS
+netcat
 Netgate
 netmask
 NetScaler
@@ -313,6 +326,7 @@ NFS
 NGINX
 NIC
 NICs
+NIST
 Nmap
 NOC
 Nominet
@@ -399,6 +413,7 @@ rescan
 resending
 resolvers
 reStructuredText
+RFI
 RHEL
 rollout
 routable
@@ -434,10 +449,13 @@ SFTP
 SGC
 SHA
 ShareFile
+Shellshock
 Shopware
 SIEM
 SLAAC
 SLD
+SMB
+SMBv
 SMS
 SMTP
 snapshotting
@@ -487,6 +505,7 @@ TLDs
 TLS
 TLS-ALPN-01
 TMCH
+traceroute
 TSV
 TTFB
 TTL
@@ -494,6 +513,7 @@ Tucows
 TXT
 UAC
 UAT
+UC
 UCS
 UDL
 UDP
@@ -513,6 +533,7 @@ unroutable
 unselected
 untick
 unticked
+untrusted
 UPN
 upto
 URI
@@ -548,6 +569,8 @@ vSphere
 VSS
 WAF
 WAFs
+Wana
+WannaCry
 WBEM
 WDRP
 Webalizer

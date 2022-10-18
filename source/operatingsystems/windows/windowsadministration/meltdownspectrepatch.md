@@ -35,7 +35,7 @@ The basic walk-through for manually installing the patch is provided below:
 
 Once the patch has been applied and the updates have been installed, you will need to add two registry keys to enable the mitigations on the server. This is per the [Microsoft documentation](https://support.microsoft.com/en-us/help/4072698/windows-server-guidance-to-protect-against-the-speculative-execution-s).
 
-Open a `CMD Prompt` as Administrator and run the following two commands, one after another. This will add the relevant registry keys to enable the Mitigation.  Always backup the registry before making changes.  If you are a UKFast customer and are not comfortable making these changes, please seek assistance from our support team by raising a support request in [MyUKFast](https://my.ukfast.co.uk/pss/add.php).
+Open a `CMD Prompt` as Administrator and run the following two commands, one after another. This will add the relevant registry keys to enable the Mitigation.  Always backup the registry before making changes.  If you are a UKFast customer and are not comfortable making these changes, please seek assistance from our support team by raising a support request in [MyUKFast](https://portal.ans.co.uk/pss/add.php).
 
 ```console
 reg add "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management" /v FeatureSettingsOverride /t REG_DWORD /d 0 /f

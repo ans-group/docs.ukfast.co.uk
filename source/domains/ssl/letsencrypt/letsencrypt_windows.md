@@ -18,7 +18,7 @@ For a complete guide on how to install this client and start issuing `Let's Encr
 
 ```eval_rst
 .. note:
-  If you require assistance with installing this product, please raise a UKFast Support query via your https://my.ukfast.co.uk client portal.
+  If you require assistance with installing this product, please raise a UKFast Support query via your https://portal.ans.co.uk client portal.
 
 ```
 ## Win-ACME
@@ -42,7 +42,7 @@ For `PowerShell` users, we recommend using [`Posh-ACME`](https://github.com/rmbo
 
 ```eval_rst
 .. note:
-  If you require assistance with installing this product, please raise a UKFast Support query via your https://my.ukfast.co.uk client portal.
+  If you require assistance with installing this product, please raise a UKFast Support query via your https://portal.ans.co.uk client portal.
 
 ```
 

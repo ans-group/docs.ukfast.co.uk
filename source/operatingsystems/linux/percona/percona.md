@@ -158,8 +158,11 @@ Now when running the `mysql` command the values in the file `.my.cnf` will be us
 
 This is an example of a wildcard grant to `databasename`
 
-```sql
-mysql> GRANT ALL PRIVILEGES ON `databasename\_%`.* TO 'databaseuser'@'172.18.68.%';
+```eval_rst
+..  code-block:: mysql
+
+    mysql> GRANT ALL PRIVILEGES ON `databasename\_%`.* TO 'databaseuser'@'172.18.68.%';
+
 ```
 
 ## Disable Warnings

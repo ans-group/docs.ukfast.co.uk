@@ -14,7 +14,7 @@ v=spf1 a mx -all
 
 If you have a more complex setup (a separate dedicated mail server, or if you use a 3rd party bulk mail service), please do refer to the [in-depth SPF guide](/email/spf.md).
 
-To add the SPF record, first log into [SafeDNS in MyUKFast](https://my.ukfast.co.uk/safedns/index.php) and choose the relevant domain.
+To add the SPF record, first log into [SafeDNS in MyUKFast](https://portal.ans.co.uk/safedns/index.php) and choose the relevant domain.
 
 If you already have `TXT` records configured for the domain you will need to add a new record.
 

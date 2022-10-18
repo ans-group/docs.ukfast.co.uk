@@ -14,7 +14,7 @@ Firstly, navigate to the __People__ tab which can be seen on the left-hand side 
 
 ## Step 2
 
-Next, in order to add a client, you need to enter their email address. This will be used in order to sign into FASTdrive as a client user.
+Next, in order to add a client, you need to enter their email address. This will be used in order to sign into FastDrive as a client user.
 
 ![Image71](files/Image71.png)
 
@@ -35,3 +35,10 @@ In order to add a user to a folder, expand one of the 3 main folders (Personal F
 Once folder permissions have been distributed, the next stage is to send a welcome email to the new client user which allows them to activate their account.
 
 ![Image74](files/Image74.png)
+
+```eval_rst
+   .. title:: FastDrive | Adding Client Users
+   .. meta::
+      :title: FastDrive | Adding Client Users | UKFast Documentation
+      :description: Guidance on adding client users to FastDrive
+```

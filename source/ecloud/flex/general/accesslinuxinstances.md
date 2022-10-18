@@ -26,7 +26,7 @@ To import your new key pairs in to the [eCloud Flex dashboard](https://api.opens
 
 ![key-pair-import](../files/key-pair-import.PNG)
 
-If the key has been successfully imported, this will be visible in the Key Pairs area, as shown. If you encounter errors during the import process, please double check you have exported your key in the correct format.  If it still does not work [please raise a ticket with UKFast Support](https://my.ukfast.co.uk/pss/create) (only available if you pay for eCloud Flex support).
+If the key has been successfully imported, this will be visible in the Key Pairs area, as shown. If you encounter errors during the import process, please double check you have exported your key in the correct format.  If it still does not work [please raise a ticket with UKFast Support](https://portal.ans.co.uk/pss/create) (only available if you pay for eCloud Flex support).
 
 ![key-pair-import-success](../files/key-pair-import-success.PNG)
 

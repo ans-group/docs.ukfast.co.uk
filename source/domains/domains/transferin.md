@@ -18,7 +18,7 @@ For a domain with a `.uk` TLD, moving it to UKFast from another registrar should
 
 ## Non `.uk` domains
 
-For a non `.uk` TLD domain, the process is slightly more complicated. The first step you need to undertake it to ensure that the `administrative contact` for the domain has a valid email address against it. This address will be needed in the process, so if it's out of date or inaccurate it'll need to be updated to a valid managed inbox. This information can be checked with a `WHOIS` lookup. We have one [here](https://my.ukfast.co.uk/domains/tools/) but any should suffice.
+For a non `.uk` TLD domain, the process is slightly more complicated. The first step you need to undertake it to ensure that the `administrative contact` for the domain has a valid email address against it. This address will be needed in the process, so if it's out of date or inaccurate it'll need to be updated to a valid managed inbox. This information can be checked with a `WHOIS` lookup. We have one [here](https://portal.ans.co.uk/domains/tools/) but any should suffice.
 
 
 ```eval_rst
@@ -30,7 +30,7 @@ If the address is valid and visible then you'll next need to acquire an authoris
 
 The domain in question may also be marked as `locked` with your current registrar, which prevents it from being transferred. This too can be checked via `WHOIS`. If the domain is locked, then your current registrar can unlock it for you.
 
-With this information in hand, you can initiate the transfer in process via MyUKFast. This can be found in `Domains` > `Transfer in`, or follow the [link here](https://my.ukfast.co.uk/domains/transfer-in.php).
+With this information in hand, you can initiate the transfer in process via MyUKFast. This can be found in `Domains` > `Transfer in`, or follow the [link here](https://portal.ans.co.uk/domains/transfer-in.php).
 
 You should see a page like this:
 

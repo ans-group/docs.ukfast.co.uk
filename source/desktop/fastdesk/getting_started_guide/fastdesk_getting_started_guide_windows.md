@@ -74,7 +74,7 @@ Once you have logged into FastDesk, you will be presented with the applications 
 
 You can navigate between Desktops and Apps via the icons found at the top of the screen. The icons found at the top of the screen also gives you the ability to search as well as open settings. Simply click Desktops to navigate to this category (Refer to **image 9**).
 
-![Image 9 FastDesk Desktops Page](files/storefront.png "Image 9: FASTdesk Desktops Page")
+![Image 9 FastDesk Desktops Page](files/storefront.png "Image 9: FastDesk Desktops Page")
 
 Once in the desktops categories, you can open the desktop that has been allocated to you by just clicking the monitor of the desktop or by clicking the downward arrow which will give you three options of `"Open"`, `"Add To Favorites"` and `"Restart"`. You can also choose to `"Add To Favourites"`, which pins your desktop to the Favourites category. From here you can also click `"open"` (Refer to **image 9**).
 
@@ -88,7 +88,7 @@ Upon opening this, your desktop will begin to launch in another window (Refer to
 
 Once fully launched, your desktop should appear as it is in **image 12**.
 
-![Image 12 Fully Loaded Desktop](files/otherwindow.png "Image 12: FASTdesk ready for use")
+![Image 12 Fully Loaded Desktop](files/otherwindow.png "Image 12: FastDesk ready for use")
 
 ## Workspace Application Log in setup (Optional)
 
@@ -112,6 +112,6 @@ Simply type the following URL `"https://www.fastdesk.co.uk"` and click Add. Alte
    .. title:: FastDesk Getting Started Guide: Windows OS
    .. meta::
       :title: FastDesk Getting Started Guide Windows PC Edition | UKFast Documentation
-      :description: Guide for users on how to get setup on FASTdesk using a Windows PC
+      :description: Guide for users on how to get setup on FastDesk using a Windows PC
       :keywords: FastDesk, Citrix, ukfast, VDI, Citrix Receiver, Windows, Workspace Application
 ```

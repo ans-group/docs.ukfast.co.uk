@@ -1,6 +1,6 @@
 # Adding folders to your favourites
 
-You may have thousands of folders stored within your __Personal Folders__ on FASTdrive but it may be the case that you only access a dozen or so of these folders on a regular basis.
+You may have thousands of folders stored within your __Personal Folders__ on FastDrive but it may be the case that you only access a dozen or so of these folders on a regular basis.
 
 So that you don't have to scroll through all of these folders every time you wish to access them, folders can be added to your __Favourites__ so that they can be easily accessed.
 
@@ -17,7 +17,7 @@ Clicking this folder will open the folder in its original location under __Perso
 ![Image188](files/Image188.png)
 
 ```eval_rst
-   .. title:: FASTdrive | Adding folders to your favourites
+   .. title:: FastDrive | Adding folders to your favourites
    .. meta::
       :description: Detailed guidance on adding folders to your favourites
       :keywords: ukfast, fastdrive, favourites

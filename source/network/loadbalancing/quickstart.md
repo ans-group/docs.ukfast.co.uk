@@ -4,7 +4,7 @@ This aim of this guide is to take a brand new UKFast loadbalancer and configure 
 
 ```eval_rst
 .. note::
-   All the following steps can be carried out on a UKFast loadbalancer through your MyUKFast area `accessible here <https://my.ukfast.co.uk/server/loadbalancers/>`_
+   All the following steps can be carried out on a UKFast loadbalancer through your MyUKFast area `accessible here <https://portal.ans.co.uk/server/loadbalancers/>`_
 ```
 
 ## Terminology

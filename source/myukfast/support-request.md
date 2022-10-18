@@ -4,7 +4,7 @@ Support requests are the best way to provide our engineers with information abou
 
 ## Raising a Support Request
 
-To raise a support request, first log in to [MyUKFast](https://my.ukfast.co.uk) with your MyUKFast Account password
+To raise a support request, first log in to [MyUKFast](https://portal.ans.co.uk) with your MyUKFast Account password
 
 Next, select **Support > Create a Request** on the left hand side of the page. This will generate a page asking you to enter information relevant to your issue.
 
@@ -50,10 +50,10 @@ In the **CC Responses To** box you can enter the email addresses of people you w
 
 The **Reply Security** options allow you to change how we notify you of support Ticket updates.
 
-* If "Replies must be made through MyUKFast" is set, we will send you an email to tell you we have replied, and you will need to log into [MyUKFast](https://my.ukfast.co.uk) to view it.
+* If "Replies must be made through MyUKFast" is set, we will send you an email to tell you we have replied, and you will need to log into [MyUKFast](https://portal.ans.co.uk) to view it.
 * If "Replies can be made through MyUKFast or email" is set, we will send you the message content via email, and you will also be able to reply back using email.
 
-For increased security, we recommend only having ticket replies delivered through [MyUKFast](https://my.ukfast.co.uk), as this allows us to keep all communication encrypted.
+For increased security, we recommend only having ticket replies delivered through [MyUKFast](https://portal.ans.co.uk), as this allows us to keep all communication encrypted.
 
 The **Preferred Contact Method** drop down box allows you to tell us whether you would like to be contacted back on the ticket or called on your default contact number. If you change this from the default ticket response, we would recommend that you mention you would like to be called back in the request's message body also.
 

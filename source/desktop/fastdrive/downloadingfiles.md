@@ -1,6 +1,6 @@
 # Downloading Files
 
-Files can be downloaded from FASTdrive in order to be used locally. Firstly, navigate to the folder where the file that you'd like to download is situated.
+Files can be downloaded from FastDrive in order to be used locally. Firstly, navigate to the folder where the file that you'd like to download is situated.
 
 Once you have found where your file is located, you need to left-click the file name.
 
@@ -21,3 +21,12 @@ Files can also be downloaded without opening the file preview screen. Instead of
 Above this, you'll be able to see a variety of actions which you can undertake. One of these actions is to __Download__ the file(s) which you have selected. Click this button and the file will download as normal.
 
 ![Image184](files/Image184.png)
+
+
+```eval_rst
+   .. title:: FastDrive | Downloading Files
+   .. meta::
+      :title: FastDrive | Downloading Files | UKFast Documentation
+      :description: Downloading files in FastDrive
+      :keywords: ukfast, fastdrive, files, folders
+```

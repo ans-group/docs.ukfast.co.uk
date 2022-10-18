@@ -28,7 +28,7 @@ Day to day, when a user enters their password as normal, they will be asked to s
 
 From an administration point of view, UKFast will act as the administrator of your Duo account. This means Duo bypasses will be completed by UKFast Support in the situation where a user has locked themselves out. This also means we will be able to add & remove phones as well as any other administrative tasks that need completing.
 
-Please note, the only way a user can request a bypass of Duo is if they are listed on the account ([MyUKFast Portal](https://my.ukfast.co.uk/login) or if they have someone listed on the account request a bypass. Anyone not listed on the account will not be able to request a bypass.
+Please note, the only way a user can request a bypass of Duo is if they are listed on the account ([MyUKFast Portal](https://portal.ans.co.uk/login) or if they have someone listed on the account request a bypass. Anyone not listed on the account will not be able to request a bypass.
 
 ```eval_rst
 .. note::

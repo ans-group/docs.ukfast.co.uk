@@ -78,10 +78,10 @@ tmpfs                         48G     0   48G   0% /sys/fs/cgroup
 tmpfs                        9.5G     0  9.5G   0% /run/user/1000
 ```
 
-If any partition is full or running out of space we recommend using [`Ncdu`](/operatingsystems/ncdu/index.html) to review the largest files/directories within that partition.
+If any partition is full or running out of space we recommend using [`ncdu`](/operatingsystems/linux/ncdu/index) to review the largest files/directories within that partition.
 
-## Resource Check - [Atop](/operatingsystems/linux/basics/atop.html)
-Atop is a useful command to review what processes are consuming the most memory, disk or CPU.
+## Resource Check - Atop
+[atop](/operatingsystems/linux/basics/atop) is a useful command to review what processes are consuming the most memory, disk or CPU.
 
 To review `realtime` data with a 1 second refresh use the command:
 root@server:~# atop -`af` 1

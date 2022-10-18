@@ -39,7 +39,7 @@ Either login to the instance as root user, or prefix all commands with `sudo`:
     chmod -R u+rwX,og-rwx /home/ukfastsupport/.ssh
     ```
 
-If you run into any problems on this, please raise a support ticket via [MyUKFast](https://my.ukfast.co.uk/pss/create), or call support directly on 0800 230 0032.
+If you run into any problems on this, please raise a support ticket via [MyUKFast](https://portal.ans.co.uk/pss/create), or call support directly on 0800 230 0032.
 
 ```eval_rst
    .. title:: Adding a public SSH key to Linux server

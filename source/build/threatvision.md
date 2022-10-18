@@ -1,3 +1,7 @@
+```eval_rst
+:orphan:
+```
+
 # Threat Vision
 UKFast's innovative Threat Vision product set is our tailored, all in one HIDS/SIEM (Host-based Intrusion Detection System/Security Information and Event Management) system that enables you to continually monitor for malicious activity on your solution.
 
@@ -17,7 +21,7 @@ Threat Surveillance is an agent based intrusion detection/prevention system, whi
 ### Threat SOC (Security Operations Centre)
 Threat SOC is an additional product which can be bolted onto Threat Surveillance. Clients still receive all the features of Threat Surveillance; however, they will also leverage specialist managed support from our Security Operation Centre. The SOC team will pro-actively look into alerts received from Threat Surveillance and apply any remediations, if required.
 
-For the latest information on Threat Vision, please see our technical documentation at <https://my.ukfast.co.uk/threat-vision/> and <https://docs.ukfast.co.uk/security/threatmonitoring/>.
+For the latest information on Threat Vision, please see our technical documentation at <https://portal.ans.co.uk/threat-vision/> and <https://docs.ukfast.co.uk/security/threatmonitoring/>.
 
 ```eval_rst
   .. title:: UKFast additional services build documentation

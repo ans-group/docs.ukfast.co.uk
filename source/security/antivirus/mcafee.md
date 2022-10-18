@@ -2,7 +2,7 @@
 
 The Virus Scanning Engine is configured to scan files when they are written to disk during real-time scanning. We disable continuous read scanning to prevent IO Saturation, which would result in performance degradation.
 
-A weekly scan is scheduled to scan all disks apart from any exclusions which have been specified. If you wish to add, remove or modify exclusions on your anti-virus scan, please raise a support request via [MyUKFast](https://my.ukfast.co.uk) detailing your requirements.
+A weekly scan is scheduled to scan all disks apart from any exclusions which have been specified. If you wish to add, remove or modify exclusions on your anti-virus scan, please raise a support request via [MyUKFast](https://portal.ans.co.uk) detailing your requirements.
 
 Scanning of remote directories is disabled by default, however NFS mounts will be scanned and viewed as a local disk.
 
