@@ -9,7 +9,7 @@ Built solely for business use, FastDrive combines Citrix® Files and UKFast's ow
 
    fastdrivesecurity
    uploadingfiles
-   creatingfolderswithinFASTdrive
+   creatingfolderswithinfastdrive
    resettingpasswords
    distributiongroups
    accessingpreviousversionsofyourfiles

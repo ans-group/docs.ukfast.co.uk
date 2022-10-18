@@ -49,7 +49,7 @@ Once the ransomware is present on the operating system, the malware will perform
 Once connected, the malware will execute a command to attempt to modify permissions on all available file system folders the malware resides within to provide 'Everyone' full access;
 
 ```text
-icacls `. /grant Everyone:F /T /C /Q*
+icacls . /grant Everyone:F /T /C /Q*
 ```
 
 Once complete the malware then performs a `taskkill` of all database applications to allow for running database content to also be encrypted;
@@ -90,9 +90,9 @@ The above command significantly reduces the available backup set, however if you
 * UKFast have taken steps to include Wana Decrypt0r mitigation within our McAfee Access Protection ruleset as per [McAfee's recent KB article](https://kc.mcafee.com/corporate/index?page=content&id=KB89335). If you are not currently using McAfee and require UKFast to install/manage McAfee within your Windows infrastructure, please contact our UKFast support team to arrange installation.
 * Enabling software firewall(s) between servers within the same subnet. Windows Firewall can be configured to prevent communication on SMB protocol ports between servers, this can be utilised to reduce risk of malware spread to multiple servers behind a firewall.
 * Disabling the SMB protocol - If you have no requirement for the SMB protocol to be utilised, this can be disabled via registry changes. Disabling SMB requires a server restart, SMB is required for certain server functionality, please contact our support team before proceeding with any changes to live systems.
-* AppLocker implementation (available within Windows Server 2008 R2 and above) - AppLocker can be implemented to allow system administrators to impose restrictions on user access of executables, prevention of user run scripts, denial of user performed software installation/updates and prevention of changes to system `.dll and `.ocx files.  Click [here for details](https://technet.microsoft.com/en-us/library/dd759117(v=ws.11).aspx)
+* AppLocker implementation (available within Windows Server 2008 R2 and above) - AppLocker can be implemented to allow system administrators to impose restrictions on user access of executables, prevention of user run scripts, denial of user performed software installation/updates and prevention of changes to system `.dll` and `.ocx` files.  Click [here for details](https://technet.microsoft.com/en-us/library/dd759117(v=ws.11).aspx)
 * Hosts file DNS redirection - Wana DeCrypt0r 2.0 is known to retrieve a TOR client via the following address; https://dist.torproject.org/torbrowser/6.5.1/tor-win32-0.2.9.10.zip
-The TOR `.onion network is also utilised
+The TOR `.onion` network is also utilised
 Adding a new HOSTS entry to redirect DNS lookup's to this site and onion network;
 
 ```test
@@ -147,8 +147,8 @@ Please don't hesitate to contact our support professionals who can provide assis
 * Telephone 0800 230 0032
 
 ```eval_rst
-   `.. title:: Patching the WannaCry vulnerability
-   `.. meta::
+   .. title:: Patching the WannaCry vulnerability
+   .. meta::
       :title: Patching the WannaCry vulnerability | UKFast Documentation
       :description: Information on patching the WannaCry vulnerability
       :keywords: ukfast, security, pci, dss, vulnerability, cryptolock, wannacry
