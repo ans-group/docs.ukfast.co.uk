@@ -9,3 +9,10 @@ If you need to perform some maintenance on your solution then you can schedule d
 5. Complete the details and click `Schedule Maintenance`
 
 ![Schedule Downtime](files/maintenance-window.png)
+
+```eval_rst
+   .. title:: Monitoring | Scheduling Downtime
+   .. meta::
+      :title: Monitoring | Scheduling Downtime | UKFast Documentation
+      :description: Information on how to schedule downtime
+```

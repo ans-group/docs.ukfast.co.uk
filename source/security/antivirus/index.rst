@@ -7,5 +7,5 @@ If you choose to take an anti-virus package from UKFast, this will be based on M
 .. toctree::
    :maxdepth: 1
 
-   Mcafee
+   mcafee
    schedules

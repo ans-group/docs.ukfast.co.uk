@@ -11,7 +11,8 @@ This may be a chargeable service - please [contact your UKFast account manager](
 
 
 ```eval_rst
-.. meta::
+   .. title:: Two factor authentication on VPNs
+   .. meta::
      :title: Two factor authentication on VPNs | UKFast Documentation
      :description: Support for two factor authentication (2FA) on UKFast firewalls
      :keywords: ukfast, firewall, vpn, 2fa, two, factor, authentication, duo

@@ -13,7 +13,7 @@ Traffic flow on a single server with Varnish is typically:
    :maxdepth: 1
 
    varnish
-   UKFastVCL
+   ukfast_vcl
 
 .. meta::
    :title: Magento2 Varnish | UKFast Documentation
