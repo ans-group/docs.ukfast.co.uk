@@ -1,4 +1,4 @@
-FROM python:3.8-alpine
+FROM python:3.10-alpine
 
 RUN pip install recommonmark sphinx-autobuild
 RUN apk add make
@@ -11,6 +11,8 @@ CMD [ \
     "--pre-build", "make build/html/_static/css/app.css", \
     "--pre-build", "make build/html/_static/app.js", \
     "--host", "0.0.0.0", \
+    "-n", \
+    "-W", \
     "source", \
     "build/html" \
 ]

@@ -122,7 +122,7 @@ chmod 700 vpnserver
 chmod 700 vpncmd
 ```
 
-If you like SoftEther to start as a service on startup create a file named `vpnserver` in `/etc/init.d` directory a follows.
+If you like SoftEther to start as a service on start-up create a file named `vpnserver` in `/etc/init.d` directory a follows.
 
 First create and open the file using `vi`:
 
@@ -168,13 +168,13 @@ We have to make a directory at `/var/lock/subsys` if one does not exist:
 mkdir /var/lock/subsys
 ```
 
-Now change the permission for the startup script and start `vpnserver` using command below:
+Now change the permission for the start-up script and start `vpnserver` using command below:
 
 ```bash
 chmod 755 /etc/init.d/vpnserver && /etc/init.d/vpnserver start
 ```
 
-Use the command below make it to run at startup:
+Use the command below make it to run at start-up:
 
 #### Debian / Ubuntu:
 
@@ -188,7 +188,7 @@ update-rc.d vpnserver defaults
 chkconfig --add vpnserver
 ```
 
-SoftEther VPN Server is now installed and configured to run at startup. Finally, we have to check if the VPN server is working:
+SoftEther VPN Server is now installed and configured to run at start-up. Finally, we have to check if the VPN server is working:
 
 ```bash
 cd /usr/local/vpnserver
