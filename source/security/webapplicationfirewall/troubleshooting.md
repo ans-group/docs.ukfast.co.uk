@@ -14,7 +14,7 @@ Here are a few possible fixes in the event of any issues:
 
   - **500 error:** This isn't typically a WAF problem, usually it means a problem has occurred server-side
 
-If you experience any problems with your WAF then please contact support or raise a ticket via [MyUKFast](https://my.ukfast.co.uk)
+If you experience any problems with your WAF then please contact support or raise a ticket via [MyUKFast](https://portal.ans.co.uk)
 
 
 ```eval_rst

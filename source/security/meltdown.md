@@ -57,7 +57,7 @@ If your kernel version is earlier (lower) than the following list, you're vulner
 
 ### UKFast customers
 
-If you're a Linux customer of UKFast, we've implemented an easy patching process through [MyUKFast](https://my.ukfast.co.uk/server/package-update.php).  Alternatively you could also follow the Non-UKFast customers process set out below.
+If you're a Linux customer of UKFast, we've implemented an easy patching process through [MyUKFast](https://portal.ans.co.uk/server/package-update.php).  Alternatively you could also follow the Non-UKFast customers process set out below.
 
 Once you're logged into MyUKFast you will see something like this:
 

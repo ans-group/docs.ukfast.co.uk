@@ -1,6 +1,6 @@
 # WAF on DDoSX settings
 
-Within the WAF tab in the DDoSX section of [MyUKFast](https://my.ukfast.co.uk) you will need to configure the various settings required to activate your WAF and control the level of security provided, as shown in the screenshot below.
+Within the WAF tab in the DDoSX section of [MyUKFast](https://portal.ans.co.uk) you will need to configure the various settings required to activate your WAF and control the level of security provided, as shown in the screenshot below.
 
 ![wafsettings](files/wafsettings.PNG)
 
@@ -31,7 +31,7 @@ The Paranoia Mode (also known as Paranoia Level or PL) setting determines the re
 
 With each paranoia mode increase, the Core Rule Set enables additional rules to give a higher level of security. However, higher paranoia modes increase the possibility of blocking some legitimate traffic due to false alarms (also known as 'false positives').
 
-- **Paranoia Mode - Low (default) / PL1** has most core rules enabled. PL1 is advised for beginners, installations covering many different sites and applications, and for setups with standard security requirements. With PL1 you should rarely face false positives, however if you do please contact UKFast support by raising a ticket in [MyUKFast](https://my.ukfast.co.uk).
+- **Paranoia Mode - Low (default) / PL1** has most core rules enabled. PL1 is advised for beginners, installations covering many different sites and applications, and for setups with standard security requirements. With PL1 you should rarely face false positives, however if you do please contact UKFast support by raising a ticket in [MyUKFast](https://portal.ans.co.uk).
 
 - **Paranoia Mode - Medium / PL2** includes many extra rules, for instance enabling many regex-based SQL and XSS injection protections, and adding extra keywords checked for code injections. PL2 is advised for moderate to experienced users needing more complete coverage, and for installations with elevated security requirements. PL2 comes with some false positives which you will need to handle.
 
@@ -116,7 +116,7 @@ To create your allow list rule simply add:
 ans ddosx domain waf rule create mydomain.example --ip "8.8.8.8" --uri "/admin"
 ```
 
-You can build a rule like this yourself, by looking at the WAF Logs within [MyUKFast](https://my.ukfast.co.uk) for your domain, in order to determine:
+You can build a rule like this yourself, by looking at the WAF Logs within [MyUKFast](https://portal.ans.co.uk) for your domain, in order to determine:
 
 - Where are violations coming from?
 - What parts of your website are being attacked?

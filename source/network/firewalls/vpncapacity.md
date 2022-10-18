@@ -1,6 +1,6 @@
 # VPN capacity on UKFast dedicated firewalls
 
-The VPN capacity on your firewall depends on the model of firewall you're using. You can check your firewall model in [MyUKFast](https://my.ukfast.co.uk/server/dedicated-firewall.php), and then refer to the list below for the maximum number of concurrent connections for IPsec VPN and WebSSL VPN, depending on whether you have a default configuration or upgraded license:
+The VPN capacity on your firewall depends on the model of firewall you're using. You can check your firewall model in [MyUKFast](https://portal.ans.co.uk/server/dedicated-firewall.php), and then refer to the list below for the maximum number of concurrent connections for IPsec VPN and WebSSL VPN, depending on whether you have a default configuration or upgraded license:
 
 ```eval_rst
 +----------------------------------------------------+----------------+-----------------+----------------+----------------+
@@ -15,7 +15,7 @@ The VPN capacity on your firewall depends on the model of firewall you're using.
 | Concurrent WebSSL VPN sessions (upgraded license)  |       50       |        50       |       100      |       250      |
 +----------------------------------------------------+----------------+-----------------+----------------+----------------+
 ```
-If you are on a default configuration and need additional VPN capacity, please [contact your UKFast Account Manager](https://my.ukfast.co.uk/account/your-account-manager.php) to discuss upgrading your firewall license.
+If you are on a default configuration and need additional VPN capacity, please [contact your UKFast Account Manager](https://portal.ans.co.uk/account/your-account-manager.php) to discuss upgrading your firewall license.
 
 
 ```eval_rst

@@ -1,13 +1,13 @@
 
 # Getting Started
 
-Before installing Threat Monitoring, take a look at the [system requirements](https://docs.ukfast.co.uk/security/threatmonitoring/system-requirements.html) for Threat Monitoring to verify that your server(s) are compatible. Once this has been verified, please contact your [account manager](https://my.ukfast.co.uk/account/your-account-manager.php) to purchase Threat Monitroing and Threat Response Credits for your account.
+Before installing Threat Monitoring, take a look at the [system requirements](https://docs.ukfast.co.uk/security/threatmonitoring/system-requirements.html) for Threat Monitoring to verify that your server(s) are compatible. Once this has been verified, please contact your [account manager](https://portal.ans.co.uk/account/your-account-manager.php) to purchase Threat Monitroing and Threat Response Credits for your account.
 
 More information on the differences between Threat Monitoring and Threat Response can be found in our [general information](https://docs.ukfast.co.uk/security/threatmonitoring/general-information.html) documentation.
 
 ### Purchasing credits and Installing
 
-You can view your credit balance logging into MyUKFast, navigating to the Threat Monitoring dashboard and clicking on [Setup Threat Monitoring and Response on your servers](https://my.ukfast.co.uk/threat-monitoring/configuration)" as shown below.
+You can view your credit balance logging into MyUKFast, navigating to the Threat Monitoring dashboard and clicking on [Setup Threat Monitoring and Response on your servers](https://portal.ans.co.uk/threat-monitoring/configuration)" as shown below.
 
 ![credits-remaining](files/setup-banner.png)
 
@@ -33,7 +33,7 @@ Once Threat Monitoring has been installed and the questionnaire has been complet
 
 ---
 
-If you have additional servers you wish to install Threat Monitoring onto, please speak to your [UKFast Account Manager](https://my.ukfast.co.uk/account/your-account-manager.php).
+If you have additional servers you wish to install Threat Monitoring onto, please speak to your [UKFast Account Manager](https://portal.ans.co.uk/account/your-account-manager.php).
 
 ```eval_rst
      .. title::  Getting started with Threat Monitoring

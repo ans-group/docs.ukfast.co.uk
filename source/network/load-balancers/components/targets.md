@@ -54,7 +54,7 @@ The load balancer will check each target periodically to see if it is online and
 
 ## Saving and Deploying
 
-Once you've finished filling in the target form, click `Create Target` to add the target to the load balancer. Once you've finished setting up all your targets, make sure you [deploy your changes](../deploying-changes.html).
+Once you've finished filling in the target form, click `Create Target` to add the target to the load balancer. Once you've finished setting up all your targets, make sure you [deploy your changes](/network/load-balancers/deploying-changes).
 
 ```eval_rst
    .. title:: Load Balancers | Targets

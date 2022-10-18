@@ -58,7 +58,7 @@ To help understand what happened to a request we add the header `X-Proxy-Cache`,
 
 **`HIT`**: Served from cache.
 
-If you need help using the CDN or configuring your rules, please contact UKFast support by raising a ticket in [MyUKFast](https://my.ukfast.co.uk/pss/add.php) or by calling 0800 230 0032.
+If you need help using the CDN or configuring your rules, please contact UKFast support by raising a ticket in [MyUKFast](https://portal.ans.co.uk/pss/add.php) or by calling 0800 230 0032.
 
 ```eval_rst
   .. title:: Managing the cache on CDN

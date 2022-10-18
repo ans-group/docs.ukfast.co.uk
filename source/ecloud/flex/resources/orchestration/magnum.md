@@ -104,7 +104,7 @@ Our Magnum deployment supports all of the engines that Magnum supports (Docker S
 
 You can find lots of information and further user guides over at the [OpenStack documentation for Magnum](https://docs.openstack.org/magnum/latest/user/).
 
-If you need any further assistance, you can contact our UKFast Support team by [raising a ticket](https://my.ukfast.co.uk/pss/create) or by calling the [dedicated support line](https://www.ukfast.co.uk/contact.html).
+If you need any further assistance, you can contact our UKFast Support team by [raising a ticket](https://portal.ans.co.uk/pss/create) or by calling the [dedicated support line](https://www.ukfast.co.uk/contact.html).
 
 ```eval_rst
    .. title:: Deploying a Kubernetes cluster using Magnum

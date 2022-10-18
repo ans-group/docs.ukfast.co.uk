@@ -4,7 +4,7 @@
 
 In 2015 we created our Magento 2 optimised stack. The core components of this stack are:
 
-- **Firewall**: :doc:`Dedicated/Shared Firewall </network/firewalls/index>` 
+- **Firewall**: :doc:`Dedicated/Shared Firewall </network/firewalls/index>`
 - **Web Service**: :doc:`/operatingsystems/linux/nginx/index`
 - **PHP Utilities**: :doc:`/ecommercestacks/magento/magento2/php/index`, :doc:`/operatingsystems/linux/php-fpm/index`, :doc:`/ecommercestacks/magento/magento2/opcache/index`, :doc:`/ecommercestacks/magento/magento2/composer/index`
 - **Mail Services**: :doc:`Postfix </email/postfix>`
@@ -19,7 +19,6 @@ We have a number of guides for our Magento 2 optimised stack:
 .. toctree::
    :maxdepth: 1
 
-   troubleshooting/index
    permissionguide
    nginxphpfileallowlist
    multiphp/index
@@ -39,11 +38,11 @@ We have a number of guides for our Magento 2 optimised stack:
    php/index
    redis/index
    troubleshooting/index
-   
+
 Find out more about our Magento hosting offerings here: https://www.ukfast.co.uk/magento-ecommerce-hosting.html
-   
+
 We also have guides for :doc:`/ecommercestacks/magento/magento1/index`
-   
+
 .. meta::
    :title: Magento 2 Optimised Stack | UKFast Documentation
    :description: guides relating to UKFast Magento 2 Optimised Stack

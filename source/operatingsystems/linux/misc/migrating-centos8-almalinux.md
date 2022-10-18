@@ -5,7 +5,7 @@ On December 31, 2021, CentOS 8 will reach end-of-life, meaning that Red Hat will
 ## Prerequisites
 
 * Server running CentOS 8.3 or above. You can verify this by running `cat /etc/redhat-release`. If your server is on CentOS 8 but below 8.3, you can update by running `sudo yum update`. You can find more information on updates [here](/operatingsystems/linux/basics/packageupdates.html#updating-packages).
-* If you are a UKFast Backups customer, you can check on MyUKFast or contact one of our support engineers via the [ticketing system](https://my.ukfast.co.uk/pss/create) to ensure that you have a recent full backup.
+* If you are a UKFast Backups customer, you can check on MyUKFast or contact one of our support engineers via the [ticketing system](https://portal.ans.co.uk/pss/create) to ensure that you have a recent full backup.
 * Once the migration is completed, the server will require a reboot.
 * A minimum of 5GB free disk space
 * Roughly 5m-2h time

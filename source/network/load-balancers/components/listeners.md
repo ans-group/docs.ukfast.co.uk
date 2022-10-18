@@ -42,7 +42,7 @@ Setting this will adjust the maximum amount of time for a client to acknowledge 
 
 ## Saving and Deploying
 
-Once you've finished filling in the listener form, click `Create Listener` to add the listener to the load balancer. Once you've finished setting up all your listeners, make sure you [deploy your changes](../deploying-changes.html).
+Once you've finished filling in the listener form, click `Create Listener` to add the listener to the load balancer. Once you've finished setting up all your listeners, make sure you [deploy your changes](/network/load-balancers/deploying-changes).
 
 ```eval_rst
    .. title:: Load Balancers | Listeners

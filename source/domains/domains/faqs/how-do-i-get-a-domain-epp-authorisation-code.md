@@ -7,7 +7,7 @@
 ```
 
 
-If your domain is managed by UKFast simply complete the [domain transfer out process in MyUKFast](https://my.ukfast.co.uk/domains/transfer_out_stage1.php) to obtain your EPP code.
+If your domain is managed by UKFast simply complete the [domain transfer out process in MyUKFast](https://portal.ans.co.uk/domains/transfer_out_stage1.php) to obtain your EPP code.
 
 
 The registrant of the domain will then receive the EPP code via the email, so please make sure that the domain information provided is correct or you will not receive it.

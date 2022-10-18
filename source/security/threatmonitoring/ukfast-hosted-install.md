@@ -7,7 +7,7 @@
 
 Threat Monitoring and Threat Response can be installed on servers that are hosted with UKFast, allowing you to secure and protect all parts of your UKFast hosted IT infrastructure via one centralised threat defence platform.
 
-To begin, log into MyUKFast and visit the [Threat Monitoring new agent configuration page](https://my.ukfast.co.uk/threat-monitoring/configuration) then select `UKFast` from the `Hosting Type` drop-down option.
+To begin, log into MyUKFast and visit the [Threat Monitoring new agent configuration page](https://portal.ans.co.uk/threat-monitoring/configuration) then select `UKFast` from the `Hosting Type` drop-down option.
 
 ![setup-type](files/setup-ukfast-select-type.png)
 
@@ -49,11 +49,11 @@ When the servers have been successfully queued for automation, you will see a gr
 
 The automated installation process normally takes 5 minutes per server. Once the installation process has completed you will start to see data for the server in your Threat Monitoring dashboard, view alerts and run vulnerability scans.
 
-If you do encounter any issues during installation, please get in contact with [UKFast support](https://my.ukfast.co.uk/pss/create).
+If you do encounter any issues during installation, please get in contact with [UKFast support](https://portal.ans.co.uk/pss/create).
 
 ## 3) Setup email contacts
 
-To receive email alerts for suspicious events, you will need to configure email alerts via MyUKFast. To do this, go to the [Alerts Manager section](https://my.ukfast.co.uk/alerts-manager/index.php) under "My Account", as shown below.
+To receive email alerts for suspicious events, you will need to configure email alerts via MyUKFast. To do this, go to the [Alerts Manager section](https://portal.ans.co.uk/alerts-manager/index.php) under "My Account", as shown below.
 
 ![setup-type](files/setup-alerts-manager.png)
 

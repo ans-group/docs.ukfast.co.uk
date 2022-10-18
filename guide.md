@@ -8,7 +8,7 @@ Please use the following terms correctly and consistently:
 
 | Correct term      | Examples of incorrect terms                                         | Notes                                                                        |
 | ----------------- | ------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
-| MyUKFast          | MyUKFast portal, MyUKFast client area, the client portal            | Include an embedded link to <https://my.ukfast.co.uk> at least once on page  |
+| MyUKFast          | MyUKFast portal, MyUKFast client area, the client portal            | Include an embedded link to <https://portal.ans.co.uk> at least once on page  |
 | server            | device, machine                                                     |                                                                              |
 | virtual machine   | virtual server                                                      | If abbreviating to "VM" then put "virtual machine (VM)" first time on page   |
 | eCloud            | <nospell>ecloud, Ecloud</nospell>                                   |                                                                              |

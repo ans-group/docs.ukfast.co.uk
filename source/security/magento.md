@@ -21,7 +21,7 @@ Some of the key points to consider in order to keep your Magento site secure are
 - Change the default `admin` username, and use a strong password. Consider adding a 2-factor authentication extension for added security
 - [Change your default Admin URL](http://docs.magento.com/m1/ce/user_guide/configuration/url-admin-custom.html).
 - Consider securing your file permissions. Magento provide guides for [Magento 1.x](http://devdocs.magento.com/guides/m1x/install/installer-privileges_after.html) and [Magento 2.0](http://devdocs.magento.com/guides/v2.0/config-guide/prod/prod_file-sys-perms.html). Do bear in mind that the file permissions you should use depend on which version of Magento you're running, and whether you're running on a dedicated Magento host or a shared environment like WHM/cPanel or Plesk. Please do refer to the appropriate official documentation for your setup before making changes.
-- Have a disaster recovery plan, and make sure to take regular backups which you can restore your site from, should you be attacked.  Speak to your [UKFast account manager](https://my.ukfast.co.uk/account/your-account-manager.php) or [raise a support ticket via MyUKFast](https://my.ukfast.co.uk/pss/add.php) if you need help with establishing an appropriate backup regime.
+- Have a disaster recovery plan, and make sure to take regular backups which you can restore your site from, should you be attacked.  Speak to your [UKFast account manager](https://portal.ans.co.uk/account/your-account-manager.php) or [raise a support ticket via MyUKFast](https://portal.ans.co.uk/pss/add.php) if you need help with establishing an appropriate backup regime.
 
 ## My Magento site was hacked, what now?
 

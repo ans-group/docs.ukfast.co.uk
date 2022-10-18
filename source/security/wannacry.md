@@ -31,7 +31,7 @@ Affected Microsoft Operating Systems:
 * Windows 10 x86/x64
 * Windows 2016 x64
 
-UKFast recommend this security patch be applied with immediate effect if not already installed on your Windows platform. Upon installation of the security patch will require a server restart, we advise taking note of any highly available (HA) services and/or clusters when performing restarts. If you are unfamiliar with this process or require some assistance please contact our support team either via [MyUKFast](https://my.ukfast.co.uk/pss/add.php), by emailing [support@ukfast.co.uk](mailto:support@ukfast.co.uk) or by calling 0800 230 0032.
+UKFast recommend this security patch be applied with immediate effect if not already installed on your Windows platform. Upon installation of the security patch will require a server restart, we advise taking note of any highly available (HA) services and/or clusters when performing restarts. If you are unfamiliar with this process or require some assistance please contact our support team either via [MyUKFast](https://portal.ans.co.uk/pss/add.php), by emailing [support@ukfast.co.uk](mailto:support@ukfast.co.uk) or by calling 0800 230 0032.
 
 Our support engineers are have been working around the clock since information became available to reduce any impact to our customer base and keep your systems secure and protected.
 
@@ -123,8 +123,8 @@ Open with an administrative notepad to add any additional changes
 
 Addition of this HOSTS entry will prevent the TOR aspect removing some command and control aspect of the ransomware. Preventing external connectivity to the malware by forcing the DNS request to a null address.
 
-* UKFast's default firewall configuration excludes access on the above TCP and UDP ports for public access, however these ports can be modified by your team(s) to be open for public access. To clarify if your firewall has these ports open or not please login to the [MyUKFast firewall section](https://my.ukfast.co.uk/server/firewalls.php) to verify the firewall port configuration.  UKFast recommends the SMB protocol TCP and UDP ports be closed for public access if open, we do not recommend allowing public  access to the SMB protocol as standard practice. If you are unfamiliar with firewall ports or require additional assistance, please contact our support team on any of the following;
-   * [Priority Support Request](https://my.ukfast.co.uk/pss/add.php)
+* UKFast's default firewall configuration excludes access on the above TCP and UDP ports for public access, however these ports can be modified by your team(s) to be open for public access. To clarify if your firewall has these ports open or not please login to the [MyUKFast firewall section](https://portal.ans.co.uk/server/firewalls.php) to verify the firewall port configuration.  UKFast recommends the SMB protocol TCP and UDP ports be closed for public access if open, we do not recommend allowing public  access to the SMB protocol as standard practice. If you are unfamiliar with firewall ports or require additional assistance, please contact our support team on any of the following;
+   * [Priority Support Request](https://portal.ans.co.uk/pss/add.php)
 
    * Email [support@ukfast.co.uk](mailto:support@ukfast.co.uk)
 
@@ -150,7 +150,7 @@ UKFast cannot endorse the payment of ransomware to third parties. This decision 
 
 ## Contacting UKFast Support
 Please don't hesitate to contact our support professionals who can provide assistance and information surrounding this malware
-* [Priority Support Request](https://my.ukfast.co.uk/pss/add.php)
+* [Priority Support Request](https://portal.ans.co.uk/pss/add.php)
 
 * Email [support@ukfast.co.uk](mailto:support@ukfast.co.uk)
 * Telephone 0800 230 0032

@@ -13,7 +13,7 @@ Your Account Manager can help you with queries relating to existing or new UKFas
 
 Contacting your Account Manager is very simple and they are available via telephone or email.
 
- 1. You can find all of their contact details on the [My Account Manager](https://my.ukfast.co.uk/account/your-account-manager.php) page in MyUKFast.
+ 1. You can find all of their contact details on the [My Account Manager](https://portal.ans.co.uk/account/your-account-manager.php) page in MyUKFast.
  2. Or, when logged into MyUKFast, click **My Account > My Account Manager**
  3. Your Account Manager's email address and direct dial are listed on this page
 

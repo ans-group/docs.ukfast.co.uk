@@ -9,7 +9,7 @@
 
 Reverse DNS or reverse DNS resolution (rDNS) is used to associate a domain name with an IP address using Domain Name System (DNS). This can be useful in instances such as mailservers - quite often mailservers will carry out a check against a sending server to help identify the source of the email.
 
-rDNS records can be updated if you host a server with UKFast. To update these records, start by logging into [MyUKFast](https://my.ukfast.co.uk).
+rDNS records can be updated if you host a server with UKFast. To update these records, start by logging into [MyUKFast](https://portal.ans.co.uk).
 
 Once logged in, navigate to the server you wish to amend with these steps:
 

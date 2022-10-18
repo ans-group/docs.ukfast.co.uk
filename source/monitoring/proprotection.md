@@ -4,7 +4,7 @@ A PROprotection report gives a consolidated view of various usage and performanc
 
 Follow these steps to run a PROprotection report:
 
-1. Login to [MyUKFast](https://my.ukfast.co.uk) and go to `Dedicated Servers` in the `Products and Services` menu.
+1. Login to [MyUKFast](https://portal.ans.co.uk) and go to `Dedicated Servers` in the `Products and Services` menu.
 2. Go to the section called `Reports`.
 3. Click the `Generate` button next to the PROprotection option
 4. Complete the details requested, including filename, metrics and information to be included, and report time frame.

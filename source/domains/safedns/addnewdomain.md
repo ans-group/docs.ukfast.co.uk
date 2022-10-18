@@ -43,7 +43,7 @@ ns0.ukfast.net
 ns1.ukfast.net
 ```
 
-You can check what they are currently by running a WHOIS test in the [MyUKFast Panel](https://my.ukfast.co.uk). If your domain is registered with a 3rd party, you will need to change the nameservers by logging into their portal; if your domain is registered at UKFast, please see [this guide](/domains/domains/changingnameservers) on how to change the nameservers.
+You can check what they are currently by running a WHOIS test in the [MyUKFast Panel](https://portal.ans.co.uk). If your domain is registered with a 3rd party, you will need to change the nameservers by logging into their portal; if your domain is registered at UKFast, please see [this guide](/domains/domains/changingnameservers) on how to change the nameservers.
 
 <h4><b>CLI</b></h4>
 ```bash

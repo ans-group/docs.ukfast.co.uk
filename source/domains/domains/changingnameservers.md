@@ -14,7 +14,7 @@
     - :doc:`/domains/domains/transferin`
 ```
 
-To change nameservers, you'll first need to login to the [MyUKFast Panel](https://my.ukfast.co.uk). Once logged in, navigate to the following location:
+To change nameservers, you'll first need to login to the [MyUKFast Panel](https://portal.ans.co.uk). Once logged in, navigate to the following location:
 
 `Products & Services` > `Domains`
 

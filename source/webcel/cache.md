@@ -4,7 +4,7 @@ Sometimes when you push an update to your website, you'll need to purge some of 
 
 ## Purging via MyUKFast
 
-We provide an interface to purge your Webcelerator cache via [MyUKFast](https://my.ukfast.co.uk), which can be found in your list of *Servers* under *Webcelerator*:
+We provide an interface to purge your Webcelerator cache via [MyUKFast](https://portal.ans.co.uk), which can be found in your list of *Servers* under *Webcelerator*:
 
 ![Webcel MyUKFast Purge](images/WebCel-MyUKFast-purge.png)
 

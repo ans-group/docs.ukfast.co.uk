@@ -16,7 +16,7 @@ There are two types of cache control within CDN, "Respect Origin Cache Control H
 - **Custom:** custom rules will override a file's cache control headers and add a general rule to the files of the specific MIME types you select. This enables the CDN to cache files that don't have any cache control headers set.
 
 ## Configuring Rules within MyUKFast
-- Login to [MyUKFast](https://my.ukfast.co.uk) and head to `DDoSX` in the `Products and Services` menu.
+- Login to [MyUKFast](https://portal.ans.co.uk) and head to `DDoSX` in the `Products and Services` menu.
 - Find the domain you would like to configure and select it.
 - On the `Configure` page, select the `CDN` tab.
 

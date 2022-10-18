@@ -16,13 +16,13 @@ We will show you how to do this with FileZilla, a free and very popular FTP clie
 
 If you do not have an FTP Client, you can get FileZilla [here](https://filezilla-project.org/download.php)
 
-First of all, ensure you are logged into your [MyUKFast Area](https://my.ukfast.co.uk) and then head to the [View Certificates](https://my.ukfast.co.uk/ssl/index.php) page under SSL Certificates.
+First of all, ensure you are logged into your [MyUKFast Area](https://portal.ans.co.uk) and then head to the [View Certificates](https://portal.ans.co.uk/ssl/index.php) page under SSL Certificates.
 When on that page, you will see the below showing the SSL Certificates you have purchased from UKFast.
 For this guide, we are going to be using `exampledomain.co.uk`, please substitute the domain you are covering with the SSL in these instructions to ensure that the certificate is installed correctly.
 
 ![listofsslcertificates](files/listofssls.PNG)
 
-If you haven't purchased your SSL yet, you can view the SSLs we provide and purchase the certificate(s) you need [here](https://my.ukfast.co.uk/ssl/buy.php).
+If you haven't purchased your SSL yet, you can view the SSLs we provide and purchase the certificate(s) you need [here](https://portal.ans.co.uk/ssl/buy.php).
 
 Click on the certificate you wish to validate in the table which will redirect you to the certificate specific page.
 On this page, you will see the Domain Control Validation section which contains brief instructions on validating your certificate.
@@ -37,7 +37,7 @@ Save the file somewhere easy to locate for you later on, that is the file we are
 The next step is to connect to your server in FileZilla or your chosen FTP Client.
 If you do not have an FTP User configured, please create one on your server for this purpose.
 
-If you need any information on how to create an FTP user or need any assistance, please do not hesitate to get in touch with our [Support Team](https://my.ukfast.co.uk/pss/add.php)
+If you need any information on how to create an FTP user or need any assistance, please do not hesitate to get in touch with our [Support Team](https://portal.ans.co.uk/pss/add.php)
 Alternatively, you can use your SSH user with SFTP. You will be able to follow the same instructions when connected to the server via SFTP.
 
 Uploading the verification file via FileZilla:

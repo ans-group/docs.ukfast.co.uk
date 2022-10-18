@@ -18,7 +18,7 @@ Please note you will need to run this from an external server.
 If you see output in the form of "STAT items", you should consider reviewing the security of the memcached instance.
 
 It's a little more difficult to review whether you have the UDP ports open, to do this you'll need to check your firewall settings.
-If you're unsure, please ask UKFast Support to check your firewall settings for you - just raise a support ticket in [MyUKFast](https://my.ukfast.co.uk/pss/).
+If you're unsure, please ask UKFast Support to check your firewall settings for you - just raise a support ticket in [MyUKFast](https://portal.ans.co.uk/pss/).
 
 ```eval_rst
    .. note::
@@ -66,7 +66,7 @@ It is recommended you do this at the hardware firewall level. Please read [our g
 
 ## Post checks
 
-Once you've secured memcached, double check that it is actually secure. Re-run the command outlined in [Checking your security](#checking-your-security), or alternatively contact [UKFast Support](https://my.ukfast.co.uk/pss/) and we can take a look for you.
+Once you've secured memcached, double check that it is actually secure. Re-run the command outlined in [Checking your security](#checking-your-security), or alternatively contact [UKFast Support](https://portal.ans.co.uk/pss/) and we can take a look for you.
 
 ```eval_rst
    .. title:: Open Memcached Exploit

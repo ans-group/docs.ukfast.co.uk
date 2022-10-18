@@ -1,6 +1,6 @@
 # Scheduling a dedicated firewall reboot
 
-Firewall reboots should be managed through the dedicated firewall area in [MyUKFast](https://my.ukfast.co.uk/server/dedicated-firewall.php).
+Firewall reboots should be managed through the dedicated firewall area in [MyUKFast](https://portal.ans.co.uk/server/dedicated-firewall.php).
 
 ![firewallrebootscreen](files/FirewallRebootscreen.png)
 

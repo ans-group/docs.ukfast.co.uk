@@ -14,7 +14,7 @@ If you want to use an SSL certificate bought from UKFast, click `Import UKFast C
 
 ![UKFast SSL](../files/ssls_2_small.png)
 
-If you can't find the SSL certificate you are looking for, make sure it hasn't expired in the [SSL section](https://my.ukfast.co.uk/ssl/index.php) of MyUKFast.
+If you can't find the SSL certificate you are looking for, make sure it hasn't expired in the [SSL section](https://portal.ans.co.uk/ssl/index.php) of MyUKFast.
 
 ## Using an SSL from elsewhere
 
@@ -30,7 +30,7 @@ Click `Create SSL` to add the SSL to the listener
 
 Once SSLs have been created, for security, you'll only be able to edit the name of the certificate. If you need to change any other values (such as the key) you should delete the SSL from MyUKFast and re-add it with the new details.
 
-Once you've set up the SSLs you need on a listener, make sure you [deploy your changes](../deploying-changes.html).
+Once you've set up the SSLs you need on a listener, make sure you [deploy your changes](/network/load-balancers/deploying-changes).
 
 ```eval_rst
    .. title:: Load Balancers | SSLs

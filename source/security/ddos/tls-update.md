@@ -22,7 +22,7 @@ If you are using the DDoSX network, whether it's for DDoS protection alone, or t
 
 You may wish inform your end users with incompatible browsers or devices that they will no longer be able to access your websites or applications until they upgrade to a newer web browser.  It's highly likely these people will experience problems accessing many different websites over the next few months, as websites begin to comply with the mandate to disable early TLS protocols, and so whilst inconvenient it will not come as a surprise to your users.
 
-If you need further help with this matter please either contact [your UKFast Account Manager](https://my.ukfast.co.uk/account/your-account-manager.php) or [raise a support ticket via MyUKFast](https://my.ukfast.co.uk/pss/add.php).
+If you need further help with this matter please either contact [your UKFast Account Manager](https://portal.ans.co.uk/account/your-account-manager.php) or [raise a support ticket via MyUKFast](https://portal.ans.co.uk/pss/add.php).
 
 ```eval_rst
    .. title:: Disabling early TLS protocols on DDoSX

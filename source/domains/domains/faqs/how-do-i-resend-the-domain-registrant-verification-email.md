@@ -7,5 +7,5 @@
 ```
 
 
-You can resend a domain registrant verification email by viewing the domain in question under [Domains in MyUKFast](https://my.ukfast.co.uk/domains/index.php). You will have the option to resend the email here if the domain registrant details have not yet been verified.
+You can resend a domain registrant verification email by viewing the domain in question under [Domains in MyUKFast](https://portal.ans.co.uk/domains/index.php). You will have the option to resend the email here if the domain registrant details have not yet been verified.
 

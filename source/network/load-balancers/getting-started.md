@@ -2,7 +2,7 @@
 
 ## Load Balancer Overview
 
-Once your new load balancer has been launched, it will appear in the [load balancers section](https://my.ukfast.co.uk/load-balancers) of your MyUKFast account. Any load balancers which haven't had their initial deployment will be marked with "Initial Setup Required".
+Once your new load balancer has been launched, it will appear in the [load balancers section](https://portal.ans.co.uk/load-balancers) of your MyUKFast account. Any load balancers which haven't had their initial deployment will be marked with "Initial Setup Required".
 
 Clicking on the load balancer will take you to the screens which you use to configure and deploy your new load balancer.
 

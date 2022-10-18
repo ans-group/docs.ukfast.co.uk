@@ -7,7 +7,7 @@
 ```
 
 
-To transfer a `.uk` domain away from UKFast go to [Domains > Transfer out](https://my.ukfast.co.uk/domains/transfer_out_stage1.php). Here you can to select the domain(s) you wish to transfer away from UKFast from the left hand list, move it to the list on the right, and hit the Next button.
+To transfer a `.uk` domain away from UKFast go to [Domains > Transfer out](https://portal.ans.co.uk/domains/transfer_out_stage1.php). Here you can to select the domain(s) you wish to transfer away from UKFast from the left hand list, move it to the list on the right, and hit the Next button.
 
 
 On the next page you will need to enter the tag of the registrar you are transferring the domain to. Start typing into the bar to bring up the tags of different registrars, which you can then select from.

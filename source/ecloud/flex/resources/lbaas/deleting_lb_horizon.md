@@ -32,7 +32,7 @@ You must remove every instance of the previous resource before removing the next
 
     Steps 1-4 will need to be repeated until all listeners in the load balancer have been removed, and you see `No items to display` in the listener list. At this point, you will be able to remove the Load Balancer using the top right corner drop-down menu and selecting `Delete Load Balancer`.
 
-If you are still having problems removing your Load Balancer after following this guide, please contact our UKFast Support team by [raising a ticket](https://my.ukfast.co.uk/pss/create) or by calling the [dedicated support line](https://www.ukfast.co.uk/contact.html).
+If you are still having problems removing your Load Balancer after following this guide, please contact our UKFast Support team by [raising a ticket](https://portal.ans.co.uk/pss/create) or by calling the [dedicated support line](https://www.ukfast.co.uk/contact.html).
 
 ```eval_rst
    .. title:: Deleting a Load Balancer in the Horizon Dashboard

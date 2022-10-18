@@ -65,7 +65,7 @@ These timeout options will be left at the UKFast default setting unless you chan
 
 ## Saving and Deploying
 
-Once you've finished filling in the target group form, click `Create Target Group` to add the target group to the load balancer. Once you've finished setting up all your target groups, make sure you [deploy your changes](../deploying-changes.html).
+Once you've finished filling in the target group form, click `Create Target Group` to add the target group to the load balancer. Once you've finished setting up all your target groups, make sure you [deploy your changes](/network/load-balancers/deploying-changes).
 
 ```eval_rst
    .. title:: Load Balancers | Target Groups

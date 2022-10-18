@@ -11,7 +11,7 @@ This guide covers how to purchase and renew SSL certificates with UKFast.  Our [
 
 ## Purchasing
 
-SSL certificates are available to purchase via [MyUKFast](https://my.ukfast.co.uk/ssl/buy.php).
+SSL certificates are available to purchase via [MyUKFast](https://portal.ans.co.uk/ssl/buy.php).
 
 Select the SSL certificate you want and click `Buy Now`. You'll be asked to provide some information regarding the organisation responsible for the domain in question.  At the end of the purchase process you will be asked to select which validation method you wish to use, in order to prove your legitimate ownership of the domain in question.  The three possible validation options are set out below:
 
@@ -31,8 +31,8 @@ Select the SSL certificate you want and click `Buy Now`. You'll be asked to prov
 
   The email will contain a unique validation code and link that are only valid for 30 days. The email can be resent in the event that validation is not completed within this time frame.
 
-Once validation is complete, a UKFast support engineer will be in touch if you've selected the option for UKFast to install the certificate for you. If you've chosen to install the SSL certificate yourself, you'll find a link to the certificate in [MyUKFast](https://my.ukfast.co.uk/ssl/index.php)
+Once validation is complete, a UKFast support engineer will be in touch if you've selected the option for UKFast to install the certificate for you. If you've chosen to install the SSL certificate yourself, you'll find a link to the certificate in [MyUKFast](https://portal.ans.co.uk/ssl/index.php)
 
 ## Renewing
 
-We will send you a number of email alerts in the run up to your SSL certificate expiring.  Simply click the link in one of these emails and follow the process to renew your certificate within MyUKFast.  Alternatively you can login to [MyUKFast](https://my.ukfast.co.uk/ssl/index.php) and go to `Products and Services` then `SSL Certificates` to check when your certificates are due to expire, and manage their renewal.
+We will send you a number of email alerts in the run up to your SSL certificate expiring.  Simply click the link in one of these emails and follow the process to renew your certificate within MyUKFast.  Alternatively you can login to [MyUKFast](https://portal.ans.co.uk/ssl/index.php) and go to `Products and Services` then `SSL Certificates` to check when your certificates are due to expire, and manage their renewal.

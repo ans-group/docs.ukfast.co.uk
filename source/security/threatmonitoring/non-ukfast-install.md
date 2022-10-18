@@ -7,7 +7,7 @@
 
 Threat Monitoring can also be installed on servers that are not hosted with UKFast, allowing you to secure and protect all parts of your IT infrastructure via one centralised threat defence platform.
 
-To begin, log into MyUKFast and visit the [Threat Monitoring new agent configuration page](https://my.ukfast.co.uk/threat-monitoring/configuration) then select `Non UKFast` from the `Hosting Type` drop-down option.
+To begin, log into MyUKFast and visit the [Threat Monitoring new agent configuration page](https://portal.ans.co.uk/threat-monitoring/configuration) then select `Non UKFast` from the `Hosting Type` drop-down option.
 
 ![setup-type](files/setup-type.png)
 
@@ -22,7 +22,7 @@ Firstly, generate or use an existing UKFast API application token. This applicat
 
 ![input-api-token](files/setup-apikey-example.png)
 
-If you don't have an existing API application token, or would like to generate a new application token, you can generate one by pressing the blue `Generate Application Token` button provided, as shown below. The generated token will be entered into the text box for you. Furthermore, application tokens can be managed via the [API applications page](https://my.ukfast.co.uk/applications/index.php).
+If you don't have an existing API application token, or would like to generate a new application token, you can generate one by pressing the blue `Generate Application Token` button provided, as shown below. The generated token will be entered into the text box for you. Furthermore, application tokens can be managed via the [API applications page](https://portal.ans.co.uk/applications/index.php).
 
 ![generate-api-token](files/setup-apikey.png)
 
@@ -101,11 +101,11 @@ An example MyUKFast configuration setup is shown below.
 
 ![configuration-and-install](files/setup-instructions-and-name.png)
 
-If you do encounter any issues during installation, please [raise a support request](https://my.ukfast.co.uk/pss/create).
+If you do encounter any issues during installation, please [raise a support request](https://portal.ans.co.uk/pss/create).
 
 ## 4) Setup email contacts
 
-To receive email alerts for suspicious events, you will need to configure email alerts via MyUKFast. To do this, go to the [Alerts Manager section](https://my.ukfast.co.uk/alerts-manager/index.php) under "My Account", as shown below.
+To receive email alerts for suspicious events, you will need to configure email alerts via MyUKFast. To do this, go to the [Alerts Manager section](https://portal.ans.co.uk/alerts-manager/index.php) under "My Account", as shown below.
 
 ![setup-type](files/setup-alerts-manager.png)
 

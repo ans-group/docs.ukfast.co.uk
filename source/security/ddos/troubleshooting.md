@@ -9,7 +9,7 @@ If you're struggling to connect your domains, first check that you are using [Sa
 - `ns0.ukfast.co.uk`
 - `ns1.ukfast.co.uk`
 
-You'll find SafeDNS in [MyUKFast](https://my.ukfast.co.uk). Just log in and go to `SafeDNS` under the `Products and Services` menu.  You should also read the full [SafeDNS guide](/domains/safedns/index)
+You'll find SafeDNS in [MyUKFast](https://portal.ans.co.uk). Just log in and go to `SafeDNS` under the `Products and Services` menu.  You should also read the full [SafeDNS guide](/domains/safedns/index)
 
 ## My domain is showing as Not Configured, why is this?
 
@@ -39,7 +39,7 @@ Make sure you've configured your [WAF settings](/security/ddos/wafsettings) corr
 
 ## Why is my WAF blocking legitimate requests?
 
-It can take time to configure your [WAF settings](/security/ddos/wafsettings) correctly in order to avoid "false positives", or blocking legitimate requests to your application.  Often this can require a trial-and-error approach to determine the optimal paranoia level and rulesets, that meet your security requirements without preventing legitimate users from accessing your application as needed.  We strongly recommend running your WAF in Detection Only mode for a period of time before switching it on.  This will give you the chance to understand which requests will be blocked, by analysing the log files produced.  Please contact UKFast support by raising a support ticket in [MyUKFast](https://my.ukfast.co.uk) if you need help with this.
+It can take time to configure your [WAF settings](/security/ddos/wafsettings) correctly in order to avoid "false positives", or blocking legitimate requests to your application.  Often this can require a trial-and-error approach to determine the optimal paranoia level and rulesets, that meet your security requirements without preventing legitimate users from accessing your application as needed.  We strongly recommend running your WAF in Detection Only mode for a period of time before switching it on.  This will give you the chance to understand which requests will be blocked, by analysing the log files produced.  Please contact UKFast support by raising a support ticket in [MyUKFast](https://portal.ans.co.uk) if you need help with this.
 
 ## 504 error after 60s despite my timeout being higher
 

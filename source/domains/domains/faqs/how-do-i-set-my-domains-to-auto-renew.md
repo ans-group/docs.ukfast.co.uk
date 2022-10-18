@@ -7,7 +7,7 @@
 ```
 
 
-Yes, you can do this by going into each domain individually from the [Domains tab in MyUKFast](https://my.ukfast.co.uk/domains/index.php).
+Yes, you can do this by going into each domain individually from the [Domains tab in MyUKFast](https://portal.ans.co.uk/domains/index.php).
 
 ![Domain registration page 2](http://images.ukfast.co.uk/faq/domains/autorenew1.png)
 
@@ -15,7 +15,7 @@ Or, if you want to set multiple domains to auto renew, you can also tick as many
 
 [Domain multiple auto renew](http://images.ukfast.co.uk/faq/domains/autorenew4.png)
 
-Alternatively, on the [Default Settings](https://my.ukfast.co.uk/domains/settings.php) page select the option to set all your domains to auto renew, and how long you want to auto renew them for.
+Alternatively, on the [Default Settings](https://portal.ans.co.uk/domains/settings.php) page select the option to set all your domains to auto renew, and how long you want to auto renew them for.
 
 ![Domain registration page 2](http://images.ukfast.co.uk/faq/domains/autorenew3.png)
 

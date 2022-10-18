@@ -10,7 +10,7 @@ You can create the rule like this:
 
 ![ICMP Rule](files/editor2_permit_icmp.PNG)
 
-Please note this will allow all ICMP message types, if you wish to restrict this to certain ICMP types please [raise a support request via MyUKFast](https://my.ukfast.co.uk/pss/create).
+Please note this will allow all ICMP message types, if you wish to restrict this to certain ICMP types please [raise a support request via MyUKFast](https://portal.ans.co.uk/pss/create).
 
 Unfortunately, if your solution is behind a shared firewall, we will not be able to enable inbound ICMP to your server.
 

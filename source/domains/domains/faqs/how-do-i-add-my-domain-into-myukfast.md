@@ -7,7 +7,7 @@
 ```
 
 
-To add a domain to your MyUKFast account you can use the import domain function in [Domains > Import a Domain](https://my.ukfast.co.uk/domains/import.php).
+To add a domain to your MyUKFast account you can use the import domain function in [Domains > Import a Domain](https://portal.ans.co.uk/domains/import.php).
 
 
 This will add it to our system, however, to manage the domain you must first [transfer it to us](/domains/domains/transferin).

@@ -2,7 +2,7 @@
 
 If you want to remove a domain from DDoSX<sup>®</sup> then follow these steps:
 
-1. Login to [MyUKFast](https://my.ukfast.co.uk) and go to the `DDoSX` section under `Products and Services`.
+1. Login to [MyUKFast](https://portal.ans.co.uk) and go to the `DDoSX` section under `Products and Services`.
 2. Click the delete icon next to the domain in question
 3. You'll be asked to re-enter your MyUKFast password to confirm you wish to go ahead and delete the domain.
 4. Your domain will now be disconnected from the DDoSX<sup>®</sup> network.  You can reconnect your domain at any time until the billing period expires.

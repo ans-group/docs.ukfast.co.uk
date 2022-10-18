@@ -7,6 +7,6 @@
 ```
 
 
-To resend a domain transfer authorisation email go to the [Transfer In Status](https://my.ukfast.co.uk/domains/transfer-in-status-inprogress.php) page under the Domains tab in MyUKFast.
+To resend a domain transfer authorisation email go to the [Transfer In Status](https://portal.ans.co.uk/domains/transfer-in-status-inprogress.php) page under the Domains tab in MyUKFast.
 
 From this page you can also resend verification emails and restart the transfer process.

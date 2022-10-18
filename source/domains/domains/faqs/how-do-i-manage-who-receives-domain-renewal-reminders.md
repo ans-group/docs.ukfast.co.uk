@@ -7,6 +7,6 @@
 ```
 
 
-You can manage who receives domain renewal reminders under the Support tab, in the [MyUKFast Alerts Manager](https://my.ukfast.co.uk/alerts-manager/index.php). If you have several contacts you can select who you wish to receive the reminders under Product Renewal.
+You can manage who receives domain renewal reminders under the Support tab, in the [MyUKFast Alerts Manager](https://portal.ans.co.uk/alerts-manager/index.php). If you have several contacts you can select who you wish to receive the reminders under Product Renewal.
 
-If no one is selected, they will automatically go to the Primary Contact, which you can under [My Account > Overview > Contacts](https://my.ukfast.co.uk/account/list-contacts.php).
+If no one is selected, they will automatically go to the Primary Contact, which you can under [My Account > Overview > Contacts](https://portal.ans.co.uk/account/list-contacts.php).

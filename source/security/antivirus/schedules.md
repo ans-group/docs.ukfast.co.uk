@@ -19,4 +19,4 @@ These are the default scanning and update policies we apply to your McAfee anti-
 - Scan type – All Files, Detect unwanted programs, Scan inside .zip/archive files, find unknown program/macro threats
 - Threat action – Clean First / Continue Scanning
 
-If you need to make a change to your schedules, please raise a support request via [MyUKFast](https://my.ukfast.co.uk)
+If you need to make a change to your schedules, please raise a support request via [MyUKFast](https://portal.ans.co.uk)
