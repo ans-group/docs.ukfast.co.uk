@@ -3,10 +3,11 @@ Networking
 ==========
 
 .. toctree::
-   
-   Mappinganetworkdrive
-   Mappinganetworkshare
+
+   mappinganetworkdrive
+   mappinganetworkshare
    windowsfirewall
-   jumboframes   
+   jumboframes
    skipassource
-   Crossover
+   crossover
+   testing-and-troubleshooting-network-connectivity
