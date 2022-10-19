@@ -10,7 +10,6 @@ Traffic flow on a single server with Varnish is typically:
 - Port 443 (:doc:`/operatingsystems/linux/nginx/index`) - Port 80 (:doc:`/ecommercestacks/magento/magento2/varnish/index`) -> Port 8080 (:doc:`/operatingsystems/linux/nginx/index`) -> :doc:`/operatingsystems/linux/php-fpm/index`
 
 .. toctree::
-   :maxdepth: 1
 
    varnish
    ukfast_vcl
