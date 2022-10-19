@@ -1,5 +1,10 @@
 name: Check files
-on: [pull_request, push]
+on:
+  pull_request:
+    types:
+      - opened
+      - synchronize
+  push:
 jobs:
   check:
     runs-on: ubuntu-latest
@@ -23,7 +28,7 @@ jobs:
                   SCAN_FILES="$SCAN_FILES $FILE"; continue
                 fi
               done
-            fi 
+            fi
           done
           echo "scan_files=$SCAN_FILES" >> $GITHUB_ENV
 
