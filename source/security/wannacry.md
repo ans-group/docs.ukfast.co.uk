@@ -75,7 +75,7 @@ Once encryption has taken place on all the above file extension types, a command
 
 Command performed;
 
-```test
+```text
 C:\Windows\SysWOW64\cmd.exe /c vssadmin delete shadow /all /quiet & wmic shadowcopy delete & bcdedit /set {default} boostatuspolicy ignoreallfailures & bcdedit /set {default} recoveryenabled no & wbadmin delete catalog –quiet
 ```
 
@@ -95,7 +95,7 @@ The above command significantly reduces the available backup set, however if you
 
 The TOR `.onion` network is also utilised. Add new `/etc/hosts` entries to override DNS requests `.onion` network addresses:
 
-```test
+```text
 0.0.0.0 dist.torproject.org
 0.0.0.0 gx7ekbenv2riucmf.onion
 0.0.0.0 57g7spgrzlojinas.onion
