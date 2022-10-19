@@ -58,7 +58,7 @@ Things to note here are:
 
 ### Checking if a server is listening on a specific port
 
-The following CMD command can be ran to determine if a server is listening on a specific port:
+The following command can be ran in Command Prompt to determine if a server is listening on a specific port:
 
 ```text
 netstat -ano | find ":PORT"
