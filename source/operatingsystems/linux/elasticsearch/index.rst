@@ -6,7 +6,7 @@ Elasticsearch is a search engine based on the Lucene library. It provides a dist
 
 .. toctree::
    
-   elasticsearch.md
+   elasticsearch
    
 .. meta::
    :title: Elasticsearch | UKFast Documentation
