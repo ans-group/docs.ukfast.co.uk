@@ -74,6 +74,8 @@ Cloudflare
 CloudHSM
 CMS
 CNAME
+Colocation
+colocation
 CommCell
 CommServe
 Commvault
@@ -106,6 +108,7 @@ datacentre
 dataset
 datastore
 DBA
+DC
 DCs
 DCV
 DDoS
