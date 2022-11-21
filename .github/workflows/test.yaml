@@ -42,7 +42,7 @@ jobs:
 
       - name: Spellcheck
         if: env.scan_files != ''
-        uses: rojopolis/spellcheck-github-actions@0.27.0
+        uses: rojopolis/spellcheck-github-actions@0.28.0
         with:
           task_name: Markdown
           source_files: ${{ env.scan_files }}
