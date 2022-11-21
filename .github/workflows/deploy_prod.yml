@@ -45,7 +45,7 @@ jobs:
           file: populator/Dockerfile
 
       - name: Setup Kustomize
-        uses: imranismail/setup-kustomize@v1
+        uses: imranismail/setup-kustomize@v2
 
       - name: Build Kustomizations
         working-directory: .ci/kustomize
