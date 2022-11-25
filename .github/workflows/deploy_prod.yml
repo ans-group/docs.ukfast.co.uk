@@ -32,7 +32,7 @@ jobs:
         with:
           context: .
           push: true
-          tags: ghcr.io/ukfast/docs-app:${{ github.sha }}
+          tags: ghcr.io/ans-group/docs-app:${{ github.sha }}
           build-args: |
             essvc=elasticsearch
 
@@ -41,7 +41,7 @@ jobs:
         with:
           context: .
           push: true
-          tags: ghcr.io/ukfast/docs-populator:${{ github.sha }}
+          tags: ghcr.io/ans-group/docs-populator:${{ github.sha }}
           file: populator/Dockerfile
 
       - name: Setup Kustomize
@@ -51,8 +51,8 @@ jobs:
         working-directory: .ci/kustomize
         run: |
           kustomize create --resources overlays/prod
-          kustomize edit set image appImage=ghcr.io/ukfast/docs-app:${{ github.sha }}
-          kustomize edit set image populatorImage=ghcr.io/ukfast/docs-populator:${{ github.sha }}
+          kustomize edit set image appImage=ghcr.io/ans-group/docs-app:${{ github.sha }}
+          kustomize edit set image populatorImage=ghcr.io/ans-group/docs-populator:${{ github.sha }}
           kustomize edit set namespace docs
           kustomize edit set label 'app.kubernetes.io/instance:prod'
           kustomize build . > ../../manifest.yaml
