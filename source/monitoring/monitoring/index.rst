@@ -2,7 +2,10 @@
 Capacity Threshold Monitoring
 =============================
 
-Capacity Threshold Monitoring allows you to configure a range of monitoring checks for your servers, so both you and your UKFast support team will be alerted if a problem occurs.
+**Capacity Threshold Monitoring** allows you to configure a range of monitoring checks for your servers such as **disk space**, **memory** and **CPU utilisation**.
+
+.. note::
+  This will alert you if a problem occurs allowing you take corrective actions before a problem becomes an issue
 
 .. toctree::
   :maxdepth: 1
