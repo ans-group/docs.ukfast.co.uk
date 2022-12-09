@@ -2,7 +2,7 @@
 Capacity Threshold Monitoring
 =============================
 
-**Capacity Threshold Monitoring** allows you to configure a range of monitoring checks for your servers such as **disk space**, **memory** and **CPU utilisation**.
+**Capacity Threshold Monitoring** (CTM) allows you to configure a range of monitoring checks for your servers such as **disk space**, **memory** and **CPU utilisation**.
 
 .. note::
   This will alert you if a problem occurs allowing you take corrective actions before a problem becomes an issue
@@ -14,3 +14,8 @@ Capacity Threshold Monitoring
   frequency
   scheduledowntime
   view
+  
+.. warning::
+  The ANS Support Team do not actively monitor CTM alerts on your behalf.
+  
+
