@@ -17,7 +17,7 @@ In 2015 we created our Magento 2 optimised stack. The core components of this st
 We have a number of guides for our Magento 2 optimised stack:
 
 .. toctree::
-
+   :maxdepth: 1
    permissionguide
    nginxphpfileallowlist
    multiphp/index
