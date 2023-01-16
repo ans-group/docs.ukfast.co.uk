@@ -18,6 +18,7 @@ We have a number of guides for our Magento 2 optimised stack:
 
 .. toctree::
    :maxdepth: 1
+   
    permissionguide
    nginxphpfileallowlist
    multiphp/index
@@ -46,4 +47,3 @@ We also have guides for :doc:`/ecommercestacks/magento/magento1/index`
    :title: Magento 2 Optimised Stack | UKFast Documentation
    :description: guides relating to UKFast Magento 2 Optimised Stack
    :keywords: ukfast, Magento, Magento2, optimised, stack, eCommerce
-
