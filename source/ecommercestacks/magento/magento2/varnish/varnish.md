@@ -440,7 +440,7 @@ backend Web02 {
 Beneath the backends create the `vcl_init` sub:
 ```vcl
 sub vcl_init {
-   new prod_web = directors.round_robin();
+   new lbweb = directors.round_robin();
    lbweb.add_backend(web01);
    lbweb.add_backend(web02);
 }
