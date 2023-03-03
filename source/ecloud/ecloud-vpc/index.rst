@@ -27,6 +27,7 @@ Each virtual private cloud you create gives you the ability to define networking
    network-policies
    cost-management/index
    vpn
+   migrations/index
    
 .. meta::
    :title: eCloud VPC
