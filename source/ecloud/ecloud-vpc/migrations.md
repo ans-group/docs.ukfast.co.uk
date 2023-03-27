@@ -35,10 +35,10 @@ With every migration, there are steps you can take to ensure you are covered for
 
   * [Load Testing](https://k6.io/docs/)
   * [Checking Disk Space](/monitoring/checkdiskspace)
-  * [Bandwidth](monitoring/bandwidth)
-  * [Windows Resource Manager](operatingsystems/windows/windowsadministration/resmon)
-  * [Testing Websites with a hosts file](operatingsystems/windows/commonissues/testingwebsites)
-  * [Utilising an APM tool](monitoring/installnewrelic)
+  * [Bandwidth](/monitoring/bandwidth)
+  * [Windows Resource Manager](/operatingsystems/windows/windowsadministration/resmon)
+  * [Testing Websites with a hosts file](/operatingsystems/windows/commonissues/testingwebsites)
+  * [Utilising an APM tool](/monitoring/installnewrelic)
 
 ```eval_rst
   .. title:: eCloud VPC | How to Migrate to eCloud VPC
