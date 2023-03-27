@@ -38,7 +38,7 @@ With every migration, there are steps you can take to ensure you are covered for
   * [Bandwidth](monitoring/bandwidth)
   * [Windows Resource Manager](operatingsystems/windows/windowsadministration/resmon)
   * [Testing Websites with a hosts file](operatingsystems/windows/commonissues/testingwebsites)
-  * [Using an APM tool, eg. New Relic](monitoring/installnewrelic)
+  * [Utilising an APM tool](monitoring/installnewrelic)
 
 ```eval_rst
   .. title:: eCloud VPC | How to Migrate to eCloud VPC
