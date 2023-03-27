@@ -1,11 +1,9 @@
 # How to Migrate to eCloud VPC
 
-Migrating to a new server can sometimes feel a daunting task, but there are steps you can take to ensure you are covered for any eventuality.
-
-In this guide, you can find a curated series of guides to help streamline your migration to the eCloud VPC platform.
+Migrating to a new server can sometimes feel a daunting task, but there are steps you can take to ensure you are covered for any eventuality. In this guide, you can find a curated series of guides to help streamline your migration to the eCloud VPC platform.
 
 ```eval_rst
-.. warning::
+.. tip::
   A successful migration can be ensured with the following three steps
 
   * **Backups** - Ensure you have a rollback option
@@ -36,7 +34,7 @@ In this guide, you can find a curated series of guides to help streamline your m
   * [Restoring an MSSQL Database from backup](/operatingsystems/windows/mssql/restoringdb)
 
 ```eval_rst
-  .. title:: eCloud VPC | How to Migrate to eCloud VPC | ANS Documentation
+  .. title:: eCloud VPC | How to Migrate to eCloud VPC
   .. meta::
      :title: eCloud VPC | How to Migrate to eCloud VPC | ANS Documentation
      :description: Guidance on migrating to the eCloud VPC platform.
