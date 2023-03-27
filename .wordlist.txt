@@ -424,6 +424,7 @@ RPO
 RPOs
 RSA
 rst
+rsync
 ruleset
 rulesets
 runlevel
