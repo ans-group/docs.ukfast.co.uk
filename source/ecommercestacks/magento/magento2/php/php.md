@@ -33,8 +33,7 @@ dnf install https://rpms.remirepo.net/enterprise/remi-release-8.rpm
 #### CentOS 7
 
 ```bash
-wget http://rpms.remirepo.net/enterprise/remi-release-7.rpm && \
-    rpm -Uvh remi-release-7.rpm && rm -f remi-release-7.rpm
+wget http://rpms.remirepo.net/enterprise/remi-release-7.rpm && rpm -Uvh remi-release-7.rpm && rm -f remi-release-7.rpm
 ```
 
 ### Install / Downgrade
@@ -54,17 +53,20 @@ This includes the PHP modules required by Magento 2.
 #### PHP 7.3
 
 ```bash
-yum install --disablerepo='*' --enablerepo=base,remi-php73,remi,epel,updates php php-pecl-mcrypt php-pdo php-mysqlnd php-opcache php-xml php-gd php-devel php-mysql php-intl php-mbstring php-bcmath php-json php-iconv php-pecl-redis php-fpm php-zip php-soap php-sodium libsodium```
+yum install --disablerepo='*' --enablerepo=base,remi-php73,remi,epel,updates php php-pecl-mcrypt php-pdo php-mysqlnd php-opcache php-xml php-gd php-devel php-mysql php-intl php-mbstring php-bcmath php-json php-iconv php-pecl-redis php-fpm php-zip php-soap php-sodium libsodium
+```
 
 #### PHP 7.4
 
 ```bash
-yum install --disablerepo='*' --enablerepo=base,remi-php74,remi,epel,updates php php-pecl-mcrypt php-pdo php-mysqlnd php-opcache php-xml php-gd php-devel php-mysql php-intl php-mbstring php-bcmath php-json php-iconv php-pecl-redis php-fpm php-zip php-soap php-sodium libsodium```
+yum install --disablerepo='*' --enablerepo=base,remi-php74,remi,epel,updates php php-pecl-mcrypt php-pdo php-mysqlnd php-opcache php-xml php-gd php-devel php-mysql php-intl php-mbstring php-bcmath php-json php-iconv php-pecl-redis php-fpm php-zip php-soap php-sodium libsodium
+```
 
 #### PHP 8.1
 
 ```bash
-yum install --disablerepo='*' --enablerepo=base,remi-php74,remi,epel,updates php php-pecl-mcrypt php-pdo php-mysqlnd php-opcache php-xml php-gd php-devel php-mysql php-intl php-mbstring php-bcmath php-json php-iconv php-pecl-redis php-fpm php-zip php-soap php-sodium libsodium```
+yum install --disablerepo='*' --enablerepo=base,remi-php74,remi,epel,updates php php-pecl-mcrypt php-pdo php-mysqlnd php-opcache php-xml php-gd php-devel php-mysql php-intl php-mbstring php-bcmath php-json php-iconv php-pecl-redis php-fpm php-zip php-soap php-sodium libsodium
+```
 ### Update PHP
 
 You can perform an update of PHP with the following command depending on the desired version:
