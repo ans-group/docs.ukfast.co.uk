@@ -1,6 +1,6 @@
 # Install PHP
 
-Run the following script to install PHP on Ubuntu. Simply replace the version number within the variable PHPVersion.
+Run the following script to install PHP on Ubuntu. Simply replace the version number within the variable `PHPVersion`.
 
 ```bash
 PHPVersion="8.1"
