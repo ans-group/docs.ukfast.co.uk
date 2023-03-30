@@ -1,4 +1,4 @@
-### Install PHP
+# Install PHP
 
 Run the following script to install PHP on Ubuntu. Simply replace the version number within the variable PHPVersion.
 
