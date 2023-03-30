@@ -16,6 +16,10 @@ cp -r /etc/php-fpm.d/ /root/php_upgrade_backup-$(date +%d_%b_%Y)/
 cp /etc/php.ini /root/php_upgrade_backup-$(date +%d_%b_%Y)/
 ```
 
+### Ubuntu
+
+You can find our PHP guide for Ubuntu [here](php_ubuntu)
+
 ### Remi Repository
 
 We use the Remi YUM repository for PHP. You can install the Remi repository with the command:
@@ -50,35 +54,17 @@ This includes the PHP modules required by Magento 2.
 #### PHP 7.3
 
 ```bash
-yum install \
-    --disablerepo='*' \
-    --enablerepo=base,remi-php73,remi,epel,updates \
-    php php-pecl-mcrypt php-pdo php-mysqlnd php-opcache php-xml php-gd php-devel \
-    php-mysql php-intl php-mbstring php-bcmath php-json php-iconv php-pecl-redis \
-    php-fpm php-zip php-soap php-sodium libsodium composer
-```
+yum install --disablerepo='*' --enablerepo=base,remi-php73,remi,epel,updates php php-pecl-mcrypt php-pdo php-mysqlnd php-opcache php-xml php-gd php-devel php-mysql php-intl php-mbstring php-bcmath php-json php-iconv php-pecl-redis php-fpm php-zip php-soap php-sodium libsodium```
 
 #### PHP 7.4
 
 ```bash
-yum install \
-    --disablerepo='*' \
-    --enablerepo=base,remi-php74,remi,epel,updates \
-    php php-pecl-mcrypt php-pdo php-mysqlnd php-opcache php-xml php-gd php-devel \
-    php-mysql php-intl php-mbstring php-bcmath php-json php-iconv php-pecl-redis \
-    php-fpm php-zip php-soap php-sodium libsodium composer
-```
+yum install --disablerepo='*' --enablerepo=base,remi-php74,remi,epel,updates php php-pecl-mcrypt php-pdo php-mysqlnd php-opcache php-xml php-gd php-devel php-mysql php-intl php-mbstring php-bcmath php-json php-iconv php-pecl-redis php-fpm php-zip php-soap php-sodium libsodium```
 
 #### PHP 8.1
 
 ```bash
-yum install \
-    --disablerepo='*' \
-    --enablerepo=base,remi-php74,remi,epel,updates \
-    php php-pecl-mcrypt php-pdo php-mysqlnd php-opcache php-xml php-gd php-devel \
-    php-mysql php-intl php-mbstring php-bcmath php-json php-iconv php-pecl-redis \
-    php-fpm php-zip php-soap php-sodium libsodium composer
-```
+yum install --disablerepo='*' --enablerepo=base,remi-php74,remi,epel,updates php php-pecl-mcrypt php-pdo php-mysqlnd php-opcache php-xml php-gd php-devel php-mysql php-intl php-mbstring php-bcmath php-json php-iconv php-pecl-redis php-fpm php-zip php-soap php-sodium libsodium```
 ### Update PHP
 
 You can perform an update of PHP with the following command depending on the desired version:
