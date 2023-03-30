@@ -2,6 +2,8 @@
 `PHP <https://www.php.net/>`_
 =================================================
 
+A popular general-purpose scripting language that is especially suited to web development.
+
 .. toctree::
    
    php.md
