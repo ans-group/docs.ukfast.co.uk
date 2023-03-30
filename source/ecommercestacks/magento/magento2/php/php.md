@@ -33,13 +33,6 @@ wget http://rpms.remirepo.net/enterprise/remi-release-7.rpm && \
     rpm -Uvh remi-release-7.rpm && rm -f remi-release-7.rpm
 ```
 
-#### CentOS 6
-
-```bash
-wget http://rpms.remirepo.net/enterprise/remi-release-6.rpm && \
-    rpm -Uvh remi-release-6.rpm && rm -f remi-release-6.rpm
-```
-
 ### Install / Downgrade
 
 If you are installing or downgrading PHP you need to remove PHP from the server and then follow the install guide below. We can remove PHP with the command:
@@ -53,38 +46,6 @@ yum remove "php*"
 ### Install PHP
 
 This includes the PHP modules required by Magento 2.
-
-#### PHP 7.0
-
-```bash
-yum install \
-    --disablerepo='*' \
-    --enablerepo=base,remi-php70,remi,epel,updates \
-    php php-mcrypt php-pdo php-mysqlnd php-opcache php-xml php-gd php-devel \
-    php-mysql php-intl php-mbstring php-bcmath php-json php-iconv \
-    php-pecl-redis php-fpm php-zip php-soap composer
-```
-
-#### PHP 7.1
-
-```bash
-yum install \
-    --disablerepo='*' \
-    --enablerepo=base,remi-php71,remi,epel,updates \
-    php php-mcrypt php-pdo php-mysqlnd php-opcache php-xml php-gd php-devel \
-    php-mysql php-intl php-mbstring php-bcmath php-json php-iconv \
-    php-pecl-redis php-fpm php-zip php-soap php-sodium libsodium composer
-```
-#### PHP 7.2
-
-```bash
-yum install \
-    --disablerepo='*' \
-    --enablerepo=base,remi-php72,remi,epel,updates \
-    php php-pecl-mcrypt php-pdo php-mysqlnd php-opcache php-xml php-gd php-devel \
-    php-mysql php-intl php-mbstring php-bcmath php-json php-iconv php-pecl-redis \
-    php-fpm php-zip php-soap php-sodium libsodium composer
-```
 
 #### PHP 7.3
 
@@ -107,26 +68,21 @@ yum install \
     php-mysql php-intl php-mbstring php-bcmath php-json php-iconv php-pecl-redis \
     php-fpm php-zip php-soap php-sodium libsodium composer
 ```
+
+#### PHP 8.1
+
+```bash
+yum install \
+    --disablerepo='*' \
+    --enablerepo=base,remi-php81,remi,epel,updates \
+    php php-pecl-mcrypt php-pdo php-mysqlnd php-opcache php-xml php-gd php-devel \
+    php-mysql php-intl php-mbstring php-bcmath php-json php-iconv php-pecl-redis \
+    php-fpm php-zip php-soap php-sodium libsodium composer
+```
+
 ### Update PHP
 
 You can perform an update of PHP with the following command depending on the desired version:
-
-#### PHP 7.0
-
-```bash
-yum update --disablerepo='*' --enablerepo=base,remi-php70,remi,epel,updates 'php-*'
-```
-
-#### PHP 7.1
-
-```bash
-yum update --disablerepo='*' --enablerepo=base,remi-php71,remi,epel,updates 'php-*'
-```
-#### PHP 7.2
-
-```bash
-yum update --disablerepo='*' --enablerepo=base,remi-php72,remi,epel,updates 'php-*'
-```
 
 #### PHP 7.3
 
@@ -138,6 +94,12 @@ yum update --disablerepo='*' --enablerepo=base,remi-php73,remi,epel,updates 'php
 
 ```bash
 yum update --disablerepo='*' --enablerepo=base,remi-php74,remi,epel,updates 'php-*'
+```
+
+#### PHP 8.1
+
+```bash
+yum update --disablerepo='*' --enablerepo=base,remi-php81,remi,epel,updates 'php-*'
 ```
 
 If any of the following packages are updated as dependencies, NGINX will require a restart after updating PHP
