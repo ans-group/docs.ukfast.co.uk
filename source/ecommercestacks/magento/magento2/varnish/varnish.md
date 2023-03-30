@@ -4,23 +4,23 @@ Varnish is recommended for Full Page Caching with Magento2. Website performance 
 
 ### Install Varnish
 
-#### Version 6.5
+#### Version 7.0
 
-Varnish 6.5 is available from the `varnishcache_varnish65` repository, you can install this repository and varnish with the following commands:
+Varnish 7.0 is available from the `varnishcache_varnish70` repository, you can install this repository and varnish with the following commands:
 
 ##### CentOS
 ```bash
-curl -s https://packagecloud.io/install/repositories/varnishcache/varnish65/script.rpm.sh | sudo bash
+curl -s https://packagecloud.io/install/repositories/varnishcache/varnish70/script.rpm.sh | sudo bash
 ```
 
 ```bash
-yum install varnish --disablerepo='*' --enablerepo='varnishcache_varnish65,epel'
+yum install varnish --disablerepo='*' --enablerepo='varnishcache_varnish70,epel'
 ```
 
 ##### Ubuntu
 
 ```bash
-curl -s https://packagecloud.io/install/repositories/varnishcache/varnish65/script.deb.sh | sudo bash
+curl -s https://packagecloud.io/install/repositories/varnishcache/varnish70/script.deb.sh | sudo bash
 ```
 
 ```bash
