@@ -66,9 +66,9 @@ bash php_install_script.sh
 ```
 
 ```eval_rst
-  .. title:: Magento2 PHP
+  .. title:: Magento2 PHP Ubuntu
   .. meta::
-     :title: Magento2 PHP | UKFast Documentation
-     :description: A guide to using PHP on our Magento2 optimised stack
+     :title: Magento2 PHP Ubuntu | UKFast Documentation
+     :description: A guide to installing PHP on Ubuntu for our Magento2 optimised stack
      :keywords: ukfast, linux, install, centos, cloud, server, virtual, Magento, Magento2, PHP, eCommerce, NewRelic, Ubuntu
 ```
