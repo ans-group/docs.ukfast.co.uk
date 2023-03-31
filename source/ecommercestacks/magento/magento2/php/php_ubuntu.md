@@ -3,6 +3,10 @@
 Run the following script to install PHP on Ubuntu. Simply replace the version number for the variable `PHPVersion`.
 
 ```bash
+vim php_install_script.sh
+```
+
+```bash
 PHPVersion="8.1"
 
 if [ ! "$(apt -q list --installed 2>/dev/null | grep php/$PHPVersion)" ]; then
@@ -55,6 +59,10 @@ fi
 
 rm -f $0
 echo "File: $0 removed"
+```
+
+```bash
+bash php_install_script.sh
 ```
 
 ```eval_rst
