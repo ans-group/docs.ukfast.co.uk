@@ -25,6 +25,11 @@ acl purge {
 }
 
 sub vcl_recv {
+    if (req.restarts > 0 && req.http.X-Forwarded-Proto ~ "https") {
+      set req.hash_always_miss = true;
+      set req.http.X-Forwarded-Proto = "https";
+    }
+
     if (req.restarts > 0) {
         set req.hash_always_miss = true;
     }
