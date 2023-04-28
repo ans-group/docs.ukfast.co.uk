@@ -4,7 +4,7 @@ With every migration, there are steps you can take to ensure you are covered for
 
 ```eval_rst
 .. tip::
-  A successful migration can be ensured with the following three steps
+  A successful migration can be ensured with the following steps
 
   * **Capacity Planning** - Is your new solution suitable for your expected workload? Load testing is a must before going live.
   * **Backups** - Ensure you have a rollback option
