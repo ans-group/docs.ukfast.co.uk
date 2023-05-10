@@ -4,7 +4,7 @@ A guide on performing a cPanel to cPanel Migration
 
 ```eval_rst
 .. note::
-   cPanel requires the ability to connect to your other cPanel server via your defined SSH port and port ``2087``
+   cPanel requires the ability to connect to your other cPanel server via your defined SSH port and port ``2087`` BOTH inbound and outbound.
 ```
 
 To begin your migration you first need to ensure you are logged into your WHM panel.
