@@ -27,7 +27,7 @@ jobs:
           kubectl -n docs-uat delete deployments -l 'app.kubernetes.io/instance=docs-uat-${{ github.event.number }}'
 
       - name: Remove the app container image from the registry
-        uses: bots-house/ghcr-delete-image-action@v1.0.1
+        uses: bots-house/ghcr-delete-image-action@v1.1.0
         with:
           owner: ukfast
           name: docs-app
@@ -35,7 +35,7 @@ jobs:
           token: ${{ secrets.REGISTRY_DELETE_PAT }}
 
       - name: Remove the populator container image from the registry
-        uses: bots-house/ghcr-delete-image-action@v1.0.1
+        uses: bots-house/ghcr-delete-image-action@v1.1.0
         with:
           owner: ukfast
           name: docs-populator
