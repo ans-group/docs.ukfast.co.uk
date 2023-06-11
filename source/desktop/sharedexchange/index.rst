@@ -17,3 +17,4 @@ Shared Microsoft Exchange from UKFast; powerful mailbox features for business cl
    createalias
    recoveremail
    forward
+   backupwholemailbox
