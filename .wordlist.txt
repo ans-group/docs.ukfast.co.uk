@@ -158,6 +158,7 @@ EEP
 El
 Elasticsearch
 ELQ
+EML
 enablement
 Enom
 EOL
@@ -234,6 +235,7 @@ IFI
 IIS
 IKEv
 Imgur
+ImportExportTools
 imposter
 incrementing
 initialization
@@ -338,6 +340,7 @@ NTFS
 NTLM
 Ok
 onboarding
+ons
 onwards
 OPcache
 OpenSearch
@@ -356,6 +359,7 @@ passthrough
 PAYG
 PCI
 PCIe
+PCVARE
 PECL
 Percona
 Perl
@@ -387,6 +391,8 @@ Proto
 proxying
 PSK
 PSS
+pst
+PST
 push_pipe
 Pure-FTPd
 PuTTY
@@ -497,6 +503,7 @@ SURBL
 SWITCH
 symlink
 symlinks
+SysTools
 TCP
 Technet
 TempDB
