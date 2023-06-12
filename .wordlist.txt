@@ -288,6 +288,7 @@ mailservers
 Mandrill
 Mariabackup
 Mbox
+mbox
 McAfee
 Memcached
 Memcrashed
@@ -497,6 +498,7 @@ StorageZone
 StorageZones
 subdirectories
 subdirectory
+subfolders
 subnet
 subnets
 sudo
