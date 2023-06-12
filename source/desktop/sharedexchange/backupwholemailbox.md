@@ -16,6 +16,7 @@ Before you begin, ensure you have the following:
 
 1. [Microsoft Outlook](#microsoft-outlook)
 2. [Mozilla Thunderbird](#mozilla-thunderbird)
+3. [MacMail](#macmail)
 
 ## Microsoft Outlook
 
@@ -43,6 +44,20 @@ Mozilla Thunderbird is another popular email client that allows you to export yo
 7. Save the exported EML files to a local folder on your machine.
 8. To convert the EML files to the .pst format, you can use a third-party tool like "SysTools EML to PST Converter" or "PCVARE EML to PST Converter". These tools allow you to import the EML files and save them as .pst files.
 
+## MacMail
+
+1. Open the Mail application on your Mac.
+2. Select the mailbox or specific folders you want to back up. You can hold down the Command key and click on multiple mailboxes or folders to select them.
+3. From the menu bar at the top, click on "Mail" and then choose "Mailbox" from the dropdown menu.
+4. In the Mailbox menu, select "Export Mailbox..." (or "Export Selected Mailboxes..." if you selected multiple mailboxes/folders).
+5. Choose a location on your local machine or external storage device where you want to save the exported mailbox.
+6. Provide a name for the backup file and click "Choose" or "Save" to start the export process.
+7. MacMail will create an .mbox file that contains your selected mailbox/folders and save it to the specified location.
+
+Please note that the exported .mbox file will contain the entire mailbox or folder structure, including all emails, attachments, and subfolders. To restore this backup, you can import the .mbox file back into MacMail or another email client that supports .mbox format.
+
+Remember to regularly perform backups to ensure your email data remains safe and secure.
+
 ## Conclusion
 
 By following the instructions in this guide, you can easily back up your entire mailbox as a .pst file. Remember to regularly perform backups to ensure your important email data remains safe. Storing your backups in secure locations, such as external hard drives or cloud storage services, is also recommended.
@@ -54,5 +69,5 @@ Please note that the steps provided in this guide are accurate at the time of wr
   .. meta::
      :title: How to Back Up Your Mailbox | UKFast Documentation
      :description: How to Back Up Your Mailbox
-     :keywords: shared exchange, pst, backup, back up, restore, howto, guide, tutorial
+     :keywords: shared exchange, pst, backup, back up, restore, howto, guide, tutorial, outlook, thunderbird, macmail, mac mail, apple mail
 ```
