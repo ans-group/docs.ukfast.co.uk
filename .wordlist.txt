@@ -134,7 +134,6 @@ Telefonica
 McAfee's
 AppLocker
 executables
-
 DKIM
 DMTF
 DNS
@@ -280,6 +279,8 @@ LTS
 LV
 LVM
 macOS
+macmail
+MacMail
 Magento
 MageReport
 Mailchimp
@@ -287,6 +288,7 @@ mailservers
 Mandrill
 Mariabackup
 Mbox
+mbox
 McAfee
 Memcached
 Memcrashed
@@ -496,6 +498,7 @@ StorageZone
 StorageZones
 subdirectories
 subdirectory
+subfolders
 subnet
 subnets
 sudo
