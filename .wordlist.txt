@@ -134,7 +134,6 @@ Telefonica
 McAfee's
 AppLocker
 executables
-
 DKIM
 DMTF
 DNS
@@ -280,6 +279,8 @@ LTS
 LV
 LVM
 macOS
+macmail
+MacMail
 Magento
 MageReport
 Mailchimp
