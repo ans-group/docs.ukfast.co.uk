@@ -2,7 +2,7 @@
 
 ## Introduction
 
-In this guide we will walk you through the steps needed to add your Shared Exhange account to a fresh profile within Microsoft Outlook. You can have a new default profile or ask Outlook to let you select a profile each time it is opened.
+In this guide we will walk you through the steps needed to add your Shared Exchange account to a fresh profile within Microsoft Outlook. You can have a new default profile or ask Outlook to let you select a profile each time it is opened.
 
 ## Table of Contents
 
@@ -18,7 +18,7 @@ In this guide we will walk you through the steps needed to add your Shared Exhan
 6. Set Up Email Accounts:
     1. Enter Your Email Address: In the Add Account wizard, enter your email address associated with your Microsoft Exchange account in the "Email Address" field.
     2. Provide Your Password: Enter the password for your Microsoft Exchange email account in the "Password" field.
-    3. Automatic Configuration: Outlook will attempt to automatically configure your Exchange email account settings based on your email address and password. If successful, you'll see a green checkmark, indicating that the account setup is complete.
+    3. Automatic Configuration: Outlook will attempt to automatically configure your Exchange email account settings based on your email address and password. If successful, you'll see a green check-mark, indicating that the account setup is complete.
     4. If the automatic setup doesn't work, proceed to step 8.
 7. Manual Configuration: If Outlook couldn't automatically configure your Exchange account, you'll need to set it up manually.
     1. Select the option "Manual setup or additional server types" and click "Next".
@@ -27,7 +27,7 @@ In this guide we will walk you through the steps needed to add your Shared Exhan
     4. User Name: Enter your user name or email address associated with your Exchange account.
     5. Use Cached Exchange Mode (Optional): If you want to store a local copy of your mailbox for offline access, check the box for "Use Cached Exchange Mode." This option is recommended for most users.
     6. Check Name: Click on the "Check Name" button to validate your server and user information. If everything is entered correctly, Outlook will resolve your name and underline it.
-8. Complete the Setup: Click "Next" and then "Finish" to complete the setup process. Outlook will finalize the configuration and connect to your Microsoft Exchange email account.
+8. Complete the Setup: Click "Next" and then "Finish" to complete the setup process. Outlook will finalise the configuration and connect to your Microsoft Exchange email account.
 
 You have successfully added a new Microsoft Exchange email account to Microsoft Outlook. The account will now be listed in the Account Settings window, and you'll be able to access your Exchange mailbox and manage your emails, calendar, and contacts within Outlook.
 
