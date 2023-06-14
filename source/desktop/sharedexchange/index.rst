@@ -18,3 +18,6 @@ Shared Microsoft Exchange from UKFast; powerful mailbox features for business cl
    recoveremail
    forward
    backupwholemailbox
+   createnewoutlookprofile
+   importdatafrompst
+   mailboxmovederror
