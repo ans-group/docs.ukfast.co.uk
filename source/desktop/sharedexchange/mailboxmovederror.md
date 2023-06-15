@@ -22,7 +22,7 @@ Before you begin, ensure you have the following:
 ## Microsoft Outlook
 
 When opening Outlook, you may receive the error message "Your mailbox has been temporarily moved on Microsoft Exchange server".
-![Error: Your mailbox has been temporarily moved on Microsoft Exchange server](importfromspt/files/mailboxmovedonexchange/mailboxmovederror.jpg)
+![Error: Your mailbox has been temporarily moved on Microsoft Exchange server](files/mailboxmovedonexchange/mailboxmovederror.jpg)
 
 1. If you get this error, and you do not have a backup of your mailbox, you'll need to choose "Use Old Data". This will open up your old mailbox and allow you to backup all the data to a .pst file, ready to be imported into your new mailbox. Please note, after selecting old data, you will not be able to send or receive emails just yet.
 2. For further information on how to backup your data to a .pst file you can use [this guide](https://docs.ukfast.co.uk/desktop/sharedexchange/backupwholemailbox.html).

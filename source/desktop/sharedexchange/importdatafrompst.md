@@ -19,11 +19,11 @@ Before you begin, ensure you have the following:
 
 1. Launch Outlook: Open the Outlook application on your computer. Make sure you're logged in with the email account where you want to import the data.
 2. Access Import/Export Wizard: In Outlook, go to the "File" tab located in the top-left corner of the window.
-3. ![Open Import/Export](files/importfromspt/files/importfromspt/import-from-pst-001.png) Open Import/Export: In the "File" tab, click on "Open & Export" or "Open" (depending on your Outlook version). Then, select "Import/Export" from the options.
-4. ![Choose Import from Another Program or File](files/importfromspt/files/importfromspt/import-from-pst-002.png) Choose Import from Another Program or File: In the Import and Export Wizard window that appears, select the option "Import from another program or file" and click "Next."
-5. ![Select file type](files/importfromspt/files/importfromspt/import-from-pst-003.png) Select File Type: On the next screen, choose "Outlook Data File (.pst)" and click "Next."
-6. ![Locate the .pst File](files/importfromspt/files/importfromspt/import-from-pst-004.png) Locate the .pst File: Click on the "Browse" button to navigate to the location where your .pst file is stored. Select the file and click "Open."
-7. ![Choose Import Options](files/importfromspt/files/importfromspt/import-from-pst-005.png) Choose Import Options: In the Import Outlook Data File window, you have several options for importing the data. Here are the most common ones:
+3. ![Open Import/Export](files/importfromspt/import-from-pst-001.png) Open Import/Export: In the "File" tab, click on "Open & Export" or "Open" (depending on your Outlook version). Then, select "Import/Export" from the options.
+4. ![Choose Import from Another Program or File](files/importfromspt/import-from-pst-002.png) Choose Import from Another Program or File: In the Import and Export Wizard window that appears, select the option "Import from another program or file" and click "Next."
+5. ![Select file type](files/importfromspt/import-from-pst-003.png) Select File Type: On the next screen, choose "Outlook Data File (.pst)" and click "Next."
+6. ![Locate the .pst File](files/importfromspt/import-from-pst-004.png) Locate the .pst File: Click on the "Browse" button to navigate to the location where your .pst file is stored. Select the file and click "Open."
+7. ![Choose Import Options](files/importfromspt/import-from-pst-005.png) Choose Import Options: In the Import Outlook Data File window, you have several options for importing the data. Here are the most common ones:
     1. Import items into the current folder: This option will import the data directly into your existing folders in Outlook.
     2. Import items into the same folder in: Choose this option if you want to create a separate folder to import the data into. Click the "Browse" button to select the destination folder.
     3. Replace duplicates with items imported: If you have duplicate items between the .pst file and your Outlook account, selecting this option will replace the existing items with the imported ones.
