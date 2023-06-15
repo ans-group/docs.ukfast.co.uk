@@ -14,21 +14,21 @@ Before you begin, ensure you have the following:
 
 ## Import data from pst into Microsoft Outlook
 
-1. ### Launch Outlook 
+1. ### Launch Outlook
 
 Open the Outlook application on your computer. Make sure you're logged in with the email account where you want to import the data.
 
 
 2. ### Open Import/Export
 
-![Open Import/Export](files/importfromspt/import-from-pst-001.png) 
+![Open Import/Export](files/importfromspt/import-from-pst-001.png)
 
 In the "File" tab, click on "Open & Export" or "Open" (depending on your Outlook version). Then, select "Import/Export" from the options.
 
 
 3. ### Choose Import from Another Program or File
 
-![Choose Import from Another Program or File](files/importfromspt/import-from-pst-002.png) 
+![Choose Import from Another Program or File](files/importfromspt/import-from-pst-002.png)
 
 In the Import and Export Wizard window that appears, select the option "Import from another program or file" and click "Next."
 
