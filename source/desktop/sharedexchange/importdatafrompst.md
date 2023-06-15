@@ -52,15 +52,10 @@ Click on the "Browse" button to navigate to the location where your .pst file is
 ![Choose Import Options](files/importfromspt/import-from-pst-005.png)
 
 In the Import Outlook Data File window, you have several options for importing the data. Here are the most common ones:
-
     1. Import items into the current folder: This option will import the data directly into your existing folders in Outlook.
-
     2. Import items into the same folder in: Choose this option if you want to create a separate folder to import the data into. Click the "Browse" button to select the destination folder.
-
     3. Replace duplicates with items imported: If you have duplicate items between the .pst file and your Outlook account, selecting this option will replace the existing items with the imported ones.
-
     4. Do not import duplicates: This option skips importing any items that already exist in your Outlook account.
-    
     5. Select the desired import options and click "Next."
 
 
