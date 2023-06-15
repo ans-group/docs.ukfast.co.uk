@@ -20,24 +20,28 @@ Ensure that Microsoft Outlook is completely closed before starting the process o
 2. ### Open Control Panel
 
 ![Open Control Panel](files/createnewoutlookprofile/new-profile-001.png)
+
 Click on the "Start" button or press the Windows key, then search for "Control Panel" and open it.
 
 
 3. ### Locate Mail (Microsoft Outlook)
 
 ![Locate Mail](files/createnewoutlookprofile/new-profile-002.png)
+
 In the Control Panel window, search for the "Mail" or "Mail (Microsoft Outlook)" icon and click on it. The Mail Setup - Outlook dialog box will appear.
 
 
 4. ### Access Email Accounts
 
 ![Access Email Accounts](files/createnewoutlookprofile/new-profile-003.png)
+
 In the Mail Setup dialog box, click on the "Show Profiles" button. This will open the Mail dialog box.
 
 
 5. ### Create New Profile
 
 ![Access Email Accounts](files/createnewoutlookprofile/new-profile-005.png)
+
 In the Mail dialog box, click on the "Add" button to create a new Outlook profile. Enter a name for your new profile in the "Profile Name" field, then click "OK".
 
 
@@ -54,7 +58,8 @@ In the Mail dialog box, click on the "Add" button to create a new Outlook profil
 
 7. ### Manual Configuration
 
-![Manual creation](files/createnewoutlookprofile/new-profile-007.png) 
+![Manual creation](files/createnewoutlookprofile/new-profile-007.png)
+
 If Outlook couldn't automatically configure your Exchange account, you'll need to set it up manually.
 
     1. Select the option "Manual setup or additional server types" and click "Next".
