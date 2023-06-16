@@ -2,7 +2,7 @@
 
 ## Introduction
 
-In this guide we will walk you through the steps needed to add your Shared Exchange account to a fresh profile within Microsoft Outlook. You can have a new default profile or ask Outlook to let you select a profile each time it is opened.
+In this guide, we will walk you through the steps needed to add your Shared Exchange account to a fresh profile within Microsoft Outlook. You can have a new default profile or ask Outlook to let you select a profile each time it is opened.
 
 ## Creating a new Microsoft Outlook profile.
 
@@ -50,7 +50,7 @@ In this guide we will walk you through the steps needed to add your Shared Excha
 
 9. **Complete the Setup**
     - Click "Next" and then "Finish" to complete the setup process. Outlook will finalise the configuration and connect to your Microsoft Exchange email account.
-    
+
 You have successfully added a new Microsoft Exchange email account to Microsoft Outlook. The account will now be listed in the Account Settings window, and you'll be able to access your Exchange mailbox and manage your emails, calendar, and contacts within Outlook.
 
 If you encounter any issues setting up your new profile and would like assistance, please let us know by contacting support. You can do this through your [ANS Portal](https://portal.ans.co.uk/login?url=dashboard&msg=6) under support > priority support system.
