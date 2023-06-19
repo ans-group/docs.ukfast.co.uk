@@ -6,13 +6,14 @@ In this guide, we will walk you through the steps needed to add your Shared Exch
 
 ---
 
-## How to create a new Microsoft Outlook profile.
+## How to create a new Microsoft Outlook profile
 
 ```eval_rst
 .. note::
 
-Ensure that Microsoft Outlook is completely closed before starting the process of adding a new profile
+  Ensure that Microsoft Outlook is completely closed before starting the process of adding a new profile
 ```
+
 ### 1: Open Control Panel
 
 ![Open Control Panel](files/createnewoutlookprofile/new-profile-001.png)
@@ -52,7 +53,7 @@ If the automatic setup doesn't work, proceed to Step 6, if it is successful, go 
 ```eval_rst
 .. note::
 
-If Outlook couldn't automatically configure your Exchange account, you'll need to set it up manually.
+  If Outlook couldn't automatically configure your Exchange account, you'll need to set it up manually.
 ```
 
 ![Manual creation](files/createnewoutlookprofile/new-profile-007.png)
@@ -60,6 +61,7 @@ If Outlook couldn't automatically configure your Exchange account, you'll need t
 - **Choose manual setup:** Select the option "Manual setup or additional server types" and click "Next".
 
 - **Choose account Type:** On the next screen, select the option "Microsoft Exchange or compatible service" and click "Next".
+
 - **Enter Exchange Server Settings:** In the Microsoft Exchange Settings section add **client.ukfastexchange.co.uk**
 
 - **Enter User Name:** Enter your user name or email address associated with your Exchange account.
@@ -67,8 +69,6 @@ If Outlook couldn't automatically configure your Exchange account, you'll need t
 - **Use Cached Exchange Mode (Optional):** If you want to store a local copy of your mailbox for offline access, check the box for "Use Cached Exchange Mode." This option is recommended for most users.
 
 - **Check Name:** Click on the "Check Name" button to validate your server and user information. If everything is entered correctly, Outlook will resolve your name and underline it.
-
-------
 
 ### 7: Complete the Setup
 
