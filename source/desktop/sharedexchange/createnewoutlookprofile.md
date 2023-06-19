@@ -6,13 +6,14 @@ In this guide, we will walk you through the steps needed to add your Shared Exch
 
 ---
 
-## How to create a new Microsoft Outlook profile.
+## How to create a new Microsoft Outlook profile
 
 ```eval_rst
 .. note::
 
-Ensure that Microsoft Outlook is completely closed before starting the process of adding a new profile
+  Ensure that Microsoft Outlook is completely closed before starting the process of adding a new profile
 ```
+
 ### 1: Open Control Panel
 
 ![Open Control Panel](files/createnewoutlookprofile/new-profile-001.png)
@@ -68,7 +69,7 @@ If Outlook couldn't automatically configure your Exchange account, you'll need t
 
 - **Check Name:** Click on the "Check Name" button to validate your server and user information. If everything is entered correctly, Outlook will resolve your name and underline it.
 
-------
+---
 
 ### 7: Complete the Setup
 
