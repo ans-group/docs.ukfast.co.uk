@@ -35,7 +35,7 @@ Ensure that Microsoft Outlook is completely closed before starting the process o
 
 ![Access Email Accounts](files/createnewoutlookprofile/new-profile-005.png)
 
-- In the Mail dialog box, click on the "Add" button to create a new Outlook profile. Enter a name for your new profile in the "Profile Name" field, then click "OK".    
+- In the Mail dialog box, click on the "Add" button to create a new Outlook profile. Enter a name for your new profile in the "Profile Name" field, then click "OK".
 
 ### 5: Set Up Email Accounts
 
