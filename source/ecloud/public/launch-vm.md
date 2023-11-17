@@ -4,7 +4,7 @@ A new eCloud public VM can be easily launched through [MyUKFast](https://portal.
 
 ![PublicConfig](files/newVMConfig.png)
 
-Here you will have options for the VM name, [operating system](https://docs.ukfast.co.uk/operatingsystems/), [control panel](https://docs.ukfast.co.uk/operatingsystems/linux/controlpanels/index.html), vCPU, RAM, storage, additional storage disks, VM level backups, support. Once you have the VM configured how you would like the continue button will confirm the specification allow you to change the billing cycle and then to complete the launch of the VM with the button on the bottom right.
+Here you will have options for the VM name, [operating system](https://docs.ukfast.co.uk/operatingsystems/), [control panel](/docs/operatingsystems/linux/controlpanels/), vCPU, RAM, storage, additional storage disks, VM level backups, support. Once you have the VM configured how you would like the continue button will confirm the specification allow you to change the billing cycle and then to complete the launch of the VM with the button on the bottom right.
 
 Shortly after this will have ran through our automated launch process and you will be able to access your [new VM](https://portal.ans.co.uk/ecloud-public)
 

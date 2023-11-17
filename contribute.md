@@ -10,11 +10,11 @@
 
 ### Adding content
 
-Log into github.com, and go to the UKFast docs repository, [located here](https://github.com/ukfast/docs.ukfast.co.uk).
+Log into github.com, and go to the UKFast docs repository, [located here](https://github.com/ans-group/docs.ukfast.co.uk).
 
 As you're likely not an authorised user on the repository, the 'git way' of making changes to it is to first 'fork' the repository, then make the changes to that one and then propose that the changes be pushed back to the main ukfast repository via a 'pull request'. It may sound complex, but we'll walk through the steps now. 
 
-First, we have to fork the repository, which you can do using the 'fork' button in top right of the [UKFast docs repository page](https://github.com/ukfast/docs.ukfast.co.uk):
+First, we have to fork the repository, which you can do using the 'fork' button in top right of the [UKFast docs repository page](https://github.com/ans-group/docs.ukfast.co.uk):
 
 <kbd>![Fork button](files/5.png)</kbd>
 
@@ -80,7 +80,7 @@ To do this, right click on your new commit and select 'Start a pull request to o
 
 <kbd>![Raising a pull](files/12.png)</kbd>
 
-Adjust the 'To Repo' so that it's going to the `ukfast/docs.ukfast.co.uk` repository and then fill in the `Title` and `Description` fields with something descriptive. Filled out, you'll have something like this:
+Adjust the 'To Repo' so that it's going to the `ans-group/docs.ukfast.co.uk` repository and then fill in the `Title` and `Description` fields with something descriptive. Filled out, you'll have something like this:
 
 <kbd>![Complete pull](files/13.png)</kbd>
 
