@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# UKFast docs documentation build configuration file, created by
+# ANS docs documentation build configuration file, created by
 # sphinx-quickstart on Fri Oct 31 14:01:49 2014.
 #
 # This file is execfile()d with the current directory set to its containing dir.
@@ -50,8 +50,8 @@ templates_path = ['_templates']
 master_doc = 'index'
 
 # General information about the project.
-project = u'UKFast Documentation'
-copyright = u'2015, UKFast.Net Ltd'
+project = u'ANS Documentation'
+copyright = u'2023, ANS Group Limited'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -184,7 +184,7 @@ html_show_sphinx = False
 #html_file_suffix = ''
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'UKFastdocsdoc'
+htmlhelp_basename = 'ANSdocsdoc'
 
 
 # -- Options for LaTeX output --------------------------------------------------
@@ -211,7 +211,6 @@ htmlhelp_basename = 'UKFastdocsdoc'
 
 # If false, no module index is generated.
 #latex_use_modindex = True
-doc_root = 'https://docs.ukfast.co.uk/'
 
 
 def setup(app):

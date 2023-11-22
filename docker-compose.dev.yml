@@ -40,7 +40,7 @@ services:
     ports:
       - 80:80
     healthcheck:
-      test: ["CMD", "curl", "-f", "http://localhost:80"]
+      test: ["CMD", "curl", "-f", "http://localhost/docs"]
       interval: 10s
       timeout: 10s
       retries: 5

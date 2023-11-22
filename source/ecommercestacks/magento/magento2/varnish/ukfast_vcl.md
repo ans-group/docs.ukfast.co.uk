@@ -4,7 +4,7 @@
 vcl 4.0;
 import std;
 
-# ANS Varnish doc - https://docs.ukfast.co.uk/ecommercestacks/magento/magento2/varnish/index.html
+# ANS Varnish doc - /docs/ecommercestacks/magento/magento2/varnish/
 
 backend default {
     .host = "REPLACEME";

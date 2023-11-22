@@ -47,7 +47,7 @@ We recommend:
 
 - Using our [Threat Vision](https://www.ukfast.co.uk/intrusion-detection-response.html) service
 
-- For server-level services such as SSH and FTP, we'd recommend locking down the ports in your [firewall](https://docs.ukfast.co.uk/network/firewalls/index.html) so that only you can access them. This removes the attack vector entirely as they can no longer attempt to login.
+- For server-level services such as SSH and FTP, we'd recommend locking down the ports in your [firewall](/docs/network/firewalls/index.html) so that only you can access them. This removes the attack vector entirely as they can no longer attempt to login.
 
 - For WordPress or site-level attacks, we'd recommend locking down `wp-login` [to select IPs](https://wordpress.org/support/article/brute-force-attacks/#limit-access-to-wp-login-php-by-ip), and disabling `xmlrpc.php`:
 

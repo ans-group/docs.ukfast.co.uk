@@ -6,8 +6,8 @@ If you would like to contribute a guide or amendment to an existing one, please 
 
 To get started, please visit:
 
-* [the "how to contribute" guide](https://github.com/ukfast/docs.ukfast.co.uk/blob/master/contribute.md)
-* [the terminology and style guide](https://github.com/ukfast/docs.ukfast.co.uk/blob/master/guide.md)
+* [the "how to contribute" guide](https://github.com/ans-group/docs.ukfast.co.uk/blob/master/contribute.md)
+* [the terminology and style guide](https://github.com/ans-group/docs.ukfast.co.uk/blob/master/guide.md)
 
 ## Developing locally
 
@@ -111,7 +111,7 @@ Please ensure pages and folders are easy to read and sensibly structured.
 
 Please keep the page URLs lowercase and use hyphens instead of spaces, e.g.
 
-* `/desktop/fastdesk/getting-started/windows.html`
+* `/docs/desktop/fastdesk/getting-started/windows/`
 
 ### Navigation, Page Heading and Meta
 
@@ -310,7 +310,7 @@ If you wish to use text other than the heading for the section that you're linki
 :doc:`/ecloud/flex/general/openstackcli`
 ```
 
-This will make a hyperlink using the title of the page `/ecloud/flex/general/openstackcli` as the text.
+This will make a hyperlink using the title of the page `/docs/ecloud/flex/general/openstackcli` as the text.
 
 If you wish to use text other than the heading for the section that you're linking to, use the following format:
 
@@ -321,7 +321,7 @@ If you wish to use text other than the heading for the section that you're linki
 You can also use this syntax:
 
 ```rst
-`Custom Text</ecloud/flex/general/openstackcli>`_
+`Custom Text</docs/ecloud/flex/general/openstackcli>`_
 ```
 
 If you need to link headings (anchors) in other pages, you may need to use this format, which separates the display text away from the hyperlink target:
@@ -330,7 +330,7 @@ If you need to link headings (anchors) in other pages, you may need to use this 
 .. note::
    Please see our user guide on `connecting to your website via FTP`_ for further assistance.
 
-.. _connecting to your website via FTP: /operatingsystems/windows/commonissues/copyfiletoserver.html#connecting-to-your-ftp-server
+.. _connecting to your website via FTP: /docs/operatingsystems/windows/commonissues/copyfiletoserver/#connecting-to-your-ftp-server
 ```
 
 You'll notice that `connecting to your website via FTP` is used as a reference to associate the two.
@@ -354,8 +354,8 @@ These must be done using reStructuredText, and the format is like this:
 </pre>
 
 See the file in path `/domains/ssl/extended_validation_ssl` as an example.
- * [Markdown source](https://github.com/ukfast/docs.ukfast.co.uk/edit/master/source/domains/ssl/extended_validation_ssl.md)
- * [Rendered page](https://docs.ukfast.co.uk/domains/ssl/extended_validation_ssl.html#)
+ * [Markdown source](https://github.com/ans-group/docs.ukfast.co.uk/edit/master/source/domains/ssl/extended_validation_ssl.md)
+ * [Rendered page](https://docs.ukfast.co.uk/docs/domains/ssl/extended_validation_ssl.html#)
 
 #### Adding the Registered Trademark ®
 
@@ -370,9 +370,9 @@ Renders like this: DDoSX<sup>®</sup>
 Ensure you have `docker` and `docker-compose` installed.
 
 ```bash
-git clone https://github.com/ukfast/docs.ukfast.co.uk.git ukfast_docs
+git clone https://github.com/ans-group/docs.ukfast.co.uk.git ukfast_docs
 cd ukfast_docs
 docker-compose -f docker-compose.dev.yml up --build
 ```
 
-Open a browser to 'http://localhost:80'
+Open a browser to 'http://localhost/docs'
