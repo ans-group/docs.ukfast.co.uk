@@ -4,7 +4,6 @@ kind: Ingress
 metadata:
   name: app-ingress-ans
   annotations:
-    nginx.ingress.kubernetes.io/ssl-redirect: "false"
     cert-manager.io/cluster-issuer: letsencrypt-http
 spec:
   rules:
