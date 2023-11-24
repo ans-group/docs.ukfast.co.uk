@@ -1,6 +1,6 @@
 App = {};
 App.config = {
-  url: '/search/',
+  url: '/docs/search/',
   version: '2-3'
 };
 

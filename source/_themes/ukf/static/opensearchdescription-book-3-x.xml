@@ -6,7 +6,7 @@
   
   <Url type="text/html"
        method="get"
-       template="https://docs.ukfast.co.uk/search.html?check_keywords=yes&amp;area=default&amp;q={searchTerms}">
+       template="https://www.ans.co.uk/docs/search.html?check_keywords=yes&amp;area=default&amp;q={searchTerms}">
   </Url>
   <OutputEncoding>UTF-8</OutputEncoding>
   <InputEncoding>UTF-8</InputEncoding>
