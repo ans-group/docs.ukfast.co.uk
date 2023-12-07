@@ -1,6 +1,6 @@
-# Welcome to the UKFast Documentation Repository
+# Welcome to the ANS Documentation Repository
 
-All the documentation is published on <https://docs.ukfast.co.uk/>
+All the documentation is published on <https://www.ans.co.uk/docs/>
 
 If you would like to contribute a guide or amendment to an existing one, please fork the repository and submit a pull request.
 
@@ -15,7 +15,7 @@ There are a number of ways you can develop locally.
 
 You _can_ also use the `docker-compose.dev.yml` Docker Compose file, which will build a full environment, including Elasticsearch and populating it. For making small changes, however, you might find this tedious as you will need to rebuild the containers on every change.
 
-Generally, the easiest way is to run `sphinx-autobuild`, which will give you a live preview of the UKFast Docs site using your local data. This automatically rebuilds any changed docs content.
+Generally, the easiest way is to run `sphinx-autobuild`, which will give you a live preview of the ANS Docs site using your local data. This automatically rebuilds any changed docs content.
 
 This does have some drawbacks. Firstly, only content in the `/source` directory is auto-rebuilt, so no theme CSS or JavaScript. They are rendered at at the start, but changes are not detected. Secondly, there is no search functionality possible.
 
@@ -94,10 +94,10 @@ You can change the `$INPUT_SOURCE_FILES` variable to be whatever you want. It wi
 
 There are __two word lists__ in place which control the spell checking:
 
-1. The first is `.wordlist.txt` which has all of the words we use in UKFast and the IT field in it. You should add more words to this, but only if they are legitimate and correct in terms of upper and lower case.
+1. The first is `.wordlist.txt` which has all of the words we use in ANS and the IT field in it. You should add more words to this, but only if they are legitimate and correct in terms of upper and lower case.
 1. The second is `.wordlist-workaround.txt` which contains non-words and partial words to work around limitations in PySpelling.
 
-   One example of this is `L2TP`. As `aspell` (which powers PySpelling) splits words first on non-word characters, `L2TP` is seen as two different words, `L` and `TP`. Similarly, word contractions like `UKFast's` will we seen as invalid, as will hyphenated words.
+   One example of this is `L2TP`. As `aspell` (which powers PySpelling) splits words first on non-word characters, `L2TP` is seen as two different words, `L` and `TP`. Similarly, word contractions like `ANS's` will we seen as invalid, as will hyphenated words.
 
    So, you should add these workarounds to this file, __not__ the `.wordlist.txt` file.
 
@@ -131,7 +131,7 @@ To set:
 * Within `.md` files (normal content pages), add as first piece of content.
 
 ```markdown
-# Transferring a Domain to UKFast
+# Transferring a Domain to ANS
 ```
 
 * Within `index.rst` files (category index pages, which list the `.md` pages underneath), add to top of file.
@@ -156,8 +156,8 @@ You can override the name of the page in the Table of Contents and sidebar too. 
 .. toctree::
    :maxdepth: 1
 
-   Transfering to UKFast <transferin>
-   Transfering from UKFast <transferout>
+   Transfering to ANS <transferin>
+   Transfering from ANS <transferout>
    Changing Nameservers <changingnameservers>
    DNS Propagation <dnspropagation>
 ```
@@ -204,7 +204,7 @@ Meta content looks like this and goes at the bottom of the file:
    .. title:: Creating an eCloud Flex instance
    .. meta::
       :description: Detailed guidance on creating OpenStack instances on eCloud Flex
-      :keywords: openstack, ecloud flex, ukfast, nova, instance, virtual machine, vm
+      :keywords: openstack, ecloud flex, ans, nova, instance, virtual machine, vm
 ```
 </pre>
 
@@ -216,14 +216,14 @@ Meta content goes at the top of the page, otherwise it will fail our automated c
    .. title:: Email | Email hosting
    .. meta::
       :description: Information regarding a wide range of email related issues
-      :keywords: ukfast, email, exim, postfix, mail, dovecot, blocklist, dkim, spf
+      :keywords: ans, email, exim, postfix, mail, dovecot, blocklist, dkim, spf
 </pre>
 
 As you'll see, the content is the same except for being wrapped in an `eval_rst` fence.
 
 ### Character length limitations for meta
 
-- `title` - maximum of 42 characters. Don't include "| UKFast Documentation" at the end as this is will be added via the template.
+- `title` - maximum of 42 characters. Don't include "| ANS Documentation" at the end as this is will be added via the template.
 - `description` - maximum of 165 characters
 
 Your pull request will fail the automated checks without this meta content in the correct format.
@@ -234,7 +234,7 @@ Most content is simple Markdown (`md`), but some features require reStructuredTe
 
 ### Images / screenshots
 
-Where relevant, please add screenshots to pages as image files (ideally `.png`).  This is especially useful when describing how to complete a task in MyUKFast, for instance. Please blur out any sensitive information such as account names or IP addresses, as necessary.  Most image editors will allow you to add a blurred box over the image. This looks a lot neater than using a "black marker pen" style.
+Where relevant, please add screenshots to pages as image files (ideally `.png`).  This is especially useful when describing how to complete a task in Myans, for instance. Please blur out any sensitive information such as account names or IP addresses, as necessary.  Most image editors will allow you to add a blurred box over the image. This looks a lot neater than using a "black marker pen" style.
 
 Given the following structure:
 
@@ -301,7 +301,7 @@ If you wish to use text other than the heading for the section that you're linki
   *  For external links
 
   ```markdown
-  [Go to the domain transfer in page in MyUKFast](https://portal.ans.co.uk/domains/transfer-in.php).
+  [Go to the domain transfer in page in ANS Portal](https://portal.ans.co.uk/domains/transfer-in.php).
   ```
 
 * In reStructuredText
@@ -370,8 +370,8 @@ Renders like this: DDoSX<sup>®</sup>
 Ensure you have `docker` and `docker-compose` installed.
 
 ```bash
-git clone https://github.com/ans-group/docs.ukfast.co.uk.git ukfast_docs
-cd ukfast_docs
+git clone https://github.com/ans-group/docs.ukfast.co.uk.git ans_docs
+cd ans_docs
 docker-compose -f docker-compose.dev.yml up --build
 ```
 
