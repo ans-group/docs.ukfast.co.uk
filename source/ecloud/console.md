@@ -18,7 +18,7 @@ For Private and Hybrid VM clients, that button can be found (highlighted in gree
 
 ## Logging Out - Best Practice
 
-It is strongly recommended to log out when you are finished with the VM. This console allows you to log in to the VM directly from the MyUKFast website. As such, all contacts authorised to view your MyUKFast VMs will also be able to see the console. In the case of resellers, or those with non-technical contacts, logging out after use will prevent unauthorised access to the VMs via the console.
+It is strongly recommended to log out when you are finished with the VM. This console allows you to log in to the VM directly from the ANS Portal. As such, all contacts authorised to view your VMs will also be able to see the console. In the case of resellers, or those with non-technical contacts, logging out after use will prevent unauthorised access to the VMs via the console.
 
 ```eval_rst
    .. title:: eCloud VM Console

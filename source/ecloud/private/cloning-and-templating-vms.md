@@ -9,10 +9,10 @@
 
 ```
 
-This guide walks you through the process of cloning and templating VMs in the MyUKFast portal.
+This guide walks you through the process of cloning and templating VMs in the ANS Portal.
 
 ## Cloning VMs
-First of all, log into your MyUKFast client area and choose the option **eCloud -> Hybrid** or **eCloud -> Private**, depending which one you have.
+First of all, log into your ANS Portal and choose the option **eCloud -> Hybrid** or **eCloud -> Private**, depending which one you have.
 In my case it is **eCloud -> Hybrid**.
 
 You should be presented with a screen similar to this:

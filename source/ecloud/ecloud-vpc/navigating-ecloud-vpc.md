@@ -32,7 +32,7 @@ The resource, for any number of reasons has failed to create, update or delete
 The resource has been successfully deleted and will not show after a refresh.
 
 ## Cards
-Most resources we display are shown as 'cards' on MyUKFast, with their display name in bold on the top-left and then the most relevant information for that resource shown below. In this example of a floating IP it displays its name and then the id, the VPC it belongs to, the actual IP, where it is assigned to and its status. The card can be clicked to view further information and make changes to the resource.
+Most resources we display are shown as 'cards' on ANS Portal, with their display name in bold on the top-left and then the most relevant information for that resource shown below. In this example of a floating IP it displays its name and then the id, the VPC it belongs to, the actual IP, where it is assigned to and its status. The card can be clicked to view further information and make changes to the resource.
 
 ![eCloud VPC Card](files/vpc-card.png)
 

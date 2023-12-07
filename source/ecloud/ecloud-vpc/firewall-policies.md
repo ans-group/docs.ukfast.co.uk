@@ -4,7 +4,7 @@ See Network Policies for East-West Firewalling (between network segments).
 This section relates to the policies and rules for north-south firewall traffic (e.g. from the router to some other destination such as the internet or another router within eCloud VPC)
 
 ### How Firewall Policies work
-Firewall policies are applied on the router, the policies are applied in order from the top down (as shown in MyUKFast) and the rules within the policies in the order they appear too (top down also). Each rule is checked and once a rule is found to match the criteria, this rule is applied with no further checks being carried out. If none of the rules' criteria is matched then the default 'drop' rule is applied to the packet.
+Firewall policies are applied on the router, the policies are applied in order from the top down and the rules within the policies in the order they appear too (top down also). Each rule is checked and once a rule is found to match the criteria, this rule is applied with no further checks being carried out. If none of the rules' criteria is matched then the default 'drop' rule is applied to the packet.
 
 If you have advanced networking, you may also need to add the corresponding rules in the network policy section (which are applied at the NIC level of the Instance rather than at the router like here).
 

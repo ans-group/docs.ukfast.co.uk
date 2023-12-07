@@ -1,6 +1,6 @@
 # Disk
 
-If additional disk space is needed for the VM this can be added in [MyUKFast](https://portal.ans.co.uk/ecloud-public) using the HDD slider.
+If additional disk space is needed for the VM this can be added in [ANS Portal](https://portal.ans.co.uk/ecloud-public) using the HDD slider.
 
 ![vmConfig](files/vmConfigLaunched.png)
 

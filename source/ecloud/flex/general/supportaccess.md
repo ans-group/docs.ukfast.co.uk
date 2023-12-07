@@ -2,7 +2,7 @@
 
 If you've chosen UKFast support for your eCloud Flex project, then with your permission a UKFast support engineer will be able to login to your eCloud Flex instances to help troubleshoot and resolve problems.
 
-To enable a UKFast support engineer to login to your instance, when you raise a support request via [MyUKFast](https://portal.ans.co.uk/pss/create) you will need to request an SSH key and add this to your instance.
+To enable a UKFast support engineer to login to your instance, when you raise a support request via [ANS Portal](https://portal.ans.co.uk/pss/create) you will need to request an SSH key and add this to your instance.
 
 To do this, once you've raised the support request click on `Request SSH key`
 

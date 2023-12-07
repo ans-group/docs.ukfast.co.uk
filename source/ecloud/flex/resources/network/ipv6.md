@@ -8,7 +8,7 @@ All supported eCloud Flex Linux and Windows images support <nospell>DHCPv6</nosp
 
 If your eCloud Flex account does not currently have IPv6, you can enable it by following these steps:
 
-1. Login to [MyUKFast](https://portal.ans.co.uk), and go to `Flex` in the `Products and Services` menu.  Then click `OpenStack Control Panel`.  Alternatively you can go straight to the [OpenStack Control Panel](https://api.openstack.ecloud.co.uk)
+1. Login to [ANS Portal](https://portal.ans.co.uk), and go to `Flex` in the `Products and Services` menu.  Then click `OpenStack Control Panel`.  Alternatively you can go straight to the [OpenStack Control Panel](https://api.openstack.ecloud.co.uk)
 
 2. Expand the `Networks` tab in the left hand menu, then click `Networks`
 

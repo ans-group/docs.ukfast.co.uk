@@ -1,10 +1,10 @@
 # Delete VM
 
-If you need to delete the VM this can be actioned in [MyUKFast](https://portal.ans.co.uk/ecloud-public) using the delete option to the right of the VM entry as shown below.
+If you need to delete the VM this can be actioned in [ANS Portal](https://portal.ans.co.uk/ecloud-public) using the delete option to the right of the VM entry as shown below.
 
 ![deleteVM](files/deleteVM.png)
 
-From here you will be prompted for your MyUKFast password as below.
+From here you will be prompted for your ANS Portal password as below.
 
 ![confirmDelete](files/confirmDelete.png)
 

@@ -22,7 +22,7 @@ Now run the file with `source Project-[your-project-number]-openrc.sh`, and you 
 
 ## Upload the SSL Certificate to Barbican
 
-Next you need to upload an SSL certificate to the secret store known as Barbican. If you do not have an SSL certificate, these can be purchased through [MyUKFast](https://www.ukfast.co.uk/sslcertificate.html). Your certificate should be formatted according to the [X509 Standard](https://tools.ietf.org/html/rfc5280) with the website certificate at the top of the file, and the appropriate Certificate Authority bundle below it. If you have purchased your certificate from UKFast and have difficulty with this process, please contact our Support team by raising a ticket in [MyUKFast](https://portal.ans.co.uk/pss/add.php) who can assist with this.
+Next you need to upload an SSL certificate to the secret store known as Barbican. If you do not have an SSL certificate, these can be purchased through [ANS Portal](https://www.ukfast.co.uk/sslcertificate.html). Your certificate should be formatted according to the [X509 Standard](https://tools.ietf.org/html/rfc5280) with the website certificate at the top of the file, and the appropriate Certificate Authority bundle below it. If you have purchased your certificate from UKFast and have difficulty with this process, please contact our Support team by raising a ticket in [ANS Portal](https://portal.ans.co.uk/pss/add.php) who can assist with this.
 
 For our example below, `certificate.crt` is our combined certificate, and `private.key` is the private key of the certificate.
 

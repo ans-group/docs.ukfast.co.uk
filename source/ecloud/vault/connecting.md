@@ -2,9 +2,9 @@
 
 There are two primary ways of interacting with eCloud Vault.
 
-One is through "drag and drop" in [MyUKFast](https://portal.ans.co.uk/ecloud-vault/index.php).
+One is through "drag and drop" in [ANS Portal](https://portal.ans.co.uk/ecloud-vault/index.php).
 
-The second is the most powerful way of accessing eCloud Vault, and the one that most people will probably need. This is via API, using the access and secret key pair found in [the eCloud Vault section in MyUKFast](https://portal.ans.co.uk/ecloud-vault/integration.php).
+The second is the most powerful way of accessing eCloud Vault, and the one that most people will probably need. This is via API, using the access and secret key pair found in [the eCloud Vault section in ANS Portal](https://portal.ans.co.uk/ecloud-vault/integration.php).
 
 These keys will allow you to access the API endpoint found here: <http://vault.ecloud.co.uk/>
 

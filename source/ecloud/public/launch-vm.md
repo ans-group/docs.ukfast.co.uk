@@ -1,6 +1,6 @@
 # Launch VM
 
-A new eCloud public VM can be easily launched through [MyUKFast](https://portal.ans.co.uk/ecloud-public) by selecting launch VM. This will present the below configuration page in which you can specify the VM specification:
+A new eCloud public VM can be easily launched through [ANS Portal](https://portal.ans.co.uk/ecloud-public) by selecting launch VM. This will present the below configuration page in which you can specify the VM specification:
 
 ![PublicConfig](files/newVMConfig.png)
 
