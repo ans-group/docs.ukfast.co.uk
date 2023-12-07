@@ -1,8 +1,8 @@
 ==========================================
-Welcome to the UKFast Documentation Centre
+Welcome to the ANS Documentation Centre
 ==========================================
 
-For help with UKFast products and services, and guidance with web hosting and related technology.
+For help with ANS products and services, and guidance with web hosting and related technology.
 
 Contents:
 =========
@@ -22,4 +22,6 @@ Contents:
    webcel/index
    myukfast/index
 
-You can help make this documentation better on Github.  Just click on the pencil icon on the right hand side of any page.
+
+You can help make this documentation better on Github.
+Just click on the pencil icon on the right hand side of any page to get started.
