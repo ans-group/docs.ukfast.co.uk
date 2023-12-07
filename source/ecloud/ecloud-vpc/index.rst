@@ -2,9 +2,12 @@
 eCloud VPC
 ==========
 
-eCloud VPC is UKFast's cloud hosting platform, rebuilt from the ground  up on the latest enterprise-grade VMware technology. Created to rival the public cloud providers, eCloud VPC has all the benefits of public cloud i.e. flexibility, affordability, plus the security and simplicity of UKFast’s private cloud.   
+eCloud VPC is built on the latest enterprise technology from global partners including Cisco, HPE and VMware and provides the highest standards of performance, automation and networking. Designed to deliver high availability, with the highest security built in, eCloud VPC is flexible and fully scalable and is backed by award-winning service and support.
 
-This high performance, easy to use and fully scalable solution, makes world-class cloud technology available to all.
+eCloud VPC enables you to manage every aspect of your cloud environment yourself through your personal ANS ‘single pane of glass’ portal. The solution combines intuitive management with transparent, predictable and controllable costs based on what resources you actually need and use, selected through simple metrics.
+
+Since eCloud VPC is built on similar VMware technology to most on-premises servers, you can migrate seamlessly without the need for significant re-architecture. You can also integrate it with your existing software and systems. All data is secured to industry relevant standards at our UK based centres with 100% data sovereignty guaranteed, and you can be confident that your system will be online 24/7 with ANS’s expert support.
+
 
 --------------------
 How eCloud VPC works
