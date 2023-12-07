@@ -17,7 +17,7 @@ Volumes that contain the operating system that are attached to an instance are d
 ```eval_rst
    .. title:: Volumes
    .. meta::
-      :title: Volumes | UKFast Documentation
+      :title: Volumes | ANS Documentation
       :description: Managing your Volumes
-      :keywords: ecloud, ecloud VPC, MyUKFast, VPC, Virtual Private Cloud
+      :keywords: ecloud, ecloud VPC, ANS Portal, VPC, Virtual Private Cloud
 ```

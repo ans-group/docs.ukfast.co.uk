@@ -27,7 +27,7 @@ Use the trash can to delete the rules
 ```eval_rst
    .. title:: Network Policies
    .. meta::
-      :title: Network Policies | UKFast Documentation
+      :title: Network Policies | ANS Documentation
       :description: Managing your Network policies and rules
-      :keywords: ecloud, ecloud VPC, MyUKFast, VPC, Virtual Private Cloud, Firewall, Network Policies
+      :keywords: ecloud, ecloud VPC, ANS Portal, VPC, Virtual Private Cloud, Firewall, Network Policies
 ```

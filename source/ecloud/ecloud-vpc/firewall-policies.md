@@ -36,7 +36,7 @@ Press the up or down arrows on the left hand side of the policy name to change t
 ```eval_rst
    .. title:: Firewall Policies
    .. meta::
-      :title: Firewall Policies | UKFast Documentation
+      :title: Firewall Policies | ANS Documentation
       :description: Managing your firewall policies and rules
-      :keywords: ecloud, ecloud VPC, MyUKFast, VPC, Virtual Private Cloud, Instances, Firewall
+      :keywords: ecloud, ecloud VPC, ANS Portal, VPC, Virtual Private Cloud, Instances, Firewall
 ```

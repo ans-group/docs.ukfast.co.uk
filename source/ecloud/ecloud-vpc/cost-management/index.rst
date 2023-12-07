@@ -13,4 +13,4 @@ This is the area where you can monitor and manage your spend on eCloud VPC as we
 .. meta::
    :title: eCloud VPC Cost Management
    :description: Information relating eCloud VPC financials such as predicting and reviewing spend
-   :keywords: ukfast, ecloud, cloud, public, VPC, virtual, server, hosting, vmware, infrastructure
+   :keywords: ans, ecloud, cloud, public, VPC, virtual, server, hosting, vmware, infrastructure

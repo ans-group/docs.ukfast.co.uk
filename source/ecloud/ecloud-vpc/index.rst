@@ -48,5 +48,5 @@ control panel, APIs or command line tools.
    
 .. meta::
    :title: eCloud VPC
-   :description: Information relating to eCloud VPC, UKFast's new VMware-based public cloud platform
-   :keywords: ukfast, ecloud, cloud, public, VPC, virtual, server, hosting, vmware, infrastructure
+   :description: Information relating to eCloud VPC, ANS's VMware-based public cloud platform
+   :keywords: ans, ecloud, cloud, public, VPC, virtual, server, hosting, vmware, infrastructure

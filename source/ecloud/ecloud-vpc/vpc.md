@@ -40,7 +40,7 @@ Note, currently networks can take up to several minutes to delete – please ens
 ```eval_rst
    .. title:: Virtual Private Cloud (VPC)
    .. meta::
-      :title: Virtual Private Cloud (VPC) | UKFast Documentation
+      :title: Virtual Private Cloud (VPC) | ANS Documentation
       :description: Virtual Private Cloud (VPC)
-      :keywords: ecloud, ecloud VPC, MyUKFast, VPC, Virtual Private Cloud
+      :keywords: ecloud, ecloud VPC, ANS Portal, VPC, Virtual Private Cloud
 ```

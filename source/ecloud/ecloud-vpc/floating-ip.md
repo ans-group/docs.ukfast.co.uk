@@ -30,7 +30,7 @@ Press the trash icon on the floating IP card to delete it, it will only allow yo
 ```eval_rst
    .. title:: Floating IP
    .. meta::
-      :title: Floating IP | UKFast Documentation
+      :title: Floating IP | ANS Documentation
       :description: Managing Floating IPs
-      :keywords: ecloud, ecloud VPC, MyUKFast, VPC, Virtual Private Cloud, Floating IP
+      :keywords: ecloud, ecloud VPC, ANS Portal, VPC, Virtual Private Cloud, Floating IP
 ```

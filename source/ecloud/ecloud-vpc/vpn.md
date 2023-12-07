@@ -107,7 +107,7 @@ There have been a range of VPN Profiles created, which have various levels of en
 ```eval_rst
    .. title:: eCloud VPC VPNs
    .. meta::
-      :title: eCloud VPC VPNs | UKFast Documentation
+      :title: eCloud VPC VPNs | ANS Documentation
       :description: Site-to-Site IPsec VPNs in eCloud VPC
-      :keywords: ecloud, ecloud VPC, MyUKFast, ANS Portal, VPC, Virtual Private Cloud, VPN, IPsec, IKE, FIP, Netgate, pfSense
+      :keywords: ecloud, ecloud VPC, ANS Portal, ANS Portal, VPC, Virtual Private Cloud, VPN, IPsec, IKE, FIP, Netgate, pfSense
 ```

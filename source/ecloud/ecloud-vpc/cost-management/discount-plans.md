@@ -30,7 +30,7 @@ Your PAYG spend is not therefore above the £13,500, so there would be no additi
 ```eval_rst
    .. title:: Discount Plans
    .. meta::
-      :title: Discount Plans | UKFast Documentation
+      :title: Discount Plans | ANS Documentation
       :description: Managing your Discount Plans
-      :keywords: ecloud, ecloud VPC, MyUKFast, VPC, Virtual Private Cloud, Discount Plans, Spend
+      :keywords: ecloud, ecloud VPC, ANS Portal, VPC, Virtual Private Cloud, Discount Plans, Spend
 ```

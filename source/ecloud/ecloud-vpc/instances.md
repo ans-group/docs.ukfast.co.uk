@@ -1,8 +1,14 @@
 # Instances
-These are traditional compute servers for running windows and linux operating systems to host most workloads.
+
+VPC Instances are virtual devices that provide the same functionality as physical hardware but are more portable, 
+more secure, and easier to manage. They can run a variety of operating systems and applications to host most workloads.
+
+On your ANS Portal you will find your instances listed under the Compute section of the main navigation bar.
+
+
 
 ### How do Instances work
-Our instances use either UKFast managed images or you can create private images from our managed images to run either a vanilla operating system or an image with pre-defined software installed. When launching an instance, you will select the VPC, router and network to connect it to and also define the compute & storage that exactly fits your needs (no flavours here).
+Our instances use either ANS managed images or you can create private images from our managed images to run either a vanilla operating system or an image with pre-defined software installed. When launching an instance, you will select the VPC, router and network to connect it to and also define the compute & storage that exactly fits your needs (no flavours here).
 
 ### Launching an Instance (not from marketplace)
 
@@ -48,7 +54,10 @@ Whilst your instances size is changing, a banner will be shown and you will lock
 
 ### Instances -> Credentials
 
-Here you will find the instances credentials, press the eye to show the password.
+On your instance overview screen, click the credentials tab to view the stored passwords
+
+By default, passwords are hidden due to their sensitivity, you can click to copy the password to your clipboard or 
+click on the eye symbol to view
 
 ![Instances](files/instance-credentials.png)
 
@@ -64,7 +73,7 @@ If you wish to see what your instance is doing via it's (virtual) console (post 
 ```eval_rst
    .. title:: Instances
    .. meta::
-      :title: Instances | UKFast Documentation
+      :title: Instances | ANS Documentation
       :description: Managing Instances
-      :keywords: ecloud, ecloud VPC, MyUKFast, VPC, Virtual Private Cloud, Instances
+      :keywords: ecloud, ecloud VPC, ANS Portal, VPC, Virtual Private Cloud, Instances
 ```

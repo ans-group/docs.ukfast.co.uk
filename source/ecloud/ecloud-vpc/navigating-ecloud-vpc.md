@@ -40,7 +40,7 @@ Most resources we display are shown as 'cards' on ANS Portal, with their display
 ```eval_rst
    .. title:: Navigating eCloud VPC
    .. meta::
-      :title: Navigating eCloud VPC Control Panel | UKFast Documentation
-      :description: Navigating eCloud VPC Control Panel (MyUKFast)
-      :keywords: ecloud, ecloud VPC, MyUKFast, VPC, Virtual Private Cloud
+      :title: Navigating eCloud VPC Control Panel | ANS Documentation
+      :description: Navigating eCloud VPC Control Panel (ANS Portal)
+      :keywords: ecloud, ecloud VPC, ANS Portal, VPC, Virtual Private Cloud
 ```

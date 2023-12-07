@@ -14,7 +14,7 @@ Routers cannot be deleted unless they have no networks attached to them, once th
 ```eval_rst
    .. title:: Routers
    .. meta::
-      :title: Routers | UKFast Documentation
+      :title: Routers | ANS Documentation
       :description: Managing your routers in eCloud VPC
-      :keywords: ecloud, ecloud VPC, MyUKFast, VPC, Virtual Private Cloud, Router
+      :keywords: ecloud, ecloud VPC, ANS Portal, VPC, Virtual Private Cloud, Router
 ```
