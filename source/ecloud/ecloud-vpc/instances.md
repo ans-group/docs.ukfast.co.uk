@@ -1,6 +1,6 @@
 # Instances
 
-VPC Instances are virtual devices that provide the same functionality as physical hardware but are more portable, 
+VPC Instances are virtual devices that provide the same functionality as physical hardware but are more portable,
 more secure, and easier to manage. They can run a variety of operating systems and applications to host most workloads.
 
 On your ANS Portal you will find your instances listed under the Compute section of the main navigation bar.
@@ -56,7 +56,7 @@ Whilst your instances size is changing, a banner will be shown and you will lock
 
 On your instance overview screen, click the credentials tab to view the stored passwords
 
-By default, passwords are hidden due to their sensitivity, you can click to copy the password to your clipboard or 
+By default, passwords are hidden due to their sensitivity, you can click to copy the password to your clipboard or
 click on the eye symbol to view
 
 ![Instances](files/instance-credentials.png)
