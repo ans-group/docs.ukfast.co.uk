@@ -49,7 +49,7 @@ Microsoft provide an excellent article on their TLS best practices, which can be
 ```eval_rst
    .. title:: .NET Framework TLS Settings
    .. meta::
-      :title: .NET Framework TLS Settings | UKFast Documentation
+      :title: .NET Framework TLS Settings | ANS Documentation
       :description: Considerations for .Net Framework applications
       :keywords: SSL, TLS, Schannel, IIS, security, windows, dotnet, framework
 ```

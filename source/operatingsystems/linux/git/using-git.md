@@ -230,7 +230,7 @@ git push origin
 ```eval_rst
   .. title::  Using Git
   .. meta::
-     :title:  Using Git | UKFast Documentation
+     :title:  Using Git | ANS Documentation
      :description: An advanced guide on basic git commands
      :keywords: ukfast, linux, install, centos, cloud, server, virtual, git, eCommerce, branch, fork, merge, gitlab, devops, github
 ```

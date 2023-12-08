@@ -30,7 +30,7 @@ Due to the frequent updates brought to cPanel, describing individual cPanel issu
 ```eval_rst
   .. title:: Using cPanel on Linux
   .. meta::
-     :title: Using cPanel on Linux | UKFast Documentation
+     :title: Using cPanel on Linux | ANS Documentation
      :description: A guide to using the cPanel control panel on Linux servers
      :keywords: ukfast, server, cpanel, cloud, whm, control, panel, virtual
 ```

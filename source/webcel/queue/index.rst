@@ -1,5 +1,5 @@
 .. meta::
-   :title: Webcelerator queueing system | UKFast Documentation
+   :title: Webcelerator queueing system | ANS Documentation
    :description: The Webcelerator has a queue system which can be used to relieve stress on your backend server.
    :keywords: ukfast, webcel, webcelerator, queue, overloaded
 

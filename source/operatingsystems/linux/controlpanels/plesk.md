@@ -37,7 +37,7 @@ If you encounter any issues connecting to your Plesk Control Panel using the ins
 ```eval_rst
   .. title:: Connecting to your Plesk Control Panel
   .. meta::
-     :title: Connecting to your Plesk Control Panel | UKFast Documentation
+     :title: Connecting to your Plesk Control Panel | ANS Documentation
      :description: A guide for getting into your Plesk Control Panel
      :keywords: ukfast, plesk, control, panel, tutorial, cloud, server, guide, virtual
 ```

@@ -54,6 +54,6 @@ If you wish, you are able to update this to:
 ```eval_rst
   .. title:: UKFast Updates Default Configuration
   .. meta::
-      :title: UKFast Updates Default Configuration | UKFast Documentation
+      :title: UKFast Updates Default Configuration | ANS Documentation
       :description: Default Configuration for UKFast Updates
       :keywords: ukfast, hosting, updates, server, virtual

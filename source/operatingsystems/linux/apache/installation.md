@@ -135,7 +135,7 @@ The following documents carry on the setup for those particular elements:
 ```eval_rst
   .. title:: Installation and Configuration of Apache
   .. meta::
-     :title: Installation and Configuration of Apache | UKFast Documentation
+     :title: Installation and Configuration of Apache | ANS Documentation
      :description:  Guidance to help you get up and running with Apache
      :keywords: ukfast, apache, configuration, php, mysql, virtual, vm, server
 ```

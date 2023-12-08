@@ -22,6 +22,6 @@ Next, we will look at some [TLS and Schannel settings relating to Windows Web Se
 ```eval_rst
    .. title:: Windows | The Security Scan
    .. meta::
-      :title: Windows | The Security Scan | UKFast Documentation
+      :title: Windows | The Security Scan | ANS Documentation
       :description: Information and guidance on Windows security scans
 ```

@@ -55,6 +55,6 @@ List the size of a mailbox and the number of messages::
 ```eval_rst
   .. title:: Microsoft Exchange PowerShell quick commands
   .. meta::
-     :title: Microsoft Exchange PowerShell quick commands | UKFast Documentation
+     :title: Microsoft Exchange PowerShell quick commands | ANS Documentation
      :description: A list of quick PowerShell commands for Microsoft Exchange
      :keywords: ukfast, windows, exchange, powersell, quick, command, one, liner, output, cloud, server, virtual

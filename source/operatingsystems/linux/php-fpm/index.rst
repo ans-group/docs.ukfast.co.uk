@@ -11,7 +11,7 @@ A simple and robust FastCGI Process Manager for PHP
    phpfpmsetup
    
 .. meta::
-   :title: PHP-FPM | UKFast Documentation
+   :title: PHP-FPM | ANS Documentation
    :description: guides relating to using PHP-FPM on our Magento optimised stack
    :keywords: ukfast, Magento, Magento2, Shopware, optimised, stack, PHP-FPM, eCommerce
 

@@ -1,7 +1,7 @@
 ```eval_rst
    .. title:: Networking | Managed CDN Rules on DDoSX®
    .. meta::
-      :title: Networking | Managed CDN Rules on DDoSX® | UKFast Documentation
+      :title: Networking | Managed CDN Rules on DDoSX® | ANS Documentation
       :description: How to Configure your Managed CDN Rules on DDoSX®
 
 ```
@@ -75,7 +75,7 @@ ans ddosx domain deploy mydomain.example
 
 ```eval_rst
 .. meta::
-     :title: Setting CDN caching rules | UKFast Documentation
+     :title: Setting CDN caching rules | ANS Documentation
      :description: Guidance to setting content caching rules on the UKFast CDN
      :keywords: caching, caching rules, cdn, content delivery, content delivery network
 ```

@@ -73,7 +73,7 @@ systemctl restart mysql
 ```eval_rst
   .. title:: MySQL command line basics
   .. meta::
-     :title: MySQL command line basics | UKFast Documentation
+     :title: MySQL command line basics | ANS Documentation
      :description: A basic guide to using the MySQL command line in Linux
      :keywords: ukfast, mysql, database, command, line, basics, tutorial, guide, linux, centos
 ```

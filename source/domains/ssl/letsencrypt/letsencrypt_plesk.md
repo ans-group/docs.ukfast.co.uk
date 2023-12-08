@@ -38,7 +38,7 @@ You can also secure your `Plesk` Panel and mail services using `Let's Encrypt` b
 ```eval_rst
   .. title:: Plesk | How to secure your sites with Let's Encrypt
   .. meta::
-     :title: Plesk | How to secure your sites with Let's Encrypt | UKFast Documentation
+     :title: Plesk | How to secure your sites with Let's Encrypt | ANS Documentation
      :description: How to secure your sites with Let's Encrypt in Plesk
      :keywords: plesk, ssl, letsencrypt, let's encrypt, secure, security, linux, apache, nginx, server, guide, tutorial
 ```

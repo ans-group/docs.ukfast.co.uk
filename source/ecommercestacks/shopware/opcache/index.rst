@@ -9,6 +9,6 @@ OPcache improves PHP performance by storing precompiled script bytecode in share
    opcache.md
 
 .. meta::
-   :title: Shopware OPCache | UKFast Documentation
+   :title: Shopware OPCache | ANS Documentation
    :description: guides relating to using OPCache on our Shopware optimised stack
    :keywords: ukfast, Shopware, optimised, stack, OPCache, eCommerce

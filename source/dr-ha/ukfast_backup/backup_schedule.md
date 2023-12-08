@@ -41,7 +41,7 @@ It is also possible to backup specific files from across the whole volume, for i
 ```eval_rst
   .. title:: UKFast Backup schedules
   .. meta::
-     :title: UKFast Backup schedules  | UKFast Documentation
+     :title: UKFast Backup schedules  | ANS Documentation
      :description: Managing backup schedule, inclusions and exclusions
      :keywords: ukfast, backup, files, folders, recovery
 ```

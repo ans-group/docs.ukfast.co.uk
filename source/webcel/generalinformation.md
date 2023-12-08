@@ -43,6 +43,6 @@ This setup will give you some benefits of the Webcelerator but for an optimal so
 ```eval_rst
    .. title:: Webcelerator | General Information
    .. meta::
-      :title: Webcelerator | General Information | UKFast Documentation
+      :title: Webcelerator | General Information | ANS Documentation
       :description: General information on UKFast Webcelerators
 ```

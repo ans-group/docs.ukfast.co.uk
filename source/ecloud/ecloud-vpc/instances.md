@@ -64,7 +64,7 @@ click on the eye symbol to view
 ### Delete Instances
 You can delete your instances like all other resources using the trash can icon or form within the resource itself, note though if there is a floating IP or additional volumes attached these will be detached and still incur charges unless you clear them up also, the volume that the operating system sits on will always be deleted. This is slightly different behaviour to some of the other resources where it will error and prevent you from deleting, although the other resources will eventually do this too.
 
-### Instance Console
+      :title: Instances | ANS Documentation
 If you wish to see what your instance is doing via it's (virtual) console (post launch), you can launch the console for the instance from the Instances list view by clicking the '>_ ' from the instances card. This will create an hour long session for you, note though after 15 minutes of inactivity the session will be closed.
 
 ![Instances](files/instance-console.png)

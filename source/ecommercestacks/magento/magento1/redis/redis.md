@@ -231,7 +231,7 @@ Here's [more information on the Redis service](/operatingsystems/linux/redis/red
 ```eval_rst
   .. title:: Magento 1 IP Restrict File/Folder
   .. meta::
-     :title: Magento 1 IP Restrict File/Folder | UKFast Documentation
+     :title: Magento 1 IP Restrict File/Folder | ANS Documentation
      :description: A guide to IP restrict a file or folder within NGINX
      :keywords: ukfast, linux, nginx, install, centos, cloud, server, virtual, Magento, security, eCommerce
 ```

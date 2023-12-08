@@ -56,7 +56,7 @@ For pricing information and to quickly calculate your cloud costs, use our [eClo
 
 ```eval_rst
 .. meta::
-    :title: eCloud Flex Flavours | UKFast Documentation
+    :title: eCloud Flex Flavours | ANS Documentation
     :description: Detailed guidance on the resources for each eCloud Flex Flavour
     :keywords: ecloud, flex, volume, instance, flavour, flavor, RAM, memory, CPU, clock speed, IOPS, network
 ```

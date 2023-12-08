@@ -92,7 +92,7 @@ The next screen will be an overview of the VPN settings you have chosen, to send
 ```eval_rst
   .. title::  VPN | Site-To-Site VPN Administration
   .. meta::
-     :title: Site-To-Site VPN Administration | UKFast Documentation
+     :title: Site-To-Site VPN Administration | ANS Documentation
      :description: Site-To-Site VPN Administration
      :keywords: ukfast, firewall, vpn, setup, site-to-site, IPsec
 ```

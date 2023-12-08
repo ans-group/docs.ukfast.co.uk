@@ -172,7 +172,7 @@ systemctl enable php-fpm
 ```eval_rst
   .. title:: WooCommerce PHP
   .. meta::
-     :title: WooCommerce PHP | UKFast Documentation
+     :title: WooCommerce PHP | ANS Documentation
      :description: A guide to using PHP on our WooCommerce optimised stack
      :keywords: ukfast, linux, install, centos, cloud, server, virtual, WooCommerce, PHP, eCommerce
 ```

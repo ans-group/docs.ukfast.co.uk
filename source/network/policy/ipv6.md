@@ -9,7 +9,7 @@
 ```eval_rst
   .. title:: UKFast's policy on IPv6
   .. meta::
-    :title: UKFast's policy on IPv6 | UKFast Documentation
+    :title: UKFast's policy on IPv6 | ANS Documentation
     :description: Information on how IPv6 is handled at UKFast and how you might get it
     :keywords: network, policy, ipv6, ukfast
 ```

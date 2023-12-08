@@ -16,7 +16,7 @@ For the latest information on DDoSX® Protection please see [https://portal.ans.
 ```eval_rst
   .. title:: UKFast DDoSX build documentation
   .. meta::
-      :title: UKFast DDoSX build documentation | UKFast Documentation
+      :title: UKFast DDoSX build documentation | ANS Documentation
       :description: Build documentation for DDoSX
       :keywords: ukfast, hosting, service, server, virtual, ddos, ddos mitigation
 ```

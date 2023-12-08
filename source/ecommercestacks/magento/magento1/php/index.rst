@@ -7,7 +7,7 @@ PHP
    php.md
    
 .. meta::
-   :title: Magento PHP | UKFast Documentation
+   :title: Magento PHP | ANS Documentation
    :description: guides relating to using PHP on our Magento optimised stack
    :keywords: ukfast, Magento, optimised, stack, PHP, eCommerce
 

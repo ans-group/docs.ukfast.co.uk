@@ -76,7 +76,7 @@ If you continue to use the previously attacked IP address for hosting email, it 
 ```eval_rst
   .. title:: Network Protection with FastNetMon
   .. meta::
-     :title: Network Protection with FastNetMon | UKFast Documentation
+     :title: Network Protection with FastNetMon | ANS Documentation
      :description: Network Protection with FastNetMon
      :keywords: fastnetmon, banning, ban, Ban, traffic, guide, fast, net, mon, security, firewall, attack, flood, ddos, ddosx, IP, ip, address, Address, protection, DDoS, DDoSX, FastNetMon, cloudflare, block
 ```

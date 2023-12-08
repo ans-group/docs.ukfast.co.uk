@@ -109,6 +109,6 @@ On four (or more) node solutions, there is more flexibility about how files are 
 ```eval_rst
    .. title:: DR HA | Introduction to BCP
    .. meta::
-      :title: DR HA | Introduction to BCP | UKFast Documentation
+      :title: DR HA | Introduction to BCP | ANS Documentation
       :description: Introduction to the Business Continuity Platform from UKFast
 ```

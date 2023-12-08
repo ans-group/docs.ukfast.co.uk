@@ -20,6 +20,6 @@ Check that all of the required groups are present, and select "Apply" to complet
 ```eval_rst
   .. title:: Configuring user permissions in Windows Server
   .. meta::
-     :title: Configuring user permissions in Windows Server | UKFast Documentation
+     :title: Configuring user permissions in Windows Server | ANS Documentation
      :description: A guide to updating user permissions in Windows Server.
      :keywords: ukfast, windows, server, user, permissions, computer, management, virtual, vm, dedicated, applications, security

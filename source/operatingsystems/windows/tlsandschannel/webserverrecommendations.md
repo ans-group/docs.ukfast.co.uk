@@ -132,7 +132,7 @@ The next thing to look at is [how .NET Framework applications interact with Scha
 ```eval_rst
    .. title:: Web Server Recommendations
    .. meta::
-      :title: Web Server Recommendations | UKFast Documentation
+      :title: Web Server Recommendations | ANS Documentation
       :description: Security considerations for IIS Web servers
       :keywords: SSL, TLS, ukfast, Schannel, IIS, security, windows
 ```

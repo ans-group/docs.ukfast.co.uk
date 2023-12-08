@@ -49,7 +49,7 @@ Composer version 2.1.3 2021-06-09 16:31:20
 ```eval_rst
   .. title:: Magento Composer
   .. meta::
-     :title: Magento Composer | UKFast Documentation
+     :title: Magento Composer | ANS Documentation
      :description: A guide to using Composer on our Magento2 optimised stack
      :keywords: ukfast, linux, install, centos, cloud, server, virtual, Magento2, composer, eCommerce
 ```

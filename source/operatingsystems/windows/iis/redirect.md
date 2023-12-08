@@ -28,7 +28,7 @@ When you have entered the new destination URL, continue to configure the behavio
 ```eval_rst
   .. title:: Configuring a redirect in IIS
   .. meta::
-     :title: Configuring a redirect in IIS | UKFast Documentation
+     :title: Configuring a redirect in IIS | ANS Documentation
      :description: A guide to configuring a redirect in IIS
      :keywords: ukfast, windows, iis, configure, redirect, setup, tutorial, guide
 ```

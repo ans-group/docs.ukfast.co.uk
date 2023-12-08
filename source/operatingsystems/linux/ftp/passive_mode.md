@@ -144,7 +144,7 @@ If you use any software firewalls, such as CSF, Plesk Firewall, IPTables, or fir
 ```eval_rst
    .. title:: FTP Passive Configuration
    .. meta::
-      :title: FTP Passive Configuration | UKFast Documentation
+      :title: FTP Passive Configuration | ANS Documentation
       :description: A guide on how to set up FTP passive mode on your server
       :keywords: linux, ftp, transfer, file, protocol, passive, mode, plesk, cpanel, whm, ukfast
 ```

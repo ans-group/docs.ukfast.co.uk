@@ -1,5 +1,5 @@
 .. meta::
-   :title: Help with DDoSX\ :sup:`®` | UKFast Documentation
+   :title: Help with DDoSX\ :sup:`®` | ANS Documentation
    :description: How to use UKFast's global DDoS protection service
 
 ===============

@@ -10,6 +10,6 @@ For more information on setting this up, feel free to follow our guide on settin
 
 ```eval_rst
 .. meta::
-     :title: htaccess Authentication | UKFast Documentation
+     :title: htaccess Authentication | ANS Documentation
      :description: Useful threat remediation and prevention tips
      :keywords: threat monitoring, alerts, security, compliance, rules, rulesets, ukfast, hosting, file integrity monitoring, rootkit, detection, vulnerability scan, scans, hids, intrustion detection, set up

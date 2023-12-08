@@ -63,7 +63,7 @@ To use this you then need to add the following to your `.htaccess` file.
 ```eval_rst
   .. title:: Information and guidance about htaccess
   .. meta::
-     :title: Information and guidance about htaccess | UKFast Documentation
+     :title: Information and guidance about htaccess | ANS Documentation
      :description:  Information and guidance on locking down htaccess on Linux
      :keywords: ukfast, linux, htaccess, apache, server, virtual, vm, lockdown, IP, site, xmlrpc, access, apache
 ```

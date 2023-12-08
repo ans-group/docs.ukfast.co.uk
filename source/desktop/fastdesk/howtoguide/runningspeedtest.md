@@ -29,7 +29,7 @@ Once this test has been completed, please screenshot this page and send the resu
 ```eval_rst
    .. title::  FastDesk | Running a speed test
    .. meta::
-      :title: Running a speed test | UKFast Documentation
+      :title: Running a speed test | ANS Documentation
       :description: Guide for users on how to run an internet speed test outside of the FastDesk environment
       :keywords: FastDesk, Endpoint, ukfast, Internet, Citrix Receiver, Windows, Workspace Application, Change, Test, Web, Speed
 ```

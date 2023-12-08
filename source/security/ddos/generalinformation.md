@@ -48,7 +48,7 @@ DDoSX<sup>®</sup> unfortunately does not support <nospell>websockets</nospell> 
 ```eval_rst
    .. title:: DDoSX<sup>®</sup> and CDN from UKFast
    .. meta::
-      :title: DDoSX<sup>®</sup> and CDN from UKFast | UKFast Documentation
+      :title: DDoSX<sup>®</sup> and CDN from UKFast | ANS Documentation
       :description: General information on UKFast's global DDoSX<sup>®</sup> network with CDN and WAF
       :keywords: ddos, ddos protection, anti-ddos, cdn, content delivery, content delivery network, ukfast, ddosx, web application firewall, waf
 ```

@@ -7,6 +7,6 @@
    redis.md
    
 .. meta::
-   :title: WooCommerce Redis | UKFast Documentation
+   :title: WooCommerce Redis | ANS Documentation
    :description: guides relating to using Redis on our WooCommerce optimised stack
    :keywords: ukfast, WooCommerce, optimised, stack, Redis, eCommerce

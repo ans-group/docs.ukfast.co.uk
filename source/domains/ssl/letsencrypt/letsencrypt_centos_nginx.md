@@ -78,7 +78,7 @@ Here is a selection of additional flags / options that you can use, should you n
 ```eval_rst
   .. title:: SSL | How to secure NGINX with Let's Encrypt on CentOS
   .. meta::
-     :title: SSL | How to secure NGINX with Let's Encrypt on CentOS | UKFast Documentation
+     :title: SSL | How to secure NGINX with Let's Encrypt on CentOS | ANS Documentation
      :description: How to secure NGINX with Let's Encrypt on CentOS
      :keywords: ssl, certbot, NGINX, letsencrypt, let's encrypt, secure, security, linux, server, guide, tutorial
 ```

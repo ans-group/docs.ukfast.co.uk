@@ -108,6 +108,6 @@ Once you have carried out one of the above actions, your Remote Desktop session 
 ```eval_rst
   .. title:: Connecting to a Windows server using Remote Desktop
   .. meta::
-     :title: Connecting to a Windows server using Remote Desktop | UKFast Documentation
+     :title: Connecting to a Windows server using Remote Desktop | ANS Documentation
      :description: A guide on connecting to a Windows server using Remote Desktop
      :keywords: ukfast, windows, connect, rdp, remote, desktop, connection, server, cloud

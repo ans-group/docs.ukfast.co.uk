@@ -49,7 +49,7 @@ Leave all of the items you'd like to synchronise checked
 ```eval_rst
   .. title:: Shared Exchange | Connect using Mac Mail
    .. meta::
-      :title: Shared Exchange | Connect using Mac Mail | UKFast Documentation
+      :title: Shared Exchange | Connect using Mac Mail | ANS Documentation
       :description: Information on How to Connect to Your Shared Exchange Mailbox Using the Mail app for Mac
       :keywords: Shared Exchange, Exchange, Shex, Mail, Mac Mail
 ```

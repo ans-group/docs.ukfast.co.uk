@@ -49,7 +49,7 @@ Using this guide, you have successfully installed a PHP extension using EasyApac
 ```eval_rst
   .. title:: cPanel | How to Install a PHP Extension with EasyApache4
   .. meta::
-     :title: How to Install a PHP Extension with EasyApache4 | UKFast Documentation
+     :title: How to Install a PHP Extension with EasyApache4 | ANS Documentation
      :description:  A guide for installing a PHP Extension with EasyApache4
      :keywords: php, extension, cpanel, module, easy, easyapache, easyapache4, cpanel, install``
 ```

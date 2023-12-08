@@ -64,7 +64,7 @@ If the viruses/malware has been removed by your scanner, its recommended to imme
 ```eval_rst
    .. title:: Common Attacks
    .. meta::
-      :title: Common Attacks | UKFast Documentation
+      :title: Common Attacks | ANS Documentation
       :description: Our Threat Monitoring ruleset explained
       :keywords: threat monitoring, alerts, security, compliance, rules, rulesets, ukfast, hosting, file integrity monitoring, rootkit, detection, vulnerability scan, scans, hids, intrusion detection, set up
 ```

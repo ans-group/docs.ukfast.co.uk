@@ -35,7 +35,7 @@ Below you will find a list of common questions related to Anti-Virus:
 ```eval_rst
   .. title:: UKFast anti-virus build documentation
   .. meta::
-      :title: UKFast anti-virus build documentation | UKFast Documentation
+      :title: UKFast anti-virus build documentation | ANS Documentation
       :description: Build documentation for UKFast anti-virus
       :keywords: ukfast, hosting, anti-virus, server, virtual
 ```

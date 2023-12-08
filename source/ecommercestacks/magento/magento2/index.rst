@@ -44,6 +44,6 @@ Find out more about our Magento hosting offerings here: https://www.ukfast.co.uk
 We also have guides for :doc:`/ecommercestacks/magento/magento1/index`
 
 .. meta::
-   :title: Magento 2 Optimised Stack | UKFast Documentation
+   :title: Magento 2 Optimised Stack | ANS Documentation
    :description: guides relating to UKFast Magento 2 Optimised Stack
    :keywords: ukfast, Magento, Magento2, optimised, stack, eCommerce

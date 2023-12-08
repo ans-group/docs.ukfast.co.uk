@@ -25,7 +25,7 @@ The credentials will be saved on the server in the `/root` directory similar to:
 ```eval_rst
   .. title:: Shopware Adding Domain(s) To The Stack
   .. meta::
-     :title: Shopware Adding Domain(s) To The Stack | UKFast Documentation
+     :title: Shopware Adding Domain(s) To The Stack | ANS Documentation
      :description: A guide to adding domains to the Shopware optimised stack
      :keywords: ukfast, linux, nginx, install, centos, cloud, server, virtual, Shopware, security, php-fpm, mysql, percona, eCommerce
 ```

@@ -161,7 +161,7 @@ array (
 ```eval_rst
   .. title:: Set up remote access to MySQL
   .. meta::
-     :title: Set up remote access to MySQl | UKFast Documentation
+     :title: Set up remote access to MySQl | ANS Documentation
      :description: Set up remote access to MySQL between a split role web server and database server, ensuring the application is aware of the new changes.
      :keywords: ukfast, mysql, sql, db, dbserver, webserver, application, remote, connection
 ```

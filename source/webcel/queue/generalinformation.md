@@ -35,7 +35,7 @@ While not the most accurate way of calculating the active user numbers, it allow
 
 ```eval_rst
 .. meta::
-   :title: General information on the Webcelerator queue system | UKFast Documentation
+   :title: General information on the Webcelerator queue system | ANS Documentation
    :description: The Webcelerator has a queue system which can be used to relieve stress on your backend server.
    :keywords: ukfast, webcel, webcelerator, queue, overloaded
 ```

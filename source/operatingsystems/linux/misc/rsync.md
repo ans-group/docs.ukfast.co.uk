@@ -25,7 +25,7 @@ Trailing slashes on destination directories don't make any difference.
 ```eval_rst
   .. title:: Transferring files with rsync
   .. meta::
-     :title: Transferring files with rsync | UKFast Documentation
+     :title: Transferring files with rsync | ANS Documentation
      :description: A guide to transferring files with rsync
      :keywords: ukfast, files, transfer, linux, rsync, path, ssh, server, clouc, origin, destination
 ```

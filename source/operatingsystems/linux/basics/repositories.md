@@ -43,7 +43,7 @@ rpm -uvh epel-release-6-8.noarch.rpm
 ```eval_rst
   .. title:: Managing Repositories in Linux
   .. meta::
-     :title: Managing Repositories in Linux | UKFast Documentation
+     :title: Managing Repositories in Linux | ANS Documentation
      :description:  A guide to managing Linux repositories
      :keywords: ukfast, linux, troubleshooting, system, server, virtual, vm, repositories
 ```

@@ -43,7 +43,7 @@ You will now be presented with the URL rewrite module as below, over to the righ
 ```eval_rst
   .. title:: The IIS URL Rewrite module
   .. meta::
-     :title: The IIS URL Rewrite module | UKFast Documentation
+     :title: The IIS URL Rewrite module | ANS Documentation
      :description: A guide to installing and using the IIS URL rewrite module on Windows Server
      :keywords: ukfast, windows, iis, web, module, rewrite, install, tutorial, guide
 ```

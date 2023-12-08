@@ -16,7 +16,7 @@ You're now ready to start using WHM/cPanel. [See our guide on adding accounts he
 ```eval_rst
   .. title:: cPanel | WHM Initial Setup
   .. meta::
-     :title: WHM Initial Setup | UKFast Documentation
+     :title: WHM Initial Setup | ANS Documentation
      :description: WHM initial setup page
      :keywords: ukfast, cpanel, whm, control, panel, tutorial, cloud, server, guide, virtual
 ```

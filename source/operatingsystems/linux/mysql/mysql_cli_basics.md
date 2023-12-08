@@ -101,7 +101,7 @@ For more tips on managing users and databases, please do check out our [Managing
 ```eval_rst
   .. title:: MySQL command line basics
   .. meta::
-     :title: MySQL command line basics | UKFast Documentation
+     :title: MySQL command line basics | ANS Documentation
      :description: A basic guide to using the MySQL command line in Linux
      :keywords: ukfast, mysql, database, command, line, basics, tutorial, guide, linux, centos
 ```

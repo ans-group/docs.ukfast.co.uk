@@ -106,7 +106,7 @@ Threat Monitoring Core is required, any other modules are optional but highly re
 ```eval_rst
    .. title:: Threat Monitoring system requirements
    .. meta::
-        :title: Threat Monitoring system requirements | UKFast Documentation
+        :title: Threat Monitoring system requirements | ANS Documentation
         :description: UKFast Threat Monitoring system requirements
         :keywords: threat monitoring, alerts, security, compliance, rules, rulesets, ukfast, hosting, file integrity monitoring, rootkit, detection, vulnerability scan, scans, hids, intrusion detection, set up
 ```

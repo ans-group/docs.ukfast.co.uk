@@ -42,7 +42,7 @@ SQL backups will be managed via a maintenance plan, but the onus is on the custo
 ```eval_rst
    .. title:: Backup Policy | FastDesk: Backup Policies Documentation
    .. meta::
-      :title: FastDesk Backup Policies | UKFast Documentation
+      :title: FastDesk Backup Policies | ANS Documentation
       :description: Guide on the different FastDesk Backup Policies
       :keywords: FastDesk, Citrix, ukfast, VDI, Citrix Receiver, Windows, Workspace Application, File, Change, VM, Web, Portal, Commvault, SQL
 ```

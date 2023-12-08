@@ -81,7 +81,7 @@ If there are no errors in the configuration test proceed to reload the NGINX ser
 ```eval_rst
   .. title:: Magento Restrict Website
   .. meta::
-     :title: Magento Restrict Website | UKFast Documentation
+     :title: Magento Restrict Website | ANS Documentation
      :description: A guide to restrict access to a website
      :keywords: ukfast, linux, nginx, install, centos, cloud, server, virtual, Magento, security
 

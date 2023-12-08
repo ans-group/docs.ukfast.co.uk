@@ -111,7 +111,7 @@ Simply type the following URL `"https://www.fastdesk.co.uk"` and click Add. Alte
 ```eval_rst
    .. title:: FastDesk Getting Started Guide: Windows OS
    .. meta::
-      :title: FastDesk Getting Started Guide Windows PC Edition | UKFast Documentation
+      :title: FastDesk Getting Started Guide Windows PC Edition | ANS Documentation
       :description: Guide for users on how to get setup on FastDesk using a Windows PC
       :keywords: FastDesk, Citrix, ukfast, VDI, Citrix Receiver, Windows, Workspace Application
 ```

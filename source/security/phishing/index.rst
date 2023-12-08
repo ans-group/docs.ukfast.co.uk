@@ -1,5 +1,5 @@
 .. meta::
-   :title: Phishing as a Service | UKFast Documentation
+   :title: Phishing as a Service | ANS Documentation
    :description: Guidance on Phishing solutions from UKFast
    :keywords: security, email, phishing, alerts, blocking, hacking, ransomware, protection
 

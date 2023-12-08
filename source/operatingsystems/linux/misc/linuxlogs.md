@@ -143,7 +143,7 @@ Plesk also has additional log locations and logs for its own services.
 ```eval_rst
   .. title:: Linux Log Files
   .. meta::
-     :title: Linux Log Files | UKFast Documentation
+     :title: Linux Log Files | ANS Documentation
      :description: Guidance on where to find important Linux logs
      :keywords: linux, logs, ukfast, secure, plesk, cpanel, messages
 ```

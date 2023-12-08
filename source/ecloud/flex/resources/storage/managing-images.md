@@ -136,7 +136,7 @@ If you would like to learn more about managing images in eCloud Flex, please ref
 ```eval_rst
    .. title:: Managing Images in eCloud Flex
    .. meta::
-      :title: Managing Images in eCloud Flex | UKFast Documentation
+      :title: Managing Images in eCloud Flex | ANS Documentation
       :description: A guide detailing how to manage images in eCloud Flex.
       :keywords: ecloud, flex, storage, hosting, cloud, vm, volumes, images, snapshots, sysadmin
 ```

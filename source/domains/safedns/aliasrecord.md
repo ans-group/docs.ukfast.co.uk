@@ -2,7 +2,7 @@
 ```eval_rst
    .. title:: SafeDNS | ALIAS Record
    .. meta::
-      :title: SafeDNS | ALIAS Record | UKFast Documentation
+      :title: SafeDNS | ALIAS Record | ANS Documentation
       :description: Explanation of the ALIAS record and its use
 
 ```

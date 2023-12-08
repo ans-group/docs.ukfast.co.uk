@@ -48,7 +48,7 @@ There might be instances where you receive a 504 on your site after 60s despite 
 ```eval_rst
    .. title:: Troubleshooting DDoSX, WAF and CDN
    .. meta::
-      :title: Troubleshooting DDoSX, WAF and CDN | UKFast Documentation
+      :title: Troubleshooting DDoSX, WAF and CDN | ANS Documentation
       :description: Help with common problems when using DDoSX, WAF and CDN from UKFast
       :keywords: ddos, ddos protection, anti-ddos, cdn, content delivery, content delivery network, troubleshooting, faqs, ports, offline, waf, web application firewall
 ```

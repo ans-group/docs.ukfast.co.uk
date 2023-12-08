@@ -255,7 +255,7 @@ As a rule of thumb, if you add those numbers and round up to the nearest GB, tha
 ```eval_rst
   .. title:: All About Percona
   .. meta::
-     :title: All About Percona | UKFast Documentation
+     :title: All About Percona | ANS Documentation
      :description: A guide to using Percona and its settings
      :keywords: ukfast, linux, install, centos, cloud, server, virtual, Magento, Magento2, Shopware, Percona, eCommerce
 ```

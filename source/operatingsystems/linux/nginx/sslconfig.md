@@ -112,7 +112,7 @@ service nginx restart
 ```eval_rst
   .. title:: Adding an SSL certificate in NGINX
   .. meta::
-     :title: Adding an SSL certificate in NGINX | UKFast Documentation
+     :title: Adding an SSL certificate in NGINX | ANS Documentation
      :description: A guide to adding an SSL certificate to NGINX on Linux
      :keywords: ukfast, linux, ssl, security, nginx, web, server, install, tutorial, configuration
 ```

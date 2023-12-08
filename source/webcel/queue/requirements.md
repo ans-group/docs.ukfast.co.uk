@@ -27,7 +27,7 @@ As this is still a beta addition to the Webcelerator, you may encounter other is
 
 ```eval_rst
 .. meta::
-   :title: Webcelerator queue system requirements | UKFast Documentation
+   :title: Webcelerator queue system requirements | ANS Documentation
    :description: Detailed requirements to get started with the Webcelerator queue system.
    :keywords: ukfast, webcel, webcelerator, queue, webcelerate queue requirements
 ```

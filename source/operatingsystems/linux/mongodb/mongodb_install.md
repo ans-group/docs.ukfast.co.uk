@@ -65,7 +65,7 @@ Next, you should create an **admin** user to administrate your MongoDB service a
 ```eval_rst
   .. title:: MongoDB | How to Install MongoDB Community Edition on CentOS 7
   .. meta::
-     :title: How to Install MongoDB Community Edition on CentOS 7 | UKFast Documentation
+     :title: How to Install MongoDB Community Edition on CentOS 7 | ANS Documentation
      :description: How to Install MongoDB Community Edition on CentOS 7
      :keywords: mongodb, install, howto, guide, tutorial
 ```

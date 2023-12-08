@@ -17,7 +17,7 @@ Further information relating to WAF on DDoSX can be found [here](/security/ddos/
 ```eval_rst
    .. title:: What is a Web Application Firewall?
    .. meta::
-      :title: What is a Web Application Firewall? | UKFast Documentation
+      :title: What is a Web Application Firewall? | ANS Documentation
       :description: General information on Web Application Firewalls and how they work
       :keywords: ukfast, ddosx, web application firewall, waf, owasp, owasp top 10
 ```

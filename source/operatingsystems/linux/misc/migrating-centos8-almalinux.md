@@ -60,7 +60,7 @@ AlmaLinux release 8.4 (Electric Cheetah)
 ```eval_rst
   .. title:: Migrating from CentOS 8 to AlmaLinux
   .. meta::
-     :title: Migrating from CentOS 8 to AlmaLinux | UKFast Documentation
+     :title: Migrating from CentOS 8 to AlmaLinux | ANS Documentation
      :description: A guide on migrating from CentOS 8 to AlmaLinux
      :keywords: ukfast, centos, almalinux, migration, linux, eol, end-of-life
 ```

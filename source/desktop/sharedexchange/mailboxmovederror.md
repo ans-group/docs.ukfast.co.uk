@@ -35,7 +35,7 @@ When each of these steps is complete, you are now able to send and receive from 
 ```eval_rst
   .. title:: Mail | How to fix the error "Your mailbox has been temporarily moved on Microsoft Exchange server."
   .. meta::
-     :title: How to fix the error "Your mailbox has been temporarily moved on Microsoft Exchange server." | UKFast Documentation
+     :title: How to fix the error "Your mailbox has been temporarily moved on Microsoft Exchange server." | ANS Documentation
      :description: Fixing an error which states that your mailbox has been temporarily moved on Microsoft Exchange Server.
      :keywords: shared exchange, error, moved, back up, restore, howto, guide, tutorial, outlook
 ```

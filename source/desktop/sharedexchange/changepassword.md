@@ -3,7 +3,7 @@
 ```eval_rst
   .. title:: Shared Exchange | Changing your password
   .. meta::
-    :title: Shared Exchange | Changing your password | UKFast Documentation
+    :title: Shared Exchange | Changing your password | ANS Documentation
     :description: Information on how to change your password in Shared Exchange
 ```
 

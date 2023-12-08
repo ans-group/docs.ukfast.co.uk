@@ -103,7 +103,7 @@ Otherwise, your certificate parts will be available for install on the SSL page.
 ```eval_rst
   .. title:: Validating your SSL Certificate (Linux)
   .. meta::
-     :title: Validating your SSL Certificate (Linux) | UKFast Documentation
+     :title: Validating your SSL Certificate (Linux) | ANS Documentation
      :description: A detailed guide on validating your UKFast SSL Certificate via File Upload on a UKFast Linux Server
      :keywords: ssl, linux, file upload, validation, filezilla, ftp, sftp, cert, upload, cpanel, plesk
 ```

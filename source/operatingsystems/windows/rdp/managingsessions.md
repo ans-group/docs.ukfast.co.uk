@@ -19,6 +19,6 @@ You will now be able to view a list of currently connected users as below, right
 ```eval_rst
   .. title:: Managing Remote Desktop sessions
   .. meta::
-     :title: Managing Remote Desktop sessions | UKFast Documentation
+     :title: Managing Remote Desktop sessions | ANS Documentation
      :description: A guide on managing Remote Desktop sessions and connections on Windows
      :keywords: ukfast, windows, remote, deskop, connection, manage, user, cloud, server

@@ -9,7 +9,7 @@ Redis is an open source (BSD licensed), in-memory data structure store, used as 
    redis.md
    
 .. meta::
-   :title: Redis | UKFast Documentation
+   :title: Redis | ANS Documentation
    :description: guides relating to using Redis on our Shopware optimised stack
    :keywords: ukfast, Shopware, Magento, Magento2, optimised, stack, Redis, eCommerce
 

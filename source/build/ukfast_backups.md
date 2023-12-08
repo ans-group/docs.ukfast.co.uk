@@ -76,7 +76,7 @@ All full backups for Virtual Machines are performed on a weekly basis with daily
 ```eval_rst
   .. title:: UKFast backup build documentation
   .. meta::
-      :title: UKFast backup build documentation | UKFast Documentation
+      :title: UKFast backup build documentation | ANS Documentation
       :description: Build documentation for UKFast Backups
       :keywords: ukfast, hosting, backup, server, virtual
 ```

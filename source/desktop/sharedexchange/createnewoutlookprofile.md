@@ -84,7 +84,7 @@ You can also contact support via telephone on 0800 230 0032.
 ```eval_rst
   .. title:: Mail | Creating a new Outlook profile for Shared Exchange
   .. meta::
-     :title: Creating a new Outlook profile for Shared Exchange | UKFast Documentation
+     :title: Creating a new Outlook profile for Shared Exchange | ANS Documentation
      :description: How to create a new Outlook profile
      :keywords: shared exchange, profile, howto, guide, tutorial, outlook
 ```

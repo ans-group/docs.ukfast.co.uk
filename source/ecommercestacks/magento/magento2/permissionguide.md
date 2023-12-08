@@ -119,7 +119,7 @@ Now the permissions for the site should be correct. However, if you are unsure a
 ```eval_rst
   .. title:: Magento 2 Permissions guide
   .. meta::
-     :title: Magento 2 Permissions guide | UKFast Documentation
+     :title: Magento 2 Permissions guide | ANS Documentation
      :description: A guide to ensure you are running secure permissions on your Magento 2 application files
      :keywords: ukfast, linux, permissions, nginx, install, centos, cloud, lamp, server, virtual, eCommerce
 ```

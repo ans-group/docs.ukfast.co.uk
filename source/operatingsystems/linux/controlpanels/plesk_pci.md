@@ -25,7 +25,7 @@ If you need any assistance meeting the requirements of a PCI report, please do c
 ```eval_rst
    .. title:: Plesk | PCI Compliance
    .. meta::
-      :title: Plesk | PCI Compliance | UKFast Documentation
+      :title: Plesk | PCI Compliance | ANS Documentation
       :description: Guidance on achieving PCI compliance with Plesk and cPanel servers
       :keywords: ukfast, plesk, cpanel, whm, panel
 ```

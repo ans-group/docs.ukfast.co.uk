@@ -273,7 +273,7 @@ Then confirm that the disk shows the correct size in `df -h`.
 ```eval_rst
   .. title:: Extending LVM disk partition on Linux
   .. meta::
-     :title: Extending LVM disk partition on Linux | UKFast Documentation
+     :title: Extending LVM disk partition on Linux | ANS Documentation
      :description: A guide to extending an LVM disk partition on linux
      :keywords: ukfast, linux, extension, disk, server, virtual, vm, hard, drive
 ```

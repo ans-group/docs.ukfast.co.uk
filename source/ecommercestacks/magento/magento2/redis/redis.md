@@ -37,7 +37,7 @@ You can find more information on the Redis service [here](/operatingsystems/linu
 ```eval_rst
   .. title:: Magento2 Redis
   .. meta::
-     :title: Magento2 Redis | UKFast Documentation
+     :title: Magento2 Redis | ANS Documentation
      :description: A guide to using Redis on our Magento2 optimised stack
      :keywords: ukfast, linux, install, centos, cloud, server, virtual, Magento2, Redis, eCommerce
 

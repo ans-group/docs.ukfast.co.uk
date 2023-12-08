@@ -28,6 +28,6 @@ If you'd like to remove an IP from the blocklist, you can right-click the rule t
 
 ```eval_rst
 .. meta::
-     :title: Check if an IP is blocked | UKFast Documentation
+     :title: Check if an IP is blocked | ANS Documentation
      :description: Useful threat remediation and prevention tips
      :keywords: threat monitoring, alerts, security, compliance, rules, rulesets, ukfast, hosting, file integrity monitoring, rootkit, detection, vulnerability scan, scans, hids, intrusion detection, set up

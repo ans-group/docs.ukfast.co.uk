@@ -81,7 +81,7 @@ You could also submit purge requests from your application to do this programmat
 ```eval_rst
   .. title:: Webcelerator | How to Purge the Webcelerator Cache
   .. meta::
-     :title: Webcelerator | How to Purge the Webcelerator Cache | UKFast Documentation
+     :title: Webcelerator | How to Purge the Webcelerator Cache | ANS Documentation
      :description: Webcelerator | How to Purge the Webcelerator Cache
      :keywords:  webcel, webcelerator, cache, clear, linux, php, curl, server, guide, tutorial
 ```

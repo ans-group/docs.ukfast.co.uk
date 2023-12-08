@@ -12,6 +12,6 @@ Below is a list of key terms to do with load balancers that you may see througho
 ```eval_rst
    .. title:: Load Balancers | Key Terms
    .. meta::
-      :title: Load Balancers | Key Terms | UKFast Documentation
+      :title: Load Balancers | Key Terms | ANS Documentation
       :description: Key terms for UKFast load balancers
 ```

@@ -56,7 +56,7 @@ To install other modules, such as `php-mysql` or `php-mcrypt` the following guid
 ```eval_rst
   .. title:: Installing PHP on Linux
   .. meta::
-     :title: Installing PHP on Linux | UKFast Documentation
+     :title: Installing PHP on Linux | ANS Documentation
      :description: A guide to installing and configuring PHP on Linux
      :keywords: ukfast, linux, install, configuration, PHP, modules
 ```

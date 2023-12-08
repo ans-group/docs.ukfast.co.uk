@@ -95,7 +95,7 @@ If you receive the above, this test is successful
 ```eval_rst
   .. title:: Using a crossover connection on Windows
   .. meta::
-     :title: Using a crossover connection on Windows | UKFast Documentation
+     :title: Using a crossover connection on Windows | ANS Documentation
      :description: An in-depth guide to using a crossover connection on Windows
      :keywords: ukfast, network, crossover, connection, configure, tutorial, guide, server, cloud
 ```

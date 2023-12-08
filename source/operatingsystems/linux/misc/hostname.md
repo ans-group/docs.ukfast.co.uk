@@ -61,7 +61,7 @@ Once you have completed this, it is recommended to also set the hosts file.
 ```eval_rst
   .. title:: Hostnames in Linux
   .. meta::
-     :title: Hostnames in Linux | UKFast Documentation
+     :title: Hostnames in Linux | ANS Documentation
      :description: Information on setting, viewing and using hostnames in the Linux OS
      :keywords: ukfast, linux, hostname, server, centos, cloud, virtual
 ```

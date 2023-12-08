@@ -99,7 +99,7 @@ You can later set the desktop that has been allocated to you as a `"Favorite"`. 
 ```eval_rst
   .. title:: FastDesk Getting Started Guide: Android
   .. meta::
-     :title: FastDesk Getting Started Guide: Android | UKFast Documentation
+     :title: FastDesk Getting Started Guide: Android | ANS Documentation
      :description: Guide for users on how to get setup on FastDesk using an Android Device
      :keywords: FastDesk, Citrix, ukfast, VDI, Citrix Receiver
 ```

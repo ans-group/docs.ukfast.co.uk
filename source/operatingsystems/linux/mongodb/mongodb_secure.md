@@ -72,7 +72,7 @@ local    0.000GB
 ```eval_rst
   .. title:: MongoDB | How to Secure MongoDB on CentOS 7
   .. meta::
-     :title: How to Secure MongoDB on CentOS 7 | UKFast Documentation
+     :title: How to Secure MongoDB on CentOS 7 | ANS Documentation
      :description: How to Secure MongoDB on CentOS 7
      :keywords: mongodb, secure, howto, guide, tutorial
 ```

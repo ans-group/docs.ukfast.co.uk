@@ -41,7 +41,7 @@ echo b > /proc/sysrq-trigger
 ```eval_rst
   .. title:: Rebooting your Linux server
   .. meta::
-     :title: Rebooting your Linux server | UKFast Documentation
+     :title: Rebooting your Linux server | ANS Documentation
      :description: A guide to rebooting a linux server
      :keywords: ukfast, reboot, linux, server, virtual, vm, shutdown, rebooting
 ```

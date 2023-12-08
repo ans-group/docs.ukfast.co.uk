@@ -47,7 +47,7 @@ The full Webcelerator configuration guide is available [here](/webcel/index)
 ```eval_rst
    .. title:: Default Configuration for UKFast Appliances
    .. meta::
-      :title: Default Configuration for UKFast Appliances | UKFast Documentation
+      :title: Default Configuration for UKFast Appliances | ANS Documentation
       :description: Default Configuration for UKFast Appliances.
       :keywords: ukfast, hosting, load balancing, load, web acceleration, webceleration, webcelerator, waf, web application firewall, layer7 firewall
 ```

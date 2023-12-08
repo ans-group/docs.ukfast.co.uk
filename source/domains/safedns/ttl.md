@@ -3,7 +3,7 @@
 ```eval_rst
   .. title:: SafeDNS | Changing TTL on a DNS record
    .. meta::
-      :title: SafeDNS | Changing TTL on a DNS record | UKFast Documentation
+      :title: SafeDNS | Changing TTL on a DNS record | ANS Documentation
       :description: Changing TTL on a DNS record within SafeDNS
 
 ```

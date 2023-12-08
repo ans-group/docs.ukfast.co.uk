@@ -50,7 +50,7 @@ ans ddosx domain deploy mydomain.example
 ```eval_rst
    .. title:: Custom Error Pages on DDoSX
    .. meta::
-      :title: Custom Error Pages on DDoSX | UKFast Documentation
+      :title: Custom Error Pages on DDoSX | ANS Documentation
       :description: Detailed guidance on adding custom error pages and limitations.
       :keywords: ddos, ddosx, custom error, custom error pages, errors, html
 ```

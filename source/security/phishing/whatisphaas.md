@@ -19,7 +19,7 @@ Another common but dangerous type of phishing attack is CEO impersonation, craft
 ```eval_rst
    .. title:: Phishing as a Service | What is PhaaS
    .. meta::
-      :title: Phishing as a Service | UKFast Documentation
+      :title: Phishing as a Service | ANS Documentation
       :description: Guidance on Phishing solutions from UKFast
       :keywords: security, email, phishing, alerts, blocking, hacking, ransomware, protection
 ```

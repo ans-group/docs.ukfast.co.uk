@@ -85,7 +85,7 @@ Your access rules may take a few minutes to propagate out across the DDoSX netwo
 ```eval_rst
    .. title:: Access Control Lists on DDoSX
    .. meta::
-      :title: Access Control Lists on DDoSX | UKFast Documentation
+      :title: Access Control Lists on DDoSX | ANS Documentation
       :description: Detailed guidance on setting IP-based and country-based access controls for your domains
       :keywords: ddos, ddosx, access control, access control list, acl, acls, IP blocking, country blocking, filtering
 ```

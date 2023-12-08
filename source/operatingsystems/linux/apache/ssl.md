@@ -64,7 +64,7 @@ Fully featured examples of this and other Apache functionality can be found on t
 ```eval_rst
   .. title:: Using SSLs with Apache
   .. meta::
-     :title: Using SSLs with Apache | UKFast Documentation
+     :title: Using SSLs with Apache | ANS Documentation
      :description:  A guide on how to set up mod_ssl to allow Apache to use SSLs
      :keywords: ukfast, ssl, apache, mod_ssl, website, encryption, bash, tls, server, virtual, vm
 ```

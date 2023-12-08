@@ -56,7 +56,7 @@ Once you have the configuration in place, you can start to use `s3cmd` to view a
 ```eval_rst
    .. title:: Connecting to eCloud Vault
    .. meta::
-      :title: Connecting to eCloud Vault | UKFast Documentation
+      :title: Connecting to eCloud Vault | ANS Documentation
       :description: Detailed information on connecting to eCloud Vault object storage from UKFast
       :keywords: eCloud, Vault, eCloud Vault, object storage, cloud storage, s3cmd
 ```

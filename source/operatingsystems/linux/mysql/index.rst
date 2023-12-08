@@ -36,6 +36,6 @@ Upgrades, Tuning & Troubleshooting
    troubleshooting
 
 .. meta::
-  :title: MySQL | UKFast Documentation
+  :title: MySQL | ANS Documentation
   :description: Guides on MySQL Administration and Best Practice
   :keywords: ukfast, mysql, mariadb, backups, tuning, guides, plesk, cpanel, whm, panel

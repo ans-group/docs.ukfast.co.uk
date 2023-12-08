@@ -43,7 +43,7 @@ You can disconnect by simply closing your Citrix Workspace Window or web browser
 ```eval_rst
   .. title:: FastDesk | How to sign out of the FastDesk Desktop
   .. meta::
-     :title: Signing out of FastDesk Desktop | UKFast Documentation
+     :title: Signing out of FastDesk Desktop | ANS Documentation
      :description: Guide for users on how to effectively sign out of the FastDesk Desktop session
      :keywords: FastDesk, Citrix, ukfast, VDI, Citrix Receiver, Windows, Workspace Application, Desktop
 ```

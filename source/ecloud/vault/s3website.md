@@ -48,6 +48,6 @@ www.example.com.         300     IN      CNAME   www.example.com.vault-website-m
 ```eval_rst
    .. title:: eCloud Vault | Basic s3website API usage
    .. meta::
-      :title: eCloud Vault | Basic s3website API usage | UKFast Documentation
+      :title: eCloud Vault | Basic s3website API usage | ANS Documentation
       :description: Information on how you can host a static website on eCloud vault using the S3website interface
 ```

@@ -15,7 +15,7 @@ Good news, you don't! There's no real concept of classed IP addresses any more. 
 ```eval_rst
   .. title:: UKFast's policy on IPv4
   .. meta::
-    :title: UKFast's policy on IPv4 | UKFast Documentation
+    :title: UKFast's policy on IPv4 | ANS Documentation
     :description: Information on how IPv4 is handled at UKFast
     :keywords: network, policy, ipv6, ukfast
 ```

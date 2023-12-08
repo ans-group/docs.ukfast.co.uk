@@ -57,6 +57,6 @@ For a guide on a more common CLI commands, please do check out our [MySQL Comman
 ```eval_rst
   .. title:: Managing MySQL database users
   .. meta::
-     :title: Managing MySQL database users | UKFast Documentation
+     :title: Managing MySQL database users | ANS Documentation
      :description: A guide to managing MySQL database users
      :keywords: ukfast, mysql, database, users, add, create, reset, sql, root, password, ukfast

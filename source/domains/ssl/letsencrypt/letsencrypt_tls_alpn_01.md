@@ -31,7 +31,7 @@ UKFast encourage any client using this specific validation method, or any of the
 ```eval_rst
    .. title:: Let's Encrypt Revocation of TLS-ALPN-01 Validated Certificates
    .. meta::
-      :title: Let's Encrypt Revocation of TLS-ALPN-01 Validated Certificates | UKFast Documentation
+      :title: Let's Encrypt Revocation of TLS-ALPN-01 Validated Certificates | ANS Documentation
       :description: Information regarding Let's Encrypt Revocation of TLS ALPN 01 Validated Certificates
       :keywords: ukfast, security, ssl, letsencrypt, tls-alpn-01, revocation, revoke
 ```

@@ -57,7 +57,7 @@ Follow the steps below to implement this, in the example shown we implement IP b
 ```eval_rst
    .. title:: IP Allow Listing
    .. meta::
-      :title: IP Allow Listing | UKFast Documentation
+      :title: IP Allow Listing | ANS Documentation
       :description: Useful threat remediation and prevention tips
       :keywords: threat monitoring, alerts, security, compliance, rules, rulesets, ukfast, hosting, file integrity monitoring, rootkit, detection, vulnerability scan, scans, hids, intrusion detection, set up
 ```

@@ -1,5 +1,5 @@
 .. meta::
-   :title: eCloud Flex from UKFast | UKFast Documentation
+   :title: eCloud Flex from UKFast | ANS Documentation
    :description: eCloud Flex is UKFast's public cloud platform based on OpenStack
    :keywords: ukfast, cloud, ecloud, flex, openstack, hosting, vm, public, flexible 
 

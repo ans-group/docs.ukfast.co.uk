@@ -54,7 +54,7 @@ Your solution will be configured with a single VLAN which will contain all of yo
 ```eval_rst
   .. title:: UKFast networking build documentation
   .. meta::
-      :title: UKFast networking build documentation | UKFast Documentation
+      :title: UKFast networking build documentation | ANS Documentation
       :description: Build documentation for UKFast networking
       :keywords: ukfast, hosting, networking, server, virtual
 ```

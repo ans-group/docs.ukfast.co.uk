@@ -201,7 +201,7 @@ https://docs.newrelic.com/docs/agents/php-agent/configuration/php-directory-ini-
 ```eval_rst
   .. title:: Magento2 PHP
   .. meta::
-     :title: Magento2 PHP | UKFast Documentation
+     :title: Magento2 PHP | ANS Documentation
      :description: A guide to using PHP on our Magento2 optimised stack
      :keywords: ukfast, linux, install, centos, cloud, server, virtual, Magento, Magento2, PHP, eCommerce, NewRelic
 ```

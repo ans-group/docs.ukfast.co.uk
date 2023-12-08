@@ -2,7 +2,7 @@
 ```eval_rst
    .. title:: SafeDNS | APEX Domains
    .. meta::
-      :title: SafeDNS | APEX Domains | UKFast Documentation
+      :title: SafeDNS | APEX Domains | ANS Documentation
       :description: Explanation of APEX Domains
 
 ```

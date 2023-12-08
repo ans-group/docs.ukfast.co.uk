@@ -127,7 +127,7 @@ When you have more than one site using a single instance of Elasticsearch, produ
 ```eval_rst
   .. title:: Elasticsearch
   .. meta::
-     :title: Elasticsearch | UKFast Documentation
+     :title: Elasticsearch | ANS Documentation
      :description: guides relating to using Elasticsearch
      :keywords: ukfast, Magento, Magento2, Shopware, optimised, stack, Elasticsearch, eCommerce
 ```

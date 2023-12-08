@@ -51,7 +51,7 @@ ans safedns record create example-domain.org --content "\"v=spf1 a mx -all\"" --
 ```eval_rst
    .. title:: SafeDNS | Adding an SPF record
    .. meta::
-      :title: SafeDNS | Adding an SPF record | UKFast Documentation
+      :title: SafeDNS | Adding an SPF record | ANS Documentation
       :description: Guidance on creating an Sender Policy Framework (SPF) record in SafeDNS from UKFast
       :keywords: dns, spf, email, spam, sender policy framework, spf, safedns, ukfast, hosting, domains
 ```

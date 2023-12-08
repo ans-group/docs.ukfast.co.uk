@@ -89,7 +89,7 @@ Below are the different facets that make up a UKFast solution, click on the link
 ```eval_rst
   .. title:: UKFast Default Configuration
   .. meta::
-      :title: UKFast Default Configuration | UKFast Documentation
+      :title: UKFast Default Configuration | ANS Documentation
       :description: Default Configuration for UKFast
       :keywords: ukfast, hosting, server, virtual
 ```

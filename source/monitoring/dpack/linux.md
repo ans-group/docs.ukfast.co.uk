@@ -63,7 +63,7 @@ You are now able to run the DPACK for  up to 7-days. Any problems, don't hesitat
 ```eval_rst
    .. title:: Running a DPACK collection on Linux
    .. meta::
-      :title: Running a DPACK collection on Linux | UKFast Documentation
+      :title: Running a DPACK collection on Linux | ANS Documentation
       :description: Information on running DPACK collections on Linux
       :keywords: ukfast, dpack, liveoptics, linux
 ```

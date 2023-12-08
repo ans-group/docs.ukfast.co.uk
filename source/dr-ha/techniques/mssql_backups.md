@@ -26,7 +26,7 @@ To do this, you can run a Full Copy-Only backup, which takes a full backup of yo
 ```eval_rst
    .. title:: Microsoft SQL Backups
    .. meta::
-      :title: Microsoft SQL Backups | UKFast Documentation
+      :title: Microsoft SQL Backups | ANS Documentation
       :description: Guide for managing Microsoft SQL (MSSQL) backups
       :keywords: Backups, MSSQL, Microsoft SQL
 ```

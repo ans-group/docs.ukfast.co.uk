@@ -29,7 +29,7 @@ We have a number of guides for our Shopware optimised stack:
 Find out more about our Shopware hosting offerings here: https://www.ukfast.co.uk/shopware-optimised-hosting.html
    
 .. meta::
-   :title: Shopware Optimised Stack | UKFast Documentation
+   :title: Shopware Optimised Stack | ANS Documentation
    :description: guides relating to UKFast Shopware Optimised Stack
    :keywords: ukfast, Shopware, optimised, stack, eCommerce
 

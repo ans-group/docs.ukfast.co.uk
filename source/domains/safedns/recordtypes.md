@@ -55,6 +55,6 @@ An `MX` record specifies the servers that deal with incoming email and in which 
 ```eval_rst
    .. title:: SafeDNS | Different types of DNS records
    .. meta::
-      :title: SafeDNS | Different types of DNS records | UKFast Documentation
+      :title: SafeDNS | Different types of DNS records | ANS Documentation
       :description: Different types of DNS records within SafeDNS
 ```

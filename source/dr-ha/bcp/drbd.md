@@ -35,6 +35,6 @@ Generally, there are two DRBD volumes in each cluster:
 ```eval_rst
    .. title:: Distributed Replicated Block Device (DRBD)
    .. meta::
-      :title: Distributed Replicated Block Device (DRBD) | UKFast Documentation
+      :title: Distributed Replicated Block Device (DRBD) | ANS Documentation
       :description: Information on how to manage your FASTcloudbackup account
 ```

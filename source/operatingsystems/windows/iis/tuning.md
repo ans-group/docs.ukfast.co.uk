@@ -73,7 +73,7 @@ Click on `OK` to commit the change.
 ```eval_rst
   .. title:: IIS Tuning
   .. meta::
-     :title: IIS Tuning | UKFast Documentation
+     :title: IIS Tuning | ANS Documentation
      :description: A guide to Tuning IIS for optimal performance that benefit your application.
      :keywords: ukfast, windows, iis, web, site, guide, performance, compression, caching, application, faster
 ```

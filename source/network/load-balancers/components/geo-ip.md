@@ -38,6 +38,6 @@ Once you're happy with the Geo IP settings, click the `Save` button at the botto
 ```eval_rst
    .. title:: Load Balancers | Geo IP
    .. meta::
-      :title: Load Balancers | Geo IP | UKFast Documentation
+      :title: Load Balancers | Geo IP | ANS Documentation
       :description: Settings for Geo IP within UKFast load balancers
 ```

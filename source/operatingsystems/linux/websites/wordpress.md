@@ -181,7 +181,7 @@ The user should now have been added successfully and you should be able to log i
 ```eval_rst
   .. title:: Configuring WordPress on Linux
   .. meta::
-     :title: Configuring WordPress on Linux | UKFast Documentation
+     :title: Configuring WordPress on Linux | ANS Documentation
      :description:  How to configure WordPress and add admin users
      :keywords: ukfast, wordpress, configuration, users, databases, mysql, linux
 ```

@@ -26,7 +26,7 @@ We have a number of guides for our WooCommerce optimised stack:
 You can find out more about our offerings for these stacks here: https://www.ukfast.co.uk/ecommerce-hosting.html
    
 .. meta::
-   :title: WooCommerce Optimised Stack | UKFast Documentation
+   :title: WooCommerce Optimised Stack | ANS Documentation
    :description: guides relating to UKFast WooCommerce Optimised Stack
    :keywords: ukfast, WooCommerce, optimised, stack, eCommerce
 

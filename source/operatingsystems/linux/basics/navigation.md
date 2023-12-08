@@ -110,7 +110,7 @@ To open a file in `vi` is the same as `nano` simply type `vi {filename}`, howeve
 ```eval_rst
   .. title:: Navigating the Linux operating system
   .. meta::
-     :title: Navigating the Linux operating system | UKFast Documentation
+     :title: Navigating the Linux operating system | ANS Documentation
      :description: A guide on how to navigate through linux
      :keywords: ukfast, server, linux, cd, move, vi, virtual, vm, navigate, navigation
 ```

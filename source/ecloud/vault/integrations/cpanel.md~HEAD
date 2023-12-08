@@ -50,7 +50,7 @@ For more information about eCloud Vault's features and pricing, please go to our
 
 ```eval_rst
 .. meta::
-   :title: Configuring cPanel backups with eCloud Vault | UKFast Documentation
+   :title: Configuring cPanel backups with eCloud Vault | ANS Documentation
    :description: How-to guide for configuring cPanel backups with s3 interface (eCloud Vault)
    :keywords: eCloud, Vault, eCloud Vault, cPanel, cPanel Backups, integration, s3 backups
 ```

@@ -25,7 +25,7 @@ For increased peace of mind, application based monitoring is enabled as standard
 ```eval_rst
   .. title:: UKFast application monitoring documentation
   .. meta::
-      :title: UKFast application monitoring documentation | UKFast Documentation
+      :title: UKFast application monitoring documentation | ANS Documentation
       :description: Monitoring documentation for UKFast application
       :keywords: ukfast, hosting, application_monitoring, server, virtual
 ```

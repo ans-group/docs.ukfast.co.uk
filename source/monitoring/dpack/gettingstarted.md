@@ -18,7 +18,7 @@ A Live Optics can be run on any [Windows](/monitoring/dpack/windows) or [Linux](
 ```eval_rst
    .. title:: Using Live Optics To Monitor Your Server
    .. meta::
-      :title: Using Live Optics To Monitor Your Server | UKFast Documentation
+      :title: Using Live Optics To Monitor Your Server | ANS Documentation
       :description: How to run a Live Optics check with UKFast
       :keywords: ukfast, liveoptics, live, optics, windows, server, monitoring, cloud, hosting
 ```

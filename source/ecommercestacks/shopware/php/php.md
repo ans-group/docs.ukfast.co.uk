@@ -189,7 +189,7 @@ systemctl enable php-fpm
 ```eval_rst
   .. title:: Shopware PHP
   .. meta::
-     :title: Shopware PHP | UKFast Documentation
+     :title: Shopware PHP | ANS Documentation
      :description: A guide to using PHP on our Shopware optimised stack
      :keywords: ukfast, linux, install, centos, cloud, server, virtual, Shopware, PHP, eCommerce
 ```

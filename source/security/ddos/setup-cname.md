@@ -369,7 +369,7 @@ backend webservers
 ```eval_rst
    .. title:: Getting Started With DDoSX, WAF and CDN with a ALIAS, ANAME or CNAME
    .. meta::
-      :title: Getting Started With DDoSX, WAF and CDN with a ALIAS, ANAME or CNAME | UKFast Documentation
+      :title: Getting Started With DDoSX, WAF and CDN with a ALIAS, ANAME or CNAME | ANS Documentation
       :description: Guidance to setting up DDoSX, WAF and CDN from UKFast
       :keywords: ddos, ddos protection, anti-ddos, cdn, content delivery, content delivery network, waf, web application firewall
 ```

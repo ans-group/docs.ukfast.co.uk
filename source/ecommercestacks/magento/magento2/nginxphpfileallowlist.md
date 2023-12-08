@@ -58,7 +58,7 @@ You should now be able to access the new file without any issues:
 ```eval_rst
   .. title:: Magento 2 .php File allow list
   .. meta::
-     :title: Magento 2 .php File allow list | UKFast Documentation
+     :title: Magento 2 .php File allow list | ANS Documentation
      :description: A guide to adding new php filenames to the NGINX allow list
      :keywords: ukfast, linux, nginx, install, centos, cloud, server, virtual, eCommerce
 ```

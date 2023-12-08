@@ -47,6 +47,6 @@ Migrations
    migration_plesktocpanel
 
 .. meta::
-  :title: Plesk and cPanel | UKFast Documentation
+  :title: Plesk and cPanel | ANS Documentation
   :description: Guidance on using your Plesk and cPanel servers from UKFast
   :keywords: ukfast, plesk, cpanel, whm, panel

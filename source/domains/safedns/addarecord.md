@@ -3,7 +3,7 @@
 ```eval_rst
    .. title:: SafeDNS | Adding a A Name Record
    .. meta::
-      :title: SafeDNS | Adding a A Name Record | UKFast Documentation
+      :title: SafeDNS | Adding a A Name Record | ANS Documentation
       :description: How to add a A Name record in SafeDNS
 
 ```

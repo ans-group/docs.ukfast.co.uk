@@ -18,7 +18,7 @@ You can find more information on the Redis service [here](/operatingsystems/linu
 ```eval_rst
   .. title:: WooCommerce Redis
   .. meta::
-     :title: WooCommerce Redis | UKFast Documentation
+     :title: WooCommerce Redis | ANS Documentation
      :description: A guide to using Redis on our WooCommerce optimised stack
      :keywords: ukfast, linux, install, centos, cloud, server, virtual, WooCommerce, Redis, eCommerce
 ```

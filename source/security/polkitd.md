@@ -86,7 +86,7 @@ In lieu of a patched version of **polkit**, Red Hat have detailed an alternative
 ```eval_rst
    .. title:: Polkit Security Vulnerability CVE-2021-4034
    .. meta::
-      :title: Polkit Security Vulnerability CVE-2021-4034  | UKFast Documentation
+      :title: Polkit Security Vulnerability CVE-2021-4034  | ANS Documentation
       :description: Information on Polkit Security Vulnerability CVE-2021-4034
       :keywords: ukfast, linux, security, vulnerability, polkit
 ```

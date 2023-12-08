@@ -3,7 +3,7 @@
 ```eval_rst
    .. title:: SSL | Buying SSL Certificates from UKFast
    .. meta::
-      :title: SSL | Buying SSL Certificates from UKFast | UKFast Documentation
+      :title: SSL | Buying SSL Certificates from UKFast | ANS Documentation
       :description: Purchasing and renewing SSL certificates from UKFast
 ```
 

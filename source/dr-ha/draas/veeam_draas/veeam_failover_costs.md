@@ -44,7 +44,7 @@ Every DRaaS private solution is different, so this should be confirmed with your
 ```eval_rst
    .. title:: Veeam Failover Costs
    .. meta::
-      :title: Veeam Failover Costs | UKFast Documentation
+      :title: Veeam Failover Costs | ANS Documentation
       :description: Summary of DRaaS failover costs
       :keywords: ukfast,cloud,ecloud,public,hosting,infrastructure,vmware,draas,veeam,connect,dr,replication,backup,failover
 ```

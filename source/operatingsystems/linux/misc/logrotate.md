@@ -37,7 +37,7 @@ Magento log files:
 ```eval_rst
   .. title:: Using logrotate in Linux
   .. meta::
-     :title: Using logrotate in Linux | UKFast Documentation
+     :title: Using logrotate in Linux | ANS Documentation
      :description: How to use logrotate to manage rotating log files in Linux
      :keywords: ukfast, log, rotate, linux, size, magent, cron, schedule, cloud, virtual
 ```

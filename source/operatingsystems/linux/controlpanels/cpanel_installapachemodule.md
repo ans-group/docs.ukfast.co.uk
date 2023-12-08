@@ -49,7 +49,7 @@ Using this guide, you have successfully installed an Apache Module using EasyApa
 ```eval_rst
   .. title:: cPanel | How to Install an Apache Module with EasyApache4
   .. meta::
-     :title: How to Install an Apache Module with EasyApache4 | UKFast Documentation
+     :title: How to Install an Apache Module with EasyApache4 | ANS Documentation
      :description:  A guide to installing an Apache Module via EasyApache4
      :keywords: ukfast, apache, module, cpanel, whm, easy, easyapache, easyapache4, install
 ```

@@ -3,7 +3,7 @@
 ```eval_rst
    .. title:: SafeDNS | Removing a DNS Record
    .. meta::
-      :title: SafeDNS | Removing a DNS Record | UKFast Documentation
+      :title: SafeDNS | Removing a DNS Record | ANS Documentation
       :description: How to remove a DNS record in SafeDNS
 
 ```

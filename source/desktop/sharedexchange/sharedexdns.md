@@ -50,7 +50,7 @@ Please allow time for any DNS changes to propagate through the internet, this ma
 ```eval_rst
    .. title:: Shared Exchange DNS Setup
    .. meta::
-      :title: Shared Exchange DNS Setup | UKFast Documentation
+      :title: Shared Exchange DNS Setup | ANS Documentation
       :description: Guide for users on how to configure DNS records for Shared Exchange
       :keywords: Shared Exchange, Exchange, Shex, Mail, DNS
 ```

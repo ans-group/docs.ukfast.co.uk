@@ -23,7 +23,7 @@ If however, you are presented with a blank window, this could mean that the conn
 ```eval_rst
   .. title:: Testing basic connectivity using Telnet
   .. meta::
-     :title: Testing basic connectivity using Telnet | UKFast Documentation
+     :title: Testing basic connectivity using Telnet | ANS Documentation
      :description: A guide to testing connectivity on Windows using Telnet
      :keywords: ukfast, network, telnet, windows, test, connect, basic, guide, tutorial, cloud
 ```

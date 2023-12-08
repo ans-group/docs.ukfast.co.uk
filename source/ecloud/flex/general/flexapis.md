@@ -37,7 +37,7 @@ To identify the current API version your eCloud Flex solution is based upon, log
 ```eval_rst
    .. title:: Working with eCloud Flex APIs
    .. meta::
-      :title: Working with eCloud Flex APIs | UKFast Documentation
+      :title: Working with eCloud Flex APIs | ANS Documentation
       :description: Links to the main OpenStack documentation for running your eCloud Flex solution
       :keywords: openstack, ecloud, flex, ukfast, nova, swift, cinder, glance, keystone, heat, hosting, cloud, api
 ```

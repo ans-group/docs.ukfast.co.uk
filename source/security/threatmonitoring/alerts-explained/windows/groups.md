@@ -20,7 +20,7 @@ UKFast Threat Monitoring will monitor all of these and more, to see if any of th
 ```eval_rst
    .. title:: Windows Groups Explained
    .. meta::
-      :title: Windows Groups Explained | UKFast Documentation
+      :title: Windows Groups Explained | ANS Documentation
       :description: Our Threat Monitoring ruleset explained
       :keywords: threat monitoring, alerts, security, compliance, rules, rulesets, ukfast, hosting, file integrity monitoring, rootkit, detection, vulnerability scan, scans, hids, intrusion detection, set up
 ```

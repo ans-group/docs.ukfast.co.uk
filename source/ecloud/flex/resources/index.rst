@@ -1,5 +1,5 @@
 .. meta::
-   :title: Managing eCloud Flex Resources | UKFast Documentation
+   :title: Managing eCloud Flex Resources | ANS Documentation
    :description: Information to help manage eCloud Flex resources
    :keywords: ukfast, ecloud, cloud, flex, general, information, hosting, compute, network, storage, orchestration, heat, nova, neutron, magnum, cinder, glance
 

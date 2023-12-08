@@ -9,6 +9,6 @@ APCu speeds up the user data processing. it's used by Shopware to store in memor
    apcu.md
    
 .. meta::
-   :title: Shopware APCu | UKFast Documentation
+   :title: Shopware APCu | ANS Documentation
    :description: guides relating to using APCu on our Shopware optimised stack
    :keywords: ukfast, Shopware, optimised, stack, APCu, eCommerce

@@ -27,7 +27,7 @@ If you need further help with this matter please either contact [your UKFast Acc
 ```eval_rst
    .. title:: Disabling early TLS protocols on DDoSX
    .. meta::
-      :title: Disabling early TLS protocols on DDoSX | UKFast Documentation
+      :title: Disabling early TLS protocols on DDoSX | ANS Documentation
       :description: Guidance on UKFast's approach to disabling TLS1.0 and TLS1.1 on DDoSX for PCI DSS compliance
       :keywords: pci dss, pci, security, tls, early tls, ssl, browsers
 ```

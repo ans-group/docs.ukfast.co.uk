@@ -67,7 +67,7 @@ You can delete this file permanently by marking the check box and clicking __Del
 ```eval_rst
    .. title:: FastDrive | Deleting Files And Folders
    .. meta::
-      :title: FastDrive | Deleting Files And Folders | UKFast Documentation
+      :title: FastDrive | Deleting Files And Folders | ANS Documentation
       :description: Deleting files and folders
       :keywords: ukfast, fastdrive, files, folders
 ```

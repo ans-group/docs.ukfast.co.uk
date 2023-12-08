@@ -1,5 +1,5 @@
 .. meta::
-   :title: Webcelerator | UKFast Documentation
+   :title: Webcelerator | ANS Documentation
    :description: The Webcelerator (or "Webcel") is a caching appliance which sits in-front of your server solution and acts as a reverse proxy for your site.
    :keywords: ukfast, webcel, webcelerator, cache, cache machine
 

@@ -76,7 +76,7 @@ http://[server-IP]:15672/
 ```eval_rst
   .. title:: Magento RabbitMQ
   .. meta::
-     :title: Magento RabbitMQ | UKFast Documentation
+     :title: Magento RabbitMQ | ANS Documentation
      :description: A guide to using RabbitMQ on our Magento optimised stacks
      :keywords: ukfast, linux, install, centos, cloud, server, virtual, Magento, Magento2, RabbitMQ, eCommerce
 ```
