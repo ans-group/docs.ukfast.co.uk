@@ -34,6 +34,6 @@ To stop receiving alerts, simply untick the relevant box(es).
 ```eval_rst
    .. title:: FASTcloudbackup alerts
    .. meta::
-      :description: FASTcloudbackup alerts | UKFast Documentation
+      :description: FASTcloudbackup alerts | ANS Documentation
       :keywords: ukfast, FASTcloudbackup, alerts
 ```

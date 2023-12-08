@@ -14,7 +14,7 @@ UKFast offers a number of cloud hosting platforms, including public cloud (eClou
    console
    ecloud-vpc/index
 
-.. title:: Cloud hosting from UKFast | UKFast Documentation
+.. title:: Cloud hosting from UKFast | ANS Documentation
 
 .. meta::
    :description: Information regarding the different cloud hosting platforms from UKFast

@@ -49,7 +49,7 @@ for f in $file_names; do
       fi
 
       title_size=$(grep '\.\. title:' $f | cut -d ':' -f2 | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//' | wc -m)
-      #Meta title should exclude | UKFast Documentation
+      #Meta title should exclude | ANS Documentation
       if [[ "$title_size" -gt "43" ]]; then
         log warn $f "Meta title is $title_size - Max is 42 chars"
       fi

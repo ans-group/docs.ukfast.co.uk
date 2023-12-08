@@ -111,7 +111,7 @@ We've covered a couple of different ways of connecting to MySQL using SSH tunnel
 ```eval_rst
   .. title:: Connecting to MySQL via SSH Tunnelling
   .. meta::
-     :title: Connecting to MySQL via SSH Tunnelling| UKFast Documentation
+     :title: Connecting to MySQL via SSH Tunnelling| ANS Documentation
      :description: A guide on how to connect to a MySQL instance through an SSH tunnel.
      :keywords: ukfast, linux, mysql, ssh, database, security, cloud, server, virtual
 ```

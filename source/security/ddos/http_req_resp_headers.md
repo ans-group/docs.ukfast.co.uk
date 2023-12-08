@@ -23,7 +23,7 @@ This header is used for diagnostic reasons by our Support team and is used to tr
 
 
 ```eval_rst
-   .. title:: DDoSX® HTTP Request and Response Headers | UKFast Documentation
+   .. title:: DDoSX® HTTP Request and Response Headers | ANS Documentation
    .. meta::
       :description: HTTP request and response headers DDoSX® will add to your requests.
       :keywords: http, ddosx, headers, client ip, geo location, request, response, geoip, geo ip

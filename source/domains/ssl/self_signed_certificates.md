@@ -53,6 +53,6 @@ How you configure various pieces of software to use a certificate, either self-s
 ```eval_rst
    .. title:: Self-Signed SSL Certificates
    .. meta::
-      :description: Self-Signed SSL Certificates | UKFast Documentation
+      :description: Self-Signed SSL Certificates | ANS Documentation
       :keywords: ukfast, ssl, self-signed, openssl
 ```

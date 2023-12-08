@@ -42,6 +42,6 @@ When you want to navigate to a favourite folder, click `Favourites` in the left 
 ```eval_rst
    .. title:: Managing files and folders on FASTcloudbackup
    .. meta::
-      :description: Managing files and folders on FASTcloudbackup | UKFast Documentation
+      :description: Managing files and folders on FASTcloudbackup | ANS Documentation
       :keywords: ukfast, FASTcloudbackup
 ```

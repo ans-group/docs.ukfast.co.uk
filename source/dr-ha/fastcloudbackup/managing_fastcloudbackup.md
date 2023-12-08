@@ -47,6 +47,6 @@ You can check for any devices currently logged in to your FASTcloudbackup end us
 ```eval_rst
    .. title:: Managing FASTcloudbackup
    .. meta::
-      :description: Managing FASTcloudbackup | UKFast Documentation
+      :description: Managing FASTcloudbackup | ANS Documentation
       :keywords: ukfast, FASTcloudbackup
 ```
