@@ -30,7 +30,7 @@ If you are having issues with the file extensions or the Request Content-Type yo
 ![Advanced Whitelist Global Restriction](files/global_restriction_whitelist.PNG)
 
 ```eval_rst
-   .. title:: Global Restrictions on SafeDNS™ and DDoSX® | UKFast Documentation
+   .. title:: Global Restrictions on SafeDNS™ and DDoSX® | ANS Documentation
    .. meta::
       :description: Global Restrictions applied on SafeDNS™ and DDoSX® security
       :keywords: restrictions, ddosx, safedns, blocked, denied, 403, forbidden

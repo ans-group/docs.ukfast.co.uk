@@ -19,7 +19,7 @@ logging.getLogger("urllib3").setLevel(logging.WARNING)
 
 file_type = '.md'
 remove_regex = [r'.. (.*?)::']
-remove_list = ['eval_rst', ':doc:', '`', '\\ :sup:', ' | UKFast Documentation']
+remove_list = ['eval_rst', ':doc:', '`', '\\ :sup:', ' | ANS Documentation']
 meta_words = [':title:', ':description:', ':keywords:']
 
 hostname = "elasticsearch"

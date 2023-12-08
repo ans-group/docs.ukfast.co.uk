@@ -33,6 +33,6 @@ We can use the following to block multiple user agents, separating each with a `
 
 ```eval_rst
 .. meta::
-     :title: Blocking User Agents| UKFast Documentation
+     :title: Blocking User Agents| ANS Documentation
      :description: Useful threat remediation and prevention tips
      :keywords: threat monitoring, alerts, security, compliance, rules, rulesets, UKFast, hosting, file integrity monitoring, rootkit, detection, vulnerability scan, scans, HIDS, intrusion detection, set up
