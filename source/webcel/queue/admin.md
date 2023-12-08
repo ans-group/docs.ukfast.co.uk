@@ -62,7 +62,7 @@ The following items can be configured:
 
 ```eval_rst
 .. meta::
-   :title: Managing your Webcelerator queue| UKFast Documentation
+   :title: Managing your Webcelerator queue| ANS Documentation
    :description: How to administer your Webcelerator queue system
    :keywords: ukfast, webcel, webcelerator, queue, webcelerate queue admin, traffic, high load
 ```
