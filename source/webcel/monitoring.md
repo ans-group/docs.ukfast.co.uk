@@ -11,7 +11,7 @@ Your monitoring script could also connect to your database and run a basic query
 ```eval_rst
    .. title:: Webcels | Monitoring Backends
    .. meta::
-      :title: Webcels | Monitoring Backends | UKFast Documentation
+      :title: Webcels | Monitoring Backends | ANS Documentation
       :description: Useful information on monitoring backends for Webcelerators
       :keywords: monitoring, webcels, webcelerator, ukfast, backend
 ```

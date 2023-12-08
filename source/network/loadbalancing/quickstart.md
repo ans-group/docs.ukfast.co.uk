@@ -228,6 +228,6 @@ This has been a rundown of the basic functionality of the UKFast loadbalancers, 
 ```eval_rst
    .. title:: Load Balancing | Quick Start
    .. meta::
-      :title: Load Balancing | Quick Start | UKFast Documentation
+      :title: Load Balancing | Quick Start | ANS Documentation
       :description: Information and guidance on using the CDN on DDoSX
 ```

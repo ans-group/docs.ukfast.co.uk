@@ -300,7 +300,7 @@ backend webservers
 ```eval_rst
    .. title:: Getting started with DDoSX, WAF and CDN with SafeDNS
    .. meta::
-      :title: Getting started with DDoSX, WAF and CDN with SafeDNS | UKFast Documentation
+      :title: Getting started with DDoSX, WAF and CDN with SafeDNS | ANS Documentation
       :description: Guidance to setting up DDoSX, WAF and CDN from UKFast
       :keywords: ddos, ddos protection, anti-ddos, cdn, content delivery, content delivery network, waf, web application firewall
 ```

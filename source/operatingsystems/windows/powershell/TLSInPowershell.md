@@ -25,7 +25,7 @@ Voila! You can now establish a connection to the site over a secure protocol.
 ```eval_rst
   .. title:: TLS connections in PowerShell
   .. meta::
-     :title: TLS connections in PowerShell | UKFast Documentation
+     :title: TLS connections in PowerShell | ANS Documentation
      :description: Information and Instructions about Windows PowerShell TLS options
      :keywords: ukfast, windows, powershell, tls, ssl, secure, transport, layer, connection
 ```

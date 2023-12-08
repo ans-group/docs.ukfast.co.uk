@@ -33,7 +33,7 @@ The following CTM alerts will be configured on your servers, as applicable:
 ```eval_rst
   .. title:: UKFast CTM build documentation
   .. meta::
-      :title: UKFast CTM build documentation | UKFast Documentation
+      :title: UKFast CTM build documentation | ANS Documentation
       :description: Build documentation for UKFast CTM
       :keywords: ukfast, hosting, ctm, server, virtual
 ```

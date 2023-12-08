@@ -4,7 +4,7 @@
 
    .. title:: eCloud Private | Cloning and Templating VMs
    .. meta::
-      :title: eCloud Private | Cloning and Templating VMs | UKFast Documentation
+      :title: eCloud Private | Cloning and Templating VMs | ANS Documentation
       :description: Information on how to clone and template VMs in your eCloud Private solution
 
 ```

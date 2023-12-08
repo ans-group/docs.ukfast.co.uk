@@ -288,7 +288,7 @@ sub vcl_hit {
 ```eval_rst
   .. title:: Default VCL Config for Magento 2
   .. meta::
-     :title: Default VCL Config for Magento 2 | UKFast Documentation
+     :title: Default VCL Config for Magento 2 | ANS Documentation
      :description: The default Magento 2 Varnish configuration
      :keywords: ukfast, linux, install, centos, cloud, server, virtual, Magento2, varnish, eCommerce, vcl
 ```

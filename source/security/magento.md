@@ -36,7 +36,7 @@ And in all cases, we would recommend getting a security expert to review and con
 ```eval_rst
    .. title:: Magento Security
    .. meta::
-      :title: Magento Security | UKFast Documentation
+      :title: Magento Security | ANS Documentation
       :description: How to prevent the most common Magento security problems
       :keywords:  ukfast, hosting, magento, mage, clamscan, security, hacking, ecommerce
 ```

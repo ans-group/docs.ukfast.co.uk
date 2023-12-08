@@ -93,7 +93,7 @@ To prevent memory leaks or unresponsive/idle worker processes within the applica
 ```eval_rst
    .. title:: Optimise your WordPress installation
    .. meta::
-      :title: Optimise your WordPress installation | UKFast Documentation
+      :title: Optimise your WordPress installation | ANS Documentation
       :description: An article that discusses all the ways to improve you wordpress installation and servers performance.
       :keywords: ukfast, windows, iis, web, site, guide, wordpress, linux, performance, seo, rankings, apache, nginx, faster
 ```

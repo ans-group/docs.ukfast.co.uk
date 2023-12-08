@@ -87,7 +87,7 @@ Please note that Windows Authentication may not be enabled on your instance. If 
 ```eval_rst
   .. title:: MSSQL | Setup Remote Access
   .. meta::
-    :title: MSSQL | Setup Remote Access | UKFast Documentation
+    :title: MSSQL | Setup Remote Access | ANS Documentation
     :description: How to access an MSSQL instance between a client device and a MSSQL server
     :keywords: ukfast, mssql, windows, db, sql, remote, connection
 ```

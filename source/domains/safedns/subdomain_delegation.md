@@ -27,7 +27,7 @@ To manage your new subdomain with an external provider make sure you add `NS` re
 ```eval_rst
    .. title:: SafeDNS | Setting up subdomain delegation
    .. meta::
-      :title: SafeDNS | Setting up subdomain delegation | UKFast Documentation
+      :title: SafeDNS | Setting up subdomain delegation | ANS Documentation
       :description: Guidance on setting up subdomain delegation for your zone in SafeDNS
       :keywords: dns, NS, subdomain, subdomain delegation, delegation, safedns, ukfast, hosting, domains
 ```

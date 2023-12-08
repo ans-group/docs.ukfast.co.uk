@@ -59,6 +59,6 @@ Once you've finished filling in the target form, click `Create Target` to add th
 ```eval_rst
    .. title:: Load Balancers | Targets
    .. meta::
-      :title: Load Balancers | Targets | UKFast Documentation
+      :title: Load Balancers | Targets | ANS Documentation
       :description: Settings for targets within UKFast load balancers
 ```

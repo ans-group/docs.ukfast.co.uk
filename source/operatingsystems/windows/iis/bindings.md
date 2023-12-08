@@ -31,7 +31,7 @@ Once you have created all of the bindings which you require for your site, you w
 ```eval_rst
   .. title:: Creating bindings in IIS
   .. meta::
-     :title: Creating bindings in IIS | UKFast Documentation
+     :title: Creating bindings in IIS | ANS Documentation
      :description: A guide to creating bindings in IIS
      :keywords: ukfast, windows, iis, make, create, bindings, cloud, tutorial, guide
 ```

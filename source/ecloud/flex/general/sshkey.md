@@ -44,7 +44,7 @@ If you run into any problems on this, please raise a support ticket via [ANS Por
 ```eval_rst
    .. title:: Adding a public SSH key to Linux server
    .. meta::
-      :title: Adding a public SSH key to Linux server | UKFast Documentation
+      :title: Adding a public SSH key to Linux server | ANS Documentation
       :description: Guide for configuring access keys for the UKFast Support team
       :keywords: openstack, ecloud, flex, ukfast, hosting, support, access, keys, request
 ```

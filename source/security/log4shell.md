@@ -236,7 +236,7 @@ As explained by [the Log4J Apache project](https://logging.apache.org/log4j/2.x/
 ```eval_rst
    .. title:: Log4Shell - Log4J Vulnerability
    .. meta::
-      :title: Log4Shell - Log4J Vulnerability | UKFast Documentation
+      :title: Log4Shell - Log4J Vulnerability | ANS Documentation
       :description: Information regarding the Log4j vulnerability with remidiation advice
       :keywords: ukfast, linux, security, vulnerability, log4j, log4shell, java, elasticsearch, tomcat, solr
 ```

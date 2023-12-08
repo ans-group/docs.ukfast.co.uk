@@ -151,6 +151,6 @@ udev-post       0:off   1:on    2:on    3:on    4:on    5:on    6:off
 ```eval_rst
    .. title:: Service Management on CentOS 6
    .. meta::
-      :title: Service Management on CentOS 6 | UKFast Documentation
+      :title: Service Management on CentOS 6 | ANS Documentation
       :description: Information on how to manage services on CentOS 6
 ```

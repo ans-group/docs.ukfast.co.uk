@@ -243,7 +243,7 @@ redis-cli -h 127.0.0.1 -p 6379 monitor
 ```eval_rst
   .. title:: Redis
   .. meta::
-     :title: Redis | UKFast Documentation
+     :title: Redis | ANS Documentation
      :description: A guide to using Redis
      :keywords: ukfast, linux, install, centos, cloud, server, virtual, Shopware, Magento, Magento2, Redis, eCommerce
 ```

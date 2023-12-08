@@ -52,7 +52,7 @@ When an HTTPS request is processed, the SSL/TLS information will be written to t
 ```eval_rst
    .. title:: IIS Custom Logging for TLS
    .. meta::
-      :title: IIS Custom Logging for TLS | UKFast Documentation
+      :title: IIS Custom Logging for TLS | ANS Documentation
       :description: Setting up custom logging to record TLS version
       :keywords: SSL, TLS, ukfast, Schannel, IIS, security, windows, logging
 ```

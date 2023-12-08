@@ -24,7 +24,7 @@ ans ddosx domain delete mydomain.example --summary "example of removing a domain
 ```eval_rst
    .. title:: Removing A Domain From DDoSX
    .. meta::
-      :title: Removing A Domain From DDoSX | UKFast Documentation
+      :title: Removing A Domain From DDoSX | ANS Documentation
       :description: Help with removing a domain from DDoSX
       :keywords: domain, ddos, ddos protection, anti-ddos
 ```

@@ -152,7 +152,7 @@ The Update and Security Category contains the following important sections
 ```eval_rst
   .. title:: Settings in Windows Server 2016
   .. meta::
-     :title: Settings in Windows Server 2016 | UKFast Documentation
+     :title: Settings in Windows Server 2016 | ANS Documentation
      :description: An in-depth guide to using Settings in Windows Server 2016
      :keywords: ukfast, windows, settings, app, new, server, administration, tutorial, guide, 2016
 ```

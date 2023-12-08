@@ -22,6 +22,6 @@
 ```eval_rst
   .. title:: UKFast Backup Glossary
   .. meta::
-     :title: UKFast Backup Glossary  | UKFast Documentation
+     :title: UKFast Backup Glossary  | ANS Documentation
      :description: General glossary of terms for backup
      :keywords: ukfast, backup, files, folders, recovery

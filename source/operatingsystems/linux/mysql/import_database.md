@@ -82,7 +82,7 @@ mysql -u root -p example_db < example_db.sql
 ```eval_rst
   .. title:: Import a database
   .. meta::
-     :title: Import a database | UKFast Documentation
+     :title: Import a database | ANS Documentation
      :description: A guide to importing a database from a MySQL .sql using different applicable methods.
      :keywords: ukfast, linux, mysql, database, backup, dump, restore, recovery, security, cloud, import, workbench, phpmyadmin, sql
 ```

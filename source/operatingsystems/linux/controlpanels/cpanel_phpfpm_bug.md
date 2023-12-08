@@ -83,7 +83,7 @@ for i in $(cat /etc/userdomains | awk '{print $2}'); do echo "$i"; /scripts/php_
 ```eval_rst
   .. title:: cPanel | PHP-FPM is Disabled after EasyApache Update
   .. meta::
-     :title: PHP-FPM is Disabled after EasyApache Update | UKFast Documentation
+     :title: PHP-FPM is Disabled after EasyApache Update | ANS Documentation
      :description: PHP-FPM is Disabled after EasyApache Update
      :keywords: ukfast, cpanel, whm, bug, control, panel, tutorial, cloud, server, guide, virtual
 ```

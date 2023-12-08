@@ -23,7 +23,7 @@ For any queries specifically relating to your UKFast contract, please [contact y
 ```eval_rst
    .. title:: Invoices, payments, billing in MyUKFast
    .. meta::
-      :title: MyUKFast | Billing Section of MyUKFast | UKFast Documentation
+      :title: MyUKFast | Billing Section of MyUKFast | ANS Documentation
       :description: How to perform various Accounts related activities in MyUKFast
       :keywords: ukfast, accounts, invoice, invoice query, credit note, billing, payment method, payment, commission, remittance, refund, VAT
 ```

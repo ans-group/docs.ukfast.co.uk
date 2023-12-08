@@ -74,7 +74,7 @@ Then restart NGINX to put it live:
 ```eval_rst
    .. title:: Load Balancers | Frequently Asked Questions
    .. meta::
-      :title: Load Balancers | Frequently Asked Questions | UKFast Documentation
+      :title: Load Balancers | Frequently Asked Questions | ANS Documentation
       :description: FAQs about UKFast load balancers
 ```
 

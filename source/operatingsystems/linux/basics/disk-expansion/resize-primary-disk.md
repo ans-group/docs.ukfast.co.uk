@@ -167,7 +167,7 @@ To resize an `xfs` filesystem, run the following, noting the `/dev/mapper/VG-LV`
 ```eval_rst
    .. title:: Resizing the primary disk on an eCloud virtual server
    .. meta::
-      :title: Resizing the primary disk on an eCloud virtual server | UKFast Documentation
+      :title: Resizing the primary disk on an eCloud virtual server | ANS Documentation
       :description: An advanced-level guide to resizing the primary disk on an eCloud virtual server
       :keywords: ukfast, ecloud, cloud, disk, drive, resize, primary, server, virtual, linux
 ```

@@ -28,7 +28,7 @@ We will now look at some [TLS considerations for Windows Web Servers](/operating
 ```eval_rst
    .. title:: TLS protocols and Schannel
    .. meta::
-      :title: TLS protocols and Schannel | UKFast Documentation
+      :title: TLS protocols and Schannel | ANS Documentation
       :description: Introduction to TLS protocols and cipher suites
       :keywords: SSL, TLS, ukfast, Schannel, IIS
 ```

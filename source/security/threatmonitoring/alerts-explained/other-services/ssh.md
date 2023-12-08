@@ -53,7 +53,7 @@ Done. This turns off support for SSH1 which is where the vulnerability lies.
 ```eval_rst
    .. title:: SSH Rules Explained
    .. meta::
-      :title: SSH Rules Explained | UKFast Documentation
+      :title: SSH Rules Explained | ANS Documentation
       :description: Our Threat Monitoring ruleset explained
       :keywords: threat monitoring, alerts, security, compliance, rules, rulesets, ukfast, hosting, file integrity monitoring, rootkit, detection, vulnerability scan, scans, hids, intrusion detection, set up
 ```

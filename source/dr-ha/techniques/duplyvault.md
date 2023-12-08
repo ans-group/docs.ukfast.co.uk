@@ -242,6 +242,6 @@ If you're thinking of backing up MySQL data using this, you may want to read our
 ```eval_rst
   .. title:: Linux Backups with Duply and eCloud Vault
   .. meta::
-    :title: Linux Backups with Duply and eCloud Vault | UKFast Documentation
+    :title: Linux Backups with Duply and eCloud Vault | ANS Documentation
     :description: Linux Backups with Duply and eCloud Vault
 ```

@@ -49,7 +49,7 @@ Using this guide, you have successfully installed a PHP version using EasyApache
 ```eval_rst
   .. title:: cPanel | How to Install a PHP Version with EasyApache4
   .. meta::
-     :title: How to Install a PHP Version with EasyApache4 | UKFast Documentation
+     :title: How to Install a PHP Version with EasyApache4 | ANS Documentation
      :description:  A guide on how to install a PHP Version with EasyApache4
      :keywords:  php, version, cpanel, easy, easyapache, easyapache4, cpanel, install
 ```

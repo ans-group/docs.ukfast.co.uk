@@ -51,7 +51,7 @@ This should highlight any Let's Encrypt challenge issues you may have. Beyond th
 ```eval_rst
   .. title:: cPanel | How to secure your sites with Let's Encrypt
   .. meta::
-     :title: cPanel | How to secure your sites with Let's Encrypt | UKFast Documentation
+     :title: cPanel | How to secure your sites with Let's Encrypt | ANS Documentation
      :description: How to secure your sites with Let's Encrypt in cPanel/WHM
      :keywords: cpanel, whm, ssl, letsencrypt, let's encrypt, secure, security, linux, apache, guide, tutorial
 ```

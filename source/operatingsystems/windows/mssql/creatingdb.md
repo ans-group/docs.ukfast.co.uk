@@ -29,7 +29,7 @@ In order to create a new database, please follow the below steps.
 ```eval_rst
   .. title:: Creating a new database in Microsoft SQL Server
   .. meta::
-     :title: Creating a new database in Microsoft SQL Server | UKFast Documentation
+     :title: Creating a new database in Microsoft SQL Server | ANS Documentation
      :description: A guide to creating a new database in Microsoft SQL Server
      :keywords: ukfast, mssql, database, sql, create, server, microsoft, windows, cloud, server
 ```

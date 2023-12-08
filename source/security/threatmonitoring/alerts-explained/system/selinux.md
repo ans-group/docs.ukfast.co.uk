@@ -19,7 +19,7 @@ For example, Alice is on public WiFi and is logging into the electricity company
 ```eval_rst
    .. title:: SELinux Rules Explained
    .. meta::
-      :title: SELinux Rules Explained | UKFast Documentation
+      :title: SELinux Rules Explained | ANS Documentation
       :description: Our Threat Monitoring ruleset explained
       :keywords: threat monitoring, alerts, security, compliance, rules, rulesets, ukfast, hosting, file integrity monitoring, rootkit, detection, vulnerability scan, scans, hids, intrustion detection, set up
 ```

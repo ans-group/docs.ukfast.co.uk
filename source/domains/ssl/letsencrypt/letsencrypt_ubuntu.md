@@ -30,7 +30,7 @@ There after you can use the same methods to install a certificate as previously 
 ```eval_rst
   .. title:: SSL | How to secure your sites with Let's Encrypt on Ubuntu
   .. meta::
-     :title: SSL | How to secure your sites with Let's Encrypt on Ubuntu | UKFast Documentation
+     :title: SSL | How to secure your sites with Let's Encrypt on Ubuntu | ANS Documentation
      :description: How to secure your sites with Let's Encrypt on Ubuntu
      :keywords: ubuntu, ukfast, ssl, letsencrypt, let's encrypt, secure, security, Apache, NGINX, linux, server, guide, tutorial
 ```

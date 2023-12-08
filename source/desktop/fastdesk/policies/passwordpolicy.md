@@ -27,7 +27,7 @@ The policy and recommendations are in line with the guidance given by [The Natio
 ```eval_rst
    .. title:: FastDesk | FastDesk Password Policy
    .. meta::
-      :title: FastDesk Password Policy | UKFast Documentation
+      :title: FastDesk Password Policy | ANS Documentation
       :description: Guide on the password policy for the FastDesk Desktop
       :keywords: FastDesk, Citrix, ukfast, VDI, password, Workspace Application, policy, security, 2FA, desktop, reset, authentication
 ```

@@ -96,6 +96,6 @@ You can also use the guide below for a quick conversion from `SysVinit` to `syst
 ```eval_rst
    .. title:: Service Management on CentOS 7
    .. meta::
-      :title: Service Management on CentOS 7 | UKFast Documentation
+      :title: Service Management on CentOS 7 | ANS Documentation
       :description: Information on how to manage services on CentOS 7
 ```

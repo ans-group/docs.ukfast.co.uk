@@ -99,6 +99,6 @@ esxcli system maintenanceMode set --enable false
 ```eval_rst
    .. title:: Update or Upgrade Standalone ESXi servers
    .. meta::
-      :title: Update or Upgrade Standalone ESXi servers | UKFast Documentation
+      :title: Update or Upgrade Standalone ESXi servers | ANS Documentation
       :description: Information on how to upgrade standalone ESXi servers (without a vCenter server)
 ```

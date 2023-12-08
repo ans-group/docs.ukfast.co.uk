@@ -1,5 +1,5 @@
 .. meta::
-   :title: High-Level Alerts Explained | UKFast Documentation
+   :title: High-Level Alerts Explained | ANS Documentation
    :description: Guidance on Threat Monitoring and Threat Response solutions from UKFast
    :keywords: security, threat, monitoring, response, alerts, blocking, hacking, ransomware, protection
 

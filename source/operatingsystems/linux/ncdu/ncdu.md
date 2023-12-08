@@ -37,7 +37,7 @@ This can also be done on specific directories, for example /root/:
 ```eval_rst
    .. title:: Ncdu
    .. meta::
-      :title: Ncdu | UKFast Documentation
+      :title: Ncdu | ANS Documentation
       :description: A guide to using Ncdu
       :keywords: ukfast, linux, install, centos, cloud, server, virtual, ncdu
 ```

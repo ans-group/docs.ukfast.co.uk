@@ -126,7 +126,7 @@ service httpd restart
 ```eval_rst
    .. title:: Installing PHP modules on Linux
    .. meta::
-      :title: Installing PHP modules on Linux | UKFast Documentation
+      :title: Installing PHP modules on Linux | ANS Documentation
       :description: A guide to installing PHP modules on Linux
       :keywords: ukfast, linux, PHP, modules, guide, tutorial, install, file
 ```

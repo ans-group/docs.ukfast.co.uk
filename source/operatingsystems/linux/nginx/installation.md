@@ -147,7 +147,7 @@ The following documents carry on the setup for those particular elements:
 ```eval_rst
    .. title:: Installation and configuration of NGINX on Linux
    .. meta::
-      :title: Installation and configuration of NGINX on Linux | UKFast Documentation
+      :title: Installation and configuration of NGINX on Linux | ANS Documentation
       :description: A guide to installing and configuring the NGINX web server on Linux
       :keywords: ukfast, linux, nginx, web, server, configuration, installation, guide, tutorial
 ```

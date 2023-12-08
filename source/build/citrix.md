@@ -42,7 +42,7 @@ Below outlines how the proposed configuration will be configured for the Citrix 
 ```eval_rst
   .. title:: UKFast Citrix build documentation
   .. meta::
-      :title: UKFast Citrix build documentation | UKFast Documentation
+      :title: UKFast Citrix build documentation | ANS Documentation
       :description: Build documentation for UKFast Citrix
       :keywords: ukfast, hosting, citrix, server, virtual
 ```

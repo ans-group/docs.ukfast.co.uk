@@ -62,6 +62,6 @@ Then restart NGINX to put it live:
 ```eval_rst
    .. title:: Load Balancing | Frequently Asked Questions
    .. meta::
-      :title: Load Balancing | Frequently Asked Questions | UKFast Documentation
+      :title: Load Balancing | Frequently Asked Questions | ANS Documentation
       :description: Information and guidance on using the CDN on DDoSX
 ```

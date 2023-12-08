@@ -3,7 +3,7 @@
 ```eval_rst
    .. title:: BCP | Installing, Updating, and Configuring Software
    .. meta::
-      :title: BCP | Installing, Updating, and Configuring Software | UKFast Documentation
+      :title: BCP | Installing, Updating, and Configuring Software | ANS Documentation
       :description: How to install, update and configure software for BCP platforms
 ```
 

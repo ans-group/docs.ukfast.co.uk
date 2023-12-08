@@ -37,7 +37,7 @@ The only way to migrate away from using the WID, is to configure the RDS deploym
 ```eval_rst
    .. title:: TLS Support for Windows Software
    .. meta::
-      :title: TLS Support for Windows Software | UKFast Documentation
+      :title: TLS Support for Windows Software | ANS Documentation
       :description: Considerations for TLS support of various applications
       :keywords: SSL, TLS, ukfast, Schannel, RDS, RDP, MSSQL, Exchange, windows
 ```

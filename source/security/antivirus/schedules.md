@@ -24,6 +24,6 @@ If you need to make a change to your schedules, please raise a support request v
 ```eval_rst
    .. title:: Anti-Virus | Schedules
    .. meta::
-      :title: Anti-Virus | Schedules | UKFast Documentation
+      :title: Anti-Virus | Schedules | ANS Documentation
       :description: Information on ansi-virus schedules
 ```

@@ -179,7 +179,7 @@ startup=agent os='Linux' rel='3.10.0-957.12.2.el7.x86_64' mach='x86_64' ver='#1 
 ```eval_rst
   .. title:: How to Install and Configure New Relic on CentOS 7
   .. meta::
-     :title: How to Install and Configure New Relic on CentOS 7 | UKFast Documentation
+     :title: How to Install and Configure New Relic on CentOS 7 | ANS Documentation
      :description: How to Install and Configure New Relic on CentOS 7
      :keywords: performance, newrelic, new relic, php, linux, apm, monitoring
 ```

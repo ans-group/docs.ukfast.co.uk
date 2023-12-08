@@ -81,7 +81,7 @@ Once you've secured Memcached, double check that it is actually secure. Re-run t
 ```eval_rst
    .. title:: Open Memcached Exploit
    .. meta::
-      :title: Open Memcached Exploit | UKFast Documentation
+      :title: Open Memcached Exploit | ANS Documentation
       :description: Guidance on securing open Memcached instances
       :keywords: ukfast, linux, security, vulnerability, Memcached, hosting, ddos, udp, reflection, amplification
 ```

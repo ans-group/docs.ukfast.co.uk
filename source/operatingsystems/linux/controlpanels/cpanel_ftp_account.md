@@ -27,7 +27,7 @@ Now you can click "Create".
 ```eval_rst
   .. title:: cPanel | How to Create an FTP Account In cPanel
   .. meta::
-     :title: How to Create an FTP Account In cPanel | UKFast Documentation
+     :title: How to Create an FTP Account In cPanel | ANS Documentation
      :description: How to Create an FTP Account In cPanel
      :keywords: ukfast, cpanel, whm, control, panel, ftp, cloud, server, guide, virtual
 ```

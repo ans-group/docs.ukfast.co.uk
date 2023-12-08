@@ -47,6 +47,6 @@ More information about specific application monitoring can be found [here](app_m
 ```eval_rst
   .. title:: UKFast Monitoring Default Configuration
   .. meta::
-      :title: UKFast Monitoring Default Configuration | UKFast Documentation
+      :title: UKFast Monitoring Default Configuration | ANS Documentation
       :description: Default Configuration for UKFast Monitoring
       :keywords: ukfast, hosting, monitoring, server, virtual

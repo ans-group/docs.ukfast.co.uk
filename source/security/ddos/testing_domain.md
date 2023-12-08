@@ -92,6 +92,6 @@ Enter `your DDoSX IP` `example.org www.example.org` at the bottom of the file th
 ```eval_rst
   .. title:: Testing a domain on DDoSX
   .. meta::
-    :title: Testing a domain on DDoSX | UKFast Documentation
+    :title: Testing a domain on DDoSX | ANS Documentation
     :description: A guide for testing your domain on  DDoSX before enabling DNS
 ```

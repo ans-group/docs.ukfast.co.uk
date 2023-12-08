@@ -60,7 +60,7 @@ Here is a selection of additional flags/options that you can use, should you nee
 ```eval_rst
   .. title:: SSL | How to secure Apache with Let's Encrypt on CentOS
   .. meta::
-     :title: SSL | How to secure Apache with Let's Encrypt on CentOS | UKFast Documentation
+     :title: SSL | How to secure Apache with Let's Encrypt on CentOS | ANS Documentation
      :description: How to secure Apache with Let's Encrypt on CentOS
      :keywords: ssl, certbot, apache, letsencrypt, let's encrypt, secure, security, linux, server, guide, tutorial
 ```

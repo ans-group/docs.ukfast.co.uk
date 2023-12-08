@@ -282,7 +282,7 @@ This will tell you additional information, such as what packages it depends on, 
 
 ```eval_rst
 .. meta::
-   :title: Package Management Functions | UKFast Documentation
+   :title: Package Management Functions | ANS Documentation
    :description: Examples and information on package management functions on CentOS and Ubuntu from UKFast
    :keywords: servers, centos, ubuntu
 ```
@@ -290,6 +290,6 @@ This will tell you additional information, such as what packages it depends on, 
 ```eval_rst
   .. title:: Package Management Functions
   .. meta::
-     :title: Managing packages in Linux | UKFast Documentation
+     :title: Managing packages in Linux | ANS Documentation
      :description: A guide to adding and managing packages in Linux
      :keywords: ukfast, linux, packages, adding, managing, yum, install, server, virtual, vm

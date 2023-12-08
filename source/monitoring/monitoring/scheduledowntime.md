@@ -13,6 +13,6 @@ If you need to perform some maintenance on your solution then you can schedule d
 ```eval_rst
    .. title:: Monitoring | Scheduling Downtime
    .. meta::
-      :title: Monitoring | Scheduling Downtime | UKFast Documentation
+      :title: Monitoring | Scheduling Downtime | ANS Documentation
       :description: Information on how to schedule downtime
 ```

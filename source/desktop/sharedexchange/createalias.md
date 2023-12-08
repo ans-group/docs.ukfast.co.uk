@@ -17,7 +17,7 @@ The final step is to click on 'Add Alias' and type in the Alias you would like t
 ```eval_rst
    .. title:: Shared Exchange Creating Aliases
    .. meta::
-      :title: Shared Exchange Creating Aliases | UKFast Documentation
+      :title: Shared Exchange Creating Aliases | ANS Documentation
       :description: Guide for creating aliases on Shared Exchange
       :keywords: Exchange, Aliases, Email
 ```

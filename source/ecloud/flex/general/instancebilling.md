@@ -53,7 +53,7 @@ To un-shelve an instance and start using it again, click the `Actions` drop-down
 ```eval_rst
    .. title:: Statuses of eCloud Flex instances
    .. meta::
-     :title: Statuses of eCloud Flex instances | UKFast Documentation
+     :title: Statuses of eCloud Flex instances | ANS Documentation
      :description: Guidance on which eCloud Flex instance statuses are billable
      :keywords: openstack, ecloud, flex, ukfast, hosting, billing
 ```

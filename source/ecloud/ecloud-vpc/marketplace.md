@@ -16,7 +16,7 @@ See Instance deletion for deleting the instances launched from marketplace
 ```eval_rst
    .. title:: Marketplace
    .. meta::
-      :title: Instances | `ANS Documentation`
+      :title: Instances | ANS Documentation
       :description: Marketplace
       :keywords: ecloud, ecloud VPC, ANS Portal, VPC, Virtual Private Cloud, Instances, Marketplace
 ```

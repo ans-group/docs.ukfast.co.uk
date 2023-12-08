@@ -183,7 +183,7 @@ ans ddosx domain deploy mydomain.example
 ```eval_rst
    .. title:: Web Application Firewall settings on DDoSX
    .. meta::
-      :title: Web Application Firewall settings on DDoSX | UKFast Documentation
+      :title: Web Application Firewall settings on DDoSX | ANS Documentation
       :description: Help with setting up the Web Application Firewall feature on DDoSX
       :keywords: ddos, ddos protection, anti-ddos, ukfast, ddosx, web application firewall, waf
 ```

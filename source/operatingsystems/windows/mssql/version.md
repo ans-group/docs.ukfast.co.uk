@@ -42,7 +42,7 @@ In this example I have a patch installed:
 ```eval_rst
   .. title:: Which Microsoft SQL Server version am I on?
   .. meta::
-     :title: Which Microsoft SQL Server version am I on? | UKFast Documentation
+     :title: Which Microsoft SQL Server version am I on? | ANS Documentation
      :description: How to find which version of Microsoft SQL Server you're running
      :keywords: ukfast, guide, database, mssql, sql, sql server, server, version, find, microsoft
 ```

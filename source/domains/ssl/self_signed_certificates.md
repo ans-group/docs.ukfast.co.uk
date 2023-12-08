@@ -2,7 +2,7 @@
 
 ```eval_rst
    .. meta::
-      :title: SSL | Self Signed SSL Certificates | UKFast Documentation
+      :title: SSL | Self Signed SSL Certificates | ANS Documentation
       :description: Information on Self Signed SSL Certificates
 
 ```

@@ -27,6 +27,6 @@ For some applications you may want to know the IP Ranges that are used on the DD
 ```eval_rst
    .. title:: IP ranges on DDoSX®
    .. meta::
-      :title: IP ranges on DDoSX® | UKFast Documentation
+      :title: IP ranges on DDoSX® | ANS Documentation
       :description: A list of IPv4 and IPv6 ranges used by the DDoSX® network
 ```

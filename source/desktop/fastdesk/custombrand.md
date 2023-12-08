@@ -44,7 +44,7 @@ The image below identifies the three front-end aspects that can be custom brande
 ```eval_rst
    .. title:: FastDesk | FastDesk Desktop Custom-Branding
    .. meta::
-      :title: FastDesk Custom-Branding | UKFast Documentation
+      :title: FastDesk Custom-Branding | ANS Documentation
       :description: Guide on how to white label and custom brand the FastDesk desktop
       :keywords: FastDesk, Citrix, ukfast, VDI, Whitelabelling, Workspace Application, custom, branding, custom-branding, desktop
 ```

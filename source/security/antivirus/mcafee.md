@@ -13,6 +13,6 @@ Default schedules can be seen [here](schedules).
 ```eval_rst
    .. title:: McAfee | Scanning Configuration
    .. meta::
-      :title: McAfee | Scanning Configuration | UKFast Documentation
+      :title: McAfee | Scanning Configuration | ANS Documentation
       :description: Detail on McAfee scanning configuration
 ```

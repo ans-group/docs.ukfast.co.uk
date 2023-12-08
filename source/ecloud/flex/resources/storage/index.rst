@@ -1,5 +1,5 @@
 .. meta::
-   :title: eCloud Flex Storage | UKFast Documentation
+   :title: eCloud Flex Storage | ANS Documentation
    :description: Articles relating to eCloud Flex Storage, managing volumes and images
    :keywords: ukfast, cloud, ecloud, flex, images, hosting, volumes, storage, block, ssd, sata, pcie
 

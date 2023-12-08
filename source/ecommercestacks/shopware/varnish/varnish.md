@@ -243,7 +243,7 @@ This tells Shopware that although the connection is on port 80 -> 8080 it should
 ```eval_rst
   .. title:: Shopware Varnish
   .. meta::
-     :title: Shopware Varnish | UKFast Documentation
+     :title: Shopware Varnish | ANS Documentation
      :description: A guide using Varnish with Shopware
      :keywords: ukfast, linux, nginx, install, centos, cloud, server, virtual, Shopware, varnish, eCommerce
 ```

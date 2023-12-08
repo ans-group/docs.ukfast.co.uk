@@ -11,7 +11,7 @@ A collection of helpful information regarding integrating eCloud Vault with ever
 
 
 .. meta::
-   :title: eCloud Vault Integration | UKFast Documentation
+   :title: eCloud Vault Integration | ANS Documentation
    :description: Information to help you get the most from eCloud Vault's S3 Compatible Interface
    :keywords: ukfast, ecloud, cloud, vault, s3, general, information, hosting
 

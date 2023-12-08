@@ -2,7 +2,7 @@
 
 ```eval_rst
 .. meta::
-    :title: Multi-Protocol VPN Server using SoftEther | UKFast Documentation
+    :title: Multi-Protocol VPN Server using SoftEther | ANS Documentation
     :description: Detailed guidance on setting up a multi-protocol VPN server using SoftEther
 ```
 
@@ -530,7 +530,7 @@ After a few seconds it will connect and show you **Connected** status. You can a
 ```eval_rst
   .. title:: How to set up a Multi-Protocol VPN Server using SoftEther
   .. meta::
-     :title: How to set up a Multi-Protocol VPN Server using SoftEther | UKFast Documentation
+     :title: How to set up a Multi-Protocol VPN Server using SoftEther | ANS Documentation
      :description: A guide to setting up a VPN server using SoftEther
      :keywords: ukfast, vpn, softether, multi, protocol, server, security
 ```

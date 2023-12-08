@@ -53,7 +53,7 @@ You can find more information on the Redis service [here](/operatingsystems/linu
 ```eval_rst
   .. title:: Shopware Redis
   .. meta::
-     :title: Shopware Redis | UKFast Documentation
+     :title: Shopware Redis | ANS Documentation
      :description: A guide to using Redis on our Shopware optimised stack
      :keywords: ukfast, linux, install, centos, cloud, server, virtual, Shopware, Redis, eCommerce
 ```

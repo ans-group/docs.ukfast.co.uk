@@ -15,7 +15,7 @@ Traffic flow on a single server with Varnish is typically:
    ukfast_vcl
 
 .. meta::
-   :title: Magento2 Varnish | UKFast Documentation
+   :title: Magento2 Varnish | ANS Documentation
    :description: guides relating to Magento2 using Varnish
    :keywords: ukfast, Magento2, optimised, stack, varnish, eCommerce
 

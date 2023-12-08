@@ -19,6 +19,6 @@ For a consolidated view of various usage metrics, including bandwidth, for your 
 ```eval_rst
    .. title:: Monitoring | Bandwidth Usage
    .. meta::
-      :title: Monitoring | Bandwidth Usage | UKFast Documentation
+      :title: Monitoring | Bandwidth Usage | ANS Documentation
       :description: How to see your bandwidth usage
 ```

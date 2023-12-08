@@ -3,7 +3,7 @@
 ```eval_rst
    .. title:: Domain Names | DNS Propagation
    .. meta::
-      :title: Domain Names | DNS Propagation | UKFast Documentation
+      :title: Domain Names | DNS Propagation | ANS Documentation
       :description: How to change your domain nameservers with UKFast
 ```
 

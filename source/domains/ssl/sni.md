@@ -3,7 +3,7 @@
 ```eval_rst
   .. title:: SSL | Using SNI with SSL certificates
    .. meta::
-      :title: SSL | Using SNI with SSL certificates | UKFast Documentation
+      :title: SSL | Using SNI with SSL certificates | ANS Documentation
       :description: Information on Using Server Name Indication (SNI) with SSL certificates
 ```
 

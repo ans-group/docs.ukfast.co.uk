@@ -37,7 +37,7 @@
 ```eval_rst
   .. title:: Using Live Optics on Microsoft Windows
   .. meta::
-     :title: Using Live Optics on Microsoft Windows | UKFast Documentation
+     :title: Using Live Optics on Microsoft Windows | ANS Documentation
      :description: How to run a Live Optics check on a Windows server
      :keywords: ukfast, liveoptics, live, optics, windows, server, monitoring, cloud, hosting
 ```

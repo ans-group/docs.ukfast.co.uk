@@ -45,7 +45,7 @@ You need to ensure the firewall for the server allows port 22 outbound. This can
 ```eval_rst
    .. title:: Git
    .. meta::
-      :title: Git | UKFast Documentation
+      :title: Git | ANS Documentation
       :description: A guide to using Git
       :keywords: ukfast, linux, install, centos, cloud, server, virtual, git, eCommerce
 ```

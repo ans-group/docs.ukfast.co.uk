@@ -122,7 +122,7 @@ Aug 11 11:18:32 c7 postfix/smtpd[9292]: disconnect from localhost[::1]
 ```eval_rst
   .. title:: Reading and editing files on Linux
   .. meta::
-     :title: Reading and editing files on Linux | UKFast Documentation
+     :title: Reading and editing files on Linux | ANS Documentation
      :description:  A guide to reading and editing files on Linux
      :keywords: ukfast, linux, reading, editing, files, server, virtual, vm, tail, head, vi, vim, less, head
 ```

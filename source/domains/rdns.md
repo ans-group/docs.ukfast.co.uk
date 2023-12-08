@@ -16,7 +16,7 @@ This change should propagate immediately and can be confirmed by running the fol
 ```eval_rst
    .. title:: Domains | Reverse DNS records
    .. meta::
-      :title: Domains | Reverse DNS records | UKFast Documentation
+      :title: Domains | Reverse DNS records | ANS Documentation
       :description: Information on how to validate your SSL Certificate
 
 ```

@@ -21,7 +21,7 @@ If you are on a default configuration and need additional VPN capacity, please [
 ```eval_rst
   .. title:: VPN Capacity of UKFast firewalls
   .. meta::
-     :title: VPN Capacity of UKFast firewalls | UKFast Documentation
+     :title: VPN Capacity of UKFast firewalls | ANS Documentation
      :description: A reference for the number of supported VPN connections per firewall type
      :keywords: ukfast, firewall, network, myukfast, vpn, capacity, ipsec, webssl, sessions, concurrent
 ```

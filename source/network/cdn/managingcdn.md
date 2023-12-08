@@ -63,7 +63,7 @@ If you need help using the CDN or configuring your rules, please contact UKFast 
 ```eval_rst
   .. title:: Managing the cache on CDN
   .. meta::
-     :title: Managing the cache on CDN | UKFast Documentation
+     :title: Managing the cache on CDN | ANS Documentation
      :description: A guide to managing the content that is cached by CDN
      :keywords: ukfast, content delivery network, CDN, cache, Cache-Control, Cache headers, X-Proxy-Cache Header
 ```

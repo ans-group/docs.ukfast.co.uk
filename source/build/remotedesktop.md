@@ -41,7 +41,7 @@ Below outlines how the proposed configuration will be configured for the RDS Far
 ```eval_rst
    .. title:: UKFast RDS build documentation
    .. meta::
-      :title: UKFast RDS build documentation | UKFast Documentation
+      :title: UKFast RDS build documentation | ANS Documentation
       :description: Build documentation for UKFast Remote Desktop
       :keywords: ukfast, hosting, rds, server, virtual
 ```

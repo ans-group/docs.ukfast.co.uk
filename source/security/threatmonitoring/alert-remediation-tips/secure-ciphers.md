@@ -145,7 +145,7 @@ service sshd restart
 ```eval_rst
    .. title:: Setting Secure Ciphers
    .. meta::
-      :title: Setting Secure Ciphers | UKFast Documentation
+      :title: Setting Secure Ciphers | ANS Documentation
       :description: Useful threat remediation and prevention tips
       :keywords: threat monitoring, alerts, security, compliance, rules, rulesets, ukfast, hosting, file integrity monitoring, rootkit, detection, vulnerability scan, scans, hids, intrusion detection, set up
 ```

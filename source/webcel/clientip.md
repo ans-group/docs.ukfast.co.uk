@@ -30,7 +30,7 @@ $_SERVER['REMOTE_ADDR'] = trim($_SERVER['REMOTE_ADDR'][0]);
 ```eval_rst
   .. title:: Finding the Client IP when using Webcelerators
   .. meta::
-     :title: Finding the Client IP when using Webcelerators | UKFast Documentation
+     :title: Finding the Client IP when using Webcelerators | ANS Documentation
      :description: How to currectly identify the client IP with Webcels
      :keywords: webcel, client ip, php
 ```

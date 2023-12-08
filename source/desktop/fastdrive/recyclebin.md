@@ -38,7 +38,7 @@ Exactly like the standard recycle bin, files and folders can be permanently dele
 ```eval_rst
    .. title:: FastDrive | Installing Recycle Bin
    .. meta::
-      :title: FastDrive | Installing Recycle Bin | UKFast Documentation
+      :title: FastDrive | Installing Recycle Bin | ANS Documentation
       :description: Information about the recycle bin in FastDrive
       :keywords: ukfast, fastdrive, files, folders
 ```

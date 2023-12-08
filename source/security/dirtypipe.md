@@ -80,7 +80,7 @@ The specific flaw exists in the bionic and focal, but is not currently exploitab
 ```eval_rst
    .. title:: CVE-2022-0847 - Dirty Pipe Vulnerability
    .. meta::
-      :title: CVE-2022-0847 - Dirty Pipe Vulnerability  | UKFast Documentation
+      :title: CVE-2022-0847 - Dirty Pipe Vulnerability  | ANS Documentation
       :description: Information for Dirty Pipe Vulnerability ~ CVE-2022-0847
       :keywords: ukfast, linux, security, vulnerability, dirty pipe
 ```

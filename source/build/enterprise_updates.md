@@ -44,7 +44,7 @@ By default single role Linux Servers will have the following updates configured:
 ```eval_rst
   .. title:: UKFast Enterprise Updates Default Configuration
   .. meta::
-      :title: UKFast Enterprise Updates Default Configuration | UKFast Documentation
+      :title: UKFast Enterprise Updates Default Configuration | ANS Documentation
       :description: Default Configuration for UKFast Enterprise Updates
       :keywords: ukfast, hosting, updates, server, virtual, enterprise
 

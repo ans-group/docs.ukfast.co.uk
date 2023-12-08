@@ -9,7 +9,7 @@ Looking more specifically at a Network Scan, these scans tend to try and detect 
 ```eval_rst
    .. title:: Network Scans
    .. meta::
-      :title: Network Scans | UKFast Documentation
+      :title: Network Scans | ANS Documentation
       :description: Our Threat Monitoring ruleset explained
       :keywords: threat monitoring, alerts, security, compliance, rules, rulesets, ukfast, hosting, file integrity monitoring, rootkit, detection, vulnerability scan,
 ```

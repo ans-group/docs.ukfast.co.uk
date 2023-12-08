@@ -58,7 +58,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Cryptography\Configuration\SSL\00
 ```eval_rst
    .. title:: Windows TLS Configuration
    .. meta::
-      :title: Windows TLS Configuration | UKFast Documentation
+      :title: Windows TLS Configuration | ANS Documentation
       :description: TLS and Schannel configuration
       :keywords: SSL, TLS, ukfast, Schannel, IIS, security, windows, IIS Crypto
 ```

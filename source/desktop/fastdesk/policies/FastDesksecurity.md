@@ -28,7 +28,7 @@ On a user level, group policies and NTFS in windows can be used to lock down acc
 ```eval_rst
   .. title:: FastDesk Security | FastDesk Documentation
   .. meta::
-    :title: FastDesk Security | UKFast Documentation
+    :title: FastDesk Security | ANS Documentation
     :description: Information on the security of FastDesk
     :keywords: FastDesk, Citrix, ukfast, VDI, Security, Windows, Workspace Application, Data Center, Accreditations, Physical, Data
 ```

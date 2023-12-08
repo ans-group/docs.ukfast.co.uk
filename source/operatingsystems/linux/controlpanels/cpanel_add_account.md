@@ -37,7 +37,7 @@ You've now added an account to WHM. You can now login, [using the guide here!](/
 ```eval_rst
   .. title:: cPanel | How to Add a New Account in WHM
   .. meta::
-     :title: How to Add a New Account in WHM | UKFast Documentation
+     :title: How to Add a New Account in WHM | ANS Documentation
      :description: How to Add a New Account in WHM
      :keywords: ukfast, cpanel, whm, domain, account, control, panel, tutorial, cloud, server, guide, virtual
 ```

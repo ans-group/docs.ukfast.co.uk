@@ -11,7 +11,7 @@ sed 's/ukfast.co.uk/ukfast.net/g' ukfast.co.uk.conf > ukfast.net.conf
 ```eval_rst
   .. title:: Using the SED command in Linux
   .. meta::
-     :title: Using the SED command in Linux | UKFast Documentation
+     :title: Using the SED command in Linux | ANS Documentation
      :description: Information and guidance on using the SED command to edit text files in Linux
      :keywords: ukfast, server, linux, sed, command, files, edit, text, editor, cloud
 ```

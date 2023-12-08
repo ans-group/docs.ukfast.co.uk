@@ -149,7 +149,7 @@ Please don't hesitate to contact our support professionals who can provide assis
 ```eval_rst
    .. title:: Patching the WannaCry vulnerability
    .. meta::
-      :title: Patching the WannaCry vulnerability | UKFast Documentation
+      :title: Patching the WannaCry vulnerability | ANS Documentation
       :description: Information on patching the WannaCry vulnerability
       :keywords: ukfast, security, pci, dss, vulnerability, cryptolock, wannacry
 ```

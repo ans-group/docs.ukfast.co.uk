@@ -7,7 +7,7 @@ For information on how to get started with DDoSX, CDN and WAF please see [this a
 ```eval_rst
    .. title:: Content Delivery Network on DDoSX
    .. meta::
-      :title: Content Delivery Network on DDoSX | UKFast Documentation
+      :title: Content Delivery Network on DDoSX | ANS Documentation
       :description: Information and guidance on using the CDN on DDoSX
       :keywords: ddos, ddos protection, anti-ddos, ukfast, ddosx, cdn, content delivery, content delivery network
 ```

@@ -128,7 +128,7 @@ If you face any problems with volumes in eCloud Flex, please raise a support tic
 ```eval_rst
    .. title:: Managing Volumes in eCloud Flex
    .. meta::
-      :title: Managing Volumes in eCloud Flex | UKFast Documentation
+      :title: Managing Volumes in eCloud Flex | ANS Documentation
       :description: A guide detailing how to manage volumes in eCloud Flex.
       :keywords: ecloud, flex, storage, hosting, cloud, vm, volumes, images, snapshots, sysadmin
 ```

@@ -33,6 +33,6 @@ Now you're ready to start the testing phase; ensuring your [SSL is configured co
 ```eval_rst
    .. title:: Webcelerator | Getting Started
    .. meta::
-      :title: Webcelerator | Getting Started | UKFast Documentation
+      :title: Webcelerator | Getting Started | ANS Documentation
       :description: Getting started with a UKFast Webcelerator
 ```

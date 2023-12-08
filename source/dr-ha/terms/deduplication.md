@@ -12,7 +12,7 @@ This is done by using clever algorithms that generate digital signatures from bl
 ```eval_rst
    .. title:: Deduplicated Backups
    .. meta::
-      :title: Deduplicated Backups | UKFast Documentation
+      :title: Deduplicated Backups | ANS Documentation
       :description: Information about deduplication offered by backups software
       :keywords: Backups, dedup, commvault, dpm
 ```

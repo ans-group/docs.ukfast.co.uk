@@ -70,7 +70,7 @@ The next section of our documentation details managing the resources in your pro
 ```eval_rst
    .. title:: Installing the OpenStack client
    .. meta::
-      :title: Installing the OpenStack client | UKFast Documentation
+      :title: Installing the OpenStack client | ANS Documentation
       :description: Details how to install the OpenStack command line client
       :keywords: openstack, ecloud, flex, ukfast, nova, swift, cinder, glance, keystone, heat, hosting, cloud, api, cli
 ```

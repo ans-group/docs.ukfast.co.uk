@@ -23,6 +23,6 @@ If you wish to access the logs directly rather than through the MSSQL Management
 ```eval_rst
   .. title:: Reviewing Microsoft SQL Server Error Logs
   .. meta::
-     :title: Reviewing Microsoft SQL Server Error Logs | UKFast Documentation
+     :title: Reviewing Microsoft SQL Server Error Logs | ANS Documentation
      :description: A guide to reviewing Microsoft SQL Server error logs
      :keywords: ukfast, mssql, windows, sql server, error, log, review, database, cloud, server

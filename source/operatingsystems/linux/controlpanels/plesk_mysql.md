@@ -44,7 +44,7 @@ Want to gain access via another method such as MySQL Workbench but encountering 
 ```eval_rst
   .. title:: Connecting to MySQL on Plesk via CLI
   .. meta::
-     :title: Connecting to MySQL on Plesk via CLI | UKFast Documentation
+     :title: Connecting to MySQL on Plesk via CLI | ANS Documentation
      :description: A guide to connecting to MySQL on Plesk via CLI
      :keywords: ukfast, plesk, mysql, plesk db, linux, cli, command, mariadb
 ````

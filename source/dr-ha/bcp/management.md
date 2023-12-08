@@ -3,7 +3,7 @@
 ```eval_rst
    .. title:: BCP | Managing Your Cluster
    .. meta::
-      :title: BCP | Managing Your Cluster | UKFast Documentation
+      :title: BCP | Managing Your Cluster | ANS Documentation
       :description: Information on how to manage your BCP cluster
 ```
 

@@ -44,7 +44,7 @@ Now click "Open" and the session should open using the private key as authentica
 ```eval_rst
    .. title:: Connecting to your server via SSH
    .. meta::
-      :title: Connecting to your server via SSH | UKFast Documentation
+      :title: Connecting to your server via SSH | ANS Documentation
       :description: Guidance on connecting to Linux using SSH
       :keywords: ukfast, ssh, key, private key, putty, ssh client, linux, server
 ```

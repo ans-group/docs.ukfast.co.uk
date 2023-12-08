@@ -17,6 +17,6 @@ and modify DNS records automatically. The documentation can be found [here](http
 ```eval_rst
    .. title:: SafeDNS | How to use the SafeDNS API
    .. meta::
-      :title: SafeDNS | How to use the SafeDNS API | UKFast Documentation
+      :title: SafeDNS | How to use the SafeDNS API | ANS Documentation
       :description: Guidance on using the SafeDNS API from UKFast to manage DNS records
 ```

@@ -42,7 +42,7 @@ Account Information >> List Accounts >> "cPanel" Button
 ```eval_rst
   .. title:: cPanel | How to Log in to WHM and cPanel
   .. meta::
-     :title: How to Log in to WHM and cPanel | UKFast Documentation
+     :title: How to Log in to WHM and cPanel | ANS Documentation
      :description: Guide on connecting to a WHM/cPanel server
      :keywords: ukfast, cpanel, whm, control, panel, tutorial, cloud, server, guide, virtual
 ```

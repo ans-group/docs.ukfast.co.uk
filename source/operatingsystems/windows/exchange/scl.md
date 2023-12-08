@@ -20,7 +20,7 @@ These values should be adjusted to your preference before running the command al
 ```eval_rst
   .. title:: Spam Confidence Level
   .. meta::
-     :title: Spam Confidence Level | UKFast Documentation
+     :title: Spam Confidence Level | ANS Documentation
      :description: Information on Spam Confidence Level (SCL) for Microsoft Exchange
      :keywords: ukfast, windows, exchange, spam, confidence, level, scl, microsoft, block, junk, cloud, server, virtual
 ```

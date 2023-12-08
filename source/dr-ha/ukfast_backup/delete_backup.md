@@ -21,6 +21,6 @@ Backups will show `Pending Deletion` in the backup log whilst this process takes
 ```eval_rst
   .. title:: Deleting Backups
   .. meta::
-     :title: Deleting Backups  | UKFast Documentation
+     :title: Deleting Backups  | ANS Documentation
      :description: Deleting backups using MyUKFast with UKFast Backup
      :keywords: ukfast, backup, files, folders, recovery

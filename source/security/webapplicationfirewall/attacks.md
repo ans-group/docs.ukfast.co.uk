@@ -27,7 +27,7 @@ Here's an example: You may have a PHPMyAdmin interface in public facing environm
 
 ```eval_rst
 .. meta::
-     :title: Preventing application attacks with a WAF | UKFast Documentation
+     :title: Preventing application attacks with a WAF | ANS Documentation
      :description: General information on the attacks a UKFast WAF can help prevent
      :keywords: ukfast, ddosx, web application firewall, waf, owasp, owasp top 10
 ```

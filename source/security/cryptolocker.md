@@ -7,7 +7,7 @@ We've put together a handy guide of good practices, which you can download [here
 ```eval_rst
    .. title:: CryptoLocker
    .. meta::
-      :title: CryptoLocker | UKFast Documentation
+      :title: CryptoLocker | ANS Documentation
       :description: Best Practice advice on prtoceting against cryptolocker attacks
       :keywords:  ukfast, hosting, crypto, cryptolocker, security, hacking
 ```

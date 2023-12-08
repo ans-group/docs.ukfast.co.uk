@@ -39,7 +39,7 @@ Contacting your **Account Manager** is very simple and they are available via *t
 ```eval_rst
    .. title:: How to Cancel and Close your UKFast Account
    .. meta::
-      :title: How to Cancel and Close your UKFast Account | UKFast Documentation
+      :title: How to Cancel and Close your UKFast Account | ANS Documentation
       :description: Instructions on how to cancel and close your UKFast account
       :keywords: ukfast, account manager, service manager, close account, cancellation, cancel, contract, quote, terminate, notice period, notice, upgrade, downgrade
 ```

@@ -1,5 +1,5 @@
 .. meta::
-   :title: eCloud Flex Instances | UKFast Documentation
+   :title: eCloud Flex Instances | ANS Documentation
    :description: Articles relating to eCloud Flex instances based on OpenStack Nova
    :keywords: ukfast, cloud, ecloud, flex, instance, openstack, hosting, vm, virtual machine, nova
 

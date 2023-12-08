@@ -49,7 +49,7 @@ UKFast's Linux clustering solution, BCP (Business Continuity Platform) ensures h
 ```eval_rst
   .. title:: UKFast Default BCP Configuration
   .. meta::
-      :title: UKFast Default BCP Configuration | UKFast Documentation
+      :title: UKFast Default BCP Configuration | ANS Documentation
       :description: Default Configuration for a BCP Solution.
       :keywords: ukfast, hosting, server, linux, bcp, business continuity platform
 ```

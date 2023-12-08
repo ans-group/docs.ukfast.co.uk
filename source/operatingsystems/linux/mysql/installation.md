@@ -63,7 +63,7 @@ While these guides can help with some common issues and configurations, they are
 ```eval_rst
   .. title:: Installing MySQL in Linux
   .. meta::
-     :title: Installing MySQL in Linux | UKFast Documentation
+     :title: Installing MySQL in Linux | ANS Documentation
      :description: A guide to installing MySQL on Linux
      :keywords: ukfast, linux, mysql, database, install, centos, cloud, lamp, server, virtual
 ```

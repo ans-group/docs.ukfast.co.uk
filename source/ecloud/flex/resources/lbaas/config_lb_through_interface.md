@@ -59,7 +59,7 @@ For more information about removing a load balancer in eCloud Flex, check out ou
 ```eval_rst
    .. title:: Creating an eCloud Flex Load Balancer using Horizon
    .. meta::
-      :title: Creating an eCloud Flex Load Balancer using Horizon | UKFast Documentation
+      :title: Creating an eCloud Flex Load Balancer using Horizon | ANS Documentation
       :description: Detailed guidance on establishing a load balancing instance on eCloud Flex using the Horizon dashboard
       :keywords: ecloud, flex, load balancers, lbaas, listener, pools, member pool,
 ```

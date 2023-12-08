@@ -111,7 +111,7 @@ Go ahead and enter the username and password credentials that were provided to y
  ```eval_rst
    .. title:: FastDesk Getting Started Guide: Apple macOS
    .. meta::
-      :title: FastDesk Getting Started Guide: Apple macOS | UKFast Documentation
+      :title: FastDesk Getting Started Guide: Apple macOS | ANS Documentation
       :description: Guide for users on how to get setup on FastDesk using a macOS device
       :keywords: FastDesk, Citrix, ukfast, VDI, Citrix Receiver, macOS, Workspace Application
 ```

@@ -82,6 +82,6 @@ For more information about FastDesk, and how it can help increase the flexibilit
 
 
 .. meta::
-   :title: FastDesk - Hosted Desktops | UKFast Documentation
+   :title: FastDesk - Hosted Desktops | ANS Documentation
    :description: Information relating to FastDesk, a hosted desktop solution from UKFast
    :keywords: ukfast, fastdesk, desktop, hosting, cloud, server, citrix, workspace, daas

@@ -32,7 +32,7 @@ The key to having a lower TTFB with Magento is to optimise Magento to reduce the
 ```eval_rst
   .. title:: Magento Time To First Byte
   .. meta::
-     :title: Magento Time To First Byte | UKFast Documentation
+     :title: Magento Time To First Byte | ANS Documentation
      :description: A guide to investigate time to first byte
      :keywords: ukfast, linux, nginx, install, centos, cloud, server, virtual, Magento, ttfb
 ```

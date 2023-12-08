@@ -263,7 +263,7 @@ https://docs.ukfast.co.uk/ecommercestacks/magento/magento2/permissionguide.html
 ```eval_rst
   .. title:: Magento 2 Troubleshooting
   .. meta::
-     :title: Magento 2 Troubleshooting | UKFast Documentation
+     :title: Magento 2 Troubleshooting | ANS Documentation
      :description: A guide to troubleshoot errors
      :keywords: ukfast, linux, nginx, varnish, php-fpm, install, centos, ubuntu, cloud, server, virtual, Magento2, security, eCommerce
 ```
