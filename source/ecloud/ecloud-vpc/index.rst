@@ -34,16 +34,17 @@ control panel, APIs or command line tools.
 
    navigating-ecloud-vpc
    vpc
-   router
-   networks
-   floating-ip
+   marketplace
    instances
    volumes
-   marketplace
+   floating-ip
+   networks
+   router
+   loadbalancers
+   vpn
    firewall-policies
    network-policies
    cost-management/index
-   vpn
    migrations
    
 .. meta::
