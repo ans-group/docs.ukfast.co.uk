@@ -2,20 +2,19 @@
 Cloud
 =====
 
-UKFast offers a number of cloud hosting platforms, including public cloud (eCloud Flex, eCloud Public) and private cloud.
+ANS offers a range of managed cloud services from our own public cloud eCloud VPC
+through to Private and Sovereign Cloud solutions.
 
 .. toctree::
    :maxdepth: 1
 
-   flex/index
-   vault/index
-   public/index
-   private/index
-   console
    ecloud-vpc/index
+   private/index
+   vault/index
+   console
 
-.. title:: Cloud hosting from UKFast | ANS Documentation
+.. title:: Public and Private Cloud Services | ANS Documentation
 
 .. meta::
-   :description: Information regarding the different cloud hosting platforms from UKFast
-   :keywords: ukfast, cloud, ecloud, public, private, hybrid, flex, hosting, infrastructure, vms, openstack, vmware
+   :description: Managed Cloud services provided by ANS
+   :keywords: ans, cloud, ecloud, public, private, vpc, hosting, infrastructure, vms, instances, vmware, hpe
