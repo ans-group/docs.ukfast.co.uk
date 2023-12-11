@@ -1,6 +1,6 @@
 # Load Balancers
 
-A load balancer is a device that distributes network or application traffic across a number of servers to increase 
+A load balancer is a device that distributes network or application traffic across a number of servers to increase
 capacity, reliability, and reduce latency
 
 
