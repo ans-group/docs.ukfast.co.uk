@@ -1,7 +1,10 @@
-@import url(http://fonts.googleapis.com/css?family=Droid+Sans:400,700);
-@import url(https://fonts.googleapis.com/css?family=Droid+Sans:400italic);
 @import url(https://fonts.googleapis.com/css?family=Roboto+Mono:400,700italic,500italic,500,400italic,300italic,300,100italic,100,700);
+@import url(https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap);
 
+:root {
+    --ans-dark-blue: #202E52;
+    --ans-light-blue:#303D5F;
+}
 html,
 body {
     width: 100%;
@@ -15,7 +18,7 @@ body {
     text-rendering: optimizeLegibility;
     -moz-osx-font-smoothing: grayscale;
     min-height: 100%;
-    font-family: system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    font-family: 'Outfit', sans-serif;
     font-size: 1.5em;
     line-height: 26px;
     /* letter-spacing: 0.05em; */
@@ -76,7 +79,7 @@ h2 a {
 }
 
 #container {
-    background-color: #F1F1F1;
+    background-color: #F8FAFC;
 }
 
 #main-menu-container {
@@ -173,12 +176,12 @@ iframe {
 ::-moz-selection {
     text-shadow:none;
     color: #fff;
-    background:rgba(243,40,55,0.8);
+    background: rgba(48, 61, 95, 0.8);
 }
 ::selection {
     text-shadow:none;
     color: #fff;
-    background:rgba(243,40,55,0.8);
+    background: rgba(48, 61, 95, 0.8);
 }
 
 /* Background layer */
@@ -1059,7 +1062,7 @@ input[type="email"].big-dog::webkit-input-placeholder {
 /* Popovers */
 .popover {
     border-radius: 0;
-    font-family: 'Droid Sans', sans-serif;
+    font-family: 'Outfit', sans-serif;
     border:none;
     background-color: #fcfcfc;
     box-shadow:0 4px 15px rgba(0,0,0,0.3);
@@ -1095,7 +1098,7 @@ input[type="email"].big-dog::webkit-input-placeholder {
     padding:10px;
 }
 .modal-title {
-    font-family: 'Droid Sans', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-size:17px;
     color:#556;
 }
@@ -1258,7 +1261,7 @@ input[type="email"].big-dog::webkit-input-placeholder {
 
 /* *********************    Footers     ********************* */
 .footer-wrapper {
-    background-color: #363638;
+    background-color: #202e52;
     color: #d8dade;
     position:relative;
     padding:20px 0 40px;
@@ -1350,7 +1353,7 @@ input[type="email"].big-dog::webkit-input-placeholder {
     background: #363638;
 }
 .back-3 {
-    background: #2B2B2B;
+    background: #303d5f;
 }
 .back-red {
     background: #D33C45;
@@ -1545,12 +1548,10 @@ blockquote {
     display: block;
     width: 100%;
     height: 34px;
-    font-size: 1.5em;
     line-height: 1.42857143;
     color: #FFF;
     background-color: #A92B32;
     background-image: none;
-    border: 1px solid #ccc;
     border-radius: 4px;
     -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
     box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
@@ -1620,7 +1621,7 @@ blockquote {
 
 
 .back-book {
-    background-color: #04151F;
+    background-color: #303D5F;
     -webkit-transition: all 0.3s linear;
     transition: all 0.3s linear;
 }
@@ -1649,14 +1650,18 @@ blockquote {
 
 .icon-submenu {
     padding-left: 0px;
-    font-size: 26px;
     vertical-align: -17%;
     padding-right: 5px;
 }
 
+.search-floating-button {
+    background: none;
+    border: none;
+    color: #fff;
+}
+
 .logo svg {
-    margin-top: 22px;
-    height: 50px;
+    height: 60px;
 }
 
 #footer input {
@@ -1684,7 +1689,7 @@ header {
     transition: top 0.2s ease-in-out;
     width: 100%;
     z-index: 99;
-    background: #132F3F;
+    background: var(--ans-dark-blue);
 }
 
 .nav-up {
@@ -1739,7 +1744,7 @@ header {
 #wrap .tt-input:focus {
   z-index: 1;
   cursor: text;
-  background-color: #04151F;
+  background-color: var(--ans-light-blue);
   border-radius: 0;
 }
 #wrap input[type="submit"] {
@@ -1853,9 +1858,10 @@ header {
 /* Search form */
 .form-cook {
     margin-top: 8px;
-    background: #132F3F;
-    border-radius: 0;
+    background: var(--ans-dark-blue);
+    border-radius: 999px;
     height: 30px;
+    padding-left: 50px;
 }
 
 .search-cook {
@@ -1865,8 +1871,8 @@ header {
 .standalone-search button,
 .search-cook button {
     padding-left: 7px;
-    color: #565656;
-    font-size: 23px;
+    color: white;
+    font-size: 19px;
     border: 0;
     outline: 0;
     background: transparent;
@@ -2023,7 +2029,7 @@ header {
 
 #btn-toc:hover {
     color: white;
-    background-color: #04151F;
+    background-color: var(--ans-light-blue);
 }
 
 .modal-title-cookbook {
@@ -2118,4 +2124,11 @@ header {
 
 .docs-flex-holder li {
     margin-top: 5px;
+}
+
+.search-field-root .search-floating-button{
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
 }

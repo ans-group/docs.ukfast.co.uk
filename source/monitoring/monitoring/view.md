@@ -1,6 +1,6 @@
 # Where can I view my monitoring results?
 
-UKFast offers a variety of monitoring options, the list of available ones for your server can be found in the following location in your [MyUKFast area](https://www.ukfast.co.uk/myukfast.html):
+ANS offers a variety of monitoring options, the list of available ones for your server can be found in the following location in your [MyUKFast area](https://www.ukfast.co.uk/myukfast.html):
 
 'Products and Services' > `Dedicated Servers`
 
