@@ -89,7 +89,7 @@ FastDrive is a secure self-managed platform. Each customer will be provided with
 * Apps include – Windows/Mac/Linux. Print and Scan directly to the FastDrive account. Drive Mapper. Sync Tools and more.
 * Mobile Device Security including: File Self-Destruct, External Application Interaction, Encryption, Remote Wipe.
 
-UKFast Data Centres are ISO 27001 certified, PCI-compliant and secured up to UK government IL4 standards, which ensures your solution is protected by exceptional levels of both physical and virtual security at all times.
+ANS Data Centres are ISO 27001 certified, PCI-compliant and secured up to UK government IL4 standards, which ensures your solution is protected by exceptional levels of both physical and virtual security at all times.
 
  ```eval_rst
    .. title:: FastDrive | Technical information about the FastDrive product

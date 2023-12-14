@@ -165,7 +165,6 @@
 }
 #sidebar-navigation > ul > li:before {
     color: #363637;
-    font-family: 'Raleway', sans-serif;
     display: block;
     font-weight: bold;
     font-size: 13px;
@@ -708,10 +707,10 @@ dt tt {
 }
 
 .box i {
-    font-size: 44px;
+    font-size: 27px;
     float: left;
     margin: 10px 20px 0 0;
-    color: #2C5282;
+    color: #303D5F;
 }
 
 .box ul {

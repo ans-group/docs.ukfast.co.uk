@@ -2,7 +2,7 @@
 
 Follow these steps to get started with Capacity Threshold Monitoring.
 
-1. Head to [MyUKFast](https://portal.ans.co.uk)
+1. Head to [ANS Portal](https://portal.ans.co.uk)
 2. Go to `Dedicated Servers` under the `Products and Services` menu
 3. Click on the `IP` or `Name` of the server you wish to work on
 4. Click on the `CTM` tab.
