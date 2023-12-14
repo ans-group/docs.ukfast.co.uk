@@ -408,7 +408,7 @@
 				<div id="main-menu-container">
 
 					<ul id="breadcrumb">
-						<li><a href="/docs/">Home</a> &gt;</li>
+						<li><a href="{{ pathto(master_doc) }}">Home</a> &gt;</li>
 						{%- for parent in parents -%}
 						<li><a href="{{ parent.link|e }}">{{ parent.title }}</a> &gt;</li>
 						{%- endfor -%}
