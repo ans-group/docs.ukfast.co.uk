@@ -204,7 +204,7 @@ On Linux and macOS you can open and edit the `hosts` file in a terminal window u
 sudo nano /private/etc/hosts
 ```
 
-[This article](https://www.howtogeek.com/howto/27350/beginner-geek-how-to-edit-your-hosts-file/) contains more detailed instructions on modifying the `hosts` file on macOS, Linux, and different versions of Windows.
+[This article](https://www.howtogeek.com/27350/beginner-geek-how-to-edit-your-hosts-file/) contains more detailed instructions on modifying the `hosts` file on macOS, Linux, and different versions of Windows.
 
 Once you've added all the domains you need to test to your `hosts` file, save the changes. Then open a web browser and try browsing to your domain.  Your local `hosts` file will route the request directly to the DDoSX<sup>®</sup> CNAME address so you'll be able to see exactly how your site will perform when you change your DNS records.
 
