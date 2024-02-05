@@ -19,7 +19,6 @@ Before closing your UKFast account, there are a few things to consider.
   - [**Deleting eCloud Public v1 VMs**](https://docs.ukfast.co.uk/ecloud/public/delete-vm.html)
   - [**Deleting eCloud VPC instances**](https://docs.ukfast.co.uk/ecloud/ecloud-vpc/instances.html#delete-instances)
   - [**Deleting an eCloud VPC**](https://docs.ukfast.co.uk/ecloud/ecloud-vpc/vpc.html#deleting-your-vpc)
-  - [**Deleting a Shared Exchange domain**](https://portal.ans.co.uk/shared-exchange/index.php)
 * Do you have any outstanding bills? You can check this within the [**Billing**](https://docs.ukfast.co.uk/myukfast/billing.html) section of MyUKFast.
 * Have you backed up any existing data you may have on your servers?
   - [**How to backup your MySQL databases**](https://docs.ukfast.co.uk/operatingsystems/linux/mysql/backups.html)
