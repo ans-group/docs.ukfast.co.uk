@@ -70,6 +70,7 @@ UKFast Backup comes pre-configured with a default backup schedule which includes
   * `[A-Z]:/pagefile.sys`
   * `[A-Z]:/Windows/Temp`
   * `[A-Z]:/Windows/Installer`
+  * `[A-Z]:/Users/*/AppData/Local/Microsoft/Windows/INetCache`
 
 You can create additional rules within the [backup schedule](/dr-ha/ukfast_backup/backup_schedule).
 
