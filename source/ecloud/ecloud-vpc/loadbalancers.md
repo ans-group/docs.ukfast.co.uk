@@ -38,7 +38,7 @@ More information on how to configure a load balancer is available in our
 
 eCloud Load balancers are managed from two locations, the infrastructure itself is managed from the eCloud VPC section
 of the Portal, but the management of the load balancer itself, is done via the
-[Load balancer Management](/network/load-balancers/) screens.
+[Load balancer Management](/network/load-balancers/index.html) screens.
 
 
 ### Deleting a Load balancer
