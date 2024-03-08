@@ -37,7 +37,7 @@ A VPN Session has to map to a specific VPN Endpoint and the associated Service. 
 
 To create, select "Create Session", choose a name and then select the VPN Service and Endpoint you would like this Session to use.
 
-The Profile Group defines what encryption settings are applied, such as the Ciphers. It is critical that the profile used in eCloud VPC matches the configuration of the remote device or the tunnel will not establish. We have a range of generic profiles which are detailed [here](vpn.md#profile-groups).
+The Profile Group defines what encryption settings are applied, such as the Ciphers. It is critical that the profile used in eCloud VPC matches the configuration of the remote device or the tunnel will not establish. We have a range of generic profiles which are detailed [here](vpn/index#profile-groups).
 
 The Local IP (external) will automatically be selected, as it is defined in the Endpoint you will have already created.
 

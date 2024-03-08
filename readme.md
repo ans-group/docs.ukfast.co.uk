@@ -330,7 +330,7 @@ If you need to link headings (anchors) in other pages, you may need to use this 
 .. note::
    Please see our user guide on `connecting to your website via FTP`_ for further assistance.
 
-.. _connecting to your website via FTP: /docs/operatingsystems/windows/commonissues/copyfiletoserver/#connecting-to-your-ftp-server
+.. _connecting to your website via FTP: /docs/operatingsystems/windows/commonissues/copyfiletoserver/index#connecting-to-your-ftp-server
 ```
 
 You'll notice that `connecting to your website via FTP` is used as a reference to associate the two.

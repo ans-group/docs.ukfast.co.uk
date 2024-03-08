@@ -14,7 +14,7 @@ You should not use this to add new computers or servers to be backed up - instea
 
 FASTcloudbackup runs as a system service and so cannot pre-select or utilise shortcuts to folders such as Documents or Photos.  In order to find the folders you wish to backup you'll need to navigate through the full path - for example `C:\Users\[username]\Documents\[foldername]`
 
-To make it simpler to get to the folders you access regularly, set them up as [Favourite folders](managing_files_and_folders.html#favourite-folders).
+To make it simpler to get to the folders you access regularly, set them up as [Favourite folders](managing_files_and_folders/index#favourite-folders).
 
 ## The amount of data backed up is larger than the total of my files and folders
 
@@ -73,7 +73,7 @@ You can see the history and status of your backup jobs in the [FASTcloudbackup w
 Possible backup job states are:
 
 - Completed:  the backup job ran successfully.
-- Failed to Start:  this is most likely because the computer or server was not accessible during the scheduled backup window, potentially in line with the policy you configured when [creating a backup schedule](setting_up_backups.html#creating-a-backup-schedule) - for example specifying that backups should only run if the computer is plugged in to a power source rather than on battery mode.
+- Failed to Start:  this is most likely because the computer or server was not accessible during the scheduled backup window, potentially in line with the policy you configured when [creating a backup schedule](setting_up_backups/index#creating-a-backup-schedule) - for example specifying that backups should only run if the computer is plugged in to a power source rather than on battery mode.
 
 
 ## Showing Live Machine data and Network Share data

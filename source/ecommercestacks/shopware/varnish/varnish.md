@@ -108,7 +108,7 @@ You can restart the Varnish service with the following command:
 ```
 ### Shopware VCL
 
-Here's a link to download the [Shopware VCL](https://developers.shopware.com/sysadmins-guide/varnish-setup/#varnish-configuration-(vcl))
+Here's a link to download the [Shopware VCL](https://developers.shopware.com/sysadmins-guide/varnish-setup/index#varnish-configuration-(vcl))
 
 Copy the file VCL to `/etc/varnish/default.vcl`. You may want to back up the `default.vcl` file, like this:
 

@@ -139,7 +139,7 @@ sed -i 's/;opcache.load_comments=1/opcache.load_comments=0/g' /etc/php.d/*opcach
 sed -i 's/;opcache.enable_file_override=0/opcache.enable_file_override=1/g' /etc/php.d/*opcache.ini
 ```
 
-You can find more information on OPcache [here](/ecommercestacks/magento/magento1/opcache/opcache.html#stack-opcache-settings)
+You can find more information on OPcache [here](/ecommercestacks/magento/magento1/opcache/opcache/index#stack-opcache-settings)
 
 ### `/etc/php.ini` Settings
 

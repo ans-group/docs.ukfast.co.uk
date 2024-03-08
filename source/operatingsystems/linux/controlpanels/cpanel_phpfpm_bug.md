@@ -34,7 +34,7 @@ As of yet, no automatic fix has been pushed out by `cPanel`. However `UKFast` ha
 .. note::
    This section requires you to connect to your server over `SSH`. Please see our guide on `connecting to your server via SSH`_ for further assistance.
 
-.. _connecting to your server via SSH: /operatingsystems/linux/basics/connecting.html
+.. _connecting to your server via SSH: /operatingsystems/linux/basics/connecting
 ```
 
 To reinstate all domains that were previously using `PHP-FPM` along with any custom configuration, please see the following steps;
