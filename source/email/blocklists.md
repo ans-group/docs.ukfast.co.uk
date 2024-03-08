@@ -18,7 +18,7 @@ These providers maintain their own private lists, and you cannot check if you ar
 
 Microsoft mail servers are a little different to other providers. Their lists are not public so you cannot check if you are listed. You must always get an IP address (or range) permitted to send if you want the mail to end up in the correct mailbox. If you have problems with your mail ending up in spam, or not appearing at all, this is likely the reason.
 
-If you have this issue, read our guide in the [basics of mail](/email/mailconfig/index#sending-mail-to-microsoft-hotmail-office365) section, which should help you address this.
+If you have this issue, read our guide in the [basics of mail](/docs/email/mailconfig/#sending-mail-to-microsoft-hotmail-office365) section, which should help you address this.
 
 ### Google / Gmail
 

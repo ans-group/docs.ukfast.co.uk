@@ -30,7 +30,7 @@ The load balancer will wait so long before a request times out. In this section,
 * **Server Timeout** - The maximum time a target server has to return response headers.
 * **Connection Timeout** - The maximum time a target server has to accept a connection.
 
-More advanced timeout options are available  in [Advanced Options](target-groups/index#advanced-options)
+More advanced timeout options are available  in [Advanced Options](/docs/network/load-balancers/components/target-groups/#advanced-options)
 
 ## Monitoring
 

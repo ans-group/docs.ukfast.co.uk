@@ -4,15 +4,15 @@ Here are some of the most frequently asked questions we get about our load balan
 
 ## How do I replace an expired certificate?
 
-This is covered in our [common changes](common-changes/index#replacing-an-expired-ssl-certificate) page.
+This is covered in our [common changes](/docs/network/load-balancers/common-changes/#replacing-an-expired-ssl-certificate) page.
 
 ## How do I drain traffic from a particular target server?
 
-This is covered in our [common changes](common-changes/index#drain-traffic-from-a-particular-target-server) page.
+This is covered in our [common changes](/docs/network/load-balancers/common-changes/#drain-traffic-from-a-particular-target-server) page.
 
 ## How can I temporarily take a server out of load to run updates / maintenance?
 
-This is covered in our [common changes](common-changes/index#temporarily-remove-a-target-server-from-behind-the-load-balancer) page.
+This is covered in our [common changes](/docs/network/load-balancers/common-changes/#temporarily-remove-a-target-server-from-behind-the-load-balancer) page.
 
 ## Why is all my traffic now coming from one IP?
 

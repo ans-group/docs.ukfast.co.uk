@@ -1,6 +1,6 @@
 # Accessing eCloud Flex Linux Instances Using SSH
 
-When creating Linux servers on the eCloud Flex platform, you will need to provide an SSH key in order to access the instance successfully. This page will take you through the steps to generate an SSH key pair in PuTTY, but you can also [generate an SSH key from the Linux command line](/operatingsystems/linux/ssh/keys/index#generating-keys), and then import this key into your eCloud Flex Dashboard.
+When creating Linux servers on the eCloud Flex platform, you will need to provide an SSH key in order to access the instance successfully. This page will take you through the steps to generate an SSH key pair in PuTTY, but you can also [generate an SSH key from the Linux command line](/docs/operatingsystems/linux/ssh/keys/#generating-keys), and then import this key into your eCloud Flex Dashboard.
 
 For Windows instances, please follow the steps to [retrieve your password](/ecloud/flex/general/passwordretrieval) instead.
 
@@ -30,7 +30,7 @@ If the key has been successfully imported, this will be visible in the Key Pairs
 
 ![key-pair-import-success](../files/key-pair-import-success.PNG)
 
-With the key pair now successfully imported, you will be able to select this when launching future instances within eCloud Flex. During the launch process, click the "+" sign next to the appropriate key pair and you will be able to [connect with your new SSH key pair](/operatingsystems/linux/basics/connecting/index#connecting-using-private-key) as soon as the instance is available.
+With the key pair now successfully imported, you will be able to select this when launching future instances within eCloud Flex. During the launch process, click the "+" sign next to the appropriate key pair and you will be able to [connect with your new SSH key pair](/docs/operatingsystems/linux/basics/connecting/#connecting-using-private-key) as soon as the instance is available.
 
 ![instance-select-key-pair](../files/instance-select-key-pair.PNG)
 
