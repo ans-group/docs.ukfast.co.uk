@@ -22,7 +22,7 @@ You can read further information from the Microsoft Exchange Team's 3-part blog 
 
 There are some things to be aware of when it comes to RDS Farms.
 
-The Remote Desktop Protocol (RDP) on Windows Servers 2012 R2 and newer fully supports TLS 1.2 encryption. If using an older operating system, such as Server 2008 R2, then you may need to apply Windows patches to [enable RDP to use TLS 1.1 and TLS 1.2](/operatingsystems/windows/tlsandschannel/webserverrecommendations.html#windows-server-2008-r2-2012).
+The Remote Desktop Protocol (RDP) on Windows Servers 2012 R2 and newer fully supports TLS 1.2 encryption. If using an older operating system, such as Server 2008 R2, then you may need to apply Windows patches to [enable RDP to use TLS 1.1 and TLS 1.2](/docs/operatingsystems/windows/tlsandschannel/webserverrecommendations/#windows-server-2008-r2-2012).
 
 
 ### RDS Connection Broker TLS Compatibility

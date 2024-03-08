@@ -24,7 +24,7 @@ or for `NGINX`
 apt install python-certbot-nginx
 ```
 
-There after you can use the same methods to install a certificate as previously mentioned for [Apache](/domains/ssl/letsencrypt/letsencrypt_centos_apache.html#installation) and [NGINX](/domains/ssl/letsencrypt/letsencrypt_centos_nginx.html#installation)
+There after you can use the same methods to install a certificate as previously mentioned for [Apache](/docs/domains/ssl/letsencrypt/letsencrypt_centos_apache#installation) and [NGINX](/docs/domains/ssl/letsencrypt/letsencrypt_centos_nginx#installation)
 
 
 ```eval_rst

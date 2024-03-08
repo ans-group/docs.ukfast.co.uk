@@ -32,7 +32,7 @@ For the final section, "Mail Routing Settings", choose the automatic configurati
 
 ![Mail Exchange](files/account_creation_mail.jpg)
 
-You've now added an account to WHM. You can now login, [using the guide here!](/operatingsystems/linux/controlpanels/cpanel_connect.html#connecting-to-cpanel)
+You've now added an account to WHM. You can now login, [using the guide here!](/docs/operatingsystems/linux/controlpanels/cpanel_connect/#connecting-to-cpanel)
 
 ```eval_rst
   .. title:: cPanel | How to Add a New Account in WHM
