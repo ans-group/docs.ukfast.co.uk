@@ -6,6 +6,7 @@ SSL Certificates
    :maxdepth: 1
 
    Purchasing and Renewing <buying>
+   Generating A CSR (Certificate Sigining Request) <generating_csrs>
    Validating your Certificate <validating_your_ssl>
    UKFast SSL Types <types>
    Self Signed Certificates <self_signed_certificates>
