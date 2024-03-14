@@ -12,4 +12,5 @@ SSL Certificates
    Self Signed Certificates <self_signed_certificates>
    Using Server Name Indication (SNI) <sni>
    Extended Validation Certificates <extended_validation_ssl>
+   Generating a PFX file <generating_pfx_files>
    letsencrypt/index
