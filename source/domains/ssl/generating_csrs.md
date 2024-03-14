@@ -12,7 +12,7 @@ This guide will help you generate a Certificate Signing Request (CSR) on differe
 
 On SSL certificates that protect a single hostname/domain, your primary hostname is the hostname/domain you have chosen.
 
-For multidoman SSL certificates, the primary hostname is the first hostname that
+For multi-domain SSL certificates, the primary hostname is the first hostname that
 is listed on your SSL certificate inside [ANS Glass](https://portal.ans.co.uk/ssl/index.php).
 
 You should also ensure to make sure your key and CSR are in a safe folder, as you'll need the the key
