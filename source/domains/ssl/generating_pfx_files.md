@@ -39,7 +39,7 @@ Open a terminal and run the following command:
 openssl pkcs12 -export -out certificate.pfx -inkey privateKey.key -in certificate.crt -certfile intermediate.crt  -certfile root.crt
 ```
 
-You’ll be prompted to set an export password to protect the PFX file. Remember this password; you’ll need it later.
+You'll be prompted to set an export password to protect the PFX file. Remember this password; you'll need it later.
 
 ## Generate a CSR on Windows
 
@@ -58,4 +58,4 @@ Open a terminal and run the following command:
 openssl pkcs12 -export -out certificate.pfx -inkey privateKey.key -in certificate.crt -certfile intermediate.crt -certfile root.crt
 ```
 
-You’ll be prompted to set an export password. Remember this password for future use.
+You'll be prompted to set an export password. Remember this password for future use.
