@@ -54,5 +54,5 @@ openssl req -new -newkey rsa:2048 -nodes -keyout /path/to/yourhostname.key -out 
 1. Double-click the `Server Certificates` icon.
 1. Click the `Create Certificate Request` link in the Actions pane.
 1. Fill out the `Distinguished Name Properties` form with the required information (`Common Name` (primary hostname), `Organization`, `City/locality`, `State/province`, `Country/region`).
-1. Set the `Cryptographic Service Provider Properties` (Microsoft RSA SChannel Cryptographic Provider and a bit length of 2048).
+1. Set the `Cryptographic Service Provider Properties` (Microsoft RSA Schannel Cryptographic Provider and a bit length of 2048).
 1. Create a file name for your CSR and click the Finish button.
