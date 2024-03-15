@@ -94,6 +94,7 @@ cryptographic
 cryptographically
 CryptoLocker
 CSF
+CSR
 CSV
 CTM
 CTO
@@ -368,12 +369,14 @@ Perl
 personalisation
 PetalBot
 PFS
+PFX
 pfSense
 PhaaS
 PHaaS
 PHP
 PHPMyAdmin
 PID
+PKCS
 plc
 Plesk
 Polkit
