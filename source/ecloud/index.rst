@@ -10,8 +10,8 @@ through to Private and Sovereign Cloud solutions.
 
    ecloud-vpc/index
    private/index
+   public/index
    vault/index
-   console
 
 .. title:: Public and Private Cloud Services | ANS Documentation
 
