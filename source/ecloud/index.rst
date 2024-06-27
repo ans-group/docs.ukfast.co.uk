@@ -8,7 +8,7 @@ through to Private and Sovereign Cloud solutions.
 .. toctree::
    :maxdepth: 1
 
-   ecloud-vpc/index
+   vpc/index
    private/index
    public/index
    vault/index
