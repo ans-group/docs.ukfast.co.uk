@@ -74,7 +74,7 @@ For the purposes of this example, we will assume that you have two nodes called 
 You should only need to run these commands on one of your Pacemaker nodes and it will set up STONITH on all of them, however in some circumstances this may not be enough - please speak with ANS support if you are unsure.
 
 ```shell
-export $ECLOUD_API_KEY="<YOUR API KEY HERE>"
+export ECLOUD_API_KEY="<YOUR API KEY HERE>"
 pcs stonith create ecloud_stonith fence_ecloud \
     apikey="$ECLOUD_API_KEY" \
     pcmk_host_check=static-list \
