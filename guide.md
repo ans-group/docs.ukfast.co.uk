@@ -11,9 +11,7 @@ Please use the following terms correctly and consistently:
 | MyUKFast          | MyUKFast portal, MyUKFast client area, the client portal            | Include an embedded link to <https://portal.ans.co.uk> at least once on page  |
 | server            | device, machine                                                     |                                                                              |
 | virtual machine   | virtual server                                                      | If abbreviating to "VM" then put "virtual machine (VM)" first time on page   |
-| eCloud            | <nospell>ecloud, Ecloud</nospell>                                   |                                                                              |
-| FastDesk          | <nospell>Fastdesk, DaaS, Daas</nospell>                             |                                                                              |
-| FastDrive         | <nospell>Fastdrive</nospell>                                        |                                                                              |
+| eCloud            | <nospell>ecloud, Ecloud</nospell>                                   |                                                                              |                          |
 | FASTcloudbackup   | <nospell>Fastcloudbackup, Fast cloudbackup</nospell>                |                                                                              |
 | Webcelerator      | <nospell>Web celerator, Web acceleration, Web Accelerator</nospell> | Abbreviation to "Webcel" is OK                                               |
 
@@ -24,7 +22,6 @@ The top-level categories are as set out below.  Please do not create a new top-l
 | Category                        | Content included                               |
 | ------------------------------- | --------------------------------------------------------- |
 | Cloud                           | UKFast's cloud products, cloud guidance                                                           |
-| Desktop and office solutions    | UKFast's products such as FastDesk, FastDrive                                                     |
 | Security                        | UKFast security products, general security guidance                                               |
 | Domains and DNS Management      | UKFast products for managing domains and DNS, plus general guidance                               |
 | Backups and Disaster Recovery   | UKFast products for backup and DR, plus general guidance                                          |

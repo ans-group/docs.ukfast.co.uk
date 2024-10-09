@@ -111,7 +111,7 @@ Please ensure pages and folders are easy to read and sensibly structured.
 
 Please keep the page URLs lowercase and use hyphens instead of spaces, e.g.
 
-* `/docs/desktop/fastdesk/getting-started/windows/`
+* `/docs/ecloud/example-page/`
 
 ### Navigation, Page Heading and Meta
 
