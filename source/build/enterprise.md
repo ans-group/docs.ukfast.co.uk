@@ -78,12 +78,6 @@ Below are the different facets that make up a UKFast Enterprise solution, click 
           <li><a href="appliances.html">Load Balancers, Web Application Firewalls & Webcelerators</a></li>
       </ul>
   </div>
-  <div class='docs-flex-item'>
-      <h2>Other</h2>
-      <ul>
-          <li><a href="fastdrive.html">FastDrive</a></li>
-      </ul>
-  </div>
 </div>
 
 ```eval_rst

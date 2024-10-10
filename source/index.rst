@@ -10,7 +10,6 @@ Contents:
 .. toctree::
 
    ecloud/index
-   desktop/index
    domains/index
    dr-ha/index
    ecommercestacks/index
