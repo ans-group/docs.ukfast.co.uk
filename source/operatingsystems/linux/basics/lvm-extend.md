@@ -131,7 +131,7 @@ We've identified that one of the disks has been resized - `sdb` in this case.
 
 ## Expand the partition if necessary
 
-If the LVM PV refers to a partition on a disk (e.g. /dev/sdb3) rather than a complete disk (/dev/sdb), you'll first need to expand the partition to use the new space.   Use the 'growpart'  command to do this:
+If the LVM PV refers to a partition on a disk (e.g. /dev/sdb3) rather than a complete disk (/dev/sdb), you'll first need to expand the partition to use the new space.   Use the :code:```growpart```  command to do this:
 
 ```growpart <disk> <partition number>```
 
