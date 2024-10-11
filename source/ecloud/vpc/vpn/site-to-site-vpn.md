@@ -1,6 +1,7 @@
-# VPNs
+# Site to Site VPNs
 
-In eCloud VPC you have the ability to set up Site-to-Site IPsec VPNs (Virtual Private Networks). These can be used to enable connectivity from external networking devices or between different eCloud VPC Routers.
+In eCloud VPC you have the ability to set up Site-to-Site IPsec VPNs (Virtual Private Networks). 
+These can be used to enable connectivity from external networking devices or between different eCloud VPC Routers.
 
 VPNs can be set up between eCloud VPC Routers which are in the same or different AZ/Region.
 
@@ -9,7 +10,7 @@ VPNs can be set up between eCloud VPC Routers which are in the same or different
 
 Select the region you want to create the VPN in using the dropdown on the left hand menu and navigate to the VPNs section also on the left hand menu.
 
-![VPN View](files/vpn-vpnview.png)
+![VPN View](../files/vpn-vpnview.png)
 
 VPNs in eCloud VPC consist of three different parts, a VPN Service, Endpoint and Session. These are explained in more detail in the below sections.
 
@@ -19,7 +20,7 @@ A VPN Service has a one-to-one mapping with a Router in eCloud VPC. This means i
 
 To create, select "Create Service", choose a name, select the relevant VPN and Router, then select "Create Service".
 
-![VPN Service](files/vpn-vpnservice.png)
+![VPN Service](../files/vpn-vpnservice.png)
 
 ### Endpoints
 
@@ -29,7 +30,7 @@ A VPN Endpoint is also where the FIP (external IP) is assigned.
 
 To create, select "Create Endpoint", choose a name and select the VPN Service you would like this Endpoint to be mapped to. You then have the option to choose either an existing Floating IP (external IP) or request a new one. Finally, select "Create Endpoint" to create the VPN Endpoint (this could take a few minutes to complete).
 
-![VPN Endpoint](files/vpn-vpnendpoint.png)
+![VPN Endpoint](../files/vpn-vpnendpoint.png)
 
 ### Sessions
 
@@ -49,7 +50,7 @@ The "Remote Networks" are the internal IPs and/or Subnets from the remote site, 
 
 A "Pre-Shared Key (PSK)" needs to be defined, which will need to match the PSK on the remote device.
 
-![VPN Session](files/vpn-session.png)
+![VPN Session](../files/vpn-session.png)
 
 
 #### Profile Groups
@@ -105,9 +106,9 @@ There have been a range of VPN Profiles created, which have various levels of en
 ```
 
 ```eval_rst
-   .. title:: eCloud VPC VPNs
+   .. title:: eCloud VPC Site-to-Site VPNs
    .. meta::
-      :title: eCloud VPC VPNs | ANS Documentation
-      :description: Site-to-Site IPsec VPNs in eCloud VPC
-      :keywords: ecloud, ecloud VPC, ANS Portal, ANS Portal, VPC, Virtual Private Cloud, VPN, IPsec, IKE, FIP, Netgate, pfSense
+      :title: eCloud VPC Site-to-Site VPNs | ANS Documentation
+      :description: Site-to-Site VPNs in eCloud VPC
+      :keywords: eCloud, eCloud VPC, ANS GLASS, VPC, Virtual Private Cloud, VPN, Site-to-Site, IPsec, IKE
 ```

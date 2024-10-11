@@ -1,4 +1,4 @@
-# VPC
+# VPCs
 An eCloud Virtual Private Cloud (VPC) is a logical collection of resources defined by its networking.
 
 ### How a VPC works
