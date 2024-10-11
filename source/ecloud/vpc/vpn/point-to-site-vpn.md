@@ -33,7 +33,7 @@ progress via the resource sync state, once complete you will be available to con
 
 ### Managing your VPN Gateway
 
-You can manage your VPN Gateway from the VPN Gateway section of the GLASS portal, via the api, terraform, or cli tools.
+You can manage your VPN Gateway from the VPN Gateway section of the GLASS portal, via the API, Terraform, or CLI tools.
 
 You can view the status of your Gateway, the access hostname for new connections and view the number of user licenses in use.
 
@@ -49,8 +49,8 @@ Select the `Users` tab and then `Create User` to create a new user, or select a 
 
 To connect to your VPN Gateway, you will need to install the Cisco AnyConnect client on your computer, or use a compatible alternative.
 
-If you do not have a vpn client installed, you can download the AnyConnect Client from your VPN Gateway by accessing
-the Gateway in your browser using the hostname provided in the GLASS portal and logging in with your vpn username and password.
+If you do not have a VPN client installed, you can download the AnyConnect Client from your VPN Gateway by accessing
+the Gateway in your browser using the hostname provided in the GLASS portal and logging in with your VPN username and password.
 
 ![VPN Gateway Portal](files/vpn-p2s-connect-1.png)
 
