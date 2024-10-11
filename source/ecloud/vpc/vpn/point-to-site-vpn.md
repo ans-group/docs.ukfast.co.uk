@@ -1,6 +1,6 @@
 # Point to Site VPNs
 
-In eCloud VPC you have the ability to set up Point-to-Site VPNs (Virtual Private Networks), often known as 
+In eCloud VPC you have the ability to set up Point-to-Site VPNs (Virtual Private Networks), often known as
 Remote-Access or Client-Access VPNs, allowing remote workers to connect to your eCloud VPC networks securely from their location.
 
 
@@ -25,7 +25,7 @@ You will be asked to select the VPC Router you wish to deploy the Gateway behind
 
 ![Create VPN Gateway form](files/vpn-p2s-deploy-1.png)
 
-Your Gateway will then be deployed, this may take a few moments while we configure the networking, you can track 
+Your Gateway will then be deployed, this may take a few moments while we configure the networking, you can track
 progress via the resource sync state, once complete you will be available to configure your users.
 
 ![Create VPN Gateway confirmation](files/vpn-p2s-deploy-2.png)
@@ -54,7 +54,7 @@ the Gateway in your browser using the hostname provided in the GLASS portal and 
 
 ![VPN Gateway Portal](files/vpn-p2s-connect-1.png)
 
-The VPN Gateway provides users with the installation package and setup instructions for Windows, Mac and Linux devices. 
+The VPN Gateway provides users with the installation package and setup instructions for Windows, Mac and Linux devices.
 
 ![AnyConnect Client download](files/vpn-p2s-connect-2.png)
 

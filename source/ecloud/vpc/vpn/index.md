@@ -10,7 +10,7 @@ Learn how to [set up a Site-to-Site VPN](/docs/ecloud/vpc/vpn/site-to-site-vpn/)
 
 
 ## Point-to-Site VPNs
-Point-to-Site VPNs are used to connect individual devices to a private network from a remote location. 
+Point-to-Site VPNs are used to connect individual devices to a private network from a remote location.
 This allows remote workers who need to access resources on your eCloud VPC networks to connect securely.
 
 Learn how to [set up a Point-to-Site VPN](/docs/ecloud/vpc/vpn/point-to-site-vpn/).
