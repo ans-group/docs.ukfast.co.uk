@@ -1,6 +1,7 @@
-# VPNs
+# Site to Site VPNs
 
-In eCloud VPC you have the ability to set up Site-to-Site IPsec VPNs (Virtual Private Networks). These can be used to enable connectivity from external networking devices or between different eCloud VPC Routers.
+In eCloud VPC you have the ability to set up Site-to-Site IPsec VPNs (Virtual Private Networks).
+These can be used to enable connectivity from external networking devices or between different eCloud VPC Routers.
 
 VPNs can be set up between eCloud VPC Routers which are in the same or different AZ/Region.
 
@@ -105,9 +106,9 @@ There have been a range of VPN Profiles created, which have various levels of en
 ```
 
 ```eval_rst
-   .. title:: eCloud VPC VPNs
+   .. title:: eCloud VPC Site-to-Site VPNs
    .. meta::
-      :title: eCloud VPC VPNs | ANS Documentation
-      :description: Site-to-Site IPsec VPNs in eCloud VPC
-      :keywords: ecloud, ecloud VPC, ANS Portal, ANS Portal, VPC, Virtual Private Cloud, VPN, IPsec, IKE, FIP, Netgate, pfSense
+      :title: eCloud VPC Site-to-Site VPNs | ANS Documentation
+      :description: Site-to-Site VPNs in eCloud VPC
+      :keywords: eCloud, eCloud VPC, ANS GLASS, VPC, Virtual Private Cloud, VPN, Site-to-Site, IPsec, IKE
 ```
