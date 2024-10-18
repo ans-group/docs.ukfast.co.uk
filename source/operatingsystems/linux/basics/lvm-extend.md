@@ -127,7 +127,21 @@ I added 5G to the VM, and this disk is ~5G in size, so we've identified where it
 
 # Resized disk method
 
-We've identified that one of the disks has been resized - `sdb` in this case.
+We've identified that one of the disks has been resized - ```sdb``` in this case.
+
+## Expand the partition if necessary
+
+If the LVM PV refers to a partition on a disk (e.g. ```/dev/sdb3```) rather than a complete disk (```/dev/sdb```), you'll first need to expand the partition to use the new space.   Use the ```growpart```  command to do this:
+
+```growpart <disk> <partition number>```
+
+for example
+
+```growpart /dev/sdb 3```
+
+Note that it is intentional that there is a space between the ```/dev/sdb```  and ```3```.  It's also important to note that this will only work if the partition number is the highest numbered on on the disk.  For example, if you had ```/dev/sdb1```, ```/dev/sdb2```, ```/dev/sdb3```, ```/dev/sdb4```, and your PV was ```/dev/sdb3```,  you couldn't expand ```/dev/sdb3```  because ```/dev/sdb4``` would be in the way.   Contact support for advice if you find yourself in this situation.
+
+The ```growpart``` command isn't always installed by default on a server, you may need to install it first using ```yum``` / ```apt```  / ```dnf``` as appropriate.
 
 ## Resize the physical volume to use the new space
 
