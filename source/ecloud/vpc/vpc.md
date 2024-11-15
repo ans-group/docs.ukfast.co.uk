@@ -1,10 +1,12 @@
 # VPCs
 An eCloud Virtual Private Cloud (VPC) is a logical collection of resources defined by its networking.
 
+
 ### How a VPC works
 A VPC is much like a traditional data centre where you can (virtually) create your networking (routers and networks) and then create resources attached to those networks to consume. On creation we add a DHCP server to the VPC and some other minor administrative jobs to get going, there is no charge for a VPC by itself.
 
 You can filter by VPC by selecting the VPC from the left hand menu (set to 'Show All' by default.)
+
 
 ### How to create a VPC
 
@@ -29,13 +31,24 @@ The VPC is then available for you to start adding resources to.
 
 ![VPC Listview with card](files/vpc-listview-card-example.png)
 
+
 ### Deleting your VPC
+VPCs with no billable resources can be left deployed to save time with future deployments, there is no charge for a VPC by itself.
 
-To delete your VPC you must ensure that there are no resources that are linked to your VPC, this includes:
+If you no longer require your VPC, you must first ensure that all resources within the VPC have been deleted, you can then delete the VPC from the VPC list view or by selecting the VPC and then clicking the Delete VPC button.
 
-Instances, dedicated hosts, Networks, Routers & Floating IP addresses.
 
-Note, currently networks can take up to several minutes to delete – please ensure they no longer show before deleting the router and then the VPC
+If you receive an error regarding active dependant resources, this means a billable service is still online and requires manual deletion in order to cancel that service.
+
+You can use the Cost Management Summary to check for any active resources in your VPC, common resources that require manual deletion include:
+* Instances
+* Networks/Routers
+* Floating IP addresses
+* Load Balancers
+* VPN/Backup Gateways
+
+Once all dependant resources have been removed, you can trigger the vpc removal process and the VPC will be removed from your account.
+
 
 ```eval_rst
    .. title:: Virtual Private Cloud (VPC)
