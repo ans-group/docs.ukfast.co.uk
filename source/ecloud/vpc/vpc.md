@@ -47,7 +47,7 @@ You can use the Cost Management Summary to check for any active resources in you
 * Load Balancers
 * VPN/Backup Gateways
 
-Once all dependant resources have been removed, you can trigger the vpc removal process and the VPC will be removed from your account.
+Once all dependant resources have been removed, you can trigger the VPC removal process and the VPC will be removed from your account.
 
 
 ```eval_rst
