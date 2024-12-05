@@ -18,10 +18,10 @@ This allows remote workers who need to access resources on your eCloud VPC netwo
   :title: eCloud VPC VPNs | ANS Documentation
   :description: VPNs in eCloud VPC
   :keywords: eCloud, eCloud VPC, ANS GLASS, VPC, Virtual Private Cloud, VPN
-  
+
 .. toctree::
    :maxdepth: 1
-   
+
    Learn how to set up a Site-to-Site VPN <site-to-site-vpn>
    Learn how to set up a Point-to-Site VPN <point-to-site-vpn>
 ```
