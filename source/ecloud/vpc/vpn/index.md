@@ -13,11 +13,11 @@ This allows remote workers who need to access resources on your eCloud VPC netwo
 ## VPN Setup
 
 ```eval_rst
-    .. title:: eCloud VPC VPNs
-    .. meta::
-       :title: eCloud VPC VPNs | ANS Documentation
-       :description: VPNs in eCloud VPC
-       :keywords: eCloud, eCloud VPC, ANS GLASS, VPC, Virtual Private Cloud, VPN
+   .. title:: eCloud VPC VPNs
+   .. meta::
+      :title: eCloud VPC VPNs | ANS Documentation
+      :description: VPNs in eCloud VPC
+      :keywords: eCloud, eCloud VPC, ANS GLASS, VPC, Virtual Private Cloud, VPN
 ```
 
 ```eval_rst
