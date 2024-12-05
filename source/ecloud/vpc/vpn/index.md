@@ -15,9 +15,9 @@ This allows remote workers who need to access resources on your eCloud VPC netwo
 ```eval_rst
 .. title:: eCloud VPC VPNs
 .. meta::
-  :title: eCloud VPC VPNs | ANS Documentation
-  :description: VPNs in eCloud VPC
-  :keywords: eCloud, eCloud VPC, ANS GLASS, VPC, Virtual Private Cloud, VPN
+   :title: eCloud VPC VPNs | ANS Documentation
+   :description: VPNs in eCloud VPC
+   :keywords: eCloud, eCloud VPC, ANS GLASS, VPC, Virtual Private Cloud, VPN
 
 .. toctree::
    :maxdepth: 1
