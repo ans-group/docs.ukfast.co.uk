@@ -1,5 +1,6 @@
 3PAR
 AAAA
+aarch
 AbuseIPDB
 accreditations
 ACL
@@ -204,6 +205,7 @@ Gmail
 GoDaddy
 GoogleBot
 GPOs
+Graviton
 greylists
 gTLD
 gTLDs
@@ -350,6 +352,7 @@ OpenSRS
 OpenSSH
 OpenSSL
 OpenStack
+OpenSUSE
 OpenVPN
 orchestrator
 osCommerce
@@ -427,6 +430,7 @@ resending
 resolvers
 reStructuredText
 RFI
+RHCK
 RHEL
 rollout
 routable
@@ -533,6 +537,7 @@ UC
 UCS
 UDL
 UDP
+UEK
 uk
 UKFast
 UKFast's
