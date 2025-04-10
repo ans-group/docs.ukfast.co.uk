@@ -63,6 +63,10 @@ apt update
 apt install fence-ecloud
 ```
 
+### Ubuntu 24.04 and later
+
+In Ubuntu 24.04 and later versions, the eCloud Fence Agent is available in the base repositories as `fence-agents-ecloud`. You do not need to install the ANS repository for this package.
+
 ### Configuring Pacemaker
 
 With the fence agent installed, you can configure Pacemaker to use the eCloud fence agent. These instructions should work for all distributions.
