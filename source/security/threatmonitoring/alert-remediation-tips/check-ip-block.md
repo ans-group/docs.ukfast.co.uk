@@ -4,13 +4,26 @@ Threat Monitoring can detect incoming attacks in real-time and proactively block
 
 ### Linux
 
-If you need to check if an attacking Ip has been blocked, or of an IP address has been blocked unintentionally, you can use the below command on a Linux system to use check this with one of our scripts
+To check whether an IP address has been blocked (either intentionally due to attacks or unintentionally), use our verification script. Run the following command, replacing $IP_ADDRESS with the actual IP address you want to check.
 
-`wget https://git.thmon.ukfast.co.uk/threatmon-public/threat-monitoring-scripts/raw/master/check-block-status.sh && bash check-block-status.sh {IP TO CHECK}`
+```
+curl -sSf https://repo.thmon.ukfast.co.uk/check-block-status.sh | sudo bash -s -- $IP_ADDRESS
+```
 
-If you'd like to automatically remove the IP from the block list, specify `--remove-found` when using the script, like below:
+If you would like to automatically remove the IP from the block list, specify `--remove-found` when using the script, like below:
 
-`wget https://git.thmon.ukfast.co.uk/threatmon-public/threat-monitoring-scripts/raw/master/check-block-status.sh && bash check-block-status.sh {IP TO CHECK} --remove-found`
+```
+curl -sSf https://repo.thmon.ukfast.co.uk/check-block-status.sh | sudo bash -s -- $IP_ADDRESS --remove-found
+```
+
+For additional security, you may wish to download and inspect the script before execution:
+
+```
+curl -sSfO https://repo.thmon.ukfast.co.uk/check-block-status.sh
+nano check-block-status.sh
+chmod +x check-block-status.sh
+./check-block-status.sh $IP_ADDRESS --remove-found
+```
 
 ### Windows
 
