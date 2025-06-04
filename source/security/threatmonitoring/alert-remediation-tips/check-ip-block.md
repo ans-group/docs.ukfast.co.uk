@@ -40,7 +40,9 @@ Look for any rules with the name "WAZUH ACTIVE RESPONSE BLOCKED IP", check the '
 If you'd like to remove an IP from the blocklist, you can right-click the rule that is enforcing the block, and click delete, confirming by pressing Yes.
 
 ```eval_rst
+.. title:: Threat Monitoring | Check if an IP is blocked | ANS Documentation
 .. meta::
      :title: Check if an IP is blocked | ANS Documentation
      :description: Useful threat remediation and prevention tips
      :keywords: threat monitoring, alerts, security, compliance, rules, rulesets, ukfast, hosting, file integrity monitoring, rootkit, detection, vulnerability scan, scans, hids, intrusion detection, set up
+```
