@@ -1,6 +1,6 @@
 # Checking if an IP has been blocked
 
-Threat Monitoring can detect incoming attacks in real-time and proactively block them, minimising the risk of compromise. This is achieved through the use of iptables and hosts.deny on Linux, and Windows firewall on Windows systems
+Threat Monitoring can detect incoming attacks in real-time and proactively block them, minimising the risk of compromise. This is achieved through the use of IPTables and hosts.deny on Linux, and Windows firewall on Windows systems
 
 ### Linux
 
@@ -27,7 +27,7 @@ chmod +x check-block-status.sh
 
 ### Windows
 
-To check if an Ip has been blocked in windows, follow the below steps.
+To check if an IP has been blocked in windows, follow the below steps.
 
 Open up the windows firewall configuration utility. This can be found by searching for "Windows Firewall with Advanced Security"
 
