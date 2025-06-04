@@ -6,19 +6,19 @@ Threat Monitoring can detect incoming attacks in real-time and proactively block
 
 To check whether an IP address has been blocked (either intentionally due to attacks or unintentionally), use our verification script. Run the following command, replacing $IP_ADDRESS with the actual IP address you want to check.
 
-```
+```shell
 curl -sSf https://repo.thmon.ukfast.co.uk/check-block-status.sh | sudo bash -s -- $IP_ADDRESS
 ```
 
 If you would like to automatically remove the IP from the block list, specify `--remove-found` when using the script, like below:
 
-```
+```shell
 curl -sSf https://repo.thmon.ukfast.co.uk/check-block-status.sh | sudo bash -s -- $IP_ADDRESS --remove-found
 ```
 
 For additional security, you may wish to download and inspect the script before execution:
 
-```
+```shell
 curl -sSfO https://repo.thmon.ukfast.co.uk/check-block-status.sh
 nano check-block-status.sh
 chmod +x check-block-status.sh
