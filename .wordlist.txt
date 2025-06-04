@@ -592,6 +592,8 @@ vSphere
 VSS
 WAF
 WAFs
+WAZUH
+Wazuh
 Wana
 WannaCry
 WBEM
