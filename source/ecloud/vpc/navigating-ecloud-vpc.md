@@ -3,9 +3,9 @@
 ## Regions
 An eCloud VPC region is an isolated and geographically separated area from other eCloud VPC regions.
 
-Currently there are three; each of them currently have one availability zone available to create resources in. The regions are Amsterdam, London & Manchester. When you land on the eCloud VPC page for the first time, the default region will be Manchester.
+Currently there are two; each of them currently has two availability zones available to create resources in. The regions are London & Manchester. When you land on the eCloud VPC page for the first time, the default region will be Manchester.
 
-Regions are selectable from the top of the left hand menu, the default is 'Manchester'
+Regions are selectable from the top of the left hand menu, the default is 'Manchester'.
 
 ## Availability Zones
 Coming Q3 2021, availability zones will allow resources to be distributed into the same geographical area but with segregation of some networking and power.
