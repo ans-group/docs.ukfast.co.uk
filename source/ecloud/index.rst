@@ -11,7 +11,6 @@ through to Private and Sovereign Cloud solutions.
    vpc/index
    private/index
    public/index
-   vault/index
 
 .. title:: Public and Private Cloud Services | ANS Documentation
 
