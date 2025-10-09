@@ -7,7 +7,6 @@ Various techniques for backing up different operating systems and programs.
 .. toctree::
    :maxdepth: 1
 
-   duplyvault
    linuxdbservers
    mssql_backups
 
