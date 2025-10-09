@@ -21,7 +21,7 @@ jobs:
         run: |
           EXTENSIONS="md"
           PATH_PREFIX="source"
-          for FILE in ${{ steps.changed_files.outputs.all }}; do
+          for FILE in ${{ steps.changed_files.outputs.added_modified }}; do
             if [[ $FILE = $PATH_PREFIX* ]]; then
               for EXT in $EXTENSIONS; do
                 if [[ ${FILE##*.} == $EXT ]]; then
