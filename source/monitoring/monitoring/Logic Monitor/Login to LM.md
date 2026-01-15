@@ -4,7 +4,7 @@
 
 
 
-##1\. Log in to Glass
+## Log in to Glass
 
 Start by heading to the Glass login page:
 
@@ -14,7 +14,7 @@ Start by heading to the Glass login page:
 
 
 
-## 2\. Click the “Monitoring Portal” Link
+## Click the “Monitoring Portal” Link
 
 Once you’re logged in, scroll to the bottom of the main Glass page.
 
@@ -28,7 +28,7 @@ This is your shortcut to LogicMonitor.
 
 
 
-## 3\. You’ll Be Logged In Automatically
+## You’ll Be Logged In Automatically
 
 After clicking the Monitoring Portal link, you’ll be taken straight into LogicMonitor.
 
@@ -40,7 +40,7 @@ If everything is set up correctly, you should see the LogicMonitor dashboard:
 
  
 
-## 4\. If You See an Access Error
+## If You See an Access Error
 
 If you land on a page that looks like an error or says you don’t have access:
 
@@ -51,4 +51,6 @@ Don’t worry—this just means your LogicMonitor access isn’t set up yet.
 ➡️ Please reach out to your Account Manager (AM) or Customer Success Manager (CSM)
 
 They’ll help get your access sorted quickly.
+
+If you have any further quieres please contact support
 
