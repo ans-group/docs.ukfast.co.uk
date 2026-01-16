@@ -2,7 +2,7 @@
 
 The Website Monitoring page is separate from the Resources page, as shown in the screenshot below.
 
-![SDT](files\Website.png)
+![Website](files\Website.png)
 
 This page provides a clear overview of your website’s current Status. From here, you can view both the website status and response times in real time.
 
