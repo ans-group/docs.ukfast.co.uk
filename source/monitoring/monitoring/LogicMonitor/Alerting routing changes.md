@@ -7,7 +7,7 @@ When a device is onboarded into LogicMonitor, the alerting behaviour differs sli
 When a new device—such as "WebServer-01" is deployed in VPC and subsequently onboarded into LogicMonitor, it is automatically assigned to the Default Case Contact.
 This means that whoever is set as the Default Case Contact at the moment of onboarding will receive all alert notifications for that device.
 
-##Updating the Default Case Contact
+## Updating the Default Case Contact
 
 If the Default Case Contact is later updated in Glass, the change does not automatically apply to devices that have already been onboarded.
 Existing devices retain the contact details they were initially assigned.
