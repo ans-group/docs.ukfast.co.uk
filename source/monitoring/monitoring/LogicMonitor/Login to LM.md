@@ -52,5 +52,5 @@ Don’t worry—this just means your LogicMonitor access isn’t set up yet.
 
 They’ll help get your access sorted quickly.
 
-If you have any further quieres please contact support
+If you have any further queries please contact support
 
