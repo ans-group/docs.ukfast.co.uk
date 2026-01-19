@@ -19,3 +19,5 @@ If your team requires multiple people to receive the “new ticket” alert emai
 You can then set this distribution group as the alert contact in LogicMonitor.
 
 This ensures that alerts reach all relevant team members without needing to modify LogicMonitor each time personnel changes occur.
+
+If you have any further queries please contact support

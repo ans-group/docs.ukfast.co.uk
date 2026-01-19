@@ -13,3 +13,5 @@ Combined status — a summary view that merges results from all checkpoints moni
 Individual checkpoint details — allowing you to review the Status and response time from each specific checkpoint configured for your website.
 
 This structure makes it easier to quickly identify issues, compare performance across locations, and troubleshoot any inconsistencies detected by the monitoring system.
+
+If you have any further queries please contact support

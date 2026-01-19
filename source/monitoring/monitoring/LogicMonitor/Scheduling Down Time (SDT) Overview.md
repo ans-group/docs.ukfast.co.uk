@@ -73,3 +73,5 @@ Open the SDT list, click the manage (cog) icon next to the entry, and choose the
 ![SDT-delete](files\SDT-Delete.png)
 
 This returns the device or group to normal alerting behaviour.
+
+If you have any further queries please contact support
