@@ -1,10 +1,10 @@
 
 # Creating Dashboards
-_Last updated: 24 July, 2025_
+
 
 Dashboards enable you to create customized, strategic views of your systems, ensuring the data you need to manage your business is available at a glance.
 
----
+
 
 ## Table of Contents
 - Create a New Dashboard
@@ -17,24 +17,24 @@ Dashboards enable you to create customized, strategic views of your systems, ens
   - Custom Tokens
   - Using Tokens in Widgets
 
----
+
 
 ## Create a New Dashboard
 
 1. Select **Dash** from the primary left-hand navigation panel.  
 2. A **Menu** option will appear immediately below it. Click **Menu** to display the **Dashboards** tree.  
-3. From the Dashboards tree, select **Add → New Dashboard**.  
+3. From the Dashboards tree, select **+ → New Dashboard**.  
 4. The **Add Dashboard** dialog appears with several settings to configure.
 
----
+![Dashboard](files\Dashboard.png)
 
 ## Name and Description
 
 Enter a **name** and **description** for the dashboard.
 
-> **Note:** Dashboard names cannot include the operators and comparison functions listed in the _Complex Datapoints_ support article.
+> **Note:** Dashboard names cannot include the operators and comparison functions listed in the ![Complex Datapoint(https://logicmonitor.com/support/logicmodules/datasources/datapoints/complex-datapoints/)] support article.
 
----
+
 
 ## Make Default
 
@@ -42,7 +42,7 @@ Check **Make Default** to make this the dashboard that initially displays each t
 
 > **Note:** If no default dashboard is set for your user account, the dashboard you most recently viewed will initially display when you open the Dashboard page.
 
----
+
 
 ## Make Private
 
@@ -52,7 +52,7 @@ If **Make Private** is **not** selected, the dashboard is considered **public**.
 
 > **Administrators** can view, add, and edit private dashboards for all users. This enables creating dashboards for internal/external customers and facilitates troubleshooting and overall dashboard management.
 
----
+
 
 ## Group
 
@@ -68,7 +68,7 @@ Use **Group** to assign the dashboard to a dashboard group:
 - Assign **view/manage** permissions by role.
 - Improve navigation and quickly jump between functional areas, device types, or customers.
 
----
+
 
 ## Using Dashboard Tokens
 
@@ -114,4 +114,4 @@ Tokens defined in your dashboard’s **Manage** dialog act as **filters** for wi
 
 > **Important:** Token names are **case sensitive** when referenced in widget fields. Mismatched casing can cause widget errors.
 
----
+
