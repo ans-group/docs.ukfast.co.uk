@@ -22,7 +22,7 @@ Dashboards enable you to create customized, strategic views of your systems, ens
 ## Create a New Dashboard
 
 1. Select **Dash** from the primary left-hand navigation panel.  
-2. A **Menu** option will appear immediately below it. Click **Menu** to display the **Dashboards** tree.  
+2. A **Expand Menu** option will appear immediately below it. Click **Expand Menu** to display the **Dashboards** tree.  
 3. From the Dashboards tree, select **+ → New Dashboard**.  
 4. The **Add Dashboard** dialog appears with several settings to configure.
 
@@ -32,7 +32,7 @@ Dashboards enable you to create customized, strategic views of your systems, ens
 
 Enter a **name** and **description** for the dashboard.
 
-> **Note:** Dashboard names cannot include the operators and comparison functions listed in the ![Complex Datapoint(https://logicmonitor.com/support/logicmodules/datasources/datapoints/complex-datapoints/)] support article.
+> **Note:** Dashboard names cannot include the operators and comparison functions listed in the [Complex Datapoint](https://logicmonitor.com/support/logicmodules/datasources/datapoints/complex-datapoints/) support article.
 
 
 
@@ -77,6 +77,8 @@ Dashboard tokens allow you to apply a single dashboard template to different dev
 ### Default Tokens
 
 Click the **+** icon and place your cursor into the **Token** field to access default tokens.
+
+![Token](files\Dash-token.png)
 
 - `##defaultResourceGroup##`  
   All widgets on this dashboard will default to pulling from the **device group** set as this token’s value.  
