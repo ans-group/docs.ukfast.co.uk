@@ -27,7 +27,7 @@ Effect:
 ## How to Apply SDT
 Below is an example of how the SDT tab looks and where the key options appear:
 
-![SDT](files\SDT-Tab.png)
+![SDT](files\sdt-tab.png)
 
 Clicking the “Schedule SDT” button opens a screen where you can define:
 
@@ -36,7 +36,7 @@ The end date and time
 Whether this is a one-time event or a recurring schedule
 Which resource (group, device, or datapoint) the SDT applies to
 
-![SDT-Add](files\SDT-Add.png)
+![SDT-Add](files\sdt-add.png)
 
 Once an SDT has been created, you can view and manage it from the SDT tab. This tab is divided into three sections—Active, Upcoming, and Historical—which helps you clearly understand what maintenance periods are currently in effect, what is scheduled for the future, and what has already completed.
 
@@ -51,7 +51,7 @@ Lists all SDTs that have already ended. This is useful for reviewing previous ma
 
 This layout provides a clear and convenient overview of all past, present, and scheduled alert suppression for the selected resource.
 
-![SDT-active](files\SDT-Active.png)
+![SDT-active](files\sdt-active.png)
 
 ## One-Time vs Recurring SDT
 One-Time SDT is useful for temporary maintenance—such as a one-off server reboot or software update happening at a specific time.
@@ -64,13 +64,13 @@ Weekly maintenance routines
 
 Using recurring SDT helps avoid alert noise from predictable, non-actionable events.
 
-![SDT-Frequency](files\SDT-Frequency.png)
+![SDT-Frequency](files\sdt-frequency.png)
 
 ## Managing and Deleting SDT
 If an SDT is no longer needed, it can be removed easily.
 Open the SDT list, click the manage (cog) icon next to the entry, and choose the option to stop or delete the SDT.
 
-![SDT-delete](files\SDT-Delete.png)
+![SDT-delete](files\sdt-delete.png)
 
 This returns the device or group to normal alerting behaviour.
 

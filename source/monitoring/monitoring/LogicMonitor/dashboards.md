@@ -26,7 +26,7 @@ Dashboards enable you to create customized, strategic views of your systems, ens
 3. From the Dashboards tree, select **+ → New Dashboard**.  
 4. The **Add Dashboard** dialog appears with several settings to configure.
 
-![Dashboard](files\Dashboard.png)
+![Dashboard](files\dashboard.png)
 
 ## Name and Description
 
@@ -78,7 +78,7 @@ Dashboard tokens allow you to apply a single dashboard template to different dev
 
 Click the **+** icon and place your cursor into the **Token** field to access default tokens.
 
-![Token](files\Dash-token.png)
+![Token](files\dash-token.png)
 
 - `##defaultResourceGroup##`  
   All widgets on this dashboard will default to pulling from the **device group** set as this token’s value.  
