@@ -30,7 +30,7 @@ You will see a link called:
 
 This is your shortcut to LogicMonitor.
 
-![Glass](files\glass-lm.png)
+![Glass](files/glass-lm.png)
 
 
 ## You will Be Logged In Automatically
@@ -41,7 +41,7 @@ No need to enter another username or password—Glass uses Single Sign-On (SSO) 
 
 If everything is set up correctly, you should see the LogicMonitor dashboard:
 
-![Landing Page](files\landing-page.png)
+![Landing Page](files/landing-page.png)
 
 
 
@@ -49,7 +49,7 @@ If everything is set up correctly, you should see the LogicMonitor dashboard:
 
 If you land on a page that looks like an error or says you do not have access:
 
-![Error](files\no-role-set.png)
+![Error](files/no-role-set.png)
 
 Do not worry—this just means your LogicMonitor access is not set up yet.
 

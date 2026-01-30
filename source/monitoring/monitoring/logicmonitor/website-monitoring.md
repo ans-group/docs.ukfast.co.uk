@@ -10,7 +10,7 @@
 
 The Website Monitoring page is separate from the Resources page, as shown in the screenshot below.
 
-![Website](files\website.png)
+![Website](files/website.png)
 
 This page provides a clear overview of your websites current Status. From here, you can view both the website status and response times in real time.
 
