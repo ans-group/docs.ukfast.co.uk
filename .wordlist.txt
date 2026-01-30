@@ -258,7 +258,6 @@ PID
 PKCS
 PPA
 PRF
-PROprotection
 PSK
 PSS
 PST

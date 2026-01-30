@@ -10,12 +10,12 @@
    :width: 400
 
 .. seealso::
-   All Physical and Virtual Machines included within your solution will come with McAfee Anti-Virus installed if purchased. This is designed to detect and destroy computer viruses to ensure the efficient operation of your solution and comes as part of your PROprotection package. UKFast's PROprotection package provides not only Anti-virus protection but also combines key technical advancements from our Research and Development team and industry leading brands, with the highest levels of service and support.
+   All Physical and Virtual Machines included within your solution will come with McAfee Anti-Virus installed if purchased. This is designed to detect and destroy computer viruses to ensure the efficient operation of your solution.
 ```
 Below you will find a list of common questions related to Anti-Virus:
 
 ### **Is this installed on all servers in my solution?**
-- This will be included on all servers if you have purchased PROprotection, both Windows and Linux server. The only devices this does not apply to are UKFast Appliances and Magento Servers.
+- This will be included on all servers if you have purchased ANS Protect, both Windows and Linux servers. The only devices this does not apply to are ANS Appliances and Magento Servers.
 
 ### **Are all files scanned by the AV software?**
 - Yes, on-access scanning is enabled by default.
