@@ -43,7 +43,7 @@ If everything is set up correctly, you should see the LogicMonitor dashboard:
 
 ![Landing Page](files\landing-page.png)
 
- 
+
 
 ## If You See an Access Error
 
