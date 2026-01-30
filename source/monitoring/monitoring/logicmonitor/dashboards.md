@@ -9,7 +9,7 @@
 # Creating Dashboards
 
 
-Dashboards enable you to create customized, strategic views of your systems, ensuring the data you need to manage your business is available at a glance.
+Dashboards enable you to create customised, strategic views of your systems, ensuring the data you need to manage your business is available at a glance.
 
 
 
@@ -97,7 +97,7 @@ Click the **+** icon and place your cursor into the **Token** field to access de
 
 > **Tip:** After saving a dashboard with one or both default tokens, you can edit the dashboard and enable:  
 > **Overwrite existing Resource/Website Group fields with `##defaultResourceGroup##` and/or `##defaultWebsiteGroup##` tokens**.  
-> This replaces any pre-existing widget values with the default tokens—handy for templatizing existing dashboards for repeated use across customers or locations.
+> This replaces any pre-existing widget values with the default tokens—handy for templating existing dashboards for repeated use across customers or locations.
 
 ### Custom Tokens
 
