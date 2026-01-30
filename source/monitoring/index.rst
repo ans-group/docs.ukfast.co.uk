@@ -15,3 +15,4 @@ Help with monitoring your UKFast-hosted infrastructure, and managing usage effec
    /operatingsystems/windows/windowsadministration/resmon
    dpack/index
    installnewrelic
+   logicMonitor\index
