@@ -4,6 +4,7 @@
       :title: Accessing LogicMonitor through Glasss | ANS Documentation
       :description: A guide to help you access LogicMonitor through Glass
       :keywords:  ANS, LogicMonitor, Glass
+```
 
 # How to Access LogicMonitor from Glass?
 
@@ -21,7 +22,7 @@ Start by heading to the Glass login page:
 
 
 
-## Click the “Monitoring Portal” Link
+Click the (Monitoring Portal) Link
 
 Once you’re logged in, scroll to the bottom of the main Glass page.
 

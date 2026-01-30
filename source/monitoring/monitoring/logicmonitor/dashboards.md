@@ -30,7 +30,7 @@ Dashboards enable you to create customized, strategic views of your systems, ens
 
 1. Select **Dash** from the primary left-hand navigation panel.  
 2. A **Expand Menu** option will appear immediately below it. Click **Expand Menu** to display the **Dashboards** tree.  
-3. From the Dashboards tree, select **+ → New Dashboard**.  
+3. From the Dashboards tree, select **+ then New Dashboard**.  
 4. The **Add Dashboard** dialog appears with several settings to configure.
 
 ![Dashboard](files\dashboard.png)
