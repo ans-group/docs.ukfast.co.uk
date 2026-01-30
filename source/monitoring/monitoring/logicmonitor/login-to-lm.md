@@ -33,7 +33,7 @@ This is your shortcut to LogicMonitor.
 ![Glass](files\glass-lm.png)
 
 
-## You’ll Be Logged In Automatically
+## You will Be Logged In Automatically
 
 After clicking the Monitoring Portal link, you will be taken straight into LogicMonitor.
 

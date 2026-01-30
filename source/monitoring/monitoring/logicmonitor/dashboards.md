@@ -66,7 +66,7 @@ If **Make Private** is **not** selected, the dashboard is considered **public**.
 Use **Group** to assign the dashboard to a dashboard group:
 
 - Start typing a group name to choose from suggested results.
-- To create a **new** group, type the new group’s name and select it from suggestions.
+- To create a **new** group, type the new groups name and select it from suggestions.
 
 **Why group dashboards?**
 
@@ -88,12 +88,12 @@ Click the **+** icon and place your cursor into the **Token** field to access de
 ![Token](files\dash-token.png)
 
 - `##defaultResourceGroup##`  
-  All widgets on this dashboard will default to pulling from the **device group** set as this token’s value.  
-  **Example:** For an MSP with device groups such as `CustomerA_Devices`, `CustomerB_Devices`, etc., set the token value to `CustomerA_Devices` to show only Customer A’s device performance.
+  All widgets on this dashboard will default to pulling from the **device group** set as this tokens value.  
+  **Example:** For an MSP with device groups such as `CustomerA_Devices`, `CustomerB_Devices`, etc., set the token value to `CustomerA_Devices` to show only (Customer A) device performance.
 
 - `##defaultWebsiteGroup##`  
-  All widgets on this dashboard will default to pulling from the **website group** set as this token’s value.  
-  **Example:** Set the token value to `CustomerA_Websites` to show only Customer A’s website data.
+  All widgets on this dashboard will default to pulling from the **website group** set as this tokens value.  
+  **Example:** Set the token value to `CustomerA_Websites` to show only (Customer A) website data.
 
 > **Tip:** After saving a dashboard with one or both default tokens, you can edit the dashboard and enable:  
 > **Overwrite existing Resource/Website Group fields with `##defaultResourceGroup##` and/or `##defaultWebsiteGroup##` tokens**.  
@@ -110,16 +110,16 @@ Use the **+** icon to add **custom tokens**.
 
 - Devices are named via a standardized pattern: `CustomerName.server`.
 - Create a custom token: `##CustomerName##` with a value like `CustomerA`.
-- In a table widget’s **devices** field, use: `##CustomerName##.server`.
+- In a table widgets **devices** field, use: `##CustomerName##.server`.
 
 After cloning the dashboard for **Customer B**, change the token value `##CustomerName##` to `CustomerB` in **Manage Dashboard**. All references update automatically.
 
 ### Using Tokens in Widgets
 
-Tokens defined in your dashboard’s **Manage** dialog act as **filters** for widgets:
+Tokens defined in your dashboards **Manage** dialog act as **filters** for widgets:
 
-- If `##defaultResourceGroup##` is set to a device group, only devices/resources in that group appear in the widget’s **Resource** lookup.
-- When configuring a widget’s **Group**, **Resource**, **Resource DataSource**, or **Datapoint** fields, an **Insert Token** dropdown will list all tokens defined for the dashboard.
+- If `##defaultResourceGroup##` is set to a device group, only devices/resources in that group appear in the widgets **Resource** lookup.
+- When configuring a widgets **Group**, **Resource**, **Resource DataSource**, or **Datapoint** fields, an **Insert Token** dropdown will list all tokens defined for the dashboard.
 
 > **Important:** Token names are **case sensitive** when referenced in widget fields. Mismatched casing can cause widget errors.
 
