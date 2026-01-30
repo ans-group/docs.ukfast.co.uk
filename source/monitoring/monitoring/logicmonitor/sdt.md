@@ -1,3 +1,11 @@
+```eval_rst
+   .. title:: Scheduled Down Time in LogicMonitor
+   .. meta::
+      :title: Scheduled Down Time in LogicMonitor | ANS Documentation
+      :description: A guide to help you apply Schedule Down Time in LogicMonitor
+      :keywords:  ANS, SDT, Scheduled Down Time, LogicMonitor
+```
+
 # Scheduling Down Time (SDT) Overview
 SDT (Scheduled Down Time) allows you to temporarily suppress alerting in LogicMonitor. This is useful during planned maintenance, reboots, upgrades, backups, or any activity that would normally trigger alerts you expect and don’t need to act on.
 SDT can be applied at the group, device, or datapoint level, depending on how wide you want the alert suppression to be.

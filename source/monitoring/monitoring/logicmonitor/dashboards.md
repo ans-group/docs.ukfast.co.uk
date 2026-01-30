@@ -1,3 +1,10 @@
+```eval_rst
+   .. title:: Creating Dashboards in LogicMonitor
+   .. meta::
+      :title: Creating Dashboards in LogicMonitor | ANS Documentation
+      :description: Guide on how to create a Dahboard in LogicMonitor
+      :keywords:  ANS, LogicMonitor, Dashboards
+```
 
 # Creating Dashboards
 

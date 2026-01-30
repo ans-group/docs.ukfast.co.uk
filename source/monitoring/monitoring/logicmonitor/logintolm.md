@@ -1,3 +1,10 @@
+```eval_rst
+   .. title:: Accessing LogicMonitor through Glass
+   .. meta::
+      :title: Accessing LogicMonitor through Glasss | ANS Documentation
+      :description: A guide to help you access LogicMonitor through Glass
+      :keywords:  ANS, LogicMonitor, Glass
+
 # How to Access LogicMonitor from Glass?
 
 ## Getting into LogicMonitor through Glass is quick and straightforward! Just follow the steps below.
