@@ -91,6 +91,7 @@ DaaS
 DataSource
 DataSources
 Datapoint
+datapoint
 Decryptor
 DevOps
 Diffie

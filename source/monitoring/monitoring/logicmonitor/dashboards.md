@@ -108,7 +108,7 @@ Use the **+** icon to add **custom tokens**.
 
 **Example:**
 
-- Devices are named via a standardized pattern: `CustomerName.server`.
+- Devices are named via a standardised pattern: `CustomerName.server`.
 - Create a custom token: `##CustomerName##` with a value like `CustomerA`.
 - In a table widgets **devices** field, use: `##CustomerName##.server`.
 
