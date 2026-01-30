@@ -122,5 +122,3 @@ Tokens defined in your dashboards **Manage** dialog act as **filters** for widge
 - When configuring a widgets **Group**, **Resource**, **Resource DataSource**, or **Datapoint** fields, an **Insert Token** dropdown will list all tokens defined for the dashboard.
 
 > **Important:** Token names are **case sensitive** when referenced in widget fields. Mismatched casing can cause widget errors.
-
-
