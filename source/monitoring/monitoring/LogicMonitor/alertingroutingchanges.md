@@ -1,3 +1,11 @@
+```eval_rst
+   .. title:: Alert Rule Changes
+   .. meta::
+      :title: Alert Rule Changes | ANS Documentation
+      :description: Alert Rule Changes from Zabbix to  and how these differ
+      :keywords:  ANS, Alert changes
+```
+
 # Changes to How Alerting routing Works in LogicMonitor Compared to the Current Monitoring in the Portal
 
 When a device is onboarded into LogicMonitor, the alerting behaviour differs slightly from the existing system used in the portal. Below is a breakdown of how the process works and what to expect.
