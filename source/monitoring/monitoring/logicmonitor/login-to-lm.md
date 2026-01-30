@@ -47,7 +47,7 @@ If everything is set up correctly, you should see the LogicMonitor dashboard:
 
 ## If You See an Access Error
 
-If you land on a page that looks like an error or says you don’t have access:
+If you land on a page that looks like an error or says you do not have access:
 
 ![Error](files\no-role-set.png)
 
