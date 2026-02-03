@@ -7,7 +7,7 @@ Help with monitoring your UKFast-hosted infrastructure, and managing usage effec
 .. toctree::
    :maxdepth: 1
 
-   proprotection
+   logicMonitor\index
    monitoring/index
    memoryusage
    bandwidth
@@ -15,3 +15,4 @@ Help with monitoring your UKFast-hosted infrastructure, and managing usage effec
    /operatingsystems/windows/windowsadministration/resmon
    dpack/index
    installnewrelic
+   logicMonitor\index
