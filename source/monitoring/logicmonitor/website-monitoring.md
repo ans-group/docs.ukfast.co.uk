@@ -10,7 +10,10 @@
 
 The Website Monitoring page is separate from the Resources page, as shown in the screenshot below.
 
-![Website](files/website.png)
+```eval_rst
+.. image:: files/website.png
+   :width: 600
+```
 
 This page provides a clear overview of your websites current Status. From here, you can view both the website status and response times in real time.
 
