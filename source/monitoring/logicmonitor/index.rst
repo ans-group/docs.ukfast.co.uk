@@ -11,8 +11,8 @@ These guides provide a collection of resources designed to support your effectiv
 
   
  logicMonitor\index
- alertingroutingchanges
- logintolm 
+ alerting-routing-changes
+ log-in-tolm 
  sdt
- websitemonitoring
+ website-monitoring
  dashboards
