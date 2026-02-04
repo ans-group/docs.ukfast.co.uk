@@ -8,48 +8,37 @@
 
 # Creating Dashboards
 
-
 Dashboards enable you to create customised, strategic views of your systems, ensuring the data you need to manage your business is available at a glance.
-
-
-
-## Table of Contents
-- Create a New Dashboard
-- Name and Description
-- Make Default
-- Make Private
-- Group
-- Using Dashboard Tokens
-  - Default Tokens
-  - Custom Tokens
-  - Using Tokens in Widgets
-
-
 
 ## Create a New Dashboard
 
-1. Select **Dash** from the primary left-hand navigation panel.  
+1. Select **Dashboards** from the primary left-hand navigation panel.  
 2. A **Expand Menu** option will appear immediately below it. Click **Expand Menu** to display the **Dashboards** tree.  
 3. From the Dashboards tree, select **+ then New Dashboard**.  
 4. The **Add Dashboard** dialog appears with several settings to configure.
 
-![Dashboard](files/dashboard.png)
+```eval_rst
+.. image:: files/dashboard.png
+   :width: 400
+```
 
 ## Name and Description
 
 Enter a **name** and **description** for the dashboard.
 
-> **Note:** Dashboard names cannot include the operators and comparison functions listed in the [Complex Datapoint](https://logicmonitor.com/support/logicmodules/datasources/datapoints/complex-datapoints/) support article.
-
-
+```eval_rst
+.. note::
+Dashboard names cannot include the operators and comparison functions listed in the [Complex Datapoint](https://logicmonitor.com/support/logicmodules/datasources/datapoints/complex-datapoints/) support article.
+```
 
 ## Make Default
 
 Check **Make Default** to make this the dashboard that initially displays each time you open the **Dashboard** page.
 
-> **Note:** If no default dashboard is set for your user account, the dashboard you most recently viewed will initially display when you open the Dashboard page.
-
-
+```eval_rst
+.. note::
+If no default dashboard is set for your user account, the dashboard you most recently viewed will initially display when you open the Dashboard page.
+```
 
 ## Make Private
 
@@ -57,9 +46,10 @@ Check **Make Private** to make the dashboard visible **only** to your user accou
 
 If **Make Private** is **not** selected, the dashboard is considered **public**. Public dashboards intended for multiple users should remain public; availability for viewing and management is governed by assigned roles.
 
-> **Administrators** can view, add, and edit private dashboards for all users. This enables creating dashboards for internal/external customers and facilitates troubleshooting and overall dashboard management.
-
-
+```eval_rst
+.. note::
+**Administrators** can view, add, and edit private dashboards for all users. This enables creating dashboards for internal/external customers and facilitates troubleshooting and overall dashboard management.
+```
 
 ## Group
 
@@ -95,9 +85,12 @@ Click the **+** icon and place your cursor into the **Token** field to access de
   All widgets on this dashboard will default to pulling from the **website group** set as this tokens value.  
   **Example:** Set the token value to `CustomerA_Websites` to show only (Customer A) website data.
 
-> **Tip:** After saving a dashboard with one or both default tokens, you can edit the dashboard and enable:  
-> **Overwrite existing Resource/Website Group fields with `##defaultResourceGroup##` and/or `##defaultWebsiteGroup##` tokens**.  
-> This replaces any pre-existing widget values with the default tokens—handy for templating existing dashboards for repeated use across customers or locations.
+```eval_rst
+.. note::
+**Tip:** After saving a dashboard with one or both default tokens, you can edit the dashboard and enable:  
+**Overwrite existing Resource/Website Group fields with `##defaultResourceGroup##` and/or `##defaultWebsiteGroup##` tokens**.  
+This replaces any pre-existing widget values with the default tokens—handy for templating existing dashboards for repeated use across customers or locations.
+```
 
 ### Custom Tokens
 
@@ -121,4 +114,7 @@ Tokens defined in your dashboards **Manage** dialog act as **filters** for widge
 - If `##defaultResourceGroup##` is set to a device group, only devices/resources in that group appear in the widgets **Resource** lookup.
 - When configuring a widgets **Group**, **Resource**, **Resource DataSource**, or **Datapoint** fields, an **Insert Token** dropdown will list all tokens defined for the dashboard.
 
-> **Important:** Token names are **case sensitive** when referenced in widget fields. Mismatched casing can cause widget errors.
+```eval_rst
+.. note::
+**Important:** Token names are **case sensitive** when referenced in widget fields. Mismatched casing can cause widget errors.
+```
