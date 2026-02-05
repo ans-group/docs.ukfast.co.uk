@@ -69,6 +69,8 @@ CoreOS
 CredSSP
 Crypto
 CryptoLocker
+CustomerB
+CustomerName
 Cyberduck
 DBA
 DC
@@ -76,7 +78,10 @@ DCV
 DCs
 DDoS
 DDoSX
+defaultResourceGroup
+defaultWebsiteGroup
 DENIC
+DeviceName
 DHCP
 DHE
 DKIM

@@ -13,13 +13,13 @@ Dashboards enable you to create customised, strategic views of your systems, ens
 ## Create a New Dashboard
 
 1. Select **Dashboards** from the primary left-hand navigation panel.  
-2. A **Expand Menu** option will appear immediately below it. Click **Expand Menu** to display the **Dashboards** tree.  
-3. From the Dashboards tree, select **+ then New Dashboard**.  
+2. A **Open Panel** option will appear immediately to the right of this in the shape of an (>) Symbol. Click **Open Panel** to display the **Dashboards** tree.  
+3. From the Dashboards tree, select **(+)** then **Add Dashboard**.  
 4. The **Add Dashboard** dialog appears with several settings to configure.
 
 ```eval_rst
 .. image:: files/dashboard.png
-   :width: 400
+   :width: 600
 ```
 
 ## Name and Description
@@ -42,7 +42,7 @@ If no default dashboard is set for your user account, the dashboard you most rec
 
 ## Make Private
 
-Check **Make Private** to make the dashboard visible **only** to your user account. Private dashboards are great for sketching or testing new widgets. The ability to create private dashboards is governed by assigned roles.
+Toggle **Make Private** to make the dashboard visible **only** to your user account. Private dashboards are great for sketching or testing new widgets. The ability to create private dashboards is governed by assigned roles.
 
 If **Make Private** is **not** selected, the dashboard is considered **public**. Public dashboards intended for multiple users should remain public; availability for viewing and management is governed by assigned roles.
 
@@ -73,22 +73,25 @@ Dashboard tokens allow you to apply a single dashboard template to different dev
 
 ### Default Tokens
 
-Click the **+** icon and place your cursor into the **Token** field to access default tokens.
+Click the **+ Add Token** icon and place your cursor into the **Token** field to access default tokens.
 
-![Token](files/dash-token.png)
+```eval_rst
+.. image:: files/dash-token.png
+   :width: 600
+```
 
-- `##defaultResourceGroup##`  
+##defaultResourceGroup##  
   All widgets on this dashboard will default to pulling from the **device group** set as this tokens value.  
-  **Example:** For an MSP with device groups such as `CustomerA_Devices`, `CustomerB_Devices`, etc., set the token value to `CustomerA_Devices` to show only (Customer A) device performance.
+  **Example:** This can be done with device groups such as (Windows_Devices), (Linux_Devices), etc., set the token value to (Windows_Devices) to show only (Windows Servers) device performance.
 
-- `##defaultWebsiteGroup##`  
+##defaultWebsiteGroup##
   All widgets on this dashboard will default to pulling from the **website group** set as this tokens value.  
-  **Example:** Set the token value to `CustomerA_Websites` to show only (Customer A) website data.
+  **Example:** Set the token value to (Production_Websites) to show only (Production) website data.
 
 ```eval_rst
 .. note::
 **Tip:** After saving a dashboard with one or both default tokens, you can edit the dashboard and enable:  
-**Overwrite existing Resource/Website Group fields with `##defaultResourceGroup##` and/or `##defaultWebsiteGroup##` tokens**.  
+**Overwrite existing Resource/Website Group fields with ##defaultResourceGroup## and/or ##defaultWebsiteGroup## tokens**.  
 This replaces any pre-existing widget values with the default tokens—handy for templating existing dashboards for repeated use across customers or locations.
 ```
 
@@ -101,17 +104,17 @@ Use the **+** icon to add **custom tokens**.
 
 **Example:**
 
-- Devices are named via a standardised pattern: `CustomerName.server`.
-- Create a custom token: `##CustomerName##` with a value like `CustomerA`.
-- In a table widgets **devices** field, use: `##CustomerName##.server`.
+- Devices are named via a standardised pattern: (DeviceName.server).
+- Create a custom token: (##DeviceName##) with a value like (Devices).
+- In a table widgets **devices** field, use: (##DeviceName##.server).
 
-After cloning the dashboard for **Customer B**, change the token value `##CustomerName##` to `CustomerB` in **Manage Dashboard**. All references update automatically.
+After cloning the dashboard for **Customer B**, change the token value (##CustomerName##) to (CustomerB) in **Manage Dashboard**. All references update automatically.
 
 ### Using Tokens in Widgets
 
 Tokens defined in your dashboards **Manage** dialog act as **filters** for widgets:
 
-- If `##defaultResourceGroup##` is set to a device group, only devices/resources in that group appear in the widgets **Resource** lookup.
+- If (##defaultResourceGroup##) is set to a device group, only devices/resources in that group appear in the widgets **Resource** lookup.
 - When configuring a widgets **Group**, **Resource**, **Resource DataSource**, or **Datapoint** fields, an **Insert Token** dropdown will list all tokens defined for the dashboard.
 
 ```eval_rst
