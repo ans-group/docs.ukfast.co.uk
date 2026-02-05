@@ -12,7 +12,7 @@ These guides provide a collection of resources designed to support your effectiv
   
  logicMonitor\index
  alerting-routing-changes
- log-in-tolm 
+ login-to-lm 
  sdt
  website-monitoring
  dashboards
