@@ -14,7 +14,7 @@ Capacity Threshold Monitoring
   frequency
   scheduledowntime
   view
-  LogicMonitor\index
+  LogicMonitor/index
   
 .. warning::
   The ANS Support Team do not actively monitor CTM alerts on your behalf.
