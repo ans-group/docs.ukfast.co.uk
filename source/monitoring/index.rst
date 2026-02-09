@@ -7,7 +7,7 @@ Help with monitoring your UKFast-hosted infrastructure, and managing usage effec
 .. toctree::
    :maxdepth: 1
 
-   logicMonitor\index
+   logicMonitor/index
    monitoring/index
    memoryusage
    bandwidth
