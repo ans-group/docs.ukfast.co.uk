@@ -12,23 +12,23 @@ This is typically used for maintenance on an individual server, firewall, switch
 SDT (Scheduled Down Time) allows you to temporarily suppress alerting in LogicMonitor. This is useful during planned maintenance, reboots, upgrades, backups, or any activity that would normally trigger alerts you expect and do not need to act on.
 SDT can be applied at the group, device, or datapoint level, depending on how wide you want the alert suppression to be.
 
-## SDT Levels Explained
+**SDT Levels Explained**
 
 Group-Level SDT
 Applying SDT at the group level suppresses all alerting for every device within that group.
 This is ideal for large-scale maintenance affecting multiple systems—for example, patching a full server tier or performing network infrastructure updates.
 
-## Device-Level SDT
+**Device-Level SDT**
 
 Device-level SDT suppresses alerting for all datapoints on a single device.
 This is typically used for maintenance on an individual server, firewall, switch, or appliance.
 
-## Datapoint-Level SDT
+**Datapoint-Level SDT**
 
 Datapoint-level SDT suppresses alerting for one specific datapoint.
 This is useful when a particular metric is known to spike during routine operations, such as CPU usage during backups or disk I/O during scheduled jobs.
 
-## How to Apply SDT
+**How to Apply SDT**
 
 Below is an example of how the SDT tab looks and where the key options appear:
 
@@ -67,7 +67,7 @@ This layout provides a clear and convenient overview of all past, present, and s
    :width: 600
 ```
 
-## One-Time vs Recurring SDT
+**One-Time vs Recurring SDT**
 
 One-Time SDT is useful for temporary maintenance—such as a one-off server reboot or software update happening at a specific time.
 Recurring SDT is ideal for preventing alerts during activities that happen regularly, such as:
@@ -84,7 +84,7 @@ Using recurring SDT helps avoid alert noise from predictable, non-actionable eve
    :width: 600
 ```
 
-## Managing and Deleting SDT
+**Managing and Deleting SDT**
 
 If an SDT is no longer needed, it can be removed easily.
 Open the SDT list, click the manage (cog) icon next to the entry, and choose the option to stop or delete the SDT.

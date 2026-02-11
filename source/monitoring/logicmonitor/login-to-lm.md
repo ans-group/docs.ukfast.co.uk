@@ -8,9 +8,9 @@
 
 # How to Access LogicMonitor from Glass?
 
-## Getting into LogicMonitor through Glass is quick and straightforward! Just follow the steps below.
+Getting into LogicMonitor through Glass is quick and straightforward! Just follow the steps below.
 
-## Log in to Glass
+**Log in to Glass**
 
 Start by heading to the Glass login page:
 
@@ -35,7 +35,7 @@ This is your shortcut to LogicMonitor.
    :width: 600
 ```
 
-## You will Be Logged In Automatically
+**You will Be Logged In Automatically**
 
 After clicking the Monitoring Portal link, you will be taken straight into LogicMonitor.
 
@@ -48,7 +48,7 @@ If everything is set up correctly, you should see the LogicMonitor dashboard:
    :width: 600
 ```
 
-## If You See an Access Error
+**If You See an Access Error**
 
 If you land on a page that looks like an error or says you do not have access:
 

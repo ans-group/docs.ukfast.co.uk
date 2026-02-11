@@ -10,7 +10,7 @@
 
 Dashboards enable you to create customised, strategic views of your systems, ensuring the data you need to manage your business is available at a glance.
 
-## Create a New Dashboard
+**Create a New Dashboard**
 
 1. Select **Dashboards** from the primary left-hand navigation panel.  
 2. A **Open Panel** option will appear immediately to the right of this in the shape of an (>) Symbol. Click **Open Panel** to display the **Dashboards** tree.  
@@ -22,7 +22,7 @@ Dashboards enable you to create customised, strategic views of your systems, ens
    :width: 600
 ```
 
-## Name and Description
+**Name and Description**
 
 Enter a **name** and **description** for the dashboard.
 
@@ -31,7 +31,7 @@ Enter a **name** and **description** for the dashboard.
 Dashboard names cannot include the operators and comparison functions listed in the [Complex Datapoint](https://logicmonitor.com/support/logicmodules/datasources/datapoints/complex-datapoints/) support article.
 ```
 
-## Make Default
+**Make Default**
 
 Check **Make Default** to make this the dashboard that initially displays each time you open the **Dashboard** page.
 
@@ -40,7 +40,7 @@ Check **Make Default** to make this the dashboard that initially displays each t
 If no default dashboard is set for your user account, the dashboard you most recently viewed will initially display when you open the Dashboard page.
 ```
 
-## Make Private
+**Make Private**
 
 Toggle **Make Private** to make the dashboard visible **only** to your user account. Private dashboards are great for sketching or testing new widgets. The ability to create private dashboards is governed by assigned roles.
 
@@ -51,7 +51,7 @@ If **Make Private** is **not** selected, the dashboard is considered **public**.
 **Administrators** can view, add, and edit private dashboards for all users. This enables creating dashboards for internal/external customers and facilitates troubleshooting and overall dashboard management.
 ```
 
-## Group
+**Group**
 
 Use **Group** to assign the dashboard to a dashboard group:
 
@@ -67,11 +67,11 @@ Use **Group** to assign the dashboard to a dashboard group:
 
 
 
-## Using Dashboard Tokens
+**Using Dashboard Tokens**
 
 Dashboard tokens allow you to apply a single dashboard template to different device or website groups by changing token values. This is useful for cloning common dashboard setups across multiple end users or locations.
 
-### Default Tokens
+**Default Tokens**
 
 Click the **+ Add Token** icon and place your cursor into the **Token** field to access default tokens.
 
@@ -95,7 +95,7 @@ Click the **+ Add Token** icon and place your cursor into the **Token** field to
 This replaces any pre-existing widget values with the default tokens—handy for templating existing dashboards for repeated use across customers or locations.
 ```
 
-### Custom Tokens
+**Custom Tokens**
 
 Use the **+** icon to add **custom tokens**.
 
@@ -110,7 +110,7 @@ Use the **+** icon to add **custom tokens**.
 
 After cloning the dashboard for **Customer B**, change the token value (##CustomerName##) to (CustomerB) in **Manage Dashboard**. All references update automatically.
 
-### Using Tokens in Widgets
+**Using Tokens in Widgets**
 
 Tokens defined in your dashboards **Manage** dialog act as **filters** for widgets:
 
