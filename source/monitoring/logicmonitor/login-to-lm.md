@@ -8,9 +8,9 @@
 
 # How to Access LogicMonitor from Glass?
 
-## Getting into LogicMonitor through Glass is quick and straightforward! Just follow the steps below.
+Getting into LogicMonitor through Glass is quick and straightforward! Just follow the steps below.
 
-## Log in to Glass
+**Log in to Glass**
 
 Start by heading to the Glass login page:
 
@@ -30,10 +30,12 @@ You will see a link called:
 
 This is your shortcut to LogicMonitor.
 
-![Glass](files/glass-lm.png)
+```eval_rst
+.. image:: files/glass-lm.png
+   :width: 600
+```
 
-
-## You will Be Logged In Automatically
+**You will Be Logged In Automatically**
 
 After clicking the Monitoring Portal link, you will be taken straight into LogicMonitor.
 
@@ -41,15 +43,19 @@ No need to enter another username or password—Glass uses Single Sign-On (SSO) 
 
 If everything is set up correctly, you should see the LogicMonitor dashboard:
 
-![Landing Page](files/landing-page.png)
+```eval_rst
+.. image:: files/landing-page.png
+   :width: 600
+```
 
-
-
-## If You See an Access Error
+**If You See an Access Error**
 
 If you land on a page that looks like an error or says you do not have access:
 
-![Error](files/no-role-set.png)
+```eval_rst
+.. image:: files/no-role-set.png
+   :width: 600
+```
 
 Do not worry—this just means your LogicMonitor access is not set up yet.
 
