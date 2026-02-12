@@ -69,6 +69,7 @@ CoreOS
 CredSSP
 Crypto
 CryptoLocker
+CustomerB
 CustomerName
 Cyberduck
 DBA
