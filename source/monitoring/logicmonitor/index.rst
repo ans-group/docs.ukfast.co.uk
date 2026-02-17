@@ -10,7 +10,7 @@ These guides provide a collection of resources designed to support your effectiv
   :maxdepth: 1
 
   
- logicMonitor\index
+ logicMonitor/index
  alerting-routing-changes
  login-to-lm 
  sdt
