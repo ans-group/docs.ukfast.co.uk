@@ -48,12 +48,4 @@ If everything is set up correctly, you should see the LogicMonitor dashboard:
    :width: 600
 ```
 
-**If You See an Access Error**
-
-If you land on a page that looks like an error or says you do not have access.
-
-Please reach out to your Account Manager (AM) or Customer Success Manager (CSM)
-
-They will help get your access sorted quickly.
-
-If you have any further queries please contact support
+If you have any issues accessing LogicMonitor via the "Monitoring Portal" in Glass, please contact our Support Team for assistance
