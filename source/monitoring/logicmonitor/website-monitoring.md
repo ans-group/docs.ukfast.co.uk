@@ -19,9 +19,9 @@ This page provides a clear overview of your websites current Status. From here, 
 
 You can choose to see:
 
-Combined status — a summary view that merges results from all checkpoints monitoring your website.
+Combined status is a summary view that merges results from all checkpoints monitoring your website.
 
-Individual checkpoint details — allowing you to review the Status and response time from each specific checkpoint configured for your website.
+Individual checkpoint details allowing you to review the Status and response time from each specific checkpoint configured for your website.
 
 This structure makes it easier to quickly identify issues, compare performance across locations, and troubleshoot any inconsistencies detected by the monitoring system.
 

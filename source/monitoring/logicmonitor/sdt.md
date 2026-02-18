@@ -16,7 +16,7 @@ SDT can be applied at the group, device, or datapoint level, depending on how wi
 
 Group-Level SDT
 Applying SDT at the group level suppresses all alerting for every device within that group.
-This is ideal for large-scale maintenance affecting multiple systems—for example, patching a full server tier or performing network infrastructure updates.
+This is ideal for large-scale maintenance affecting multiple system, for example, patching a full server tier or performing network infrastructure updates.
 
 **Device-Level SDT**
 
@@ -49,7 +49,7 @@ Which resource (group, device, or datapoint) the SDT applies to
    :width: 600
 ```
 
-Once an SDT has been created, you can view and manage it from the SDT tab. This tab is divided into three sections—Active, Upcoming, and Historical—which helps you clearly understand what maintenance periods are currently in effect, what is scheduled for the future, and what has already completed.
+Once an SDT has been created, you can view and manage it from the SDT tab. This tab is divided into three section Active, Upcoming, and Historica which helps you clearly understand what maintenance periods are currently in effect, what is scheduled for the future, and what has already completed.
 
 Active SDT
 Displays all SDTs that are currently running. These are the maintenance windows actively suppressing alerts on the selected group, device, or datapoint.
@@ -69,7 +69,7 @@ This layout provides a clear and convenient overview of all past, present, and s
 
 **One-Time vs Recurring SDT**
 
-One-Time SDT is useful for temporary maintenance—such as a one-off server reboot or software update happening at a specific time.
+One-Time SDT is useful for temporary maintenance such as a one-off server reboot or software update happening at a specific time.
 Recurring SDT is ideal for preventing alerts during activities that happen regularly, such as:
 
 Nightly or weekly backup jobs
