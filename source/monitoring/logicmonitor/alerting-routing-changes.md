@@ -21,7 +21,8 @@ If the Default Case Contact is later updated in Glass, the change does not autom
 Existing devices retain the contact details they were initially assigned.
 
 If you need the alert contact updated for previously onboarded devices, this requires raising a support ticket so the correct contacts can be manually applied.
-Using Distribution Groups for Multiple Recipients
+
+**Using Distribution Groups for Multiple Recipients**
 
 If your team requires multiple people to receive the new ticket alert emails, the best approach is to use a distribution group (shared mailbox or group email address).
 You can then set this distribution group as the alert contact in LogicMonitor.
