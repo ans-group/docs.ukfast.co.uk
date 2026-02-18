@@ -50,14 +50,7 @@ If everything is set up correctly, you should see the LogicMonitor dashboard:
 
 **If You See an Access Error**
 
-If you land on a page that looks like an error or says you do not have access:
-
-```eval_rst
-.. image:: files/no-role-set.png
-   :width: 600
-```
-
-Do not worry—this just means your LogicMonitor access is not set up yet.
+If you land on a page that looks like an error or says you do not have access.
 
 Please reach out to your Account Manager (AM) or Customer Success Manager (CSM)
 
