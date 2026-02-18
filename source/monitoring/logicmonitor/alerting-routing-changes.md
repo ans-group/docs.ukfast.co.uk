@@ -2,7 +2,7 @@
    .. title:: Alert Rule Changes
    .. meta::
       :title: Alert Rule Changes | ANS Documentation
-      :description: Alert Rule Changes from Zabbix to  and how these differ
+      :description: Alert Rule Changes from Zabbix to  and how these Differ
       :keywords:  ANS, Alert changes
 ```
 
@@ -12,7 +12,7 @@ When a device is onboarded into LogicMonitor, the alerting behaviour differs sli
 
 **Default Case Contact**
 
-When a new device—such as WebServer-01 is deployed in VPC and subsequently onboarded into LogicMonitor, it is automatically assigned to the Default Case Contact.
+When a new device such as WebServer-01 is deployed in VPC and subsequently onboarded into LogicMonitor, it is automatically assigned to the Default Case Contact.
 This means that whoever is set as the Default Case Contact at the moment of onboarding will receive all alert notifications for that device.
 
 **Updating the Default Case Contact**
