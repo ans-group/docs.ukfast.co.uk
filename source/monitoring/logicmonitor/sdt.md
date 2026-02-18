@@ -49,7 +49,7 @@ Which resource (group, device, or datapoint) the SDT applies to
    :width: 600
 ```
 
-Once an SDT has been created, you can view and manage it from the SDT tab. This tab is divided into three section Active, Upcoming, and Historica which helps you clearly understand what maintenance periods are currently in effect, what is scheduled for the future, and what has already completed.
+Once an SDT has been created, you can view and manage it from the SDT tab. This tab is divided into three section Active, Upcoming, and Historic which helps you clearly understand what maintenance periods are currently in effect, what is scheduled for the future, and what has already completed.
 
 Active SDT
 Displays all SDTs that are currently running. These are the maintenance windows actively suppressing alerts on the selected group, device, or datapoint.
