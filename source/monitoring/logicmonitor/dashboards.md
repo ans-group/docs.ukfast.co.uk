@@ -80,11 +80,14 @@ Click the **+ Add Token** icon and place your cursor into the **Token** field to
    :width: 600
 ```
 
-##defaultResourceGroup##  
+
+##defaultResourceGroup##
+
   All widgets on this dashboard will default to pulling from the **device group** set as this tokens value.  
   **Example:** This can be done with device groups such as (Windows_Devices), (Linux_Devices), etc., set the token value to (Windows_Devices) to show only (Windows Servers) device performance.
 
 ##defaultWebsiteGroup##
+
   All widgets on this dashboard will default to pulling from the **website group** set as this tokens value.  
   **Example:** Set the token value to (Production_Websites) to show only (Production) website data.
 
