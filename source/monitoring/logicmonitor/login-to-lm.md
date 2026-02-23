@@ -14,7 +14,7 @@ Getting into LogicMonitor through Glass is quick and straightforward! Just follo
 
 Start by heading to the Glass login page:
 
-(https://ans.glass/)
+[Glass](https://ans.glass)
 
  Enter your usual login details to access your Glass dashboard.
 
