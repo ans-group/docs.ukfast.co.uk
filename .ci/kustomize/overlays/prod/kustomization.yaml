@@ -3,7 +3,8 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 bases:
   - ../../base
+resources:
+  - app-poddisruptionbudget.yaml
 patchesStrategicMerge:
   - app-deployment.yaml
-  - app-poddisruptionbudget.yaml
   - elasticsearch-deployment.yaml
