@@ -1,3 +1,7 @@
+> [!WARNING]
+> **This repository has been archived and is no longer maintained.**
+> It has been superseded by [ans-group/ans.co.uk-docs](https://github.com/ans-group/ans.co.uk-docs).
+
 # Welcome to the ANS Documentation Repository
 
 All the documentation is published on <https://www.ans.co.uk/docs/>
